@@ -9,46 +9,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TeleTrusTNamedCurves)
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP160r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP160r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP160t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP160t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP192r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP192r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP192t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP192t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP224r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP224r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP224t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP224t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP256r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP256r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP256t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP256t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP320r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP320r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP320t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP320t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP384r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP384r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP384t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP384t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP512r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP512r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP512t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP512t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParametersHolder;
@@ -79,80 +79,79 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
 class TeleTrusTNamedCurves;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP160r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP160r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP160t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP160t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP192r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP192r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP192t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP192t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP224r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP224r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP224t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP224t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP256r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP256r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP256t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP256t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP320r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP320r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP320t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP320t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP384r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP384r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP384t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP384t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP512r1Holder;
+class TeleTrusTNamedCurves_BrainpoolP512r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP512t1Holder;
+class TeleTrusTNamedCurves_BrainpoolP512t1Holder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160r1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160t1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192r1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192t1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224r1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224t1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256r1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256t1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320r1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320t1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384r1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384t1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512r1Holder);
-MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512t1Holder);
-// Type: ::BrainpoolP160r1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160r1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160t1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192r1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192t1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224r1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224t1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256r1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256t1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320r1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320t1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384r1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384t1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512r1Holder);
+MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512t1Holder);
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP160r1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP160r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP160r1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP160r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c23d0, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f56bc, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160r1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c23c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f56b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -162,16 +161,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP160r1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP160r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP160r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP160r1Holder(__TeleTrusTNamedCurves__BrainpoolP160r1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP160r1Holder(TeleTrusTNamedCurves_BrainpoolP160r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP160r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160r1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP160r1Holder(__TeleTrusTNamedCurves__BrainpoolP160r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP160r1Holder(TeleTrusTNamedCurves_BrainpoolP160r1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 298 };
@@ -179,26 +178,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160r1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160r1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP160t1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP160t1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP160t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP160t1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP160t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c25f8, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f58e4, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160t1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c25f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f58dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -208,16 +206,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP160t1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP160t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP160t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160t1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP160t1Holder(__TeleTrusTNamedCurves__BrainpoolP160t1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP160t1Holder(TeleTrusTNamedCurves_BrainpoolP160t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP160t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP160t1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP160t1Holder(__TeleTrusTNamedCurves__BrainpoolP160t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP160t1Holder(TeleTrusTNamedCurves_BrainpoolP160t1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 299 };
@@ -225,26 +223,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160t1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160t1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP192r1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP192r1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP192r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP192r1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP192r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c2820, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f5b0c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192r1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c2818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f5b04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -254,16 +251,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP192r1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP192r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP192r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP192r1Holder(__TeleTrusTNamedCurves__BrainpoolP192r1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP192r1Holder(TeleTrusTNamedCurves_BrainpoolP192r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP192r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192r1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP192r1Holder(__TeleTrusTNamedCurves__BrainpoolP192r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP192r1Holder(TeleTrusTNamedCurves_BrainpoolP192r1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 300 };
@@ -271,26 +268,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192r1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192r1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP192t1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP192t1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP192t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP192t1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP192t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c2a48, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f5d34, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192t1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c2a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f5d2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -300,16 +296,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP192t1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP192t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP192t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192t1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP192t1Holder(__TeleTrusTNamedCurves__BrainpoolP192t1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP192t1Holder(TeleTrusTNamedCurves_BrainpoolP192t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP192t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP192t1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP192t1Holder(__TeleTrusTNamedCurves__BrainpoolP192t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP192t1Holder(TeleTrusTNamedCurves_BrainpoolP192t1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 301 };
@@ -317,26 +313,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192t1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192t1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP224r1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP224r1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP224r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP224r1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP224r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c2c70, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f5f5c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224r1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c2c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f5f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -346,16 +341,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP224r1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP224r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP224r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP224r1Holder(__TeleTrusTNamedCurves__BrainpoolP224r1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP224r1Holder(TeleTrusTNamedCurves_BrainpoolP224r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP224r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224r1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP224r1Holder(__TeleTrusTNamedCurves__BrainpoolP224r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP224r1Holder(TeleTrusTNamedCurves_BrainpoolP224r1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 302 };
@@ -363,26 +358,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224r1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224r1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP224t1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP224t1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP224t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP224t1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP224t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c2e98, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f6184, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224t1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c2e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f617c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -392,16 +386,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP224t1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP224t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP224t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224t1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP224t1Holder(__TeleTrusTNamedCurves__BrainpoolP224t1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP224t1Holder(TeleTrusTNamedCurves_BrainpoolP224t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP224t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP224t1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP224t1Holder(__TeleTrusTNamedCurves__BrainpoolP224t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP224t1Holder(TeleTrusTNamedCurves_BrainpoolP224t1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 303 };
@@ -409,26 +403,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224t1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224t1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP256r1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP256r1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP256r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP256r1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP256r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c30c0, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f63ac, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256r1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c30b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f63a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -438,16 +431,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP256r1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP256r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP256r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP256r1Holder(__TeleTrusTNamedCurves__BrainpoolP256r1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP256r1Holder(TeleTrusTNamedCurves_BrainpoolP256r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP256r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256r1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP256r1Holder(__TeleTrusTNamedCurves__BrainpoolP256r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP256r1Holder(TeleTrusTNamedCurves_BrainpoolP256r1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 304 };
@@ -455,26 +448,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256r1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256r1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP256t1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP256t1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP256t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP256t1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP256t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c32e8, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f65d4, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256t1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c32e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f65cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -484,16 +476,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP256t1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP256t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP256t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256t1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP256t1Holder(__TeleTrusTNamedCurves__BrainpoolP256t1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP256t1Holder(TeleTrusTNamedCurves_BrainpoolP256t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP256t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP256t1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP256t1Holder(__TeleTrusTNamedCurves__BrainpoolP256t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP256t1Holder(TeleTrusTNamedCurves_BrainpoolP256t1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 305 };
@@ -501,26 +493,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256t1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256t1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP320r1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP320r1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP320r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP320r1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP320r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c3510, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f67fc, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320r1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c3508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f67f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -530,16 +521,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP320r1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP320r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP320r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP320r1Holder(__TeleTrusTNamedCurves__BrainpoolP320r1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP320r1Holder(TeleTrusTNamedCurves_BrainpoolP320r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP320r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320r1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP320r1Holder(__TeleTrusTNamedCurves__BrainpoolP320r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP320r1Holder(TeleTrusTNamedCurves_BrainpoolP320r1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 306 };
@@ -547,26 +538,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320r1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320r1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP320t1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP320t1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP320t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP320t1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP320t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c3738, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f6a24, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320t1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c3730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f6a1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -576,16 +566,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP320t1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP320t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP320t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320t1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP320t1Holder(__TeleTrusTNamedCurves__BrainpoolP320t1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP320t1Holder(TeleTrusTNamedCurves_BrainpoolP320t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP320t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP320t1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP320t1Holder(__TeleTrusTNamedCurves__BrainpoolP320t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP320t1Holder(TeleTrusTNamedCurves_BrainpoolP320t1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 307 };
@@ -593,26 +583,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320t1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320t1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP384r1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP384r1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP384r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP384r1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP384r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c3960, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f6c4c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384r1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c3958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f6c44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -622,16 +611,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP384r1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP384r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP384r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP384r1Holder(__TeleTrusTNamedCurves__BrainpoolP384r1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP384r1Holder(TeleTrusTNamedCurves_BrainpoolP384r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP384r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384r1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP384r1Holder(__TeleTrusTNamedCurves__BrainpoolP384r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP384r1Holder(TeleTrusTNamedCurves_BrainpoolP384r1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 308 };
@@ -639,26 +628,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384r1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384r1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP384t1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP384t1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP384t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP384t1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP384t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c3b88, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f6e74, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384t1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c3b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f6e6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -668,16 +656,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP384t1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP384t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP384t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384t1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP384t1Holder(__TeleTrusTNamedCurves__BrainpoolP384t1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP384t1Holder(TeleTrusTNamedCurves_BrainpoolP384t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP384t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP384t1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP384t1Holder(__TeleTrusTNamedCurves__BrainpoolP384t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP384t1Holder(TeleTrusTNamedCurves_BrainpoolP384t1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 309 };
@@ -685,26 +673,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384t1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384t1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP512r1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP512r1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP512r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP512r1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP512r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c3db0, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f709c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512r1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c3da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -714,16 +701,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP512r1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP512r1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP512r1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP512r1Holder(__TeleTrusTNamedCurves__BrainpoolP512r1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP512r1Holder(TeleTrusTNamedCurves_BrainpoolP512r1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP512r1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512r1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP512r1Holder(__TeleTrusTNamedCurves__BrainpoolP512r1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP512r1Holder(TeleTrusTNamedCurves_BrainpoolP512r1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 310 };
@@ -731,26 +718,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512r1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512r1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: ::BrainpoolP512t1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X9.X9ECParametersHolder
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::TeleTrusTNamedCurves::BrainpoolP512t1Holder*
-class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP512t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves/BrainpoolP512t1Holder
+class CORDL_TYPE TeleTrusTNamedCurves_BrainpoolP512t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24c3fd8, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f72c4, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512t1Holder* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c3fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f72bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -760,16 +746,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TeleTrusTNamedCurves__BrainpoolP512t1Holder();
+  constexpr TeleTrusTNamedCurves_BrainpoolP512t1Holder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP512t1Holder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512t1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TeleTrusTNamedCurves__BrainpoolP512t1Holder(__TeleTrusTNamedCurves__BrainpoolP512t1Holder&&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP512t1Holder(TeleTrusTNamedCurves_BrainpoolP512t1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP512t1Holder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves_BrainpoolP512t1Holder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TeleTrusTNamedCurves__BrainpoolP512t1Holder(__TeleTrusTNamedCurves__BrainpoolP512t1Holder const&) = delete;
+  TeleTrusTNamedCurves_BrainpoolP512t1Holder(TeleTrusTNamedCurves_BrainpoolP512t1Holder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 311 };
@@ -777,84 +763,83 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512t1Holder, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512t1Holder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
-// Type: Org.BouncyCastle.Asn1.TeleTrust::TeleTrusTNamedCurves
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.TeleTrust::TeleTrusTNamedCurves*
+// CS Name: Org.BouncyCastle.Asn1.TeleTrust.TeleTrusTNamedCurves
 class CORDL_TYPE TeleTrusTNamedCurves : public ::System::Object {
 public:
   // Declarations
-  using BrainpoolP160r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160r1Holder;
+  using BrainpoolP160r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160r1Holder;
 
-  using BrainpoolP160t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160t1Holder;
+  using BrainpoolP160t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160t1Holder;
 
-  using BrainpoolP192r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192r1Holder;
+  using BrainpoolP192r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192r1Holder;
 
-  using BrainpoolP192t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192t1Holder;
+  using BrainpoolP192t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192t1Holder;
 
-  using BrainpoolP224r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224r1Holder;
+  using BrainpoolP224r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224r1Holder;
 
-  using BrainpoolP224t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224t1Holder;
+  using BrainpoolP224t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224t1Holder;
 
-  using BrainpoolP256r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256r1Holder;
+  using BrainpoolP256r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256r1Holder;
 
-  using BrainpoolP256t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256t1Holder;
+  using BrainpoolP256t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256t1Holder;
 
-  using BrainpoolP320r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320r1Holder;
+  using BrainpoolP320r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320r1Holder;
 
-  using BrainpoolP320t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320t1Holder;
+  using BrainpoolP320t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320t1Holder;
 
-  using BrainpoolP384r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384r1Holder;
+  using BrainpoolP384r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384r1Holder;
 
-  using BrainpoolP384t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384t1Holder;
+  using BrainpoolP384t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384t1Holder;
 
-  using BrainpoolP512r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512r1Holder;
+  using BrainpoolP512r1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512r1Holder;
 
-  using BrainpoolP512t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512t1Holder;
+  using BrainpoolP512t1Holder = ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512t1Holder;
 
   /// @brief Field curves, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_curves, put = setStaticF_curves)) ::System::Collections::IDictionary* curves;
+  __declspec(property(get = getStaticF_curves, put = setStaticF_curves)) ::System::Collections::IDictionary* curves;
 
   /// @brief Field names, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_names, put = setStaticF_names)) ::System::Collections::IDictionary* names;
+  __declspec(property(get = getStaticF_names, put = setStaticF_names)) ::System::Collections::IDictionary* names;
 
   /// @brief Field objIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
+  __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
 
-  /// @brief Method ConfigureBasepoint, addr 0x24c1370, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0x24f465c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  /// @brief Method ConfigureCurve, addr 0x24c1460, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x24f474c, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method DefineCurve, addr 0x24c14fc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method DefineCurve, addr 0x24f47e8, size 0x210, virtual false, abstract: false, final false
   static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method FromHex, addr 0x24c1464, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x24f4750, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method GetByName, addr 0x24c1cdc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x24f4fc8, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x24c1eb0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x24f519c, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x24c1fdc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x24f52c8, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x24c21e4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x24f54d0, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(int16_t curvesize, bool twisted);
 
-  /// @brief Method GetOid, addr 0x24c1d5c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x24f5048, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c23c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f56ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_curves();
@@ -863,7 +848,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_objIds();
 
-  /// @brief Method get_Names, addr 0x24c20dc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x24f53c8, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_curves(::System::Collections::IDictionary* value);
@@ -897,31 +882,31 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 } // namespace Org::BouncyCastle::Asn1::TeleTrust
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160r1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP160r1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160t1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP160t1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192r1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP192r1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192t1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP192t1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224r1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP224r1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224t1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP224t1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256r1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP256r1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256t1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP256t1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320r1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP320r1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320t1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP320t1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384r1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP384r1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384t1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP384t1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512r1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP512r1Holder");
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512t1Holder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP512t1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160r1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP160r1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160t1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP160t1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192r1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP192r1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192t1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP192t1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224r1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP224r1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224t1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP224t1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256r1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP256r1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256t1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP256t1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320r1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP320r1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320t1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP320t1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384r1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP384r1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384t1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP384t1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512r1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP512r1Holder");
+NEED_NO_BOX(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512t1Holder);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512t1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP512t1Holder");

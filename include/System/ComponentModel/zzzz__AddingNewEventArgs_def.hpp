@@ -14,11 +14,10 @@ class AddingNewEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::AddingNewEventArgs);
-// Type: System.ComponentModel::AddingNewEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::AddingNewEventArgs*
+// CS Name: System.ComponentModel.AddingNewEventArgs
 class CORDL_TYPE AddingNewEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -29,16 +28,16 @@ public:
 
   static inline ::System::ComponentModel::AddingNewEventArgs* New_ctor();
 
-  constexpr ::System::Object*& __cordl_internal_get__NewObject_k__BackingField();
+  constexpr ::System::Object* const& __cordl_internal_get__NewObject_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__NewObject_k__BackingField() const;
+  constexpr ::System::Object*& __cordl_internal_get__NewObject_k__BackingField();
 
   constexpr void __cordl_internal_set__NewObject_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x43e5430, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4446744, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NewObject, addr 0x43e5488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewObject, addr 0x444679c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_NewObject();
 
 protected:
@@ -55,18 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AddingNewEventArgs(AddingNewEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9352 };
+
   /// @brief Field <NewObject>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____NewObject_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9327 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::AddingNewEventArgs, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::AddingNewEventArgs, ____NewObject_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::AddingNewEventArgs, 0x18>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::AddingNewEventArgs);

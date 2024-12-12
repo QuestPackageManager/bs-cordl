@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRInputSubsystem::*)()>(&::UnityEngine::XR::XRInputSubsystem::TryRecenter)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a84a1c;
+  constexpr static std::size_t addrs = 0x4ae932c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRInputSubsystem*>::get(), "TryRecenter",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::add_trackingOriginUpdated)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4a84a58;
+  constexpr static std::size_t addrs = 0x4ae9368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::remove_trackingOriginUpdated)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4a84b08;
+  constexpr static std::size_t addrs = 0x4ae9418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::add_boundaryChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4a84bb8;
+  constexpr static std::size_t addrs = 0x4ae94c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::remove_boundaryChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4a84c68;
+  constexpr static std::size_t addrs = 0x4ae9578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4a84d18;
+  constexpr static std::size_t addrs = 0x4ae9628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::XR::XRInputSubsystem::InvokeBoundaryChangedEvent)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4a84ddc;
+  constexpr static std::size_t addrs = 0x4ae96ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)()>(&::UnityEngine::XR::XRInputSubsystem::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a84ea0;
+  constexpr static std::size_t addrs = 0x4ae97b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRInputSubsystem*>::get(), ".ctor",
@@ -123,7 +123,7 @@ constexpr ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*& UnityEngine
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trackingOriginUpdated;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*> const& UnityEngine::XR::XRInputSubsystem::__cordl_internal_get_trackingOriginUpdated() const {
+constexpr ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* const& UnityEngine::XR::XRInputSubsystem::__cordl_internal_get_trackingOriginUpdated() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___trackingOriginUpdated;
 }
@@ -135,7 +135,7 @@ constexpr ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*& UnityEngine
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boundaryChanged;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*> const& UnityEngine::XR::XRInputSubsystem::__cordl_internal_get_boundaryChanged() const {
+constexpr ::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>* const& UnityEngine::XR::XRInputSubsystem::__cordl_internal_get_boundaryChanged() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boundaryChanged;
 }
@@ -147,7 +147,7 @@ constexpr ::System::Collections::Generic::List_1<uint64_t>*& UnityEngine::XR::XR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceIdsCache;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint64_t>*> const& UnityEngine::XR::XRInputSubsystem::__cordl_internal_get_m_DeviceIdsCache() const {
+constexpr ::System::Collections::Generic::List_1<uint64_t>* const& UnityEngine::XR::XRInputSubsystem::__cordl_internal_get_m_DeviceIdsCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DeviceIdsCache;
 }
@@ -196,13 +196,13 @@ inline void UnityEngine::XR::XRInputSubsystem::InvokeBoundaryChangedEvent(::Syst
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, internalPtr);
 }
-inline ::UnityEngine::XR::XRInputSubsystem* UnityEngine::XR::XRInputSubsystem::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::XR::XRInputSubsystem*>());
-}
 inline void UnityEngine::XR::XRInputSubsystem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRInputSubsystem*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::XR::XRInputSubsystem* UnityEngine::XR::XRInputSubsystem::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::XR::XRInputSubsystem*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::XRInputSubsystem::XRInputSubsystem() {}

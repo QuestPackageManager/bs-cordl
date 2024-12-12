@@ -12,11 +12,10 @@ struct HAPI_NodeFlags;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_NodeFlags);
-// Type: HoudiniEngineUnity::HAPI_NodeFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_NodeFlags
+// CS Name: HoudiniEngineUnity.HAPI_NodeFlags
 struct CORDL_TYPE HAPI_NodeFlags {
 public:
   // Declarations
@@ -60,72 +59,72 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_NodeFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_NODEFLAGS_ANY value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field HAPI_NODEFLAGS_ANY value: I32(-1)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_ANY;
 
-  /// @brief Field HAPI_NODEFLAGS_BYPASS value: static_cast<int32_t>(0x20)
+  /// @brief Field HAPI_NODEFLAGS_BYPASS value: I32(32)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_BYPASS;
 
-  /// @brief Field HAPI_NODEFLAGS_DISPLAY value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_NODEFLAGS_DISPLAY value: I32(1)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_DISPLAY;
 
-  /// @brief Field HAPI_NODEFLAGS_EDITABLE value: static_cast<int32_t>(0x10)
+  /// @brief Field HAPI_NODEFLAGS_EDITABLE value: I32(16)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_EDITABLE;
 
-  /// @brief Field HAPI_NODEFLAGS_LOCKED value: static_cast<int32_t>(0x8)
+  /// @brief Field HAPI_NODEFLAGS_LOCKED value: I32(8)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_LOCKED;
 
-  /// @brief Field HAPI_NODEFLAGS_NETWORK value: static_cast<int32_t>(0x40)
+  /// @brief Field HAPI_NODEFLAGS_NETWORK value: I32(64)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NETWORK;
 
-  /// @brief Field HAPI_NODEFLAGS_NONE value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_NODEFLAGS_NONE value: I32(0)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NONE;
 
-  /// @brief Field HAPI_NODEFLAGS_NON_BYPASS value: static_cast<int32_t>(0x4000)
+  /// @brief Field HAPI_NODEFLAGS_NON_BYPASS value: I32(16384)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_NON_BYPASS;
 
-  /// @brief Field HAPI_NODEFLAGS_OBJ_CAMERA value: static_cast<int32_t>(0x100)
+  /// @brief Field HAPI_NODEFLAGS_OBJ_CAMERA value: I32(256)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_CAMERA;
 
-  /// @brief Field HAPI_NODEFLAGS_OBJ_GEOMETRY value: static_cast<int32_t>(0x80)
+  /// @brief Field HAPI_NODEFLAGS_OBJ_GEOMETRY value: I32(128)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_GEOMETRY;
 
-  /// @brief Field HAPI_NODEFLAGS_OBJ_LIGHT value: static_cast<int32_t>(0x200)
+  /// @brief Field HAPI_NODEFLAGS_OBJ_LIGHT value: I32(512)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_LIGHT;
 
-  /// @brief Field HAPI_NODEFLAGS_OBJ_SUBNET value: static_cast<int32_t>(0x400)
+  /// @brief Field HAPI_NODEFLAGS_OBJ_SUBNET value: I32(1024)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_OBJ_SUBNET;
 
-  /// @brief Field HAPI_NODEFLAGS_RENDER value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_NODEFLAGS_RENDER value: I32(2)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_RENDER;
 
-  /// @brief Field HAPI_NODEFLAGS_SOP_CURVE value: static_cast<int32_t>(0x800)
+  /// @brief Field HAPI_NODEFLAGS_SOP_CURVE value: I32(2048)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_SOP_CURVE;
 
-  /// @brief Field HAPI_NODEFLAGS_SOP_GUIDE value: static_cast<int32_t>(0x1000)
+  /// @brief Field HAPI_NODEFLAGS_SOP_GUIDE value: I32(4096)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_SOP_GUIDE;
 
-  /// @brief Field HAPI_NODEFLAGS_TEMPLATED value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_NODEFLAGS_TEMPLATED value: I32(4)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_TEMPLATED;
 
-  /// @brief Field HAPI_NODEFLAGS_TOP_NONSCHEDULER value: static_cast<int32_t>(0x2000)
+  /// @brief Field HAPI_NODEFLAGS_TOP_NONSCHEDULER value: I32(8192)
   static ::HoudiniEngineUnity::HAPI_NodeFlags const HAPI_NODEFLAGS_TOP_NONSCHEDULER;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11683 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_NodeFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_NodeFlags, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_NodeFlags, "HoudiniEngineUnity", "HAPI_NodeFlags");

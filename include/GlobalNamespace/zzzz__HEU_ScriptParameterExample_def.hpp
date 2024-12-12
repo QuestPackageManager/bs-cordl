@@ -18,11 +18,10 @@ class HEU_ScriptParameterExample;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptParameterExample);
-// Type: ::HEU_ScriptParameterExample
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HEU_ScriptParameterExample*
+// CS Name: HEU_ScriptParameterExample
 class CORDL_TYPE HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -40,10 +39,10 @@ public:
 
   static inline ::GlobalNamespace::HEU_ScriptParameterExample* New_ctor();
 
-  /// @brief Method Start, addr 0x39af0cc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a05d3c, size 0x270, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateGravity, addr 0x39af33c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateGravity, addr 0x3a05fac, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateGravity();
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__evergreenAsset() const;
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__updateRate(float_t value);
 
-  /// @brief Method .ctor, addr 0x39af420, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a06090, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ScriptParameterExample(HEU_ScriptParameterExample const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11572 };
+
   /// @brief Field _evergreenGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____evergreenGameObject;
 
@@ -99,14 +101,9 @@ public:
   /// @brief Field _scale, offset: 0x34, size: 0x4, def value: None
   float_t ____scale;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11539 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HEU_ScriptParameterExample, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HEU_ScriptParameterExample, ____evergreenGameObject) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HEU_ScriptParameterExample, ____evergreenAsset) == 0x28, "Offset mismatch!");
@@ -114,6 +111,8 @@ static_assert(offsetof(::GlobalNamespace::HEU_ScriptParameterExample, ____evergr
 static_assert(offsetof(::GlobalNamespace::HEU_ScriptParameterExample, ____updateRate) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HEU_ScriptParameterExample, ____scale) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HEU_ScriptParameterExample, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HEU_ScriptParameterExample);

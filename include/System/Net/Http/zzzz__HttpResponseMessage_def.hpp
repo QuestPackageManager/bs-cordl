@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/zzzz__HttpStatusCode_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpResponseMessage)
@@ -20,9 +21,6 @@ namespace System::Net {
 struct HttpStatusCode;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Version;
 }
 // Forward declare root types
@@ -31,11 +29,10 @@ class HttpResponseMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::HttpResponseMessage);
-// Type: System.Net.Http::HttpResponseMessage
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Net.HttpStatusCode, System.Object
 namespace System::Net::Http {
 // Is value type: false
-// CS Name: ::System.Net.Http::HttpResponseMessage*
+// CS Name: System.Net.Http.HttpResponseMessage
 class CORDL_TYPE HttpResponseMessage : public ::System::Object {
 public:
   // Declarations
@@ -78,35 +75,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x41b7cc8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4218fdc, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x41b7cd8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4218fec, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureSuccessStatusCode, addr 0x41b5fd8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EnsureSuccessStatusCode, addr 0x42172ec, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpResponseMessage* EnsureSuccessStatusCode();
 
   static inline ::System::Net::Http::HttpResponseMessage* New_ctor(::System::Net::HttpStatusCode statusCode);
 
-  /// @brief Method ToString, addr 0x41b7d0c, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4219020, size 0x23c, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  constexpr ::System::Net::Http::HttpContent* const& __cordl_internal_get__Content_k__BackingField() const;
 
   constexpr ::System::Net::Http::HttpContent*& __cordl_internal_get__Content_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpContent*> const& __cordl_internal_get__Content_k__BackingField() const;
+  constexpr ::System::Net::Http::HttpRequestMessage* const& __cordl_internal_get__RequestMessage_k__BackingField() const;
 
   constexpr ::System::Net::Http::HttpRequestMessage*& __cordl_internal_get__RequestMessage_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpRequestMessage*> const& __cordl_internal_get__RequestMessage_k__BackingField() const;
 
   constexpr bool const& __cordl_internal_get_disposed() const;
 
   constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr ::System::Net::Http::Headers::HttpResponseHeaders*& __cordl_internal_get_headers();
+  constexpr ::System::Net::Http::Headers::HttpResponseHeaders* const& __cordl_internal_get_headers() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpResponseHeaders*> const& __cordl_internal_get_headers() const;
+  constexpr ::System::Net::Http::Headers::HttpResponseHeaders*& __cordl_internal_get_headers();
 
   constexpr ::StringW const& __cordl_internal_get_reasonPhrase() const;
 
@@ -116,9 +113,9 @@ public:
 
   constexpr ::System::Net::HttpStatusCode& __cordl_internal_get_statusCode();
 
-  constexpr ::System::Version*& __cordl_internal_get_version();
+  constexpr ::System::Version* const& __cordl_internal_get_version() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
+  constexpr ::System::Version*& __cordl_internal_get_version();
 
   constexpr void __cordl_internal_set__Content_k__BackingField(::System::Net::Http::HttpContent* value);
 
@@ -134,40 +131,40 @@ public:
 
   constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  /// @brief Method .ctor, addr 0x41b1c78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4212f8c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpStatusCode statusCode);
 
-  /// @brief Method get_Content, addr 0x41b7bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x4218ec0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
-  /// @brief Method get_Headers, addr 0x41b1dd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x42130e8, size 0x60, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpResponseHeaders* get_Headers();
 
-  /// @brief Method get_IsSuccessStatusCode, addr 0x41b7c1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsSuccessStatusCode, addr 0x4218f30, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsSuccessStatusCode();
 
-  /// @brief Method get_ReasonPhrase, addr 0x41b7c30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ReasonPhrase, addr 0x4218f44, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_ReasonPhrase();
 
-  /// @brief Method get_StatusCode, addr 0x41b7c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x4218f70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method get_Version, addr 0x41b7c64, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x4218f78, size 0x64, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Content, addr 0x41b7bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x4218ec8, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method set_ReasonPhrase, addr 0x41b7c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReasonPhrase, addr 0x4218f60, size 0x8, virtual false, abstract: false, final false
   inline void set_ReasonPhrase(::StringW value);
 
-  /// @brief Method set_RequestMessage, addr 0x41b7c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestMessage, addr 0x4218f68, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestMessage(::System::Net::Http::HttpRequestMessage* value);
 
-  /// @brief Method set_StatusCode, addr 0x41b7b64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x4218e78, size 0x48, virtual false, abstract: false, final false
   inline void set_StatusCode(::System::Net::HttpStatusCode value);
 
 protected:
@@ -183,6 +180,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpResponseMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HttpResponseMessage(HttpResponseMessage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16690 };
 
   /// @brief Field headers, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::Headers::HttpResponseHeaders* ___headers;
@@ -205,14 +205,9 @@ public:
   /// @brief Field <RequestMessage>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Net::Http::HttpRequestMessage* ____RequestMessage_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16652 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpResponseMessage, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ___headers) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ___reasonPhrase) == 0x18, "Offset mismatch!");
@@ -226,6 +221,8 @@ static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ___disposed) ==
 static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ____Content_k__BackingField) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::HttpResponseMessage, ____RequestMessage_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpResponseMessage, 0x48>, "Size mismatch!");
 
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpResponseMessage);

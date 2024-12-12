@@ -18,11 +18,10 @@ class XmlTextAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTextAttribute);
-// Type: System.Xml.Serialization::XmlTextAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlTextAttribute*
+// CS Name: System.Xml.Serialization.XmlTextAttribute
 class CORDL_TYPE XmlTextAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
   /// @brief Field type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x432c548, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x438d85c, size 0x90, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlTextAttribute* New_ctor();
@@ -45,21 +44,21 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_dataType();
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr void __cordl_internal_set_dataType(::StringW value);
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x432c4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438d7f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DataType, addr 0x432c4ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x438d800, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_Type, addr 0x432c540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x438d854, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -76,23 +75,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlTextAttribute(XmlTextAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7449 };
+
   /// @brief Field dataType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___dataType;
 
   /// @brief Field type, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ___type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7424 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTextAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlTextAttribute, ___dataType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlTextAttribute, ___type) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTextAttribute, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlTextAttribute);

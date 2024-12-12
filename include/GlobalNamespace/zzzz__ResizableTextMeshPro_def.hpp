@@ -21,11 +21,10 @@ class ResizableTextMeshPro;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ResizableTextMeshPro);
-// Type: ::ResizableTextMeshPro
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ResizableTextMeshPro*
+// CS Name: ResizableTextMeshPro
 class CORDL_TYPE ResizableTextMeshPro : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -38,18 +37,18 @@ public:
   /// @brief Field _textMeshPro, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textMeshPro, put = __cordl_internal_set__textMeshPro)) ::UnityW<::TMPro::TMP_Text> _textMeshPro;
 
-  /// @brief Method HandleTextDidChange, addr 0x3acbbcc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleTextDidChange, addr 0x3b2b210, size 0x90, virtual false, abstract: false, final false
   inline void HandleTextDidChange(::UnityEngine::Object* textMeshPro);
 
   static inline ::GlobalNamespace::ResizableTextMeshPro* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3acbafc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2b140, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3acb9c8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b2b00c, size 0xd0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3acba98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b2b0dc, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__textMeshPro(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3acbc5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2b2a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResizableTextMeshPro(ResizableTextMeshPro const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5146 };
+
   /// @brief Field _textMeshPro, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____textMeshPro;
 
@@ -96,19 +98,16 @@ public:
   /// @brief Field _textExtraSpace, offset: 0x30, size: 0x4, def value: None
   float_t ____textExtraSpace;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5126 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResizableTextMeshPro, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ResizableTextMeshPro, ____textMeshPro) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResizableTextMeshPro, ____rectTransform) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResizableTextMeshPro, ____textExtraSpace) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResizableTextMeshPro, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResizableTextMeshPro);

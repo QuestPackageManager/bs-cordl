@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XObjectChangeEventArgs::*)(::System::Xml::Linq::XObjectChange)>(
     &::System::Xml::Linq::XObjectChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x41eb6b8;
+  constexpr static std::size_t addrs = 0x424c9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,14 +63,14 @@ inline ::System::Xml::Linq::XObjectChangeEventArgs* System::Xml::Linq::XObjectCh
   return ::cordl_internals::getStaticField<::System::Xml::Linq::XObjectChangeEventArgs*, "Value",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObjectChangeEventArgs*>::get>();
 }
-inline ::System::Xml::Linq::XObjectChangeEventArgs* System::Xml::Linq::XObjectChangeEventArgs::New_ctor(::System::Xml::Linq::XObjectChange objectChange) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Linq::XObjectChangeEventArgs*>(objectChange));
-}
 inline void System::Xml::Linq::XObjectChangeEventArgs::_ctor(::System::Xml::Linq::XObjectChange objectChange) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObjectChangeEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Linq::XObjectChange>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, objectChange);
+}
+inline ::System::Xml::Linq::XObjectChangeEventArgs* System::Xml::Linq::XObjectChangeEventArgs::New_ctor(::System::Xml::Linq::XObjectChange objectChange) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Linq::XObjectChangeEventArgs*>(objectChange));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XObjectChangeEventArgs::XObjectChangeEventArgs() {}

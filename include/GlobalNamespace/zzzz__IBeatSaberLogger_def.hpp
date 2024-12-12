@@ -17,48 +17,43 @@ class IBeatSaberLogger;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IBeatSaberLogger);
-// Type: ::IBeatSaberLogger
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IBeatSaberLogger*
+// CS Name: IBeatSaberLogger
 class CORDL_TYPE IBeatSaberLogger {
 public:
   // Declarations
-  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Log, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Log(::StringW message);
 
-  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Log, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LogError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LogError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LogException, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LogException, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
-  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LogWarning, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LogWarning, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void LogWarning(::StringW message, ::System::Object* context);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IBeatSaberLogger", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IBeatSaberLogger(IBeatSaberLogger&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatSaberLogger", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBeatSaberLogger(IBeatSaberLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

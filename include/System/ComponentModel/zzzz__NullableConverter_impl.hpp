@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::NullableConverter::*)(::System::Type*)>(
     &::System::ComponentModel::NullableConverter::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x43f2bf4;
+  constexpr static std::size_t addrs = 0x4453f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::NullableConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x43f2d1c;
+  constexpr static std::size_t addrs = 0x4454030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::NullableConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x43f2de0;
+  constexpr static std::size_t addrs = 0x44540f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::NullableConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x43f2f1c;
+  constexpr static std::size_t addrs = 0x4454230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::NullableConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x43f2fe0;
+  constexpr static std::size_t addrs = 0x44542f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Collections::IDictionary*)>(
         &::System::ComponentModel::NullableConverter::CreateInstance)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43f31cc;
+  constexpr static std::size_t addrs = 0x44544e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetCreateInstanceSupported)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43f31f0;
+  constexpr static std::size_t addrs = 0x4454504;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::NullableConverter::GetProperties)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43f3214;
+  constexpr static std::size_t addrs = 0x4454528;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43f3238;
+  constexpr static std::size_t addrs = 0x445454c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,10 +152,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::ComponentModel::NullableConverter.GetStandardValues
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::__TypeConverter__StandardValuesCollection* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::NullableConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x43f325c;
+  constexpr static std::size_t addrs = 0x4454570;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f3604;
+  constexpr static std::size_t addrs = 0x4454918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f362c;
+  constexpr static std::size_t addrs = 0x4454940;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(&::System::ComponentModel::NullableConverter::IsValid)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x43f3654;
+  constexpr static std::size_t addrs = 0x4454968;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::NullableConverter::*)()>(
     &::System::ComponentModel::NullableConverter::get_NullableType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f3688;
+  constexpr static std::size_t addrs = 0x445499c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::NullableConverter::*)()>(
     &::System::ComponentModel::NullableConverter::get_UnderlyingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f3690;
+  constexpr static std::size_t addrs = 0x44549a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (::System::ComponentModel::NullableConverter::*)()>(
     &::System::ComponentModel::NullableConverter::get_UnderlyingTypeConverter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f3698;
+  constexpr static std::size_t addrs = 0x44549ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(),
@@ -255,7 +255,7 @@ constexpr ::System::Type*& System::ComponentModel::NullableConverter::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NullableType_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::NullableConverter::__cordl_internal_get__NullableType_k__BackingField() const {
+constexpr ::System::Type* const& System::ComponentModel::NullableConverter::__cordl_internal_get__NullableType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____NullableType_k__BackingField;
 }
@@ -267,7 +267,7 @@ constexpr ::System::Type*& System::ComponentModel::NullableConverter::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnderlyingType_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::NullableConverter::__cordl_internal_get__UnderlyingType_k__BackingField() const {
+constexpr ::System::Type* const& System::ComponentModel::NullableConverter::__cordl_internal_get__UnderlyingType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnderlyingType_k__BackingField;
 }
@@ -279,8 +279,7 @@ constexpr ::System::ComponentModel::TypeConverter*& System::ComponentModel::Null
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnderlyingTypeConverter_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeConverter*> const&
-System::ComponentModel::NullableConverter::__cordl_internal_get__UnderlyingTypeConverter_k__BackingField() const {
+constexpr ::System::ComponentModel::TypeConverter* const& System::ComponentModel::NullableConverter::__cordl_internal_get__UnderlyingTypeConverter_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____UnderlyingTypeConverter_k__BackingField;
 }
@@ -288,9 +287,6 @@ constexpr void System::ComponentModel::NullableConverter::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnderlyingTypeConverter_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::ComponentModel::NullableConverter* System::ComponentModel::NullableConverter::New_ctor(::System::Type* type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::NullableConverter*>(type));
 }
 inline void System::ComponentModel::NullableConverter::_ctor(::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -342,10 +338,10 @@ inline bool System::ComponentModel::NullableConverter::GetPropertiesSupported(::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, context);
 }
-inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* System::ComponentModel::NullableConverter::GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context) {
+inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* System::ComponentModel::NullableConverter::GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(), 12)));
-  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::__TypeConverter__StandardValuesCollection*, false>(this, ___internal_method, context);
+  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::TypeConverter_StandardValuesCollection*, false>(this, ___internal_method, context);
 }
 inline bool System::ComponentModel::NullableConverter::GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -376,6 +372,9 @@ inline ::System::ComponentModel::TypeConverter* System::ComponentModel::Nullable
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(),
                                                                              "get_UnderlyingTypeConverter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::TypeConverter*, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::NullableConverter* System::ComponentModel::NullableConverter::New_ctor(::System::Type* type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::NullableConverter*>(type));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::NullableConverter::NullableConverter() {}

@@ -6,109 +6,109 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "Unity/Properties/Internal/zzzz__BoundsPropertyBag_def.hpp"
 #include "Unity/Properties/Internal/zzzz__BoundsPropertyBag_def.hpp"
-//  Writing Method size for method: ::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty.get_Name
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty.get_Name
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty::*)()>(
-    &::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)()>(
+    &::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48b02fc;
+  constexpr static std::size_t addrs = 0x491498c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty*>::get(), 7));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty._ctor
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty::*)()>(
-    &::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::*)()>(
+    &::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48b026c;
+  constexpr static std::size_t addrs = 0x49148fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty::get_Name() {
+inline ::StringW Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty* Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty*>());
-}
-inline void Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty::_ctor() {
+inline void Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty* Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty*>());
+}
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::__BoundsPropertyBag__CenterProperty::__BoundsPropertyBag__CenterProperty() {}
-//  Writing Method size for method: ::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty.get_Name
+constexpr ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty::BoundsPropertyBag_CenterProperty() {}
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty.get_Name
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty::*)()>(
-    &::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)()>(
+    &::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48b033c;
+  constexpr static std::size_t addrs = 0x49149cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty*>::get(), 7));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty._ctor
+//  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty::*)()>(
-    &::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::*)()>(
+    &::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48b02b4;
+  constexpr static std::size_t addrs = 0x4914944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::StringW Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty::get_Name() {
+inline ::StringW Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty* Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty*>());
-}
-inline void Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty::_ctor() {
+inline void Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty* Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty*>());
+}
 // Ctor Parameters []
-constexpr ::Unity::Properties::Internal::__BoundsPropertyBag__ExtentsProperty::__BoundsPropertyBag__ExtentsProperty() {}
+constexpr ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty::BoundsPropertyBag_ExtentsProperty() {}
 //  Writing Method size for method: ::Unity::Properties::Internal::BoundsPropertyBag._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::BoundsPropertyBag::*)()>(
     &::Unity::Properties::Internal::BoundsPropertyBag::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48af15c;
+  constexpr static std::size_t addrs = 0x49137ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag*>::get(),
@@ -116,13 +116,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Unity::Properties::Internal::BoundsPropertyBag* Unity::Properties::Internal::BoundsPropertyBag::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::BoundsPropertyBag*>());
-}
 inline void Unity::Properties::Internal::BoundsPropertyBag::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::BoundsPropertyBag*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Unity::Properties::Internal::BoundsPropertyBag* Unity::Properties::Internal::BoundsPropertyBag::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::BoundsPropertyBag*>());
 }
 // Ctor Parameters []
 constexpr ::Unity::Properties::Internal::BoundsPropertyBag::BoundsPropertyBag() {}

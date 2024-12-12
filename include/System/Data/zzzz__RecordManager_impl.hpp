@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)(::System::Data::DataTable*)>(&::System::Data::RecordManager::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4121f5c;
+  constexpr static std::size_t addrs = 0x4183270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::GrowRecordCapacity)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4122020;
+  constexpr static std::size_t addrs = 0x4183334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::RecordManager*>::get(), "GrowRecordCapacity",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::get_LastFreeRecord)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4122200;
+  constexpr static std::size_t addrs = 0x4183514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::RecordManager*>::get(), "get_LastFreeRecord",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::get_MinimumCapacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4122208;
+  constexpr static std::size_t addrs = 0x418351c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::RecordManager*>::get(), "get_MinimumCapacity",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)(int32_t)>(&::System::Data::RecordManager::set_MinimumCapacity)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4122210;
+  constexpr static std::size_t addrs = 0x4183524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::get_RecordCapacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4122254;
+  constexpr static std::size_t addrs = 0x4183568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::RecordManager*>::get(), "get_RecordCapacity",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)(int32_t)>(&::System::Data::RecordManager::set_RecordCapacity)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4122170;
+  constexpr static std::size_t addrs = 0x4183484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Data::RecordManager::NewCapacity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4122124;
+  constexpr static std::size_t addrs = 0x4183438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::RecordManager::*)(int32_t)>(&::System::Data::RecordManager::NormalizedMinimumCapacity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4122138;
+  constexpr static std::size_t addrs = 0x418344c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::RecordManager::*)()>(&::System::Data::RecordManager::NewRecordBase)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x412225c;
+  constexpr static std::size_t addrs = 0x4183570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::RecordManager*>::get(), "NewRecordBase",
@@ -143,14 +143,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Data::RecordManager.FreeRecord
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)(ByRef<int32_t>)>(&::System::Data::RecordManager::FreeRecord)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)(::ByRef<int32_t>)>(&::System::Data::RecordManager::FreeRecord)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4122328;
+  constexpr static std::size_t addrs = 0x418363c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::RecordManager*>::get(), "FreeRecord", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)(bool)>(&::System::Data::RecordManager::Clear)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x41224dc;
+  constexpr static std::size_t addrs = 0x41837f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRow* (::System::Data::RecordManager::*)(int32_t)>(&::System::Data::RecordManager::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x41226c8;
+  constexpr static std::size_t addrs = 0x41839dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)(int32_t, ::System::Data::DataRow*)>(
     &::System::Data::RecordManager::set_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4122478;
+  constexpr static std::size_t addrs = 0x418378c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::RecordManager::*)(::System::Data::DataTable*, int32_t)>(
     &::System::Data::RecordManager::ImportRecord)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41226f8;
+  constexpr static std::size_t addrs = 0x4183a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::RecordManager::*)(::System::Data::DataTable*, int32_t, int32_t)>(
     &::System::Data::RecordManager::CopyRecord)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x4122700;
+  constexpr static std::size_t addrs = 0x4183a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::RecordManager::*)(::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*>)>(
     &::System::Data::RecordManager::SetRowCache)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4122a14;
+  constexpr static std::size_t addrs = 0x4183d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,7 +249,7 @@ constexpr ::System::Data::DataTable*& System::Data::RecordManager::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& System::Data::RecordManager::__cordl_internal_get__table() const {
+constexpr ::System::Data::DataTable* const& System::Data::RecordManager::__cordl_internal_get__table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
@@ -297,7 +297,7 @@ constexpr ::System::Collections::Generic::List_1<int32_t>*& System::Data::Record
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeRecordList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& System::Data::RecordManager::__cordl_internal_get__freeRecordList() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& System::Data::RecordManager::__cordl_internal_get__freeRecordList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____freeRecordList;
 }
@@ -316,9 +316,6 @@ constexpr ::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*>
 constexpr void System::Data::RecordManager::__cordl_internal_set__rows(::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rows)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Data::RecordManager* System::Data::RecordManager::New_ctor(::System::Data::DataTable* table) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::RecordManager*>(table));
 }
 inline void System::Data::RecordManager::_ctor(::System::Data::DataTable* table) {
   static auto* ___internal_method =
@@ -375,10 +372,10 @@ inline int32_t System::Data::RecordManager::NewRecordBase() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void System::Data::RecordManager::FreeRecord(ByRef<int32_t> record) {
+inline void System::Data::RecordManager::FreeRecord(::ByRef<int32_t> record) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::RecordManager*>::get(), "FreeRecord", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record);
 }
 inline void System::Data::RecordManager::Clear(bool clearAll) {
@@ -419,6 +416,9 @@ inline void System::Data::RecordManager::SetRowCache(::ArrayW<::System::Data::Da
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::RecordManager*>::get(), "SetRowCache", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newRows);
+}
+inline ::System::Data::RecordManager* System::Data::RecordManager::New_ctor(::System::Data::DataTable* table) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::RecordManager*>(table));
 }
 // Ctor Parameters []
 constexpr ::System::Data::RecordManager::RecordManager() {}

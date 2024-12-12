@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EnvoyTerminatorSink)
 namespace System::Runtime::Remoting::Messaging {
@@ -20,30 +21,29 @@ class EnvoyTerminatorSink;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink);
-// Type: System.Runtime.Remoting.Messaging::EnvoyTerminatorSink
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Remoting.Messaging.IMessageSink
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::EnvoyTerminatorSink*
+// CS Name: System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
 class CORDL_TYPE EnvoyTerminatorSink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* Instance;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3c8b650, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3ceb7c4, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* New_ctor();
 
-  /// @brief Method SyncProcessMessage, addr 0x3c8b59c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3ceb710, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3c8b710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ceb884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* getStaticF_Instance();

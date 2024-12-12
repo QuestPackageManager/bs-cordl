@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -12,9 +14,6 @@ namespace GlobalNamespace {
 struct BladeMovementDataElement;
 }
 namespace GlobalNamespace {
-class ISaberMovementDataProcessor;
-}
-namespace GlobalNamespace {
 class ISaberMovementData;
 }
 namespace GlobalNamespace {
@@ -22,9 +21,6 @@ class ISaberSwingRatingCounterDidChangeReceiver;
 }
 namespace GlobalNamespace {
 class ISaberSwingRatingCounterDidFinishReceiver;
-}
-namespace GlobalNamespace {
-class ISaberSwingRatingCounter;
 }
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
@@ -41,11 +37,10 @@ class SaberSwingRatingCounter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberSwingRatingCounter);
-// Type: ::SaberSwingRatingCounter
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ISaberMovementDataProcessor, ISaberSwingRatingCounter, System.Object, UnityEngine.Plane, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberSwingRatingCounter*
+// CS Name: SaberSwingRatingCounter
 class CORDL_TYPE SaberSwingRatingCounter : public ::System::Object {
 public:
   // Declarations
@@ -124,30 +119,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounter"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounter*() noexcept;
 
-  /// @brief Method DrawGizmos, addr 0x267c644, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmos, addr 0x26b0bfc, size 0x2b4, virtual false, abstract: false, final false
   inline void DrawGizmos();
 
-  /// @brief Method Finish, addr 0x267c498, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x26b0a50, size 0x1ac, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x267b720, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26afcd8, size 0x418, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
 
   static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
 
-  /// @brief Method ProcessNewData, addr 0x267bb38, size 0x960, virtual true, abstract: false, final true
+  /// @brief Method ProcessNewData, addr 0x26b00f0, size 0x960, virtual true, abstract: false, final true
   inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x267b5c0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidChangeReceiver, addr 0x26afb78, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x267b618, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidFinishReceiver, addr 0x26afbd0, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x267b670, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x26afc28, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x267b6c8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x26afc80, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutBottomPos() const;
@@ -190,15 +185,13 @@ public:
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__cutTopPos();
 
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* const& __cordl_internal_get__didChangeReceivers() const;
+
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*& __cordl_internal_get__didChangeReceivers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*> const&
-  __cordl_internal_get__didChangeReceivers() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* const& __cordl_internal_get__didFinishReceivers() const;
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*& __cordl_internal_get__didFinishReceivers();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*> const&
-  __cordl_internal_get__didFinishReceivers() const;
 
   constexpr bool const& __cordl_internal_get__finished() const;
 
@@ -232,9 +225,9 @@ public:
 
   constexpr bool& __cordl_internal_get__rateBeforeCut();
 
-  constexpr ::GlobalNamespace::ISaberMovementData*& __cordl_internal_get__saberMovementData();
+  constexpr ::GlobalNamespace::ISaberMovementData* const& __cordl_internal_get__saberMovementData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaberMovementData*> const& __cordl_internal_get__saberMovementData() const;
+  constexpr ::GlobalNamespace::ISaberMovementData*& __cordl_internal_get__saberMovementData();
 
   constexpr void __cordl_internal_set__afterCutBottomPos(::UnityEngine::Vector3 value);
 
@@ -278,13 +271,13 @@ public:
 
   constexpr void __cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value);
 
-  /// @brief Method .ctor, addr 0x267c8f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0eb0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_afterCutRating, addr 0x267b5b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutRating, addr 0x26afb70, size 0x8, virtual true, abstract: false, final true
   inline float_t get_afterCutRating();
 
-  /// @brief Method get_beforeCutRating, addr 0x267b5b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutRating, addr 0x26afb68, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beforeCutRating();
 
   /// @brief Convert to "::GlobalNamespace::ISaberMovementDataProcessor"
@@ -306,6 +299,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRatingCounter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SaberSwingRatingCounter(SaberSwingRatingCounter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12854 };
 
   /// @brief Field _saberMovementData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ISaberMovementData* ____saberMovementData;
@@ -370,14 +366,9 @@ public:
   /// @brief Field _finished, offset: 0xc8, size: 0x1, def value: None
   bool ____finished;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12820 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberSwingRatingCounter, 0xd0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SaberSwingRatingCounter, ____saberMovementData) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberSwingRatingCounter, ____cutPlaneNormal) == 0x18, "Offset mismatch!");
@@ -419,6 +410,8 @@ static_assert(offsetof(::GlobalNamespace::SaberSwingRatingCounter, ____cutTopPos
 static_assert(offsetof(::GlobalNamespace::SaberSwingRatingCounter, ____cutBottomPos) == 0xbc, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberSwingRatingCounter, ____finished) == 0xc8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberSwingRatingCounter, 0xd0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberSwingRatingCounter);

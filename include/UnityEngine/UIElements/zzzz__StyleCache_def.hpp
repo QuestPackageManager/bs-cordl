@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleCache)
 namespace System::Collections::Generic {
@@ -26,44 +24,43 @@ class StyleCache;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleCache);
-// Type: UnityEngine.UIElements::StyleCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::StyleCache*
+// CS Name: UnityEngine.UIElements.StyleCache
 class CORDL_TYPE StyleCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_ComputedStyleCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ComputedStyleCache,
-                             put = setStaticF_s_ComputedStyleCache)) ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityEngine::UIElements::ComputedStyle>* s_ComputedStyleCache;
+  __declspec(property(get = getStaticF_s_ComputedStyleCache,
+                      put = setStaticF_s_ComputedStyleCache)) ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityEngine::UIElements::ComputedStyle>* s_ComputedStyleCache;
 
   /// @brief Field s_ComputedTransitionsCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ComputedTransitionsCache, put = setStaticF_s_ComputedTransitionsCache)) ::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = getStaticF_s_ComputedTransitionsCache, put = setStaticF_s_ComputedTransitionsCache)) ::System::Collections::Generic::Dictionary_2<
       int32_t, ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*>>* s_ComputedTransitionsCache;
 
   /// @brief Field s_StyleVariableContextCache, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_s_StyleVariableContextCache,
-      put = setStaticF_s_StyleVariableContextCache)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::StyleVariableContext*>* s_StyleVariableContextCache;
+  __declspec(property(get = getStaticF_s_StyleVariableContextCache,
+                      put =
+                          setStaticF_s_StyleVariableContextCache)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::StyleVariableContext*>* s_StyleVariableContextCache;
 
-  /// @brief Method SetValue, addr 0x493b59c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x499feac, size 0x90, virtual false, abstract: false, final false
   static inline void SetValue(int32_t hash, ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*> data);
 
-  /// @brief Method SetValue, addr 0x493b47c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x499fd8c, size 0x90, virtual false, abstract: false, final false
   static inline void SetValue(int32_t hash, ::UnityEngine::UIElements::StyleVariableContext* data);
 
-  /// @brief Method SetValue, addr 0x493b328, size 0xc4, virtual false, abstract: false, final false
-  static inline void SetValue(int64_t hash, ByRef<::UnityEngine::UIElements::ComputedStyle> data);
+  /// @brief Method SetValue, addr 0x499fc38, size 0xc4, virtual false, abstract: false, final false
+  static inline void SetValue(int64_t hash, ::ByRef<::UnityEngine::UIElements::ComputedStyle> data);
 
-  /// @brief Method TryGetValue, addr 0x493b50c, size 0x90, virtual false, abstract: false, final false
-  static inline bool TryGetValue(int32_t hash, ByRef<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*>> data);
+  /// @brief Method TryGetValue, addr 0x499fe1c, size 0x90, virtual false, abstract: false, final false
+  static inline bool TryGetValue(int32_t hash, ::ByRef<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*>> data);
 
-  /// @brief Method TryGetValue, addr 0x493b3ec, size 0x90, virtual false, abstract: false, final false
-  static inline bool TryGetValue(int32_t hash, ByRef<::UnityEngine::UIElements::StyleVariableContext*> data);
+  /// @brief Method TryGetValue, addr 0x499fcfc, size 0x90, virtual false, abstract: false, final false
+  static inline bool TryGetValue(int32_t hash, ::ByRef<::UnityEngine::UIElements::StyleVariableContext*> data);
 
-  /// @brief Method TryGetValue, addr 0x493b298, size 0x90, virtual false, abstract: false, final false
-  static inline bool TryGetValue(int64_t hash, ByRef<::UnityEngine::UIElements::ComputedStyle> data);
+  /// @brief Method TryGetValue, addr 0x499fba8, size 0x90, virtual false, abstract: false, final false
+  static inline bool TryGetValue(int64_t hash, ::ByRef<::UnityEngine::UIElements::ComputedStyle> data);
 
   static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityEngine::UIElements::ComputedStyle>* getStaticF_s_ComputedStyleCache();
 
@@ -94,7 +91,7 @@ public:
   StyleCache(StyleCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

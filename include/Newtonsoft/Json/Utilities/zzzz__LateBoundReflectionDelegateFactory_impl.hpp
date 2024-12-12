@@ -16,370 +16,356 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0._ctor
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::*)()>(
-    &::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::*)()>(
+    &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6f924;
+  constexpr static std::size_t addrs = 0x3ecf9d0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>::get(),
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0._CreateParameterizedConstructor_b__0
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0._CreateParameterizedConstructor_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-        &::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::_CreateParameterizedConstructor_b__0)> {
+    static_cast<::System::Object* (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
+        &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e6f998;
+  constexpr static std::size_t addrs = 0x3ecfa44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>::get(),
                                     "<CreateParameterizedConstructor>b__0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0._CreateParameterizedConstructor_b__1
+//  Writing Method size for method: ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0._CreateParameterizedConstructor_b__1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-        &::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::_CreateParameterizedConstructor_b__1)> {
+    static_cast<::System::Object* (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
+        &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e6f9b4;
+  constexpr static std::size_t addrs = 0x3ecfa60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>::get(),
                                     "<CreateParameterizedConstructor>b__1", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Reflection::ConstructorInfo*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::__cordl_internal_get_c() {
+constexpr ::System::Reflection::ConstructorInfo*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::__cordl_internal_get_c() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::__cordl_internal_get_c() const {
+constexpr ::System::Reflection::ConstructorInfo* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::__cordl_internal_get_c() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::__cordl_internal_set_c(::System::Reflection::ConstructorInfo* value) {
+constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::__cordl_internal_set_c(::System::Reflection::ConstructorInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___c)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Reflection::MethodBase*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::__cordl_internal_get_method() {
+constexpr ::System::Reflection::MethodBase*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::__cordl_internal_get_method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::__cordl_internal_get_method() const {
+constexpr ::System::Reflection::MethodBase* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::__cordl_internal_get_method() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::__cordl_internal_set_method(::System::Reflection::MethodBase* value) {
+constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::__cordl_internal_set_method(::System::Reflection::MethodBase* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0* Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>());
-}
-inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::_CreateParameterizedConstructor_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a) {
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>::get(),
                                   "<CreateParameterizedConstructor>b__0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, a);
 }
 inline ::System::Object*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::_CreateParameterizedConstructor_b__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a) {
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>::get(),
                                   "<CreateParameterizedConstructor>b__1", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, a);
 }
+inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0*>());
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0() {}
-template <typename T> constexpr ::System::Reflection::ConstructorInfo*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::__cordl_internal_get_c() {
+constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::LateBoundReflectionDelegateFactory___c__DisplayClass3_0() {}
+template <typename T> constexpr ::System::Reflection::ConstructorInfo*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::__cordl_internal_get_c() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::__cordl_internal_get_c() const {
+constexpr ::System::Reflection::ConstructorInfo* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::__cordl_internal_get_c() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
-template <typename T>
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::__cordl_internal_set_c(::System::Reflection::ConstructorInfo* value) {
+template <typename T> constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::__cordl_internal_set_c(::System::Reflection::ConstructorInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___c, value);
 }
-template <typename T> constexpr ::System::Reflection::MethodBase*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::__cordl_internal_get_method() {
+template <typename T> constexpr ::System::Reflection::MethodBase*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::__cordl_internal_get_method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::__cordl_internal_get_method() const {
+constexpr ::System::Reflection::MethodBase* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::__cordl_internal_get_method() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___method;
 }
-template <typename T>
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::__cordl_internal_set_method(::System::Reflection::MethodBase* value) {
+template <typename T> constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::__cordl_internal_set_method(::System::Reflection::MethodBase* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___method, value);
 }
-template <typename T>
-inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>*>());
-}
-template <typename T> inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::_ctor() {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Object*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::_CreateMethodCall_b__0(T o, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> a) {
+inline ::System::Object* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::_CreateMethodCall_b__0(T o,
+                                                                                                                                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> a) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>*>::get(),
                                   "<CreateMethodCall>b__0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, o, a);
 }
 template <typename T>
-inline ::System::Object*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::_CreateMethodCall_b__1(T o, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> a) {
+inline ::System::Object* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::_CreateMethodCall_b__1(T o,
+                                                                                                                                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> a) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>*>::get(),
                                   "<CreateMethodCall>b__1", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, o, a);
 }
-// Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1() {}
-template <typename T> constexpr ::System::Type*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::__cordl_internal_get_type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___type;
-}
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::__cordl_internal_get_type() const {
+inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>*>());
+}
+// Ctor Parameters []
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1<T>::LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1() {}
+template <typename T> constexpr ::System::Type*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::__cordl_internal_get_type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-template <typename T> constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::__cordl_internal_set_type(::System::Type* value) {
+template <typename T> constexpr ::System::Type* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::__cordl_internal_get_type() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___type;
+}
+template <typename T> constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::__cordl_internal_set_type(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___type, value);
 }
 template <typename T>
-constexpr ::System::Reflection::ConstructorInfo*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::__cordl_internal_get_constructorInfo() {
+constexpr ::System::Reflection::ConstructorInfo*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::__cordl_internal_get_constructorInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructorInfo;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::__cordl_internal_get_constructorInfo() const {
+constexpr ::System::Reflection::ConstructorInfo* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::__cordl_internal_get_constructorInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructorInfo;
 }
 template <typename T>
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::__cordl_internal_set_constructorInfo(::System::Reflection::ConstructorInfo* value) {
+constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::__cordl_internal_set_constructorInfo(::System::Reflection::ConstructorInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___constructorInfo, value);
 }
-template <typename T>
-inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>*>());
-}
-template <typename T> inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::_ctor() {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline T Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::_CreateDefaultConstructor_b__0() {
+template <typename T> inline T Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::_CreateDefaultConstructor_b__0() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>*>::get(),
                                   "<CreateDefaultConstructor>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
-template <typename T> inline T Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::_CreateDefaultConstructor_b__1() {
+template <typename T> inline T Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::_CreateDefaultConstructor_b__1() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>*>::get(),
                                   "<CreateDefaultConstructor>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
+template <typename T>
+inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1() {}
-template <typename T> constexpr ::System::Reflection::PropertyInfo*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>::__cordl_internal_get_propertyInfo() {
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1<T>::LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1() {}
+template <typename T> constexpr ::System::Reflection::PropertyInfo*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>::__cordl_internal_get_propertyInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyInfo;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>::__cordl_internal_get_propertyInfo() const {
+constexpr ::System::Reflection::PropertyInfo* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>::__cordl_internal_get_propertyInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyInfo;
 }
 template <typename T>
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>::__cordl_internal_set_propertyInfo(::System::Reflection::PropertyInfo* value) {
+constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>::__cordl_internal_set_propertyInfo(::System::Reflection::PropertyInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___propertyInfo, value);
 }
-template <typename T>
-inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>*>());
-}
-template <typename T> inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>::_ctor() {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>::_CreateGet_b__0(T o) {
+template <typename T> inline ::System::Object* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>::_CreateGet_b__0(T o) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>*>::get(),
                                   "<CreateGet>b__0", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, o);
 }
+template <typename T>
+inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1() {}
-template <typename T> constexpr ::System::Reflection::FieldInfo*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>::__cordl_internal_get_fieldInfo() {
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1<T>::LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1() {}
+template <typename T> constexpr ::System::Reflection::FieldInfo*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>::__cordl_internal_get_fieldInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fieldInfo;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>::__cordl_internal_get_fieldInfo() const {
+constexpr ::System::Reflection::FieldInfo* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>::__cordl_internal_get_fieldInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fieldInfo;
 }
-template <typename T>
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>::__cordl_internal_set_fieldInfo(::System::Reflection::FieldInfo* value) {
+template <typename T> constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>::__cordl_internal_set_fieldInfo(::System::Reflection::FieldInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___fieldInfo, value);
 }
-template <typename T>
-inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>*>());
-}
-template <typename T> inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>::_ctor() {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>::_CreateGet_b__0(T o) {
+template <typename T> inline ::System::Object* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>::_CreateGet_b__0(T o) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>*>::get(),
                                   "<CreateGet>b__0", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, o);
 }
+template <typename T>
+inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1() {}
-template <typename T> constexpr ::System::Reflection::FieldInfo*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>::__cordl_internal_get_fieldInfo() {
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1<T>::LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1() {}
+template <typename T> constexpr ::System::Reflection::FieldInfo*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::__cordl_internal_get_fieldInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fieldInfo;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>::__cordl_internal_get_fieldInfo() const {
+constexpr ::System::Reflection::FieldInfo* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::__cordl_internal_get_fieldInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fieldInfo;
 }
-template <typename T>
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>::__cordl_internal_set_fieldInfo(::System::Reflection::FieldInfo* value) {
+template <typename T> constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::__cordl_internal_set_fieldInfo(::System::Reflection::FieldInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___fieldInfo, value);
 }
-template <typename T>
-inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>*>());
-}
-template <typename T> inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>::_ctor() {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>::_CreateSet_b__0(T o, ::System::Object* v) {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::_CreateSet_b__0(T o, ::System::Object* v) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>*>::get(), "<CreateSet>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>*>::get(), "<CreateSet>b__0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o, v);
 }
+template <typename T>
+inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1() {}
-template <typename T> constexpr ::System::Reflection::PropertyInfo*& Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>::__cordl_internal_get_propertyInfo() {
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1<T>::LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1() {}
+template <typename T> constexpr ::System::Reflection::PropertyInfo*& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::__cordl_internal_get_propertyInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyInfo;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const&
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>::__cordl_internal_get_propertyInfo() const {
+constexpr ::System::Reflection::PropertyInfo* const& Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::__cordl_internal_get_propertyInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyInfo;
 }
 template <typename T>
-constexpr void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>::__cordl_internal_set_propertyInfo(::System::Reflection::PropertyInfo* value) {
+constexpr void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::__cordl_internal_set_propertyInfo(::System::Reflection::PropertyInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___propertyInfo, value);
 }
-template <typename T>
-inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>*
-Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>*>());
-}
-template <typename T> inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>::_ctor() {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>::_CreateSet_b__0(T o, ::System::Object* v) {
+template <typename T> inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::_CreateSet_b__0(T o, ::System::Object* v) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>*>::get(), "<CreateSet>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>*>::get(), "<CreateSet>b__0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o, v);
 }
+template <typename T>
+inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>*
+Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1() {}
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1<T>::LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory.get_Instance
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* (*)()>(
     &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::get_Instance)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e6f770;
+  constexpr static std::size_t addrs = 0x3ecf81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -395,7 +381,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::*)(::System::Reflection::MethodBase*)>(
         &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::CreateParameterizedConstructor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3e6f7c8;
+  constexpr static std::size_t addrs = 0x3ecf874;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -411,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::*)()>(
     &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6f92c;
+  constexpr static std::size_t addrs = 0x3ecf9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -479,14 +465,14 @@ template <typename T> inline ::System::Action_2<T, ::System::Object*>* Newtonsof
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<::System::Action_2<T, ::System::Object*>*, false>(this, ___internal_method, propertyInfo);
 }
-inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory*>());
-}
 inline void Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory*>());
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::LateBoundReflectionDelegateFactory() {}

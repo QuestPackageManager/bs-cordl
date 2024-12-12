@@ -2,7 +2,6 @@
 // IWYU pragma private; include "LIV/SDK/Unity/SDKPlane.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKPlane_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKVector3_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKPlane.op_Implicit___LIV__SDK__Unity__SDKPlane
 template <>
@@ -10,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKPlane (*)(::UnityEngine::Plane)>(
     &::LIV::SDK::Unity::SDKPlane::op_Implicit___LIV__SDK__Unity__SDKPlane)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3a71010;
+  constexpr static std::size_t addrs = 0x3ac7c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKPlane (*)()>(&::LIV::SDK::Unity::SDKPlane::get_empty)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a71028;
+  constexpr static std::size_t addrs = 0x3ac7c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKPlane>::get(), "get_empty",
@@ -37,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKPlane::*)()>(&::LIV::SDK::Unity::SDKPlane::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3a7103c;
+  constexpr static std::size_t addrs = 0x3ac7cac;
 
   inline static ::MethodInfo const* methodInfo() {
 

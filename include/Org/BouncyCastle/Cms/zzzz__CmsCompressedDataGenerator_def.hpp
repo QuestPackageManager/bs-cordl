@@ -18,20 +18,19 @@ class CmsCompressedDataGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsCompressedDataGenerator);
-// Type: Org.BouncyCastle.Cms::CmsCompressedDataGenerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsCompressedDataGenerator*
+// CS Name: Org.BouncyCastle.Cms.CmsCompressedDataGenerator
 class CORDL_TYPE CmsCompressedDataGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x261e07c, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x2651368, size 0x3ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsCompressedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW compressionOid);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261e074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2651360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

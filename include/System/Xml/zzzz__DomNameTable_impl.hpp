@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DomNameTable::*)(::System::Xml::XmlDocument*)>(&::System::Xml::DomNameTable::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x42cfb84;
+  constexpr static std::size_t addrs = 0x4330e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlName* (::System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::IXmlSchemaInfo*)>(&::System::Xml::DomNameTable::GetName)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x42cfc24;
+  constexpr static std::size_t addrs = 0x4330f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlName* (::System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::IXmlSchemaInfo*)>(&::System::Xml::DomNameTable::AddName)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x42cfd8c;
+  constexpr static std::size_t addrs = 0x43310a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DomNameTable::*)()>(&::System::Xml::DomNameTable::Grow)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x42cfffc;
+  constexpr static std::size_t addrs = 0x4331310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DomNameTable*>::get(), "Grow",
@@ -107,7 +107,7 @@ constexpr ::System::Xml::XmlDocument*& System::Xml::DomNameTable::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ownerDocument;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& System::Xml::DomNameTable::__cordl_internal_get_ownerDocument() const {
+constexpr ::System::Xml::XmlDocument* const& System::Xml::DomNameTable::__cordl_internal_get_ownerDocument() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ownerDocument;
 }
@@ -119,16 +119,13 @@ constexpr ::System::Xml::XmlNameTable*& System::Xml::DomNameTable::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& System::Xml::DomNameTable::__cordl_internal_get_nameTable() const {
+constexpr ::System::Xml::XmlNameTable* const& System::Xml::DomNameTable::__cordl_internal_get_nameTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTable;
 }
 constexpr void System::Xml::DomNameTable::__cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nameTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::DomNameTable* System::Xml::DomNameTable::New_ctor(::System::Xml::XmlDocument* document) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DomNameTable*>(document));
 }
 inline void System::Xml::DomNameTable::_ctor(::System::Xml::XmlDocument* document) {
   static auto* ___internal_method =
@@ -156,6 +153,9 @@ inline void System::Xml::DomNameTable::Grow() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DomNameTable*>::get(), "Grow",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::DomNameTable* System::Xml::DomNameTable::New_ctor(::System::Xml::XmlDocument* document) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DomNameTable*>(document));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::DomNameTable::DomNameTable() {}

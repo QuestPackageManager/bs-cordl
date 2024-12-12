@@ -3,15 +3,40 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Hashtable)
+namespace GlobalNamespace {
+class Hashtable_SyncHashtable;
+}
 namespace System::Collections {
 struct DictionaryEntry;
+}
+namespace System::Collections {
+class Hashtable_HashtableDebugView;
+}
+namespace System::Collections {
+class Hashtable_HashtableEnumerator;
+}
+namespace System::Collections {
+class Hashtable_KeyCollection;
+}
+namespace System::Collections {
+class Hashtable_ValueCollection;
+}
+namespace System::Collections {
+struct Hashtable_bucket;
 }
 namespace System::Collections {
 class ICollection;
@@ -23,40 +48,13 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System::Collections {
-class __Hashtable__HashtableDebugView;
-}
-namespace System::Collections {
-class __Hashtable__HashtableEnumerator;
-}
-namespace System::Collections {
-class __Hashtable__KeyCollection;
-}
-namespace System::Collections {
-class __Hashtable__SyncHashtable;
-}
-namespace System::Collections {
-class __Hashtable__ValueCollection;
-}
-namespace System::Collections {
-struct __Hashtable__bucket;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -68,9 +66,6 @@ namespace System {
 class Array;
 }
 namespace System {
-class ICloneable;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
@@ -78,42 +73,47 @@ namespace System::Collections {
 class Hashtable;
 }
 namespace System::Collections {
-class __Hashtable__HashtableDebugView;
+class Hashtable_HashtableDebugView;
 }
 namespace System::Collections {
-class __Hashtable__HashtableEnumerator;
+class Hashtable_HashtableEnumerator;
 }
 namespace System::Collections {
-class __Hashtable__KeyCollection;
+class Hashtable_KeyCollection;
 }
 namespace System::Collections {
-class __Hashtable__ValueCollection;
+class Hashtable_ValueCollection;
 }
 namespace System::Collections {
-struct __Hashtable__bucket;
+struct Hashtable_bucket;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Hashtable);
-MARK_REF_PTR_T(::System::Collections::__Hashtable__HashtableDebugView);
-MARK_REF_PTR_T(::System::Collections::__Hashtable__HashtableEnumerator);
-MARK_REF_PTR_T(::System::Collections::__Hashtable__KeyCollection);
-MARK_REF_PTR_T(::System::Collections::__Hashtable__ValueCollection);
-MARK_VAL_T(::System::Collections::__Hashtable__bucket);
-// Type: ::bucket
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Collections::Hashtable_HashtableDebugView);
+MARK_REF_PTR_T(::System::Collections::Hashtable_HashtableEnumerator);
+MARK_REF_PTR_T(::System::Collections::Hashtable_KeyCollection);
+MARK_REF_PTR_T(::System::Collections::Hashtable_ValueCollection);
+MARK_VAL_T(::System::Collections::Hashtable_bucket);
+// Dependencies
 namespace System::Collections {
 // Is value type: true
-// CS Name: ::Hashtable::bucket
-struct CORDL_TYPE __Hashtable__bucket {
+// CS Name: System.Collections.Hashtable/bucket
+struct CORDL_TYPE Hashtable_bucket {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Hashtable__bucket();
+  constexpr Hashtable_bucket();
 
   // Ctor Parameters [CppParam { name: "key", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "val", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam {
   // name: "hash_coll", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Hashtable__bucket(::System::Object* key, ::System::Object* val, int32_t hash_coll) noexcept;
+  constexpr Hashtable_bucket(::System::Object* key, ::System::Object* val, int32_t hash_coll) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3801 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field key, offset: 0x0, size: 0x8, def value: None
   ::System::Object* key;
@@ -124,30 +124,23 @@ public:
   /// @brief Field hash_coll, offset: 0x10, size: 0x4, def value: None
   int32_t hash_coll;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3801 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::__Hashtable__bucket, 0x18>, "Size mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_bucket, key) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__bucket, key) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_bucket, val) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__bucket, val) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_bucket, hash_coll) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__bucket, hash_coll) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Collections::Hashtable_bucket, 0x18>, "Size mismatch!");
 
 } // namespace System::Collections
-// Type: ::KeyCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::Hashtable::KeyCollection*
-class CORDL_TYPE __Hashtable__KeyCollection : public ::System::Object {
+// CS Name: System.Collections.Hashtable/KeyCollection
+class CORDL_TYPE Hashtable_KeyCollection : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
@@ -165,30 +158,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x3d6697c, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dc6af0, size 0x17c, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x3d66af8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3dc6c6c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  static inline ::System::Collections::__Hashtable__KeyCollection* New_ctor(::System::Collections::Hashtable* hashtable);
+  static inline ::System::Collections::Hashtable_KeyCollection* New_ctor(::System::Collections::Hashtable* hashtable);
+
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__hashtable() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get__hashtable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__hashtable() const;
-
   constexpr void __cordl_internal_set__hashtable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x3d657bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc5930, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* hashtable);
 
-  /// @brief Method get_Count, addr 0x3d66ba0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dc6d14, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x3d66b58, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3dc6ccc, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x3d66b7c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3dc6cf0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -200,37 +193,36 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Hashtable__KeyCollection();
+  constexpr Hashtable_KeyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Hashtable__KeyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_KeyCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Hashtable__KeyCollection(__Hashtable__KeyCollection&&) = delete;
+  Hashtable_KeyCollection(Hashtable_KeyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Hashtable__KeyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_KeyCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Hashtable__KeyCollection(__Hashtable__KeyCollection const&) = delete;
-
-  /// @brief Field _hashtable, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ____hashtable;
+  Hashtable_KeyCollection(Hashtable_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3802 };
 
+  /// @brief Field _hashtable, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Hashtable* ____hashtable;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::__Hashtable__KeyCollection, 0x18>, "Size mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_KeyCollection, ____hashtable) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__KeyCollection, ____hashtable) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Collections::Hashtable_KeyCollection, 0x18>, "Size mismatch!");
 
 } // namespace System::Collections
-// Type: ::ValueCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::Hashtable::ValueCollection*
-class CORDL_TYPE __Hashtable__ValueCollection : public ::System::Object {
+// CS Name: System.Collections.Hashtable/ValueCollection
+class CORDL_TYPE Hashtable_ValueCollection : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
@@ -248,30 +240,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x3d66bbc, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dc6d30, size 0x17c, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x3d66d38, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3dc6eac, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  static inline ::System::Collections::__Hashtable__ValueCollection* New_ctor(::System::Collections::Hashtable* hashtable);
+  static inline ::System::Collections::Hashtable_ValueCollection* New_ctor(::System::Collections::Hashtable* hashtable);
+
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__hashtable() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get__hashtable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__hashtable() const;
-
   constexpr void __cordl_internal_set__hashtable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x3d6584c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc59c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* hashtable);
 
-  /// @brief Method get_Count, addr 0x3d66de0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dc6f54, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x3d66d98, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3dc6f0c, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x3d66dbc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3dc6f30, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -283,37 +275,36 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Hashtable__ValueCollection();
+  constexpr Hashtable_ValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Hashtable__ValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_ValueCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Hashtable__ValueCollection(__Hashtable__ValueCollection&&) = delete;
+  Hashtable_ValueCollection(Hashtable_ValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Hashtable__ValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_ValueCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Hashtable__ValueCollection(__Hashtable__ValueCollection const&) = delete;
-
-  /// @brief Field _hashtable, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ____hashtable;
+  Hashtable_ValueCollection(Hashtable_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3803 };
 
+  /// @brief Field _hashtable, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Hashtable* ____hashtable;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::__Hashtable__ValueCollection, 0x18>, "Size mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_ValueCollection, ____hashtable) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__ValueCollection, ____hashtable) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Collections::Hashtable_ValueCollection, 0x18>, "Size mismatch!");
 
 } // namespace System::Collections
-// Type: ::HashtableEnumerator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator, System.ICloneable, System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::Hashtable::HashtableEnumerator*
-class CORDL_TYPE __Hashtable__HashtableEnumerator : public ::System::Object {
+// CS Name: System.Collections.Hashtable/HashtableEnumerator
+class CORDL_TYPE Hashtable_HashtableEnumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Object* Current;
@@ -354,15 +345,15 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3d67854, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3dc79c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x3d678bc, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3dc7a30, size 0x120, virtual true, abstract: false, final false
   inline bool MoveNext();
 
-  static inline ::System::Collections::__Hashtable__HashtableEnumerator* New_ctor(::System::Collections::Hashtable* hashtable, int32_t getObjRetType);
+  static inline ::System::Collections::Hashtable_HashtableEnumerator* New_ctor(::System::Collections::Hashtable* hashtable, int32_t getObjRetType);
 
-  /// @brief Method Reset, addr 0x3d67b70, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3dc7ce4, size 0xa0, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__bucket() const;
@@ -373,21 +364,21 @@ public:
 
   constexpr bool& __cordl_internal_get__current();
 
+  constexpr ::System::Object* const& __cordl_internal_get__currentKey() const;
+
   constexpr ::System::Object*& __cordl_internal_get__currentKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentKey() const;
+  constexpr ::System::Object* const& __cordl_internal_get__currentValue() const;
 
   constexpr ::System::Object*& __cordl_internal_get__currentValue();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentValue() const;
 
   constexpr int32_t const& __cordl_internal_get__getObjectRetType() const;
 
   constexpr int32_t& __cordl_internal_get__getObjectRetType();
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__hashtable();
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__hashtable() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__hashtable() const;
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__hashtable();
 
   constexpr int32_t const& __cordl_internal_get__version() const;
 
@@ -407,19 +398,19 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d654b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc562c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* hashtable, int32_t getObjRetType);
 
-  /// @brief Method get_Current, addr 0x3d67a40, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3dc7bb4, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry, addr 0x3d679dc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Entry, addr 0x3dc7b50, size 0x64, virtual true, abstract: false, final false
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x3d6785c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3dc79d0, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x3d67b10, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3dc7c84, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -434,16 +425,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Hashtable__HashtableEnumerator();
+  constexpr Hashtable_HashtableEnumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Hashtable__HashtableEnumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableEnumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Hashtable__HashtableEnumerator(__Hashtable__HashtableEnumerator&&) = delete;
+  Hashtable_HashtableEnumerator(Hashtable_HashtableEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Hashtable__HashtableEnumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableEnumerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Hashtable__HashtableEnumerator(__Hashtable__HashtableEnumerator const&) = delete;
+  Hashtable_HashtableEnumerator(Hashtable_HashtableEnumerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3805 };
 
   /// @brief Field _hashtable, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ____hashtable;
@@ -466,50 +460,46 @@ public:
   /// @brief Field _currentValue, offset: 0x30, size: 0x8, def value: None
   ::System::Object* ____currentValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3805 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::__Hashtable__HashtableEnumerator, 0x38>, "Size mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_HashtableEnumerator, ____hashtable) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__HashtableEnumerator, ____hashtable) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_HashtableEnumerator, ____bucket) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__HashtableEnumerator, ____bucket) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_HashtableEnumerator, ____version) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__HashtableEnumerator, ____version) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_HashtableEnumerator, ____current) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__HashtableEnumerator, ____current) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_HashtableEnumerator, ____getObjectRetType) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__HashtableEnumerator, ____getObjectRetType) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_HashtableEnumerator, ____currentKey) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__HashtableEnumerator, ____currentKey) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Collections::Hashtable_HashtableEnumerator, ____currentValue) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Collections::__Hashtable__HashtableEnumerator, ____currentValue) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Collections::Hashtable_HashtableEnumerator, 0x38>, "Size mismatch!");
 
 } // namespace System::Collections
-// Type: ::HashtableDebugView
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::Hashtable::HashtableDebugView*
-class CORDL_TYPE __Hashtable__HashtableDebugView : public ::System::Object {
+// CS Name: System.Collections.Hashtable/HashtableDebugView
+class CORDL_TYPE Hashtable_HashtableDebugView : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Hashtable__HashtableDebugView();
+  constexpr Hashtable_HashtableDebugView();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Hashtable__HashtableDebugView", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableDebugView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Hashtable__HashtableDebugView(__Hashtable__HashtableDebugView&&) = delete;
+  Hashtable_HashtableDebugView(Hashtable_HashtableDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Hashtable__HashtableDebugView", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Hashtable_HashtableDebugView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Hashtable__HashtableDebugView(__Hashtable__HashtableDebugView const&) = delete;
+  Hashtable_HashtableDebugView(Hashtable_HashtableDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3806 };
@@ -517,28 +507,28 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::__Hashtable__HashtableDebugView, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Collections::Hashtable_HashtableDebugView, 0x10>, "Size mismatch!");
 
 } // namespace System::Collections
-// Type: System.Collections::Hashtable
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable, System.ICloneable, System.Object, System.Runtime.Serialization.IDeserializationCallback,
+// System.Runtime.Serialization.ISerializable
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::System.Collections::Hashtable*
+// CS Name: System.Collections.Hashtable
 class CORDL_TYPE Hashtable : public ::System::Object {
 public:
   // Declarations
-  using HashtableDebugView = ::System::Collections::__Hashtable__HashtableDebugView;
+  using SyncHashtable = ::GlobalNamespace::Hashtable_SyncHashtable;
 
-  using HashtableEnumerator = ::System::Collections::__Hashtable__HashtableEnumerator;
+  using HashtableDebugView = ::System::Collections::Hashtable_HashtableDebugView;
 
-  using KeyCollection = ::System::Collections::__Hashtable__KeyCollection;
+  using HashtableEnumerator = ::System::Collections::Hashtable_HashtableEnumerator;
 
-  using SyncHashtable = ::System::Collections::__Hashtable__SyncHashtable;
+  using KeyCollection = ::System::Collections::Hashtable_KeyCollection;
 
-  using ValueCollection = ::System::Collections::__Hashtable__ValueCollection;
+  using ValueCollection = ::System::Collections::Hashtable_ValueCollection;
 
-  using bucket = ::System::Collections::__Hashtable__bucket;
+  using bucket = ::System::Collections::Hashtable_bucket;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -557,8 +547,7 @@ public:
   __declspec(property(get = get_Values)) ::System::Collections::ICollection* Values;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__buckets,
-                      put = __cordl_internal_set__buckets)) ::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*>
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets)) ::ArrayW<::System::Collections::Hashtable_bucket, ::Array<::System::Collections::Hashtable_bucket>*>
       _buckets;
 
   /// @brief Field _count, offset 0x18, size 0x4
@@ -592,8 +581,9 @@ public:
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field s_serializationInfoTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_serializationInfoTable, put = setStaticF_s_serializationInfoTable)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<
-      ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* s_serializationInfoTable;
+  __declspec(property(get = getStaticF_s_serializationInfoTable,
+                      put = setStaticF_s_serializationInfoTable)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>*
+      s_serializationInfoTable;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
@@ -613,49 +603,49 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Add, addr 0x3d644fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3dc4670, size 0x8, virtual true, abstract: false, final false
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear, addr 0x3d648b8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3dc4a2c, size 0xa0, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clone, addr 0x3d64984, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3dc4af8, size 0x110, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Contains, addr 0x3d64a94, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x3dc4c08, size 0x10, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method ContainsKey, addr 0x3d64aa4, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ContainsKey, addr 0x3dc4c18, size 0x164, virtual true, abstract: false, final false
   inline bool ContainsKey(::System::Object* key);
 
-  /// @brief Method CopyEntries, addr 0x3d64cac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CopyEntries, addr 0x3dc4e20, size 0xec, virtual false, abstract: false, final false
   inline void CopyEntries(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method CopyKeys, addr 0x3d64c08, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CopyKeys, addr 0x3dc4d7c, size 0xa4, virtual false, abstract: false, final false
   inline void CopyKeys(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method CopyTo, addr 0x3d64d98, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dc4f0c, size 0x1a0, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method CopyValues, addr 0x3d64f38, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CopyValues, addr 0x3dc50ac, size 0xa8, virtual false, abstract: false, final false
   inline void CopyValues(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x3d65510, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3dc5684, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetHash, addr 0x3d6556c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetHash, addr 0x3dc56e0, size 0xc8, virtual true, abstract: false, final false
   inline int32_t GetHash(::System::Object* key);
 
-  /// @brief Method GetObjectData, addr 0x3d65b88, size 0x53c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3dc5cfc, size 0x53c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitHash, addr 0x3d644a8, size 0x54, virtual false, abstract: false, final false
-  inline uint32_t InitHash(::System::Object* key, int32_t hashsize, ByRef<uint32_t> seed, ByRef<uint32_t> incr);
+  /// @brief Method InitHash, addr 0x3dc461c, size 0x54, virtual false, abstract: false, final false
+  inline uint32_t InitHash(::System::Object* key, int32_t hashsize, ::ByRef<uint32_t> seed, ::ByRef<uint32_t> incr);
 
-  /// @brief Method Insert, addr 0x3d64504, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x3dc4678, size 0x3b4, virtual false, abstract: false, final false
   inline void Insert(::System::Object* key, ::System::Object* nvalue, bool add);
 
-  /// @brief Method KeyEquals, addr 0x3d6564c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method KeyEquals, addr 0x3dc57c0, size 0x108, virtual true, abstract: false, final false
   inline bool KeyEquals(::System::Object* item, ::System::Object* key);
 
   static inline ::System::Collections::Hashtable* New_ctor();
@@ -680,24 +670,24 @@ public:
 
   static inline ::System::Collections::Hashtable* New_ctor(bool trash);
 
-  /// @brief Method OnDeserialization, addr 0x3d660c4, size 0x83c, virtual true, abstract: false, final false
+  /// @brief Method OnDeserialization, addr 0x3dc6238, size 0x83c, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Remove, addr 0x3d65874, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x3dc59e8, size 0x1cc, virtual true, abstract: false, final false
   inline void Remove(::System::Object* key);
 
-  /// @brief Method Synchronized, addr 0x3d65ab8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Synchronized, addr 0x3dc5c2c, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* Synchronized(::System::Collections::Hashtable* table);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3d6545c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3dc55d0, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method UpdateVersion, addr 0x3d64958, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UpdateVersion, addr 0x3dc4acc, size 0x2c, virtual false, abstract: false, final false
   inline void UpdateVersion();
 
-  constexpr ::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> const& __cordl_internal_get__buckets() const;
+  constexpr ::ArrayW<::System::Collections::Hashtable_bucket, ::Array<::System::Collections::Hashtable_bucket>*> const& __cordl_internal_get__buckets() const;
 
-  constexpr ::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*>& __cordl_internal_get__buckets();
+  constexpr ::ArrayW<::System::Collections::Hashtable_bucket, ::Array<::System::Collections::Hashtable_bucket>*>& __cordl_internal_get__buckets();
 
   constexpr int32_t const& __cordl_internal_get__count() const;
 
@@ -707,13 +697,13 @@ public:
 
   constexpr bool& __cordl_internal_get__isWriterInProgress();
 
+  constexpr ::System::Collections::IEqualityComparer* const& __cordl_internal_get__keycomparer() const;
+
   constexpr ::System::Collections::IEqualityComparer*& __cordl_internal_get__keycomparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> const& __cordl_internal_get__keycomparer() const;
+  constexpr ::System::Collections::ICollection* const& __cordl_internal_get__keys() const;
 
   constexpr ::System::Collections::ICollection*& __cordl_internal_get__keys();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get__keys() const;
 
   constexpr float_t const& __cordl_internal_get__loadFactor() const;
 
@@ -727,19 +717,19 @@ public:
 
   constexpr int32_t& __cordl_internal_get__occupancy();
 
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
+
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
+  constexpr ::System::Collections::ICollection* const& __cordl_internal_get__values() const;
 
   constexpr ::System::Collections::ICollection*& __cordl_internal_get__values();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get__values() const;
 
   constexpr int32_t const& __cordl_internal_get__version() const;
 
   constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr void __cordl_internal_set__buckets(::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> value);
+  constexpr void __cordl_internal_set__buckets(::ArrayW<::System::Collections::Hashtable_bucket, ::Array<::System::Collections::Hashtable_bucket>*> value);
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
@@ -761,69 +751,69 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d63de0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc3f54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d6408c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc4200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x3d640e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc4258, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x3d63dec, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc3f60, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, float_t loadFactor);
 
-  /// @brief Method .ctor, addr 0x3d64094, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc4208, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, float_t loadFactor, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x3d6410c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc4280, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* d);
 
-  /// @brief Method .ctor, addr 0x3d64118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc428c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* d, float_t loadFactor);
 
-  /// @brief Method .ctor, addr 0x3d64120, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc4294, size 0x320, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* d, float_t loadFactor, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x3d640b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc422c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x3d64440, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc45b4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d63dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc3f4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool trash);
 
-  /// @brief Method expand, addr 0x3d65204, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method expand, addr 0x3dc5378, size 0x6c, virtual false, abstract: false, final false
   inline void expand();
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* getStaticF_s_serializationInfoTable();
 
-  /// @brief Method get_Count, addr 0x3d65ab0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dc5c24, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x3d6563c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x3dc57b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x3d65634, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x3dc57a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x3d65644, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3dc57b8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x3d64fe0, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3dc5154, size 0x21c, virtual true, abstract: false, final false
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method get_Keys, addr 0x3d65754, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x3dc58c8, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_SerializationInfoTable, addr 0x3d63d7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationInfoTable, addr 0x3dc3ef0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
 
-  /// @brief Method get_SyncRoot, addr 0x3d65a40, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3dc5bb4, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x3d657e4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Values, addr 0x3dc5958, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -844,19 +834,19 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method putEntry, addr 0x3d653ac, size 0xb0, virtual false, abstract: false, final false
-  inline void putEntry(::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> newBuckets, ::System::Object* key, ::System::Object* nvalue,
+  /// @brief Method putEntry, addr 0x3dc5520, size 0xb0, virtual false, abstract: false, final false
+  inline void putEntry(::ArrayW<::System::Collections::Hashtable_bucket, ::Array<::System::Collections::Hashtable_bucket>*> newBuckets, ::System::Object* key, ::System::Object* nvalue,
                        int32_t hashcode);
 
-  /// @brief Method rehash, addr 0x3d65390, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method rehash, addr 0x3dc5504, size 0x1c, virtual false, abstract: false, final false
   inline void rehash();
 
-  /// @brief Method rehash, addr 0x3d65270, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method rehash, addr 0x3dc53e4, size 0x120, virtual false, abstract: false, final false
   inline void rehash(int32_t newsize);
 
   static inline void setStaticF_s_serializationInfoTable(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* value);
 
-  /// @brief Method set_Item, addr 0x3d651fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3dc5370, size 0x8, virtual true, abstract: false, final false
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
 protected:
@@ -872,39 +862,6 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Hashtable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Hashtable(Hashtable const&) = delete;
-
-  /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> ____buckets;
-
-  /// @brief Field _count, offset: 0x18, size: 0x4, def value: None
-  int32_t ____count;
-
-  /// @brief Field _occupancy, offset: 0x1c, size: 0x4, def value: None
-  int32_t ____occupancy;
-
-  /// @brief Field _loadsize, offset: 0x20, size: 0x4, def value: None
-  int32_t ____loadsize;
-
-  /// @brief Field _loadFactor, offset: 0x24, size: 0x4, def value: None
-  float_t ____loadFactor;
-
-  /// @brief Field _version, offset: 0x28, size: 0x4, def value: None
-  int32_t ____version;
-
-  /// @brief Field _isWriterInProgress, offset: 0x2c, size: 0x1, def value: None
-  bool ____isWriterInProgress;
-
-  /// @brief Field _keys, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::ICollection* ____keys;
-
-  /// @brief Field _values, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::ICollection* ____values;
-
-  /// @brief Field _keycomparer, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::IEqualityComparer* ____keycomparer;
-
-  /// @brief Field _syncRoot, offset: 0x48, size: 0x8, def value: None
-  ::System::Object* ____syncRoot;
 
   /// @brief Field ComparerName offset 0xffffffff size 0x8
   static constexpr ::ConstString ComparerName{ u"Comparer" };
@@ -939,11 +896,42 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3807 };
 
+  /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<::System::Collections::Hashtable_bucket, ::Array<::System::Collections::Hashtable_bucket>*> ____buckets;
+
+  /// @brief Field _count, offset: 0x18, size: 0x4, def value: None
+  int32_t ____count;
+
+  /// @brief Field _occupancy, offset: 0x1c, size: 0x4, def value: None
+  int32_t ____occupancy;
+
+  /// @brief Field _loadsize, offset: 0x20, size: 0x4, def value: None
+  int32_t ____loadsize;
+
+  /// @brief Field _loadFactor, offset: 0x24, size: 0x4, def value: None
+  float_t ____loadFactor;
+
+  /// @brief Field _version, offset: 0x28, size: 0x4, def value: None
+  int32_t ____version;
+
+  /// @brief Field _isWriterInProgress, offset: 0x2c, size: 0x1, def value: None
+  bool ____isWriterInProgress;
+
+  /// @brief Field _keys, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::ICollection* ____keys;
+
+  /// @brief Field _values, offset: 0x38, size: 0x8, def value: None
+  ::System::Collections::ICollection* ____values;
+
+  /// @brief Field _keycomparer, offset: 0x40, size: 0x8, def value: None
+  ::System::Collections::IEqualityComparer* ____keycomparer;
+
+  /// @brief Field _syncRoot, offset: 0x48, size: 0x8, def value: None
+  ::System::Object* ____syncRoot;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::Hashtable, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::System::Collections::Hashtable, ____buckets) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Collections::Hashtable, ____count) == 0x18, "Offset mismatch!");
@@ -966,15 +954,17 @@ static_assert(offsetof(::System::Collections::Hashtable, ____keycomparer) == 0x4
 
 static_assert(offsetof(::System::Collections::Hashtable, ____syncRoot) == 0x48, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Collections::Hashtable, 0x50>, "Size mismatch!");
+
 } // namespace System::Collections
 NEED_NO_BOX(::System::Collections::Hashtable);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Hashtable*, "System.Collections", "Hashtable");
-NEED_NO_BOX(::System::Collections::__Hashtable__HashtableDebugView);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::__Hashtable__HashtableDebugView*, "System.Collections", "Hashtable/HashtableDebugView");
-NEED_NO_BOX(::System::Collections::__Hashtable__HashtableEnumerator);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::__Hashtable__HashtableEnumerator*, "System.Collections", "Hashtable/HashtableEnumerator");
-NEED_NO_BOX(::System::Collections::__Hashtable__KeyCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::__Hashtable__KeyCollection*, "System.Collections", "Hashtable/KeyCollection");
-NEED_NO_BOX(::System::Collections::__Hashtable__ValueCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::__Hashtable__ValueCollection*, "System.Collections", "Hashtable/ValueCollection");
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::__Hashtable__bucket, "System.Collections", "Hashtable/bucket");
+NEED_NO_BOX(::System::Collections::Hashtable_HashtableDebugView);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Hashtable_HashtableDebugView*, "System.Collections", "Hashtable/HashtableDebugView");
+NEED_NO_BOX(::System::Collections::Hashtable_HashtableEnumerator);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Hashtable_HashtableEnumerator*, "System.Collections", "Hashtable/HashtableEnumerator");
+NEED_NO_BOX(::System::Collections::Hashtable_KeyCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Hashtable_KeyCollection*, "System.Collections", "Hashtable/KeyCollection");
+NEED_NO_BOX(::System::Collections::Hashtable_ValueCollection);
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Hashtable_ValueCollection*, "System.Collections", "Hashtable/ValueCollection");
+DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Hashtable_bucket, "System.Collections", "Hashtable/bucket");

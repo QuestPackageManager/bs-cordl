@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MeshTopology_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_MeshData)
 namespace System::Collections::Generic {
@@ -29,11 +28,10 @@ class HEU_MeshData;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshData);
-// Type: HoudiniEngineUnity::HEU_MeshData
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.MeshTopology
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_MeshData*
+// CS Name: HoudiniEngineUnity.HEU_MeshData
 class CORDL_TYPE HEU_MeshData : public ::System::Object {
 public:
   // Declarations
@@ -70,42 +68,42 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_MeshData* New_ctor();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>* const& __cordl_internal_get__colors() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& __cordl_internal_get__colors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color32>*> const& __cordl_internal_get__colors() const;
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get__indices() const;
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__indices();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__indices() const;
 
   constexpr ::UnityEngine::MeshTopology const& __cordl_internal_get__meshTopology() const;
 
   constexpr ::UnityEngine::MeshTopology& __cordl_internal_get__meshTopology();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get__normals() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__normals();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__normals() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const& __cordl_internal_get__pointIndexToMeshIndexMap() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get__pointIndexToMeshIndexMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get__pointIndexToMeshIndexMap() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get__tangents() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get__tangents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get__tangents() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get__triangleNormals() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__triangleNormals();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__triangleNormals() const;
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::Array<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>*> const&
   __cordl_internal_get__uvs() const;
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::Array<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>*>& __cordl_internal_get__uvs();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__vertices();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get__vertices() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__vertices() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__vertices();
 
   constexpr void __cordl_internal_set__colors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* value);
 
@@ -125,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__vertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x3a2e77c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a853ec, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,6 +139,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_MeshData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_MeshData(HEU_MeshData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11833 };
 
   /// @brief Field _indices, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ____indices;
@@ -169,14 +170,9 @@ public:
   /// @brief Field _meshTopology, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::MeshTopology ____meshTopology;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11800 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_MeshData, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_MeshData, ____indices) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_MeshData, ____vertices) == 0x18, "Offset mismatch!");
@@ -194,6 +190,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_MeshData, ____triangleNormals) 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_MeshData, ____pointIndexToMeshIndexMap) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_MeshData, ____meshTopology) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_MeshData, 0x58>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_MeshData);

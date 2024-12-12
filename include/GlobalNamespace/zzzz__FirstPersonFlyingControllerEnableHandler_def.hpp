@@ -19,11 +19,10 @@ class FirstPersonFlyingControllerEnableHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FirstPersonFlyingControllerEnableHandler);
-// Type: ::FirstPersonFlyingControllerEnableHandler
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.DotnetExtension.CommandLine.CommandLineParserResult, UnityEngine.KeyCode, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FirstPersonFlyingControllerEnableHandler*
+// CS Name: FirstPersonFlyingControllerEnableHandler
 class CORDL_TYPE FirstPersonFlyingControllerEnableHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
 
   __declspec(property(get = get_flyingControllerEnabled, put = set_flyingControllerEnabled)) bool flyingControllerEnabled;
 
-  /// @brief Method InstallDependencies, addr 0x3aafdac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InstallDependencies, addr 0x3b0cd84, size 0xb0, virtual false, abstract: false, final false
   inline void InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult);
 
   static inline ::GlobalNamespace::FirstPersonFlyingControllerEnableHandler* New_ctor();
@@ -53,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__flyingController(::UnityW<::GlobalNamespace::FirstPersonFlyingController> value);
 
-  /// @brief Method .ctor, addr 0x3aafe5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0ce34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flyingControllerEnabled, addr 0x3aafd70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_flyingControllerEnabled, addr 0x3b0cd48, size 0x1c, virtual false, abstract: false, final false
   inline bool get_flyingControllerEnabled();
 
-  /// @brief Method set_flyingControllerEnabled, addr 0x3aafd8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_flyingControllerEnabled, addr 0x3b0cd64, size 0x20, virtual false, abstract: false, final false
   inline void set_flyingControllerEnabled(bool value);
 
 protected:
@@ -76,26 +75,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FirstPersonFlyingControllerEnableHandler(FirstPersonFlyingControllerEnableHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5031 };
+
+  /// @brief Field kKeyToToggleFPFC value: I32(292)
+  static ::UnityEngine::KeyCode const kKeyToToggleFPFC;
+
   /// @brief Field _flyingController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FirstPersonFlyingController> ____flyingController;
 
   /// @brief Field _commandLineParserResult, offset: 0x28, size: 0x18, def value: None
   ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ____commandLineParserResult;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5012 };
-
-  /// @brief Field kKeyToToggleFPFC value: static_cast<int32_t>(0x124)
-  static ::UnityEngine::KeyCode const kKeyToToggleFPFC;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingControllerEnableHandler, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingControllerEnableHandler, ____flyingController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingControllerEnableHandler, ____commandLineParserResult) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingControllerEnableHandler, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FirstPersonFlyingControllerEnableHandler);

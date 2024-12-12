@@ -17,11 +17,6 @@ template <typename T> constexpr void UnityEngine::Events::CachedInvokableCall_1<
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_Arg1, value);
 }
-template <typename T>
-inline ::UnityEngine::Events::CachedInvokableCall_1<T>* UnityEngine::Events::CachedInvokableCall_1<T>::New_ctor(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* theFunction,
-                                                                                                                T argument) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::CachedInvokableCall_1<T>*>(target, theFunction, argument));
-}
 template <typename T> inline void UnityEngine::Events::CachedInvokableCall_1<T>::_ctor(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* theFunction, T argument) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::CachedInvokableCall_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -39,6 +34,11 @@ template <typename T> inline void UnityEngine::Events::CachedInvokableCall_1<T>:
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::CachedInvokableCall_1<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arg0);
+}
+template <typename T>
+inline ::UnityEngine::Events::CachedInvokableCall_1<T>* UnityEngine::Events::CachedInvokableCall_1<T>::New_ctor(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* theFunction,
+                                                                                                                T argument) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::CachedInvokableCall_1<T>*>(target, theFunction, argument));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Events::CachedInvokableCall_1<T>::CachedInvokableCall_1() {}

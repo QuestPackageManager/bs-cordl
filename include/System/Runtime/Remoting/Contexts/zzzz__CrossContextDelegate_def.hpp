@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(CrossContextDelegate)
 namespace System {
 struct IntPtr;
@@ -18,20 +17,19 @@ class CrossContextDelegate;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::CrossContextDelegate);
-// Type: System.Runtime.Remoting.Contexts::CrossContextDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Contexts::CrossContextDelegate*
+// CS Name: System.Runtime.Remoting.Contexts.CrossContextDelegate
 class CORDL_TYPE CrossContextDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3c7f030, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3cdf1a4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::System::Runtime::Remoting::Contexts::CrossContextDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3c7efa8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cdf11c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

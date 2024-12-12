@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextComponent_1)
-namespace BGLib::Polyglot {
-class ILocalize;
-}
 namespace BGLib::Polyglot {
 struct LanguageDirection;
 }
@@ -27,13 +25,12 @@ template <typename T> class LocalizedTextComponent_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::BGLib::Polyglot::LocalizedTextComponent_1);
-// Type: BGLib.Polyglot::LocalizedTextComponent`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.Polyglot.ILocalize, UnityEngine.MonoBehaviour
 namespace BGLib::Polyglot {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BGLib.Polyglot::LocalizedTextComponent`1<T>*
+// CS Name: BGLib.Polyglot.LocalizedTextComponent`1<T>
 class CORDL_TYPE LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -66,13 +63,13 @@ public:
   /// @brief Method OnLocalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method SetText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetText(T component, ::StringW value);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateAlignment, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UpdateAlignment, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateAlignment(T component, ::BGLib::Polyglot::LanguageDirection direction);
 
   constexpr ::StringW const& __cordl_internal_get_key() const;
@@ -87,9 +84,9 @@ public:
 
   constexpr bool& __cordl_internal_get_maintainTextAlignment();
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get_parameters();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& __cordl_internal_get_parameters() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get_parameters() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get_parameters();
 
   constexpr void __cordl_internal_set_key(::StringW value);
 
@@ -131,6 +128,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizedTextComponent_1(LocalizedTextComponent_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18053 };
+
   /// @brief Field localizedComponent, offset: 0x20, size: 0x8, def value: None
   T ___localizedComponent;
 
@@ -142,9 +142,6 @@ public:
 
   /// @brief Field parameters, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Object*>* ___parameters;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

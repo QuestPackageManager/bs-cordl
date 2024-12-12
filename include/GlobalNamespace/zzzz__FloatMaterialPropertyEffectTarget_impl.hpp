@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)()>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b28df4;
+  constexpr static std::size_t addrs = 0x3b8a38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatMaterialPropertyEffectTarget*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b28e14;
+  constexpr static std::size_t addrs = 0x3b8a3ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b28e78;
+  constexpr static std::size_t addrs = 0x3b8a410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b28e18;
+  constexpr static std::size_t addrs = 0x3b8a3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)()>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b28e7c;
+  constexpr static std::size_t addrs = 0x3b8a414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatMaterialPropertyEffectTarget*>::get(),
@@ -148,13 +148,13 @@ inline void GlobalNamespace::FloatMaterialPropertyEffectTarget::SetFloat(float_t
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::FloatMaterialPropertyEffectTarget* GlobalNamespace::FloatMaterialPropertyEffectTarget::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FloatMaterialPropertyEffectTarget*>());
-}
 inline void GlobalNamespace::FloatMaterialPropertyEffectTarget::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatMaterialPropertyEffectTarget*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FloatMaterialPropertyEffectTarget* GlobalNamespace::FloatMaterialPropertyEffectTarget::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FloatMaterialPropertyEffectTarget*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatMaterialPropertyEffectTarget::FloatMaterialPropertyEffectTarget() {}

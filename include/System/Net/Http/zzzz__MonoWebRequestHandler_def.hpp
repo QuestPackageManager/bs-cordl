@@ -3,19 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Net/Http/zzzz__IMonoHttpClientHandler_def.hpp"
 #include "System/Net/Security/zzzz__AuthenticationLevel_def.hpp"
 #include "System/Net/zzzz__DecompressionMethods_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Security/Principal/zzzz__TokenImpersonationLevel_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -42,13 +44,10 @@ namespace System::Net::Http {
 class HttpResponseMessage;
 }
 namespace System::Net::Http {
-class IMonoHttpClientHandler;
+struct MonoWebRequestHandler__SendAsync_d__99;
 }
 namespace System::Net::Http {
-struct __MonoWebRequestHandler___SendAsync_d__99;
-}
-namespace System::Net::Http {
-class __MonoWebRequestHandler____c;
+class MonoWebRequestHandler___c;
 }
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
@@ -75,19 +74,7 @@ namespace System::Net {
 class WebResponse;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
@@ -99,9 +86,6 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Threading {
-struct CancellationTokenRegistration;
-}
-namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
@@ -109,9 +93,6 @@ template <typename T> class Action_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -124,50 +105,49 @@ namespace System::Net::Http {
 class MonoWebRequestHandler;
 }
 namespace System::Net::Http {
-class __MonoWebRequestHandler____c;
+class MonoWebRequestHandler___c;
 }
 namespace System::Net::Http {
-struct __MonoWebRequestHandler___SendAsync_d__99;
+struct MonoWebRequestHandler__SendAsync_d__99;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::MonoWebRequestHandler);
-MARK_REF_PTR_T(::System::Net::Http::__MonoWebRequestHandler____c);
-MARK_VAL_T(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Net::Http::MonoWebRequestHandler___c);
+MARK_VAL_T(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99);
+// Dependencies System.Object
 namespace System::Net::Http {
 // Is value type: false
-// CS Name: ::MonoWebRequestHandler::<>c*
-class CORDL_TYPE __MonoWebRequestHandler____c : public ::System::Object {
+// CS Name: System.Net.Http.MonoWebRequestHandler/<>c
+class CORDL_TYPE MonoWebRequestHandler___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Http::__MonoWebRequestHandler____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Http::MonoWebRequestHandler___c* __9;
 
   /// @brief Field <>9__95_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__95_0, put = setStaticF___9__95_0)) ::System::Func_2<::StringW, bool>* __9__95_0;
+  __declspec(property(get = getStaticF___9__95_0, put = setStaticF___9__95_0)) ::System::Func_2<::StringW, bool>* __9__95_0;
 
   /// @brief Field <>9__96_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__96_1, put = setStaticF___9__96_1)) ::System::Func_2<::StringW, bool>* __9__96_1;
+  __declspec(property(get = getStaticF___9__96_1, put = setStaticF___9__96_1)) ::System::Func_2<::StringW, bool>* __9__96_1;
 
   /// @brief Field <>9__99_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__99_0, put = setStaticF___9__99_0)) ::System::Action_1<::System::Object*>* __9__99_0;
+  __declspec(property(get = getStaticF___9__99_0, put = setStaticF___9__99_0)) ::System::Action_1<::System::Object*>* __9__99_0;
 
-  static inline ::System::Net::Http::__MonoWebRequestHandler____c* New_ctor();
+  static inline ::System::Net::Http::MonoWebRequestHandler___c* New_ctor();
 
-  /// @brief Method <CreateWebRequest>b__96_1, addr 0x41b2350, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <CreateWebRequest>b__96_1, addr 0x4213664, size 0x4c, virtual false, abstract: false, final false
   inline bool _CreateWebRequest_b__96_1(::StringW l);
 
-  /// @brief Method <GetConnectionKeepAlive>b__95_0, addr 0x41b2300, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <GetConnectionKeepAlive>b__95_0, addr 0x4213614, size 0x50, virtual false, abstract: false, final false
   inline bool _GetConnectionKeepAlive_b__95_0(::StringW l);
 
-  /// @brief Method <SendAsync>b__99_0, addr 0x41b239c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <SendAsync>b__99_0, addr 0x42136b0, size 0x88, virtual false, abstract: false, final false
   inline void _SendAsync_b__99_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x41b22f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421360c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Net::Http::__MonoWebRequestHandler____c* getStaticF___9();
+  static inline ::System::Net::Http::MonoWebRequestHandler___c* getStaticF___9();
 
   static inline ::System::Func_2<::StringW, bool>* getStaticF___9__95_0();
 
@@ -175,7 +155,7 @@ public:
 
   static inline ::System::Action_1<::System::Object*>* getStaticF___9__99_0();
 
-  static inline void setStaticF___9(::System::Net::Http::__MonoWebRequestHandler____c* value);
+  static inline void setStaticF___9(::System::Net::Http::MonoWebRequestHandler___c* value);
 
   static inline void setStaticF___9__95_0(::System::Func_2<::StringW, bool>* value);
 
@@ -186,41 +166,42 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MonoWebRequestHandler____c();
+  constexpr MonoWebRequestHandler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MonoWebRequestHandler____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MonoWebRequestHandler____c(__MonoWebRequestHandler____c&&) = delete;
+  MonoWebRequestHandler___c(MonoWebRequestHandler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MonoWebRequestHandler____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MonoWebRequestHandler____c(__MonoWebRequestHandler____c const&) = delete;
+  MonoWebRequestHandler___c(MonoWebRequestHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::__MonoWebRequestHandler____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::MonoWebRequestHandler___c, 0x10>, "Size mismatch!");
 
 } // namespace System::Net::Http
-// Type: ::<SendAsync>d__99
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration
 namespace System::Net::Http {
 // Is value type: true
-// CS Name: ::MonoWebRequestHandler::<SendAsync>d__99
-struct CORDL_TYPE __MonoWebRequestHandler___SendAsync_d__99 {
+// CS Name: System.Net.Http.MonoWebRequestHandler/<SendAsync>d__99
+struct CORDL_TYPE MonoWebRequestHandler__SendAsync_d__99 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x41b2424, size 0x17ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4213738, size 0x17ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x41b3fec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4215300, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -228,7 +209,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MonoWebRequestHandler___SendAsync_d__99();
+  constexpr MonoWebRequestHandler__SendAsync_d__99();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -236,19 +217,25 @@ public:
   // }, CppParam { name: "request", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None }, CppParam { name: "_wrequest_5__2", ty: "::System::Net::HttpWebRequest*",
   // modifiers: "", def_value: None }, CppParam { name: "_wresponse_5__3", ty: "::System::Net::HttpWebResponse*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty:
   // "::System::Threading::CancellationTokenRegistration", modifiers: "", def_value: None }, CppParam { name: "_content_5__5", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_stream_5__6", ty:
+  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_stream_5__6", ty:
   // "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebResponse*>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*>", modifiers: "", def_value: None }, CppParam { name: "__u__4", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }]
-  constexpr __MonoWebRequestHandler___SendAsync_d__99(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder,
-                                                      ::System::Net::Http::MonoWebRequestHandler* __4__this, ::System::Threading::CancellationToken cancellationToken,
-                                                      ::System::Net::Http::HttpRequestMessage* request, ::System::Net::HttpWebRequest* _wrequest_5__2, ::System::Net::HttpWebResponse* _wresponse_5__3,
-                                                      ::System::Threading::CancellationTokenRegistration __7__wrap3, ::System::Net::Http::HttpContent* _content_5__5,
-                                                      ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, ::System::IO::Stream* _stream_5__6,
-                                                      ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2,
-                                                      ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__3,
-                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__4) noexcept;
+  constexpr MonoWebRequestHandler__SendAsync_d__99(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder,
+                                                   ::System::Net::Http::MonoWebRequestHandler* __4__this, ::System::Threading::CancellationToken cancellationToken,
+                                                   ::System::Net::Http::HttpRequestMessage* request, ::System::Net::HttpWebRequest* _wrequest_5__2, ::System::Net::HttpWebResponse* _wresponse_5__3,
+                                                   ::System::Threading::CancellationTokenRegistration __7__wrap3, ::System::Net::Http::HttpContent* _content_5__5,
+                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1, ::System::IO::Stream* _stream_5__6,
+                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2,
+                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__3,
+                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__4) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16672 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -278,71 +265,65 @@ public:
   ::System::Net::Http::HttpContent* _content_5__5;
 
   /// @brief Field <>u__1, offset: 0x68, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1;
 
   /// @brief Field <stream>5__6, offset: 0x78, size: 0x8, def value: None
   ::System::IO::Stream* _stream_5__6;
 
   /// @brief Field <>u__2, offset: 0x80, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2;
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2;
 
   /// @brief Field <>u__3, offset: 0x90, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__3;
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__3;
 
   /// @brief Field <>u__4, offset: 0xa0, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__4;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16634 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, 0xa8>, "Size mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, request) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, request) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, _wrequest_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, _wrequest_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, _wresponse_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, _wresponse_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, __7__wrap3) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, __7__wrap3) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, _content_5__5) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, _content_5__5) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, __u__1) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, __u__1) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, _stream_5__6) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, _stream_5__6) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, __u__2) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, __u__2) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, __u__3) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, __u__3) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, __u__4) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, __u__4) == 0xa0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, 0xa8>, "Size mismatch!");
 
 } // namespace System::Net::Http
-// Type: System.Net.Http::MonoWebRequestHandler
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Net.DecompressionMethods, System.Net.Http.IMonoHttpClientHandler, System.Net.Security.AuthenticationLevel, System.Nullable`1<T>, System.Object,
+// System.Security.Principal.TokenImpersonationLevel, System.TimeSpan
 namespace System::Net::Http {
 // Is value type: false
-// CS Name: ::System.Net.Http::MonoWebRequestHandler*
+// CS Name: System.Net.Http.MonoWebRequestHandler
 class CORDL_TYPE MonoWebRequestHandler : public ::System::Object {
 public:
   // Declarations
-  using _SendAsync_d__99 = ::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99;
+  using _SendAsync_d__99 = ::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99;
 
-  using __c = ::System::Net::Http::__MonoWebRequestHandler____c;
+  using __c = ::System::Net::Http::MonoWebRequestHandler___c;
 
   __declspec(property(get = get_CookieContainer)) ::System::Net::CookieContainer* CookieContainer;
 
@@ -381,7 +362,7 @@ public:
   __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field groupCounter, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_groupCounter, put = setStaticF_groupCounter)) int64_t groupCounter;
+  __declspec(property(get = getStaticF_groupCounter, put = setStaticF_groupCounter)) int64_t groupCounter;
 
   /// @brief Field impersonationLevel, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_impersonationLevel, put = __cordl_internal_set_impersonationLevel)) ::System::Security::Principal::TokenImpersonationLevel impersonationLevel;
@@ -432,38 +413,38 @@ public:
   /// @brief Convert operator to "::System::Net::Http::IMonoHttpClientHandler"
   constexpr operator ::System::Net::Http::IMonoHttpClientHandler*() noexcept;
 
-  /// @brief Method CreateResponseMessage, addr 0x41b1ab4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CreateResponseMessage, addr 0x4212dc8, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpResponseMessage* CreateResponseMessage(::System::Net::HttpWebResponse* wr, ::System::Net::Http::HttpRequestMessage* requestMessage,
                                                                          ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CreateWebRequest, addr 0x41b0d18, size 0x8bc, virtual true, abstract: false, final false
+  /// @brief Method CreateWebRequest, addr 0x421202c, size 0x8bc, virtual true, abstract: false, final false
   inline ::System::Net::HttpWebRequest* CreateWebRequest(::System::Net::Http::HttpRequestMessage* request);
 
-  /// @brief Method Dispose, addr 0x41b0b10, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4211e24, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x41b0b20, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4211e34, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureModifiability, addr 0x41b09c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EnsureModifiability, addr 0x4211cd4, size 0x5c, virtual false, abstract: false, final false
   inline void EnsureModifiability();
 
-  /// @brief Method GetConnectionKeepAlive, addr 0x41b0ba4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionKeepAlive, addr 0x4211eb8, size 0x10c, virtual false, abstract: false, final false
   inline bool GetConnectionKeepAlive(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
-  /// @brief Method MethodHasBody, addr 0x41b1fb8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MethodHasBody, addr 0x42132cc, size 0x10c, virtual false, abstract: false, final false
   static inline bool MethodHasBody(::System::Net::Http::HttpMethod* method);
 
   static inline ::System::Net::Http::MonoWebRequestHandler* New_ctor();
 
-  /// @brief Method SendAsync, addr 0x41b20c4, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method SendAsync, addr 0x42133d8, size 0x104, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout, addr 0x41b21c8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout, addr 0x42134dc, size 0x70, virtual true, abstract: false, final true
   inline void System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout(::System::TimeSpan timeout);
 
-  /// @brief Method <CreateWebRequest>b__96_0, addr 0x41b2238, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateWebRequest>b__96_0, addr 0x421354c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _CreateWebRequest_b__96_0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
                                                                                                         ::ArrayW<::StringW, ::Array<::StringW>*> ai);
@@ -484,9 +465,9 @@ public:
 
   constexpr ::System::Net::DecompressionMethods& __cordl_internal_get_automaticDecompression();
 
-  constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get_cachePolicy();
+  constexpr ::System::Net::Cache::RequestCachePolicy* const& __cordl_internal_get_cachePolicy() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __cordl_internal_get_cachePolicy() const;
+  constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get_cachePolicy();
 
   constexpr ::StringW const& __cordl_internal_get_connectionGroupName() const;
 
@@ -496,13 +477,13 @@ public:
 
   constexpr ::System::TimeSpan& __cordl_internal_get_continueTimeout();
 
+  constexpr ::System::Net::CookieContainer* const& __cordl_internal_get_cookieContainer() const;
+
   constexpr ::System::Net::CookieContainer*& __cordl_internal_get_cookieContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& __cordl_internal_get_cookieContainer() const;
+  constexpr ::System::Net::ICredentials* const& __cordl_internal_get_credentials() const;
 
   constexpr ::System::Net::ICredentials*& __cordl_internal_get_credentials();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get_credentials() const;
 
   constexpr bool const& __cordl_internal_get_disposed() const;
 
@@ -528,9 +509,9 @@ public:
 
   constexpr bool& __cordl_internal_get_preAuthenticate();
 
-  constexpr ::System::Net::IWebProxy*& __cordl_internal_get_proxy();
+  constexpr ::System::Net::IWebProxy* const& __cordl_internal_get_proxy() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get_proxy() const;
+  constexpr ::System::Net::IWebProxy*& __cordl_internal_get_proxy();
 
   constexpr int32_t const& __cordl_internal_get_readWriteTimeout() const;
 
@@ -540,13 +521,13 @@ public:
 
   constexpr bool& __cordl_internal_get_sentRequest();
 
+  constexpr ::System::Net::Security::RemoteCertificateValidationCallback* const& __cordl_internal_get_serverCertificateValidationCallback() const;
+
   constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __cordl_internal_get_serverCertificateValidationCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const& __cordl_internal_get_serverCertificateValidationCallback() const;
+  constexpr ::System::Net::Security::SslClientAuthenticationOptions* const& __cordl_internal_get_sslOptions() const;
 
   constexpr ::System::Net::Security::SslClientAuthenticationOptions*& __cordl_internal_get_sslOptions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslClientAuthenticationOptions*> const& __cordl_internal_get_sslOptions() const;
 
   constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get_timeout() const;
 
@@ -612,18 +593,18 @@ public:
 
   constexpr void __cordl_internal_set_useProxy(bool value);
 
-  /// @brief Method .ctor, addr 0x41affa0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42112b4, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int64_t getStaticF_groupCounter();
 
-  /// @brief Method get_CookieContainer, addr 0x41b0a1c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_CookieContainer, addr 0x4211d30, size 0x64, virtual true, abstract: false, final true
   inline ::System::Net::CookieContainer* get_CookieContainer();
 
-  /// @brief Method get_MaxRequestContentBufferSize, addr 0x41b0a80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MaxRequestContentBufferSize, addr 0x4211d94, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_MaxRequestContentBufferSize();
 
-  /// @brief Method get_SslOptions, addr 0x41b0a88, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_SslOptions, addr 0x4211d9c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();
 
   /// @brief Convert to "::System::IDisposable"
@@ -634,7 +615,7 @@ public:
 
   static inline void setStaticF_groupCounter(int64_t value);
 
-  /// @brief Method set_SslOptions, addr 0x41b0aec, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method set_SslOptions, addr 0x4211e00, size 0x24, virtual true, abstract: false, final true
   inline void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
 
 protected:
@@ -650,6 +631,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MonoWebRequestHandler(MonoWebRequestHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16673 };
 
   /// @brief Field allowAutoRedirect, offset: 0x10, size: 0x1, def value: None
   bool ___allowAutoRedirect;
@@ -723,14 +707,9 @@ public:
   /// @brief Field disposed, offset: 0xb0, size: 0x1, def value: None
   bool ___disposed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16635 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::MonoWebRequestHandler, 0xb8>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler, ___allowAutoRedirect) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler, ___automaticDecompression) == 0x14, "Offset mismatch!");
@@ -779,9 +758,11 @@ static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler, ___timeout) =
 
 static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler, ___disposed) == 0xb0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::MonoWebRequestHandler, 0xb8>, "Size mismatch!");
+
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::MonoWebRequestHandler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::MonoWebRequestHandler*, "System.Net.Http", "MonoWebRequestHandler");
-NEED_NO_BOX(::System::Net::Http::__MonoWebRequestHandler____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::__MonoWebRequestHandler____c*, "System.Net.Http", "MonoWebRequestHandler/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99, "System.Net.Http", "MonoWebRequestHandler/<SendAsync>d__99");
+NEED_NO_BOX(::System::Net::Http::MonoWebRequestHandler___c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::MonoWebRequestHandler___c*, "System.Net.Http", "MonoWebRequestHandler/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, "System.Net.Http", "MonoWebRequestHandler/<SendAsync>d__99");

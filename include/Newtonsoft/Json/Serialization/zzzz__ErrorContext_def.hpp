@@ -18,11 +18,10 @@ class ErrorContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ErrorContext);
-// Type: Newtonsoft.Json.Serialization::ErrorContext
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::ErrorContext*
+// CS Name: Newtonsoft.Json.Serialization.ErrorContext
 class CORDL_TYPE ErrorContext : public ::System::Object {
 public:
   // Declarations
@@ -58,21 +57,21 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::ErrorContext* New_ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  constexpr ::System::Exception*& __cordl_internal_get__Error_k__BackingField();
+  constexpr ::System::Exception* const& __cordl_internal_get__Error_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get__Error_k__BackingField() const;
+  constexpr ::System::Exception*& __cordl_internal_get__Error_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__Handled_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__Handled_k__BackingField();
 
+  constexpr ::System::Object* const& __cordl_internal_get__Member_k__BackingField() const;
+
   constexpr ::System::Object*& __cordl_internal_get__Member_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Member_k__BackingField() const;
+  constexpr ::System::Object* const& __cordl_internal_get__OriginalObject_k__BackingField() const;
 
   constexpr ::System::Object*& __cordl_internal_get__OriginalObject_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__OriginalObject_k__BackingField() const;
 
   constexpr ::StringW const& __cordl_internal_get__Path_k__BackingField() const;
 
@@ -94,31 +93,31 @@ public:
 
   constexpr void __cordl_internal_set__Traced_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3e835d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee3684, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method get_Error, addr 0x3e8362c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x3ee36d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_Error();
 
-  /// @brief Method get_Handled, addr 0x3e8364c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handled, addr 0x3ee36f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Handled();
 
-  /// @brief Method get_Member, addr 0x3e8363c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x3ee36e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Member();
 
-  /// @brief Method get_OriginalObject, addr 0x3e83634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalObject, addr 0x3ee36e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_OriginalObject();
 
-  /// @brief Method get_Path, addr 0x3e83644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3ee36f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_Traced, addr 0x3e83618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Traced, addr 0x3ee36c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Traced();
 
-  /// @brief Method set_Handled, addr 0x3e83654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Handled, addr 0x3ee3700, size 0xc, virtual false, abstract: false, final false
   inline void set_Handled(bool value);
 
-  /// @brief Method set_Traced, addr 0x3e83620, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Traced, addr 0x3ee36cc, size 0xc, virtual false, abstract: false, final false
   inline void set_Traced(bool value);
 
 protected:
@@ -134,6 +133,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ErrorContext", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ErrorContext(ErrorContext const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10298 };
 
   /// @brief Field <Traced>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Traced_k__BackingField;
@@ -153,14 +155,9 @@ public:
   /// @brief Field <Handled>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____Handled_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10273 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::ErrorContext, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Serialization::ErrorContext, ____Traced_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::ErrorContext, ____Error_k__BackingField) == 0x18, "Offset mismatch!");
@@ -172,6 +169,8 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::ErrorContext, ____Memb
 static_assert(offsetof(::Newtonsoft::Json::Serialization::ErrorContext, ____Path_k__BackingField) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::ErrorContext, ____Handled_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::ErrorContext, 0x40>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::ErrorContext);

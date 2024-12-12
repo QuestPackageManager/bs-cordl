@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)(
     ::System::ComponentModel::DesignerSerializationVisibility)>(&::System::ComponentModel::DesignerSerializationVisibilityAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43e4c18;
+  constexpr static std::size_t addrs = 0x4445f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::DesignerSerializationVisibility (
     ::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(&::System::ComponentModel::DesignerSerializationVisibilityAttribute::get_Visibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e4c40;
+  constexpr static std::size_t addrs = 0x4445f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x43e4c48;
+  constexpr static std::size_t addrs = 0x4445f5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e4d20;
+  constexpr static std::size_t addrs = 0x4446034;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43e4d28;
+  constexpr static std::size_t addrs = 0x444603c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,10 +131,6 @@ inline ::System::ComponentModel::DesignerSerializationVisibilityAttribute* Syste
   return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerSerializationVisibilityAttribute*, "Default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>::get>();
 }
-inline ::System::ComponentModel::DesignerSerializationVisibilityAttribute*
-System::ComponentModel::DesignerSerializationVisibilityAttribute::New_ctor(::System::ComponentModel::DesignerSerializationVisibility visibility) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>(visibility));
-}
 inline void System::ComponentModel::DesignerSerializationVisibilityAttribute::_ctor(::System::ComponentModel::DesignerSerializationVisibility visibility) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -164,6 +160,10 @@ inline bool System::ComponentModel::DesignerSerializationVisibilityAttribute::Is
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::DesignerSerializationVisibilityAttribute*
+System::ComponentModel::DesignerSerializationVisibilityAttribute::New_ctor(::System::ComponentModel::DesignerSerializationVisibility visibility) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>(visibility));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DesignerSerializationVisibilityAttribute::DesignerSerializationVisibilityAttribute() {}

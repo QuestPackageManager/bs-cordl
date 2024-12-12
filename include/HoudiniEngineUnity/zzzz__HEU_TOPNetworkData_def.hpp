@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_TOPNetworkData)
@@ -23,11 +22,10 @@ class HEU_TOPNetworkData;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPNetworkData);
-// Type: HoudiniEngineUnity::HEU_TOPNetworkData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_TOPNetworkData*
+// CS Name: HoudiniEngineUnity.HEU_TOPNetworkData
 class CORDL_TYPE HEU_TOPNetworkData : public ::System::Object {
 public:
   // Declarations
@@ -70,17 +68,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get__selectedTOPIndex();
 
-  constexpr ::HoudiniEngineUnity::TOPNodeTags*& __cordl_internal_get__tags();
+  constexpr ::HoudiniEngineUnity::TOPNodeTags* const& __cordl_internal_get__tags() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::TOPNodeTags*> const& __cordl_internal_get__tags() const;
+  constexpr ::HoudiniEngineUnity::TOPNodeTags*& __cordl_internal_get__tags();
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__topNodeNames() const;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__topNodeNames();
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*& __cordl_internal_get__topNodes();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* const& __cordl_internal_get__topNodes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*> const& __cordl_internal_get__topNodes() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*& __cordl_internal_get__topNodes();
 
   constexpr void __cordl_internal_set__nodeID(int32_t value);
 
@@ -96,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__topNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* value);
 
-  /// @brief Method .ctor, addr 0x39fad38, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a519a8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,6 +110,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TOPNetworkData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_TOPNetworkData(HEU_TOPNetworkData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11752 };
 
   /// @brief Field _nodeID, offset: 0x10, size: 0x4, def value: None
   int32_t ____nodeID;
@@ -134,14 +135,9 @@ public:
   /// @brief Field _tags, offset: 0x40, size: 0x8, def value: None
   ::HoudiniEngineUnity::TOPNodeTags* ____tags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11719 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TOPNetworkData, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____nodeID) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____nodeName) == 0x18, "Offset mismatch!");
@@ -155,6 +151,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____selectedTOP
 static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____parentName) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPNetworkData, ____tags) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TOPNetworkData, 0x48>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPNetworkData);

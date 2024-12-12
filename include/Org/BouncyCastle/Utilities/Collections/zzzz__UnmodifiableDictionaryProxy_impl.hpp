@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(
     ::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x259c3d4;
+  constexpr static std::size_t addrs = 0x25cf6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::Contains)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x259f0dc;
+  constexpr static std::size_t addrs = 0x25d23c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(::System::Array*, int32_t)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::CopyTo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x259f188;
+  constexpr static std::size_t addrs = 0x25d2474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Count)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x259f240;
+  constexpr static std::size_t addrs = 0x25d252c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (
     ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::GetEnumerator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x259f2e4;
+  constexpr static std::size_t addrs = 0x25d25d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_IsFixedSize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x259f388;
+  constexpr static std::size_t addrs = 0x25d2674;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_IsSynchronized)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x259f42c;
+  constexpr static std::size_t addrs = 0x25d2718;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_SyncRoot)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x259f4d0;
+  constexpr static std::size_t addrs = 0x25d27bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Keys)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x259f574;
+  constexpr static std::size_t addrs = 0x25d2860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Values)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x259f618;
+  constexpr static std::size_t addrs = 0x25d2904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::GetValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x259f6bc;
+  constexpr static std::size_t addrs = 0x25d29a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,17 +186,13 @@ constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Utilities::Col
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::__cordl_internal_get_d() const {
+constexpr ::System::Collections::IDictionary* const& Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::__cordl_internal_get_d() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
 constexpr void Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::__cordl_internal_set_d(::System::Collections::IDictionary* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___d)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*
-Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::New_ctor(::System::Collections::IDictionary* d) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*>(d));
 }
 inline void Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::_ctor(::System::Collections::IDictionary* d) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,6 +259,10 @@ inline ::System::Object* Org::BouncyCastle::Utilities::Collections::Unmodifiable
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*>::get(), 35)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, k);
+}
+inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*
+Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::New_ctor(::System::Collections::IDictionary* d) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*>(d));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::UnmodifiableDictionaryProxy() {}
