@@ -734,16 +734,16 @@ public:
 
   /// @brief Method AddItem, addr 0x495dcdc, size 0x2e4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Dropdown_DropdownItem> AddItem(::UnityEngine::UI::Dropdown_OptionData* data, bool selected, ::UnityEngine::UI::Dropdown_DropdownItem* itemTemplate,
-                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_DropdownItem*>* items);
+                                                                    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Dropdown_DropdownItem>>* items);
 
   /// @brief Method AddOptions, addr 0x495c644, size 0x154, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::StringW>* options);
 
-  /// @brief Method AddOptions, addr 0x495c7c0, size 0x154, virtual false, abstract: false, final false
-  inline void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* options);
-
   /// @brief Method AddOptions, addr 0x495c5dc, size 0x68, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::UI::Dropdown_OptionData*>* options);
+
+  /// @brief Method AddOptions, addr 0x495c7c0, size 0x154, virtual false, abstract: false, final false
+  inline void AddOptions(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>* options);
 
   /// @brief Method AlphaFadeList, addr 0x495e7b0, size 0x80, virtual false, abstract: false, final false
   inline void AlphaFadeList(float_t duration, float_t alpha);

@@ -109,7 +109,7 @@ public:
   static inline ::HoudiniEngineUnity::Test_TerrainLayer* ToTestObject(::UnityEngine::TerrainLayer* self);
 
   /// @brief Method ToTestObject, addr 0x3a9bdd8, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TerrainLayer*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::TerrainLayer*>* self);
+  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TerrainLayer*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TerrainLayer>>* self);
 
 protected:
   // Ctor Parameters []

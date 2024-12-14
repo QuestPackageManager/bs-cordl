@@ -49,8 +49,8 @@ public:
   /// @brief Field _partTarget, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__partTarget, put = __cordl_internal_set__partTarget)) ::UnityW<::HoudiniEngineUnity::HEU_PartData> _partTarget;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*() noexcept;
 
   /// @brief Method IsEquivalentTo, addr 0x3a299b0, size 0x148, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
@@ -90,8 +90,9 @@ public:
   /// @brief Method .ctor, addr 0x3a29af8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ObjectInstanceInfo__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*
+  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_ObjectInstanceInfo__() noexcept;
 
 protected:
   // Ctor Parameters []

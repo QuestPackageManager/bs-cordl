@@ -120,7 +120,7 @@ public:
   inline void _ctor();
 
   /// @brief Method add_headDidEnterObstacleEvent, addr 0x3be33fc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_headDidEnterObstaclesEvent, addr 0x3be32c4, size 0x9c, virtual false, abstract: false, final false
   inline void add_headDidEnterObstaclesEvent(::System::Action* value);
@@ -129,7 +129,7 @@ public:
   inline bool get_playerHeadIsInObstacle();
 
   /// @brief Method remove_headDidEnterObstacleEvent, addr 0x3be34ac, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x3be3360, size 0x9c, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstaclesEvent(::System::Action* value);

@@ -52,7 +52,7 @@ public:
   inline void _ctor();
 
   /// @brief Method get_activeTerrains, addr 0x4919b00, size 0x28, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> get_activeTerrains();
+  static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> get_activeTerrains();
 
   /// @brief Method get_allowAutoConnect, addr 0x4919958, size 0x3c, virtual false, abstract: false, final false
   inline bool get_allowAutoConnect();

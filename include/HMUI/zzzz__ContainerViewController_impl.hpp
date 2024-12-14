@@ -706,6 +706,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::HMUI::ContainerViewController.LayoutViewControllers
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*)>(
+    &::HMUI::ContainerViewController::LayoutViewControllers)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), 12));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::HMUI::ContainerViewController.__Activate
 template <>
 
@@ -808,7 +823,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(
-    ::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>*, bool)>(
+    ::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>*, bool)>(
     &::HMUI::ContainerViewController::AddViewController)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x228374c;
@@ -818,7 +833,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), "AddViewController", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -827,7 +842,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
-    ::HMUI::ContainerViewController::*)(::HMUI::ViewController*, ::System::Action*, ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>*, bool)>(
+    ::HMUI::ContainerViewController::*)(::HMUI::ViewController*, ::System::Action*,
+                                        ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>*, bool)>(
     &::HMUI::ContainerViewController::AddViewControllerCoroutine)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x22838c0;
@@ -837,7 +853,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), "AddViewControllerCoroutine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -847,8 +863,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ContainerViewController::*)(
     ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Action*,
-    ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>*, bool)>(
-    &::HMUI::ContainerViewController::RemoveViewControllers)> {
+    ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*,
+    bool)>(&::HMUI::ContainerViewController::RemoveViewControllers)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x2283974;
 
@@ -858,8 +874,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 4>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                                                     ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -867,11 +883,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::ContainerViewController.RemoveViewControllersCoroutine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::IEnumerator* (::HMUI::ContainerViewController::*)(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Action*,
-                                                                                         ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>,
-                                                                                                            ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>*,
-                                                                                         bool)>(&::HMUI::ContainerViewController::RemoveViewControllersCoroutine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
+    ::HMUI::ContainerViewController::*)(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Action*,
+                                        ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                           ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*,
+                                        bool)>(&::HMUI::ContainerViewController::RemoveViewControllersCoroutine)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x22839a0;
 
@@ -881,8 +897,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::std::array<Il2CppType const*, 4>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                                                     ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -891,14 +907,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::HMUI::ContainerViewController::*)(
-    ::System::Collections::Generic::List_1<::HMUI::ViewController*>*, int32_t)>(&::HMUI::ContainerViewController::GetNewXPositionsForViewControllers)> {
+    ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*, int32_t)>(&::HMUI::ContainerViewController::GetNewXPositionsForViewControllers)> {
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x2283a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), "GetNewXPositionsForViewControllers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HMUI::ViewController*>*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -955,7 +971,7 @@ inline void HMUI::ContainerViewController::__Init(::HMUI::Screen* screen, ::HMUI
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, screen, parentViewController, containerViewController);
 }
-inline void HMUI::ContainerViewController::LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers) {
+inline void HMUI::ContainerViewController::LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewControllers);
@@ -998,59 +1014,62 @@ inline bool HMUI::ContainerViewController::IsChildInTransition() {
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void HMUI::ContainerViewController::AddViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
-                                                             ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>* animationLayouter, bool immediately) {
+                                                             ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>* animationLayouter,
+                                                             bool immediately) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), "AddViewController", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController, finishedCallback, animationLayouter, immediately);
 }
 inline ::System::Collections::IEnumerator*
 HMUI::ContainerViewController::AddViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
-                                                          ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>* animationLayouter, bool immediately) {
+                                                          ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>* animationLayouter,
+                                                          bool immediately) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), "AddViewControllerCoroutine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, newViewController, finishedCallback, animationLayouter, immediately);
 }
-inline void HMUI::ContainerViewController::RemoveViewControllers(
-    ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers, ::System::Action* finishedCallback,
-    ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>* animationLayouter,
-    bool immediately) {
+inline void HMUI::ContainerViewController::RemoveViewControllers(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers, ::System::Action* finishedCallback,
+                                                                 ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                                                    ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter,
+                                                                 bool immediately) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), "RemoveViewControllers", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                                                   ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewControllers, finishedCallback, animationLayouter, immediately);
 }
-inline ::System::Collections::IEnumerator* HMUI::ContainerViewController::RemoveViewControllersCoroutine(
-    ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllersToRemove, ::System::Action* finishedCallback,
-    ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>* animationLayouter,
-    bool immediately) {
+inline ::System::Collections::IEnumerator*
+HMUI::ContainerViewController::RemoveViewControllersCoroutine(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllersToRemove, ::System::Action* finishedCallback,
+                                                              ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                                                 ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter,
+                                                              bool immediately) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), "RemoveViewControllersCoroutine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                                                   ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, viewControllersToRemove, finishedCallback, animationLayouter, immediately);
 }
-inline ::ArrayW<float_t, ::Array<float_t>*> HMUI::ContainerViewController::GetNewXPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers,
+inline ::ArrayW<float_t, ::Array<float_t>*> HMUI::ContainerViewController::GetNewXPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers,
                                                                                                               int32_t exludeFromEndCount) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ContainerViewController*>::get(), "GetNewXPositionsForViewControllers", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HMUI::ViewController*>*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t, ::Array<float_t>*>, false>(this, ___internal_method, viewControllers, exludeFromEndCount);
 }

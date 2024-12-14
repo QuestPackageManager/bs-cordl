@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutSoundEffect_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoteCutSoundEffect/Pool
-class CORDL_TYPE NoteCutSoundEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteCutSoundEffect*> {
+class CORDL_TYPE NoteCutSoundEffect_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::NoteCutSoundEffect_Pool* New_ctor();

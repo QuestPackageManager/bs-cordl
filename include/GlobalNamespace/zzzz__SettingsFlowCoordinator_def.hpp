@@ -403,7 +403,7 @@ public:
   /// @brief Field didFinishEvent, offset 0xb0, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didFinishEvent,
-      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* didFinishEvent;
+      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* didFinishEvent;
 
   /// @brief Field fileStorage, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage)) ::GlobalNamespace::IFileStorage* fileStorage;
@@ -476,9 +476,9 @@ public:
 
   constexpr ::BeatSaber::Settings::Settings& __cordl_internal_get__undoSettings();
 
-  constexpr ::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>*& __cordl_internal_get_didFinishEvent();
 
   constexpr ::GlobalNamespace::IFileStorage* const& __cordl_internal_get_fileStorage() const;
 
@@ -502,7 +502,7 @@ public:
 
   constexpr void __cordl_internal_set__undoSettings(::BeatSaber::Settings::Settings value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
   constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
 
@@ -510,12 +510,12 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3c04414, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
   static inline int32_t getStaticF__selectedSettingsSubMenuInfoIdx();
 
   /// @brief Method remove_didFinishEvent, addr 0x3c044c4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
   static inline void setStaticF__selectedSettingsSubMenuInfoIdx(int32_t value);
 
@@ -537,7 +537,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4803 };
 
   /// @brief Field didFinishEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::SettingsFlowCoordinator*, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* ___didFinishEvent;
 
   /// @brief Field _mainSettingsMenuViewController, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> ____mainSettingsMenuViewController;

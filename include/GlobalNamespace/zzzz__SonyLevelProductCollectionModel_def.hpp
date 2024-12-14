@@ -777,7 +777,8 @@ public:
   /// @brief Method GetLevelProductData, addr 0x26e8ac0, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData* GetLevelProductData(::StringW levelId);
 
-  static inline ::GlobalNamespace::SonyLevelProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLevelProductPackSO*>* sonyLevelProductPacksSOs);
+  static inline ::GlobalNamespace::SonyLevelProductCollectionModel*
+  New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLevelProductPackSO>>* sonyLevelProductPacksSOs);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData*>* const& __cordl_internal_get__levelIdToProductData() const;
 
@@ -802,7 +803,7 @@ public:
   __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>* value);
 
   /// @brief Method .ctor, addr 0x26e8100, size 0x9c0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLevelProductPackSO*>* sonyLevelProductPacksSOs);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLevelProductPackSO>>* sonyLevelProductPacksSOs);
 
 protected:
   // Ctor Parameters []

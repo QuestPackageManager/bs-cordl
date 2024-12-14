@@ -165,8 +165,9 @@ constexpr ::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12::EditAv
 //  Writing Method size for method: ::GlobalNamespace::EditAvatarFlowCoordinatorHelper.add_didFinishEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(
-    ::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*)>(&::GlobalNamespace::EditAvatarFlowCoordinatorHelper::add_didFinishEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*)>(
+        &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c00fd4;
 
@@ -174,15 +175,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditAvatarFlowCoordinatorHelper*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::EditAvatarFlowCoordinatorHelper.remove_didFinishEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(
-    ::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*)>(&::GlobalNamespace::EditAvatarFlowCoordinatorHelper::remove_didFinishEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*)>(
+        &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c01084;
 
@@ -190,7 +192,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditAvatarFlowCoordinatorHelper*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*>::get() })));
     return ___internal_method;
   }
 };
@@ -398,19 +400,20 @@ constexpr void GlobalNamespace::EditAvatarFlowCoordinatorHelper::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____singleAvatarEditorFlowCoordinator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::EditAvatarFlowCoordinatorHelper::add_didFinishEvent(::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value) {
+inline void
+GlobalNamespace::EditAvatarFlowCoordinatorHelper::add_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditAvatarFlowCoordinatorHelper*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void
-GlobalNamespace::EditAvatarFlowCoordinatorHelper::remove_didFinishEvent(::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value) {
+GlobalNamespace::EditAvatarFlowCoordinatorHelper::remove_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditAvatarFlowCoordinatorHelper*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::EditAvatarFlowCoordinatorHelper::get__hasOnlyOneAvatarSystem() {

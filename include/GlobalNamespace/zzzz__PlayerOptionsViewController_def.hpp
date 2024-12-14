@@ -85,10 +85,10 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3c15ab8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3c15b68, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
 protected:
   // Ctor Parameters []

@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::XR::Management::XRGeneralSettings.get_Instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::Management::XRGeneralSettings* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> (*)()>(
     &::UnityEngine::XR::Management::XRGeneralSettings::get_Instance)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x482f51c;
@@ -293,13 +293,13 @@ inline void UnityEngine::XR::Management::XRGeneralSettings::setStaticF_k_Setting
 inline ::StringW UnityEngine::XR::Management::XRGeneralSettings::getStaticF_k_SettingsKey() {
   return ::cordl_internals::getStaticField<::StringW, "k_SettingsKey", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRGeneralSettings*>::get>();
 }
-inline void UnityEngine::XR::Management::XRGeneralSettings::setStaticF_s_RuntimeSettingsInstance(::UnityEngine::XR::Management::XRGeneralSettings* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::XR::Management::XRGeneralSettings*, "s_RuntimeSettingsInstance",
+inline void UnityEngine::XR::Management::XRGeneralSettings::setStaticF_s_RuntimeSettingsInstance(::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::XR::Management::XRGeneralSettings>, "s_RuntimeSettingsInstance",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRGeneralSettings*>::get>(
-      std::forward<::UnityEngine::XR::Management::XRGeneralSettings*>(value));
+      std::forward<::UnityW<::UnityEngine::XR::Management::XRGeneralSettings>>(value));
 }
-inline ::UnityEngine::XR::Management::XRGeneralSettings* UnityEngine::XR::Management::XRGeneralSettings::getStaticF_s_RuntimeSettingsInstance() {
-  return ::cordl_internals::getStaticField<::UnityEngine::XR::Management::XRGeneralSettings*, "s_RuntimeSettingsInstance",
+inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> UnityEngine::XR::Management::XRGeneralSettings::getStaticF_s_RuntimeSettingsInstance() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::XR::Management::XRGeneralSettings>, "s_RuntimeSettingsInstance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRGeneralSettings*>::get>();
 }
 inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> UnityEngine::XR::Management::XRGeneralSettings::get_Manager() {
@@ -313,10 +313,10 @@ inline void UnityEngine::XR::Management::XRGeneralSettings::set_Manager(::UnityE
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::Management::XRManagerSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::XR::Management::XRGeneralSettings* UnityEngine::XR::Management::XRGeneralSettings::get_Instance() {
+inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> UnityEngine::XR::Management::XRGeneralSettings::get_Instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRGeneralSettings*>::get(),
                                                                              "get_Instance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::Management::XRGeneralSettings*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::XR::Management::XRGeneralSettings>, false>(nullptr, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> UnityEngine::XR::Management::XRGeneralSettings::get_AssignedSettings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRGeneralSettings*>::get(),

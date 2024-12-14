@@ -298,15 +298,15 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>"
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::Collections::Generic::IEnumerable_1<
-    ::GlobalNamespace::OculusLevelProductPacksSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>*>(static_cast<void*>(this));
+    ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__OculusLevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::Collections::IEnumerable*() noexcept {
@@ -316,15 +316,15 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>"
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::Collections::Generic::IEnumerator_1<
-    ::GlobalNamespace::OculusLevelProductPacksSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>*>(static_cast<void*>(this));
+    ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__OculusLevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::Collections::IEnumerator*() noexcept {
@@ -621,14 +621,14 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3* GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::IEnumerable*() noexcept {
@@ -638,14 +638,14 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::IEnumerator*() noexcept {
@@ -942,14 +942,15 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7* GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__PS4LevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::IEnumerable*() noexcept {
@@ -959,14 +960,15 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::Generic::IEnumerator_1<
+    ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__PS4LevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::IEnumerator*() noexcept {
@@ -1263,14 +1265,14 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4* GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::IEnumerable*() noexcept {
@@ -1280,14 +1282,14 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::IEnumerator*() noexcept {
@@ -1584,14 +1586,15 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8* GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__PS5LevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::IEnumerable*() noexcept {
@@ -1601,14 +1604,15 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::Generic::IEnumerator_1<
+    ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__PS5LevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::IEnumerator*() noexcept {
@@ -1905,14 +1909,15 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__PerceivedLoudnessSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::IEnumerable*() noexcept {
@@ -1922,14 +1927,15 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::Generic::IEnumerator_1<
+    ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__PerceivedLoudnessSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::IEnumerator*() noexcept {
@@ -2225,14 +2231,14 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0* GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__LeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::operator ::System::Collections::IEnumerable*() noexcept {
@@ -2242,14 +2248,14 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__LeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::operator ::System::Collections::IEnumerator*() noexcept {
@@ -2545,14 +2551,14 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1* GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__LeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::operator ::System::Collections::IEnumerable*() noexcept {
@@ -2562,14 +2568,14 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1:
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__LeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::operator ::System::Collections::IEnumerator*() noexcept {
@@ -2865,14 +2871,14 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2* GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__LeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::operator ::System::Collections::IEnumerable*() noexcept {
@@ -2882,14 +2888,14 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__LeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::operator ::System::Collections::IEnumerator*() noexcept {
@@ -3187,14 +3193,15 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtens
 inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__SteamLevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::IEnumerable*() noexcept {
@@ -3204,14 +3211,15 @@ constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::Generic::IEnumerator_1<
+    ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>*
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__SteamLevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::IEnumerator*() noexcept {
@@ -3235,7 +3243,7 @@ constexpr ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetQuestLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce2c0;
@@ -3243,7 +3251,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetQuestLeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -3251,7 +3260,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetRiftLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce364;
@@ -3259,7 +3268,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetRiftLeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -3267,7 +3277,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetSteamLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce408;
@@ -3275,15 +3285,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetSteamLeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPS4LeaderboardIds
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetPS4LeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce4ac;
@@ -3291,15 +3302,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS4LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPS5LeaderboardIds
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetPS5LeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce550;
@@ -3307,15 +3319,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS5LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetOculusLevelProductPacks
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetOculusLevelProductPacks)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce5f4;
@@ -3323,15 +3336,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetOculusLevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetSteamLevelProductPacks
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetSteamLevelProductPacks)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce698;
@@ -3339,15 +3353,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetSteamLevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPS4LevelProductPacks
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetPS4LevelProductPacks)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce73c;
@@ -3355,15 +3370,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS4LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPS5LevelProductPacks
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetPS5LevelProductPacks)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce7e0;
@@ -3371,15 +3387,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS5LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPerceivedLoudnessSOs
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetPerceivedLoudnessSOs)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x26ce884;
@@ -3387,80 +3404,91 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPerceivedLoudnessSOs", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetQuestLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetQuestLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetQuestLeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetRiftLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetRiftLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetRiftLeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetSteamLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetSteamLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetSteamLeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPS4LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetPS4LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS4LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPS5LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetPS5LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS5LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetOculusLevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*, false>(nullptr, ___internal_method,
                                                                                                                                                             packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetSteamLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetSteamLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetSteamLevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*, false>(nullptr, ___internal_method,
                                                                                                                                                            packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPS4LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetPS4LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS4LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPS5LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetPS5LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS5LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::PackDefinitionExtensions::GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPerceivedLoudnessSOs", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 // Ctor Parameters []

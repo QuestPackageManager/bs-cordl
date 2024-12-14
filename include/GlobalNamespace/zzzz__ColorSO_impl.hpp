@@ -3,6 +3,20 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::ColorSO.get_color
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorSO::*)()>(&::GlobalNamespace::ColorSO::get_color)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSO*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSO*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::ColorSO.op_Implicit___UnityEngine__Color
 template <>
 

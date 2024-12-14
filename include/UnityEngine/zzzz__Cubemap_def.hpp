@@ -85,7 +85,7 @@ public:
   inline void ClearRequestedMipmapLevel();
 
   /// @brief Method CreateExternalTexture, addr 0x4893388, size 0x114, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Cubemap* CreateExternalTexture(int32_t width, ::UnityEngine::TextureFormat format, bool mipmap, ::System::IntPtr nativeTex);
+  static inline ::UnityW<::UnityEngine::Cubemap> CreateExternalTexture(int32_t width, ::UnityEngine::TextureFormat format, bool mipmap, ::System::IntPtr nativeTex);
 
   /// @brief Method GetPixel, addr 0x4893550, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetPixel(::UnityEngine::CubemapFace face, int32_t x, int32_t y);

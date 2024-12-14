@@ -7,6 +7,20 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TypeName_def.hpp"
 #include "System/zzzz__TypeNames_def.hpp"
+//  Writing Method size for method: ::System::TypeNames_ATypeName.get_DisplayName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TypeNames_ATypeName::*)()>(&::System::TypeNames_ATypeName::get_DisplayName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeNames_ATypeName*>::get(), 6));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::TypeNames_ATypeName.Equals
 template <>
 

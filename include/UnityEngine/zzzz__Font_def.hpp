@@ -107,13 +107,13 @@ public:
   __declspec(property(get = get_textureRebuildCallback, put = set_textureRebuildCallback)) ::UnityEngine::Font_FontTextureRebuildCallback* textureRebuildCallback;
 
   /// @brief Field textureRebuilt, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_textureRebuilt, put = setStaticF_textureRebuilt)) ::System::Action_1<::UnityEngine::Font*>* textureRebuilt;
+  __declspec(property(get = getStaticF_textureRebuilt, put = setStaticF_textureRebuilt)) ::System::Action_1<::UnityW<::UnityEngine::Font>>* textureRebuilt;
 
   /// @brief Method CreateDynamicFontFromOSFont, addr 0x4952a00, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Font* CreateDynamicFontFromOSFont(::StringW fontname, int32_t size);
+  static inline ::UnityW<::UnityEngine::Font> CreateDynamicFontFromOSFont(::StringW fontname, int32_t size);
 
   /// @brief Method CreateDynamicFontFromOSFont, addr 0x4952aa4, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Font* CreateDynamicFontFromOSFont(::ArrayW<::StringW, ::Array<::StringW>*> fontnames, int32_t size);
+  static inline ::UnityW<::UnityEngine::Font> CreateDynamicFontFromOSFont(::ArrayW<::StringW, ::Array<::StringW>*> fontnames, int32_t size);
 
   /// @brief Method GetCharacterInfo, addr 0x4952d84, size 0x5c, virtual false, abstract: false, final false
   inline bool GetCharacterInfo(char16_t ch, ::ByRef<::UnityEngine::CharacterInfo> info);
@@ -125,7 +125,7 @@ public:
   inline bool GetCharacterInfo(char16_t ch, ::ByRef<::UnityEngine::CharacterInfo> info, int32_t size, ::UnityEngine::FontStyle style);
 
   /// @brief Method GetDefault, addr 0x4952bb8, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Font* GetDefault();
+  static inline ::UnityW<::UnityEngine::Font> GetDefault();
 
   /// @brief Method GetMaxVertsForString, addr 0x4952b98, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetMaxVertsForString(::StringW str);
@@ -188,9 +188,9 @@ public:
   inline void add_m_FontTextureRebuildCallback(::UnityEngine::Font_FontTextureRebuildCallback* value);
 
   /// @brief Method add_textureRebuilt, addr 0x49521e4, size 0xcc, virtual false, abstract: false, final false
-  static inline void add_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
+  static inline void add_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::Font*>* getStaticF_textureRebuilt();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::Font>>* getStaticF_textureRebuilt();
 
   /// @brief Method get_ascent, addr 0x49525b4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_ascent();
@@ -220,9 +220,9 @@ public:
   inline void remove_m_FontTextureRebuildCallback(::UnityEngine::Font_FontTextureRebuildCallback* value);
 
   /// @brief Method remove_textureRebuilt, addr 0x49522b0, size 0xcc, virtual false, abstract: false, final false
-  static inline void remove_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
+  static inline void remove_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
-  static inline void setStaticF_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
+  static inline void setStaticF_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
   /// @brief Method set_characterInfo, addr 0x4952668, size 0x44, virtual false, abstract: false, final false
   inline void set_characterInfo(::ArrayW<::UnityEngine::CharacterInfo, ::Array<::UnityEngine::CharacterInfo>*> value);

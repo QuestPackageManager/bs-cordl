@@ -245,7 +245,8 @@ public:
   __declspec(property(get = get_maxDistance, put = set_maxDistance)) float_t maxDistance;
 
   /// @brief Field s_Instances, offset 0xffffffff, size 0x18
-  __declspec(property(get = getStaticF_s_Instances, put = setStaticF_s_Instances)) ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>
+  __declspec(property(get = getStaticF_s_Instances,
+                      put = setStaticF_s_Instances)) ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>>
       s_Instances;
 
   /// @brief Field s_SortedGraphics, offset 0xffffffff, size 0x8
@@ -318,7 +319,7 @@ public:
   /// @brief Method .ctor, addr 0x45f47c8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*> getStaticF_s_Instances();
+  static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> getStaticF_s_Instances();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* getStaticF_s_SortedGraphics();
 
@@ -343,7 +344,7 @@ public:
   /// @brief Method get_maxDistance, addr 0x45f3dc4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
-  static inline void setStaticF_s_Instances(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*> value);
+  static inline void setStaticF_s_Instances(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> value);
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* value);
 

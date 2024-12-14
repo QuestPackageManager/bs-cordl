@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get_IsNewBake, put = __cordl_internal_set_IsNewBake)) bool IsNewBake;
 
   static inline ::HoudiniEngineUnity::HEU_BakedEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
-                                                                   ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, bool isNewBake);
+                                                                   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
   constexpr bool const& __cordl_internal_get_IsNewBake() const;
 
@@ -40,7 +40,7 @@ public:
   constexpr void __cordl_internal_set_IsNewBake(bool value);
 
   /// @brief Method .ctor, addr 0x3a0674c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, bool isNewBake);
+  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
 protected:
   // Ctor Parameters []

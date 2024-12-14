@@ -38,6 +38,51 @@ constexpr ::GlobalNamespace::ISonyCommerceHelper_AdditionalContentEntitlementsAs
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ISonyCommerceHelper_AdditionalContentEntitlementsAsyncResult::ISonyCommerceHelper_AdditionalContentEntitlementsAsyncResult() {}
+//  Writing Method size for method: ::GlobalNamespace::ISonyCommerceHelper.GetAdditionalContentEntitlementsAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyCommerceHelper_AdditionalContentEntitlementsAsyncResult>* (
+    ::GlobalNamespace::ISonyCommerceHelper::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::ISonyCommerceHelper::GetAdditionalContentEntitlementsAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyCommerceHelper*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyCommerceHelper*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ISonyCommerceHelper.DisplayProductBrowseDialogAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyCommerceHelper_DisplayProductBrowseDialogResult>* (
+    ::GlobalNamespace::ISonyCommerceHelper::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::ISonyCommerceHelper::DisplayProductBrowseDialogAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyCommerceHelper*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyCommerceHelper*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ISonyCommerceHelper.DisplayCategoryBrowseDialogAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyCommerceHelper_DisplayCategoryBrowseDialogResult>* (
+    ::GlobalNamespace::ISonyCommerceHelper::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::ISonyCommerceHelper::DisplayCategoryBrowseDialogAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyCommerceHelper*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyCommerceHelper*>::get(), 2));
+    return ___internal_method;
+  }
+};
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyCommerceHelper_AdditionalContentEntitlementsAsyncResult>*
 GlobalNamespace::ISonyCommerceHelper::GetAdditionalContentEntitlementsAsync(::System::Threading::CancellationToken cancellationToken) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

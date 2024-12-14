@@ -150,8 +150,8 @@ constexpr ::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9::SpriteAsyncLo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(
-    ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>*, ::System::Action_1<::UnityEngine::Sprite*>*, int32_t)>(
-    &::GlobalNamespace::SpriteAsyncLoader::_ctor)> {
+    ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*, ::System::Action_1<::UnityW<::UnityEngine::Sprite>>*,
+    int32_t)>(&::GlobalNamespace::SpriteAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x3c23228;
 
@@ -159,8 +159,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Sprite*>*>::get(),
+                                                ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Sprite>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -226,31 +226,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(
-    ::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>*, ::StringW)>(&::GlobalNamespace::SpriteAsyncLoader::UnloadSprite)> {
+    ::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*, ::StringW)>(&::GlobalNamespace::SpriteAsyncLoader::UnloadSprite)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x3c234fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), "UnloadSprite", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                ::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SpriteAsyncLoader.DestroySpriteTask
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteAsyncLoader::*)(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*)>(
     &::GlobalNamespace::SpriteAsyncLoader::DestroySpriteTask)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x3c23900;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), "DestroySpriteTask", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), "DestroySpriteTask", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -322,13 +322,14 @@ constexpr void GlobalNamespace::SpriteAsyncLoader::__cordl_internal_set__destroy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____destroyFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::SpriteAsyncLoader::_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* loadFunc,
-                                                      ::System::Action_1<::UnityEngine::Sprite*>* destroyFunc, int32_t cacheSize) {
+inline void
+GlobalNamespace::SpriteAsyncLoader::_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
+                                          ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                              ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Sprite*>*>::get(),
+                                              ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Sprite>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, loadFunc, destroyFunc, cacheSize);
 }
@@ -355,19 +356,19 @@ inline void GlobalNamespace::SpriteAsyncLoader::HandleItemWillBeRemovedFromCache
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, path, _);
 }
-inline void GlobalNamespace::SpriteAsyncLoader::UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* cache,
+inline void GlobalNamespace::SpriteAsyncLoader::UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache,
                                                              ::StringW path) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), "UnloadSprite", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cache, path);
 }
-inline void GlobalNamespace::SpriteAsyncLoader::DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* spriteTask) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), "DestroySpriteTask", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>::get() })));
+inline void GlobalNamespace::SpriteAsyncLoader::DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteAsyncLoader*>::get(), "DestroySpriteTask", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, spriteTask);
 }
 inline void GlobalNamespace::SpriteAsyncLoader::DestroySprite(::UnityEngine::Sprite* sprite) {
@@ -377,8 +378,8 @@ inline void GlobalNamespace::SpriteAsyncLoader::DestroySprite(::UnityEngine::Spr
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sprite);
 }
 inline ::GlobalNamespace::SpriteAsyncLoader*
-GlobalNamespace::SpriteAsyncLoader::New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* loadFunc,
-                                             ::System::Action_1<::UnityEngine::Sprite*>* destroyFunc, int32_t cacheSize) {
+GlobalNamespace::SpriteAsyncLoader::New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
+                                             ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SpriteAsyncLoader*>(loadFunc, destroyFunc, cacheSize));
 }
 // Ctor Parameters []

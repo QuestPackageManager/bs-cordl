@@ -56,7 +56,7 @@ public:
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GetRootGameObjects();
 
   /// @brief Method GetRootGameObjects, addr 0x48bde24, size 0x274, virtual false, abstract: false, final false
-  inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* rootGameObjects);
+  inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* rootGameObjects);
 
   /// @brief Method GetRootGameObjectsInternal, addr 0x48bdc10, size 0x44, virtual false, abstract: false, final false
   static inline void GetRootGameObjectsInternal(int32_t sceneHandle, ::System::Object* resultRootList);

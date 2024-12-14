@@ -13,7 +13,7 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(
-    ::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent)> {
+    ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x3c241f4;
 
@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorHueSlider*>::get(), "add_colorHueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(
-    ::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent)> {
+    ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x3c242a8;
 
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorHueSlider*>::get(), "remove_colorHueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -151,32 +151,33 @@ constexpr void GlobalNamespace::ColorHueSlider::__cordl_internal_set__lightColor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightColor = value;
 }
-constexpr ::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>*& GlobalNamespace::ColorHueSlider::__cordl_internal_get_colorHueDidChangeEvent() {
+constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*&
+GlobalNamespace::ColorHueSlider::__cordl_internal_get_colorHueDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorHueDidChangeEvent;
 }
-constexpr ::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>* const&
+constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* const&
 GlobalNamespace::ColorHueSlider::__cordl_internal_get_colorHueDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorHueDidChangeEvent;
 }
-constexpr void
-GlobalNamespace::ColorHueSlider::__cordl_internal_set_colorHueDidChangeEvent(::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+constexpr void GlobalNamespace::ColorHueSlider::__cordl_internal_set_colorHueDidChangeEvent(
+    ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorHueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent(::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+inline void GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorHueSlider*>::get(), "add_colorHueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent(::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+inline void GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorHueSlider*>::get(), "remove_colorHueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::GlobalNamespace::ColorHueSlider*, float_t, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::ColorHueSlider::Awake() {

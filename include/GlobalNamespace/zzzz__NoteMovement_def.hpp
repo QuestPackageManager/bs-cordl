@@ -104,7 +104,7 @@ public:
 
   /// @brief Field noteDidPassJumpThreeQuartersEvent, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_noteDidPassJumpThreeQuartersEvent,
-                      put = __cordl_internal_set_noteDidPassJumpThreeQuartersEvent)) ::System::Action_1<::GlobalNamespace::NoteMovement*>* noteDidPassJumpThreeQuartersEvent;
+                      put = __cordl_internal_set_noteDidPassJumpThreeQuartersEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* noteDidPassJumpThreeQuartersEvent;
 
   /// @brief Field noteDidPassMissedMarkerEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_noteDidPassMissedMarkerEvent, put = __cordl_internal_set_noteDidPassMissedMarkerEvent)) ::System::Action* noteDidPassMissedMarkerEvent;
@@ -208,9 +208,9 @@ public:
 
   constexpr ::System::Action*& __cordl_internal_get_noteDidPassHalfJumpEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteMovement*>* const& __cordl_internal_get_noteDidPassJumpThreeQuartersEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* const& __cordl_internal_get_noteDidPassJumpThreeQuartersEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteMovement*>*& __cordl_internal_get_noteDidPassJumpThreeQuartersEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>*& __cordl_internal_get_noteDidPassJumpThreeQuartersEvent();
 
   constexpr ::System::Action* const& __cordl_internal_get_noteDidPassMissedMarkerEvent() const;
 
@@ -248,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set_noteDidPassHalfJumpEvent(::System::Action* value);
 
-  constexpr void __cordl_internal_set_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteMovement*>* value);
+  constexpr void __cordl_internal_set_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value);
 
   constexpr void __cordl_internal_set_noteDidPassMissedMarkerEvent(::System::Action* value);
 
@@ -270,7 +270,7 @@ public:
   inline void add_noteDidPassHalfJumpEvent(::System::Action* value);
 
   /// @brief Method add_noteDidPassJumpThreeQuartersEvent, addr 0x3ae9294, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteMovement*>* value);
+  inline void add_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value);
 
   /// @brief Method add_noteDidPassMissedMarkerEvent, addr 0x3ae9344, size 0x9c, virtual false, abstract: false, final false
   inline void add_noteDidPassMissedMarkerEvent(::System::Action* value);
@@ -324,7 +324,7 @@ public:
   inline void remove_noteDidPassHalfJumpEvent(::System::Action* value);
 
   /// @brief Method remove_noteDidPassJumpThreeQuartersEvent, addr 0x3ae9518, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteMovement*>* value);
+  inline void remove_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value);
 
   /// @brief Method remove_noteDidPassMissedMarkerEvent, addr 0x3ae95c8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_noteDidPassMissedMarkerEvent(::System::Action* value);
@@ -380,7 +380,7 @@ public:
   ::System::Action* ___noteDidPassHalfJumpEvent;
 
   /// @brief Field noteDidPassJumpThreeQuartersEvent, offset: 0x70, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::NoteMovement*>* ___noteDidPassJumpThreeQuartersEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* ___noteDidPassJumpThreeQuartersEvent;
 
   /// @brief Field noteDidMoveInJumpPhaseEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action* ___noteDidMoveInJumpPhaseEvent;

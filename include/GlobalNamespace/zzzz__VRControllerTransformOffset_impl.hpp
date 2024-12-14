@@ -3,6 +3,118 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRControllerTransformOffset_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset.get_positionOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllerTransformOffset::*)()>(
+    &::GlobalNamespace::VRControllerTransformOffset::get_positionOffset)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset.get_rotationOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllerTransformOffset::*)()>(
+    &::GlobalNamespace::VRControllerTransformOffset::get_rotationOffset)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset.get_alternativeHandling
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::VRControllerTransformOffset::*)()>(
+    &::GlobalNamespace::VRControllerTransformOffset::get_alternativeHandling)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset.get_leftPositionOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllerTransformOffset::*)()>(
+    &::GlobalNamespace::VRControllerTransformOffset::get_leftPositionOffset)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset.get_leftRotationOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllerTransformOffset::*)()>(
+    &::GlobalNamespace::VRControllerTransformOffset::get_leftRotationOffset)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset.get_rightPositionOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllerTransformOffset::*)()>(
+    &::GlobalNamespace::VRControllerTransformOffset::get_rightPositionOffset)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(), 9));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset.get_rightRotationOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllerTransformOffset::*)()>(
+    &::GlobalNamespace::VRControllerTransformOffset::get_rightRotationOffset)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllerTransformOffset*>::get(), 10));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::VRControllerTransformOffset._ctor
 template <>
 

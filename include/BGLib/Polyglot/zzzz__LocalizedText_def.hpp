@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::BGLib::Polyglot::LocalizedText);
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: BGLib.Polyglot.LocalizedText
-class CORDL_TYPE LocalizedText : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityEngine::UI::Text*> {
+class CORDL_TYPE LocalizedText : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::UnityEngine::UI::Text>> {
 public:
   // Declarations
   /// @brief Method IsAlignmentLeft, addr 0x22af908, size 0x20, virtual false, abstract: false, final false

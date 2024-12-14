@@ -5,6 +5,54 @@
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::IMethodReturnMessage.get_Exception
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Runtime::Remoting::Messaging::IMethodReturnMessage::*)()>(
+    &::System::Runtime::Remoting::Messaging::IMethodReturnMessage::get_Exception)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::IMethodReturnMessage.get_OutArgs
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
+    ::System::Runtime::Remoting::Messaging::IMethodReturnMessage::*)()>(&::System::Runtime::Remoting::Messaging::IMethodReturnMessage::get_OutArgs)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Messaging::IMethodReturnMessage.get_ReturnValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::IMethodReturnMessage::*)()>(
+    &::System::Runtime::Remoting::Messaging::IMethodReturnMessage::get_ReturnValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IMethodReturnMessage*>::get(), 2));
+    return ___internal_method;
+  }
+};
 inline ::System::Exception* System::Runtime::Remoting::Messaging::IMethodReturnMessage::get_Exception() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

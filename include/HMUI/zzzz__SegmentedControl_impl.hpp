@@ -16,6 +16,35 @@
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+//  Writing Method size for method: ::HMUI::SegmentedControl_IDataSource.NumberOfCells
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::SegmentedControl_IDataSource::*)()>(&::HMUI::SegmentedControl_IDataSource::NumberOfCells)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl_IDataSource*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::SegmentedControl_IDataSource.CellForCellNumber
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::SegmentedControlCell> (::HMUI::SegmentedControl_IDataSource::*)(int32_t)>(
+    &::HMUI::SegmentedControl_IDataSource::CellForCellNumber)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl_IDataSource*>::get(), 1));
+    return ___internal_method;
+  }
+};
 inline int32_t HMUI::SegmentedControl_IDataSource::NumberOfCells() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl_IDataSource*>::get(), 0)));
@@ -29,37 +58,37 @@ inline ::UnityW<::HMUI::SegmentedControlCell> HMUI::SegmentedControl_IDataSource
 //  Writing Method size for method: ::HMUI::SegmentedControl.add_didSelectCellEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::HMUI::SegmentedControl*, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*)>(
     &::HMUI::SegmentedControl::add_didSelectCellEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x4088d88;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "add_didSelectCellEvent", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SegmentedControl*, int32_t>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "add_didSelectCellEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SegmentedControl.remove_didSelectCellEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::HMUI::SegmentedControl*, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*)>(
     &::HMUI::SegmentedControl::remove_didSelectCellEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x4088e38;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "remove_didSelectCellEvent", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SegmentedControl*, int32_t>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "remove_didSelectCellEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SegmentedControl.add_didPressNonInteractableCellEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::HMUI::SegmentedControl*, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*)>(
     &::HMUI::SegmentedControl::add_didPressNonInteractableCellEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x4088ee8;
@@ -67,14 +96,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "add_didPressNonInteractableCellEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SegmentedControl*, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SegmentedControl.remove_didPressNonInteractableCellEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::HMUI::SegmentedControl*, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SegmentedControl::*)(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*)>(
     &::HMUI::SegmentedControl::remove_didPressNonInteractableCellEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x4088f98;
@@ -82,7 +111,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "remove_didPressNonInteractableCellEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SegmentedControl*, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -266,27 +295,27 @@ constexpr void HMUI::SegmentedControl::__cordl_internal_set__container(::Zenject
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::HMUI::SegmentedControl*, int32_t>*& HMUI::SegmentedControl::__cordl_internal_get_didSelectCellEvent() {
+constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*& HMUI::SegmentedControl::__cordl_internal_get_didSelectCellEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellEvent;
 }
-constexpr ::System::Action_2<::HMUI::SegmentedControl*, int32_t>* const& HMUI::SegmentedControl::__cordl_internal_get_didSelectCellEvent() const {
+constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* const& HMUI::SegmentedControl::__cordl_internal_get_didSelectCellEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellEvent;
 }
-constexpr void HMUI::SegmentedControl::__cordl_internal_set_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value) {
+constexpr void HMUI::SegmentedControl::__cordl_internal_set_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectCellEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::HMUI::SegmentedControl*, int32_t>*& HMUI::SegmentedControl::__cordl_internal_get_didPressNonInteractableCellEvent() {
+constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*& HMUI::SegmentedControl::__cordl_internal_get_didPressNonInteractableCellEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressNonInteractableCellEvent;
 }
-constexpr ::System::Action_2<::HMUI::SegmentedControl*, int32_t>* const& HMUI::SegmentedControl::__cordl_internal_get_didPressNonInteractableCellEvent() const {
+constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* const& HMUI::SegmentedControl::__cordl_internal_get_didPressNonInteractableCellEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressNonInteractableCellEvent;
 }
-constexpr void HMUI::SegmentedControl::__cordl_internal_set_didPressNonInteractableCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value) {
+constexpr void HMUI::SegmentedControl::__cordl_internal_set_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressNonInteractableCellEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -391,28 +420,28 @@ HMUI::SegmentedControl::__cordl_internal_set__cellToPrefabMap(::System::Collecti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cellToPrefabMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void HMUI::SegmentedControl::add_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "add_didSelectCellEvent", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SegmentedControl*, int32_t>*>::get() })));
+inline void HMUI::SegmentedControl::add_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "add_didSelectCellEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SegmentedControl::remove_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "remove_didSelectCellEvent", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SegmentedControl*, int32_t>*>::get() })));
+inline void HMUI::SegmentedControl::remove_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "remove_didSelectCellEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SegmentedControl::add_didPressNonInteractableCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value) {
+inline void HMUI::SegmentedControl::add_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "add_didPressNonInteractableCellEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SegmentedControl*, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SegmentedControl::remove_didPressNonInteractableCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value) {
+inline void HMUI::SegmentedControl::remove_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SegmentedControl*>::get(), "remove_didPressNonInteractableCellEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SegmentedControl*, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::HMUI::SegmentedControl_IDataSource* HMUI::SegmentedControl::get_dataSource() {

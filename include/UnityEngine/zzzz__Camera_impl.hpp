@@ -2365,7 +2365,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Camera.get_main
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Camera* (*)()>(&::UnityEngine::Camera::get_main)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (*)()>(&::UnityEngine::Camera::get_main)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x48668d8;
 
@@ -2378,7 +2378,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Camera.get_current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Camera* (*)()>(&::UnityEngine::Camera::get_current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (*)()>(&::UnityEngine::Camera::get_current)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x4866900;
 
@@ -2699,7 +2699,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Camera.get_allCameras
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> (*)()>(&::UnityEngine::Camera::get_allCameras)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> (*)()>(
+    &::UnityEngine::Camera::get_allCameras)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x4867190;
 
@@ -4889,15 +4890,15 @@ inline float_t UnityEngine::Camera::VerticalToHorizontalFieldOfView(float_t vert
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, verticalFieldOfView, aspectRatio);
 }
-inline ::UnityEngine::Camera* UnityEngine::Camera::get_main() {
+inline ::UnityW<::UnityEngine::Camera> UnityEngine::Camera::get_main() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Camera*>::get(), "get_main",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Camera*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Camera>, false>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::Camera* UnityEngine::Camera::get_current() {
+inline ::UnityW<::UnityEngine::Camera> UnityEngine::Camera::get_current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Camera*>::get(), "get_current",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Camera*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Camera>, false>(nullptr, ___internal_method);
 }
 inline ::UnityEngine::SceneManagement::Scene UnityEngine::Camera::get_scene() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Camera*>::get(), "get_scene",
@@ -5023,10 +5024,10 @@ inline int32_t UnityEngine::Camera::get_allCamerasCount() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline ::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> UnityEngine::Camera::get_allCameras() {
+inline ::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> UnityEngine::Camera::get_allCameras() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Camera*>::get(), "get_allCameras",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*>, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*>, false>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::Camera::GetAllCameras(::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> cameras) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

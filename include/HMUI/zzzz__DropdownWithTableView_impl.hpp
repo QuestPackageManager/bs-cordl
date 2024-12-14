@@ -9,7 +9,7 @@
 //  Writing Method size for method: ::HMUI::DropdownWithTableView.add_didSelectCellWithIdxEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::DropdownWithTableView::*)(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::DropdownWithTableView::*)(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*)>(
     &::HMUI::DropdownWithTableView::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39f56d4;
@@ -17,14 +17,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::DropdownWithTableView*>::get(), "add_didSelectCellWithIdxEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::DropdownWithTableView.remove_didSelectCellWithIdxEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::DropdownWithTableView::*)(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::DropdownWithTableView::*)(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*)>(
     &::HMUI::DropdownWithTableView::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39f5784;
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::DropdownWithTableView*>::get(), "remove_didSelectCellWithIdxEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -371,15 +371,15 @@ constexpr void HMUI::DropdownWithTableView::__cordl_internal_set__hideOnSelectio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hideOnSelection = value;
 }
-constexpr ::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*& HMUI::DropdownWithTableView::__cordl_internal_get_didSelectCellWithIdxEvent() {
+constexpr ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*& HMUI::DropdownWithTableView::__cordl_internal_get_didSelectCellWithIdxEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
-constexpr ::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* const& HMUI::DropdownWithTableView::__cordl_internal_get_didSelectCellWithIdxEvent() const {
+constexpr ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* const& HMUI::DropdownWithTableView::__cordl_internal_get_didSelectCellWithIdxEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
-constexpr void HMUI::DropdownWithTableView::__cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value) {
+constexpr void HMUI::DropdownWithTableView::__cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectCellWithIdxEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -395,16 +395,16 @@ constexpr void HMUI::DropdownWithTableView::__cordl_internal_set__selectedIndex_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedIndex_k__BackingField = value;
 }
-inline void HMUI::DropdownWithTableView::add_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value) {
+inline void HMUI::DropdownWithTableView::add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::DropdownWithTableView*>::get(), "add_didSelectCellWithIdxEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::DropdownWithTableView::remove_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value) {
+inline void HMUI::DropdownWithTableView::remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::DropdownWithTableView*>::get(), "remove_didSelectCellWithIdxEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::HMUI::TableView_IDataSource* HMUI::DropdownWithTableView::get_tableViewDataSource() {

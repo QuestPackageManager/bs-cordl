@@ -39,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Asset, put = __cordl_internal_set_m_Asset)) ::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_Asset;
 
   /// @brief Method Create, addr 0x454d778, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::InputActionReference* Create(::UnityEngine::InputSystem::InputAction* action);
+  static inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> Create(::UnityEngine::InputSystem::InputAction* action);
 
   /// @brief Method GetDisplayName, addr 0x454d40c, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::UnityEngine::InputSystem::InputAction* action);

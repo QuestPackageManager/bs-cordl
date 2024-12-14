@@ -115,7 +115,7 @@ public:
 
   /// @brief Field valueDidChangeEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent,
-                      put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* valueDidChangeEvent;
+                      put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* valueDidChangeEvent;
 
   /// @brief Field valueType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_valueType, put = __cordl_internal_set_valueType)) ::GlobalNamespace::FormattedFloatListSettingsController_ValueType valueType;
@@ -160,9 +160,9 @@ public:
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__values();
 
-  constexpr ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* const& __cordl_internal_get_valueDidChangeEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* const& __cordl_internal_get_valueDidChangeEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*& __cordl_internal_get_valueDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*& __cordl_internal_get_valueDidChangeEvent();
 
   constexpr ::GlobalNamespace::FormattedFloatListSettingsController_ValueType const& __cordl_internal_get_valueType() const;
 
@@ -180,7 +180,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value);
+  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
   constexpr void __cordl_internal_set_valueType(::GlobalNamespace::FormattedFloatListSettingsController_ValueType value);
 
@@ -188,7 +188,7 @@ public:
   inline void _ctor();
 
   /// @brief Method add_valueDidChangeEvent, addr 0x3c0e204, size 0xb0, virtual false, abstract: false, final false
-  inline void add_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value);
+  inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
   /// @brief Method get_value, addr 0x3c0e364, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
@@ -197,7 +197,7 @@ public:
   inline ::ArrayW<float_t, ::Array<float_t>*> get_values();
 
   /// @brief Method remove_valueDidChangeEvent, addr 0x3c0e2b4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value);
+  inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
   /// @brief Method set_values, addr 0x3c0e374, size 0x10, virtual false, abstract: false, final false
   inline void set_values(::ArrayW<float_t, ::Array<float_t>*> value);
@@ -229,7 +229,7 @@ public:
   ::GlobalNamespace::FormattedFloatListSettingsController_ValueType ___valueType;
 
   /// @brief Field valueDidChangeEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* ___valueDidChangeEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* ___valueDidChangeEvent;
 
   /// @brief Field _value, offset: 0x50, size: 0x4, def value: None
   float_t ____value;

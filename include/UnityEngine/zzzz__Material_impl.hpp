@@ -22,7 +22,7 @@
 //  Writing Method size for method: ::UnityEngine::Material.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)(::StringW)>(&::UnityEngine::Material::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::StringW)>(&::UnityEngine::Material::Create)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x487eaf0;
 
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Material.GetDefaultMaterial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&::UnityEngine::Material::GetDefaultMaterial)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::Material::GetDefaultMaterial)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x487eda4;
 
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Material.GetDefaultParticleMaterial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&::UnityEngine::Material::GetDefaultParticleMaterial)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::Material::GetDefaultParticleMaterial)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x487edcc;
 
@@ -148,7 +148,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Material.GetDefaultLineMaterial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Material* (*)()>(&::UnityEngine::Material::GetDefaultLineMaterial)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::Material::GetDefaultLineMaterial)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x487edf4;
 
@@ -3502,11 +3502,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Material* UnityEngine::Material::Create(::StringW scriptContents) {
+inline ::UnityW<::UnityEngine::Material> UnityEngine::Material::Create(::StringW scriptContents) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Material*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Material*, false>(nullptr, ___internal_method, scriptContents);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method, scriptContents);
 }
 inline void UnityEngine::Material::CreateWithShader(::UnityEngine::Material* self, ::UnityEngine::Shader* shader) {
   static auto* ___internal_method =
@@ -3546,20 +3546,20 @@ inline void UnityEngine::Material::_ctor(::StringW contents) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, contents);
 }
-inline ::UnityEngine::Material* UnityEngine::Material::GetDefaultMaterial() {
+inline ::UnityW<::UnityEngine::Material> UnityEngine::Material::GetDefaultMaterial() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Material*>::get(), "GetDefaultMaterial",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Material*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::Material* UnityEngine::Material::GetDefaultParticleMaterial() {
+inline ::UnityW<::UnityEngine::Material> UnityEngine::Material::GetDefaultParticleMaterial() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Material*>::get(), "GetDefaultParticleMaterial",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Material*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::Material* UnityEngine::Material::GetDefaultLineMaterial() {
+inline ::UnityW<::UnityEngine::Material> UnityEngine::Material::GetDefaultLineMaterial() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Material*>::get(), "GetDefaultLineMaterial",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Material*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Shader> UnityEngine::Material::get_shader() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Material*>::get(), "get_shader",

@@ -62,28 +62,28 @@ constexpr ::UnityEngine::Font_FontTextureRebuildCallback::Font_FontTextureRebuil
 //  Writing Method size for method: ::UnityEngine::Font.add_textureRebuilt
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::Font*>*)>(&::UnityEngine::Font::add_textureRebuilt)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::Font>>*)>(&::UnityEngine::Font::add_textureRebuilt)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x49521e4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "add_textureRebuilt", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Font*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "add_textureRebuilt", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Font>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Font.remove_textureRebuilt
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::Font*>*)>(&::UnityEngine::Font::remove_textureRebuilt)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::Font>>*)>(&::UnityEngine::Font::remove_textureRebuilt)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x49522b0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "remove_textureRebuilt", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Font*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "remove_textureRebuilt", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Font>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -326,7 +326,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Font.CreateDynamicFontFromOSFont
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Font* (*)(::StringW, int32_t)>(&::UnityEngine::Font::CreateDynamicFontFromOSFont)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (*)(::StringW, int32_t)>(&::UnityEngine::Font::CreateDynamicFontFromOSFont)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x4952a00;
 
@@ -340,7 +340,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Font.CreateDynamicFontFromOSFont
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Font* (*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
     &::UnityEngine::Font::CreateDynamicFontFromOSFont)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x4952aa4;
@@ -384,7 +384,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Font.GetDefault
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Font* (*)()>(&::UnityEngine::Font::GetDefault)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (*)()>(&::UnityEngine::Font::GetDefault)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x4952bb8;
 
@@ -602,23 +602,23 @@ constexpr void UnityEngine::Font::__cordl_internal_set_m_FontTextureRebuildCallb
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FontTextureRebuildCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::Font::setStaticF_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::UnityEngine::Font*>*, "textureRebuilt", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get>(
-      std::forward<::System::Action_1<::UnityEngine::Font*>*>(value));
+inline void UnityEngine::Font::setStaticF_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::UnityW<::UnityEngine::Font>>*, "textureRebuilt", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get>(
+      std::forward<::System::Action_1<::UnityW<::UnityEngine::Font>>*>(value));
 }
-inline ::System::Action_1<::UnityEngine::Font*>* UnityEngine::Font::getStaticF_textureRebuilt() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngine::Font*>*, "textureRebuilt", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get>();
+inline ::System::Action_1<::UnityW<::UnityEngine::Font>>* UnityEngine::Font::getStaticF_textureRebuilt() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::UnityW<::UnityEngine::Font>>*, "textureRebuilt", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get>();
 }
-inline void UnityEngine::Font::add_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "add_textureRebuilt", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Font*>*>::get() })));
+inline void UnityEngine::Font::add_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "add_textureRebuilt", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Font>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline void UnityEngine::Font::remove_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "remove_textureRebuilt", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Font*>*>::get() })));
+inline void UnityEngine::Font::remove_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "remove_textureRebuilt", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Font>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::Font::add_m_FontTextureRebuildCallback(::UnityEngine::Font_FontTextureRebuildCallback* value) {
@@ -715,18 +715,18 @@ inline void UnityEngine::Font::_ctor(::ArrayW<::StringW, ::Array<::StringW>*> na
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, names, size);
 }
-inline ::UnityEngine::Font* UnityEngine::Font::CreateDynamicFontFromOSFont(::StringW fontname, int32_t size) {
+inline ::UnityW<::UnityEngine::Font> UnityEngine::Font::CreateDynamicFontFromOSFont(::StringW fontname, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "CreateDynamicFontFromOSFont", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Font*, false>(nullptr, ___internal_method, fontname, size);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>, false>(nullptr, ___internal_method, fontname, size);
 }
-inline ::UnityEngine::Font* UnityEngine::Font::CreateDynamicFontFromOSFont(::ArrayW<::StringW, ::Array<::StringW>*> fontnames, int32_t size) {
+inline ::UnityW<::UnityEngine::Font> UnityEngine::Font::CreateDynamicFontFromOSFont(::ArrayW<::StringW, ::Array<::StringW>*> fontnames, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "CreateDynamicFontFromOSFont", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Font*, false>(nullptr, ___internal_method, fontnames, size);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>, false>(nullptr, ___internal_method, fontnames, size);
 }
 inline void UnityEngine::Font::InvokeTextureRebuilt_Internal(::UnityEngine::Font* font) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -740,10 +740,10 @@ inline int32_t UnityEngine::Font::GetMaxVertsForString(::StringW str) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, str);
 }
-inline ::UnityEngine::Font* UnityEngine::Font::GetDefault() {
+inline ::UnityW<::UnityEngine::Font> UnityEngine::Font::GetDefault() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Font*>::get(), "GetDefault",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Font*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>, false>(nullptr, ___internal_method);
 }
 inline bool UnityEngine::Font::HasCharacter(char16_t c) {
   static auto* ___internal_method =

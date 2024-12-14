@@ -4,6 +4,63 @@
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Collections::ICollection.CopyTo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ICollection::*)(::System::Array*, int32_t)>(
+    &::System::Collections::ICollection::CopyTo)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Collections::ICollection.get_Count
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::ICollection::*)()>(&::System::Collections::ICollection::get_Count)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Collections::ICollection.get_SyncRoot
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::ICollection::*)()>(&::System::Collections::ICollection::get_SyncRoot)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Collections::ICollection.get_IsSynchronized
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::ICollection::*)()>(&::System::Collections::ICollection::get_IsSynchronized)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(), 3));
+    return ___internal_method;
+  }
+};
 inline void System::Collections::ICollection::CopyTo(::System::Array* array, int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ICollection*>::get(), 0)));

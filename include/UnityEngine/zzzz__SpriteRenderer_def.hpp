@@ -70,7 +70,7 @@ public:
 
   /// @brief Field m_SpriteChangeEvent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SpriteChangeEvent,
-                      put = __cordl_internal_set_m_SpriteChangeEvent)) ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* m_SpriteChangeEvent;
+                      put = __cordl_internal_set_m_SpriteChangeEvent)) ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* m_SpriteChangeEvent;
 
   __declspec(property(get = get_maskInteraction, put = set_maskInteraction)) ::UnityEngine::SpriteMaskInteraction maskInteraction;
 
@@ -108,16 +108,16 @@ public:
   static inline ::UnityEngine::SpriteRenderer* New_ctor();
 
   /// @brief Method RegisterSpriteChangeCallback, addr 0x48b82e4, size 0xa0, virtual false, abstract: false, final false
-  inline void RegisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>* callback);
+  inline void RegisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>* callback);
 
   /// @brief Method UnregisterSpriteChangeCallback, addr 0x48b8384, size 0x60, virtual false, abstract: false, final false
-  inline void UnregisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>* callback);
+  inline void UnregisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>* callback);
 
-  constexpr ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* const& __cordl_internal_get_m_SpriteChangeEvent() const;
+  constexpr ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* const& __cordl_internal_get_m_SpriteChangeEvent() const;
 
-  constexpr ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>*& __cordl_internal_get_m_SpriteChangeEvent();
+  constexpr ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>*& __cordl_internal_get_m_SpriteChangeEvent();
 
-  constexpr void __cordl_internal_set_m_SpriteChangeEvent(::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* value);
+  constexpr void __cordl_internal_set_m_SpriteChangeEvent(::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* value);
 
   /// @brief Method .ctor, addr 0x48b8dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -215,7 +215,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10957 };
 
   /// @brief Field m_SpriteChangeEvent, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* ___m_SpriteChangeEvent;
+  ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* ___m_SpriteChangeEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

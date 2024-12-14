@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelCollectionSO.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelCollectionSO* (*)()>(&::GlobalNamespace::BeatmapLevelCollectionSO::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> (*)()>(&::GlobalNamespace::BeatmapLevelCollectionSO::Create)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x26c3844;
 
@@ -77,10 +77,10 @@ inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespac
                                                                              "get_beatmapLevels", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapLevelCollectionSO* GlobalNamespace::BeatmapLevelCollectionSO::Create() {
+inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> GlobalNamespace::BeatmapLevelCollectionSO::Create() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelCollectionSO*>::get(), "Create",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapLevelCollectionSO*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO>, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::BeatmapLevelCollectionSO::AddBeatmapLevel(::GlobalNamespace::BeatmapLevelSO* beatmapLevel) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -627,7 +627,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Cubemap.CreateExternalTexture
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Cubemap* (*)(int32_t, ::UnityEngine::TextureFormat, bool, ::System::IntPtr)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Cubemap> (*)(int32_t, ::UnityEngine::TextureFormat, bool, ::System::IntPtr)>(
     &::UnityEngine::Cubemap::CreateExternalTexture)> {
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x4893388;
@@ -1074,13 +1074,13 @@ inline void UnityEngine::Cubemap::_ctor(int32_t width, ::UnityEngine::TextureFor
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, format, mipCount, createUninitialized);
 }
-inline ::UnityEngine::Cubemap* UnityEngine::Cubemap::CreateExternalTexture(int32_t width, ::UnityEngine::TextureFormat format, bool mipmap, ::System::IntPtr nativeTex) {
+inline ::UnityW<::UnityEngine::Cubemap> UnityEngine::Cubemap::CreateExternalTexture(int32_t width, ::UnityEngine::TextureFormat format, bool mipmap, ::System::IntPtr nativeTex) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Cubemap*>::get(), "CreateExternalTexture", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 4>{
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextureFormat>::get(),
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Cubemap*, false>(nullptr, ___internal_method, width, format, mipmap, nativeTex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Cubemap>, false>(nullptr, ___internal_method, width, format, mipmap, nativeTex);
 }
 template <typename T> inline void UnityEngine::Cubemap::SetPixelData(::ArrayW<T, ::Array<T>*> data, int32_t mipLevel, ::UnityEngine::CubemapFace face, int32_t sourceDataStartIndex) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -53,8 +53,8 @@ public:
 
   /// @brief Field didSelectDifficultyEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectDifficultyEvent,
-                      put = __cordl_internal_set_didSelectDifficultyEvent)) ::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>*
-      didSelectDifficultyEvent;
+                      put = __cordl_internal_set_didSelectDifficultyEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>,
+                                                                                               ::GlobalNamespace::BeatmapDifficulty>* didSelectDifficultyEvent;
 
   __declspec(property(get = get_selectedDifficulty)) ::GlobalNamespace::BeatmapDifficulty selectedDifficulty;
 
@@ -88,9 +88,10 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__selectedDifficulty();
 
-  constexpr ::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* const& __cordl_internal_get_didSelectDifficultyEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* const&
+  __cordl_internal_get_didSelectDifficultyEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get_didSelectDifficultyEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get_didSelectDifficultyEvent();
 
   constexpr void __cordl_internal_set__difficulties(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* value);
 
@@ -98,19 +99,20 @@ public:
 
   constexpr void __cordl_internal_set__selectedDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr void __cordl_internal_set_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
+  constexpr void
+  __cordl_internal_set_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
   /// @brief Method .ctor, addr 0x3b571f4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didSelectDifficultyEvent, addr 0x3b56864, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
+  inline void add_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
   /// @brief Method get_selectedDifficulty, addr 0x3b569c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
 
   /// @brief Method remove_didSelectDifficultyEvent, addr 0x3b56914, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
+  inline void remove_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
 protected:
   // Ctor Parameters []
@@ -133,7 +135,7 @@ public:
   ::UnityW<::HMUI::TextSegmentedControl> ____difficultySegmentedControl;
 
   /// @brief Field didSelectDifficultyEvent, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* ___didSelectDifficultyEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* ___didSelectDifficultyEvent;
 
   /// @brief Field _difficulties, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* ____difficulties;

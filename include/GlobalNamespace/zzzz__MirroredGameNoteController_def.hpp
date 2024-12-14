@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredGameNoteController_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MirroredGameNoteController/Pool
-class CORDL_TYPE MirroredGameNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredGameNoteController*> {
+class CORDL_TYPE MirroredGameNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MirroredGameNoteController_Pool* New_ctor();
@@ -98,14 +98,14 @@ public:
 
   /// @brief Field cubeNoteControllerDidInitEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_cubeNoteControllerDidInitEvent,
-                      put = __cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* cubeNoteControllerDidInitEvent;
+                      put = __cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* cubeNoteControllerDidInitEvent;
 
   __declspec(property(get = get_noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement> noteMovement;
 
   __declspec(property(get = get_noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
 
-  /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>"
-  constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>"
+  constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteMovementProvider"
   constexpr operator ::GlobalNamespace::INoteMovementProvider*() noexcept;
@@ -126,21 +126,21 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* const& __cordl_internal_get_cubeNoteControllerDidInitEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* const& __cordl_internal_get_cubeNoteControllerDidInitEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*& __cordl_internal_get_cubeNoteControllerDidInitEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*& __cordl_internal_get_cubeNoteControllerDidInitEvent();
 
   constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value);
+  constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
   /// @brief Method .ctor, addr 0x3ae88d0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x3ae84d0, size 0xb0, virtual true, abstract: false, final true
-  inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value);
+  inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
   static inline int32_t getStaticF__colorId();
 
@@ -150,9 +150,9 @@ public:
   /// @brief Method get_noteVisualModifierType, addr 0x3ae86dc, size 0xa4, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
-  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>"
-  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>*
-  i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__MirroredGameNoteController__() noexcept;
+  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>"
+  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*
+  i___GlobalNamespace__ICubeNoteControllerInitializable_1___UnityW___GlobalNamespace__MirroredGameNoteController__() noexcept;
 
   /// @brief Convert to "::GlobalNamespace::INoteMovementProvider"
   constexpr ::GlobalNamespace::INoteMovementProvider* i___GlobalNamespace__INoteMovementProvider() noexcept;
@@ -161,7 +161,7 @@ public:
   constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
   /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x3ae8580, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value);
+  inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
   static inline void setStaticF__colorId(int32_t value);
 
@@ -189,7 +189,7 @@ public:
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief Field cubeNoteControllerDidInitEvent, offset: 0x60, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* ___cubeNoteControllerDidInitEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* ___cubeNoteControllerDidInitEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

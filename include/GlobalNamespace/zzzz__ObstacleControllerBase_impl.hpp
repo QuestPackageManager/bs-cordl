@@ -8,30 +8,30 @@
 //  Writing Method size for method: ::GlobalNamespace::ObstacleControllerBase.add_didInitEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*)>(
-    &::GlobalNamespace::ObstacleControllerBase::add_didInitEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*)>(&::GlobalNamespace::ObstacleControllerBase::add_didInitEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3af1790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleControllerBase*>::get(), "add_didInitEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ObstacleControllerBase.remove_didInitEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*)>(
-    &::GlobalNamespace::ObstacleControllerBase::remove_didInitEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*)>(&::GlobalNamespace::ObstacleControllerBase::remove_didInitEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3af1840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleControllerBase*>::get(), "remove_didInitEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -39,14 +39,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(
-    ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*)>(&::GlobalNamespace::ObstacleControllerBase::add_didStartDissolvingEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*)>(&::GlobalNamespace::ObstacleControllerBase::add_didStartDissolvingEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3aef694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleControllerBase*>::get(), "add_didStartDissolvingEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -54,14 +54,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(
-    ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*)>(&::GlobalNamespace::ObstacleControllerBase::remove_didStartDissolvingEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*)>(&::GlobalNamespace::ObstacleControllerBase::remove_didStartDissolvingEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3aef5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleControllerBase*>::get(), "remove_didStartDissolvingEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -121,52 +121,52 @@ constexpr void GlobalNamespace::ObstacleControllerBase::__cordl_internal_set__va
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variableMovementDataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*& GlobalNamespace::ObstacleControllerBase::__cordl_internal_get_didInitEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*& GlobalNamespace::ObstacleControllerBase::__cordl_internal_get_didInitEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didInitEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* const& GlobalNamespace::ObstacleControllerBase::__cordl_internal_get_didInitEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* const& GlobalNamespace::ObstacleControllerBase::__cordl_internal_get_didInitEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didInitEvent;
 }
-constexpr void GlobalNamespace::ObstacleControllerBase::__cordl_internal_set_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value) {
+constexpr void GlobalNamespace::ObstacleControllerBase::__cordl_internal_set_didInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didInitEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*& GlobalNamespace::ObstacleControllerBase::__cordl_internal_get_didStartDissolvingEvent() {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*& GlobalNamespace::ObstacleControllerBase::__cordl_internal_get_didStartDissolvingEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartDissolvingEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* const& GlobalNamespace::ObstacleControllerBase::__cordl_internal_get_didStartDissolvingEvent() const {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* const& GlobalNamespace::ObstacleControllerBase::__cordl_internal_get_didStartDissolvingEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartDissolvingEvent;
 }
-constexpr void GlobalNamespace::ObstacleControllerBase::__cordl_internal_set_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value) {
+constexpr void GlobalNamespace::ObstacleControllerBase::__cordl_internal_set_didStartDissolvingEvent(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didStartDissolvingEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::ObstacleControllerBase::add_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value) {
+inline void GlobalNamespace::ObstacleControllerBase::add_didInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleControllerBase*>::get(), "add_didInitEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::ObstacleControllerBase::remove_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value) {
+inline void GlobalNamespace::ObstacleControllerBase::remove_didInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleControllerBase*>::get(), "remove_didInitEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::ObstacleControllerBase::add_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value) {
+inline void GlobalNamespace::ObstacleControllerBase::add_didStartDissolvingEvent(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleControllerBase*>::get(), "add_didStartDissolvingEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::ObstacleControllerBase::remove_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value) {
+inline void GlobalNamespace::ObstacleControllerBase::remove_didStartDissolvingEvent(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleControllerBase*>::get(), "remove_didStartDissolvingEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::ObstacleControllerBase::InvokeDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController) {

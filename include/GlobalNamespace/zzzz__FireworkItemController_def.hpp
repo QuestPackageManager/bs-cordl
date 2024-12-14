@@ -196,7 +196,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireworkItemCon
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FireworkItemController/Pool
-class CORDL_TYPE FireworkItemController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FireworkItemController*> {
+class CORDL_TYPE FireworkItemController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FireworkItemController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::FireworkItemController_Pool* New_ctor();
@@ -456,7 +456,7 @@ public:
   __declspec(property(get = __cordl_internal_get__randomizeSpeed, put = __cordl_internal_set__randomizeSpeed)) bool _randomizeSpeed;
 
   /// @brief Field didFinishEvent, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::FireworkItemController*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* didFinishEvent;
 
   __declspec(property(put = set_directionalLight)) ::UnityW<::GlobalNamespace::DirectionalLight> directionalLight;
 
@@ -555,9 +555,9 @@ public:
 
   constexpr bool& __cordl_internal_get__randomizeSpeed();
 
-  constexpr ::System::Action_1<::GlobalNamespace::FireworkItemController*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::FireworkItemController*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
@@ -594,16 +594,16 @@ public:
 
   constexpr void __cordl_internal_set__randomizeSpeed(bool value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
   /// @brief Method .ctor, addr 0x3b7d1b4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b7c9d8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3b7ca88, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
   /// @brief Method set_directionalLight, addr 0x3b7c9c8, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLight(::GlobalNamespace::DirectionalLight* value);
@@ -680,7 +680,7 @@ public:
   bool ____initialized;
 
   /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::FireworkItemController*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

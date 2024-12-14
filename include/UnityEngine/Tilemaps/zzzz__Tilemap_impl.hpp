@@ -517,25 +517,27 @@ constexpr void UnityEngine::Tilemaps::Tilemap::__cordl_internal_set_m_BufferSync
   this->___m_BufferSyncTile = value;
 }
 inline void UnityEngine::Tilemaps::Tilemap::setStaticF_tilemapTileChanged(
-    ::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>* value) {
-  ::cordl_internals::setStaticField<::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*,
-                                    "tilemapTileChanged", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tilemap*>::get>(
-      std::forward<::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*>(value));
+    ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>* value) {
+  ::cordl_internals::setStaticField<
+      ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*, "tilemapTileChanged",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tilemap*>::get>(
+      std::forward<::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*>(value));
 }
-inline ::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*
+inline ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*
 UnityEngine::Tilemaps::Tilemap::getStaticF_tilemapTileChanged() {
   return ::cordl_internals::getStaticField<
-      ::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*, "tilemapTileChanged",
+      ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*, "tilemapTileChanged",
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tilemap*>::get>();
 }
-inline void
-UnityEngine::Tilemaps::Tilemap::setStaticF_tilemapPositionsChanged(::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* value) {
-  ::cordl_internals::setStaticField<::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*, "tilemapPositionsChanged",
+inline void UnityEngine::Tilemaps::Tilemap::setStaticF_tilemapPositionsChanged(
+    ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* value) {
+  ::cordl_internals::setStaticField<::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*, "tilemapPositionsChanged",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tilemap*>::get>(
-      std::forward<::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*>(value));
+      std::forward<::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*>(value));
 }
-inline ::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* UnityEngine::Tilemaps::Tilemap::getStaticF_tilemapPositionsChanged() {
-  return ::cordl_internals::getStaticField<::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*, "tilemapPositionsChanged",
+inline ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*
+UnityEngine::Tilemaps::Tilemap::getStaticF_tilemapPositionsChanged() {
+  return ::cordl_internals::getStaticField<::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>*, "tilemapPositionsChanged",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tilemap*>::get>();
 }
 inline bool UnityEngine::Tilemaps::Tilemap::get_bufferSyncTile() {

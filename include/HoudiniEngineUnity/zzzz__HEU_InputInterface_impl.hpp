@@ -44,6 +44,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_InputInterface.IsThisInputObjectSupported
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterface::*)(::UnityEngine::GameObject*)>(
+    &::HoudiniEngineUnity::HEU_InputInterface::IsThisInputObjectSupported)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterface*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterface*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_InputInterface.CreateInputNodeWithDataUpload
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_InputInterface::*)(
+    ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, ::UnityEngine::GameObject*, ::ByRef<int32_t>)>(&::HoudiniEngineUnity::HEU_InputInterface::CreateInputNodeWithDataUpload)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterface*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_InputInterface*>::get(), 5));
+    return ___internal_method;
+  }
+};
 constexpr int32_t& HoudiniEngineUnity::HEU_InputInterface::__cordl_internal_get__priority() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____priority;

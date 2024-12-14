@@ -397,14 +397,14 @@ constexpr ::GlobalNamespace::StandardLevelDetailViewController__ShowLoadingAndDo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
-    ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*)>(&::GlobalNamespace::StandardLevelDetailViewController::add_didPressActionButtonEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*)>(&::GlobalNamespace::StandardLevelDetailViewController::add_didPressActionButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6485c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didPressActionButtonEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -412,7 +412,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
-    ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*)>(&::GlobalNamespace::StandardLevelDetailViewController::remove_didPressActionButtonEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*)>(&::GlobalNamespace::StandardLevelDetailViewController::remove_didPressActionButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6490c;
 
@@ -420,43 +420,43 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didPressActionButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelDetailViewController.add_didPressOpenLevelPackButtonEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*)>(
-        &::GlobalNamespace::StandardLevelDetailViewController::add_didPressOpenLevelPackButtonEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>*)>(
+    &::GlobalNamespace::StandardLevelDetailViewController::add_didPressOpenLevelPackButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b649bc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didPressOpenLevelPackButtonEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(),
+                                                 "add_didPressOpenLevelPackButtonEvent", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelDetailViewController.remove_didPressOpenLevelPackButtonEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*)>(
-        &::GlobalNamespace::StandardLevelDetailViewController::remove_didPressOpenLevelPackButtonEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>*)>(
+    &::GlobalNamespace::StandardLevelDetailViewController::remove_didPressOpenLevelPackButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64a6c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didPressOpenLevelPackButtonEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(),
+                                                 "remove_didPressOpenLevelPackButtonEvent", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -464,15 +464,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>*)>(&::GlobalNamespace::StandardLevelDetailViewController::add_levelFavoriteStatusDidChangeEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>*)>(&::GlobalNamespace::StandardLevelDetailViewController::add_levelFavoriteStatusDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64b1c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_levelFavoriteStatusDidChangeEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_levelFavoriteStatusDidChangeEvent",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>*>::get() })));
     return ___internal_method;
   }
 };
@@ -480,15 +481,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>*)>(&::GlobalNamespace::StandardLevelDetailViewController::remove_levelFavoriteStatusDidChangeEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>*)>(&::GlobalNamespace::StandardLevelDetailViewController::remove_levelFavoriteStatusDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64bcc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_levelFavoriteStatusDidChangeEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_levelFavoriteStatusDidChangeEvent",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>*>::get() })));
     return ___internal_method;
   }
 };
@@ -496,7 +498,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>*)>(
+    static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*)>(
         &::GlobalNamespace::StandardLevelDetailViewController::add_didPressPracticeButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64c7c;
@@ -506,7 +508,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didPressPracticeButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -514,7 +516,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>*)>(
+    static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*)>(
         &::GlobalNamespace::StandardLevelDetailViewController::remove_didPressPracticeButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64d2c;
@@ -524,7 +526,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didPressPracticeButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -532,7 +534,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
-    ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*)>(&::GlobalNamespace::StandardLevelDetailViewController::add_didChangeDifficultyBeatmapEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*)>(&::GlobalNamespace::StandardLevelDetailViewController::add_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64ddc;
 
@@ -540,7 +542,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didChangeDifficultyBeatmapEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -548,7 +550,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
-    ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*)>(&::GlobalNamespace::StandardLevelDetailViewController::remove_didChangeDifficultyBeatmapEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*)>(&::GlobalNamespace::StandardLevelDetailViewController::remove_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64e8c;
 
@@ -556,7 +558,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didChangeDifficultyBeatmapEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -564,7 +566,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
     &::GlobalNamespace::StandardLevelDetailViewController::add_didChangeContentEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64f3c;
@@ -573,7 +575,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didChangeContentEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
+            ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -581,7 +583,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailViewController::*)(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
     &::GlobalNamespace::StandardLevelDetailViewController::remove_didChangeContentEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b64fec;
@@ -590,7 +592,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didChangeContentEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
+            ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1190,89 +1192,92 @@ constexpr void GlobalNamespace::StandardLevelDetailViewController::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristicCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*& GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didPressActionButtonEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*& GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didPressActionButtonEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressActionButtonEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* const& GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didPressActionButtonEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* const&
+GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didPressActionButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressActionButtonEvent;
 }
-constexpr void GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value) {
+constexpr void
+GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressActionButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>*&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didPressOpenLevelPackButtonEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressOpenLevelPackButtonEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* const&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didPressOpenLevelPackButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressOpenLevelPackButtonEvent;
 }
 constexpr void GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_didPressOpenLevelPackButtonEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressOpenLevelPackButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>*&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_levelFavoriteStatusDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelFavoriteStatusDidChangeEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* const&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_levelFavoriteStatusDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelFavoriteStatusDidChangeEvent;
 }
-constexpr void
-GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_levelFavoriteStatusDidChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* value) {
+constexpr void GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_levelFavoriteStatusDidChangeEvent(
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___levelFavoriteStatusDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didPressPracticeButtonEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressPracticeButtonEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* const&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didPressPracticeButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressPracticeButtonEvent;
 }
 constexpr void GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_didPressPracticeButtonEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressPracticeButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*& GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didChangeDifficultyBeatmapEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*&
+GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didChangeDifficultyBeatmapEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeDifficultyBeatmapEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* const&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* const&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didChangeDifficultyBeatmapEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeDifficultyBeatmapEvent;
 }
 constexpr void
-GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value) {
+GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeDifficultyBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didChangeContentEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeContentEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* const&
 GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_get_didChangeContentEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeContentEvent;
 }
 constexpr void GlobalNamespace::StandardLevelDetailViewController::__cordl_internal_set_didChangeContentEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeContentEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1387,96 +1392,97 @@ constexpr void GlobalNamespace::StandardLevelDetailViewController::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____contentIsOwnedAndReady = value;
 }
-inline void GlobalNamespace::StandardLevelDetailViewController::add_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value) {
+inline void GlobalNamespace::StandardLevelDetailViewController::add_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didPressActionButtonEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::StandardLevelDetailViewController::remove_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value) {
+inline void GlobalNamespace::StandardLevelDetailViewController::remove_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didPressActionButtonEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelDetailViewController::add_didPressOpenLevelPackButtonEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didPressOpenLevelPackButtonEvent",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelDetailViewController::remove_didPressOpenLevelPackButtonEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didPressOpenLevelPackButtonEvent",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::StandardLevelDetailViewController::add_levelFavoriteStatusDidChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* value) {
+inline void GlobalNamespace::StandardLevelDetailViewController::add_levelFavoriteStatusDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_levelFavoriteStatusDidChangeEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::StandardLevelDetailViewController::remove_levelFavoriteStatusDidChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* value) {
+inline void
+GlobalNamespace::StandardLevelDetailViewController::remove_levelFavoriteStatusDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_levelFavoriteStatusDidChangeEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelDetailViewController::add_didPressPracticeButtonEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didPressPracticeButtonEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelDetailViewController::remove_didPressPracticeButtonEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didPressPracticeButtonEvent",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::StandardLevelDetailViewController::add_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value) {
+inline void GlobalNamespace::StandardLevelDetailViewController::add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didChangeDifficultyBeatmapEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::StandardLevelDetailViewController::remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value) {
+inline void GlobalNamespace::StandardLevelDetailViewController::remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didChangeDifficultyBeatmapEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelDetailViewController::add_didChangeContentEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "add_didChangeContentEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
+          ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelDetailViewController::remove_didChangeContentEvent(
-    ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailViewController*>::get(), "remove_didChangeContentEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
+          ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::GlobalNamespace::BeatmapKey GlobalNamespace::StandardLevelDetailViewController::get_beatmapKey() {

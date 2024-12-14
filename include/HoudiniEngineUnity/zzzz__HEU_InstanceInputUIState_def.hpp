@@ -29,8 +29,8 @@ public:
   /// @brief Field _showInstanceInputs, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__showInstanceInputs, put = __cordl_internal_set__showInstanceInputs)) bool _showInstanceInputs;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*() noexcept;
 
   /// @brief Method CopyTo, addr 0x3a29798, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
@@ -61,8 +61,9 @@ public:
   /// @brief Method .ctor, addr 0x3a29998, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InstanceInputUIState__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*
+  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_InstanceInputUIState__() noexcept;
 
 protected:
   // Ctor Parameters []

@@ -32,17 +32,17 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlatformNetworkPlayerModel_CreatePartyConfig : public ::GlobalNamespace::BaseNetworkPlayerModel_PartyConfig {
 public:
   // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>"
-  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>"
+  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>*() noexcept;
 
   static inline ::GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig* New_ctor();
 
   /// @brief Method .ctor, addr 0x3e71214, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>"
-  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*
-  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__PlatformNetworkPlayerModel__() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>*
+  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW___GlobalNamespace__PlatformNetworkPlayerModel__() noexcept;
 
 protected:
   // Ctor Parameters []

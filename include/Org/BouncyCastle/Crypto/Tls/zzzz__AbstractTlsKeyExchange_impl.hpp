@@ -58,6 +58,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange.SkipServerCredentials
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::*)()>(
+    &::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::SkipServerCredentials)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(), 21));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange.ProcessServerCertificate
 template <>
 
@@ -154,6 +170,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange.ValidateCertificateRequest
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::*)(
+    ::Org::BouncyCastle::Crypto::Tls::CertificateRequest*)>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::ValidateCertificateRequest)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(), 28));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange.SkipClientCredentials
 template <>
 
@@ -167,6 +199,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(), 29));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange.ProcessClientCredentials
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::*)(
+    ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*)>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::ProcessClientCredentials)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(), 30));
     return ___internal_method;
   }
 };
@@ -186,6 +234,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange.GenerateClientKeyExchange
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::*)(::System::IO::Stream*)>(
+    &::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::GenerateClientKeyExchange)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(), 32));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange.ProcessClientKeyExchange
 template <>
 
@@ -199,6 +263,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(), 33));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange.GeneratePremasterSecret
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::*)()>(
+    &::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange::GeneratePremasterSecret)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange*>::get(), 34));
     return ___internal_method;
   }
 };

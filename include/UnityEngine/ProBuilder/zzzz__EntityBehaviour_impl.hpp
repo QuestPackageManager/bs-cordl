@@ -5,6 +5,50 @@
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+//  Writing Method size for method: ::UnityEngine::ProBuilder::EntityBehaviour.Initialize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::EntityBehaviour::*)()>(&::UnityEngine::ProBuilder::EntityBehaviour::Initialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::EntityBehaviour*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::EntityBehaviour*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::EntityBehaviour.OnEnterPlayMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::EntityBehaviour::*)()>(
+    &::UnityEngine::ProBuilder::EntityBehaviour::OnEnterPlayMode)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::EntityBehaviour*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::EntityBehaviour*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::EntityBehaviour.OnSceneLoaded
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::EntityBehaviour::*)(
+    ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode)>(&::UnityEngine::ProBuilder::EntityBehaviour::OnSceneLoaded)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::EntityBehaviour*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::EntityBehaviour*>::get(), 6));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ProBuilder::EntityBehaviour.SetMaterial
 template <>
 

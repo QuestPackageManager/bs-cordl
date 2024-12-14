@@ -156,29 +156,29 @@ public:
   __declspec(property(get = get_samples)) int32_t samples;
 
   /// @brief Method Construct_Internal, addr 0x48573ec, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AudioClip* Construct_Internal();
+  static inline ::UnityW<::UnityEngine::AudioClip> Construct_Internal();
 
   /// @brief Method Create, addr 0x4857b40, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AudioClip* Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream);
+  static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream);
 
   /// @brief Method Create, addr 0x4857b60, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AudioClip* Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
-                                                 ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback);
+  static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
+                                                          ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback);
 
   /// @brief Method Create, addr 0x4857d18, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AudioClip* Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
-                                                 ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback, ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback);
+  static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
+                                                          ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback, ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback);
 
   /// @brief Method Create, addr 0x4857b50, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AudioClip* Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream);
+  static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream);
 
   /// @brief Method Create, addr 0x4857d28, size 0xc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AudioClip* Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
-                                                 ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback);
+  static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
+                                                          ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback);
 
   /// @brief Method Create, addr 0x4857b70, size 0x1a8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AudioClip* Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream, ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback,
-                                                 ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback);
+  static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
+                                                          ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback, ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback);
 
   /// @brief Method CreateUserSound, addr 0x4857450, size 0x74, virtual false, abstract: false, final false
   inline void CreateUserSound(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream);

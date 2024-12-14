@@ -27,13 +27,13 @@ class CORDL_TYPE IVRInputModule {
 public:
   // Declarations
   /// @brief Method add_onProcessMousePressEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void add_onProcessMousePressEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method add_pointerDidClickEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Method remove_onProcessMousePressEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method remove_pointerDidClickEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);

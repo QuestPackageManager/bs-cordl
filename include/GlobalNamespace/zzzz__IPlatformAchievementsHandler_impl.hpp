@@ -230,6 +230,56 @@ GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionH
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler() {}
+//  Writing Method size for method: ::GlobalNamespace::IPlatformAchievementsHandler.Initialize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IPlatformAchievementsHandler::*)()>(
+    &::GlobalNamespace::IPlatformAchievementsHandler::Initialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformAchievementsHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformAchievementsHandler*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IPlatformAchievementsHandler.UnlockAchievement
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::HMAsyncRequest* (
+    ::GlobalNamespace::IPlatformAchievementsHandler::*)(::StringW, ::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler*)>(
+    &::GlobalNamespace::IPlatformAchievementsHandler::UnlockAchievement)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformAchievementsHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformAchievementsHandler*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IPlatformAchievementsHandler.GetUnlockedAchievements
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::GlobalNamespace::HMAsyncRequest* (::GlobalNamespace::IPlatformAchievementsHandler::*)(::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler*)>(
+        &::GlobalNamespace::IPlatformAchievementsHandler::GetUnlockedAchievements)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformAchievementsHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformAchievementsHandler*>::get(), 2));
+    return ___internal_method;
+  }
+};
 inline void GlobalNamespace::IPlatformAchievementsHandler::Initialize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformAchievementsHandler*>::get(), 0)));

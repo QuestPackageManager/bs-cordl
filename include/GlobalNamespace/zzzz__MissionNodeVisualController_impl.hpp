@@ -9,14 +9,14 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*)>(&::GlobalNamespace::MissionNodeVisualController::add_nodeWasSelectEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(&::GlobalNamespace::MissionNodeVisualController::add_nodeWasSelectEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c07ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNodeVisualController*>::get(), "add_nodeWasSelectEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -24,14 +24,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*)>(&::GlobalNamespace::MissionNodeVisualController::remove_nodeWasSelectEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(&::GlobalNamespace::MissionNodeVisualController::remove_nodeWasSelectEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c07d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNodeVisualController*>::get(), "remove_nodeWasSelectEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -39,14 +39,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*)>(&::GlobalNamespace::MissionNodeVisualController::add_nodeWasDisplayedEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(&::GlobalNamespace::MissionNodeVisualController::add_nodeWasDisplayedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c07b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNodeVisualController*>::get(), "add_nodeWasDisplayedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -54,14 +54,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*)>(&::GlobalNamespace::MissionNodeVisualController::remove_nodeWasDisplayedEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(&::GlobalNamespace::MissionNodeVisualController::remove_nodeWasDisplayedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c07e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNodeVisualController*>::get(), "remove_nodeWasDisplayedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -354,27 +354,27 @@ constexpr void GlobalNamespace::MissionNodeVisualController::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*& GlobalNamespace::MissionNodeVisualController::__cordl_internal_get_nodeWasSelectEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*& GlobalNamespace::MissionNodeVisualController::__cordl_internal_get_nodeWasSelectEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeWasSelectEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* const& GlobalNamespace::MissionNodeVisualController::__cordl_internal_get_nodeWasSelectEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* const& GlobalNamespace::MissionNodeVisualController::__cordl_internal_get_nodeWasSelectEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeWasSelectEvent;
 }
-constexpr void GlobalNamespace::MissionNodeVisualController::__cordl_internal_set_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value) {
+constexpr void GlobalNamespace::MissionNodeVisualController::__cordl_internal_set_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nodeWasSelectEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*& GlobalNamespace::MissionNodeVisualController::__cordl_internal_get_nodeWasDisplayedEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*& GlobalNamespace::MissionNodeVisualController::__cordl_internal_get_nodeWasDisplayedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeWasDisplayedEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* const& GlobalNamespace::MissionNodeVisualController::__cordl_internal_get_nodeWasDisplayedEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* const& GlobalNamespace::MissionNodeVisualController::__cordl_internal_get_nodeWasDisplayedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nodeWasDisplayedEvent;
 }
-constexpr void GlobalNamespace::MissionNodeVisualController::__cordl_internal_set_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value) {
+constexpr void GlobalNamespace::MissionNodeVisualController::__cordl_internal_set_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nodeWasDisplayedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -426,28 +426,28 @@ constexpr void GlobalNamespace::MissionNodeVisualController::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____interactable = value;
 }
-inline void GlobalNamespace::MissionNodeVisualController::add_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value) {
+inline void GlobalNamespace::MissionNodeVisualController::add_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNodeVisualController*>::get(), "add_nodeWasSelectEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionNodeVisualController::remove_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value) {
+inline void GlobalNamespace::MissionNodeVisualController::remove_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNodeVisualController*>::get(), "remove_nodeWasSelectEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionNodeVisualController::add_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value) {
+inline void GlobalNamespace::MissionNodeVisualController::add_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNodeVisualController*>::get(), "add_nodeWasDisplayedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionNodeVisualController::remove_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value) {
+inline void GlobalNamespace::MissionNodeVisualController::remove_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNodeVisualController*>::get(), "remove_nodeWasDisplayedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::GlobalNamespace::MissionNode> GlobalNamespace::MissionNodeVisualController::get_missionNode() {

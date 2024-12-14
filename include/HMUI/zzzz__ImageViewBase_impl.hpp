@@ -3,6 +3,90 @@
 #include "UnityEngine/UI/zzzz__Image_impl.hpp"
 #include "HMUI/zzzz__ImageViewBase_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+//  Writing Method size for method: ::HMUI::ImageViewBase.get_gradient
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ImageViewBase::*)()>(&::HMUI::ImageViewBase::get_gradient)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(), 89));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ImageViewBase.set_gradient
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageViewBase::*)(bool)>(&::HMUI::ImageViewBase::set_gradient)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(), 90));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ImageViewBase.get_color0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::ImageViewBase::*)()>(&::HMUI::ImageViewBase::get_color0)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(), 91));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ImageViewBase.set_color0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageViewBase::*)(::UnityEngine::Color)>(&::HMUI::ImageViewBase::set_color0)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(), 92));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ImageViewBase.get_color1
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::ImageViewBase::*)()>(&::HMUI::ImageViewBase::get_color1)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(), 93));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ImageViewBase.set_color1
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageViewBase::*)(::UnityEngine::Color)>(&::HMUI::ImageViewBase::set_color1)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageViewBase*>::get(), 94));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::HMUI::ImageViewBase._ctor
 template <>
 

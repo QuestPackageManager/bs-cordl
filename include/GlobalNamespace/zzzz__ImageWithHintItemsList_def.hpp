@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ImageWithHintItemsList);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ImageWithHintItemsList
-class CORDL_TYPE ImageWithHintItemsList : public ::HMUI::UIItemsList_1<::HMUI::ImageWithHint*> {
+class CORDL_TYPE ImageWithHintItemsList : public ::HMUI::UIItemsList_1<::UnityW<::HMUI::ImageWithHint>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor();

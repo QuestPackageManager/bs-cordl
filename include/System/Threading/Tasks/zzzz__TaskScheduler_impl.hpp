@@ -11,6 +11,36 @@
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView::TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView() {}
+//  Writing Method size for method: ::System::Threading::Tasks::TaskScheduler.QueueTask
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskScheduler::*)(::System::Threading::Tasks::Task*)>(
+    &::System::Threading::Tasks::TaskScheduler::QueueTask)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Threading::Tasks::TaskScheduler.TryExecuteTaskInline
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::TaskScheduler::*)(::System::Threading::Tasks::Task*, bool)>(
+    &::System::Threading::Tasks::TaskScheduler::TryExecuteTaskInline)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Threading::Tasks::TaskScheduler.TryRunInline
 template <>
 

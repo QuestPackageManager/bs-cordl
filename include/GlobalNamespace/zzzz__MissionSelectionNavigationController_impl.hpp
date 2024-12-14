@@ -117,7 +117,7 @@ constexpr ::GlobalNamespace::MissionSelectionNavigationController___c__DisplayCl
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*)>(&::GlobalNamespace::MissionSelectionNavigationController::add_didPressPlayButtonEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*)>(&::GlobalNamespace::MissionSelectionNavigationController::add_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c19b94;
 
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionNavigationController*>::get(), "add_didPressPlayButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(
-    ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*)>(&::GlobalNamespace::MissionSelectionNavigationController::remove_didPressPlayButtonEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*)>(&::GlobalNamespace::MissionSelectionNavigationController::remove_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c19c44;
 
@@ -141,7 +141,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionNavigationController*>::get(), "remove_didPressPlayButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -278,31 +278,32 @@ constexpr void GlobalNamespace::MissionSelectionNavigationController::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionLevelDetailViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*& GlobalNamespace::MissionSelectionNavigationController::__cordl_internal_get_didPressPlayButtonEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*&
+GlobalNamespace::MissionSelectionNavigationController::__cordl_internal_get_didPressPlayButtonEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressPlayButtonEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* const&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* const&
 GlobalNamespace::MissionSelectionNavigationController::__cordl_internal_get_didPressPlayButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressPlayButtonEvent;
 }
 constexpr void
-GlobalNamespace::MissionSelectionNavigationController::__cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value) {
+GlobalNamespace::MissionSelectionNavigationController::__cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressPlayButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MissionSelectionNavigationController::add_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value) {
+inline void GlobalNamespace::MissionSelectionNavigationController::add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionNavigationController*>::get(), "add_didPressPlayButtonEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionSelectionNavigationController::remove_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value) {
+inline void GlobalNamespace::MissionSelectionNavigationController::remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionNavigationController*>::get(), "remove_didPressPlayButtonEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::GlobalNamespace::MissionNode> GlobalNamespace::MissionSelectionNavigationController::get_selectedMissionNode() {

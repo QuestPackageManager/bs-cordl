@@ -516,8 +516,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Timeline::TrackAsset.add_OnClipPlayableCreate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::TrackAsset::add_OnClipPlayableCreate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*)>(
+        &::UnityEngine::Timeline::TrackAsset::add_OnClipPlayableCreate)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x48175a4;
 
@@ -525,15 +526,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "add_OnClipPlayableCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*>::get() })));
+            ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Timeline::TrackAsset.remove_OnClipPlayableCreate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::TrackAsset::remove_OnClipPlayableCreate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*)>(
+        &::UnityEngine::Timeline::TrackAsset::remove_OnClipPlayableCreate)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x4817698;
 
@@ -541,7 +543,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "remove_OnClipPlayableCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*>::get() })));
+            ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>::get() })));
     return ___internal_method;
   }
 };
@@ -549,7 +551,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*)>(
+    static_cast<void (*)(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*)>(
         &::UnityEngine::Timeline::TrackAsset::add_OnTrackAnimationPlayableCreate)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x481778c;
@@ -558,7 +560,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "add_OnTrackAnimationPlayableCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*>::get() })));
+            ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>::get() })));
     return ___internal_method;
   }
 };
@@ -566,7 +568,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*)>(
+    static_cast<void (*)(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*)>(
         &::UnityEngine::Timeline::TrackAsset::remove_OnTrackAnimationPlayableCreate)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x4817880;
@@ -575,7 +577,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "remove_OnTrackAnimationPlayableCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*>::get() })));
+            ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>::get() })));
     return ___internal_method;
   }
 };
@@ -800,7 +802,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Timeline::TrackAsset.GetChildTracks
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* (
     ::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::GetChildTracks)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x480f414;
@@ -917,7 +919,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Timeline::TrackAsset.UnityEngine_Timeline_ICurvesOwner_get_targetTrack
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::TrackAsset* (::UnityEngine::Timeline::TrackAsset::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Timeline::TrackAsset> (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_targetTrack)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x4817f80;
@@ -1373,14 +1375,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(
-    ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset*>*)>(&::UnityEngine::Timeline::TrackAsset::GatherCompilableTracks)> {
+    ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*)>(&::UnityEngine::Timeline::TrackAsset::GatherCompilableTracks)> {
   constexpr static std::size_t size = 0x3d0;
   constexpr static std::size_t addrs = 0x481b174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "GatherCompilableTracks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -2032,15 +2034,15 @@ constexpr void UnityEngine::Timeline::TrackAsset::__cordl_internal_set_m_Support
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SupportsNotifications = value;
 }
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>*& UnityEngine::Timeline::TrackAsset::__cordl_internal_get_m_ChildTrackCache() {
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*& UnityEngine::Timeline::TrackAsset::__cordl_internal_get_m_ChildTrackCache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildTrackCache;
 }
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* const& UnityEngine::Timeline::TrackAsset::__cordl_internal_get_m_ChildTrackCache() const {
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* const& UnityEngine::Timeline::TrackAsset::__cordl_internal_get_m_ChildTrackCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildTrackCache;
 }
-constexpr void UnityEngine::Timeline::TrackAsset::__cordl_internal_set_m_ChildTrackCache(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* value) {
+constexpr void UnityEngine::Timeline::TrackAsset::__cordl_internal_set_m_ChildTrackCache(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ChildTrackCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -2089,23 +2091,23 @@ UnityEngine::Timeline::TrackAsset::getStaticF_OnClipPlayableCreate() {
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get>();
 }
 inline void UnityEngine::Timeline::TrackAsset::setStaticF_OnTrackAnimationPlayableCreate(
-    ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value) {
-  ::cordl_internals::setStaticField<::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*,
+    ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value) {
+  ::cordl_internals::setStaticField<::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*,
                                     "OnTrackAnimationPlayableCreate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get>(
-      std::forward<::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>(value));
+      std::forward<::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>(value));
 }
-inline ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*
+inline ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*
 UnityEngine::Timeline::TrackAsset::getStaticF_OnTrackAnimationPlayableCreate() {
-  return ::cordl_internals::getStaticField<::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*,
+  return ::cordl_internals::getStaticField<::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*,
                                            "OnTrackAnimationPlayableCreate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get>();
 }
-inline void UnityEngine::Timeline::TrackAsset::setStaticF_s_EmptyCache(::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*>, "s_EmptyCache",
+inline void UnityEngine::Timeline::TrackAsset::setStaticF_s_EmptyCache(::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*>, "s_EmptyCache",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get>(
-      std::forward<::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*>>(value));
+      std::forward<::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*>>(value));
 }
-inline ::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> UnityEngine::Timeline::TrackAsset::getStaticF_s_EmptyCache() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*>, "s_EmptyCache",
+inline ::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> UnityEngine::Timeline::TrackAsset::getStaticF_s_EmptyCache() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*>, "s_EmptyCache",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get>();
 }
 inline void UnityEngine::Timeline::TrackAsset::setStaticF_s_TrackBindingTypeAttributeCache(
@@ -2151,36 +2153,36 @@ inline void UnityEngine::Timeline::TrackAsset::UpgradeToLatestVersion() {
                                                                              "UpgradeToLatestVersion", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-UnityEngine::Timeline::TrackAsset::add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value) {
+inline void UnityEngine::Timeline::TrackAsset::add_OnClipPlayableCreate(
+    ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "add_OnClipPlayableCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*>::get() })));
+          ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline void
-UnityEngine::Timeline::TrackAsset::remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value) {
+inline void UnityEngine::Timeline::TrackAsset::remove_OnClipPlayableCreate(
+    ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "remove_OnClipPlayableCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*>::get() })));
+          ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline void
-UnityEngine::Timeline::TrackAsset::add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value) {
+inline void UnityEngine::Timeline::TrackAsset::add_OnTrackAnimationPlayableCreate(
+    ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "add_OnTrackAnimationPlayableCreate", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::Timeline::TrackAsset::remove_OnTrackAnimationPlayableCreate(
-    ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value) {
+    ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "remove_OnTrackAnimationPlayableCreate", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
 inline double_t UnityEngine::Timeline::TrackAsset::get_start() {
@@ -2265,10 +2267,10 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::P
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* UnityEngine::Timeline::TrackAsset::GetChildTracks() {
+inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* UnityEngine::Timeline::TrackAsset::GetChildTracks() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "GetChildTracks",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*, false>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::Timeline::TrackAsset::get_customPlayableTypename() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(),
@@ -2310,11 +2312,11 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::Timeline::TrackAsset::UnityE
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Timeline::TrackAsset* UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_targetTrack() {
+inline ::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_targetTrack() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "UnityEngine.Timeline.ICurvesOwner.get_targetTrack",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::TrackAsset*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Timeline::TrackAsset>, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* UnityEngine::Timeline::TrackAsset::get_subTracksObjects() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(),
@@ -2512,10 +2514,10 @@ inline ::UnityEngine::Playables::Playable UnityEngine::Timeline::TrackAsset::Com
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable, false>(this, ___internal_method, graph, go, timelineClips, tree);
 }
-inline void UnityEngine::Timeline::TrackAsset::GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset*>* tracks) {
+inline void UnityEngine::Timeline::TrackAsset::GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TrackAsset*>::get(), "GatherCompilableTracks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tracks);
 }
 inline void UnityEngine::Timeline::TrackAsset::GatherNotifications(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markers) {

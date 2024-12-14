@@ -228,8 +228,8 @@ public:
   /// @brief Field _showOnlyEditGeometry, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get__showOnlyEditGeometry, put = __cordl_internal_set__showOnlyEditGeometry)) bool _showOnlyEditGeometry;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*() noexcept;
 
   /// @brief Method IsEquivalentTo, addr 0x3a9d8d4, size 0x610, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
@@ -365,8 +365,8 @@ public:
   /// @brief Method .ctor, addr 0x3a9dee4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ToolsInfo__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_ToolsInfo__() noexcept;
 
 protected:
   // Ctor Parameters []

@@ -669,13 +669,14 @@ inline void HoudiniEngineUnity::HEU_Handle::_ctor() {
 inline ::HoudiniEngineUnity::HEU_Handle* HoudiniEngineUnity::HEU_Handle::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Handle*>());
 }
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
-constexpr HoudiniEngineUnity::HEU_Handle::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
+constexpr HoudiniEngineUnity::HEU_Handle::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>* HoudiniEngineUnity::HEU_Handle::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Handle__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*>(static_cast<void*>(this));
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*
+HoudiniEngineUnity::HEU_Handle::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Handle__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Handle::HEU_Handle() {}

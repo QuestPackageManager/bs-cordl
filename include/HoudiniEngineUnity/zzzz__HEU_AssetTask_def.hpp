@@ -137,7 +137,7 @@ public:
   inline void CompleteTask(::HoudiniEngineUnity::HEU_Task_TaskResult result);
 
   /// @brief Method CookCompletedCallback, addr 0x3a6219c, size 0x80, virtual false, abstract: false, final false
-  inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputs);
+  inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
 
   /// @brief Method CookCompletedCallback, addr 0x3a6221c, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);

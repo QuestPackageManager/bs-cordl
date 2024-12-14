@@ -58,6 +58,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::BeatmapObjectData.Mirror
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectData::*)(int32_t)>(&::GlobalNamespace::BeatmapObjectData::Mirror)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectData*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectData*>::get(), 7));
+    return ___internal_method;
+  }
+};
 constexpr float_t& GlobalNamespace::BeatmapObjectData::__cordl_internal_get__beat_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beat_k__BackingField;

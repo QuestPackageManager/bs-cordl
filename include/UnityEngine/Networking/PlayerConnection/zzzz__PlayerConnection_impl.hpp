@@ -207,7 +207,7 @@ constexpr ::UnityEngine::Networking::PlayerConnection::PlayerConnection___c__Dis
 //  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerConnection.get_instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::PlayerConnection::PlayerConnection* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> (*)()>(
     &::UnityEngine::Networking::PlayerConnection::PlayerConnection::get_instance)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x48bf668;
@@ -237,7 +237,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::PlayerConnection.CreateInstance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::PlayerConnection::PlayerConnection* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> (*)()>(
     &::UnityEngine::Networking::PlayerConnection::PlayerConnection::CreateInstance)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x48bf6fc;
@@ -544,20 +544,20 @@ inline ::UnityEngine::IPlayerEditorConnectionNative* UnityEngine::Networking::Pl
   return ::cordl_internals::getStaticField<::UnityEngine::IPlayerEditorConnectionNative*, "connectionNative",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::PlayerConnection::PlayerConnection*>::get>();
 }
-inline void UnityEngine::Networking::PlayerConnection::PlayerConnection::setStaticF_s_Instance(::UnityEngine::Networking::PlayerConnection::PlayerConnection* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::Networking::PlayerConnection::PlayerConnection*, "s_Instance",
+inline void UnityEngine::Networking::PlayerConnection::PlayerConnection::setStaticF_s_Instance(::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection>, "s_Instance",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::PlayerConnection::PlayerConnection*>::get>(
-      std::forward<::UnityEngine::Networking::PlayerConnection::PlayerConnection*>(value));
+      std::forward<::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection>>(value));
 }
-inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* UnityEngine::Networking::PlayerConnection::PlayerConnection::getStaticF_s_Instance() {
-  return ::cordl_internals::getStaticField<::UnityEngine::Networking::PlayerConnection::PlayerConnection*, "s_Instance",
+inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> UnityEngine::Networking::PlayerConnection::PlayerConnection::getStaticF_s_Instance() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection>, "s_Instance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::PlayerConnection::PlayerConnection*>::get>();
 }
-inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* UnityEngine::Networking::PlayerConnection::PlayerConnection::get_instance() {
+inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> UnityEngine::Networking::PlayerConnection::PlayerConnection::get_instance() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::PlayerConnection::PlayerConnection*>::get(), "get_instance",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::PlayerConnection::PlayerConnection*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection>, false>(nullptr, ___internal_method);
 }
 inline bool UnityEngine::Networking::PlayerConnection::PlayerConnection::get_isConnected() {
   static auto* ___internal_method =
@@ -565,11 +565,11 @@ inline bool UnityEngine::Networking::PlayerConnection::PlayerConnection::get_isC
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* UnityEngine::Networking::PlayerConnection::PlayerConnection::CreateInstance() {
+inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> UnityEngine::Networking::PlayerConnection::PlayerConnection::CreateInstance() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::PlayerConnection::PlayerConnection*>::get(), "CreateInstance",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::PlayerConnection::PlayerConnection*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection>, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Networking::PlayerConnection::PlayerConnection::OnEnable() {
   static auto* ___internal_method =

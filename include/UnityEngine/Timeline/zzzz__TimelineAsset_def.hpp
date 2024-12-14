@@ -716,7 +716,7 @@ public:
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
   /// @brief Method AddSubTracksRecursive, addr 0x4814178, size 0x350, virtual false, abstract: false, final false
-  static inline void AddSubTracksRecursive(::UnityEngine::Timeline::TrackAsset* track, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>*> allTracks);
+  static inline void AddSubTracksRecursive(::UnityEngine::Timeline::TrackAsset* track, ::ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> allTracks);
 
   /// @brief Method AddTrackInternal, addr 0x48144d8, size 0xb0, virtual false, abstract: false, final false
   inline void AddTrackInternal(::UnityEngine::Timeline::TrackAsset* track);

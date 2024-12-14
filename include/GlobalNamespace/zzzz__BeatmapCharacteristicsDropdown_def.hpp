@@ -153,10 +153,10 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3b54588, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  inline void add_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3b54638, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
 protected:
   // Ctor Parameters []

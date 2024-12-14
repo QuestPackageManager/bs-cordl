@@ -4,6 +4,38 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BGLib/UnityExtension/BezierCurves/zzzz__BaseBezierCurveData_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData.get_startPoint
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)()>(
+    &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::get_startPoint)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData.get_endPoint
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)()>(
+    &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::get_endPoint)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData.get_startControlPoint
 template <>
 

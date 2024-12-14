@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::LineLight.get_lineLights
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* (*)()>(
     &::GlobalNamespace::LineLight::get_lineLights)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x39e5ac8;
@@ -148,13 +148,13 @@ constexpr void GlobalNamespace::LineLight::__cordl_internal_set__color(::UnityEn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
-inline void GlobalNamespace::LineLight::setStaticF__lineLights(::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>*, "_lineLights",
+inline void GlobalNamespace::LineLight::setStaticF__lineLights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, "_lineLights",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* GlobalNamespace::LineLight::getStaticF__lineLights() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>*, "_lineLights",
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* GlobalNamespace::LineLight::getStaticF__lineLights() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, "_lineLights",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get>();
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::LineLight::get_p0() {
@@ -172,10 +172,10 @@ inline ::UnityEngine::Color GlobalNamespace::LineLight::get_color() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* GlobalNamespace::LineLight::get_lineLights() {
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* GlobalNamespace::LineLight::get_lineLights() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "get_lineLights",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>*, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::LineLight::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLight*>::get(), "OnEnable",

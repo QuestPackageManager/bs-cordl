@@ -200,10 +200,10 @@ public:
   inline ::System::Random* _InstallBindings_b__43_0(::Zenject::InjectContext* _);
 
   /// @brief Method <InstallBindings>b__43_1, addr 0x2717498, size 0x70, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _InstallBindings_b__43_1(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _InstallBindings_b__43_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method <InstallBindings>b__43_2, addr 0x2717508, size 0x70, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OculusLevelProductCollectionModel* _InstallBindings_b__43_2(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  inline ::GlobalNamespace::OculusLevelProductCollectionModel* _InstallBindings_b__43_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method <InstallPlatformLeaderboardsModel>b__46_0, addr 0x2717578, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LeaderboardIdsModel* _InstallPlatformLeaderboardsModel_b__46_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);

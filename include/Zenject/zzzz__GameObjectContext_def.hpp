@@ -69,13 +69,13 @@ public:
   inline void Construct(::Zenject::DiContainer* parentContainer);
 
   /// @brief Method GetInjectableMonoBehaviours, addr 0x4b239ac, size 0x240, virtual true, abstract: false, final false
-  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
+  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
   /// @brief Method GetRootGameObjects, addr 0x4b23234, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
   /// @brief Method InstallBindings, addr 0x4b23744, size 0x1f4, virtual false, abstract: false, final false
-  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
+  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
   static inline ::Zenject::GameObjectContext* New_ctor();
 

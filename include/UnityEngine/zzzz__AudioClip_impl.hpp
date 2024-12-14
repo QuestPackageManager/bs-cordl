@@ -155,7 +155,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::AudioClip.Construct_Internal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (*)()>(&::UnityEngine::AudioClip::Construct_Internal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (*)()>(&::UnityEngine::AudioClip::Construct_Internal)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x48573ec;
 
@@ -386,7 +386,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::AudioClip.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (*)(::StringW, int32_t, int32_t, int32_t, bool, bool)>(&::UnityEngine::AudioClip::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (*)(::StringW, int32_t, int32_t, int32_t, bool, bool)>(
+    &::UnityEngine::AudioClip::Create)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x4857b40;
 
@@ -403,7 +404,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::AudioClip* (*)(::StringW, int32_t, int32_t, int32_t, bool, bool, ::UnityEngine::AudioClip_PCMReaderCallback*)>(&::UnityEngine::AudioClip::Create)> {
+    static_cast<::UnityW<::UnityEngine::AudioClip> (*)(::StringW, int32_t, int32_t, int32_t, bool, bool, ::UnityEngine::AudioClip_PCMReaderCallback*)>(&::UnityEngine::AudioClip::Create)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x4857b60;
 
@@ -420,9 +421,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::AudioClip.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::AudioClip* (*)(::StringW, int32_t, int32_t, int32_t, bool, bool, ::UnityEngine::AudioClip_PCMReaderCallback*, ::UnityEngine::AudioClip_PCMSetPositionCallback*)>(
-        &::UnityEngine::AudioClip::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (*)(
+    ::StringW, int32_t, int32_t, int32_t, bool, bool, ::UnityEngine::AudioClip_PCMReaderCallback*, ::UnityEngine::AudioClip_PCMSetPositionCallback*)>(&::UnityEngine::AudioClip::Create)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x4857d18;
 
@@ -440,7 +440,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::AudioClip.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (*)(::StringW, int32_t, int32_t, int32_t, bool)>(&::UnityEngine::AudioClip::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (*)(::StringW, int32_t, int32_t, int32_t, bool)>(
+    &::UnityEngine::AudioClip::Create)> {
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x4857b50;
 
@@ -457,7 +458,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::AudioClip* (*)(::StringW, int32_t, int32_t, int32_t, bool, ::UnityEngine::AudioClip_PCMReaderCallback*)>(&::UnityEngine::AudioClip::Create)> {
+    static_cast<::UnityW<::UnityEngine::AudioClip> (*)(::StringW, int32_t, int32_t, int32_t, bool, ::UnityEngine::AudioClip_PCMReaderCallback*)>(&::UnityEngine::AudioClip::Create)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x4857d28;
 
@@ -474,8 +475,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::AudioClip.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AudioClip* (*)(::StringW, int32_t, int32_t, int32_t, bool, ::UnityEngine::AudioClip_PCMReaderCallback*,
-                                                                                                                ::UnityEngine::AudioClip_PCMSetPositionCallback*)>(&::UnityEngine::AudioClip::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (*)(
+    ::StringW, int32_t, int32_t, int32_t, bool, ::UnityEngine::AudioClip_PCMReaderCallback*, ::UnityEngine::AudioClip_PCMSetPositionCallback*)>(&::UnityEngine::AudioClip::Create)> {
   constexpr static std::size_t size = 0x1a8;
   constexpr static std::size_t addrs = 0x4857b70;
 
@@ -624,10 +625,10 @@ inline bool UnityEngine::AudioClip::SetData(::UnityEngine::AudioClip* clip, ::Ar
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, clip, data, numsamples, samplesOffset);
 }
-inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Construct_Internal() {
+inline ::UnityW<::UnityEngine::AudioClip> UnityEngine::AudioClip::Construct_Internal() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioClip*>::get(), "Construct_Internal",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioClip*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(nullptr, ___internal_method);
 }
 inline ::StringW UnityEngine::AudioClip::GetName() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioClip*>::get(), "GetName",
@@ -716,27 +717,27 @@ inline bool UnityEngine::AudioClip::SetData(::ArrayW<float_t, ::Array<float_t>*>
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, data, offsetSamples);
 }
-inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream) {
+inline ::UnityW<::UnityEngine::AudioClip> UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioClip*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioClip*, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, _3D, stream);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, _3D, stream);
 }
-inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
-                                                                ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback) {
+inline ::UnityW<::UnityEngine::AudioClip> UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
+                                                                         ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioClip*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip_PCMReaderCallback*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioClip*, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, _3D, stream, pcmreadercallback);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, _3D, stream, pcmreadercallback);
 }
-inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
-                                                                ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback,
-                                                                ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback) {
+inline ::UnityW<::UnityEngine::AudioClip> UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
+                                                                         ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback,
+                                                                         ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioClip*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
@@ -744,30 +745,30 @@ inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Create(::StringW name, 
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip_PCMReaderCallback*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip_PCMSetPositionCallback*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioClip*, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, _3D, stream, pcmreadercallback,
-                                                                               pcmsetpositioncallback);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, _3D, stream, pcmreadercallback,
+                                                                                        pcmsetpositioncallback);
 }
-inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream) {
+inline ::UnityW<::UnityEngine::AudioClip> UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioClip*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioClip*, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, stream);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, stream);
 }
-inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
-                                                                ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback) {
+inline ::UnityW<::UnityEngine::AudioClip> UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
+                                                                         ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioClip*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip_PCMReaderCallback*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioClip*, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, stream, pcmreadercallback);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, stream, pcmreadercallback);
 }
-inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
-                                                                ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback,
-                                                                ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback) {
+inline ::UnityW<::UnityEngine::AudioClip> UnityEngine::AudioClip::Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
+                                                                         ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback,
+                                                                         ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioClip*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
@@ -775,8 +776,8 @@ inline ::UnityEngine::AudioClip* UnityEngine::AudioClip::Create(::StringW name, 
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip_PCMReaderCallback*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip_PCMSetPositionCallback*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AudioClip*, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, stream, pcmreadercallback,
-                                                                               pcmsetpositioncallback);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AudioClip>, false>(nullptr, ___internal_method, name, lengthSamples, channels, frequency, stream, pcmreadercallback,
+                                                                                        pcmsetpositioncallback);
 }
 inline void UnityEngine::AudioClip::add_m_PCMReaderCallback(::UnityEngine::AudioClip_PCMReaderCallback* value) {
   static auto* ___internal_method = THROW_UNLESS(

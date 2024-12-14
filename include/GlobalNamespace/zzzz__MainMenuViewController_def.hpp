@@ -253,8 +253,9 @@ public:
   __declspec(property(get = __cordl_internal_get__soloButton, put = __cordl_internal_set__soloButton)) ::UnityW<::UnityEngine::UI::Button> _soloButton;
 
   /// @brief Field didFinishEvent, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController_MenuButton>* didFinishEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didFinishEvent,
+      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* didFinishEvent;
 
   /// @brief Field promoButtonWasPressedEvent, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_promoButtonWasPressedEvent,
@@ -350,9 +351,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__soloButton();
 
-  constexpr ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController_MenuButton>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController_MenuButton>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>*& __cordl_internal_get_didFinishEvent();
 
   constexpr ::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* const& __cordl_internal_get_promoButtonWasPressedEvent() const;
 
@@ -384,7 +385,7 @@ public:
 
   constexpr void __cordl_internal_set__soloButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
 
   constexpr void __cordl_internal_set_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* value);
 
@@ -392,13 +393,13 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b69504, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
 
   /// @brief Method add_promoButtonWasPressedEvent, addr 0x3b69664, size 0xb0, virtual false, abstract: false, final false
   inline void add_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3b695b4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
 
   /// @brief Method remove_promoButtonWasPressedEvent, addr 0x3b69714, size 0xb0, virtual false, abstract: false, final false
   inline void remove_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* value);
@@ -457,7 +458,7 @@ public:
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
   /// @brief Field didFinishEvent, offset: 0xd8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController_MenuButton>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* ___didFinishEvent;
 
   /// @brief Field promoButtonWasPressedEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* ___promoButtonWasPressedEvent;

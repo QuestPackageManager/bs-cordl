@@ -103,8 +103,8 @@ public:
   inline bool DidFirstLockedMissionStageChange();
 
   /// @brief Method GetAllMissionNodes, addr 0x3b535c8, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* GetAllMissionNodes(::GlobalNamespace::MissionNode* node,
-                                                                                                                 ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* visited);
+  inline ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>*
+  GetAllMissionNodes(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visited);
 
   /// @brief Method GetAllMissionNodes, addr 0x3b52e94, size 0xa8, virtual false, abstract: false, final false
   inline void GetAllMissionNodes();

@@ -248,7 +248,7 @@ public:
 
   /// @brief Field didFinishEvent, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*,
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,
                                                                                      ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* didFinishEvent;
 
   /// @brief Method BackButtonWasPressed, addr 0x3c00794, size 0x24, virtual true, abstract: false, final false
@@ -319,10 +319,11 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SelectAvatarSystemViewController>& __cordl_internal_get__selectAvatarSystemViewController();
 
-  constexpr ::System::Action_2<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* const&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* const&
   __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*&
+  __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__avatarFlowCoordinators(
       ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* value);
@@ -337,17 +338,17 @@ public:
 
   constexpr void __cordl_internal_set__selectAvatarSystemViewController(::UnityW<::GlobalNamespace::SelectAvatarSystemViewController> value);
 
-  constexpr void
-  __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(
+      ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
   /// @brief Method .ctor, addr 0x3c007b8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3bffc4c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3bffcfc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
 protected:
   // Ctor Parameters []
@@ -379,7 +380,7 @@ public:
   ::Zenject::DiContainer* ____container;
 
   /// @brief Field didFinishEvent, offset: 0xd0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* ___didFinishEvent;
 
   /// @brief Field _avatarFlowCoordinators, offset: 0xd8, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* ____avatarFlowCoordinators;

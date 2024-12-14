@@ -77,7 +77,7 @@ public:
   __declspec(property(get = get_smallCoverImage)) ::UnityW<::UnityEngine::Sprite> smallCoverImage;
 
   /// @brief Method Create, addr 0x26c8a08, size 0x68, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapLevelPackSO* Create(::StringW packID);
+  static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> Create(::StringW packID);
 
   static inline ::GlobalNamespace::BeatmapLevelPackSO* New_ctor();
 

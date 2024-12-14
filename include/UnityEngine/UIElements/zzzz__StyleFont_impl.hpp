@@ -210,13 +210,13 @@ inline ::StringW UnityEngine::UIElements::StyleFont::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>"
-constexpr UnityEngine::UIElements::StyleFont::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>*() {
-  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>"
+constexpr UnityEngine::UIElements::StyleFont::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>*() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>"
-constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>* UnityEngine::UIElements::StyleFont::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__Font__() {
-  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>"
+constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>* UnityEngine::UIElements::StyleFont::i___UnityEngine__UIElements__IStyleValue_1___UnityW___UnityEngine__Font__() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>"
 constexpr UnityEngine::UIElements::StyleFont::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>*() {

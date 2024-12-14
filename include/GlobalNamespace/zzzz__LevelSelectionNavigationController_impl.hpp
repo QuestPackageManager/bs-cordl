@@ -22,17 +22,17 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::add_didChangeLevelDetailContentEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6817c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didChangeLevelDetailContentEvent",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                        ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didChangeLevelDetailContentEvent",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+            ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -40,52 +40,52 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::remove_didChangeLevelDetailContentEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6822c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didChangeLevelDetailContentEvent",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                        ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didChangeLevelDetailContentEvent",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+            ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelSelectionNavigationController.add_didSelectLevelPackEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>*)>(
-        &::GlobalNamespace::LevelSelectionNavigationController::add_didSelectLevelPackEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*)>(
+    &::GlobalNamespace::LevelSelectionNavigationController::add_didSelectLevelPackEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b682dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didSelectLevelPackEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+            ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelSelectionNavigationController.remove_didSelectLevelPackEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>*)>(
-        &::GlobalNamespace::LevelSelectionNavigationController::remove_didSelectLevelPackEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*)>(
+    &::GlobalNamespace::LevelSelectionNavigationController::remove_didSelectLevelPackEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6838c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didSelectLevelPackEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(),
+                                                 "remove_didSelectLevelPackEvent", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
-    ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*)>(&::GlobalNamespace::LevelSelectionNavigationController::add_didPressActionButtonEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*)>(&::GlobalNamespace::LevelSelectionNavigationController::add_didPressActionButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6843c;
 
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didPressActionButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
-    ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*)>(&::GlobalNamespace::LevelSelectionNavigationController::remove_didPressActionButtonEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*)>(&::GlobalNamespace::LevelSelectionNavigationController::remove_didPressActionButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b684ec;
 
@@ -117,16 +117,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didPressActionButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelSelectionNavigationController.add_didPressPracticeButtonEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>*)>(
-        &::GlobalNamespace::LevelSelectionNavigationController::add_didPressPracticeButtonEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*)>(
+    &::GlobalNamespace::LevelSelectionNavigationController::add_didPressPracticeButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6859c;
 
@@ -135,16 +135,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didPressPracticeButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelSelectionNavigationController.remove_didPressPracticeButtonEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>*)>(
-        &::GlobalNamespace::LevelSelectionNavigationController::remove_didPressPracticeButtonEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*)>(
+    &::GlobalNamespace::LevelSelectionNavigationController::remove_didPressPracticeButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6864c;
 
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didPressPracticeButtonEvent",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -161,7 +161,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
-    ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*)>(&::GlobalNamespace::LevelSelectionNavigationController::add_didChangeDifficultyBeatmapEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*)>(&::GlobalNamespace::LevelSelectionNavigationController::add_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b686fc;
 
@@ -169,7 +169,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didChangeDifficultyBeatmapEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -177,7 +177,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
-    ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*)>(&::GlobalNamespace::LevelSelectionNavigationController::remove_didChangeDifficultyBeatmapEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*)>(&::GlobalNamespace::LevelSelectionNavigationController::remove_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b687ac;
 
@@ -185,7 +185,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didChangeDifficultyBeatmapEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -567,75 +567,77 @@ constexpr void GlobalNamespace::LevelSelectionNavigationController::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*&
 GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didChangeLevelDetailContentEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeLevelDetailContentEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* const&
 GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didChangeLevelDetailContentEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeLevelDetailContentEvent;
 }
 constexpr void GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_set_didChangeLevelDetailContentEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeLevelDetailContentEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*&
 GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didSelectLevelPackEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLevelPackEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* const&
 GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didSelectLevelPackEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLevelPackEvent;
 }
 constexpr void GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_set_didSelectLevelPackEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectLevelPackEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*& GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didPressActionButtonEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*& GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didPressActionButtonEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressActionButtonEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* const&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* const&
 GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didPressActionButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressActionButtonEvent;
 }
-constexpr void GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_set_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value) {
+constexpr void
+GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_set_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressActionButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*&
 GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didPressPracticeButtonEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressPracticeButtonEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* const&
 GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didPressPracticeButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressPracticeButtonEvent;
 }
 constexpr void GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_set_didPressPracticeButtonEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressPracticeButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*& GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didChangeDifficultyBeatmapEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*&
+GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didChangeDifficultyBeatmapEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeDifficultyBeatmapEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* const&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* const&
 GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_get_didChangeDifficultyBeatmapEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeDifficultyBeatmapEvent;
 }
 constexpr void
-GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value) {
+GlobalNamespace::LevelSelectionNavigationController::__cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeDifficultyBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -703,82 +705,82 @@ constexpr void GlobalNamespace::LevelSelectionNavigationController::__cordl_inte
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____notAllowedCharacteristics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::LevelSelectionNavigationController::add_didChangeLevelDetailContentEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didChangeLevelDetailContentEvent",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                      ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didChangeLevelDetailContentEvent",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::LevelSelectionNavigationController::remove_didChangeLevelDetailContentEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didChangeLevelDetailContentEvent",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                      ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didChangeLevelDetailContentEvent",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::LevelSelectionNavigationController::add_didSelectLevelPackEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didSelectLevelPackEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::LevelSelectionNavigationController::remove_didSelectLevelPackEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didSelectLevelPackEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelSelectionNavigationController::add_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value) {
+inline void GlobalNamespace::LevelSelectionNavigationController::add_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didPressActionButtonEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelSelectionNavigationController::remove_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value) {
+inline void GlobalNamespace::LevelSelectionNavigationController::remove_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didPressActionButtonEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::LevelSelectionNavigationController::add_didPressPracticeButtonEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didPressPracticeButtonEvent",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::LevelSelectionNavigationController::remove_didPressPracticeButtonEvent(
-    ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didPressPracticeButtonEvent",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelSelectionNavigationController::add_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value) {
+inline void GlobalNamespace::LevelSelectionNavigationController::add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "add_didChangeDifficultyBeatmapEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelSelectionNavigationController::remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value) {
+inline void GlobalNamespace::LevelSelectionNavigationController::remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionNavigationController*>::get(), "remove_didChangeDifficultyBeatmapEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory GlobalNamespace::LevelSelectionNavigationController::get_selectedLevelCategory() {

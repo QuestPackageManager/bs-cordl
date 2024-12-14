@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO);
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // CS Name: BeatSaber.BeatAvatarSDK.AvatarMeshPartSO
-class CORDL_TYPE AvatarMeshPartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityEngine::Mesh*> {
+class CORDL_TYPE AvatarMeshPartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityW<::UnityEngine::Mesh>> {
 public:
   // Declarations
   __declspec(property(get = get_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;

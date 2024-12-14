@@ -295,12 +295,13 @@ constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_SystemSpl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SystemSplashScreen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Unity::XR::Oculus::OculusSettings::setStaticF_s_Settings(::Unity::XR::Oculus::OculusSettings* value) {
-  ::cordl_internals::setStaticField<::Unity::XR::Oculus::OculusSettings*, "s_Settings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get>(
-      std::forward<::Unity::XR::Oculus::OculusSettings*>(value));
+inline void Unity::XR::Oculus::OculusSettings::setStaticF_s_Settings(::UnityW<::Unity::XR::Oculus::OculusSettings> value) {
+  ::cordl_internals::setStaticField<::UnityW<::Unity::XR::Oculus::OculusSettings>, "s_Settings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get>(
+      std::forward<::UnityW<::Unity::XR::Oculus::OculusSettings>>(value));
 }
-inline ::Unity::XR::Oculus::OculusSettings* Unity::XR::Oculus::OculusSettings::getStaticF_s_Settings() {
-  return ::cordl_internals::getStaticField<::Unity::XR::Oculus::OculusSettings*, "s_Settings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get>();
+inline ::UnityW<::Unity::XR::Oculus::OculusSettings> Unity::XR::Oculus::OculusSettings::getStaticF_s_Settings() {
+  return ::cordl_internals::getStaticField<::UnityW<::Unity::XR::Oculus::OculusSettings>, "s_Settings",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get>();
 }
 inline uint16_t Unity::XR::Oculus::OculusSettings::GetStereoRenderingMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get(),

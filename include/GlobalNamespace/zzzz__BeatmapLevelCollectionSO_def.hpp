@@ -37,7 +37,7 @@ public:
   inline void AddBeatmapLevel(::GlobalNamespace::BeatmapLevelSO* beatmapLevel);
 
   /// @brief Method Create, addr 0x26c3844, size 0xa0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapLevelCollectionSO* Create();
+  static inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> Create();
 
   static inline ::GlobalNamespace::BeatmapLevelCollectionSO* New_ctor();
 

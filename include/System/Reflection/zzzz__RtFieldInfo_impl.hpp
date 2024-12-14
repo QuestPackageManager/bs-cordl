@@ -6,6 +6,52 @@
 #include "System/Reflection/zzzz__Binder_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Reflection::RtFieldInfo.UnsafeGetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Reflection::RtFieldInfo::*)(::System::Object*)>(
+    &::System::Reflection::RtFieldInfo::UnsafeGetValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RtFieldInfo*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RtFieldInfo*>::get(), 31));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RtFieldInfo.UnsafeSetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::RtFieldInfo::*)(::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags,
+                                                                                                                              ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*)>(
+    &::System::Reflection::RtFieldInfo::UnsafeSetValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RtFieldInfo*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RtFieldInfo*>::get(), 32));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::RtFieldInfo.CheckConsistency
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::RtFieldInfo::*)(::System::Object*)>(
+    &::System::Reflection::RtFieldInfo::CheckConsistency)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RtFieldInfo*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RtFieldInfo*>::get(), 33));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Reflection::RtFieldInfo._ctor
 template <>
 

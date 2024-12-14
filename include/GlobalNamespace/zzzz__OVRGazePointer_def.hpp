@@ -38,7 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get__hidden_k__BackingField, put = __cordl_internal_set__hidden_k__BackingField)) bool _hidden_k__BackingField;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::GlobalNamespace::OVRGazePointer* _instance;
+  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::GlobalNamespace::OVRGazePointer> _instance;
 
   __declspec(property(get = get_currentScale, put = set_currentScale)) float_t currentScale;
 
@@ -216,7 +216,7 @@ public:
   /// @brief Method .ctor, addr 0x4031a98, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::OVRGazePointer* getStaticF__instance();
+  static inline ::UnityW<::GlobalNamespace::OVRGazePointer> getStaticF__instance();
 
   /// @brief Method get_SelectionProgress, addr 0x40310c0, size 0x78, virtual false, abstract: false, final false
   inline float_t get_SelectionProgress();
@@ -228,12 +228,12 @@ public:
   inline bool get_hidden();
 
   /// @brief Method get_instance, addr 0x4030e18, size 0x20c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRGazePointer* get_instance();
+  static inline ::UnityW<::GlobalNamespace::OVRGazePointer> get_instance();
 
   /// @brief Method get_visibilityStrength, addr 0x4031024, size 0x9c, virtual false, abstract: false, final false
   inline float_t get_visibilityStrength();
 
-  static inline void setStaticF__instance(::GlobalNamespace::OVRGazePointer* value);
+  static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRGazePointer> value);
 
   /// @brief Method set_SelectionProgress, addr 0x4031138, size 0x80, virtual false, abstract: false, final false
   inline void set_SelectionProgress(float_t value);

@@ -43,8 +43,8 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*();
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*();
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
+  constexpr operator ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*();
 
   /// @brief Method Equals, addr 0x454cdb8, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
@@ -82,11 +82,11 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>* i___System__IEquatable_1___UnityEngine__InputSystem__InputActionProperty_();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>"
-  constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>* i___System__IEquatable_1___UnityEngine__InputSystem__InputActionReference__();
-
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>* i___System__IEquatable_1___UnityEngine__InputSystem__InputAction__();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
+  constexpr ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>* i___System__IEquatable_1___UnityW___UnityEngine__InputSystem__InputActionReference__();
 
   /// @brief Method op_Equality, addr 0x454cf20, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::InputActionProperty left, ::UnityEngine::InputSystem::InputActionProperty right);

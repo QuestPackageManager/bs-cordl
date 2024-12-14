@@ -747,7 +747,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Mesh.FromInstanceID
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh* (*)(int32_t)>(&::UnityEngine::Mesh::FromInstanceID)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (*)(int32_t)>(&::UnityEngine::Mesh::FromInstanceID)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x4884c14;
 
@@ -3763,15 +3763,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Mesh.AcquireReadOnlyMeshData
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh_MeshDataArray (*)(::System::Collections::Generic::List_1<::UnityEngine::Mesh*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Mesh_MeshDataArray (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*)>(
     &::UnityEngine::Mesh::AcquireReadOnlyMeshData)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x4889d2c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "AcquireReadOnlyMeshData", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Mesh*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "AcquireReadOnlyMeshData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -3826,17 +3826,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Mesh.ApplyAndDisposeWritableMeshData
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh_MeshDataArray, ::System::Collections::Generic::List_1<::UnityEngine::Mesh*>*,
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh_MeshDataArray, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*,
                                                                                            ::UnityEngine::Rendering::MeshUpdateFlags)>(&::UnityEngine::Mesh::ApplyAndDisposeWritableMeshData)> {
   constexpr static std::size_t size = 0x1b0;
   constexpr static std::size_t addrs = 0x488a574;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "ApplyAndDisposeWritableMeshData", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh_MeshDataArray>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Mesh*>*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::MeshUpdateFlags>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "ApplyAndDisposeWritableMeshData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh_MeshDataArray>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::MeshUpdateFlags>::get() })));
     return ___internal_method;
   }
 };
@@ -5146,11 +5146,11 @@ inline void UnityEngine::Mesh::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Mesh* UnityEngine::Mesh::FromInstanceID(int32_t id) {
+inline ::UnityW<::UnityEngine::Mesh> UnityEngine::Mesh::FromInstanceID(int32_t id) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "FromInstanceID", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Mesh*, false>(nullptr, ___internal_method, id);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Mesh>, false>(nullptr, ___internal_method, id);
 }
 inline ::UnityEngine::Rendering::IndexFormat UnityEngine::Mesh::get_indexFormat() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "get_indexFormat",
@@ -6789,10 +6789,10 @@ inline ::UnityEngine::Mesh_MeshDataArray UnityEngine::Mesh::AcquireReadOnlyMeshD
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Mesh_MeshDataArray, false>(nullptr, ___internal_method, meshes);
 }
-inline ::UnityEngine::Mesh_MeshDataArray UnityEngine::Mesh::AcquireReadOnlyMeshData(::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* meshes) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "AcquireReadOnlyMeshData", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Mesh*>*>::get() })));
+inline ::UnityEngine::Mesh_MeshDataArray UnityEngine::Mesh::AcquireReadOnlyMeshData(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "AcquireReadOnlyMeshData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Mesh_MeshDataArray, false>(nullptr, ___internal_method, meshes);
 }
 inline ::UnityEngine::Mesh_MeshDataArray UnityEngine::Mesh::AllocateWritableMeshData(int32_t meshCount) {
@@ -6818,13 +6818,13 @@ inline void UnityEngine::Mesh::ApplyAndDisposeWritableMeshData(::UnityEngine::Me
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::MeshUpdateFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, data, meshes, flags);
 }
-inline void UnityEngine::Mesh::ApplyAndDisposeWritableMeshData(::UnityEngine::Mesh_MeshDataArray data, ::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* meshes,
+inline void UnityEngine::Mesh::ApplyAndDisposeWritableMeshData(::UnityEngine::Mesh_MeshDataArray data, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                ::UnityEngine::Rendering::MeshUpdateFlags flags) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "ApplyAndDisposeWritableMeshData", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh_MeshDataArray>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Mesh*>*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::MeshUpdateFlags>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Mesh*>::get(), "ApplyAndDisposeWritableMeshData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh_MeshDataArray>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::MeshUpdateFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, data, meshes, flags);
 }
 inline ::UnityEngine::GraphicsBuffer* UnityEngine::Mesh::GetVertexBuffer(int32_t index) {

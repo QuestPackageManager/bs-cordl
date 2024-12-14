@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_P
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerConnectedPlayerBombNoteController/Pool
-class CORDL_TYPE MultiplayerConnectedPlayerBombNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*> {
+class CORDL_TYPE MultiplayerConnectedPlayerBombNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* New_ctor();

@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::Environments::Definitions::Envir
 namespace Environments::Definitions {
 // Is value type: false
 // CS Name: Environments.Definitions.EnvironmentsAsyncInstaller
-class CORDL_TYPE EnvironmentsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::GlobalNamespace::EnvironmentInfoSO*> {
+class CORDL_TYPE EnvironmentsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>> {
 public:
   // Declarations
   using __c = ::Environments::Definitions::EnvironmentsAsyncInstaller___c;
@@ -118,7 +118,7 @@ public:
   LoadEnvironmentInfoListAsync();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x27131a4, size 0x124, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::GlobalNamespace::EnvironmentInfoSO*>* environmentInfos,
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* environmentInfos,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::Environments::Definitions::EnvironmentsAsyncInstaller* New_ctor();

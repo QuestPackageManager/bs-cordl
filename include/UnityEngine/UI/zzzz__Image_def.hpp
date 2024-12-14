@@ -615,7 +615,7 @@ public:
 
   /// @brief Field m_TrackedTexturelessImages, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_TrackedTexturelessImages,
-                      put = setStaticF_m_TrackedTexturelessImages)) ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_TrackedTexturelessImages;
+                      put = setStaticF_m_TrackedTexturelessImages)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* m_TrackedTexturelessImages;
 
   /// @brief Field m_Type, offset 0xe8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type)) ::UnityEngine::UI::Image_Type m_Type;
@@ -866,7 +866,7 @@ public:
   /// @brief Method <set_sprite>g__SpriteSupportsAlphaHitTest|11_1, addr 0x4969444, size 0x12c, virtual false, abstract: false, final false
   inline bool _set_sprite_g__SpriteSupportsAlphaHitTest_11_1();
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* getStaticF_m_TrackedTexturelessImages();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* getStaticF_m_TrackedTexturelessImages();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_s_ETC1DefaultUI();
 
@@ -970,7 +970,7 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
   constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
-  static inline void setStaticF_m_TrackedTexturelessImages(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* value);
+  static inline void setStaticF_m_TrackedTexturelessImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
 
   static inline void setStaticF_s_ETC1DefaultUI(::UnityW<::UnityEngine::Material> value);
 

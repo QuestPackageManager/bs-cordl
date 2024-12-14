@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_P
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerConnectedPlayerGameNoteController/Pool
-class CORDL_TYPE MultiplayerConnectedPlayerGameNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*> {
+class CORDL_TYPE MultiplayerConnectedPlayerGameNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool* New_ctor();
@@ -94,8 +94,9 @@ public:
   __declspec(property(get = __cordl_internal_get__noteVisualModifierType, put = __cordl_internal_set__noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType _noteVisualModifierType;
 
   /// @brief Field cubeNoteControllerDidInitEvent, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_cubeNoteControllerDidInitEvent,
-                      put = __cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* cubeNoteControllerDidInitEvent;
+  __declspec(property(
+      get = __cordl_internal_get_cubeNoteControllerDidInitEvent,
+      put = __cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* cubeNoteControllerDidInitEvent;
 
   __declspec(property(get = get_gameplayType)) ::GlobalNamespace::NoteData_GameplayType gameplayType;
 
@@ -103,8 +104,8 @@ public:
 
   __declspec(property(get = get_noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
 
-  /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>"
-  constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>"
+  constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteMovementProvider"
   constexpr operator ::GlobalNamespace::INoteMovementProvider*() noexcept;
@@ -126,21 +127,21 @@ public:
 
   constexpr ::GlobalNamespace::NoteVisualModifierType& __cordl_internal_get__noteVisualModifierType();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* const& __cordl_internal_get_cubeNoteControllerDidInitEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* const& __cordl_internal_get_cubeNoteControllerDidInitEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& __cordl_internal_get_cubeNoteControllerDidInitEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*& __cordl_internal_get_cubeNoteControllerDidInitEvent();
 
   constexpr void __cordl_internal_set__gameplayType(::GlobalNamespace::NoteData_GameplayType value);
 
   constexpr void __cordl_internal_set__noteVisualModifierType(::GlobalNamespace::NoteVisualModifierType value);
 
-  constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
+  constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value);
 
   /// @brief Method .ctor, addr 0x3bb74d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x3bb7360, size 0xb0, virtual true, abstract: false, final true
-  inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
+  inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value);
 
   /// @brief Method get_gameplayType, addr 0x3bb74c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
@@ -151,9 +152,9 @@ public:
   /// @brief Method get_noteVisualModifierType, addr 0x3bb74d0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
-  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>"
-  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*
-  i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__() noexcept;
+  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>"
+  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*
+  i___GlobalNamespace__ICubeNoteControllerInitializable_1___UnityW___GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__() noexcept;
 
   /// @brief Convert to "::GlobalNamespace::INoteMovementProvider"
   constexpr ::GlobalNamespace::INoteMovementProvider* i___GlobalNamespace__INoteMovementProvider() noexcept;
@@ -162,7 +163,7 @@ public:
   constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
   /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x3bb7410, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
+  inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -182,7 +183,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4496 };
 
   /// @brief Field cubeNoteControllerDidInitEvent, offset: 0x90, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* ___cubeNoteControllerDidInitEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* ___cubeNoteControllerDidInitEvent;
 
   /// @brief Field _noteVisualModifierType, offset: 0x98, size: 0x4, def value: None
   ::GlobalNamespace::NoteVisualModifierType ____noteVisualModifierType;

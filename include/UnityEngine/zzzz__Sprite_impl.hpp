@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Sprite.CreateSpriteWithoutTextureScripting
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, ::UnityEngine::Texture2D*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, ::UnityEngine::Texture2D*)>(
     &::UnityEngine::Sprite::CreateSpriteWithoutTextureScripting)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x48b9200;
@@ -151,8 +151,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4, bool,
-                                           ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>)>(&::UnityEngine::Sprite::CreateSprite)> {
+    static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4,
+                                                    bool, ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>)>(&::UnityEngine::Sprite::CreateSprite)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x48b92d0;
 
@@ -563,7 +563,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Sprite.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, ::UnityEngine::Texture2D*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, ::UnityEngine::Texture2D*)>(
     &::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x48ba214;
@@ -580,7 +580,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Sprite.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, float_t)>(&::UnityEngine::Sprite::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, float_t)>(
+    &::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x48ba218;
 
@@ -596,9 +597,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Sprite.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4, bool)>(
-        &::UnityEngine::Sprite::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(
+    ::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4, bool)>(&::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x48ba220;
 
@@ -617,8 +617,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4, bool,
-                                           ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>)>(&::UnityEngine::Sprite::Create)> {
+    static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4,
+                                                    bool, ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>)>(&::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0x47c;
   constexpr static std::size_t addrs = 0x48ba234;
 
@@ -637,8 +637,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::Sprite.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t,
-                                                                                                             ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4)>(&::UnityEngine::Sprite::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(
+    ::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t, ::UnityEngine::SpriteMeshType, ::UnityEngine::Vector4)>(&::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x48ba6b0;
 
@@ -656,8 +656,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Sprite.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t, ::UnityEngine::SpriteMeshType)>(&::UnityEngine::Sprite::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t,
+                                                                                                                      uint32_t, ::UnityEngine::SpriteMeshType)>(&::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x48ba6c4;
 
@@ -675,7 +675,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t)>(&::UnityEngine::Sprite::Create)> {
+    static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t, uint32_t)>(&::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x48ba7ac;
 
@@ -692,7 +692,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::Sprite.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2, float_t)>(
     &::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x48ba7b4;
@@ -710,7 +710,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Sprite.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(::UnityEngine::Texture2D*, ::UnityEngine::Rect, ::UnityEngine::Vector2)>(
     &::UnityEngine::Sprite::Create)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x48ba7c0;
@@ -798,9 +798,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Sprite.CreateSpriteWithoutTextureScripting_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Sprite* (*)(::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Vector2>, float_t, ::UnityEngine::Texture2D*)>(
-        &::UnityEngine::Sprite::CreateSpriteWithoutTextureScripting_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(
+    ::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Vector2>, float_t, ::UnityEngine::Texture2D*)>(&::UnityEngine::Sprite::CreateSpriteWithoutTextureScripting_Injected)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x48b926c;
 
@@ -816,10 +815,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::Sprite.CreateSprite_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Sprite* (*)(::UnityEngine::Texture2D*, ::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Vector2>, float_t, uint32_t, ::UnityEngine::SpriteMeshType,
-                                           ::ByRef<::UnityEngine::Vector4>, bool, ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>)>(
-        &::UnityEngine::Sprite::CreateSprite_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (*)(
+    ::UnityEngine::Texture2D*, ::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Vector2>, float_t, uint32_t, ::UnityEngine::SpriteMeshType, ::ByRef<::UnityEngine::Vector4>, bool,
+    ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>)>(&::UnityEngine::Sprite::CreateSprite_Injected)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x48b9378;
 
@@ -936,18 +934,18 @@ inline ::UnityEngine::Vector4 UnityEngine::Sprite::GetPadding() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::CreateSpriteWithoutTextureScripting(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits,
-                                                                                       ::UnityEngine::Texture2D* texture) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::CreateSpriteWithoutTextureScripting(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits,
+                                                                                                ::UnityEngine::Texture2D* texture) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "CreateSpriteWithoutTextureScripting", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, rect, pivot, pixelsToUnits, texture);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, rect, pivot, pixelsToUnits, texture);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::CreateSprite(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                                                ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
-                                                                ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTexture) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::CreateSprite(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit,
+                                                                         uint32_t extrude, ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
+                                                                         ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTexture) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "CreateSprite", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 9>{
@@ -956,8 +954,8 @@ inline ::UnityEngine::Sprite* UnityEngine::Sprite::CreateSprite(::UnityEngine::T
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpriteMeshType>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape,
-                                                                            secondaryTexture);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border,
+                                                                                     generateFallbackPhysicsShape, secondaryTexture);
 }
 inline ::UnityEngine::Bounds UnityEngine::Sprite::get_bounds() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "get_bounds",
@@ -1117,24 +1115,24 @@ inline void UnityEngine::Sprite::OverrideGeometry(::ArrayW<::UnityEngine::Vector
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, vertices, triangles);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, rect, pivot, pixelsToUnits, texture);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, rect, pivot, pixelsToUnits, texture);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, rect, pivot, pixelsToUnits);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, rect, pivot, pixelsToUnits);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                                          ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
+                                                                   ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{
@@ -1142,11 +1140,12 @@ inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpriteMeshType>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border,
+                                                                                     generateFallbackPhysicsShape);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                                          ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
-                                                          ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTextures) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
+                                                                   ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
+                                                                   ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTextures) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 9>{
@@ -1155,11 +1154,11 @@ inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpriteMeshType>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape,
-                                                                            secondaryTextures);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border,
+                                                                                     generateFallbackPhysicsShape, secondaryTextures);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                                          ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
+                                                                   ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{
@@ -1167,43 +1166,43 @@ inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpriteMeshType>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                                          ::UnityEngine::SpriteMeshType meshType) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
+                                                                   ::UnityEngine::SpriteMeshType meshType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpriteMeshType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot);
 }
 inline void UnityEngine::Sprite::GetTextureRect_Injected(::ByRef<::UnityEngine::Rect> ret) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1235,19 +1234,19 @@ inline void UnityEngine::Sprite::GetPadding_Injected(::ByRef<::UnityEngine::Vect
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector4>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ret);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::CreateSpriteWithoutTextureScripting_Injected(::ByRef<::UnityEngine::Rect> rect, ::ByRef<::UnityEngine::Vector2> pivot, float_t pixelsToUnits,
-                                                                                                ::UnityEngine::Texture2D* texture) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::CreateSpriteWithoutTextureScripting_Injected(::ByRef<::UnityEngine::Rect> rect, ::ByRef<::UnityEngine::Vector2> pivot,
+                                                                                                         float_t pixelsToUnits, ::UnityEngine::Texture2D* texture) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "CreateSpriteWithoutTextureScripting_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture2D*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, rect, pivot, pixelsToUnits, texture);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, rect, pivot, pixelsToUnits, texture);
 }
-inline ::UnityEngine::Sprite* UnityEngine::Sprite::CreateSprite_Injected(::UnityEngine::Texture2D* texture, ::ByRef<::UnityEngine::Rect> rect, ::ByRef<::UnityEngine::Vector2> pivot,
-                                                                         float_t pixelsPerUnit, uint32_t extrude, ::UnityEngine::SpriteMeshType meshType, ::ByRef<::UnityEngine::Vector4> border,
-                                                                         bool generateFallbackPhysicsShape,
-                                                                         ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTexture) {
+inline ::UnityW<::UnityEngine::Sprite> UnityEngine::Sprite::CreateSprite_Injected(::UnityEngine::Texture2D* texture, ::ByRef<::UnityEngine::Rect> rect, ::ByRef<::UnityEngine::Vector2> pivot,
+                                                                                  float_t pixelsPerUnit, uint32_t extrude, ::UnityEngine::SpriteMeshType meshType,
+                                                                                  ::ByRef<::UnityEngine::Vector4> border, bool generateFallbackPhysicsShape,
+                                                                                  ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTexture) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Sprite*>::get(), "CreateSprite_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 9>{
@@ -1256,8 +1255,8 @@ inline ::UnityEngine::Sprite* UnityEngine::Sprite::CreateSprite_Injected(::Unity
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpriteMeshType>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector4>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Sprite*, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape,
-                                                                            secondaryTexture);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Sprite>, false>(nullptr, ___internal_method, texture, rect, pivot, pixelsPerUnit, extrude, meshType, border,
+                                                                                     generateFallbackPhysicsShape, secondaryTexture);
 }
 inline void UnityEngine::Sprite::get_bounds_Injected(::ByRef<::UnityEngine::Bounds> ret) {
   static auto* ___internal_method =

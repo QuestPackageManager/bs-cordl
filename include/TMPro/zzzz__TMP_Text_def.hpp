@@ -686,7 +686,7 @@ public:
 
   __declspec(property(get = get_lineSpacingAdjustment, put = set_lineSpacingAdjustment)) float_t lineSpacingAdjustment;
 
-  __declspec(property(get = get_linkedTextComponent, put = set_linkedTextComponent)) ::TMPro::TMP_Text* linkedTextComponent;
+  __declspec(property(get = get_linkedTextComponent, put = set_linkedTextComponent)) ::UnityW<::TMPro::TMP_Text> linkedTextComponent;
 
   /// @brief Field m_AutoSizeIterationCount, offset 0x244, size 0x4
   __declspec(property(get = __cordl_internal_get_m_AutoSizeIterationCount, put = __cordl_internal_set_m_AutoSizeIterationCount)) int32_t m_AutoSizeIterationCount;
@@ -1110,7 +1110,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_lineVisibleCharacterCount, put = __cordl_internal_set_m_lineVisibleCharacterCount)) int32_t m_lineVisibleCharacterCount;
 
   /// @brief Field m_linkedTextComponent, offset 0x2e8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_linkedTextComponent, put = __cordl_internal_set_m_linkedTextComponent)) ::TMPro::TMP_Text* m_linkedTextComponent;
+  __declspec(property(get = __cordl_internal_get_m_linkedTextComponent, put = __cordl_internal_set_m_linkedTextComponent)) ::UnityW<::TMPro::TMP_Text> m_linkedTextComponent;
 
   /// @brief Field m_margin, offset 0x340, size 0x10
   __declspec(property(get = __cordl_internal_get_m_margin, put = __cordl_internal_set_m_margin)) ::UnityEngine::Vector4 m_margin;
@@ -1366,7 +1366,7 @@ public:
   __declspec(property(get = get_paragraphSpacing, put = set_paragraphSpacing)) float_t paragraphSpacing;
 
   /// @brief Field parentLinkedComponent, offset 0x2f0, size 0x8
-  __declspec(property(get = __cordl_internal_get_parentLinkedComponent, put = __cordl_internal_set_parentLinkedComponent)) ::TMPro::TMP_Text* parentLinkedComponent;
+  __declspec(property(get = __cordl_internal_get_parentLinkedComponent, put = __cordl_internal_set_parentLinkedComponent)) ::UnityW<::TMPro::TMP_Text> parentLinkedComponent;
 
   __declspec(property(get = get_parseCtrlCharacters, put = set_parseCtrlCharacters)) bool parseCtrlCharacters;
 
@@ -2380,9 +2380,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_lineVisibleCharacterCount();
 
-  constexpr ::TMPro::TMP_Text* const& __cordl_internal_get_m_linkedTextComponent() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_m_linkedTextComponent() const;
 
-  constexpr ::TMPro::TMP_Text*& __cordl_internal_get_m_linkedTextComponent();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_m_linkedTextComponent();
 
   constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_margin() const;
 
@@ -2656,9 +2656,9 @@ public:
 
   constexpr float_t& __cordl_internal_get_m_xAdvance();
 
-  constexpr ::TMPro::TMP_Text* const& __cordl_internal_get_parentLinkedComponent() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_parentLinkedComponent() const;
 
-  constexpr ::TMPro::TMP_Text*& __cordl_internal_get_parentLinkedComponent();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_parentLinkedComponent();
 
   constexpr float_t const& __cordl_internal_get_tag_Indent() const;
 
@@ -2938,7 +2938,7 @@ public:
 
   constexpr void __cordl_internal_set_m_lineVisibleCharacterCount(int32_t value);
 
-  constexpr void __cordl_internal_set_m_linkedTextComponent(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set_m_linkedTextComponent(::UnityW<::TMPro::TMP_Text> value);
 
   constexpr void __cordl_internal_set_m_margin(::UnityEngine::Vector4 value);
 
@@ -3076,7 +3076,7 @@ public:
 
   constexpr void __cordl_internal_set_m_xAdvance(float_t value);
 
-  constexpr void __cordl_internal_set_parentLinkedComponent(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set_parentLinkedComponent(::UnityW<::TMPro::TMP_Text> value);
 
   constexpr void __cordl_internal_set_tag_Indent(float_t value);
 
@@ -3088,13 +3088,13 @@ public:
   inline void _ctor();
 
   /// @brief Method add_OnFontAssetRequest, addr 0x47e1ec8, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::TMPro::TMP_FontAsset*>* value);
+  static inline void add_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* value);
 
   /// @brief Method add_OnPreRenderText, addr 0x47e2298, size 0xb4, virtual true, abstract: false, final false
   inline void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   /// @brief Method add_OnSpriteAssetRequest, addr 0x47e20b0, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_OnSpriteAssetRequest(::System::Func_3<int32_t, ::StringW, ::TMPro::TMP_SpriteAsset*>* value);
+  static inline void add_OnSpriteAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
   static inline ::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_OnFontAssetRequest();
 
@@ -3287,7 +3287,7 @@ public:
   inline float_t get_lineSpacingAdjustment();
 
   /// @brief Method get_linkedTextComponent, addr 0x47e1144, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Text* get_linkedTextComponent();
+  inline ::UnityW<::TMPro::TMP_Text> get_linkedTextComponent();
 
   /// @brief Method get_mappingUvLineOffset, addr 0x47e1710, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mappingUvLineOffset();
@@ -3413,13 +3413,13 @@ public:
   inline float_t get_wordWrappingRatios();
 
   /// @brief Method remove_OnFontAssetRequest, addr 0x47e1fbc, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::TMPro::TMP_FontAsset*>* value);
+  static inline void remove_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* value);
 
   /// @brief Method remove_OnPreRenderText, addr 0x47e234c, size 0xb4, virtual true, abstract: false, final false
   inline void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   /// @brief Method remove_OnSpriteAssetRequest, addr 0x47e21a4, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_OnSpriteAssetRequest(::System::Func_3<int32_t, ::StringW, ::TMPro::TMP_SpriteAsset*>* value);
+  static inline void remove_OnSpriteAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
   static inline void setStaticF_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* value);
 
@@ -3914,10 +3914,10 @@ public:
   int32_t ___m_firstOverflowCharacterIndex;
 
   /// @brief Field m_linkedTextComponent, offset: 0x2e8, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ___m_linkedTextComponent;
+  ::UnityW<::TMPro::TMP_Text> ___m_linkedTextComponent;
 
   /// @brief Field parentLinkedComponent, offset: 0x2f0, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ___parentLinkedComponent;
+  ::UnityW<::TMPro::TMP_Text> ___parentLinkedComponent;
 
   /// @brief Field m_isTextTruncated, offset: 0x2f8, size: 0x1, def value: None
   bool ___m_isTextTruncated;

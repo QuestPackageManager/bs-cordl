@@ -97,7 +97,7 @@ constexpr ::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__35::Leve
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
-    ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6199c;
 
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "add_didPressSearchButtonEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*>::get() })));
     return ___internal_method;
   }
 };
@@ -113,7 +113,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
-    ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::LevelSearchViewController::remove_didPressSearchButtonEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::LevelSearchViewController::remove_didPressSearchButtonEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b61a4c;
 
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "remove_didPressSearchButtonEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*>::get() })));
     return ___internal_method;
   }
 };
@@ -163,14 +163,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
-    ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*)>(&::GlobalNamespace::LevelSearchViewController::add_didStartLoadingEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*)>(&::GlobalNamespace::LevelSearchViewController::add_didStartLoadingEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b61c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "add_didStartLoadingEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -178,14 +178,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
-    ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*)>(&::GlobalNamespace::LevelSearchViewController::remove_didStartLoadingEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*)>(&::GlobalNamespace::LevelSearchViewController::remove_didStartLoadingEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b61d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "remove_didStartLoadingEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -369,8 +369,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::LevelSearchViewController.LocalizedLevelFilterParamsDescription
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ByRef<::GlobalNamespace::LevelFilter>, ::GlobalNamespace::SongPackMasksModel*,
-                                                                                                ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristicSO*>*, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(
+    ::ByRef<::GlobalNamespace::LevelFilter>, ::GlobalNamespace::SongPackMasksModel*, ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, bool)>(
     &::GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription)> {
   constexpr static std::size_t size = 0x650;
   constexpr static std::size_t addrs = 0x3b62224;
@@ -378,10 +378,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "LocalizedLevelFilterParamsDescription", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::LevelFilter>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongPackMasksModel*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::std::array<Il2CppType const*, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::LevelFilter>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongPackMasksModel*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -563,18 +564,18 @@ constexpr void GlobalNamespace::LevelSearchViewController::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uiKeyboardManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*&
 GlobalNamespace::LevelSearchViewController::__cordl_internal_get_didPressSearchButtonEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressSearchButtonEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* const&
 GlobalNamespace::LevelSearchViewController::__cordl_internal_get_didPressSearchButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressSearchButtonEvent;
 }
-constexpr void
-GlobalNamespace::LevelSearchViewController::__cordl_internal_set_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value) {
+constexpr void GlobalNamespace::LevelSearchViewController::__cordl_internal_set_didPressSearchButtonEvent(
+    ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressSearchButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -594,15 +595,15 @@ constexpr void GlobalNamespace::LevelSearchViewController::__cordl_internal_set_
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFilterBeatmapLevelCollectionEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*& GlobalNamespace::LevelSearchViewController::__cordl_internal_get_didStartLoadingEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*& GlobalNamespace::LevelSearchViewController::__cordl_internal_get_didStartLoadingEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartLoadingEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* const& GlobalNamespace::LevelSearchViewController::__cordl_internal_get_didStartLoadingEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* const& GlobalNamespace::LevelSearchViewController::__cordl_internal_get_didStartLoadingEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didStartLoadingEvent;
 }
-constexpr void GlobalNamespace::LevelSearchViewController::__cordl_internal_set_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value) {
+constexpr void GlobalNamespace::LevelSearchViewController::__cordl_internal_set_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didStartLoadingEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -680,18 +681,20 @@ GlobalNamespace::LevelSearchViewController::__cordl_internal_set__beatmapLevelPa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelPacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value) {
+inline void
+GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "add_didPressSearchButtonEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelSearchViewController::remove_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value) {
+inline void
+GlobalNamespace::LevelSearchViewController::remove_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "remove_didPressSearchButtonEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void
@@ -712,16 +715,16 @@ GlobalNamespace::LevelSearchViewController::remove_didFilterBeatmapLevelCollecti
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelSearchViewController::add_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value) {
+inline void GlobalNamespace::LevelSearchViewController::add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "add_didStartLoadingEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::LevelSearchViewController::remove_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value) {
+inline void GlobalNamespace::LevelSearchViewController::remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "remove_didStartLoadingEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::LevelSearchViewController::IsFilteringPlayCounts() {
@@ -792,16 +795,16 @@ inline void GlobalNamespace::LevelSearchViewController::SearchTextInputFieldView
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::InputFieldView*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inputFieldView);
 }
-inline ::StringW
-GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription(::ByRef<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
-                                                                                  ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristicSO*>* characteristics,
-                                                                                  bool isPlayerSensitivityForced) {
+inline ::StringW GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription(
+    ::ByRef<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
+    ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* characteristics, bool isPlayerSensitivityForced) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "LocalizedLevelFilterParamsDescription", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::LevelFilter>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongPackMasksModel*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::LevelFilter>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SongPackMasksModel*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, filter, songPackMasksModel, characteristics, isPlayerSensitivityForced);
 }
 inline void GlobalNamespace::LevelSearchViewController::_ctor() {

@@ -181,7 +181,8 @@ public:
 
   __declspec(property(get = get_faceInfo, put = set_faceInfo)) ::UnityEngine::TextCore::FaceInfo faceInfo;
 
-  __declspec(property(get = get_fallbackFontAssetTable, put = set_fallbackFontAssetTable)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* fallbackFontAssetTable;
+  __declspec(property(get = get_fallbackFontAssetTable,
+                      put = set_fallbackFontAssetTable)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fallbackFontAssetTable;
 
   __declspec(property(get = get_familyNameHashCode, put = set_familyNameHashCode)) int32_t familyNameHashCode;
 
@@ -218,8 +219,9 @@ public:
                       put = setStaticF_k_FontAssets_AtlasTexturesUpdateQueueLookup)) ::System::Collections::Generic::HashSet_1<int32_t>* k_FontAssets_AtlasTexturesUpdateQueueLookup;
 
   /// @brief Field k_FontAssets_FontFeaturesUpdateQueue, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_FontAssets_FontFeaturesUpdateQueue,
-                      put = setStaticF_k_FontAssets_FontFeaturesUpdateQueue)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* k_FontAssets_FontFeaturesUpdateQueue;
+  __declspec(property(
+      get = getStaticF_k_FontAssets_FontFeaturesUpdateQueue,
+      put = setStaticF_k_FontAssets_FontFeaturesUpdateQueue)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* k_FontAssets_FontFeaturesUpdateQueue;
 
   /// @brief Field k_FontAssets_FontFeaturesUpdateQueueLookup, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup,
@@ -311,7 +313,7 @@ public:
 
   /// @brief Field m_FallbackFontAssetTable, offset 0x178, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FallbackFontAssetTable,
-                      put = __cordl_internal_set_m_FallbackFontAssetTable)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* m_FallbackFontAssetTable;
+                      put = __cordl_internal_set_m_FallbackFontAssetTable)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* m_FallbackFontAssetTable;
 
   /// @brief Field m_FamilyNameHashCode, offset 0x110, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FamilyNameHashCode, put = __cordl_internal_set_m_FamilyNameHashCode)) int32_t m_FamilyNameHashCode;
@@ -441,34 +443,34 @@ public:
   template <typename T> inline void CopyListDataToArray(::System::Collections::Generic::List_1<T>* srcList, ::ByRef<::ArrayW<T, ::Array<T>*>> dstArray);
 
   /// @brief Method CreateFontAsset, addr 0x4921704, size 0x1d8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize);
 
   /// @brief Method CreateFontAsset, addr 0x4921f78, size 0x7c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font);
 
   /// @brief Method CreateFontAsset, addr 0x49220b4, size 0x230, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
-                                                                          ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
+                                                                                   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                                   ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAsset, addr 0x4921ff4, size 0xc0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding,
-                                                                          ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding,
+                                                                                   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                                   ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAsset, addr 0x4921a50, size 0xb4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
-                                                                          ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
+                                                                                   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight);
 
   /// @brief Method CreateFontAsset, addr 0x49218dc, size 0x174, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
-                                                                          ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
-                                                                          ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
+                                                                                   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                                   ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method CreateFontAssetInstance, addr 0x4921b04, size 0x474, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::FontAsset* CreateFontAssetInstance(::UnityEngine::Font* font, int32_t atlasPadding, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
-                                                                                  int32_t atlasWidth, int32_t atlasHeight, ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode,
-                                                                                  bool enableMultiAtlasSupport);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAssetInstance(::UnityEngine::Font* font, int32_t atlasPadding,
+                                                                                           ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                                           ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method DestroyAtlasTextures, addr 0x492234c, size 0xc4, virtual false, abstract: false, final false
   inline void DestroyAtlasTextures();
@@ -682,9 +684,9 @@ public:
 
   constexpr ::UnityEngine::TextCore::FaceInfo& __cordl_internal_get_m_FaceInfo();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* const& __cordl_internal_get_m_FallbackFontAssetTable() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* const& __cordl_internal_get_m_FallbackFontAssetTable() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>*& __cordl_internal_get_m_FallbackFontAssetTable();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*& __cordl_internal_get_m_FallbackFontAssetTable();
 
   constexpr int32_t const& __cordl_internal_get_m_FamilyNameHashCode() const;
 
@@ -822,7 +824,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FaceInfo(::UnityEngine::TextCore::FaceInfo value);
 
-  constexpr void __cordl_internal_set_m_FallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  constexpr void __cordl_internal_set_m_FallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
   constexpr void __cordl_internal_set_m_FamilyNameHashCode(int32_t value);
 
@@ -885,7 +887,7 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_k_FontAssets_AtlasTexturesUpdateQueueLookup();
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* getStaticF_k_FontAssets_FontFeaturesUpdateQueue();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* getStaticF_k_FontAssets_FontFeaturesUpdateQueue();
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup();
 
@@ -952,7 +954,7 @@ public:
   inline ::UnityEngine::TextCore::FaceInfo get_faceInfo();
 
   /// @brief Method get_fallbackFontAssetTable, addr 0x4921684, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* get_fallbackFontAssetTable();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* get_fallbackFontAssetTable();
 
   /// @brief Method get_familyNameHashCode, addr 0x49210c8, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_familyNameHashCode();
@@ -1007,7 +1009,7 @@ public:
 
   static inline void setStaticF_k_FontAssets_AtlasTexturesUpdateQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueue(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueue(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
   static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
@@ -1065,7 +1067,7 @@ public:
   inline void set_faceInfo(::UnityEngine::TextCore::FaceInfo value);
 
   /// @brief Method set_fallbackFontAssetTable, addr 0x492168c, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  inline void set_fallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
   /// @brief Method set_familyNameHashCode, addr 0x49210f8, size 0x8, virtual false, abstract: false, final false
   inline void set_familyNameHashCode(int32_t value);
@@ -1202,7 +1204,7 @@ public:
   ::UnityEngine::TextCore::Text::FontFeatureTable* ___m_FontFeatureTable;
 
   /// @brief Field m_FallbackFontAssetTable, offset: 0x178, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* ___m_FallbackFontAssetTable;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* ___m_FallbackFontAssetTable;
 
   /// @brief Field m_FontWeightTable, offset: 0x180, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> ___m_FontWeightTable;

@@ -27,7 +27,7 @@ constexpr ::HMUI::SelectableCell_TransitionType HMUI::SelectableCell_TransitionT
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCell::*)(
-    ::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*)>(&::HMUI::SelectableCell::add_selectionDidChangeEvent)> {
+    ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*)>(&::HMUI::SelectableCell::add_selectionDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fd054;
 
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "add_selectionDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCell::*)(
-    ::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*)>(&::HMUI::SelectableCell::remove_selectionDidChangeEvent)> {
+    ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*)>(&::HMUI::SelectableCell::remove_selectionDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fd104;
 
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "remove_selectionDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -59,36 +59,38 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::HMUI::SelectableCell::*)(::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>*)>(&::HMUI::SelectableCell::add_highlightDidChangeEvent)> {
+    static_cast<void (::HMUI::SelectableCell::*)(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*)>(&::HMUI::SelectableCell::add_highlightDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fd1b4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "add_highlightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "add_highlightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SelectableCell.remove_highlightDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::HMUI::SelectableCell::*)(::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>*)>(&::HMUI::SelectableCell::remove_highlightDidChangeEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCell::*)(
+    ::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*)>(&::HMUI::SelectableCell::remove_highlightDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fd264;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "remove_highlightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "remove_highlightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SelectableCell.add_nonInteractableCellWasPressedEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCell::*)(::System::Action_1<::HMUI::SelectableCell*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCell::*)(::System::Action_1<::UnityW<::HMUI::SelectableCell>>*)>(
     &::HMUI::SelectableCell::add_nonInteractableCellWasPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fd314;
@@ -96,14 +98,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "add_nonInteractableCellWasPressedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::SelectableCell*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::SelectableCell>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SelectableCell.remove_nonInteractableCellWasPressedEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCell::*)(::System::Action_1<::HMUI::SelectableCell*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCell::*)(::System::Action_1<::UnityW<::HMUI::SelectableCell>>*)>(
     &::HMUI::SelectableCell::remove_nonInteractableCellWasPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fd3c4;
@@ -111,7 +113,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "remove_nonInteractableCellWasPressedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::SelectableCell*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::SelectableCell>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -245,6 +247,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::HMUI::SelectableCell.InternalToggle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCell::*)()>(&::HMUI::SelectableCell::InternalToggle)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), 10));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::HMUI::SelectableCell.SelectionDidChange
 template <>
 
@@ -359,39 +375,41 @@ constexpr void HMUI::SelectableCell::__cordl_internal_set__wasPressedSignal(::Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____wasPressedSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*& HMUI::SelectableCell::__cordl_internal_get_selectionDidChangeEvent() {
+constexpr ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*& HMUI::SelectableCell::__cordl_internal_get_selectionDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectionDidChangeEvent;
 }
-constexpr ::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* const& HMUI::SelectableCell::__cordl_internal_get_selectionDidChangeEvent() const {
+constexpr ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* const&
+HMUI::SelectableCell::__cordl_internal_get_selectionDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectionDidChangeEvent;
 }
-constexpr void HMUI::SelectableCell::__cordl_internal_set_selectionDidChangeEvent(::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value) {
+constexpr void
+HMUI::SelectableCell::__cordl_internal_set_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectionDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>*& HMUI::SelectableCell::__cordl_internal_get_highlightDidChangeEvent() {
+constexpr ::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*& HMUI::SelectableCell::__cordl_internal_get_highlightDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___highlightDidChangeEvent;
 }
-constexpr ::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>* const& HMUI::SelectableCell::__cordl_internal_get_highlightDidChangeEvent() const {
+constexpr ::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* const& HMUI::SelectableCell::__cordl_internal_get_highlightDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___highlightDidChangeEvent;
 }
-constexpr void HMUI::SelectableCell::__cordl_internal_set_highlightDidChangeEvent(::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>* value) {
+constexpr void HMUI::SelectableCell::__cordl_internal_set_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___highlightDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::HMUI::SelectableCell*>*& HMUI::SelectableCell::__cordl_internal_get_nonInteractableCellWasPressedEvent() {
+constexpr ::System::Action_1<::UnityW<::HMUI::SelectableCell>>*& HMUI::SelectableCell::__cordl_internal_get_nonInteractableCellWasPressedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nonInteractableCellWasPressedEvent;
 }
-constexpr ::System::Action_1<::HMUI::SelectableCell*>* const& HMUI::SelectableCell::__cordl_internal_get_nonInteractableCellWasPressedEvent() const {
+constexpr ::System::Action_1<::UnityW<::HMUI::SelectableCell>>* const& HMUI::SelectableCell::__cordl_internal_get_nonInteractableCellWasPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nonInteractableCellWasPressedEvent;
 }
-constexpr void HMUI::SelectableCell::__cordl_internal_set_nonInteractableCellWasPressedEvent(::System::Action_1<::HMUI::SelectableCell*>* value) {
+constexpr void HMUI::SelectableCell::__cordl_internal_set_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nonInteractableCellWasPressedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -419,42 +437,44 @@ constexpr void HMUI::SelectableCell::__cordl_internal_set__selected_k__BackingFi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selected_k__BackingField = value;
 }
-inline void HMUI::SelectableCell::add_selectionDidChangeEvent(::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value) {
+inline void HMUI::SelectableCell::add_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "add_selectionDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SelectableCell::remove_selectionDidChangeEvent(::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value) {
+inline void HMUI::SelectableCell::remove_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "remove_selectionDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SelectableCell::add_highlightDidChangeEvent(::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "add_highlightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>*>::get() })));
+inline void HMUI::SelectableCell::add_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "add_highlightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SelectableCell::remove_highlightDidChangeEvent(::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "remove_highlightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType>*>::get() })));
+inline void HMUI::SelectableCell::remove_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "remove_highlightDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SelectableCell::add_nonInteractableCellWasPressedEvent(::System::Action_1<::HMUI::SelectableCell*>* value) {
+inline void HMUI::SelectableCell::add_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "add_nonInteractableCellWasPressedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::SelectableCell*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::SelectableCell>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SelectableCell::remove_nonInteractableCellWasPressedEvent(::System::Action_1<::HMUI::SelectableCell*>* value) {
+inline void HMUI::SelectableCell::remove_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCell*>::get(), "remove_nonInteractableCellWasPressedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::SelectableCell*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::SelectableCell>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool HMUI::SelectableCell::get_highlighted() {

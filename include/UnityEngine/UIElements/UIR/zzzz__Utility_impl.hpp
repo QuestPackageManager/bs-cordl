@@ -196,7 +196,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Utility.add_RegisterIntermediateRenderers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::Camera*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::Camera>>*)>(
     &::UnityEngine::UIElements::UIR::Utility::add_RegisterIntermediateRenderers)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x49a3888;
@@ -204,14 +204,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Utility*>::get(), "add_RegisterIntermediateRenderers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Camera*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Camera>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Utility.remove_RegisterIntermediateRenderers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::Camera*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::Camera>>*)>(
     &::UnityEngine::UIElements::UIR::Utility::remove_RegisterIntermediateRenderers)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x49a397c;
@@ -219,7 +219,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Utility*>::get(), "remove_RegisterIntermediateRenderers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Camera*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Camera>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -861,16 +861,16 @@ inline void UnityEngine::UIElements::UIR::Utility::remove_FlushPendingResources(
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::UIR::Utility::add_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value) {
+inline void UnityEngine::UIElements::UIR::Utility::add_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Utility*>::get(), "add_RegisterIntermediateRenderers", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Camera*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Camera>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::UIR::Utility::remove_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value) {
+inline void UnityEngine::UIElements::UIR::Utility::remove_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Utility*>::get(), "remove_RegisterIntermediateRenderers", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Camera*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Camera>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::UIR::Utility::add_RenderNodeExecute(::System::Action_1<::System::IntPtr>* value) {

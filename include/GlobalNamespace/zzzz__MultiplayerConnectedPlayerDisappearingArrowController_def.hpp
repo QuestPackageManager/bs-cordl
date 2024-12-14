@@ -18,7 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowCon
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerConnectedPlayerDisappearingArrowController
-class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*> {
+class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController
+    : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>> {
 public:
   // Declarations
   /// @brief Field _gameNoteController, offset 0x58, size 0x8

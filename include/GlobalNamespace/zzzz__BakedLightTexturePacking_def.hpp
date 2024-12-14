@@ -39,7 +39,7 @@ public:
   __declspec(property(get = getStaticF__texPropertyIds, put = setStaticF__texPropertyIds)) ::ArrayW<int32_t, ::Array<int32_t>*> _texPropertyIds;
 
   /// @brief Method PackTextures, addr 0x3b12b94, size 0x348, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::RenderTexture> PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>* textures,
+  static inline ::UnityW<::UnityEngine::RenderTexture> PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>* textures,
                                                                     ::UnityEngine::RenderTextureDescriptor descriptor);
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();

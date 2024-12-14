@@ -22,6 +22,38 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher.EncryptBlock
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::*)(
+    ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::EncryptBlock)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher.DecryptBlock
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::*)(
+    ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::DecryptBlock)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher*>::get(), 5));
+    return ___internal_method;
+  }
+};
 constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::__cordl_internal_get_t() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;

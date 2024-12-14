@@ -176,8 +176,8 @@ public:
   /// @brief Field _xyzOrder, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get__xyzOrder, put = __cordl_internal_set__xyzOrder)) ::HoudiniEngineUnity::HAPI_XYZOrder _xyzOrder;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*() noexcept;
 
   /// @brief Method CleanUp, addr 0x3a47fd4, size 0xc, virtual false, abstract: false, final false
   inline void CleanUp();
@@ -329,8 +329,8 @@ public:
   /// @brief Method get_XYZOrder, addr 0x3a46ff8, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_XYZOrder get_XYZOrder();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Handle__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Handle__() noexcept;
 
 protected:
   // Ctor Parameters []

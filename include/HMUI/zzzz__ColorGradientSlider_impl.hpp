@@ -16,15 +16,15 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ColorGradientSlider::*)(
-    ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::HMUI::ColorGradientSlider::add_colorDidChangeEvent)> {
+    ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::HMUI::ColorGradientSlider::add_colorDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x39f0b28;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "add_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "add_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                        ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -32,15 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ColorGradientSlider::*)(
-    ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::HMUI::ColorGradientSlider::remove_colorDidChangeEvent)> {
+    ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::HMUI::ColorGradientSlider::remove_colorDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x39f0bdc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "remove_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "remove_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                        ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -232,17 +232,18 @@ constexpr void HMUI::ColorGradientSlider::__cordl_internal_set__lightColor(::Uni
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightColor = value;
 }
-constexpr ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& HMUI::ColorGradientSlider::__cordl_internal_get_colorDidChangeEvent() {
+constexpr ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*&
+HMUI::ColorGradientSlider::__cordl_internal_get_colorDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorDidChangeEvent;
 }
-constexpr ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* const&
+constexpr ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* const&
 HMUI::ColorGradientSlider::__cordl_internal_get_colorDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorDidChangeEvent;
 }
 constexpr void
-HMUI::ColorGradientSlider::__cordl_internal_set_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+HMUI::ColorGradientSlider::__cordl_internal_set_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -253,18 +254,18 @@ inline void HMUI::ColorGradientSlider::setStaticF__stringBuilder(::System::Text:
 inline ::System::Text::StringBuilder* HMUI::ColorGradientSlider::getStaticF__stringBuilder() {
   return ::cordl_internals::getStaticField<::System::Text::StringBuilder*, "_stringBuilder", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get>();
 }
-inline void HMUI::ColorGradientSlider::add_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "add_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+inline void HMUI::ColorGradientSlider::add_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "add_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                      ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::ColorGradientSlider::remove_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "remove_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+inline void HMUI::ColorGradientSlider::remove_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ColorGradientSlider*>::get(), "remove_colorDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                      ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void HMUI::ColorGradientSlider::Awake() {

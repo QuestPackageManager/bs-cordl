@@ -88,8 +88,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainMap.CreateFromPlacement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TerrainUtils::TerrainMap* (*)(::UnityEngine::Terrain*, ::System::Predicate_1<::UnityEngine::Terrain*>*,
-                                                                                                                               bool)>(&::UnityEngine::TerrainUtils::TerrainMap::CreateFromPlacement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityEngine::TerrainUtils::TerrainMap* (*)(::UnityEngine::Terrain*, ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>*, bool)>(
+        &::UnityEngine::TerrainUtils::TerrainMap::CreateFromPlacement)> {
   constexpr static std::size_t size = 0x2ac;
   constexpr static std::size_t addrs = 0x491c950;
 
@@ -97,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainMap*>::get(), "CreateFromPlacement", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Predicate_1<::UnityEngine::Terrain*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -106,7 +107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::TerrainUtils::TerrainMap* (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Predicate_1<::UnityEngine::Terrain*>*, bool)>(
+    static_cast<::UnityEngine::TerrainUtils::TerrainMap* (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>*, bool)>(
         &::UnityEngine::TerrainUtils::TerrainMap::CreateFromPlacement)> {
   constexpr static std::size_t size = 0x3e8;
   constexpr static std::size_t addrs = 0x491cc04;
@@ -114,9 +115,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainMap*>::get(), "CreateFromPlacement", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Predicate_1<::UnityEngine::Terrain*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -255,21 +257,22 @@ inline ::UnityW<::UnityEngine::Terrain> UnityEngine::TerrainUtils::TerrainMap::G
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Terrain>, false>(this, ___internal_method, tileX, tileZ);
 }
 inline ::UnityEngine::TerrainUtils::TerrainMap* UnityEngine::TerrainUtils::TerrainMap::CreateFromPlacement(::UnityEngine::Terrain* originTerrain,
-                                                                                                           ::System::Predicate_1<::UnityEngine::Terrain*>* filter, bool fullValidation) {
+                                                                                                           ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter, bool fullValidation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainMap*>::get(), "CreateFromPlacement", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Predicate_1<::UnityEngine::Terrain*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TerrainUtils::TerrainMap*, false>(nullptr, ___internal_method, originTerrain, filter, fullValidation);
 }
 inline ::UnityEngine::TerrainUtils::TerrainMap* UnityEngine::TerrainUtils::TerrainMap::CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize,
-                                                                                                           ::System::Predicate_1<::UnityEngine::Terrain*>* filter, bool fullValidation) {
+                                                                                                           ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter, bool fullValidation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainMap*>::get(), "CreateFromPlacement", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Predicate_1<::UnityEngine::Terrain*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TerrainUtils::TerrainMap*, false>(nullptr, ___internal_method, gridOrigin, gridSize, filter, fullValidation);
 }
 inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* UnityEngine::TerrainUtils::TerrainMap::get_terrainTiles() {

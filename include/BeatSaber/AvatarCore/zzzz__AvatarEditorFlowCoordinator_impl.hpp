@@ -27,16 +27,17 @@ constexpr ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode BeatSabe
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::*)(
-    ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*)>(
-    &::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::add_didFinishEvent)> {
+    ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                       ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*)>(&::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2249408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<
-            ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                                                                                     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*>::get() })));
     return ___internal_method;
   }
 };
@@ -44,16 +45,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::*)(
-    ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*)>(
-    &::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::remove_didFinishEvent)> {
+    ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                       ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*)>(&::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x22494b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<
-            ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                                                                                     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*>::get() })));
     return ___internal_method;
   }
 };
@@ -148,6 +150,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator.OneTimeInitialize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::*)()>(
+    &::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::OneTimeInitialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>::get(), 12));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator.Finish
 template <>
 
@@ -192,21 +210,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+constexpr ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                              ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*&
 BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+constexpr ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                              ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* const&
 BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::__cordl_internal_set_didFinishEvent(
-    ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*
-        value) {
+    ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                       ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -258,22 +276,24 @@ constexpr void BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
-inline void
-BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::add_didFinishEvent(::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
-                                                                                          ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value) {
+inline void BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::add_didFinishEvent(
+    ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                       ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<
-          ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                                                                                   ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void
-BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::remove_didFinishEvent(::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
-                                                                                             ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value) {
+inline void BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::remove_didFinishEvent(
+    ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                       ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<
-          ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                                                                                   ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::add_didSetupEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode>* value) {

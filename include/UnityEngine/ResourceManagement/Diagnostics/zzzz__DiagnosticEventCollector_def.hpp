@@ -28,10 +28,10 @@ class CORDL_TYPE DiagnosticEventCollector : public ::UnityEngine::MonoBehaviour 
 public:
   // Declarations
   /// @brief Field s_Collector, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Collector, put = setStaticF_s_Collector)) ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* s_Collector;
+  __declspec(property(get = getStaticF_s_Collector, put = setStaticF_s_Collector)) ::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> s_Collector;
 
   /// @brief Method FindOrCreateGlobalInstance, addr 0x47a23c4, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* FindOrCreateGlobalInstance();
+  static inline ::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> FindOrCreateGlobalInstance();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* New_ctor();
 
@@ -47,12 +47,12 @@ public:
   /// @brief Method .ctor, addr 0x47a2664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* getStaticF_s_Collector();
+  static inline ::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> getStaticF_s_Collector();
 
   /// @brief Method get_PlayerConnectionGuid, addr 0x47a23c0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Guid get_PlayerConnectionGuid();
 
-  static inline void setStaticF_s_Collector(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* value);
+  static inline void setStaticF_s_Collector(::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> value);
 
 protected:
   // Ctor Parameters []

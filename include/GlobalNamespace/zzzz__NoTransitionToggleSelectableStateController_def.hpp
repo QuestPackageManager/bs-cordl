@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoTransitionToggleSelectableStateController);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoTransitionToggleSelectableStateController
-class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsToggle*> {
+class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsToggle>> {
 public:
   // Declarations
   /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x44d7cbc, size 0x8, virtual false, abstract: false, final false

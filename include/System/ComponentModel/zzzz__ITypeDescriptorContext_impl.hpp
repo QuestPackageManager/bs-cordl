@@ -3,6 +3,22 @@
 #include "System/zzzz__IServiceProvider_impl.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/ComponentModel/zzzz__IContainer_def.hpp"
+//  Writing Method size for method: ::System::ComponentModel::ITypeDescriptorContext.get_Container
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::IContainer* (::System::ComponentModel::ITypeDescriptorContext::*)()>(
+    &::System::ComponentModel::ITypeDescriptorContext::get_Container)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ITypeDescriptorContext*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ITypeDescriptorContext*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline ::System::ComponentModel::IContainer* System::ComponentModel::ITypeDescriptorContext::get_Container() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ITypeDescriptorContext*>::get(), 0)));

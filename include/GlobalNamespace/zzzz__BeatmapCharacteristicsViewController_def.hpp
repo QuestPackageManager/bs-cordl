@@ -93,7 +93,7 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x3c17c7c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectBeatmapCharacteristicEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  inline void add_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
   /// @brief Method get_beatmapCharacteristicCollection, addr 0x3c17ddc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristicCollection* get_beatmapCharacteristicCollection();
@@ -102,7 +102,7 @@ public:
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
 
   /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x3c17d2c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectBeatmapCharacteristicEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  inline void remove_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
 protected:
   // Ctor Parameters []

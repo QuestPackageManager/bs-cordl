@@ -21,6 +21,51 @@ constexpr ::GlobalNamespace::ISonyPSPremiumHelper_GetPremiumStatusResult::ISonyP
 constexpr ::GlobalNamespace::ISonyPSPremiumHelper_GetPremiumStatusResult GlobalNamespace::ISonyPSPremiumHelper_GetPremiumStatusResult::Authorized{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::ISonyPSPremiumHelper_GetPremiumStatusResult GlobalNamespace::ISonyPSPremiumHelper_GetPremiumStatusResult::Unauthorized{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::ISonyPSPremiumHelper_GetPremiumStatusResult GlobalNamespace::ISonyPSPremiumHelper_GetPremiumStatusResult::Failed{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::GlobalNamespace::ISonyPSPremiumHelper.DisplayJoinPremiumDialogAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyPSPremiumHelper_DisplayJoinPremiumDialogResult>* (
+    ::GlobalNamespace::ISonyPSPremiumHelper::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::ISonyPSPremiumHelper::DisplayJoinPremiumDialogAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyPSPremiumHelper*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyPSPremiumHelper*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ISonyPSPremiumHelper.GetPremiumStatusAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyPSPremiumHelper_GetPremiumStatusResult>* (
+    ::GlobalNamespace::ISonyPSPremiumHelper::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::ISonyPSPremiumHelper::GetPremiumStatusAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyPSPremiumHelper*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyPSPremiumHelper*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ISonyPSPremiumHelper.NotifyPremiumFeature
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ISonyPSPremiumHelper::*)(bool)>(
+    &::GlobalNamespace::ISonyPSPremiumHelper::NotifyPremiumFeature)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyPSPremiumHelper*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyPSPremiumHelper*>::get(), 2));
+    return ___internal_method;
+  }
+};
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyPSPremiumHelper_DisplayJoinPremiumDialogResult>*
 GlobalNamespace::ISonyPSPremiumHelper::DisplayJoinPremiumDialogAsync(::System::Threading::CancellationToken token) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

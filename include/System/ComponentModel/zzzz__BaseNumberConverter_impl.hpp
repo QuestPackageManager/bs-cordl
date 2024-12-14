@@ -36,6 +36,70 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::ComponentModel::BaseNumberConverter.get_TargetType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::BaseNumberConverter::*)()>(
+    &::System::ComponentModel::BaseNumberConverter::get_TargetType)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(), 17));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::BaseNumberConverter.FromString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::BaseNumberConverter::*)(::StringW, int32_t)>(
+    &::System::ComponentModel::BaseNumberConverter::FromString)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(), 18));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::BaseNumberConverter.FromString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::System::ComponentModel::BaseNumberConverter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::BaseNumberConverter::FromString)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(), 19));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::BaseNumberConverter.ToString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::BaseNumberConverter::*)(
+    ::System::Object*, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::BaseNumberConverter::ToString)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(), 20));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::ComponentModel::BaseNumberConverter.CanConvertFrom
 template <>
 

@@ -59,13 +59,13 @@ constexpr void GlobalNamespace::CopyPosition_CopyPositionUpdater::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____copyPositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::CopyPosition_CopyPositionUpdater::setStaticF__instance(::GlobalNamespace::CopyPosition_CopyPositionUpdater* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::CopyPosition_CopyPositionUpdater*, "_instance",
+inline void GlobalNamespace::CopyPosition_CopyPositionUpdater::setStaticF__instance(::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater> value) {
+  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater>, "_instance",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CopyPosition_CopyPositionUpdater*>::get>(
-      std::forward<::GlobalNamespace::CopyPosition_CopyPositionUpdater*>(value));
+      std::forward<::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater>>(value));
 }
-inline ::GlobalNamespace::CopyPosition_CopyPositionUpdater* GlobalNamespace::CopyPosition_CopyPositionUpdater::getStaticF__instance() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::CopyPosition_CopyPositionUpdater*, "_instance",
+inline ::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater> GlobalNamespace::CopyPosition_CopyPositionUpdater::getStaticF__instance() {
+  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater>, "_instance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CopyPosition_CopyPositionUpdater*>::get>();
 }
 inline void GlobalNamespace::CopyPosition_CopyPositionUpdater::Add(::GlobalNamespace::CopyPosition* copyPosition) {

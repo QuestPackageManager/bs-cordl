@@ -28,10 +28,10 @@ class CORDL_TYPE HEU_ReloadEventData : public ::HoudiniEngineUnity::HEU_AssetEve
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_ReloadEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
-                                                                    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+                                                                    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method .ctor, addr 0x3a066bc, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
 protected:
   // Ctor Parameters []

@@ -2,6 +2,35 @@
 // IWYU pragma private; include "GlobalNamespace/BakedLightWithIdBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedLightWithIdBase_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::BakedLightWithIdBase.get_id
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BakedLightWithIdBase::*)()>(&::GlobalNamespace::BakedLightWithIdBase::get_id)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightWithIdBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightWithIdBase*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BakedLightWithIdBase.SetupLightSource
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightWithIdBase::*)(float_t)>(
+    &::GlobalNamespace::BakedLightWithIdBase::SetupLightSource)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightWithIdBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightWithIdBase*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::BakedLightWithIdBase._ctor
 template <>
 

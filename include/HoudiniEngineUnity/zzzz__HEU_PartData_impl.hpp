@@ -700,45 +700,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PartData.GetClonableObjects
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*)>(
-    &::HoudiniEngineUnity::HEU_PartData::GetClonableObjects)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*)>(&::HoudiniEngineUnity::HEU_PartData::GetClonableObjects)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x3a3061c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "GetClonableObjects", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PartData.GetClonableParts
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>*)>(&::HoudiniEngineUnity::HEU_PartData::GetClonableParts)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(
+    ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*)>(&::HoudiniEngineUnity::HEU_PartData::GetClonableParts)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x3a30718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "GetClonableParts", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PartData.GetOutputGameObjects
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*)>(
-    &::HoudiniEngineUnity::HEU_PartData::GetOutputGameObjects)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*)>(&::HoudiniEngineUnity::HEU_PartData::GetOutputGameObjects)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x3a3080c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "GetOutputGameObjects", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -760,7 +760,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PartData.GetHDAPartWithGameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_PartData* (::HoudiniEngineUnity::HEU_PartData::*)(::UnityEngine::GameObject*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HoudiniEngineUnity::HEU_PartData> (::HoudiniEngineUnity::HEU_PartData::*)(::UnityEngine::GameObject*)>(
     &::HoudiniEngineUnity::HEU_PartData::GetHDAPartWithGameObject)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x3a309bc;
@@ -1058,10 +1058,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PartData.CopyGameObjectComponents
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::StringW, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*,
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, bool, ::ByRef<::StringW>, ::ByRef<::UnityEngine::Object*>, ::StringW, bool, bool,
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*)>(&::HoudiniEngineUnity::HEU_PartData::CopyGameObjectComponents)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::StringW,
+                         ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*,
+                         ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*, bool, ::ByRef<::StringW>, ::ByRef<::UnityEngine::Object*>,
+                         ::StringW, bool, bool, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*)>(&::HoudiniEngineUnity::HEU_PartData::CopyGameObjectComponents)> {
   constexpr static std::size_t size = 0x1e40;
   constexpr static std::size_t addrs = 0x3a322d0;
 
@@ -1071,8 +1072,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 13>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_PartData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -1083,10 +1084,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PartData.CopyChildGameObjects
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::StringW, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*,
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, bool, ::ByRef<::StringW>, ::ByRef<::UnityEngine::Object*>, ::StringW, bool, bool, bool)>(
-    &::HoudiniEngineUnity::HEU_PartData::CopyChildGameObjects)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::StringW,
+                         ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*,
+                         ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*, bool, ::ByRef<::StringW>, ::ByRef<::UnityEngine::Object*>,
+                         ::StringW, bool, bool, bool)>(&::HoudiniEngineUnity::HEU_PartData::CopyChildGameObjects)> {
   constexpr static std::size_t size = 0x410;
   constexpr static std::size_t addrs = 0x3a34110;
 
@@ -1096,8 +1098,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 13>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_PartData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -1109,8 +1111,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::HoudiniEngineUnity::HEU_PartData::*)(
-    ::UnityEngine::Transform*, bool, ::ByRef<::StringW>, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*,
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::ByRef<::UnityEngine::Object*>, ::StringW, bool)>(
+    ::UnityEngine::Transform*, bool, ::ByRef<::StringW>, ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*,
+    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*, ::ByRef<::UnityEngine::Object*>, ::StringW, bool)>(
     &::HoudiniEngineUnity::HEU_PartData::BakePartToNewGameObject)> {
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x3a34528;
@@ -1121,8 +1123,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 8>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -1131,10 +1133,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PartData.BakePartToGameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::StringW, bool, bool, bool, bool, ::ByRef<::StringW>,
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*,
-    ::ByRef<::UnityEngine::Object*>, ::StringW, bool, bool)>(&::HoudiniEngineUnity::HEU_PartData::BakePartToGameObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::StringW, bool, bool, bool, bool, ::ByRef<::StringW>,
+                         ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*,
+                         ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*, ::ByRef<::UnityEngine::Object*>, ::StringW, bool, bool)>(
+        &::HoudiniEngineUnity::HEU_PartData::BakePartToGameObject)> {
   constexpr static std::size_t size = 0x7d8;
   constexpr static std::size_t addrs = 0x3a34798;
 
@@ -1147,8 +1150,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -1158,8 +1161,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(
-    ::UnityEngine::GameObject*, bool, bool, bool, ::ByRef<::StringW>, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*,
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::ByRef<::UnityEngine::Object*>, ::StringW, bool, bool)>(
+    ::UnityEngine::GameObject*, bool, bool, bool, ::ByRef<::StringW>, ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*,
+    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*, ::ByRef<::UnityEngine::Object*>, ::StringW, bool, bool)>(
     &::HoudiniEngineUnity::HEU_PartData::BakePartToGameObject)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x3a346b4;
@@ -1171,8 +1174,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -1259,14 +1262,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*)>(&::HoudiniEngineUnity::HEU_PartData::PopulateObjectInstanceInfos)> {
+    ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*)>(&::HoudiniEngineUnity::HEU_PartData::PopulateObjectInstanceInfos)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x3a2f08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "PopulateObjectInstanceInfos", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1274,14 +1278,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_PartData::*)(
-    ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*)>(&::HoudiniEngineUnity::HEU_PartData::SetObjectInstanceInfos)> {
+    ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*)>(&::HoudiniEngineUnity::HEU_PartData::SetObjectInstanceInfos)> {
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x3a35ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "SetObjectInstanceInfos", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1407,7 +1412,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_PartData.DestroyParts
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*)>(
     &::HoudiniEngineUnity::HEU_PartData::DestroyParts)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x3a36074;
@@ -1415,7 +1420,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "DestroyParts", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1879,22 +1884,22 @@ inline bool HoudiniEngineUnity::HEU_PartData::IsUsingMaterial(::HoudiniEngineUni
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_MaterialData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, materialData);
 }
-inline void HoudiniEngineUnity::HEU_PartData::GetClonableObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* clonableObjects) {
+inline void HoudiniEngineUnity::HEU_PartData::GetClonableObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* clonableObjects) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "GetClonableObjects", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, clonableObjects);
 }
-inline void HoudiniEngineUnity::HEU_PartData::GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts) {
+inline void HoudiniEngineUnity::HEU_PartData::GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "GetClonableParts", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, clonableParts);
 }
-inline void HoudiniEngineUnity::HEU_PartData::GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects) {
+inline void HoudiniEngineUnity::HEU_PartData::GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "GetOutputGameObjects", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, outputObjects);
 }
 inline void HoudiniEngineUnity::HEU_PartData::GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs) {
@@ -1903,11 +1908,11 @@ inline void HoudiniEngineUnity::HEU_PartData::GetOutput(::System::Collections::G
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, outputs);
 }
-inline ::HoudiniEngineUnity::HEU_PartData* HoudiniEngineUnity::HEU_PartData::GetHDAPartWithGameObject(::UnityEngine::GameObject* inGameObject) {
+inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> HoudiniEngineUnity::HEU_PartData::GetHDAPartWithGameObject(::UnityEngine::GameObject* inGameObject) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "GetHDAPartWithGameObject", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_PartData*, false>(this, ___internal_method, inGameObject);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::HoudiniEngineUnity::HEU_PartData>, false>(this, ___internal_method, inGameObject);
 }
 inline void HoudiniEngineUnity::HEU_PartData::SetObjectInstancer(bool bObjectInstancer) {
   static auto* ___internal_method =
@@ -2034,20 +2039,20 @@ inline void HoudiniEngineUnity::HEU_PartData::CalculateColliderState() {
                                                                              "CalculateColliderState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::HEU_PartData::CopyGameObjectComponents(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO,
-                                                                       ::StringW assetName,
-                                                                       ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                                                       ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
-                                                                       bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath, ::ByRef<::UnityEngine::Object*> assetDBObject,
-                                                                       ::StringW assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources,
-                                                                       ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* lodTransformValues) {
+inline void
+HoudiniEngineUnity::HEU_PartData::CopyGameObjectComponents(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName,
+                                                           ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+                                                           ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
+                                                           bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath, ::ByRef<::UnityEngine::Object*> assetDBObject,
+                                                           ::StringW assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources,
+                                                           ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* lodTransformValues) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "CopyGameObjectComponents", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 13>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_PartData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -2056,19 +2061,19 @@ inline void HoudiniEngineUnity::HEU_PartData::CopyGameObjectComponents(::Houdini
                                                           bWriteMeshesToAssetDatabase, bakedAssetPath, assetDBObject, assetObjectFileName, bDeleteExistingComponents, bDontDeletePersistantResources,
                                                           lodTransformValues);
 }
-inline void HoudiniEngineUnity::HEU_PartData::CopyChildGameObjects(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO,
-                                                                   ::StringW assetName, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                                                   ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
-                                                                   bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath, ::ByRef<::UnityEngine::Object*> assetDBObject,
-                                                                   ::StringW assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources,
-                                                                   bool bKeepPreviousTransformValues) {
+inline void
+HoudiniEngineUnity::HEU_PartData::CopyChildGameObjects(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName,
+                                                       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+                                                       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
+                                                       bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath, ::ByRef<::UnityEngine::Object*> assetDBObject,
+                                                       ::StringW assetObjectFileName, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bKeepPreviousTransformValues) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "CopyChildGameObjects", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 13>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_PartData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -2079,28 +2084,27 @@ inline void HoudiniEngineUnity::HEU_PartData::CopyChildGameObjects(::HoudiniEngi
 }
 inline ::UnityW<::UnityEngine::GameObject>
 HoudiniEngineUnity::HEU_PartData::BakePartToNewGameObject(::UnityEngine::Transform* parentTransform, bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath,
-                                                          ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                                          ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
+                                                          ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+                                                          ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
                                                           ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "BakePartToNewGameObject", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, parentTransform, bWriteMeshesToAssetDatabase, bakedAssetPath, sourceToTargetMeshMap,
                                                                                          sourceToCopiedMaterials, assetDBObject, assetObjectFileName, bReconnectPrefabInstances);
 }
-inline void HoudiniEngineUnity::HEU_PartData::BakePartToGameObject(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* targetGO,
-                                                                   ::StringW assetName, bool bIsInstancer, bool bDeleteExistingComponents, bool bDontDeletePersistantResources,
-                                                                   bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath,
-                                                                   ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                                                   ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
-                                                                   ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances,
-                                                                   bool bKeepPreviousTransformValues) {
+inline void HoudiniEngineUnity::HEU_PartData::BakePartToGameObject(
+    ::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName, bool bIsInstancer, bool bDeleteExistingComponents,
+    bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath,
+    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials, ::ByRef<::UnityEngine::Object*> assetDBObject,
+    ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "BakePartToGameObject", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 15>{
@@ -2109,28 +2113,27 @@ inline void HoudiniEngineUnity::HEU_PartData::BakePartToGameObject(::HoudiniEngi
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, partData, srcGO, targetGO, assetName, bIsInstancer, bDeleteExistingComponents, bDontDeletePersistantResources,
                                                           bWriteMeshesToAssetDatabase, bakedAssetPath, sourceToTargetMeshMap, sourceToCopiedMaterials, assetDBObject, assetObjectFileName,
                                                           bReconnectPrefabInstances, bKeepPreviousTransformValues);
 }
-inline void HoudiniEngineUnity::HEU_PartData::BakePartToGameObject(::UnityEngine::GameObject* targetGO, bool bDeleteExistingComponents, bool bDontDeletePersistantResources,
-                                                                   bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath,
-                                                                   ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                                                   ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
-                                                                   ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances,
-                                                                   bool bKeepPreviousTransformValues) {
+inline void HoudiniEngineUnity::HEU_PartData::BakePartToGameObject(
+    ::UnityEngine::GameObject* targetGO, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath,
+    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials, ::ByRef<::UnityEngine::Object*> assetDBObject,
+    ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "BakePartToGameObject", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 11>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Object*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, targetGO, bDeleteExistingComponents, bDontDeletePersistantResources, bWriteMeshesToAssetDatabase, bakedAssetPath,
@@ -2169,16 +2172,18 @@ inline void HoudiniEngineUnity::HEU_PartData::DestroyAttributesStore() {
                                                                              "DestroyAttributesStore", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::HEU_PartData::PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos) {
+inline void HoudiniEngineUnity::HEU_PartData::PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "PopulateObjectInstanceInfos", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, objInstanceInfos);
 }
-inline void HoudiniEngineUnity::HEU_PartData::SetObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* sourceObjectInstanceInfos) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "SetObjectInstanceInfos", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>::get() })));
+inline void HoudiniEngineUnity::HEU_PartData::SetObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* sourceObjectInstanceInfos) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "SetObjectInstanceInfos", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{
+                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceObjectInstanceInfos);
 }
 inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* HoudiniEngineUnity::HEU_PartData::GetObjectInstanceInfos() {
@@ -2230,10 +2235,10 @@ inline ::StringW HoudiniEngineUnity::HEU_PartData::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::HEU_PartData::DestroyParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* parts) {
+inline void HoudiniEngineUnity::HEU_PartData::DestroyParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* parts) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PartData*>::get(), "DestroyParts", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, parts);
 }
 inline void HoudiniEngineUnity::HEU_PartData::DestroyPart(::HoudiniEngineUnity::HEU_PartData* part) {
@@ -2251,14 +2256,14 @@ inline bool HoudiniEngineUnity::HEU_PartData::IsEquivalentTo(::HoudiniEngineUnit
 inline ::HoudiniEngineUnity::HEU_PartData* HoudiniEngineUnity::HEU_PartData::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_PartData*>());
 }
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>"
-constexpr HoudiniEngineUnity::HEU_PartData::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>"
+constexpr HoudiniEngineUnity::HEU_PartData::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>*
-HoudiniEngineUnity::HEU_PartData::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_PartData__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>*>(static_cast<void*>(this));
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*
+HoudiniEngineUnity::HEU_PartData::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_PartData__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_PartData::HEU_PartData() {}

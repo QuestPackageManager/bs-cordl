@@ -47,7 +47,7 @@ public:
   __declspec(property(get = getStaticF_s_DefaultEditorPanelTextSettingPath, put = setStaticF_s_DefaultEditorPanelTextSettingPath)) ::StringW s_DefaultEditorPanelTextSettingPath;
 
   /// @brief Field s_DefaultPanelTextSettings, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_DefaultPanelTextSettings, put = setStaticF_s_DefaultPanelTextSettings)) ::UnityEngine::UIElements::PanelTextSettings* s_DefaultPanelTextSettings;
+  __declspec(property(get = getStaticF_s_DefaultPanelTextSettings, put = setStaticF_s_DefaultPanelTextSettings)) ::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
 
   /// @brief Method GetCachedFontAsset, addr 0x4a8f438, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAsset(::UnityEngine::Font* font);
@@ -66,10 +66,10 @@ public:
 
   static inline ::StringW getStaticF_s_DefaultEditorPanelTextSettingPath();
 
-  static inline ::UnityEngine::UIElements::PanelTextSettings* getStaticF_s_DefaultPanelTextSettings();
+  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
 
   /// @brief Method get_defaultPanelTextSettings, addr 0x4a8ed48, size 0x134, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::PanelTextSettings* get_defaultPanelTextSettings();
+  static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
   static inline void setStaticF_EditorGUIUtilityLoad(::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* value);
 
@@ -77,7 +77,7 @@ public:
 
   static inline void setStaticF_s_DefaultEditorPanelTextSettingPath(::StringW value);
 
-  static inline void setStaticF_s_DefaultPanelTextSettings(::UnityEngine::UIElements::PanelTextSettings* value);
+  static inline void setStaticF_s_DefaultPanelTextSettings(::UnityW<::UnityEngine::UIElements::PanelTextSettings> value);
 
 protected:
   // Ctor Parameters []

@@ -42,10 +42,10 @@ public:
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllAssetNames();
 
   /// @brief Method GetAllLoadedAssetBundles, addr 0x4856078, size 0x28, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AssetBundle*>* GetAllLoadedAssetBundles();
+  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AssetBundle>>* GetAllLoadedAssetBundles();
 
   /// @brief Method GetAllLoadedAssetBundles_Native, addr 0x4856050, size 0x28, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::AssetBundle*, ::Array<::UnityEngine::AssetBundle*>*> GetAllLoadedAssetBundles_Native();
+  static inline ::ArrayW<::UnityW<::UnityEngine::AssetBundle>, ::Array<::UnityW<::UnityEngine::AssetBundle>>*> GetAllLoadedAssetBundles_Native();
 
   /// @brief Method GetAllScenePaths, addr 0x48569bc, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllScenePaths();
@@ -87,7 +87,7 @@ public:
   inline ::UnityW<::UnityEngine::Object> LoadAsset_Internal(::StringW name, ::System::Type* type);
 
   /// @brief Method LoadFromFile, addr 0x48561d4, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AssetBundle* LoadFromFile(::StringW path);
+  static inline ::UnityW<::UnityEngine::AssetBundle> LoadFromFile(::StringW path);
 
   /// @brief Method LoadFromFileAsync, addr 0x48560f4, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync(::StringW path);
@@ -99,7 +99,7 @@ public:
   static inline ::UnityEngine::AssetBundleCreateRequest* LoadFromFileAsync_Internal(::StringW path, uint32_t crc, uint64_t offset);
 
   /// @brief Method LoadFromFile_Internal, addr 0x4856180, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AssetBundle* LoadFromFile_Internal(::StringW path, uint32_t crc, uint64_t offset);
+  static inline ::UnityW<::UnityEngine::AssetBundle> LoadFromFile_Internal(::StringW path, uint32_t crc, uint64_t offset);
 
   static inline ::UnityEngine::AssetBundle* New_ctor();
 

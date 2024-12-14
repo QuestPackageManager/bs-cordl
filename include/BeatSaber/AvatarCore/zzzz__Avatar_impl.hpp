@@ -11,6 +11,21 @@
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::BeatSaber::AvatarCore::Avatar.get_bodyCenterWorldPosition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BeatSaber::AvatarCore::Avatar::*)()>(
+    &::BeatSaber::AvatarCore::Avatar::get_bodyCenterWorldPosition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(), 4));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BeatSaber::AvatarCore::Avatar.SetPoseDataProvider
 template <>
 
@@ -84,6 +99,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(), "UpdateAvatarFromOptionalData", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::AvatarCore::OptionalAvatarData>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::Avatar.SetLightColor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::Avatar::*)(::UnityEngine::Color)>(&::BeatSaber::AvatarCore::Avatar::SetLightColor)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::Avatar.UpdateAvatarFromPose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::Avatar::*)(::BeatSaber::AvatarCore::AvatarPoseData)>(
+    &::BeatSaber::AvatarCore::Avatar::UpdateAvatarFromPose)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::Avatar.UpdateAvatarFromVisualData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::Avatar::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
+    &::BeatSaber::AvatarCore::Avatar::UpdateAvatarFromVisualData)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::Avatar.UpdateAvatarFromOptionalData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::Avatar::*)(::BeatSaber::AvatarCore::OptionalAvatarData, float_t)>(
+    &::BeatSaber::AvatarCore::Avatar::UpdateAvatarFromOptionalData)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::Avatar*>::get(), 8));
     return ___internal_method;
   }
 };

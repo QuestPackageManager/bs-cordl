@@ -262,8 +262,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>*,
-                         ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>*)>(&::UnityEngine::UI::GraphicRaycaster::Raycast)> {
+    static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>*,
+                         ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>*)>(&::UnityEngine::UI::GraphicRaycaster::Raycast)> {
   constexpr static std::size_t size = 0x568;
   constexpr static std::size_t addrs = 0x4963ae0;
 
@@ -273,8 +273,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Canvas*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -412,15 +412,15 @@ inline ::UnityW<::UnityEngine::Camera> UnityEngine::UI::GraphicRaycaster::get_ev
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Camera>, false>(this, ___internal_method);
 }
 inline void UnityEngine::UI::GraphicRaycaster::Raycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Camera* eventCamera, ::UnityEngine::Vector2 pointerPosition,
-                                                       ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* foundGraphics,
-                                                       ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>* results) {
+                                                       ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* foundGraphics,
+                                                       ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* results) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GraphicRaycaster*>::get(), "Raycast", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Canvas*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, canvas, eventCamera, pointerPosition, foundGraphics, results);
 }
 inline ::UnityEngine::UI::GraphicRaycaster* UnityEngine::UI::GraphicRaycaster::New_ctor() {

@@ -150,13 +150,13 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didSelectCharacteristic, addr 0x3afd620, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCharacteristic(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  inline void add_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
   /// @brief Method remove_didSelectCharacteristic, addr 0x3afd6d0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCharacteristic(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  inline void remove_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
 protected:
   // Ctor Parameters []

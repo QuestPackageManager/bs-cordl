@@ -347,7 +347,7 @@ public:
   __declspec(property(get = __cordl_internal_get_onQuit, put = __cordl_internal_set_onQuit)) ::System::Action* onQuit;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::Unity::XR::Oculus::OculusRestarter* s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::Unity::XR::Oculus::OculusRestarter> s_Instance;
 
   static inline ::Unity::XR::Oculus::OculusRestarter* New_ctor();
 
@@ -408,10 +408,10 @@ public:
 
   static inline int32_t getStaticF_m_pauseAndRestartAttempts();
 
-  static inline ::Unity::XR::Oculus::OculusRestarter* getStaticF_s_Instance();
+  static inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> getStaticF_s_Instance();
 
   /// @brief Method get_Instance, addr 0x483532c, size 0x1cc, virtual false, abstract: false, final false
-  static inline ::Unity::XR::Oculus::OculusRestarter* get_Instance();
+  static inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> get_Instance();
 
   /// @brief Method get_PauseAndRestartAttempts, addr 0x48352d4, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_PauseAndRestartAttempts();
@@ -428,7 +428,7 @@ public:
 
   static inline void setStaticF_m_pauseAndRestartAttempts(int32_t value);
 
-  static inline void setStaticF_s_Instance(::Unity::XR::Oculus::OculusRestarter* value);
+  static inline void setStaticF_s_Instance(::UnityW<::Unity::XR::Oculus::OculusRestarter> value);
 
   /// @brief Method set_TimeBetweenRestartAttempts, addr 0x4835270, size 0x64, virtual false, abstract: false, final false
   static inline void set_TimeBetweenRestartAttempts(float_t value);

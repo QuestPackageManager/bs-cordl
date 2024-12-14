@@ -45,7 +45,7 @@ public:
 
   /// @brief Method ProvideInstance, addr 0x479ca34, size 0xd8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
-                                                             ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> prefabHandle,
+                                                             ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> prefabHandle,
                                                              ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 
   /// @brief Method ReleaseInstance, addr 0x479cb0c, size 0x23c, virtual true, abstract: false, final true

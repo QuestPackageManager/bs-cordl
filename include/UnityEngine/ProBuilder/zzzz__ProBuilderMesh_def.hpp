@@ -466,15 +466,17 @@ public:
   __declspec(property(get = get_colorsInternal, put = set_colorsInternal)) ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colorsInternal;
 
   /// @brief Field componentHasBeenReset, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_componentHasBeenReset, put = setStaticF_componentHasBeenReset)) ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* componentHasBeenReset;
+  __declspec(property(get = getStaticF_componentHasBeenReset, put = setStaticF_componentHasBeenReset)) ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* componentHasBeenReset;
 
   /// @brief Field componentWillBeDestroyed, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_componentWillBeDestroyed, put = setStaticF_componentWillBeDestroyed)) ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* componentWillBeDestroyed;
+  __declspec(property(get = getStaticF_componentWillBeDestroyed,
+                      put = setStaticF_componentWillBeDestroyed)) ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* componentWillBeDestroyed;
 
   __declspec(property(get = get_edgeCount)) int32_t edgeCount;
 
   /// @brief Field elementSelectionChanged, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_elementSelectionChanged, put = setStaticF_elementSelectionChanged)) ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* elementSelectionChanged;
+  __declspec(property(get = getStaticF_elementSelectionChanged,
+                      put = setStaticF_elementSelectionChanged)) ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* elementSelectionChanged;
 
   __declspec(property(get = get_faceCount)) int32_t faceCount;
 
@@ -594,10 +596,10 @@ public:
   __declspec(property(get = get_meshSyncState)) ::UnityEngine::ProBuilder::MeshSyncState meshSyncState;
 
   /// @brief Field meshWasInitialized, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_meshWasInitialized, put = setStaticF_meshWasInitialized)) ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshWasInitialized;
+  __declspec(property(get = getStaticF_meshWasInitialized, put = setStaticF_meshWasInitialized)) ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshWasInitialized;
 
   /// @brief Field meshWillBeDestroyed, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_meshWillBeDestroyed, put = setStaticF_meshWillBeDestroyed)) ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshWillBeDestroyed;
+  __declspec(property(get = getStaticF_meshWillBeDestroyed, put = setStaticF_meshWillBeDestroyed)) ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshWillBeDestroyed;
 
   __declspec(property(get = get_nonSerializedVersionIndex)) uint16_t nonSerializedVersionIndex;
 
@@ -704,21 +706,21 @@ public:
   inline void CopyFrom(::UnityEngine::ProBuilder::ProBuilderMesh* other);
 
   /// @brief Method Create, addr 0x4720c5c, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Create();
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create();
 
   /// @brief Method Create, addr 0x4720cec, size 0xd0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Create(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* positions,
-                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* positions,
+                                                                           ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
   /// @brief Method Create, addr 0x4720ecc, size 0x198, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Create(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::Material*>* materials);
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
+                                                                           ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
+                                                                           ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
+                                                                           ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures,
+                                                                           ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
   /// @brief Method CreateInstanceWithPoints, addr 0x4720940, size 0x118, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* CreateInstanceWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions);
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateInstanceWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions);
 
   /// @brief Method DestroyUnityMesh, addr 0x4720834, size 0x10c, virtual false, abstract: false, final false
   inline void DestroyUnityMesh();
@@ -1102,29 +1104,29 @@ public:
   inline int32_t _set_selectedFacesInternal_b__231_0(::UnityEngine::ProBuilder::Face* x);
 
   /// @brief Method add_componentHasBeenReset, addr 0x471fcf4, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_componentHasBeenReset(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method add_componentWillBeDestroyed, addr 0x471fb0c, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_componentWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method add_elementSelectionChanged, addr 0x471fedc, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_elementSelectionChanged(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method add_meshWasInitialized, addr 0x471f924, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_meshWasInitialized(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method add_meshWillBeDestroyed, addr 0x471f744, size 0xf0, virtual false, abstract: false, final false
-  static inline void add_meshWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_componentHasBeenReset();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentHasBeenReset();
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_componentWillBeDestroyed();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentWillBeDestroyed();
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_elementSelectionChanged();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_elementSelectionChanged();
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_meshWasInitialized();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_meshWasInitialized();
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_meshWillBeDestroyed();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_meshWillBeDestroyed();
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_s_CachedHashSet();
 
@@ -1279,29 +1281,29 @@ public:
   inline int32_t get_vertexCount();
 
   /// @brief Method remove_componentHasBeenReset, addr 0x471fde8, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_componentHasBeenReset(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_componentWillBeDestroyed, addr 0x471fc00, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_componentWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_elementSelectionChanged, addr 0x471ffd0, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_elementSelectionChanged(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_meshWasInitialized, addr 0x471fa18, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_meshWasInitialized(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_meshWillBeDestroyed, addr 0x471f834, size 0xf0, virtual false, abstract: false, final false
-  static inline void remove_meshWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline void setStaticF_componentHasBeenReset(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline void setStaticF_componentWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline void setStaticF_elementSelectionChanged(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline void setStaticF_meshWasInitialized(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline void setStaticF_meshWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   static inline void setStaticF_s_CachedHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
 

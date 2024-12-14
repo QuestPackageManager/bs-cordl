@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::MissionNode.get_childNodes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_childNodes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> (
+    ::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_childNodes)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3c076b0;
 
@@ -201,15 +201,15 @@ constexpr void GlobalNamespace::MissionNode::__cordl_internal_set__missionNodeVi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionNodeVisualController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*>& GlobalNamespace::MissionNode::__cordl_internal_get__childNodes() {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*>& GlobalNamespace::MissionNode::__cordl_internal_get__childNodes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childNodes;
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> const& GlobalNamespace::MissionNode::__cordl_internal_get__childNodes() const {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> const& GlobalNamespace::MissionNode::__cordl_internal_get__childNodes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childNodes;
 }
-constexpr void GlobalNamespace::MissionNode::__cordl_internal_set__childNodes(::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> value) {
+constexpr void GlobalNamespace::MissionNode::__cordl_internal_set__childNodes(::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____childNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -218,10 +218,10 @@ inline ::UnityW<::GlobalNamespace::MissionDataSO> GlobalNamespace::MissionNode::
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::MissionDataSO>, false>(this, ___internal_method);
 }
-inline ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> GlobalNamespace::MissionNode::get_childNodes() {
+inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> GlobalNamespace::MissionNode::get_childNodes() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(), "get_childNodes",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*>, false>(this, ___internal_method);
 }
 inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> GlobalNamespace::MissionNode::get_missionNodeVisualController() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionNode*>::get(),

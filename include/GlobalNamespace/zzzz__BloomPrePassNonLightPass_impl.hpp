@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassNonLightPass.get_bloomPrePassAfterBlurList
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* (*)()>(
     &::GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassAfterBlurList)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x39d9bf8;
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassNonLightPass.get_bloomPrePassBeforeBlurList
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* (*)()>(
     &::GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x39d9c50;
@@ -125,6 +125,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassNonLightPass.Render
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassNonLightPass::*)(
+    ::UnityEngine::RenderTexture*, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(&::GlobalNamespace::BloomPrePassNonLightPass::Render)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(), 7));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassNonLightPass._ctor
 template <>
 
@@ -162,22 +177,22 @@ constexpr void GlobalNamespace::BloomPrePassNonLightPass::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____registeredExecutionTimeType = value;
 }
-inline void GlobalNamespace::BloomPrePassNonLightPass::setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>*, "_bloomPrePassAfterBlurList",
+inline void GlobalNamespace::BloomPrePassNonLightPass::setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>*, "_bloomPrePassAfterBlurList",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* GlobalNamespace::BloomPrePassNonLightPass::getStaticF__bloomPrePassAfterBlurList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>*, "_bloomPrePassAfterBlurList",
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* GlobalNamespace::BloomPrePassNonLightPass::getStaticF__bloomPrePassAfterBlurList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>*, "_bloomPrePassAfterBlurList",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get>();
 }
-inline void GlobalNamespace::BloomPrePassNonLightPass::setStaticF__bloomPrePassBeforeBlurList(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>*, "_bloomPrePassBeforeBlurList",
+inline void GlobalNamespace::BloomPrePassNonLightPass::setStaticF__bloomPrePassBeforeBlurList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>*, "_bloomPrePassBeforeBlurList",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* GlobalNamespace::BloomPrePassNonLightPass::getStaticF__bloomPrePassBeforeBlurList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>*, "_bloomPrePassBeforeBlurList",
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* GlobalNamespace::BloomPrePassNonLightPass::getStaticF__bloomPrePassBeforeBlurList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>*, "_bloomPrePassBeforeBlurList",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get>();
 }
 inline ::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType GlobalNamespace::BloomPrePassNonLightPass::get_executionTimeType() {
@@ -185,15 +200,15 @@ inline ::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType GlobalNames
                                                                              "get_executionTimeType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassAfterBlurList() {
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassAfterBlurList() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(),
                                                                              "get_bloomPrePassAfterBlurList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>*, false>(nullptr, ___internal_method);
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList() {
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(),
                                                                              "get_bloomPrePassBeforeBlurList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>*, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::BloomPrePassNonLightPass::OnEnable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

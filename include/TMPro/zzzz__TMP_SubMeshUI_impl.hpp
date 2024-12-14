@@ -302,7 +302,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_SubMeshUI.AddSubTextObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SubMeshUI* (*)(::TMPro::TextMeshProUGUI*, ::TMPro::MaterialReference)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SubMeshUI> (*)(::TMPro::TextMeshProUGUI*, ::TMPro::MaterialReference)>(
     &::TMPro::TMP_SubMeshUI::AddSubTextObject)> {
   constexpr static std::size_t size = 0x3b0;
   constexpr static std::size_t addrs = 0x4803a4c;
@@ -956,12 +956,12 @@ inline ::UnityW<::TMPro::TMP_Text> TMPro::TMP_SubMeshUI::get_textComponent() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_Text>, false>(this, ___internal_method);
 }
-inline ::TMPro::TMP_SubMeshUI* TMPro::TMP_SubMeshUI::AddSubTextObject(::TMPro::TextMeshProUGUI* textComponent, ::TMPro::MaterialReference materialReference) {
+inline ::UnityW<::TMPro::TMP_SubMeshUI> TMPro::TMP_SubMeshUI::AddSubTextObject(::TMPro::TextMeshProUGUI* textComponent, ::TMPro::MaterialReference materialReference) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SubMeshUI*>::get(), "AddSubTextObject", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TextMeshProUGUI*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::MaterialReference>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_SubMeshUI*, false>(nullptr, ___internal_method, textComponent, materialReference);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_SubMeshUI>, false>(nullptr, ___internal_method, textComponent, materialReference);
 }
 inline void TMPro::TMP_SubMeshUI::OnEnable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

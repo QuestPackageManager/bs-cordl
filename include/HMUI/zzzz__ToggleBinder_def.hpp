@@ -126,7 +126,7 @@ public:
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
 
   /// @brief Method AddBindings, addr 0x39ec440, size 0x164, virtual false, abstract: false, final false
-  inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData);
+  inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
   /// @brief Method ClearBindings, addr 0x39ec7a0, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
@@ -142,7 +142,7 @@ public:
 
   static inline ::HMUI::ToggleBinder* New_ctor();
 
-  static inline ::HMUI::ToggleBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData);
+  static inline ::HMUI::ToggleBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
   constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::UnityEngine::Events::UnityAction_1<bool>*>*>* const& __cordl_internal_get__bindings() const;
 
@@ -160,7 +160,7 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x39ec404, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData);
+  inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
 protected:
   // Ctor Parameters []

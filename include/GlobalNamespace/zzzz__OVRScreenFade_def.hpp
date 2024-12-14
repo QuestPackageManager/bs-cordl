@@ -206,7 +206,7 @@ public:
   using _Fade_d__25 = ::GlobalNamespace::OVRScreenFade__Fade_d__25;
 
   /// @brief Field <instance>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField)) ::GlobalNamespace::OVRScreenFade* _instance_k__BackingField;
+  __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField)) ::UnityW<::GlobalNamespace::OVRScreenFade> _instance_k__BackingField;
 
   /// @brief Field animatedFadeAlpha, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_animatedFadeAlpha, put = __cordl_internal_set_animatedFadeAlpha)) float_t animatedFadeAlpha;
@@ -344,15 +344,15 @@ public:
   /// @brief Method .ctor, addr 0x4041c70, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::OVRScreenFade* getStaticF__instance_k__BackingField();
+  static inline ::UnityW<::GlobalNamespace::OVRScreenFade> getStaticF__instance_k__BackingField();
 
   /// @brief Method get_currentAlpha, addr 0x4041374, size 0xb8, virtual false, abstract: false, final false
   inline float_t get_currentAlpha();
 
   /// @brief Method get_instance, addr 0x40412e0, size 0x48, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRScreenFade* get_instance();
+  static inline ::UnityW<::GlobalNamespace::OVRScreenFade> get_instance();
 
-  static inline void setStaticF__instance_k__BackingField(::GlobalNamespace::OVRScreenFade* value);
+  static inline void setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRScreenFade> value);
 
   /// @brief Method set_instance, addr 0x4041328, size 0x4c, virtual false, abstract: false, final false
   static inline void set_instance(::GlobalNamespace::OVRScreenFade* value);

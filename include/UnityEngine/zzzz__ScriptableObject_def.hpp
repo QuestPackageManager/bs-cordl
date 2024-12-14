@@ -22,7 +22,7 @@ class CORDL_TYPE ScriptableObject : public ::UnityEngine::Object {
 public:
   // Declarations
   /// @brief Method CreateInstance, addr 0x48ac240, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ScriptableObject* CreateInstance(::System::Type* type);
+  static inline ::UnityW<::UnityEngine::ScriptableObject> CreateInstance(::System::Type* type);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateInstance();
@@ -31,7 +31,7 @@ public:
   static inline void CreateScriptableObject(::UnityEngine::ScriptableObject* self);
 
   /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x48ac280, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ScriptableObject* CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
+  static inline ::UnityW<::UnityEngine::ScriptableObject> CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
 
   static inline ::UnityEngine::ScriptableObject* New_ctor();
 

@@ -89,7 +89,7 @@ public:
       m_Touches;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> s_Instance;
 
   __declspec(property(get = get_simulatedTouchscreen, put = set_simulatedTouchscreen)) ::UnityEngine::InputSystem::Touchscreen* simulatedTouchscreen;
 
@@ -208,10 +208,10 @@ public:
   /// @brief Method .ctor, addr 0x4604088, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* getStaticF_s_Instance();
+  static inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> getStaticF_s_Instance();
 
   /// @brief Method get_instance, addr 0x460252c, size 0x48, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* get_instance();
+  static inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> get_instance();
 
   /// @brief Method get_simulatedTouchscreen, addr 0x460251c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Touchscreen* get_simulatedTouchscreen();
@@ -219,7 +219,7 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* i___UnityEngine__InputSystem__LowLevel__IInputStateChangeMonitor() noexcept;
 
-  static inline void setStaticF_s_Instance(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* value);
+  static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> value);
 
   /// @brief Method set_simulatedTouchscreen, addr 0x4602524, size 0x8, virtual false, abstract: false, final false
   inline void set_simulatedTouchscreen(::UnityEngine::InputSystem::Touchscreen* value);

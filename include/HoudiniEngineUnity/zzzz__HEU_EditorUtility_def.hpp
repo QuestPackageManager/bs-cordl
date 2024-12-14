@@ -172,7 +172,7 @@ public:
   static inline ::ArrayW<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>, ::Array<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>>*> GetAllAssetRoots();
 
   /// @brief Method GetObjectParentFolder, addr 0x3a69d68, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW GetObjectParentFolder(::UnityEngine::GameObject* parentObject, ::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>* generatedMaterials);
+  static inline ::StringW GetObjectParentFolder(::UnityEngine::GameObject* parentObject, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* generatedMaterials);
 
   /// @brief Method GetObjectParentFolderHelper, addr 0x3a69da8, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW GetObjectParentFolderHelper(int32_t instanceID);

@@ -343,15 +343,15 @@ constexpr void UnityEngine::UI::RectMask2D::__cordl_internal_set_m_ShouldRecalcu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ShouldRecalculateClipRects = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*& UnityEngine::UI::RectMask2D::__cordl_internal_get_m_Clippers() {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*& UnityEngine::UI::RectMask2D::__cordl_internal_get_m_Clippers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Clippers;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* const& UnityEngine::UI::RectMask2D::__cordl_internal_get_m_Clippers() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* const& UnityEngine::UI::RectMask2D::__cordl_internal_get_m_Clippers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Clippers;
 }
-constexpr void UnityEngine::UI::RectMask2D::__cordl_internal_set_m_Clippers(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* value) {
+constexpr void UnityEngine::UI::RectMask2D::__cordl_internal_set_m_Clippers(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Clippers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

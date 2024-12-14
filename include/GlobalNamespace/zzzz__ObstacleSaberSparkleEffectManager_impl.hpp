@@ -171,7 +171,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::GlobalNamespace::Saber*, ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>*, ::ByRef<bool>, ::ByRef<::UnityEngine::Pose>)>(
+    static_cast<bool (*)(::GlobalNamespace::Saber*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>*, ::ByRef<bool>, ::ByRef<::UnityEngine::Pose>)>(
         &::GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectSaberWithObstacles)> {
   constexpr static std::size_t size = 0x35c;
   constexpr static std::size_t addrs = 0x3b878e8;
@@ -180,7 +180,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>::get(), "IntersectSaberWithObstacles", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Saber*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Pose>>::get() })));
     return ___internal_method;
@@ -427,12 +427,12 @@ inline void GlobalNamespace::ObstacleSaberSparkleEffectManager::Update() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectSaberWithObstacles(::GlobalNamespace::Saber* saber,
-                                                                                            ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* obstacles,
+                                                                                            ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacles,
                                                                                             ::ByRef<bool> intersectObstacleSurface, ::ByRef<::UnityEngine::Pose> hit) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>::get(), "IntersectSaberWithObstacles", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Saber*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Pose>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, saber, obstacles, intersectObstacleSurface, hit);

@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingScoreEffect_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FlyingScoreEffect/Pool
-class CORDL_TYPE FlyingScoreEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingScoreEffect*> {
+class CORDL_TYPE FlyingScoreEffect_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingScoreEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::FlyingScoreEffect_Pool* New_ctor();

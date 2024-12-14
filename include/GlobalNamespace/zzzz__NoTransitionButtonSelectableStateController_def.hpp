@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoTransitionButtonSelectableStateController);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoTransitionButtonSelectableStateController
-class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsButton*> {
+class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsButton>> {
 public:
   // Declarations
   /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x44d7a20, size 0x8, virtual false, abstract: false, final false

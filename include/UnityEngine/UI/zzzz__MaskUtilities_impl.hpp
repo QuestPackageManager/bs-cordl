@@ -100,8 +100,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::MaskUtilities.GetRectMasksForClip
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::RectMask2D*, ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*)>(
-    &::UnityEngine::UI::MaskUtilities::GetRectMasksForClip)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::UnityEngine::UI::RectMask2D*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*)>(&::UnityEngine::UI::MaskUtilities::GetRectMasksForClip)> {
   constexpr static std::size_t size = 0x360;
   constexpr static std::size_t addrs = 0x4abe0c4;
 
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskUtilities*>::get(), "GetRectMasksForClip", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::RectMask2D*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -164,11 +164,11 @@ inline ::UnityW<::UnityEngine::UI::RectMask2D> UnityEngine::UI::MaskUtilities::G
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::IClippable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::RectMask2D>, false>(nullptr, ___internal_method, clippable);
 }
-inline void UnityEngine::UI::MaskUtilities::GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* masks) {
+inline void UnityEngine::UI::MaskUtilities::GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* masks) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskUtilities*>::get(), "GetRectMasksForClip", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::RectMask2D*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clipper, masks);
 }
 inline void UnityEngine::UI::MaskUtilities::_ctor() {

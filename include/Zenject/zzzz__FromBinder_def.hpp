@@ -3268,7 +3268,7 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentOn(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method FromComponentOn, addr 0x4b066ac, size 0x14c, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
   /// @brief Method FromComponentOnRoot, addr 0x4b068e0, size 0xe0, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentOnRoot();
@@ -3277,10 +3277,11 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentSibling();
 
   /// @brief Method FromComponentsInChildrenBase, addr 0x4b08120, size 0x130, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildrenBase(bool excludeSelf, ::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildrenBase(bool excludeSelf, ::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate,
+                                                                                               bool includeInactive);
 
   /// @brief Method FromComponentsInHierarchyBase, addr 0x4b08840, size 0x128, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchyBase(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchyBase(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromComponentsInNewPrefab, addr 0x4b07498, size 0x6c, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInNewPrefab(::UnityEngine::Object* prefab);
@@ -3301,7 +3302,7 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsOn(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method FromComponentsOn, addr 0x4b06558, size 0x14c, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsOn(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
   /// @brief Method FromComponentsOnRoot, addr 0x4b06800, size 0xe0, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsOnRoot();
@@ -3338,7 +3339,7 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOn(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method FromNewComponentOn, addr 0x4b06b24, size 0x150, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
   /// @brief Method FromNewComponentOnNewPrefab, addr 0x4b07088, size 0x6c, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefab(::UnityEngine::Object* prefab);

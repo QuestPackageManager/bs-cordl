@@ -123,7 +123,7 @@ constexpr ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitions
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::*)(
-    ::System::Collections::Generic::IEnumerable_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>*)>(
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*)>(
     &::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::_ctor)> {
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x2280a50;
@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel*>::get(), ".ctor",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -169,12 +169,12 @@ constexpr void BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefiniti
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentTracksTypeMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::_ctor(
-    ::System::Collections::Generic::IEnumerable_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>* environmentTrackDefinitions) {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, environmentTrackDefinitions);
 }
 inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*
@@ -185,7 +185,7 @@ BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::g
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*, false>(this, ___internal_method, type);
 }
 inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel* BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::New_ctor(
-    ::System::Collections::Generic::IEnumerable_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>* environmentTrackDefinitions) {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel*>(environmentTrackDefinitions));
 }
 // Ctor Parameters []

@@ -306,7 +306,7 @@ public:
   inline void _ctor();
 
   /// @brief Method add_lastUsedControllerChangedEvent, addr 0x4aef080, size 0xb0, virtual false, abstract: false, final false
-  inline void add_lastUsedControllerChangedEvent(::System::Action_1<::GlobalNamespace::VRController*>* value);
+  inline void add_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value);
 
   /// @brief Method get_cursorPosition, addr 0x4aef578, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cursorPosition();
@@ -327,7 +327,7 @@ public:
   inline ::StringW get_state();
 
   /// @brief Method remove_lastUsedControllerChangedEvent, addr 0x4aef130, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_lastUsedControllerChangedEvent(::System::Action_1<::GlobalNamespace::VRController*>* value);
+  inline void remove_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value);
 
 protected:
   // Ctor Parameters []

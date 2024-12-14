@@ -112,8 +112,8 @@ public:
   __declspec(property(get = __cordl_internal_get__volumeCaches,
                       put = __cordl_internal_set__volumeCaches)) ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* _volumeCaches;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>*() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
@@ -155,10 +155,10 @@ public:
   inline void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method GetClonableParts, addr 0x3a12558, size 0x154, virtual false, abstract: false, final false
-  inline void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts);
+  inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
 
   /// @brief Method GetCurves, addr 0x3a12bb8, size 0x2bc, virtual false, abstract: false, final false
-  inline void GetCurves(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve*>* curves, bool bEditableOnly);
+  inline void GetCurves(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* curves, bool bEditableOnly);
 
   /// @brief Method GetDebugInfo, addr 0x3a1203c, size 0x3ac, virtual false, abstract: false, final false
   inline void GetDebugInfo(::System::Text::StringBuilder* sb);
@@ -170,7 +170,7 @@ public:
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
   /// @brief Method GetOutputGameObjects, addr 0x3a126ac, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method GetPartFromPartID, addr 0x3a12aec, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetPartFromPartID(int32_t partID);
@@ -179,8 +179,8 @@ public:
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* GetParts();
 
   /// @brief Method GetPartsByOutputType, addr 0x3a117c8, size 0x198, virtual false, abstract: false, final false
-  inline void GetPartsByOutputType(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* meshParts,
-                                   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* volumeParts);
+  inline void GetPartsByOutputType(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* meshParts,
+                                   ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* volumeParts);
 
   /// @brief Method GetVolumeCacheByTileIndex, addr 0x3a13b40, size 0x16c, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache> GetVolumeCacheByTileIndex(int32_t tileIndex);
@@ -236,7 +236,7 @@ public:
   inline void ProcessUnityScriptAttribute(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method ProcessVolumeParts, addr 0x3a134c0, size 0x680, virtual false, abstract: false, final false
-  inline void ProcessVolumeParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* volumeParts, bool bRebuild);
+  inline void ProcessVolumeParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* volumeParts, bool bRebuild);
 
   /// @brief Method RemoveAndDestroyPart, addr 0x3a0fe88, size 0x64, virtual false, abstract: false, final false
   inline void RemoveAndDestroyPart(::HoudiniEngineUnity::HEU_PartData* part);
@@ -337,8 +337,8 @@ public:
   /// @brief Method get_VolumeCaches, addr 0x3a0f8c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* get_VolumeCaches();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeoNode*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_GeoNode__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_GeoNode__() noexcept;
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;

@@ -88,6 +88,230 @@ constexpr ::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceC
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext::DefaultEventSystem_FocusBasedEventSequenceContext() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.GetButtonDown
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)(::StringW)>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::GetButtonDown)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.GetAxisRaw
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)(::StringW)>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::GetAxisRaw)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.ClearLastPenContactEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::ClearLastPenContactEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.GetLastPenContactEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PenData (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::GetLastPenContactEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.get_touchCount
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::get_touchCount)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.GetTouch
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Touch (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)(int32_t)>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::GetTouch)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.get_mousePresent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::get_mousePresent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.GetMouseButtonDown
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)(int32_t)>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::GetMouseButtonDown)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.GetMouseButtonUp
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)(int32_t)>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::GetMouseButtonUp)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.get_mousePosition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::get_mousePosition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 9));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.get_mouseButtonCount
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::get_mouseButtonCount)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 10));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.get_anyKey
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::get_anyKey)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 11));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.get_unscaledTime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::get_unscaledTime)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_IInput.get_doubleClickTime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::DefaultEventSystem_IInput::*)()>(
+    &::UnityEngine::UIElements::DefaultEventSystem_IInput::get_doubleClickTime)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 13));
+    return ___internal_method;
+  }
+};
 inline bool UnityEngine::UIElements::DefaultEventSystem_IInput::GetButtonDown(::StringW button) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultEventSystem_IInput*>::get(), 0)));

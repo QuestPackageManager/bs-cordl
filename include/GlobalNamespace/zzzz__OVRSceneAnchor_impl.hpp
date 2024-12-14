@@ -187,7 +187,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVRSceneAnchor.GetSceneAnchors
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>*)>(
     &::GlobalNamespace::OVRSceneAnchor::GetSceneAnchors)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x40060c4;
@@ -195,7 +195,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "GetSceneAnchors", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -315,22 +315,22 @@ inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace,
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace, int32_t>*, "AnchorReferenceCountDictionary",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get>();
 }
-inline void GlobalNamespace::OVRSceneAnchor::setStaticF_SceneAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneAnchor*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneAnchor*>*, "SceneAnchors",
+inline void GlobalNamespace::OVRSceneAnchor::setStaticF_SceneAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>*, "SceneAnchors",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneAnchor*>*>(value));
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneAnchor*>* GlobalNamespace::OVRSceneAnchor::getStaticF_SceneAnchors() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneAnchor*>*, "SceneAnchors",
+inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* GlobalNamespace::OVRSceneAnchor::getStaticF_SceneAnchors() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>*, "SceneAnchors",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get>();
 }
-inline void GlobalNamespace::OVRSceneAnchor::setStaticF_SceneAnchorsList(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>*, "SceneAnchorsList",
+inline void GlobalNamespace::OVRSceneAnchor::setStaticF_SceneAnchorsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>*, "SceneAnchorsList",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>* GlobalNamespace::OVRSceneAnchor::getStaticF_SceneAnchorsList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>*, "SceneAnchorsList",
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* GlobalNamespace::OVRSceneAnchor::getStaticF_SceneAnchorsList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>*, "SceneAnchorsList",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get>();
 }
 inline ::GlobalNamespace::OVRSpace GlobalNamespace::OVRSceneAnchor::get_Space() {
@@ -409,10 +409,10 @@ inline void GlobalNamespace::OVRSceneAnchor::InitializeFrom(::GlobalNamespace::O
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSceneAnchor*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
 }
-inline void GlobalNamespace::OVRSceneAnchor::GetSceneAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>* anchors) {
+inline void GlobalNamespace::OVRSceneAnchor::GetSceneAnchors(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* anchors) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneAnchor*>::get(), "GetSceneAnchors", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, anchors);
 }
 inline bool GlobalNamespace::OVRSceneAnchor::TryUpdateTransform(bool useCache) {

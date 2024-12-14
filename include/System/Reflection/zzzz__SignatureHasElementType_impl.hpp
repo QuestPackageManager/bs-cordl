@@ -47,6 +47,86 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Reflection::SignatureHasElementType.IsArrayImpl
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureHasElementType::*)()>(
+    &::System::Reflection::SignatureHasElementType::IsArrayImpl)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(), 32));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureHasElementType.IsByRefImpl
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureHasElementType::*)()>(
+    &::System::Reflection::SignatureHasElementType::IsByRefImpl)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(), 34));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureHasElementType.IsPointerImpl
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureHasElementType::*)()>(
+    &::System::Reflection::SignatureHasElementType::IsPointerImpl)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(), 36));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureHasElementType.get_IsSZArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureHasElementType::*)()>(
+    &::System::Reflection::SignatureHasElementType::get_IsSZArray)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(), 42));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureHasElementType.get_IsVariableBoundArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureHasElementType::*)()>(
+    &::System::Reflection::SignatureHasElementType::get_IsVariableBoundArray)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(), 43));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Reflection::SignatureHasElementType.get_IsConstructedGenericType
 template <>
 
@@ -114,6 +194,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
                                                                                "get_ElementType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureHasElementType.GetArrayRank
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::SignatureHasElementType::*)()>(
+    &::System::Reflection::SignatureHasElementType::GetArrayRank)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(), 47));
     return ___internal_method;
   }
 };
@@ -212,6 +308,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
                                                                                "ToString", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::SignatureHasElementType.get_Suffix
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::SignatureHasElementType::*)()>(
+    &::System::Reflection::SignatureHasElementType::get_Suffix)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureHasElementType*>::get(), 133));
     return ___internal_method;
   }
 };

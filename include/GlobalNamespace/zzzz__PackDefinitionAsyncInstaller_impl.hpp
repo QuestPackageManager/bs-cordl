@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::GlobalNamespace::PackDefinitionSO*>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x26cdf60;
@@ -169,7 +169,7 @@ inline ::StringW GlobalNamespace::PackDefinitionAsyncInstaller::get_assetLabelRu
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionAsyncInstaller*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PackDefinitionAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::GlobalNamespace::PackDefinitionSO*>* assets,
+inline void GlobalNamespace::PackDefinitionAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* assets,
                                                                                       ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionAsyncInstaller*>::get(), 12)));

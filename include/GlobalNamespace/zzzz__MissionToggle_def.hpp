@@ -103,7 +103,7 @@ public:
 
   /// @brief Field selectionDidChangeEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_selectionDidChangeEvent,
-                      put = __cordl_internal_set_selectionDidChangeEvent)) ::System::Action_1<::GlobalNamespace::MissionToggle*>* selectionDidChangeEvent;
+                      put = __cordl_internal_set_selectionDidChangeEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* selectionDidChangeEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
@@ -212,9 +212,9 @@ public:
 
   constexpr ::UnityW<::HMUI::Interactable>& __cordl_internal_get__vrInteractable();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionToggle*>* const& __cordl_internal_get_selectionDidChangeEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* const& __cordl_internal_get_selectionDidChangeEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionToggle*>*& __cordl_internal_get_selectionDidChangeEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*& __cordl_internal_get_selectionDidChangeEvent();
 
   constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
 
@@ -246,13 +246,13 @@ public:
 
   constexpr void __cordl_internal_set__vrInteractable(::UnityW<::HMUI::Interactable> value);
 
-  constexpr void __cordl_internal_set_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value);
+  constexpr void __cordl_internal_set_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
   /// @brief Method .ctor, addr 0x3b53f44, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_selectionDidChangeEvent, addr 0x3b53888, size 0xb0, virtual false, abstract: false, final false
-  inline void add_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value);
+  inline void add_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
   /// @brief Method get_highlighted, addr 0x3b53d2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
@@ -279,7 +279,7 @@ public:
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
   /// @brief Method remove_selectionDidChangeEvent, addr 0x3b53938, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value);
+  inline void remove_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
   /// @brief Method set_interactable, addr 0x3b53a78, size 0xc, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
@@ -341,7 +341,7 @@ public:
   ::UnityEngine::Color ____highlightColor;
 
   /// @brief Field selectionDidChangeEvent, offset: 0x98, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionToggle*>* ___selectionDidChangeEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* ___selectionDidChangeEvent;
 
   /// @brief Field _selected, offset: 0xa0, size: 0x1, def value: None
   bool ____selected;

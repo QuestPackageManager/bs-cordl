@@ -587,14 +587,14 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::BeatmapLevelsModel__
 inline ::GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28* GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>"
-constexpr GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
+constexpr GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*
-GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__PackDefinitionSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*
+GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PackDefinitionSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::operator ::System::Collections::IEnumerable*() noexcept {
@@ -604,14 +604,14 @@ constexpr GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::operator ::Sys
 constexpr ::System::Collections::IEnumerable* GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>"
-constexpr GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
+constexpr GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>*
-GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__PackDefinitionSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*
+GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PackDefinitionSO__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::BeatmapLevelsModel__SelectPacks_d__28::operator ::System::Collections::IEnumerator*() noexcept {
@@ -694,18 +694,19 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelsModel::*)(
     ::GlobalNamespace::BeatmapLevelsEntitlementModel*, ::GlobalNamespace::IBeatmapLevelLoader*, ::GlobalNamespace::IPlayerDataModel*, ::BGLib::Polyglot::LocalizationModel*,
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(&::GlobalNamespace::BeatmapLevelsModel::_ctor)> {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(&::GlobalNamespace::BeatmapLevelsModel::_ctor)> {
   constexpr static std::size_t size = 0x2ec;
   constexpr static std::size_t addrs = 0x26c92f4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelLoader*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPlayerDataModel*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationModel*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 5>{
+                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(),
+                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelLoader*>::get(),
+                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPlayerDataModel*>::get(),
+                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationModel*>::get(),
+                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1085,14 +1086,15 @@ inline void GlobalNamespace::BeatmapLevelsModel::remove_newPackWasCreatedFromDef
 }
 inline void GlobalNamespace::BeatmapLevelsModel::_ctor(::GlobalNamespace::BeatmapLevelsEntitlementModel* entitlementChecker, ::GlobalNamespace::IBeatmapLevelLoader* beatmapLevelLoader,
                                                        ::GlobalNamespace::IPlayerDataModel* playerDataModel, ::BGLib::Polyglot::LocalizationModel* localizationModel,
-                                                       ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelLoader*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPlayerDataModel*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationModel*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+                                                       ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 5>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelLoader*>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPlayerDataModel*>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationModel*>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, entitlementChecker, beatmapLevelLoader, playerDataModel, localizationModel, packDefinitions);
 }
 inline void GlobalNamespace::BeatmapLevelsModel::Dispose() {
@@ -1194,11 +1196,10 @@ inline bool GlobalNamespace::BeatmapLevelsModel::_CreateBeatmapLevelPack_g__Shou
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSensitivityFlag>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, desiredSensitivityFlag, contentRating);
 }
-inline ::GlobalNamespace::BeatmapLevelsModel* GlobalNamespace::BeatmapLevelsModel::New_ctor(::GlobalNamespace::BeatmapLevelsEntitlementModel* entitlementChecker,
-                                                                                            ::GlobalNamespace::IBeatmapLevelLoader* beatmapLevelLoader,
-                                                                                            ::GlobalNamespace::IPlayerDataModel* playerDataModel,
-                                                                                            ::BGLib::Polyglot::LocalizationModel* localizationModel,
-                                                                                            ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+inline ::GlobalNamespace::BeatmapLevelsModel*
+GlobalNamespace::BeatmapLevelsModel::New_ctor(::GlobalNamespace::BeatmapLevelsEntitlementModel* entitlementChecker, ::GlobalNamespace::IBeatmapLevelLoader* beatmapLevelLoader,
+                                              ::GlobalNamespace::IPlayerDataModel* playerDataModel, ::BGLib::Polyglot::LocalizationModel* localizationModel,
+                                              ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelsModel*>(entitlementChecker, beatmapLevelLoader, playerDataModel, localizationModel, packDefinitions));
 }
 /// @brief Convert operator to "::System::IDisposable"

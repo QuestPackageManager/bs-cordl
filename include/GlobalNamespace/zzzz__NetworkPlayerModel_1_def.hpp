@@ -362,8 +362,8 @@ public:
   /// @brief Field secret, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret)) ::StringW secret;
 
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*() noexcept;
 
   static inline ::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>* New_ctor();
 
@@ -382,9 +382,8 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
-  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>* i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW_T__() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -422,17 +421,16 @@ template <typename T>
 class CORDL_TYPE NetworkPlayerModel_1_StartClientPartyConfig : public ::GlobalNamespace::BaseNetworkPlayerModel_PartyConfig {
 public:
   // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*() noexcept;
 
   static inline ::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
-  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>* i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW_T__() noexcept;
 
 protected:
   // Ctor Parameters []

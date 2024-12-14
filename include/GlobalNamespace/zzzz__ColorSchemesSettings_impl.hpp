@@ -215,14 +215,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorSchemeSO*>*)>(&::GlobalNamespace::ColorSchemesSettings::_ctor)> {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*)>(&::GlobalNamespace::ColorSchemesSettings::_ctor)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x26ed52c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorSchemeSO*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -464,10 +465,10 @@ inline void GlobalNamespace::ColorSchemesSettings::_ctor(::System::Collections::
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, colorSchemes);
 }
-inline void GlobalNamespace::ColorSchemesSettings::_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorSchemeSO*>* colorSchemeSOs) {
+inline void GlobalNamespace::ColorSchemesSettings::_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemesSettings*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorSchemeSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, colorSchemeSOs);
 }
 inline int32_t GlobalNamespace::ColorSchemesSettings::GetNumberOfColorSchemes() {
@@ -516,7 +517,8 @@ inline bool GlobalNamespace::ColorSchemesSettings::ShouldOverrideLightshowColors
 inline ::GlobalNamespace::ColorSchemesSettings* GlobalNamespace::ColorSchemesSettings::New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorSchemesSettings*>(colorSchemes));
 }
-inline ::GlobalNamespace::ColorSchemesSettings* GlobalNamespace::ColorSchemesSettings::New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorSchemeSO*>* colorSchemeSOs) {
+inline ::GlobalNamespace::ColorSchemesSettings*
+GlobalNamespace::ColorSchemesSettings::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorSchemesSettings*>(colorSchemeSOs));
 }
 // Ctor Parameters []

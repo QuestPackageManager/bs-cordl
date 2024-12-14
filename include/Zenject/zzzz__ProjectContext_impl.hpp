@@ -166,7 +166,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::ProjectContext.get_Instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ProjectContext* (*)()>(&::Zenject::ProjectContext::get_Instance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Zenject::ProjectContext> (*)()>(&::Zenject::ProjectContext::get_Instance)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x4b245f0;
 
@@ -314,7 +314,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::ProjectContext.GetInjectableMonoBehaviours
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ProjectContext::*)(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ProjectContext::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
     &::Zenject::ProjectContext::GetInjectableMonoBehaviours)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x4b25e8c;
@@ -329,7 +329,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::ProjectContext.InstallBindings
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ProjectContext::*)(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ProjectContext::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
     &::Zenject::ProjectContext::InstallBindings)> {
   constexpr static std::size_t size = 0x338;
   constexpr static std::size_t addrs = 0x4b25b54;
@@ -337,7 +337,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get(), "InstallBindings", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -475,12 +475,12 @@ constexpr void Zenject::ProjectContext::__cordl_internal_set__container(::Zenjec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Zenject::ProjectContext::setStaticF__instance(::Zenject::ProjectContext* value) {
-  ::cordl_internals::setStaticField<::Zenject::ProjectContext*, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get>(
-      std::forward<::Zenject::ProjectContext*>(value));
+inline void Zenject::ProjectContext::setStaticF__instance(::UnityW<::Zenject::ProjectContext> value) {
+  ::cordl_internals::setStaticField<::UnityW<::Zenject::ProjectContext>, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get>(
+      std::forward<::UnityW<::Zenject::ProjectContext>>(value));
 }
-inline ::Zenject::ProjectContext* Zenject::ProjectContext::getStaticF__instance() {
-  return ::cordl_internals::getStaticField<::Zenject::ProjectContext*, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get>();
+inline ::UnityW<::Zenject::ProjectContext> Zenject::ProjectContext::getStaticF__instance() {
+  return ::cordl_internals::getStaticField<::UnityW<::Zenject::ProjectContext>, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get>();
 }
 inline void Zenject::ProjectContext::setStaticF__ValidateOnNextRun_k__BackingField(bool value) {
   ::cordl_internals::setStaticField<bool, "<ValidateOnNextRun>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get>(std::forward<bool>(value));
@@ -551,10 +551,10 @@ inline bool Zenject::ProjectContext::get_HasInstance() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-inline ::Zenject::ProjectContext* Zenject::ProjectContext::get_Instance() {
+inline ::UnityW<::Zenject::ProjectContext> Zenject::ProjectContext::get_Instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get(), "get_Instance",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::ProjectContext*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::Zenject::ProjectContext>, false>(nullptr, ___internal_method);
 }
 inline bool Zenject::ProjectContext::get_ValidateOnNextRun() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get(), "get_ValidateOnNextRun",
@@ -608,15 +608,15 @@ inline void Zenject::ProjectContext::Initialize() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Zenject::ProjectContext::GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours) {
+inline void Zenject::ProjectContext::GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, monoBehaviours);
 }
-inline void Zenject::ProjectContext::InstallBindings(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableMonoBehaviours) {
+inline void Zenject::ProjectContext::InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProjectContext*>::get(), "InstallBindings", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, injectableMonoBehaviours);
 }
 inline void Zenject::ProjectContext::_ctor() {

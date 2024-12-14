@@ -2188,7 +2188,7 @@ public:
   inline bool AreAllScenesInStack(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
   /// @brief Method BackupToListAndDisableCurrentEventSystem, addr 0x2296660, size 0x150, virtual false, abstract: false, final false
-  inline void BackupToListAndDisableCurrentEventSystem(::ByRef<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>*> list);
+  inline void BackupToListAndDisableCurrentEventSystem(::ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*> list);
 
   /// @brief Method ClearAndOpenScenes, addr 0x229542c, size 0x640, virtual false, abstract: false, final false
   inline void ClearAndOpenScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
@@ -2358,11 +2358,11 @@ public:
   inline void add_beforeDismissingScenesEvent(::System::Action_1<::System::Collections::Generic::List_1<::StringW>*>* value);
 
   /// @brief Method add_installEarlyBindingsEvent, addr 0x2293bf8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  inline void add_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
   /// @brief Method add_transitionDidFinishEvent, addr 0x2293a98, size 0xb0, virtual false, abstract: false, final false
   inline void
-  add_transitionDidFinishEvent(::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  add_transitionDidFinishEvent(::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
   /// @brief Method add_transitionDidStartEvent, addr 0x2293938, size 0xb0, virtual false, abstract: false, final false
   inline void add_transitionDidStartEvent(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* value);
@@ -2388,11 +2388,11 @@ public:
   inline void remove_beforeDismissingScenesEvent(::System::Action_1<::System::Collections::Generic::List_1<::StringW>*>* value);
 
   /// @brief Method remove_installEarlyBindingsEvent, addr 0x2293ca8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_installEarlyBindingsEvent(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  inline void remove_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
   /// @brief Method remove_transitionDidFinishEvent, addr 0x2293b48, size 0xb0, virtual false, abstract: false, final false
-  inline void
-  remove_transitionDidFinishEvent(::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*>* value);
+  inline void remove_transitionDidFinishEvent(
+      ::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
   /// @brief Method remove_transitionDidStartEvent, addr 0x22939e8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_transitionDidStartEvent(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* value);

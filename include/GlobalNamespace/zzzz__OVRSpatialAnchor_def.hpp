@@ -717,7 +717,7 @@ public:
 
   /// @brief Field AsyncRequestTaskIds, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_AsyncRequestTaskIds,
-                      put = setStaticF_AsyncRequestTaskIds)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpatialAnchor*, ::System::Guid>* AsyncRequestTaskIds;
+                      put = setStaticF_AsyncRequestTaskIds)) ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::System::Guid>* AsyncRequestTaskIds;
 
   /// @brief Field ComponentTypeBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ComponentTypeBuffer,
@@ -728,7 +728,7 @@ public:
 
   /// @brief Field CreationRequests, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_CreationRequests,
-                      put = setStaticF_CreationRequests)) ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor*>* CreationRequests;
+                      put = setStaticF_CreationRequests)) ::System::Collections::Generic::Dictionary_2<uint64_t, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* CreationRequests;
 
   __declspec(property(get = get_Localized)) bool Localized;
 
@@ -743,19 +743,19 @@ public:
   __declspec(property(get = get_PendingCreation)) bool PendingCreation;
 
   /// @brief Field SaveRequests, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_SaveRequests,
-                      put = setStaticF_SaveRequests)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace_StorageLocation,
-                                                                                                   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>* SaveRequests;
+  __declspec(property(get = getStaticF_SaveRequests, put = setStaticF_SaveRequests)) ::System::Collections::Generic::Dictionary_2<
+      ::GlobalNamespace::OVRSpace_StorageLocation, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* SaveRequests;
 
   /// @brief Field ShareRequests, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ShareRequests, put = setStaticF_ShareRequests)) ::System::Collections::Generic::List_1<
-      ::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>>* ShareRequests;
+      ::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>>*
+      ShareRequests;
 
   __declspec(property(get = get_Space, put = set_Space)) ::GlobalNamespace::OVRSpace Space;
 
   /// @brief Field SpatialAnchors, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_SpatialAnchors,
-                      put = setStaticF_SpatialAnchors)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSpatialAnchor*>* SpatialAnchors;
+                      put = setStaticF_SpatialAnchors)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* SpatialAnchors;
 
   /// @brief Field UnboundAnchorBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_UnboundAnchorBuffer,
@@ -786,17 +786,17 @@ public:
                                              ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSpaceUser>* sortedList2);
 
   /// @brief Method CopyAnchorListIntoListFromPool, addr 0x401443c, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*
-  CopyAnchorListIntoListFromPool(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpatialAnchor*>* anchorList);
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*
+  CopyAnchorListIntoListFromPool(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchorList);
 
   /// @brief Method CreateSpatialAnchor, addr 0x4015da4, size 0x224, virtual false, abstract: false, final false
   inline void CreateSpatialAnchor();
 
   /// @brief Method Erase, addr 0x4015b5c, size 0xb0, virtual false, abstract: false, final false
-  inline void Erase(::GlobalNamespace::OVRSpatialAnchor_EraseOptions eraseOptions, ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
+  inline void Erase(::GlobalNamespace::OVRSpatialAnchor_EraseOptions eraseOptions, ::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
   /// @brief Method Erase, addr 0x4015b4c, size 0x10, virtual false, abstract: false, final false
-  inline void Erase(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
+  inline void Erase(::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
   /// @brief Method EraseAsync, addr 0x4015ce0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> EraseAsync();
@@ -805,7 +805,8 @@ public:
   inline ::GlobalNamespace::OVRTask_1<bool> EraseAsync(::GlobalNamespace::OVRSpatialAnchor_EraseOptions eraseOptions);
 
   /// @brief Method GetListToStoreTheShareRequest, addr 0x4015568, size 0x344, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>* GetListToStoreTheShareRequest(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>* users);
+  inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*
+  GetListToStoreTheShareRequest(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>* users);
 
   /// @brief Method GetTrackingSpacePose, addr 0x4016534, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose GetTrackingSpacePose();
@@ -864,14 +865,15 @@ public:
   static inline void PopulateUnbound(::System::Guid uuid, uint64_t space);
 
   /// @brief Method Save, addr 0x4014184, size 0x2b8, virtual false, abstract: false, final false
-  static inline void Save(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors, ::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions,
-                          ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
+  static inline void
+  Save(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions,
+       ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
   /// @brief Method Save, addr 0x4013cc8, size 0x10, virtual false, abstract: false, final false
-  inline void Save(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
+  inline void Save(::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
   /// @brief Method Save, addr 0x4013cd8, size 0xb0, virtual false, abstract: false, final false
-  inline void Save(::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions, ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
+  inline void Save(::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions, ::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
   /// @brief Method SaveAsync, addr 0x401417c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync();
@@ -883,9 +885,9 @@ public:
   static inline void SaveBatchAnchors();
 
   /// @brief Method Share, addr 0x4014f34, size 0x634, virtual false, abstract: false, final false
-  static inline void Share(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors,
-                           ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpaceUser>* users,
-                           ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
+  static inline void
+  Share(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpaceUser>* users,
+        ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
   /// @brief Method Share, addr 0x40144b4, size 0xa0, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user, ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
@@ -934,7 +936,7 @@ public:
   static inline void ThrowIfBound(::System::Guid uuid);
 
   /// @brief Method ToNativeArray, addr 0x4013d88, size 0x294, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::NativeArray_1<uint64_t> ToNativeArray(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors);
+  static inline ::Unity::Collections::NativeArray_1<uint64_t> ToNativeArray(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors);
 
   /// @brief Method TryExtractValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> static inline bool TryExtractValue(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dict, TKey key, ::ByRef<TValue> value);
@@ -996,22 +998,22 @@ public:
   /// @brief Method add_OnLocalize, addr 0x4013634, size 0xb0, virtual false, abstract: false, final false
   inline void add_OnLocalize(::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpatialAnchor*, ::System::Guid>* getStaticF_AsyncRequestTaskIds();
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::System::Guid>* getStaticF_AsyncRequestTaskIds();
 
   static inline ::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType, ::Array<::GlobalNamespace::OVRPlugin_SpaceComponentType>*> getStaticF_ComponentTypeBuffer();
 
-  static inline ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor*>* getStaticF_CreationRequests();
+  static inline ::System::Collections::Generic::Dictionary_2<uint64_t, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* getStaticF_CreationRequests();
 
   static inline ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor_MultiAnchorDelegatePair>* getStaticF_MultiAnchorCompletionDelegates();
 
-  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace_StorageLocation, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>*
+  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace_StorageLocation, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>*
   getStaticF_SaveRequests();
 
   static inline ::System::Collections::Generic::List_1<
-      ::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>>*
+      ::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>>*
   getStaticF_ShareRequests();
 
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSpatialAnchor*>* getStaticF_SpatialAnchors();
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* getStaticF_SpatialAnchors();
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>* getStaticF_UnboundAnchorBuffer();
 
@@ -1033,21 +1035,22 @@ public:
   /// @brief Method remove_OnLocalize, addr 0x40136e4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_OnLocalize(::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
-  static inline void setStaticF_AsyncRequestTaskIds(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpatialAnchor*, ::System::Guid>* value);
+  static inline void setStaticF_AsyncRequestTaskIds(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::System::Guid>* value);
 
   static inline void setStaticF_ComponentTypeBuffer(::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType, ::Array<::GlobalNamespace::OVRPlugin_SpaceComponentType>*> value);
 
-  static inline void setStaticF_CreationRequests(::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor*>* value);
+  static inline void setStaticF_CreationRequests(::System::Collections::Generic::Dictionary_2<uint64_t, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* value);
 
   static inline void setStaticF_MultiAnchorCompletionDelegates(::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor_MultiAnchorDelegatePair>* value);
 
   static inline void setStaticF_SaveRequests(
-      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace_StorageLocation, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>* value);
+      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace_StorageLocation, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* value);
 
-  static inline void setStaticF_ShareRequests(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*,
-                                                                                                            ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>>* value);
+  static inline void
+  setStaticF_ShareRequests(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*,
+                                                                                         ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>>* value);
 
-  static inline void setStaticF_SpatialAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSpatialAnchor*>* value);
+  static inline void setStaticF_SpatialAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* value);
 
   static inline void setStaticF_UnboundAnchorBuffer(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>* value);
 

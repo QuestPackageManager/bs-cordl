@@ -12,6 +12,182 @@
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_Extensions
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* (
+    ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_Extensions)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 22));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_IssuerName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X500DistinguishedName* (
+    ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_IssuerName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 23));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_PrivateKey
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::AsymmetricAlgorithm* (
+    ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_PrivateKey)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 24));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.set_PrivateKey
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(
+    ::System::Security::Cryptography::AsymmetricAlgorithm*)>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::set_PrivateKey)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 25));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_SignatureAlgorithm
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(
+    &::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_SignatureAlgorithm)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 26));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_SubjectName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X500DistinguishedName* (
+    ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_SubjectName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 27));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_Version
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(
+    &::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_Version)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 28));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.get_IntermediateCertificates
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* (
+    ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_IntermediateCertificates)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 29));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.GetNameInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(
+    ::System::Security::Cryptography::X509Certificates::X509NameType, bool)>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::GetNameInfo)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 30));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.Verify
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(
+    ::System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::Verify)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 31));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.AppendPrivateKeyInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(::System::Text::StringBuilder*)>(
+    &::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::AppendPrivateKeyInfo)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl*>::get(), 32));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl.CopyWithPrivateKey
 template <>
 

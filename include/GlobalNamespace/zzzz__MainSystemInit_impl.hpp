@@ -85,32 +85,34 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__43_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::PerceivedLoudnessPerLevelModel* (::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
-        &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__43_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PerceivedLoudnessPerLevelModel* (
+    ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
+    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__43_1)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x2717498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit___c*>::get(), "<InstallBindings>b__43_1", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__43_2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::OculusLevelProductCollectionModel* (::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*)>(
-        &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__43_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel* (
+    ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
+    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__43_2)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x2717508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit___c*>::get(), "<InstallBindings>b__43_2", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -192,17 +194,19 @@ inline ::System::Random* GlobalNamespace::MainSystemInit___c::_InstallBindings_b
   return ::cordl_internals::RunMethodRethrow<::System::Random*, false>(this, ___internal_method, _);
 }
 inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel*
-GlobalNamespace::MainSystemInit___c::_InstallBindings_b__43_1(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::MainSystemInit___c::_InstallBindings_b__43_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit___c*>::get(), "<InstallBindings>b__43_1", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PerceivedLoudnessPerLevelModel*, false>(this, ___internal_method, packDefinitions);
 }
 inline ::GlobalNamespace::OculusLevelProductCollectionModel*
-GlobalNamespace::MainSystemInit___c::_InstallBindings_b__43_2(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions) {
+GlobalNamespace::MainSystemInit___c::_InstallBindings_b__43_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit___c*>::get(), "<InstallBindings>b__43_2", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OculusLevelProductCollectionModel*, false>(this, ___internal_method, packDefinitions);
 }
 inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__46_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {

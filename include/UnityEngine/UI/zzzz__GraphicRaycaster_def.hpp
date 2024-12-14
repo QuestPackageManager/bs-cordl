@@ -222,7 +222,8 @@ public:
 
   /// @brief Method Raycast, addr 0x4963ae0, size 0x568, virtual false, abstract: false, final false
   static inline void Raycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Camera* eventCamera, ::UnityEngine::Vector2 pointerPosition,
-                             ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* foundGraphics, ::System::Collections::Generic::List_1<::UnityEngine::UI::Graphic*>* results);
+                             ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* foundGraphics,
+                             ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* results);
 
   /// @brief Method Raycast, addr 0x4962e0c, size 0xc18, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);

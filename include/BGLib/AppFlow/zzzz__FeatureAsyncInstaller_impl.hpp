@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::Zenject::ScriptableObjectInstaller*>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    ::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x354;
   constexpr static std::size_t addrs = 0x2299e4c;
@@ -68,7 +68,7 @@ inline ::StringW BGLib::AppFlow::FeatureAsyncInstaller::get_assetLabelRuntimeKey
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::Zenject::ScriptableObjectInstaller*>* scriptableObjectInstallers,
+inline void BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
                                                                               ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 12)));

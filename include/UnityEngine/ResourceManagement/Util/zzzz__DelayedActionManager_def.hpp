@@ -117,7 +117,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement:
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.Util.DelayedActionManager
-class CORDL_TYPE DelayedActionManager : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager*> {
+class CORDL_TYPE DelayedActionManager : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityW<::UnityEngine::ResourceManagement::Util::DelayedActionManager>> {
 public:
   // Declarations
   using DelegateInfo = ::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo;

@@ -30,14 +30,15 @@ inline void GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::_ctor
 inline ::GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig* GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig*>());
 }
-/// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>"
-constexpr GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*() noexcept {
-  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>"
+constexpr GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<
+    ::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>*() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>"
-constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*
-GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__PlatformNetworkPlayerModel__() noexcept {
-  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::PlatformNetworkPlayerModel*>*>(static_cast<void*>(this));
+/// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>"
+constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>*
+GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW___GlobalNamespace__PlatformNetworkPlayerModel__() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::PlatformNetworkPlayerModel_CreatePartyConfig() {}

@@ -764,7 +764,7 @@ public:
   inline void add_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
   /// @brief Method add_levelFinishedEvent, addr 0x3bb87d8, size 0xb0, virtual true, abstract: false, final true
-  inline void add_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
+  inline void add_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
   /// @brief Method add_lobbyDisconnectedEvent, addr 0x3bb8a98, size 0x9c, virtual true, abstract: false, final true
   inline void add_lobbyDisconnectedEvent(::System::Action* value);
@@ -845,7 +845,7 @@ public:
   inline void remove_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
   /// @brief Method remove_levelFinishedEvent, addr 0x3bb8888, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
+  inline void remove_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
   /// @brief Method remove_lobbyDisconnectedEvent, addr 0x3bb8b34, size 0x9c, virtual true, abstract: false, final true
   inline void remove_lobbyDisconnectedEvent(::System::Action* value);

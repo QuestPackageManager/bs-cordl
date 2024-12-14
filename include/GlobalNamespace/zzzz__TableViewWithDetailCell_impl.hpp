@@ -6,6 +6,70 @@
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::TableViewWithDetailCell_IDataSource.CellSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TableViewWithDetailCell_IDataSource::*)()>(
+    &::GlobalNamespace::TableViewWithDetailCell_IDataSource::CellSize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TableViewWithDetailCell_IDataSource.NumberOfCells
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TableViewWithDetailCell_IDataSource::*)()>(
+    &::GlobalNamespace::TableViewWithDetailCell_IDataSource::NumberOfCells)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TableViewWithDetailCell_IDataSource.CellForContent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::TableViewWithDetailCell_IDataSource::*)(
+    ::GlobalNamespace::TableViewWithDetailCell*, int32_t, bool)>(&::GlobalNamespace::TableViewWithDetailCell_IDataSource::CellForContent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TableViewWithDetailCell_IDataSource.CellForDetail
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::TableViewWithDetailCell_IDataSource::*)(
+    ::GlobalNamespace::TableViewWithDetailCell*, int32_t)>(&::GlobalNamespace::TableViewWithDetailCell_IDataSource::CellForDetail)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell_IDataSource*>::get(), 3));
+    return ___internal_method;
+  }
+};
 inline float_t GlobalNamespace::TableViewWithDetailCell_IDataSource::CellSize() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -34,14 +98,14 @@ inline ::UnityW<::HMUI::TableCell> GlobalNamespace::TableViewWithDetailCell_IDat
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(
-    ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39e7f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), "add_didSelectContentCellEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -49,14 +113,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(
-    ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::remove_didSelectContentCellEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::remove_didSelectContentCellEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39e8038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), "remove_didSelectContentCellEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -64,14 +128,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(
-    ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::add_didDeselectContentCellEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::add_didDeselectContentCellEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39e80e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), "add_didDeselectContentCellEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -79,14 +143,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TableViewWithDetailCell::*)(
-    ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::remove_didDeselectContentCellEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*)>(&::GlobalNamespace::TableViewWithDetailCell::remove_didDeselectContentCellEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39e8198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), "remove_didDeselectContentCellEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -221,27 +285,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*& GlobalNamespace::TableViewWithDetailCell::__cordl_internal_get_didSelectContentCellEvent() {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*& GlobalNamespace::TableViewWithDetailCell::__cordl_internal_get_didSelectContentCellEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectContentCellEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>* const& GlobalNamespace::TableViewWithDetailCell::__cordl_internal_get_didSelectContentCellEvent() const {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* const& GlobalNamespace::TableViewWithDetailCell::__cordl_internal_get_didSelectContentCellEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectContentCellEvent;
 }
-constexpr void GlobalNamespace::TableViewWithDetailCell::__cordl_internal_set_didSelectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>* value) {
+constexpr void GlobalNamespace::TableViewWithDetailCell::__cordl_internal_set_didSelectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectContentCellEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*& GlobalNamespace::TableViewWithDetailCell::__cordl_internal_get_didDeselectContentCellEvent() {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*& GlobalNamespace::TableViewWithDetailCell::__cordl_internal_get_didDeselectContentCellEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didDeselectContentCellEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>* const& GlobalNamespace::TableViewWithDetailCell::__cordl_internal_get_didDeselectContentCellEvent() const {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* const& GlobalNamespace::TableViewWithDetailCell::__cordl_internal_get_didDeselectContentCellEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didDeselectContentCellEvent;
 }
-constexpr void GlobalNamespace::TableViewWithDetailCell::__cordl_internal_set_didDeselectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>* value) {
+constexpr void GlobalNamespace::TableViewWithDetailCell::__cordl_internal_set_didDeselectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didDeselectContentCellEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -269,28 +333,28 @@ constexpr void GlobalNamespace::TableViewWithDetailCell::__cordl_internal_set__s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedId = value;
 }
-inline void GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>* value) {
+inline void GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), "add_didSelectContentCellEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::TableViewWithDetailCell::remove_didSelectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>* value) {
+inline void GlobalNamespace::TableViewWithDetailCell::remove_didSelectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), "remove_didSelectContentCellEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::TableViewWithDetailCell::add_didDeselectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>* value) {
+inline void GlobalNamespace::TableViewWithDetailCell::add_didDeselectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), "add_didDeselectContentCellEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::TableViewWithDetailCell::remove_didDeselectContentCellEvent(::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>* value) {
+inline void GlobalNamespace::TableViewWithDetailCell::remove_didDeselectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TableViewWithDetailCell*>::get(), "remove_didDeselectContentCellEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::TableViewWithDetailCell*, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::GlobalNamespace::TableViewWithDetailCell_IDataSource* GlobalNamespace::TableViewWithDetailCell::get_dataSource() {

@@ -168,7 +168,7 @@ public:
 
   /// @brief Field didFinishEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                                                                      ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* didFinishEvent;
 
   /// @brief Field didSetupEvent, offset 0xb8, size 0x8
@@ -203,11 +203,11 @@ public:
 
   constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata*& __cordl_internal_get__selectedAvatarSystem();
 
-  constexpr ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+  constexpr ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* const&
   __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+  constexpr ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*&
   __cordl_internal_get_didFinishEvent();
 
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                                                         ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value);
 
   constexpr void __cordl_internal_set_didSetupEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode>* value);
@@ -234,7 +234,7 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x2249408, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+  inline void add_didFinishEvent(::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                                     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value);
 
   /// @brief Method add_didSetupEvent, addr 0x2249568, size 0xb0, virtual false, abstract: false, final false
@@ -244,7 +244,7 @@ public:
   inline void add_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x22494b8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+  inline void remove_didFinishEvent(::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                                        ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* value);
 
   /// @brief Method remove_didSetupEvent, addr 0x2249618, size 0xb0, virtual false, abstract: false, final false
@@ -271,8 +271,8 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17552 };
 
   /// @brief Field didFinishEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_3<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>*
-      ___didFinishEvent;
+  ::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
+                     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction>* ___didFinishEvent;
 
   /// @brief Field didSetupEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode>* ___didSetupEvent;

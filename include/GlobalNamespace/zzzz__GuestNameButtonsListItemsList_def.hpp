@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItemsList);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GuestNameButtonsListItemsList
-class CORDL_TYPE GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::GuestNameButtonsListItem*> {
+class CORDL_TYPE GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::GuestNameButtonsListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::GuestNameButtonsListItemsList* New_ctor();

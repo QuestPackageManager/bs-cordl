@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationChevron_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SpawnRotationChevron/Pool
-class CORDL_TYPE SpawnRotationChevron_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SpawnRotationChevron*> {
+class CORDL_TYPE SpawnRotationChevron_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SpawnRotationChevron>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::SpawnRotationChevron_Pool* New_ctor();

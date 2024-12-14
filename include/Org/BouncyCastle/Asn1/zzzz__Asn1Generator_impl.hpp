@@ -33,6 +33,50 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::Asn1Generator.AddObject
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1Generator::*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
+    &::Org::BouncyCastle::Asn1::Asn1Generator::AddObject)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Asn1Generator*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Asn1Generator*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::Asn1Generator.GetRawOutputStream
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::Asn1Generator::*)()>(
+    &::Org::BouncyCastle::Asn1::Asn1Generator::GetRawOutputStream)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Asn1Generator*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Asn1Generator*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::Asn1Generator.Close
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1Generator::*)()>(&::Org::BouncyCastle::Asn1::Asn1Generator::Close)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Asn1Generator*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Asn1Generator*>::get(), 6));
+    return ___internal_method;
+  }
+};
 constexpr ::System::IO::Stream*& Org::BouncyCastle::Asn1::Asn1Generator::__cordl_internal_get__out() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____out;

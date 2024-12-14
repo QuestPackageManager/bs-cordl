@@ -43,8 +43,9 @@ constexpr ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool::
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController.add_cubeNoteControllerDidInitEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)(
-    ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*)>(&::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::add_cubeNoteControllerDidInitEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*)>(
+        &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::add_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3bb7360;
 
@@ -52,15 +53,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>::get(), "add_cubeNoteControllerDidInitEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController.remove_cubeNoteControllerDidInitEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)(
-    ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*)>(&::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::remove_cubeNoteControllerDidInitEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*)>(
+        &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::remove_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3bb7410;
 
@@ -68,7 +71,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>::get(), "remove_cubeNoteControllerDidInitEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -151,18 +155,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*&
 GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__cordl_internal_get_cubeNoteControllerDidInitEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeNoteControllerDidInitEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* const&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* const&
 GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__cordl_internal_get_cubeNoteControllerDidInitEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeNoteControllerDidInitEvent;
 }
 constexpr void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__cordl_internal_set_cubeNoteControllerDidInitEvent(
-    ::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value) {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cubeNoteControllerDidInitEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -190,20 +194,22 @@ constexpr void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gameplayType = value;
 }
-inline void
-GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>::get(), "add_cubeNoteControllerDidInitEvent",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>::get() })));
+inline void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::add_cubeNoteControllerDidInitEvent(
+    ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>::get(), "add_cubeNoteControllerDidInitEvent",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void
-GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>::get(), "remove_cubeNoteControllerDidInitEvent",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>::get() })));
+inline void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::remove_cubeNoteControllerDidInitEvent(
+    ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>::get(),
+                                  "remove_cubeNoteControllerDidInitEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::GlobalNamespace::NoteMovement> GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::get_noteMovement() {
@@ -243,15 +249,15 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::_ctor
 inline ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>());
 }
-/// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>"
+/// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>"
 constexpr GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<
-    ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*() noexcept {
-  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>(static_cast<void*>(this));
+    ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*() noexcept {
+  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>"
-constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*
-GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__() noexcept {
-  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>(static_cast<void*>(this));
+/// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>"
+constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* GlobalNamespace::
+    MultiplayerConnectedPlayerGameNoteController::i___GlobalNamespace__ICubeNoteControllerInitializable_1___UnityW___GlobalNamespace__MultiplayerConnectedPlayerGameNoteController__() noexcept {
+  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
 constexpr GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept {

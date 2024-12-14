@@ -639,7 +639,7 @@ public:
 
   /// @brief Field didChangeDifficultyBeatmapEvent, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeDifficultyBeatmapEvent,
-                      put = __cordl_internal_set_didChangeDifficultyBeatmapEvent)) ::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* didChangeDifficultyBeatmapEvent;
+                      put = __cordl_internal_set_didChangeDifficultyBeatmapEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* didChangeDifficultyBeatmapEvent;
 
   /// @brief Field didFavoriteToggleChangeEvent, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_didFavoriteToggleChangeEvent,
@@ -706,8 +706,8 @@ public:
 
   /// @brief Method SetContent, addr 0x3b65e94, size 0x314, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
-                         ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics, ::GlobalNamespace::BeatmapDifficulty defaultDifficulty,
-                         ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, ::GlobalNamespace::PlayerData* playerData);
+                         ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics,
+                         ::GlobalNamespace::BeatmapDifficulty defaultDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, ::GlobalNamespace::PlayerData* playerData);
 
   /// @brief Method SetContentForBeatmapData, addr 0x3b6fe4c, size 0x38, virtual false, abstract: false, final false
   inline void SetContentForBeatmapData();
@@ -835,9 +835,9 @@ public:
 
   constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* const& __cordl_internal_get_didChangeDifficultyBeatmapEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* const& __cordl_internal_get_didChangeDifficultyBeatmapEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>*& __cordl_internal_get_didChangeDifficultyBeatmapEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*& __cordl_internal_get_didChangeDifficultyBeatmapEvent();
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* const& __cordl_internal_get_didFavoriteToggleChangeEvent() const;
 
@@ -897,7 +897,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr void __cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* value);
+  constexpr void __cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
 
   constexpr void __cordl_internal_set_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
@@ -905,10 +905,10 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b6667c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* value);
+  inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
 
   /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x3b6672c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityEngine::UI::Toggle*>* value);
+  inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
   /// @brief Method get_actionButton, addr 0x3b6f488, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_actionButton();
@@ -920,10 +920,10 @@ public:
   inline ::UnityW<::UnityEngine::UI::Button> get_practiceButton();
 
   /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b669c4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* value);
+  inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
 
   /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x3b66a74, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityEngine::UI::Toggle*>* value);
+  inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
   /// @brief Method set_actionButtonText, addr 0x3b653e4, size 0x24, virtual false, abstract: false, final false
   inline void set_actionButtonText(::StringW value);
@@ -1012,7 +1012,7 @@ public:
   ::GlobalNamespace::BeatmapLevelsEntitlementModel* ____beatmapLevelsEntitlementModel;
 
   /// @brief Field didChangeDifficultyBeatmapEvent, offset: 0xc0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::StandardLevelDetailView*>* ___didChangeDifficultyBeatmapEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* ___didChangeDifficultyBeatmapEvent;
 
   /// @brief Field didFavoriteToggleChangeEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* ___didFavoriteToggleChangeEvent;

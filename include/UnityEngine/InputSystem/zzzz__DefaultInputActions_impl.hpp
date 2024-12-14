@@ -572,6 +572,54 @@ constexpr ::UnityEngine::InputSystem::DefaultInputActions_UIActions::DefaultInpu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::DefaultInputActions_UIActions::DefaultInputActions_UIActions() {}
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions.OnMove
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions::OnMove)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions.OnLook
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions::OnLook)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions.OnFire
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions::OnFire)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions*>::get(), 2));
+    return ___internal_method;
+  }
+};
 inline void UnityEngine::InputSystem::DefaultInputActions_IPlayerActions::OnMove(::UnityEngine::InputSystem::InputAction_CallbackContext context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -590,6 +638,166 @@ inline void UnityEngine::InputSystem::DefaultInputActions_IPlayerActions::OnFire
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
 }
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnNavigate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnNavigate)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnSubmit
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnSubmit)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnCancel
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnCancel)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnPoint
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnPoint)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnClick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnClick)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnScrollWheel
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnScrollWheel)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnMiddleClick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnMiddleClick)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnRightClick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnRightClick)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnTrackedDevicePosition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnTrackedDevicePosition)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DefaultInputActions_IUIActions.OnTrackedDeviceOrientation
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DefaultInputActions_IUIActions::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnTrackedDeviceOrientation)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DefaultInputActions_IUIActions*>::get(), 9));
+    return ___internal_method;
+  }
+};
 inline void UnityEngine::InputSystem::DefaultInputActions_IUIActions::OnNavigate(::UnityEngine::InputSystem::InputAction_CallbackContext context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

@@ -42,7 +42,7 @@ public:
   inline void AddBinding(::UnityEngine::UI::Button* button, ::System::Action* action);
 
   /// @brief Method AddBindings, addr 0x39ea2cc, size 0x164, virtual false, abstract: false, final false
-  inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::System::Action*>*>* bindingData);
+  inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>* bindingData);
 
   /// @brief Method ClearBindings, addr 0x39ea430, size 0x220, virtual false, abstract: false, final false
   inline void ClearBindings();
@@ -52,7 +52,7 @@ public:
 
   static inline ::HMUI::ButtonBinder* New_ctor();
 
-  static inline ::HMUI::ButtonBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::System::Action*>*>* bindingData);
+  static inline ::HMUI::ButtonBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>* bindingData);
 
   static inline ::HMUI::ButtonBinder* New_ctor(::UnityEngine::UI::Button* button, ::System::Action* action);
 
@@ -66,7 +66,7 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x39ea298, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::System::Action*>*>* bindingData);
+  inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>* bindingData);
 
   /// @brief Method .ctor, addr 0x39ea114, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UI::Button* button, ::System::Action* action);

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierInfoListItemsList);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GameplayModifierInfoListItemsList
-class CORDL_TYPE GameplayModifierInfoListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::GameplayModifierInfoListItem*> {
+class CORDL_TYPE GameplayModifierInfoListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::GameplayModifierInfoListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::GameplayModifierInfoListItemsList* New_ctor();

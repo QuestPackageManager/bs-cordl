@@ -10,6 +10,38 @@
 #include "UnityEngine/UIElements/zzzz__EventCallback_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TrickleDown_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.SendEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::CallbackEventHandler::SendEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.SendEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(
+    ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::DispatchMode)>(&::UnityEngine::UIElements::CallbackEventHandler::SendEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CallbackEventHandler*>::get(), 7));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.HandleEventAtTargetPhase
 template <>
 

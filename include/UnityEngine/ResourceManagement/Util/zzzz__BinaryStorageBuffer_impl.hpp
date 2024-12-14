@@ -82,6 +82,56 @@ UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0() {}
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.get_Dependencies
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)()>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::get_Dependencies)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.Serialize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)(
+    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*, ::System::Object*)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Serialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.Deserialize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*, ::System::Type*, uint32_t)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Deserialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 2));
+    return ___internal_method;
+  }
+};
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*
 UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::get_Dependencies() {
   auto* ___internal_method = THROW_UNLESS(

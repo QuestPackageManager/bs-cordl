@@ -24,6 +24,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Zenject::SubContainerCreatorByMethodBase.CreateSubContainer
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByMethodBase::*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::InjectContext*)>(
+        &::Zenject::SubContainerCreatorByMethodBase::CreateSubContainer)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByMethodBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByMethodBase*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByMethodBase.CreateEmptySubContainer
 template <>
 

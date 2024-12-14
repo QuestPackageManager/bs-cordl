@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackDefinitionA
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PackDefinitionAsyncInstaller
-class CORDL_TYPE PackDefinitionAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::GlobalNamespace::PackDefinitionSO*> {
+class CORDL_TYPE PackDefinitionAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::GlobalNamespace::PackDefinitionSO>> {
 public:
   // Declarations
   using __c = ::GlobalNamespace::PackDefinitionAsyncInstaller___c;
@@ -118,7 +118,7 @@ public:
   LoadPackDefinitionListAsync();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x26cdf60, size 0x15c, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::GlobalNamespace::PackDefinitionSO*>* assets,
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* assets,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::GlobalNamespace::PackDefinitionAsyncInstaller* New_ctor();

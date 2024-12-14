@@ -373,7 +373,7 @@ public:
   static inline void add_GraphicsResourcesRecreate(::System::Action_1<bool>* value);
 
   /// @brief Method add_RegisterIntermediateRenderers, addr 0x49a3888, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value);
+  static inline void add_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value);
 
   /// @brief Method add_RenderNodeExecute, addr 0x49a3a70, size 0xf4, virtual false, abstract: false, final false
   static inline void add_RenderNodeExecute(::System::Action_1<::System::IntPtr>* value);
@@ -404,7 +404,7 @@ public:
   static inline void remove_GraphicsResourcesRecreate(::System::Action_1<bool>* value);
 
   /// @brief Method remove_RegisterIntermediateRenderers, addr 0x49a397c, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value);
+  static inline void remove_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value);
 
   /// @brief Method remove_RenderNodeExecute, addr 0x49a3b64, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_RenderNodeExecute(::System::Action_1<::System::IntPtr>* value);

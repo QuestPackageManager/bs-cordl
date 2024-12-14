@@ -50,7 +50,7 @@ public:
   inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
 
   /// @brief Method GetCameras, addr 0x48c6fbc, size 0xb8, virtual false, abstract: false, final false
-  inline void GetCameras(::System::Collections::Generic::List_1<::UnityEngine::Camera*>* results);
+  inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
 
   /// @brief Method GetCameras_Internal, addr 0x48c7264, size 0x8c, virtual false, abstract: false, final false
   inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);

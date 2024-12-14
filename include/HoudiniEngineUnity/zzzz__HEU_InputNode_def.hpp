@@ -428,8 +428,8 @@ public:
   /// @brief Field _uiCache, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__uiCache, put = __cordl_internal_set__uiCache)) ::HoudiniEngineUnity::HEU_InputNodeUICache* _uiCache;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*() noexcept;
 
   /// @brief Method AddInputEntryAtEnd, addr 0x3a25798, size 0x8c, virtual false, abstract: false, final false
   inline void AddInputEntryAtEnd(::UnityEngine::GameObject* newEntryGameObject);
@@ -462,8 +462,8 @@ public:
   inline ::HoudiniEngineUnity::HEU_InputObjectInfo* CreateInputObjectInfo(::UnityEngine::GameObject* inputGameObject);
 
   /// @brief Method CreateSetupInput, addr 0x3a24cbc, size 0x90, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_InputNode* CreateSetupInput(int32_t nodeID, int32_t inputIndex, ::StringW inputName, ::StringW labelName,
-                                                                      ::HoudiniEngineUnity::HEU_InputNode_InputNodeType inputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> CreateSetupInput(int32_t nodeID, int32_t inputIndex, ::StringW inputName, ::StringW labelName,
+                                                                               ::HoudiniEngineUnity::HEU_InputNode_InputNodeType inputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
   /// @brief Method DestroyAllData, addr 0x3a24d54, size 0x1c, virtual false, abstract: false, final false
   inline void DestroyAllData(::HoudiniEngineUnity::HEU_SessionBase* session);
@@ -737,8 +737,8 @@ public:
   /// @brief Method get_TilemapSettings, addr 0x3a24cb4, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* get_TilemapSettings();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InputNode__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_InputNode__() noexcept;
 
   /// @brief Method set_KeepWorldTransform, addr 0x3a24c7c, size 0xc, virtual false, abstract: false, final false
   inline void set_KeepWorldTransform(bool value);

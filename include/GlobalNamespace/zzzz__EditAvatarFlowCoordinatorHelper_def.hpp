@@ -391,13 +391,13 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3c00fd4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
   /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x3c01134, size 0x60, virtual false, abstract: false, final false
   inline bool get__hasOnlyOneAvatarSystem();
 
   /// @brief Method remove_didFinishEvent, addr 0x3c01084, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::HMUI::FlowCoordinator*, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
 protected:
   // Ctor Parameters []

@@ -180,6 +180,21 @@ constexpr ::GlobalNamespace::OVRManager_ControllerDrivenHandPosesType::OVRManage
 constexpr ::GlobalNamespace::OVRManager_ControllerDrivenHandPosesType GlobalNamespace::OVRManager_ControllerDrivenHandPosesType::None{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRManager_ControllerDrivenHandPosesType GlobalNamespace::OVRManager_ControllerDrivenHandPosesType::ConformingToController{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRManager_ControllerDrivenHandPosesType GlobalNamespace::OVRManager_ControllerDrivenHandPosesType::Natural{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::GlobalNamespace::OVRManager_EventListener.OnEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRManager_EventListener::*)(::GlobalNamespace::OVRPlugin_EventDataBuffer)>(
+    &::GlobalNamespace::OVRManager_EventListener::OnEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager_EventListener*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager_EventListener*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline void GlobalNamespace::OVRManager_EventListener::OnEvent(::GlobalNamespace::OVRPlugin_EventDataBuffer eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager_EventListener*>::get(), 0)));
@@ -560,7 +575,7 @@ constexpr ::GlobalNamespace::OVRManager___c::OVRManager___c() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRManager.get_instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager* (*)()>(&::GlobalNamespace::OVRManager::get_instance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRManager> (*)()>(&::GlobalNamespace::OVRManager::get_instance)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x3fc2354;
 
@@ -4624,12 +4639,13 @@ constexpr void GlobalNamespace::OVRManager::__cordl_internal_set_eventListeners(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___eventListeners)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVRManager::setStaticF__instance_k__BackingField(::GlobalNamespace::OVRManager* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::OVRManager*, "<instance>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager*>::get>(
-      std::forward<::GlobalNamespace::OVRManager*>(value));
+inline void GlobalNamespace::OVRManager::setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRManager> value) {
+  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::OVRManager>, "<instance>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager*>::get>(
+      std::forward<::UnityW<::GlobalNamespace::OVRManager>>(value));
 }
-inline ::GlobalNamespace::OVRManager* GlobalNamespace::OVRManager::getStaticF__instance_k__BackingField() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::OVRManager*, "<instance>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager*>::get>();
+inline ::UnityW<::GlobalNamespace::OVRManager> GlobalNamespace::OVRManager::getStaticF__instance_k__BackingField() {
+  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::OVRManager>, "<instance>k__BackingField",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager*>::get>();
 }
 inline void GlobalNamespace::OVRManager::setStaticF__display_k__BackingField(::GlobalNamespace::OVRDisplay* value) {
   ::cordl_internals::setStaticField<::GlobalNamespace::OVRDisplay*, "<display>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager*>::get>(
@@ -5119,10 +5135,10 @@ inline ::GlobalNamespace::OVRManager_PassthroughCapabilities* GlobalNamespace::O
   return ::cordl_internals::getStaticField<::GlobalNamespace::OVRManager_PassthroughCapabilities*, "_passthroughCapabilities",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager*>::get>();
 }
-inline ::GlobalNamespace::OVRManager* GlobalNamespace::OVRManager::get_instance() {
+inline ::UnityW<::GlobalNamespace::OVRManager> GlobalNamespace::OVRManager::get_instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRManager*>::get(), "get_instance",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRManager*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRManager>, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::OVRManager::set_instance(::GlobalNamespace::OVRManager* value) {
   static auto* ___internal_method =

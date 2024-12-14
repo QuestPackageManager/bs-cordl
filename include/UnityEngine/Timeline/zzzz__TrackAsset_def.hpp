@@ -515,7 +515,7 @@ public:
 
   /// @brief Field OnTrackAnimationPlayableCreate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_OnTrackAnimationPlayableCreate,
-                      put = setStaticF_OnTrackAnimationPlayableCreate)) ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityW<::UnityEngine::GameObject>,
+                      put = setStaticF_OnTrackAnimationPlayableCreate)) ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>,
                                                                                            ::UnityEngine::Playables::Playable>* OnTrackAnimationPlayableCreate;
 
   __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_asset)) ::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_asset;
@@ -524,7 +524,7 @@ public:
 
   __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)) ::StringW UnityEngine_Timeline_ICurvesOwner_defaultCurvesName;
 
-  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_targetTrack)) ::UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_targetTrack;
+  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_targetTrack)) ::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine_Timeline_ICurvesOwner_targetTrack;
 
   __declspec(property(get = get_clips)) ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> clips;
 
@@ -556,7 +556,7 @@ public:
 
   /// @brief Field m_ChildTrackCache, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ChildTrackCache,
-                      put = __cordl_internal_set_m_ChildTrackCache)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* m_ChildTrackCache;
+                      put = __cordl_internal_set_m_ChildTrackCache)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* m_ChildTrackCache;
 
   /// @brief Field m_Children, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Children, put = __cordl_internal_set_m_Children)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* m_Children;
@@ -614,7 +614,8 @@ public:
   __declspec(property(get = getStaticF_s_BuildData, put = setStaticF_s_BuildData)) ::UnityEngine::Timeline::TrackAsset_TransientBuildData s_BuildData;
 
   /// @brief Field s_EmptyCache, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_EmptyCache, put = setStaticF_s_EmptyCache)) ::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> s_EmptyCache;
+  __declspec(property(get = getStaticF_s_EmptyCache, put = setStaticF_s_EmptyCache)) ::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*>
+      s_EmptyCache;
 
   /// @brief Field s_TrackBindingTypeAttributeCache, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_TrackBindingTypeAttributeCache,
@@ -744,7 +745,7 @@ public:
   inline bool DeleteMarkerRaw(::UnityEngine::ScriptableObject* marker);
 
   /// @brief Method GatherCompilableTracks, addr 0x481b174, size 0x3d0, virtual false, abstract: false, final false
-  inline void GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset*>* tracks);
+  inline void GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks);
 
   /// @brief Method GatherNotifications, addr 0x481a1c0, size 0x37c, virtual false, abstract: false, final false
   inline void GatherNotifications(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markers);
@@ -756,7 +757,7 @@ public:
   static inline int32_t GetAnimationClipHash(::UnityEngine::AnimationClip* clip);
 
   /// @brief Method GetChildTracks, addr 0x480f414, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* GetChildTracks();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* GetChildTracks();
 
   /// @brief Method GetClips, addr 0x4810ae8, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TimelineClip*>* GetClips();
@@ -848,7 +849,7 @@ public:
   inline ::StringW UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
 
   /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_targetTrack, addr 0x4817f80, size 0x4, virtual true, abstract: false, final true
-  inline ::UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
+  inline ::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
 
   /// @brief Method UpdateChildTrackCache, addr 0x4817d10, size 0x208, virtual false, abstract: false, final false
   inline void UpdateChildTrackCache();
@@ -870,9 +871,9 @@ public:
 
   constexpr bool& __cordl_internal_get_m_CacheSorted();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* const& __cordl_internal_get_m_ChildTrackCache() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* const& __cordl_internal_get_m_ChildTrackCache() const;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>*& __cordl_internal_get_m_ChildTrackCache();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*& __cordl_internal_get_m_ChildTrackCache();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* const& __cordl_internal_get_m_Children() const;
 
@@ -934,7 +935,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CacheSorted(bool value);
 
-  constexpr void __cordl_internal_set_m_ChildTrackCache(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* value);
+  constexpr void __cordl_internal_set_m_ChildTrackCache(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* value);
 
   constexpr void __cordl_internal_set_m_Children(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* value);
 
@@ -971,18 +972,19 @@ public:
   inline void _ctor();
 
   /// @brief Method add_OnClipPlayableCreate, addr 0x48175a4, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   /// @brief Method add_OnTrackAnimationPlayableCreate, addr 0x481778c, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void
+  add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   static inline ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* getStaticF_OnClipPlayableCreate();
 
-  static inline ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* getStaticF_OnTrackAnimationPlayableCreate();
+  static inline ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* getStaticF_OnTrackAnimationPlayableCreate();
 
   static inline ::UnityEngine::Timeline::TrackAsset_TransientBuildData getStaticF_s_BuildData();
 
-  static inline ::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> getStaticF_s_EmptyCache();
+  static inline ::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> getStaticF_s_EmptyCache();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::Timeline::TrackBindingTypeAttribute*>* getStaticF_s_TrackBindingTypeAttributeCache();
 
@@ -1053,19 +1055,20 @@ public:
   constexpr ::UnityEngine::Timeline::IPropertyPreview* i___UnityEngine__Timeline__IPropertyPreview() noexcept;
 
   /// @brief Method remove_OnClipPlayableCreate, addr 0x4817698, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   /// @brief Method remove_OnTrackAnimationPlayableCreate, addr 0x4817880, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void
+  remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   static inline void setStaticF_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   static inline void
-  setStaticF_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
+  setStaticF_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   static inline void setStaticF_s_BuildData(::UnityEngine::Timeline::TrackAsset_TransientBuildData value);
 
-  static inline void setStaticF_s_EmptyCache(::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> value);
+  static inline void setStaticF_s_EmptyCache(::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> value);
 
   static inline void setStaticF_s_TrackBindingTypeAttributeCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::Timeline::TrackBindingTypeAttribute*>* value);
 
@@ -1150,7 +1153,7 @@ public:
   ::System::Nullable_1<bool> ___m_SupportsNotifications;
 
   /// @brief Field m_ChildTrackCache, offset: 0x78, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* ___m_ChildTrackCache;
+  ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* ___m_ChildTrackCache;
 
   /// @brief Field m_Clips, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* ___m_Clips;

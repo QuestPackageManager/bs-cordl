@@ -234,7 +234,7 @@ public:
   static inline void DestroySprite(::UnityEngine::Sprite* sprite);
 
   /// @brief Method DestroySpriteTask, addr 0x3c23900, size 0x98, virtual false, abstract: false, final false
-  inline void DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* spriteTask);
+  inline void DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask);
 
   /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x3c23998, size 0x10, virtual false, abstract: false, final false
   inline void HandleItemWillBeRemovedFromCache(::StringW path, ::StringW _);
@@ -243,11 +243,11 @@ public:
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path);
 
   static inline ::GlobalNamespace::SpriteAsyncLoader*
-  New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* loadFunc,
-           ::System::Action_1<::UnityEngine::Sprite*>* destroyFunc, int32_t cacheSize);
+  New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
+           ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
 
   /// @brief Method UnloadSprite, addr 0x3c234fc, size 0xa4, virtual false, abstract: false, final false
-  inline void UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* cache, ::StringW path);
+  inline void UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache, ::StringW path);
 
   /// @brief Method UnloadSprite, addr 0x3c234ec, size 0x10, virtual false, abstract: false, final false
   inline void UnloadSprite(::StringW path);
@@ -277,8 +277,8 @@ public:
   constexpr void __cordl_internal_set__referenceCountingCache(::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* value);
 
   /// @brief Method .ctor, addr 0x3c23228, size 0x158, virtual false, abstract: false, final false
-  inline void _ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* loadFunc,
-                    ::System::Action_1<::UnityEngine::Sprite*>* destroyFunc, int32_t cacheSize);
+  inline void _ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
+                    ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
 
 protected:
   // Ctor Parameters []

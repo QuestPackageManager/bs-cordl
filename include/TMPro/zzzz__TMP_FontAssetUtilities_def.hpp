@@ -62,8 +62,8 @@ public:
 
   /// @brief Method GetCharacterFromFontAssets, addr 0x47d4454, size 0x25c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Character* GetCharacterFromFontAssets(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset,
-                                                                   ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fontAssets, bool includeFallbacks, ::TMPro::FontStyles fontStyle,
-                                                                   ::TMPro::FontWeight fontWeight, ::ByRef<bool> isAlternativeTypeface);
+                                                                   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets, bool includeFallbacks,
+                                                                   ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight, ::ByRef<bool> isAlternativeTypeface);
 
   /// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x47d46b0, size 0x308, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, bool includeFallbacks);

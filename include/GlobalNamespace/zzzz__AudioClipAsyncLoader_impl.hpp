@@ -375,7 +375,7 @@ constexpr ::GlobalNamespace::AudioClipAsyncLoader__Unload_d__18::AudioClipAsyncL
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(
-    ::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>*, ::GlobalNamespace::IMediaAsyncLoader*)>(
+    ::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>*, ::GlobalNamespace::IMediaAsyncLoader*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x3c20298;
@@ -383,9 +383,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipAsyncLoader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMediaAsyncLoader*>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                ::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMediaAsyncLoader*>::get() })));
     return ___internal_method;
   }
 };
@@ -600,7 +600,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::AudioClipAsyncLoader.Unload
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(int32_t, ::System::Action_1<::UnityEngine::AudioClip*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(int32_t, ::System::Action_1<::UnityW<::UnityEngine::AudioClip>>*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::Unload)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x3c20f1c;
@@ -609,7 +609,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipAsyncLoader*>::get(), "Unload", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::AudioClip*>*>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::AudioClip>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -684,12 +684,12 @@ constexpr void GlobalNamespace::AudioClipAsyncLoader::__cordl_internal_set__medi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mediaAsyncLoader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::AudioClipAsyncLoader::_ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>* cache,
+inline void GlobalNamespace::AudioClipAsyncLoader::_ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>* cache,
                                                          ::GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipAsyncLoader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMediaAsyncLoader*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cache, mediaAsyncLoader);
 }
@@ -778,11 +778,11 @@ inline void GlobalNamespace::AudioClipAsyncLoader::Unload(::StringW audioClipFil
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioClipFilePath);
 }
-inline void GlobalNamespace::AudioClipAsyncLoader::Unload(int32_t cacheKey, ::System::Action_1<::UnityEngine::AudioClip*>* onDelete) {
+inline void GlobalNamespace::AudioClipAsyncLoader::Unload(int32_t cacheKey, ::System::Action_1<::UnityW<::UnityEngine::AudioClip>>* onDelete) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipAsyncLoader*>::get(), "Unload", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::AudioClip*>*>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::AudioClip>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cacheKey, onDelete);
 }
 inline int32_t GlobalNamespace::AudioClipAsyncLoader::GetCacheKey(::UnityEngine::AudioClip* audioClip) {
@@ -804,7 +804,7 @@ inline void GlobalNamespace::AudioClipAsyncLoader::LogError(::StringW message) {
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
 inline ::GlobalNamespace::AudioClipAsyncLoader*
-GlobalNamespace::AudioClipAsyncLoader::New_ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>* cache,
+GlobalNamespace::AudioClipAsyncLoader::New_ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>* cache,
                                                 ::GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioClipAsyncLoader*>(cache, mediaAsyncLoader));
 }

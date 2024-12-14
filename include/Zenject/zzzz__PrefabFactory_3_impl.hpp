@@ -56,14 +56,14 @@ template <typename P1, typename P2, typename T> inline ::Zenject::InjectTypeInfo
 template <typename P1, typename P2, typename T> inline ::Zenject::PrefabFactory_3<P1, P2, T>* Zenject::PrefabFactory_3<P1, P2, T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabFactory_3<P1, P2, T>*>());
 }
-/// @brief Convert operator to "::Zenject::IFactory_4<::UnityEngine::Object*,P1,P2,T>"
-template <typename P1, typename P2, typename T> constexpr Zenject::PrefabFactory_3<P1, P2, T>::operator ::Zenject::IFactory_4<::UnityEngine::Object*, P1, P2, T>*() noexcept {
-  return static_cast<::Zenject::IFactory_4<::UnityEngine::Object*, P1, P2, T>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>,P1,P2,T>"
+template <typename P1, typename P2, typename T> constexpr Zenject::PrefabFactory_3<P1, P2, T>::operator ::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>, P1, P2, T>*() noexcept {
+  return static_cast<::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>, P1, P2, T>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::Zenject::IFactory_4<::UnityEngine::Object*,P1,P2,T>"
+/// @brief Convert to "::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>,P1,P2,T>"
 template <typename P1, typename P2, typename T>
-constexpr ::Zenject::IFactory_4<::UnityEngine::Object*, P1, P2, T>* Zenject::PrefabFactory_3<P1, P2, T>::i___Zenject__IFactory_4___UnityEngine__Object__P1_P2_T_() noexcept {
-  return static_cast<::Zenject::IFactory_4<::UnityEngine::Object*, P1, P2, T>*>(static_cast<void*>(this));
+constexpr ::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>, P1, P2, T>* Zenject::PrefabFactory_3<P1, P2, T>::i___Zenject__IFactory_4___UnityW___UnityEngine__Object__P1_P2_T_() noexcept {
+  return static_cast<::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>, P1, P2, T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename P1, typename P2, typename T> constexpr Zenject::PrefabFactory_3<P1, P2, T>::operator ::Zenject::IFactory*() noexcept {

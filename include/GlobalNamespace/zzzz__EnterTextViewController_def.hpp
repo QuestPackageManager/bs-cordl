@@ -41,7 +41,8 @@ public:
   __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* didFinishEvent;
 
   /// @brief Method DidActivate, addr 0x3c12ce8, size 0xe0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -66,9 +67,9 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
 
-  constexpr ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -76,16 +77,16 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
   /// @brief Method .ctor, addr 0x3c12e60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3c12b64, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3c12c14, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -114,7 +115,7 @@ public:
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
   /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,31 +21,31 @@
 //  Writing Method size for method: ::GlobalNamespace::BTSCharacterSpawnEventEffect.add_startCharacterAnimationEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)(::System::Action_1<::GlobalNamespace::BTSCharacter*>*)>(
-    &::GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*)>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2260e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnEventEffect*>::get(), "add_startCharacterAnimationEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BTSCharacter*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BTSCharacterSpawnEventEffect.remove_startCharacterAnimationEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)(::System::Action_1<::GlobalNamespace::BTSCharacter*>*)>(
-    &::GlobalNamespace::BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*)>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2261314;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnEventEffect*>::get(), "remove_startCharacterAnimationEvent",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BTSCharacter*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnEventEffect*>::get(), "remove_startCharacterAnimationEvent",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -138,18 +138,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Tuple_2<
-    ::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>* (*)(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>*,
-                                                                                            ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>*, int32_t, int32_t)>(
-    &::GlobalNamespace::BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip)> {
+    ::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>* (*)(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*,
+                                                                                            ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*, int32_t,
+                                                                                            int32_t)>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x226238c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnEventEffect*>::get(), "GetCharacterWithAnimationClip", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -347,16 +348,16 @@ constexpr void GlobalNamespace::BTSCharacterSpawnEventEffect::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____asyncOperationHandles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value) {
+inline void GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnEventEffect*>::get(), "add_startCharacterAnimationEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BTSCharacter*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value) {
+inline void GlobalNamespace::BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnEventEffect*>::get(), "remove_startCharacterAnimationEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BTSCharacter*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::BTSCharacterSpawnEventEffect::get_isInitialized() {
@@ -391,14 +392,15 @@ inline void GlobalNamespace::BTSCharacterSpawnEventEffect::HandleBeatmapEvent(::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicBeatmapEventData);
 }
 inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
-GlobalNamespace::BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>* charDictionary,
-                                                                             ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>* animDictionary, int32_t prefabId,
-                                                                             int32_t animationId) {
+GlobalNamespace::BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
+                                                                             ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary,
+                                                                             int32_t prefabId, int32_t animationId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterSpawnEventEffect*>::get(), "GetCharacterWithAnimationClip", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*, false>(nullptr, ___internal_method, charDictionary,
                                                                                                                                                            animDictionary, prefabId, animationId);
 }

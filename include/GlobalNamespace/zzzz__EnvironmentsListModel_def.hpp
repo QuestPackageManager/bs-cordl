@@ -211,7 +211,7 @@ public:
   /// @brief Method GetLastEnvironmentInfoWithType, addr 0x26ae3cc, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
-  static inline ::GlobalNamespace::EnvironmentsListModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::EnvironmentInfoSO*>* envInfoSOs);
+  static inline ::GlobalNamespace::EnvironmentsListModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const& __cordl_internal_get__envInfoMap() const;
 
@@ -238,7 +238,7 @@ public:
   constexpr void __cordl_internal_set__normalEnvironmentSerializedNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   /// @brief Method .ctor, addr 0x26ad984, size 0x4a0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::EnvironmentInfoSO*>* envInfoSOs);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs);
 
   /// @brief Method get_environmentInfos, addr 0x26ad96c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();

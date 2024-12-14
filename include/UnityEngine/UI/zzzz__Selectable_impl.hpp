@@ -55,7 +55,7 @@ constexpr ::UnityEngine::UI::Selectable_SelectionState UnityEngine::UI::Selectab
 //  Writing Method size for method: ::UnityEngine::UI::Selectable.get_allSelectablesArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> (*)()>(
     &::UnityEngine::UI::Selectable::get_allSelectablesArray)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x4ac6568;
@@ -82,7 +82,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::Selectable.get_allSelectables
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UI::Selectable*>* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>* (*)()>(
     &::UnityEngine::UI::Selectable::get_allSelectables)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x4ac665c;
@@ -625,7 +625,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectable
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Selectable* (::UnityEngine::UI::Selectable::*)(::UnityEngine::Vector3)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UI::Selectable::FindSelectable)> {
   constexpr static std::size_t size = 0x4b4;
   constexpr static std::size_t addrs = 0x4ac777c;
@@ -672,7 +672,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectableOnLeft
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Selectable* (::UnityEngine::UI::Selectable::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::FindSelectableOnLeft)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x4ac2640;
@@ -687,7 +687,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectableOnRight
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Selectable* (::UnityEngine::UI::Selectable::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::FindSelectableOnRight)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x4ac273c;
@@ -702,7 +702,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectableOnUp
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Selectable* (::UnityEngine::UI::Selectable::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::FindSelectableOnUp)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x4ac2838;
@@ -717,7 +717,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::Selectable.FindSelectableOnDown
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Selectable* (::UnityEngine::UI::Selectable::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Selectable::*)()>(
     &::UnityEngine::UI::Selectable::FindSelectableOnDown)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x4ac2934;
@@ -1099,13 +1099,13 @@ constexpr void UnityEngine::UI::Selectable::__cordl_internal_set_m_CanvasGroupCa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CanvasGroupCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::UI::Selectable::setStaticF_s_Selectables(::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*>, "s_Selectables",
+inline void UnityEngine::UI::Selectable::setStaticF_s_Selectables(::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*>, "s_Selectables",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get>(
-      std::forward<::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*>>(value));
+      std::forward<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*>>(value));
 }
-inline ::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> UnityEngine::UI::Selectable::getStaticF_s_Selectables() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*>, "s_Selectables",
+inline ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> UnityEngine::UI::Selectable::getStaticF_s_Selectables() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*>, "s_Selectables",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get>();
 }
 inline void UnityEngine::UI::Selectable::setStaticF_s_SelectableCount(int32_t value) {
@@ -1114,20 +1114,20 @@ inline void UnityEngine::UI::Selectable::setStaticF_s_SelectableCount(int32_t va
 inline int32_t UnityEngine::UI::Selectable::getStaticF_s_SelectableCount() {
   return ::cordl_internals::getStaticField<int32_t, "s_SelectableCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get>();
 }
-inline ::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> UnityEngine::UI::Selectable::get_allSelectablesArray() {
+inline ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> UnityEngine::UI::Selectable::get_allSelectablesArray() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_allSelectablesArray",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*>, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*>, false>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::UI::Selectable::get_allSelectableCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_allSelectableCount",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Selectable*>* UnityEngine::UI::Selectable::get_allSelectables() {
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>* UnityEngine::UI::Selectable::get_allSelectables() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "get_allSelectables",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UI::Selectable*>*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>*, false>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::UI::Selectable::AllSelectablesNoAlloc(::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> selectables) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1332,11 +1332,11 @@ inline void UnityEngine::UI::Selectable::DoStateTransition(::UnityEngine::UI::Se
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, instant);
 }
-inline ::UnityEngine::UI::Selectable* UnityEngine::UI::Selectable::FindSelectable(::UnityEngine::Vector3 dir) {
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectable(::UnityEngine::Vector3 dir) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), "FindSelectable", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Selectable*, false>(this, ___internal_method, dir);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>, false>(this, ___internal_method, dir);
 }
 inline ::UnityEngine::Vector3 UnityEngine::UI::Selectable::GetPointOnRectEdge(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 dir) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1352,25 +1352,25 @@ inline void UnityEngine::UI::Selectable::Navigate(::UnityEngine::EventSystems::A
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::Selectable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData, sel);
 }
-inline ::UnityEngine::UI::Selectable* UnityEngine::UI::Selectable::FindSelectableOnLeft() {
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectableOnLeft() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), 27)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Selectable*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UI::Selectable* UnityEngine::UI::Selectable::FindSelectableOnRight() {
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectableOnRight() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), 28)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Selectable*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UI::Selectable* UnityEngine::UI::Selectable::FindSelectableOnUp() {
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectableOnUp() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), 29)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Selectable*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UI::Selectable* UnityEngine::UI::Selectable::FindSelectableOnDown() {
+inline ::UnityW<::UnityEngine::UI::Selectable> UnityEngine::UI::Selectable::FindSelectableOnDown() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Selectable*>::get(), 30)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Selectable*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Selectable>, false>(this, ___internal_method);
 }
 inline void UnityEngine::UI::Selectable::OnMove(::UnityEngine::EventSystems::AxisEventData* eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

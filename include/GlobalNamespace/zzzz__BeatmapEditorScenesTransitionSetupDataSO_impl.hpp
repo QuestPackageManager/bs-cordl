@@ -7,14 +7,15 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)(
-    ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*)>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::add_didFinishEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*)>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b3a09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -22,14 +23,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)(
-    ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*)>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::remove_didFinishEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*)>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b3a14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -108,16 +110,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*& GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::__cordl_internal_get_didFinishEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*& GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* const&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* const&
 GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr void GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::__cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value) {
+constexpr void
+GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::__cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -133,16 +136,16 @@ constexpr void GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____goStraightToEditor_k__BackingField = value;
 }
-inline void GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::add_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value) {
+inline void GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value) {
+inline void GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::get_goStraightToEditor() {

@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::GlobalNamespace::ColorSchemeSO*>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x2712e84;
@@ -155,7 +155,7 @@ inline ::StringW Environments::Definitions::ColorSchemesAsyncInstaller::get_asse
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void Environments::Definitions::ColorSchemesAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::GlobalNamespace::ColorSchemeSO*>* colorSchemes,
+inline void Environments::Definitions::ColorSchemesAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemes,
                                                                                               ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

@@ -56,14 +56,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(
-    ::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>*)>(&::GlobalNamespace::SliderInteractionManager::add_sliderWasAddedToActiveSlidersEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*)>(&::GlobalNamespace::SliderInteractionManager::add_sliderWasAddedToActiveSlidersEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b755e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "add_sliderWasAddedToActiveSlidersEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(
-    ::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>*)>(&::GlobalNamespace::SliderInteractionManager::remove_sliderWasAddedToActiveSlidersEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*)>(&::GlobalNamespace::SliderInteractionManager::remove_sliderWasAddedToActiveSlidersEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b75828;
 
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "remove_sliderWasAddedToActiveSlidersEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(
-    ::System::Action_1<::GlobalNamespace::SliderInteractionManager*>*)>(&::GlobalNamespace::SliderInteractionManager::add_allSliderWereRemovedFromActiveSlidersEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*)>(&::GlobalNamespace::SliderInteractionManager::add_allSliderWereRemovedFromActiveSlidersEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b75694;
 
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "add_allSliderWereRemovedFromActiveSlidersEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SliderInteractionManager*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -103,7 +103,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(
-    ::System::Action_1<::GlobalNamespace::SliderInteractionManager*>*)>(&::GlobalNamespace::SliderInteractionManager::remove_allSliderWereRemovedFromActiveSlidersEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*)>(&::GlobalNamespace::SliderInteractionManager::remove_allSliderWereRemovedFromActiveSlidersEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b758d8;
 
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "remove_allSliderWereRemovedFromActiveSlidersEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SliderInteractionManager*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -263,27 +263,31 @@ constexpr void GlobalNamespace::SliderInteractionManager::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____saberInteractionParam_k__BackingField = value;
 }
-constexpr ::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>*& GlobalNamespace::SliderInteractionManager::__cordl_internal_get_sliderWasAddedToActiveSlidersEvent() {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*& GlobalNamespace::SliderInteractionManager::__cordl_internal_get_sliderWasAddedToActiveSlidersEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliderWasAddedToActiveSlidersEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>* const& GlobalNamespace::SliderInteractionManager::__cordl_internal_get_sliderWasAddedToActiveSlidersEvent() const {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>* const&
+GlobalNamespace::SliderInteractionManager::__cordl_internal_get_sliderWasAddedToActiveSlidersEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliderWasAddedToActiveSlidersEvent;
 }
-constexpr void GlobalNamespace::SliderInteractionManager::__cordl_internal_set_sliderWasAddedToActiveSlidersEvent(::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>* value) {
+constexpr void
+GlobalNamespace::SliderInteractionManager::__cordl_internal_set_sliderWasAddedToActiveSlidersEvent(::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sliderWasAddedToActiveSlidersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::SliderInteractionManager*>*& GlobalNamespace::SliderInteractionManager::__cordl_internal_get_allSliderWereRemovedFromActiveSlidersEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*& GlobalNamespace::SliderInteractionManager::__cordl_internal_get_allSliderWereRemovedFromActiveSlidersEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allSliderWereRemovedFromActiveSlidersEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::SliderInteractionManager*>* const& GlobalNamespace::SliderInteractionManager::__cordl_internal_get_allSliderWereRemovedFromActiveSlidersEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* const&
+GlobalNamespace::SliderInteractionManager::__cordl_internal_get_allSliderWereRemovedFromActiveSlidersEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allSliderWereRemovedFromActiveSlidersEvent;
 }
-constexpr void GlobalNamespace::SliderInteractionManager::__cordl_internal_set_allSliderWereRemovedFromActiveSlidersEvent(::System::Action_1<::GlobalNamespace::SliderInteractionManager*>* value) {
+constexpr void
+GlobalNamespace::SliderInteractionManager::__cordl_internal_set_allSliderWereRemovedFromActiveSlidersEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___allSliderWereRemovedFromActiveSlidersEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -316,31 +320,31 @@ inline void GlobalNamespace::SliderInteractionManager::set_saberInteractionParam
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SliderInteractionManager::add_sliderWasAddedToActiveSlidersEvent(::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>* value) {
+inline void GlobalNamespace::SliderInteractionManager::add_sliderWasAddedToActiveSlidersEvent(::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "add_sliderWasAddedToActiveSlidersEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SliderInteractionManager::remove_sliderWasAddedToActiveSlidersEvent(::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>* value) {
+inline void GlobalNamespace::SliderInteractionManager::remove_sliderWasAddedToActiveSlidersEvent(::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "remove_sliderWasAddedToActiveSlidersEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::SliderInteractionManager*, float_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SliderInteractionManager::add_allSliderWereRemovedFromActiveSlidersEvent(::System::Action_1<::GlobalNamespace::SliderInteractionManager*>* value) {
+inline void GlobalNamespace::SliderInteractionManager::add_allSliderWereRemovedFromActiveSlidersEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "add_allSliderWereRemovedFromActiveSlidersEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SliderInteractionManager*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SliderInteractionManager::remove_allSliderWereRemovedFromActiveSlidersEvent(::System::Action_1<::GlobalNamespace::SliderInteractionManager*>* value) {
+inline void GlobalNamespace::SliderInteractionManager::remove_allSliderWereRemovedFromActiveSlidersEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "remove_allSliderWereRemovedFromActiveSlidersEvent",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SliderInteractionManager*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::SliderInteractionManager::Start() {

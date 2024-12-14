@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> (::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c::*)(
-        ::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*)>(
+        ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*)>(
         &::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c::__ctor_b__11_4)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x22824c4;
@@ -285,8 +285,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c*>::get(), "<.ctor>b__11_4",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::IGrouping_2<
+            ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::ArrayW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*> (
         ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c::*)(
-        ::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*)>(
+        ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*)>(
     &::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c::__ctor_b__11_5)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x2282560;
@@ -305,8 +305,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c*>::get(), "<.ctor>b__11_5",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::IGrouping_2<
+            ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -551,22 +551,22 @@ BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c::__
   return ::cordl_internals::RunMethodRethrow<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, false>(this, ___internal_method, trackInfo);
 }
 inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c::__ctor_b__11_4(
-    ::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group) {
+    ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c*>::get(), "<.ctor>b__11_4",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>::get() })));
+          ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, false>(this, ___internal_method, group);
 }
 inline ::ArrayW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>
 BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c::__ctor_b__11_5(
-    ::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group) {
+    ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel___c*>::get(), "<.ctor>b__11_5",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>::get() })));
+          ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<
       ::ArrayW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>, false>(
       this, ___internal_method, group);

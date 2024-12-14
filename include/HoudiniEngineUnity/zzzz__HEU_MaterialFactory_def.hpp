@@ -56,22 +56,22 @@ public:
   /// @brief Method CreateHoudiniMaterialData, addr 0x3a58338, size 0x1dc, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> CreateHoudiniMaterialData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t materialID, int32_t geoID,
                                                                                            int32_t partID,
-                                                                                           ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache,
+                                                                                           ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache,
                                                                                            ::StringW assetCacheFolderPath);
 
   /// @brief Method CreateMaterialInCache, addr 0x3a57ed4, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> CreateMaterialInCache(int32_t materialKey, ::StringW materialName, ::HoudiniEngineUnity::HEU_MaterialData_Source sourceType,
                                                                                        bool bWriteToFile,
-                                                                                       ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache,
+                                                                                       ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache,
                                                                                        ::StringW assetCacheFolderPath);
 
   /// @brief Method CreateNewHoudiniStandardMaterial, addr 0x3a568bc, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CreateNewHoudiniStandardMaterial(::StringW assetCacheFolderPath, ::StringW materialName, bool bWriteToFile);
 
   /// @brief Method CreateUnitySubstanceMaterialData, addr 0x3a57b60, size 0x374, virtual false, abstract: false, final false
-  static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> CreateUnitySubstanceMaterialData(int32_t materialKey, ::StringW materialPath, ::StringW substanceName, int32_t substanceIndex,
-                                                                                                  ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache,
-                                                                                                  ::StringW assetCacheFolderPath);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>
+  CreateUnitySubstanceMaterialData(int32_t materialKey, ::StringW materialPath, ::StringW substanceName, int32_t substanceIndex,
+                                   ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache, ::StringW assetCacheFolderPath);
 
   /// @brief Method DeleteAssetMaterial, addr 0x3a56aac, size 0x8, virtual false, abstract: false, final false
   static inline void DeleteAssetMaterial(::UnityEngine::Material* material);
@@ -111,19 +111,19 @@ public:
 
   /// @brief Method GetMaterialDataFromCache, addr 0x3a581e0, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> GetMaterialDataFromCache(int32_t materialKey,
-                                                                                          ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache);
+                                                                                          ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache);
 
   /// @brief Method GetMaterialDataMapFromCache, addr 0x3a5871c, size 0x260, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*
-  GetMaterialDataMapFromCache(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache);
+  GetMaterialDataMapFromCache(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache);
 
   /// @brief Method GetNewMaterialWithShader, addr 0x3a56690, size 0x22c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetNewMaterialWithShader(::StringW assetCacheFolderPath, ::StringW shaderName, ::StringW materialName, bool bWriteToFile);
 
   /// @brief Method GetOrCreateDefaultMaterialInCache, addr 0x3a58038, size 0xec, virtual false, abstract: false, final false
-  static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> GetOrCreateDefaultMaterialInCache(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, bool bWriteToFile,
-                                                                                                   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache,
-                                                                                                   ::StringW assetCacheFolderPath);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>
+  GetOrCreateDefaultMaterialInCache(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, bool bWriteToFile,
+                                    ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache, ::StringW assetCacheFolderPath);
 
   /// @brief Method GetUnitySubstanceMaterialKey, addr 0x3a57798, size 0x118, virtual false, abstract: false, final false
   static inline int32_t GetUnitySubstanceMaterialKey(::StringW unityMaterialPath, ::StringW substanceName, int32_t substanceIndex);

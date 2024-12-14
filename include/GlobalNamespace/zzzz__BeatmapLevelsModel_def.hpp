@@ -441,11 +441,11 @@ public:
   /// @brief Field include, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_include, put = __cordl_internal_set_include)) ::GlobalNamespace::PackDefinitionSO_Tags include;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -542,11 +542,13 @@ public:
   /// @brief Method .ctor, addr 0x26c9f48, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__PackDefinitionSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PackDefinitionSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PackDefinitionSO*>* i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__PackDefinitionSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PackDefinitionSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -727,7 +729,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelsModel* New_ctor(::GlobalNamespace::BeatmapLevelsEntitlementModel* entitlementChecker, ::GlobalNamespace::IBeatmapLevelLoader* beatmapLevelLoader,
                                                                 ::GlobalNamespace::IPlayerDataModel* playerDataModel, ::BGLib::Polyglot::LocalizationModel* localizationModel,
-                                                                ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+                                                                ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method ReloadAllBeatmapLevelPacks, addr 0x26c9f7c, size 0x4, virtual false, abstract: false, final false
   inline void ReloadAllBeatmapLevelPacks();
@@ -811,7 +813,7 @@ public:
   /// @brief Method .ctor, addr 0x26c92f4, size 0x2ec, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsEntitlementModel* entitlementChecker, ::GlobalNamespace::IBeatmapLevelLoader* beatmapLevelLoader,
                     ::GlobalNamespace::IPlayerDataModel* playerDataModel, ::BGLib::Polyglot::LocalizationModel* localizationModel,
-                    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+                    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method add_newPackWasCreatedFromDefinitionEvent, addr 0x26c9194, size 0xb0, virtual false, abstract: false, final false
   inline void add_newPackWasCreatedFromDefinitionEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>* value);

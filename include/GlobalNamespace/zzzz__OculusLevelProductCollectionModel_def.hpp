@@ -499,7 +499,8 @@ public:
   /// @brief Method InsertAdditionalSkuIfValid, addr 0x26e5724, size 0xc4, virtual false, abstract: false, final false
   inline void InsertAdditionalSkuIfValid(::StringW levelId, ::StringW additionalSku, ::GlobalNamespace::BeatmapLevelDataVersion additionalSkuType);
 
-  static inline ::GlobalNamespace::OculusLevelProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>* levelProductPacksSOs);
+  static inline ::GlobalNamespace::OculusLevelProductCollectionModel*
+  New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* levelProductPacksSOs);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& __cordl_internal_get__assetFileToSku() const;
 
@@ -530,7 +531,7 @@ public:
   __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*>* value);
 
   /// @brief Method .ctor, addr 0x26e4c54, size 0xad0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>* levelProductPacksSOs);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* levelProductPacksSOs);
 
 protected:
   // Ctor Parameters []

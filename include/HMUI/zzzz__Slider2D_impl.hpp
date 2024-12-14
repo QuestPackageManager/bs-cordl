@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::Slider2D.add_normalizedValueDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Slider2D::*)(::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Slider2D::*)(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*)>(
     &::HMUI::Slider2D::add_normalizedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x39f2610;
@@ -97,14 +97,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Slider2D*>::get(), "add_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::Slider2D.remove_normalizedValueDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Slider2D::*)(::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Slider2D::*)(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*)>(
     &::HMUI::Slider2D::remove_normalizedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x39f26c4;
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Slider2D*>::get(), "remove_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*>::get() })));
     return ___internal_method;
   }
 };
@@ -422,15 +422,15 @@ constexpr void HMUI::Slider2D::__cordl_internal_set__normalizedValue(::UnityEngi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalizedValue = value;
 }
-constexpr ::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>*& HMUI::Slider2D::__cordl_internal_get_normalizedValueDidChangeEvent() {
+constexpr ::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*& HMUI::Slider2D::__cordl_internal_get_normalizedValueDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normalizedValueDidChangeEvent;
 }
-constexpr ::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>* const& HMUI::Slider2D::__cordl_internal_get_normalizedValueDidChangeEvent() const {
+constexpr ::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>* const& HMUI::Slider2D::__cordl_internal_get_normalizedValueDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normalizedValueDidChangeEvent;
 }
-constexpr void HMUI::Slider2D::__cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>* value) {
+constexpr void HMUI::Slider2D::__cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___normalizedValueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -498,16 +498,16 @@ inline void HMUI::Slider2D::set_normalizedValue(::UnityEngine::Vector2 value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::Slider2D::add_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Slider2D*>::get(), "add_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>*>::get() })));
+inline void HMUI::Slider2D::add_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Slider2D*>::get(), "add_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::Slider2D::remove_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Slider2D*>::get(), "remove_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::Slider2D*, ::UnityEngine::Vector2>*>::get() })));
+inline void HMUI::Slider2D::remove_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Slider2D*>::get(), "remove_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void HMUI::Slider2D::Rebuild(::UnityEngine::UI::CanvasUpdate executing) {

@@ -433,6 +433,22 @@ constexpr ::GlobalNamespace::OVRVirtualKeyboard_InputSource GlobalNamespace::OVR
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_InputSource GlobalNamespace::OVRVirtualKeyboard_InputSource::ControllerRight{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_InputSource GlobalNamespace::OVRVirtualKeyboard_InputSource::HandLeft{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRVirtualKeyboard_InputSource GlobalNamespace::OVRVirtualKeyboard_InputSource::HandRight{ static_cast<int32_t>(0x3) };
+//  Writing Method size for method: ::GlobalNamespace::OVRVirtualKeyboard_IInputSource.Update
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboard_IInputSource::*)()>(
+    &::GlobalNamespace::OVRVirtualKeyboard_IInputSource::Update)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard_IInputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard_IInputSource*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline void GlobalNamespace::OVRVirtualKeyboard_IInputSource::Update() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard_IInputSource*>::get(), 0)));
@@ -478,6 +494,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard_BaseInputSource*>::get(),
                                                                                "Update", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRVirtualKeyboard_BaseInputSource.UpdateInput
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboard_BaseInputSource::*)()>(
+    &::GlobalNamespace::OVRVirtualKeyboard_BaseInputSource::UpdateInput)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard_BaseInputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard_BaseInputSource*>::get(), 6));
     return ___internal_method;
   }
 };
@@ -2142,12 +2174,13 @@ constexpr void GlobalNamespace::OVRVirtualKeyboard::__cordl_internal_set_runtime
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___runtimeInputField_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVRVirtualKeyboard::setStaticF_singleton_(::GlobalNamespace::OVRVirtualKeyboard* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::OVRVirtualKeyboard*, "singleton_", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard*>::get>(
-      std::forward<::GlobalNamespace::OVRVirtualKeyboard*>(value));
+inline void GlobalNamespace::OVRVirtualKeyboard::setStaticF_singleton_(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value) {
+  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::OVRVirtualKeyboard>, "singleton_", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard*>::get>(
+      std::forward<::UnityW<::GlobalNamespace::OVRVirtualKeyboard>>(value));
 }
-inline ::GlobalNamespace::OVRVirtualKeyboard* GlobalNamespace::OVRVirtualKeyboard::getStaticF_singleton_() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::OVRVirtualKeyboard*, "singleton_", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard*>::get>();
+inline ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> GlobalNamespace::OVRVirtualKeyboard::getStaticF_singleton_() {
+  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::OVRVirtualKeyboard>, "singleton_",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboard*>::get>();
 }
 inline void GlobalNamespace::OVRVirtualKeyboard::add_CommitText(::System::Action_1<::StringW>* value) {
   static auto* ___internal_method = THROW_UNLESS(

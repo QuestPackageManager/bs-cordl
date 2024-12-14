@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Shader.Find
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Shader* (*)(::StringW)>(&::UnityEngine::Shader::Find)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)(::StringW)>(&::UnityEngine::Shader::Find)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x4879e84;
 
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Shader.FindBuiltin
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Shader* (*)(::StringW)>(&::UnityEngine::Shader::FindBuiltin)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)(::StringW)>(&::UnityEngine::Shader::FindBuiltin)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x4879ef0;
 
@@ -505,7 +505,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Shader.GetDependency
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Shader* (::UnityEngine::Shader::*)(::StringW)>(&::UnityEngine::Shader::GetDependency)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Shader::*)(::StringW)>(&::UnityEngine::Shader::GetDependency)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x487a654;
 
@@ -2659,17 +2659,17 @@ inline void UnityEngine::Shader::set_globalShaderHardwareTier(::UnityEngine::Ren
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ShaderHardwareTier>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline ::UnityEngine::Shader* UnityEngine::Shader::Find(::StringW name) {
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Shader::Find(::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Shader*>::get(), "Find", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Shader*, false>(nullptr, ___internal_method, name);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(nullptr, ___internal_method, name);
 }
-inline ::UnityEngine::Shader* UnityEngine::Shader::FindBuiltin(::StringW name) {
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Shader::FindBuiltin(::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Shader*>::get(), "FindBuiltin", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Shader*, false>(nullptr, ___internal_method, name);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(nullptr, ___internal_method, name);
 }
 inline int32_t UnityEngine::Shader::get_maximumChunksOverride() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Shader*>::get(), "get_maximumChunksOverride",
@@ -2846,11 +2846,11 @@ inline int32_t UnityEngine::Shader::PropertyToID(::StringW name) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, name);
 }
-inline ::UnityEngine::Shader* UnityEngine::Shader::GetDependency(::StringW name) {
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::Shader::GetDependency(::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Shader*>::get(), "GetDependency", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Shader*, false>(this, ___internal_method, name);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method, name);
 }
 inline int32_t UnityEngine::Shader::get_passCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Shader*>::get(), "get_passCount",

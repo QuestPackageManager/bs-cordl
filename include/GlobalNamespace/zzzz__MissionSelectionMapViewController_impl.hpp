@@ -168,36 +168,36 @@ constexpr ::GlobalNamespace::MissionSelectionMapViewController__SongPlayerCrossf
 //  Writing Method size for method: ::GlobalNamespace::MissionSelectionMapViewController.add_didSelectMissionLevelEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>*)>(
-        &::GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*)>(
+    &::GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c192e4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(), "add_didSelectMissionLevelEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(), "add_didSelectMissionLevelEvent",
+                                                 std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MissionSelectionMapViewController.remove_didSelectMissionLevelEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>*)>(
-        &::GlobalNamespace::MissionSelectionMapViewController::remove_didSelectMissionLevelEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionSelectionMapViewController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*)>(
+    &::GlobalNamespace::MissionSelectionMapViewController::remove_didSelectMissionLevelEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c19394;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(), "remove_didSelectMissionLevelEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(),
+                                                 "remove_didSelectMissionLevelEvent", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -405,18 +405,18 @@ constexpr void GlobalNamespace::MissionSelectionMapViewController::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::UnityW<::GlobalNamespace::MissionNode>>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*&
 GlobalNamespace::MissionSelectionMapViewController::__cordl_internal_get_didSelectMissionLevelEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectMissionLevelEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::UnityW<::GlobalNamespace::MissionNode>>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* const&
 GlobalNamespace::MissionSelectionMapViewController::__cordl_internal_get_didSelectMissionLevelEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectMissionLevelEvent;
 }
 constexpr void GlobalNamespace::MissionSelectionMapViewController::__cordl_internal_set_didSelectMissionLevelEvent(
-    ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::UnityW<::GlobalNamespace::MissionNode>>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectMissionLevelEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -432,21 +432,21 @@ constexpr void GlobalNamespace::MissionSelectionMapViewController::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____selectedMissionNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void
-GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value) {
+inline void GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent(
+    ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(), "add_didSelectMissionLevelEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::MissionSelectionMapViewController::remove_didSelectMissionLevelEvent(
-    ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(), "remove_didSelectMissionLevelEvent",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>*>::get() })));
+    ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionSelectionMapViewController*>::get(),
+                                               "remove_didSelectMissionLevelEvent", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                   ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::MissionSelectionMapViewController::get_animatedUpdateIsRequired() {

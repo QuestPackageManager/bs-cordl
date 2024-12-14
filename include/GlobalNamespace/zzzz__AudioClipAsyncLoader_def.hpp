@@ -439,7 +439,7 @@ public:
   /// @brief Method LogError, addr 0x3c20fc4, size 0x58, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
-  static inline ::GlobalNamespace::AudioClipAsyncLoader* New_ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>* cache,
+  static inline ::GlobalNamespace::AudioClipAsyncLoader* New_ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>* cache,
                                                                   ::GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader);
 
   /// @brief Method Unload, addr 0x3c208c4, size 0x108, virtual false, abstract: false, final false
@@ -449,7 +449,7 @@ public:
   inline void Unload(::StringW audioClipFilePath);
 
   /// @brief Method Unload, addr 0x3c20f1c, size 0xa8, virtual false, abstract: false, final false
-  inline void Unload(int32_t cacheKey, ::System::Action_1<::UnityEngine::AudioClip*>* onDelete);
+  inline void Unload(int32_t cacheKey, ::System::Action_1<::UnityW<::UnityEngine::AudioClip>>* onDelete);
 
   /// @brief Method Unload, addr 0x3c209cc, size 0xac, virtual false, abstract: false, final false
   inline void Unload(::GlobalNamespace::IAssetSongAudioClipProvider* source);
@@ -476,7 +476,7 @@ public:
   constexpr void __cordl_internal_set__mediaAsyncLoader(::GlobalNamespace::IMediaAsyncLoader* value);
 
   /// @brief Method .ctor, addr 0x3c20298, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*>* cache,
+  inline void _ctor(::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>* cache,
                     ::GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader);
 
 protected:

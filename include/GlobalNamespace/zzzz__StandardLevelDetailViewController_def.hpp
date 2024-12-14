@@ -658,30 +658,31 @@ public:
 
   /// @brief Field didChangeContentEvent, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeContentEvent,
-                      put = __cordl_internal_set_didChangeContentEvent)) ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*,
+                      put = __cordl_internal_set_didChangeContentEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>,
                                                                                             ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* didChangeContentEvent;
 
   /// @brief Field didChangeDifficultyBeatmapEvent, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeDifficultyBeatmapEvent,
-                      put = __cordl_internal_set_didChangeDifficultyBeatmapEvent)) ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* didChangeDifficultyBeatmapEvent;
+                      put = __cordl_internal_set_didChangeDifficultyBeatmapEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* didChangeDifficultyBeatmapEvent;
 
   /// @brief Field didPressActionButtonEvent, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressActionButtonEvent,
-                      put = __cordl_internal_set_didPressActionButtonEvent)) ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* didPressActionButtonEvent;
+                      put = __cordl_internal_set_didPressActionButtonEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* didPressActionButtonEvent;
 
   /// @brief Field didPressOpenLevelPackButtonEvent, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressOpenLevelPackButtonEvent,
-                      put = __cordl_internal_set_didPressOpenLevelPackButtonEvent)) ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*
-      didPressOpenLevelPackButtonEvent;
+                      put = __cordl_internal_set_didPressOpenLevelPackButtonEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>,
+                                                                                                       ::GlobalNamespace::BeatmapLevelPack*>* didPressOpenLevelPackButtonEvent;
 
   /// @brief Field didPressPracticeButtonEvent, offset 0xe8, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_didPressPracticeButtonEvent,
-      put = __cordl_internal_set_didPressPracticeButtonEvent)) ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* didPressPracticeButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressPracticeButtonEvent,
+                      put = __cordl_internal_set_didPressPracticeButtonEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*
+      didPressPracticeButtonEvent;
 
   /// @brief Field levelFavoriteStatusDidChangeEvent, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelFavoriteStatusDidChangeEvent,
-                      put = __cordl_internal_set_levelFavoriteStatusDidChangeEvent)) ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* levelFavoriteStatusDidChangeEvent;
+  __declspec(property(
+      get = __cordl_internal_get_levelFavoriteStatusDidChangeEvent,
+      put = __cordl_internal_set_levelFavoriteStatusDidChangeEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* levelFavoriteStatusDidChangeEvent;
 
   /// @brief Method BuyLevelButtonWasPressed, addr 0x3b65a88, size 0x94, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasPressed();
@@ -852,30 +853,32 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::StandardLevelDetailView>& __cordl_internal_get__standardLevelDetailView();
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* const&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* const&
   __cordl_internal_get_didChangeContentEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*& __cordl_internal_get_didChangeContentEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*&
+  __cordl_internal_get_didChangeContentEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* const& __cordl_internal_get_didChangeDifficultyBeatmapEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* const& __cordl_internal_get_didChangeDifficultyBeatmapEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*& __cordl_internal_get_didChangeDifficultyBeatmapEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*& __cordl_internal_get_didChangeDifficultyBeatmapEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* const& __cordl_internal_get_didPressActionButtonEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* const& __cordl_internal_get_didPressActionButtonEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>*& __cordl_internal_get_didPressActionButtonEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>*& __cordl_internal_get_didPressActionButtonEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* const& __cordl_internal_get_didPressOpenLevelPackButtonEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* const&
+  __cordl_internal_get_didPressOpenLevelPackButtonEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get_didPressOpenLevelPackButtonEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get_didPressOpenLevelPackButtonEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get_didPressPracticeButtonEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get_didPressPracticeButtonEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get_didPressPracticeButtonEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get_didPressPracticeButtonEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* const& __cordl_internal_get_levelFavoriteStatusDidChangeEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* const& __cordl_internal_get_levelFavoriteStatusDidChangeEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>*& __cordl_internal_get_levelFavoriteStatusDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>*& __cordl_internal_get_levelFavoriteStatusDidChangeEvent();
 
   constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
@@ -917,39 +920,39 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelDetailView(::UnityW<::GlobalNamespace::StandardLevelDetailView> value);
 
-  constexpr void
-  __cordl_internal_set_didChangeContentEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
+  constexpr void __cordl_internal_set_didChangeContentEvent(
+      ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
 
-  constexpr void __cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value);
+  constexpr void __cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
-  constexpr void __cordl_internal_set_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value);
+  constexpr void __cordl_internal_set_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
-  constexpr void __cordl_internal_set_didPressOpenLevelPackButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* value);
+  constexpr void __cordl_internal_set_didPressOpenLevelPackButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  constexpr void __cordl_internal_set_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  constexpr void __cordl_internal_set_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  constexpr void __cordl_internal_set_levelFavoriteStatusDidChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* value);
+  constexpr void __cordl_internal_set_levelFavoriteStatusDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value);
 
   /// @brief Method .ctor, addr 0x3b66428, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didChangeContentEvent, addr 0x3b64f3c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeContentEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
+  inline void add_didChangeContentEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
 
   /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b64ddc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value);
+  inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
   /// @brief Method add_didPressActionButtonEvent, addr 0x3b6485c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value);
+  inline void add_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
   /// @brief Method add_didPressOpenLevelPackButtonEvent, addr 0x3b649bc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressOpenLevelPackButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* value);
+  inline void add_didPressOpenLevelPackButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
   /// @brief Method add_didPressPracticeButtonEvent, addr 0x3b64c7c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  inline void add_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Method add_levelFavoriteStatusDidChangeEvent, addr 0x3b64b1c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_levelFavoriteStatusDidChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* value);
+  inline void add_levelFavoriteStatusDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value);
 
   /// @brief Method get_beatmapKey, addr 0x3b6509c, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
@@ -958,22 +961,22 @@ public:
   inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
 
   /// @brief Method remove_didChangeContentEvent, addr 0x3b64fec, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didChangeContentEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
+  inline void remove_didChangeContentEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
 
   /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b64e8c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value);
+  inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
   /// @brief Method remove_didPressActionButtonEvent, addr 0x3b6490c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value);
+  inline void remove_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
   /// @brief Method remove_didPressOpenLevelPackButtonEvent, addr 0x3b64a6c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressOpenLevelPackButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* value);
+  inline void remove_didPressOpenLevelPackButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
   /// @brief Method remove_didPressPracticeButtonEvent, addr 0x3b64d2c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  inline void remove_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Method remove_levelFavoriteStatusDidChangeEvent, addr 0x3b64bcc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_levelFavoriteStatusDidChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* value);
+  inline void remove_levelFavoriteStatusDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -1032,22 +1035,22 @@ public:
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
   /// @brief Field didPressActionButtonEvent, offset: 0xd0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* ___didPressActionButtonEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* ___didPressActionButtonEvent;
 
   /// @brief Field didPressOpenLevelPackButtonEvent, offset: 0xd8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevelPack*>* ___didPressOpenLevelPackButtonEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* ___didPressOpenLevelPackButtonEvent;
 
   /// @brief Field levelFavoriteStatusDidChangeEvent, offset: 0xe0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* ___levelFavoriteStatusDidChangeEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* ___levelFavoriteStatusDidChangeEvent;
 
   /// @brief Field didPressPracticeButtonEvent, offset: 0xe8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::BeatmapLevel*>* ___didPressPracticeButtonEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* ___didPressPracticeButtonEvent;
 
   /// @brief Field didChangeDifficultyBeatmapEvent, offset: 0xf0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* ___didChangeDifficultyBeatmapEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* ___didChangeDifficultyBeatmapEvent;
 
   /// @brief Field didChangeContentEvent, offset: 0xf8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* ___didChangeContentEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* ___didChangeContentEvent;
 
   /// @brief Field _ownedObjectsEventBinder, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::EventBinder* ____ownedObjectsEventBinder;

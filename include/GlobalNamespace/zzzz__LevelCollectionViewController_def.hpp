@@ -373,11 +373,12 @@ public:
 
   /// @brief Field didSelectHeaderEvent, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectHeaderEvent,
-                      put = __cordl_internal_set_didSelectHeaderEvent)) ::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* didSelectHeaderEvent;
+                      put = __cordl_internal_set_didSelectHeaderEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* didSelectHeaderEvent;
 
   /// @brief Field didSelectLevelEvent, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSelectLevelEvent,
-                      put = __cordl_internal_set_didSelectLevelEvent)) ::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::BeatmapLevel*>* didSelectLevelEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didSelectLevelEvent,
+      put = __cordl_internal_set_didSelectLevelEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* didSelectLevelEvent;
 
   /// @brief Method DidActivate, addr 0x3b5d54c, size 0x204, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -476,13 +477,13 @@ public:
 
   constexpr ::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get__unloadLevelDebouncer();
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* const& __cordl_internal_get_didSelectHeaderEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* const& __cordl_internal_get_didSelectHeaderEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>*& __cordl_internal_get_didSelectHeaderEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*& __cordl_internal_get_didSelectHeaderEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get_didSelectLevelEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get_didSelectLevelEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get_didSelectLevelEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get_didSelectLevelEvent();
 
   constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
@@ -510,24 +511,24 @@ public:
 
   constexpr void __cordl_internal_set__unloadLevelDebouncer(::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>* value);
 
-  constexpr void __cordl_internal_set_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* value);
+  constexpr void __cordl_internal_set_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
-  constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Method .ctor, addr 0x3b5dd24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didSelectHeaderEvent, addr 0x3b5c6a0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* value);
+  inline void add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
   /// @brief Method add_didSelectLevelEvent, addr 0x3b5c5f0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  inline void add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Method remove_didSelectHeaderEvent, addr 0x3b5cb1c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* value);
+  inline void remove_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
   /// @brief Method remove_didSelectLevelEvent, addr 0x3b5ca6c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  inline void remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
 protected:
   // Ctor Parameters []
@@ -571,10 +572,10 @@ public:
   ::GlobalNamespace::AudioClipAsyncLoader* ____audioClipAsyncLoader;
 
   /// @brief Field didSelectLevelEvent, offset: 0xb8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::BeatmapLevel*>* ___didSelectLevelEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* ___didSelectLevelEvent;
 
   /// @brief Field didSelectHeaderEvent, offset: 0xc0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* ___didSelectHeaderEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* ___didSelectHeaderEvent;
 
   /// @brief Field _showHeader, offset: 0xc8, size: 0x1, def value: None
   bool ____showHeader;

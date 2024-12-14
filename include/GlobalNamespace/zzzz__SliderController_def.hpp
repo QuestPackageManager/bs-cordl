@@ -211,7 +211,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderControlle
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SliderController/Pool/Short
-class CORDL_TYPE Pool_SliderController_Short : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
+class CORDL_TYPE Pool_SliderController_Short : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SliderController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::Pool_SliderController_Short* New_ctor();
@@ -246,7 +246,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Pool_SliderCont
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SliderController/Pool/Medium
-class CORDL_TYPE Pool_SliderController_Medium : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
+class CORDL_TYPE Pool_SliderController_Medium : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SliderController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::Pool_SliderController_Medium* New_ctor();
@@ -281,7 +281,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Pool_SliderCont
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SliderController/Pool/Long
-class CORDL_TYPE Pool_SliderController_Long : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
+class CORDL_TYPE Pool_SliderController_Long : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SliderController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::Pool_SliderController_Long* New_ctor();

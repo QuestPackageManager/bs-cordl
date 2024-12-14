@@ -73,7 +73,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent);
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.PlayerInputManager/PlayerJoinedEvent
-class CORDL_TYPE PlayerInputManager_PlayerJoinedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
+class CORDL_TYPE PlayerInputManager_PlayerJoinedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent* New_ctor();
@@ -108,7 +108,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Player
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.PlayerInputManager/PlayerLeftEvent
-class CORDL_TYPE PlayerInputManager_PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
+class CORDL_TYPE PlayerInputManager_PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent* New_ctor();
@@ -152,7 +152,7 @@ public:
   using PlayerLeftEvent = ::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent;
 
   /// @brief Field <instance>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField)) ::UnityEngine::InputSystem::PlayerInputManager* _instance_k__BackingField;
+  __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField)) ::UnityW<::UnityEngine::InputSystem::PlayerInputManager> _instance_k__BackingField;
 
   __declspec(property(get = get_fixedNumberOfSplitScreens)) int32_t fixedNumberOfSplitScreens;
 
@@ -406,18 +406,18 @@ public:
   inline void _ctor();
 
   /// @brief Method add_onPlayerJoined, addr 0x45e1018, size 0x9c, virtual false, abstract: false, final false
-  inline void add_onPlayerJoined(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void add_onPlayerJoined(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method add_onPlayerLeft, addr 0x45e1150, size 0x9c, virtual false, abstract: false, final false
-  inline void add_onPlayerLeft(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void add_onPlayerLeft(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  static inline ::UnityEngine::InputSystem::PlayerInputManager* getStaticF__instance_k__BackingField();
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInputManager> getStaticF__instance_k__BackingField();
 
   /// @brief Method get_fixedNumberOfSplitScreens, addr 0x45e0a6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fixedNumberOfSplitScreens();
 
   /// @brief Method get_instance, addr 0x45e1298, size 0x48, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::PlayerInputManager* get_instance();
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInputManager> get_instance();
 
   /// @brief Method get_joinAction, addr 0x45e0e00, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_joinAction();
@@ -459,12 +459,12 @@ public:
   inline ::UnityEngine::Rect get_splitScreenArea();
 
   /// @brief Method remove_onPlayerJoined, addr 0x45e10b4, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_onPlayerJoined(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void remove_onPlayerJoined(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method remove_onPlayerLeft, addr 0x45e11ec, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_onPlayerLeft(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void remove_onPlayerLeft(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  static inline void setStaticF__instance_k__BackingField(::UnityEngine::InputSystem::PlayerInputManager* value);
+  static inline void setStaticF__instance_k__BackingField(::UnityW<::UnityEngine::InputSystem::PlayerInputManager> value);
 
   /// @brief Method set_instance, addr 0x45e12e0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_instance(::UnityEngine::InputSystem::PlayerInputManager* value);

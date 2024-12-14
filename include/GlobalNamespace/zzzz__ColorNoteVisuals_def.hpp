@@ -72,7 +72,7 @@ public:
 
   /// @brief Field didInitEvent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_didInitEvent,
-                      put = __cordl_internal_set_didInitEvent)) ::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::UnityW<::GlobalNamespace::NoteControllerBase>>* didInitEvent;
+                      put = __cordl_internal_set_didInitEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* didInitEvent;
 
   __declspec(property(put = set_showArrow)) bool showArrow;
 
@@ -134,9 +134,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::NoteControllerBase>& __cordl_internal_get__noteController();
 
-  constexpr ::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::UnityW<::GlobalNamespace::NoteControllerBase>>* const& __cordl_internal_get_didInitEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* const& __cordl_internal_get_didInitEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::UnityW<::GlobalNamespace::NoteControllerBase>>*& __cordl_internal_get_didInitEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>*& __cordl_internal_get_didInitEvent();
 
   constexpr void __cordl_internal_set__arrowMeshRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
 
@@ -153,13 +153,13 @@ public:
 
   constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteControllerBase> value);
 
-  constexpr void __cordl_internal_set_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
+  constexpr void __cordl_internal_set_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   /// @brief Method .ctor, addr 0x3ae73d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didInitEvent, addr 0x3ae6bfc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
+  inline void add_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   static inline int32_t getStaticF__colorId();
 
@@ -173,7 +173,7 @@ public:
   constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
   /// @brief Method remove_didInitEvent, addr 0x3ae6cac, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
+  inline void remove_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   static inline void setStaticF__colorId(int32_t value);
 
@@ -219,7 +219,7 @@ public:
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief Field didInitEvent, offset: 0x50, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::UnityW<::GlobalNamespace::NoteControllerBase>>* ___didInitEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* ___didInitEvent;
 
   /// @brief Field _noteColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____noteColor;

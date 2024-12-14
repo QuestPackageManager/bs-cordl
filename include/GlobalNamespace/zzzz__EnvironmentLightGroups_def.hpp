@@ -122,7 +122,7 @@ public:
   /// @brief Method GetDataForGroup, addr 0x26ad38c, size 0x238, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ILightGroup* GetDataForGroup(int32_t groupId);
 
-  static inline ::GlobalNamespace::EnvironmentLightGroups* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* lightGroups);
+  static inline ::GlobalNamespace::EnvironmentLightGroups* New_ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups);
 
   /// @brief Method Sort, addr 0x26ad5c4, size 0x120, virtual false, abstract: false, final false
   inline void Sort();
@@ -146,7 +146,7 @@ public:
   constexpr void __cordl_internal_set__lightGroupSOListForLightGroupDataDict(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* value);
 
   /// @brief Method .ctor, addr 0x26ad364, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* lightGroups);
+  inline void _ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups);
 
   /// @brief Method get_lightGroupSOList, addr 0x26ad35c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* get_lightGroupSOList();

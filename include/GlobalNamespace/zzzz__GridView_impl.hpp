@@ -19,6 +19,64 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::GridView_IDataSource.get_numberOfCells
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GridView_IDataSource::*)()>(
+    &::GlobalNamespace::GridView_IDataSource::get_numberOfCells)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GridView_IDataSource.get_cellWidth
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GridView_IDataSource::*)()>(&::GlobalNamespace::GridView_IDataSource::get_cellWidth)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GridView_IDataSource.get_cellHeight
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GridView_IDataSource::*)()>(&::GlobalNamespace::GridView_IDataSource::get_cellHeight)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GridView_IDataSource.CellForIdx
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityW<::UnityEngine::MonoBehaviour> (::GlobalNamespace::GridView_IDataSource::*)(::GlobalNamespace::GridView*, int32_t)>(&::GlobalNamespace::GridView_IDataSource::CellForIdx)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(), 3));
+    return ___internal_method;
+  }
+};
 inline int32_t GlobalNamespace::GridView_IDataSource::get_numberOfCells() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView_IDataSource*>::get(), 0)));
@@ -280,14 +338,14 @@ inline ::System::Object* GlobalNamespace::GridViewCellsEnumerator_GridView__GetE
 inline ::GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1* GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
-constexpr GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+constexpr GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*
-GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1::i___System__Collections__Generic__IEnumerator_1___UnityEngine__MonoBehaviour__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*
+GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__MonoBehaviour__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr GlobalNamespace::GridViewCellsEnumerator_GridView__GetEnumerator_d__1::operator ::System::Collections::IEnumerator*() noexcept {
@@ -383,14 +441,14 @@ inline void GlobalNamespace::GridView_GridViewCellsEnumerator::_ctor(::GlobalNam
 inline ::GlobalNamespace::GridView_GridViewCellsEnumerator* GlobalNamespace::GridView_GridViewCellsEnumerator::New_ctor(::GlobalNamespace::GridView* gridView) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GridView_GridViewCellsEnumerator*>(gridView));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
-constexpr GlobalNamespace::GridView_GridViewCellsEnumerator::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+constexpr GlobalNamespace::GridView_GridViewCellsEnumerator::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*
-GlobalNamespace::GridView_GridViewCellsEnumerator::i___System__Collections__Generic__IEnumerable_1___UnityEngine__MonoBehaviour__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*
+GlobalNamespace::GridView_GridViewCellsEnumerator::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__MonoBehaviour__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr GlobalNamespace::GridView_GridViewCellsEnumerator::operator ::System::Collections::IEnumerable*() noexcept {

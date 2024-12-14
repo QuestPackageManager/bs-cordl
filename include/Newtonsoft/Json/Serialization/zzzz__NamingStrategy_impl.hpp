@@ -138,6 +138,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Newtonsoft::Json::Serialization::NamingStrategy.ResolvePropertyName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::NamingStrategy::*)(::StringW)>(
+    &::Newtonsoft::Json::Serialization::NamingStrategy::ResolvePropertyName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(), 7));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::NamingStrategy.GetHashCode
 template <>
 

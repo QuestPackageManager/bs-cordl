@@ -6,6 +6,48 @@
 #include "System/Xml/zzzz__XmlNodeList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+//  Writing Method size for method: ::System::Xml::XmlNodeList.Item
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNodeList::*)(int32_t)>(&::System::Xml::XmlNodeList::Item)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlNodeList.get_Count
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::get_Count)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlNodeList.GetEnumerator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::GetEnumerator)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(), 8));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::XmlNodeList.get_ItemOf
 template <>
 

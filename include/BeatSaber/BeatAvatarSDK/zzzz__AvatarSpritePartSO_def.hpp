@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO);
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // CS Name: BeatSaber.BeatAvatarSDK.AvatarSpritePartSO
-class CORDL_TYPE AvatarSpritePartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityEngine::Sprite*> {
+class CORDL_TYPE AvatarSpritePartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityW<::UnityEngine::Sprite>> {
 public:
   // Declarations
   __declspec(property(get = get_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;

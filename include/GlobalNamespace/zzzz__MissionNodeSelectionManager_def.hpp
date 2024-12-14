@@ -90,10 +90,10 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didSelectMissionNodeEvent, addr 0x3c0778c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  inline void add_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
   /// @brief Method remove_didSelectMissionNodeEvent, addr 0x3c0783c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  inline void remove_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
 protected:
   // Ctor Parameters []

@@ -402,30 +402,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::FireworkItemController.add_didFinishEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(::System::Action_1<::GlobalNamespace::FireworkItemController*>*)>(
-    &::GlobalNamespace::FireworkItemController::add_didFinishEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*)>(&::GlobalNamespace::FireworkItemController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b7c9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::FireworkItemController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FireworkItemController.remove_didFinishEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(::System::Action_1<::GlobalNamespace::FireworkItemController*>*)>(
-    &::GlobalNamespace::FireworkItemController::remove_didFinishEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworkItemController::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*)>(&::GlobalNamespace::FireworkItemController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b7ca88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::FireworkItemController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -748,15 +748,15 @@ constexpr void GlobalNamespace::FireworkItemController::__cordl_internal_set__in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
-constexpr ::System::Action_1<::GlobalNamespace::FireworkItemController*>*& GlobalNamespace::FireworkItemController::__cordl_internal_get_didFinishEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*& GlobalNamespace::FireworkItemController::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::FireworkItemController*>* const& GlobalNamespace::FireworkItemController::__cordl_internal_get_didFinishEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* const& GlobalNamespace::FireworkItemController::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr void GlobalNamespace::FireworkItemController::__cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value) {
+constexpr void GlobalNamespace::FireworkItemController::__cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -772,16 +772,16 @@ inline void GlobalNamespace::FireworkItemController::set_directionalLightIntensi
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::FireworkItemController::add_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value) {
+inline void GlobalNamespace::FireworkItemController::add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::FireworkItemController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::FireworkItemController::remove_didFinishEvent(::System::Action_1<::GlobalNamespace::FireworkItemController*>* value) {
+inline void GlobalNamespace::FireworkItemController::remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworkItemController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::FireworkItemController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::FireworkItemController::Awake() {

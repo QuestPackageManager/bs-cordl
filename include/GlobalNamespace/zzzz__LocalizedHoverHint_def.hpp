@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalizedHoverHint);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LocalizedHoverHint
-class CORDL_TYPE LocalizedHoverHint : public ::BGLib::Polyglot::LocalizedTextComponent_1<::HMUI::HoverHint*> {
+class CORDL_TYPE LocalizedHoverHint : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::HMUI::HoverHint>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LocalizedHoverHint* New_ctor();

@@ -156,7 +156,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Instantiate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::Object::Instantiate)> {
   constexpr static std::size_t size = 0x1b4;
   constexpr static std::size_t addrs = 0x48aeb78;
@@ -174,7 +174,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Transform*)>(&::UnityEngine::Object::Instantiate)> {
+    static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Transform*)>(&::UnityEngine::Object::Instantiate)> {
   constexpr static std::size_t size = 0x1a8;
   constexpr static std::size_t addrs = 0x48aee10;
 
@@ -191,7 +191,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::Object.Instantiate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*)>(&::UnityEngine::Object::Instantiate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*)>(&::UnityEngine::Object::Instantiate)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x48af060;
 
@@ -205,7 +205,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Instantiate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::SceneManagement::Scene)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::Object::Instantiate)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x48af190;
@@ -221,7 +221,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Instantiate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*)>(&::UnityEngine::Object::Instantiate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::UnityEngine::Transform*)>(
+    &::UnityEngine::Object::Instantiate)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x48af2fc;
 
@@ -236,7 +237,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Instantiate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, bool)>(
     &::UnityEngine::Object::Instantiate)> {
   constexpr static std::size_t size = 0x14c;
   constexpr static std::size_t addrs = 0x48af364;
@@ -311,7 +312,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectsOfType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> (*)(::System::Type*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(::System::Type*)>(
     &::UnityEngine::Object::FindObjectsOfType)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x48af684;
@@ -326,7 +327,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectsOfType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> (*)(::System::Type*, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(::System::Type*, bool)>(
     &::UnityEngine::Object::FindObjectsOfType)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x48af6fc;
@@ -341,8 +342,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectsByType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> (*)(::System::Type*, ::UnityEngine::FindObjectsSortMode)>(&::UnityEngine::Object::FindObjectsByType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(
+    ::System::Type*, ::UnityEngine::FindObjectsSortMode)>(&::UnityEngine::Object::FindObjectsByType)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x48af740;
 
@@ -357,7 +358,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectsByType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(
     ::System::Type*, ::UnityEngine::FindObjectsInactive, ::UnityEngine::FindObjectsSortMode)>(&::UnityEngine::Object::FindObjectsByType)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x48af7c8;
@@ -444,7 +445,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindSceneObjectsOfType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> (*)(::System::Type*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(::System::Type*)>(
     &::UnityEngine::Object::FindSceneObjectsOfType)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x48af9d4;
@@ -459,7 +460,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectsOfTypeIncludingAssets
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> (*)(::System::Type*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(::System::Type*)>(
     &::UnityEngine::Object::FindObjectsOfTypeIncludingAssets)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x48afa28;
@@ -474,7 +475,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectsOfTypeAll
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> (*)(::System::Type*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(::System::Type*)>(
     &::UnityEngine::Object::FindObjectsOfTypeAll)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x48afa64;
@@ -504,7 +505,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectOfType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::System::Type*)>(&::UnityEngine::Object::FindObjectOfType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::System::Type*)>(&::UnityEngine::Object::FindObjectOfType)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x48afa6c;
 
@@ -518,7 +519,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindFirstObjectByType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::System::Type*)>(&::UnityEngine::Object::FindFirstObjectByType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::System::Type*)>(&::UnityEngine::Object::FindFirstObjectByType)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x48afb04;
 
@@ -532,7 +533,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindAnyObjectByType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::System::Type*)>(&::UnityEngine::Object::FindAnyObjectByType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::System::Type*)>(&::UnityEngine::Object::FindAnyObjectByType)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x48afba8;
 
@@ -546,7 +547,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectOfType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::System::Type*, bool)>(&::UnityEngine::Object::FindObjectOfType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::System::Type*, bool)>(&::UnityEngine::Object::FindObjectOfType)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x48afc4c;
 
@@ -560,7 +561,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindFirstObjectByType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::System::Type*, ::UnityEngine::FindObjectsInactive)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::System::Type*, ::UnityEngine::FindObjectsInactive)>(
     &::UnityEngine::Object::FindFirstObjectByType)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x48afcf0;
@@ -576,7 +577,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindAnyObjectByType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::System::Type*, ::UnityEngine::FindObjectsInactive)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::System::Type*, ::UnityEngine::FindObjectsInactive)>(
     &::UnityEngine::Object::FindAnyObjectByType)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x48afda0;
@@ -663,7 +664,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Internal_CloneSingle
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*)>(&::UnityEngine::Object::Internal_CloneSingle)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*)>(&::UnityEngine::Object::Internal_CloneSingle)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x48af154;
 
@@ -677,7 +678,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Internal_CloneSingleWithScene
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::SceneManagement::Scene)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::Object::Internal_CloneSingleWithScene)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x48af274;
@@ -693,7 +694,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Internal_CloneSingleWithParent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, bool)>(
     &::UnityEngine::Object::Internal_CloneSingleWithParent)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x48af4b0;
@@ -729,7 +730,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::Object.Internal_InstantiateSingle
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::Object::Internal_InstantiateSingle)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x48aed78;
@@ -746,8 +747,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Internal_InstantiateSingleWithParent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::Object::Internal_InstantiateSingleWithParent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(
+    ::UnityEngine::Object*, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::Object::Internal_InstantiateSingleWithParent)> {
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x48aefb8;
 
@@ -834,7 +835,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.FindObjectFromInstanceID
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(int32_t)>(&::UnityEngine::Object::FindObjectFromInstanceID)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(int32_t)>(&::UnityEngine::Object::FindObjectFromInstanceID)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x48b0160;
 
@@ -848,7 +849,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.ForceLoadFromInstanceID
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(int32_t)>(&::UnityEngine::Object::ForceLoadFromInstanceID)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(int32_t)>(&::UnityEngine::Object::ForceLoadFromInstanceID)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x48b019c;
 
@@ -888,7 +889,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Internal_CloneSingleWithScene_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::ByRef<::UnityEngine::SceneManagement::Scene>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::ByRef<::UnityEngine::SceneManagement::Scene>)>(
     &::UnityEngine::Object::Internal_CloneSingleWithScene_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x48aff70;
@@ -904,8 +905,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Object.Internal_InstantiateSingle_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Quaternion>)>(&::UnityEngine::Object::Internal_InstantiateSingle_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(
+    ::UnityEngine::Object*, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Quaternion>)>(&::UnityEngine::Object::Internal_InstantiateSingle_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x48b0038;
 
@@ -921,9 +922,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::Object.Internal_InstantiateSingleWithParent_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Object* (*)(::UnityEngine::Object*, ::UnityEngine::Transform*, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Quaternion>)>(
-        &::UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(
+    ::UnityEngine::Object*, ::UnityEngine::Transform*, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Quaternion>)>(&::UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x48b008c;
 
@@ -1123,50 +1123,51 @@ inline ::UnityEngine::AsyncInstantiateOperation_1<T>* UnityEngine::Object::Insta
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AsyncInstantiateOperation_1<T>*, false>(nullptr, ___internal_method, original, count, parent, positions, rotations);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Instantiate", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, original, position, rotation);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, original, position, rotation);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
+                                                                        ::UnityEngine::Transform* parent) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Instantiate", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, original, position, rotation, parent);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, original, position, rotation, parent);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Instantiate(::UnityEngine::Object* original) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Instantiate(::UnityEngine::Object* original) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Instantiate", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, original);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, original);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::SceneManagement::Scene scene) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::SceneManagement::Scene scene) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Instantiate", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, original, scene);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, original, scene);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Instantiate", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, original, parent);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, original, parent);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Instantiate", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, original, parent, instantiateInWorldSpace);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, original, parent, instantiateInWorldSpace);
 }
 template <typename T> inline T UnityEngine::Object::Instantiate(T original) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Instantiate",
@@ -1241,33 +1242,34 @@ inline void UnityEngine::Object::DestroyImmediate(::UnityEngine::Object* obj) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
 }
-inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> UnityEngine::Object::FindObjectsOfType(::System::Type* type) {
+inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> UnityEngine::Object::FindObjectsOfType(::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectsOfType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>, false>(nullptr, ___internal_method, type);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>, false>(nullptr, ___internal_method, type);
 }
-inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> UnityEngine::Object::FindObjectsOfType(::System::Type* type, bool includeInactive) {
+inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> UnityEngine::Object::FindObjectsOfType(::System::Type* type, bool includeInactive) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectsOfType", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>, false>(nullptr, ___internal_method, type, includeInactive);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>, false>(nullptr, ___internal_method, type, includeInactive);
 }
-inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> UnityEngine::Object::FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsSortMode sortMode) {
+inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> UnityEngine::Object::FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsSortMode sortMode) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectsByType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FindObjectsSortMode>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>, false>(nullptr, ___internal_method, type, sortMode);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>, false>(nullptr, ___internal_method, type, sortMode);
 }
-inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> UnityEngine::Object::FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive,
-                                                                                                                 ::UnityEngine::FindObjectsSortMode sortMode) {
+inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>
+UnityEngine::Object::FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive, ::UnityEngine::FindObjectsSortMode sortMode) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectsByType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FindObjectsInactive>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FindObjectsSortMode>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>, false>(nullptr, ___internal_method, type, findObjectsInactive, sortMode);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>, false>(nullptr, ___internal_method, type, findObjectsInactive,
+                                                                                                                                          sortMode);
 }
 inline void UnityEngine::Object::DontDestroyOnLoad(::UnityEngine::Object* target) {
   static auto* ___internal_method =
@@ -1299,17 +1301,17 @@ inline void UnityEngine::Object::DestroyObject(::UnityEngine::Object* obj) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
 }
-inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> UnityEngine::Object::FindSceneObjectsOfType(::System::Type* type) {
+inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> UnityEngine::Object::FindSceneObjectsOfType(::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindSceneObjectsOfType", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>, false>(nullptr, ___internal_method, type);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>, false>(nullptr, ___internal_method, type);
 }
-inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> UnityEngine::Object::FindObjectsOfTypeIncludingAssets(::System::Type* type) {
+inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> UnityEngine::Object::FindObjectsOfTypeIncludingAssets(::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectsOfTypeIncludingAssets", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>, false>(nullptr, ___internal_method, type);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>, false>(nullptr, ___internal_method, type);
 }
 template <typename T> inline ::ArrayW<T, ::Array<T>*> UnityEngine::Object::FindObjectsOfType() {
   static auto* ___internal_method_base =
@@ -1396,11 +1398,11 @@ template <typename T> inline T UnityEngine::Object::FindAnyObjectByType(::UnityE
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, findObjectsInactive);
 }
-inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> UnityEngine::Object::FindObjectsOfTypeAll(::System::Type* type) {
+inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> UnityEngine::Object::FindObjectsOfTypeAll(::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectsOfTypeAll", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>, false>(nullptr, ___internal_method, type);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>, false>(nullptr, ___internal_method, type);
 }
 inline void UnityEngine::Object::CheckNullArgument(::System::Object* arg, ::StringW message) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1408,43 +1410,43 @@ inline void UnityEngine::Object::CheckNullArgument(::System::Object* arg, ::Stri
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, arg, message);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::FindObjectOfType(::System::Type* type) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::FindObjectOfType(::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectOfType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, type);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, type);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::FindFirstObjectByType(::System::Type* type) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::FindFirstObjectByType(::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindFirstObjectByType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, type);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, type);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::FindAnyObjectByType(::System::Type* type) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::FindAnyObjectByType(::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindAnyObjectByType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, type);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, type);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::FindObjectOfType(::System::Type* type, bool includeInactive) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::FindObjectOfType(::System::Type* type, bool includeInactive) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectOfType", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, type, includeInactive);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, type, includeInactive);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::FindFirstObjectByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::FindFirstObjectByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindFirstObjectByType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FindObjectsInactive>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, type, findObjectsInactive);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, type, findObjectsInactive);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::FindAnyObjectByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::FindAnyObjectByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindAnyObjectByType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::FindObjectsInactive>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, type, findObjectsInactive);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, type, findObjectsInactive);
 }
 inline ::StringW UnityEngine::Object::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -1476,26 +1478,26 @@ inline bool UnityEngine::Object::CurrentThreadIsMainThread() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Internal_CloneSingle(::UnityEngine::Object* data) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingle(::UnityEngine::Object* data) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Internal_CloneSingle", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, data);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, data);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Internal_CloneSingleWithScene(::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithScene(::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Internal_CloneSingleWithScene", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, data, scene);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, data, scene);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Internal_CloneSingleWithParent", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, data, parent, worldPositionStays);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, data, parent, worldPositionStays);
 }
 inline ::UnityEngine::AsyncInstantiateOperation* UnityEngine::Object::Internal_InstantiateAsyncWithParent(::UnityEngine::Object* original, int32_t count, ::UnityEngine::Transform* parent,
                                                                                                           ::System::IntPtr positions, int32_t positionsCount, ::System::IntPtr rotations,
@@ -1509,22 +1511,22 @@ inline ::UnityEngine::AsyncInstantiateOperation* UnityEngine::Object::Internal_I
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AsyncInstantiateOperation*, false>(nullptr, ___internal_method, original, count, parent, positions, positionsCount, rotations,
                                                                                                rotationsCount);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Internal_InstantiateSingle", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, data, pos, rot);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, data, pos, rot);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos,
-                                                                                        ::UnityEngine::Quaternion rot) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos,
+                                                                                                 ::UnityEngine::Quaternion rot) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Internal_InstantiateSingleWithParent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, data, parent, pos, rot);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, data, parent, pos, rot);
 }
 inline ::StringW UnityEngine::Object::ToString(::UnityEngine::Object* obj) {
   static auto* ___internal_method =
@@ -1557,17 +1559,17 @@ inline bool UnityEngine::Object::DoesObjectWithInstanceIDExist(int32_t instanceI
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, instanceID);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::FindObjectFromInstanceID(int32_t instanceID) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::FindObjectFromInstanceID(int32_t instanceID) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "FindObjectFromInstanceID",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, instanceID);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, instanceID);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::ForceLoadFromInstanceID(int32_t instanceID) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::ForceLoadFromInstanceID(int32_t instanceID) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "ForceLoadFromInstanceID",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, instanceID);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, instanceID);
 }
 inline void UnityEngine::Object::MarkDirty() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "MarkDirty",
@@ -1579,30 +1581,31 @@ inline void UnityEngine::Object::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Internal_CloneSingleWithScene_Injected(::UnityEngine::Object* data, ::ByRef<::UnityEngine::SceneManagement::Scene> scene) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_CloneSingleWithScene_Injected(::UnityEngine::Object* data, ::ByRef<::UnityEngine::SceneManagement::Scene> scene) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Internal_CloneSingleWithScene_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::SceneManagement::Scene>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, data, scene);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, data, scene);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Internal_InstantiateSingle_Injected(::UnityEngine::Object* data, ::ByRef<::UnityEngine::Vector3> pos, ::ByRef<::UnityEngine::Quaternion> rot) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingle_Injected(::UnityEngine::Object* data, ::ByRef<::UnityEngine::Vector3> pos,
+                                                                                                ::ByRef<::UnityEngine::Quaternion> rot) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Internal_InstantiateSingle_Injected", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Quaternion>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, data, pos, rot);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, data, pos, rot);
 }
-inline ::UnityEngine::Object* UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::ByRef<::UnityEngine::Vector3> pos,
-                                                                                                 ::ByRef<::UnityEngine::Quaternion> rot) {
+inline ::UnityW<::UnityEngine::Object> UnityEngine::Object::Internal_InstantiateSingleWithParent_Injected(::UnityEngine::Object* data, ::UnityEngine::Transform* parent,
+                                                                                                          ::ByRef<::UnityEngine::Vector3> pos, ::ByRef<::UnityEngine::Quaternion> rot) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Object*>::get(), "Internal_InstantiateSingleWithParent_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Quaternion>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Object*, false>(nullptr, ___internal_method, data, parent, pos, rot);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(nullptr, ___internal_method, data, parent, pos, rot);
 }
 inline ::UnityEngine::Object* UnityEngine::Object::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Object*>());

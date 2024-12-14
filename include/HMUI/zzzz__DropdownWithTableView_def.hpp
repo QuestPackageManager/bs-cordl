@@ -58,7 +58,7 @@ public:
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
-                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* didSelectCellWithIdxEvent;
+                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* didSelectCellWithIdxEvent;
 
   __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
 
@@ -135,9 +135,9 @@ public:
 
   constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
 
-  constexpr ::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr ::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
   constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -153,13 +153,13 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
   /// @brief Method .ctor, addr 0x39f5f34, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x39f56d4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value);
+  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
   /// @brief Method get_interactable, addr 0x39f5860, size 0x1c, virtual false, abstract: false, final false
   inline bool get_interactable();
@@ -171,7 +171,7 @@ public:
   inline ::HMUI::TableView_IDataSource* get_tableViewDataSource();
 
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x39f5784, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value);
+  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
   /// @brief Method set_interactable, addr 0x39f587c, size 0x20, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
@@ -215,7 +215,7 @@ public:
   bool ____hideOnSelection;
 
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* ___didSelectCellWithIdxEvent;
+  ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* ___didSelectCellWithIdxEvent;
 
   /// @brief Field <selectedIndex>k__BackingField, offset: 0x50, size: 0x4, def value: None
   int32_t ____selectedIndex_k__BackingField;

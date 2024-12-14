@@ -65,6 +65,38 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Dynamic::InvokeMemberBinder.FallbackInvokeMember
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
+    ::System::Dynamic::InvokeMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>,
+                                              ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::InvokeMemberBinder::FallbackInvokeMember)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::InvokeMemberBinder*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::InvokeMemberBinder*>::get(), 9));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Dynamic::InvokeMemberBinder.FallbackInvoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
+    ::System::Dynamic::InvokeMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>,
+                                              ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::InvokeMemberBinder::FallbackInvoke)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::InvokeMemberBinder*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::InvokeMemberBinder*>::get(), 10));
+    return ___internal_method;
+  }
+};
 constexpr ::StringW& System::Dynamic::InvokeMemberBinder::__cordl_internal_get__Name_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Name_k__BackingField;

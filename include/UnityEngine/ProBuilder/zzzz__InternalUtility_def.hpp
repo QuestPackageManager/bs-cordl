@@ -117,7 +117,7 @@ public:
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::UnityEngine::GameObject* go);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* transforms);
+  template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms);
 
   /// @brief Method MeshGameObjectWithTransform, addr 0x470d430, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat,

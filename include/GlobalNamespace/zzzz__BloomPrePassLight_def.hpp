@@ -319,7 +319,7 @@ public:
   __declspec(property(get = __cordl_internal_get_lights, put = __cordl_internal_set_lights)) ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights;
 
   static inline ::GlobalNamespace::BloomPrePassLight_LightsDataItem* New_ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType,
-                                                                              ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>* lights);
+                                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> const& __cordl_internal_get_lightType() const;
 
@@ -334,7 +334,7 @@ public:
   constexpr void __cordl_internal_set_lights(::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* value);
 
   /// @brief Method .ctor, addr 0x39d97ec, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>* lights);
+  inline void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
 protected:
   // Ctor Parameters []
@@ -384,7 +384,7 @@ public:
 
   /// @brief Field _bloomLightsDict, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__bloomLightsDict, put = setStaticF__bloomLightsDict)) ::System::Collections::Generic::Dictionary_2<
-      ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*>* _bloomLightsDict;
+      ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>* _bloomLightsDict;
 
   /// @brief Field _isBeingDestroyed, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__isBeingDestroyed, put = __cordl_internal_set__isBeingDestroyed)) bool _isBeingDestroyed;
@@ -457,20 +457,22 @@ public:
   /// @brief Method .ctor, addr 0x39d9818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*>*
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
+                                                             ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
   getStaticF__bloomLightsDict();
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight_LightsDataItem*>* getStaticF__lightsDataItems();
 
   /// @brief Method get_bloomLightsDict, addr 0x39d93c0, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*>*
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
+                                                             ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
   get_bloomLightsDict();
 
   /// @brief Method get_lightsDataItems, addr 0x39d9418, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight_LightsDataItem*>* get_lightsDataItems();
 
-  static inline void setStaticF__bloomLightsDict(
-      ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BloomPrePassLight*>*>* value);
+  static inline void setStaticF__bloomLightsDict(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
+                                                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>* value);
 
   static inline void setStaticF__lightsDataItems(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight_LightsDataItem*>* value);
 

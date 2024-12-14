@@ -143,6 +143,22 @@ inline ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__Display
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0() {}
+//  Writing Method size for method: ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator.get_gameMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
+    &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_gameMode)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(), 33));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator.get_isInPracticeView
 template <>
 
@@ -321,14 +337,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
-    ::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x3b514dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -336,14 +353,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
-    ::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x3b51590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -700,17 +718,18 @@ constexpr void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentsListModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*& GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::__cordl_internal_get_didFinishEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*&
+GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* const&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* const&
 GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void
-GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::__cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value) {
+GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::__cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -790,16 +809,18 @@ inline void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::ProcessL
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(), 38)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelCompletionResults, transformedBeatmapData, beatmapKey, beatmapLevel, gameplayModifiers, practice);
 }
-inline void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent(::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value) {
+inline void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent(::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value) {
+inline void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy) {

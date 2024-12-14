@@ -3,6 +3,50 @@
 #include "GlobalNamespace/zzzz__IncDecColorController_impl.hpp"
 #include "GlobalNamespace/zzzz__ListColorController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::ListColorController.GetInitValues
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ListColorController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
+    &::GlobalNamespace::ListColorController::GetInitValues)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListColorController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListColorController*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ListColorController.ApplyValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ListColorController::*)(int32_t)>(&::GlobalNamespace::ListColorController::ApplyValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListColorController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListColorController*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ListColorController.ColorForValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ListColorController::*)(int32_t)>(
+    &::GlobalNamespace::ListColorController::ColorForValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListColorController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListColorController*>::get(), 9));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::ListColorController.OnEnable
 template <>
 

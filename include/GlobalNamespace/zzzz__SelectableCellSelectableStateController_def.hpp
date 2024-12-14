@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectableCellSelectableStateController);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SelectableCellSelectableStateController
-class CORDL_TYPE SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::SelectableCell*> {
+class CORDL_TYPE SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::SelectableCell>> {
 public:
   // Declarations
   /// @brief Method HandleSelectableCellHighlightDidChange, addr 0x44d80a0, size 0x4, virtual false, abstract: false, final false

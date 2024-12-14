@@ -25,7 +25,7 @@ class CORDL_TYPE PointLight : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lights, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__lights, put = setStaticF__lights)) ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* _lights;
+  __declspec(property(get = getStaticF__lights, put = setStaticF__lights)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* _lights;
 
   /// @brief Field color, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
@@ -56,12 +56,12 @@ public:
   /// @brief Method .ctor, addr 0x39ded60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* getStaticF__lights();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* getStaticF__lights();
 
   /// @brief Method get_lights, addr 0x39debbc, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* get_lights();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* get_lights();
 
-  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::GlobalNamespace::PointLight*>* value);
+  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* value);
 
 protected:
   // Ctor Parameters []

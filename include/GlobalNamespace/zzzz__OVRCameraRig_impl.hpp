@@ -475,37 +475,37 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVRCameraRig.add_UpdatedAnchors
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::GlobalNamespace::OVRCameraRig*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*)>(
     &::GlobalNamespace::OVRCameraRig::add_UpdatedAnchors)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3fa18dc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "add_UpdatedAnchors", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::OVRCameraRig*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "add_UpdatedAnchors", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRCameraRig.remove_UpdatedAnchors
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::GlobalNamespace::OVRCameraRig*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*)>(
     &::GlobalNamespace::OVRCameraRig::remove_UpdatedAnchors)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3fa198c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "remove_UpdatedAnchors", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::OVRCameraRig*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "remove_UpdatedAnchors", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRCameraRig.add_TrackingSpaceChanged
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityEngine::Transform*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRCameraRig::add_TrackingSpaceChanged)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3fa1a3c;
@@ -513,14 +513,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "add_TrackingSpaceChanged", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRCameraRig.remove_TrackingSpaceChanged
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityEngine::Transform*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCameraRig::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRCameraRig::remove_TrackingSpaceChanged)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3fa1aec;
@@ -528,7 +528,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "remove_TrackingSpaceChanged", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -917,15 +917,15 @@ constexpr void GlobalNamespace::OVRCameraRig::__cordl_internal_set__trackerAncho
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackerAnchor_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::OVRCameraRig*>*& GlobalNamespace::OVRCameraRig::__cordl_internal_get_UpdatedAnchors() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*& GlobalNamespace::OVRCameraRig::__cordl_internal_get_UpdatedAnchors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UpdatedAnchors;
 }
-constexpr ::System::Action_1<::GlobalNamespace::OVRCameraRig*>* const& GlobalNamespace::OVRCameraRig::__cordl_internal_get_UpdatedAnchors() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* const& GlobalNamespace::OVRCameraRig::__cordl_internal_get_UpdatedAnchors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UpdatedAnchors;
 }
-constexpr void GlobalNamespace::OVRCameraRig::__cordl_internal_set_UpdatedAnchors(::System::Action_1<::GlobalNamespace::OVRCameraRig*>* value) {
+constexpr void GlobalNamespace::OVRCameraRig::__cordl_internal_set_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___UpdatedAnchors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1392,28 +1392,28 @@ inline void GlobalNamespace::OVRCameraRig::set_trackerAnchor(::UnityEngine::Tran
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::OVRCameraRig::add_UpdatedAnchors(::System::Action_1<::GlobalNamespace::OVRCameraRig*>* value) {
+inline void GlobalNamespace::OVRCameraRig::add_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "add_UpdatedAnchors", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::OVRCameraRig*>*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::OVRCameraRig::remove_UpdatedAnchors(::System::Action_1<::GlobalNamespace::OVRCameraRig*>* value) {
+inline void GlobalNamespace::OVRCameraRig::remove_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "remove_UpdatedAnchors", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::OVRCameraRig*>*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::OVRCameraRig::add_TrackingSpaceChanged(::System::Action_1<::UnityEngine::Transform*>* value) {
+inline void GlobalNamespace::OVRCameraRig::add_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "add_TrackingSpaceChanged", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::OVRCameraRig::remove_TrackingSpaceChanged(::System::Action_1<::UnityEngine::Transform*>* value) {
+inline void GlobalNamespace::OVRCameraRig::remove_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCameraRig*>::get(), "remove_TrackingSpaceChanged", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::OVRCameraRig::Awake() {

@@ -163,7 +163,7 @@ public:
   static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipForTrack(::StringW name, ::UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
 
   /// @brief Method GenerateUniqueActorName, addr 0x482caf0, size 0x2e4, virtual false, abstract: false, final false
-  static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* tracks, ::StringW name);
+  static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* tracks, ::StringW name);
 
   /// @brief Method RemoveAssetFromObject, addr 0x482c9f4, size 0x9c, virtual false, abstract: false, final false
   static inline void RemoveAssetFromObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);

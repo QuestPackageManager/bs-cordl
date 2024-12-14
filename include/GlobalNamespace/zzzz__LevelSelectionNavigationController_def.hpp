@@ -103,26 +103,25 @@ public:
 
   /// @brief Field didChangeDifficultyBeatmapEvent, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeDifficultyBeatmapEvent,
-                      put = __cordl_internal_set_didChangeDifficultyBeatmapEvent)) ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* didChangeDifficultyBeatmapEvent;
+                      put = __cordl_internal_set_didChangeDifficultyBeatmapEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* didChangeDifficultyBeatmapEvent;
 
   /// @brief Field didChangeLevelDetailContentEvent, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeLevelDetailContentEvent, put = __cordl_internal_set_didChangeLevelDetailContentEvent)) ::System::Action_2<
-      ::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* didChangeLevelDetailContentEvent;
+      ::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* didChangeLevelDetailContentEvent;
 
   /// @brief Field didPressActionButtonEvent, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressActionButtonEvent,
-                      put = __cordl_internal_set_didPressActionButtonEvent)) ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* didPressActionButtonEvent;
+                      put = __cordl_internal_set_didPressActionButtonEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* didPressActionButtonEvent;
 
   /// @brief Field didPressPracticeButtonEvent, offset 0xd0, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_didPressPracticeButtonEvent,
-      put =
-          __cordl_internal_set_didPressPracticeButtonEvent)) ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* didPressPracticeButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressPracticeButtonEvent,
+                      put = __cordl_internal_set_didPressPracticeButtonEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*
+      didPressPracticeButtonEvent;
 
   /// @brief Field didSelectLevelPackEvent, offset 0xc0, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_didSelectLevelPackEvent,
-      put = __cordl_internal_set_didSelectLevelPackEvent)) ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* didSelectLevelPackEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectLevelPackEvent,
+                      put = __cordl_internal_set_didSelectLevelPackEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*
+      didSelectLevelPackEvent;
 
   __declspec(property(get = get_selectedBeatmapLevelPack)) ::GlobalNamespace::BeatmapLevelPack* selectedBeatmapLevelPack;
 
@@ -219,27 +218,27 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* const& __cordl_internal_get_didChangeDifficultyBeatmapEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* const& __cordl_internal_get_didChangeDifficultyBeatmapEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*& __cordl_internal_get_didChangeDifficultyBeatmapEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*& __cordl_internal_get_didChangeDifficultyBeatmapEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* const&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* const&
   __cordl_internal_get_didChangeLevelDetailContentEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*&
   __cordl_internal_get_didChangeLevelDetailContentEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* const& __cordl_internal_get_didPressActionButtonEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* const& __cordl_internal_get_didPressActionButtonEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>*& __cordl_internal_get_didPressActionButtonEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*& __cordl_internal_get_didPressActionButtonEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get_didPressPracticeButtonEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get_didPressPracticeButtonEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get_didPressPracticeButtonEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get_didPressPracticeButtonEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* const& __cordl_internal_get_didSelectLevelPackEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* const& __cordl_internal_get_didSelectLevelPackEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get_didSelectLevelPackEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*& __cordl_internal_get_didSelectLevelPackEvent();
 
   constexpr void __cordl_internal_set__actionButtonText(::StringW value);
 
@@ -257,34 +256,35 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr void __cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value);
+  constexpr void __cordl_internal_set_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value);
 
   constexpr void __cordl_internal_set_didChangeLevelDetailContentEvent(
-      ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
+      ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
 
-  constexpr void __cordl_internal_set_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value);
+  constexpr void __cordl_internal_set_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value);
 
-  constexpr void __cordl_internal_set_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  constexpr void __cordl_internal_set_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  constexpr void __cordl_internal_set_didSelectLevelPackEvent(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* value);
+  constexpr void __cordl_internal_set_didSelectLevelPackEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
   /// @brief Method .ctor, addr 0x3b694fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b686fc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value);
+  inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value);
 
   /// @brief Method add_didChangeLevelDetailContentEvent, addr 0x3b6817c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeLevelDetailContentEvent(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
+  inline void
+  add_didChangeLevelDetailContentEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
 
   /// @brief Method add_didPressActionButtonEvent, addr 0x3b6843c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value);
+  inline void add_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value);
 
   /// @brief Method add_didPressPracticeButtonEvent, addr 0x3b6859c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  inline void add_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Method add_didSelectLevelPackEvent, addr 0x3b682dc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectLevelPackEvent(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* value);
+  inline void add_didSelectLevelPackEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
   /// @brief Method get_beatmapKey, addr 0x3b68894, size 0x40, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
@@ -299,20 +299,20 @@ public:
   inline ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory get_selectedLevelCategory();
 
   /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b687ac, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value);
+  inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value);
 
   /// @brief Method remove_didChangeLevelDetailContentEvent, addr 0x3b6822c, size 0xb0, virtual false, abstract: false, final false
   inline void
-  remove_didChangeLevelDetailContentEvent(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
+  remove_didChangeLevelDetailContentEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
 
   /// @brief Method remove_didPressActionButtonEvent, addr 0x3b684ec, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* value);
+  inline void remove_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* value);
 
   /// @brief Method remove_didPressPracticeButtonEvent, addr 0x3b6864c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* value);
+  inline void remove_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Method remove_didSelectLevelPackEvent, addr 0x3b6838c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectLevelPackEvent(::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* value);
+  inline void remove_didSelectLevelPackEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
 protected:
   // Ctor Parameters []
@@ -341,19 +341,19 @@ public:
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field didChangeLevelDetailContentEvent, offset: 0xb8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* ___didChangeLevelDetailContentEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* ___didChangeLevelDetailContentEvent;
 
   /// @brief Field didSelectLevelPackEvent, offset: 0xc0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*>* ___didSelectLevelPackEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* ___didSelectLevelPackEvent;
 
   /// @brief Field didPressActionButtonEvent, offset: 0xc8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* ___didPressActionButtonEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* ___didPressActionButtonEvent;
 
   /// @brief Field didPressPracticeButtonEvent, offset: 0xd0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*>* ___didPressPracticeButtonEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* ___didPressPracticeButtonEvent;
 
   /// @brief Field didChangeDifficultyBeatmapEvent, offset: 0xd8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::LevelSelectionNavigationController*>* ___didChangeDifficultyBeatmapEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>* ___didChangeDifficultyBeatmapEvent;
 
   /// @brief Field _hidePacksIfOneOrNone, offset: 0xe0, size: 0x1, def value: None
   bool ____hidePacksIfOneOrNone;

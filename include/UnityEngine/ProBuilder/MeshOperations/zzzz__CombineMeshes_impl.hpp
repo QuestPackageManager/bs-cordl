@@ -82,8 +82,8 @@ constexpr ::UnityEngine::ProBuilder::MeshOperations::CombineMeshes___c::CombineM
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::CombineMeshes.Combine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<
+    ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x47640d8;
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*>::get(), "Combine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -100,24 +100,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<
-    ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::UnityEngine::ProBuilder::ProBuilderMesh*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
+    ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*,
+                                                              ::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
   constexpr static std::size_t size = 0xbbc;
   constexpr static std::size_t addrs = 0x4764574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*>::get(), "Combine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get() })));
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::CombineMeshes.CombineToNewMeshes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<
+    ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CombineToNewMeshes)> {
   constexpr static std::size_t size = 0x498;
   constexpr static std::size_t addrs = 0x47640dc;
@@ -126,7 +127,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*>::get(), "CombineToNewMeshes", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -134,25 +135,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, int32_t, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>,
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, int32_t, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>,
     ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>,
     ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>,
-    ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::Material*>*>, ::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::AccumulateMeshesInfo)> {
+    ::ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>, ::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::AccumulateMeshesInfo)> {
   constexpr static std::size_t size = 0xd6c;
   constexpr static std::size_t addrs = 0x4765130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*>::get(), "AccumulateMeshesInfo", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::Material*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+        ::std::array<Il2CppType const*, 9>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
     return ___internal_method;
   }
 };
@@ -202,47 +204,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
-UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes) {
+UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*>::get(), "Combine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, false>(nullptr, ___internal_method, meshes);
 }
 inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
-UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes,
+UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes,
                                                                 ::UnityEngine::ProBuilder::ProBuilderMesh* meshTarget) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*>::get(), "Combine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get() })));
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, false>(nullptr, ___internal_method, meshes, meshTarget);
 }
 inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*
-UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CombineToNewMeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes) {
+UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CombineToNewMeshes(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*>::get(), "CombineToNewMeshes", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, false>(nullptr, ___internal_method, meshes);
 }
-inline void UnityEngine::ProBuilder::MeshOperations::CombineMeshes::AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshes,
+inline void UnityEngine::ProBuilder::MeshOperations::CombineMeshes::AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshes,
                                                                                          int32_t offset, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> vertices,
                                                                                          ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> faces,
                                                                                          ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> autoUvFaces,
                                                                                          ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*> sharedVertices,
                                                                                          ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*> sharedTextures,
-                                                                                         ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::Material*>*> materialMap,
+                                                                                         ::ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> materialMap,
                                                                                          ::UnityEngine::Transform* targetTransform) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::CombineMeshes*>::get(), "AccumulateMeshesInfo", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::Material*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+      ::std::array<Il2CppType const*, 9>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, meshes, offset, vertices, faces, autoUvFaces, sharedVertices, sharedTextures, materialMap, targetTransform);
 }
 inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CreateMeshFromSplit(

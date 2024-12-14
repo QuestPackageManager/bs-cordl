@@ -164,23 +164,23 @@ inline void HMUI::InputFieldDataBinder::_ctor() {
 }
 template <typename T0, typename T1>
 inline void HMUI::InputFieldDataBinder::AddBindings(
-    ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData) {
+    ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), "AddBindings",
       std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get() },
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>*>::get() })));
+          ::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>*>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T0>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindingData);
 }
-template <typename T> inline void HMUI::InputFieldDataBinder::AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::InputField*, T>*>* bindingData) {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), "AddStringBindings",
-                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-                                  ::std::array<Il2CppType const*, 1>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::InputField*, T>*>*>::get() })));
+template <typename T> inline void HMUI::InputFieldDataBinder::AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), "AddStringBindings",
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>*>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindingData);

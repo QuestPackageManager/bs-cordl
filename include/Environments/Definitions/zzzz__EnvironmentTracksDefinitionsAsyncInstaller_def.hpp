@@ -28,7 +28,8 @@ MARK_REF_PTR_T(::Environments::Definitions::EnvironmentTracksDefinitionsAsyncIns
 namespace Environments::Definitions {
 // Is value type: false
 // CS Name: Environments.Definitions.EnvironmentTracksDefinitionsAsyncInstaller
-class CORDL_TYPE EnvironmentTracksDefinitionsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*> {
+class CORDL_TYPE EnvironmentTracksDefinitionsAsyncInstaller
+    : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>> {
 public:
   // Declarations
   /// @brief Field _environmentTracksDefinitions, offset 0x48, size 0x8
@@ -42,7 +43,7 @@ public:
   inline void InstallBindings();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x228094c, size 0x58, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>* tracksDefinitions,
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* tracksDefinitions,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller* New_ctor();

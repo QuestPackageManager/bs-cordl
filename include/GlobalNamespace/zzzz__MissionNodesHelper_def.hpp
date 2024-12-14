@@ -32,11 +32,11 @@ public:
   static inline bool CycleDetection(::GlobalNamespace::MissionNode* node);
 
   /// @brief Method CycleDetection, addr 0x3c081fc, size 0x158, virtual false, abstract: false, final false
-  static inline bool CycleDetection(::GlobalNamespace::MissionNode* node, int32_t layer, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MissionNode*, int32_t>* layers);
+  static inline bool CycleDetection(::GlobalNamespace::MissionNode* node, int32_t layer, ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MissionNode>, int32_t>* layers);
 
   /// @brief Method FinalNodeIsFinal, addr 0x3c083d4, size 0x138, virtual false, abstract: false, final false
   static inline bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* node,
-                                      ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* visitedNodes);
+                                      ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
 
   /// @brief Method FinalNodeIsFinal, addr 0x3c08354, size 0x80, virtual false, abstract: false, final false
   static inline bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* rootNode);
@@ -47,7 +47,7 @@ public:
   static inline ::GlobalNamespace::MissionNodesHelper* New_ctor();
 
   /// @brief Method VisitAllTree, addr 0x3c080a8, size 0xd8, virtual false, abstract: false, final false
-  static inline void VisitAllTree(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* visitedNodes);
+  static inline void VisitAllTree(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
 
   /// @brief Method .ctor, addr 0x3c0850c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();

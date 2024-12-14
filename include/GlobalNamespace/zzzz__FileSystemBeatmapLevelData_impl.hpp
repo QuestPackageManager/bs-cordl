@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileSystemBeatmapLevelData::*)(
     ::StringW, ::StringW, ::StringW,
-    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>,
+    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
                                                  ::GlobalNamespace::FileDifficultyBeatmap*>*)>(&::GlobalNamespace::FileSystemBeatmapLevelData::_ctor)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x26cb990;
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<
-                ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::FileDifficultyBeatmap*>*>::get() })));
+                ::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::FileDifficultyBeatmap*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -351,15 +351,15 @@ inline ::StringW GlobalNamespace::FileSystemBeatmapLevelData::get_name() {
 }
 inline void GlobalNamespace::FileSystemBeatmapLevelData::_ctor(
     ::StringW name, ::StringW audioClipPath, ::StringW audioDataPath,
-    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::FileDifficultyBeatmap*>*
-        difficultyBeatmaps) {
+    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
+                                                 ::GlobalNamespace::FileDifficultyBeatmap*>* difficultyBeatmaps) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemBeatmapLevelData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<
-              ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::FileDifficultyBeatmap*>*>::get() })));
+              ::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::FileDifficultyBeatmap*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, audioClipPath, audioDataPath, difficultyBeatmaps);
 }
 inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::FileSystemBeatmapLevelData::GetAudioDataStringAsync() {
@@ -440,8 +440,8 @@ inline bool GlobalNamespace::FileSystemBeatmapLevelData::IBeatmapLevelData_Conta
 }
 inline ::GlobalNamespace::FileSystemBeatmapLevelData* GlobalNamespace::FileSystemBeatmapLevelData::New_ctor(
     ::StringW name, ::StringW audioClipPath, ::StringW audioDataPath,
-    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::FileDifficultyBeatmap*>*
-        difficultyBeatmaps) {
+    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
+                                                 ::GlobalNamespace::FileDifficultyBeatmap*>* difficultyBeatmaps) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FileSystemBeatmapLevelData*>(name, audioClipPath, audioDataPath, difficultyBeatmaps));
 }
 /// @brief Convert operator to "::GlobalNamespace::IBeatmapLevelData"

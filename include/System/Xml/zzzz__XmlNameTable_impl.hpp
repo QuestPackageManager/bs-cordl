@@ -2,6 +2,49 @@
 // IWYU pragma private; include "System/Xml/XmlNameTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
+//  Writing Method size for method: ::System::Xml::XmlNameTable.Get
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlNameTable::*)(::StringW)>(&::System::Xml::XmlNameTable::Get)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNameTable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNameTable*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlNameTable.Add
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlNameTable::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::System::Xml::XmlNameTable::Add)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNameTable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNameTable*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlNameTable.Add
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlNameTable::*)(::StringW)>(&::System::Xml::XmlNameTable::Add)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNameTable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNameTable*>::get(), 6));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::XmlNameTable._ctor
 template <>
 

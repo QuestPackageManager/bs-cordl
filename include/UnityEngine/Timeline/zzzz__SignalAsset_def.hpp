@@ -22,7 +22,7 @@ class CORDL_TYPE SignalAsset : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field OnEnableCallback, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_OnEnableCallback, put = setStaticF_OnEnableCallback)) ::System::Action_1<::UnityEngine::Timeline::SignalAsset*>* OnEnableCallback;
+  __declspec(property(get = getStaticF_OnEnableCallback, put = setStaticF_OnEnableCallback)) ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* OnEnableCallback;
 
   static inline ::UnityEngine::Timeline::SignalAsset* New_ctor();
 
@@ -33,14 +33,14 @@ public:
   inline void _ctor();
 
   /// @brief Method add_OnEnableCallback, addr 0x48248c0, size 0xcc, virtual false, abstract: false, final false
-  static inline void add_OnEnableCallback(::System::Action_1<::UnityEngine::Timeline::SignalAsset*>* value);
+  static inline void add_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::Timeline::SignalAsset*>* getStaticF_OnEnableCallback();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* getStaticF_OnEnableCallback();
 
   /// @brief Method remove_OnEnableCallback, addr 0x482498c, size 0xcc, virtual false, abstract: false, final false
-  static inline void remove_OnEnableCallback(::System::Action_1<::UnityEngine::Timeline::SignalAsset*>* value);
+  static inline void remove_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
-  static inline void setStaticF_OnEnableCallback(::System::Action_1<::UnityEngine::Timeline::SignalAsset*>* value);
+  static inline void setStaticF_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
 protected:
   // Ctor Parameters []

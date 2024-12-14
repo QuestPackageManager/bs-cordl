@@ -17,14 +17,15 @@ constexpr ::GlobalNamespace::FormattedFloatListSettingsController_ValueType Glob
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FormattedFloatListSettingsController::*)(
-    ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*)>(&::GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*)>(&::GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c0e204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FormattedFloatListSettingsController*>::get(), "add_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -32,14 +33,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FormattedFloatListSettingsController::*)(
-    ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*)>(&::GlobalNamespace::FormattedFloatListSettingsController::remove_valueDidChangeEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*)>(&::GlobalNamespace::FormattedFloatListSettingsController::remove_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c0e2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FormattedFloatListSettingsController*>::get(), "remove_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -199,17 +201,18 @@ constexpr void GlobalNamespace::FormattedFloatListSettingsController::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueType = value;
 }
-constexpr ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*& GlobalNamespace::FormattedFloatListSettingsController::__cordl_internal_get_valueDidChangeEvent() {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*&
+GlobalNamespace::FormattedFloatListSettingsController::__cordl_internal_get_valueDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueDidChangeEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* const&
 GlobalNamespace::FormattedFloatListSettingsController::__cordl_internal_get_valueDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueDidChangeEvent;
 }
 constexpr void
-GlobalNamespace::FormattedFloatListSettingsController::__cordl_internal_set_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value) {
+GlobalNamespace::FormattedFloatListSettingsController::__cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___valueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -261,16 +264,18 @@ constexpr void GlobalNamespace::FormattedFloatListSettingsController::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasValue = value;
 }
-inline void GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value) {
+inline void GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FormattedFloatListSettingsController*>::get(), "add_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::FormattedFloatListSettingsController::remove_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>* value) {
+inline void GlobalNamespace::FormattedFloatListSettingsController::remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FormattedFloatListSettingsController*>::get(), "remove_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::FormattedFloatListSettingsController*, float_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t GlobalNamespace::FormattedFloatListSettingsController::get_value() {

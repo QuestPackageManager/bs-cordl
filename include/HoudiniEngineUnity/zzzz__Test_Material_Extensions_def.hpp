@@ -109,7 +109,7 @@ public:
   static inline ::HoudiniEngineUnity::Test_Material* ToTestObject(::UnityEngine::Material* self);
 
   /// @brief Method ToTestObject, addr 0x3a99514, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Material*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Material*>* self);
+  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Material*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* self);
 
 protected:
   // Ctor Parameters []

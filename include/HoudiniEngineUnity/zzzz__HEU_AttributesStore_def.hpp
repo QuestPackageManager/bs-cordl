@@ -208,8 +208,8 @@ public:
   /// @brief Field _vertexIndices, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__vertexIndices, put = __cordl_internal_set__vertexIndices)) ::ArrayW<int32_t, ::Array<int32_t>*> _vertexIndices;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*() noexcept;
 
   /// @brief Method AddAttributeValueFloat, addr 0x3a39a20, size 0x94, virtual false, abstract: false, final false
   static inline void AddAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
@@ -490,8 +490,9 @@ public:
   /// @brief Method get_PartID, addr 0x3a36f20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PartID();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_AttributesStore__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*
+  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AttributesStore__() noexcept;
 
 protected:
   // Ctor Parameters []

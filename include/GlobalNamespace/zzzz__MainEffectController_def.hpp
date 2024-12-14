@@ -101,13 +101,13 @@ public:
   inline void _ctor();
 
   /// @brief Method add_afterImageEffectEvent, addr 0x40814e0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
+  inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
   /// @brief Method get_fadeValue, addr 0x4081640, size 0x48, virtual false, abstract: false, final false
   inline float_t get_fadeValue();
 
   /// @brief Method remove_afterImageEffectEvent, addr 0x4081590, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
+  inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
 protected:
   // Ctor Parameters []

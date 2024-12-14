@@ -78,7 +78,7 @@ public:
       put = __cordl_internal_set__lateScriptableObjectInstallers)) ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* _lateScriptableObjectInstallers;
 
   /// @brief Method GetInjectableMonoBehaviours, addr 0x4b292cc, size 0x4c, virtual true, abstract: false, final false
-  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
+  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
   /// @brief Method GetRootGameObjects, addr 0x4b292a4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
@@ -155,13 +155,13 @@ public:
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* get_LateScriptableObjectInstallers();
 
   /// @brief Method set_LateInstallerPrefabs, addr 0x4b29154, size 0x90, virtual false, abstract: false, final false
-  inline void set_LateInstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* value);
+  inline void set_LateInstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
   /// @brief Method set_LateInstallers, addr 0x4b290bc, size 0x90, virtual false, abstract: false, final false
-  inline void set_LateInstallers(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* value);
+  inline void set_LateInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
   /// @brief Method set_LateScriptableObjectInstallers, addr 0x4b291ec, size 0x90, virtual false, abstract: false, final false
-  inline void set_LateScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>* value);
+  inline void set_LateScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
 protected:
   // Ctor Parameters []

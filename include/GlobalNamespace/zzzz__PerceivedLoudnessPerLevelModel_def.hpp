@@ -48,7 +48,7 @@ public:
   /// @brief Method GetMaxSfxVolumeByLevelId, addr 0x26d3a7c, size 0x18, virtual false, abstract: false, final false
   inline float_t GetMaxSfxVolumeByLevelId(::StringW levelId);
 
-  static inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>* loudnessPerLeveDataList);
+  static inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* loudnessPerLeveDataList);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* const& __cordl_internal_get__loudnessLevelPerLevelId() const;
 
@@ -57,7 +57,7 @@ public:
   constexpr void __cordl_internal_set__loudnessLevelPerLevelId(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
 
   /// @brief Method .ctor, addr 0x26d33e8, size 0x5f8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>* loudnessPerLeveDataList);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* loudnessPerLeveDataList);
 
 protected:
   // Ctor Parameters []

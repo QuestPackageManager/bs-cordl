@@ -2051,14 +2051,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConditionCopyNonLazyBinder* (
-    ::Zenject::FactoryFromBinderBase::*)(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*)>(&::Zenject::FactoryFromBinderBase::FromComponentOn)> {
+    ::Zenject::FactoryFromBinderBase::*)(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*)>(&::Zenject::FactoryFromBinderBase::FromComponentOn)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x4b0245c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryFromBinderBase*>::get(), "FromComponentOn", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -2095,14 +2095,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConditionCopyNonLazyBinder* (
-    ::Zenject::FactoryFromBinderBase::*)(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*)>(&::Zenject::FactoryFromBinderBase::FromNewComponentOn)> {
+    ::Zenject::FactoryFromBinderBase::*)(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*)>(&::Zenject::FactoryFromBinderBase::FromNewComponentOn)> {
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x4b026a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryFromBinderBase*>::get(), "FromNewComponentOn", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -2372,10 +2372,10 @@ inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinderBase::Fr
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal_method, gameObject);
 }
-inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinderBase::FromComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter) {
+inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinderBase::FromComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryFromBinderBase*>::get(), "FromComponentOn", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal_method, gameObjectGetter);
 }
 inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinderBase::FromComponentOnRoot() {
@@ -2389,10 +2389,10 @@ inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinderBase::Fr
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal_method, gameObject);
 }
-inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinderBase::FromNewComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter) {
+inline ::Zenject::ConditionCopyNonLazyBinder* Zenject::FactoryFromBinderBase::FromNewComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FactoryFromBinderBase*>::get(), "FromNewComponentOn", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ConditionCopyNonLazyBinder*, false>(this, ___internal_method, gameObjectGetter);
 }
 inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::FactoryFromBinderBase::FromNewComponentOnNewPrefab(::UnityEngine::Object* prefab) {

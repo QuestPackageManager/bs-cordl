@@ -111,7 +111,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.Diagnostics.DiagnosticEventCollectorSingleton
 class CORDL_TYPE DiagnosticEventCollectorSingleton
-    : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*> {
+    : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton>> {
 public:
   // Declarations
   using __c = ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c;

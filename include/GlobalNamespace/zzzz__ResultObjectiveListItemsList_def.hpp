@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultObjectiveListItemsList);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ResultObjectiveListItemsList
-class CORDL_TYPE ResultObjectiveListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::ResultObjectiveListItem*> {
+class CORDL_TYPE ResultObjectiveListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::ResultObjectiveListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ResultObjectiveListItemsList* New_ctor();

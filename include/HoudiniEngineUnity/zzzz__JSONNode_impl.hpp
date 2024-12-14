@@ -1210,6 +1210,20 @@ constexpr ::System::IDisposable* HoudiniEngineUnity::JSONNode__get_DeepChildren_
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSONNode__get_DeepChildren_d__42::JSONNode__get_DeepChildren_d__42() {}
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONNode.get_Tag
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNodeType (::HoudiniEngineUnity::JSONNode::*)()>(&::HoudiniEngineUnity::JSONNode::get_Tag)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONNode*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONNode*>::get(), 4));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::HoudiniEngineUnity::JSONNode.get_Item
 template <>
 
@@ -1552,6 +1566,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONNode*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONNode*>::get(), 26));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONNode.WriteToStringBuilder
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONNode::*)(
+    ::System::Text::StringBuilder*, int32_t, int32_t, ::HoudiniEngineUnity::JSONTextMode)>(&::HoudiniEngineUnity::JSONNode::WriteToStringBuilder)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONNode*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONNode*>::get(), 27));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONNode.GetEnumerator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode_Enumerator (::HoudiniEngineUnity::JSONNode::*)()>(
+    &::HoudiniEngineUnity::JSONNode::GetEnumerator)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONNode*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONNode*>::get(), 28));
     return ___internal_method;
   }
 };

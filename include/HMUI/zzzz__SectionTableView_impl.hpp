@@ -7,6 +7,79 @@
 #include "HMUI/zzzz__TableView_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
+//  Writing Method size for method: ::HMUI::SectionTableView_IDataSource.RowHeight
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::SectionTableView_IDataSource::*)()>(&::HMUI::SectionTableView_IDataSource::RowHeight)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::SectionTableView_IDataSource.NumberOfSections
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::SectionTableView_IDataSource::*)()>(&::HMUI::SectionTableView_IDataSource::NumberOfSections)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::SectionTableView_IDataSource.NumberOfRowsInSection
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::SectionTableView_IDataSource::*)(int32_t)>(
+    &::HMUI::SectionTableView_IDataSource::NumberOfRowsInSection)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::SectionTableView_IDataSource.CellForSectionHeader
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::HMUI::SectionTableView_IDataSource::*)(int32_t, bool)>(
+    &::HMUI::SectionTableView_IDataSource::CellForSectionHeader)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::SectionTableView_IDataSource.CellForRowInSection
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::HMUI::SectionTableView_IDataSource::*)(int32_t, int32_t)>(
+    &::HMUI::SectionTableView_IDataSource::CellForRowInSection)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(), 4));
+    return ___internal_method;
+  }
+};
 inline float_t HMUI::SectionTableView_IDataSource::RowHeight() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView_IDataSource*>::get(), 0)));
@@ -44,7 +117,7 @@ constexpr ::HMUI::SectionTableView_Section::SectionTableView_Section() {}
 //  Writing Method size for method: ::HMUI::SectionTableView.add_didSelectRowInSectionEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*)>(
     &::HMUI::SectionTableView::add_didSelectRowInSectionEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fe8e0;
@@ -52,14 +125,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "add_didSelectRowInSectionEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SectionTableView.remove_didSelectRowInSectionEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*)>(
     &::HMUI::SectionTableView::remove_didSelectRowInSectionEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fe990;
@@ -67,37 +140,37 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "remove_didSelectRowInSectionEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SectionTableView.add_didSelectHeaderEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_2<::HMUI::SectionTableView*, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*)>(
     &::HMUI::SectionTableView::add_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39fea40;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "add_didSelectHeaderEvent", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SectionTableView*, int32_t>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "add_didSelectHeaderEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::SectionTableView.remove_didSelectHeaderEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_2<::HMUI::SectionTableView*, int32_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*)>(
     &::HMUI::SectionTableView::remove_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39feaf0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "remove_didSelectHeaderEvent", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SectionTableView*, int32_t>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "remove_didSelectHeaderEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -341,27 +414,27 @@ constexpr void HMUI::SectionTableView::__cordl_internal_set__unfoldSectionsByDef
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____unfoldSectionsByDefault = value;
 }
-constexpr ::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*& HMUI::SectionTableView::__cordl_internal_get_didSelectRowInSectionEvent() {
+constexpr ::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*& HMUI::SectionTableView::__cordl_internal_get_didSelectRowInSectionEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectRowInSectionEvent;
 }
-constexpr ::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* const& HMUI::SectionTableView::__cordl_internal_get_didSelectRowInSectionEvent() const {
+constexpr ::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* const& HMUI::SectionTableView::__cordl_internal_get_didSelectRowInSectionEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectRowInSectionEvent;
 }
-constexpr void HMUI::SectionTableView::__cordl_internal_set_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* value) {
+constexpr void HMUI::SectionTableView::__cordl_internal_set_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectRowInSectionEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::HMUI::SectionTableView*, int32_t>*& HMUI::SectionTableView::__cordl_internal_get_didSelectHeaderEvent() {
+constexpr ::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*& HMUI::SectionTableView::__cordl_internal_get_didSelectHeaderEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectHeaderEvent;
 }
-constexpr ::System::Action_2<::HMUI::SectionTableView*, int32_t>* const& HMUI::SectionTableView::__cordl_internal_get_didSelectHeaderEvent() const {
+constexpr ::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* const& HMUI::SectionTableView::__cordl_internal_get_didSelectHeaderEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectHeaderEvent;
 }
-constexpr void HMUI::SectionTableView::__cordl_internal_set_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int32_t>* value) {
+constexpr void HMUI::SectionTableView::__cordl_internal_set_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectHeaderEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -389,28 +462,28 @@ constexpr void HMUI::SectionTableView::__cordl_internal_set__sections(::ArrayW<:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void HMUI::SectionTableView::add_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* value) {
+inline void HMUI::SectionTableView::add_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "add_didSelectRowInSectionEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SectionTableView::remove_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* value) {
+inline void HMUI::SectionTableView::remove_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "remove_didSelectRowInSectionEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SectionTableView::add_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "add_didSelectHeaderEvent", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SectionTableView*, int32_t>*>::get() })));
+inline void HMUI::SectionTableView::add_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "add_didSelectHeaderEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::SectionTableView::remove_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "remove_didSelectHeaderEvent", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::SectionTableView*, int32_t>*>::get() })));
+inline void HMUI::SectionTableView::remove_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "remove_didSelectHeaderEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::HMUI::SectionTableView_IDataSource* HMUI::SectionTableView::get_dataSource() {

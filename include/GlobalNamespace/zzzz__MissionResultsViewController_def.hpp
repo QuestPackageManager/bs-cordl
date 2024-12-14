@@ -386,11 +386,11 @@ public:
 
   /// @brief Field continueButtonPressedEvent, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get_continueButtonPressedEvent,
-                      put = __cordl_internal_set_continueButtonPressedEvent)) ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* continueButtonPressedEvent;
+                      put = __cordl_internal_set_continueButtonPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* continueButtonPressedEvent;
 
   /// @brief Field retryButtonPressedEvent, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get_retryButtonPressedEvent,
-                      put = __cordl_internal_set_retryButtonPressedEvent)) ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* retryButtonPressedEvent;
+                      put = __cordl_internal_set_retryButtonPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* retryButtonPressedEvent;
 
   /// @brief Method ContinueButtonPressed, addr 0x3b6ab88, size 0x20, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
@@ -495,13 +495,13 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__successIconGlow();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* const& __cordl_internal_get_continueButtonPressedEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* const& __cordl_internal_get_continueButtonPressedEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& __cordl_internal_get_continueButtonPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*& __cordl_internal_get_continueButtonPressedEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* const& __cordl_internal_get_retryButtonPressedEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* const& __cordl_internal_get_retryButtonPressedEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& __cordl_internal_get_retryButtonPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*& __cordl_internal_get_retryButtonPressedEvent();
 
   constexpr void __cordl_internal_set__clearedBannerGo(::UnityW<::UnityEngine::GameObject> value);
 
@@ -543,24 +543,24 @@ public:
 
   constexpr void __cordl_internal_set__successIconGlow(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr void __cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  constexpr void __cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  constexpr void __cordl_internal_set_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  constexpr void __cordl_internal_set_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
   /// @brief Method .ctor, addr 0x3b6abc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_continueButtonPressedEvent, addr 0x3b6a3d8, size 0xb4, virtual false, abstract: false, final false
-  inline void add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
   /// @brief Method add_retryButtonPressedEvent, addr 0x3b6a540, size 0xb4, virtual false, abstract: false, final false
-  inline void add_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  inline void add_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
   /// @brief Method remove_continueButtonPressedEvent, addr 0x3b6a48c, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
   /// @brief Method remove_retryButtonPressedEvent, addr 0x3b6a5f4, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  inline void remove_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -631,10 +631,10 @@ public:
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
   /// @brief Field continueButtonPressedEvent, offset: 0x110, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* ___continueButtonPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* ___continueButtonPressedEvent;
 
   /// @brief Field retryButtonPressedEvent, offset: 0x118, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* ___retryButtonPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* ___retryButtonPressedEvent;
 
   /// @brief Field _missionNode, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;

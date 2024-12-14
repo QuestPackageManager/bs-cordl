@@ -684,14 +684,14 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::VisualTreeAs
 inline ::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23* UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>"
-constexpr UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+constexpr UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>*
-UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__StyleSheet__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*
+UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__UIElements__StyleSheet__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::operator ::System::Collections::IEnumerable*() noexcept {
@@ -701,14 +701,14 @@ constexpr UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::opera
 constexpr ::System::Collections::IEnumerable* UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>"
-constexpr UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+constexpr UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>*
-UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__StyleSheet__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*
+UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__UIElements__StyleSheet__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::operator ::System::Collections::IEnumerator*() noexcept {
@@ -1029,14 +1029,15 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::VisualTreeAs
 inline ::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19* UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-constexpr UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+constexpr UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::operator ::System::Collections::Generic::IEnumerable_1<
+    ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*
-UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__VisualTreeAsset__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
+UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__UIElements__VisualTreeAsset__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::operator ::System::Collections::IEnumerable*() noexcept {
@@ -1046,14 +1047,15 @@ constexpr UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__
 constexpr ::System::Collections::IEnumerable* UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-constexpr UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+constexpr UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::operator ::System::Collections::Generic::IEnumerator_1<
+    ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*
-UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__VisualTreeAsset__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
+UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__UIElements__VisualTreeAsset__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::operator ::System::Collections::IEnumerator*() noexcept {
@@ -1148,7 +1150,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeAsset.get_templateDependencies
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* (
     ::UnityEngine::UIElements::VisualTreeAsset::*)()>(&::UnityEngine::UIElements::VisualTreeAsset::get_templateDependencies)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x4aa4714;
@@ -1558,7 +1560,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeAsset.ResolveTemplate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualTreeAsset* (::UnityEngine::UIElements::VisualTreeAsset::*)(::StringW)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::VisualTreeAsset> (::UnityEngine::UIElements::VisualTreeAsset::*)(::StringW)>(
     &::UnityEngine::UIElements::VisualTreeAsset::ResolveTemplate)> {
   constexpr static std::size_t size = 0x2b0;
   constexpr static std::size_t addrs = 0x4a8e278;
@@ -1866,10 +1868,10 @@ inline int32_t UnityEngine::UIElements::VisualTreeAsset::GetNextChildSerialNumbe
                                                                              "GetNextChildSerialNumber", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>* UnityEngine::UIElements::VisualTreeAsset::get_templateDependencies() {
+inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* UnityEngine::UIElements::VisualTreeAsset::get_templateDependencies() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
                                                                              "get_templateDependencies", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* UnityEngine::UIElements::VisualTreeAsset::get_stylesheets() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -2054,11 +2056,11 @@ inline bool UnityEngine::UIElements::VisualTreeAsset::TryGetSlotInsertionPoint(i
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, insertionPointId, slotName);
 }
-inline ::UnityEngine::UIElements::VisualTreeAsset* UnityEngine::UIElements::VisualTreeAsset::ResolveTemplate(::StringW templateName) {
+inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> UnityEngine::UIElements::VisualTreeAsset::ResolveTemplate(::StringW templateName) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(), "ResolveTemplate",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualTreeAsset*, false>(this, ___internal_method, templateName);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>, false>(this, ___internal_method, templateName);
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::VisualTreeAsset::Create(::UnityEngine::UIElements::VisualElementAsset* asset,
                                                                                                   ::UnityEngine::UIElements::CreationContext ctx) {

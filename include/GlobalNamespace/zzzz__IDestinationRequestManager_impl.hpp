@@ -3,6 +3,80 @@
 #include "GlobalNamespace/zzzz__IDestinationRequestManager_def.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::IDestinationRequestManager.add_didSendMenuDestinationRequestEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IDestinationRequestManager::*)(::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(
+    &::GlobalNamespace::IDestinationRequestManager::add_didSendMenuDestinationRequestEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IDestinationRequestManager.remove_didSendMenuDestinationRequestEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IDestinationRequestManager::*)(::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(
+    &::GlobalNamespace::IDestinationRequestManager::remove_didSendMenuDestinationRequestEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IDestinationRequestManager.get_currentMenuDestinationRequest
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MenuDestination* (::GlobalNamespace::IDestinationRequestManager::*)()>(
+    &::GlobalNamespace::IDestinationRequestManager::get_currentMenuDestinationRequest)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IDestinationRequestManager.set_currentMenuDestinationRequest
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IDestinationRequestManager::*)(::GlobalNamespace::MenuDestination*)>(
+    &::GlobalNamespace::IDestinationRequestManager::set_currentMenuDestinationRequest)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IDestinationRequestManager.Clear
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IDestinationRequestManager::*)()>(&::GlobalNamespace::IDestinationRequestManager::Clear)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(), 4));
+    return ___internal_method;
+  }
+};
 inline void GlobalNamespace::IDestinationRequestManager::add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IDestinationRequestManager*>::get(), 0)));

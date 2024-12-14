@@ -109,7 +109,7 @@ public:
   static inline ::HoudiniEngineUnity::Test_LODGroup* ToTestObject(::UnityEngine::LODGroup* self);
 
   /// @brief Method ToTestObject, addr 0x3a98ab0, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::LODGroup*>* self);
+  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::LODGroup>>* self);
 
 protected:
   // Ctor Parameters []

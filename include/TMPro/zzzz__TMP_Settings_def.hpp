@@ -214,7 +214,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_warningsDisabled, put = __cordl_internal_set_m_warningsDisabled)) bool m_warningsDisabled;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::TMPro::TMP_Settings* s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::TMPro::TMP_Settings> s_Instance;
 
   /// @brief Method GetCharacters, addr 0x47fd26c, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* GetCharacters(::UnityEngine::TextAsset* file);
@@ -223,7 +223,7 @@ public:
   static inline ::UnityW<::TMPro::TMP_FontAsset> GetFontAsset();
 
   /// @brief Method GetSettings, addr 0x47fd05c, size 0x7c, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_Settings* GetSettings();
+  static inline ::UnityW<::TMPro::TMP_Settings> GetSettings();
 
   /// @brief Method GetSpriteAsset, addr 0x47fd15c, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_SpriteAsset> GetSpriteAsset();
@@ -232,7 +232,7 @@ public:
   static inline ::UnityW<::TMPro::TMP_StyleSheet> GetStyleSheet();
 
   /// @brief Method LoadDefaultSettings, addr 0x47fcf64, size 0xf8, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_Settings* LoadDefaultSettings();
+  static inline ::UnityW<::TMPro::TMP_Settings> LoadDefaultSettings();
 
   /// @brief Method LoadLinebreakingRules, addr 0x47fce18, size 0x10c, virtual false, abstract: false, final false
   static inline void LoadLinebreakingRules();
@@ -428,7 +428,7 @@ public:
   /// @brief Method .ctor, addr 0x47fd390, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::TMPro::TMP_Settings* getStaticF_s_Instance();
+  static inline ::UnityW<::TMPro::TMP_Settings> getStaticF_s_Instance();
 
   /// @brief Method get_autoSizeTextContainer, addr 0x47fcc14, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_autoSizeTextContainer();
@@ -497,7 +497,7 @@ public:
   static inline bool get_getFontFeaturesAtRuntime();
 
   /// @brief Method get_instance, addr 0x47fc984, size 0xcc, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_Settings* get_instance();
+  static inline ::UnityW<::TMPro::TMP_Settings> get_instance();
 
   /// @brief Method get_isTextObjectScaleStatic, addr 0x47fcc30, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_isTextObjectScaleStatic();
@@ -529,7 +529,7 @@ public:
   /// @brief Method get_warningsDisabled, addr 0x47fcb34, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_warningsDisabled();
 
-  static inline void setStaticF_s_Instance(::TMPro::TMP_Settings* value);
+  static inline void setStaticF_s_Instance(::UnityW<::TMPro::TMP_Settings> value);
 
   /// @brief Method set_enableEmojiSupport, addr 0x47fccfc, size 0x24, virtual false, abstract: false, final false
   static inline void set_enableEmojiSupport(bool value);

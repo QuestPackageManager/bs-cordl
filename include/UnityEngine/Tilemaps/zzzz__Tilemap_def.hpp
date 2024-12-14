@@ -174,11 +174,12 @@ public:
   /// @brief Field tilemapPositionsChanged, offset 0xffffffff, size 0x8
   __declspec(property(
       get = getStaticF_tilemapPositionsChanged,
-      put = setStaticF_tilemapPositionsChanged)) ::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* tilemapPositionsChanged;
+      put =
+          setStaticF_tilemapPositionsChanged)) ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* tilemapPositionsChanged;
 
   /// @brief Field tilemapTileChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_tilemapTileChanged, put = setStaticF_tilemapTileChanged)) ::System::Action_2<
-      ::UnityEngine::Tilemaps::Tilemap*, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>* tilemapTileChanged;
+      ::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>* tilemapTileChanged;
 
   /// @brief Method DoPositionsChangedCallback, addr 0x4954700, size 0x4, virtual false, abstract: false, final false
   inline void DoPositionsChangedCallback(int32_t count, ::System::IntPtr positionsIntPtr);
@@ -253,9 +254,9 @@ public:
 
   constexpr void __cordl_internal_set_m_BufferSyncTile(bool value);
 
-  static inline ::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* getStaticF_tilemapPositionsChanged();
+  static inline ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* getStaticF_tilemapPositionsChanged();
 
-  static inline ::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*
+  static inline ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*
   getStaticF_tilemapTileChanged();
 
   /// @brief Method get_bufferSyncTile, addr 0x4953ae4, size 0x8, virtual false, abstract: false, final false
@@ -291,10 +292,10 @@ public:
   /// @brief Method get_tileAnchor_Injected, addr 0x495410c, size 0x44, virtual false, abstract: false, final false
   inline void get_tileAnchor_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  static inline void setStaticF_tilemapPositionsChanged(::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* value);
+  static inline void setStaticF_tilemapPositionsChanged(::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* value);
 
-  static inline void
-  setStaticF_tilemapTileChanged(::System::Action_2<::UnityEngine::Tilemaps::Tilemap*, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>* value);
+  static inline void setStaticF_tilemapTileChanged(
+      ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>* value);
 
 protected:
   // Ctor Parameters []

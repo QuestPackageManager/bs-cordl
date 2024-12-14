@@ -84,7 +84,7 @@ constexpr ::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::EventS
 //  Writing Method size for method: ::UnityEngine::EventSystems::EventSystem.get_current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::EventSystem* (*)()>(&::UnityEngine::EventSystems::EventSystem::get_current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::EventSystems::EventSystem> (*)()>(&::UnityEngine::EventSystems::EventSystem::get_current)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x4ad5bc4;
 
@@ -746,13 +746,13 @@ constexpr void UnityEngine::EventSystems::EventSystem::__cordl_internal_set_m_Is
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsTrackingUIToolkitPanels = value;
 }
-inline void UnityEngine::EventSystems::EventSystem::setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>*, "m_EventSystems",
+inline void UnityEngine::EventSystems::EventSystem::setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*, "m_EventSystems",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* UnityEngine::EventSystems::EventSystem::getStaticF_m_EventSystems() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>*, "m_EventSystems",
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* UnityEngine::EventSystems::EventSystem::getStaticF_m_EventSystems() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*, "m_EventSystems",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get>();
 }
 inline void UnityEngine::EventSystems::EventSystem::setStaticF_s_RaycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value) {
@@ -773,10 +773,10 @@ inline ::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig UnityEng
   return ::cordl_internals::getStaticField<::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig, "s_UIToolkitOverride",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get>();
 }
-inline ::UnityEngine::EventSystems::EventSystem* UnityEngine::EventSystems::EventSystem::get_current() {
+inline ::UnityW<::UnityEngine::EventSystems::EventSystem> UnityEngine::EventSystems::EventSystem::get_current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), "get_current",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::EventSystem*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::EventSystems::EventSystem>, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::EventSystems::EventSystem::set_current(::UnityEngine::EventSystems::EventSystem* value) {
   static auto* ___internal_method = THROW_UNLESS(

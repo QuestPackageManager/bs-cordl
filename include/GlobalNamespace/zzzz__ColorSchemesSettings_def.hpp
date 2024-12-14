@@ -212,7 +212,7 @@ public:
   /// @brief Method GetSelectedColorSchemeIdx, addr 0x26ed8a8, size 0xa0, virtual false, abstract: false, final false
   inline int32_t GetSelectedColorSchemeIdx();
 
-  static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorSchemeSO*>* colorSchemeSOs);
+  static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs);
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
@@ -259,7 +259,7 @@ public:
   constexpr void __cordl_internal_set_didChangeOverrideSettingsEvent(::System::Action* value);
 
   /// @brief Method .ctor, addr 0x26ed52c, size 0x108, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorSchemeSO*>* colorSchemeSOs);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs);
 
   /// @brief Method .ctor, addr 0x26ed2d0, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);

@@ -470,7 +470,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GeneralUtility.GetGameObjectByName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*,
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*,
                                                                                                                           ::StringW)>(&::HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByName)> {
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x3a6b640;
@@ -478,7 +478,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GeneralUtility*>::get(), "GetGameObjectByName", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
@@ -602,7 +602,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GeneralUtility.DestroyBakedGameObjects
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjects)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x3a6bcf4;
@@ -610,14 +610,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GeneralUtility*>::get(), "DestroyBakedGameObjects", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GeneralUtility.DestroyBakedGameObjectsWithEndName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*, ::StringW)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjectsWithEndName)> {
   constexpr static std::size_t size = 0x140;
   constexpr static std::size_t addrs = 0x3a6bcfc;
@@ -625,7 +625,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GeneralUtility*>::get(), "DestroyBakedGameObjectsWithEndName", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
@@ -1130,9 +1130,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_GeneralUtility.FindOrGenerateHandles
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<
-    ::UnityW<::HoudiniEngineUnity::HEU_Handle>>* (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::ByRef<::HoudiniEngineUnity::HAPI_AssetInfo>, int32_t, ::StringW, ::HoudiniEngineUnity::HEU_Parameters*,
-                                                     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>*)>(&::HoudiniEngineUnity::HEU_GeneralUtility::FindOrGenerateHandles)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<
+    ::HoudiniEngineUnity::HEU_Handle>>* (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::ByRef<::HoudiniEngineUnity::HAPI_AssetInfo>, int32_t, ::StringW, ::HoudiniEngineUnity::HEU_Parameters*,
+                                            ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*)>(&::HoudiniEngineUnity::HEU_GeneralUtility::FindOrGenerateHandles)> {
   constexpr static std::size_t size = 0x458;
   constexpr static std::size_t addrs = 0x3a6ea88;
 
@@ -1143,7 +1143,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_AssetInfo>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Parameters*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1717,10 +1717,11 @@ inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*, false>(nullptr, ___internal_method, parentGO);
 }
-inline ::UnityW<::UnityEngine::GameObject> HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByName(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* goList, ::StringW name) {
+inline ::UnityW<::UnityEngine::GameObject> HoudiniEngineUnity::HEU_GeneralUtility::GetGameObjectByName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* goList,
+                                                                                                       ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GeneralUtility*>::get(), "GetGameObjectByName", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, goList, name);
 }
@@ -1791,16 +1792,17 @@ inline void HoudiniEngineUnity::HEU_GeneralUtility::DestroyImmediate(::UnityEngi
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, bAllowDestroyingAssets, bRegisterUndo);
 }
-inline void HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy) {
+inline void HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjectsToDestroy) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GeneralUtility*>::get(), "DestroyBakedGameObjects", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, gameObjectsToDestroy);
 }
-inline void HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjectsWithEndName(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy, ::StringW endName) {
+inline void HoudiniEngineUnity::HEU_GeneralUtility::DestroyBakedGameObjectsWithEndName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjectsToDestroy,
+                                                                                       ::StringW endName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GeneralUtility*>::get(), "DestroyBakedGameObjectsWithEndName", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, gameObjectsToDestroy, endName);
 }
@@ -2038,14 +2040,14 @@ inline bool HoudiniEngineUnity::HEU_GeneralUtility::IsInCameraView(::UnityEngine
 inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*
 HoudiniEngineUnity::HEU_GeneralUtility::FindOrGenerateHandles(::HoudiniEngineUnity::HEU_SessionBase* session, ::ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo, int32_t assetID,
                                                               ::StringW assetName, ::HoudiniEngineUnity::HEU_Parameters* parameters,
-                                                              ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>* currentHandles) {
+                                                              ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* currentHandles) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GeneralUtility*>::get(), "FindOrGenerateHandles", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_AssetInfo>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Parameters*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*, false>(nullptr, ___internal_method, session, assetInfo, assetID,
                                                                                                                                          assetName, parameters, currentHandles);
 }

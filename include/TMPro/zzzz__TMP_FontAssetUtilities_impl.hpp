@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::TMPro::TMP_Character* (*)(uint32_t, ::TMPro::TMP_FontAsset*, ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*, bool, ::TMPro::FontStyles, ::TMPro::FontWeight,
-                                            ::ByRef<bool>)>(&::TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAssets)> {
+    static_cast<::TMPro::TMP_Character* (*)(uint32_t, ::TMPro::TMP_FontAsset*, ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*, bool, ::TMPro::FontStyles,
+                                            ::TMPro::FontWeight, ::ByRef<bool>)>(&::TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAssets)> {
   constexpr static std::size_t size = 0x25c;
   constexpr static std::size_t addrs = 0x47d4454;
 
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontAssetUtilities*>::get(), "GetCharacterFromFontAssets", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::FontStyles>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::FontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
@@ -174,12 +174,12 @@ inline ::TMPro::TMP_Character* TMPro::TMP_FontAssetUtilities::GetCharacterFromFo
   return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_Character*, false>(nullptr, ___internal_method, unicode, sourceFontAsset, includeFallbacks, fontStyle, fontWeight, isAlternativeTypeface);
 }
 inline ::TMPro::TMP_Character* TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAssets(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset,
-                                                                                         ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fontAssets, bool includeFallbacks,
+                                                                                         ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets, bool includeFallbacks,
                                                                                          ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight, ::ByRef<bool> isAlternativeTypeface) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontAssetUtilities*>::get(), "GetCharacterFromFontAssets", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::FontStyles>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::FontWeight>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));

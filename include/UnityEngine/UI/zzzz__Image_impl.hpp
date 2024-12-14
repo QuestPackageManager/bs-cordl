@@ -1343,13 +1343,13 @@ inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> UnityE
   return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "s_Uv",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Image*>::get>();
 }
-inline void UnityEngine::UI::Image::setStaticF_m_TrackedTexturelessImages(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*, "m_TrackedTexturelessImages",
+inline void UnityEngine::UI::Image::setStaticF_m_TrackedTexturelessImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*, "m_TrackedTexturelessImages",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Image*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* UnityEngine::UI::Image::getStaticF_m_TrackedTexturelessImages() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*, "m_TrackedTexturelessImages",
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* UnityEngine::UI::Image::getStaticF_m_TrackedTexturelessImages() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*, "m_TrackedTexturelessImages",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Image*>::get>();
 }
 inline void UnityEngine::UI::Image::setStaticF_s_Initialized(bool value) {

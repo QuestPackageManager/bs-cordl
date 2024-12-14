@@ -223,11 +223,11 @@ public:
   /// @brief Field obj, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj)) ::UnityW<::UnityEngine::GameObject> obj;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -303,11 +303,11 @@ public:
   /// @brief Method .ctor, addr 0x4af5f3c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__GameObject__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__GameObject__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__GameObject__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>* i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__GameObject__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -402,11 +402,11 @@ public:
   /// @brief Field obj, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj)) ::UnityW<::UnityEngine::GameObject> obj;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -482,11 +482,11 @@ public:
   /// @brief Method .ctor, addr 0x4af5e98, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__GameObject__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__GameObject__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__GameObject__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>* i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__GameObject__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -581,11 +581,11 @@ public:
   /// @brief Field transform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -661,11 +661,11 @@ public:
   /// @brief Method .ctor, addr 0x4af5b68, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__Transform__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__Transform__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__Transform__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>* i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__Transform__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -760,11 +760,11 @@ public:
   /// @brief Field transform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -840,11 +840,11 @@ public:
   /// @brief Method .ctor, addr 0x4af5b9c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__Transform__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__Transform__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__Transform__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>* i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__Transform__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;

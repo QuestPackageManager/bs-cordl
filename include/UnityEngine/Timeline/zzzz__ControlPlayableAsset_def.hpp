@@ -119,11 +119,11 @@ public:
   /// @brief Field root, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root)) ::UnityW<::UnityEngine::GameObject> root;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -202,11 +202,11 @@ public:
   /// @brief Method .ctor, addr 0x4820fd4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__MonoBehaviour__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__MonoBehaviour__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__MonoBehaviour__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__MonoBehaviour__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -362,7 +362,7 @@ public:
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
   /// @brief Method CacheSubEmitters, addr 0x48211fc, size 0x114, virtual false, abstract: false, final false
-  static inline void CacheSubEmitters(::UnityEngine::ParticleSystem* ps, ::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>* subEmitters);
+  static inline void CacheSubEmitters(::UnityEngine::ParticleSystem* ps, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>* subEmitters);
 
   /// @brief Method ConnectMixerAndPlayable, addr 0x4820ca4, size 0xc8, virtual false, abstract: false, final false
   static inline void ConnectMixerAndPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable mixer, ::UnityEngine::Playables::Playable playable, int32_t portIndex);
@@ -391,8 +391,8 @@ public:
   inline ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>* GetControllableParticleSystems(::UnityEngine::GameObject* go);
 
   /// @brief Method GetControllableParticleSystems, addr 0x4821014, size 0x1e8, virtual false, abstract: false, final false
-  static inline void GetControllableParticleSystems(::UnityEngine::Transform* t, ::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>* roots,
-                                                    ::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>* subEmitters);
+  static inline void GetControllableParticleSystems(::UnityEngine::Transform* t, ::System::Collections::Generic::ICollection_1<::UnityW<::UnityEngine::ParticleSystem>>* roots,
+                                                    ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>* subEmitters);
 
   static inline ::UnityEngine::Timeline::ControlPlayableAsset* New_ctor();
 
@@ -400,34 +400,36 @@ public:
   inline void OnEnable();
 
   /// @brief Method PreviewActivation, addr 0x4821a4c, size 0x378, virtual false, abstract: false, final false
-  static inline void PreviewActivation(::UnityEngine::Timeline::IPropertyCollector* driver, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* objects);
+  static inline void PreviewActivation(::UnityEngine::Timeline::IPropertyCollector* driver, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* objects);
 
   /// @brief Method PreviewDirectors, addr 0x48221dc, size 0x3c4, virtual false, abstract: false, final false
-  static inline void PreviewDirectors(::UnityEngine::Timeline::IPropertyCollector* driver, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>* directors);
+  static inline void PreviewDirectors(::UnityEngine::Timeline::IPropertyCollector* driver,
+                                      ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* directors);
 
   /// @brief Method PreviewParticles, addr 0x48215f8, size 0x454, virtual false, abstract: false, final false
-  static inline void PreviewParticles(::UnityEngine::Timeline::IPropertyCollector* driver, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>* particles);
+  static inline void PreviewParticles(::UnityEngine::Timeline::IPropertyCollector* driver, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>* particles);
 
   /// @brief Method PreviewTimeControl, addr 0x4821dc4, size 0x418, virtual false, abstract: false, final false
   static inline void PreviewTimeControl(::UnityEngine::Timeline::IPropertyCollector* driver, ::UnityEngine::Playables::PlayableDirector* director,
-                                        ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* scripts);
+                                        ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* scripts);
 
   /// @brief Method SearchHierarchyAndConnectControlableScripts, addr 0x4820718, size 0x424, virtual false, abstract: false, final false
-  static inline void SearchHierarchyAndConnectControlableScripts(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* controlableScripts,
+  static inline void SearchHierarchyAndConnectControlableScripts(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* controlableScripts,
                                                                  ::UnityEngine::Playables::PlayableGraph graph,
                                                                  ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables);
 
   /// @brief Method SearchHierarchyAndConnectDirector, addr 0x481fdd4, size 0x4a4, virtual false, abstract: false, final false
-  inline void SearchHierarchyAndConnectDirector(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>* directors, ::UnityEngine::Playables::PlayableGraph graph,
-                                                ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables, bool disableSelfReferences);
+  inline void SearchHierarchyAndConnectDirector(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* directors,
+                                                ::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables,
+                                                bool disableSelfReferences);
 
   /// @brief Method SearchHierarchyAndConnectParticleSystem, addr 0x4820278, size 0x430, virtual false, abstract: false, final false
-  inline void SearchHierarchyAndConnectParticleSystem(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>* particleSystems, ::UnityEngine::Playables::PlayableGraph graph,
-                                                      ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables);
+  inline void SearchHierarchyAndConnectParticleSystem(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>* particleSystems,
+                                                      ::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables);
 
   /// @brief Method UpdateDurationAndLoopFlag, addr 0x481f368, size 0x918, virtual false, abstract: false, final false
-  inline void UpdateDurationAndLoopFlag(::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>* directors,
-                                        ::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>* particleSystems);
+  inline void UpdateDurationAndLoopFlag(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* directors,
+                                        ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>* particleSystems);
 
   constexpr bool const& __cordl_internal_get__controllingDirectors_k__BackingField() const;
 

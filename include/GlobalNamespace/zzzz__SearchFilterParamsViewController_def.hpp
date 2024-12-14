@@ -114,7 +114,7 @@ public:
 
   /// @brief Field didFinishEvent, offset 0x150, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* didFinishEvent;
 
   /// @brief Method DidActivate, addr 0x3b63790, size 0x24c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -217,9 +217,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown>& __cordl_internal_get__songPacksDropdown();
 
-  constexpr ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__beatmapCharacteristicsDropdown(::UnityW<::GlobalNamespace::BeatmapCharacteristicsDropdown> value);
 
@@ -257,16 +257,16 @@ public:
 
   constexpr void __cordl_internal_set__songPacksDropdown(::UnityW<::GlobalNamespace::SongPacksDropdown> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
   /// @brief Method .ctor, addr 0x3b63ed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b63298, size 0xb4, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3b6334c, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
 protected:
   // Ctor Parameters []
@@ -340,7 +340,7 @@ public:
   ::GlobalNamespace::LevelFilter ____currentSearchFilter;
 
   /// @brief Field didFinishEvent, offset: 0x150, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -163,30 +163,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::VRController.add_anchorUpdateEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::VRController::*)(::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>*)>(&::GlobalNamespace::VRController::add_anchorUpdateEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*)>(&::GlobalNamespace::VRController::add_anchorUpdateEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39d2160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRController*>::get(), "add_anchorUpdateEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::VRController.remove_anchorUpdateEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::VRController::*)(::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>*)>(&::GlobalNamespace::VRController::remove_anchorUpdateEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRController::*)(
+    ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*)>(&::GlobalNamespace::VRController::remove_anchorUpdateEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x39d2210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRController*>::get(), "remove_anchorUpdateEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*>::get() })));
     return ___internal_method;
   }
 };
@@ -466,15 +466,15 @@ constexpr void GlobalNamespace::VRController::__cordl_internal_set__vrPlatformHe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>*& GlobalNamespace::VRController::__cordl_internal_get_anchorUpdateEvent() {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*& GlobalNamespace::VRController::__cordl_internal_get_anchorUpdateEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anchorUpdateEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* const& GlobalNamespace::VRController::__cordl_internal_get_anchorUpdateEvent() const {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* const& GlobalNamespace::VRController::__cordl_internal_get_anchorUpdateEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anchorUpdateEvent;
 }
-constexpr void GlobalNamespace::VRController::__cordl_internal_set_anchorUpdateEvent(::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* value) {
+constexpr void GlobalNamespace::VRController::__cordl_internal_set_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___anchorUpdateEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -585,16 +585,16 @@ inline ::UnityW<::UnityEngine::Transform> GlobalNamespace::VRController::get_vie
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::VRController::add_anchorUpdateEvent(::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* value) {
+inline void GlobalNamespace::VRController::add_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRController*>::get(), "add_anchorUpdateEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::VRController::remove_anchorUpdateEvent(::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* value) {
+inline void GlobalNamespace::VRController::remove_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRController*>::get(), "remove_anchorUpdateEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::VRController::get_mouseMode() {

@@ -762,12 +762,12 @@ public:
   inline void StartBeatmapEditor(::System::Action* beatmapEditorFinishedCallback);
 
   /// @brief Method StartBeatmapEditorStandardLevel, addr 0x3b3c688, size 0x4, virtual false, abstract: false, final false
-  inline void
-  StartBeatmapEditorStandardLevel(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                  ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                  ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
-                                  ::ByRef<::GlobalNamespace::BeatmapEditorStartTestLevelData> data, ::System::Action* beforeSceneSwitchCallback,
-                                  ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
+  inline void StartBeatmapEditorStandardLevel(
+      ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+      ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
+      ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::ByRef<::GlobalNamespace::BeatmapEditorStartTestLevelData> data,
+      ::System::Action* beforeSceneSwitchCallback,
+      ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
 
   /// @brief Method StartMissionLevel, addr 0x3b3ba58, size 0x194, virtual false, abstract: false, final false
   inline void StartMissionLevel(::StringW missionId, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
@@ -775,8 +775,8 @@ public:
                                 ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives,
                                 ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                                 ::System::Action* beforeSceneSwitchCallback,
-                                ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback,
-                                ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback);
+                                ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback,
+                                ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback);
 
   /// @brief Method StartMultiplayerLevel, addr 0x3b3c014, size 0x1f0, virtual false, abstract: false, final false
   inline void StartMultiplayerLevel(::StringW gameMode, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
@@ -784,7 +784,7 @@ public:
                                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                     ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText, bool useTestNoteCutSoundEffects, ::System::Action* beforeSceneSwitchCallback,
                                     ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchCallback,
-                                    ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
+                                    ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
                                     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
 
   /// @brief Method StartMultiplayerLevel, addr 0x3b3bfd8, size 0x3c, virtual false, abstract: false, final false
@@ -792,7 +792,7 @@ public:
                                     ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                     ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText, bool useTestNoteCutSoundEffects, ::System::Action* beforeSceneSwitchCallback,
-                                    ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
+                                    ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
                                     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
 
   /// @brief Method StartStandardLevel, addr 0x3b3b8b0, size 0x1a8, virtual false, abstract: false, final false
@@ -802,8 +802,8 @@ public:
                                  ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                  ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::StringW backButtonText,
                                  bool useTestNoteCutSoundEffects, bool startPaused, ::System::Action* beforeSceneSwitchCallback, ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchCallback,
-                                 ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
-                                 ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
+                                 ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
+                                 ::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
                                  ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData);
 
   /// @brief Method StartStandardLevel, addr 0x3b3b588, size 0x1a0, virtual false, abstract: false, final false
@@ -813,8 +813,8 @@ public:
                                  ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                                  ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
                                  ::System::Action* beforeSceneSwitchToGameplayCallback, ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchToGameplayCallback,
-                                 ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
-                                 ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
+                                 ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
+                                 ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
                                  ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData);
 
   /// @brief Method StartTutorial, addr 0x3b3c3e4, size 0x100, virtual false, abstract: false, final false

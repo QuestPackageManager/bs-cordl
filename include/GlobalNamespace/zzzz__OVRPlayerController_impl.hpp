@@ -13,7 +13,7 @@
 //  Writing Method size for method: ::GlobalNamespace::OVRPlayerController.add_TransformUpdated
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityEngine::Transform*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRPlayerController::add_TransformUpdated)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x403c11c;
@@ -21,14 +21,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_TransformUpdated", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRPlayerController.remove_TransformUpdated
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityEngine::Transform*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlayerController::*)(::System::Action_1<::UnityW<::UnityEngine::Transform>>*)>(
     &::GlobalNamespace::OVRPlayerController::remove_TransformUpdated)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x403c1cc;
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_TransformUpdated", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -865,16 +865,16 @@ constexpr void GlobalNamespace::OVRPlayerController::__cordl_internal_set_player
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playerControllerEnabled = value;
 }
-inline void GlobalNamespace::OVRPlayerController::add_TransformUpdated(::System::Action_1<::UnityEngine::Transform*>* value) {
+inline void GlobalNamespace::OVRPlayerController::add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "add_TransformUpdated", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::OVRPlayerController::remove_TransformUpdated(::System::Action_1<::UnityEngine::Transform*>* value) {
+inline void GlobalNamespace::OVRPlayerController::remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlayerController*>::get(), "remove_TransformUpdated", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Transform*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Transform>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::OVRPlayerController::add_CameraUpdated(::System::Action* value) {

@@ -503,8 +503,8 @@ public:
   /// @brief Field _volumeLayerName, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__volumeLayerName, put = __cordl_internal_set__volumeLayerName)) ::StringW _volumeLayerName;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*() noexcept;
 
   /// @brief Method AppendBakedCloneName, addr 0x3a34668, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW AppendBakedCloneName(::StringW name);
@@ -515,21 +515,22 @@ public:
   /// @brief Method BakePartToGameObject, addr 0x3a34798, size 0x7d8, virtual false, abstract: false, final false
   static inline void BakePartToGameObject(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName, bool bIsInstancer,
                                           bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath,
-                                          ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                          ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
+                                          ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+                                          ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
                                           ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
 
   /// @brief Method BakePartToGameObject, addr 0x3a346b4, size 0xe4, virtual false, abstract: false, final false
   inline void BakePartToGameObject(::UnityEngine::GameObject* targetGO, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase,
-                                   ::ByRef<::StringW> bakedAssetPath, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                   ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
+                                   ::ByRef<::StringW> bakedAssetPath, ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+                                   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
                                    ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
 
   /// @brief Method BakePartToNewGameObject, addr 0x3a34528, size 0x140, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> BakePartToNewGameObject(::UnityEngine::Transform* parentTransform, bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath,
-                                                                     ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                                                     ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
-                                                                     ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances);
+  inline ::UnityW<::UnityEngine::GameObject>
+  BakePartToNewGameObject(::UnityEngine::Transform* parentTransform, bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath,
+                          ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+                          ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
+                          ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances);
 
   /// @brief Method CalculateColliderState, addr 0x3a31fe4, size 0x2ec, virtual false, abstract: false, final false
   inline void CalculateColliderState();
@@ -557,15 +558,15 @@ public:
 
   /// @brief Method CopyChildGameObjects, addr 0x3a34110, size 0x410, virtual false, abstract: false, final false
   static inline void CopyChildGameObjects(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName,
-                                          ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                          ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials, bool bWriteMeshesToAssetDatabase,
-                                          ::ByRef<::StringW> bakedAssetPath, ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bDeleteExistingComponents,
-                                          bool bDontDeletePersistantResources, bool bKeepPreviousTransformValues);
+                                          ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+                                          ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
+                                          bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath, ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName,
+                                          bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bKeepPreviousTransformValues);
 
   /// @brief Method CopyGameObjectComponents, addr 0x3a322d0, size 0x1e40, virtual false, abstract: false, final false
   static inline void CopyGameObjectComponents(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName,
-                                              ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* sourceToTargetMeshMap,
-                                              ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* sourceToCopiedMaterials,
+                                              ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
+                                              ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
                                               bool bWriteMeshesToAssetDatabase, ::ByRef<::StringW> bakedAssetPath, ::ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName,
                                               bool bDeleteExistingComponents, bool bDontDeletePersistantResources,
                                               ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* lodTransformValues);
@@ -589,7 +590,7 @@ public:
   static inline void DestroyPart(::HoudiniEngineUnity::HEU_PartData* part);
 
   /// @brief Method DestroyParts, addr 0x3a36074, size 0xd4, virtual false, abstract: false, final false
-  static inline void DestroyParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* parts);
+  static inline void DestroyParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* parts);
 
   /// @brief Method GenerateAttributesStore, addr 0x3a31c74, size 0xb4, virtual false, abstract: false, final false
   inline void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);
@@ -614,10 +615,10 @@ public:
   inline void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method GetClonableObjects, addr 0x3a3061c, size 0xfc, virtual false, abstract: false, final false
-  inline void GetClonableObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* clonableObjects);
+  inline void GetClonableObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* clonableObjects);
 
   /// @brief Method GetClonableParts, addr 0x3a30718, size 0xf4, virtual false, abstract: false, final false
-  inline void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts);
+  inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
 
   /// @brief Method GetCurve, addr 0x3a31d28, size 0x98, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> GetCurve(bool bEditableOnly);
@@ -626,7 +627,7 @@ public:
   inline void GetDebugInfo(::System::Text::StringBuilder* sb);
 
   /// @brief Method GetHDAPartWithGameObject, addr 0x3a309bc, size 0x84, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_PartData* GetHDAPartWithGameObject(::UnityEngine::GameObject* inGameObject);
+  inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetHDAPartWithGameObject(::UnityEngine::GameObject* inGameObject);
 
   /// @brief Method GetObjectInstanceInfoWithObjectID, addr 0x3a31250, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo> GetObjectInstanceInfoWithObjectID(int32_t objNodeID);
@@ -641,7 +642,7 @@ public:
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
   /// @brief Method GetOutputGameObjects, addr 0x3a3080c, size 0xfc, virtual false, abstract: false, final false
-  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method GetPartPointCount, addr 0x3a2fb30, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPartPointCount();
@@ -693,7 +694,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_PartData* New_ctor();
 
   /// @brief Method PopulateObjectInstanceInfos, addr 0x3a2f08c, size 0x58, virtual false, abstract: false, final false
-  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos);
+  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos);
 
   /// @brief Method ProcessCurvePart, addr 0x3a34f80, size 0x130, virtual false, abstract: false, final false
   inline void ProcessCurvePart(::HoudiniEngineUnity::HEU_SessionBase* session);
@@ -708,7 +709,7 @@ public:
   inline void SetGameObjectName(::StringW partName);
 
   /// @brief Method SetObjectInstanceInfos, addr 0x3a35ce8, size 0x168, virtual false, abstract: false, final false
-  inline void SetObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* sourceObjectInstanceInfos);
+  inline void SetObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* sourceObjectInstanceInfos);
 
   /// @brief Method SetObjectInstancer, addr 0x3a30a40, size 0xc, virtual false, abstract: false, final false
   inline void SetObjectInstancer(bool bObjectInstancer);
@@ -893,8 +894,8 @@ public:
   /// @brief Method get_PartName, addr 0x3a2fa4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PartName();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_PartData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_PartData__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_PartData__() noexcept;
 
   /// @brief Method set_ObjectInstancesBeenGenerated, addr 0x3a2fb48, size 0xc, virtual false, abstract: false, final false
   inline void set_ObjectInstancesBeenGenerated(bool value);

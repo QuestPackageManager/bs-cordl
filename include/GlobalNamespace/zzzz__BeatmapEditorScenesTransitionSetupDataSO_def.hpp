@@ -26,7 +26,7 @@ public:
 
   /// @brief Field didFinishEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* didFinishEvent;
 
   __declspec(property(get = get_goStraightToEditor, put = set_goStraightToEditor)) bool goStraightToEditor;
 
@@ -42,25 +42,25 @@ public:
 
   constexpr bool& __cordl_internal_get__goStraightToEditor_k__BackingField();
 
-  constexpr ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__goStraightToEditor_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
   /// @brief Method .ctor, addr 0x3b3a2a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b3a09c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
   /// @brief Method get_goStraightToEditor, addr 0x3b3a1fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_goStraightToEditor();
 
   /// @brief Method remove_didFinishEvent, addr 0x3b3a14c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
   /// @brief Method set_goStraightToEditor, addr 0x3b3a204, size 0xc, virtual false, abstract: false, final false
   inline void set_goStraightToEditor(bool value);
@@ -83,7 +83,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5248 };
 
   /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* ___didFinishEvent;
 
   /// @brief Field <goStraightToEditor>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____goStraightToEditor_k__BackingField;

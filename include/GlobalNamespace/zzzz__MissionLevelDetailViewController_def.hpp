@@ -166,7 +166,7 @@ public:
 
   /// @brief Field didPressPlayButtonEvent, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressPlayButtonEvent,
-                      put = __cordl_internal_set_didPressPlayButtonEvent)) ::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* didPressPlayButtonEvent;
+                      put = __cordl_internal_set_didPressPlayButtonEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* didPressPlayButtonEvent;
 
   __declspec(property(get = get_missionNode)) ::UnityW<::GlobalNamespace::MissionNode> missionNode;
 
@@ -212,9 +212,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__playButton();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* const& __cordl_internal_get_didPressPlayButtonEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* const& __cordl_internal_get_didPressPlayButtonEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>*& __cordl_internal_get_didPressPlayButtonEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>*& __cordl_internal_get_didPressPlayButtonEvent();
 
   constexpr void __cordl_internal_set__gameplayModifierInfoListItemsList(::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> value);
 
@@ -230,19 +230,19 @@ public:
 
   constexpr void __cordl_internal_set__playButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* value);
+  constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
   /// @brief Method .ctor, addr 0x3c18e40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didPressPlayButtonEvent, addr 0x3c189b8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* value);
+  inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
   /// @brief Method get_missionNode, addr 0x3c18b18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_missionNode();
 
   /// @brief Method remove_didPressPlayButtonEvent, addr 0x3c18a68, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* value);
+  inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -280,7 +280,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ____modifiersPanelGO;
 
   /// @brief Field didPressPlayButtonEvent, offset: 0xa8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionLevelDetailViewController*>* ___didPressPlayButtonEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* ___didPressPlayButtonEvent;
 
   /// @brief Field _missionNode, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;

@@ -104,7 +104,7 @@ public:
   static inline void PrepareRenderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* pipelineAsset);
 
   /// @brief Method add_beginCameraRendering, addr 0x48c6810, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>* value);
+  static inline void add_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* value);
 
   static inline ::System::Action_2<::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>, ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>>* getStaticF_activeRenderPipelineAssetChanged();
 
@@ -128,7 +128,7 @@ public:
   static inline ::UnityEngine::Rendering::RenderPipeline* get_currentPipeline();
 
   /// @brief Method remove_beginCameraRendering, addr 0x48c6904, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>* value);
+  static inline void remove_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* value);
 
   static inline void
   setStaticF_activeRenderPipelineAssetChanged(::System::Action_2<::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>, ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>>* value);

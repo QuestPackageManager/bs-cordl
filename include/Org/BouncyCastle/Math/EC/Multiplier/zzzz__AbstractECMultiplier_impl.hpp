@@ -22,6 +22,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier.MultiplyPositive
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
+    ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(
+    &::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::MultiplyPositive)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier*>::get(), 6));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier.CheckResult
 template <>
 

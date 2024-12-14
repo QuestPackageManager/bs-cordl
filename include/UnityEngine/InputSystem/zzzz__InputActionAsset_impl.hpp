@@ -812,7 +812,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset.FromJson
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionAsset* (*)(::StringW)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionAsset> (*)(::StringW)>(
     &::UnityEngine::InputSystem::InputActionAsset::FromJson)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x453efdc;
@@ -1265,11 +1265,11 @@ inline void UnityEngine::InputSystem::InputActionAsset::LoadFromJson(::StringW j
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, json);
 }
-inline ::UnityEngine::InputSystem::InputActionAsset* UnityEngine::InputSystem::InputActionAsset::FromJson(::StringW json) {
+inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> UnityEngine::InputSystem::InputActionAsset::FromJson(::StringW json) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(), "FromJson", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionAsset*, false>(nullptr, ___internal_method, json);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::InputSystem::InputActionAsset>, false>(nullptr, ___internal_method, json);
 }
 inline ::UnityEngine::InputSystem::InputAction* UnityEngine::InputSystem::InputActionAsset::FindAction(::StringW actionNameOrId, bool throwIfNotFound) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

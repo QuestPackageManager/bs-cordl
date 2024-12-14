@@ -118,7 +118,7 @@ public:
       ::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* _environmentTracksTypeMap;
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel*
-  New_ctor(::System::Collections::Generic::IEnumerable_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>* environmentTrackDefinitions);
+  New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* const&
   __cordl_internal_get__environmentTracksTypeMap() const;
@@ -130,7 +130,7 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* value);
 
   /// @brief Method .ctor, addr 0x2280a50, size 0x1a0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*>* environmentTrackDefinitions);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions);
 
   /// @brief Method get_Item, addr 0x2282744, size 0x70, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* get_Item(::GlobalNamespace::EnvironmentInfoSO* type);

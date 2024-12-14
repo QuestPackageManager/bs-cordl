@@ -111,8 +111,8 @@ public:
   __declspec(property(get = __cordl_internal_get__updatedLayers,
                       put = __cordl_internal_set__updatedLayers)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* _updatedLayers;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*() noexcept;
 
   /// @brief Method ApplyPreset, addr 0x3aa1c4c, size 0x2d0, virtual false, abstract: false, final false
   inline bool ApplyPreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* volumeCachePreset);
@@ -190,10 +190,10 @@ public:
   inline void UpdateLayerFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_PartData* part);
 
   /// @brief Method UpdateVolumeCachesFromParts, addr 0x3a9ec58, size 0x8d4, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*
+  static inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*
   UpdateVolumeCachesFromParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoNode* ownerNode,
-                              ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* volumeParts,
-                              ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* volumeCaches);
+                              ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* volumeParts,
+                              ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* volumeCaches);
 
   constexpr ::HoudiniEngineUnity::HEU_DetailProperties* const& __cordl_internal_get__detailProperties() const;
 
@@ -279,8 +279,8 @@ public:
   /// @brief Method get_UIExpanded, addr 0x3a9ec44, size 0x8, virtual false, abstract: false, final false
   inline bool get_UIExpanded();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeCache*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeCache__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_VolumeCache__() noexcept;
 
   /// @brief Method set_IsDirty, addr 0x3a9ec20, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDirty(bool value);

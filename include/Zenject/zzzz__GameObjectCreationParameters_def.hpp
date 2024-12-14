@@ -170,7 +170,7 @@ public:
   inline void set_ParentTransform(::UnityEngine::Transform* value);
 
   /// @brief Method set_ParentTransformGetter, addr 0x4b140c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* value);
+  inline void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* value);
 
   /// @brief Method set_Position, addr 0x4b140dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value);

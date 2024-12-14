@@ -195,11 +195,11 @@ public:
 
   __declspec(property(get = get_faceInfo, put = set_faceInfo)) ::UnityEngine::TextCore::FaceInfo faceInfo;
 
-  __declspec(property(get = get_fallbackFontAssetTable, put = set_fallbackFontAssetTable)) ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fallbackFontAssetTable;
+  __declspec(property(get = get_fallbackFontAssetTable, put = set_fallbackFontAssetTable)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fallbackFontAssetTable;
 
   /// @brief Field fallbackFontAssets, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get_fallbackFontAssets,
-                      put = __cordl_internal_set_fallbackFontAssets)) ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fallbackFontAssets;
+                      put = __cordl_internal_set_fallbackFontAssets)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fallbackFontAssets;
 
   __declspec(property(get = get_fontFeatureTable, put = set_fontFeatureTable)) ::TMPro::TMP_FontFeatureTable* fontFeatureTable;
 
@@ -229,7 +229,7 @@ public:
 
   /// @brief Field k_FontAssets_AtlasTexturesUpdateQueue, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_FontAssets_AtlasTexturesUpdateQueue,
-                      put = setStaticF_k_FontAssets_AtlasTexturesUpdateQueue)) ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* k_FontAssets_AtlasTexturesUpdateQueue;
+                      put = setStaticF_k_FontAssets_AtlasTexturesUpdateQueue)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* k_FontAssets_AtlasTexturesUpdateQueue;
 
   /// @brief Field k_FontAssets_AtlasTexturesUpdateQueueLookup, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_FontAssets_AtlasTexturesUpdateQueueLookup,
@@ -237,7 +237,7 @@ public:
 
   /// @brief Field k_FontAssets_FontFeaturesUpdateQueue, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_FontAssets_FontFeaturesUpdateQueue,
-                      put = setStaticF_k_FontAssets_FontFeaturesUpdateQueue)) ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* k_FontAssets_FontFeaturesUpdateQueue;
+                      put = setStaticF_k_FontAssets_FontFeaturesUpdateQueue)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* k_FontAssets_FontFeaturesUpdateQueue;
 
   /// @brief Field k_FontAssets_FontFeaturesUpdateQueueLookup, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup,
@@ -316,7 +316,7 @@ public:
 
   /// @brief Field m_FallbackFontAssetTable, offset 0x138, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FallbackFontAssetTable,
-                      put = __cordl_internal_set_m_FallbackFontAssetTable)) ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* m_FallbackFontAssetTable;
+                      put = __cordl_internal_set_m_FallbackFontAssetTable)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* m_FallbackFontAssetTable;
 
   /// @brief Field m_FontFeatureTable, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FontFeatureTable, put = __cordl_internal_set_m_FontFeatureTable)) ::TMPro::TMP_FontFeatureTable* m_FontFeatureTable;
@@ -435,11 +435,12 @@ public:
   template <typename T> inline void CopyListDataToArray(::System::Collections::Generic::List_1<T>* srcList, ::ByRef<::ArrayW<T, ::Array<T>*>> dstArray);
 
   /// @brief Method CreateFontAsset, addr 0x47cab84, size 0x7c, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_FontAsset* CreateFontAsset(::UnityEngine::Font* font);
+  static inline ::UnityW<::TMPro::TMP_FontAsset> CreateFontAsset(::UnityEngine::Font* font);
 
   /// @brief Method CreateFontAsset, addr 0x47cac00, size 0x500, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_FontAsset* CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode,
-                                                        int32_t atlasWidth, int32_t atlasHeight, ::TMPro::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
+  static inline ::UnityW<::TMPro::TMP_FontAsset> CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding,
+                                                                 ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
+                                                                 ::TMPro::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
   /// @brief Method GetCharacters, addr 0x47ce948, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW GetCharacters(::TMPro::TMP_FontAsset* fontAsset);
@@ -580,9 +581,9 @@ public:
 
   constexpr float_t& __cordl_internal_get_boldStyle();
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* const& __cordl_internal_get_fallbackFontAssets() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* const& __cordl_internal_get_fallbackFontAssets() const;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*& __cordl_internal_get_fallbackFontAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*& __cordl_internal_get_fallbackFontAssets();
 
   constexpr ::ArrayW<::TMPro::TMP_FontWeightPair, ::Array<::TMPro::TMP_FontWeightPair>*> const& __cordl_internal_get_fontWeights() const;
 
@@ -652,9 +653,9 @@ public:
 
   constexpr ::UnityEngine::TextCore::FaceInfo& __cordl_internal_get_m_FaceInfo();
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* const& __cordl_internal_get_m_FallbackFontAssetTable() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* const& __cordl_internal_get_m_FallbackFontAssetTable() const;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*& __cordl_internal_get_m_FallbackFontAssetTable();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*& __cordl_internal_get_m_FallbackFontAssetTable();
 
   constexpr ::TMPro::TMP_FontFeatureTable* const& __cordl_internal_get_m_FontFeatureTable() const;
 
@@ -762,7 +763,7 @@ public:
 
   constexpr void __cordl_internal_set_boldStyle(float_t value);
 
-  constexpr void __cordl_internal_set_fallbackFontAssets(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* value);
+  constexpr void __cordl_internal_set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
   constexpr void __cordl_internal_set_fontWeights(::ArrayW<::TMPro::TMP_FontWeightPair, ::Array<::TMPro::TMP_FontWeightPair>*> value);
 
@@ -798,7 +799,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FaceInfo(::UnityEngine::TextCore::FaceInfo value);
 
-  constexpr void __cordl_internal_set_m_FallbackFontAssetTable(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* value);
+  constexpr void __cordl_internal_set_m_FallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
   constexpr void __cordl_internal_set_m_FontFeatureTable(::TMPro::TMP_FontFeatureTable* value);
 
@@ -855,11 +856,11 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ClearFontAssetDataMarker();
 
-  static inline ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* getStaticF_k_FontAssets_AtlasTexturesUpdateQueue();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_k_FontAssets_AtlasTexturesUpdateQueue();
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_k_FontAssets_AtlasTexturesUpdateQueueLookup();
 
-  static inline ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* getStaticF_k_FontAssets_FontFeaturesUpdateQueue();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_k_FontAssets_FontFeaturesUpdateQueue();
 
   static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup();
 
@@ -919,7 +920,7 @@ public:
   inline ::UnityEngine::TextCore::FaceInfo get_faceInfo();
 
   /// @brief Method get_fallbackFontAssetTable, addr 0x47cab3c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* get_fallbackFontAssetTable();
+  inline ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* get_fallbackFontAssetTable();
 
   /// @brief Method get_fontFeatureTable, addr 0x47cab2c, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TMP_FontFeatureTable* get_fontFeatureTable();
@@ -955,11 +956,11 @@ public:
 
   static inline void setStaticF_k_ClearFontAssetDataMarker(::Unity::Profiling::ProfilerMarker value);
 
-  static inline void setStaticF_k_FontAssets_AtlasTexturesUpdateQueue(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* value);
+  static inline void setStaticF_k_FontAssets_AtlasTexturesUpdateQueue(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
   static inline void setStaticF_k_FontAssets_AtlasTexturesUpdateQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueue(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* value);
+  static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueue(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
   static inline void setStaticF_k_FontAssets_FontFeaturesUpdateQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
@@ -1010,7 +1011,7 @@ public:
   inline void set_faceInfo(::UnityEngine::TextCore::FaceInfo value);
 
   /// @brief Method set_fallbackFontAssetTable, addr 0x47cab44, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackFontAssetTable(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* value);
+  inline void set_fallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
   /// @brief Method set_fontFeatureTable, addr 0x47cab34, size 0x8, virtual false, abstract: false, final false
   inline void set_fontFeatureTable(::TMPro::TMP_FontFeatureTable* value);
@@ -1129,10 +1130,10 @@ public:
   ::TMPro::TMP_FontFeatureTable* ___m_FontFeatureTable;
 
   /// @brief Field fallbackFontAssets, offset: 0x130, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* ___fallbackFontAssets;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ___fallbackFontAssets;
 
   /// @brief Field m_FallbackFontAssetTable, offset: 0x138, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* ___m_FallbackFontAssetTable;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ___m_FallbackFontAssetTable;
 
   /// @brief Field m_CreationSettings, offset: 0x140, size: 0x58, def value: None
   ::TMPro::FontAssetCreationSettings ___m_CreationSettings;

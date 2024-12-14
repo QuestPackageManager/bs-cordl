@@ -1227,12 +1227,12 @@ inline void UnityEngine::GUISkin::setStaticF_m_SkinChanged(::UnityEngine::GUISki
 inline ::UnityEngine::GUISkin_SkinChangedDelegate* UnityEngine::GUISkin::getStaticF_m_SkinChanged() {
   return ::cordl_internals::getStaticField<::UnityEngine::GUISkin_SkinChangedDelegate*, "m_SkinChanged", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUISkin*>::get>();
 }
-inline void UnityEngine::GUISkin::setStaticF_current(::UnityEngine::GUISkin* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::GUISkin*, "current", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUISkin*>::get>(
-      std::forward<::UnityEngine::GUISkin*>(value));
+inline void UnityEngine::GUISkin::setStaticF_current(::UnityW<::UnityEngine::GUISkin> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::GUISkin>, "current", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUISkin*>::get>(
+      std::forward<::UnityW<::UnityEngine::GUISkin>>(value));
 }
-inline ::UnityEngine::GUISkin* UnityEngine::GUISkin::getStaticF_current() {
-  return ::cordl_internals::getStaticField<::UnityEngine::GUISkin*, "current", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUISkin*>::get>();
+inline ::UnityW<::UnityEngine::GUISkin> UnityEngine::GUISkin::getStaticF_current() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::GUISkin>, "current", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUISkin*>::get>();
 }
 inline void UnityEngine::GUISkin::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUISkin*>::get(), ".ctor",

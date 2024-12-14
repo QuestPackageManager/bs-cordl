@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarsAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::BeatSaber::AvatarCore::AvatarsAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x3e8;
   constexpr static std::size_t addrs = 0x2249d34;
@@ -77,8 +77,9 @@ inline void BeatSaber::AvatarCore::AvatarsAsyncInstaller::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarsAsyncInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BeatSaber::AvatarCore::AvatarsAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*>* adaptersInstallers,
-                                                                                     ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
+inline void
+BeatSaber::AvatarCore::AvatarsAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
+                                                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarsAsyncInstaller*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, adaptersInstallers, registry);

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::StyledUITemplates::OverridableSprite);
 namespace StyledUITemplates {
 // Is value type: false
 // CS Name: StyledUITemplates.OverridableSprite
-class CORDL_TYPE OverridableSprite : public ::StyledUITemplates::OverridableData_1<::UnityEngine::Sprite*> {
+class CORDL_TYPE OverridableSprite : public ::StyledUITemplates::OverridableData_1<::UnityW<::UnityEngine::Sprite>> {
 public:
   // Declarations
   static inline ::StyledUITemplates::OverridableSprite* New_ctor();

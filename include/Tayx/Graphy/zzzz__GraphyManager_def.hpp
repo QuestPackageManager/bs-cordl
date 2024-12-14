@@ -503,7 +503,7 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyManager_Modu
 namespace Tayx::Graphy {
 // Is value type: false
 // CS Name: Tayx.Graphy.GraphyManager
-class CORDL_TYPE GraphyManager : public ::Tayx::Graphy::Utils::G_Singleton_1<::Tayx::Graphy::GraphyManager*> {
+class CORDL_TYPE GraphyManager : public ::Tayx::Graphy::Utils::G_Singleton_1<::UnityW<::Tayx::Graphy::GraphyManager>> {
 public:
   // Declarations
   using LookForAudioListener = ::Tayx::Graphy::GraphyManager_LookForAudioListener;

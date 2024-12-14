@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceTexture);
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceTexture
-class CORDL_TYPE AssetReferenceTexture : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture*> {
+class CORDL_TYPE AssetReferenceTexture : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Texture>> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture* New_ctor(::StringW guid);

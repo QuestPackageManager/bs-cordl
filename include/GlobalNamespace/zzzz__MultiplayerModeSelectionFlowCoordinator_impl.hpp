@@ -270,14 +270,15 @@ constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowMod
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
-    ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x3b4b4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -285,14 +286,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
-    ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::remove_didFinishEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x3b4b598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1039,16 +1041,17 @@ constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xPlatformAuthFeatureFlag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_get_didFinishEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* const&
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* const&
 GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value) {
+constexpr void
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1126,16 +1129,16 @@ constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyDestination)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value) {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value) {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::Setup(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination) {

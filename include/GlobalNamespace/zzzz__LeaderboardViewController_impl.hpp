@@ -3,6 +3,21 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::LeaderboardViewController.SetData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardViewController::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
+    &::GlobalNamespace::LeaderboardViewController::SetData)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardViewController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardViewController*>::get(), 12));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::LeaderboardViewController.RefreshLevelStats
 template <>
 

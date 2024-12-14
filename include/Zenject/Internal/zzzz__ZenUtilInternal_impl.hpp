@@ -455,14 +455,14 @@ inline ::System::Collections::IEnumerator* Zenject::Internal::ZenUtilInternal__G
 inline ::Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3* Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>"
-constexpr Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::operator ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>"
+constexpr Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*
-Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::i___System__Collections__Generic__IEnumerable_1___Zenject__SceneContext__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*
+Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::i___System__Collections__Generic__IEnumerable_1___UnityW___Zenject__SceneContext__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::operator ::System::Collections::IEnumerable*() noexcept {
@@ -472,14 +472,14 @@ constexpr Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::operator
 constexpr ::System::Collections::IEnumerable* Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>"
-constexpr Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::operator ::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>"
+constexpr Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>*
-Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::i___System__Collections__Generic__IEnumerator_1___Zenject__SceneContext__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>*
+Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::i___System__Collections__Generic__IEnumerator_1___UnityW___Zenject__SceneContext__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3::operator ::System::Collections::IEnumerator*() noexcept {
@@ -590,8 +590,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::Internal::ZenUtilInternal.GetInjectableMonoBehavioursInScene
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*)>(&::Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursInScene)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::UnityEngine::SceneManagement::Scene, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
+        &::Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursInScene)> {
   constexpr static std::size_t size = 0x32c;
   constexpr static std::size_t addrs = 0x4b5a888;
 
@@ -599,15 +600,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::ZenUtilInternal*>::get(), "GetInjectableMonoBehavioursInScene", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::Internal::ZenUtilInternal.GetInjectableMonoBehavioursUnderGameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*)>(
-    &::Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
+    ::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(&::Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObject)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x4b5af14;
 
@@ -615,15 +616,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::ZenUtilInternal*>::get(), "GetInjectableMonoBehavioursUnderGameObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::Internal::ZenUtilInternal.GetInjectableMonoBehavioursUnderGameObjectInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*)>(
-    &::Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObjectInternal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
+        &::Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObjectInternal)> {
   constexpr static std::size_t size = 0x360;
   constexpr static std::size_t addrs = 0x4b5abb4;
 
@@ -632,7 +634,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::ZenUtilInternal*>::get(), "GetInjectableMonoBehavioursUnderGameObjectInternal",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -703,28 +705,29 @@ inline void Zenject::Internal::ZenUtilInternal::AddStateMachineBehaviourAutoInje
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, root);
 }
 inline void Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursInScene(::UnityEngine::SceneManagement::Scene scene,
-                                                                                   ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours) {
+                                                                                   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::ZenUtilInternal*>::get(), "GetInjectableMonoBehavioursInScene", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, scene, monoBehaviours);
 }
 inline void Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObject(::UnityEngine::GameObject* gameObject,
-                                                                                           ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableComponents) {
+                                                                                           ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::ZenUtilInternal*>::get(), "GetInjectableMonoBehavioursUnderGameObject", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, gameObject, injectableComponents);
 }
-inline void Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObjectInternal(::UnityEngine::GameObject* gameObject,
-                                                                                                   ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableComponents) {
+inline void
+Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObjectInternal(::UnityEngine::GameObject* gameObject,
+                                                                                       ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::ZenUtilInternal*>::get(), "GetInjectableMonoBehavioursUnderGameObjectInternal",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, gameObject, injectableComponents);
 }
 inline bool Zenject::Internal::ZenUtilInternal::IsInjectableMonoBehaviourType(::System::Type* type) {

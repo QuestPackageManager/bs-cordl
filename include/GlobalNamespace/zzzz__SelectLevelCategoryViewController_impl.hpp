@@ -252,17 +252,17 @@ constexpr ::GlobalNamespace::SelectLevelCategoryViewController___c__DisplayClass
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)(
-    ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*)>(
+    ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::add_didSelectLevelCategoryEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b63ed8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "add_didSelectLevelCategoryEvent",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                        ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "add_didSelectLevelCategoryEvent",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+            ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>::get() })));
     return ___internal_method;
   }
 };
@@ -270,17 +270,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)(
-    ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*)>(
+    ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::remove_didSelectLevelCategoryEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b63f88;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "remove_didSelectLevelCategoryEvent",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                        ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "remove_didSelectLevelCategoryEvent",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+            ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>::get() })));
     return ___internal_method;
   }
 };
@@ -421,18 +421,18 @@ constexpr void GlobalNamespace::SelectLevelCategoryViewController::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____analyticsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*&
 GlobalNamespace::SelectLevelCategoryViewController::__cordl_internal_get_didSelectLevelCategoryEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLevelCategoryEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* const&
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* const&
 GlobalNamespace::SelectLevelCategoryViewController::__cordl_internal_get_didSelectLevelCategoryEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectLevelCategoryEvent;
 }
 constexpr void GlobalNamespace::SelectLevelCategoryViewController::__cordl_internal_set_didSelectLevelCategoryEvent(
-    ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectLevelCategoryEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -464,20 +464,20 @@ constexpr void GlobalNamespace::SelectLevelCategoryViewController::__cordl_inter
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelCategoryInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::SelectLevelCategoryViewController::add_didSelectLevelCategoryEvent(
-    ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value) {
+    ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "add_didSelectLevelCategoryEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>::get() })));
+          ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::SelectLevelCategoryViewController::remove_didSelectLevelCategoryEvent(
-    ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "remove_didSelectLevelCategoryEvent",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                      ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>::get() })));
+    ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "remove_didSelectLevelCategoryEvent",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+          ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory GlobalNamespace::SelectLevelCategoryViewController::get_selectedLevelCategory() {

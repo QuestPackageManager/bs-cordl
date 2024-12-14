@@ -93,7 +93,7 @@ public:
   __declspec(property(get = get_button, put = set_button)) ::UnityEngine::GUIStyle* button;
 
   /// @brief Field current, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_current, put = setStaticF_current)) ::UnityEngine::GUISkin* current;
+  __declspec(property(get = getStaticF_current, put = setStaticF_current)) ::UnityW<::UnityEngine::GUISkin> current;
 
   __declspec(property(get = get_customStyles, put = set_customStyles)) ::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> customStyles;
 
@@ -422,7 +422,7 @@ public:
   /// @brief Method .ctor, addr 0x48db980, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::GUISkin* getStaticF_current();
+  static inline ::UnityW<::UnityEngine::GUISkin> getStaticF_current();
 
   static inline ::UnityEngine::GUISkin_SkinChangedDelegate* getStaticF_m_SkinChanged();
 
@@ -509,7 +509,7 @@ public:
   /// @brief Method get_window, addr 0x48dbc7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_window();
 
-  static inline void setStaticF_current(::UnityEngine::GUISkin* value);
+  static inline void setStaticF_current(::UnityW<::UnityEngine::GUISkin> value);
 
   static inline void setStaticF_m_SkinChanged(::UnityEngine::GUISkin_SkinChangedDelegate* value);
 

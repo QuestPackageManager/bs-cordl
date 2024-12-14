@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayModifierParamsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  __declspec(property(get = get_requires)) ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> _cordl_requires;
+  __declspec(property(get = get_requires)) ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> _cordl_requires;
 
   /// @brief Field _descriptionLocalizationKey, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__descriptionLocalizationKey, put = __cordl_internal_set__descriptionLocalizationKey)) ::StringW _descriptionLocalizationKey;
@@ -45,17 +45,17 @@ public:
 
   /// @brief Field _mutuallyExclusives, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__mutuallyExclusives,
-                      put = __cordl_internal_set__mutuallyExclusives)) ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>
+                      put = __cordl_internal_set__mutuallyExclusives)) ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>
       _mutuallyExclusives;
 
   /// @brief Field _requiredBy, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__requiredBy,
-                      put = __cordl_internal_set__requiredBy)) ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>
+                      put = __cordl_internal_set__requiredBy)) ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>
       _requiredBy;
 
   /// @brief Field _requires, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__requires,
-                      put = __cordl_internal_set__requires)) ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>
+                      put = __cordl_internal_set__requires)) ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>
       _requires;
 
   __declspec(property(get = get_descriptionLocalizationKey)) ::StringW descriptionLocalizationKey;
@@ -70,9 +70,10 @@ public:
 
   __declspec(property(get = get_multiplierConditionallyValid)) bool multiplierConditionallyValid;
 
-  __declspec(property(get = get_mutuallyExclusives)) ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> mutuallyExclusives;
+  __declspec(property(get = get_mutuallyExclusives)) ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>
+      mutuallyExclusives;
 
-  __declspec(property(get = get_requiredBy)) ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> requiredBy;
+  __declspec(property(get = get_requiredBy)) ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> requiredBy;
 
   static inline ::GlobalNamespace::GameplayModifierParamsSO* New_ctor();
 
@@ -100,17 +101,17 @@ public:
 
   constexpr bool& __cordl_internal_get__multiplierConditionallyValid();
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> const& __cordl_internal_get__mutuallyExclusives() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const& __cordl_internal_get__mutuallyExclusives() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>& __cordl_internal_get__mutuallyExclusives();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>& __cordl_internal_get__mutuallyExclusives();
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> const& __cordl_internal_get__requiredBy() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const& __cordl_internal_get__requiredBy() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>& __cordl_internal_get__requiredBy();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>& __cordl_internal_get__requiredBy();
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> const& __cordl_internal_get__requires() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const& __cordl_internal_get__requires() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>& __cordl_internal_get__requires();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>& __cordl_internal_get__requires();
 
   constexpr void __cordl_internal_set__descriptionLocalizationKey(::StringW value);
 
@@ -124,11 +125,11 @@ public:
 
   constexpr void __cordl_internal_set__multiplierConditionallyValid(bool value);
 
-  constexpr void __cordl_internal_set__mutuallyExclusives(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> value);
+  constexpr void __cordl_internal_set__mutuallyExclusives(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> value);
 
-  constexpr void __cordl_internal_set__requiredBy(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> value);
+  constexpr void __cordl_internal_set__requiredBy(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> value);
 
-  constexpr void __cordl_internal_set__requires(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> value);
+  constexpr void __cordl_internal_set__requires(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> value);
 
   /// @brief Method .ctor, addr 0x26b0fbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -152,13 +153,13 @@ public:
   inline bool get_multiplierConditionallyValid();
 
   /// @brief Method get_mutuallyExclusives, addr 0x26b0f8c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_mutuallyExclusives();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_mutuallyExclusives();
 
   /// @brief Method get_requiredBy, addr 0x26b0f9c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_requiredBy();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requiredBy();
 
   /// @brief Method get_requires, addr 0x26b0f94, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_requires();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requires();
 
 protected:
   // Ctor Parameters []
@@ -187,13 +188,13 @@ public:
   ::UnityW<::UnityEngine::Sprite> ____icon;
 
   /// @brief Field _mutuallyExclusives, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> ____mutuallyExclusives;
+  ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> ____mutuallyExclusives;
 
   /// @brief Field _requires, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> ____requires;
+  ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> ____requires;
 
   /// @brief Field _requiredBy, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> ____requiredBy;
+  ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> ____requiredBy;
 
   /// @brief Field _multiplier, offset: 0x48, size: 0x4, def value: None
   float_t ____multiplier;

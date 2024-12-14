@@ -528,7 +528,7 @@ public:
 
   /// @brief Field didFinishEvent, offset 0x168, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* didFinishEvent;
 
   /// @brief Method BackButtonWasPressed, addr 0x3b4bf94, size 0xcc, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
@@ -735,9 +735,9 @@ public:
 
   constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& __cordl_internal_get__xPlatformAuthFeatureFlag();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__ambienceAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
@@ -797,16 +797,16 @@ public:
 
   constexpr void __cordl_internal_set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
   /// @brief Method .ctor, addr 0x3b4e720, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b4b4e4, size 0xb4, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3b4b598, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
 protected:
   // Ctor Parameters []
@@ -895,7 +895,7 @@ public:
   ::GlobalNamespace::XPlatformAuthFeatureFlag* ____xPlatformAuthFeatureFlag;
 
   /// @brief Field didFinishEvent, offset: 0x168, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* ___didFinishEvent;
 
   /// @brief Field _joiningLobbyCancellationTokenSource, offset: 0x170, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____joiningLobbyCancellationTokenSource;

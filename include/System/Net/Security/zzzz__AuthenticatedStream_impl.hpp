@@ -48,6 +48,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Net::Security::AuthenticatedStream.get_IsAuthenticated
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Security::AuthenticatedStream::*)()>(
+    &::System::Net::Security::AuthenticatedStream::get_IsAuthenticated)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::AuthenticatedStream*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::AuthenticatedStream*>::get(), 42));
+    return ___internal_method;
+  }
+};
 constexpr ::System::IO::Stream*& System::Net::Security::AuthenticatedStream::__cordl_internal_get__InnerStream() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InnerStream;

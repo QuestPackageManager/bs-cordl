@@ -15,7 +15,7 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)(
-    ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*)>(
+    ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*)>(
     &::GlobalNamespace::ColorSaturationValueSlider::add_colorSaturationOrValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x3c24590;
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSaturationValueSlider*>::get(), "add_colorSaturationOrValueDidChangeEvent",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                        ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+                                        ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSaturationValueSlider::*)(
-    ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*)>(
+    ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*)>(
     &::GlobalNamespace::ColorSaturationValueSlider::remove_colorSaturationOrValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x3c24644;
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSaturationValueSlider*>::get(), "remove_colorSaturationOrValueDidChangeEvent",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                        ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+                                        ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -200,38 +200,38 @@ constexpr void GlobalNamespace::ColorSaturationValueSlider::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightColor = value;
 }
-constexpr ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*&
+constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*&
 GlobalNamespace::ColorSaturationValueSlider::__cordl_internal_get_colorSaturationOrValueDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSaturationOrValueDidChangeEvent;
 }
-constexpr ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* const&
+constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* const&
 GlobalNamespace::ColorSaturationValueSlider::__cordl_internal_get_colorSaturationOrValueDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorSaturationOrValueDidChangeEvent;
 }
 constexpr void GlobalNamespace::ColorSaturationValueSlider::__cordl_internal_set_colorSaturationOrValueDidChangeEvent(
-    ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+    ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorSaturationOrValueDidChangeEvent)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ColorSaturationValueSlider::add_colorSaturationOrValueDidChangeEvent(
-    ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSaturationValueSlider*>::get(),
-                                               "add_colorSaturationOrValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                   ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+    ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSaturationValueSlider*>::get(), "add_colorSaturationOrValueDidChangeEvent",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                      ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::ColorSaturationValueSlider::remove_colorSaturationOrValueDidChangeEvent(
-    ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSaturationValueSlider*>::get(),
-                                               "remove_colorSaturationOrValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                   ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
+    ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSaturationValueSlider*>::get(), "remove_colorSaturationOrValueDidChangeEvent",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                      ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::ColorSaturationValueSlider::Awake() {

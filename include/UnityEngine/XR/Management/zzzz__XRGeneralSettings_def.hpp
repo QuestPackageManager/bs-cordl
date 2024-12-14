@@ -48,7 +48,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_XRManager, put = __cordl_internal_set_m_XRManager)) ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> m_XRManager;
 
   /// @brief Field s_RuntimeSettingsInstance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_RuntimeSettingsInstance, put = setStaticF_s_RuntimeSettingsInstance)) ::UnityEngine::XR::Management::XRGeneralSettings* s_RuntimeSettingsInstance;
+  __declspec(property(get = getStaticF_s_RuntimeSettingsInstance, put = setStaticF_s_RuntimeSettingsInstance)) ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> s_RuntimeSettingsInstance;
 
   /// @brief Method AttemptInitializeXRSDKOnLoad, addr 0x482f91c, size 0xe4, virtual false, abstract: false, final false
   static inline void AttemptInitializeXRSDKOnLoad();
@@ -117,7 +117,7 @@ public:
 
   static inline ::StringW getStaticF_k_SettingsKey();
 
-  static inline ::UnityEngine::XR::Management::XRGeneralSettings* getStaticF_s_RuntimeSettingsInstance();
+  static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> getStaticF_s_RuntimeSettingsInstance();
 
   /// @brief Method get_AssignedSettings, addr 0x482f574, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_AssignedSettings();
@@ -126,14 +126,14 @@ public:
   inline bool get_InitManagerOnStart();
 
   /// @brief Method get_Instance, addr 0x482f51c, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::Management::XRGeneralSettings* get_Instance();
+  static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> get_Instance();
 
   /// @brief Method get_Manager, addr 0x482f50c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_Manager();
 
   static inline void setStaticF_k_SettingsKey(::StringW value);
 
-  static inline void setStaticF_s_RuntimeSettingsInstance(::UnityEngine::XR::Management::XRGeneralSettings* value);
+  static inline void setStaticF_s_RuntimeSettingsInstance(::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> value);
 
   /// @brief Method set_Manager, addr 0x482f514, size 0x8, virtual false, abstract: false, final false
   inline void set_Manager(::UnityEngine::XR::Management::XRManagerSettings* value);

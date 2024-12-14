@@ -7,6 +7,70 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage.get_texture
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)()>(
+    &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::get_texture)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage.AllocateRect
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)(int32_t, int32_t, ::ByRef<::UnityEngine::RectInt>)>(
+    &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::AllocateRect)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage.SetTexel
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)(int32_t, int32_t, ::UnityEngine::Color)>(
+    &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::SetTexel)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage.UpdateTexture
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)()>(
+    &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::UpdateTexture)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(), 8));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage.get_disposed
 template <>
 

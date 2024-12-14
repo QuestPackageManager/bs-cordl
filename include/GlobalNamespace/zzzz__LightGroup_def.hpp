@@ -92,10 +92,10 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didRefreshContentEvent, addr 0x39e0de0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method add_respawnEvent, addr 0x39e0c80, size 0xb0, virtual false, abstract: false, final false
-  inline void add_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method get_groupId, addr 0x39e0b04, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_groupId();
@@ -116,10 +116,10 @@ public:
   inline int32_t get_startLightId();
 
   /// @brief Method remove_didRefreshContentEvent, addr 0x39e0e90, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method remove_respawnEvent, addr 0x39e0d30, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
 protected:
   // Ctor Parameters []

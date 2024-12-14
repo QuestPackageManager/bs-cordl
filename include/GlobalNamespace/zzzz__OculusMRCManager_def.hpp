@@ -241,8 +241,8 @@ public:
   constexpr operator ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*() noexcept;
 
   /// @brief Method Init, addr 0x39c91b0, size 0x160, virtual false, abstract: false, final false
-  inline void Init(::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject,
-                   ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
+  inline void Init(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* instantiateMixedRealityBackgroundCameraGameObject,
+                   ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* instantiateMixedRealityForegroundCameraGameObject);
 
   /// @brief Method InstantiateMixedRealityCameraGameObject, addr 0x39c9310, size 0x34, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::OVRManager_MrcCameraType cameraType);

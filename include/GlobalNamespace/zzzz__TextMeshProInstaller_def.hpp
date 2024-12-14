@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TextMeshProInstaller);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TextMeshProInstaller
-class CORDL_TYPE TextMeshProInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::TMPro::TMP_FontAsset*> {
+class CORDL_TYPE TextMeshProInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::TMPro::TMP_FontAsset>> {
 public:
   // Declarations
   /// @brief Field _fontAssets, offset 0x48, size 0x8
@@ -40,7 +40,8 @@ public:
   inline void InstallBindings();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x2719b70, size 0x58, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::TMPro::TMP_FontAsset*>* fontAssets, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets,
+                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::GlobalNamespace::TextMeshProInstaller* New_ctor();
 

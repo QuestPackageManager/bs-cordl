@@ -15,7 +15,7 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GetFromGameObjectGetterComponentProvider::*)(
-    ::System::Type*, ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*, bool)>(&::Zenject::GetFromGameObjectGetterComponentProvider::_ctor)> {
+    ::System::Type*, ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*, bool)>(&::Zenject::GetFromGameObjectGetterComponentProvider::_ctor)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x4b3a838;
 
@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GetFromGameObjectGetterComponentProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -127,12 +127,12 @@ constexpr void Zenject::GetFromGameObjectGetterComponentProvider::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____matchSingle = value;
 }
-inline void Zenject::GetFromGameObjectGetterComponentProvider::_ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter,
+inline void Zenject::GetFromGameObjectGetterComponentProvider::_ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter,
                                                                      bool matchSingle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GetFromGameObjectGetterComponentProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, componentType, gameObjectGetter, matchSingle);
 }
@@ -164,7 +164,7 @@ inline void Zenject::GetFromGameObjectGetterComponentProvider::GetAllInstancesWi
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, args, injectAction, buffer);
 }
 inline ::Zenject::GetFromGameObjectGetterComponentProvider*
-Zenject::GetFromGameObjectGetterComponentProvider::New_ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter,
+Zenject::GetFromGameObjectGetterComponentProvider::New_ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter,
                                                             bool matchSingle) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::GetFromGameObjectGetterComponentProvider*>(componentType, gameObjectGetter, matchSingle));
 }

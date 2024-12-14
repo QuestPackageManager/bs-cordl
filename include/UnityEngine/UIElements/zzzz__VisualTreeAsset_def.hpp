@@ -549,11 +549,11 @@ public:
   /// @brief Field <vea>5__3, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__vea_5__3, put = __cordl_internal_set__vea_5__3)) ::UnityEngine::UIElements::VisualElementAsset* _vea_5__3;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -671,11 +671,13 @@ public:
   /// @brief Method .ctor, addr 0x4999a24, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__StyleSheet__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__UIElements__StyleSheet__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__StyleSheet__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__UIElements__StyleSheet__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -808,11 +810,11 @@ public:
   /// @brief Field <vta>5__4, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__vta_5__4, put = __cordl_internal_set__vta_5__4)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _vta_5__4;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -901,13 +903,13 @@ public:
   /// @brief Method .ctor, addr 0x499a32c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*
-  i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*
-  i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -1072,7 +1074,7 @@ public:
 
   __declspec(property(get = get_templateAssets, put = set_templateAssets)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* templateAssets;
 
-  __declspec(property(get = get_templateDependencies)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>* templateDependencies;
+  __declspec(property(get = get_templateDependencies)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* templateDependencies;
 
   __declspec(property(get = get_uxmlObjectEntries)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry>* uxmlObjectEntries;
 
@@ -1147,7 +1149,7 @@ public:
   inline void RegisterUxmlObject(::UnityEngine::UIElements::UxmlObjectAsset* uxmlObjectAsset);
 
   /// @brief Method ResolveTemplate, addr 0x4a8e278, size 0x2b0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualTreeAsset* ResolveTemplate(::StringW templateName);
+  inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ResolveTemplate(::StringW templateName);
 
   /// @brief Method TryGetSlotInsertionPoint, addr 0x4aa691c, size 0xb0, virtual false, abstract: false, final false
   inline bool TryGetSlotInsertionPoint(int32_t insertionPointId, ::ByRef<::StringW> slotName);
@@ -1256,7 +1258,7 @@ public:
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* get_templateAssets();
 
   /// @brief Method get_templateDependencies, addr 0x4aa4714, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>* get_templateDependencies();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* get_templateDependencies();
 
   /// @brief Method get_uxmlObjectEntries, addr 0x4aa4804, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry>* get_uxmlObjectEntries();

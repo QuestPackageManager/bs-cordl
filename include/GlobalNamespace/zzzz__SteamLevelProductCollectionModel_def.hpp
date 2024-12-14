@@ -477,7 +477,7 @@ public:
   /// @brief Method GetLevelProductData, addr 0x26e6c24, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData* GetLevelProductData(::StringW levelId);
 
-  static inline ::GlobalNamespace::SteamLevelProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>* levelProductsSOs);
+  static inline ::GlobalNamespace::SteamLevelProductCollectionModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* const& __cordl_internal_get__levelIdToProductData() const;
 
@@ -508,7 +508,7 @@ public:
   constexpr void __cordl_internal_set__maxPossibleInstalledDepots(int32_t value);
 
   /// @brief Method .ctor, addr 0x26e62f0, size 0x8e4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>* levelProductsSOs);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs);
 
   /// @brief Method get_levelProductDataCount, addr 0x26e62e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelProductDataCount();

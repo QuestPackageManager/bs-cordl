@@ -24,7 +24,7 @@ public:
   __declspec(property(get = get_TelemetryEnabled)) bool TelemetryEnabled;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::GlobalNamespace::OVRRuntimeSettings* _instance;
+  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::GlobalNamespace::OVRRuntimeSettings> _instance;
 
   /// @brief Field colorSpace, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_colorSpace, put = __cordl_internal_set_colorSpace)) ::GlobalNamespace::OVRManager_ColorSpace colorSpace;
@@ -39,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get_telemetryEnabled, put = __cordl_internal_set_telemetryEnabled)) bool telemetryEnabled;
 
   /// @brief Method GetRuntimeSettings, addr 0x40056a8, size 0x114, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRRuntimeSettings* GetRuntimeSettings();
+  static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> GetRuntimeSettings();
 
   static inline ::GlobalNamespace::OVRRuntimeSettings* New_ctor();
 
@@ -73,18 +73,18 @@ public:
   /// @brief Method .ctor, addr 0x4005830, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::OVRRuntimeSettings* getStaticF__instance();
+  static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> getStaticF__instance();
 
   /// @brief Method get_HasSetTelemetryEnabled, addr 0x4005808, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasSetTelemetryEnabled();
 
   /// @brief Method get_Instance, addr 0x400560c, size 0x9c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRRuntimeSettings* get_Instance();
+  static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> get_Instance();
 
   /// @brief Method get_TelemetryEnabled, addr 0x4005810, size 0x20, virtual false, abstract: false, final false
   inline bool get_TelemetryEnabled();
 
-  static inline void setStaticF__instance(::GlobalNamespace::OVRRuntimeSettings* value);
+  static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRRuntimeSettings> value);
 
 protected:
   // Ctor Parameters []

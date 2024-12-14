@@ -72,7 +72,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerResultsPyramidViewAvatar/Factory
-class CORDL_TYPE MultiplayerResultsPyramidViewAvatar_Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> {
+class CORDL_TYPE MultiplayerResultsPyramidViewAvatar_Factory
+    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory* New_ctor();

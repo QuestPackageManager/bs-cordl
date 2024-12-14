@@ -414,22 +414,22 @@ constexpr void GlobalNamespace::OVRSceneRoom::__cordl_internal_set__onAnchorLoca
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onAnchorLocalizationCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVRSceneRoom::setStaticF_SceneRooms(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>*, "SceneRooms",
+inline void GlobalNamespace::OVRSceneRoom::setStaticF_SceneRooms(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>*, "SceneRooms",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneRoom*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>*>(value));
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>* GlobalNamespace::OVRSceneRoom::getStaticF_SceneRooms() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>*, "SceneRooms",
+inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* GlobalNamespace::OVRSceneRoom::getStaticF_SceneRooms() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>*, "SceneRooms",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneRoom*>::get>();
 }
-inline void GlobalNamespace::OVRSceneRoom::setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneRoom*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneRoom*>*, "SceneRoomsList",
+inline void GlobalNamespace::OVRSceneRoom::setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>*, "SceneRoomsList",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneRoom*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneRoom*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneRoom*>* GlobalNamespace::OVRSceneRoom::getStaticF_SceneRoomsList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneRoom*>*, "SceneRoomsList",
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* GlobalNamespace::OVRSceneRoom::getStaticF_SceneRoomsList() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>*, "SceneRoomsList",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneRoom*>::get>();
 }
 inline ::UnityW<::GlobalNamespace::OVRScenePlane> GlobalNamespace::OVRSceneRoom::get_Floor() {

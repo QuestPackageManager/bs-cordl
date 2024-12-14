@@ -92,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::Environments::Definitions::Color
 namespace Environments::Definitions {
 // Is value type: false
 // CS Name: Environments.Definitions.ColorSchemesAsyncInstaller
-class CORDL_TYPE ColorSchemesAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::GlobalNamespace::ColorSchemeSO*> {
+class CORDL_TYPE ColorSchemesAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::GlobalNamespace::ColorSchemeSO>> {
 public:
   // Declarations
   using __c = ::Environments::Definitions::ColorSchemesAsyncInstaller___c;
@@ -107,7 +107,7 @@ public:
   inline void InstallBindings();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x2712e84, size 0x124, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::GlobalNamespace::ColorSchemeSO*>* colorSchemes,
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemes,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::Environments::Definitions::ColorSchemesAsyncInstaller* New_ctor();

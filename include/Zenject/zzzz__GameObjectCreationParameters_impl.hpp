@@ -114,14 +114,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GameObjectCreationParameters::*)(
-    ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*)>(&::Zenject::GameObjectCreationParameters::set_ParentTransformGetter)> {
+    ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*)>(&::Zenject::GameObjectCreationParameters::set_ParentTransformGetter)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x4b140c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(), "set_ParentTransformGetter", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -393,10 +393,10 @@ inline ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Trans
                                                                              "get_ParentTransformGetter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*, false>(this, ___internal_method);
 }
-inline void Zenject::GameObjectCreationParameters::set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* value) {
+inline void Zenject::GameObjectCreationParameters::set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(), "set_ParentTransformGetter", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Nullable_1<::UnityEngine::Vector3> Zenject::GameObjectCreationParameters::get_Position() {

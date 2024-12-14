@@ -90,16 +90,16 @@ public:
 
   /// @brief Method Compile, addr 0x48295c4, size 0x290, virtual false, abstract: false, final false
   inline void Compile(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
-                      ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
+                      ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
 
   /// @brief Method CompileTrackList, addr 0x4829854, size 0x398, virtual false, abstract: false, final false
   inline void CompileTrackList(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
-                               ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks, ::UnityEngine::GameObject* go, bool createOutputs);
+                               ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool createOutputs);
 
   /// @brief Method Create, addr 0x48293b0, size 0x214, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimelinePlayable*>
-  Create(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance,
-         bool createOutputs);
+  Create(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go,
+         bool autoRebalance, bool createOutputs);
 
   /// @brief Method CreateTrackOutput, addr 0x4829fdc, size 0x6bc, virtual false, abstract: false, final false
   inline void CreateTrackOutput(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, ::UnityEngine::Playables::Playable playable,

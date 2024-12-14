@@ -161,7 +161,7 @@ public:
   inline void _add_defaultReflectionSet_b__0(::UnityEngine::Texture* b);
 
   /// @brief Method <add_defaultReflectionSet>b__1, addr 0x486a020, size 0x48, virtual false, abstract: false, final false
-  inline bool _add_defaultReflectionSet_b__1(::System::Action_1<::UnityEngine::Texture*>* h);
+  inline bool _add_defaultReflectionSet_b__1(::System::Action_1<::UnityW<::UnityEngine::Texture>>* h);
 
   /// @brief Method .ctor, addr 0x48699f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -213,7 +213,7 @@ public:
   constexpr void __cordl_internal_set_value(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
   /// @brief Method <add_defaultReflectionTexture>b__0, addr 0x486a0e8, size 0x48, virtual false, abstract: false, final false
-  inline bool _add_defaultReflectionTexture_b__0(::System::Action_1<::UnityEngine::Texture*>* h);
+  inline bool _add_defaultReflectionTexture_b__0(::System::Action_1<::UnityW<::UnityEngine::Texture>>* h);
 
   /// @brief Method .ctor, addr 0x4869db0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -293,7 +293,8 @@ public:
 
   /// @brief Field reflectionProbeChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_reflectionProbeChanged,
-                      put = setStaticF_reflectionProbeChanged)) ::System::Action_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* reflectionProbeChanged;
+                      put =
+                          setStaticF_reflectionProbeChanged)) ::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* reflectionProbeChanged;
 
   __declspec(property(get = get_refreshMode, put = set_refreshMode)) ::UnityEngine::Rendering::ReflectionProbeRefreshMode refreshMode;
 
@@ -356,15 +357,15 @@ public:
   inline void _ctor();
 
   /// @brief Method add_defaultReflectionSet, addr 0x4869828, size 0x1d0, virtual false, abstract: false, final false
-  static inline void add_defaultReflectionSet(::System::Action_1<::UnityEngine::Cubemap*>* value);
+  static inline void add_defaultReflectionSet(::System::Action_1<::UnityW<::UnityEngine::Cubemap>>* value);
 
   /// @brief Method add_defaultReflectionTexture, addr 0x4869a00, size 0x208, virtual false, abstract: false, final false
-  static inline void add_defaultReflectionTexture(::System::Action_1<::UnityEngine::Texture*>* value);
+  static inline void add_defaultReflectionTexture(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
   /// @brief Method add_reflectionProbeChanged, addr 0x48695b8, size 0xf0, virtual false, abstract: false, final false
-  static inline void add_reflectionProbeChanged(::System::Action_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
+  static inline void add_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
 
-  static inline ::System::Action_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* getStaticF_reflectionProbeChanged();
+  static inline ::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* getStaticF_reflectionProbeChanged();
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<::UnityW<::UnityEngine::Texture>>*>* getStaticF_registeredDefaultReflectionSetActions();
 
@@ -476,15 +477,15 @@ public:
   inline ::UnityEngine::Rendering::ReflectionProbeType get_type();
 
   /// @brief Method remove_defaultReflectionSet, addr 0x4869c08, size 0x128, virtual false, abstract: false, final false
-  static inline void remove_defaultReflectionSet(::System::Action_1<::UnityEngine::Cubemap*>* value);
+  static inline void remove_defaultReflectionSet(::System::Action_1<::UnityW<::UnityEngine::Cubemap>>* value);
 
   /// @brief Method remove_defaultReflectionTexture, addr 0x4869d30, size 0x80, virtual false, abstract: false, final false
-  static inline void remove_defaultReflectionTexture(::System::Action_1<::UnityEngine::Texture*>* value);
+  static inline void remove_defaultReflectionTexture(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
   /// @brief Method remove_reflectionProbeChanged, addr 0x48696a8, size 0xf0, virtual false, abstract: false, final false
-  static inline void remove_reflectionProbeChanged(::System::Action_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
+  static inline void remove_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
 
-  static inline void setStaticF_reflectionProbeChanged(::System::Action_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
+  static inline void setStaticF_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
 
   static inline void setStaticF_registeredDefaultReflectionSetActions(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<::UnityW<::UnityEngine::Texture>>*>* value);
 

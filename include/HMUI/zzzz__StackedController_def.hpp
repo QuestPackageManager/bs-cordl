@@ -47,7 +47,7 @@ public:
 
   /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x2289b54, size 0x74, virtual false, abstract: false, final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
-                                                         ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers);
+                                                         ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
   constexpr int32_t const& __cordl_internal_get_numberOfViewControllersToPop() const;
 
@@ -98,7 +98,7 @@ public:
   __declspec(property(get = get_topStackedViewController)) ::UnityW<::HMUI::ViewController> topStackedViewController;
 
   /// @brief Method LayoutViewControllers, addr 0x228971c, size 0xe8, virtual true, abstract: false, final false
-  inline void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);
+  inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::StackedController* New_ctor();
 

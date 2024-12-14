@@ -2,6 +2,51 @@
 // IWYU pragma private; include "GlobalNamespace/ListSettingsController.hpp"
 #include "GlobalNamespace/zzzz__IncDecSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::ListSettingsController.GetInitValues
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ListSettingsController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
+    &::GlobalNamespace::ListSettingsController::GetInitValues)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ListSettingsController.ApplyValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ListSettingsController::*)(int32_t)>(
+    &::GlobalNamespace::ListSettingsController::ApplyValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ListSettingsController.TextForValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ListSettingsController::*)(int32_t)>(
+    &::GlobalNamespace::ListSettingsController::TextForValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ListSettingsController*>::get(), 9));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::ListSettingsController.OnEnable
 template <>
 

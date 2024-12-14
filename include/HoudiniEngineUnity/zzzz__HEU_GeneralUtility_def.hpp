@@ -419,10 +419,10 @@ public:
   static inline ::HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttributeHelper(::StringW attrName, ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
 
   /// @brief Method DestroyBakedGameObjects, addr 0x3a6bcf4, size 0x8, virtual false, abstract: false, final false
-  static inline void DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy);
+  static inline void DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjectsToDestroy);
 
   /// @brief Method DestroyBakedGameObjectsWithEndName, addr 0x3a6bcfc, size 0x140, virtual false, abstract: false, final false
-  static inline void DestroyBakedGameObjectsWithEndName(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy, ::StringW endName);
+  static inline void DestroyBakedGameObjectsWithEndName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjectsToDestroy, ::StringW endName);
 
   /// @brief Method DestroyComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DestroyComponent(::UnityEngine::GameObject* gameObject);
@@ -463,7 +463,7 @@ public:
   /// @brief Method FindOrGenerateHandles, addr 0x3a6ea88, size 0x458, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*
   FindOrGenerateHandles(::HoudiniEngineUnity::HEU_SessionBase* session, ::ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo, int32_t assetID, ::StringW assetName,
-                        ::HoudiniEngineUnity::HEU_Parameters* parameters, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>* currentHandles);
+                        ::HoudiniEngineUnity::HEU_Parameters* parameters, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* currentHandles);
 
   /// @brief Method Fractionalf, addr 0x3a6f884, size 0xc, virtual false, abstract: false, final false
   static inline float_t Fractionalf(float_t value);
@@ -540,7 +540,7 @@ public:
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetChildGameObjectsWithNamePattern(::UnityEngine::GameObject* parentGO, ::StringW pattern, bool bExclude);
 
   /// @brief Method GetGameObjectByName, addr 0x3a6b640, size 0x174, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByName(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* goList, ::StringW name);
+  static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* goList, ::StringW name);
 
   /// @brief Method GetGameObjectByNameInProjectOnly, addr 0x3a6b7b4, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByNameInProjectOnly(::StringW name);

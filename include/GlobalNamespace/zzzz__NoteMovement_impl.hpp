@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::NoteMovement.add_noteDidPassJumpThreeQuartersEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMovement::*)(::System::Action_1<::GlobalNamespace::NoteMovement*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMovement::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>*)>(
     &::GlobalNamespace::NoteMovement::add_noteDidPassJumpThreeQuartersEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3ae9294;
@@ -172,14 +172,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMovement*>::get(), "add_noteDidPassJumpThreeQuartersEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::NoteMovement*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoteMovement.remove_noteDidPassJumpThreeQuartersEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMovement::*)(::System::Action_1<::GlobalNamespace::NoteMovement*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMovement::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>*)>(
     &::GlobalNamespace::NoteMovement::remove_noteDidPassJumpThreeQuartersEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3ae9518;
@@ -187,7 +187,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMovement*>::get(), "remove_noteDidPassJumpThreeQuartersEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::NoteMovement*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -626,15 +626,15 @@ constexpr void GlobalNamespace::NoteMovement::__cordl_internal_set_noteDidPassHa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteDidPassHalfJumpEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::NoteMovement*>*& GlobalNamespace::NoteMovement::__cordl_internal_get_noteDidPassJumpThreeQuartersEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>*& GlobalNamespace::NoteMovement::__cordl_internal_get_noteDidPassJumpThreeQuartersEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteDidPassJumpThreeQuartersEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::NoteMovement*>* const& GlobalNamespace::NoteMovement::__cordl_internal_get_noteDidPassJumpThreeQuartersEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* const& GlobalNamespace::NoteMovement::__cordl_internal_get_noteDidPassJumpThreeQuartersEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteDidPassJumpThreeQuartersEvent;
 }
-constexpr void GlobalNamespace::NoteMovement::__cordl_internal_set_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteMovement*>* value) {
+constexpr void GlobalNamespace::NoteMovement::__cordl_internal_set_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteDidPassJumpThreeQuartersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -770,16 +770,16 @@ inline void GlobalNamespace::NoteMovement::remove_noteDidPassHalfJumpEvent(::Sys
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::NoteMovement::add_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteMovement*>* value) {
+inline void GlobalNamespace::NoteMovement::add_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMovement*>::get(), "add_noteDidPassJumpThreeQuartersEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::NoteMovement*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::NoteMovement::remove_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteMovement*>* value) {
+inline void GlobalNamespace::NoteMovement::remove_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMovement*>::get(), "remove_noteDidPassJumpThreeQuartersEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::NoteMovement*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NoteMovement::add_noteDidMoveInJumpPhaseEvent(::System::Action* value) {

@@ -12,7 +12,7 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(
-    ::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*)>(&::GlobalNamespace::FileBrowserTableView::add_didSelectRow)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*)>(&::GlobalNamespace::FileBrowserTableView::add_didSelectRow)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3bff660;
 
@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableView*>::get(), "add_didSelectRow", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserTableView::*)(
-    ::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*)>(&::GlobalNamespace::FileBrowserTableView::remove_didSelectRow)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*)>(&::GlobalNamespace::FileBrowserTableView::remove_didSelectRow)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3bff710;
 
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableView*>::get(), "remove_didSelectRow", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -225,15 +225,17 @@ constexpr void GlobalNamespace::FileBrowserTableView::__cordl_internal_set__cell
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cellHeight = value;
 }
-constexpr ::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*& GlobalNamespace::FileBrowserTableView::__cordl_internal_get_didSelectRow() {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*& GlobalNamespace::FileBrowserTableView::__cordl_internal_get_didSelectRow() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectRow;
 }
-constexpr ::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* const& GlobalNamespace::FileBrowserTableView::__cordl_internal_get_didSelectRow() const {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* const&
+GlobalNamespace::FileBrowserTableView::__cordl_internal_get_didSelectRow() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectRow;
 }
-constexpr void GlobalNamespace::FileBrowserTableView::__cordl_internal_set_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value) {
+constexpr void
+GlobalNamespace::FileBrowserTableView::__cordl_internal_set_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectRow)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -249,18 +251,18 @@ constexpr void GlobalNamespace::FileBrowserTableView::__cordl_internal_set__item
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::FileBrowserTableView::add_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value) {
+inline void GlobalNamespace::FileBrowserTableView::add_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableView*>::get(), "add_didSelectRow", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::FileBrowserTableView::remove_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value) {
+inline void GlobalNamespace::FileBrowserTableView::remove_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserTableView*>::get(), "remove_didSelectRow", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::FileBrowserTableView::Init(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> items) {

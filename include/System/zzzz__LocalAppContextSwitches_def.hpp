@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(LocalAppContextSwitches)
 // Forward declare root types
 namespace System {
@@ -19,15 +18,13 @@ namespace System {
 class CORDL_TYPE LocalAppContextSwitches : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_allowArbitraryTypeInstantiation, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_allowArbitraryTypeInstantiation, put = setStaticF_s_allowArbitraryTypeInstantiation)) int32_t s_allowArbitraryTypeInstantiation;
+  /// @brief Field MemberDescriptorEqualsReturnsFalseIfEquivalent, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent,
+                      put = setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent)) bool MemberDescriptorEqualsReturnsFalseIfEquivalent;
 
-  static inline int32_t getStaticF_s_allowArbitraryTypeInstantiation();
+  static inline bool getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent();
 
-  /// @brief Method get_AllowArbitraryTypeInstantiation, addr 0x4134770, size 0x80, virtual false, abstract: false, final false
-  static inline bool get_AllowArbitraryTypeInstantiation();
-
-  static inline void setStaticF_s_allowArbitraryTypeInstantiation(int32_t value);
+  static inline void setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value);
 
 protected:
   // Ctor Parameters []
@@ -44,7 +41,7 @@ public:
   LocalAppContextSwitches(LocalAppContextSwitches const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

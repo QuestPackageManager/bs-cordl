@@ -133,6 +133,38 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::InputSystem::OnScreen::OnScreenControl.get_controlPathInternal
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::OnScreen::OnScreenControl::*)()>(
+    &::UnityEngine::InputSystem::OnScreen::OnScreenControl::get_controlPathInternal)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenControl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenControl*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::OnScreen::OnScreenControl.set_controlPathInternal
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenControl::*)(::StringW)>(
+    &::UnityEngine::InputSystem::OnScreen::OnScreenControl::set_controlPathInternal)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenControl*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenControl*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::InputSystem::OnScreen::OnScreenControl.SetupInputControl
 template <>
 
@@ -219,15 +251,15 @@ constexpr void UnityEngine::InputSystem::OnScreen::OnScreenControl::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Control)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenControl*& UnityEngine::InputSystem::OnScreen::OnScreenControl::__cordl_internal_get_m_NextControlOnDevice() {
+constexpr ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>& UnityEngine::InputSystem::OnScreen::OnScreenControl::__cordl_internal_get_m_NextControlOnDevice() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextControlOnDevice;
 }
-constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenControl* const& UnityEngine::InputSystem::OnScreen::OnScreenControl::__cordl_internal_get_m_NextControlOnDevice() const {
+constexpr ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> const& UnityEngine::InputSystem::OnScreen::OnScreenControl::__cordl_internal_get_m_NextControlOnDevice() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NextControlOnDevice;
 }
-constexpr void UnityEngine::InputSystem::OnScreen::OnScreenControl::__cordl_internal_set_m_NextControlOnDevice(::UnityEngine::InputSystem::OnScreen::OnScreenControl* value) {
+constexpr void UnityEngine::InputSystem::OnScreen::OnScreenControl::__cordl_internal_set_m_NextControlOnDevice(::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_NextControlOnDevice)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

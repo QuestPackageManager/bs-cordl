@@ -520,7 +520,7 @@ public:
   __declspec(property(get = __cordl_internal_get_listeningPort, put = __cordl_internal_set_listeningPort)) int32_t listeningPort;
 
   /// @brief Field singleton, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_singleton, put = setStaticF_singleton)) ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* singleton;
+  __declspec(property(get = getStaticF_singleton, put = setStaticF_singleton)) ::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer> singleton;
 
   /// @brief Field tcpServer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer)) ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* tcpServer;
@@ -554,9 +554,9 @@ public:
   /// @brief Method .ctor, addr 0x40488b4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* getStaticF_singleton();
+  static inline ::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer> getStaticF_singleton();
 
-  static inline void setStaticF_singleton(::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* value);
+  static inline void setStaticF_singleton(::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer> value);
 
 protected:
   // Ctor Parameters []

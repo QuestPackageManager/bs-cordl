@@ -73,7 +73,7 @@ public:
 
   /// @brief Field normalizedValueDidChangeEvent, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get_normalizedValueDidChangeEvent,
-                      put = __cordl_internal_set_normalizedValueDidChangeEvent)) ::System::Action_2<::HMUI::CircleSlider*, float_t>* normalizedValueDidChangeEvent;
+                      put = __cordl_internal_set_normalizedValueDidChangeEvent)) ::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* normalizedValueDidChangeEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept;
@@ -167,9 +167,9 @@ public:
 
   constexpr ::UnityEngine::DrivenRectTransformTracker& __cordl_internal_get__tracker();
 
-  constexpr ::System::Action_2<::HMUI::CircleSlider*, float_t>* const& __cordl_internal_get_normalizedValueDidChangeEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* const& __cordl_internal_get_normalizedValueDidChangeEvent() const;
 
-  constexpr ::System::Action_2<::HMUI::CircleSlider*, float_t>*& __cordl_internal_get_normalizedValueDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>*& __cordl_internal_get_normalizedValueDidChangeEvent();
 
   constexpr void __cordl_internal_set__containerRect(::UnityW<::UnityEngine::RectTransform> value);
 
@@ -183,13 +183,13 @@ public:
 
   constexpr void __cordl_internal_set__tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  constexpr void __cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::CircleSlider*, float_t>* value);
+  constexpr void __cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value);
 
   /// @brief Method .ctor, addr 0x39f0ac0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_normalizedValueDidChangeEvent, addr 0x39f02ec, size 0xb4, virtual false, abstract: false, final false
-  inline void add_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::CircleSlider*, float_t>* value);
+  inline void add_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value);
 
   /// @brief Method get_handleRect, addr 0x39effa4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_handleRect();
@@ -213,7 +213,7 @@ public:
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
   /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x39f03a0, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::CircleSlider*, float_t>* value);
+  inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value);
 
   /// @brief Method set_handleColor, addr 0x39f016c, size 0xc4, virtual false, abstract: false, final false
   inline void set_handleColor(::UnityEngine::Color value);
@@ -251,7 +251,7 @@ public:
   float_t ____normalizedValue;
 
   /// @brief Field normalizedValueDidChangeEvent, offset: 0x110, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::CircleSlider*, float_t>* ___normalizedValueDidChangeEvent;
+  ::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* ___normalizedValueDidChangeEvent;
 
   /// @brief Field _containerRect, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____containerRect;

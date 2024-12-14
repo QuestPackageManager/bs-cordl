@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceSprite);
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceSprite
-class CORDL_TYPE AssetReferenceSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite*> {
+class CORDL_TYPE AssetReferenceSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Sprite>> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceSprite* New_ctor(::StringW guid);

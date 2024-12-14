@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::CircleSlider.add_normalizedValueDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CircleSlider::*)(::System::Action_2<::HMUI::CircleSlider*, float_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CircleSlider::*)(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>*)>(
     &::HMUI::CircleSlider::add_normalizedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x39f02ec;
@@ -94,14 +94,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CircleSlider*>::get(), "add_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::CircleSlider*, float_t>*>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::CircleSlider.remove_normalizedValueDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CircleSlider::*)(::System::Action_2<::HMUI::CircleSlider*, float_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CircleSlider::*)(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>*)>(
     &::HMUI::CircleSlider::remove_normalizedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x39f03a0;
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CircleSlider*>::get(), "remove_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::CircleSlider*, float_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -402,15 +402,15 @@ constexpr void HMUI::CircleSlider::__cordl_internal_set__normalizedValue(float_t
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalizedValue = value;
 }
-constexpr ::System::Action_2<::HMUI::CircleSlider*, float_t>*& HMUI::CircleSlider::__cordl_internal_get_normalizedValueDidChangeEvent() {
+constexpr ::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>*& HMUI::CircleSlider::__cordl_internal_get_normalizedValueDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normalizedValueDidChangeEvent;
 }
-constexpr ::System::Action_2<::HMUI::CircleSlider*, float_t>* const& HMUI::CircleSlider::__cordl_internal_get_normalizedValueDidChangeEvent() const {
+constexpr ::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* const& HMUI::CircleSlider::__cordl_internal_get_normalizedValueDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___normalizedValueDidChangeEvent;
 }
-constexpr void HMUI::CircleSlider::__cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::CircleSlider*, float_t>* value) {
+constexpr void HMUI::CircleSlider::__cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___normalizedValueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -478,16 +478,16 @@ inline void HMUI::CircleSlider::set_normalizedValue(float_t value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::CircleSlider::add_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::CircleSlider*, float_t>* value) {
+inline void HMUI::CircleSlider::add_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CircleSlider*>::get(), "add_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::CircleSlider*, float_t>*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::CircleSlider::remove_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::CircleSlider*, float_t>* value) {
+inline void HMUI::CircleSlider::remove_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>* value) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CircleSlider*>::get(), "remove_normalizedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::CircleSlider*, float_t>*>::get() })));
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::CircleSlider>, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void HMUI::CircleSlider::Rebuild(::UnityEngine::UI::CanvasUpdate executing) {

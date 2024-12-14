@@ -238,7 +238,7 @@ constexpr ::GlobalNamespace::OVRScreenFade__Fade_d__25::OVRScreenFade__Fade_d__2
 //  Writing Method size for method: ::GlobalNamespace::OVRScreenFade.get_instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRScreenFade* (*)()>(&::GlobalNamespace::OVRScreenFade::get_instance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRScreenFade> (*)()>(&::GlobalNamespace::OVRScreenFade::get_instance)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x40412e0;
 
@@ -555,18 +555,18 @@ constexpr void GlobalNamespace::OVRScreenFade::__cordl_internal_set_isFading(boo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isFading = value;
 }
-inline void GlobalNamespace::OVRScreenFade::setStaticF__instance_k__BackingField(::GlobalNamespace::OVRScreenFade* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::OVRScreenFade*, "<instance>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get>(
-      std::forward<::GlobalNamespace::OVRScreenFade*>(value));
+inline void GlobalNamespace::OVRScreenFade::setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRScreenFade> value) {
+  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::OVRScreenFade>, "<instance>k__BackingField",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get>(std::forward<::UnityW<::GlobalNamespace::OVRScreenFade>>(value));
 }
-inline ::GlobalNamespace::OVRScreenFade* GlobalNamespace::OVRScreenFade::getStaticF__instance_k__BackingField() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::OVRScreenFade*, "<instance>k__BackingField",
+inline ::UnityW<::GlobalNamespace::OVRScreenFade> GlobalNamespace::OVRScreenFade::getStaticF__instance_k__BackingField() {
+  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::OVRScreenFade>, "<instance>k__BackingField",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get>();
 }
-inline ::GlobalNamespace::OVRScreenFade* GlobalNamespace::OVRScreenFade::get_instance() {
+inline ::UnityW<::GlobalNamespace::OVRScreenFade> GlobalNamespace::OVRScreenFade::get_instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "get_instance",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRScreenFade*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRScreenFade>, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::OVRScreenFade::set_instance(::GlobalNamespace::OVRScreenFade* value) {
   static auto* ___internal_method = THROW_UNLESS(

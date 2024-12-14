@@ -55,7 +55,7 @@ public:
 
   /// @brief Field colorSaturationOrValueDidChangeEvent, offset 0x158, size 0x8
   __declspec(property(get = __cordl_internal_get_colorSaturationOrValueDidChangeEvent,
-                      put = __cordl_internal_set_colorSaturationOrValueDidChangeEvent)) ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2,
+                      put = __cordl_internal_set_colorSaturationOrValueDidChangeEvent)) ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2,
                                                                                                            ::GlobalNamespace::ColorChangeUIEventType>* colorSaturationOrValueDidChangeEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -100,10 +100,10 @@ public:
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__lightColor();
 
-  constexpr ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* const&
+  constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* const&
   __cordl_internal_get_colorSaturationOrValueDidChangeEvent() const;
 
-  constexpr ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*&
+  constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>*&
   __cordl_internal_get_colorSaturationOrValueDidChangeEvent();
 
   constexpr void __cordl_internal_set__darkColor(::UnityEngine::Color value);
@@ -115,13 +115,14 @@ public:
   constexpr void __cordl_internal_set__lightColor(::UnityEngine::Color value);
 
   constexpr void __cordl_internal_set_colorSaturationOrValueDidChangeEvent(
-      ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
+      ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   /// @brief Method .ctor, addr 0x3c249c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x3c24590, size 0xb4, virtual false, abstract: false, final false
-  inline void add_colorSaturationOrValueDidChangeEvent(::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  inline void
+  add_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
@@ -130,7 +131,8 @@ public:
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
   /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x3c24644, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_colorSaturationOrValueDidChangeEvent(::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  inline void
+  remove_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
 protected:
   // Ctor Parameters []
@@ -162,7 +164,7 @@ public:
   ::UnityEngine::Color ____lightColor;
 
   /// @brief Field colorSaturationOrValueDidChangeEvent, offset: 0x158, size: 0x8, def value: None
-  ::System::Action_3<::GlobalNamespace::ColorSaturationValueSlider*, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* ___colorSaturationOrValueDidChangeEvent;
+  ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* ___colorSaturationOrValueDidChangeEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Zenject::AnimatorInstaller);
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.AnimatorInstaller
-class CORDL_TYPE AnimatorInstaller : public ::Zenject::Installer_2<::UnityEngine::Animator*, ::Zenject::AnimatorInstaller*> {
+class CORDL_TYPE AnimatorInstaller : public ::Zenject::Installer_2<::UnityW<::UnityEngine::Animator>, ::Zenject::AnimatorInstaller*> {
 public:
   // Declarations
   /// @brief Field _animator, offset 0x18, size 0x8

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite);
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite
-class CORDL_TYPE AssetReferenceAtlasedSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite*> {
+class CORDL_TYPE AssetReferenceAtlasedSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Sprite>> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite* New_ctor(::StringW guid);

@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)(
-    ::GlobalNamespace::MissionNode*, ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*)>(&::GlobalNamespace::MissionConnectionsGenerator::CreateConnections)> {
+    ::GlobalNamespace::MissionNode*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*)>(&::GlobalNamespace::MissionConnectionsGenerator::CreateConnections)> {
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x3c06590;
 
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(), "CreateConnections", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -158,11 +158,11 @@ inline void GlobalNamespace::MissionConnectionsGenerator::RemoveOldConnections()
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MissionConnectionsGenerator::CreateConnections(::GlobalNamespace::MissionNode* missionNode,
-                                                                            ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* visitedNodes) {
+                                                                            ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(), "CreateConnections", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, missionNode, visitedNodes);
 }
 inline ::UnityW<::GlobalNamespace::MissionNodeConnection> GlobalNamespace::MissionConnectionsGenerator::CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode,
