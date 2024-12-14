@@ -339,7 +339,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_PDGAssetLink* New_ctor();
 
   /// @brief Method NotifyAssetCooked, addr 0x3a50b04, size 0x2c, virtual false, abstract: false, final false
-  inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* generatedOutputs);
+  inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* generatedOutputs);
 
   /// @brief Method NotifyAssetCooked, addr 0x3a50cf8, size 0x10, virtual false, abstract: false, final false
   inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);

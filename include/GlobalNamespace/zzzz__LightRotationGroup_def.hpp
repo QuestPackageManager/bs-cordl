@@ -24,8 +24,9 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroup);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LightRotationGroup
-class CORDL_TYPE LightRotationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupRotationXTransform*, ::GlobalNamespace::LightGroupRotationYTransform*,
-                                                                                      ::GlobalNamespace::LightGroupRotationZTransform*> {
+class CORDL_TYPE LightRotationGroup
+    : public ::GlobalNamespace::LightTransformGroup_3<::UnityW<::GlobalNamespace::LightGroupRotationXTransform>, ::UnityW<::GlobalNamespace::LightGroupRotationYTransform>,
+                                                      ::UnityW<::GlobalNamespace::LightGroupRotationZTransform>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LightRotationGroup* New_ctor();

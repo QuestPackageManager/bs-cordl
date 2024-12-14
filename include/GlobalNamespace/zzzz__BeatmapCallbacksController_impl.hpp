@@ -81,6 +81,38 @@ inline ::GlobalNamespace::BeatmapCallbacksController_InitData* GlobalNamespace::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCallbacksController_InitData::BeatmapCallbacksController_InitData() {}
+//  Writing Method size for method: ::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior.CallCallbacks
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior::*)(
+    ::GlobalNamespace::CallbacksInTime*, ::GlobalNamespace::BeatmapDataItem*)>(&::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior::CallCallbacks)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior.Replay
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior::*)(
+    ::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>*)>(&::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior::Replay)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior*>::get(), 1));
+    return ___internal_method;
+  }
+};
 inline void GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior::CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime,
                                                                                               ::GlobalNamespace::BeatmapDataItem* beatmapDataItem) {
   auto* ___internal_method =

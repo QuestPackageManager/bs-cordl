@@ -65,7 +65,7 @@ public:
   inline void set_genericData(::System::Collections::Hashtable* value);
 
   /// @brief Method set_unityObjectReferences, addr 0x4a17d2c, size 0x8, virtual false, abstract: false, final false
-  inline void set_unityObjectReferences(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>* value);
+  inline void set_unityObjectReferences(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value);
 
   // Ctor Parameters []
   // @brief default ctor

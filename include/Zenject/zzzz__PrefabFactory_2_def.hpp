@@ -42,8 +42,8 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
 
-  /// @brief Convert operator to "::Zenject::IFactory_3<::UnityEngine::Object*,P1,T>"
-  constexpr operator ::Zenject::IFactory_3<::UnityEngine::Object*, P1, T>*() noexcept;
+  /// @brief Convert operator to "::Zenject::IFactory_3<::UnityW<::UnityEngine::Object>,P1,T>"
+  constexpr operator ::Zenject::IFactory_3<::UnityW<::UnityEngine::Object>, P1, T>*() noexcept;
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T Create(::UnityEngine::Object* prefab, P1 param);
@@ -74,8 +74,8 @@ public:
   /// @brief Convert to "::Zenject::IFactory"
   constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
-  /// @brief Convert to "::Zenject::IFactory_3<::UnityEngine::Object*,P1,T>"
-  constexpr ::Zenject::IFactory_3<::UnityEngine::Object*, P1, T>* i___Zenject__IFactory_3___UnityEngine__Object__P1_T_() noexcept;
+  /// @brief Convert to "::Zenject::IFactory_3<::UnityW<::UnityEngine::Object>,P1,T>"
+  constexpr ::Zenject::IFactory_3<::UnityW<::UnityEngine::Object>, P1, T>* i___Zenject__IFactory_3___UnityW___UnityEngine__Object__P1_T_() noexcept;
 
 protected:
   // Ctor Parameters []

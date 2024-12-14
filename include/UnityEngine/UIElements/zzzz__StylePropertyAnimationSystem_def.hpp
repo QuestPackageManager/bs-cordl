@@ -1524,7 +1524,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StylePr
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesFont
-class CORDL_TYPE StylePropertyAnimationSystem_ValuesFont : public ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesDiscrete_1<::UnityEngine::Font*> {
+class CORDL_TYPE StylePropertyAnimationSystem_ValuesFont : public ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesDiscrete_1<::UnityW<::UnityEngine::Font>> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont* New_ctor();

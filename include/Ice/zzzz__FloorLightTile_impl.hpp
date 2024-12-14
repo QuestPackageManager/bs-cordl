@@ -164,15 +164,15 @@ constexpr void Ice::FloorLightTile::__cordl_internal_set__songTimeTweeningManage
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songTimeTweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::Ice::FloorLightTile*>*& Ice::FloorLightTile::__cordl_internal_get_didFinish() {
+constexpr ::System::Action_1<::UnityW<::Ice::FloorLightTile>>*& Ice::FloorLightTile::__cordl_internal_get_didFinish() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinish;
 }
-constexpr ::System::Action_1<::Ice::FloorLightTile*>* const& Ice::FloorLightTile::__cordl_internal_get_didFinish() const {
+constexpr ::System::Action_1<::UnityW<::Ice::FloorLightTile>>* const& Ice::FloorLightTile::__cordl_internal_get_didFinish() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinish;
 }
-constexpr void Ice::FloorLightTile::__cordl_internal_set_didFinish(::System::Action_1<::Ice::FloorLightTile*>* value) {
+constexpr void Ice::FloorLightTile::__cordl_internal_set_didFinish(::System::Action_1<::UnityW<::Ice::FloorLightTile>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinish)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

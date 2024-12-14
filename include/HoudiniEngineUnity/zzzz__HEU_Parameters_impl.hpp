@@ -302,7 +302,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Parameters::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, ::ByRef<::HoudiniEngineUnity::HAPI_NodeInfo>, ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>*,
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>*, ::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&::HoudiniEngineUnity::HEU_Parameters::Initialize)> {
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*, ::HoudiniEngineUnity::HEU_HoudiniAsset*)>(
+    &::HoudiniEngineUnity::HEU_Parameters::Initialize)> {
   constexpr static std::size_t size = 0x1b7c;
   constexpr static std::size_t addrs = 0x3a4a494;
 
@@ -313,7 +314,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_NodeInfo>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get() })));
     return ___internal_method;
   }
@@ -561,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Parameters::*)(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>*,
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>*)>(&::HoudiniEngineUnity::HEU_Parameters::GetParameterDataForUIRestore)> {
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*)>(&::HoudiniEngineUnity::HEU_Parameters::GetParameterDataForUIRestore)> {
   constexpr static std::size_t size = 0x1e8;
   constexpr static std::size_t addrs = 0x3a4db94;
 
@@ -570,22 +571,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Parameters*>::get(), "GetParameterDataForUIRestore", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Parameters.GetInputNodeConnectionObjects
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Parameters::*)(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*)>(
-    &::HoudiniEngineUnity::HEU_Parameters::GetInputNodeConnectionObjects)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Parameters::*)(
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*)>(&::HoudiniEngineUnity::HEU_Parameters::GetInputNodeConnectionObjects)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x3a4dd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Parameters*>::get(), "GetInputNodeConnectionObjects", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1005,7 +1006,7 @@ inline void HoudiniEngineUnity::HEU_Parameters::CleanUp() {
 }
 inline bool HoudiniEngineUnity::HEU_Parameters::Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo,
                                                            ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* previousParamFolders,
-                                                           ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>* previousParamInputNodes,
+                                                           ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* previousParamInputNodes,
                                                            ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Parameters*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
@@ -1013,7 +1014,7 @@ inline bool HoudiniEngineUnity::HEU_Parameters::Initialize(::HoudiniEngineUnity:
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_NodeInfo>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, nodeID, nodeInfo, previousParamFolders, previousParamInputNodes, parentAsset);
 }
@@ -1116,18 +1117,18 @@ inline void HoudiniEngineUnity::HEU_Parameters::ProcessModifiers(::HoudiniEngine
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, session);
 }
 inline void HoudiniEngineUnity::HEU_Parameters::GetParameterDataForUIRestore(::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* folderParams,
-                                                                             ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>* inputNodeParams) {
+                                                                             ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* inputNodeParams) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Parameters*>::get(), "GetParameterDataForUIRestore", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, folderParams, inputNodeParams);
 }
-inline void HoudiniEngineUnity::HEU_Parameters::GetInputNodeConnectionObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* inputNodeObjects) {
+inline void HoudiniEngineUnity::HEU_Parameters::GetInputNodeConnectionObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* inputNodeObjects) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Parameters*>::get(), "GetInputNodeConnectionObjects", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inputNodeObjects);
 }
 inline void HoudiniEngineUnity::HEU_Parameters::DownloadPresetData(::HoudiniEngineUnity::HEU_SessionBase* session) {
@@ -1196,14 +1197,14 @@ inline void HoudiniEngineUnity::HEU_Parameters::_ctor() {
 inline ::HoudiniEngineUnity::HEU_Parameters* HoudiniEngineUnity::HEU_Parameters::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Parameters*>());
 }
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>"
-constexpr HoudiniEngineUnity::HEU_Parameters::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>"
+constexpr HoudiniEngineUnity::HEU_Parameters::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>*
-HoudiniEngineUnity::HEU_Parameters::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Parameters__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>*>(static_cast<void*>(this));
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>*
+HoudiniEngineUnity::HEU_Parameters::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Parameters__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Parameters::HEU_Parameters() {}

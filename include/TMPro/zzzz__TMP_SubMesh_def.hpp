@@ -110,7 +110,7 @@ public:
   __declspec(property(get = get_textComponent)) ::UnityW<::TMPro::TMP_Text> textComponent;
 
   /// @brief Method AddSubTextObject, addr 0x48028dc, size 0x3c4, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SubMesh* AddSubTextObject(::TMPro::TextMeshPro* textComponent, ::TMPro::MaterialReference materialReference);
+  static inline ::UnityW<::TMPro::TMP_SubMesh> AddSubTextObject(::TMPro::TextMeshPro* textComponent, ::TMPro::MaterialReference materialReference);
 
   /// @brief Method CreateMaterialInstance, addr 0x4803038, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> CreateMaterialInstance(::UnityEngine::Material* source);

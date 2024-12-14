@@ -886,7 +886,7 @@ constexpr ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectio
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLevelProductCollectionModel::*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLevelProductPackSO*>*)>(&::GlobalNamespace::SonyLevelProductCollectionModel::_ctor)> {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLevelProductPackSO>>*)>(&::GlobalNamespace::SonyLevelProductCollectionModel::_ctor)> {
   constexpr static std::size_t size = 0x9c0;
   constexpr static std::size_t addrs = 0x26e8100;
 
@@ -894,7 +894,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLevelProductPackSO*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLevelProductPackSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -988,10 +988,11 @@ constexpr void GlobalNamespace::SonyLevelProductCollectionModel::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackRedirectionData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::SonyLevelProductCollectionModel::_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLevelProductPackSO*>* sonyLevelProductPacksSOs) {
+inline void GlobalNamespace::SonyLevelProductCollectionModel::_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLevelProductPackSO>>* sonyLevelProductPacksSOs) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLevelProductPackSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLevelProductPackSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sonyLevelProductPacksSOs);
 }
 inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData* GlobalNamespace::SonyLevelProductCollectionModel::GetLevelProductData(::StringW levelId) {
@@ -1013,7 +1014,7 @@ inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionDa
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*, false>(this, ___internal_method, levelPackId);
 }
 inline ::GlobalNamespace::SonyLevelProductCollectionModel*
-GlobalNamespace::SonyLevelProductCollectionModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLevelProductPackSO*>* sonyLevelProductPacksSOs) {
+GlobalNamespace::SonyLevelProductCollectionModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLevelProductPackSO>>* sonyLevelProductPacksSOs) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SonyLevelProductCollectionModel*>(sonyLevelProductPacksSOs));
 }
 // Ctor Parameters []

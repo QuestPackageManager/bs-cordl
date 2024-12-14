@@ -11,6 +11,184 @@
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.get_selectableByUser
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::AvatarCore::IAvatarSystem::*)()>(&::BeatSaber::AvatarCore::IAvatarSystem::get_selectableByUser)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.get_isFallbackSystem
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::AvatarCore::IAvatarSystem::*)()>(&::BeatSaber::AvatarCore::IAvatarSystem::get_isFallbackSystem)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.get_selectionSortOrder
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::AvatarCore::IAvatarSystem::*)()>(
+    &::BeatSaber::AvatarCore::IAvatarSystem::get_selectionSortOrder)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.get_supportedOptionalAvatarDataTypes
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* (::BeatSaber::AvatarCore::IAvatarSystem::*)()>(
+    &::BeatSaber::AvatarCore::IAvatarSystem::get_supportedOptionalAvatarDataTypes)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.InstantiateAvatar
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* (
+    ::BeatSaber::AvatarCore::IAvatarSystem::*)(::BeatSaber::AvatarCore::AvatarDisplayContext, int32_t, ::Zenject::DiContainer*)>(&::BeatSaber::AvatarCore::IAvatarSystem::InstantiateAvatar)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.InstantiateAvatarEditorUI
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* (
+    ::BeatSaber::AvatarCore::IAvatarSystem::*)(::Zenject::DiContainer*)>(&::BeatSaber::AvatarCore::IAvatarSystem::InstantiateAvatarEditorUI)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.InstantiateAvatarSelectionView
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>* (
+    ::BeatSaber::AvatarCore::IAvatarSystem::*)(::Zenject::DiContainer*)>(&::BeatSaber::AvatarCore::IAvatarSystem::InstantiateAvatarSelectionView)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.GetMultiplayerAvatarsData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* (
+    ::BeatSaber::AvatarCore::IAvatarSystem::*)()>(&::BeatSaber::AvatarCore::IAvatarSystem::GetMultiplayerAvatarsData)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.GetMultiplayerAvatarOptionalDataProvider
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* (::BeatSaber::AvatarCore::IAvatarSystem::*)()>(
+    &::BeatSaber::AvatarCore::IAvatarSystem::GetMultiplayerAvatarOptionalDataProvider)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::AvatarCore::IAvatarSystem::*)()>(
+    &::BeatSaber::AvatarCore::IAvatarSystem::CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 9));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.__GetRandomizedMultiplayerAvatarsData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* (
+    ::BeatSaber::AvatarCore::IAvatarSystem::*)()>(&::BeatSaber::AvatarCore::IAvatarSystem::__GetRandomizedMultiplayerAvatarsData)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 10));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IAvatarSystem.DeleteUserCreatedAvatar
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::IAvatarSystem::*)()>(
+    &::BeatSaber::AvatarCore::IAvatarSystem::DeleteUserCreatedAvatar)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 11));
+    return ___internal_method;
+  }
+};
 inline bool BeatSaber::AvatarCore::IAvatarSystem::get_selectableByUser() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IAvatarSystem*>::get(), 0)));

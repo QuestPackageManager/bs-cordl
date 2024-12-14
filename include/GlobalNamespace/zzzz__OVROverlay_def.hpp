@@ -422,7 +422,7 @@ public:
   __declspec(property(get = __cordl_internal_get_hidden, put = __cordl_internal_set_hidden)) bool hidden;
 
   /// @brief Field instances, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_instances, put = setStaticF_instances)) ::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*> instances;
+  __declspec(property(get = getStaticF_instances, put = setStaticF_instances)) ::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*> instances;
 
   /// @brief Field invertTextureRects, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_invertTextureRects, put = __cordl_internal_set_invertTextureRects)) bool invertTextureRects;
@@ -934,7 +934,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_cubeMaterial();
 
-  static inline ::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*> getStaticF_instances();
+  static inline ::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*> getStaticF_instances();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_tex2DMaterial();
 
@@ -955,7 +955,7 @@ public:
 
   static inline void setStaticF_cubeMaterial(::UnityW<::UnityEngine::Material> value);
 
-  static inline void setStaticF_instances(::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*> value);
+  static inline void setStaticF_instances(::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*> value);
 
   static inline void setStaticF_tex2DMaterial(::UnityW<::UnityEngine::Material> value);
 

@@ -78,7 +78,7 @@ public:
 
   /// @brief Field anchorUpdateEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_anchorUpdateEvent,
-                      put = __cordl_internal_set_anchorUpdateEvent)) ::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* anchorUpdateEvent;
+                      put = __cordl_internal_set_anchorUpdateEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* anchorUpdateEvent;
 
   __declspec(property(get = get_forward)) ::UnityEngine::Vector3 forward;
 
@@ -176,9 +176,9 @@ public:
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* const& __cordl_internal_get_anchorUpdateEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* const& __cordl_internal_get_anchorUpdateEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>*& __cordl_internal_get_anchorUpdateEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*& __cordl_internal_get_anchorUpdateEvent();
 
   constexpr void __cordl_internal_set__lastTrackedPosition(::UnityEngine::Vector3 value);
 
@@ -196,13 +196,13 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  constexpr void __cordl_internal_set_anchorUpdateEvent(::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* value);
+  constexpr void __cordl_internal_set_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value);
 
   /// @brief Method .ctor, addr 0x39d33f4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_anchorUpdateEvent, addr 0x39d2160, size 0xb0, virtual false, abstract: false, final false
-  inline void add_anchorUpdateEvent(::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* value);
+  inline void add_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value);
 
   static inline ::UnityEngine::Vector3 getStaticF_kLeftControllerDefaultPosition();
 
@@ -239,7 +239,7 @@ public:
   inline ::UnityW<::UnityEngine::Transform> get_viewAnchorTransform();
 
   /// @brief Method remove_anchorUpdateEvent, addr 0x39d2210, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_anchorUpdateEvent(::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* value);
+  inline void remove_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value);
 
   static inline void setStaticF_kLeftControllerDefaultPosition(::UnityEngine::Vector3 value);
 
@@ -287,7 +287,7 @@ public:
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
   /// @brief Field anchorUpdateEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::VRController*, ::UnityEngine::Pose>* ___anchorUpdateEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* ___anchorUpdateEvent;
 
   /// @brief Field _lastTrackedPosition, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____lastTrackedPosition;

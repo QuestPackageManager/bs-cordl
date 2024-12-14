@@ -420,8 +420,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Curve.CreateSetupCurve
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Curve* (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::StringW, int32_t, bool)>(
-    &::HoudiniEngineUnity::HEU_Curve::CreateSetupCurve)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityW<::HoudiniEngineUnity::HEU_Curve> (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::StringW, int32_t, bool)>(&::HoudiniEngineUnity::HEU_Curve::CreateSetupCurve)> {
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x3a095c4;
 
@@ -1101,14 +1101,14 @@ inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> HoudiniEngineUnity::HEU_
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, false>(this, ___internal_method);
 }
-inline ::HoudiniEngineUnity::HEU_Curve* HoudiniEngineUnity::HEU_Curve::CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID,
-                                                                                        bool bGeoCurve) {
+inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> HoudiniEngineUnity::HEU_Curve::CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName,
+                                                                                                 int32_t geoID, bool bGeoCurve) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Curve*>::get(), "CreateSetupCurve", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_Curve*, false>(nullptr, ___internal_method, parentAsset, isEditable, curveName, geoID, bGeoCurve);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::HoudiniEngineUnity::HEU_Curve>, false>(nullptr, ___internal_method, parentAsset, isEditable, curveName, geoID, bGeoCurve);
 }
 inline void HoudiniEngineUnity::HEU_Curve::DestroyAllData(bool bIsRebuild) {
   static auto* ___internal_method =
@@ -1312,13 +1312,14 @@ inline void HoudiniEngineUnity::HEU_Curve::_ctor() {
 inline ::HoudiniEngineUnity::HEU_Curve* HoudiniEngineUnity::HEU_Curve::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Curve*>());
 }
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
-constexpr HoudiniEngineUnity::HEU_Curve::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
+constexpr HoudiniEngineUnity::HEU_Curve::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>* HoudiniEngineUnity::HEU_Curve::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Curve__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*>(static_cast<void*>(this));
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*
+HoudiniEngineUnity::HEU_Curve::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Curve__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Curve::HEU_Curve() {}

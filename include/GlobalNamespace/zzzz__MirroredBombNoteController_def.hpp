@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredBombNoteController_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MirroredBombNoteController/Pool
-class CORDL_TYPE MirroredBombNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredBombNoteController*> {
+class CORDL_TYPE MirroredBombNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredBombNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MirroredBombNoteController_Pool* New_ctor();

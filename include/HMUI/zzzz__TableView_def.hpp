@@ -403,24 +403,24 @@ public:
   __declspec(property(get = get_dataSource)) ::HMUI::TableView_IDataSource* dataSource;
 
   /// @brief Field didChangeRectSizeEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_didChangeRectSizeEvent, put = __cordl_internal_set_didChangeRectSizeEvent)) ::System::Action_1<::HMUI::TableView*>* didChangeRectSizeEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeRectSizeEvent, put = __cordl_internal_set_didChangeRectSizeEvent)) ::System::Action_1<::UnityW<::HMUI::TableView>>* didChangeRectSizeEvent;
 
   /// @brief Field didDeleteCellsEvent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_didDeleteCellsEvent, put = __cordl_internal_set_didDeleteCellsEvent)) ::System::Action_1<::HMUI::TableView*>* didDeleteCellsEvent;
+  __declspec(property(get = __cordl_internal_get_didDeleteCellsEvent, put = __cordl_internal_set_didDeleteCellsEvent)) ::System::Action_1<::UnityW<::HMUI::TableView>>* didDeleteCellsEvent;
 
   /// @brief Field didDeselectCellWithIdxEvent, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_didDeselectCellWithIdxEvent,
-                      put = __cordl_internal_set_didDeselectCellWithIdxEvent)) ::System::Action_2<::HMUI::TableView*, int32_t>* didDeselectCellWithIdxEvent;
+                      put = __cordl_internal_set_didDeselectCellWithIdxEvent)) ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* didDeselectCellWithIdxEvent;
 
   /// @brief Field didInsertCellsEvent, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_didInsertCellsEvent, put = __cordl_internal_set_didInsertCellsEvent)) ::System::Action_1<::HMUI::TableView*>* didInsertCellsEvent;
+  __declspec(property(get = __cordl_internal_get_didInsertCellsEvent, put = __cordl_internal_set_didInsertCellsEvent)) ::System::Action_1<::UnityW<::HMUI::TableView>>* didInsertCellsEvent;
 
   /// @brief Field didReloadDataEvent, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_didReloadDataEvent, put = __cordl_internal_set_didReloadDataEvent)) ::System::Action_1<::HMUI::TableView*>* didReloadDataEvent;
+  __declspec(property(get = __cordl_internal_get_didReloadDataEvent, put = __cordl_internal_set_didReloadDataEvent)) ::System::Action_1<::UnityW<::HMUI::TableView>>* didReloadDataEvent;
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
-                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_2<::HMUI::TableView*, int32_t>* didSelectCellWithIdxEvent;
+                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* didSelectCellWithIdxEvent;
 
   __declspec(property(get = get_numberOfCells)) int32_t numberOfCells;
 
@@ -634,29 +634,29 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>*& __cordl_internal_get__visibleCells();
 
-  constexpr ::System::Action_1<::HMUI::TableView*>* const& __cordl_internal_get_didChangeRectSizeEvent() const;
+  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>* const& __cordl_internal_get_didChangeRectSizeEvent() const;
 
-  constexpr ::System::Action_1<::HMUI::TableView*>*& __cordl_internal_get_didChangeRectSizeEvent();
+  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>*& __cordl_internal_get_didChangeRectSizeEvent();
 
-  constexpr ::System::Action_1<::HMUI::TableView*>* const& __cordl_internal_get_didDeleteCellsEvent() const;
+  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>* const& __cordl_internal_get_didDeleteCellsEvent() const;
 
-  constexpr ::System::Action_1<::HMUI::TableView*>*& __cordl_internal_get_didDeleteCellsEvent();
+  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>*& __cordl_internal_get_didDeleteCellsEvent();
 
-  constexpr ::System::Action_2<::HMUI::TableView*, int32_t>* const& __cordl_internal_get_didDeselectCellWithIdxEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* const& __cordl_internal_get_didDeselectCellWithIdxEvent() const;
 
-  constexpr ::System::Action_2<::HMUI::TableView*, int32_t>*& __cordl_internal_get_didDeselectCellWithIdxEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>*& __cordl_internal_get_didDeselectCellWithIdxEvent();
 
-  constexpr ::System::Action_1<::HMUI::TableView*>* const& __cordl_internal_get_didInsertCellsEvent() const;
+  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>* const& __cordl_internal_get_didInsertCellsEvent() const;
 
-  constexpr ::System::Action_1<::HMUI::TableView*>*& __cordl_internal_get_didInsertCellsEvent();
+  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>*& __cordl_internal_get_didInsertCellsEvent();
 
-  constexpr ::System::Action_1<::HMUI::TableView*>* const& __cordl_internal_get_didReloadDataEvent() const;
+  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>* const& __cordl_internal_get_didReloadDataEvent() const;
 
-  constexpr ::System::Action_1<::HMUI::TableView*>*& __cordl_internal_get_didReloadDataEvent();
+  constexpr ::System::Action_1<::UnityW<::HMUI::TableView>>*& __cordl_internal_get_didReloadDataEvent();
 
-  constexpr ::System::Action_2<::HMUI::TableView*, int32_t>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr ::System::Action_2<::HMUI::TableView*, int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
   constexpr void __cordl_internal_set__alignToCenter(bool value);
 
@@ -702,38 +702,38 @@ public:
 
   constexpr void __cordl_internal_set__visibleCells(::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>* value);
 
-  constexpr void __cordl_internal_set_didChangeRectSizeEvent(::System::Action_1<::HMUI::TableView*>* value);
+  constexpr void __cordl_internal_set_didChangeRectSizeEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  constexpr void __cordl_internal_set_didDeleteCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
+  constexpr void __cordl_internal_set_didDeleteCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  constexpr void __cordl_internal_set_didDeselectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
+  constexpr void __cordl_internal_set_didDeselectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
-  constexpr void __cordl_internal_set_didInsertCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
+  constexpr void __cordl_internal_set_didInsertCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  constexpr void __cordl_internal_set_didReloadDataEvent(::System::Action_1<::HMUI::TableView*>* value);
+  constexpr void __cordl_internal_set_didReloadDataEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
   /// @brief Method .ctor, addr 0x39fff18, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didChangeRectSizeEvent, addr 0x3a009a4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeRectSizeEvent(::System::Action_1<::HMUI::TableView*>* value);
+  inline void add_didChangeRectSizeEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
   /// @brief Method add_didDeleteCellsEvent, addr 0x3a00844, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didDeleteCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
+  inline void add_didDeleteCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
   /// @brief Method add_didDeselectCellWithIdxEvent, addr 0x3a00424, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didDeselectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
+  inline void add_didDeselectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
   /// @brief Method add_didInsertCellsEvent, addr 0x3a006e4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didInsertCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
+  inline void add_didInsertCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
   /// @brief Method add_didReloadDataEvent, addr 0x3a00584, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didReloadDataEvent(::System::Action_1<::HMUI::TableView*>* value);
+  inline void add_didReloadDataEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3a002c4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
+  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
   /// @brief Method get_canSelectSelectedCell, addr 0x3a002bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_canSelectSelectedCell();
@@ -784,22 +784,22 @@ public:
   constexpr ::HMUI::ITableCellOwner* i___HMUI__ITableCellOwner() noexcept;
 
   /// @brief Method remove_didChangeRectSizeEvent, addr 0x3a00a54, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didChangeRectSizeEvent(::System::Action_1<::HMUI::TableView*>* value);
+  inline void remove_didChangeRectSizeEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
   /// @brief Method remove_didDeleteCellsEvent, addr 0x3a008f4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didDeleteCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
+  inline void remove_didDeleteCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
   /// @brief Method remove_didDeselectCellWithIdxEvent, addr 0x3a004d4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didDeselectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
+  inline void remove_didDeselectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
   /// @brief Method remove_didInsertCellsEvent, addr 0x3a00794, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didInsertCellsEvent(::System::Action_1<::HMUI::TableView*>* value);
+  inline void remove_didInsertCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
   /// @brief Method remove_didReloadDataEvent, addr 0x3a00634, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didReloadDataEvent(::System::Action_1<::HMUI::TableView*>* value);
+  inline void remove_didReloadDataEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3a00374, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::TableView*, int32_t>* value);
+  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
   /// @brief Method set_selectionType, addr 0x3a002b4, size 0x8, virtual false, abstract: false, final false
   inline void set_selectionType(::HMUI::TableViewSelectionType value);
@@ -855,22 +855,22 @@ public:
   ::ArrayW<::HMUI::TableView_CellsGroup*, ::Array<::HMUI::TableView_CellsGroup*>*> ____preallocatedCells;
 
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x50, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::TableView*, int32_t>* ___didSelectCellWithIdxEvent;
+  ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* ___didSelectCellWithIdxEvent;
 
   /// @brief Field didDeselectCellWithIdxEvent, offset: 0x58, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::TableView*, int32_t>* ___didDeselectCellWithIdxEvent;
+  ::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* ___didDeselectCellWithIdxEvent;
 
   /// @brief Field didReloadDataEvent, offset: 0x60, size: 0x8, def value: None
-  ::System::Action_1<::HMUI::TableView*>* ___didReloadDataEvent;
+  ::System::Action_1<::UnityW<::HMUI::TableView>>* ___didReloadDataEvent;
 
   /// @brief Field didInsertCellsEvent, offset: 0x68, size: 0x8, def value: None
-  ::System::Action_1<::HMUI::TableView*>* ___didInsertCellsEvent;
+  ::System::Action_1<::UnityW<::HMUI::TableView>>* ___didInsertCellsEvent;
 
   /// @brief Field didDeleteCellsEvent, offset: 0x70, size: 0x8, def value: None
-  ::System::Action_1<::HMUI::TableView*>* ___didDeleteCellsEvent;
+  ::System::Action_1<::UnityW<::HMUI::TableView>>* ___didDeleteCellsEvent;
 
   /// @brief Field didChangeRectSizeEvent, offset: 0x78, size: 0x8, def value: None
-  ::System::Action_1<::HMUI::TableView*>* ___didChangeRectSizeEvent;
+  ::System::Action_1<::UnityW<::HMUI::TableView>>* ___didChangeRectSizeEvent;
 
   /// @brief Field _contentTransform, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____contentTransform;

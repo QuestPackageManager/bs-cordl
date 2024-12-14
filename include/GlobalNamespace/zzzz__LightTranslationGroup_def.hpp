@@ -29,8 +29,9 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationGroup);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LightTranslationGroup
-class CORDL_TYPE LightTranslationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupTranslationXTransform*, ::GlobalNamespace::LightGroupTranslationYTransform*,
-                                                                                         ::GlobalNamespace::LightGroupTranslationZTransform*> {
+class CORDL_TYPE LightTranslationGroup
+    : public ::GlobalNamespace::LightTransformGroup_3<::UnityW<::GlobalNamespace::LightGroupTranslationXTransform>, ::UnityW<::GlobalNamespace::LightGroupTranslationYTransform>,
+                                                      ::UnityW<::GlobalNamespace::LightGroupTranslationZTransform>> {
 public:
   // Declarations
   /// @brief Field _xDistributionLimits, offset 0x60, size 0x8

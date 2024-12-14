@@ -75,7 +75,7 @@ public:
                       put = __cordl_internal_set__editorReflectionBakingCoverageMode)) ::Zenject::ReflectionBakingCoverageModes _editorReflectionBakingCoverageMode;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::Zenject::ProjectContext* _instance;
+  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::Zenject::ProjectContext> _instance;
 
   /// @brief Field _parentNewObjectsUnderContext, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get__parentNewObjectsUnderContext, put = __cordl_internal_set__parentNewObjectsUnderContext)) bool _parentNewObjectsUnderContext;
@@ -90,7 +90,7 @@ public:
   inline void EnsureIsInitialized();
 
   /// @brief Method GetInjectableMonoBehaviours, addr 0x4b25e8c, size 0x40, virtual true, abstract: false, final false
-  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
+  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
   /// @brief Method GetRootGameObjects, addr 0x4b249c8, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
@@ -99,7 +99,7 @@ public:
   inline void Initialize();
 
   /// @brief Method InstallBindings, addr 0x4b25b54, size 0x338, virtual false, abstract: false, final false
-  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
+  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
   /// @brief Method InstantiateAndInitialize, addr 0x4b24694, size 0x29c, virtual false, abstract: false, final false
   static inline void InstantiateAndInitialize();
@@ -186,7 +186,7 @@ public:
 
   static inline bool getStaticF__ValidateOnNextRun_k__BackingField();
 
-  static inline ::Zenject::ProjectContext* getStaticF__instance();
+  static inline ::UnityW<::Zenject::ProjectContext> getStaticF__instance();
 
   /// @brief Method get_Container, addr 0x4b24570, size 0x8, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
@@ -195,7 +195,7 @@ public:
   static inline bool get_HasInstance();
 
   /// @brief Method get_Instance, addr 0x4b245f0, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Zenject::ProjectContext* get_Instance();
+  static inline ::UnityW<::Zenject::ProjectContext> get_Instance();
 
   /// @brief Method get_ParentNewObjectsUnderContext, addr 0x4b25028, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParentNewObjectsUnderContext();
@@ -217,7 +217,7 @@ public:
 
   static inline void setStaticF__ValidateOnNextRun_k__BackingField(bool value);
 
-  static inline void setStaticF__instance(::Zenject::ProjectContext* value);
+  static inline void setStaticF__instance(::UnityW<::Zenject::ProjectContext> value);
 
   /// @brief Method set_ParentNewObjectsUnderContext, addr 0x4b25030, size 0xc, virtual false, abstract: false, final false
   inline void set_ParentNewObjectsUnderContext(bool value);

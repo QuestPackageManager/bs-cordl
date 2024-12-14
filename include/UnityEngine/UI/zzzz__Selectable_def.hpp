@@ -300,7 +300,8 @@ public:
   __declspec(property(get = getStaticF_s_SelectableCount, put = setStaticF_s_SelectableCount)) int32_t s_SelectableCount;
 
   /// @brief Field s_Selectables, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Selectables, put = setStaticF_s_Selectables)) ::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> s_Selectables;
+  __declspec(property(get = getStaticF_s_Selectables, put = setStaticF_s_Selectables)) ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*>
+      s_Selectables;
 
   __declspec(property(get = get_spriteState, put = set_spriteState)) ::UnityEngine::UI::SpriteState spriteState;
 
@@ -348,19 +349,19 @@ public:
   inline void EvaluateAndTransitionToSelectionState();
 
   /// @brief Method FindSelectable, addr 0x4ac777c, size 0x4b4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectable(::UnityEngine::Vector3 dir);
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectable(::UnityEngine::Vector3 dir);
 
   /// @brief Method FindSelectableOnDown, addr 0x4ac2934, size 0xd8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnDown();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnDown();
 
   /// @brief Method FindSelectableOnLeft, addr 0x4ac2640, size 0xd8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnLeft();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnLeft();
 
   /// @brief Method FindSelectableOnRight, addr 0x4ac273c, size 0xd8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnRight();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnRight();
 
   /// @brief Method FindSelectableOnUp, addr 0x4ac2838, size 0xd8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnUp();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnUp();
 
   /// @brief Method GetPointOnRectEdge, addr 0x4ac7c30, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetPointOnRectEdge(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 dir);
@@ -525,16 +526,16 @@ public:
 
   static inline int32_t getStaticF_s_SelectableCount();
 
-  static inline ::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> getStaticF_s_Selectables();
+  static inline ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> getStaticF_s_Selectables();
 
   /// @brief Method get_allSelectableCount, addr 0x4ac6604, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_allSelectableCount();
 
   /// @brief Method get_allSelectables, addr 0x4ac665c, size 0x9c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Selectable*>* get_allSelectables();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>* get_allSelectables();
 
   /// @brief Method get_allSelectablesArray, addr 0x4ac6568, size 0x9c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> get_allSelectablesArray();
+  static inline ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> get_allSelectablesArray();
 
   /// @brief Method get_animationTriggers, addr 0x4ac6a64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::AnimationTriggers* get_animationTriggers();
@@ -601,7 +602,7 @@ public:
 
   static inline void setStaticF_s_SelectableCount(int32_t value);
 
-  static inline void setStaticF_s_Selectables(::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> value);
+  static inline void setStaticF_s_Selectables(::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> value);
 
   /// @brief Method set_animationTriggers, addr 0x4ac6a6c, size 0x74, virtual false, abstract: false, final false
   inline void set_animationTriggers(::UnityEngine::UI::AnimationTriggers* value);

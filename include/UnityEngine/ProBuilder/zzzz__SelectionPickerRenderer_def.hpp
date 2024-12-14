@@ -376,15 +376,16 @@ public:
   __declspec(property(get = getStaticF_s_RenderTextureFormat, put = setStaticF_s_RenderTextureFormat)) ::UnityEngine::RenderTextureFormat s_RenderTextureFormat;
 
   /// @brief Method BuildEdgeMesh, addr 0x472f0ec, size 0x4e8, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Mesh>
-  BuildEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
-                ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>* map,
-                ::ByRef<uint32_t> index);
+  static inline ::UnityW<::UnityEngine::Mesh> BuildEdgeMesh(
+      ::UnityEngine::ProBuilder::ProBuilderMesh* pb,
+      ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>* map,
+      ::ByRef<uint32_t> index);
 
   /// @brief Method BuildVertexMesh, addr 0x472e94c, size 0x7a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh>
   BuildVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
-                  ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t>>* map, ::ByRef<uint32_t> index);
+                  ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>* map,
+                  ::ByRef<uint32_t> index);
 
   /// @brief Method DecodeRGBA, addr 0x472d59c, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t DecodeRGBA(::UnityEngine::Color32 color);
@@ -394,54 +395,58 @@ public:
 
   /// @brief Method GenerateEdgePickingObjects, addr 0x472e508, size 0x430, virtual false, abstract: false, final false
   static inline void GenerateEdgePickingObjects(
-      ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest,
-      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*> map,
+      ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection, bool doDepthTest,
+      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>*>
+          map,
       ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>> depthObjects,
       ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>> pickerObjects);
 
   /// @brief Method GenerateFacePickingObjects, addr 0x472db70, size 0x568, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GenerateFacePickingObjects(
-      ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection,
-      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*> map);
+      ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
+      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Face*>>*>
+          map);
 
   /// @brief Method GenerateVertexPickingObjects, addr 0x472e0d8, size 0x430, virtual false, abstract: false, final false
-  static inline void
-  GenerateVertexPickingObjects(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest,
-                               ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t>>*> map,
-                               ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>> depthObjects,
-                               ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>> pickerObjects);
+  static inline void GenerateVertexPickingObjects(
+      ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection, bool doDepthTest,
+      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>*> map,
+      ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>> depthObjects,
+      ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>> pickerObjects);
 
   /// @brief Method PickEdgesInRect, addr 0x472c550, size 0x798, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*
-  PickEdgesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest,
-                  int32_t renderTextureWidth, int32_t renderTextureHeight);
+  PickEdgesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
+                  bool doDepthTest, int32_t renderTextureWidth, int32_t renderTextureHeight);
 
   /// @brief Method PickFacesInRect, addr 0x472b69c, size 0x5d0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
-  PickFacesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection,
+  PickFacesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
                   int32_t renderTextureWidth, int32_t renderTextureHeight);
 
   /// @brief Method PickVerticesInRect, addr 0x4729df0, size 0x968, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<int32_t>*>*
-  PickVerticesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest,
-                     int32_t renderTextureWidth, int32_t renderTextureHeight);
+  PickVerticesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
+                     bool doDepthTest, int32_t renderTextureWidth, int32_t renderTextureHeight);
 
   /// @brief Method RenderSelectionPickerTexture, addr 0x472d890, size 0x2e0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> RenderSelectionPickerTexture(
-      ::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest,
-      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge>>*> map,
+      ::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection, bool doDepthTest,
+      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>*>
+          map,
       int32_t width, int32_t height);
 
   /// @brief Method RenderSelectionPickerTexture, addr 0x472d5b0, size 0x2e0, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Texture2D>
-  RenderSelectionPickerTexture(::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection, bool doDepthTest,
-                               ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t>>*> map,
-                               int32_t width, int32_t height);
+  static inline ::UnityW<::UnityEngine::Texture2D> RenderSelectionPickerTexture(
+      ::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection, bool doDepthTest,
+      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>*> map, int32_t width,
+      int32_t height);
 
   /// @brief Method RenderSelectionPickerTexture, addr 0x472d350, size 0x24c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> RenderSelectionPickerTexture(
-      ::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selection,
-      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*>>*> map,
+      ::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
+      ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Face*>>*>
+          map,
       int32_t width, int32_t height);
 
   /// @brief Method ShouldUseHDRP, addr 0x472d348, size 0x8, virtual false, abstract: false, final false

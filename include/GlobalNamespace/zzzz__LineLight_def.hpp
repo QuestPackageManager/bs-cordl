@@ -33,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
   /// @brief Field _lineLights, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__lineLights, put = setStaticF__lineLights)) ::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* _lineLights;
+  __declspec(property(get = getStaticF__lineLights, put = setStaticF__lineLights)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* _lineLights;
 
   /// @brief Field _p0, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get__p0, put = __cordl_internal_set__p0)) ::UnityEngine::Vector3 _p0;
@@ -79,13 +79,13 @@ public:
   /// @brief Method .ctor, addr 0x39e5cf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* getStaticF__lineLights();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* getStaticF__lineLights();
 
   /// @brief Method get_color, addr 0x39e5abc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   /// @brief Method get_lineLights, addr 0x39e5ac8, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* get_lineLights();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* get_lineLights();
 
   /// @brief Method get_p0, addr 0x39e5aa4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_p0();
@@ -93,7 +93,7 @@ public:
   /// @brief Method get_p1, addr 0x39e5ab0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_p1();
 
-  static inline void setStaticF__lineLights(::System::Collections::Generic::List_1<::GlobalNamespace::LineLight*>* value);
+  static inline void setStaticF__lineLights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* value);
 
 protected:
   // Ctor Parameters []

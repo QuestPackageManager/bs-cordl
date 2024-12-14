@@ -74,7 +74,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAvatarController__SpawnAnimati
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerLobbyAvatarController/Factory
-class CORDL_TYPE MultiplayerLobbyAvatarController_Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerLobbyAvatarController*> {
+class CORDL_TYPE MultiplayerLobbyAvatarController_Factory
+    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarController_Factory* New_ctor();

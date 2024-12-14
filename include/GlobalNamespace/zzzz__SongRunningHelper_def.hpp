@@ -70,7 +70,7 @@ public:
   /// @brief Method .ctor, addr 0x3ad6414, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, bool advancedHud,
                     ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::RecordingToolManager_SetupData recordingToolData, bool zenMode,
-                    ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback);
+                    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback);
 
   // Ctor Parameters []
   // @brief default ctor

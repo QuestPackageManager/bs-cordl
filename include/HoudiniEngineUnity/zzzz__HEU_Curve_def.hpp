@@ -532,11 +532,11 @@ public:
   /// @brief Field _vertices, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vertices, put = __cordl_internal_set__vertices)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _vertices;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*() noexcept;
 
   /// @brief Method CreateSetupCurve, addr 0x3a095c4, size 0x184, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_Curve* CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID, bool bGeoCurve);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID, bool bGeoCurve);
 
   /// @brief Method DestroyAllData, addr 0x3a09818, size 0x14c, virtual false, abstract: false, final false
   inline void DestroyAllData(bool bIsRebuild);
@@ -731,8 +731,8 @@ public:
   /// @brief Method get_ParentAsset, addr 0x3a095bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Curve__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Curve__() noexcept;
 
   static inline void setStaticF_PreferredNextInteractionMode(::HoudiniEngineUnity::HEU_Curve_Interaction value);
 

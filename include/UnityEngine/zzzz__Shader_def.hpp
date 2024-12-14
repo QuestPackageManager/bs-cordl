@@ -135,10 +135,10 @@ public:
   static inline void ExtractGlobalVectorArrayImpl(int32_t name, ::ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>> val);
 
   /// @brief Method Find, addr 0x4879e84, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Shader* Find(::StringW name);
+  static inline ::UnityW<::UnityEngine::Shader> Find(::StringW name);
 
   /// @brief Method FindBuiltin, addr 0x4879ef0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Shader* FindBuiltin(::StringW name);
+  static inline ::UnityW<::UnityEngine::Shader> FindBuiltin(::StringW name);
 
   /// @brief Method FindPassTagValue, addr 0x487a754, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId FindPassTagValue(int32_t passIndex, ::UnityEngine::Rendering::ShaderTagId tagName);
@@ -162,7 +162,7 @@ public:
   static inline ::ArrayW<::UnityEngine::Rendering::GlobalKeyword, ::Array<::UnityEngine::Rendering::GlobalKeyword>*> GetAllGlobalKeywords();
 
   /// @brief Method GetDependency, addr 0x487a654, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Shader* GetDependency(::StringW name);
+  inline ::UnityW<::UnityEngine::Shader> GetDependency(::StringW name);
 
   /// @brief Method GetEnabledGlobalKeywords, addr 0x487a13c, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::GlobalKeyword, ::Array<::UnityEngine::Rendering::GlobalKeyword>*> GetEnabledGlobalKeywords();

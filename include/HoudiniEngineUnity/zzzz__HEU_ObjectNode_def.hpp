@@ -86,8 +86,8 @@ public:
   /// @brief Field _parentAsset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__parentAsset, put = __cordl_internal_set__parentAsset)) ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _parentAsset;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>*() noexcept;
 
   /// @brief Method ApplyObjectTransformToGeoNodes, addr 0x3a2be04, size 0x154, virtual false, abstract: false, final false
   inline void ApplyObjectTransformToGeoNodes();
@@ -123,10 +123,10 @@ public:
   inline void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method GetClonableParts, addr 0x3a2c43c, size 0x164, virtual false, abstract: false, final false
-  inline void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts);
+  inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
 
   /// @brief Method GetCurves, addr 0x3a2cb48, size 0x158, virtual false, abstract: false, final false
-  inline void GetCurves(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve*>* curves, bool bEditableOnly);
+  inline void GetCurves(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* curves, bool bEditableOnly);
 
   /// @brief Method GetDebugInfo, addr 0x3a2a5c8, size 0x2bc, virtual false, abstract: false, final false
   inline void GetDebugInfo(::System::Text::StringBuilder* sb);
@@ -141,10 +141,10 @@ public:
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
   /// @brief Method GetOutputGameObjects, addr 0x3a2c5a0, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method GetOutputGeoNodes, addr 0x3a2cca0, size 0x1dc, virtual false, abstract: false, final false
-  inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>* outGeoNodes);
+  inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* outGeoNodes);
 
   /// @brief Method HideAllGeometry, addr 0x3a2f238, size 0x14c, virtual false, abstract: false, final false
   inline void HideAllGeometry();
@@ -171,7 +171,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_ObjectNode* New_ctor();
 
   /// @brief Method PopulateObjectInstanceInfos, addr 0x3a2ef54, size 0x138, virtual false, abstract: false, final false
-  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos);
+  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos);
 
   /// @brief Method ProcessUnityScriptAttributes, addr 0x3a2f0e4, size 0x154, virtual false, abstract: false, final false
   inline void ProcessUnityScriptAttributes(::HoudiniEngineUnity::HEU_SessionBase* session);
@@ -233,8 +233,8 @@ public:
   /// @brief Method get_ParentAsset, addr 0x3a29e08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ObjectNode__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_ObjectNode__() noexcept;
 
 protected:
   // Ctor Parameters []

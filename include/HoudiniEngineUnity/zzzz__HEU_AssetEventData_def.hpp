@@ -41,7 +41,7 @@ public:
   __declspec(property(get = __cordl_internal_get_OutputObjects, put = __cordl_internal_set_OutputObjects)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* OutputObjects;
 
   static inline ::HoudiniEngineUnity::HEU_AssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
-                                                                   ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+                                                                   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get_Asset() const;
 
@@ -68,7 +68,7 @@ public:
   constexpr void __cordl_internal_set_OutputObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method .ctor, addr 0x3a0667c, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
 protected:
   // Ctor Parameters []

@@ -1300,7 +1300,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Dropdown.AddOptions
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>*)>(
     &::TMPro::TMP_Dropdown::AddOptions)> {
   constexpr static std::size_t size = 0x150;
   constexpr static std::size_t addrs = 0x47c80c0;
@@ -1308,7 +1308,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "AddOptions", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Sprite*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1485,7 +1485,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Dropdown_DropdownItem> (::TMPro::TMP_Dropdown::*)(
-    ::TMPro::TMP_Dropdown_OptionData*, bool, ::TMPro::TMP_Dropdown_DropdownItem*, ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_DropdownItem*>*)>(&::TMPro::TMP_Dropdown::AddItem)> {
+    ::TMPro::TMP_Dropdown_OptionData*, bool, ::TMPro::TMP_Dropdown_DropdownItem*, ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Dropdown_DropdownItem>>*)>(
+    &::TMPro::TMP_Dropdown::AddItem)> {
   constexpr static std::size_t size = 0x2e8;
   constexpr static std::size_t addrs = 0x47c9648;
 
@@ -1495,7 +1496,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Dropdown_OptionData*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Dropdown_DropdownItem*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_DropdownItem*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Dropdown_DropdownItem>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1960,10 +1961,10 @@ inline void TMPro::TMP_Dropdown::AddOptions(::System::Collections::Generic::List
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, options);
 }
-inline void TMPro::TMP_Dropdown::AddOptions(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* options) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "AddOptions", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Sprite*>*>::get() })));
+inline void TMPro::TMP_Dropdown::AddOptions(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>* options) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "AddOptions", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, options);
 }
 inline void TMPro::TMP_Dropdown::ClearOptions() {
@@ -2036,13 +2037,13 @@ inline void TMPro::TMP_Dropdown::DestroyItem(::TMPro::TMP_Dropdown_DropdownItem*
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
 inline ::UnityW<::TMPro::TMP_Dropdown_DropdownItem> TMPro::TMP_Dropdown::AddItem(::TMPro::TMP_Dropdown_OptionData* data, bool selected, ::TMPro::TMP_Dropdown_DropdownItem* itemTemplate,
-                                                                                 ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_DropdownItem*>* items) {
+                                                                                 ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Dropdown_DropdownItem>>* items) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "AddItem", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Dropdown_OptionData*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Dropdown_DropdownItem*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_DropdownItem*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Dropdown_DropdownItem>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_Dropdown_DropdownItem>, false>(this, ___internal_method, data, selected, itemTemplate, items);
 }
 inline void TMPro::TMP_Dropdown::AlphaFadeList(float_t duration, float_t alpha) {

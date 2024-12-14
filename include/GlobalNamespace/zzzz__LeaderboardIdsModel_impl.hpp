@@ -10,14 +10,15 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardIdsModel::*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*)>(&::GlobalNamespace::LeaderboardIdsModel::_ctor)> {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*)>(&::GlobalNamespace::LeaderboardIdsModel::_ctor)> {
   constexpr static std::size_t size = 0x5f4;
   constexpr static std::size_t addrs = 0x26fce30;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardIdsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardIdsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{
+                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -49,10 +50,11 @@ constexpr void GlobalNamespace::LeaderboardIdsModel::__cordl_internal_set__leade
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::LeaderboardIdsModel::_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>* idsMaps) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardIdsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*>::get() })));
+inline void GlobalNamespace::LeaderboardIdsModel::_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardIdsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, idsMaps);
 }
 inline bool GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::ByRef<::StringW> platformLeaderboardId) {
@@ -62,7 +64,7 @@ inline bool GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId(::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, beatmapKey, platformLeaderboardId);
 }
-inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::LeaderboardIdsModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>* idsMaps) {
+inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::LeaderboardIdsModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LeaderboardIdsModel*>(idsMaps));
 }
 // Ctor Parameters []

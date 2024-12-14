@@ -277,7 +277,7 @@ public:
   __declspec(property(get = __cordl_internal_get__showCredits, put = __cordl_internal_set__showCredits)) bool _showCredits;
 
   /// @brief Field didFinishEvent, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* didFinishEvent;
 
   /// @brief Method BackButtonWasPressed, addr 0x3b40234, size 0xa0, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
@@ -385,9 +385,9 @@ public:
 
   constexpr bool& __cordl_internal_get__showCredits();
 
-  constexpr ::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
 
@@ -419,16 +419,16 @@ public:
 
   constexpr void __cordl_internal_set__showCredits(bool value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
   /// @brief Method .ctor, addr 0x3b402d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b3f47c, size 0xb4, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3b3f530, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
 protected:
   // Ctor Parameters []
@@ -490,7 +490,7 @@ public:
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
   /// @brief Field didFinishEvent, offset: 0x120, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* ___didFinishEvent;
 
   /// @brief Field _showCredits, offset: 0x128, size: 0x1, def value: None
   bool ____showCredits;

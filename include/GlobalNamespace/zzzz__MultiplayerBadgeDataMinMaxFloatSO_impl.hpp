@@ -25,6 +25,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
+    &::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO::GetValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO.CalculateMax
 template <>
 

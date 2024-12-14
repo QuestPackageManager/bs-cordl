@@ -196,8 +196,8 @@ public:
   /// @brief Field _validParameters, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__validParameters, put = __cordl_internal_set__validParameters)) bool _validParameters;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>*() noexcept;
 
   /// @brief Method AreParametersValid, addr 0x3a4a1e4, size 0x8, virtual false, abstract: false, final false
   inline bool AreParametersValid();
@@ -221,7 +221,7 @@ public:
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDefaultPresetData();
 
   /// @brief Method GetInputNodeConnectionObjects, addr 0x3a4dd7c, size 0x4, virtual false, abstract: false, final false
-  inline void GetInputNodeConnectionObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* inputNodeObjects);
+  inline void GetInputNodeConnectionObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* inputNodeObjects);
 
   /// @brief Method GetParameter, addr 0x3a47a64, size 0x84, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_ParameterData* GetParameter(int32_t listIndex);
@@ -231,7 +231,7 @@ public:
 
   /// @brief Method GetParameterDataForUIRestore, addr 0x3a4db94, size 0x1e8, virtual false, abstract: false, final false
   inline void GetParameterDataForUIRestore(::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* folderParams,
-                                           ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>* inputNodeParams);
+                                           ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* inputNodeParams);
 
   /// @brief Method GetParameterWithParmID, addr 0x3a478ac, size 0x158, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_ParameterData* GetParameterWithParmID(int32_t parmID);
@@ -254,7 +254,8 @@ public:
   /// @brief Method Initialize, addr 0x3a4a494, size 0x1b7c, virtual false, abstract: false, final false
   inline bool Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo,
                          ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_ParameterData*>* previousParamFolders,
-                         ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::HEU_InputNode*>* previousParamInputNodes, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+                         ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* previousParamInputNodes,
+                         ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
   /// @brief Method InsertInstanceToMultiParm, addr 0x3a4d258, size 0xd0, virtual false, abstract: false, final false
   inline void InsertInstanceToMultiParm(int32_t unityParamIndex, int32_t instanceIndex, int32_t numInstancesToAdd);
@@ -411,8 +412,8 @@ public:
   /// @brief Method get_ShowParameters, addr 0x3a4a1ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowParameters();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Parameters*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Parameters__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Parameters>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Parameters__() noexcept;
 
   /// @brief Method set_ParameterModifiers, addr 0x3a4a1b0, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterModifiers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* value);

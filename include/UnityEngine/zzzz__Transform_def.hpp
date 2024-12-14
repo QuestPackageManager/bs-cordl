@@ -166,15 +166,15 @@ public:
 
   __declspec(property(get = get_lossyScale)) ::UnityEngine::Vector3 lossyScale;
 
-  __declspec(property(get = get_parent, put = set_parent)) ::UnityEngine::Transform* parent;
+  __declspec(property(get = get_parent, put = set_parent)) ::UnityW<::UnityEngine::Transform> parent;
 
-  __declspec(property(get = get_parentInternal, put = set_parentInternal)) ::UnityEngine::Transform* parentInternal;
+  __declspec(property(get = get_parentInternal, put = set_parentInternal)) ::UnityW<::UnityEngine::Transform> parentInternal;
 
   __declspec(property(get = get_position, put = set_position)) ::UnityEngine::Vector3 position;
 
   __declspec(property(get = get_right, put = set_right)) ::UnityEngine::Vector3 right;
 
-  __declspec(property(get = get_root)) ::UnityEngine::Transform* root;
+  __declspec(property(get = get_root)) ::UnityW<::UnityEngine::Transform> root;
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
@@ -191,16 +191,16 @@ public:
   inline void DetachChildren();
 
   /// @brief Method Find, addr 0x48b7abc, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* Find(::StringW n);
+  inline ::UnityW<::UnityEngine::Transform> Find(::StringW n);
 
   /// @brief Method FindChild, addr 0x48b7cf0, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* FindChild(::StringW n);
+  inline ::UnityW<::UnityEngine::Transform> FindChild(::StringW n);
 
   /// @brief Method FindRelativeTransformWithPath, addr 0x48b7a68, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* FindRelativeTransformWithPath(::UnityEngine::Transform* transform, ::StringW path, bool isActiveOnly);
+  static inline ::UnityW<::UnityEngine::Transform> FindRelativeTransformWithPath(::UnityEngine::Transform* transform, ::StringW path, bool isActiveOnly);
 
   /// @brief Method GetChild, addr 0x48b7ef8, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetChild(int32_t index);
+  inline ::UnityW<::UnityEngine::Transform> GetChild(int32_t index);
 
   /// @brief Method GetChildCount, addr 0x48b7f3c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetChildCount();
@@ -218,13 +218,13 @@ public:
   inline void GetLocalPositionAndRotation(::ByRef<::UnityEngine::Vector3> localPosition, ::ByRef<::UnityEngine::Quaternion> localRotation);
 
   /// @brief Method GetParent, addr 0x48b59b8, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetParent();
+  inline ::UnityW<::UnityEngine::Transform> GetParent();
 
   /// @brief Method GetPositionAndRotation, addr 0x48b5cec, size 0x54, virtual false, abstract: false, final false
   inline void GetPositionAndRotation(::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Quaternion> rotation);
 
   /// @brief Method GetRoot, addr 0x48b7868, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetRoot();
+  inline ::UnityW<::UnityEngine::Transform> GetRoot();
 
   /// @brief Method GetRotationOrderInternal, addr 0x48b566c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetRotationOrderInternal();
@@ -539,10 +539,10 @@ public:
   inline void get_lossyScale_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
   /// @brief Method get_parent, addr 0x48b4bb4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_parent();
+  inline ::UnityW<::UnityEngine::Transform> get_parent();
 
   /// @brief Method get_parentInternal, addr 0x48b5868, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_parentInternal();
+  inline ::UnityW<::UnityEngine::Transform> get_parentInternal();
 
   /// @brief Method get_position, addr 0x48b4cb0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
@@ -554,7 +554,7 @@ public:
   inline ::UnityEngine::Vector3 get_right();
 
   /// @brief Method get_root, addr 0x48b782c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_root();
+  inline ::UnityW<::UnityEngine::Transform> get_root();
 
   /// @brief Method get_rotation, addr 0x48b50a0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();

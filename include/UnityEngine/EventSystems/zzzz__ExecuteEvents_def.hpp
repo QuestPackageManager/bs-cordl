@@ -304,7 +304,7 @@ public:
                                                                      ::UnityEngine::EventSystems::ExecuteEvents_EventFunction_1<T>* callbackFunction);
 
   /// @brief Method GetEventChain, addr 0x4ad92cc, size 0x194, virtual false, abstract: false, final false
-  static inline void GetEventChain(::UnityEngine::GameObject* root, ::System::Collections::Generic::IList_1<::UnityEngine::Transform*>* eventChain);
+  static inline void GetEventChain(::UnityEngine::GameObject* root, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Transform>>* eventChain);
 
   /// @brief Method GetEventHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityW<::UnityEngine::GameObject> GetEventHandler(::UnityEngine::GameObject* root);

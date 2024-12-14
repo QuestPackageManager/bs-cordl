@@ -133,8 +133,8 @@ public:
   __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::List_1_Enumerator<::UnityW<::UnityEngine::MonoBehaviour>>
       __7__wrap2;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
@@ -204,8 +204,8 @@ public:
   /// @brief Method .ctor, addr 0x3b01230, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__MonoBehaviour__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__MonoBehaviour__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
@@ -274,8 +274,8 @@ public:
   /// @brief Field _gridView, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__gridView, put = __cordl_internal_set__gridView)) ::UnityW<::GlobalNamespace::GridView> _gridView;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -297,8 +297,8 @@ public:
   /// @brief Method .ctor, addr 0x3b010fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GridView* gridView);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__MonoBehaviour__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__MonoBehaviour__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;

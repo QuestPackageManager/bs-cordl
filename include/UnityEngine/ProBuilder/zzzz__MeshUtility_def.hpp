@@ -150,7 +150,7 @@ public:
   static inline uint32_t GetIndexCount(::UnityEngine::Mesh* mesh);
 
   /// @brief Method GetMeshChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityEngine::Mesh*, T>* attributeGetter);
+  template <typename T> static inline T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityW<::UnityEngine::Mesh>, T>* attributeGetter);
 
   /// @brief Method GetPrimitiveCount, addr 0x4718710, size 0x114, virtual false, abstract: false, final false
   static inline uint32_t GetPrimitiveCount(::UnityEngine::Mesh* mesh);

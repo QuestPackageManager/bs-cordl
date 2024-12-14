@@ -18,30 +18,30 @@
 //  Writing Method size for method: ::UnityEngine::SpriteRenderer.RegisterSpriteChangeCallback
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>*)>(
-    &::UnityEngine::SpriteRenderer::RegisterSpriteChangeCallback)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpriteRenderer::*)(
+    ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>*)>(&::UnityEngine::SpriteRenderer::RegisterSpriteChangeCallback)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x48b82e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpriteRenderer*>::get(), "RegisterSpriteChangeCallback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SpriteRenderer.UnregisterSpriteChangeCallback
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpriteRenderer::*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>*)>(
-    &::UnityEngine::SpriteRenderer::UnregisterSpriteChangeCallback)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpriteRenderer::*)(
+    ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>*)>(&::UnityEngine::SpriteRenderer::UnregisterSpriteChangeCallback)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x48b8384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpriteRenderer*>::get(), "UnregisterSpriteChangeCallback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -506,28 +506,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>*& UnityEngine::SpriteRenderer::__cordl_internal_get_m_SpriteChangeEvent() {
+constexpr ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>*& UnityEngine::SpriteRenderer::__cordl_internal_get_m_SpriteChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpriteChangeEvent;
 }
-constexpr ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* const& UnityEngine::SpriteRenderer::__cordl_internal_get_m_SpriteChangeEvent() const {
+constexpr ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* const& UnityEngine::SpriteRenderer::__cordl_internal_get_m_SpriteChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpriteChangeEvent;
 }
-constexpr void UnityEngine::SpriteRenderer::__cordl_internal_set_m_SpriteChangeEvent(::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* value) {
+constexpr void UnityEngine::SpriteRenderer::__cordl_internal_set_m_SpriteChangeEvent(::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SpriteChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::SpriteRenderer::RegisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>* callback) {
+inline void UnityEngine::SpriteRenderer::RegisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>* callback) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpriteRenderer*>::get(), "RegisterSpriteChangeCallback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
 }
-inline void UnityEngine::SpriteRenderer::UnregisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>* callback) {
+inline void UnityEngine::SpriteRenderer::UnregisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>* callback) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpriteRenderer*>::get(), "UnregisterSpriteChangeCallback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
 }
 inline void UnityEngine::SpriteRenderer::InvokeSpriteChanged() {

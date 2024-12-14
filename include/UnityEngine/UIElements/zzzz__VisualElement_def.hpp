@@ -1164,13 +1164,13 @@ public:
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> property, ::ByRef<::UnityEngine::Color> value);
 
   /// @brief Method TryGetValue, addr 0x4a7efa8, size 0x108, virtual true, abstract: false, final true
-  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*> property, ::ByRef<::UnityEngine::Sprite*> value);
+  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>> property, ::ByRef<::UnityEngine::Sprite*> value);
 
   /// @brief Method TryGetValue, addr 0x4a7eea0, size 0x108, virtual true, abstract: false, final true
-  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*> property, ::ByRef<::UnityEngine::Texture2D*> value);
+  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> property, ::ByRef<::UnityEngine::Texture2D*> value);
 
   /// @brief Method TryGetValue, addr 0x4a7f0b0, size 0x108, virtual true, abstract: false, final true
-  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*> property, ::ByRef<::UnityEngine::UIElements::VectorImage*> value);
+  inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>> property, ::ByRef<::UnityEngine::UIElements::VectorImage*> value);
 
   /// @brief Method TryGetValue, addr 0x4a7e960, size 0x98, virtual true, abstract: false, final true
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<float_t> property, ::ByRef<float_t> value);

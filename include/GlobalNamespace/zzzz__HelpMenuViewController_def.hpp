@@ -146,10 +146,10 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x3b57bc4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectHelpSubMenuEvent(::System::Action_1<::HMUI::ViewController*>* value);
+  inline void add_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
   /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x3b57c74, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<::HMUI::ViewController*>* value);
+  inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
 protected:
   // Ctor Parameters []

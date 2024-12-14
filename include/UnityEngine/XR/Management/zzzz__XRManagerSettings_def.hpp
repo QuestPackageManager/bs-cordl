@@ -265,7 +265,7 @@ public:
   inline bool TryRemoveLoader(::UnityEngine::XR::Management::XRLoader* loader);
 
   /// @brief Method TrySetLoaders, addr 0x4830928, size 0x1d4, virtual false, abstract: false, final false
-  inline bool TrySetLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* reorderedLoaders);
+  inline bool TrySetLoaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* reorderedLoaders);
 
   constexpr ::UnityW<::UnityEngine::XR::Management::XRLoader> const& __cordl_internal_get__activeLoader_k__BackingField() const;
 
@@ -346,7 +346,7 @@ public:
   inline void set_automaticRunning(bool value);
 
   /// @brief Method set_currentLoaders, addr 0x4830ce4, size 0x8, virtual false, abstract: false, final false
-  inline void set_currentLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* value);
+  inline void set_currentLoaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* value);
 
 protected:
   // Ctor Parameters []

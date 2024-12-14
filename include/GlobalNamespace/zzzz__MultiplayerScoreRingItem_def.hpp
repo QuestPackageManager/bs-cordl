@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreRingItem_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerScoreRingItem/Pool
-class CORDL_TYPE MultiplayerScoreRingItem_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerScoreRingItem*> {
+class CORDL_TYPE MultiplayerScoreRingItem_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerScoreRingItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerScoreRingItem_Pool* New_ctor();

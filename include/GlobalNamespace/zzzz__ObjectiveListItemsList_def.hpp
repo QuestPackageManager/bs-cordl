@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItemsList);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ObjectiveListItemsList
-class CORDL_TYPE ObjectiveListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::ObjectiveListItem*> {
+class CORDL_TYPE ObjectiveListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::ObjectiveListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ObjectiveListItemsList* New_ctor();

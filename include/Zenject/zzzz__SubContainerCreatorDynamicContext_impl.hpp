@@ -55,6 +55,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Zenject::SubContainerCreatorDynamicContext.AddInstallers
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorDynamicContext::*)(
+    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::GameObjectContext*)>(&::Zenject::SubContainerCreatorDynamicContext::AddInstallers)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorDynamicContext*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorDynamicContext*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::SubContainerCreatorDynamicContext.CreateGameObject
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::SubContainerCreatorDynamicContext::*)(::ByRef<bool>)>(
+    &::Zenject::SubContainerCreatorDynamicContext::CreateGameObject)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorDynamicContext*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorDynamicContext*>::get(), 6));
+    return ___internal_method;
+  }
+};
 constexpr ::Zenject::DiContainer*& Zenject::SubContainerCreatorDynamicContext::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;

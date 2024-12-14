@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::BGLib::AppFlow::FeatureAsyncInstaller);
 namespace BGLib::AppFlow {
 // Is value type: false
 // CS Name: BGLib.AppFlow.FeatureAsyncInstaller
-class CORDL_TYPE FeatureAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::Zenject::ScriptableObjectInstaller*> {
+class CORDL_TYPE FeatureAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::Zenject::ScriptableObjectInstaller>> {
 public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
@@ -34,7 +34,7 @@ public:
   inline void InstallBindings();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x2299e4c, size 0x354, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::Zenject::ScriptableObjectInstaller*>* scriptableObjectInstallers,
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::BGLib::AppFlow::FeatureAsyncInstaller* New_ctor();

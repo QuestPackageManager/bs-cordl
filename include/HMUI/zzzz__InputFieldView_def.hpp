@@ -152,7 +152,7 @@ static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldView_SelectionSt
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.InputFieldView/InputFieldChanged
-class CORDL_TYPE InputFieldView_InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::HMUI::InputFieldView*> {
+class CORDL_TYPE InputFieldView_InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::HMUI::InputFieldView>> {
 public:
   // Declarations
   static inline ::HMUI::InputFieldView_InputFieldChanged* New_ctor();

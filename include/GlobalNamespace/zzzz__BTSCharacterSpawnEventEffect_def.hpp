@@ -126,8 +126,8 @@ public:
 
   /// @brief Method GetCharacterWithAnimationClip, addr 0x226238c, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
-  GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>* charDictionary,
-                                ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>* animDictionary, int32_t prefabId, int32_t animationId);
+  GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
+                                ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary, int32_t prefabId, int32_t animationId);
 
   /// @brief Method HandleBeatmapEvent, addr 0x2262680, size 0x144, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
@@ -231,13 +231,13 @@ public:
   inline void _ctor();
 
   /// @brief Method add_startCharacterAnimationEvent, addr 0x2260e78, size 0xb0, virtual false, abstract: false, final false
-  inline void add_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value);
+  inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
   /// @brief Method get_isInitialized, addr 0x2261550, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
   /// @brief Method remove_startCharacterAnimationEvent, addr 0x2261314, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value);
+  inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
 protected:
   // Ctor Parameters []

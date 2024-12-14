@@ -37,7 +37,7 @@ public:
   __declspec(property(get = get_sortingOrder, put = set_sortingOrder)) int32_t sortingOrder;
 
   /// @brief Method GetSortingGroupByIndex, addr 0x48c8ab8, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::SortingGroup* GetSortingGroupByIndex(int32_t index);
+  static inline ::UnityW<::UnityEngine::Rendering::SortingGroup> GetSortingGroupByIndex(int32_t index);
 
   static inline ::UnityEngine::Rendering::SortingGroup* New_ctor();
 

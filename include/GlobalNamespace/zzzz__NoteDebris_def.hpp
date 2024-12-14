@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebris_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoteDebris/Pool
-class CORDL_TYPE NoteDebris_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteDebris*> {
+class CORDL_TYPE NoteDebris_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::NoteDebris>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::NoteDebris_Pool* New_ctor();

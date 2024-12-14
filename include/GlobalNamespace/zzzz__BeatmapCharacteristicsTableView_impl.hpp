@@ -13,14 +13,14 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(
-    ::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*)>(&::GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(&::GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3afd620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(), "add_didSelectCharacteristic", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -28,14 +28,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(
-    ::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*)>(&::GlobalNamespace::BeatmapCharacteristicsTableView::remove_didSelectCharacteristic)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(&::GlobalNamespace::BeatmapCharacteristicsTableView::remove_didSelectCharacteristic)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3afd6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(), "remove_didSelectCharacteristic", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -283,16 +283,16 @@ constexpr void GlobalNamespace::BeatmapCharacteristicsTableView::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedColumn = value;
 }
-inline void GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value) {
+inline void GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(), "add_didSelectCharacteristic", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::BeatmapCharacteristicsTableView::remove_didSelectCharacteristic(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value) {
+inline void GlobalNamespace::BeatmapCharacteristicsTableView::remove_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(), "remove_didSelectCharacteristic", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::BeatmapCharacteristicsTableView::Init() {

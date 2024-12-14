@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingTextEffect_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FlyingTextEffect/Pool
-class CORDL_TYPE FlyingTextEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingTextEffect*> {
+class CORDL_TYPE FlyingTextEffect_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingTextEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::FlyingTextEffect_Pool* New_ctor();

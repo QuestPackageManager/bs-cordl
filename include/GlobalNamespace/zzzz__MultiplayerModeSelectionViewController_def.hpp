@@ -130,7 +130,7 @@ public:
 
   /// @brief Field didFinishEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*,
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>,
                                                                                      ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* didFinishEvent;
 
   /// @brief Method DidActivate, addr 0x3b6be9c, size 0x2cc, virtual true, abstract: false, final false
@@ -184,10 +184,10 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__quickPlayButton();
 
-  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* const&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* const&
   __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>*&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>*&
   __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__createServerButton(::UnityW<::UnityEngine::UI::Button> value);
@@ -204,17 +204,18 @@ public:
 
   constexpr void __cordl_internal_set__quickPlayButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void
-  __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(
+      ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
 
   /// @brief Method .ctor, addr 0x3b6c42c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b6bd3c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3b6bdec, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
+  inline void
+  remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* value);
 
 protected:
   // Ctor Parameters []
@@ -255,7 +256,7 @@ public:
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 
   /// @brief Field didFinishEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

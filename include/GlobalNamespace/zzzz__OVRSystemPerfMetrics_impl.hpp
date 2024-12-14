@@ -540,13 +540,13 @@ constexpr void GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServ
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___listeningPort = value;
 }
-inline void GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::setStaticF_singleton(::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer*, "singleton",
+inline void GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::setStaticF_singleton(::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer> value) {
+  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer>, "singleton",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer*>::get>(
-      std::forward<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer*>(value));
+      std::forward<::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer>>(value));
 }
-inline ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::getStaticF_singleton() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer*, "singleton",
+inline ::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer> GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::getStaticF_singleton() {
+  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer>, "singleton",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer*>::get>();
 }
 inline void GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::OnEnable() {

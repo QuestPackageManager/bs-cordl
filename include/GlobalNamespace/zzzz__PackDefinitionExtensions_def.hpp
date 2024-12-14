@@ -157,11 +157,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -237,13 +237,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce664, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>*
-  i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__OculusLevelProductPacksSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::OculusLevelProductPacksSO*>*
-  i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__OculusLevelProductPacksSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -341,11 +341,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -421,13 +421,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce51c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*
-  i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*
-  i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -525,11 +525,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -605,13 +605,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce7ac, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS4LevelProductPacksSO*>*
-  i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__PS4LevelProductPacksSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS4LevelProductPacksSO*>*
-  i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__PS4LevelProductPacksSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -709,11 +709,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -789,13 +789,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce5c0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*
-  i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SonyLeaderboardIdsSO*>*
-  i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -893,11 +893,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -973,13 +973,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce850, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PS5LevelProductPacksSO*>*
-  i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__PS5LevelProductPacksSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PS5LevelProductPacksSO*>*
-  i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__PS5LevelProductPacksSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -1077,11 +1077,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -1157,11 +1157,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce8f4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>* i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__PerceivedLoudnessSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::PerceivedLoudnessSO*>* i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__PerceivedLoudnessSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -1259,11 +1261,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -1339,11 +1341,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce330, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>* i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>* i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -1441,11 +1445,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -1521,11 +1525,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce3d4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>* i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>* i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -1623,11 +1629,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -1703,11 +1709,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce478, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO*>* i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::LeaderboardIdsSO*>* i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -1805,11 +1813,11 @@ public:
   __declspec(property(get = __cordl_internal_get_packDefinitions,
                       put = __cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -1885,13 +1893,13 @@ public:
   /// @brief Method .ctor, addr 0x26ce708, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*
-  i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__SteamLevelProductPacksSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::SteamLevelProductPacksSO*>*
-  i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__SteamLevelProductPacksSO__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -1984,43 +1992,43 @@ public:
 
   /// @brief Method GetOculusLevelProductPacks, addr 0x26ce5f4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
-  GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetPS4LeaderboardIds, addr 0x26ce4ac, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-  GetPS4LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetPS4LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetPS4LevelProductPacks, addr 0x26ce73c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-  GetPS4LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetPS4LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetPS5LeaderboardIds, addr 0x26ce550, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-  GetPS5LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetPS5LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetPS5LevelProductPacks, addr 0x26ce7e0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-  GetPS5LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetPS5LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetPerceivedLoudnessSOs, addr 0x26ce884, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
-  GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetQuestLeaderboardIds, addr 0x26ce2c0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  GetQuestLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetQuestLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetRiftLeaderboardIds, addr 0x26ce364, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  GetRiftLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetRiftLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetSteamLeaderboardIds, addr 0x26ce408, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  GetSteamLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetSteamLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
   /// @brief Method GetSteamLevelProductPacks, addr 0x26ce698, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
-  GetSteamLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PackDefinitionSO*>* packDefinitions);
+  GetSteamLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
 protected:
   // Ctor Parameters []

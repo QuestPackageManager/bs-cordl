@@ -8,6 +8,52 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ContentType_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyStorageFlags_def.hpp"
+//  Writing Method size for method: ::Mono::X509PalImpl.Import
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImpl* (::Mono::X509PalImpl::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::X509PalImpl::Import)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::X509PalImpl*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::X509PalImpl*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::X509PalImpl.Import
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (
+    ::Mono::X509PalImpl::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Microsoft::Win32::SafeHandles::SafePasswordHandle*, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(
+    &::Mono::X509PalImpl::Import)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::X509PalImpl*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::X509PalImpl*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::X509PalImpl.Import
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (
+    ::Mono::X509PalImpl::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(&::Mono::X509PalImpl::Import)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::X509PalImpl*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::X509PalImpl*>::get(), 6));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Mono::X509PalImpl.PEM
 template <>
 

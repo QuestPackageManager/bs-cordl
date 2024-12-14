@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarsAsyncInstaller);
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: BeatSaber.AvatarCore.AvatarsAsyncInstaller
-class CORDL_TYPE AvatarsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*> {
+class CORDL_TYPE AvatarsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>> {
 public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
@@ -34,7 +34,7 @@ public:
   inline void InstallBindings();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x2249d34, size 0x3e8, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*>* adaptersInstallers,
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::BeatSaber::AvatarCore::AvatarsAsyncInstaller* New_ctor();

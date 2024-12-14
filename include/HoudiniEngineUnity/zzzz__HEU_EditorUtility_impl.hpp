@@ -726,8 +726,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_EditorUtility.GetObjectParentFolder
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>*)>(
-    &::HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolder)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(
+    ::UnityEngine::GameObject*, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>*)>(&::HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolder)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x3a69d68;
 
@@ -735,7 +735,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(), "GetObjectParentFolder", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1101,11 +1101,11 @@ inline void HoudiniEngineUnity::HEU_EditorUtility::QuerySelectedMeshTopology() {
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline ::StringW HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolder(::UnityEngine::GameObject* parentObject,
-                                                                              ::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>* generatedMaterials) {
+                                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* generatedMaterials) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_EditorUtility*>::get(), "GetObjectParentFolder", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, parentObject, generatedMaterials);
 }
 inline ::StringW HoudiniEngineUnity::HEU_EditorUtility::GetObjectParentFolderHelper(int32_t instanceID) {

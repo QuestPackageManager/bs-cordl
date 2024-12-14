@@ -434,14 +434,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings::*)(
-    ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*)>(&::UnityEngine::XR::Management::XRManagerSettings::TrySetLoaders)> {
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*)>(&::UnityEngine::XR::Management::XRManagerSettings::TrySetLoaders)> {
   constexpr static std::size_t size = 0x1d4;
   constexpr static std::size_t addrs = 0x4830928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(), "TrySetLoaders", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -576,14 +577,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)(
-    ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*)>(&::UnityEngine::XR::Management::XRManagerSettings::set_currentLoaders)> {
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*)>(&::UnityEngine::XR::Management::XRManagerSettings::set_currentLoaders)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x4830ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(), "set_currentLoaders", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -780,10 +782,10 @@ inline bool UnityEngine::XR::Management::XRManagerSettings::TryRemoveLoader(::Un
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::Management::XRLoader*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, loader);
 }
-inline bool UnityEngine::XR::Management::XRManagerSettings::TrySetLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* reorderedLoaders) {
+inline bool UnityEngine::XR::Management::XRManagerSettings::TrySetLoaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* reorderedLoaders) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(), "TrySetLoaders", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, reorderedLoaders);
 }
 inline void UnityEngine::XR::Management::XRManagerSettings::Awake() {
@@ -832,10 +834,10 @@ inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Manage
                                                                              "get_currentLoaders", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*, false>(this, ___internal_method);
 }
-inline void UnityEngine::XR::Management::XRManagerSettings::set_currentLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* value) {
+inline void UnityEngine::XR::Management::XRManagerSettings::set_currentLoaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(), "set_currentLoaders", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* UnityEngine::XR::Management::XRManagerSettings::get_registeredLoaders() {

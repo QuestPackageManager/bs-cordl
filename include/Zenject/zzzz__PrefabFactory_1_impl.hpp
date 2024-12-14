@@ -56,13 +56,13 @@ template <typename T> inline ::Zenject::InjectTypeInfo* Zenject::PrefabFactory_1
 template <typename T> inline ::Zenject::PrefabFactory_1<T>* Zenject::PrefabFactory_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabFactory_1<T>*>());
 }
-/// @brief Convert operator to "::Zenject::IFactory_2<::UnityEngine::Object*,T>"
-template <typename T> constexpr Zenject::PrefabFactory_1<T>::operator ::Zenject::IFactory_2<::UnityEngine::Object*, T>*() noexcept {
-  return static_cast<::Zenject::IFactory_2<::UnityEngine::Object*, T>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::Zenject::IFactory_2<::UnityW<::UnityEngine::Object>,T>"
+template <typename T> constexpr Zenject::PrefabFactory_1<T>::operator ::Zenject::IFactory_2<::UnityW<::UnityEngine::Object>, T>*() noexcept {
+  return static_cast<::Zenject::IFactory_2<::UnityW<::UnityEngine::Object>, T>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::Zenject::IFactory_2<::UnityEngine::Object*,T>"
-template <typename T> constexpr ::Zenject::IFactory_2<::UnityEngine::Object*, T>* Zenject::PrefabFactory_1<T>::i___Zenject__IFactory_2___UnityEngine__Object__T_() noexcept {
-  return static_cast<::Zenject::IFactory_2<::UnityEngine::Object*, T>*>(static_cast<void*>(this));
+/// @brief Convert to "::Zenject::IFactory_2<::UnityW<::UnityEngine::Object>,T>"
+template <typename T> constexpr ::Zenject::IFactory_2<::UnityW<::UnityEngine::Object>, T>* Zenject::PrefabFactory_1<T>::i___Zenject__IFactory_2___UnityW___UnityEngine__Object__T_() noexcept {
+  return static_cast<::Zenject::IFactory_2<::UnityW<::UnityEngine::Object>, T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename T> constexpr Zenject::PrefabFactory_1<T>::operator ::Zenject::IFactory*() noexcept {

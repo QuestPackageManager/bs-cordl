@@ -195,7 +195,7 @@ public:
   static inline bool IntersectBoxSurfacePosition(::ByRef<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::ByRef<::UnityEngine::Vector3> hit);
 
   /// @brief Method IntersectSaberWithObstacles, addr 0x3b878e8, size 0x35c, virtual false, abstract: false, final false
-  static inline bool IntersectSaberWithObstacles(::GlobalNamespace::Saber* saber, ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* obstacles,
+  static inline bool IntersectSaberWithObstacles(::GlobalNamespace::Saber* saber, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacles,
                                                  ::ByRef<bool> intersectObstacleSurface, ::ByRef<::UnityEngine::Pose> hit);
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffectManager* New_ctor();

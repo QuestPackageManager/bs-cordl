@@ -53,10 +53,10 @@ public:
   inline bool CompareTag(::StringW tag);
 
   /// @brief Method GetComponent, addr 0x48a72ac, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* GetComponent(::StringW type);
+  inline ::UnityW<::UnityEngine::Component> GetComponent(::StringW type);
 
   /// @brief Method GetComponent, addr 0x48a709c, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* GetComponent(::System::Type* type);
+  inline ::UnityW<::UnityEngine::Component> GetComponent(::System::Type* type);
 
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponent();
@@ -65,7 +65,7 @@ public:
   inline void GetComponentFastPath(::System::Type* type, ::System::IntPtr oneFurtherThanResultValue);
 
   /// @brief Method GetComponentInChildren, addr 0x48a72f0, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* GetComponentInChildren(::System::Type* t, bool includeInactive);
+  inline ::UnityW<::UnityEngine::Component> GetComponentInChildren(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInChildren();
@@ -74,13 +74,13 @@ public:
   template <typename T> inline T GetComponentInChildren(bool includeInactive);
 
   /// @brief Method GetComponentInParent, addr 0x48a74e0, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* GetComponentInParent(::System::Type* t, bool includeInactive);
+  inline ::UnityW<::UnityEngine::Component> GetComponentInParent(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInParent();
 
   /// @brief Method GetComponents, addr 0x48a76d0, size 0x50, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponents(::System::Type* type);
+  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponents(::System::Type* type);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponents();
@@ -89,13 +89,13 @@ public:
   template <typename T> inline void GetComponents(::System::Collections::Generic::List_1<T>* results);
 
   /// @brief Method GetComponents, addr 0x48a781c, size 0x54, virtual false, abstract: false, final false
-  inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* results);
+  inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* results);
 
   /// @brief Method GetComponentsForListInternal, addr 0x48a77c8, size 0x54, virtual false, abstract: false, final false
   inline void GetComponentsForListInternal(::System::Type* searchType, ::System::Object* resultList);
 
   /// @brief Method GetComponentsInChildren, addr 0x48a73cc, size 0x60, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponentsInChildren(::System::Type* t, bool includeInactive);
+  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInChildren(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentsInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponentsInChildren();
@@ -110,7 +110,7 @@ public:
   template <typename T> inline void GetComponentsInChildren(::System::Collections::Generic::List_1<T>* results);
 
   /// @brief Method GetComponentsInParent, addr 0x48a75bc, size 0x60, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponentsInParent(::System::Type* t, bool includeInactive);
+  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInParent(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentsInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponentsInParent();

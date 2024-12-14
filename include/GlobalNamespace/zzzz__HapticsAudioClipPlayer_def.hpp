@@ -64,7 +64,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HapticsAudioClipPlayer__HandleOneShotPlayEndCo
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: HapticsAudioClipPlayer/Pool
-class CORDL_TYPE HapticsAudioClipPlayer_Pool : public ::Zenject::MemoryPool_1<::GlobalNamespace::HapticsAudioClipPlayer*> {
+class CORDL_TYPE HapticsAudioClipPlayer_Pool : public ::Zenject::MemoryPool_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::HapticsAudioClipPlayer_Pool* New_ctor();
@@ -409,10 +409,10 @@ public:
   inline float_t GetPanForNode(::UnityEngine::XR::XRNode node);
 
   /// @brief Method HandleContinuousAudioCoroutine, addr 0x39caf7c, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* HandleContinuousAudioCoroutine(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete);
+  inline ::System::Collections::IEnumerator* HandleContinuousAudioCoroutine(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
   /// @brief Method HandleOneShotPlayEndCoroutine, addr 0x39caf10, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* HandleOneShotPlayEndCoroutine(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete);
+  inline ::System::Collections::IEnumerator* HandleOneShotPlayEndCoroutine(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
   /// @brief Method Initialize, addr 0x39cb0e8, size 0x38, virtual false, abstract: false, final false
   inline void Initialize();
@@ -420,7 +420,8 @@ public:
   static inline ::GlobalNamespace::HapticsAudioClipPlayer* New_ctor();
 
   /// @brief Method PlayHapticsPreset, addr 0x39cac9c, size 0x13c, virtual false, abstract: false, final false
-  inline void PlayHapticsPreset(::UnityEngine::XR::XRNode onNode, ::Libraries::HM::HMLib::VR::HapticPresetSO* preset, ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete);
+  inline void PlayHapticsPreset(::UnityEngine::XR::XRNode onNode, ::Libraries::HM::HMLib::VR::HapticPresetSO* preset,
+                                ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
   /// @brief Method Reset, addr 0x39cadd8, size 0x54, virtual false, abstract: false, final false
   inline void Reset();

@@ -102,15 +102,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentLightGroups._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::EnvironmentLightGroups::*)(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*)>(&::GlobalNamespace::EnvironmentLightGroups::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentLightGroups::*)(
+    ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>*)>(&::GlobalNamespace::EnvironmentLightGroups::_ctor)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x26ad364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightGroups*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -193,10 +193,10 @@ inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightG
                                                                              "get_lightGroupSOList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::EnvironmentLightGroups::_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* lightGroups) {
+inline void GlobalNamespace::EnvironmentLightGroups::_ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightGroups*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lightGroups);
 }
 inline ::GlobalNamespace::ILightGroup* GlobalNamespace::EnvironmentLightGroups::GetDataForGroup(int32_t groupId) {
@@ -210,7 +210,7 @@ inline void GlobalNamespace::EnvironmentLightGroups::Sort() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EnvironmentLightGroups* GlobalNamespace::EnvironmentLightGroups::New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* lightGroups) {
+inline ::GlobalNamespace::EnvironmentLightGroups* GlobalNamespace::EnvironmentLightGroups::New_ctor(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentLightGroups*>(lightGroups));
 }
 /// @brief Convert operator to "::GlobalNamespace::IEnvironmentLightGroups"

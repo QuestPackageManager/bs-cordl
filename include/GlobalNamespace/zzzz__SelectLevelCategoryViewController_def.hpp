@@ -371,7 +371,7 @@ public:
 
   /// @brief Field didSelectLevelCategoryEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectLevelCategoryEvent,
-                      put = __cordl_internal_set_didSelectLevelCategoryEvent)) ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*,
+                      put = __cordl_internal_set_didSelectLevelCategoryEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>,
                                                                                                   ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* didSelectLevelCategoryEvent;
 
   __declspec(property(get = get_selectedLevelCategory)) ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory selectedLevelCategory;
@@ -415,10 +415,10 @@ public:
 
   constexpr ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory& __cordl_internal_get__prevSelectedLevelCategory();
 
-  constexpr ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* const&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* const&
   __cordl_internal_get_didSelectLevelCategoryEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>*&
   __cordl_internal_get_didSelectLevelCategoryEvent();
 
   constexpr void __cordl_internal_set__allLevelCategoryInfos(
@@ -434,19 +434,21 @@ public:
   constexpr void __cordl_internal_set__prevSelectedLevelCategory(::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory value);
 
   constexpr void __cordl_internal_set_didSelectLevelCategoryEvent(
-      ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
+      ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
 
   /// @brief Method .ctor, addr 0x3b646f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didSelectLevelCategoryEvent, addr 0x3b63ed8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectLevelCategoryEvent(::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
+  inline void
+  add_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
 
   /// @brief Method get_selectedLevelCategory, addr 0x3b64038, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory get_selectedLevelCategory();
 
   /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x3b63f88, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectLevelCategoryEvent(::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
+  inline void
+  remove_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
 
 protected:
   // Ctor Parameters []
@@ -475,7 +477,7 @@ public:
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
   /// @brief Field didSelectLevelCategoryEvent, offset: 0x90, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::SelectLevelCategoryViewController*, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* ___didSelectLevelCategoryEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* ___didSelectLevelCategoryEvent;
 
   /// @brief Field _prevSelectedLevelCategory, offset: 0x98, size: 0x4, def value: None
   ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory ____prevSelectedLevelCategory;

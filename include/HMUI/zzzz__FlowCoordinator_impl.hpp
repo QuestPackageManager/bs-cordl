@@ -1031,7 +1031,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::FlowCoordinator.get_childFlowCoordinator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::FlowCoordinator* (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_childFlowCoordinator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::FlowCoordinator> (::HMUI::FlowCoordinator::*)()>(
+    &::HMUI::FlowCoordinator::get_childFlowCoordinator)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x228436c;
 
@@ -1471,7 +1472,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::FlowCoordinator.YoungestChildFlowCoordinatorOrSelf
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::FlowCoordinator* (::HMUI::FlowCoordinator::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::FlowCoordinator> (::HMUI::FlowCoordinator::*)()>(
     &::HMUI::FlowCoordinator::YoungestChildFlowCoordinatorOrSelf)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x22867a8;
@@ -1594,6 +1595,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::FlowCoordinator*>::get(), "SetGlobalUserInteraction",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::FlowCoordinator.DidActivate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::FlowCoordinator::*)(bool, bool, bool)>(&::HMUI::FlowCoordinator::DidActivate)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::FlowCoordinator*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::FlowCoordinator*>::get(), 4));
     return ___internal_method;
   }
 };
@@ -1733,27 +1748,27 @@ constexpr void HMUI::FlowCoordinator::__cordl_internal_set__screenSystem(::Unity
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____screenSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::FlowCoordinator*& HMUI::FlowCoordinator::__cordl_internal_get__parentFlowCoordinator() {
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator::__cordl_internal_get__parentFlowCoordinator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentFlowCoordinator;
 }
-constexpr ::HMUI::FlowCoordinator* const& HMUI::FlowCoordinator::__cordl_internal_get__parentFlowCoordinator() const {
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator::__cordl_internal_get__parentFlowCoordinator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentFlowCoordinator;
 }
-constexpr void HMUI::FlowCoordinator::__cordl_internal_set__parentFlowCoordinator(::HMUI::FlowCoordinator* value) {
+constexpr void HMUI::FlowCoordinator::__cordl_internal_set__parentFlowCoordinator(::UnityW<::HMUI::FlowCoordinator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentFlowCoordinator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::FlowCoordinator*& HMUI::FlowCoordinator::__cordl_internal_get__childFlowCoordinator() {
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator::__cordl_internal_get__childFlowCoordinator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childFlowCoordinator;
 }
-constexpr ::HMUI::FlowCoordinator* const& HMUI::FlowCoordinator::__cordl_internal_get__childFlowCoordinator() const {
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator::__cordl_internal_get__childFlowCoordinator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childFlowCoordinator;
 }
-constexpr void HMUI::FlowCoordinator::__cordl_internal_set__childFlowCoordinator(::HMUI::FlowCoordinator* value) {
+constexpr void HMUI::FlowCoordinator::__cordl_internal_set__childFlowCoordinator(::UnityW<::HMUI::FlowCoordinator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____childFlowCoordinator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1983,10 +1998,10 @@ inline ::UnityW<::HMUI::ViewController> HMUI::FlowCoordinator::get_rightScreenVi
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::ViewController>, false>(this, ___internal_method);
 }
-inline ::HMUI::FlowCoordinator* HMUI::FlowCoordinator::get_childFlowCoordinator() {
+inline ::UnityW<::HMUI::FlowCoordinator> HMUI::FlowCoordinator::get_childFlowCoordinator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::FlowCoordinator*>::get(), "get_childFlowCoordinator",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::HMUI::FlowCoordinator*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::FlowCoordinator>, false>(this, ___internal_method);
 }
 inline bool HMUI::FlowCoordinator::get_isActivated() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::FlowCoordinator*>::get(), "get_isActivated",
@@ -2189,11 +2204,11 @@ inline bool HMUI::FlowCoordinator::IsFlowCoordinatorInHierarchy(::HMUI::FlowCoor
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::FlowCoordinator*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, flowCoordinator);
 }
-inline ::HMUI::FlowCoordinator* HMUI::FlowCoordinator::YoungestChildFlowCoordinatorOrSelf() {
+inline ::UnityW<::HMUI::FlowCoordinator> HMUI::FlowCoordinator::YoungestChildFlowCoordinatorOrSelf() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::FlowCoordinator*>::get(), "YoungestChildFlowCoordinatorOrSelf",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::HMUI::FlowCoordinator*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::FlowCoordinator>, false>(this, ___internal_method);
 }
 inline void HMUI::FlowCoordinator::ProvideInitialViewControllers(::HMUI::ViewController* mainViewController, ::HMUI::ViewController* leftScreenViewController,
                                                                  ::HMUI::ViewController* rightScreenViewController, ::HMUI::ViewController* bottomScreenViewController,

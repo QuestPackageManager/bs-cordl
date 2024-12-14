@@ -8,6 +8,102 @@
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::System::Runtime::Remoting::Activation::IConstructionCallMessage.get_ActivationType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(
+    &::System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationType)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Activation::IConstructionCallMessage.get_ActivationTypeName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(
+    &::System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationTypeName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Activation::IConstructionCallMessage.get_Activator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (
+    ::System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&::System::Runtime::Remoting::Activation::IConstructionCallMessage::get_Activator)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Activation::IConstructionCallMessage.set_Activator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Activation::IConstructionCallMessage::*)(
+    ::System::Runtime::Remoting::Activation::IActivator*)>(&::System::Runtime::Remoting::Activation::IConstructionCallMessage::set_Activator)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Activation::IConstructionCallMessage.get_CallSiteActivationAttributes
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
+    ::System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&::System::Runtime::Remoting::Activation::IConstructionCallMessage::get_CallSiteActivationAttributes)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::Remoting::Activation::IConstructionCallMessage.get_ContextProperties
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(
+    &::System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ContextProperties)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Activation::IConstructionCallMessage*>::get(), 5));
+    return ___internal_method;
+  }
+};
 inline ::System::Type* System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationType() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

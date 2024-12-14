@@ -1167,7 +1167,7 @@ public:
   __declspec(property(get = __cordl_internal_get_runtimeInputField_, put = __cordl_internal_set_runtimeInputField_)) ::UnityW<::UnityEngine::UI::InputField> runtimeInputField_;
 
   /// @brief Field singleton_, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_singleton_, put = setStaticF_singleton_)) ::GlobalNamespace::OVRVirtualKeyboard* singleton_;
+  __declspec(property(get = getStaticF_singleton_, put = setStaticF_singleton_)) ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> singleton_;
 
   /// @brief Field textCommitField, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_textCommitField, put = __cordl_internal_set_textCommitField)) ::UnityW<::UnityEngine::UI::InputField> textCommitField;
@@ -1518,7 +1518,7 @@ public:
   /// @brief Method add_KeyboardShown, addr 0x4020410, size 0x9c, virtual false, abstract: false, final false
   inline void add_KeyboardShown(::System::Action* value);
 
-  static inline ::GlobalNamespace::OVRVirtualKeyboard* getStaticF_singleton_();
+  static inline ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> getStaticF_singleton_();
 
   /// @brief Method get_Collider, addr 0x4020680, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_Collider();
@@ -1544,7 +1544,7 @@ public:
   /// @brief Method remove_KeyboardShown, addr 0x40204ac, size 0x9c, virtual false, abstract: false, final false
   inline void remove_KeyboardShown(::System::Action* value);
 
-  static inline void setStaticF_singleton_(::GlobalNamespace::OVRVirtualKeyboard* value);
+  static inline void setStaticF_singleton_(::UnityW<::GlobalNamespace::OVRVirtualKeyboard> value);
 
   /// @brief Method set_Collider, addr 0x4020688, size 0x8, virtual false, abstract: false, final false
   inline void set_Collider(::UnityEngine::Collider* value);

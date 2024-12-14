@@ -120,7 +120,7 @@ public:
                       put = __cordl_internal_set_dimensions)) ::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*>
       dimensions;
 
-  __declspec(property(get = get_flattenedRecursiveImports)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* flattenedRecursiveImports;
+  __declspec(property(get = get_flattenedRecursiveImports)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* flattenedRecursiveImports;
 
   /// @brief Field floats, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_floats, put = __cordl_internal_set_floats)) ::ArrayW<float_t, ::Array<float_t>*> floats;
@@ -149,7 +149,8 @@ public:
 
   /// @brief Field m_FlattenedImportedStyleSheets, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FlattenedImportedStyleSheets,
-                      put = __cordl_internal_set_m_FlattenedImportedStyleSheets)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* m_FlattenedImportedStyleSheets;
+                      put =
+                          __cordl_internal_set_m_FlattenedImportedStyleSheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_FlattenedImportedStyleSheets;
 
   /// @brief Field m_ImportedWithErrors, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ImportedWithErrors, put = __cordl_internal_set_m_ImportedWithErrors)) bool m_ImportedWithErrors;
@@ -300,9 +301,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_ContentHash();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* const& __cordl_internal_get_m_FlattenedImportedStyleSheets() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* const& __cordl_internal_get_m_FlattenedImportedStyleSheets() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>*& __cordl_internal_get_m_FlattenedImportedStyleSheets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*& __cordl_internal_get_m_FlattenedImportedStyleSheets();
 
   constexpr bool const& __cordl_internal_get_m_ImportedWithErrors() const;
 
@@ -354,7 +355,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ContentHash(int32_t value);
 
-  constexpr void __cordl_internal_set_m_FlattenedImportedStyleSheets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* value);
+  constexpr void __cordl_internal_set_m_FlattenedImportedStyleSheets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value);
 
   constexpr void __cordl_internal_set_m_ImportedWithErrors(bool value);
 
@@ -386,7 +387,7 @@ public:
   inline int32_t get_contentHash();
 
   /// @brief Method get_flattenedRecursiveImports, addr 0x4a8b764, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* get_flattenedRecursiveImports();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_flattenedRecursiveImports();
 
   /// @brief Method get_importedWithErrors, addr 0x4a8b1dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithErrors();
@@ -468,7 +469,7 @@ public:
   ::ArrayW<::UnityEngine::UIElements::StyleSheet_ImportStruct, ::Array<::UnityEngine::UIElements::StyleSheet_ImportStruct>*> ___imports;
 
   /// @brief Field m_FlattenedImportedStyleSheets, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* ___m_FlattenedImportedStyleSheets;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___m_FlattenedImportedStyleSheets;
 
   /// @brief Field m_ContentHash, offset: 0x68, size: 0x4, def value: None
   int32_t ___m_ContentHash;

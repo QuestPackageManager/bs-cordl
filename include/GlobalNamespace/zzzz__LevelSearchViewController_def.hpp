@@ -218,13 +218,13 @@ public:
       didFilterBeatmapLevelCollectionEvent;
 
   /// @brief Field didPressSearchButtonEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didPressSearchButtonEvent,
-                      put =
-                          __cordl_internal_set_didPressSearchButtonEvent)) ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* didPressSearchButtonEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didPressSearchButtonEvent,
+      put = __cordl_internal_set_didPressSearchButtonEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* didPressSearchButtonEvent;
 
   /// @brief Field didStartLoadingEvent, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_didStartLoadingEvent,
-                      put = __cordl_internal_set_didStartLoadingEvent)) ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* didStartLoadingEvent;
+                      put = __cordl_internal_set_didStartLoadingEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* didStartLoadingEvent;
 
   /// @brief Method DidActivate, addr 0x3b61f00, size 0x18c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -237,7 +237,7 @@ public:
 
   /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x3b62224, size 0x650, virtual false, abstract: false, final false
   static inline ::StringW LocalizedLevelFilterParamsDescription(::ByRef<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
-                                                                ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristicSO*>* characteristics,
+                                                                ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* characteristics,
                                                                 bool isPlayerSensitivityForced);
 
   static inline ::GlobalNamespace::LevelSearchViewController* New_ctor();
@@ -346,13 +346,13 @@ public:
 
   constexpr ::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>*& __cordl_internal_get_didFilterBeatmapLevelCollectionEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* const& __cordl_internal_get_didPressSearchButtonEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* const& __cordl_internal_get_didPressSearchButtonEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*& __cordl_internal_get_didPressSearchButtonEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*& __cordl_internal_get_didPressSearchButtonEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* const& __cordl_internal_get_didStartLoadingEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* const& __cordl_internal_get_didStartLoadingEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*& __cordl_internal_get_didStartLoadingEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*& __cordl_internal_get_didStartLoadingEvent();
 
   constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
@@ -388,9 +388,9 @@ public:
 
   constexpr void __cordl_internal_set_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  constexpr void __cordl_internal_set_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value);
+  constexpr void __cordl_internal_set_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value);
+  constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
   /// @brief Method .ctor, addr 0x3b628f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -399,19 +399,19 @@ public:
   inline void add_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
   /// @brief Method add_didPressSearchButtonEvent, addr 0x3b6199c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value);
+  inline void add_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
   /// @brief Method add_didStartLoadingEvent, addr 0x3b61c5c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value);
+  inline void add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
   /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x3b61bac, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
   /// @brief Method remove_didPressSearchButtonEvent, addr 0x3b61a4c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value);
+  inline void remove_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
   /// @brief Method remove_didStartLoadingEvent, addr 0x3b61d0c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value);
+  inline void remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -461,13 +461,13 @@ public:
   ::UnityW<::GlobalNamespace::UIKeyboardManager> ____uiKeyboardManager;
 
   /// @brief Field didPressSearchButtonEvent, offset: 0xc8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* ___didPressSearchButtonEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* ___didPressSearchButtonEvent;
 
   /// @brief Field didFilterBeatmapLevelCollectionEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* ___didFilterBeatmapLevelCollectionEvent;
 
   /// @brief Field didStartLoadingEvent, offset: 0xd8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* ___didStartLoadingEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* ___didStartLoadingEvent;
 
   /// @brief Field _beatmapLevelPack, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelPack* ____beatmapLevelPack;

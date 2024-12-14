@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PlatformInstaller
 class CORDL_TYPE PlatformInstaller
-    : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*, ::GlobalNamespace::PlatformInstaller*> {
+    : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>, ::GlobalNamespace::PlatformInstaller*> {
 public:
   // Declarations
   /// @brief Field _isTest, offset 0x18, size 0x1

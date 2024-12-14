@@ -41,14 +41,14 @@ constexpr ::GlobalNamespace::MirroredGameNoteController_Pool::MirroredGameNoteCo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)(
-    ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*)>(&::GlobalNamespace::MirroredGameNoteController::add_cubeNoteControllerDidInitEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*)>(&::GlobalNamespace::MirroredGameNoteController::add_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3ae84d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController*>::get(), "add_cubeNoteControllerDidInitEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)(
-    ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*)>(&::GlobalNamespace::MirroredGameNoteController::remove_cubeNoteControllerDidInitEvent)> {
+    ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*)>(&::GlobalNamespace::MirroredGameNoteController::remove_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3ae8580;
 
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController*>::get(), "remove_cubeNoteControllerDidInitEvent",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -149,15 +149,15 @@ constexpr void GlobalNamespace::MirroredGameNoteController::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*& GlobalNamespace::MirroredGameNoteController::__cordl_internal_get_cubeNoteControllerDidInitEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*& GlobalNamespace::MirroredGameNoteController::__cordl_internal_get_cubeNoteControllerDidInitEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeNoteControllerDidInitEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* const& GlobalNamespace::MirroredGameNoteController::__cordl_internal_get_cubeNoteControllerDidInitEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* const& GlobalNamespace::MirroredGameNoteController::__cordl_internal_get_cubeNoteControllerDidInitEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cubeNoteControllerDidInitEvent;
 }
-constexpr void GlobalNamespace::MirroredGameNoteController::__cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value) {
+constexpr void GlobalNamespace::MirroredGameNoteController::__cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cubeNoteControllerDidInitEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -167,16 +167,16 @@ inline void GlobalNamespace::MirroredGameNoteController::setStaticF__colorId(int
 inline int32_t GlobalNamespace::MirroredGameNoteController::getStaticF__colorId() {
   return ::cordl_internals::getStaticField<int32_t, "_colorId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController*>::get>();
 }
-inline void GlobalNamespace::MirroredGameNoteController::add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value) {
+inline void GlobalNamespace::MirroredGameNoteController::add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController*>::get(), "add_cubeNoteControllerDidInitEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MirroredGameNoteController::remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value) {
+inline void GlobalNamespace::MirroredGameNoteController::remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController*>::get(), "remove_cubeNoteControllerDidInitEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::GlobalNamespace::NoteMovement> GlobalNamespace::MirroredGameNoteController::get_noteMovement() {
@@ -202,14 +202,14 @@ inline void GlobalNamespace::MirroredGameNoteController::_ctor() {
 inline ::GlobalNamespace::MirroredGameNoteController* GlobalNamespace::MirroredGameNoteController::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirroredGameNoteController*>());
 }
-/// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>"
-constexpr GlobalNamespace::MirroredGameNoteController::operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>*() noexcept {
-  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>"
+constexpr GlobalNamespace::MirroredGameNoteController::operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*() noexcept {
+  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>"
-constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>*
-GlobalNamespace::MirroredGameNoteController::i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__MirroredGameNoteController__() noexcept {
-  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::MirroredGameNoteController*>*>(static_cast<void*>(this));
+/// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>"
+constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*
+GlobalNamespace::MirroredGameNoteController::i___GlobalNamespace__ICubeNoteControllerInitializable_1___UnityW___GlobalNamespace__MirroredGameNoteController__() noexcept {
+  return static_cast<::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
 constexpr GlobalNamespace::MirroredGameNoteController::operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept {

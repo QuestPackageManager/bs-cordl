@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorTMPTextStateTransition);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ColorTMPTextStateTransition
-class CORDL_TYPE ColorTMPTextStateTransition : public ::GlobalNamespace::ColorStateTransition_1<::TMPro::TMP_Text*> {
+class CORDL_TYPE ColorTMPTextStateTransition : public ::GlobalNamespace::ColorStateTransition_1<::UnityW<::TMPro::TMP_Text>> {
 public:
   // Declarations
   /// @brief Field _colorTween, offset 0x40, size 0x8

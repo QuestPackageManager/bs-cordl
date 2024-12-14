@@ -538,7 +538,7 @@ constexpr ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirect
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusLevelProductCollectionModel::*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>*)>(&::GlobalNamespace::OculusLevelProductCollectionModel::_ctor)> {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*)>(&::GlobalNamespace::OculusLevelProductCollectionModel::_ctor)> {
   constexpr static std::size_t size = 0xad0;
   constexpr static std::size_t addrs = 0x26e4c54;
 
@@ -546,7 +546,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -683,11 +683,11 @@ constexpr void GlobalNamespace::OculusLevelProductCollectionModel::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____assetFileToSku)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OculusLevelProductCollectionModel::_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>* levelProductPacksSOs) {
+inline void GlobalNamespace::OculusLevelProductCollectionModel::_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* levelProductPacksSOs) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelProductPacksSOs);
 }
 inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* GlobalNamespace::OculusLevelProductCollectionModel::GetLevelProductData(::StringW levelId) {
@@ -722,7 +722,7 @@ inline void GlobalNamespace::OculusLevelProductCollectionModel::InsertAdditional
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelId, additionalSku, additionalSkuType);
 }
 inline ::GlobalNamespace::OculusLevelProductCollectionModel*
-GlobalNamespace::OculusLevelProductCollectionModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductPacksSO*>* levelProductPacksSOs) {
+GlobalNamespace::OculusLevelProductCollectionModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* levelProductPacksSOs) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusLevelProductCollectionModel*>(levelProductPacksSOs));
 }
 // Ctor Parameters []

@@ -56,7 +56,8 @@ public:
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
   /// @brief Field valueDidChangeEvent, offset 0x160, size 0x8
-  __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* valueDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_valueDidChangeEvent,
+                      put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* valueDidChangeEvent;
 
   /// @brief Method Awake, addr 0x39f1ef8, size 0x1e0, virtual true, abstract: false, final false
   inline void Awake();
@@ -107,9 +108,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__minValue();
 
-  constexpr ::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* const& __cordl_internal_get_valueDidChangeEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* const& __cordl_internal_get_valueDidChangeEvent() const;
 
-  constexpr ::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*& __cordl_internal_get_valueDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*& __cordl_internal_get_valueDidChangeEvent();
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
@@ -121,13 +122,13 @@ public:
 
   constexpr void __cordl_internal_set__minValue(float_t value);
 
-  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value);
+  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
   /// @brief Method .ctor, addr 0x39f1af0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_valueDidChangeEvent, addr 0x39f1d90, size 0xb4, virtual false, abstract: false, final false
-  inline void add_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value);
+  inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
   /// @brief Method get_maxValue, addr 0x39f1c8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxValue();
@@ -139,7 +140,7 @@ public:
   inline float_t get_value();
 
   /// @brief Method remove_valueDidChangeEvent, addr 0x39f1e44, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value);
+  inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
   /// @brief Method set_interactable, addr 0x39f1b94, size 0x70, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
@@ -183,7 +184,7 @@ public:
   ::UnityW<::UnityEngine::UI::Button> ____incButton;
 
   /// @brief Field valueDidChangeEvent, offset: 0x160, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* ___valueDidChangeEvent;
+  ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* ___valueDidChangeEvent;
 
   /// @brief Field _buttonBinder, offset: 0x168, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;

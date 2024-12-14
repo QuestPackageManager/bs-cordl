@@ -227,7 +227,7 @@ public:
 
   /// @brief Field didFinishEvent, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* didFinishEvent;
 
   __declspec(property(get = get_enableCustomLevels)) bool enableCustomLevels;
 
@@ -340,9 +340,9 @@ public:
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value);
 
@@ -362,13 +362,13 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value);
 
   /// @brief Method .ctor, addr 0x3b51290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b514dc, size 0xb4, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value);
 
   /// @brief Method get_enableCustomLevels, addr 0x3b51450, size 0x1c, virtual true, abstract: false, final false
   inline bool get_enableCustomLevels();
@@ -398,7 +398,7 @@ public:
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
 
   /// @brief Method remove_didFinishEvent, addr 0x3b51590, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value);
 
 protected:
   // Ctor Parameters []
@@ -445,7 +445,7 @@ public:
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 
   /// @brief Field didFinishEvent, offset: 0x120, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

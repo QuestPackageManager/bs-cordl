@@ -189,7 +189,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_DummyData, put = __cordl_internal_set_m_DummyData)) ::UnityEngine::EventSystems::BaseEventData* m_DummyData;
 
   /// @brief Field m_EventSystems, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_EventSystems, put = setStaticF_m_EventSystems)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* m_EventSystems;
+  __declspec(property(get = getStaticF_m_EventSystems, put = setStaticF_m_EventSystems)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* m_EventSystems;
 
   /// @brief Field m_FirstSelected, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FirstSelected, put = __cordl_internal_set_m_FirstSelected)) ::UnityW<::UnityEngine::GameObject> m_FirstSelected;
@@ -353,7 +353,7 @@ public:
   /// @brief Method .ctor, addr 0x4ad5e70, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* getStaticF_m_EventSystems();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* getStaticF_m_EventSystems();
 
   static inline ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* getStaticF_s_RaycastComparer();
 
@@ -369,7 +369,7 @@ public:
   inline bool get_createUIToolkitPanelGameObjectsOnStart();
 
   /// @brief Method get_current, addr 0x4ad5bc4, size 0xc4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::EventSystems::EventSystem* get_current();
+  static inline ::UnityW<::UnityEngine::EventSystems::EventSystem> get_current();
 
   /// @brief Method get_currentInputModule, addr 0x4ad5e40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
@@ -398,7 +398,7 @@ public:
   /// @brief Method get_sendUIToolkitEvents, addr 0x4ad68ac, size 0x74, virtual false, abstract: false, final false
   inline bool get_sendUIToolkitEvents();
 
-  static inline void setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* value);
+  static inline void setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* value);
 
   static inline void setStaticF_s_RaycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value);
 

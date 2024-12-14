@@ -9,6 +9,22 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::TraceFilter::*)(
+    ::System::Diagnostics::TraceEventCache*, ::StringW, ::System::Diagnostics::TraceEventType, int32_t, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::System::Object*,
+    ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Diagnostics::TraceFilter::ShouldTrace)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceFilter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceFilter*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::TraceFilter.ShouldTrace
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::TraceFilter::*)(
     ::System::Diagnostics::TraceEventCache*, ::StringW, ::System::Diagnostics::TraceEventType, int32_t, ::StringW)>(&::System::Diagnostics::TraceFilter::ShouldTrace)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x442aba8;

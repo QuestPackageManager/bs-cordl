@@ -5,6 +5,22 @@
 #include "GlobalNamespace/zzzz__OVRMesh_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::OVRMesh_IOVRMeshDataProvider.GetMeshType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRMesh_MeshType (::GlobalNamespace::OVRMesh_IOVRMeshDataProvider::*)()>(
+    &::GlobalNamespace::OVRMesh_IOVRMeshDataProvider::GetMeshType)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh_IOVRMeshDataProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh_IOVRMeshDataProvider*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline ::GlobalNamespace::OVRMesh_MeshType GlobalNamespace::OVRMesh_IOVRMeshDataProvider::GetMeshType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh_IOVRMeshDataProvider*>::get(), 0)));

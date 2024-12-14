@@ -291,14 +291,14 @@ constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEqu
 constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>* UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityEngine__InputSystem__InputAction__() {
   return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>"
-constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
+constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*() {
+  return static_cast<::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>"
-constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*
-UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityEngine__InputSystem__InputActionReference__() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+/// @brief Convert to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
+constexpr ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*
+UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityW___UnityEngine__InputSystem__InputActionReference__() {
+  return static_cast<::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_UseReference", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "m_Reference", ty: "::UnityW<::UnityEngine::InputSystem::InputActionReference>", modifiers: "", def_value: Some("{}") }]

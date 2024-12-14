@@ -7,6 +7,38 @@
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
+//  Writing Method size for method: ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry.AddMonoInstaller
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry::*)(::Zenject::MonoInstaller*)>(
+    &::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry::AddMonoInstaller)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry.AddScriptableObjectInstaller
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry::*)(::Zenject::ScriptableObjectInstaller*)>(
+    &::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry::AddScriptableObjectInstaller)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*>::get(), 1));
+    return ___internal_method;
+  }
+};
 inline void BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry::AddMonoInstaller(::Zenject::MonoInstaller* newMonoInstaller) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -19,6 +51,39 @@ inline void BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry::A
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newScriptableObjectInstaller);
 }
+//  Writing Method size for method: ::BGLib::AppFlow::Initialization::AsyncInstaller.LoadResourcesBeforeInstall
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstaller::*)(
+    ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(&::BGLib::AppFlow::Initialization::AsyncInstaller::LoadResourcesBeforeInstall)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller*>::get(), 9));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::AppFlow::Initialization::AsyncInstaller.LoadResourcesBeforeInstallAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::AsyncInstaller::*)(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(
+        &::BGLib::AppFlow::Initialization::AsyncInstaller::LoadResourcesBeforeInstallAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller*>::get(), 10));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BGLib::AppFlow::Initialization::AsyncInstaller._ctor
 template <>
 

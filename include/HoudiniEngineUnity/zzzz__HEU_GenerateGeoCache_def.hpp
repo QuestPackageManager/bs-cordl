@@ -639,7 +639,7 @@ public:
 
   /// @brief Method GetPopulatedGeoCache, addr 0x3a6fda0, size 0x2fc, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache* GetPopulatedGeoCache(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t geoID, int32_t partID, bool bUseLODGroups,
-                                                                                 ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache,
+                                                                                 ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache,
                                                                                  ::StringW assetCacheFolderPath);
 
   static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache* New_ctor();

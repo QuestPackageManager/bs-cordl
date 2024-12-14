@@ -628,15 +628,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::CreditsController.SpawnAllCredits
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::CreditsController::*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*)>(&::GlobalNamespace::CreditsController::SpawnAllCredits)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsController::*)(
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*)>(&::GlobalNamespace::CreditsController::SpawnAllCredits)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x225c3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsController*>::get(), "SpawnAllCredits", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -644,14 +644,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::CreditsController::*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*, float_t)>(&::GlobalNamespace::CreditsController::SpawnCredits)> {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*, float_t)>(&::GlobalNamespace::CreditsController::SpawnCredits)> {
   constexpr static std::size_t size = 0x450;
   constexpr static std::size_t addrs = 0x225c484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsController*>::get(), "SpawnCredits", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
@@ -888,16 +888,16 @@ inline void GlobalNamespace::CreditsController::UnpauseCredits() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::CreditsController::SpawnAllCredits(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* musicPackCredits) {
+inline void GlobalNamespace::CreditsController::SpawnAllCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* musicPackCredits) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsController*>::get(), "SpawnAllCredits", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, musicPackCredits);
 }
-inline float_t GlobalNamespace::CreditsController::SpawnCredits(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* creditsToSpawn, float_t initialHeight) {
+inline float_t GlobalNamespace::CreditsController::SpawnCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* creditsToSpawn, float_t initialHeight) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsController*>::get(), "SpawnCredits", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, creditsToSpawn, initialHeight);
 }

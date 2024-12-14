@@ -73,7 +73,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ClipTargets, put = __cordl_internal_set_m_ClipTargets)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>* m_ClipTargets;
 
   /// @brief Field m_Clippers, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Clippers, put = __cordl_internal_set_m_Clippers)) ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* m_Clippers;
+  __declspec(property(get = __cordl_internal_get_m_Clippers, put = __cordl_internal_set_m_Clippers)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* m_Clippers;
 
   /// @brief Field m_Corners, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Corners, put = __cordl_internal_set_m_Corners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Corners;
@@ -157,9 +157,9 @@ public:
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>*& __cordl_internal_get_m_ClipTargets();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* const& __cordl_internal_get_m_Clippers() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* const& __cordl_internal_get_m_Clippers() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>*& __cordl_internal_get_m_Clippers();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*& __cordl_internal_get_m_Clippers();
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Corners() const;
 
@@ -201,7 +201,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ClipTargets(::System::Collections::Generic::HashSet_1<::UnityEngine::UI::IClippable*>* value);
 
-  constexpr void __cordl_internal_set_m_Clippers(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* value);
+  constexpr void __cordl_internal_set_m_Clippers(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* value);
 
   constexpr void __cordl_internal_set_m_Corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
@@ -287,7 +287,7 @@ public:
   bool ___m_ShouldRecalculateClipRects;
 
   /// @brief Field m_Clippers, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* ___m_Clippers;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* ___m_Clippers;
 
   /// @brief Field m_LastClipRectCanvasSpace, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_LastClipRectCanvasSpace;

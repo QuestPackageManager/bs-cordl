@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredDisappearingArrowController);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MirroredDisappearingArrowController
-class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MirroredGameNoteController*> {
+class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>> {
 public:
   // Declarations
   /// @brief Field _mirroredGameNoteController, offset 0x58, size 0x8

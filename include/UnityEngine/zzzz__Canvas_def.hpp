@@ -143,7 +143,7 @@ public:
 
   __declspec(property(get = get_renderingDisplaySize)) ::UnityEngine::Vector2 renderingDisplaySize;
 
-  __declspec(property(get = get_rootCanvas)) ::UnityEngine::Canvas* rootCanvas;
+  __declspec(property(get = get_rootCanvas)) ::UnityW<::UnityEngine::Canvas> rootCanvas;
 
   __declspec(property(get = get_scaleFactor, put = set_scaleFactor)) float_t scaleFactor;
 
@@ -275,7 +275,7 @@ public:
   inline void get_renderingDisplaySize_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
   /// @brief Method get_rootCanvas, addr 0x4aaa634, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Canvas* get_rootCanvas();
+  inline ::UnityW<::UnityEngine::Canvas> get_rootCanvas();
 
   /// @brief Method get_scaleFactor, addr 0x4aa9fa4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_scaleFactor();

@@ -115,7 +115,7 @@ public:
 
   static inline ::GlobalNamespace::FileSystemBeatmapLevelData*
   New_ctor(::StringW name, ::StringW audioClipPath, ::StringW audioDataPath,
-           ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>,
+           ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
                                                         ::GlobalNamespace::FileDifficultyBeatmap*>* difficultyBeatmaps);
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
@@ -156,7 +156,7 @@ public:
 
   /// @brief Method .ctor, addr 0x26cb990, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW audioClipPath, ::StringW audioDataPath,
-                    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>,
+                    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
                                                                  ::GlobalNamespace::FileDifficultyBeatmap*>* difficultyBeatmaps);
 
   /// @brief Method get_name, addr 0x26cb988, size 0x8, virtual true, abstract: false, final true

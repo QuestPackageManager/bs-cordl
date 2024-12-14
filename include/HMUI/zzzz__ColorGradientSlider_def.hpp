@@ -69,7 +69,7 @@ public:
   /// @brief Field colorDidChangeEvent, offset 0x198, size 0x8
   __declspec(property(
       get = __cordl_internal_get_colorDidChangeEvent,
-      put = __cordl_internal_set_colorDidChangeEvent)) ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
+      put = __cordl_internal_set_colorDidChangeEvent)) ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
@@ -124,9 +124,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__textPrefix();
 
-  constexpr ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* const& __cordl_internal_get_colorDidChangeEvent() const;
+  constexpr ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* const& __cordl_internal_get_colorDidChangeEvent() const;
 
-  constexpr ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& __cordl_internal_get_colorDidChangeEvent();
+  constexpr ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& __cordl_internal_get_colorDidChangeEvent();
 
   constexpr void __cordl_internal_set__color0(::UnityEngine::Color value);
 
@@ -140,13 +140,13 @@ public:
 
   constexpr void __cordl_internal_set__textPrefix(::StringW value);
 
-  constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   /// @brief Method .ctor, addr 0x39f1984, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_colorDidChangeEvent, addr 0x39f0b28, size 0xb4, virtual false, abstract: false, final false
-  inline void add_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  inline void add_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   static inline ::System::Text::StringBuilder* getStaticF__stringBuilder();
 
@@ -157,7 +157,7 @@ public:
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
   /// @brief Method remove_colorDidChangeEvent, addr 0x39f0bdc, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  inline void remove_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   static inline void setStaticF__stringBuilder(::System::Text::StringBuilder* value);
 
@@ -197,7 +197,7 @@ public:
   ::UnityEngine::Color ____lightColor;
 
   /// @brief Field colorDidChangeEvent, offset: 0x198, size: 0x8, def value: None
-  ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* ___colorDidChangeEvent;
+  ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* ___colorDidChangeEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

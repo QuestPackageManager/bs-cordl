@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::Ice::FloorLightTile_Pool);
 namespace Ice {
 // Is value type: false
 // CS Name: Ice.FloorLightTile/Pool
-class CORDL_TYPE FloorLightTile_Pool : public ::Zenject::MonoMemoryPool_1<::Ice::FloorLightTile*> {
+class CORDL_TYPE FloorLightTile_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::Ice::FloorLightTile>> {
 public:
   // Declarations
   static inline ::Ice::FloorLightTile_Pool* New_ctor();
@@ -98,7 +98,7 @@ public:
   __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
   /// @brief Field didFinish, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinish, put = __cordl_internal_set_didFinish)) ::System::Action_1<::Ice::FloorLightTile*>* didFinish;
+  __declspec(property(get = __cordl_internal_get_didFinish, put = __cordl_internal_set_didFinish)) ::System::Action_1<::UnityW<::Ice::FloorLightTile>>* didFinish;
 
   /// @brief Method Awake, addr 0x22674d4, size 0x1e0, virtual false, abstract: false, final false
   inline void Awake();
@@ -140,9 +140,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__tubeBloomPrePassLight();
 
-  constexpr ::System::Action_1<::Ice::FloorLightTile*>* const& __cordl_internal_get_didFinish() const;
+  constexpr ::System::Action_1<::UnityW<::Ice::FloorLightTile>>* const& __cordl_internal_get_didFinish() const;
 
-  constexpr ::System::Action_1<::Ice::FloorLightTile*>*& __cordl_internal_get_didFinish();
+  constexpr ::System::Action_1<::UnityW<::Ice::FloorLightTile>>*& __cordl_internal_get_didFinish();
 
   constexpr void __cordl_internal_set__colorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
 
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  constexpr void __cordl_internal_set_didFinish(::System::Action_1<::Ice::FloorLightTile*>* value);
+  constexpr void __cordl_internal_set_didFinish(::System::Action_1<::UnityW<::Ice::FloorLightTile>>* value);
 
   /// @brief Method .ctor, addr 0x22678c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -186,7 +186,7 @@ public:
   ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 
   /// @brief Field didFinish, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_1<::Ice::FloorLightTile*>* ___didFinish;
+  ::System::Action_1<::UnityW<::Ice::FloorLightTile>>* ___didFinish;
 
   /// @brief Field _fadeInTween, offset: 0x40, size: 0x8, def value: None
   ::Tweening::ColorTween* ____fadeInTween;

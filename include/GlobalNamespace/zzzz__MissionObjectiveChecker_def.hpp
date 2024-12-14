@@ -124,7 +124,7 @@ public:
 
   /// @brief Field checkedValueDidChangeEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_checkedValueDidChangeEvent,
-                      put = __cordl_internal_set_checkedValueDidChangeEvent)) ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* checkedValueDidChangeEvent;
+                      put = __cordl_internal_set_checkedValueDidChangeEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* checkedValueDidChangeEvent;
 
   __declspec(property(get = get_disableChecking, put = set_disableChecking)) bool disableChecking;
 
@@ -136,7 +136,7 @@ public:
 
   /// @brief Field statusDidChangeEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_statusDidChangeEvent,
-                      put = __cordl_internal_set_statusDidChangeEvent)) ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* statusDidChangeEvent;
+                      put = __cordl_internal_set_statusDidChangeEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* statusDidChangeEvent;
 
   /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
@@ -166,13 +166,13 @@ public:
 
   constexpr ::GlobalNamespace::MissionObjectiveChecker_Status& __cordl_internal_get__status();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* const& __cordl_internal_get_checkedValueDidChangeEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* const& __cordl_internal_get_checkedValueDidChangeEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& __cordl_internal_get_checkedValueDidChangeEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*& __cordl_internal_get_checkedValueDidChangeEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* const& __cordl_internal_get_statusDidChangeEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* const& __cordl_internal_get_statusDidChangeEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& __cordl_internal_get_statusDidChangeEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*& __cordl_internal_get_statusDidChangeEvent();
 
   constexpr void __cordl_internal_set__checkedValue(int32_t value);
 
@@ -184,18 +184,18 @@ public:
 
   constexpr void __cordl_internal_set__status(::GlobalNamespace::MissionObjectiveChecker_Status value);
 
-  constexpr void __cordl_internal_set_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
+  constexpr void __cordl_internal_set_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  constexpr void __cordl_internal_set_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
+  constexpr void __cordl_internal_set_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
   /// @brief Method .ctor, addr 0x3baf468, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_checkedValueDidChangeEvent, addr 0x3ba3d10, size 0xb0, virtual false, abstract: false, final false
-  inline void add_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
+  inline void add_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
   /// @brief Method add_statusDidChangeEvent, addr 0x3ba3c60, size 0xb0, virtual false, abstract: false, final false
-  inline void add_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
+  inline void add_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
   /// @brief Method get_checkedValue, addr 0x3bafcc4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_checkedValue();
@@ -213,10 +213,10 @@ public:
   inline ::GlobalNamespace::MissionObjectiveChecker_Status get_status();
 
   /// @brief Method remove_checkedValueDidChangeEvent, addr 0x3bafbe8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
+  inline void remove_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
   /// @brief Method remove_statusDidChangeEvent, addr 0x3bafb38, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value);
+  inline void remove_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
   /// @brief Method set_checkedValue, addr 0x3baee80, size 0x3c, virtual false, abstract: false, final false
   inline void set_checkedValue(int32_t value);
@@ -248,10 +248,10 @@ public:
   ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> ____missionObjectiveType;
 
   /// @brief Field statusDidChangeEvent, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* ___statusDidChangeEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* ___statusDidChangeEvent;
 
   /// @brief Field checkedValueDidChangeEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* ___checkedValueDidChangeEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* ___checkedValueDidChangeEvent;
 
   /// @brief Field _status, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::MissionObjectiveChecker_Status ____status;

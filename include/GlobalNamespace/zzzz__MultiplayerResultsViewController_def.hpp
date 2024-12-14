@@ -62,11 +62,11 @@ public:
 
   /// @brief Field backToLobbyPressedEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_backToLobbyPressedEvent,
-                      put = __cordl_internal_set_backToLobbyPressedEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* backToLobbyPressedEvent;
+                      put = __cordl_internal_set_backToLobbyPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* backToLobbyPressedEvent;
 
   /// @brief Field backToMenuPressedEvent, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_backToMenuPressedEvent,
-                      put = __cordl_internal_set_backToMenuPressedEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* backToMenuPressedEvent;
+                      put = __cordl_internal_set_backToMenuPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* backToMenuPressedEvent;
 
   /// @brief Method BackToLobbyPressed, addr 0x3b6ca18, size 0x20, virtual false, abstract: false, final false
   inline void BackToLobbyPressed();
@@ -110,13 +110,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::ResultsTableView>& __cordl_internal_get__resultsTableView();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* const& __cordl_internal_get_backToLobbyPressedEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* const& __cordl_internal_get_backToLobbyPressedEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>*& __cordl_internal_get_backToLobbyPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*& __cordl_internal_get_backToLobbyPressedEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* const& __cordl_internal_get_backToMenuPressedEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* const& __cordl_internal_get_backToMenuPressedEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>*& __cordl_internal_get_backToMenuPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*& __cordl_internal_get_backToMenuPressedEvent();
 
   constexpr void __cordl_internal_set__backToLobbyButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -132,24 +132,24 @@ public:
 
   constexpr void __cordl_internal_set__resultsTableView(::UnityW<::GlobalNamespace::ResultsTableView> value);
 
-  constexpr void __cordl_internal_set_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
+  constexpr void __cordl_internal_set_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
-  constexpr void __cordl_internal_set_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
+  constexpr void __cordl_internal_set_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
   /// @brief Method .ctor, addr 0x3b6ca58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_backToLobbyPressedEvent, addr 0x3b6c4c4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
+  inline void add_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
   /// @brief Method add_backToMenuPressedEvent, addr 0x3b6c624, size 0xb0, virtual false, abstract: false, final false
-  inline void add_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
+  inline void add_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
   /// @brief Method remove_backToLobbyPressedEvent, addr 0x3b6c574, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
+  inline void remove_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
   /// @brief Method remove_backToMenuPressedEvent, addr 0x3b6c6d4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
+  inline void remove_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -190,10 +190,10 @@ public:
   ::UnityW<::UnityEngine::UI::Button> ____backToMenuButton;
 
   /// @brief Field backToLobbyPressedEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* ___backToLobbyPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* ___backToLobbyPressedEvent;
 
   /// @brief Field backToMenuPressedEvent, offset: 0xb8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* ___backToMenuPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* ___backToMenuPressedEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_P
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerConnectedPlayerObstacleController/Pool
-class CORDL_TYPE MultiplayerConnectedPlayerObstacleController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*> {
+class CORDL_TYPE MultiplayerConnectedPlayerObstacleController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>> {
 public:
   // Declarations
   /// @brief Field _settingsManager, offset 0x40, size 0x8

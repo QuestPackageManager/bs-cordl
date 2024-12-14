@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioReferenceCountingCache);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: AudioReferenceCountingCache
-class CORDL_TYPE AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*> {
+class CORDL_TYPE AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::AudioReferenceCountingCache* New_ctor();

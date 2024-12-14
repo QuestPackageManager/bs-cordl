@@ -98,6 +98,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Runtime::CompilerServices::CallSiteBinder.Bind
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
+    ::System::Runtime::CompilerServices::CallSiteBinder::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>,
+                                                            ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
+                                                            ::System::Linq::Expressions::LabelTarget*)>(&::System::Runtime::CompilerServices::CallSiteBinder::Bind)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(), 4));
+    return ___internal_method;
+  }
+};
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>*& System::Runtime::CompilerServices::CallSiteBinder::__cordl_internal_get_Cache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Cache;

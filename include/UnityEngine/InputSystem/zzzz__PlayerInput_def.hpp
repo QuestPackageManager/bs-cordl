@@ -202,7 +202,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Player
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.PlayerInput/DeviceLostEvent
-class CORDL_TYPE PlayerInput_DeviceLostEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
+class CORDL_TYPE PlayerInput_DeviceLostEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::PlayerInput_DeviceLostEvent* New_ctor();
@@ -237,7 +237,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Player
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent
-class CORDL_TYPE PlayerInput_DeviceRegainedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
+class CORDL_TYPE PlayerInput_DeviceRegainedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::PlayerInput_DeviceRegainedEvent* New_ctor();
@@ -272,7 +272,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Player
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent
-class CORDL_TYPE PlayerInput_ControlsChangedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
+class CORDL_TYPE PlayerInput_ControlsChangedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::PlayerInput_ControlsChangedEvent* New_ctor();
@@ -375,8 +375,9 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Camera, put = __cordl_internal_set_m_Camera)) ::UnityW<::UnityEngine::Camera> m_Camera;
 
   /// @brief Field m_ControlsChangedCallbacks, offset 0x150, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_ControlsChangedCallbacks,
-                      put = __cordl_internal_set_m_ControlsChangedCallbacks)) ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>
+  __declspec(property(
+      get = __cordl_internal_get_m_ControlsChangedCallbacks,
+      put = __cordl_internal_set_m_ControlsChangedCallbacks)) ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>
       m_ControlsChangedCallbacks;
 
   /// @brief Field m_ControlsChangedEvent, offset 0x48, size 0x8
@@ -399,15 +400,16 @@ public:
 
   /// @brief Field m_DeviceLostCallbacks, offset 0xb0, size 0x50
   __declspec(property(get = __cordl_internal_get_m_DeviceLostCallbacks,
-                      put = __cordl_internal_set_m_DeviceLostCallbacks)) ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>
+                      put = __cordl_internal_set_m_DeviceLostCallbacks)) ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>
       m_DeviceLostCallbacks;
 
   /// @brief Field m_DeviceLostEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DeviceLostEvent, put = __cordl_internal_set_m_DeviceLostEvent)) ::UnityEngine::InputSystem::PlayerInput_DeviceLostEvent* m_DeviceLostEvent;
 
   /// @brief Field m_DeviceRegainedCallbacks, offset 0x100, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_DeviceRegainedCallbacks,
-                      put = __cordl_internal_set_m_DeviceRegainedCallbacks)) ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>
+  __declspec(property(
+      get = __cordl_internal_get_m_DeviceRegainedCallbacks,
+      put = __cordl_internal_set_m_DeviceRegainedCallbacks)) ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>
       m_DeviceRegainedCallbacks;
 
   /// @brief Field m_DeviceRegainedEvent, offset 0x40, size 0x8
@@ -464,7 +466,8 @@ public:
   __declspec(property(get = get_playerIndex)) int32_t playerIndex;
 
   /// @brief Field s_AllActivePlayers, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_AllActivePlayers, put = setStaticF_s_AllActivePlayers)) ::ArrayW<::UnityEngine::InputSystem::PlayerInput*, ::Array<::UnityEngine::InputSystem::PlayerInput*>*>
+  __declspec(property(get = getStaticF_s_AllActivePlayers,
+                      put = setStaticF_s_AllActivePlayers)) ::ArrayW<::UnityW<::UnityEngine::InputSystem::PlayerInput>, ::Array<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>
       s_AllActivePlayers;
 
   /// @brief Field s_AllActivePlayersCount, offset 0xffffffff, size 0x4
@@ -523,16 +526,16 @@ public:
   inline void DebugLogAction(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
   /// @brief Method DoInstantiate, addr 0x45dc29c, size 0x340, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::PlayerInput* DoInstantiate(::UnityEngine::GameObject* prefab);
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> DoInstantiate(::UnityEngine::GameObject* prefab);
 
   /// @brief Method FindFirstPairedToDevice, addr 0x45dbfdc, size 0x168, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::PlayerInput* FindFirstPairedToDevice(::UnityEngine::InputSystem::InputDevice* device);
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> FindFirstPairedToDevice(::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Method GetDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline TDevice GetDevice();
 
   /// @brief Method GetPlayerByIndex, addr 0x45dbee0, size 0xfc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::PlayerInput* GetPlayerByIndex(int32_t playerIndex);
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> GetPlayerByIndex(int32_t playerIndex);
 
   /// @brief Method HandleControlsChanged, addr 0x45de6cc, size 0x124, virtual false, abstract: false, final false
   inline void HandleControlsChanged();
@@ -553,12 +556,12 @@ public:
   inline void InstallOnActionTriggeredHook();
 
   /// @brief Method Instantiate, addr 0x45dc144, size 0x158, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::PlayerInput* Instantiate(::UnityEngine::GameObject* prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex,
-                                                                     ::UnityEngine::InputSystem::InputDevice* pairWithDevice);
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> Instantiate(::UnityEngine::GameObject* prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex,
+                                                                              ::UnityEngine::InputSystem::InputDevice* pairWithDevice);
 
   /// @brief Method Instantiate, addr 0x45dc5dc, size 0x190, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::PlayerInput* Instantiate(::UnityEngine::GameObject* prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex,
-                                                                     ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> pairWithDevices);
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> Instantiate(::UnityEngine::GameObject* prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex,
+                                                                              ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> pairWithDevices);
 
   static inline ::UnityEngine::InputSystem::PlayerInput* New_ctor();
 
@@ -652,9 +655,10 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_m_Camera();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> const& __cordl_internal_get_m_ControlsChangedCallbacks() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> const&
+  __cordl_internal_get_m_ControlsChangedCallbacks() const;
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>& __cordl_internal_get_m_ControlsChangedCallbacks();
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>& __cordl_internal_get_m_ControlsChangedCallbacks();
 
   constexpr ::UnityEngine::InputSystem::PlayerInput_ControlsChangedEvent* const& __cordl_internal_get_m_ControlsChangedEvent() const;
 
@@ -676,17 +680,18 @@ public:
 
   constexpr ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*& __cordl_internal_get_m_DeviceChangeDelegate();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> const& __cordl_internal_get_m_DeviceLostCallbacks() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> const& __cordl_internal_get_m_DeviceLostCallbacks() const;
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>& __cordl_internal_get_m_DeviceLostCallbacks();
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>& __cordl_internal_get_m_DeviceLostCallbacks();
 
   constexpr ::UnityEngine::InputSystem::PlayerInput_DeviceLostEvent* const& __cordl_internal_get_m_DeviceLostEvent() const;
 
   constexpr ::UnityEngine::InputSystem::PlayerInput_DeviceLostEvent*& __cordl_internal_get_m_DeviceLostEvent();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> const& __cordl_internal_get_m_DeviceRegainedCallbacks() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> const&
+  __cordl_internal_get_m_DeviceRegainedCallbacks() const;
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>& __cordl_internal_get_m_DeviceRegainedCallbacks();
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>& __cordl_internal_get_m_DeviceRegainedCallbacks();
 
   constexpr ::UnityEngine::InputSystem::PlayerInput_DeviceRegainedEvent* const& __cordl_internal_get_m_DeviceRegainedEvent() const;
 
@@ -760,7 +765,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr void __cordl_internal_set_m_ControlsChangedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> value);
+  constexpr void __cordl_internal_set_m_ControlsChangedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> value);
 
   constexpr void __cordl_internal_set_m_ControlsChangedEvent(::UnityEngine::InputSystem::PlayerInput_ControlsChangedEvent* value);
 
@@ -772,11 +777,11 @@ public:
 
   constexpr void __cordl_internal_set_m_DeviceChangeDelegate(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
 
-  constexpr void __cordl_internal_set_m_DeviceLostCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> value);
+  constexpr void __cordl_internal_set_m_DeviceLostCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> value);
 
   constexpr void __cordl_internal_set_m_DeviceLostEvent(::UnityEngine::InputSystem::PlayerInput_DeviceLostEvent* value);
 
-  constexpr void __cordl_internal_set_m_DeviceRegainedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> value);
+  constexpr void __cordl_internal_set_m_DeviceRegainedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> value);
 
   constexpr void __cordl_internal_set_m_DeviceRegainedEvent(::UnityEngine::InputSystem::PlayerInput_DeviceRegainedEvent* value);
 
@@ -814,15 +819,15 @@ public:
   inline void add_onActionTriggered(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* value);
 
   /// @brief Method add_onControlsChanged, addr 0x45db000, size 0x9c, virtual false, abstract: false, final false
-  inline void add_onControlsChanged(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void add_onControlsChanged(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method add_onDeviceLost, addr 0x45dad90, size 0x9c, virtual false, abstract: false, final false
-  inline void add_onDeviceLost(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void add_onDeviceLost(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method add_onDeviceRegained, addr 0x45daec8, size 0x9c, virtual false, abstract: false, final false
-  inline void add_onDeviceRegained(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void add_onDeviceRegained(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  static inline ::ArrayW<::UnityEngine::InputSystem::PlayerInput*, ::Array<::UnityEngine::InputSystem::PlayerInput*>*> getStaticF_s_AllActivePlayers();
+  static inline ::ArrayW<::UnityW<::UnityEngine::InputSystem::PlayerInput>, ::Array<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> getStaticF_s_AllActivePlayers();
 
   static inline int32_t getStaticF_s_AllActivePlayersCount();
 
@@ -851,7 +856,7 @@ public:
   inline bool get_active();
 
   /// @brief Method get_all, addr 0x45db450, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::PlayerInput*> get_all();
+  static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> get_all();
 
   /// @brief Method get_camera, addr 0x45db138, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
@@ -911,15 +916,15 @@ public:
   inline void remove_onActionTriggered(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* value);
 
   /// @brief Method remove_onControlsChanged, addr 0x45db09c, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_onControlsChanged(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void remove_onControlsChanged(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method remove_onDeviceLost, addr 0x45dae2c, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_onDeviceLost(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void remove_onDeviceLost(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method remove_onDeviceRegained, addr 0x45daf64, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_onDeviceRegained(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void remove_onDeviceRegained(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  static inline void setStaticF_s_AllActivePlayers(::ArrayW<::UnityEngine::InputSystem::PlayerInput*, ::Array<::UnityEngine::InputSystem::PlayerInput*>*> value);
+  static inline void setStaticF_s_AllActivePlayers(::ArrayW<::UnityW<::UnityEngine::InputSystem::PlayerInput>, ::Array<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> value);
 
   static inline void setStaticF_s_AllActivePlayersCount(int32_t value);
 
@@ -1055,13 +1060,13 @@ public:
   ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* ___m_ActionTriggeredDelegate;
 
   /// @brief Field m_DeviceLostCallbacks, offset: 0xb0, size: 0x50, def value: None
-  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> ___m_DeviceLostCallbacks;
+  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> ___m_DeviceLostCallbacks;
 
   /// @brief Field m_DeviceRegainedCallbacks, offset: 0x100, size: 0x50, def value: None
-  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> ___m_DeviceRegainedCallbacks;
+  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> ___m_DeviceRegainedCallbacks;
 
   /// @brief Field m_ControlsChangedCallbacks, offset: 0x150, size: 0x50, def value: None
-  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> ___m_ControlsChangedCallbacks;
+  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> ___m_ControlsChangedCallbacks;
 
   /// @brief Field m_ActionTriggeredCallbacks, offset: 0x1a0, size: 0x50, def value: None
   ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*> ___m_ActionTriggeredCallbacks;

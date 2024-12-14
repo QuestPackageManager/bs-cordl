@@ -550,7 +550,7 @@ constexpr ::GlobalNamespace::HapticsAudioClipPlayer__HandleOneShotPlayEndCorouti
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticsAudioClipPlayer::*)(
-    ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*, ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*)>(
+    ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*, ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*)>(
     &::GlobalNamespace::HapticsAudioClipPlayer::PlayHapticsPreset)> {
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x39cac9c;
@@ -560,7 +560,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), "PlayHapticsPreset", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -594,15 +594,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::HapticsAudioClipPlayer.HandleContinuousAudioCoroutine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
-    ::GlobalNamespace::HapticsAudioClipPlayer::*)(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*)>(&::GlobalNamespace::HapticsAudioClipPlayer::HandleContinuousAudioCoroutine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::HapticsAudioClipPlayer::*)(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*)>(
+        &::GlobalNamespace::HapticsAudioClipPlayer::HandleContinuousAudioCoroutine)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x39caf7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), "HandleContinuousAudioCoroutine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -624,15 +625,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::HapticsAudioClipPlayer.HandleOneShotPlayEndCoroutine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
-    ::GlobalNamespace::HapticsAudioClipPlayer::*)(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*)>(&::GlobalNamespace::HapticsAudioClipPlayer::HandleOneShotPlayEndCoroutine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::HapticsAudioClipPlayer::*)(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*)>(
+        &::GlobalNamespace::HapticsAudioClipPlayer::HandleOneShotPlayEndCoroutine)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x39caf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), "HandleOneShotPlayEndCoroutine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -768,12 +770,12 @@ constexpr void GlobalNamespace::HapticsAudioClipPlayer::__cordl_internal_set__la
   this->____lastTriggerTime = value;
 }
 inline void GlobalNamespace::HapticsAudioClipPlayer::PlayHapticsPreset(::UnityEngine::XR::XRNode onNode, ::Libraries::HM::HMLib::VR::HapticPresetSO* preset,
-                                                                       ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete) {
+                                                                       ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), "PlayHapticsPreset", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, onNode, preset, onComplete);
 }
 inline void GlobalNamespace::HapticsAudioClipPlayer::TriggerContinuousHaptic() {
@@ -786,10 +788,11 @@ inline void GlobalNamespace::HapticsAudioClipPlayer::RestartHaptic() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::HapticsAudioClipPlayer::HandleContinuousAudioCoroutine(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete) {
+inline ::System::Collections::IEnumerator*
+GlobalNamespace::HapticsAudioClipPlayer::HandleContinuousAudioCoroutine(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), "HandleContinuousAudioCoroutine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, onComplete);
 }
 inline void GlobalNamespace::HapticsAudioClipPlayer::UpdateFadeVolume(float_t timeSinceEnd) {
@@ -798,10 +801,10 @@ inline void GlobalNamespace::HapticsAudioClipPlayer::UpdateFadeVolume(float_t ti
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, timeSinceEnd);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::HapticsAudioClipPlayer::HandleOneShotPlayEndCoroutine(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete) {
+inline ::System::Collections::IEnumerator* GlobalNamespace::HapticsAudioClipPlayer::HandleOneShotPlayEndCoroutine(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticsAudioClipPlayer*>::get(), "HandleOneShotPlayEndCoroutine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, onComplete);
 }
 inline void GlobalNamespace::HapticsAudioClipPlayer::Reset() {

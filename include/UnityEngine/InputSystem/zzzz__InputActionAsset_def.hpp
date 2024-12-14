@@ -695,7 +695,7 @@ public:
   inline int32_t FindControlSchemeIndex(::StringW name);
 
   /// @brief Method FromJson, addr 0x453efdc, size 0xb8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::InputActionAsset* FromJson(::StringW json);
+  static inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> FromJson(::StringW json);
 
   /// @brief Method GetEnumerator, addr 0x453ff20, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>* GetEnumerator();

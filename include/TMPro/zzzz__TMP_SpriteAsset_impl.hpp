@@ -330,7 +330,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_SpriteAsset.SearchForSpriteByUnicode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SpriteAsset* (*)(::TMPro::TMP_SpriteAsset*, uint32_t, bool, ::ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, uint32_t, bool, ::ByRef<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode)> {
   constexpr static std::size_t size = 0x224;
   constexpr static std::size_t addrs = 0x48006c8;
@@ -347,15 +347,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_SpriteAsset.SearchForSpriteByUnicodeInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SpriteAsset* (*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*, uint32_t, bool,
-                                                                                                                ::ByRef<int32_t>)>(&::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(
+    ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*, uint32_t, bool, ::ByRef<int32_t>)>(&::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x48008ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SearchForSpriteByUnicodeInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
@@ -364,7 +364,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_SpriteAsset.SearchForSpriteByUnicodeInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SpriteAsset* (*)(::TMPro::TMP_SpriteAsset*, uint32_t, bool, ::ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, uint32_t, bool, ::ByRef<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x4800a8c;
@@ -381,7 +381,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_SpriteAsset.SearchForSpriteByHashCode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SpriteAsset* (*)(::TMPro::TMP_SpriteAsset*, int32_t, bool, ::ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, int32_t, bool, ::ByRef<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode)> {
   constexpr static std::size_t size = 0x31c;
   constexpr static std::size_t addrs = 0x4800b3c;
@@ -398,15 +398,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_SpriteAsset.SearchForSpriteByHashCodeInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SpriteAsset* (*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*, int32_t, bool,
-                                                                                                                ::ByRef<int32_t>)>(&::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(
+    ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*, int32_t, bool, ::ByRef<int32_t>)>(&::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   constexpr static std::size_t size = 0x1a0;
   constexpr static std::size_t addrs = 0x4800e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SearchForSpriteByHashCodeInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
@@ -415,7 +415,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_SpriteAsset.SearchForSpriteByHashCodeInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_SpriteAsset* (*)(::TMPro::TMP_SpriteAsset*, int32_t, bool, ::ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, int32_t, bool, ::ByRef<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x4800ff8;
@@ -614,15 +614,15 @@ constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_spriteInfoList(::Sys
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spriteInfoList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*& TMPro::TMP_SpriteAsset::__cordl_internal_get_fallbackSpriteAssets() {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*& TMPro::TMP_SpriteAsset::__cordl_internal_get_fallbackSpriteAssets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackSpriteAssets;
 }
-constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* const& TMPro::TMP_SpriteAsset::__cordl_internal_get_fallbackSpriteAssets() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* const& TMPro::TMP_SpriteAsset::__cordl_internal_get_fallbackSpriteAssets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fallbackSpriteAssets;
 }
-constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* value) {
+constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fallbackSpriteAssets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -734,57 +734,59 @@ inline int32_t TMPro::TMP_SpriteAsset::GetSpriteIndexFromName(::StringW name) {
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, name);
 }
-inline ::TMPro::TMP_SpriteAsset* TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode(::TMPro::TMP_SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex) {
+inline ::UnityW<::TMPro::TMP_SpriteAsset> TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode(::TMPro::TMP_SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
+                                                                                           ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SearchForSpriteByUnicode", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 4>{
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_SpriteAsset*, false>(nullptr, ___internal_method, spriteAsset, unicode, includeFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_SpriteAsset>, false>(nullptr, ___internal_method, spriteAsset, unicode, includeFallbacks, spriteIndex);
 }
-inline ::TMPro::TMP_SpriteAsset* TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* spriteAssets, uint32_t unicode,
-                                                                                          bool includeFallbacks, ::ByRef<int32_t> spriteIndex) {
+inline ::UnityW<::TMPro::TMP_SpriteAsset> TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* spriteAssets,
+                                                                                                   uint32_t unicode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SearchForSpriteByUnicodeInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_SpriteAsset*, false>(nullptr, ___internal_method, spriteAssets, unicode, includeFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_SpriteAsset>, false>(nullptr, ___internal_method, spriteAssets, unicode, includeFallbacks, spriteIndex);
 }
-inline ::TMPro::TMP_SpriteAsset* TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal(::TMPro::TMP_SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
-                                                                                          ::ByRef<int32_t> spriteIndex) {
+inline ::UnityW<::TMPro::TMP_SpriteAsset> TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal(::TMPro::TMP_SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
+                                                                                                   ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SearchForSpriteByUnicodeInternal", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_SpriteAsset*, false>(nullptr, ___internal_method, spriteAsset, unicode, includeFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_SpriteAsset>, false>(nullptr, ___internal_method, spriteAsset, unicode, includeFallbacks, spriteIndex);
 }
-inline ::TMPro::TMP_SpriteAsset* TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode(::TMPro::TMP_SpriteAsset* spriteAsset, int32_t hashCode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex) {
+inline ::UnityW<::TMPro::TMP_SpriteAsset> TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode(::TMPro::TMP_SpriteAsset* spriteAsset, int32_t hashCode, bool includeFallbacks,
+                                                                                            ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SearchForSpriteByHashCode", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 4>{
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_SpriteAsset*, false>(nullptr, ___internal_method, spriteAsset, hashCode, includeFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_SpriteAsset>, false>(nullptr, ___internal_method, spriteAsset, hashCode, includeFallbacks, spriteIndex);
 }
-inline ::TMPro::TMP_SpriteAsset* TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* spriteAssets, int32_t hashCode,
-                                                                                           bool searchFallbacks, ::ByRef<int32_t> spriteIndex) {
+inline ::UnityW<::TMPro::TMP_SpriteAsset> TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* spriteAssets,
+                                                                                                    int32_t hashCode, bool searchFallbacks, ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SearchForSpriteByHashCodeInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_SpriteAsset*, false>(nullptr, ___internal_method, spriteAssets, hashCode, searchFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_SpriteAsset>, false>(nullptr, ___internal_method, spriteAssets, hashCode, searchFallbacks, spriteIndex);
 }
-inline ::TMPro::TMP_SpriteAsset* TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal(::TMPro::TMP_SpriteAsset* spriteAsset, int32_t hashCode, bool searchFallbacks,
-                                                                                           ::ByRef<int32_t> spriteIndex) {
+inline ::UnityW<::TMPro::TMP_SpriteAsset> TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal(::TMPro::TMP_SpriteAsset* spriteAsset, int32_t hashCode, bool searchFallbacks,
+                                                                                                    ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SearchForSpriteByHashCodeInternal", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_SpriteAsset*, false>(nullptr, ___internal_method, spriteAsset, hashCode, searchFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_SpriteAsset>, false>(nullptr, ___internal_method, spriteAsset, hashCode, searchFallbacks, spriteIndex);
 }
 inline void TMPro::TMP_SpriteAsset::SortGlyphTable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SortGlyphTable",

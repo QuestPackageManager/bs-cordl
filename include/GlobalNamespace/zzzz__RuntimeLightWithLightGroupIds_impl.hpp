@@ -87,6 +87,22 @@ inline ::GlobalNamespace::RuntimeLightWithLightGroupIds_LightIntensitiesWithId* 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RuntimeLightWithLightGroupIds_LightIntensitiesWithId::RuntimeLightWithLightGroupIds_LightIntensitiesWithId() {}
+//  Writing Method size for method: ::GlobalNamespace::RuntimeLightWithLightGroupIds.ColorWasSet
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithLightGroupIds::*)(::UnityEngine::Color)>(
+    &::GlobalNamespace::RuntimeLightWithLightGroupIds::ColorWasSet)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RuntimeLightWithLightGroupIds*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RuntimeLightWithLightGroupIds*>::get(), 8));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::RuntimeLightWithLightGroupIds.Awake
 template <>
 

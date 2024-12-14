@@ -76,7 +76,8 @@ public:
   /// @brief Field didFinishEvent, offset 0x48, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didFinishEvent,
-      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* didFinishEvent;
+      put =
+          __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* didFinishEvent;
 
   __declspec(property(get = get_missionId, put = set_missionId)) ::StringW missionId;
 
@@ -112,9 +113,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__missionId_k__BackingField();
 
-  constexpr ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
@@ -122,19 +123,19 @@ public:
 
   constexpr void __cordl_internal_set__missionId_k__BackingField(::StringW value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
   /// @brief Method .ctor, addr 0x3b3d4a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b3ab18, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
   /// @brief Method get_missionId, addr 0x3b3d46c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
   /// @brief Method remove_didFinishEvent, addr 0x3b3aff8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
   /// @brief Method set_missionId, addr 0x3b3d474, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
@@ -163,7 +164,7 @@ public:
   ::UnityW<::GlobalNamespace::SceneInfo> ____gameCoreSceneInfo;
 
   /// @brief Field didFinishEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* ___didFinishEvent;
 
   /// @brief Field <missionId>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::StringW ____missionId_k__BackingField;

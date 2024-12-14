@@ -62,7 +62,7 @@ public:
   static inline ::GlobalNamespace::MultiplayerMockSettings* New_ctor();
 
   /// @brief Method SharedSettings, addr 0x3bc85cc, size 0x8, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::MultiplayerMockSettings* SharedSettings();
+  static inline ::UnityW<::GlobalNamespace::MultiplayerMockSettings> SharedSettings();
 
   constexpr ::GlobalNamespace::MockPlayerSettings* const& __cordl_internal_get__localPlayer() const;
 

@@ -116,7 +116,7 @@ public:
   __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton)) ::UnityW<::UnityEngine::UI::Button> _okButton;
 
   /// @brief Field didFinishEvent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* didFinishEvent;
 
   /// @brief Method DidActivate, addr 0x3c188e0, size 0xa8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -146,9 +146,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value);
 
@@ -157,16 +157,16 @@ public:
 
   constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
   /// @brief Method .ctor, addr 0x3c189a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3c18684, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3c18734, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -192,7 +192,7 @@ public:
   ::ArrayW<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*, ::Array<::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair*>*> ____missionHelpGameObjectPairs;
 
   /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* ___didFinishEvent;
 
   /// @brief Field _missionHelp, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionHelpSO> ____missionHelp;

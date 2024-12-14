@@ -14,7 +14,7 @@
 //  Writing Method size for method: ::VRUIControls::VRPointer.add_lastUsedControllerChangedEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)(::System::Action_1<::GlobalNamespace::VRController*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>*)>(
     &::VRUIControls::VRPointer::add_lastUsedControllerChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x4aef080;
@@ -22,14 +22,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "add_lastUsedControllerChangedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::VRController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::VRController>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::VRUIControls::VRPointer.remove_lastUsedControllerChangedEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)(::System::Action_1<::GlobalNamespace::VRController*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRPointer::*)(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>*)>(
     &::VRUIControls::VRPointer::remove_lastUsedControllerChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x4aef130;
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "remove_lastUsedControllerChangedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::VRController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::VRController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -614,16 +614,16 @@ constexpr void VRUIControls::VRPointer::__cordl_internal_set__hasCursors(bool va
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasCursors = value;
 }
-inline void VRUIControls::VRPointer::add_lastUsedControllerChangedEvent(::System::Action_1<::GlobalNamespace::VRController*>* value) {
+inline void VRUIControls::VRPointer::add_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "add_lastUsedControllerChangedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::VRController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::VRController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void VRUIControls::VRPointer::remove_lastUsedControllerChangedEvent(::System::Action_1<::GlobalNamespace::VRController*>* value) {
+inline void VRUIControls::VRPointer::remove_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRPointer*>::get(), "remove_lastUsedControllerChangedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::VRController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::VRController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::GameObject> VRUIControls::VRPointer::get_pointingOver() {

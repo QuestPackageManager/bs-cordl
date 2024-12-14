@@ -1428,14 +1428,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)(
-    ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*>, ::ByRef<::UnityEngine::Texture2D*>)>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
+    ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>>, ::ByRef<::UnityEngine::Texture2D*>)>(
+    &::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x4a7eea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*>>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Texture2D*>>::get() })));
     return ___internal_method;
   }
@@ -1444,14 +1445,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)(
-    ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*>, ::ByRef<::UnityEngine::Sprite*>)>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
+    ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>>, ::ByRef<::UnityEngine::Sprite*>)>(&::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x4a7efa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*>>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Sprite*>>::get() })));
     return ___internal_method;
   }
@@ -1460,7 +1461,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualElement_CustomStyleAccess::*)(
-    ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*>, ::ByRef<::UnityEngine::UIElements::VectorImage*>)>(
+    ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>>, ::ByRef<::UnityEngine::UIElements::VectorImage*>)>(
     &::UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x4a7f0b0;
@@ -1468,8 +1469,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::VectorImage*>>::get() })));
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::VectorImage*>>::get() })));
     return ___internal_method;
   }
 };
@@ -1599,28 +1601,29 @@ inline bool UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValu
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, property, value);
 }
-inline bool UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*> property,
+inline bool UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> property,
                                                                                   ::ByRef<::UnityEngine::Texture2D*> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*>>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Texture2D*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, property, value);
 }
-inline bool UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*> property,
+inline bool UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>> property,
                                                                                   ::ByRef<::UnityEngine::Sprite*> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*>>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Sprite*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, property, value);
 }
-inline bool UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*> property,
+inline bool UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>> property,
                                                                                   ::ByRef<::UnityEngine::UIElements::VectorImage*> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElement_CustomStyleAccess*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::VectorImage*>>::get() })));
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::VectorImage*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, property, value);
 }
 inline bool UnityEngine::UIElements::VisualElement_CustomStyleAccess::TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::StringW> property, ::ByRef<::StringW> value) {

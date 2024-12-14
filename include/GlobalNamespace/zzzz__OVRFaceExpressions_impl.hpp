@@ -15,6 +15,22 @@
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions_WeightProvider.GetWeight
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRFaceExpressions_WeightProvider::*)(
+    ::GlobalNamespace::OVRFaceExpressions_FaceExpression)>(&::GlobalNamespace::OVRFaceExpressions_WeightProvider::GetWeight)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions_WeightProvider*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions_WeightProvider*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline float_t GlobalNamespace::OVRFaceExpressions_WeightProvider::GetWeight(::GlobalNamespace::OVRFaceExpressions_FaceExpression expression) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions_WeightProvider*>::get(), 0)));

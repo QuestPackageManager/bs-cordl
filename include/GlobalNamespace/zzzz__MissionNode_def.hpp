@@ -35,7 +35,9 @@ class CORDL_TYPE MissionNode : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _childNodes, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__childNodes, put = __cordl_internal_set__childNodes)) ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> _childNodes;
+  __declspec(property(get = __cordl_internal_get__childNodes,
+                      put = __cordl_internal_set__childNodes)) ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*>
+      _childNodes;
 
   /// @brief Field _letterPartName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__letterPartName, put = __cordl_internal_set__letterPartName)) ::StringW _letterPartName;
@@ -53,7 +55,7 @@ public:
   /// @brief Field _rectTransform, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
-  __declspec(property(get = get_childNodes)) ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> childNodes;
+  __declspec(property(get = get_childNodes)) ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> childNodes;
 
   __declspec(property(get = get_formattedMissionNodeName)) ::StringW formattedMissionNodeName;
 
@@ -76,9 +78,9 @@ public:
 
   static inline ::GlobalNamespace::MissionNode* New_ctor();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> const& __cordl_internal_get__childNodes() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> const& __cordl_internal_get__childNodes() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*>& __cordl_internal_get__childNodes();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*>& __cordl_internal_get__childNodes();
 
   constexpr ::StringW const& __cordl_internal_get__letterPartName() const;
 
@@ -100,7 +102,7 @@ public:
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr void __cordl_internal_set__childNodes(::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> value);
+  constexpr void __cordl_internal_set__childNodes(::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> value);
 
   constexpr void __cordl_internal_set__letterPartName(::StringW value);
 
@@ -116,7 +118,7 @@ public:
   inline void _ctor();
 
   /// @brief Method get_childNodes, addr 0x3c076b0, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> get_childNodes();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> get_childNodes();
 
   /// @brief Method get_formattedMissionNodeName, addr 0x3c076d0, size 0x88, virtual false, abstract: false, final false
   inline ::StringW get_formattedMissionNodeName();
@@ -178,7 +180,7 @@ public:
   ::UnityW<::GlobalNamespace::MissionNodeVisualController> ____missionNodeVisualController;
 
   /// @brief Field _childNodes, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> ____childNodes;
+  ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> ____childNodes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

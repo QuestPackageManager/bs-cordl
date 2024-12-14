@@ -35,14 +35,14 @@ public:
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::TMPro::TMP_FontAsset* font, uint32_t unicode, ::ByRef<::TMPro::TMP_Character*> character);
 
   /// @brief Method SearchForCharacter, addr 0x47d3d8c, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fonts, uint32_t unicode,
+  static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                     ::ByRef<::TMPro::TMP_Character*> character);
 
   /// @brief Method SearchForCharacterInternal, addr 0x47d3b00, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::TMPro::TMP_FontAsset* font, uint32_t unicode, ::ByRef<::TMPro::TMP_Character*> character);
 
   /// @brief Method SearchForCharacterInternal, addr 0x47d3d90, size 0xf0, virtual false, abstract: false, final false
-  static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* fonts, uint32_t unicode,
+  static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                             ::ByRef<::TMPro::TMP_Character*> character);
 
   static inline ::System::Collections::Generic::List_1<int32_t>* getStaticF_k_searchedFontAssets();

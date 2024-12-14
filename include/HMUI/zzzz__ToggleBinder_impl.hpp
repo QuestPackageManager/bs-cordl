@@ -93,16 +93,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::ToggleBinder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::HMUI::ToggleBinder::*)(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::_ctor)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x39ec404;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -123,15 +123,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleBinder::*)(
-    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::AddBindings)> {
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*)>(&::HMUI::ToggleBinder::AddBindings)> {
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x39ec440;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), "AddBindings", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), "AddBindings", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -238,11 +238,11 @@ inline void HMUI::ToggleBinder::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::ToggleBinder::_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>*>::get() })));
+inline void HMUI::ToggleBinder::_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                   ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindingData);
 }
 inline void HMUI::ToggleBinder::Init() {
@@ -250,11 +250,11 @@ inline void HMUI::ToggleBinder::Init() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::ToggleBinder::AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), "AddBindings", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>*>::get() })));
+inline void HMUI::ToggleBinder::AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleBinder*>::get(), "AddBindings", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                   ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindingData);
 }
 inline void HMUI::ToggleBinder::AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action) {
@@ -289,7 +289,7 @@ inline void HMUI::ToggleBinder::Enable() {
 inline ::HMUI::ToggleBinder* HMUI::ToggleBinder::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ToggleBinder*>());
 }
-inline ::HMUI::ToggleBinder* HMUI::ToggleBinder::New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Toggle*, ::System::Action_1<bool>*>*>* bindingData) {
+inline ::HMUI::ToggleBinder* HMUI::ToggleBinder::New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ToggleBinder*>(bindingData));
 }
 // Ctor Parameters []

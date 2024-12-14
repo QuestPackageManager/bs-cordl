@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelPackSO.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelPackSO* (*)(::StringW)>(&::GlobalNamespace::BeatmapLevelPackSO::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelPackSO> (*)(::StringW)>(&::GlobalNamespace::BeatmapLevelPackSO::Create)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x26c8a08;
 
@@ -298,11 +298,11 @@ inline ::GlobalNamespace::PlayerSensitivityFlag GlobalNamespace::BeatmapLevelPac
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerSensitivityFlag, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapLevelPackSO* GlobalNamespace::BeatmapLevelPackSO::Create(::StringW packID) {
+inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> GlobalNamespace::BeatmapLevelPackSO::Create(::StringW packID) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPackSO*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapLevelPackSO*, false>(nullptr, ___internal_method, packID);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, false>(nullptr, ___internal_method, packID);
 }
 inline void GlobalNamespace::BeatmapLevelPackSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPackSO*>::get(), ".ctor",

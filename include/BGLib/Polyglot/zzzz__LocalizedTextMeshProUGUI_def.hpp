@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::BGLib::Polyglot::LocalizedTextMeshProUGUI);
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: BGLib.Polyglot.LocalizedTextMeshProUGUI
-class CORDL_TYPE LocalizedTextMeshProUGUI : public ::BGLib::Polyglot::LocalizedTextComponent_1<::TMPro::TextMeshProUGUI*> {
+class CORDL_TYPE LocalizedTextMeshProUGUI : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshProUGUI>> {
 public:
   // Declarations
   /// @brief Method IsAlignmentLeft, addr 0x22afe98, size 0x28, virtual false, abstract: false, final false

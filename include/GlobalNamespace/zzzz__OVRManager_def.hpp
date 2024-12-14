@@ -1987,7 +1987,7 @@ public:
                       put = __cordl_internal_set__headPoseRelativeOffsetTranslation)) ::UnityEngine::Vector3 _headPoseRelativeOffsetTranslation;
 
   /// @brief Field <instance>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField)) ::GlobalNamespace::OVRManager* _instance_k__BackingField;
+  __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField)) ::UnityW<::GlobalNamespace::OVRManager> _instance_k__BackingField;
 
   /// @brief Field _isHmdPresent, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__isHmdPresent, put = setStaticF__isHmdPresent)) bool _isHmdPresent;
@@ -3137,7 +3137,7 @@ public:
 
   static inline bool getStaticF__hasVrFocusCached();
 
-  static inline ::GlobalNamespace::OVRManager* getStaticF__instance_k__BackingField();
+  static inline ::UnityW<::GlobalNamespace::OVRManager> getStaticF__instance_k__BackingField();
 
   static inline bool getStaticF__isHmdPresent();
 
@@ -3277,7 +3277,7 @@ public:
   inline ::UnityEngine::Vector3 get_headPoseRelativeOffsetTranslation();
 
   /// @brief Method get_instance, addr 0x3fc2354, size 0x58, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRManager* get_instance();
+  static inline ::UnityW<::GlobalNamespace::OVRManager> get_instance();
 
   /// @brief Method get_isHmdPresent, addr 0x3fc5138, size 0xd8, virtual false, abstract: false, final false
   static inline bool get_isHmdPresent();
@@ -3505,7 +3505,7 @@ public:
 
   static inline void setStaticF__hasVrFocusCached(bool value);
 
-  static inline void setStaticF__instance_k__BackingField(::GlobalNamespace::OVRManager* value);
+  static inline void setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRManager> value);
 
   static inline void setStaticF__isHmdPresent(bool value);
 

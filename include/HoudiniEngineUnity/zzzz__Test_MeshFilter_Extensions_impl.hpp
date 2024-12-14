@@ -134,7 +134,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshFilter*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>*)>(
+    static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshFilter*>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*)>(
         &::HoudiniEngineUnity::Test_MeshFilter_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x3a9aab0;
@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_MeshFilter_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -160,10 +160,10 @@ HoudiniEngineUnity::Test_MeshFilter_Extensions::ToTestObject(::ArrayW<::UnityEng
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::HoudiniEngineUnity::Test_MeshFilter*, ::Array<::HoudiniEngineUnity::Test_MeshFilter*>*>, false>(nullptr, ___internal_method, self);
 }
 inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshFilter*>*
-HoudiniEngineUnity::Test_MeshFilter_Extensions::ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>* self) {
+HoudiniEngineUnity::Test_MeshFilter_Extensions::ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* self) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_MeshFilter_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshFilter*>*, false>(nullptr, ___internal_method, self);
 }
 // Ctor Parameters []

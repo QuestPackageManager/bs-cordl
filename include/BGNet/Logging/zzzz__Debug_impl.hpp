@@ -55,6 +55,63 @@ inline ::BGNet::Logging::Debug_LoggerLinkedList* BGNet::Logging::Debug_LoggerLin
 }
 // Ctor Parameters []
 constexpr ::BGNet::Logging::Debug_LoggerLinkedList::Debug_LoggerLinkedList() {}
+//  Writing Method size for method: ::BGNet::Logging::Debug_ILogger.LogInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogInfo)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Logging::Debug_ILogger.LogError
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogError)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Logging::Debug_ILogger.LogException
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::System::Exception*, ::StringW)>(
+    &::BGNet::Logging::Debug_ILogger::LogException)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Logging::Debug_ILogger.LogWarning
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_ILogger::*)(::StringW)>(&::BGNet::Logging::Debug_ILogger::LogWarning)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(), 3));
+    return ___internal_method;
+  }
+};
 inline void BGNet::Logging::Debug_ILogger::LogInfo(::StringW message) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug_ILogger*>::get(), 0)));

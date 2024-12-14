@@ -131,7 +131,7 @@ public:
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();
 
   /// @brief Method set_environmentInfos, addr 0x3bff4ac, size 0x8, virtual false, abstract: false, final false
-  inline void set_environmentInfos(::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* value);
+  inline void set_environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
 protected:
   // Ctor Parameters []

@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameNoteController_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GameNoteController/Pool
-class CORDL_TYPE GameNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::GameNoteController*> {
+class CORDL_TYPE GameNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::GameNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::GameNoteController_Pool* New_ctor();
@@ -136,7 +136,7 @@ public:
 
   /// @brief Field cubeNoteControllerDidInitEvent, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_cubeNoteControllerDidInitEvent,
-                      put = __cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::GlobalNamespace::GameNoteController*>* cubeNoteControllerDidInitEvent;
+                      put = __cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>* cubeNoteControllerDidInitEvent;
 
   __declspec(property(get = get_gameplayType)) ::GlobalNamespace::NoteData_GameplayType gameplayType;
 
@@ -144,8 +144,8 @@ public:
 
   __declspec(property(get = get_noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
 
-  /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::GameNoteController*>"
-  constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::GameNoteController*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::GameNoteController>>"
+  constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::GameNoteController>>*() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::IGameNoteMirrorable"
   constexpr operator ::GlobalNamespace::IGameNoteMirrorable*() noexcept;
@@ -223,9 +223,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__wrapperGO();
 
-  constexpr ::System::Action_1<::GlobalNamespace::GameNoteController*>* const& __cordl_internal_get_cubeNoteControllerDidInitEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>* const& __cordl_internal_get_cubeNoteControllerDidInitEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::GameNoteController*>*& __cordl_internal_get_cubeNoteControllerDidInitEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>*& __cordl_internal_get_cubeNoteControllerDidInitEvent();
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
@@ -241,13 +241,13 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::GameNoteController*>* value);
+  constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
 
   /// @brief Method .ctor, addr 0x3ae8380, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x3ae74c0, size 0xb0, virtual true, abstract: false, final true
-  inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::GameNoteController*>* value);
+  inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
 
   /// @brief Method get_gameplayType, addr 0x3ae7630, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
@@ -258,9 +258,9 @@ public:
   /// @brief Method get_noteVisualModifierType, addr 0x3ae7628, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
-  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::GameNoteController*>"
-  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::GlobalNamespace::GameNoteController*>*
-  i___GlobalNamespace__ICubeNoteControllerInitializable_1___GlobalNamespace__GameNoteController__() noexcept;
+  /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::GameNoteController>>"
+  constexpr ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::GameNoteController>>*
+  i___GlobalNamespace__ICubeNoteControllerInitializable_1___UnityW___GlobalNamespace__GameNoteController__() noexcept;
 
   /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
   constexpr ::GlobalNamespace::IGameNoteMirrorable* i___GlobalNamespace__IGameNoteMirrorable() noexcept;
@@ -275,7 +275,7 @@ public:
   constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
   /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x3ae7570, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::GameNoteController*>* value);
+  inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -307,7 +307,7 @@ public:
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field cubeNoteControllerDidInitEvent, offset: 0xa8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::GameNoteController*>* ___cubeNoteControllerDidInitEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::GameNoteController>>* ___cubeNoteControllerDidInitEvent;
 
   /// @brief Field _noteVisualModifierType, offset: 0xb0, size: 0x4, def value: None
   ::GlobalNamespace::NoteVisualModifierType ____noteVisualModifierType;

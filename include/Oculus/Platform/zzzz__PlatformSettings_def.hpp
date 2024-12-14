@@ -20,7 +20,7 @@ class CORDL_TYPE PlatformSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::Oculus::Platform::PlatformSettings* instance;
+  __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::UnityW<::Oculus::Platform::PlatformSettings> instance;
 
   /// @brief Field ovrAppID, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ovrAppID, put = __cordl_internal_set_ovrAppID)) ::StringW ovrAppID;
@@ -54,13 +54,13 @@ public:
   /// @brief Method .ctor, addr 0x3f8bbf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Oculus::Platform::PlatformSettings* getStaticF_instance();
+  static inline ::UnityW<::Oculus::Platform::PlatformSettings> getStaticF_instance();
 
   /// @brief Method get_AppID, addr 0x3f81054, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_AppID();
 
   /// @brief Method get_Instance, addr 0x3f8ba20, size 0x124, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::PlatformSettings* get_Instance();
+  static inline ::UnityW<::Oculus::Platform::PlatformSettings> get_Instance();
 
   /// @brief Method get_MobileAppID, addr 0x3f81038, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_MobileAppID();
@@ -68,7 +68,7 @@ public:
   /// @brief Method get_UseStandalonePlatform, addr 0x3f80610, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_UseStandalonePlatform();
 
-  static inline void setStaticF_instance(::Oculus::Platform::PlatformSettings* value);
+  static inline void setStaticF_instance(::UnityW<::Oculus::Platform::PlatformSettings> value);
 
   /// @brief Method set_AppID, addr 0x3f8bb44, size 0x20, virtual false, abstract: false, final false
   static inline void set_AppID(::StringW value);

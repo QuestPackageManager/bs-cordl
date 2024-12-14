@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SpriteSwapGraphicViewStateTransition);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SpriteSwapGraphicViewStateTransition
-class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Image*> {
+class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::UI::Image>> {
 public:
   // Declarations
   /// @brief Field _transition, offset 0x38, size 0x8

@@ -6,6 +6,36 @@
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+//  Writing Method size for method: ::UnityEngine::EventSystems::BaseRaycaster.Raycast
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseRaycaster::*)(
+    ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::UnityEngine::EventSystems::BaseRaycaster::Raycast)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseRaycaster*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseRaycaster*>::get(), 17));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::BaseRaycaster.get_eventCamera
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
+    &::UnityEngine::EventSystems::BaseRaycaster::get_eventCamera)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseRaycaster*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseRaycaster*>::get(), 18));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::EventSystems::BaseRaycaster.get_priority
 template <>
 
@@ -54,7 +84,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::EventSystems::BaseRaycaster.get_rootRaycaster
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::BaseRaycaster* (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::EventSystems::BaseRaycaster> (::UnityEngine::EventSystems::BaseRaycaster::*)()>(
     &::UnityEngine::EventSystems::BaseRaycaster::get_rootRaycaster)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x4ad6468;
@@ -150,15 +180,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::EventSystems::BaseRaycaster*& UnityEngine::EventSystems::BaseRaycaster::__cordl_internal_get_m_RootRaycaster() {
+constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster>& UnityEngine::EventSystems::BaseRaycaster::__cordl_internal_get_m_RootRaycaster() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RootRaycaster;
 }
-constexpr ::UnityEngine::EventSystems::BaseRaycaster* const& UnityEngine::EventSystems::BaseRaycaster::__cordl_internal_get_m_RootRaycaster() const {
+constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> const& UnityEngine::EventSystems::BaseRaycaster::__cordl_internal_get_m_RootRaycaster() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RootRaycaster;
 }
-constexpr void UnityEngine::EventSystems::BaseRaycaster::__cordl_internal_set_m_RootRaycaster(::UnityEngine::EventSystems::BaseRaycaster* value) {
+constexpr void UnityEngine::EventSystems::BaseRaycaster::__cordl_internal_set_m_RootRaycaster(::UnityW<::UnityEngine::EventSystems::BaseRaycaster> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RootRaycaster)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -188,10 +218,10 @@ inline int32_t UnityEngine::EventSystems::BaseRaycaster::get_renderOrderPriority
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseRaycaster*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::EventSystems::BaseRaycaster* UnityEngine::EventSystems::BaseRaycaster::get_rootRaycaster() {
+inline ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> UnityEngine::EventSystems::BaseRaycaster::get_rootRaycaster() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseRaycaster*>::get(),
                                                                              "get_rootRaycaster", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::BaseRaycaster*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>, false>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::EventSystems::BaseRaycaster::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

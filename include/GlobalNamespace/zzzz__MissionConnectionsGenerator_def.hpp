@@ -52,7 +52,7 @@ public:
   inline ::UnityW<::GlobalNamespace::MissionNodeConnection> CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode, ::GlobalNamespace::MissionNode* childMissionNode);
 
   /// @brief Method CreateConnections, addr 0x3c06590, size 0x1f0, virtual false, abstract: false, final false
-  inline void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* visitedNodes);
+  inline void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
 
   /// @brief Method CreateNodeConnections, addr 0x3c06044, size 0x94, virtual false, abstract: false, final false
   inline void CreateNodeConnections();

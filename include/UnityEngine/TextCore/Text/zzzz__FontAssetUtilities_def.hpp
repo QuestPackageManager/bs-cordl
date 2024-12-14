@@ -58,7 +58,7 @@ public:
 
   /// @brief Method GetCharacterFromFontAssets, addr 0x492aa48, size 0x1b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::Character* GetCharacterFromFontAssets(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset,
-                                                                                     ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* fontAssets,
+                                                                                     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets,
                                                                                      bool includeFallbacks, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
                                                                                      ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::ByRef<bool> isAlternativeTypeface);
 

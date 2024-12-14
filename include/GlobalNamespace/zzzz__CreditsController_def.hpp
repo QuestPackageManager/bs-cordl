@@ -492,10 +492,10 @@ public:
   inline ::System::Collections::IEnumerator* ScrollCoroutine();
 
   /// @brief Method SpawnAllCredits, addr 0x225c3ec, size 0x98, virtual false, abstract: false, final false
-  inline void SpawnAllCredits(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* musicPackCredits);
+  inline void SpawnAllCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* musicPackCredits);
 
   /// @brief Method SpawnCredits, addr 0x225c484, size 0x450, virtual false, abstract: false, final false
-  inline float_t SpawnCredits(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* creditsToSpawn, float_t initialHeight);
+  inline float_t SpawnCredits(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* creditsToSpawn, float_t initialHeight);
 
   /// @brief Method Start, addr 0x225b79c, size 0x80, virtual false, abstract: false, final false
   inline void Start();

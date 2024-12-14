@@ -1320,14 +1320,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationTrack::*)(
-    ::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>*)>(&::UnityEngine::Timeline::AnimationTrack::GetAnimationClips)> {
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AnimationClip>>*)>(&::UnityEngine::Timeline::AnimationTrack::GetAnimationClips)> {
   constexpr static std::size_t size = 0x558;
   constexpr static std::size_t addrs = 0x48103bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationTrack*>::get(), "GetAnimationClips", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AnimationClip>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -2188,10 +2188,10 @@ inline void UnityEngine::Timeline::AnimationTrack::GatherProperties(::UnityEngin
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationTrack*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, director, driver);
 }
-inline void UnityEngine::Timeline::AnimationTrack::GetAnimationClips(::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>* animClips) {
+inline void UnityEngine::Timeline::AnimationTrack::GetAnimationClips(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AnimationClip>>* animClips) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationTrack*>::get(), "GetAnimationClips", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AnimationClip>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, animClips);
 }
 inline ::UnityEngine::Timeline::AppliedOffsetMode UnityEngine::Timeline::AnimationTrack::GetOffsetMode(::UnityEngine::GameObject* go, bool animatesRootTransform) {

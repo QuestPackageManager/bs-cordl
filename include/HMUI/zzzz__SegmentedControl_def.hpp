@@ -133,10 +133,11 @@ public:
 
   /// @brief Field didPressNonInteractableCellEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressNonInteractableCellEvent,
-                      put = __cordl_internal_set_didPressNonInteractableCellEvent)) ::System::Action_2<::HMUI::SegmentedControl*, int32_t>* didPressNonInteractableCellEvent;
+                      put = __cordl_internal_set_didPressNonInteractableCellEvent)) ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* didPressNonInteractableCellEvent;
 
   /// @brief Field didSelectCellEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSelectCellEvent, put = __cordl_internal_set_didSelectCellEvent)) ::System::Action_2<::HMUI::SegmentedControl*, int32_t>* didSelectCellEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectCellEvent,
+                      put = __cordl_internal_set_didSelectCellEvent)) ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* didSelectCellEvent;
 
   __declspec(property(get = get_selectedCellNumber)) int32_t selectedCellNumber;
 
@@ -205,13 +206,13 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__separators();
 
-  constexpr ::System::Action_2<::HMUI::SegmentedControl*, int32_t>* const& __cordl_internal_get_didPressNonInteractableCellEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* const& __cordl_internal_get_didPressNonInteractableCellEvent() const;
 
-  constexpr ::System::Action_2<::HMUI::SegmentedControl*, int32_t>*& __cordl_internal_get_didPressNonInteractableCellEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*& __cordl_internal_get_didPressNonInteractableCellEvent();
 
-  constexpr ::System::Action_2<::HMUI::SegmentedControl*, int32_t>* const& __cordl_internal_get_didSelectCellEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* const& __cordl_internal_get_didSelectCellEvent() const;
 
-  constexpr ::System::Action_2<::HMUI::SegmentedControl*, int32_t>*& __cordl_internal_get_didSelectCellEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*& __cordl_internal_get_didSelectCellEvent();
 
   constexpr void __cordl_internal_set__callbacks(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>* value);
 
@@ -234,18 +235,18 @@ public:
 
   constexpr void __cordl_internal_set__separators(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  constexpr void __cordl_internal_set_didPressNonInteractableCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value);
+  constexpr void __cordl_internal_set_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  constexpr void __cordl_internal_set_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
   /// @brief Method .ctor, addr 0x4088734, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didPressNonInteractableCellEvent, addr 0x4088ee8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressNonInteractableCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value);
+  inline void add_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
   /// @brief Method add_didSelectCellEvent, addr 0x4088d88, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value);
+  inline void add_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
   /// @brief Method get_cells, addr 0x4089058, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::HMUI::SegmentedControlCell>>* get_cells();
@@ -257,10 +258,10 @@ public:
   inline int32_t get_selectedCellNumber();
 
   /// @brief Method remove_didPressNonInteractableCellEvent, addr 0x4088f98, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressNonInteractableCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value);
+  inline void remove_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
   /// @brief Method remove_didSelectCellEvent, addr 0x4088e38, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellEvent(::System::Action_2<::HMUI::SegmentedControl*, int32_t>* value);
+  inline void remove_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
   /// @brief Method set_dataSource, addr 0x4087d04, size 0x8, virtual false, abstract: false, final false
   inline void set_dataSource(::HMUI::SegmentedControl_IDataSource* value);
@@ -289,10 +290,10 @@ public:
   ::Zenject::DiContainer* ____container;
 
   /// @brief Field didSelectCellEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::SegmentedControl*, int32_t>* ___didSelectCellEvent;
+  ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* ___didSelectCellEvent;
 
   /// @brief Field didPressNonInteractableCellEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::SegmentedControl*, int32_t>* ___didPressNonInteractableCellEvent;
+  ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* ___didPressNonInteractableCellEvent;
 
   /// @brief Field _numberOfCells, offset: 0x40, size: 0x4, def value: None
   int32_t ____numberOfCells;

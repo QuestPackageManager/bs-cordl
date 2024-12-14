@@ -4,6 +4,36 @@
 #include "UnityEngine/UIElements/zzzz__IManipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Manipulator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::Manipulator.RegisterCallbacksOnTarget
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Manipulator::*)()>(
+    &::UnityEngine::UIElements::Manipulator::RegisterCallbacksOnTarget)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Manipulator*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Manipulator*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Manipulator.UnregisterCallbacksFromTarget
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Manipulator::*)()>(
+    &::UnityEngine::UIElements::Manipulator::UnregisterCallbacksFromTarget)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Manipulator*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Manipulator*>::get(), 6));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::Manipulator.get_target
 template <>
 

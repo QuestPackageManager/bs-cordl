@@ -70,7 +70,7 @@ public:
       _playerStatisticsViewController;
 
   /// @brief Field didFinishEvent, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* didFinishEvent;
 
   /// @brief Method BackButtonWasPressed, addr 0x3c04158, size 0x20, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
@@ -116,9 +116,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerStatisticsViewController>& __cordl_internal_get__playerStatisticsViewController();
 
-  constexpr ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__helpMenuViewController(::UnityW<::GlobalNamespace::HelpMenuViewController> value);
 
@@ -132,16 +132,16 @@ public:
 
   constexpr void __cordl_internal_set__playerStatisticsViewController(::UnityW<::GlobalNamespace::PlayerStatisticsViewController> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
   /// @brief Method .ctor, addr 0x3c041f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3c03be4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3c03c94, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
 protected:
   // Ctor Parameters []
@@ -194,7 +194,7 @@ public:
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field didFinishEvent, offset: 0xe0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::HelpFlowCoordinator*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

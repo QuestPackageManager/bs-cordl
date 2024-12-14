@@ -111,10 +111,10 @@ public:
   inline bool Equals(::System::Object* other);
 
   /// @brief Method FindAnyObjectByType, addr 0x48afba8, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindAnyObjectByType(::System::Type* type);
+  static inline ::UnityW<::UnityEngine::Object> FindAnyObjectByType(::System::Type* type);
 
   /// @brief Method FindAnyObjectByType, addr 0x48afda0, size 0xb0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindAnyObjectByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive);
+  static inline ::UnityW<::UnityEngine::Object> FindAnyObjectByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive);
 
   /// @brief Method FindAnyObjectByType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FindAnyObjectByType();
@@ -123,10 +123,10 @@ public:
   template <typename T> static inline T FindAnyObjectByType(::UnityEngine::FindObjectsInactive findObjectsInactive);
 
   /// @brief Method FindFirstObjectByType, addr 0x48afb04, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindFirstObjectByType(::System::Type* type);
+  static inline ::UnityW<::UnityEngine::Object> FindFirstObjectByType(::System::Type* type);
 
   /// @brief Method FindFirstObjectByType, addr 0x48afcf0, size 0xb0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindFirstObjectByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive);
+  static inline ::UnityW<::UnityEngine::Object> FindFirstObjectByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive);
 
   /// @brief Method FindFirstObjectByType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FindFirstObjectByType();
@@ -135,13 +135,13 @@ public:
   template <typename T> static inline T FindFirstObjectByType(::UnityEngine::FindObjectsInactive findObjectsInactive);
 
   /// @brief Method FindObjectFromInstanceID, addr 0x48b0160, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindObjectFromInstanceID(int32_t instanceID);
+  static inline ::UnityW<::UnityEngine::Object> FindObjectFromInstanceID(int32_t instanceID);
 
   /// @brief Method FindObjectOfType, addr 0x48afa6c, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindObjectOfType(::System::Type* type);
+  static inline ::UnityW<::UnityEngine::Object> FindObjectOfType(::System::Type* type);
 
   /// @brief Method FindObjectOfType, addr 0x48afc4c, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindObjectOfType(::System::Type* type, bool includeInactive);
+  static inline ::UnityW<::UnityEngine::Object> FindObjectOfType(::System::Type* type, bool includeInactive);
 
   /// @brief Method FindObjectOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FindObjectOfType();
@@ -150,11 +150,11 @@ public:
   template <typename T> static inline T FindObjectOfType(bool includeInactive);
 
   /// @brief Method FindObjectsByType, addr 0x48af7c8, size 0x54, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive,
-                                                                                                     ::UnityEngine::FindObjectsSortMode sortMode);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsInactive findObjectsInactive,
+                                                                                                                       ::UnityEngine::FindObjectsSortMode sortMode);
 
   /// @brief Method FindObjectsByType, addr 0x48af740, size 0x88, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsSortMode sortMode);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsByType(::System::Type* type, ::UnityEngine::FindObjectsSortMode sortMode);
 
   /// @brief Method FindObjectsByType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsByType(::UnityEngine::FindObjectsInactive findObjectsInactive, ::UnityEngine::FindObjectsSortMode sortMode);
@@ -163,10 +163,10 @@ public:
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsByType(::UnityEngine::FindObjectsSortMode sortMode);
 
   /// @brief Method FindObjectsOfType, addr 0x48af684, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfType(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfType(::System::Type* type);
 
   /// @brief Method FindObjectsOfType, addr 0x48af6fc, size 0x44, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfType(::System::Type* type, bool includeInactive);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfType(::System::Type* type, bool includeInactive);
 
   /// @brief Method FindObjectsOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsOfType();
@@ -175,16 +175,16 @@ public:
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsOfType(bool includeInactive);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x48afa64, size 0x8, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfTypeAll(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeIncludingAssets, addr 0x48afa28, size 0x3c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfTypeIncludingAssets(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeIncludingAssets(::System::Type* type);
 
   /// @brief Method FindSceneObjectsOfType, addr 0x48af9d4, size 0x54, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindSceneObjectsOfType(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindSceneObjectsOfType(::System::Type* type);
 
   /// @brief Method ForceLoadFromInstanceID, addr 0x48b019c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* ForceLoadFromInstanceID(int32_t instanceID);
+  static inline ::UnityW<::UnityEngine::Object> ForceLoadFromInstanceID(int32_t instanceID);
 
   /// @brief Method GetCachedPtr, addr 0x48ae9f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr GetCachedPtr();
@@ -202,22 +202,22 @@ public:
   static inline int32_t GetOffsetOfInstanceIDInCPlusPlusObject();
 
   /// @brief Method Instantiate, addr 0x48af060, size 0xf4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original);
 
   /// @brief Method Instantiate, addr 0x48af2fc, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent);
 
   /// @brief Method Instantiate, addr 0x48af364, size 0x14c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
   /// @brief Method Instantiate, addr 0x48aeb78, size 0x1b4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method Instantiate, addr 0x48aee10, size 0x1a8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
   /// @brief Method Instantiate, addr 0x48af190, size 0xe4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::SceneManagement::Scene scene);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Instantiate(T original);
@@ -272,33 +272,34 @@ public:
   template <typename T> static inline ::UnityEngine::AsyncInstantiateOperation_1<T>* InstantiateAsync(T original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method Internal_CloneSingle, addr 0x48af154, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_CloneSingle(::UnityEngine::Object* data);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingle(::UnityEngine::Object* data);
 
   /// @brief Method Internal_CloneSingleWithParent, addr 0x48af4b0, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays);
 
   /// @brief Method Internal_CloneSingleWithScene, addr 0x48af274, size 0x88, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_CloneSingleWithScene(::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithScene(::UnityEngine::Object* data, ::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method Internal_CloneSingleWithScene_Injected, addr 0x48aff70, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_CloneSingleWithScene_Injected(::UnityEngine::Object* data, ::ByRef<::UnityEngine::SceneManagement::Scene> scene);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithScene_Injected(::UnityEngine::Object* data, ::ByRef<::UnityEngine::SceneManagement::Scene> scene);
 
   /// @brief Method Internal_InstantiateAsyncWithParent, addr 0x48affb4, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncInstantiateOperation* Internal_InstantiateAsyncWithParent(::UnityEngine::Object* original, int32_t count, ::UnityEngine::Transform* parent,
                                                                                               ::System::IntPtr positions, int32_t positionsCount, ::System::IntPtr rotations, int32_t rotationsCount);
 
   /// @brief Method Internal_InstantiateSingle, addr 0x48aed78, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
   /// @brief Method Internal_InstantiateSingleWithParent, addr 0x48aefb8, size 0xa8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos,
+                                                                                     ::UnityEngine::Quaternion rot);
 
   /// @brief Method Internal_InstantiateSingleWithParent_Injected, addr 0x48b008c, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_InstantiateSingleWithParent_Injected(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::ByRef<::UnityEngine::Vector3> pos,
-                                                                                     ::ByRef<::UnityEngine::Quaternion> rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingleWithParent_Injected(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::ByRef<::UnityEngine::Vector3> pos,
+                                                                                              ::ByRef<::UnityEngine::Quaternion> rot);
 
   /// @brief Method Internal_InstantiateSingle_Injected, addr 0x48b0038, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_InstantiateSingle_Injected(::UnityEngine::Object* data, ::ByRef<::UnityEngine::Vector3> pos, ::ByRef<::UnityEngine::Quaternion> rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingle_Injected(::UnityEngine::Object* data, ::ByRef<::UnityEngine::Vector3> pos, ::ByRef<::UnityEngine::Quaternion> rot);
 
   /// @brief Method IsNativeObjectAlive, addr 0x48ae8f4, size 0x20, virtual false, abstract: false, final false
   static inline bool IsNativeObjectAlive(::UnityEngine::Object* o);

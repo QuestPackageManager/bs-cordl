@@ -41,7 +41,7 @@ public:
   static inline ::UnityW<::UnityEngine::UI::RectMask2D> GetRectMaskForClippable(::UnityEngine::UI::IClippable* clippable);
 
   /// @brief Method GetRectMasksForClip, addr 0x4abe0c4, size 0x360, virtual false, abstract: false, final false
-  static inline void GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* masks);
+  static inline void GetRectMasksForClip(::UnityEngine::UI::RectMask2D* clipper, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* masks);
 
   /// @brief Method GetStencilDepth, addr 0x4abcc94, size 0x288, virtual false, abstract: false, final false
   static inline int32_t GetStencilDepth(::UnityEngine::Transform* transform, ::UnityEngine::Transform* stopAfter);

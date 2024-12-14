@@ -3,6 +3,62 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ModalViewBase_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+//  Writing Method size for method: ::HMUI::ModalViewBase.add_blockerClickedEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalViewBase::*)(::System::Action*)>(&::HMUI::ModalViewBase::add_blockerClickedEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalViewBase*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ModalViewBase.remove_blockerClickedEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalViewBase::*)(::System::Action*)>(&::HMUI::ModalViewBase::remove_blockerClickedEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalViewBase*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ModalViewBase.Show
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalViewBase::*)(bool, bool, ::System::Action*)>(&::HMUI::ModalViewBase::Show)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalViewBase*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::ModalViewBase.Hide
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalViewBase::*)(bool, ::System::Action*)>(&::HMUI::ModalViewBase::Hide)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalViewBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalViewBase*>::get(), 7));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::HMUI::ModalViewBase._ctor
 template <>
 

@@ -37,23 +37,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(
-    ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*>*>*)>(&::HMUI::InputFieldViewChangeBinder::AddBindings)> {
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*)>(
+    &::HMUI::InputFieldViewChangeBinder::AddBindings)> {
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x39eaa2c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "AddBindings", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                        ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*>*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "AddBindings", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+            ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::InputFieldViewChangeBinder.AddBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*)>(
-    &::HMUI::InputFieldViewChangeBinder::AddBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(::HMUI::InputFieldView*, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*)>(&::HMUI::InputFieldViewChangeBinder::AddBinding)> {
   constexpr static std::size_t size = 0xdc;
   constexpr static std::size_t addrs = 0x39eab90;
 
@@ -61,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::InputFieldView*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::InputFieldView*>*>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -141,18 +142,19 @@ inline void HMUI::InputFieldViewChangeBinder::Init() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::InputFieldViewChangeBinder::AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*>*>* bindings) {
+inline void HMUI::InputFieldViewChangeBinder::AddBindings(
+    ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>* bindings) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "AddBindings", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                      ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*>*>*>::get() })));
+                                      ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindings);
 }
-inline void HMUI::InputFieldViewChangeBinder::AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::HMUI::InputFieldView*>* action) {
+inline void HMUI::InputFieldViewChangeBinder::AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>* action) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::InputFieldView*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::InputFieldView*>*>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inputField, action);
 }
 inline void HMUI::InputFieldViewChangeBinder::ClearBindings() {

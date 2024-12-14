@@ -57,7 +57,7 @@ public:
   __declspec(property(get = get_initialTime, put = set_initialTime)) double_t initialTime;
 
   /// @brief Field paused, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_paused, put = __cordl_internal_set_paused)) ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* paused;
+  __declspec(property(get = __cordl_internal_get_paused, put = __cordl_internal_set_paused)) ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* paused;
 
   __declspec(property(get = get_playOnAwake, put = set_playOnAwake)) bool playOnAwake;
 
@@ -66,12 +66,12 @@ public:
   __declspec(property(get = get_playableGraph)) ::UnityEngine::Playables::PlayableGraph playableGraph;
 
   /// @brief Field played, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_played, put = __cordl_internal_set_played)) ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* played;
+  __declspec(property(get = __cordl_internal_get_played, put = __cordl_internal_set_played)) ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* played;
 
   __declspec(property(get = get_state)) ::UnityEngine::Playables::PlayState state;
 
   /// @brief Field stopped, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_stopped, put = __cordl_internal_set_stopped)) ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* stopped;
+  __declspec(property(get = __cordl_internal_get_stopped, put = __cordl_internal_set_stopped)) ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* stopped;
 
   __declspec(property(get = get_time, put = set_time)) double_t time;
 
@@ -199,35 +199,35 @@ public:
   /// @brief Method Stop, addr 0x48d0b98, size 0x3c, virtual false, abstract: false, final false
   inline void Stop();
 
-  constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* const& __cordl_internal_get_paused() const;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* const& __cordl_internal_get_paused() const;
 
-  constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& __cordl_internal_get_paused();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*& __cordl_internal_get_paused();
 
-  constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* const& __cordl_internal_get_played() const;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* const& __cordl_internal_get_played() const;
 
-  constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& __cordl_internal_get_played();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*& __cordl_internal_get_played();
 
-  constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* const& __cordl_internal_get_stopped() const;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* const& __cordl_internal_get_stopped() const;
 
-  constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& __cordl_internal_get_stopped();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*& __cordl_internal_get_stopped();
 
-  constexpr void __cordl_internal_set_paused(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  constexpr void __cordl_internal_set_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
-  constexpr void __cordl_internal_set_played(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  constexpr void __cordl_internal_set_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
-  constexpr void __cordl_internal_set_stopped(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  constexpr void __cordl_internal_set_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// @brief Method .ctor, addr 0x48d149c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_paused, addr 0x48d1154, size 0xb0, virtual false, abstract: false, final false
-  inline void add_paused(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  inline void add_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// @brief Method add_played, addr 0x48d0ff4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_played(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  inline void add_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// @brief Method add_stopped, addr 0x48d12b4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_stopped(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  inline void add_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// @brief Method get_duration, addr 0x48d0adc, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_duration();
@@ -260,13 +260,13 @@ public:
   constexpr ::UnityEngine::IExposedPropertyTable* i___UnityEngine__IExposedPropertyTable() noexcept;
 
   /// @brief Method remove_paused, addr 0x48d1204, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_paused(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  inline void remove_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// @brief Method remove_played, addr 0x48d10a4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_played(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  inline void remove_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// @brief Method remove_stopped, addr 0x48d1364, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_stopped(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value);
+  inline void remove_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// @brief Method set_extrapolationMode, addr 0x48d0180, size 0x44, virtual false, abstract: false, final false
   inline void set_extrapolationMode(::UnityEngine::Playables::DirectorWrapMode value);
@@ -304,13 +304,13 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18822 };
 
   /// @brief Field played, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* ___played;
+  ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* ___played;
 
   /// @brief Field paused, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* ___paused;
+  ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* ___paused;
 
   /// @brief Field stopped, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* ___stopped;
+  ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* ___stopped;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

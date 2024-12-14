@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BombNoteController_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BombNoteController/Pool
-class CORDL_TYPE BombNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BombNoteController*> {
+class CORDL_TYPE BombNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::BombNoteController_Pool* New_ctor();

@@ -2,6 +2,22 @@
 // IWYU pragma private; include "UnityEngine/InputSystem/Haptics/IDualMotorRumble.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_impl.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+//  Writing Method size for method: ::UnityEngine::InputSystem::Haptics::IDualMotorRumble.SetMotorSpeeds
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Haptics::IDualMotorRumble::*)(float_t, float_t)>(
+    &::UnityEngine::InputSystem::Haptics::IDualMotorRumble::SetMotorSpeeds)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Haptics::IDualMotorRumble*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Haptics::IDualMotorRumble*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline void UnityEngine::InputSystem::Haptics::IDualMotorRumble::SetMotorSpeeds(float_t lowFrequency, float_t highFrequency) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

@@ -294,14 +294,14 @@ inline ::System::Collections::IEnumerator* UnityEngine::Timeline::ControlPlayabl
 inline ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
-constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*
-UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__Generic__IEnumerable_1___UnityEngine__MonoBehaviour__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*
+UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__MonoBehaviour__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::IEnumerable*() noexcept {
@@ -311,14 +311,14 @@ constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__
 constexpr ::System::Collections::IEnumerable* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
-constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*
-UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__Generic__IEnumerator_1___UnityEngine__MonoBehaviour__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*
+UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__MonoBehaviour__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::IEnumerator*() noexcept {
@@ -492,7 +492,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>*, ::UnityEngine::Playables::PlayableGraph,
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*, ::UnityEngine::Playables::PlayableGraph,
     ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem)> {
   constexpr static std::size_t size = 0x430;
   constexpr static std::size_t addrs = 0x4820278;
@@ -501,7 +501,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "SearchHierarchyAndConnectParticleSystem",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get() })));
     return ___internal_method;
@@ -511,7 +511,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>*, ::UnityEngine::Playables::PlayableGraph,
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*, ::UnityEngine::Playables::PlayableGraph,
     ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*, bool)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectDirector)> {
   constexpr static std::size_t size = 0x4a4;
   constexpr static std::size_t addrs = 0x481fdd4;
@@ -519,10 +519,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "SearchHierarchyAndConnectDirector", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::std::array<Il2CppType const*, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -530,7 +531,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*, ::UnityEngine::Playables::PlayableGraph,
+    static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*, ::UnityEngine::Playables::PlayableGraph,
                          ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts)> {
   constexpr static std::size_t size = 0x424;
   constexpr static std::size_t addrs = 0x4820718;
@@ -539,7 +540,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "SearchHierarchyAndConnectControlableScripts",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get() })));
     return ___internal_method;
@@ -583,7 +584,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
-    ::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*)>(
+    ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::UpdateDurationAndLoopFlag)> {
   constexpr static std::size_t size = 0x918;
   constexpr static std::size_t addrs = 0x481f368;
@@ -591,8 +592,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "UpdateDurationAndLoopFlag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*>::get() })));
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -614,9 +616,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset.GetControllableParticleSystems
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>*,
-                                                                                           ::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>*)>(
-    &::UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::UnityEngine::Transform*, ::System::Collections::Generic::ICollection_1<::UnityW<::UnityEngine::ParticleSystem>>*,
+                         ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
   constexpr static std::size_t size = 0x1e8;
   constexpr static std::size_t addrs = 0x4821014;
 
@@ -624,16 +626,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "GetControllableParticleSystems", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::ICollection_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset.CacheSubEmitters
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ParticleSystem*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>*)>(
-    &::UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
+    ::UnityEngine::ParticleSystem*, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters)> {
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x48211fc;
 
@@ -641,7 +643,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "CacheSubEmitters", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -664,8 +666,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset.PreviewParticles
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::PreviewParticles)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(
+        &::UnityEngine::Timeline::ControlPlayableAsset::PreviewParticles)> {
   constexpr static std::size_t size = 0x454;
   constexpr static std::size_t addrs = 0x48215f8;
 
@@ -673,15 +676,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "PreviewParticles", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::IPropertyCollector*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset.PreviewActivation
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::PreviewActivation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*)>(
+        &::UnityEngine::Timeline::ControlPlayableAsset::PreviewActivation)> {
   constexpr static std::size_t size = 0x378;
   constexpr static std::size_t addrs = 0x4821a4c;
 
@@ -689,16 +693,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "PreviewActivation", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::IPropertyCollector*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset.PreviewTimeControl
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::UnityEngine::Playables::PlayableDirector*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*)>(
-        &::UnityEngine::Timeline::ControlPlayableAsset::PreviewTimeControl)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::UnityEngine::Playables::PlayableDirector*,
+                                                                                           ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
+    &::UnityEngine::Timeline::ControlPlayableAsset::PreviewTimeControl)> {
   constexpr static std::size_t size = 0x418;
   constexpr static std::size_t addrs = 0x4821dc4;
 
@@ -707,7 +711,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "PreviewTimeControl", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::IPropertyCollector*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableDirector*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -715,7 +719,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>*)>(
+    static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::PreviewDirectors)> {
   constexpr static std::size_t size = 0x3c4;
   constexpr static std::size_t addrs = 0x48221dc;
@@ -725,7 +729,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "PreviewDirectors", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::IPropertyCollector*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1014,36 +1018,39 @@ inline void UnityEngine::Timeline::ControlPlayableAsset::CreateActivationPlayabl
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, root, graph, outplayables);
 }
-inline void UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>* particleSystems,
-                                                                                                 ::UnityEngine::Playables::PlayableGraph graph,
-                                                                                                 ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables) {
+inline void
+UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>* particleSystems,
+                                                                                     ::UnityEngine::Playables::PlayableGraph graph,
+                                                                                     ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "SearchHierarchyAndConnectParticleSystem",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>*>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particleSystems, graph, outplayables);
 }
-inline void UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectDirector(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>* directors,
-                                                                                           ::UnityEngine::Playables::PlayableGraph graph,
-                                                                                           ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables,
-                                                                                           bool disableSelfReferences) {
+inline void
+UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectDirector(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* directors,
+                                                                               ::UnityEngine::Playables::PlayableGraph graph,
+                                                                               ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables, bool disableSelfReferences) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "SearchHierarchyAndConnectDirector", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, directors, graph, outplayables, disableSelfReferences);
 }
-inline void UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts(::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* controlableScripts,
-                                                                                                     ::UnityEngine::Playables::PlayableGraph graph,
-                                                                                                     ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables) {
+inline void
+UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* controlableScripts,
+                                                                                         ::UnityEngine::Playables::PlayableGraph graph,
+                                                                                         ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>* outplayables) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "SearchHierarchyAndConnectControlableScripts",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, controlableScripts, graph, outplayables);
@@ -1073,12 +1080,12 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Mon
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*, false>(nullptr, ___internal_method, root);
 }
-inline void UnityEngine::Timeline::ControlPlayableAsset::UpdateDurationAndLoopFlag(::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>* directors,
-                                                                                   ::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>* particleSystems) {
+inline void UnityEngine::Timeline::ControlPlayableAsset::UpdateDurationAndLoopFlag(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* directors,
+                                                                                   ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>* particleSystems) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "UpdateDurationAndLoopFlag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Playables::PlayableDirector*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::ParticleSystem*>*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, directors, particleSystems);
 }
 inline ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>* UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems(::UnityEngine::GameObject* go) {
@@ -1088,20 +1095,21 @@ inline ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleS
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>*, false>(this, ___internal_method, go);
 }
 inline void UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems(::UnityEngine::Transform* t,
-                                                                                        ::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>* roots,
-                                                                                        ::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>* subEmitters) {
+                                                                                        ::System::Collections::Generic::ICollection_1<::UnityW<::UnityEngine::ParticleSystem>>* roots,
+                                                                                        ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>* subEmitters) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "GetControllableParticleSystems", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::ICollection_1<::UnityEngine::ParticleSystem*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::ICollection_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, t, roots, subEmitters);
 }
-inline void UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters(::UnityEngine::ParticleSystem* ps, ::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>* subEmitters) {
+inline void UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters(::UnityEngine::ParticleSystem* ps,
+                                                                          ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>* subEmitters) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "CacheSubEmitters", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::ParticleSystem*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, ps, subEmitters);
 }
 inline void UnityEngine::Timeline::ControlPlayableAsset::GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver) {
@@ -1112,37 +1120,37 @@ inline void UnityEngine::Timeline::ControlPlayableAsset::GatherProperties(::Unit
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, director, driver);
 }
 inline void UnityEngine::Timeline::ControlPlayableAsset::PreviewParticles(::UnityEngine::Timeline::IPropertyCollector* driver,
-                                                                          ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>* particles) {
+                                                                          ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>* particles) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "PreviewParticles", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::IPropertyCollector*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ParticleSystem*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, driver, particles);
 }
 inline void UnityEngine::Timeline::ControlPlayableAsset::PreviewActivation(::UnityEngine::Timeline::IPropertyCollector* driver,
-                                                                           ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* objects) {
+                                                                           ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* objects) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "PreviewActivation", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::IPropertyCollector*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, driver, objects);
 }
 inline void UnityEngine::Timeline::ControlPlayableAsset::PreviewTimeControl(::UnityEngine::Timeline::IPropertyCollector* driver, ::UnityEngine::Playables::PlayableDirector* director,
-                                                                            ::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>* scripts) {
+                                                                            ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* scripts) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "PreviewTimeControl", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::IPropertyCollector*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableDirector*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::MonoBehaviour*>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, driver, director, scripts);
 }
 inline void UnityEngine::Timeline::ControlPlayableAsset::PreviewDirectors(::UnityEngine::Timeline::IPropertyCollector* driver,
-                                                                          ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>* directors) {
+                                                                          ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* directors) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), "PreviewDirectors", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::IPropertyCollector*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, driver, directors);
 }
 inline void UnityEngine::Timeline::ControlPlayableAsset::_ctor() {

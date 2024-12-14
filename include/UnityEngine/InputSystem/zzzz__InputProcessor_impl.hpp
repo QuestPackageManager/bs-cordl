@@ -15,6 +15,36 @@ constexpr ::UnityEngine::InputSystem::InputProcessor_CachingPolicy::InputProcess
 constexpr ::UnityEngine::InputSystem::InputProcessor_CachingPolicy::InputProcessor_CachingPolicy() {}
 constexpr ::UnityEngine::InputSystem::InputProcessor_CachingPolicy UnityEngine::InputSystem::InputProcessor_CachingPolicy::CacheResult{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::InputProcessor_CachingPolicy UnityEngine::InputSystem::InputProcessor_CachingPolicy::EvaluateOnEveryRead{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputProcessor.ProcessAsObject
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::UnityEngine::InputSystem::InputProcessor::*)(::System::Object*, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::InputProcessor::ProcessAsObject)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputProcessor.Process
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputProcessor::*)(
+    ::cordl_internals::Ptr<void>, int32_t, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::InputProcessor::Process)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputProcessor.GetValueTypeFromType
 template <>
 

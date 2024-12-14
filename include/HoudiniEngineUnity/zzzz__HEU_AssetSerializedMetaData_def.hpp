@@ -41,8 +41,8 @@ public:
   /// @brief Field _softDeleted, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__softDeleted, put = __cordl_internal_set__softDeleted)) bool _softDeleted;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*() noexcept;
 
   /// @brief Method IsEquivalentTo, addr 0x3a08d30, size 0xbc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
@@ -72,8 +72,9 @@ public:
   /// @brief Method get_SoftDeleted, addr 0x3a08d14, size 0x8, virtual false, abstract: false, final false
   inline bool get_SoftDeleted();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*
+  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept;
 
   /// @brief Method set_SoftDeleted, addr 0x3a08d1c, size 0xc, virtual false, abstract: false, final false
   inline void set_SoftDeleted(bool value);

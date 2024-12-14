@@ -489,14 +489,14 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__GetDirec
 inline ::ModestTree::Util::UnityUtil__GetDirectChildren_d__21* ModestTree::Util::UnityUtil__GetDirectChildren_d__21::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::UnityUtil__GetDirectChildren_d__21*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
-constexpr ModestTree::Util::UnityUtil__GetDirectChildren_d__21::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
+constexpr ModestTree::Util::UnityUtil__GetDirectChildren_d__21::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*
-ModestTree::Util::UnityUtil__GetDirectChildren_d__21::i___System__Collections__Generic__IEnumerable_1___UnityEngine__GameObject__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*
+ModestTree::Util::UnityUtil__GetDirectChildren_d__21::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__GameObject__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr ModestTree::Util::UnityUtil__GetDirectChildren_d__21::operator ::System::Collections::IEnumerable*() noexcept {
@@ -506,14 +506,14 @@ constexpr ModestTree::Util::UnityUtil__GetDirectChildren_d__21::operator ::Syste
 constexpr ::System::Collections::IEnumerable* ModestTree::Util::UnityUtil__GetDirectChildren_d__21::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
-constexpr ModestTree::Util::UnityUtil__GetDirectChildren_d__21::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>"
+constexpr ModestTree::Util::UnityUtil__GetDirectChildren_d__21::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*
-ModestTree::Util::UnityUtil__GetDirectChildren_d__21::i___System__Collections__Generic__IEnumerator_1___UnityEngine__GameObject__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*
+ModestTree::Util::UnityUtil__GetDirectChildren_d__21::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__GameObject__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr ModestTree::Util::UnityUtil__GetDirectChildren_d__21::operator ::System::Collections::IEnumerator*() noexcept {
@@ -799,14 +799,14 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__GetDirec
 inline ::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20* ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
-constexpr ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
+constexpr ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*
-ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::i___System__Collections__Generic__IEnumerable_1___UnityEngine__GameObject__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*
+ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__GameObject__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::operator ::System::Collections::IEnumerable*() noexcept {
@@ -816,14 +816,14 @@ constexpr ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::operator 
 constexpr ::System::Collections::IEnumerable* ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
-constexpr ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>"
+constexpr ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*
-ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::i___System__Collections__Generic__IEnumerator_1___UnityEngine__GameObject__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::GameObject*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*
+ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__GameObject__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20::operator ::System::Collections::IEnumerator*() noexcept {
@@ -1102,14 +1102,14 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__GetParen
 inline ::ModestTree::Util::UnityUtil__GetParents_d__16* ModestTree::Util::UnityUtil__GetParents_d__16::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::UnityUtil__GetParents_d__16*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
-constexpr ModestTree::Util::UnityUtil__GetParents_d__16::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
+constexpr ModestTree::Util::UnityUtil__GetParents_d__16::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*
-ModestTree::Util::UnityUtil__GetParents_d__16::i___System__Collections__Generic__IEnumerable_1___UnityEngine__Transform__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*
+ModestTree::Util::UnityUtil__GetParents_d__16::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__Transform__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr ModestTree::Util::UnityUtil__GetParents_d__16::operator ::System::Collections::IEnumerable*() noexcept {
@@ -1119,14 +1119,14 @@ constexpr ModestTree::Util::UnityUtil__GetParents_d__16::operator ::System::Coll
 constexpr ::System::Collections::IEnumerable* ModestTree::Util::UnityUtil__GetParents_d__16::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
-constexpr ModestTree::Util::UnityUtil__GetParents_d__16::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>"
+constexpr ModestTree::Util::UnityUtil__GetParents_d__16::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*
-ModestTree::Util::UnityUtil__GetParents_d__16::i___System__Collections__Generic__IEnumerator_1___UnityEngine__Transform__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*
+ModestTree::Util::UnityUtil__GetParents_d__16::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__Transform__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr ModestTree::Util::UnityUtil__GetParents_d__16::operator ::System::Collections::IEnumerator*() noexcept {
@@ -1406,14 +1406,14 @@ inline ::System::Collections::IEnumerator* ModestTree::Util::UnityUtil__GetParen
 inline ::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17* ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17*>(__1__state));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
-constexpr ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
+constexpr ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*
-ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::i___System__Collections__Generic__IEnumerable_1___UnityEngine__Transform__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*
+ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__Transform__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
 constexpr ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::operator ::System::Collections::IEnumerable*() noexcept {
@@ -1423,14 +1423,14 @@ constexpr ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::operator ::Syste
 constexpr ::System::Collections::IEnumerable* ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
-constexpr ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>"
+constexpr ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*
-ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::i___System__Collections__Generic__IEnumerator_1___UnityEngine__Transform__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Transform*>*>(static_cast<void*>(this));
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*
+ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__Transform__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
 constexpr ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17::operator ::System::Collections::IEnumerator*() noexcept {

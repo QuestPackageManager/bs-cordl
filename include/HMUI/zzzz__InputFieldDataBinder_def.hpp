@@ -209,10 +209,10 @@ public:
   /// @brief Method AddBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T0, typename T1>
   inline void
-  AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData);
+  AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData);
 
   /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::InputField*, T>*>* bindingData);
+  template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
 
   /// @brief Method ClearBindings, addr 0x39ea6d0, size 0x2c4, virtual false, abstract: false, final false
   inline void ClearBindings();

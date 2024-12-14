@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorGraphicStateTransition);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ColorGraphicStateTransition
-class CORDL_TYPE ColorGraphicStateTransition : public ::GlobalNamespace::ColorStateTransition_1<::UnityEngine::UI::Graphic*> {
+class CORDL_TYPE ColorGraphicStateTransition : public ::GlobalNamespace::ColorStateTransition_1<::UnityW<::UnityEngine::UI::Graphic>> {
 public:
   // Declarations
   /// @brief Field _colorTween, offset 0x40, size 0x8

@@ -730,7 +730,7 @@ public:
   __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
   /// @brief Field _childViewController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__childViewController, put = __cordl_internal_set__childViewController)) ::HMUI::ViewController* _childViewController;
+  __declspec(property(get = __cordl_internal_get__childViewController, put = __cordl_internal_set__childViewController)) ::UnityW<::HMUI::ViewController> _childViewController;
 
   /// @brief Field _containerViewController, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__containerViewController, put = __cordl_internal_set__containerViewController)) ::UnityW<::HMUI::ContainerViewController> _containerViewController;
@@ -745,7 +745,7 @@ public:
   __declspec(property(get = __cordl_internal_get__isInTransition, put = __cordl_internal_set__isInTransition)) bool _isInTransition;
 
   /// @brief Field _parentViewController, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentViewController, put = __cordl_internal_set__parentViewController)) ::HMUI::ViewController* _parentViewController;
+  __declspec(property(get = __cordl_internal_get__parentViewController, put = __cordl_internal_set__parentViewController)) ::UnityW<::HMUI::ViewController> _parentViewController;
 
   /// @brief Field _rectTransform, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform> _rectTransform;
@@ -760,7 +760,7 @@ public:
 
   __declspec(property(get = get_canvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> canvasGroup;
 
-  __declspec(property(get = get_childViewController)) ::HMUI::ViewController* childViewController;
+  __declspec(property(get = get_childViewController)) ::UnityW<::HMUI::ViewController> childViewController;
 
   __declspec(property(get = get_containerViewController)) ::UnityW<::HMUI::ContainerViewController> containerViewController;
 
@@ -774,7 +774,7 @@ public:
 
   __declspec(property(get = get_isInViewControllerHierarchy)) bool isInViewControllerHierarchy;
 
-  __declspec(property(get = get_parentViewController)) ::HMUI::ViewController* parentViewController;
+  __declspec(property(get = get_parentViewController)) ::UnityW<::HMUI::ViewController> parentViewController;
 
   __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
@@ -843,9 +843,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
-  constexpr ::HMUI::ViewController* const& __cordl_internal_get__childViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__childViewController() const;
 
-  constexpr ::HMUI::ViewController*& __cordl_internal_get__childViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__childViewController();
 
   constexpr ::UnityW<::HMUI::ContainerViewController> const& __cordl_internal_get__containerViewController() const;
 
@@ -863,9 +863,9 @@ public:
 
   constexpr bool& __cordl_internal_get__isInTransition();
 
-  constexpr ::HMUI::ViewController* const& __cordl_internal_get__parentViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__parentViewController() const;
 
-  constexpr ::HMUI::ViewController*& __cordl_internal_get__parentViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__parentViewController();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
@@ -883,7 +883,7 @@ public:
 
   constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr void __cordl_internal_set__childViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set__childViewController(::UnityW<::HMUI::ViewController> value);
 
   constexpr void __cordl_internal_set__containerViewController(::UnityW<::HMUI::ContainerViewController> value);
 
@@ -893,7 +893,7 @@ public:
 
   constexpr void __cordl_internal_set__isInTransition(bool value);
 
-  constexpr void __cordl_internal_set__parentViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set__parentViewController(::UnityW<::HMUI::ViewController> value);
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
@@ -911,7 +911,7 @@ public:
   inline ::UnityW<::UnityEngine::CanvasGroup> get_canvasGroup();
 
   /// @brief Method get_childViewController, addr 0x2289be8, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::ViewController* get_childViewController();
+  inline ::UnityW<::HMUI::ViewController> get_childViewController();
 
   /// @brief Method get_containerViewController, addr 0x2289bd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ContainerViewController> get_containerViewController();
@@ -932,7 +932,7 @@ public:
   inline bool get_isInViewControllerHierarchy();
 
   /// @brief Method get_parentViewController, addr 0x2289be0, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::ViewController* get_parentViewController();
+  inline ::UnityW<::HMUI::ViewController> get_parentViewController();
 
   /// @brief Method get_rectTransform, addr 0x22884fc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
@@ -982,10 +982,10 @@ public:
   ::UnityW<::HMUI::ContainerViewController> ____containerViewController;
 
   /// @brief Field _parentViewController, offset: 0x40, size: 0x8, def value: None
-  ::HMUI::ViewController* ____parentViewController;
+  ::UnityW<::HMUI::ViewController> ____parentViewController;
 
   /// @brief Field _childViewController, offset: 0x48, size: 0x8, def value: None
-  ::HMUI::ViewController* ____childViewController;
+  ::UnityW<::HMUI::ViewController> ____childViewController;
 
   /// @brief Field _screen, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____screen;

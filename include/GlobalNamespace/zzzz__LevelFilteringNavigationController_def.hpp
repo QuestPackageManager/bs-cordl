@@ -372,17 +372,17 @@ public:
 
   /// @brief Field didPressAllSongsEvent, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressAllSongsEvent,
-                      put = __cordl_internal_set_didPressAllSongsEvent)) ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* didPressAllSongsEvent;
+                      put = __cordl_internal_set_didPressAllSongsEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* didPressAllSongsEvent;
 
   /// @brief Field didSelectBeatmapLevelPackEvent, offset 0xd8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didSelectBeatmapLevelPackEvent,
-      put = __cordl_internal_set_didSelectBeatmapLevelPackEvent)) ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*,
+      put = __cordl_internal_set_didSelectBeatmapLevelPackEvent)) ::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
                                                                                      ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>* didSelectBeatmapLevelPackEvent;
 
   /// @brief Field didStartLoadingEvent, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_didStartLoadingEvent,
-                      put = __cordl_internal_set_didStartLoadingEvent)) ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* didStartLoadingEvent;
+                      put = __cordl_internal_set_didStartLoadingEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* didStartLoadingEvent;
 
   __declspec(property(get = get_selectedBeatmapLevelPack)) ::GlobalNamespace::BeatmapLevelPack* selectedBeatmapLevelPack;
 
@@ -535,21 +535,21 @@ public:
 
   constexpr ::System::Action*& __cordl_internal_get_didOpenBeatmapLevelCollectionsEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* const& __cordl_internal_get_didPressAllSongsEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* const& __cordl_internal_get_didPressAllSongsEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>*& __cordl_internal_get_didPressAllSongsEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>*& __cordl_internal_get_didPressAllSongsEvent();
 
-  constexpr ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
+  constexpr ::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
                                ::GlobalNamespace::LevelSelectionOptions>* const&
   __cordl_internal_get_didSelectBeatmapLevelPackEvent() const;
 
-  constexpr ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
+  constexpr ::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
                                ::GlobalNamespace::LevelSelectionOptions>*&
   __cordl_internal_get_didSelectBeatmapLevelPackEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* const& __cordl_internal_get_didStartLoadingEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* const& __cordl_internal_get_didStartLoadingEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>*& __cordl_internal_get_didStartLoadingEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>*& __cordl_internal_get_didStartLoadingEvent();
 
   constexpr void __cordl_internal_set__allBeatmapLevelPacks(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> value);
 
@@ -594,12 +594,12 @@ public:
 
   constexpr void __cordl_internal_set_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  constexpr void __cordl_internal_set_didPressAllSongsEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
+  constexpr void __cordl_internal_set_didPressAllSongsEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
 
-  constexpr void __cordl_internal_set_didSelectBeatmapLevelPackEvent(::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*,
+  constexpr void __cordl_internal_set_didSelectBeatmapLevelPackEvent(::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
                                                                                         ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
+  constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
 
   /// @brief Method .ctor, addr 0x3b5feb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -611,14 +611,14 @@ public:
   inline void add_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
   /// @brief Method add_didPressAllSongsEvent, addr 0x3b5e700, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressAllSongsEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
+  inline void add_didPressAllSongsEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
 
   /// @brief Method add_didSelectBeatmapLevelPackEvent, addr 0x3b5e440, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectBeatmapLevelPackEvent(
-      ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityEngine::GameObject*, ::GlobalNamespace::LevelSelectionOptions>* value);
+  inline void add_didSelectBeatmapLevelPackEvent(::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
+                                                                    ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>* value);
 
   /// @brief Method add_didStartLoadingEvent, addr 0x3b5e5a0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
+  inline void add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
 
   /// @brief Method get_selectedBeatmapLevelPack, addr 0x3b5ead0, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* get_selectedBeatmapLevelPack();
@@ -633,14 +633,14 @@ public:
   inline void remove_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
   /// @brief Method remove_didPressAllSongsEvent, addr 0x3b5e7b0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressAllSongsEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
+  inline void remove_didPressAllSongsEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
 
   /// @brief Method remove_didSelectBeatmapLevelPackEvent, addr 0x3b5e4f0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectBeatmapLevelPackEvent(
-      ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityEngine::GameObject*, ::GlobalNamespace::LevelSelectionOptions>* value);
+  inline void remove_didSelectBeatmapLevelPackEvent(::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*,
+                                                                       ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>* value);
 
   /// @brief Method remove_didStartLoadingEvent, addr 0x3b5e650, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* value);
+  inline void remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -681,14 +681,14 @@ public:
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
   /// @brief Field didSelectBeatmapLevelPackEvent, offset: 0xd8, size: 0x8, def value: None
-  ::System::Action_4<::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::LevelSelectionOptions>*
-      ___didSelectBeatmapLevelPackEvent;
+  ::System::Action_4<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>, ::GlobalNamespace::BeatmapLevelPack*, ::UnityW<::UnityEngine::GameObject>,
+                     ::GlobalNamespace::LevelSelectionOptions>* ___didSelectBeatmapLevelPackEvent;
 
   /// @brief Field didStartLoadingEvent, offset: 0xe0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* ___didStartLoadingEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* ___didStartLoadingEvent;
 
   /// @brief Field didPressAllSongsEvent, offset: 0xe8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::LevelFilteringNavigationController*>* ___didPressAllSongsEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::LevelFilteringNavigationController>>* ___didPressAllSongsEvent;
 
   /// @brief Field didOpenBeatmapLevelCollectionsEvent, offset: 0xf0, size: 0x8, def value: None
   ::System::Action* ___didOpenBeatmapLevelCollectionsEvent;

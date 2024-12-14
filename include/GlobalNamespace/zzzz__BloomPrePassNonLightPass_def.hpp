@@ -99,11 +99,11 @@ public:
 
   /// @brief Field _bloomPrePassAfterBlurList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__bloomPrePassAfterBlurList,
-                      put = setStaticF__bloomPrePassAfterBlurList)) ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* _bloomPrePassAfterBlurList;
+                      put = setStaticF__bloomPrePassAfterBlurList)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* _bloomPrePassAfterBlurList;
 
   /// @brief Field _bloomPrePassBeforeBlurList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__bloomPrePassBeforeBlurList,
-                      put = setStaticF__bloomPrePassBeforeBlurList)) ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* _bloomPrePassBeforeBlurList;
+                      put = setStaticF__bloomPrePassBeforeBlurList)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* _bloomPrePassBeforeBlurList;
 
   /// @brief Field _executionTimeType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__executionTimeType, put = __cordl_internal_set__executionTimeType)) ::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType _executionTimeType;
@@ -149,22 +149,22 @@ public:
   /// @brief Method .ctor, addr 0x39d707c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* getStaticF__bloomPrePassAfterBlurList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassAfterBlurList();
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* getStaticF__bloomPrePassBeforeBlurList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassBeforeBlurList();
 
   /// @brief Method get_bloomPrePassAfterBlurList, addr 0x39d9bf8, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassAfterBlurList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassAfterBlurList();
 
   /// @brief Method get_bloomPrePassBeforeBlurList, addr 0x39d9c50, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* get_bloomPrePassBeforeBlurList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassBeforeBlurList();
 
   /// @brief Method get_executionTimeType, addr 0x39d9bf0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType get_executionTimeType();
 
-  static inline void setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* value);
+  static inline void setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* value);
 
-  static inline void setStaticF__bloomPrePassBeforeBlurList(::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassNonLightPass*>* value);
+  static inline void setStaticF__bloomPrePassBeforeBlurList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* value);
 
 protected:
   // Ctor Parameters []

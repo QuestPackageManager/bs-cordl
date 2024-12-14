@@ -464,10 +464,10 @@ public:
   inline void add_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
 
   /// @brief Method add_noteDidStartDissolvingEvent, addr 0x3ad2520, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteDidStartDissolvingEvent(::System::Action_1<::GlobalNamespace::NoteControllerBase*>* value);
+  inline void add_noteDidStartDissolvingEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   /// @brief Method add_noteDidStartJumpEvent, addr 0x3add894, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void add_noteDidStartJumpEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method add_noteWasAddedEvent, addr 0x3add474, size 0xb0, virtual false, abstract: false, final false
   inline void add_noteWasAddedEvent(::System::Action_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::NoteSpawnData>* value);
@@ -476,37 +476,37 @@ public:
   inline void add_noteWasCutEvent(::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate* value);
 
   /// @brief Method add_noteWasDespawnedEvent, addr 0x3add5d4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void add_noteWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method add_noteWasMissedEvent, addr 0x3add734, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void add_noteWasMissedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method add_noteWasSpawnedEvent, addr 0x3ad2470, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void add_noteWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method add_obstacleDidPassAvoidedMarkEvent, addr 0x3adc990, size 0xb0, virtual false, abstract: false, final false
-  inline void add_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_obstacleDidPassThreeQuartersOfMove2Event, addr 0x3adde14, size 0xb0, virtual false, abstract: false, final false
-  inline void add_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_obstacleWasAddedEvent, addr 0x3add9f4, size 0xb0, virtual false, abstract: false, final false
   inline void add_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::ObstacleSpawnData, float_t>* value);
 
   /// @brief Method add_obstacleWasDespawnedEvent, addr 0x3addcb4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_obstacleWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_obstacleWasSpawnedEvent, addr 0x3addb54, size 0xb0, virtual false, abstract: false, final false
-  inline void add_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_obstacleWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_sliderWasAddedEvent, addr 0x3addf74, size 0xb0, virtual false, abstract: false, final false
   inline void add_sliderWasAddedEvent(::System::Action_2<::GlobalNamespace::SliderData*, ::GlobalNamespace::SliderSpawnData>* value);
 
   /// @brief Method add_sliderWasDespawnedEvent, addr 0x3ade234, size 0xb0, virtual false, abstract: false, final false
-  inline void add_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  inline void add_sliderWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
   /// @brief Method add_sliderWasSpawnedEvent, addr 0x3ade0d4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  inline void add_sliderWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
   /// @brief Method get_activeObstacleControllers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
@@ -545,10 +545,10 @@ public:
   inline void remove_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
 
   /// @brief Method remove_noteDidStartDissolvingEvent, addr 0x3ad27cc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteDidStartDissolvingEvent(::System::Action_1<::GlobalNamespace::NoteControllerBase*>* value);
+  inline void remove_noteDidStartDissolvingEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   /// @brief Method remove_noteDidStartJumpEvent, addr 0x3add944, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void remove_noteDidStartJumpEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method remove_noteWasAddedEvent, addr 0x3add524, size 0xb0, virtual false, abstract: false, final false
   inline void remove_noteWasAddedEvent(::System::Action_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::NoteSpawnData>* value);
@@ -557,37 +557,37 @@ public:
   inline void remove_noteWasCutEvent(::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate* value);
 
   /// @brief Method remove_noteWasDespawnedEvent, addr 0x3add684, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void remove_noteWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method remove_noteWasMissedEvent, addr 0x3add7e4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void remove_noteWasMissedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method remove_noteWasSpawnedEvent, addr 0x3ad271c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void remove_noteWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method remove_obstacleDidPassAvoidedMarkEvent, addr 0x3adcc20, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_obstacleDidPassThreeQuartersOfMove2Event, addr 0x3addec4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_obstacleWasAddedEvent, addr 0x3addaa4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::ObstacleSpawnData, float_t>* value);
 
   /// @brief Method remove_obstacleWasDespawnedEvent, addr 0x3addd64, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_obstacleWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_obstacleWasSpawnedEvent, addr 0x3addc04, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_obstacleWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_sliderWasAddedEvent, addr 0x3ade024, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sliderWasAddedEvent(::System::Action_2<::GlobalNamespace::SliderData*, ::GlobalNamespace::SliderSpawnData>* value);
 
   /// @brief Method remove_sliderWasDespawnedEvent, addr 0x3ade2e4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  inline void remove_sliderWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
   /// @brief Method remove_sliderWasSpawnedEvent, addr 0x3ade184, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  inline void remove_sliderWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
   /// @brief Method set_spawnHidden, addr 0x3ade4fc, size 0xc, virtual false, abstract: false, final false
   inline void set_spawnHidden(bool value);

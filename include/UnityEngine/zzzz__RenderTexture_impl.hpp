@@ -253,7 +253,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetActive
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)()>(&::UnityEngine::RenderTexture::GetActive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)()>(&::UnityEngine::RenderTexture::GetActive)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x489584c;
 
@@ -280,7 +280,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::RenderTexture.get_active
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)()>(&::UnityEngine::RenderTexture::get_active)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)()>(&::UnityEngine::RenderTexture::get_active)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x48958b0;
 
@@ -496,7 +496,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary_Internal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)(::UnityEngine::RenderTextureDescriptor)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTextureDescriptor)>(
     &::UnityEngine::RenderTexture::GetTemporary_Internal)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x4895d28;
@@ -878,7 +878,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)(::UnityEngine::RenderTextureDescriptor)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTextureDescriptor)>(
     &::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x4897190;
@@ -894,8 +894,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::RenderTexture* (*)(int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat, int32_t,
-                                                  ::UnityEngine::RenderTextureMemoryless, ::UnityEngine::VRTextureUsage, bool)>(&::UnityEngine::RenderTexture::GetTemporaryImpl)> {
+    static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat, int32_t,
+                                                           ::UnityEngine::RenderTextureMemoryless, ::UnityEngine::VRTextureUsage, bool)>(&::UnityEngine::RenderTexture::GetTemporaryImpl)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x4897230;
 
@@ -914,9 +914,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::RenderTexture* (*)(int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, int32_t, ::UnityEngine::RenderTextureMemoryless,
-                                                  ::UnityEngine::VRTextureUsage, bool)>(&::UnityEngine::RenderTexture::GetTemporary)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(
+    int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, int32_t, ::UnityEngine::RenderTextureMemoryless, ::UnityEngine::VRTextureUsage, bool)>(
+    &::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x48973a4;
 
@@ -935,9 +935,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::RenderTexture* (*)(int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, int32_t, ::UnityEngine::RenderTextureMemoryless,
-                                                  ::UnityEngine::VRTextureUsage)>(&::UnityEngine::RenderTexture::GetTemporary)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(
+    int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, int32_t, ::UnityEngine::RenderTextureMemoryless, ::UnityEngine::VRTextureUsage)>(
+    &::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x4897430;
 
@@ -956,9 +956,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::RenderTexture* (*)(int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, int32_t,
-                                                  ::UnityEngine::RenderTextureMemoryless)>(&::UnityEngine::RenderTexture::GetTemporary)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(
+    int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, int32_t, ::UnityEngine::RenderTextureMemoryless)>(
+    &::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x489744c;
 
@@ -976,8 +976,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::UnityEngine::RenderTexture* (*)(int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, int32_t)>(&::UnityEngine::RenderTexture::GetTemporary)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(
+    int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite, int32_t)>(&::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x489746c;
 
@@ -994,8 +994,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::RenderTexture* (*)(int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite)>(&::UnityEngine::RenderTexture::GetTemporary)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(
+    int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite)>(&::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x4897490;
 
@@ -1012,7 +1012,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)(int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(int32_t, int32_t, int32_t, ::UnityEngine::RenderTextureFormat)>(
     &::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x48974b8;
@@ -1029,7 +1029,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)(int32_t, int32_t, int32_t)>(&::UnityEngine::RenderTexture::GetTemporary)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(int32_t, int32_t, int32_t)>(&::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x48974e4;
 
@@ -1044,7 +1044,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)(int32_t, int32_t)>(&::UnityEngine::RenderTexture::GetTemporary)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(int32_t, int32_t)>(&::UnityEngine::RenderTexture::GetTemporary)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x4897514;
 
@@ -1118,7 +1118,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::RenderTexture.GetTemporary_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTexture* (*)(::ByRef<::UnityEngine::RenderTextureDescriptor>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::ByRef<::UnityEngine::RenderTextureDescriptor>)>(
     &::UnityEngine::RenderTexture::GetTemporary_Internal_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x4895d64;
@@ -1221,10 +1221,10 @@ inline void UnityEngine::RenderTexture::set_antiAliasing(int32_t value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetActive() {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetActive() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetActive",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::RenderTexture::SetActive(::UnityEngine::RenderTexture* rt) {
   static auto* ___internal_method =
@@ -1232,10 +1232,10 @@ inline void UnityEngine::RenderTexture::SetActive(::UnityEngine::RenderTexture* 
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rt);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::get_active() {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::get_active() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "get_active",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::RenderTexture::set_active(::UnityEngine::RenderTexture* value) {
   static auto* ___internal_method =
@@ -1318,11 +1318,11 @@ inline ::UnityEngine::RenderTextureDescriptor UnityEngine::RenderTexture::GetDes
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTextureDescriptor, false>(this, ___internal_method);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary_Internal(::UnityEngine::RenderTextureDescriptor desc) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary_Internal(::UnityEngine::RenderTextureDescriptor desc) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary_Internal", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureDescriptor>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, desc);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, desc);
 }
 inline void UnityEngine::RenderTexture::ReleaseTemporary(::UnityEngine::RenderTexture* temp) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1494,15 +1494,16 @@ inline ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Rende
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureReadWrite>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Experimental::Rendering::GraphicsFormat, false>(nullptr, ___internal_method, renderTextureFormat, readWrite);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(::UnityEngine::RenderTextureDescriptor desc) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(::UnityEngine::RenderTextureDescriptor desc) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureDescriptor>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, desc);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, desc);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporaryImpl(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
-                                                                                  ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int32_t antiAliasing,
-                                                                                  ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporaryImpl(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
+                                                                                           ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int32_t antiAliasing,
+                                                                                           ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage,
+                                                                                           bool useDynamicScale) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporaryImpl", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{
@@ -1511,12 +1512,13 @@ inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporaryImp
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Experimental::Rendering::GraphicsFormat>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureMemoryless>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::VRTextureUsage>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height, depthStencilFormat, colorFormat, antiAliasing, memorylessMode, vrUsage,
-                                                                                   useDynamicScale);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height, depthStencilFormat, colorFormat, antiAliasing, memorylessMode,
+                                                                                            vrUsage, useDynamicScale);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                                              ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing,
-                                                                              ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                                       ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing,
+                                                                                       ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage,
+                                                                                       bool useDynamicScale) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 9>{
@@ -1525,12 +1527,12 @@ inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(in
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureReadWrite>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureMemoryless>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::VRTextureUsage>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite, antiAliasing, memorylessMode, vrUsage,
-                                                                                   useDynamicScale);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite, antiAliasing, memorylessMode,
+                                                                                            vrUsage, useDynamicScale);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                                              ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing,
-                                                                              ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                                       ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing,
+                                                                                       ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{
@@ -1539,11 +1541,12 @@ inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(in
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureReadWrite>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureMemoryless>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::VRTextureUsage>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite, antiAliasing, memorylessMode, vrUsage);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite, antiAliasing, memorylessMode,
+                                                                                            vrUsage);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                                              ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing,
-                                                                              ::UnityEngine::RenderTextureMemoryless memorylessMode) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                                       ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing,
+                                                                                       ::UnityEngine::RenderTextureMemoryless memorylessMode) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{
@@ -1551,48 +1554,48 @@ inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(in
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureFormat>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureReadWrite>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureMemoryless>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite, antiAliasing, memorylessMode);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite, antiAliasing, memorylessMode);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                                              ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                                       ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureFormat>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureReadWrite>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite, antiAliasing);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite, antiAliasing);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                                              ::UnityEngine::RenderTextureReadWrite readWrite) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                                       ::UnityEngine::RenderTextureReadWrite readWrite) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureFormat>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureReadWrite>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height, depthBuffer, format, readWrite);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTextureFormat>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height, depthBuffer, format);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height, depthBuffer, format);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height, int32_t depthBuffer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height, depthBuffer);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height, depthBuffer);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary(int32_t width, int32_t height) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, width, height);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, width, height);
 }
 inline void UnityEngine::RenderTexture::GetColorBuffer_Injected(::ByRef<::UnityEngine::RenderBuffer> ret) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1618,11 +1621,11 @@ inline void UnityEngine::RenderTexture::GetDescriptor_Injected(::ByRef<::UnityEn
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::RenderTextureDescriptor>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ret);
 }
-inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::GetTemporary_Internal_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> desc) {
+inline ::UnityW<::UnityEngine::RenderTexture> UnityEngine::RenderTexture::GetTemporary_Internal_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> desc) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RenderTexture*>::get(), "GetTemporary_Internal_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::RenderTextureDescriptor>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTexture*, false>(nullptr, ___internal_method, desc);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>, false>(nullptr, ___internal_method, desc);
 }
 inline ::UnityEngine::RenderTexture* UnityEngine::RenderTexture::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::RenderTexture*>());

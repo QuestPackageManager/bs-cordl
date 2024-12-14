@@ -62,7 +62,7 @@ public:
 
   __declspec(property(get = get_activeSelf)) bool activeSelf;
 
-  __declspec(property(get = get_gameObject)) ::UnityEngine::GameObject* gameObject;
+  __declspec(property(get = get_gameObject)) ::UnityW<::UnityEngine::GameObject> gameObject;
 
   __declspec(property(get = get_isStatic, put = set_isStatic)) bool isStatic;
 
@@ -103,19 +103,19 @@ public:
   inline bool CompareTag(::StringW tag);
 
   /// @brief Method CreatePrimitive, addr 0x48a99a8, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreatePrimitive(::UnityEngine::PrimitiveType type);
+  static inline ::UnityW<::UnityEngine::GameObject> CreatePrimitive(::UnityEngine::PrimitiveType type);
 
   /// @brief Method Find, addr 0x48aa9b4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* Find(::StringW name);
+  static inline ::UnityW<::UnityEngine::GameObject> Find(::StringW name);
 
   /// @brief Method FindGameObjectWithTag, addr 0x48a9d70, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* FindGameObjectWithTag(::StringW tag);
+  static inline ::UnityW<::UnityEngine::GameObject> FindGameObjectWithTag(::StringW tag);
 
   /// @brief Method FindGameObjectsWithTag, addr 0x48aa524, size 0x3c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> FindGameObjectsWithTag(::StringW tag);
+  static inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> FindGameObjectsWithTag(::StringW tag);
 
   /// @brief Method FindWithTag, addr 0x48a9d34, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* FindWithTag(::StringW tag);
+  static inline ::UnityW<::UnityEngine::GameObject> FindWithTag(::StringW tag);
 
   /// @brief Method GetComponent, addr 0x48a9ad0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponent(::StringW type);
@@ -181,7 +181,7 @@ public:
   template <typename T> inline void GetComponents(::System::Collections::Generic::List_1<T>* results);
 
   /// @brief Method GetComponents, addr 0x48a9c28, size 0x64, virtual false, abstract: false, final false
-  inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* results);
+  inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* results);
 
   /// @brief Method GetComponentsInChildren, addr 0x48a9c8c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInChildren(::System::Type* type);
@@ -322,7 +322,7 @@ public:
   inline bool get_activeSelf();
 
   /// @brief Method get_gameObject, addr 0x48ab014, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_gameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
   /// @brief Method get_isStatic, addr 0x48aa468, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isStatic();

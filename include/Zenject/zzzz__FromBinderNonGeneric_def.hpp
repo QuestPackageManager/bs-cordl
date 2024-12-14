@@ -129,13 +129,14 @@ public:
   template <typename TConcrete, typename TFactory> using __c__1_2 = ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>;
 
   /// @brief Method FromComponentsInChildren, addr 0x4b0ffb0, size 0xc, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate,
+                                                                                           bool includeInactive);
 
   /// @brief Method FromComponentsInChildren, addr 0x4b0ff9c, size 0x14, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromComponentsInHierarchy, addr 0x4b0ffbc, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete, typename TFactory> inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromFactory();

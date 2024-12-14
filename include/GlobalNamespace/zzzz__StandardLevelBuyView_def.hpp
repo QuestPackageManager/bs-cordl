@@ -138,13 +138,13 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x3b060f0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityEngine::UI::Toggle*>* value);
+  inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
   /// @brief Method get_buyButton, addr 0x3b06250, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyButton();
 
   /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x3b061a0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityEngine::UI::Toggle*>* value);
+  inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
 protected:
   // Ctor Parameters []

@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BombCutSoundEffect_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BombCutSoundEffect/Pool
-class CORDL_TYPE BombCutSoundEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BombCutSoundEffect*> {
+class CORDL_TYPE BombCutSoundEffect_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::BombCutSoundEffect_Pool* New_ctor();
@@ -83,7 +83,7 @@ public:
   __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber)) ::UnityW<::GlobalNamespace::Saber> _saber;
 
   /// @brief Field didFinishEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* didFinishEvent;
 
   /// @brief Method Init, addr 0x3acfb20, size 0x74, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float_t volume);
@@ -104,24 +104,24 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
 
-  constexpr ::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
   /// @brief Method .ctor, addr 0x3acfc74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3acf9c0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x3acfa70, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
 protected:
   // Ctor Parameters []
@@ -144,7 +144,7 @@ public:
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field didFinishEvent, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* ___didFinishEvent;
 
   /// @brief Field _saber, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____saber;

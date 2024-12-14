@@ -10,14 +10,14 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(
-    ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*)>(&::GlobalNamespace::EnterTextViewController::add_didFinishEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*)>(&::GlobalNamespace::EnterTextViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c12b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterTextViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*>::get() })));
     return ___internal_method;
   }
 };
@@ -25,14 +25,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(
-    ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*)>(&::GlobalNamespace::EnterTextViewController::remove_didFinishEvent)> {
+    ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*)>(&::GlobalNamespace::EnterTextViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3c12c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterTextViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*>::get() })));
     return ___internal_method;
   }
 };
@@ -128,28 +128,28 @@ constexpr void GlobalNamespace::EnterTextViewController::__cordl_internal_set__o
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____okButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*& GlobalNamespace::EnterTextViewController::__cordl_internal_get_didFinishEvent() {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*& GlobalNamespace::EnterTextViewController::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* const& GlobalNamespace::EnterTextViewController::__cordl_internal_get_didFinishEvent() const {
+constexpr ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* const& GlobalNamespace::EnterTextViewController::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr void GlobalNamespace::EnterTextViewController::__cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value) {
+constexpr void GlobalNamespace::EnterTextViewController::__cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::EnterTextViewController::add_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value) {
+inline void GlobalNamespace::EnterTextViewController::add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterTextViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::EnterTextViewController::remove_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value) {
+inline void GlobalNamespace::EnterTextViewController::remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterTextViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::EnterTextViewController::Init(::StringW titleText) {

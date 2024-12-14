@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemEventController_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ParticleSystemEventController/Pool
-class CORDL_TYPE ParticleSystemEventController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ParticleSystemEventController*> {
+class CORDL_TYPE ParticleSystemEventController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::ParticleSystemEventController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ParticleSystemEventController_Pool* New_ctor();

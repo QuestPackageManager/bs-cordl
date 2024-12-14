@@ -263,8 +263,8 @@ public:
 
   /// @brief Field didSelectMissionLevelEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectMissionLevelEvent,
-                      put = __cordl_internal_set_didSelectMissionLevelEvent)) ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::UnityW<::GlobalNamespace::MissionNode>>*
-      didSelectMissionLevelEvent;
+                      put = __cordl_internal_set_didSelectMissionLevelEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>,
+                                                                                                 ::UnityW<::GlobalNamespace::MissionNode>>* didSelectMissionLevelEvent;
 
   /// @brief Method DeselectSelectedNode, addr 0x3c1981c, size 0x1c, virtual false, abstract: false, final false
   inline void DeselectSelectedNode();
@@ -318,9 +318,10 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::UnityW<::GlobalNamespace::MissionNode>>* const& __cordl_internal_get_didSelectMissionLevelEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* const&
+  __cordl_internal_get_didSelectMissionLevelEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::UnityW<::GlobalNamespace::MissionNode>>*& __cordl_internal_get_didSelectMissionLevelEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>*& __cordl_internal_get_didSelectMissionLevelEvent();
 
   constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
 
@@ -338,19 +339,19 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  constexpr void __cordl_internal_set_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::UnityW<::GlobalNamespace::MissionNode>>* value);
+  constexpr void __cordl_internal_set_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
   /// @brief Method .ctor, addr 0x3c19838, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didSelectMissionLevelEvent, addr 0x3c192e4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
+  inline void add_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
   /// @brief Method get_animatedUpdateIsRequired, addr 0x3c19444, size 0x1c, virtual false, abstract: false, final false
   inline bool get_animatedUpdateIsRequired();
 
   /// @brief Method remove_didSelectMissionLevelEvent, addr 0x3c19394, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
+  inline void remove_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
 protected:
   // Ctor Parameters []
@@ -391,7 +392,7 @@ public:
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
   /// @brief Field didSelectMissionLevelEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::UnityW<::GlobalNamespace::MissionNode>>* ___didSelectMissionLevelEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* ___didSelectMissionLevelEvent;
 
   /// @brief Field _selectedMissionNode, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____selectedMissionNode;

@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (
-    ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*)>(
+    ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*)>(
     &::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x4b101a8;
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*>::get(), "UnderTransform", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -138,10 +138,10 @@ inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::Transfo
   return ::cordl_internals::RunMethodRethrow<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal_method, parent);
 }
 inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*
-Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* parentGetter) {
+Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* parentGetter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*>::get(), "UnderTransform", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal_method, parentGetter);
 }
 inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransformGroup(::StringW transformGroupname) {

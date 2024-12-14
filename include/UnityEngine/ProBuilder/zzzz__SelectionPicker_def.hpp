@@ -52,7 +52,7 @@ public:
   // Declarations
   /// @brief Method PickEdgesInRect, addr 0x472bc6c, size 0x8e4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*
-  PickEdgesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
+  PickEdgesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
                   ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
   /// @brief Method PickFace, addr 0x472cce8, size 0xa0, virtual false, abstract: false, final false
@@ -60,12 +60,12 @@ public:
 
   /// @brief Method PickFacesInRect, addr 0x472a758, size 0xf44, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
-  PickFacesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
+  PickFacesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
                   ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
   /// @brief Method PickVerticesInRect, addr 0x4729780, size 0x670, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<int32_t>*>*
-  PickVerticesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* selectable,
+  PickVerticesInRect(::UnityEngine::Camera* cam, ::UnityEngine::Rect rect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selectable,
                      ::UnityEngine::ProBuilder::PickerOptions options, float_t pixelsPerPoint);
 
 protected:

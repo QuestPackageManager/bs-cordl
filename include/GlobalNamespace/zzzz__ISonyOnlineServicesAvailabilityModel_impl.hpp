@@ -18,6 +18,23 @@ constexpr ::GlobalNamespace::ISonyOnlineServicesAvailabilityModel_OnlineServices
 constexpr ::GlobalNamespace::ISonyOnlineServicesAvailabilityModel_OnlineServicesAvailability GlobalNamespace::ISonyOnlineServicesAvailabilityModel_OnlineServicesAvailability::UnknownError{
   static_cast<int32_t>(0x2)
 };
+//  Writing Method size for method: ::GlobalNamespace::ISonyOnlineServicesAvailabilityModel.GetOnlineServicesAvailabilityAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyOnlineServicesAvailabilityModel_OnlineServicesAvailability>* (::GlobalNamespace::ISonyOnlineServicesAvailabilityModel::*)()>(
+        &::GlobalNamespace::ISonyOnlineServicesAvailabilityModel::GetOnlineServicesAvailabilityAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyOnlineServicesAvailabilityModel*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISonyOnlineServicesAvailabilityModel*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::ISonyOnlineServicesAvailabilityModel_OnlineServicesAvailability>*
 GlobalNamespace::ISonyOnlineServicesAvailabilityModel::GetOnlineServicesAvailabilityAsync() {
   auto* ___internal_method =

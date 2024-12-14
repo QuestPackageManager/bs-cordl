@@ -55,7 +55,7 @@ namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerConnectedPlayerFacade/Factory
 class CORDL_TYPE MultiplayerConnectedPlayerFacade_Factory
-    : public ::Zenject::PlaceholderFactory_3<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerConnectedPlayerFacade*> {
+    : public ::Zenject::PlaceholderFactory_3<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerPlayerStartState, ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory* New_ctor();

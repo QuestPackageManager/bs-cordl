@@ -1407,7 +1407,7 @@ public:
   inline ::Zenject::ConditionCopyNonLazyBinder* FromComponentOn(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method FromComponentOn, addr 0x4b0245c, size 0xd8, virtual false, abstract: false, final false
-  inline ::Zenject::ConditionCopyNonLazyBinder* FromComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter);
+  inline ::Zenject::ConditionCopyNonLazyBinder* FromComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
   /// @brief Method FromComponentOnRoot, addr 0x4b0253c, size 0x80, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromComponentOnRoot();
@@ -1422,7 +1422,7 @@ public:
   inline ::Zenject::ConditionCopyNonLazyBinder* FromNewComponentOn(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method FromNewComponentOn, addr 0x4b026a8, size 0xd8, virtual false, abstract: false, final false
-  inline ::Zenject::ConditionCopyNonLazyBinder* FromNewComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter);
+  inline ::Zenject::ConditionCopyNonLazyBinder* FromNewComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
   /// @brief Method FromNewComponentOnNewPrefab, addr 0x4b02788, size 0x154, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefab(::UnityEngine::Object* prefab);

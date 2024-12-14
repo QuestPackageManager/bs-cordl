@@ -196,7 +196,7 @@ public:
   /// @brief Field didFinishEvent, offset 0x48, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didFinishEvent,
-      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
+      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
 
   __declspec(property(get = get_gameMode, put = set_gameMode)) ::StringW gameMode;
 
@@ -293,9 +293,9 @@ public:
 
   constexpr bool& __cordl_internal_get__usingOverrideEnvironment_k__BackingField();
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__beatmapKey_k__BackingField(::GlobalNamespace::BeatmapKey value);
 
@@ -321,13 +321,13 @@ public:
 
   constexpr void __cordl_internal_set__usingOverrideEnvironment_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
   /// @brief Method .ctor, addr 0x3b3dfec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b3a908, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
   /// @brief Method get_beatmapKey, addr 0x3b3d9bc, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
@@ -360,7 +360,7 @@ public:
   inline bool get_usingOverrideEnvironment();
 
   /// @brief Method remove_didFinishEvent, addr 0x3b3ade8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
   /// @brief Method set_beatmapKey, addr 0x3b3d9d0, size 0x14, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
@@ -416,7 +416,7 @@ public:
   ::UnityW<::GlobalNamespace::SceneInfo> ____gameCoreSceneInfo;
 
   /// @brief Field didFinishEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* ___didFinishEvent;
 
   /// @brief Field <gameMode>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::StringW ____gameMode_k__BackingField;

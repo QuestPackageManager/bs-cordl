@@ -37,7 +37,7 @@ public:
 
   /// @brief Field valueDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent,
-                      put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::GlobalNamespace::FormattedIntListSettingsController*, int32_t>* valueDidChangeEvent;
+                      put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* valueDidChangeEvent;
 
   /// @brief Method ApplyValue, addr 0x3c0e814, size 0x30, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
@@ -69,9 +69,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__value();
 
-  constexpr ::System::Action_2<::GlobalNamespace::FormattedIntListSettingsController*, int32_t>* const& __cordl_internal_get_valueDidChangeEvent() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* const& __cordl_internal_get_valueDidChangeEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::FormattedIntListSettingsController*, int32_t>*& __cordl_internal_get_valueDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>*& __cordl_internal_get_valueDidChangeEvent();
 
   constexpr void __cordl_internal_set__formattingString(::StringW value);
 
@@ -81,16 +81,16 @@ public:
 
   constexpr void __cordl_internal_set__value(int32_t value);
 
-  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedIntListSettingsController*, int32_t>* value);
+  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
   /// @brief Method .ctor, addr 0x3c0e8bc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_valueDidChangeEvent, addr 0x3c0e678, size 0xb0, virtual false, abstract: false, final false
-  inline void add_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedIntListSettingsController*, int32_t>* value);
+  inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
   /// @brief Method remove_valueDidChangeEvent, addr 0x3c0e728, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_valueDidChangeEvent(::System::Action_2<::GlobalNamespace::FormattedIntListSettingsController*, int32_t>* value);
+  inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
 protected:
   // Ctor Parameters []
@@ -119,7 +119,7 @@ public:
   ::StringW ____formattingString;
 
   /// @brief Field valueDidChangeEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::FormattedIntListSettingsController*, int32_t>* ___valueDidChangeEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* ___valueDidChangeEvent;
 
   /// @brief Field _value, offset: 0x48, size: 0x4, def value: None
   int32_t ____value;

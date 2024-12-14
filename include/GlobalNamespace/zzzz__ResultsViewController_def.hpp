@@ -279,13 +279,13 @@ public:
 
   /// @brief Field continueButtonPressedEvent, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get_continueButtonPressedEvent,
-                      put = __cordl_internal_set_continueButtonPressedEvent)) ::System::Action_1<::GlobalNamespace::ResultsViewController*>* continueButtonPressedEvent;
+                      put = __cordl_internal_set_continueButtonPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* continueButtonPressedEvent;
 
   __declspec(property(get = get_practice)) bool practice;
 
   /// @brief Field restartButtonPressedEvent, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get_restartButtonPressedEvent,
-                      put = __cordl_internal_set_restartButtonPressedEvent)) ::System::Action_1<::GlobalNamespace::ResultsViewController*>* restartButtonPressedEvent;
+                      put = __cordl_internal_set_restartButtonPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* restartButtonPressedEvent;
 
   /// @brief Method ContinueButtonPressed, addr 0x3b6dc8c, size 0x48, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
@@ -402,13 +402,13 @@ public:
 
   constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__transformedBeatmapData();
 
-  constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>* const& __cordl_internal_get_continueButtonPressedEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* const& __cordl_internal_get_continueButtonPressedEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& __cordl_internal_get_continueButtonPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*& __cordl_internal_get_continueButtonPressedEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>* const& __cordl_internal_get_restartButtonPressedEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* const& __cordl_internal_get_restartButtonPressedEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& __cordl_internal_get_restartButtonPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*& __cordl_internal_get_restartButtonPressedEvent();
 
   constexpr void __cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey value);
 
@@ -454,27 +454,27 @@ public:
 
   constexpr void __cordl_internal_set__transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  constexpr void __cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  constexpr void __cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  constexpr void __cordl_internal_set_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  constexpr void __cordl_internal_set_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method .ctor, addr 0x3b6dd1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_continueButtonPressedEvent, addr 0x3b6d2ec, size 0xb0, virtual false, abstract: false, final false
-  inline void add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method add_restartButtonPressedEvent, addr 0x3b6d44c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  inline void add_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method get_practice, addr 0x3b6d5ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_practice();
 
   /// @brief Method remove_continueButtonPressedEvent, addr 0x3b6d39c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method remove_restartButtonPressedEvent, addr 0x3b6d4fc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  inline void remove_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -539,10 +539,10 @@ public:
   ::GlobalNamespace::MenuDestination* ____menuDestinationRequest;
 
   /// @brief Field continueButtonPressedEvent, offset: 0xf0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ResultsViewController*>* ___continueButtonPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* ___continueButtonPressedEvent;
 
   /// @brief Field restartButtonPressedEvent, offset: 0xf8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ResultsViewController*>* ___restartButtonPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* ___restartButtonPressedEvent;
 
   /// @brief Field _levelCompletionResults, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ____levelCompletionResults;

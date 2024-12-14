@@ -604,12 +604,12 @@ public:
 
   /// @brief Method AddViewController, addr 0x228374c, size 0x174, virtual false, abstract: false, final false
   inline void AddViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
-                                ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>* animationLayouter, bool immediately);
+                                ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>* animationLayouter, bool immediately);
 
   /// @brief Method AddViewControllerCoroutine, addr 0x22838c0, size 0x8c, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* AddViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
-                                                                        ::System::Action_2<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>>* animationLayouter,
-                                                                        bool immediately);
+  inline ::System::Collections::IEnumerator*
+  AddViewControllerCoroutine(::HMUI::ViewController* newViewController, ::System::Action* finishedCallback,
+                             ::System::Action_2<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>>* animationLayouter, bool immediately);
 
   /// @brief Method ClearChildViewControllers, addr 0x2283338, size 0x128, virtual false, abstract: false, final false
   inline void ClearChildViewControllers();
@@ -618,27 +618,28 @@ public:
   inline void DeactivateGameObject();
 
   /// @brief Method GetNewXPositionsForViewControllers, addr 0x2283a54, size 0x1ec, virtual false, abstract: false, final false
-  inline ::ArrayW<float_t, ::Array<float_t>*> GetNewXPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers, int32_t exludeFromEndCount);
+  inline ::ArrayW<float_t, ::Array<float_t>*> GetNewXPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers, int32_t exludeFromEndCount);
 
   /// @brief Method IsChildInTransition, addr 0x2283658, size 0xf4, virtual false, abstract: false, final false
   inline bool IsChildInTransition();
 
   /// @brief Method LayoutViewControllers, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);
+  inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::ContainerViewController* New_ctor();
 
   /// @brief Method RemoveViewControllers, addr 0x2283974, size 0x2c, virtual false, abstract: false, final false
-  inline void RemoveViewControllers(
-      ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers, ::System::Action* finishedCallback,
-      ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>* animationLayouter,
-      bool immediately);
+  inline void RemoveViewControllers(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers, ::System::Action* finishedCallback,
+                                    ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                       ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter,
+                                    bool immediately);
 
   /// @brief Method RemoveViewControllersCoroutine, addr 0x22839a0, size 0x8c, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* RemoveViewControllersCoroutine(
-      ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllersToRemove, ::System::Action* finishedCallback,
-      ::System::Action_3<float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>*>* animationLayouter,
-      bool immediately);
+  inline ::System::Collections::IEnumerator* RemoveViewControllersCoroutine(::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllersToRemove,
+                                                                            ::System::Action* finishedCallback,
+                                                                            ::System::Action_3<float_t, ::ArrayW<::UnityW<::HMUI::ViewController>, ::Array<::UnityW<::HMUI::ViewController>>*>,
+                                                                                               ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*>* animationLayouter,
+                                                                            bool immediately);
 
   /// @brief Method SetChildViewController, addr 0x2283460, size 0xa0, virtual false, abstract: false, final false
   inline void SetChildViewController(::HMUI::ViewController* viewController);

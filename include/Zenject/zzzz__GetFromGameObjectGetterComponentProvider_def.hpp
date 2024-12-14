@@ -67,8 +67,8 @@ public:
   /// @brief Method GetInstanceType, addr 0x4b3a884, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  static inline ::Zenject::GetFromGameObjectGetterComponentProvider* New_ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter,
-                                                                              bool matchSingle);
+  static inline ::Zenject::GetFromGameObjectGetterComponentProvider* New_ctor(::System::Type* componentType,
+                                                                              ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, bool matchSingle);
 
   constexpr ::System::Type* const& __cordl_internal_get__componentType() const;
 
@@ -89,7 +89,7 @@ public:
   constexpr void __cordl_internal_set__matchSingle(bool value);
 
   /// @brief Method .ctor, addr 0x4b3a838, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter, bool matchSingle);
+  inline void _ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, bool matchSingle);
 
   /// @brief Method get_IsCached, addr 0x4b3a874, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();

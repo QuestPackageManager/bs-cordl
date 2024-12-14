@@ -365,7 +365,7 @@ public:
   static inline ::UnityEngine::Mesh_MeshDataArray AcquireReadOnlyMeshData(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> meshes);
 
   /// @brief Method AcquireReadOnlyMeshData, addr 0x4889d2c, size 0xdc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Mesh_MeshDataArray AcquireReadOnlyMeshData(::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* meshes);
+  static inline ::UnityEngine::Mesh_MeshDataArray AcquireReadOnlyMeshData(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes);
 
   /// @brief Method AddBlendShapeFrame, addr 0x4885eec, size 0x7c, virtual false, abstract: false, final false
   inline void AddBlendShapeFrame(::StringW shapeName, float_t frameWeight, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> deltaVertices,
@@ -382,7 +382,7 @@ public:
                                                      ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x488a574, size 0x1b0, virtual false, abstract: false, final false
-  static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::Mesh_MeshDataArray data, ::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* meshes,
+  static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::Mesh_MeshDataArray data, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                      ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method CheckCanAccessSubmesh, addr 0x488af20, size 0x144, virtual false, abstract: false, final false
@@ -428,7 +428,7 @@ public:
   static inline int32_t DefaultDimensionForChannel(::UnityEngine::Rendering::VertexAttribute channel);
 
   /// @brief Method FromInstanceID, addr 0x4884c14, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Mesh* FromInstanceID(int32_t id);
+  static inline ::UnityW<::UnityEngine::Mesh> FromInstanceID(int32_t id);
 
   /// @brief Method GetAllBoneWeights, addr 0x4886230, size 0xb4, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::BoneWeight1> GetAllBoneWeights();

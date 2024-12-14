@@ -403,10 +403,10 @@ public:
   inline void Awake();
 
   /// @brief Method Create, addr 0x4b28414, size 0xb0, virtual false, abstract: false, final false
-  static inline ::Zenject::SceneContext* Create();
+  static inline ::UnityW<::Zenject::SceneContext> Create();
 
   /// @brief Method GetInjectableMonoBehaviours, addr 0x4b283c8, size 0x4c, virtual true, abstract: false, final false
-  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
+  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
   /// @brief Method GetParentContainers, addr 0x4b270dc, size 0x5d0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* GetParentContainers();
@@ -418,7 +418,7 @@ public:
   inline void Install();
 
   /// @brief Method InstallBindings, addr 0x4b27b70, size 0x704, virtual false, abstract: false, final false
-  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
+  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
   /// @brief Method LookupDecoratorContexts, addr 0x4b276b4, size 0x300, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::Zenject::SceneDecoratorContext>>* LookupDecoratorContexts();

@@ -27,7 +27,8 @@ public:
   __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
 
   /// @brief Field interactableChangeEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_interactableChangeEvent, put = __cordl_internal_set_interactableChangeEvent)) ::System::Action_2<::HMUI::Interactable*, bool>* interactableChangeEvent;
+  __declspec(property(get = __cordl_internal_get_interactableChangeEvent,
+                      put = __cordl_internal_set_interactableChangeEvent)) ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* interactableChangeEvent;
 
   static inline ::HMUI::Interactable* New_ctor();
 
@@ -35,25 +36,25 @@ public:
 
   constexpr bool& __cordl_internal_get__interactable();
 
-  constexpr ::System::Action_2<::HMUI::Interactable*, bool>* const& __cordl_internal_get_interactableChangeEvent() const;
+  constexpr ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* const& __cordl_internal_get_interactableChangeEvent() const;
 
-  constexpr ::System::Action_2<::HMUI::Interactable*, bool>*& __cordl_internal_get_interactableChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>*& __cordl_internal_get_interactableChangeEvent();
 
   constexpr void __cordl_internal_set__interactable(bool value);
 
-  constexpr void __cordl_internal_set_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
+  constexpr void __cordl_internal_set_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
   /// @brief Method .ctor, addr 0x3aab024, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_interactableChangeEvent, addr 0x3aaae80, size 0xb0, virtual false, abstract: false, final false
-  inline void add_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
+  inline void add_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
   /// @brief Method get_interactable, addr 0x3aaafe0, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
   /// @brief Method remove_interactableChangeEvent, addr 0x3aaaf30, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_interactableChangeEvent(::System::Action_2<::HMUI::Interactable*, bool>* value);
+  inline void remove_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
   /// @brief Method set_interactable, addr 0x3aaafe8, size 0x3c, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
@@ -79,7 +80,7 @@ public:
   bool ____interactable;
 
   /// @brief Field interactableChangeEvent, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::Interactable*, bool>* ___interactableChangeEvent;
+  ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* ___interactableChangeEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

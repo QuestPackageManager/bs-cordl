@@ -127,7 +127,7 @@ public:
 
   /// @brief Field fallbackSpriteAssets, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_fallbackSpriteAssets,
-                      put = __cordl_internal_set_fallbackSpriteAssets)) ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* fallbackSpriteAssets;
+                      put = __cordl_internal_set_fallbackSpriteAssets)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* fallbackSpriteAssets;
 
   /// @brief Field k_searchedSpriteAssets, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_searchedSpriteAssets, put = setStaticF_k_searchedSpriteAssets)) ::System::Collections::Generic::HashSet_1<int32_t>* k_searchedSpriteAssets;
@@ -197,24 +197,24 @@ public:
   static inline ::TMPro::TMP_SpriteAsset* New_ctor();
 
   /// @brief Method SearchForSpriteByHashCode, addr 0x4800b3c, size 0x31c, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCode(::TMPro::TMP_SpriteAsset* spriteAsset, int32_t hashCode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::TMPro::TMP_SpriteAsset> SearchForSpriteByHashCode(::TMPro::TMP_SpriteAsset* spriteAsset, int32_t hashCode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x4800ff8, size 0xb0, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(::TMPro::TMP_SpriteAsset* spriteAsset, int32_t hashCode, bool searchFallbacks, ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::TMPro::TMP_SpriteAsset> SearchForSpriteByHashCodeInternal(::TMPro::TMP_SpriteAsset* spriteAsset, int32_t hashCode, bool searchFallbacks, ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x4800e58, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SpriteAsset* SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* spriteAssets, int32_t hashCode, bool searchFallbacks,
-                                                                            ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::TMPro::TMP_SpriteAsset> SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* spriteAssets, int32_t hashCode,
+                                                                                     bool searchFallbacks, ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByUnicode, addr 0x48006c8, size 0x224, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicode(::TMPro::TMP_SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::TMPro::TMP_SpriteAsset> SearchForSpriteByUnicode(::TMPro::TMP_SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByUnicodeInternal, addr 0x4800a8c, size 0xb0, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(::TMPro::TMP_SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::TMPro::TMP_SpriteAsset> SearchForSpriteByUnicodeInternal(::TMPro::TMP_SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByUnicodeInternal, addr 0x48008ec, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SpriteAsset* SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* spriteAssets, uint32_t unicode, bool includeFallbacks,
-                                                                           ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::TMPro::TMP_SpriteAsset> SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* spriteAssets, uint32_t unicode,
+                                                                                    bool includeFallbacks, ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SortCharacterTable, addr 0x48011d8, size 0x134, virtual false, abstract: false, final false
   inline void SortCharacterTable();
@@ -231,9 +231,9 @@ public:
   /// @brief Method UpgradeSpriteAsset, addr 0x47fff54, size 0x490, virtual false, abstract: false, final false
   inline void UpgradeSpriteAsset();
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* const& __cordl_internal_get_fallbackSpriteAssets() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* const& __cordl_internal_get_fallbackSpriteAssets() const;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>*& __cordl_internal_get_fallbackSpriteAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*& __cordl_internal_get_fallbackSpriteAssets();
 
   constexpr ::UnityEngine::TextCore::FaceInfo const& __cordl_internal_get_m_FaceInfo() const;
 
@@ -279,7 +279,7 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Texture>& __cordl_internal_get_spriteSheet();
 
-  constexpr void __cordl_internal_set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* value);
+  constexpr void __cordl_internal_set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
   constexpr void __cordl_internal_set_m_FaceInfo(::UnityEngine::TextCore::FaceInfo value);
 
@@ -388,7 +388,7 @@ public:
   ::System::Collections::Generic::List_1<::TMPro::TMP_Sprite*>* ___spriteInfoList;
 
   /// @brief Field fallbackSpriteAssets, offset: 0xd8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteAsset*>* ___fallbackSpriteAssets;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>* ___fallbackSpriteAssets;
 
   /// @brief Field m_IsSpriteAssetLookupTablesDirty, offset: 0xe0, size: 0x1, def value: None
   bool ___m_IsSpriteAssetLookupTablesDirty;

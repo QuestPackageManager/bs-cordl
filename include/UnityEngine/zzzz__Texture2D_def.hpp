@@ -191,7 +191,7 @@ public:
   inline void Compress(bool highQuality);
 
   /// @brief Method CreateExternalTexture, addr 0x48912f0, size 0x10c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* CreateExternalTexture(int32_t width, int32_t height, ::UnityEngine::TextureFormat format, bool mipChain, bool linear, ::System::IntPtr nativeTex);
+  static inline ::UnityW<::UnityEngine::Texture2D> CreateExternalTexture(int32_t width, int32_t height, ::UnityEngine::TextureFormat format, bool mipChain, bool linear, ::System::IntPtr nativeTex);
 
   /// @brief Method GenerateAtlas, addr 0x4891e70, size 0x1bc, virtual false, abstract: false, final false
   static inline bool GenerateAtlas(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> sizes, int32_t padding, int32_t atlasSize,
@@ -495,7 +495,7 @@ public:
   inline int32_t get_activeMipmapLimit();
 
   /// @brief Method get_blackTexture, addr 0x488f5b0, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_blackTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_blackTexture();
 
   /// @brief Method get_calculatedMipmapLevel, addr 0x4890330, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_calculatedMipmapLevel();
@@ -507,7 +507,7 @@ public:
   inline ::UnityEngine::TextureFormat get_format();
 
   /// @brief Method get_grayTexture, addr 0x488f600, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_grayTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_grayTexture();
 
   /// @brief Method get_ignoreMipmapLimit, addr 0x488f490, size 0x3c, virtual false, abstract: false, final false
   inline bool get_ignoreMipmapLimit();
@@ -519,7 +519,7 @@ public:
   inline bool get_isReadable();
 
   /// @brief Method get_linearGrayTexture, addr 0x488f628, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_linearGrayTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_linearGrayTexture();
 
   /// @brief Method get_loadAllMips, addr 0x48902b0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_loadAllMips();
@@ -537,10 +537,10 @@ public:
   inline ::StringW get_mipmapLimitGroup();
 
   /// @brief Method get_normalTexture, addr 0x488f650, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_normalTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_normalTexture();
 
   /// @brief Method get_redTexture, addr 0x488f5d8, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_redTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_redTexture();
 
   /// @brief Method get_requestedMipmapLevel, addr 0x48901b0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_requestedMipmapLevel();
@@ -555,7 +555,7 @@ public:
   inline bool get_vtOnly();
 
   /// @brief Method get_whiteTexture, addr 0x488f588, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_whiteTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_whiteTexture();
 
   /// @brief Method set_ignoreMipmapLimit, addr 0x488f4cc, size 0x44, virtual false, abstract: false, final false
   inline void set_ignoreMipmapLimit(bool value);

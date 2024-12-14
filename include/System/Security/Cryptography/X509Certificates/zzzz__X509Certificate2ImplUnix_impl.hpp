@@ -24,6 +24,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix.GetRawCertData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (
+    ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix::GetRawCertData)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix*>::get(), 33));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix.get_KeyAlgorithm
 template <>
 

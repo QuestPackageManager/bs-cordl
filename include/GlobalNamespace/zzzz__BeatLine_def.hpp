@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatLine_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatLine/Pool
-class CORDL_TYPE BeatLine_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatLine*> {
+class CORDL_TYPE BeatLine_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BeatLine>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::BeatLine_Pool* New_ctor();

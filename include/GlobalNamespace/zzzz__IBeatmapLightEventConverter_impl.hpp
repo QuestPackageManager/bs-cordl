@@ -8,6 +8,57 @@
 #include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::IBeatmapLightEventConverter.ConvertBasicBeatmapEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IBeatmapLightEventConverter::*)(
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*, int32_t, float_t, ::GlobalNamespace::BasicBeatmapEventType, int32_t, float_t)>(
+    &::GlobalNamespace::IBeatmapLightEventConverter::ConvertBasicBeatmapEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapLightEventConverter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapLightEventConverter*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IBeatmapLightEventConverter.ConvertLightColorBeatmapEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IBeatmapLightEventConverter::*)(
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*, int32_t, float_t, int32_t, int32_t, bool, ::GlobalNamespace::EaseType, ::GlobalNamespace::EnvironmentColorType,
+    float_t, int32_t, float_t, bool)>(&::GlobalNamespace::IBeatmapLightEventConverter::ConvertLightColorBeatmapEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapLightEventConverter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapLightEventConverter*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IBeatmapLightEventConverter.ConvertLightRotationBeatmapEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IBeatmapLightEventConverter::*)(
+    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*, int32_t, float_t, int32_t, int32_t, bool, ::GlobalNamespace::EaseType, ::GlobalNamespace::LightAxis, float_t,
+    int32_t, ::GlobalNamespace::LightRotationDirection)>(&::GlobalNamespace::IBeatmapLightEventConverter::ConvertLightRotationBeatmapEvent)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapLightEventConverter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBeatmapLightEventConverter*>::get(), 2));
+    return ___internal_method;
+  }
+};
 inline void GlobalNamespace::IBeatmapLightEventConverter::ConvertBasicBeatmapEvent(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output, int32_t subtypeIdentifier,
                                                                                    float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

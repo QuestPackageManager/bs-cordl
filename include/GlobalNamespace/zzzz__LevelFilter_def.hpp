@@ -216,7 +216,7 @@ public:
   static inline ::GlobalNamespace::LevelFilter___c__DisplayClass14_1* New_ctor();
 
   /// @brief Method <FilterLevelsAsync>b__4, addr 0x26cd538, size 0x60, virtual false, abstract: false, final false
-  inline bool _FilterLevelsAsync_b__4(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty> entry);
+  inline bool _FilterLevelsAsync_b__4(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicFilter() const;
 

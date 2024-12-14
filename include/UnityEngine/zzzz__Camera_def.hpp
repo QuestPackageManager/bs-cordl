@@ -1326,7 +1326,7 @@ public:
   inline ::UnityEngine::RenderingPath get_actualRenderingPath();
 
   /// @brief Method get_allCameras, addr 0x4867190, size 0xa0, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> get_allCameras();
+  static inline ::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> get_allCameras();
 
   /// @brief Method get_allCamerasCount, addr 0x4867168, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_allCamerasCount();
@@ -1392,7 +1392,7 @@ public:
   inline void get_cullingMatrix_Injected(::ByRef<::UnityEngine::Matrix4x4> ret);
 
   /// @brief Method get_current, addr 0x4866900, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Camera* get_current();
+  static inline ::UnityW<::UnityEngine::Camera> get_current();
 
   /// @brief Method get_curvature, addr 0x48649a8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_curvature();
@@ -1443,7 +1443,7 @@ public:
   inline void get_lensShift_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
   /// @brief Method get_main, addr 0x48668d8, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Camera* get_main();
+  static inline ::UnityW<::UnityEngine::Camera> get_main();
 
   /// @brief Method get_nearClipPlane, addr 0x4863240, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_nearClipPlane();

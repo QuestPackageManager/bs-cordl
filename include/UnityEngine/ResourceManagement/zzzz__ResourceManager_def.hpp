@@ -463,7 +463,7 @@ public:
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.ResourceManager/InstanceOperation
-class CORDL_TYPE ResourceManager_InstanceOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::GameObject*> {
+class CORDL_TYPE ResourceManager_InstanceOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityW<::UnityEngine::GameObject>> {
 public:
   // Declarations
   __declspec(property(get = get_DebugName)) ::StringW DebugName;
@@ -504,7 +504,7 @@ public:
   /// @brief Method Init, addr 0x478e7c4, size 0x30, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* instanceProvider,
                    ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiationParams,
-                   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> dependency);
+                   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> dependency);
 
   /// @brief Method InstanceScene, addr 0x478f9c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SceneManagement::Scene InstanceScene();

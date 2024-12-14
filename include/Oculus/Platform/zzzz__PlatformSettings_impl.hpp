@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Oculus::Platform::PlatformSettings.get_Instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::PlatformSettings* (*)()>(&::Oculus::Platform::PlatformSettings::get_Instance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Oculus::Platform::PlatformSettings> (*)()>(&::Oculus::Platform::PlatformSettings::get_Instance)> {
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x3f8ba20;
 
@@ -159,12 +159,13 @@ constexpr void Oculus::Platform::PlatformSettings::__cordl_internal_set_ovrUseSt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ovrUseStandalonePlatform = value;
 }
-inline void Oculus::Platform::PlatformSettings::setStaticF_instance(::Oculus::Platform::PlatformSettings* value) {
-  ::cordl_internals::setStaticField<::Oculus::Platform::PlatformSettings*, "instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformSettings*>::get>(
-      std::forward<::Oculus::Platform::PlatformSettings*>(value));
+inline void Oculus::Platform::PlatformSettings::setStaticF_instance(::UnityW<::Oculus::Platform::PlatformSettings> value) {
+  ::cordl_internals::setStaticField<::UnityW<::Oculus::Platform::PlatformSettings>, "instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformSettings*>::get>(
+      std::forward<::UnityW<::Oculus::Platform::PlatformSettings>>(value));
 }
-inline ::Oculus::Platform::PlatformSettings* Oculus::Platform::PlatformSettings::getStaticF_instance() {
-  return ::cordl_internals::getStaticField<::Oculus::Platform::PlatformSettings*, "instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformSettings*>::get>();
+inline ::UnityW<::Oculus::Platform::PlatformSettings> Oculus::Platform::PlatformSettings::getStaticF_instance() {
+  return ::cordl_internals::getStaticField<::UnityW<::Oculus::Platform::PlatformSettings>, "instance",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformSettings*>::get>();
 }
 inline ::StringW Oculus::Platform::PlatformSettings::get_AppID() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformSettings*>::get(), "get_AppID",
@@ -199,10 +200,10 @@ inline void Oculus::Platform::PlatformSettings::set_UseStandalonePlatform(bool v
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline ::Oculus::Platform::PlatformSettings* Oculus::Platform::PlatformSettings::get_Instance() {
+inline ::UnityW<::Oculus::Platform::PlatformSettings> Oculus::Platform::PlatformSettings::get_Instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformSettings*>::get(), "get_Instance",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::PlatformSettings*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::Oculus::Platform::PlatformSettings>, false>(nullptr, ___internal_method);
 }
 inline void Oculus::Platform::PlatformSettings::set_Instance(::Oculus::Platform::PlatformSettings* value) {
   static auto* ___internal_method = THROW_UNLESS(

@@ -526,7 +526,7 @@ public:
   static inline bool ReleaseInstance(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
   /// @brief Method ReleaseInstance, addr 0x44e205c, size 0xd0, virtual false, abstract: false, final false
-  static inline bool ReleaseInstance(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> handle);
+  static inline bool ReleaseInstance(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> handle);
 
   /// @brief Method ReleaseInstance, addr 0x44e1e00, size 0x98, virtual false, abstract: false, final false
   static inline bool ReleaseInstance(::UnityEngine::GameObject* instance);

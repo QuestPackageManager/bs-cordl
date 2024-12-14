@@ -39,8 +39,8 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>*();
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>"
-  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>*();
+  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>"
+  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>*();
 
   /// @brief Method Equals, addr 0x4a83230, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
@@ -69,8 +69,8 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleFont>* i___System__IEquatable_1___UnityEngine__UIElements__StyleFont_();
 
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>"
-  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Font*>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__Font__();
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityW<::UnityEngine::Font>>* i___UnityEngine__UIElements__IStyleValue_1___UnityW___UnityEngine__Font__();
 
   /// @brief Method op_Equality, addr 0x4a83188, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleFont lhs, ::UnityEngine::UIElements::StyleFont rhs);

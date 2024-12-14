@@ -54,7 +54,7 @@ public:
   /// @brief Method GetGameObject, addr 0x4b39dec, size 0x78, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
-  static inline ::Zenject::AddToExistingGameObjectComponentProviderGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter,
+  static inline ::Zenject::AddToExistingGameObjectComponentProviderGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter,
                                                                                     ::Zenject::DiContainer* container, ::System::Type* componentType,
                                                                                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArguments,
                                                                                     ::System::Object* concreteIdentifier,
@@ -67,7 +67,7 @@ public:
   constexpr void __cordl_internal_set__gameObjectGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method .ctor, addr 0x4b39dac, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter, ::Zenject::DiContainer* container, ::System::Type* componentType,
+  inline void _ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, ::Zenject::DiContainer* container, ::System::Type* componentType,
                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 

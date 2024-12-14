@@ -36,7 +36,7 @@ public:
                       put = __cordl_internal_set__copyPositions)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* _copyPositions;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::GlobalNamespace::CopyPosition_CopyPositionUpdater* _instance;
+  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater> _instance;
 
   /// @brief Method Add, addr 0x39c2478, size 0x1dc, virtual false, abstract: false, final false
   static inline void Add(::GlobalNamespace::CopyPosition* copyPosition);
@@ -55,9 +55,9 @@ public:
   /// @brief Method .ctor, addr 0x39c2808, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::CopyPosition_CopyPositionUpdater* getStaticF__instance();
+  static inline ::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater> getStaticF__instance();
 
-  static inline void setStaticF__instance(::GlobalNamespace::CopyPosition_CopyPositionUpdater* value);
+  static inline void setStaticF__instance(::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater> value);
 
 protected:
   // Ctor Parameters []

@@ -40,10 +40,10 @@ public:
   inline void AddFromClip(::UnityEngine::GameObject* obj, ::UnityEngine::AnimationClip* clip);
 
   /// @brief Method AddFromClips, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void AddFromClips(::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>* clips);
+  inline void AddFromClips(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AnimationClip>>* clips);
 
   /// @brief Method AddFromClips, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void AddFromClips(::UnityEngine::GameObject* obj, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AnimationClip*>* clips);
+  inline void AddFromClips(::UnityEngine::GameObject* obj, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AnimationClip>>* clips);
 
   /// @brief Method AddFromComponent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddFromComponent(::UnityEngine::GameObject* obj, ::UnityEngine::Component* component);

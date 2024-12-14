@@ -392,10 +392,10 @@ public:
   inline void set_displayWarnings(bool value);
 
   /// @brief Method set_fallbackFontAssets, addr 0x494e4b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  inline void set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
   /// @brief Method set_fallbackSpriteAssets, addr 0x494e520, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* value);
+  inline void set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* value);
 
   /// @brief Method set_lineBreakingRules, addr 0x494e7c8, size 0x8, virtual false, abstract: false, final false
   inline void set_lineBreakingRules(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* value);

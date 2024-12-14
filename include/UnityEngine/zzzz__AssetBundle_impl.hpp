@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::AssetBundle.GetAllLoadedAssetBundles_Native
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::AssetBundle*, ::Array<::UnityEngine::AssetBundle*>*> (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::AssetBundle>, ::Array<::UnityW<::UnityEngine::AssetBundle>>*> (*)()>(
     &::UnityEngine::AssetBundle::GetAllLoadedAssetBundles_Native)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x4856050;
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::AssetBundle.GetAllLoadedAssetBundles
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::AssetBundle*>* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AssetBundle>>* (*)()>(
     &::UnityEngine::AssetBundle::GetAllLoadedAssetBundles)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x4856078;
@@ -97,7 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::AssetBundle.LoadFromFile_Internal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundle* (*)(::StringW, uint32_t, uint64_t)>(&::UnityEngine::AssetBundle::LoadFromFile_Internal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AssetBundle> (*)(::StringW, uint32_t, uint64_t)>(
+    &::UnityEngine::AssetBundle::LoadFromFile_Internal)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x4856180;
 
@@ -112,7 +113,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::AssetBundle.LoadFromFile
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AssetBundle* (*)(::StringW)>(&::UnityEngine::AssetBundle::LoadFromFile)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AssetBundle> (*)(::StringW)>(&::UnityEngine::AssetBundle::LoadFromFile)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x48561d4;
 
@@ -318,15 +319,15 @@ inline void UnityEngine::AssetBundle::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::ArrayW<::UnityEngine::AssetBundle*, ::Array<::UnityEngine::AssetBundle*>*> UnityEngine::AssetBundle::GetAllLoadedAssetBundles_Native() {
+inline ::ArrayW<::UnityW<::UnityEngine::AssetBundle>, ::Array<::UnityW<::UnityEngine::AssetBundle>>*> UnityEngine::AssetBundle::GetAllLoadedAssetBundles_Native() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundle*>::get(),
                                                                              "GetAllLoadedAssetBundles_Native", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::AssetBundle*, ::Array<::UnityEngine::AssetBundle*>*>, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::AssetBundle>, ::Array<::UnityW<::UnityEngine::AssetBundle>>*>, false>(nullptr, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::AssetBundle*>* UnityEngine::AssetBundle::GetAllLoadedAssetBundles() {
+inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AssetBundle>>* UnityEngine::AssetBundle::GetAllLoadedAssetBundles() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundle*>::get(), "GetAllLoadedAssetBundles",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::AssetBundle*>*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::AssetBundle>>*, false>(nullptr, ___internal_method);
 }
 inline ::UnityEngine::AssetBundleCreateRequest* UnityEngine::AssetBundle::LoadFromFileAsync_Internal(::StringW path, uint32_t crc, uint64_t offset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,18 +348,18 @@ inline ::UnityEngine::AssetBundleCreateRequest* UnityEngine::AssetBundle::LoadFr
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::AssetBundleCreateRequest*, false>(nullptr, ___internal_method, path, crc);
 }
-inline ::UnityEngine::AssetBundle* UnityEngine::AssetBundle::LoadFromFile_Internal(::StringW path, uint32_t crc, uint64_t offset) {
+inline ::UnityW<::UnityEngine::AssetBundle> UnityEngine::AssetBundle::LoadFromFile_Internal(::StringW path, uint32_t crc, uint64_t offset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundle*>::get(), "LoadFromFile_Internal", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AssetBundle*, false>(nullptr, ___internal_method, path, crc, offset);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AssetBundle>, false>(nullptr, ___internal_method, path, crc, offset);
 }
-inline ::UnityEngine::AssetBundle* UnityEngine::AssetBundle::LoadFromFile(::StringW path) {
+inline ::UnityW<::UnityEngine::AssetBundle> UnityEngine::AssetBundle::LoadFromFile(::StringW path) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssetBundle*>::get(), "LoadFromFile", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::AssetBundle*, false>(nullptr, ___internal_method, path);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::AssetBundle>, false>(nullptr, ___internal_method, path);
 }
 inline ::UnityW<::UnityEngine::Object> UnityEngine::AssetBundle::LoadAsset(::StringW name) {
   static auto* ___internal_method =

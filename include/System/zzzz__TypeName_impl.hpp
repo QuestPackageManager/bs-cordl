@@ -2,6 +2,20 @@
 // IWYU pragma private; include "System/TypeName.hpp"
 #include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__TypeName_def.hpp"
+//  Writing Method size for method: ::System::TypeName.get_DisplayName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TypeName::*)()>(&::System::TypeName::get_DisplayName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeName*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeName*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline ::StringW System::TypeName::get_DisplayName() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TypeName*>::get(), 0)));

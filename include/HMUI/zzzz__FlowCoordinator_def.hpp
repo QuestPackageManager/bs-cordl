@@ -1171,7 +1171,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bottomScreenViewController, put = __cordl_internal_set__bottomScreenViewController)) ::UnityW<::HMUI::ViewController> _bottomScreenViewController;
 
   /// @brief Field _childFlowCoordinator, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__childFlowCoordinator, put = __cordl_internal_set__childFlowCoordinator)) ::HMUI::FlowCoordinator* _childFlowCoordinator;
+  __declspec(property(get = __cordl_internal_get__childFlowCoordinator, put = __cordl_internal_set__childFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> _childFlowCoordinator;
 
   /// @brief Field _isActivated, offset 0xa2, size 0x1
   __declspec(property(get = __cordl_internal_get__isActivated, put = __cordl_internal_set__isActivated)) bool _isActivated;
@@ -1190,7 +1190,7 @@ public:
                       put = __cordl_internal_set__mainScreenViewControllers)) ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* _mainScreenViewControllers;
 
   /// @brief Field _parentFlowCoordinator, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentFlowCoordinator, put = __cordl_internal_set__parentFlowCoordinator)) ::HMUI::FlowCoordinator* _parentFlowCoordinator;
+  __declspec(property(get = __cordl_internal_get__parentFlowCoordinator, put = __cordl_internal_set__parentFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> _parentFlowCoordinator;
 
   /// @brief Field _prevEventSystem, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__prevEventSystem, put = __cordl_internal_set__prevEventSystem)) ::UnityW<::UnityEngine::EventSystems::EventSystem> _prevEventSystem;
@@ -1235,7 +1235,7 @@ public:
   /// @brief Field _wasActivatedBefore, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get__wasActivatedBefore, put = __cordl_internal_set__wasActivatedBefore)) bool _wasActivatedBefore;
 
-  __declspec(property(get = get_childFlowCoordinator)) ::HMUI::FlowCoordinator* childFlowCoordinator;
+  __declspec(property(get = get_childFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> childFlowCoordinator;
 
   __declspec(property(get = get_isActivated)) bool isActivated;
 
@@ -1363,7 +1363,7 @@ public:
   inline void TransitionDidStart();
 
   /// @brief Method YoungestChildFlowCoordinatorOrSelf, addr 0x22867a8, size 0x7c, virtual false, abstract: false, final false
-  inline ::HMUI::FlowCoordinator* YoungestChildFlowCoordinatorOrSelf();
+  inline ::UnityW<::HMUI::FlowCoordinator> YoungestChildFlowCoordinatorOrSelf();
 
   /// @brief Method __ExternalActivate, addr 0x2286974, size 0x1f8, virtual false, abstract: false, final false
   inline void __ExternalActivate();
@@ -1382,9 +1382,9 @@ public:
 
   constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__bottomScreenViewController();
 
-  constexpr ::HMUI::FlowCoordinator* const& __cordl_internal_get__childFlowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__childFlowCoordinator() const;
 
-  constexpr ::HMUI::FlowCoordinator*& __cordl_internal_get__childFlowCoordinator();
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get__childFlowCoordinator();
 
   constexpr bool const& __cordl_internal_get__isActivated() const;
 
@@ -1406,9 +1406,9 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*& __cordl_internal_get__mainScreenViewControllers();
 
-  constexpr ::HMUI::FlowCoordinator* const& __cordl_internal_get__parentFlowCoordinator() const;
+  constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get__parentFlowCoordinator() const;
 
-  constexpr ::HMUI::FlowCoordinator*& __cordl_internal_get__parentFlowCoordinator();
+  constexpr ::UnityW<::HMUI::FlowCoordinator>& __cordl_internal_get__parentFlowCoordinator();
 
   constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get__prevEventSystem() const;
 
@@ -1466,7 +1466,7 @@ public:
 
   constexpr void __cordl_internal_set__bottomScreenViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr void __cordl_internal_set__childFlowCoordinator(::HMUI::FlowCoordinator* value);
+  constexpr void __cordl_internal_set__childFlowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
   constexpr void __cordl_internal_set__isActivated(bool value);
 
@@ -1478,7 +1478,7 @@ public:
 
   constexpr void __cordl_internal_set__mainScreenViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* value);
 
-  constexpr void __cordl_internal_set__parentFlowCoordinator(::HMUI::FlowCoordinator* value);
+  constexpr void __cordl_internal_set__parentFlowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
   constexpr void __cordl_internal_set__prevEventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
@@ -1510,7 +1510,7 @@ public:
   inline void _ctor();
 
   /// @brief Method get_childFlowCoordinator, addr 0x228436c, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::FlowCoordinator* get_childFlowCoordinator();
+  inline ::UnityW<::HMUI::FlowCoordinator> get_childFlowCoordinator();
 
   /// @brief Method get_isActivated, addr 0x2284374, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActivated();
@@ -1557,10 +1557,10 @@ public:
   ::UnityW<::HMUI::ScreenSystem> ____screenSystem;
 
   /// @brief Field _parentFlowCoordinator, offset: 0x30, size: 0x8, def value: None
-  ::HMUI::FlowCoordinator* ____parentFlowCoordinator;
+  ::UnityW<::HMUI::FlowCoordinator> ____parentFlowCoordinator;
 
   /// @brief Field _childFlowCoordinator, offset: 0x38, size: 0x8, def value: None
-  ::HMUI::FlowCoordinator* ____childFlowCoordinator;
+  ::UnityW<::HMUI::FlowCoordinator> ____childFlowCoordinator;
 
   /// @brief Field _mainScreenViewControllers, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* ____mainScreenViewControllers;

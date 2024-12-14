@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation.get_instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> (*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::get_instance)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x460252c;
@@ -445,13 +445,13 @@ constexpr void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::setStaticF_s_Instance(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*, "s_Instance",
+inline void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::setStaticF_s_Instance(::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation>, "s_Instance",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*>::get>(
-      std::forward<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*>(value));
+      std::forward<::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation>>(value));
 }
-inline ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::getStaticF_s_Instance() {
-  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*, "s_Instance",
+inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::getStaticF_s_Instance() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation>, "s_Instance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*>::get>();
 }
 inline ::UnityEngine::InputSystem::Touchscreen* UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::get_simulatedTouchscreen() {
@@ -465,10 +465,10 @@ inline void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::set_simula
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Touchscreen*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::get_instance() {
+inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::get_instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*>::get(),
                                                                              "get_instance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation>, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::Enable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation*>::get(),

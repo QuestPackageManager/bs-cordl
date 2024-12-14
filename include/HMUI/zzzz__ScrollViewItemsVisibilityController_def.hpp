@@ -57,10 +57,10 @@ public:
   static inline ::HMUI::ScrollViewItemsVisibilityController___c* New_ctor();
 
   /// @brief Method <Start>b__11_0, addr 0x39fcfcc, size 0x44, virtual false, abstract: false, final false
-  inline float_t _Start_b__11_0(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>* item);
+  inline float_t _Start_b__11_0(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
 
   /// @brief Method <Start>b__11_1, addr 0x39fd010, size 0x44, virtual false, abstract: false, final false
-  inline float_t _Start_b__11_1(::System::Tuple_2<::HMUI::ScrollViewItemForVisibilityController*, float_t>* item);
+  inline float_t _Start_b__11_1(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
 
   /// @brief Method .ctor, addr 0x39fcfc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();

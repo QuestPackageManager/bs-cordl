@@ -40,6 +40,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BeatmapDataLoaderVersion4::EventBoxGroupConverter.ConvertEvents
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::GlobalNamespace::BeatmapEventDataBox* (::BeatmapDataLoaderVersion4::EventBoxGroupConverter::*)(::BeatmapSaveDataVersion4::EventBox, ::GlobalNamespace::IndexFilter*)>(
+        &::BeatmapDataLoaderVersion4::EventBoxGroupConverter::ConvertEvents)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>::get(), 4));
+    return ___internal_method;
+  }
+};
 constexpr ::BeatmapSaveDataVersion4::LightshowSaveData*& BeatmapDataLoaderVersion4::EventBoxGroupConverter::__cordl_internal_get_lightshowSaveData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightshowSaveData;

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerLobbyAvatarPlace/Pool
-class CORDL_TYPE MultiplayerLobbyAvatarPlace_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*> {
+class CORDL_TYPE MultiplayerLobbyAvatarPlace_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool* New_ctor();

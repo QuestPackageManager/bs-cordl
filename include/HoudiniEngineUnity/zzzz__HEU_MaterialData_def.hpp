@@ -122,8 +122,8 @@ public:
   /// @brief Field _materialSource, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__materialSource, put = __cordl_internal_set__materialSource)) ::HoudiniEngineUnity::HEU_MaterialData_Source _materialSource;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*() noexcept;
 
   /// @brief Method GetMaterialAlpha, addr 0x3a56180, size 0x1d8, virtual false, abstract: false, final false
   static inline bool GetMaterialAlpha(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
@@ -175,8 +175,8 @@ public:
   /// @brief Method .ctor, addr 0x3a56634, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_MaterialData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_MaterialData__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_MaterialData__() noexcept;
 
 protected:
   // Ctor Parameters []

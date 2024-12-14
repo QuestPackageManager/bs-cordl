@@ -492,7 +492,7 @@ public:
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
   /// @brief Method GetAnimationClips, addr 0x48103bc, size 0x558, virtual false, abstract: false, final false
-  inline void GetAnimationClips(::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>* animClips);
+  inline void GetAnimationClips(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AnimationClip>>* animClips);
 
   /// @brief Method GetBinding, addr 0x480fb88, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> GetBinding(::UnityEngine::Playables::PlayableDirector* director);

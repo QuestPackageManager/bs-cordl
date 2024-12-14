@@ -7,7 +7,7 @@
 //  Writing Method size for method: ::GlobalNamespace::DirectionalLight.get_lights
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* (*)()>(
     &::GlobalNamespace::DirectionalLight::get_lights)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x39ddf5c;
@@ -93,26 +93,27 @@ constexpr void GlobalNamespace::DirectionalLight::__cordl_internal_set_radius(fl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___radius = value;
 }
-inline void GlobalNamespace::DirectionalLight::setStaticF__lights(::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>*, "_lights",
+inline void GlobalNamespace::DirectionalLight::setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>*, "_lights",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* GlobalNamespace::DirectionalLight::getStaticF__lights() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>*, "_lights",
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* GlobalNamespace::DirectionalLight::getStaticF__lights() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>*, "_lights",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get>();
 }
-inline void GlobalNamespace::DirectionalLight::setStaticF__mainLight(::GlobalNamespace::DirectionalLight* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::DirectionalLight*, "_mainLight", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get>(
-      std::forward<::GlobalNamespace::DirectionalLight*>(value));
+inline void GlobalNamespace::DirectionalLight::setStaticF__mainLight(::UnityW<::GlobalNamespace::DirectionalLight> value) {
+  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::DirectionalLight>, "_mainLight", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get>(
+      std::forward<::UnityW<::GlobalNamespace::DirectionalLight>>(value));
 }
-inline ::GlobalNamespace::DirectionalLight* GlobalNamespace::DirectionalLight::getStaticF__mainLight() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::DirectionalLight*, "_mainLight", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get>();
+inline ::UnityW<::GlobalNamespace::DirectionalLight> GlobalNamespace::DirectionalLight::getStaticF__mainLight() {
+  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::DirectionalLight>, "_mainLight",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get>();
 }
-inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* GlobalNamespace::DirectionalLight::get_lights() {
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* GlobalNamespace::DirectionalLight::get_lights() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get(), "get_lights",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>*, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::DirectionalLight::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get(), "OnEnable",

@@ -55,10 +55,11 @@ public:
   __declspec(property(get = getStaticF_RotateY180, put = setStaticF_RotateY180)) ::UnityEngine::Quaternion RotateY180;
 
   /// @brief Field SceneAnchors, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_SceneAnchors, put = setStaticF_SceneAnchors)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneAnchor*>* SceneAnchors;
+  __declspec(property(get = getStaticF_SceneAnchors,
+                      put = setStaticF_SceneAnchors)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* SceneAnchors;
 
   /// @brief Field SceneAnchorsList, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_SceneAnchorsList, put = setStaticF_SceneAnchorsList)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>* SceneAnchorsList;
+  __declspec(property(get = getStaticF_SceneAnchorsList, put = setStaticF_SceneAnchorsList)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* SceneAnchorsList;
 
   __declspec(property(get = get_Space, put = set_Space)) ::GlobalNamespace::OVRSpace Space;
 
@@ -83,7 +84,7 @@ public:
   inline void ClearPoseCache();
 
   /// @brief Method GetSceneAnchors, addr 0x40060c4, size 0xf4, virtual false, abstract: false, final false
-  static inline void GetSceneAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>* anchors);
+  static inline void GetSceneAnchors(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* anchors);
 
   /// @brief Method Initialize, addr 0x4005940, size 0x380, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::OVRAnchor anchor);
@@ -142,9 +143,9 @@ public:
 
   static inline ::UnityEngine::Quaternion getStaticF_RotateY180();
 
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneAnchor*>* getStaticF_SceneAnchors();
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* getStaticF_SceneAnchors();
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>* getStaticF_SceneAnchorsList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* getStaticF_SceneAnchorsList();
 
   /// @brief Method get_Anchor, addr 0x4005864, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRAnchor get_Anchor();
@@ -162,9 +163,9 @@ public:
 
   static inline void setStaticF_RotateY180(::UnityEngine::Quaternion value);
 
-  static inline void setStaticF_SceneAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneAnchor*>* value);
+  static inline void setStaticF_SceneAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value);
 
-  static inline void setStaticF_SceneAnchorsList(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneAnchor*>* value);
+  static inline void setStaticF_SceneAnchorsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value);
 
   /// @brief Method set_Anchor, addr 0x4005878, size 0x14, virtual false, abstract: false, final false
   inline void set_Anchor(::GlobalNamespace::OVRAnchor value);

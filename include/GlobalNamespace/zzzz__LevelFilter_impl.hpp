@@ -164,8 +164,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::LevelFilter___c__DisplayClass14_1._FilterLevelsAsync_b__4
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelFilter___c__DisplayClass14_1::*)(
-    ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<bool (::GlobalNamespace::LevelFilter___c__DisplayClass14_1::*)(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>)>(
+        &::GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x26cd538;
 
@@ -173,7 +174,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFilter___c__DisplayClass14_1*>::get(), "<FilterLevelsAsync>b__4", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>::get() })));
     return ___internal_method;
   }
 };
@@ -207,11 +208,11 @@ inline void GlobalNamespace::LevelFilter___c__DisplayClass14_1::_ctor() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool
-GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty> entry) {
+GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFilter___c__DisplayClass14_1*>::get(), "<FilterLevelsAsync>b__4", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, entry);
 }
 inline ::GlobalNamespace::LevelFilter___c__DisplayClass14_1* GlobalNamespace::LevelFilter___c__DisplayClass14_1::New_ctor() {

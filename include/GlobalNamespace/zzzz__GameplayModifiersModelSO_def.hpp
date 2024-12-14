@@ -376,7 +376,7 @@ public:
                                                                                                      ::GlobalNamespace::GameplayModifiersModelSO_GameplayModifierBoolGetter*>* gameplayModifierGetters;
 
   /// @brief Method CreateGameplayModifiers, addr 0x26b1a90, size 0x270, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
+  inline ::GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>* valueGetter);
 
   /// @brief Method CreateModifierParamsList, addr 0x26b1e20, size 0x290, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* CreateModifierParamsList(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
@@ -385,23 +385,24 @@ public:
   inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> GetGameplayModifierParams(::GlobalNamespace::GameplayModifierMask modifier);
 
   /// @brief Method GetModifiedScoreForGameplayModifiers, addr 0x26b2294, size 0x8c, virtual false, abstract: false, final false
-  inline int32_t GetModifiedScoreForGameplayModifiers(int32_t multipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float_t energy);
+  inline int32_t GetModifiedScoreForGameplayModifiers(int32_t multipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
+                                                      float_t energy);
 
   /// @brief Method GetModifierBoolValue, addr 0x26b1d84, size 0x9c, virtual false, abstract: false, final false
   inline bool GetModifierBoolValue(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
 
   /// @brief Method GetSongSpeedFromValueGetter, addr 0x26b1d00, size 0x84, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayModifiers_SongSpeed GetSongSpeedFromValueGetter(::System::Func_2<::GlobalNamespace::GameplayModifierParamsSO*, bool>* valueGetter);
+  inline ::GlobalNamespace::GameplayModifiers_SongSpeed GetSongSpeedFromValueGetter(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>* valueGetter);
 
   /// @brief Method GetTotalMultiplier, addr 0x26b20b0, size 0x1e0, virtual false, abstract: false, final false
-  inline float_t GetTotalMultiplier(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams, float_t energy);
+  inline float_t GetTotalMultiplier(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams, float_t energy);
 
   /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x26b2290, size 0x4, virtual false, abstract: false, final false
-  inline int32_t MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams,
+  inline int32_t MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
                                                        float_t energy);
 
   /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x26b2320, size 0x4, virtual false, abstract: false, final false
-  inline int32_t MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifierParams,
+  inline int32_t MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
                                                        ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 
   static inline ::GlobalNamespace::GameplayModifiersModelSO* New_ctor();

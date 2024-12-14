@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnabledViewStateTransition);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: EnabledViewStateTransition
-class CORDL_TYPE EnabledViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::Behaviour*> {
+class CORDL_TYPE EnabledViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::Behaviour>> {
 public:
   // Declarations
   /// @brief Field _transition, offset 0x38, size 0x8

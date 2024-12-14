@@ -89,7 +89,8 @@ public:
                       put = __cordl_internal_set_OnOverrideControllerDirty)) ::UnityEngine::AnimatorOverrideController_OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
 
   /// @brief Method ApplyOverrides, addr 0x48521dc, size 0x25c, virtual false, abstract: false, final false
-  inline void ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* overrides);
+  inline void
+  ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityW<::UnityEngine::AnimationClip>, ::UnityW<::UnityEngine::AnimationClip>>>* overrides);
 
   /// @brief Method Internal_Create, addr 0x4852100, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::AnimatorOverrideController* self, ::UnityEngine::RuntimeAnimatorController* controller);

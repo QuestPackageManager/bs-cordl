@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.get_parentUI
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIDocument* (::UnityEngine::UIElements::UIDocument::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::UIDocument> (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::get_parentUI)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x4a391d8;
@@ -217,7 +217,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.FindUIDocumentParent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIDocument* (::UnityEngine::UIElements::UIDocument::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::UIDocument> (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::FindUIDocumentParent)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x4a398dc;
@@ -414,15 +414,15 @@ constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_Previ
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PreviousPanelSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UIDocument*& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_ParentUI() {
+constexpr ::UnityW<::UnityEngine::UIElements::UIDocument>& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_ParentUI() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ParentUI;
 }
-constexpr ::UnityEngine::UIElements::UIDocument* const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_ParentUI() const {
+constexpr ::UnityW<::UnityEngine::UIElements::UIDocument> const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_ParentUI() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ParentUI;
 }
-constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_ParentUI(::UnityEngine::UIElements::UIDocument* value) {
+constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_ParentUI(::UnityW<::UnityEngine::UIElements::UIDocument> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ParentUI)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -438,15 +438,15 @@ constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_Child
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ChildrenContent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>*& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_ChildrenContentCopy() {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_ChildrenContentCopy() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildrenContentCopy;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>* const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_ChildrenContentCopy() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_ChildrenContentCopy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildrenContentCopy;
 }
-constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_ChildrenContentCopy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>* value) {
+constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_ChildrenContentCopy(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ChildrenContentCopy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -516,10 +516,10 @@ inline void UnityEngine::UIElements::UIDocument::set_panelSettings(::UnityEngine
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PanelSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::UIDocument* UnityEngine::UIElements::UIDocument::get_parentUI() {
+inline ::UnityW<::UnityEngine::UIElements::UIDocument> UnityEngine::UIElements::UIDocument::get_parentUI() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "get_parentUI",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIDocument*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UIElements::UIDocument>, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIDocument::set_parentUI(::UnityEngine::UIElements::UIDocument* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -584,10 +584,10 @@ inline void UnityEngine::UIElements::UIDocument::SetupFromHierarchy() {
                                                                              "SetupFromHierarchy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::UIDocument* UnityEngine::UIElements::UIDocument::FindUIDocumentParent() {
+inline ::UnityW<::UnityEngine::UIElements::UIDocument> UnityEngine::UIElements::UIDocument::FindUIDocumentParent() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
                                                                              "FindUIDocumentParent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIDocument*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UIElements::UIDocument>, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIDocument::Reset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "Reset",

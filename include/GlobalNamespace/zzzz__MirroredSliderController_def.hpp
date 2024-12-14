@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredSliderController_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MirroredSliderController/Pool
-class CORDL_TYPE MirroredSliderController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredSliderController*> {
+class CORDL_TYPE MirroredSliderController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredSliderController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MirroredSliderController_Pool* New_ctor();

@@ -124,7 +124,7 @@ public:
 
   /// @brief Field fallbackSpriteAssets, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_fallbackSpriteAssets,
-                      put = __cordl_internal_set_fallbackSpriteAssets)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* fallbackSpriteAssets;
+                      put = __cordl_internal_set_fallbackSpriteAssets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* fallbackSpriteAssets;
 
   /// @brief Field k_searchedSpriteAssets, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_searchedSpriteAssets, put = setStaticF_k_searchedSpriteAssets)) ::System::Collections::Generic::HashSet_1<int32_t>* k_searchedSpriteAssets;
@@ -186,28 +186,30 @@ public:
   static inline ::UnityEngine::TextCore::Text::SpriteAsset* New_ctor();
 
   /// @brief Method SearchForSpriteByHashCode, addr 0x492e30c, size 0x338, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::SpriteAsset* SearchForSpriteByHashCode(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t hashCode, bool includeFallbacks,
-                                                                                      ::ByRef<int32_t> spriteIndex, ::UnityEngine::TextCore::Text::TextSettings* textSettings);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> SearchForSpriteByHashCode(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t hashCode, bool includeFallbacks,
+                                                                                               ::ByRef<int32_t> spriteIndex, ::UnityEngine::TextCore::Text::TextSettings* textSettings);
 
   /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x492e7ec, size 0xb0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::SpriteAsset* SearchForSpriteByHashCodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t hashCode, bool searchFallbacks,
-                                                                                              ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> SearchForSpriteByHashCodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t hashCode, bool searchFallbacks,
+                                                                                                       ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByHashCodeInternal, addr 0x492e644, size 0x1a8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::SpriteAsset* SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* spriteAssets,
-                                                                                              int32_t hashCode, bool searchFallbacks, ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>
+  SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* spriteAssets, int32_t hashCode, bool searchFallbacks,
+                                    ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByUnicode, addr 0x492def8, size 0x1c4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::SpriteAsset* SearchForSpriteByUnicode(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
-                                                                                     ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> SearchForSpriteByUnicode(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
+                                                                                              ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByUnicodeInternal, addr 0x492e25c, size 0xb0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::SpriteAsset* SearchForSpriteByUnicodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
-                                                                                             ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> SearchForSpriteByUnicodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
+                                                                                                      ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SearchForSpriteByUnicodeInternal, addr 0x492e0bc, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::SpriteAsset* SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* spriteAssets,
-                                                                                             uint32_t unicode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex);
+  static inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>
+  SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* spriteAssets, uint32_t unicode, bool includeFallbacks,
+                                   ::ByRef<int32_t> spriteIndex);
 
   /// @brief Method SortCharacterTable, addr 0x492e9cc, size 0x134, virtual false, abstract: false, final false
   inline void SortCharacterTable();
@@ -221,9 +223,9 @@ public:
   /// @brief Method UpdateLookupTables, addr 0x492d8bc, size 0x4b4, virtual false, abstract: false, final false
   inline void UpdateLookupTables();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* const& __cordl_internal_get_fallbackSpriteAssets() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* const& __cordl_internal_get_fallbackSpriteAssets() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>*& __cordl_internal_get_fallbackSpriteAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*& __cordl_internal_get_fallbackSpriteAssets();
 
   constexpr ::UnityEngine::TextCore::FaceInfo const& __cordl_internal_get_m_FaceInfo() const;
 
@@ -261,7 +263,7 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteGlyph*>*& __cordl_internal_get_m_SpriteGlyphTable();
 
-  constexpr void __cordl_internal_set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* value);
+  constexpr void __cordl_internal_set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* value);
 
   constexpr void __cordl_internal_set_m_FaceInfo(::UnityEngine::TextCore::FaceInfo value);
 
@@ -360,7 +362,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::SpriteGlyph*>* ___m_SpriteGlyphLookup;
 
   /// @brief Field fallbackSpriteAssets, offset: 0xd0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* ___fallbackSpriteAssets;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* ___fallbackSpriteAssets;
 
   /// @brief Field m_IsSpriteAssetLookupTablesDirty, offset: 0xd8, size: 0x1, def value: None
   bool ___m_IsSpriteAssetLookupTablesDirty;

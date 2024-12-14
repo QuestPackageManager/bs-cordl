@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MonoBehaviourCallbackHooks);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MonoBehaviourCallbackHooks
-class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::GlobalNamespace::MonoBehaviourCallbackHooks*> {
+class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityW<::GlobalNamespace::MonoBehaviourCallbackHooks>> {
 public:
   // Declarations
   /// @brief Field m_OnLateUpdateDelegate, offset 0x28, size 0x8

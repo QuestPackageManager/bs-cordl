@@ -2,6 +2,34 @@
 // IWYU pragma private; include "UnityEngine/Timeline/RuntimeClipBase.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeClipBase.get_start
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::get_start)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(), 11));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeClipBase.get_duration
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::get_duration)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(), 12));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Timeline::RuntimeClipBase.get_intervalStart
 template <>
 

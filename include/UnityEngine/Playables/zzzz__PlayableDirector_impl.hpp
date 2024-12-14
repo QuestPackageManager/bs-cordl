@@ -665,90 +665,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableDirector.add_played
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*)>(&::UnityEngine::Playables::PlayableDirector::add_played)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(
+    ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(&::UnityEngine::Playables::PlayableDirector::add_played)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x48d0ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "add_played", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableDirector.remove_played
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*)>(&::UnityEngine::Playables::PlayableDirector::remove_played)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(
+    ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(&::UnityEngine::Playables::PlayableDirector::remove_played)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x48d10a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "remove_played", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableDirector.add_paused
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*)>(&::UnityEngine::Playables::PlayableDirector::add_paused)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(
+    ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(&::UnityEngine::Playables::PlayableDirector::add_paused)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x48d1154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "add_paused", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableDirector.remove_paused
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*)>(&::UnityEngine::Playables::PlayableDirector::remove_paused)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(
+    ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(&::UnityEngine::Playables::PlayableDirector::remove_paused)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x48d1204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "remove_paused", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableDirector.add_stopped
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*)>(&::UnityEngine::Playables::PlayableDirector::add_stopped)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(
+    ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(&::UnityEngine::Playables::PlayableDirector::add_stopped)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x48d12b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "add_stopped", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableDirector.remove_stopped
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*)>(&::UnityEngine::Playables::PlayableDirector::remove_stopped)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableDirector::*)(
+    ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(&::UnityEngine::Playables::PlayableDirector::remove_stopped)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x48d1364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "remove_stopped", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -897,39 +897,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_played() {
+constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_played() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___played;
 }
-constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* const& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_played() const {
+constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* const& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_played() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___played;
 }
-constexpr void UnityEngine::Playables::PlayableDirector::__cordl_internal_set_played(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+constexpr void UnityEngine::Playables::PlayableDirector::__cordl_internal_set_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___played)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_paused() {
+constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_paused() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___paused;
 }
-constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* const& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_paused() const {
+constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* const& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_paused() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___paused;
 }
-constexpr void UnityEngine::Playables::PlayableDirector::__cordl_internal_set_paused(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+constexpr void UnityEngine::Playables::PlayableDirector::__cordl_internal_set_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___paused)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_stopped() {
+constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_stopped() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stopped;
 }
-constexpr ::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* const& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_stopped() const {
+constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* const& UnityEngine::Playables::PlayableDirector::__cordl_internal_get_stopped() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stopped;
 }
-constexpr void UnityEngine::Playables::PlayableDirector::__cordl_internal_set_stopped(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+constexpr void UnityEngine::Playables::PlayableDirector::__cordl_internal_set_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stopped)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1184,40 +1184,40 @@ inline ::UnityW<::UnityEngine::ScriptableObject> UnityEngine::Playables::Playabl
                                                                              "Internal_GetPlayableAsset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::ScriptableObject>, false>(this, ___internal_method);
 }
-inline void UnityEngine::Playables::PlayableDirector::add_played(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+inline void UnityEngine::Playables::PlayableDirector::add_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "add_played", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Playables::PlayableDirector::remove_played(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+inline void UnityEngine::Playables::PlayableDirector::remove_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "remove_played", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Playables::PlayableDirector::add_paused(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+inline void UnityEngine::Playables::PlayableDirector::add_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "add_paused", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Playables::PlayableDirector::remove_paused(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+inline void UnityEngine::Playables::PlayableDirector::remove_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "remove_paused", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Playables::PlayableDirector::add_stopped(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+inline void UnityEngine::Playables::PlayableDirector::add_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "add_stopped", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Playables::PlayableDirector::remove_stopped(::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* value) {
+inline void UnityEngine::Playables::PlayableDirector::remove_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableDirector*>::get(), "remove_stopped", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Playables::PlayableDirector*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::Playables::PlayableDirector::ResetFrameTiming() {

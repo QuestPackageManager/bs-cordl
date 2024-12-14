@@ -4,6 +4,22 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsEncryptionCredentials_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsEncryptionCredentials_def.hpp"
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials.DecryptPreMasterSecret
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials::DecryptPreMasterSecret)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials*>::get(), 7));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials._ctor
 template <>
 

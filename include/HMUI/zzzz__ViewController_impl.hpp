@@ -783,7 +783,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::ViewController.get_parentViewController
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ViewController* (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_parentViewController)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_parentViewController)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2289be0;
 
@@ -796,7 +796,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::ViewController.get_childViewController
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ViewController* (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_childViewController)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::ViewController::*)()>(&::HMUI::ViewController::get_childViewController)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2289be8;
 
@@ -1250,27 +1250,27 @@ constexpr void HMUI::ViewController::__cordl_internal_set__containerViewControll
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____containerViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ViewController*& HMUI::ViewController::__cordl_internal_get__parentViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::ViewController::__cordl_internal_get__parentViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentViewController;
 }
-constexpr ::HMUI::ViewController* const& HMUI::ViewController::__cordl_internal_get__parentViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& HMUI::ViewController::__cordl_internal_get__parentViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentViewController;
 }
-constexpr void HMUI::ViewController::__cordl_internal_set__parentViewController(::HMUI::ViewController* value) {
+constexpr void HMUI::ViewController::__cordl_internal_set__parentViewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ViewController*& HMUI::ViewController::__cordl_internal_get__childViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::ViewController::__cordl_internal_get__childViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childViewController;
 }
-constexpr ::HMUI::ViewController* const& HMUI::ViewController::__cordl_internal_get__childViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& HMUI::ViewController::__cordl_internal_get__childViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____childViewController;
 }
-constexpr void HMUI::ViewController::__cordl_internal_set__childViewController(::HMUI::ViewController* value) {
+constexpr void HMUI::ViewController::__cordl_internal_set__childViewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____childViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1368,15 +1368,15 @@ inline ::UnityW<::HMUI::Screen> HMUI::ViewController::get_screen() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::Screen>, false>(this, ___internal_method);
 }
-inline ::HMUI::ViewController* HMUI::ViewController::get_parentViewController() {
+inline ::UnityW<::HMUI::ViewController> HMUI::ViewController::get_parentViewController() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_parentViewController",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::HMUI::ViewController*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::ViewController>, false>(this, ___internal_method);
 }
-inline ::HMUI::ViewController* HMUI::ViewController::get_childViewController() {
+inline ::UnityW<::HMUI::ViewController> HMUI::ViewController::get_childViewController() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_childViewController",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::HMUI::ViewController*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::ViewController>, false>(this, ___internal_method);
 }
 inline bool HMUI::ViewController::get_isInViewControllerHierarchy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewController*>::get(), "get_isInViewControllerHierarchy",

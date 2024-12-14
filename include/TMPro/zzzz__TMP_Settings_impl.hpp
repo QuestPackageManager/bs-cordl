@@ -556,7 +556,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Settings.get_instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Settings* (*)()>(&::TMPro::TMP_Settings::get_instance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Settings> (*)()>(&::TMPro::TMP_Settings::get_instance)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x47fc984;
 
@@ -569,7 +569,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Settings.LoadDefaultSettings
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Settings* (*)()>(&::TMPro::TMP_Settings::LoadDefaultSettings)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Settings> (*)()>(&::TMPro::TMP_Settings::LoadDefaultSettings)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x47fcf64;
 
@@ -582,7 +582,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Settings.GetSettings
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Settings* (*)()>(&::TMPro::TMP_Settings::GetSettings)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Settings> (*)()>(&::TMPro::TMP_Settings::GetSettings)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x47fd05c;
 
@@ -1044,12 +1044,12 @@ constexpr void TMPro::TMP_Settings::__cordl_internal_set_m_UseModernHangulLineBr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UseModernHangulLineBreakingRules = value;
 }
-inline void TMPro::TMP_Settings::setStaticF_s_Instance(::TMPro::TMP_Settings* value) {
-  ::cordl_internals::setStaticField<::TMPro::TMP_Settings*, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get>(
-      std::forward<::TMPro::TMP_Settings*>(value));
+inline void TMPro::TMP_Settings::setStaticF_s_Instance(::UnityW<::TMPro::TMP_Settings> value) {
+  ::cordl_internals::setStaticField<::UnityW<::TMPro::TMP_Settings>, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get>(
+      std::forward<::UnityW<::TMPro::TMP_Settings>>(value));
 }
-inline ::TMPro::TMP_Settings* TMPro::TMP_Settings::getStaticF_s_Instance() {
-  return ::cordl_internals::getStaticField<::TMPro::TMP_Settings*, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get>();
+inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_Settings::getStaticF_s_Instance() {
+  return ::cordl_internals::getStaticField<::UnityW<::TMPro::TMP_Settings>, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get>();
 }
 inline ::StringW TMPro::TMP_Settings::get_version() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get(), "get_version",
@@ -1245,20 +1245,20 @@ inline void TMPro::TMP_Settings::set_useModernHangulLineBreakingRules(bool value
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline ::TMPro::TMP_Settings* TMPro::TMP_Settings::get_instance() {
+inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_Settings::get_instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get(), "get_instance",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_Settings*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_Settings>, false>(nullptr, ___internal_method);
 }
-inline ::TMPro::TMP_Settings* TMPro::TMP_Settings::LoadDefaultSettings() {
+inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_Settings::LoadDefaultSettings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get(), "LoadDefaultSettings",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_Settings*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_Settings>, false>(nullptr, ___internal_method);
 }
-inline ::TMPro::TMP_Settings* TMPro::TMP_Settings::GetSettings() {
+inline ::UnityW<::TMPro::TMP_Settings> TMPro::TMP_Settings::GetSettings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get(), "GetSettings",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_Settings*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TMP_Settings>, false>(nullptr, ___internal_method);
 }
 inline ::UnityW<::TMPro::TMP_FontAsset> TMPro::TMP_Settings::GetFontAsset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Settings*>::get(), "GetFontAsset",

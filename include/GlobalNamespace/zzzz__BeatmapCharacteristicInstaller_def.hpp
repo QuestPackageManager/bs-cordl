@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicInstaller);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapCharacteristicInstaller
-class CORDL_TYPE BeatmapCharacteristicInstaller : public ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<::GlobalNamespace::BeatmapCharacteristicCollectionSO*> {
+class CORDL_TYPE BeatmapCharacteristicInstaller : public ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> {
 public:
   // Declarations
   __declspec(property(get = get_assetRuntimeKey)) ::StringW assetRuntimeKey;

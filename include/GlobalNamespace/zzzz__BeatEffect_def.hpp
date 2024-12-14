@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatEffect_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatEffect/Pool
-class CORDL_TYPE BeatEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatEffect*> {
+class CORDL_TYPE BeatEffect_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BeatEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::BeatEffect_Pool* New_ctor();

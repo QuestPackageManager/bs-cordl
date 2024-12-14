@@ -129,6 +129,70 @@ constexpr ::GlobalNamespace::OVRPassthroughLayer_DeferredPassthroughMeshAddition
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPassthroughLayer_DeferredPassthroughMeshAddition::OVRPassthroughLayer_DeferredPassthroughMeshAddition() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRPassthroughLayer_IStyleHandler.ApplyStyleSettings
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughLayer_IStyleHandler::*)(
+    ::ByRef<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2>)>(&::GlobalNamespace::OVRPassthroughLayer_IStyleHandler::ApplyStyleSettings)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRPassthroughLayer_IStyleHandler.Update
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughLayer_IStyleHandler::*)(::GlobalNamespace::OVRPassthroughLayer_Settings)>(
+    &::GlobalNamespace::OVRPassthroughLayer_IStyleHandler::Update)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRPassthroughLayer_IStyleHandler.get_IsValid
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRPassthroughLayer_IStyleHandler::*)()>(
+    &::GlobalNamespace::OVRPassthroughLayer_IStyleHandler::get_IsValid)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRPassthroughLayer_IStyleHandler.Clear
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPassthroughLayer_IStyleHandler::*)()>(
+    &::GlobalNamespace::OVRPassthroughLayer_IStyleHandler::Clear)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(), 3));
+    return ___internal_method;
+  }
+};
 inline void GlobalNamespace::OVRPassthroughLayer_IStyleHandler::ApplyStyleSettings(::ByRef<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2> style) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_IStyleHandler*>::get(), 0)));
@@ -527,6 +591,22 @@ constexpr ::GlobalNamespace::OVRPassthroughLayer_IStyleHandler* GlobalNamespace:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPassthroughLayer_NoneStyleHandler::OVRPassthroughLayer_NoneStyleHandler() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRPassthroughLayer_BaseGeneratedStyleHandler.get_MapSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::OVRPassthroughLayer_BaseGeneratedStyleHandler::*)()>(
+    &::GlobalNamespace::OVRPassthroughLayer_BaseGeneratedStyleHandler::get_MapSize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_BaseGeneratedStyleHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPassthroughLayer_BaseGeneratedStyleHandler*>::get(), 8));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRPassthroughLayer_BaseGeneratedStyleHandler.get_IsValid
 template <>
 

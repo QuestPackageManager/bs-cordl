@@ -25,10 +25,10 @@ class CORDL_TYPE DirectionalLight : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lights, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__lights, put = setStaticF__lights)) ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* _lights;
+  __declspec(property(get = getStaticF__lights, put = setStaticF__lights)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* _lights;
 
   /// @brief Field _mainLight, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__mainLight, put = setStaticF__mainLight)) ::GlobalNamespace::DirectionalLight* _mainLight;
+  __declspec(property(get = getStaticF__mainLight, put = setStaticF__mainLight)) ::UnityW<::GlobalNamespace::DirectionalLight> _mainLight;
 
   /// @brief Field color, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
@@ -68,16 +68,16 @@ public:
   /// @brief Method .ctor, addr 0x39de100, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* getStaticF__lights();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* getStaticF__lights();
 
-  static inline ::GlobalNamespace::DirectionalLight* getStaticF__mainLight();
+  static inline ::UnityW<::GlobalNamespace::DirectionalLight> getStaticF__mainLight();
 
   /// @brief Method get_lights, addr 0x39ddf5c, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* get_lights();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* get_lights();
 
-  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLight*>* value);
+  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* value);
 
-  static inline void setStaticF__mainLight(::GlobalNamespace::DirectionalLight* value);
+  static inline void setStaticF__mainLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
 
 protected:
   // Ctor Parameters []

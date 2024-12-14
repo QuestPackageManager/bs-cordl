@@ -260,16 +260,15 @@ template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1_JoinMatc
 template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>* GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>*>());
 }
-/// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-template <typename T>
-constexpr GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>::operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept {
-  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>::operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
+/// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
 template <typename T>
-constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
-GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>::i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept {
-  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
+constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*
+GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>::i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW_T__() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyConfig<T>::NetworkPlayerModel_1_JoinMatchmakingPartyConfig() {}
@@ -282,16 +281,15 @@ template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1_StartCli
 template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>* GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>*>());
 }
-/// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-template <typename T>
-constexpr GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>::operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept {
-  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>::operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
+/// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
 template <typename T>
-constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
-GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>::i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept {
-  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*>(static_cast<void*>(this));
+constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*
+GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>::i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW_T__() noexcept {
+  return static_cast<::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>::NetworkPlayerModel_1_StartClientPartyConfig() {}

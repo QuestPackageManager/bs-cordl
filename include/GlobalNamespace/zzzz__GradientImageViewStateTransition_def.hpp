@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GradientImageViewStateTransition);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GradientImageViewStateTransition
-class CORDL_TYPE GradientImageViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::HMUI::ImageView*> {
+class CORDL_TYPE GradientImageViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::HMUI::ImageView>> {
 public:
   // Declarations
   /// @brief Field _colorTweenA, offset 0x40, size 0x8

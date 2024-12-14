@@ -42,7 +42,7 @@ public:
   template <typename RequestData> inline void InternalProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera, RequestData renderRequest);
 
   /// @brief Method InternalRender, addr 0x48c5e70, size 0x80, virtual false, abstract: false, final false
-  inline void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityEngine::Camera*>* cameras);
+  inline void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   /// @brief Method IsRenderRequestSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename RequestData> inline bool IsRenderRequestSupported(::UnityEngine::Camera* camera, RequestData data);
@@ -54,7 +54,7 @@ public:
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> cameras);
 
   /// @brief Method Render, addr 0x48c5df8, size 0x78, virtual true, abstract: false, final false
-  inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityEngine::Camera*>* cameras);
+  inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 

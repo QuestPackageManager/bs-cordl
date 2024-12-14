@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CanvasGroupStateTransition);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: CanvasGroupStateTransition
-class CORDL_TYPE CanvasGroupStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::CanvasGroup*> {
+class CORDL_TYPE CanvasGroupStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::CanvasGroup>> {
 public:
   // Declarations
   /// @brief Field _floatTween, offset 0x40, size 0x8

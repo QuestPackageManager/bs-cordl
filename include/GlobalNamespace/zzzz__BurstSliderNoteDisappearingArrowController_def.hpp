@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BurstSliderNoteDisappearingArrowController);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BurstSliderNoteDisappearingArrowController
-class CORDL_TYPE BurstSliderNoteDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::BurstSliderGameNoteController*> {
+class CORDL_TYPE BurstSliderNoteDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>> {
 public:
   // Declarations
   /// @brief Field _burstSliderNoteController, offset 0x58, size 0x8

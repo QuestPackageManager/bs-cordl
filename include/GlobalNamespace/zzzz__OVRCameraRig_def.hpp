@@ -36,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get_TrackingSpaceChanged, put = __cordl_internal_set_TrackingSpaceChanged)) ::System::Action_1<::UnityW<::UnityEngine::Transform>>* TrackingSpaceChanged;
 
   /// @brief Field UpdatedAnchors, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_UpdatedAnchors, put = __cordl_internal_set_UpdatedAnchors)) ::System::Action_1<::GlobalNamespace::OVRCameraRig*>* UpdatedAnchors;
+  __declspec(property(get = __cordl_internal_get_UpdatedAnchors, put = __cordl_internal_set_UpdatedAnchors)) ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* UpdatedAnchors;
 
   /// @brief Field <centerEyeAnchor>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__centerEyeAnchor_k__BackingField, put = __cordl_internal_set__centerEyeAnchor_k__BackingField)) ::UnityW<::UnityEngine::Transform>
@@ -253,9 +253,9 @@ public:
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get_TrackingSpaceChanged();
 
-  constexpr ::System::Action_1<::GlobalNamespace::OVRCameraRig*>* const& __cordl_internal_get_UpdatedAnchors() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* const& __cordl_internal_get_UpdatedAnchors() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::OVRCameraRig*>*& __cordl_internal_get_UpdatedAnchors();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>*& __cordl_internal_get_UpdatedAnchors();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__centerEyeAnchor_k__BackingField() const;
 
@@ -411,7 +411,7 @@ public:
 
   constexpr void __cordl_internal_set_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  constexpr void __cordl_internal_set_UpdatedAnchors(::System::Action_1<::GlobalNamespace::OVRCameraRig*>* value);
+  constexpr void __cordl_internal_set_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value);
 
   constexpr void __cordl_internal_set__centerEyeAnchor_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
@@ -493,10 +493,10 @@ public:
   inline void _ctor();
 
   /// @brief Method add_TrackingSpaceChanged, addr 0x3fa1a3c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_TrackingSpaceChanged(::System::Action_1<::UnityEngine::Transform*>* value);
+  inline void add_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
   /// @brief Method add_UpdatedAnchors, addr 0x3fa18dc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_UpdatedAnchors(::System::Action_1<::GlobalNamespace::OVRCameraRig*>* value);
+  inline void add_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value);
 
   /// @brief Method get_centerEyeAnchor, addr 0x3fa180c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_centerEyeAnchor();
@@ -550,10 +550,10 @@ public:
   inline ::UnityW<::UnityEngine::Transform> get_trackingSpace();
 
   /// @brief Method remove_TrackingSpaceChanged, addr 0x3fa1aec, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_TrackingSpaceChanged(::System::Action_1<::UnityEngine::Transform*>* value);
+  inline void remove_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
   /// @brief Method remove_UpdatedAnchors, addr 0x3fa198c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_UpdatedAnchors(::System::Action_1<::GlobalNamespace::OVRCameraRig*>* value);
+  inline void remove_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value);
 
   /// @brief Method set_centerEyeAnchor, addr 0x3fa1814, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAnchor(::UnityEngine::Transform* value);
@@ -663,7 +663,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____trackerAnchor_k__BackingField;
 
   /// @brief Field UpdatedAnchors, offset: 0x98, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::OVRCameraRig*>* ___UpdatedAnchors;
+  ::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* ___UpdatedAnchors;
 
   /// @brief Field TrackingSpaceChanged, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Transform>>* ___TrackingSpaceChanged;

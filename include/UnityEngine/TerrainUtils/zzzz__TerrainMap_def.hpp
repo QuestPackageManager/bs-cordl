@@ -117,11 +117,12 @@ public:
   inline void AddTerrainInternal(int32_t x, int32_t z, ::UnityEngine::Terrain* terrain);
 
   /// @brief Method CreateFromPlacement, addr 0x491cc04, size 0x3e8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize, ::System::Predicate_1<::UnityEngine::Terrain*>* filter,
-                                                                             bool fullValidation);
+  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize,
+                                                                             ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter, bool fullValidation);
 
   /// @brief Method CreateFromPlacement, addr 0x491c950, size 0x2ac, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityEngine::Terrain*>* filter, bool fullValidation);
+  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter,
+                                                                             bool fullValidation);
 
   /// @brief Method GetTerrain, addr 0x491c8d8, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Terrain> GetTerrain(int32_t tileX, int32_t tileZ);

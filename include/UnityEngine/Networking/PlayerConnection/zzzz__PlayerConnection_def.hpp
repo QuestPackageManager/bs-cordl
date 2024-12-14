@@ -246,7 +246,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_connectedPlayers, put = __cordl_internal_set_m_connectedPlayers)) ::System::Collections::Generic::List_1<int32_t>* m_connectedPlayers;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Networking::PlayerConnection::PlayerConnection* s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> s_Instance;
 
   /// @brief Convert operator to "::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection"
   constexpr operator ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*() noexcept;
@@ -258,7 +258,7 @@ public:
   static inline void ConnectedCallbackInternal(int32_t playerId);
 
   /// @brief Method CreateInstance, addr 0x48bf6fc, size 0xa8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* CreateInstance();
+  static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> CreateInstance();
 
   /// @brief Method DisconnectAll, addr 0x48c0850, size 0x9c, virtual true, abstract: false, final true
   inline void DisconnectAll();
@@ -324,10 +324,10 @@ public:
 
   static inline ::UnityEngine::IPlayerEditorConnectionNative* getStaticF_connectionNative();
 
-  static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* getStaticF_s_Instance();
+  static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> getStaticF_s_Instance();
 
   /// @brief Method get_instance, addr 0x48bf668, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* get_instance();
+  static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> get_instance();
 
   /// @brief Method get_isConnected, addr 0x48bf7a4, size 0x9c, virtual false, abstract: false, final false
   inline bool get_isConnected();
@@ -337,7 +337,7 @@ public:
 
   static inline void setStaticF_connectionNative(::UnityEngine::IPlayerEditorConnectionNative* value);
 
-  static inline void setStaticF_s_Instance(::UnityEngine::Networking::PlayerConnection::PlayerConnection* value);
+  static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> value);
 
 protected:
   // Ctor Parameters []

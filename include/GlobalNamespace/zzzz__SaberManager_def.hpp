@@ -178,7 +178,7 @@ public:
   inline void _ctor();
 
   /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x3be59c4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
+  inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
   /// @brief Method get_leftSaber, addr 0x3be74b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_leftSaber();
@@ -187,7 +187,7 @@ public:
   inline ::UnityW<::GlobalNamespace::Saber> get_rightSaber();
 
   /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x3be5b00, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
+  inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
   /// @brief Method set_disableSabers, addr 0x3be74c4, size 0x10, virtual false, abstract: false, final false
   inline void set_disableSabers(bool value);

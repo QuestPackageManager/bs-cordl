@@ -231,60 +231,60 @@ constexpr ::GlobalNamespace::ResultsViewController__StartFireworksAfterDelay_d__
 //  Writing Method size for method: ::GlobalNamespace::ResultsViewController.add_continueButtonPressedEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(::System::Action_1<::GlobalNamespace::ResultsViewController*>*)>(
-    &::GlobalNamespace::ResultsViewController::add_continueButtonPressedEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*)>(&::GlobalNamespace::ResultsViewController::add_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6d2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "add_continueButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ResultsViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ResultsViewController.remove_continueButtonPressedEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(::System::Action_1<::GlobalNamespace::ResultsViewController*>*)>(
-    &::GlobalNamespace::ResultsViewController::remove_continueButtonPressedEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*)>(&::GlobalNamespace::ResultsViewController::remove_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6d39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "remove_continueButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ResultsViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ResultsViewController.add_restartButtonPressedEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(::System::Action_1<::GlobalNamespace::ResultsViewController*>*)>(
-    &::GlobalNamespace::ResultsViewController::add_restartButtonPressedEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*)>(&::GlobalNamespace::ResultsViewController::add_restartButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6d44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "add_restartButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ResultsViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::ResultsViewController.remove_restartButtonPressedEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(::System::Action_1<::GlobalNamespace::ResultsViewController*>*)>(
-    &::GlobalNamespace::ResultsViewController::remove_restartButtonPressedEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(
+    ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*)>(&::GlobalNamespace::ResultsViewController::remove_restartButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b6d4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "remove_restartButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ResultsViewController*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -615,27 +615,27 @@ constexpr void GlobalNamespace::ResultsViewController::__cordl_internal_set__men
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuDestinationRequest)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& GlobalNamespace::ResultsViewController::__cordl_internal_get_continueButtonPressedEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*& GlobalNamespace::ResultsViewController::__cordl_internal_get_continueButtonPressedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continueButtonPressedEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>* const& GlobalNamespace::ResultsViewController::__cordl_internal_get_continueButtonPressedEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* const& GlobalNamespace::ResultsViewController::__cordl_internal_get_continueButtonPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continueButtonPressedEvent;
 }
-constexpr void GlobalNamespace::ResultsViewController::__cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value) {
+constexpr void GlobalNamespace::ResultsViewController::__cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___continueButtonPressedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& GlobalNamespace::ResultsViewController::__cordl_internal_get_restartButtonPressedEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*& GlobalNamespace::ResultsViewController::__cordl_internal_get_restartButtonPressedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___restartButtonPressedEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>* const& GlobalNamespace::ResultsViewController::__cordl_internal_get_restartButtonPressedEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* const& GlobalNamespace::ResultsViewController::__cordl_internal_get_restartButtonPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___restartButtonPressedEvent;
 }
-constexpr void GlobalNamespace::ResultsViewController::__cordl_internal_set_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value) {
+constexpr void GlobalNamespace::ResultsViewController::__cordl_internal_set_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___restartButtonPressedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -723,28 +723,28 @@ constexpr void GlobalNamespace::ResultsViewController::__cordl_internal_set__pra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____practice = value;
 }
-inline void GlobalNamespace::ResultsViewController::add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value) {
+inline void GlobalNamespace::ResultsViewController::add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "add_continueButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ResultsViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::ResultsViewController::remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value) {
+inline void GlobalNamespace::ResultsViewController::remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "remove_continueButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ResultsViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::ResultsViewController::add_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value) {
+inline void GlobalNamespace::ResultsViewController::add_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "add_restartButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ResultsViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::ResultsViewController::remove_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value) {
+inline void GlobalNamespace::ResultsViewController::remove_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "remove_restartButtonPressedEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::ResultsViewController*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::ResultsViewController::get_practice() {

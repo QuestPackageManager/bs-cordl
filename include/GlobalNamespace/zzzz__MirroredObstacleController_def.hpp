@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredObstacleController_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MirroredObstacleController/Pool
-class CORDL_TYPE MirroredObstacleController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredObstacleController*> {
+class CORDL_TYPE MirroredObstacleController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredObstacleController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MirroredObstacleController_Pool* New_ctor();

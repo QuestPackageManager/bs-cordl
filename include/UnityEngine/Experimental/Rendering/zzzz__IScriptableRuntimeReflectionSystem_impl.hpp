@@ -2,6 +2,22 @@
 // IWYU pragma private; include "UnityEngine/Experimental/Rendering/IScriptableRuntimeReflectionSystem.hpp"
 #include "System/zzzz__IDisposable_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__IScriptableRuntimeReflectionSystem_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem.TickRealtimeProbes
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem::*)()>(
+    &::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem::TickRealtimeProbes)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline bool UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem::TickRealtimeProbes() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

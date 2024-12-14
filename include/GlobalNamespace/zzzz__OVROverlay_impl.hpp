@@ -1278,13 +1278,13 @@ constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_xrDeviceConstru
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xrDeviceConstructed = value;
 }
-inline void GlobalNamespace::OVROverlay::setStaticF_instances(::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*>, "instances",
+inline void GlobalNamespace::OVROverlay::setStaticF_instances(::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*>, "instances",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get>(
-      std::forward<::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*>>(value));
+      std::forward<::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*>>(value));
 }
-inline ::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*> GlobalNamespace::OVROverlay::getStaticF_instances() {
-  return ::cordl_internals::getStaticField<::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*>, "instances",
+inline ::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*> GlobalNamespace::OVROverlay::getStaticF_instances() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*>, "instances",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get>();
 }
 inline void GlobalNamespace::OVROverlay::setStaticF_tex2DMaterial(::UnityW<::UnityEngine::Material> value) {

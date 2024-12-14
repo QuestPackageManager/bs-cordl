@@ -8,6 +8,111 @@
 #include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IContentHandler.OnStartParsing
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SmallXmlParser_IContentHandler::*)(::Mono::Xml::SmallXmlParser*)>(
+    &::Mono::Xml::SmallXmlParser_IContentHandler::OnStartParsing)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IContentHandler.OnEndParsing
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SmallXmlParser_IContentHandler::*)(::Mono::Xml::SmallXmlParser*)>(
+    &::Mono::Xml::SmallXmlParser_IContentHandler::OnEndParsing)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IContentHandler.OnStartElement
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SmallXmlParser_IContentHandler::*)(::StringW, ::Mono::Xml::SmallXmlParser_IAttrList*)>(
+    &::Mono::Xml::SmallXmlParser_IContentHandler::OnStartElement)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IContentHandler.OnEndElement
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SmallXmlParser_IContentHandler::*)(::StringW)>(
+    &::Mono::Xml::SmallXmlParser_IContentHandler::OnEndElement)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IContentHandler.OnProcessingInstruction
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SmallXmlParser_IContentHandler::*)(::StringW, ::StringW)>(
+    &::Mono::Xml::SmallXmlParser_IContentHandler::OnProcessingInstruction)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IContentHandler.OnChars
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SmallXmlParser_IContentHandler::*)(::StringW)>(
+    &::Mono::Xml::SmallXmlParser_IContentHandler::OnChars)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IContentHandler.OnIgnorableWhitespace
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SmallXmlParser_IContentHandler::*)(::StringW)>(
+    &::Mono::Xml::SmallXmlParser_IContentHandler::OnIgnorableWhitespace)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 6));
+    return ___internal_method;
+  }
+};
 inline void Mono::Xml::SmallXmlParser_IContentHandler::OnStartParsing(::Mono::Xml::SmallXmlParser* parser) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 0)));
@@ -43,6 +148,92 @@ inline void Mono::Xml::SmallXmlParser_IContentHandler::OnIgnorableWhitespace(::S
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IContentHandler*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, text);
 }
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IAttrList.get_Length
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Xml::SmallXmlParser_IAttrList::*)()>(&::Mono::Xml::SmallXmlParser_IAttrList::get_Length)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IAttrList.GetName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Xml::SmallXmlParser_IAttrList::*)(int32_t)>(&::Mono::Xml::SmallXmlParser_IAttrList::GetName)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IAttrList.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Xml::SmallXmlParser_IAttrList::*)(int32_t)>(&::Mono::Xml::SmallXmlParser_IAttrList::GetValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IAttrList.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Xml::SmallXmlParser_IAttrList::*)(::StringW)>(&::Mono::Xml::SmallXmlParser_IAttrList::GetValue)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IAttrList.get_Names
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::Mono::Xml::SmallXmlParser_IAttrList::*)()>(
+    &::Mono::Xml::SmallXmlParser_IAttrList::get_Names)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Xml::SmallXmlParser_IAttrList.get_Values
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::Mono::Xml::SmallXmlParser_IAttrList::*)()>(
+    &::Mono::Xml::SmallXmlParser_IAttrList::get_Values)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(), 5));
+    return ___internal_method;
+  }
+};
 inline int32_t Mono::Xml::SmallXmlParser_IAttrList::get_Length() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SmallXmlParser_IAttrList*>::get(), 0)));

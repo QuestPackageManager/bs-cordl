@@ -24,7 +24,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::CookedEvent);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: HoudiniEngineUnity.CookedEvent
-class CORDL_TYPE CookedEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> {
+class CORDL_TYPE CookedEvent
+    : public ::UnityEngine::Events::UnityEvent_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::CookedEvent* New_ctor();

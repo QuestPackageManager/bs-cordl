@@ -38,7 +38,7 @@ public:
   /// @brief Method GetMaxId, addr 0x270432c, size 0x6c, virtual false, abstract: false, final false
   inline uint32_t GetMaxId();
 
-  static inline ::GlobalNamespace::SonyLeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>* idsMaps);
+  static inline ::GlobalNamespace::SonyLeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* idsMaps);
 
   /// @brief Method TryGetSonyLeaderboardId, addr 0x27042b4, size 0x78, virtual false, abstract: false, final false
   inline bool TryGetSonyLeaderboardId(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::ByRef<uint32_t> sonyLeaderboardId);
@@ -50,7 +50,7 @@ public:
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* value);
 
   /// @brief Method .ctor, addr 0x2703cbc, size 0x5f8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO*>* idsMaps);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* idsMaps);
 
 protected:
   // Ctor Parameters []

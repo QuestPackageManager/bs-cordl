@@ -202,10 +202,10 @@ public:
   static inline ::UnityEngine::UI::LayoutRebuilder* New_ctor();
 
   /// @brief Method PerformLayoutCalculation, addr 0x4aba0dc, size 0x2d0, virtual false, abstract: false, final false
-  inline void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
+  inline void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* action);
 
   /// @brief Method PerformLayoutControl, addr 0x4aba3ac, size 0x3c8, virtual false, abstract: false, final false
-  inline void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
+  inline void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* action);
 
   /// @brief Method ReapplyDrivenProperties, addr 0x4ab9ba0, size 0x54, virtual false, abstract: false, final false
   static inline void ReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
@@ -214,13 +214,13 @@ public:
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
   /// @brief Method StripDisabledBehavioursFromList, addr 0x4ab9c5c, size 0xf8, virtual false, abstract: false, final false
-  static inline void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityEngine::Component*>* components);
+  static inline void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* components);
 
   /// @brief Method ToString, addr 0x4abab9c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method ValidController, addr 0x4aba774, size 0x1f4, virtual false, abstract: false, final false
-  static inline bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* comps);
+  static inline bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* comps);
 
   constexpr int32_t const& __cordl_internal_get_m_CachedHashFromTransform() const;
 

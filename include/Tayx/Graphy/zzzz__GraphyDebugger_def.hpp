@@ -906,7 +906,7 @@ static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyDebugger___c
 namespace Tayx::Graphy {
 // Is value type: false
 // CS Name: Tayx.Graphy.GraphyDebugger
-class CORDL_TYPE GraphyDebugger : public ::Tayx::Graphy::Utils::G_Singleton_1<::Tayx::Graphy::GraphyDebugger*> {
+class CORDL_TYPE GraphyDebugger : public ::Tayx::Graphy::Utils::G_Singleton_1<::UnityW<::Tayx::Graphy::GraphyDebugger>> {
 public:
   // Declarations
   using ConditionEvaluation = ::Tayx::Graphy::GraphyDebugger_ConditionEvaluation;

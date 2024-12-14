@@ -126,7 +126,7 @@ public:
 
   /// @brief Field didFinishEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*,
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>,
                                                                                      ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* didFinishEvent;
 
   __declspec(property(get = get_playerSpecificSettings, put = set_playerSpecificSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
@@ -163,10 +163,10 @@ public:
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::SceneInfo>>*& __cordl_internal_get__tutorialSceneInfo();
 
-  constexpr ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* const&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* const&
   __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>*&
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>*&
   __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__environmentInfo(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
@@ -181,20 +181,22 @@ public:
 
   constexpr void __cordl_internal_set__tutorialSceneInfo(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::SceneInfo>>* value);
 
-  constexpr void
-  __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(
+      ::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
 
   /// @brief Method .ctor, addr 0x3b3e058, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didFinishEvent, addr 0x3b3c4e4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
+  inline void
+  add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
 
   /// @brief Method get_playerSpecificSettings, addr 0x3b3e020, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
   /// @brief Method remove_didFinishEvent, addr 0x3b3b4d8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
+  inline void
+  remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
 
   /// @brief Method set_playerSpecificSettings, addr 0x3b3e028, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
@@ -226,7 +228,7 @@ public:
   ::UnityW<::GlobalNamespace::SceneInfo> ____gameCoreSceneInfo;
 
   /// @brief Field didFinishEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* ___didFinishEvent;
 
   /// @brief Field <playerSpecificSettings>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ____playerSpecificSettings_k__BackingField;

@@ -43,7 +43,7 @@ public:
 
   /// @brief Field m_ChildrenContentCopy, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ChildrenContentCopy,
-                      put = __cordl_internal_set_m_ChildrenContentCopy)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>* m_ChildrenContentCopy;
+                      put = __cordl_internal_set_m_ChildrenContentCopy)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_ChildrenContentCopy;
 
   /// @brief Field m_FirstChildInsertIndex, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FirstChildInsertIndex, put = __cordl_internal_set_m_FirstChildInsertIndex)) int32_t m_FirstChildInsertIndex;
@@ -52,7 +52,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_PanelSettings, put = __cordl_internal_set_m_PanelSettings)) ::UnityW<::UnityEngine::UIElements::PanelSettings> m_PanelSettings;
 
   /// @brief Field m_ParentUI, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ParentUI, put = __cordl_internal_set_m_ParentUI)) ::UnityEngine::UIElements::UIDocument* m_ParentUI;
+  __declspec(property(get = __cordl_internal_get_m_ParentUI, put = __cordl_internal_set_m_ParentUI)) ::UnityW<::UnityEngine::UIElements::UIDocument> m_ParentUI;
 
   /// @brief Field m_PreviousPanelSettings, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PreviousPanelSettings, put = __cordl_internal_set_m_PreviousPanelSettings)) ::UnityW<::UnityEngine::UIElements::PanelSettings>
@@ -69,7 +69,7 @@ public:
 
   __declspec(property(get = get_panelSettings, put = set_panelSettings)) ::UnityW<::UnityEngine::UIElements::PanelSettings> panelSettings;
 
-  __declspec(property(get = get_parentUI, put = set_parentUI)) ::UnityEngine::UIElements::UIDocument* parentUI;
+  __declspec(property(get = get_parentUI, put = set_parentUI)) ::UnityW<::UnityEngine::UIElements::UIDocument> parentUI;
 
   __declspec(property(get = get_rootVisualElement)) ::UnityEngine::UIElements::VisualElement* rootVisualElement;
 
@@ -96,7 +96,7 @@ public:
   inline void Awake();
 
   /// @brief Method FindUIDocumentParent, addr 0x4a398dc, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIDocument* FindUIDocumentParent();
+  inline ::UnityW<::UnityEngine::UIElements::UIDocument> FindUIDocumentParent();
 
   static inline ::UnityEngine::UIElements::UIDocument* New_ctor();
 
@@ -137,9 +137,9 @@ public:
 
   constexpr ::UnityEngine::UIElements::UIDocumentList*& __cordl_internal_get_m_ChildrenContent();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>* const& __cordl_internal_get_m_ChildrenContentCopy() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* const& __cordl_internal_get_m_ChildrenContentCopy() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>*& __cordl_internal_get_m_ChildrenContentCopy();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*& __cordl_internal_get_m_ChildrenContentCopy();
 
   constexpr int32_t const& __cordl_internal_get_m_FirstChildInsertIndex() const;
 
@@ -149,9 +149,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings>& __cordl_internal_get_m_PanelSettings();
 
-  constexpr ::UnityEngine::UIElements::UIDocument* const& __cordl_internal_get_m_ParentUI() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::UIDocument> const& __cordl_internal_get_m_ParentUI() const;
 
-  constexpr ::UnityEngine::UIElements::UIDocument*& __cordl_internal_get_m_ParentUI();
+  constexpr ::UnityW<::UnityEngine::UIElements::UIDocument>& __cordl_internal_get_m_ParentUI();
 
   constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PreviousPanelSettings() const;
 
@@ -175,13 +175,13 @@ public:
 
   constexpr void __cordl_internal_set_m_ChildrenContent(::UnityEngine::UIElements::UIDocumentList* value);
 
-  constexpr void __cordl_internal_set_m_ChildrenContentCopy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>* value);
+  constexpr void __cordl_internal_set_m_ChildrenContentCopy(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
 
   constexpr void __cordl_internal_set_m_FirstChildInsertIndex(int32_t value);
 
   constexpr void __cordl_internal_set_m_PanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
 
-  constexpr void __cordl_internal_set_m_ParentUI(::UnityEngine::UIElements::UIDocument* value);
+  constexpr void __cordl_internal_set_m_ParentUI(::UnityW<::UnityEngine::UIElements::UIDocument> value);
 
   constexpr void __cordl_internal_set_m_PreviousPanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
 
@@ -205,7 +205,7 @@ public:
   inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
 
   /// @brief Method get_parentUI, addr 0x4a391d8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIDocument* get_parentUI();
+  inline ::UnityW<::UnityEngine::UIElements::UIDocument> get_parentUI();
 
   /// @brief Method get_rootVisualElement, addr 0x4a38b68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootVisualElement();
@@ -266,13 +266,13 @@ public:
   ::UnityW<::UnityEngine::UIElements::PanelSettings> ___m_PreviousPanelSettings;
 
   /// @brief Field m_ParentUI, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UIDocument* ___m_ParentUI;
+  ::UnityW<::UnityEngine::UIElements::UIDocument> ___m_ParentUI;
 
   /// @brief Field m_ChildrenContent, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIDocumentList* ___m_ChildrenContent;
 
   /// @brief Field m_ChildrenContentCopy, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>* ___m_ChildrenContentCopy;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* ___m_ChildrenContentCopy;
 
   /// @brief Field sourceAsset, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___sourceAsset;

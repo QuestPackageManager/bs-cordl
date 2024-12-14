@@ -49,7 +49,7 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::UnityEngine::Transform* parent);
 
   /// @brief Method UnderTransform, addr 0x4b101a8, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* parentGetter);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* parentGetter);
 
   /// @brief Method UnderTransformGroup, addr 0x4b101c4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::StringW transformGroupname);

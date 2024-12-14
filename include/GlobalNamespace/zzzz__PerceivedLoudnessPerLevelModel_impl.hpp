@@ -10,14 +10,15 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>*)>(&::GlobalNamespace::PerceivedLoudnessPerLevelModel::_ctor)> {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*)>(&::GlobalNamespace::PerceivedLoudnessPerLevelModel::_ctor)> {
   constexpr static std::size_t size = 0x5f8;
   constexpr static std::size_t addrs = 0x26d33e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerceivedLoudnessPerLevelModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -93,10 +94,11 @@ constexpr void GlobalNamespace::PerceivedLoudnessPerLevelModel::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____loudnessLevelPerLevelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::PerceivedLoudnessPerLevelModel::_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>* loudnessPerLeveDataList) {
+inline void GlobalNamespace::PerceivedLoudnessPerLevelModel::_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* loudnessPerLeveDataList) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerceivedLoudnessPerLevelModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, loudnessPerLeveDataList);
 }
 inline float_t GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId(::StringW levelId) {
@@ -124,7 +126,7 @@ inline ::System::Nullable_1<float_t> GlobalNamespace::PerceivedLoudnessPerLevelM
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<float_t>, false>(this, ___internal_method, levelId);
 }
 inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel*
-GlobalNamespace::PerceivedLoudnessPerLevelModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO*>* loudnessPerLeveDataList) {
+GlobalNamespace::PerceivedLoudnessPerLevelModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* loudnessPerLeveDataList) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PerceivedLoudnessPerLevelModel*>(loudnessPerLeveDataList));
 }
 // Ctor Parameters []

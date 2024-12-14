@@ -515,7 +515,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamLevelProductCollectionModel::*)(
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*)>(&::GlobalNamespace::SteamLevelProductCollectionModel::_ctor)> {
+    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*)>(&::GlobalNamespace::SteamLevelProductCollectionModel::_ctor)> {
   constexpr static std::size_t size = 0x8e4;
   constexpr static std::size_t addrs = 0x26e62f0;
 
@@ -523,7 +523,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -649,11 +649,11 @@ inline int32_t GlobalNamespace::SteamLevelProductCollectionModel::get_levelProdu
                                                                              "get_levelProductDataCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SteamLevelProductCollectionModel::_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>* levelProductsSOs) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{
-                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>*>::get() })));
+inline void GlobalNamespace::SteamLevelProductCollectionModel::_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelProductsSOs);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*
@@ -681,7 +681,7 @@ inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionD
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*, false>(this, ___internal_method, levelPackId);
 }
 inline ::GlobalNamespace::SteamLevelProductCollectionModel*
-GlobalNamespace::SteamLevelProductCollectionModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductPacksSO*>* levelProductsSOs) {
+GlobalNamespace::SteamLevelProductCollectionModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SteamLevelProductCollectionModel*>(levelProductsSOs));
 }
 // Ctor Parameters []

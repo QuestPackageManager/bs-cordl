@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialNoteController_Pool);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TutorialNoteController/Pool
-class CORDL_TYPE TutorialNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::TutorialNoteController*> {
+class CORDL_TYPE TutorialNoteController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::TutorialNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::TutorialNoteController_Pool* New_ctor();

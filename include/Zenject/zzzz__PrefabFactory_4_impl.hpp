@@ -57,14 +57,16 @@ template <typename P1, typename P2, typename P3, typename T> inline ::Zenject::I
 template <typename P1, typename P2, typename P3, typename T> inline ::Zenject::PrefabFactory_4<P1, P2, P3, T>* Zenject::PrefabFactory_4<P1, P2, P3, T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabFactory_4<P1, P2, P3, T>*>());
 }
-/// @brief Convert operator to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
-template <typename P1, typename P2, typename P3, typename T> constexpr Zenject::PrefabFactory_4<P1, P2, P3, T>::operator ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*() noexcept {
-  return static_cast<::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
+/// @brief Convert operator to "::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>,P1,P2,P3,T>"
 template <typename P1, typename P2, typename P3, typename T>
-constexpr ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>* Zenject::PrefabFactory_4<P1, P2, P3, T>::i___Zenject__IFactory_5___UnityEngine__Object__P1_P2_P3_T_() noexcept {
-  return static_cast<::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*>(static_cast<void*>(this));
+constexpr Zenject::PrefabFactory_4<P1, P2, P3, T>::operator ::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>, P1, P2, P3, T>*() noexcept {
+  return static_cast<::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>, P1, P2, P3, T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>,P1,P2,P3,T>"
+template <typename P1, typename P2, typename P3, typename T>
+constexpr ::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>, P1, P2, P3, T>*
+Zenject::PrefabFactory_4<P1, P2, P3, T>::i___Zenject__IFactory_5___UnityW___UnityEngine__Object__P1_P2_P3_T_() noexcept {
+  return static_cast<::Zenject::IFactory_5<::UnityW<::UnityEngine::Object>, P1, P2, P3, T>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IFactory"
 template <typename P1, typename P2, typename P3, typename T> constexpr Zenject::PrefabFactory_4<P1, P2, P3, T>::operator ::Zenject::IFactory*() noexcept {

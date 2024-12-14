@@ -35,13 +35,13 @@ public:
   __declspec(property(get = get_eventCamera)) ::UnityW<::UnityEngine::Camera> eventCamera;
 
   /// @brief Field m_RootRaycaster, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RootRaycaster, put = __cordl_internal_set_m_RootRaycaster)) ::UnityEngine::EventSystems::BaseRaycaster* m_RootRaycaster;
+  __declspec(property(get = __cordl_internal_get_m_RootRaycaster, put = __cordl_internal_set_m_RootRaycaster)) ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> m_RootRaycaster;
 
   __declspec(property(get = get_priority)) int32_t priority;
 
   __declspec(property(get = get_renderOrderPriority)) int32_t renderOrderPriority;
 
-  __declspec(property(get = get_rootRaycaster)) ::UnityEngine::EventSystems::BaseRaycaster* rootRaycaster;
+  __declspec(property(get = get_rootRaycaster)) ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> rootRaycaster;
 
   __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
 
@@ -65,11 +65,11 @@ public:
   /// @brief Method ToString, addr 0x4adf488, size 0x1c8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  constexpr ::UnityEngine::EventSystems::BaseRaycaster* const& __cordl_internal_get_m_RootRaycaster() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> const& __cordl_internal_get_m_RootRaycaster() const;
 
-  constexpr ::UnityEngine::EventSystems::BaseRaycaster*& __cordl_internal_get_m_RootRaycaster();
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster>& __cordl_internal_get_m_RootRaycaster();
 
-  constexpr void __cordl_internal_set_m_RootRaycaster(::UnityEngine::EventSystems::BaseRaycaster* value);
+  constexpr void __cordl_internal_set_m_RootRaycaster(::UnityW<::UnityEngine::EventSystems::BaseRaycaster> value);
 
   /// @brief Method .ctor, addr 0x4ad475c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -84,7 +84,7 @@ public:
   inline int32_t get_renderOrderPriority();
 
   /// @brief Method get_rootRaycaster, addr 0x4ad6468, size 0xb8, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::BaseRaycaster* get_rootRaycaster();
+  inline ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> get_rootRaycaster();
 
   /// @brief Method get_sortOrderPriority, addr 0x4adf478, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
@@ -107,7 +107,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15219 };
 
   /// @brief Field m_RootRaycaster, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::BaseRaycaster* ___m_RootRaycaster;
+  ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> ___m_RootRaycaster;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

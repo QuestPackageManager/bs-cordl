@@ -530,7 +530,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Unity::XR::Oculus::OculusRestarter.get_Instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::XR::Oculus::OculusRestarter* (*)()>(&::Unity::XR::Oculus::OculusRestarter::get_Instance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Unity::XR::Oculus::OculusRestarter> (*)()>(&::Unity::XR::Oculus::OculusRestarter::get_Instance)> {
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x483532c;
 
@@ -674,12 +674,13 @@ inline void Unity::XR::Oculus::OculusRestarter::setStaticF_k_GameObjectName(::St
 inline ::StringW Unity::XR::Oculus::OculusRestarter::getStaticF_k_GameObjectName() {
   return ::cordl_internals::getStaticField<::StringW, "k_GameObjectName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get>();
 }
-inline void Unity::XR::Oculus::OculusRestarter::setStaticF_s_Instance(::Unity::XR::Oculus::OculusRestarter* value) {
-  ::cordl_internals::setStaticField<::Unity::XR::Oculus::OculusRestarter*, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get>(
-      std::forward<::Unity::XR::Oculus::OculusRestarter*>(value));
+inline void Unity::XR::Oculus::OculusRestarter::setStaticF_s_Instance(::UnityW<::Unity::XR::Oculus::OculusRestarter> value) {
+  ::cordl_internals::setStaticField<::UnityW<::Unity::XR::Oculus::OculusRestarter>, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get>(
+      std::forward<::UnityW<::Unity::XR::Oculus::OculusRestarter>>(value));
 }
-inline ::Unity::XR::Oculus::OculusRestarter* Unity::XR::Oculus::OculusRestarter::getStaticF_s_Instance() {
-  return ::cordl_internals::getStaticField<::Unity::XR::Oculus::OculusRestarter*, "s_Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get>();
+inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> Unity::XR::Oculus::OculusRestarter::getStaticF_s_Instance() {
+  return ::cordl_internals::getStaticField<::UnityW<::Unity::XR::Oculus::OculusRestarter>, "s_Instance",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get>();
 }
 inline void Unity::XR::Oculus::OculusRestarter::setStaticF_m_pauseAndRestartAttempts(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "m_pauseAndRestartAttempts", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get>(
@@ -722,10 +723,10 @@ inline int32_t Unity::XR::Oculus::OculusRestarter::get_PauseAndRestartAttempts()
                                                                              "get_PauseAndRestartAttempts", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline ::Unity::XR::Oculus::OculusRestarter* Unity::XR::Oculus::OculusRestarter::get_Instance() {
+inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> Unity::XR::Oculus::OculusRestarter::get_Instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(), "get_Instance",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Unity::XR::Oculus::OculusRestarter*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::Unity::XR::Oculus::OculusRestarter>, false>(nullptr, ___internal_method);
 }
 inline void Unity::XR::Oculus::OculusRestarter::PauseAndRestart() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(), "PauseAndRestart",

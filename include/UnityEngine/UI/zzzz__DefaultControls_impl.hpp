@@ -11,6 +11,22 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UI::DefaultControls_IFactoryControls.CreateGameObject
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UI::DefaultControls_IFactoryControls::*)(
+    ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::DefaultControls_IFactoryControls::CreateGameObject)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_IFactoryControls*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_IFactoryControls*>::get(), 0));
+    return ___internal_method;
+  }
+};
 inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls_IFactoryControls::CreateGameObject(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_IFactoryControls*>::get(), 0)));

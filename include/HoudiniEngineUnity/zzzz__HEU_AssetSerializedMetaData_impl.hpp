@@ -138,14 +138,14 @@ inline void HoudiniEngineUnity::HEU_AssetSerializedMetaData::_ctor() {
 inline ::HoudiniEngineUnity::HEU_AssetSerializedMetaData* HoudiniEngineUnity::HEU_AssetSerializedMetaData::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>());
 }
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>"
-constexpr HoudiniEngineUnity::HEU_AssetSerializedMetaData::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
+constexpr HoudiniEngineUnity::HEU_AssetSerializedMetaData::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*
-HoudiniEngineUnity::HEU_AssetSerializedMetaData::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*>(static_cast<void*>(this));
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*
+HoudiniEngineUnity::HEU_AssetSerializedMetaData::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetSerializedMetaData::HEU_AssetSerializedMetaData() {}

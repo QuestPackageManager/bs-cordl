@@ -90,7 +90,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ObstacleController/Pool
-class CORDL_TYPE ObstacleController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ObstacleController*> {
+class CORDL_TYPE ObstacleController_Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::ObstacleController>> {
 public:
   // Declarations
   /// @brief Field _settingsManager, offset 0x40, size 0x8
@@ -362,15 +362,15 @@ public:
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
   /// @brief Field didDissolveEvent, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_didDissolveEvent, put = __cordl_internal_set_didDissolveEvent)) ::System::Action_1<::GlobalNamespace::ObstacleController*>* didDissolveEvent;
+  __declspec(property(get = __cordl_internal_get_didDissolveEvent, put = __cordl_internal_set_didDissolveEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* didDissolveEvent;
 
   /// @brief Field didUpdateProgress, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didUpdateProgress,
-                      put = __cordl_internal_set_didUpdateProgress)) ::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* didUpdateProgress;
+                      put = __cordl_internal_set_didUpdateProgress)) ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* didUpdateProgress;
 
   /// @brief Field finishedMovementEvent, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_finishedMovementEvent,
-                      put = __cordl_internal_set_finishedMovementEvent)) ::System::Action_1<::GlobalNamespace::ObstacleController*>* finishedMovementEvent;
+                      put = __cordl_internal_set_finishedMovementEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* finishedMovementEvent;
 
   __declspec(property(get = get_hasPassedAvoidedMark)) bool hasPassedAvoidedMark;
 
@@ -384,11 +384,11 @@ public:
 
   /// @brief Field passedAvoidedMarkEvent, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_passedAvoidedMarkEvent,
-                      put = __cordl_internal_set_passedAvoidedMarkEvent)) ::System::Action_1<::GlobalNamespace::ObstacleController*>* passedAvoidedMarkEvent;
+                      put = __cordl_internal_set_passedAvoidedMarkEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* passedAvoidedMarkEvent;
 
   /// @brief Field passedThreeQuartersOfJumpDurationEvent, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_passedThreeQuartersOfJumpDurationEvent,
-                      put = __cordl_internal_set_passedThreeQuartersOfJumpDurationEvent)) ::System::Action_1<::GlobalNamespace::ObstacleController*>* passedThreeQuartersOfJumpDurationEvent;
+                      put = __cordl_internal_set_passedThreeQuartersOfJumpDurationEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* passedThreeQuartersOfJumpDurationEvent;
 
   __declspec(property(get = get_width)) float_t width;
 
@@ -527,25 +527,25 @@ public:
 
   constexpr ::UnityEngine::Quaternion& __cordl_internal_get__worldRotation();
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>* const& __cordl_internal_get_didDissolveEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* const& __cordl_internal_get_didDissolveEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __cordl_internal_get_didDissolveEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_didDissolveEvent();
 
-  constexpr ::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* const& __cordl_internal_get_didUpdateProgress() const;
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* const& __cordl_internal_get_didUpdateProgress() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>*& __cordl_internal_get_didUpdateProgress();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>*& __cordl_internal_get_didUpdateProgress();
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>* const& __cordl_internal_get_finishedMovementEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* const& __cordl_internal_get_finishedMovementEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __cordl_internal_get_finishedMovementEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_finishedMovementEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>* const& __cordl_internal_get_passedAvoidedMarkEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* const& __cordl_internal_get_passedAvoidedMarkEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __cordl_internal_get_passedAvoidedMarkEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_passedAvoidedMarkEvent();
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>* const& __cordl_internal_get_passedThreeQuartersOfJumpDurationEvent() const;
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* const& __cordl_internal_get_passedThreeQuartersOfJumpDurationEvent() const;
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __cordl_internal_get_passedThreeQuartersOfJumpDurationEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_passedThreeQuartersOfJumpDurationEvent();
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value);
 
@@ -597,33 +597,33 @@ public:
 
   constexpr void __cordl_internal_set__worldRotation(::UnityEngine::Quaternion value);
 
-  constexpr void __cordl_internal_set_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr void __cordl_internal_set_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value);
+  constexpr void __cordl_internal_set_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
-  constexpr void __cordl_internal_set_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr void __cordl_internal_set_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr void __cordl_internal_set_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method .ctor, addr 0x3af1568, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_didDissolveEvent, addr 0x3af001c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_didUpdateProgress, addr 0x3af017c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value);
+  inline void add_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
   /// @brief Method add_finishedMovementEvent, addr 0x3aefbfc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_passedAvoidedMarkEvent, addr 0x3aefebc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_passedThreeQuartersOfJumpDurationEvent, addr 0x3aefd5c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method get_bounds, addr 0x3af02dc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
@@ -653,19 +653,19 @@ public:
   constexpr ::GlobalNamespace::IBeatmapObjectController* i___GlobalNamespace__IBeatmapObjectController() noexcept;
 
   /// @brief Method remove_didDissolveEvent, addr 0x3af00cc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_didUpdateProgress, addr 0x3af022c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value);
+  inline void remove_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
   /// @brief Method remove_finishedMovementEvent, addr 0x3aefcac, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_passedAvoidedMarkEvent, addr 0x3aeff6c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_passedThreeQuartersOfJumpDurationEvent, addr 0x3aefe0c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
 protected:
   // Ctor Parameters []
@@ -706,19 +706,19 @@ public:
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief Field finishedMovementEvent, offset: 0x68, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___finishedMovementEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___finishedMovementEvent;
 
   /// @brief Field passedThreeQuartersOfJumpDurationEvent, offset: 0x70, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___passedThreeQuartersOfJumpDurationEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___passedThreeQuartersOfJumpDurationEvent;
 
   /// @brief Field passedAvoidedMarkEvent, offset: 0x78, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___passedAvoidedMarkEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___passedAvoidedMarkEvent;
 
   /// @brief Field didDissolveEvent, offset: 0x80, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___didDissolveEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___didDissolveEvent;
 
   /// @brief Field didUpdateProgress, offset: 0x88, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* ___didUpdateProgress;
+  ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* ___didUpdateProgress;
 
   /// @brief Field _width, offset: 0x90, size: 0x4, def value: None
   float_t ____width;

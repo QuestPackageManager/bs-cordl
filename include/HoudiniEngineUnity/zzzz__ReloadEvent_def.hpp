@@ -24,7 +24,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::ReloadEvent);
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: HoudiniEngineUnity.ReloadEvent
-class CORDL_TYPE ReloadEvent : public ::UnityEngine::Events::UnityEvent_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> {
+class CORDL_TYPE ReloadEvent
+    : public ::UnityEngine::Events::UnityEvent_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::ReloadEvent* New_ctor();

@@ -7,6 +7,22 @@
 #include "System/Reflection/zzzz__ParameterInfo_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::CallInstruction.get_ArgumentCount
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CallInstruction::*)()>(
+    &::System::Linq::Expressions::Interpreter::CallInstruction::get_ArgumentCount)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::CallInstruction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::CallInstruction*>::get(), 11));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::CallInstruction.get_InstructionName
 template <>
 

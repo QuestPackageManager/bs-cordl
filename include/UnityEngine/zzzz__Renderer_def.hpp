@@ -115,7 +115,7 @@ public:
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetSharedMaterialArray();
 
   /// @brief Method GetSharedMaterials, addr 0x4878c9c, size 0x130, virtual false, abstract: false, final false
-  inline void GetSharedMaterials(::System::Collections::Generic::List_1<::UnityEngine::Material*>* m);
+  inline void GetSharedMaterials(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* m);
 
   /// @brief Method Internal_GetPropertyBlock, addr 0x4878550, size 0x44, virtual false, abstract: false, final false
   inline void Internal_GetPropertyBlock(::UnityEngine::MaterialPropertyBlock* dest);

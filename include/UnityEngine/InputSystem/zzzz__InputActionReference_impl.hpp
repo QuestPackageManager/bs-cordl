@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionReference.Create
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionReference* (*)(::UnityEngine::InputSystem::InputAction*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputActionReference::Create)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x454d778;
@@ -271,11 +271,11 @@ UnityEngine::InputSystem::InputActionReference::op_Implicit___UnityEngine__Input
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionReference*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputAction*, false>(nullptr, ___internal_method, reference);
 }
-inline ::UnityEngine::InputSystem::InputActionReference* UnityEngine::InputSystem::InputActionReference::Create(::UnityEngine::InputSystem::InputAction* action) {
+inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> UnityEngine::InputSystem::InputActionReference::Create(::UnityEngine::InputSystem::InputAction* action) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionReference*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionReference*, false>(nullptr, ___internal_method, action);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::InputSystem::InputActionReference>, false>(nullptr, ___internal_method, action);
 }
 inline ::UnityEngine::InputSystem::InputAction* UnityEngine::InputSystem::InputActionReference::ToInputAction() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionReference*>::get(),

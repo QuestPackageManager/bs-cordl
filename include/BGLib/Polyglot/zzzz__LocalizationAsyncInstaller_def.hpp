@@ -100,7 +100,7 @@ static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationAsy
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: BGLib.Polyglot.LocalizationAsyncInstaller
-class CORDL_TYPE LocalizationAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityEngine::TextAsset*> {
+class CORDL_TYPE LocalizationAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::UnityEngine::TextAsset>> {
 public:
   // Declarations
   using __c = ::BGLib::Polyglot::LocalizationAsyncInstaller___c;
@@ -120,11 +120,12 @@ public:
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* LoadLocalizationAssetsSync();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x22ace58, size 0x1c, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>* assets, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>* assets,
+                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   /// @brief Method LocalizationContentToAsset, addr 0x22ace74, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*
-  LocalizationContentToAsset(::System::Collections::Generic::IEnumerable_1<::UnityEngine::TextAsset*>* content);
+  LocalizationContentToAsset(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>* content);
 
   static inline ::BGLib::Polyglot::LocalizationAsyncInstaller* New_ctor();
 

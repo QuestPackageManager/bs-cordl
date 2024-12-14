@@ -37,6 +37,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonPath::QueryExpression.IsMatch
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::QueryExpression::*)(
+    ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::QueryExpression::IsMatch)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>::get(), 4));
+    return ___internal_method;
+  }
+};
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryOperator& Newtonsoft::Json::Linq::JsonPath::QueryExpression::__cordl_internal_get_Operator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Operator;

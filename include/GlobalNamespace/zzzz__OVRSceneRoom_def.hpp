@@ -58,10 +58,10 @@ public:
   __declspec(property(get = get_Floor, put = set_Floor)) ::UnityW<::GlobalNamespace::OVRScenePlane> Floor;
 
   /// @brief Field SceneRooms, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_SceneRooms, put = setStaticF_SceneRooms)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>* SceneRooms;
+  __declspec(property(get = getStaticF_SceneRooms, put = setStaticF_SceneRooms)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* SceneRooms;
 
   /// @brief Field SceneRoomsList, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_SceneRoomsList, put = setStaticF_SceneRoomsList)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneRoom*>* SceneRoomsList;
+  __declspec(property(get = getStaticF_SceneRoomsList, put = setStaticF_SceneRoomsList)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* SceneRoomsList;
 
   __declspec(property(get = get_Walls, put = set_Walls)) ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>, ::Array<::UnityW<::GlobalNamespace::OVRScenePlane>>*> Walls;
 
@@ -225,9 +225,9 @@ public:
   /// @brief Method .ctor, addr 0x40110a0, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>* getStaticF_SceneRooms();
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRooms();
 
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneRoom*>* getStaticF_SceneRoomsList();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRoomsList();
 
   /// @brief Method get_Ceiling, addr 0x400f914, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Ceiling();
@@ -241,9 +241,9 @@ public:
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
   constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
-  static inline void setStaticF_SceneRooms(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSceneRoom*>* value);
+  static inline void setStaticF_SceneRooms(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
 
-  static inline void setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneRoom*>* value);
+  static inline void setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
 
   /// @brief Method set_Ceiling, addr 0x400f91c, size 0x8, virtual false, abstract: false, final false
   inline void set_Ceiling(::GlobalNamespace::OVRScenePlane* value);

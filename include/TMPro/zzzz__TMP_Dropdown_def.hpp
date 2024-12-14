@@ -749,7 +749,7 @@ public:
 
   /// @brief Method AddItem, addr 0x47c9648, size 0x2e8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Dropdown_DropdownItem> AddItem(::TMPro::TMP_Dropdown_OptionData* data, bool selected, ::TMPro::TMP_Dropdown_DropdownItem* itemTemplate,
-                                                              ::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_DropdownItem*>* items);
+                                                              ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Dropdown_DropdownItem>>* items);
 
   /// @brief Method AddOptions, addr 0x47c7f48, size 0x150, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::StringW>* options);
@@ -758,7 +758,7 @@ public:
   inline void AddOptions(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>* options);
 
   /// @brief Method AddOptions, addr 0x47c80c0, size 0x150, virtual false, abstract: false, final false
-  inline void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* options);
+  inline void AddOptions(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>* options);
 
   /// @brief Method AlphaFadeList, addr 0x47ca0a4, size 0x80, virtual false, abstract: false, final false
   inline void AlphaFadeList(float_t duration, float_t alpha);

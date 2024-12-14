@@ -195,7 +195,7 @@ public:
 
   /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x228859c, size 0x278, virtual false, abstract: false, final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
-                                                         ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* removingViewControllers);
+                                                         ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
   constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get___4__this() const;
 
@@ -392,11 +392,11 @@ public:
   __declspec(property(get = __cordl_internal_get__viewControllersSeparator, put = __cordl_internal_set__viewControllersSeparator)) float_t _viewControllersSeparator;
 
   /// @brief Method GetNewPositionsForViewControllers, addr 0x2288018, size 0x488, virtual false, abstract: false, final false
-  inline ::ArrayW<float_t, ::Array<float_t>*> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers,
-                                                                                ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* fixedViewControllers, float_t fixedEndPos);
+  inline ::ArrayW<float_t, ::Array<float_t>*> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers,
+                                                                                ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* fixedViewControllers, float_t fixedEndPos);
 
   /// @brief Method LayoutViewControllers, addr 0x2287f00, size 0x118, virtual true, abstract: false, final false
-  inline void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);
+  inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::NavigationController* New_ctor();
 

@@ -108,7 +108,7 @@ public:
   inline void CopyPropertiesFromMaterial(::UnityEngine::Material* mat);
 
   /// @brief Method Create, addr 0x487eaf0, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* Create(::StringW scriptContents);
+  static inline ::UnityW<::UnityEngine::Material> Create(::StringW scriptContents);
 
   /// @brief Method CreateWithMaterial, addr 0x487ec04, size 0x44, virtual false, abstract: false, final false
   static inline void CreateWithMaterial(::UnityEngine::Material* self, ::UnityEngine::Material* source);
@@ -219,13 +219,13 @@ public:
   inline void GetConstantBufferImpl_Injected(int32_t name, ::ByRef<::UnityEngine::GraphicsBufferHandle> ret);
 
   /// @brief Method GetDefaultLineMaterial, addr 0x487edf4, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetDefaultLineMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetDefaultLineMaterial();
 
   /// @brief Method GetDefaultMaterial, addr 0x487eda4, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetDefaultMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetDefaultMaterial();
 
   /// @brief Method GetDefaultParticleMaterial, addr 0x487edcc, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetDefaultParticleMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetDefaultParticleMaterial();
 
   /// @brief Method GetEnabledKeywords, addr 0x4880394, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword, ::Array<::UnityEngine::Rendering::LocalKeyword>*> GetEnabledKeywords();

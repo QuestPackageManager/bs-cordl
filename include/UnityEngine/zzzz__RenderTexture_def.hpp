@@ -82,7 +82,7 @@ public:
   inline void DiscardContents(bool discardColor, bool discardDepth);
 
   /// @brief Method GetActive, addr 0x489584c, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetActive();
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetActive();
 
   /// @brief Method GetColorBuffer, addr 0x4895914, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderBuffer GetColorBuffer();
@@ -127,49 +127,49 @@ public:
   inline void GetDescriptor_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> ret);
 
   /// @brief Method GetTemporary, addr 0x4897190, size 0x80, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(::UnityEngine::RenderTextureDescriptor desc);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(::UnityEngine::RenderTextureDescriptor desc);
 
   /// @brief Method GetTemporary, addr 0x4897514, size 0x34, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height);
 
   /// @brief Method GetTemporary, addr 0x48974e4, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height, int32_t depthBuffer);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer);
 
   /// @brief Method GetTemporary, addr 0x48974b8, size 0x2c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format);
 
   /// @brief Method GetTemporary, addr 0x4897490, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                           ::UnityEngine::RenderTextureReadWrite readWrite);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                    ::UnityEngine::RenderTextureReadWrite readWrite);
 
   /// @brief Method GetTemporary, addr 0x489746c, size 0x24, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                           ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                    ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing);
 
   /// @brief Method GetTemporary, addr 0x489744c, size 0x20, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                           ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                    ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode);
 
   /// @brief Method GetTemporary, addr 0x4897430, size 0x1c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                           ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode,
-                                                           ::UnityEngine::VRTextureUsage vrUsage);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                    ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode,
+                                                                    ::UnityEngine::VRTextureUsage vrUsage);
 
   /// @brief Method GetTemporary, addr 0x48973a4, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
-                                                           ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode,
-                                                           ::UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
+                                                                    ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode,
+                                                                    ::UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale);
 
   /// @brief Method GetTemporaryImpl, addr 0x4897230, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporaryImpl(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
-                                                               ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int32_t antiAliasing,
-                                                               ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporaryImpl(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
+                                                                        ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int32_t antiAliasing,
+                                                                        ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale);
 
   /// @brief Method GetTemporary_Internal, addr 0x4895d28, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary_Internal(::UnityEngine::RenderTextureDescriptor desc);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary_Internal(::UnityEngine::RenderTextureDescriptor desc);
 
   /// @brief Method GetTemporary_Internal_Injected, addr 0x4895d64, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* GetTemporary_Internal_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> desc);
+  static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary_Internal_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> desc);
 
   /// @brief Method Initialize, addr 0x4896c84, size 0x1e0, virtual false, abstract: false, final false
   inline void Initialize(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, ::UnityEngine::RenderTextureReadWrite readWrite, int32_t mipCount);
@@ -271,7 +271,7 @@ public:
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, ::UnityEngine::RenderTextureReadWrite readWrite);
 
   /// @brief Method get_active, addr 0x48958b0, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTexture* get_active();
+  static inline ::UnityW<::UnityEngine::RenderTexture> get_active();
 
   /// @brief Method get_antiAliasing, addr 0x48957cc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_antiAliasing();

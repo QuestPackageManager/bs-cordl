@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextMeshProInstaller::*)(
-    ::System::Collections::Generic::IList_1<::TMPro::TMP_FontAsset*>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    ::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::GlobalNamespace::TextMeshProInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2719b70;
@@ -81,7 +81,7 @@ inline ::StringW GlobalNamespace::TextMeshProInstaller::get_assetLabelRuntimeKey
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextMeshProInstaller*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TextMeshProInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::TMPro::TMP_FontAsset*>* fontAssets,
+inline void GlobalNamespace::TextMeshProInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets,
                                                                               ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextMeshProInstaller*>::get(), 12)));

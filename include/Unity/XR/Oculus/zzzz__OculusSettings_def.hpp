@@ -277,7 +277,7 @@ public:
                       put = __cordl_internal_set_m_StereoRenderingModeDesktop)) ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop m_StereoRenderingModeDesktop;
 
   /// @brief Field s_Settings, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Settings, put = setStaticF_s_Settings)) ::Unity::XR::Oculus::OculusSettings* s_Settings;
+  __declspec(property(get = getStaticF_s_Settings, put = setStaticF_s_Settings)) ::UnityW<::Unity::XR::Oculus::OculusSettings> s_Settings;
 
   /// @brief Method Awake, addr 0x4836078, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
@@ -404,9 +404,9 @@ public:
   /// @brief Method .ctor, addr 0x48360c4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Unity::XR::Oculus::OculusSettings* getStaticF_s_Settings();
+  static inline ::UnityW<::Unity::XR::Oculus::OculusSettings> getStaticF_s_Settings();
 
-  static inline void setStaticF_s_Settings(::Unity::XR::Oculus::OculusSettings* value);
+  static inline void setStaticF_s_Settings(::UnityW<::Unity::XR::Oculus::OculusSettings> value);
 
 protected:
   // Ctor Parameters []

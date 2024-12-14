@@ -18,7 +18,7 @@
 //  Writing Method size for method: ::GlobalNamespace::MissionToggle.add_selectionDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::System::Action_1<::GlobalNamespace::MissionToggle*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*)>(
     &::GlobalNamespace::MissionToggle::add_selectionDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b53888;
@@ -26,14 +26,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "add_selectionDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionToggle*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MissionToggle.remove_selectionDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::System::Action_1<::GlobalNamespace::MissionToggle*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*)>(
     &::GlobalNamespace::MissionToggle::remove_selectionDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x3b53938;
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "remove_selectionDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionToggle*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -414,15 +414,15 @@ constexpr void GlobalNamespace::MissionToggle::__cordl_internal_set__highlightCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightColor = value;
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionToggle*>*& GlobalNamespace::MissionToggle::__cordl_internal_get_selectionDidChangeEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*& GlobalNamespace::MissionToggle::__cordl_internal_get_selectionDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectionDidChangeEvent;
 }
-constexpr ::System::Action_1<::GlobalNamespace::MissionToggle*>* const& GlobalNamespace::MissionToggle::__cordl_internal_get_selectionDidChangeEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* const& GlobalNamespace::MissionToggle::__cordl_internal_get_selectionDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectionDidChangeEvent;
 }
-constexpr void GlobalNamespace::MissionToggle::__cordl_internal_set_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value) {
+constexpr void GlobalNamespace::MissionToggle::__cordl_internal_set_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___selectionDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -474,16 +474,16 @@ constexpr void GlobalNamespace::MissionToggle::__cordl_internal_set__missionClea
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missionCleared = value;
 }
-inline void GlobalNamespace::MissionToggle::add_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value) {
+inline void GlobalNamespace::MissionToggle::add_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "add_selectionDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionToggle*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionToggle::remove_selectionDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionToggle*>* value) {
+inline void GlobalNamespace::MissionToggle::remove_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "remove_selectionDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionToggle*>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::MissionToggle::set_missionCleared(bool value) {

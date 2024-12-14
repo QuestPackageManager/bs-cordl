@@ -102,14 +102,14 @@ inline void HoudiniEngineUnity::HEU_InstanceInputUIState::_ctor() {
 inline ::HoudiniEngineUnity::HEU_InstanceInputUIState* HoudiniEngineUnity::HEU_InstanceInputUIState::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_InstanceInputUIState*>());
 }
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>"
-constexpr HoudiniEngineUnity::HEU_InstanceInputUIState::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*>(static_cast<void*>(this));
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
+constexpr HoudiniEngineUnity::HEU_InstanceInputUIState::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*
-HoudiniEngineUnity::HEU_InstanceInputUIState::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InstanceInputUIState__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstanceInputUIState*>*>(static_cast<void*>(this));
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*
+HoudiniEngineUnity::HEU_InstanceInputUIState::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_InstanceInputUIState__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InstanceInputUIState::HEU_InstanceInputUIState() {}

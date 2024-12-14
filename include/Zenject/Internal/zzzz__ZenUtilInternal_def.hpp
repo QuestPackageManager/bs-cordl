@@ -224,11 +224,11 @@ public:
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -292,11 +292,11 @@ public:
   /// @brief Method .ctor, addr 0x4b5a238, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* i___System__Collections__Generic__IEnumerable_1___Zenject__SceneContext__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* i___System__Collections__Generic__IEnumerable_1___UnityW___Zenject__SceneContext__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::SceneContext*>* i___System__Collections__Generic__IEnumerator_1___Zenject__SceneContext__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>* i___System__Collections__Generic__IEnumerator_1___UnityW___Zenject__SceneContext__() noexcept;
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
@@ -379,14 +379,15 @@ public:
   static inline int32_t GetInheritanceDelta(::System::Type* derived, ::System::Type* parent);
 
   /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x4b5a888, size 0x32c, virtual false, abstract: false, final false
-  static inline void GetInjectableMonoBehavioursInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
+  static inline void GetInjectableMonoBehavioursInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
   /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x4b5af14, size 0x4, virtual false, abstract: false, final false
-  static inline void GetInjectableMonoBehavioursUnderGameObject(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableComponents);
+  static inline void GetInjectableMonoBehavioursUnderGameObject(::UnityEngine::GameObject* gameObject,
+                                                                ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
   /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x4b5abb4, size 0x360, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObjectInternal(::UnityEngine::GameObject* gameObject,
-                                                                        ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableComponents);
+                                                                        ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
   /// @brief Method GetRootGameObjects, addr 0x4b5a588, size 0x1c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects(::UnityEngine::SceneManagement::Scene scene);

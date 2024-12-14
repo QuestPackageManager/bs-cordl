@@ -4,6 +4,38 @@
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
+//  Writing Method size for method: ::System::Net::NetworkInformation::IPInterfaceProperties.get_UnicastAddresses
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (
+    ::System::Net::NetworkInformation::IPInterfaceProperties::*)()>(&::System::Net::NetworkInformation::IPInterfaceProperties::get_UnicastAddresses)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::IPInterfaceProperties*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::IPInterfaceProperties*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::NetworkInformation::IPInterfaceProperties.get_GatewayAddresses
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (
+    ::System::Net::NetworkInformation::IPInterfaceProperties::*)()>(&::System::Net::NetworkInformation::IPInterfaceProperties::get_GatewayAddresses)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::IPInterfaceProperties*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::IPInterfaceProperties*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Net::NetworkInformation::IPInterfaceProperties._ctor
 template <>
 

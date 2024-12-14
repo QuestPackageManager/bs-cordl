@@ -854,16 +854,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(
-    ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*, ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*)>(
+    ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*, ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::OculusMRCManager::Init)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x39c91b0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -1603,12 +1604,13 @@ inline void GlobalNamespace::OculusMRCManager::OnDestroy() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusMRCManager::Init(::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject,
-                                                    ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*>::get() })));
+inline void GlobalNamespace::OculusMRCManager::Init(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* instantiateMixedRealityBackgroundCameraGameObject,
+                                                    ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* instantiateMixedRealityForegroundCameraGameObject) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instantiateMixedRealityBackgroundCameraGameObject, instantiateMixedRealityForegroundCameraGameObject);
 }
 inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::OculusMRCManager::InstantiateMixedRealityCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject,

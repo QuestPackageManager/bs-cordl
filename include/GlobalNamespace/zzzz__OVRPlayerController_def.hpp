@@ -451,7 +451,7 @@ public:
   inline void add_PreCharacterMove(::System::Action* value);
 
   /// @brief Method add_TransformUpdated, addr 0x403c11c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_TransformUpdated(::System::Action_1<::UnityEngine::Transform*>* value);
+  inline void add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
   /// @brief Method get_InitialYRotation, addr 0x403c4ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InitialYRotation();
@@ -463,7 +463,7 @@ public:
   inline void remove_PreCharacterMove(::System::Action* value);
 
   /// @brief Method remove_TransformUpdated, addr 0x403c1cc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_TransformUpdated(::System::Action_1<::UnityEngine::Transform*>* value);
+  inline void remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
   /// @brief Method set_InitialYRotation, addr 0x403c4f4, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialYRotation(float_t value);

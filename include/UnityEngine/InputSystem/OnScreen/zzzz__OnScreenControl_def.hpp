@@ -111,7 +111,8 @@ public:
   __declspec(property(get = __cordl_internal_get_m_InputEventPtr, put = __cordl_internal_set_m_InputEventPtr)) ::UnityEngine::InputSystem::LowLevel::InputEventPtr m_InputEventPtr;
 
   /// @brief Field m_NextControlOnDevice, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_NextControlOnDevice, put = __cordl_internal_set_m_NextControlOnDevice)) ::UnityEngine::InputSystem::OnScreen::OnScreenControl* m_NextControlOnDevice;
+  __declspec(property(get = __cordl_internal_get_m_NextControlOnDevice, put = __cordl_internal_set_m_NextControlOnDevice)) ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>
+      m_NextControlOnDevice;
 
   /// @brief Field s_OnScreenDevices, offset 0xffffffff, size 0x38
   __declspec(property(get = getStaticF_s_OnScreenDevices,
@@ -143,15 +144,15 @@ public:
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __cordl_internal_get_m_InputEventPtr();
 
-  constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenControl* const& __cordl_internal_get_m_NextControlOnDevice() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> const& __cordl_internal_get_m_NextControlOnDevice() const;
 
-  constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenControl*& __cordl_internal_get_m_NextControlOnDevice();
+  constexpr ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl>& __cordl_internal_get_m_NextControlOnDevice();
 
   constexpr void __cordl_internal_set_m_Control(::UnityEngine::InputSystem::InputControl* value);
 
   constexpr void __cordl_internal_set_m_InputEventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
-  constexpr void __cordl_internal_set_m_NextControlOnDevice(::UnityEngine::InputSystem::OnScreen::OnScreenControl* value);
+  constexpr void __cordl_internal_set_m_NextControlOnDevice(::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> value);
 
   /// @brief Method .ctor, addr 0x45f5f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -196,7 +197,7 @@ public:
   ::UnityEngine::InputSystem::InputControl* ___m_Control;
 
   /// @brief Field m_NextControlOnDevice, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::OnScreen::OnScreenControl* ___m_NextControlOnDevice;
+  ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> ___m_NextControlOnDevice;
 
   /// @brief Field m_InputEventPtr, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::InputSystem::LowLevel::InputEventPtr ___m_InputEventPtr;

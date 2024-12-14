@@ -19,6 +19,36 @@ constexpr ::MS::Internal::Xml::XPath::AstNode_AstType MS::Internal::Xml::XPath::
 constexpr ::MS::Internal::Xml::XPath::AstNode_AstType MS::Internal::Xml::XPath::AstNode_AstType::Root{ static_cast<int32_t>(0x6) };
 constexpr ::MS::Internal::Xml::XPath::AstNode_AstType MS::Internal::Xml::XPath::AstNode_AstType::Variable{ static_cast<int32_t>(0x7) };
 constexpr ::MS::Internal::Xml::XPath::AstNode_AstType MS::Internal::Xml::XPath::AstNode_AstType::Error{ static_cast<int32_t>(0x8) };
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::AstNode.get_Type
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::AstNode::*)()>(
+    &::MS::Internal::Xml::XPath::AstNode::get_Type)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::AstNode*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::AstNode*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::MS::Internal::Xml::XPath::AstNode.get_ReturnType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::AstNode::*)()>(
+    &::MS::Internal::Xml::XPath::AstNode::get_ReturnType)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::AstNode*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::AstNode*>::get(), 5));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::MS::Internal::Xml::XPath::AstNode._ctor
 template <>
 

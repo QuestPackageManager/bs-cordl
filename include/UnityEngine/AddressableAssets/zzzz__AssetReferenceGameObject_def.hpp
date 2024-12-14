@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceGameObject);
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceGameObject
-class CORDL_TYPE AssetReferenceGameObject : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::GameObject*> {
+class CORDL_TYPE AssetReferenceGameObject : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::GameObject>> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* New_ctor(::StringW guid);

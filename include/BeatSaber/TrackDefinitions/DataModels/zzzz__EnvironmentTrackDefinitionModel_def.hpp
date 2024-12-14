@@ -325,12 +325,13 @@ public:
   inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> __ctor_b__11_3(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* trackInfo);
 
   /// @brief Method <.ctor>b__11_4, addr 0x22824c4, size 0x9c, virtual false, abstract: false, final false
-  inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>
-  __ctor_b__11_4(::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group);
+  inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> __ctor_b__11_4(
+      ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group);
 
   /// @brief Method <.ctor>b__11_5, addr 0x2282560, size 0x48, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>*>
-  __ctor_b__11_5(::System::Linq::IGrouping_2<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group);
+  __ctor_b__11_5(
+      ::System::Linq::IGrouping_2<::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO>, ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo*>* group);
 
   /// @brief Method <.ctor>b__11_6, addr 0x22825a8, size 0x18, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType __ctor_b__11_6(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO_BasicEventTrackInfo* info);

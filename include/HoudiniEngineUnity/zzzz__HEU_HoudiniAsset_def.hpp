@@ -1206,8 +1206,8 @@ public:
   __declspec(property(get = __cordl_internal_get__volumeCaches,
                       put = __cordl_internal_set__volumeCaches)) ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* _volumeCaches;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>*() noexcept;
 
   /// @brief Method AddAttributeStore, addr 0x3a1f608, size 0x198, virtual false, abstract: false, final false
   inline void AddAttributeStore(::HoudiniEngineUnity::HEU_AttributesStore* attributeStore);
@@ -1219,8 +1219,8 @@ public:
   inline void AddCurveDrawCollider(::UnityEngine::Collider* newCollider);
 
   /// @brief Method AddDownstreamConnection, addr 0x3a1dc20, size 0x80, virtual false, abstract: false, final false
-  inline void
-  AddDownstreamConnection(::UnityEngine::Events::UnityAction_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* receiver);
+  inline void AddDownstreamConnection(
+      ::UnityEngine::Events::UnityAction_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>* receiver);
 
   /// @brief Method AddInputNode, addr 0x3a113a4, size 0xd0, virtual false, abstract: false, final false
   inline void AddInputNode(::HoudiniEngineUnity::HEU_InputNode* node);
@@ -1378,7 +1378,7 @@ public:
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>* GetAttributesStores();
 
   /// @brief Method GetClonableParts, addr 0x3a1c1a8, size 0x174, virtual false, abstract: false, final false
-  inline void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts);
+  inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
 
   /// @brief Method GetCookStatus, addr 0x3a19208, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus GetCookStatus();
@@ -1417,7 +1417,7 @@ public:
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* GetInputNodes();
 
   /// @brief Method GetInstantiatedObject, addr 0x3a22d6c, size 0x94, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_HoudiniAsset* GetInstantiatedObject();
+  inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetInstantiatedObject();
 
   /// @brief Method GetInstantiationMethod, addr 0x3a22b64, size 0x208, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod GetInstantiationMethod();
@@ -1447,13 +1447,13 @@ public:
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
   /// @brief Method GetOutputGameObjects, addr 0x3a15640, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method GetOutputGeoNodes, addr 0x3a1e75c, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>* outputGeoNodes);
+  inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* outputGeoNodes);
 
   /// @brief Method GetSceneHDAAssetFromGameObject, addr 0x3a1f9f4, size 0x144, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_HoudiniAsset* GetSceneHDAAssetFromGameObject(::UnityEngine::GameObject* outputGameObject);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetSceneHDAAssetFromGameObject(::UnityEngine::GameObject* outputGameObject);
 
   /// @brief Method GetSceneHDAPartWithGameObject, addr 0x3a1f8b0, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetSceneHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
@@ -1495,13 +1495,13 @@ public:
   inline void InvalidateAsset();
 
   /// @brief Method InvokeBakedEvent, addr 0x3a1ba70, size 0x160, virtual false, abstract: false, final false
-  inline void InvokeBakedEvent(bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, bool isNewBake);
+  inline void InvokeBakedEvent(bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
   /// @brief Method InvokePostCookEvent, addr 0x3a184ac, size 0x150, virtual false, abstract: false, final false
-  inline void InvokePostCookEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void InvokePostCookEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method InvokeReloadEvent, addr 0x3a15794, size 0x150, virtual false, abstract: false, final false
-  inline void InvokeReloadEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void InvokeReloadEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method IsAssetSavedInScene, addr 0x3a14980, size 0x18, virtual false, abstract: false, final false
   inline bool IsAssetSavedInScene();
@@ -1536,7 +1536,7 @@ public:
   inline void NotifyInputNodesCookFinished();
 
   /// @brief Method NotifyUpstreamCooked, addr 0x3a1db68, size 0x2c, virtual false, abstract: false, final false
-  inline void NotifyUpstreamCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputs);
+  inline void NotifyUpstreamCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
 
   /// @brief Method NumAttributeStores, addr 0x3a1f43c, size 0x4c, virtual false, abstract: false, final false
   inline int32_t NumAttributeStores();
@@ -1554,7 +1554,7 @@ public:
   inline void OnValidate();
 
   /// @brief Method PopulateObjectInstanceInfos, addr 0x3a1fd14, size 0x190, virtual false, abstract: false, final false
-  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos);
+  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos);
 
   /// @brief Method PostAssetUpdate, addr 0x3a149a8, size 0x4, virtual false, abstract: false, final false
   inline void PostAssetUpdate();
@@ -1587,8 +1587,8 @@ public:
   inline void RemoveCurveDrawCollider(::UnityEngine::Collider* collider);
 
   /// @brief Method RemoveDownstreamConnection, addr 0x3a1dd2c, size 0x58, virtual false, abstract: false, final false
-  inline void
-  RemoveDownstreamConnection(::UnityEngine::Events::UnityAction_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* receiver);
+  inline void RemoveDownstreamConnection(
+      ::UnityEngine::Events::UnityAction_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>* receiver);
 
   /// @brief Method RemoveInputNode, addr 0x3a0fc78, size 0x58, virtual false, abstract: false, final false
   inline void RemoveInputNode(::HoudiniEngineUnity::HEU_InputNode* node);
@@ -2349,8 +2349,8 @@ public:
   /// @brief Method get_WarnedPrefabNotSupported, addr 0x3a14108, size 0x8, virtual false, abstract: false, final false
   inline bool get_WarnedPrefabNotSupported();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_HoudiniAsset__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_HoudiniAsset__() noexcept;
 
   /// @brief Method set_AlwaysOverwriteOnLoad, addr 0x3a140d4, size 0xc, virtual false, abstract: false, final false
   inline void set_AlwaysOverwriteOnLoad(bool value);

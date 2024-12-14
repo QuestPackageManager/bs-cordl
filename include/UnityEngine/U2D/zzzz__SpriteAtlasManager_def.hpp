@@ -44,14 +44,14 @@ public:
   static inline bool RequestAtlas(::StringW tag);
 
   /// @brief Method add_atlasRegistered, addr 0x48bacfc, size 0xd0, virtual false, abstract: false, final false
-  static inline void add_atlasRegistered(::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>* value);
+  static inline void add_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* getStaticF_atlasRegistered();
 
   static inline ::System::Action_2<::StringW, ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>*>* getStaticF_atlasRequested();
 
   /// @brief Method remove_atlasRegistered, addr 0x48badcc, size 0xd0, virtual false, abstract: false, final false
-  static inline void remove_atlasRegistered(::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>* value);
+  static inline void remove_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
   static inline void setStaticF_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
