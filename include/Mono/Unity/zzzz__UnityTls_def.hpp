@@ -388,23 +388,23 @@ public:
 
   /// @brief Nested struct __UnityTls_unitytls_error_code_Unwrapped
   enum struct __UnityTls_unitytls_error_code_Unwrapped : uint32_t {
-    __E_UNITYTLS_SUCCESS = static_cast<uint32_t>(0x3020100u),
-    __E_UNITYTLS_INVALID_ARGUMENT = static_cast<uint32_t>(0x4030201u),
-    __E_UNITYTLS_INVALID_FORMAT = static_cast<uint32_t>(0x5040302u),
-    __E_UNITYTLS_INVALID_PASSWORD = static_cast<uint32_t>(0x6050403u),
-    __E_UNITYTLS_INVALID_STATE = static_cast<uint32_t>(0x7060504u),
-    __E_UNITYTLS_BUFFER_OVERFLOW = static_cast<uint32_t>(0x8070605u),
-    __E_UNITYTLS_OUT_OF_MEMORY = static_cast<uint32_t>(0x9080706u),
-    __E_UNITYTLS_INTERNAL_ERROR = static_cast<uint32_t>(0xa090807u),
-    __E_UNITYTLS_NOT_SUPPORTED = static_cast<uint32_t>(0xc00a0908u),
-    __E_UNITYTLS_ENTROPY_SOURCE_FAILED = static_cast<uint32_t>(0x10c00a09u),
-    __E_UNITYTLS_STREAM_CLOSED = static_cast<uint32_t>(0x10c00au),
-    __E_UNITYTLS_USER_CUSTOM_ERROR_START = static_cast<uint32_t>(0x10c0u),
-    __E_UNITYTLS_USER_WOULD_BLOCK = static_cast<uint32_t>(0x10010c0u),
-    __E_UNITYTLS_USER_READ_FAILED = static_cast<uint32_t>(0x20010c0u),
-    __E_UNITYTLS_USER_WRITE_FAILED = static_cast<uint32_t>(0x30010c0u),
-    __E_UNITYTLS_USER_UNKNOWN_ERROR = static_cast<uint32_t>(0x40010c0u),
-    __E_UNITYTLS_USER_CUSTOM_ERROR_END = static_cast<uint32_t>(0x20c0u),
+    __E_UNITYTLS_SUCCESS = static_cast<uint32_t>(0x0u),
+    __E_UNITYTLS_INVALID_ARGUMENT = static_cast<uint32_t>(0x1u),
+    __E_UNITYTLS_INVALID_FORMAT = static_cast<uint32_t>(0x2u),
+    __E_UNITYTLS_INVALID_PASSWORD = static_cast<uint32_t>(0x3u),
+    __E_UNITYTLS_INVALID_STATE = static_cast<uint32_t>(0x4u),
+    __E_UNITYTLS_BUFFER_OVERFLOW = static_cast<uint32_t>(0x5u),
+    __E_UNITYTLS_OUT_OF_MEMORY = static_cast<uint32_t>(0x6u),
+    __E_UNITYTLS_INTERNAL_ERROR = static_cast<uint32_t>(0x7u),
+    __E_UNITYTLS_NOT_SUPPORTED = static_cast<uint32_t>(0x8u),
+    __E_UNITYTLS_ENTROPY_SOURCE_FAILED = static_cast<uint32_t>(0x9u),
+    __E_UNITYTLS_STREAM_CLOSED = static_cast<uint32_t>(0xau),
+    __E_UNITYTLS_USER_CUSTOM_ERROR_START = static_cast<uint32_t>(0x100000u),
+    __E_UNITYTLS_USER_WOULD_BLOCK = static_cast<uint32_t>(0x100001u),
+    __E_UNITYTLS_USER_READ_FAILED = static_cast<uint32_t>(0x100002u),
+    __E_UNITYTLS_USER_WRITE_FAILED = static_cast<uint32_t>(0x100003u),
+    __E_UNITYTLS_USER_UNKNOWN_ERROR = static_cast<uint32_t>(0x100004u),
+    __E_UNITYTLS_USER_CUSTOM_ERROR_END = static_cast<uint32_t>(0x200000u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -424,55 +424,55 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr UnityTls_unitytls_error_code(uint32_t value__) noexcept;
 
-  /// @brief Field UNITYTLS_BUFFER_OVERFLOW value: U32(134678021)
+  /// @brief Field UNITYTLS_BUFFER_OVERFLOW value: U32(5)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_BUFFER_OVERFLOW;
 
-  /// @brief Field UNITYTLS_ENTROPY_SOURCE_FAILED value: U32(281020937)
+  /// @brief Field UNITYTLS_ENTROPY_SOURCE_FAILED value: U32(9)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_ENTROPY_SOURCE_FAILED;
 
-  /// @brief Field UNITYTLS_INTERNAL_ERROR value: U32(168364039)
+  /// @brief Field UNITYTLS_INTERNAL_ERROR value: U32(7)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_INTERNAL_ERROR;
 
-  /// @brief Field UNITYTLS_INVALID_ARGUMENT value: U32(67305985)
+  /// @brief Field UNITYTLS_INVALID_ARGUMENT value: U32(1)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_INVALID_ARGUMENT;
 
-  /// @brief Field UNITYTLS_INVALID_FORMAT value: U32(84148994)
+  /// @brief Field UNITYTLS_INVALID_FORMAT value: U32(2)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_INVALID_FORMAT;
 
-  /// @brief Field UNITYTLS_INVALID_PASSWORD value: U32(100992003)
+  /// @brief Field UNITYTLS_INVALID_PASSWORD value: U32(3)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_INVALID_PASSWORD;
 
-  /// @brief Field UNITYTLS_INVALID_STATE value: U32(117835012)
+  /// @brief Field UNITYTLS_INVALID_STATE value: U32(4)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_INVALID_STATE;
 
-  /// @brief Field UNITYTLS_NOT_SUPPORTED value: U32(3221883144)
+  /// @brief Field UNITYTLS_NOT_SUPPORTED value: U32(8)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_NOT_SUPPORTED;
 
-  /// @brief Field UNITYTLS_OUT_OF_MEMORY value: U32(151521030)
+  /// @brief Field UNITYTLS_OUT_OF_MEMORY value: U32(6)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_OUT_OF_MEMORY;
 
-  /// @brief Field UNITYTLS_STREAM_CLOSED value: U32(1097738)
+  /// @brief Field UNITYTLS_STREAM_CLOSED value: U32(10)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_STREAM_CLOSED;
 
-  /// @brief Field UNITYTLS_SUCCESS value: U32(50462976)
+  /// @brief Field UNITYTLS_SUCCESS value: U32(0)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_SUCCESS;
 
-  /// @brief Field UNITYTLS_USER_CUSTOM_ERROR_END value: U32(8384)
+  /// @brief Field UNITYTLS_USER_CUSTOM_ERROR_END value: U32(2097152)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_USER_CUSTOM_ERROR_END;
 
-  /// @brief Field UNITYTLS_USER_CUSTOM_ERROR_START value: U32(4288)
+  /// @brief Field UNITYTLS_USER_CUSTOM_ERROR_START value: U32(1048576)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_USER_CUSTOM_ERROR_START;
 
-  /// @brief Field UNITYTLS_USER_READ_FAILED value: U32(33558720)
+  /// @brief Field UNITYTLS_USER_READ_FAILED value: U32(1048578)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_USER_READ_FAILED;
 
-  /// @brief Field UNITYTLS_USER_UNKNOWN_ERROR value: U32(67113152)
+  /// @brief Field UNITYTLS_USER_UNKNOWN_ERROR value: U32(1048580)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_USER_UNKNOWN_ERROR;
 
-  /// @brief Field UNITYTLS_USER_WOULD_BLOCK value: U32(16781504)
+  /// @brief Field UNITYTLS_USER_WOULD_BLOCK value: U32(1048577)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_USER_WOULD_BLOCK;
 
-  /// @brief Field UNITYTLS_USER_WRITE_FAILED value: U32(50335936)
+  /// @brief Field UNITYTLS_USER_WRITE_FAILED value: U32(1048579)
   static ::Mono::Unity::UnityTls_unitytls_error_code const UNITYTLS_USER_WRITE_FAILED;
 
   /// @brief IL2CPP Metadata Type Index
@@ -694,22 +694,22 @@ public:
 
   /// @brief Nested struct __UnityTls_unitytls_x509verify_result_Unwrapped
   enum struct __UnityTls_unitytls_x509verify_result_Unwrapped : uint32_t {
-    __E_UNITYTLS_X509VERIFY_SUCCESS = static_cast<uint32_t>(0xf000u),
-    __E_UNITYTLS_X509VERIFY_NOT_DONE = static_cast<uint32_t>(0xf0u),
-    __E_UNITYTLS_X509VERIFY_FATAL_ERROR = static_cast<uint32_t>(0x40201ffu),
-    __E_UNITYTLS_X509VERIFY_FLAG_EXPIRED = static_cast<uint32_t>(0x8040201u),
-    __E_UNITYTLS_X509VERIFY_FLAG_REVOKED = static_cast<uint32_t>(0xc0080402u),
-    __E_UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH = static_cast<uint32_t>(0x1c00804u),
-    __E_UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED = static_cast<uint32_t>(0x1c008u),
-    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR1 = static_cast<uint32_t>(0x1c0u),
-    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR2 = static_cast<uint32_t>(0x2c0u),
-    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR3 = static_cast<uint32_t>(0x4c0u),
-    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR4 = static_cast<uint32_t>(0x8c0u),
-    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR5 = static_cast<uint32_t>(0x10c0u),
-    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR6 = static_cast<uint32_t>(0x20c0u),
-    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR7 = static_cast<uint32_t>(0x40c0u),
-    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR8 = static_cast<uint32_t>(0x80c0u),
-    __E_UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR = static_cast<uint32_t>(0xc8u),
+    __E_UNITYTLS_X509VERIFY_SUCCESS = static_cast<uint32_t>(0x0u),
+    __E_UNITYTLS_X509VERIFY_NOT_DONE = static_cast<uint32_t>(0x80000000u),
+    __E_UNITYTLS_X509VERIFY_FATAL_ERROR = static_cast<uint32_t>(0xffffffffu),
+    __E_UNITYTLS_X509VERIFY_FLAG_EXPIRED = static_cast<uint32_t>(0x1u),
+    __E_UNITYTLS_X509VERIFY_FLAG_REVOKED = static_cast<uint32_t>(0x2u),
+    __E_UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH = static_cast<uint32_t>(0x4u),
+    __E_UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED = static_cast<uint32_t>(0x8u),
+    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR1 = static_cast<uint32_t>(0x10000u),
+    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR2 = static_cast<uint32_t>(0x20000u),
+    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR3 = static_cast<uint32_t>(0x40000u),
+    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR4 = static_cast<uint32_t>(0x80000u),
+    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR5 = static_cast<uint32_t>(0x100000u),
+    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR6 = static_cast<uint32_t>(0x200000u),
+    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR7 = static_cast<uint32_t>(0x400000u),
+    __E_UNITYTLS_X509VERIFY_FLAG_USER_ERROR8 = static_cast<uint32_t>(0x800000u),
+    __E_UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR = static_cast<uint32_t>(0x8000000u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -729,52 +729,52 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr UnityTls_unitytls_x509verify_result(uint32_t value__) noexcept;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FATAL_ERROR value: U32(67240447)
+  /// @brief Field UNITYTLS_X509VERIFY_FATAL_ERROR value: U32(4294967295)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FATAL_ERROR;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH value: U32(29362180)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH value: U32(4)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_EXPIRED value: U32(134480385)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_EXPIRED value: U32(1)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_EXPIRED;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED value: U32(114696)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED value: U32(8)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_REVOKED value: U32(3221750786)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_REVOKED value: U32(2)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_REVOKED;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR value: U32(200)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR value: U32(134217728)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR1 value: U32(448)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR1 value: U32(65536)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_USER_ERROR1;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR2 value: U32(704)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR2 value: U32(131072)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_USER_ERROR2;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR3 value: U32(1216)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR3 value: U32(262144)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_USER_ERROR3;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR4 value: U32(2240)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR4 value: U32(524288)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_USER_ERROR4;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR5 value: U32(4288)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR5 value: U32(1048576)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_USER_ERROR5;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR6 value: U32(8384)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR6 value: U32(2097152)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_USER_ERROR6;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR7 value: U32(16576)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR7 value: U32(4194304)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_USER_ERROR7;
 
-  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR8 value: U32(32960)
+  /// @brief Field UNITYTLS_X509VERIFY_FLAG_USER_ERROR8 value: U32(8388608)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_FLAG_USER_ERROR8;
 
-  /// @brief Field UNITYTLS_X509VERIFY_NOT_DONE value: U32(240)
+  /// @brief Field UNITYTLS_X509VERIFY_NOT_DONE value: U32(2147483648)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_NOT_DONE;
 
-  /// @brief Field UNITYTLS_X509VERIFY_SUCCESS value: U32(61440)
+  /// @brief Field UNITYTLS_X509VERIFY_SUCCESS value: U32(0)
   static ::Mono::Unity::UnityTls_unitytls_x509verify_result const UNITYTLS_X509VERIFY_SUCCESS;
 
   /// @brief IL2CPP Metadata Type Index
@@ -901,7 +901,7 @@ public:
 
   /// @brief Nested struct __UnityTls_unitytls_ciphersuite_Unwrapped
   enum struct __UnityTls_unitytls_ciphersuite_Unwrapped : uint32_t {
-    __E_UNITYTLS_CIPHERSUITE_INVALID = static_cast<uint32_t>(0xffffffc0u),
+    __E_UNITYTLS_CIPHERSUITE_INVALID = static_cast<uint32_t>(0xffffffu),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -921,7 +921,7 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr UnityTls_unitytls_ciphersuite(uint32_t value__) noexcept;
 
-  /// @brief Field UNITYTLS_CIPHERSUITE_INVALID value: U32(4294967232)
+  /// @brief Field UNITYTLS_CIPHERSUITE_INVALID value: U32(16777215)
   static ::Mono::Unity::UnityTls_unitytls_ciphersuite const UNITYTLS_CIPHERSUITE_INVALID;
 
   /// @brief IL2CPP Metadata Type Index
@@ -952,10 +952,10 @@ public:
 
   /// @brief Nested struct __UnityTls_unitytls_protocol_Unwrapped
   enum struct __UnityTls_unitytls_protocol_Unwrapped : uint32_t {
-    __E_UNITYTLS_PROTOCOL_TLS_1_0 = static_cast<uint32_t>(0x3020100u),
-    __E_UNITYTLS_PROTOCOL_TLS_1_1 = static_cast<uint32_t>(0x50030201u),
-    __E_UNITYTLS_PROTOCOL_TLS_1_2 = static_cast<uint32_t>(0x500302u),
-    __E_UNITYTLS_PROTOCOL_INVALID = static_cast<uint32_t>(0x5003u),
+    __E_UNITYTLS_PROTOCOL_TLS_1_0 = static_cast<uint32_t>(0x0u),
+    __E_UNITYTLS_PROTOCOL_TLS_1_1 = static_cast<uint32_t>(0x1u),
+    __E_UNITYTLS_PROTOCOL_TLS_1_2 = static_cast<uint32_t>(0x2u),
+    __E_UNITYTLS_PROTOCOL_INVALID = static_cast<uint32_t>(0x3u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -975,16 +975,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr UnityTls_unitytls_protocol(uint32_t value__) noexcept;
 
-  /// @brief Field UNITYTLS_PROTOCOL_INVALID value: U32(20483)
+  /// @brief Field UNITYTLS_PROTOCOL_INVALID value: U32(3)
   static ::Mono::Unity::UnityTls_unitytls_protocol const UNITYTLS_PROTOCOL_INVALID;
 
-  /// @brief Field UNITYTLS_PROTOCOL_TLS_1_0 value: U32(50462976)
+  /// @brief Field UNITYTLS_PROTOCOL_TLS_1_0 value: U32(0)
   static ::Mono::Unity::UnityTls_unitytls_protocol const UNITYTLS_PROTOCOL_TLS_1_0;
 
-  /// @brief Field UNITYTLS_PROTOCOL_TLS_1_1 value: U32(1342374401)
+  /// @brief Field UNITYTLS_PROTOCOL_TLS_1_1 value: U32(1)
   static ::Mono::Unity::UnityTls_unitytls_protocol const UNITYTLS_PROTOCOL_TLS_1_1;
 
-  /// @brief Field UNITYTLS_PROTOCOL_TLS_1_2 value: U32(5243650)
+  /// @brief Field UNITYTLS_PROTOCOL_TLS_1_2 value: U32(2)
   static ::Mono::Unity::UnityTls_unitytls_protocol const UNITYTLS_PROTOCOL_TLS_1_2;
 
   /// @brief IL2CPP Metadata Type Index

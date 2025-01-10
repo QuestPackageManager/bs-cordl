@@ -7,9 +7,9 @@ constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE::TEXTURE_DEVICE(uint32_t value__) no
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE::TEXTURE_DEVICE() {}
-constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::UNDEFINED{ static_cast<uint32_t>(0x3020100u) };
-constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::RAW{ static_cast<uint32_t>(0x4030201u) };
-constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::DIRECTX{ static_cast<uint32_t>(0x5040302u) };
-constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::OPENGL{ static_cast<uint32_t>(0x50403u) };
-constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::VULKAN{ static_cast<uint32_t>(0x1000504u) };
-constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::METAL{ static_cast<uint32_t>(0x2010005u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::UNDEFINED{ static_cast<uint32_t>(0x0u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::RAW{ static_cast<uint32_t>(0x1u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::DIRECTX{ static_cast<uint32_t>(0x2u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::OPENGL{ static_cast<uint32_t>(0x3u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::VULKAN{ static_cast<uint32_t>(0x4u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE LIV::SDK::Unity::TEXTURE_DEVICE::METAL{ static_cast<uint32_t>(0x5u) };

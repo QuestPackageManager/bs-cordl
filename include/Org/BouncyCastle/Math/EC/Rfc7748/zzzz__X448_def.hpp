@@ -70,10 +70,10 @@ public:
   X448(X448 const&) = delete;
 
   /// @brief Field C_A offset 0xffffffff size 0x4
-  static constexpr uint32_t C_A{ static_cast<uint32_t>(0xa66202c0u) };
+  static constexpr uint32_t C_A{ static_cast<uint32_t>(0x262a6u) };
 
   /// @brief Field C_A24 offset 0xffffffff size 0x4
-  static constexpr uint32_t C_A24{ static_cast<uint32_t>(0xaa9800c0u) };
+  static constexpr uint32_t C_A24{ static_cast<uint32_t>(0x98aau) };
 
   /// @brief Field PointSize offset 0xffffffff size 0x4
   static constexpr int32_t PointSize{ static_cast<int32_t>(0x38) };

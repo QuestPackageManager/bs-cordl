@@ -123,13 +123,13 @@ public:
   SecP160R1Field(SecP160R1Field const&) = delete;
 
   /// @brief Field P4 offset 0xffffffff size 0x4
-  static constexpr uint32_t P4{ static_cast<uint32_t>(0x1f0ffffu) };
+  static constexpr uint32_t P4{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field PExt9 offset 0xffffffff size 0x4
-  static constexpr uint32_t PExt9{ static_cast<uint32_t>(0x1f0ffu) };
+  static constexpr uint32_t PExt9{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field PInv offset 0xffffffff size 0x4
-  static constexpr uint32_t PInv{ static_cast<uint32_t>(0x1f0u) };
+  static constexpr uint32_t PInv{ static_cast<uint32_t>(0x80000001u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1392 };

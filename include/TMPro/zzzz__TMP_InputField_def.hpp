@@ -2782,7 +2782,7 @@ public:
   static constexpr ::ConstString kEmailSpecialCharacters{ u"!#$%&\'*+-/=?^_`{|}~" };
 
   /// @brief Field kHScrollSpeed offset 0xffffffff size 0x4
-  static constexpr float_t kHScrollSpeed{ static_cast<float_t>(0.1f) };
+  static constexpr float_t kHScrollSpeed{ static_cast<float_t>(0.05f) };
 
   /// @brief Field kVScrollSpeed offset 0xffffffff size 0x4
   static constexpr float_t kVScrollSpeed{ static_cast<float_t>(0.1f) };

@@ -128,10 +128,10 @@ public:
   Curve25519Field(Curve25519Field const&) = delete;
 
   /// @brief Field P7 offset 0xffffffff size 0x4
-  static constexpr uint32_t P7{ static_cast<uint32_t>(0xfffffff0u) };
+  static constexpr uint32_t P7{ static_cast<uint32_t>(0x7fffffffu) };
 
   /// @brief Field PInv offset 0xffffffff size 0x4
-  static constexpr uint32_t PInv{ static_cast<uint32_t>(0xfe100413u) };
+  static constexpr uint32_t PInv{ static_cast<uint32_t>(0x13u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1367 };

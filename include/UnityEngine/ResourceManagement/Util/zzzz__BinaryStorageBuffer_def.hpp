@@ -1067,13 +1067,13 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15617 };
 
   /// @brief Field kClearFlagsMask offset 0xffffffff size 0x4
-  static constexpr uint32_t kClearFlagsMask{ static_cast<uint32_t>(0xfffffff0u) };
+  static constexpr uint32_t kClearFlagsMask{ static_cast<uint32_t>(0x3fffffffu) };
 
   /// @brief Field kDynamicStringFlag offset 0xffffffff size 0x4
-  static constexpr uint32_t kDynamicStringFlag{ static_cast<uint32_t>(0xf0u) };
+  static constexpr uint32_t kDynamicStringFlag{ static_cast<uint32_t>(0x40000000u) };
 
   /// @brief Field kUnicodeStringFlag offset 0xffffffff size 0x4
-  static constexpr uint32_t kUnicodeStringFlag{ static_cast<uint32_t>(0xf0u) };
+  static constexpr uint32_t kUnicodeStringFlag{ static_cast<uint32_t>(0x80000000u) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

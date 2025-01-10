@@ -66,13 +66,13 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17012 };
 
   /// @brief Field kQuaternionSerializableEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t kQuaternionSerializableEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kQuaternionSerializableEpsilon{ static_cast<float_t>(6.103888e-5f) };
 
   /// @brief Field kQuaternionSerializableScaleFactor offset 0xffffffff size 0x4
   static constexpr int32_t kQuaternionSerializableScaleFactor{ static_cast<int32_t>(0x3fff) };
 
   /// @brief Field kVectorSerializableEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t kVectorSerializableEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kVectorSerializableEpsilon{ static_cast<float_t>(0.001f) };
 
   /// @brief Field kVectorSerializableScale offset 0xffffffff size 0x4
   static constexpr float_t kVectorSerializableScale{ static_cast<float_t>(1000.0f) };

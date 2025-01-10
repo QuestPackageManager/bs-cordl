@@ -226,7 +226,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xdc };
 
   /// @brief Field kAxisOffset offset 0xffffffff size 0x4
-  static constexpr uint32_t kAxisOffset{ static_cast<uint32_t>(0x61470e1cu) };
+  static constexpr uint32_t kAxisOffset{ static_cast<uint32_t>(0x1cu) };
 
   /// @brief Field buttons, offset: 0x0, size: 0x1c, def value: None
   ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState__buttons_e__FixedBuffer buttons;

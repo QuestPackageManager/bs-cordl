@@ -506,16 +506,16 @@ public:
   static constexpr ::ConstString k_FacePickerOcclusionTintUniform{ u"_Tint" };
 
   /// @brief Field k_MinEdgePixelsForValidSelection offset 0xffffffff size 0x4
-  static constexpr uint32_t k_MinEdgePixelsForValidSelection{ static_cast<uint32_t>(0x1010101u) };
+  static constexpr uint32_t k_MinEdgePixelsForValidSelection{ static_cast<uint32_t>(0x1u) };
 
   /// @brief Field k_PickerHashMax offset 0xffffffff size 0x4
-  static constexpr uint32_t k_PickerHashMax{ static_cast<uint32_t>(0xffffffc0u) };
+  static constexpr uint32_t k_PickerHashMax{ static_cast<uint32_t>(0xffffffu) };
 
   /// @brief Field k_PickerHashMin offset 0xffffffff size 0x4
-  static constexpr uint32_t k_PickerHashMin{ static_cast<uint32_t>(0xffffc001u) };
+  static constexpr uint32_t k_PickerHashMin{ static_cast<uint32_t>(0x1u) };
 
   /// @brief Field k_PickerHashNone offset 0xffffffff size 0x4
-  static constexpr uint32_t k_PickerHashNone{ static_cast<uint32_t>(0xffc00100u) };
+  static constexpr uint32_t k_PickerHashNone{ static_cast<uint32_t>(0x0u) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

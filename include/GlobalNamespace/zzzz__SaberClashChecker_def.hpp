@@ -111,7 +111,7 @@ public:
   static constexpr float_t kIgnoredTime{ static_cast<float_t>(0.1f) };
 
   /// @brief Field kMinDistanceToClash offset 0xffffffff size 0x4
-  static constexpr float_t kMinDistanceToClash{ static_cast<float_t>(0.1f) };
+  static constexpr float_t kMinDistanceToClash{ static_cast<float_t>(0.08f) };
 
   /// @brief Field _sabersAreClashing, offset: 0x10, size: 0x1, def value: None
   bool ____sabersAreClashing;

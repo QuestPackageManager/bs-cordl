@@ -64,7 +64,7 @@ public:
   static constexpr float_t kNormal{ static_cast<float_t>(1.0f) };
 
   /// @brief Field kSlower offset 0xffffffff size 0x4
-  static constexpr float_t kSlower{ static_cast<float_t>(0.9f) };
+  static constexpr float_t kSlower{ static_cast<float_t>(0.85f) };
 
   /// @brief Field kSuperFast offset 0xffffffff size 0x4
   static constexpr float_t kSuperFast{ static_cast<float_t>(1.5f) };

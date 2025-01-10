@@ -12,23 +12,23 @@ constexpr ::Mono::Unity::UnityTls_unitytls_error_code::UnityTls_unitytls_error_c
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTls_unitytls_error_code::UnityTls_unitytls_error_code() {}
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_SUCCESS{ static_cast<uint32_t>(0x3020100u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_ARGUMENT{ static_cast<uint32_t>(0x4030201u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_FORMAT{ static_cast<uint32_t>(0x5040302u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_PASSWORD{ static_cast<uint32_t>(0x6050403u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_STATE{ static_cast<uint32_t>(0x7060504u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_BUFFER_OVERFLOW{ static_cast<uint32_t>(0x8070605u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_OUT_OF_MEMORY{ static_cast<uint32_t>(0x9080706u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INTERNAL_ERROR{ static_cast<uint32_t>(0xa090807u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_NOT_SUPPORTED{ static_cast<uint32_t>(0xc00a0908u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_ENTROPY_SOURCE_FAILED{ static_cast<uint32_t>(0x10c00a09u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_STREAM_CLOSED{ static_cast<uint32_t>(0x10c00au) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_CUSTOM_ERROR_START{ static_cast<uint32_t>(0x10c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_WOULD_BLOCK{ static_cast<uint32_t>(0x10010c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_READ_FAILED{ static_cast<uint32_t>(0x20010c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_WRITE_FAILED{ static_cast<uint32_t>(0x30010c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_UNKNOWN_ERROR{ static_cast<uint32_t>(0x40010c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_CUSTOM_ERROR_END{ static_cast<uint32_t>(0x20c0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_SUCCESS{ static_cast<uint32_t>(0x0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_ARGUMENT{ static_cast<uint32_t>(0x1u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_FORMAT{ static_cast<uint32_t>(0x2u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_PASSWORD{ static_cast<uint32_t>(0x3u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INVALID_STATE{ static_cast<uint32_t>(0x4u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_BUFFER_OVERFLOW{ static_cast<uint32_t>(0x5u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_OUT_OF_MEMORY{ static_cast<uint32_t>(0x6u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_INTERNAL_ERROR{ static_cast<uint32_t>(0x7u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_NOT_SUPPORTED{ static_cast<uint32_t>(0x8u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_ENTROPY_SOURCE_FAILED{ static_cast<uint32_t>(0x9u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_STREAM_CLOSED{ static_cast<uint32_t>(0xau) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_CUSTOM_ERROR_START{ static_cast<uint32_t>(0x100000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_WOULD_BLOCK{ static_cast<uint32_t>(0x100001u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_READ_FAILED{ static_cast<uint32_t>(0x100002u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_WRITE_FAILED{ static_cast<uint32_t>(0x100003u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_UNKNOWN_ERROR{ static_cast<uint32_t>(0x100004u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_error_code Mono::Unity::UnityTls_unitytls_error_code::UNITYTLS_USER_CUSTOM_ERROR_END{ static_cast<uint32_t>(0x200000u) };
 // Ctor Parameters [CppParam { name: "magic", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "code", ty: "::Mono::Unity::UnityTls_unitytls_error_code", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "reserved", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Mono::Unity::UnityTls_unitytls_errorstate::UnityTls_unitytls_errorstate(uint32_t magic, ::Mono::Unity::UnityTls_unitytls_error_code code, uint64_t reserved) noexcept {
@@ -66,22 +66,22 @@ constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result::UnityTls_unitytls_
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result::UnityTls_unitytls_x509verify_result() {}
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_SUCCESS{ static_cast<uint32_t>(0xf000u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_NOT_DONE{ static_cast<uint32_t>(0xf0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FATAL_ERROR{ static_cast<uint32_t>(0x40201ffu) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_EXPIRED{ static_cast<uint32_t>(0x8040201u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_REVOKED{ static_cast<uint32_t>(0xc0080402u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH{ static_cast<uint32_t>(0x1c00804u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED{ static_cast<uint32_t>(0x1c008u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR1{ static_cast<uint32_t>(0x1c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR2{ static_cast<uint32_t>(0x2c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR3{ static_cast<uint32_t>(0x4c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR4{ static_cast<uint32_t>(0x8c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR5{ static_cast<uint32_t>(0x10c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR6{ static_cast<uint32_t>(0x20c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR7{ static_cast<uint32_t>(0x40c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR8{ static_cast<uint32_t>(0x80c0u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR{ static_cast<uint32_t>(0xc8u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_SUCCESS{ static_cast<uint32_t>(0x0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_NOT_DONE{ static_cast<uint32_t>(0x80000000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FATAL_ERROR{ static_cast<uint32_t>(0xffffffffu) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_EXPIRED{ static_cast<uint32_t>(0x1u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_REVOKED{ static_cast<uint32_t>(0x2u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_CN_MISMATCH{ static_cast<uint32_t>(0x4u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_NOT_TRUSTED{ static_cast<uint32_t>(0x8u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR1{ static_cast<uint32_t>(0x10000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR2{ static_cast<uint32_t>(0x20000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR3{ static_cast<uint32_t>(0x40000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR4{ static_cast<uint32_t>(0x80000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR5{ static_cast<uint32_t>(0x100000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR6{ static_cast<uint32_t>(0x200000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR7{ static_cast<uint32_t>(0x400000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_USER_ERROR8{ static_cast<uint32_t>(0x800000u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTls_unitytls_x509verify_result::UNITYTLS_X509VERIFY_FLAG_UNKNOWN_ERROR{ static_cast<uint32_t>(0x8000000u) };
 //  Writing Method size for method: ::Mono::Unity::UnityTls_unitytls_x509verify_callback._ctor
 template <>
 
@@ -146,17 +146,17 @@ constexpr ::Mono::Unity::UnityTls_unitytls_ciphersuite::UnityTls_unitytls_cipher
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTls_unitytls_ciphersuite::UnityTls_unitytls_ciphersuite() {}
-constexpr ::Mono::Unity::UnityTls_unitytls_ciphersuite Mono::Unity::UnityTls_unitytls_ciphersuite::UNITYTLS_CIPHERSUITE_INVALID{ static_cast<uint32_t>(0xffffffc0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_ciphersuite Mono::Unity::UnityTls_unitytls_ciphersuite::UNITYTLS_CIPHERSUITE_INVALID{ static_cast<uint32_t>(0xffffffu) };
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Mono::Unity::UnityTls_unitytls_protocol::UnityTls_unitytls_protocol(uint32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTls_unitytls_protocol::UnityTls_unitytls_protocol() {}
-constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_0{ static_cast<uint32_t>(0x3020100u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_1{ static_cast<uint32_t>(0x50030201u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_2{ static_cast<uint32_t>(0x500302u) };
-constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_INVALID{ static_cast<uint32_t>(0x5003u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_0{ static_cast<uint32_t>(0x0u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_1{ static_cast<uint32_t>(0x1u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_TLS_1_2{ static_cast<uint32_t>(0x2u) };
+constexpr ::Mono::Unity::UnityTls_unitytls_protocol Mono::Unity::UnityTls_unitytls_protocol::UNITYTLS_PROTOCOL_INVALID{ static_cast<uint32_t>(0x3u) };
 // Ctor Parameters [CppParam { name: "min", ty: "::Mono::Unity::UnityTls_unitytls_protocol", modifiers: "", def_value: Some("{}") }, CppParam { name: "max", ty:
 // "::Mono::Unity::UnityTls_unitytls_protocol", modifiers: "", def_value: Some("{}") }]
 constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange::UnityTls_unitytls_tlsctx_protocolrange(::Mono::Unity::UnityTls_unitytls_protocol min,

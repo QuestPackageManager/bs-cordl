@@ -1126,7 +1126,7 @@ public:
   static constexpr int32_t kIgnoreRaycastLayer{ static_cast<int32_t>(0x4) };
 
   /// @brief Field k_MaxFloatMinusEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t k_MaxFloatMinusEpsilon{ static_cast<float_t>(340282326356119256160033759537265639424.0f) };
+  static constexpr float_t k_MaxFloatMinusEpsilon{ static_cast<float_t>(3.4028233e38f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -541,7 +541,7 @@ public:
   static constexpr float_t kMaxNotesAlignmentAngle{ static_cast<float_t>(40.0f) };
 
   /// @brief Field kTimeRowEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t kTimeRowEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kTimeRowEpsilon{ static_cast<float_t>(0.001f) };
 
   /// @brief Field _currentTimeSliceColorNotes, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<::GlobalNamespace::NoteData*>* ____currentTimeSliceColorNotes;

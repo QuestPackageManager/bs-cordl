@@ -69,7 +69,7 @@ public:
   constexpr SharedStatic_1(::cordl_internals::Ptr<void> _buffer) noexcept;
 
   /// @brief Field DefaultAlignment offset 0xffffffff size 0x4
-  static constexpr uint32_t DefaultAlignment{ static_cast<uint32_t>(0x4020010u) };
+  static constexpr uint32_t DefaultAlignment{ static_cast<uint32_t>(0x10u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14631 };

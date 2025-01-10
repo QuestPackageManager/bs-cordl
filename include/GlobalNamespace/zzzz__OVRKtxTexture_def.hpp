@@ -45,10 +45,10 @@ public:
   OVRKtxTexture(OVRKtxTexture const&) = delete;
 
   /// @brief Field KTX_TTF_ASTC_4x4_RGBA offset 0xffffffff size 0x4
-  static constexpr uint32_t KTX_TTF_ASTC_4x4_RGBA{ static_cast<uint32_t>(0x200400au) };
+  static constexpr uint32_t KTX_TTF_ASTC_4x4_RGBA{ static_cast<uint32_t>(0xau) };
 
   /// @brief Field KTX_TTF_BC7_RGBA offset 0xffffffff size 0x4
-  static constexpr uint32_t KTX_TTF_BC7_RGBA{ static_cast<uint32_t>(0x400a06u) };
+  static constexpr uint32_t KTX_TTF_BC7_RGBA{ static_cast<uint32_t>(0x6u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7937 };

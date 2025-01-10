@@ -88,7 +88,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7034 };
 
   /// @brief Field kMinButtonPressPoint offset 0xffffffff size 0x4
-  static constexpr float_t kMinButtonPressPoint{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kMinButtonPressPoint{ static_cast<float_t>(0.0001f) };
 
   /// @brief Field pressPoint, offset: 0x12c, size: 0x4, def value: None
   float_t ___pressPoint;

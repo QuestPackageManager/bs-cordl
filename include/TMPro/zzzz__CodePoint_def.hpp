@@ -34,64 +34,64 @@ public:
   CodePoint(CodePoint const&) = delete;
 
   /// @brief Field APOSTROPHE offset 0xffffffff size 0x4
-  static constexpr uint32_t APOSTROPHE{ static_cast<uint32_t>(0xc060a027u) };
+  static constexpr uint32_t APOSTROPHE{ static_cast<uint32_t>(0x27u) };
 
   /// @brief Field DOUBLE_QUOTE offset 0xffffffff size 0x4
-  static constexpr uint32_t DOUBLE_QUOTE{ static_cast<uint32_t>(0x2b252322u) };
+  static constexpr uint32_t DOUBLE_QUOTE{ static_cast<uint32_t>(0x22u) };
 
   /// @brief Field HIGH_SURROGATE_END offset 0xffffffff size 0x4
-  static constexpr uint32_t HIGH_SURROGATE_END{ static_cast<uint32_t>(0xffdb00c0u) };
+  static constexpr uint32_t HIGH_SURROGATE_END{ static_cast<uint32_t>(0xdbffu) };
 
   /// @brief Field HIGH_SURROGATE_START offset 0xffffffff size 0x4
-  static constexpr uint32_t HIGH_SURROGATE_START{ static_cast<uint32_t>(0xd800c0u) };
+  static constexpr uint32_t HIGH_SURROGATE_START{ static_cast<uint32_t>(0xd800u) };
 
   /// @brief Field HYPHEN offset 0xffffffff size 0x4
-  static constexpr uint32_t HYPHEN{ static_cast<uint32_t>(0x11a010a0u) };
+  static constexpr uint32_t HYPHEN{ static_cast<uint32_t>(0x2010u) };
 
   /// @brief Field HYPHEN_MINUS offset 0xffffffff size 0x4
-  static constexpr uint32_t HYPHEN_MINUS{ static_cast<uint32_t>(0xa0ad802du) };
+  static constexpr uint32_t HYPHEN_MINUS{ static_cast<uint32_t>(0x2du) };
 
   /// @brief Field LOW_SURROGATE_END offset 0xffffffff size 0x4
-  static constexpr uint32_t LOW_SURROGATE_END{ static_cast<uint32_t>(0xffdf00c0u) };
+  static constexpr uint32_t LOW_SURROGATE_END{ static_cast<uint32_t>(0xdfffu) };
 
   /// @brief Field LOW_SURROGATE_START offset 0xffffffff size 0x4
-  static constexpr uint32_t LOW_SURROGATE_START{ static_cast<uint32_t>(0xdc00c0u) };
+  static constexpr uint32_t LOW_SURROGATE_START{ static_cast<uint32_t>(0xdc00u) };
 
   /// @brief Field MINUS offset 0xffffffff size 0x4
-  static constexpr uint32_t MINUS{ static_cast<uint32_t>(0x802d2e2du) };
+  static constexpr uint32_t MINUS{ static_cast<uint32_t>(0x2du) };
 
   /// @brief Field NON_BREAKING_HYPHEN offset 0xffffffff size 0x4
-  static constexpr uint32_t NON_BREAKING_HYPHEN{ static_cast<uint32_t>(0xba011a0u) };
+  static constexpr uint32_t NON_BREAKING_HYPHEN{ static_cast<uint32_t>(0x2011u) };
 
   /// @brief Field NUMBER_SIGN offset 0xffffffff size 0x4
-  static constexpr uint32_t NUMBER_SIGN{ static_cast<uint32_t>(0x2d2b2523u) };
+  static constexpr uint32_t NUMBER_SIGN{ static_cast<uint32_t>(0x23u) };
 
   /// @brief Field PERCENTAGE offset 0xffffffff size 0x4
-  static constexpr uint32_t PERCENTAGE{ static_cast<uint32_t>(0x2e2d2b25u) };
+  static constexpr uint32_t PERCENTAGE{ static_cast<uint32_t>(0x25u) };
 
   /// @brief Field PERIOD offset 0xffffffff size 0x4
-  static constexpr uint32_t PERIOD{ static_cast<uint32_t>(0xad802d2eu) };
+  static constexpr uint32_t PERIOD{ static_cast<uint32_t>(0x2eu) };
 
   /// @brief Field PLUS offset 0xffffffff size 0x4
-  static constexpr uint32_t PLUS{ static_cast<uint32_t>(0x2d2e2d2bu) };
+  static constexpr uint32_t PLUS{ static_cast<uint32_t>(0x2bu) };
 
   /// @brief Field RIGHT_SINGLE_QUOTATION offset 0xffffffff size 0x4
-  static constexpr uint32_t RIGHT_SINGLE_QUOTATION{ static_cast<uint32_t>(0xa02719a0u) };
+  static constexpr uint32_t RIGHT_SINGLE_QUOTATION{ static_cast<uint32_t>(0x2019u) };
 
   /// @brief Field SOFT_HYPHEN offset 0xffffffff size 0x4
-  static constexpr uint32_t SOFT_HYPHEN{ static_cast<uint32_t>(0x10a0ad80u) };
+  static constexpr uint32_t SOFT_HYPHEN{ static_cast<uint32_t>(0xadu) };
 
   /// @brief Field SPACE offset 0xffffffff size 0x4
-  static constexpr uint32_t SPACE{ static_cast<uint32_t>(0x25232220u) };
+  static constexpr uint32_t SPACE{ static_cast<uint32_t>(0x20u) };
 
   /// @brief Field UNICODE_PLANE01_START offset 0xffffffff size 0x4
-  static constexpr uint32_t UNICODE_PLANE01_START{ static_cast<uint32_t>(0x1c0u) };
+  static constexpr uint32_t UNICODE_PLANE01_START{ static_cast<uint32_t>(0x10000u) };
 
   /// @brief Field WORD_JOINER offset 0xffffffff size 0x4
-  static constexpr uint32_t WORD_JOINER{ static_cast<uint32_t>(0xc060a0u) };
+  static constexpr uint32_t WORD_JOINER{ static_cast<uint32_t>(0x2060u) };
 
   /// @brief Field ZERO_WIDTH_SPACE offset 0xffffffff size 0x4
-  static constexpr uint32_t ZERO_WIDTH_SPACE{ static_cast<uint32_t>(0x19a00ba0u) };
+  static constexpr uint32_t ZERO_WIDTH_SPACE{ static_cast<uint32_t>(0x200bu) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14528 };

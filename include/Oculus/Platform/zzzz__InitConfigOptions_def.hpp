@@ -23,7 +23,7 @@ public:
 
   /// @brief Nested struct __InitConfigOptions_Unwrapped
   enum struct __InitConfigOptions_Unwrapped : uint32_t {
-    __E_DisableP2pNetworking = static_cast<uint32_t>(0xde5ddedcu),
+    __E_DisableP2pNetworking = static_cast<uint32_t>(0x1cde5ddeu),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -43,7 +43,7 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr InitConfigOptions(uint32_t value__) noexcept;
 
-  /// @brief Field DisableP2pNetworking value: U32(3730693852)
+  /// @brief Field DisableP2pNetworking value: U32(484335070)
   static ::Oculus::Platform::InitConfigOptions const DisableP2pNetworking;
 
   /// @brief IL2CPP Metadata Type Index

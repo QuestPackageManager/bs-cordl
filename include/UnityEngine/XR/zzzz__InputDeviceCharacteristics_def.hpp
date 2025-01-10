@@ -23,18 +23,18 @@ public:
 
   /// @brief Nested struct __InputDeviceCharacteristics_Unwrapped
   enum struct __InputDeviceCharacteristics_Unwrapped : uint32_t {
-    __E_None = static_cast<uint32_t>(0x4020100u),
-    __E_HeadMounted = static_cast<uint32_t>(0x8040201u),
-    __E_Camera = static_cast<uint32_t>(0x10080402u),
-    __E_HeldInHand = static_cast<uint32_t>(0x20100804u),
-    __E_HandTracking = static_cast<uint32_t>(0x40201008u),
-    __E_EyeTracking = static_cast<uint32_t>(0x80402010u),
-    __E_TrackedDevice = static_cast<uint32_t>(0x80804020u),
-    __E_Controller = static_cast<uint32_t>(0x81808040u),
-    __E_TrackingReference = static_cast<uint32_t>(0x818080u),
-    __E_Left = static_cast<uint32_t>(0x820081u),
-    __E_Right = static_cast<uint32_t>(0x840082u),
-    __E_Simulated6DOF = static_cast<uint32_t>(0x1000084u),
+    __E_None = static_cast<uint32_t>(0x0u),
+    __E_HeadMounted = static_cast<uint32_t>(0x1u),
+    __E_Camera = static_cast<uint32_t>(0x2u),
+    __E_HeldInHand = static_cast<uint32_t>(0x4u),
+    __E_HandTracking = static_cast<uint32_t>(0x8u),
+    __E_EyeTracking = static_cast<uint32_t>(0x10u),
+    __E_TrackedDevice = static_cast<uint32_t>(0x20u),
+    __E_Controller = static_cast<uint32_t>(0x40u),
+    __E_TrackingReference = static_cast<uint32_t>(0x80u),
+    __E_Left = static_cast<uint32_t>(0x100u),
+    __E_Right = static_cast<uint32_t>(0x200u),
+    __E_Simulated6DOF = static_cast<uint32_t>(0x400u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -54,40 +54,40 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr InputDeviceCharacteristics(uint32_t value__) noexcept;
 
-  /// @brief Field Camera value: U32(268960770)
+  /// @brief Field Camera value: U32(2)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Camera;
 
-  /// @brief Field Controller value: U32(2172682304)
+  /// @brief Field Controller value: U32(64)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Controller;
 
-  /// @brief Field EyeTracking value: U32(2151686160)
+  /// @brief Field EyeTracking value: U32(16)
   static ::UnityEngine::XR::InputDeviceCharacteristics const EyeTracking;
 
-  /// @brief Field HandTracking value: U32(1075843080)
+  /// @brief Field HandTracking value: U32(8)
   static ::UnityEngine::XR::InputDeviceCharacteristics const HandTracking;
 
-  /// @brief Field HeadMounted value: U32(134480385)
+  /// @brief Field HeadMounted value: U32(1)
   static ::UnityEngine::XR::InputDeviceCharacteristics const HeadMounted;
 
-  /// @brief Field HeldInHand value: U32(537921540)
+  /// @brief Field HeldInHand value: U32(4)
   static ::UnityEngine::XR::InputDeviceCharacteristics const HeldInHand;
 
-  /// @brief Field Left value: U32(8519809)
+  /// @brief Field Left value: U32(256)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Left;
 
-  /// @brief Field None value: U32(67240192)
+  /// @brief Field None value: U32(0)
   static ::UnityEngine::XR::InputDeviceCharacteristics const None;
 
-  /// @brief Field Right value: U32(8650882)
+  /// @brief Field Right value: U32(512)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Right;
 
-  /// @brief Field Simulated6DOF value: U32(16777348)
+  /// @brief Field Simulated6DOF value: U32(1024)
   static ::UnityEngine::XR::InputDeviceCharacteristics const Simulated6DOF;
 
-  /// @brief Field TrackedDevice value: U32(2155888672)
+  /// @brief Field TrackedDevice value: U32(32)
   static ::UnityEngine::XR::InputDeviceCharacteristics const TrackedDevice;
 
-  /// @brief Field TrackingReference value: U32(8487040)
+  /// @brief Field TrackingReference value: U32(128)
   static ::UnityEngine::XR::InputDeviceCharacteristics const TrackingReference;
 
   /// @brief IL2CPP Metadata Type Index

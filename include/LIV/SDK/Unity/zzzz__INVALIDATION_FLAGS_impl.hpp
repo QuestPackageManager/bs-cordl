@@ -7,8 +7,8 @@ constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS::INVALIDATION_FLAGS(uint32_t val
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS::INVALIDATION_FLAGS() {}
-constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::NONE{ static_cast<uint32_t>(0x4020100u) };
-constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::HMD_CAMERA{ static_cast<uint32_t>(0x8040201u) };
-constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::STAGE{ static_cast<uint32_t>(0x80402u) };
-constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::MR_CAMERA_PREFAB{ static_cast<uint32_t>(0x804u) };
-constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::EXCLUDE_BEHAVIOURS{ static_cast<uint32_t>(0x70000008u) };
+constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::NONE{ static_cast<uint32_t>(0x0u) };
+constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::HMD_CAMERA{ static_cast<uint32_t>(0x1u) };
+constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::STAGE{ static_cast<uint32_t>(0x2u) };
+constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::MR_CAMERA_PREFAB{ static_cast<uint32_t>(0x4u) };
+constexpr ::LIV::SDK::Unity::INVALIDATION_FLAGS LIV::SDK::Unity::INVALIDATION_FLAGS::EXCLUDE_BEHAVIOURS{ static_cast<uint32_t>(0x8u) };

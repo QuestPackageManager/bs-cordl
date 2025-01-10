@@ -216,19 +216,19 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 823 };
 
   /// @brief Field m1 offset 0xffffffff size 0x4
-  static constexpr uint32_t m1{ static_cast<uint32_t>(0x808080f0u) };
+  static constexpr uint32_t m1{ static_cast<uint32_t>(0x80808080u) };
 
   /// @brief Field m2 offset 0xffffffff size 0x4
-  static constexpr uint32_t m2{ static_cast<uint32_t>(0x7f7f7ff0u) };
+  static constexpr uint32_t m2{ static_cast<uint32_t>(0x7f7f7f7fu) };
 
   /// @brief Field m3 offset 0xffffffff size 0x4
-  static constexpr uint32_t m3{ static_cast<uint32_t>(0xc0c0f01bu) };
+  static constexpr uint32_t m3{ static_cast<uint32_t>(0x1bu) };
 
   /// @brief Field m4 offset 0xffffffff size 0x4
-  static constexpr uint32_t m4{ static_cast<uint32_t>(0xc0c0c0f0u) };
+  static constexpr uint32_t m4{ static_cast<uint32_t>(0xc0c0c0c0u) };
 
   /// @brief Field m5 offset 0xffffffff size 0x4
-  static constexpr uint32_t m5{ static_cast<uint32_t>(0x3f3f3ff0u) };
+  static constexpr uint32_t m5{ static_cast<uint32_t>(0x3f3f3f3fu) };
 
   /// @brief Field ROUNDS, offset: 0x10, size: 0x4, def value: None
   int32_t ___ROUNDS;

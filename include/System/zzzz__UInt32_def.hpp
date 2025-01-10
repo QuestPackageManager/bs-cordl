@@ -191,10 +191,10 @@ public:
   constexpr UInt32(uint32_t m_value) noexcept;
 
   /// @brief Field MaxValue offset 0xffffffff size 0x4
-  static constexpr uint32_t MaxValue{ static_cast<uint32_t>(0xffff00ffu) };
+  static constexpr uint32_t MaxValue{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field MinValue offset 0xffffffff size 0x4
-  static constexpr uint32_t MinValue{ static_cast<uint32_t>(0xffffff00u) };
+  static constexpr uint32_t MinValue{ static_cast<uint32_t>(0x0u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2498 };

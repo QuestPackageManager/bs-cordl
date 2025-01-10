@@ -125,7 +125,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15865 };
 
   /// @brief Field kUnsetTime offset 0xffffffff size 0x4
-  static constexpr float_t kUnsetTime{ static_cast<float_t>(340282346638528859811704183484516925440.0f) };
+  static constexpr float_t kUnsetTime{ static_cast<float_t>(3.4028235e38f) };
 
   /// @brief Field m_LastPlayableTime, offset: 0x10, size: 0x4, def value: None
   float_t ___m_LastPlayableTime;

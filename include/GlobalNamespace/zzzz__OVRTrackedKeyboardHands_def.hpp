@@ -544,10 +544,10 @@ public:
   OVRTrackedKeyboardHands(OVRTrackedKeyboardHands const&) = delete;
 
   /// @brief Field FORWARD_OFFSET offset 0xffffffff size 0x4
-  static constexpr float_t FORWARD_OFFSET{ static_cast<float_t>(-0.0f) };
+  static constexpr float_t FORWARD_OFFSET{ static_cast<float_t>(-0.02f) };
 
   /// @brief Field XSCALE offset 0xffffffff size 0x4
-  static constexpr float_t XSCALE{ static_cast<float_t>(0.7f) };
+  static constexpr float_t XSCALE{ static_cast<float_t>(0.73f) };
 
   /// @brief Field YSCALE offset 0xffffffff size 0x4
   static constexpr float_t YSCALE{ static_cast<float_t>(0.8f) };

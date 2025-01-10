@@ -23,12 +23,12 @@ public:
 
   /// @brief Nested struct __TEXTURE_DEVICE_Unwrapped
   enum struct __TEXTURE_DEVICE_Unwrapped : uint32_t {
-    __E_UNDEFINED = static_cast<uint32_t>(0x3020100u),
-    __E_RAW = static_cast<uint32_t>(0x4030201u),
-    __E_DIRECTX = static_cast<uint32_t>(0x5040302u),
-    __E_OPENGL = static_cast<uint32_t>(0x50403u),
-    __E_VULKAN = static_cast<uint32_t>(0x1000504u),
-    __E_METAL = static_cast<uint32_t>(0x2010005u),
+    __E_UNDEFINED = static_cast<uint32_t>(0x0u),
+    __E_RAW = static_cast<uint32_t>(0x1u),
+    __E_DIRECTX = static_cast<uint32_t>(0x2u),
+    __E_OPENGL = static_cast<uint32_t>(0x3u),
+    __E_VULKAN = static_cast<uint32_t>(0x4u),
+    __E_METAL = static_cast<uint32_t>(0x5u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -48,22 +48,22 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr TEXTURE_DEVICE(uint32_t value__) noexcept;
 
-  /// @brief Field DIRECTX value: U32(84148994)
+  /// @brief Field DIRECTX value: U32(2)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const DIRECTX;
 
-  /// @brief Field METAL value: U32(33619973)
+  /// @brief Field METAL value: U32(5)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const METAL;
 
-  /// @brief Field OPENGL value: U32(328707)
+  /// @brief Field OPENGL value: U32(3)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const OPENGL;
 
-  /// @brief Field RAW value: U32(67305985)
+  /// @brief Field RAW value: U32(1)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const RAW;
 
-  /// @brief Field UNDEFINED value: U32(50462976)
+  /// @brief Field UNDEFINED value: U32(0)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const UNDEFINED;
 
-  /// @brief Field VULKAN value: U32(16778500)
+  /// @brief Field VULKAN value: U32(4)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const VULKAN;
 
   /// @brief IL2CPP Metadata Type Index

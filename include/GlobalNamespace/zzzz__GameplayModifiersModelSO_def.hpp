@@ -540,7 +540,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12858 };
 
   /// @brief Field kMaxPossibleMultiplier offset 0xffffffff size 0x4
-  static constexpr float_t kMaxPossibleMultiplier{ static_cast<float_t>(1.2f) };
+  static constexpr float_t kMaxPossibleMultiplier{ static_cast<float_t>(1.21f) };
 
   /// @brief Field _batteryEnergy, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____batteryEnergy;

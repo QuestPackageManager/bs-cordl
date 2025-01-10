@@ -85,7 +85,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5218 };
 
   /// @brief Field kPauseButtonPressDuration offset 0xffffffff size 0x4
-  static constexpr float_t kPauseButtonPressDuration{ static_cast<float_t>(0.8f) };
+  static constexpr float_t kPauseButtonPressDuration{ static_cast<float_t>(0.75f) };
 
   /// @brief Field _screenCaptureAfterDelayPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> ____screenCaptureAfterDelayPrefab;

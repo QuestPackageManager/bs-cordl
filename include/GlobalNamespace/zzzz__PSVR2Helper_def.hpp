@@ -743,7 +743,7 @@ public:
   static constexpr ::ConstString kRightControllerName{ u"PSVR2ControllerRight" };
 
   /// @brief Field kRumbleMinimalDuration offset 0xffffffff size 0x4
-  static constexpr float_t kRumbleMinimalDuration{ static_cast<float_t>(0.1f) };
+  static constexpr float_t kRumbleMinimalDuration{ static_cast<float_t>(0.05f) };
 
   /// @brief Field _leftController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::UnityXRController_Configuration* ____leftController;

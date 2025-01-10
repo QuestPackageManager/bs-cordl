@@ -315,16 +315,16 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14252 };
 
   /// @brief Field handleEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t handleEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t handleEpsilon{ static_cast<float_t>(0.0001f) };
 
   /// @brief Field k_FltCompareEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t k_FltCompareEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t k_FltCompareEpsilon{ static_cast<float_t>(0.0001f) };
 
   /// @brief Field k_FltEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t k_FltEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t k_FltEpsilon{ static_cast<float_t>(1e-45f) };
 
   /// @brief Field phi offset 0xffffffff size 0x4
-  static constexpr float_t phi{ static_cast<float_t>(1.6f) };
+  static constexpr float_t phi{ static_cast<float_t>(1.618034f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

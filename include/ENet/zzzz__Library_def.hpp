@@ -61,40 +61,40 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17748 };
 
   /// @brief Field maxChannelCount offset 0xffffffff size 0x4
-  static constexpr uint32_t maxChannelCount{ static_cast<uint32_t>(0xff8fff80u) };
+  static constexpr uint32_t maxChannelCount{ static_cast<uint32_t>(0xffu) };
 
   /// @brief Field maxPacketSize offset 0xffffffff size 0x4
-  static constexpr uint32_t maxPacketSize{ static_cast<uint32_t>(0xc2u) };
+  static constexpr uint32_t maxPacketSize{ static_cast<uint32_t>(0x2000000u) };
 
   /// @brief Field maxPeers offset 0xffffffff size 0x4
-  static constexpr uint32_t maxPeers{ static_cast<uint32_t>(0xc2ff8fu) };
+  static constexpr uint32_t maxPeers{ static_cast<uint32_t>(0xfffu) };
 
   /// @brief Field throttleAcceleration offset 0xffffffff size 0x4
-  static constexpr uint32_t throttleAcceleration{ static_cast<uint32_t>(0x88930202u) };
+  static constexpr uint32_t throttleAcceleration{ static_cast<uint32_t>(0x2u) };
 
   /// @brief Field throttleDeceleration offset 0xffffffff size 0x4
-  static constexpr uint32_t throttleDeceleration{ static_cast<uint32_t>(0x20889302u) };
+  static constexpr uint32_t throttleDeceleration{ static_cast<uint32_t>(0x2u) };
 
   /// @brief Field throttleInterval offset 0xffffffff size 0x4
-  static constexpr uint32_t throttleInterval{ static_cast<uint32_t>(0x93208893u) };
+  static constexpr uint32_t throttleInterval{ static_cast<uint32_t>(0x1388u) };
 
   /// @brief Field throttleScale offset 0xffffffff size 0x4
-  static constexpr uint32_t throttleScale{ static_cast<uint32_t>(0x93020220u) };
+  static constexpr uint32_t throttleScale{ static_cast<uint32_t>(0x20u) };
 
   /// @brief Field throttleThreshold offset 0xffffffff size 0x4
-  static constexpr uint32_t throttleThreshold{ static_cast<uint32_t>(0x2022028u) };
+  static constexpr uint32_t throttleThreshold{ static_cast<uint32_t>(0x28u) };
 
   /// @brief Field timeoutLimit offset 0xffffffff size 0x4
-  static constexpr uint32_t timeoutLimit{ static_cast<uint32_t>(0xc0889320u) };
+  static constexpr uint32_t timeoutLimit{ static_cast<uint32_t>(0x20u) };
 
   /// @brief Field timeoutMaximum offset 0xffffffff size 0x4
-  static constexpr uint32_t timeoutMaximum{ static_cast<uint32_t>(0x307500c0u) };
+  static constexpr uint32_t timeoutMaximum{ static_cast<uint32_t>(0x7530u) };
 
   /// @brief Field timeoutMinimum offset 0xffffffff size 0x4
-  static constexpr uint32_t timeoutMinimum{ static_cast<uint32_t>(0xc08893u) };
+  static constexpr uint32_t timeoutMinimum{ static_cast<uint32_t>(0x1388u) };
 
   /// @brief Field version offset 0xffffffff size 0x4
-  static constexpr uint32_t version{ static_cast<uint32_t>(0x70402c0u) };
+  static constexpr uint32_t version{ static_cast<uint32_t>(0x20407u) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

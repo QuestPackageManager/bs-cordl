@@ -113,16 +113,16 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
   /// @brief Field kInvScale offset 0xffffffff size 0x4
-  static constexpr float_t kInvScale{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kInvScale{ static_cast<float_t>(8.632201e-5f) };
 
   /// @brief Field kOneOverSqrtTwo offset 0xffffffff size 0x4
-  static constexpr float_t kOneOverSqrtTwo{ static_cast<float_t>(0.7f) };
+  static constexpr float_t kOneOverSqrtTwo{ static_cast<float_t>(0.70710677f) };
 
   /// @brief Field kScale offset 0xffffffff size 0x4
-  static constexpr float_t kScale{ static_cast<float_t>(11584.5f) };
+  static constexpr float_t kScale{ static_cast<float_t>(11584.53f) };
 
   /// @brief Field kSqrtTwo offset 0xffffffff size 0x4
-  static constexpr float_t kSqrtTwo{ static_cast<float_t>(1.4f) };
+  static constexpr float_t kSqrtTwo{ static_cast<float_t>(1.4142135f) };
 
   /// @brief Field _a, offset: 0x0, size: 0x4, def value: None
   int32_t _a;

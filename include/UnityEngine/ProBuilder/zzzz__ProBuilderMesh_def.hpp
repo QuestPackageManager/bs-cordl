@@ -1418,7 +1418,7 @@ public:
   static constexpr uint16_t k_UnitializedVersionIndex{ static_cast<uint16_t>(0x0u) };
 
   /// @brief Field maxVertexCount offset 0xffffffff size 0x4
-  static constexpr uint32_t maxVertexCount{ static_cast<uint32_t>(0xffff00c0u) };
+  static constexpr uint32_t maxVertexCount{ static_cast<uint32_t>(0xffffu) };
 
   /// @brief Field m_MeshFormatVersion, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_MeshFormatVersion;

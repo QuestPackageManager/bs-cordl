@@ -23,9 +23,9 @@ public:
 
   /// @brief Nested struct __ConnectionChangeType_Unwrapped
   enum struct __ConnectionChangeType_Unwrapped : uint32_t {
-    __E_Connected = static_cast<uint32_t>(0x20100u),
-    __E_Disconnected = static_cast<uint32_t>(0x1000201u),
-    __E_ConfigChange = static_cast<uint32_t>(0x2010002u),
+    __E_Connected = static_cast<uint32_t>(0x0u),
+    __E_Disconnected = static_cast<uint32_t>(0x1u),
+    __E_ConfigChange = static_cast<uint32_t>(0x2u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -45,13 +45,13 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr ConnectionChangeType(uint32_t value__) noexcept;
 
-  /// @brief Field ConfigChange value: U32(33619970)
+  /// @brief Field ConfigChange value: U32(2)
   static ::UnityEngine::XR::ConnectionChangeType const ConfigChange;
 
-  /// @brief Field Connected value: U32(131328)
+  /// @brief Field Connected value: U32(0)
   static ::UnityEngine::XR::ConnectionChangeType const Connected;
 
-  /// @brief Field Disconnected value: U32(16777729)
+  /// @brief Field Disconnected value: U32(1)
   static ::UnityEngine::XR::ConnectionChangeType const Disconnected;
 
   /// @brief IL2CPP Metadata Type Index

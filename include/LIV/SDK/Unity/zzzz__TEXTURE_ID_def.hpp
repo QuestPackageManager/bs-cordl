@@ -23,10 +23,10 @@ public:
 
   /// @brief Nested struct __TEXTURE_ID_Unwrapped
   enum struct __TEXTURE_ID_Unwrapped : uint32_t {
-    __E_UNDEFINED = static_cast<uint32_t>(0x1e140a00u),
-    __E_BACKGROUND_COLOR_BUFFER_ID = static_cast<uint32_t>(0x1e140au),
-    __E_FOREGROUND_COLOR_BUFFER_ID = static_cast<uint32_t>(0x1001e14u),
-    __E_OPTIMIZED_COLOR_BUFFER_ID = static_cast<uint32_t>(0x1001eu),
+    __E_UNDEFINED = static_cast<uint32_t>(0x0u),
+    __E_BACKGROUND_COLOR_BUFFER_ID = static_cast<uint32_t>(0xau),
+    __E_FOREGROUND_COLOR_BUFFER_ID = static_cast<uint32_t>(0x14u),
+    __E_OPTIMIZED_COLOR_BUFFER_ID = static_cast<uint32_t>(0x1eu),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -46,16 +46,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr TEXTURE_ID(uint32_t value__) noexcept;
 
-  /// @brief Field BACKGROUND_COLOR_BUFFER_ID value: U32(1971210)
+  /// @brief Field BACKGROUND_COLOR_BUFFER_ID value: U32(10)
   static ::LIV::SDK::Unity::TEXTURE_ID const BACKGROUND_COLOR_BUFFER_ID;
 
-  /// @brief Field FOREGROUND_COLOR_BUFFER_ID value: U32(16784916)
+  /// @brief Field FOREGROUND_COLOR_BUFFER_ID value: U32(20)
   static ::LIV::SDK::Unity::TEXTURE_ID const FOREGROUND_COLOR_BUFFER_ID;
 
-  /// @brief Field OPTIMIZED_COLOR_BUFFER_ID value: U32(65566)
+  /// @brief Field OPTIMIZED_COLOR_BUFFER_ID value: U32(30)
   static ::LIV::SDK::Unity::TEXTURE_ID const OPTIMIZED_COLOR_BUFFER_ID;
 
-  /// @brief Field UNDEFINED value: U32(504629760)
+  /// @brief Field UNDEFINED value: U32(0)
   static ::LIV::SDK::Unity::TEXTURE_ID const UNDEFINED;
 
   /// @brief IL2CPP Metadata Type Index

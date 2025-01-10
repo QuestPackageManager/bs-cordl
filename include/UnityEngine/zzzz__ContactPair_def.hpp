@@ -134,7 +134,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field c_InvalidFaceIndex offset 0xffffffff size 0x4
-  static constexpr uint32_t c_InvalidFaceIndex{ static_cast<uint32_t>(0x20001ffu) };
+  static constexpr uint32_t c_InvalidFaceIndex{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field m_ColliderID, offset: 0x0, size: 0x4, def value: None
   int32_t m_ColliderID;

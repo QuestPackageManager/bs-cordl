@@ -23,14 +23,14 @@ public:
 
   /// @brief Nested struct __InputTrackingState_Unwrapped
   enum struct __InputTrackingState_Unwrapped : uint32_t {
-    __E_None = static_cast<uint32_t>(0x4020100u),
-    __E_Position = static_cast<uint32_t>(0x8040201u),
-    __E_Rotation = static_cast<uint32_t>(0x10080402u),
-    __E_Velocity = static_cast<uint32_t>(0x20100804u),
-    __E_AngularVelocity = static_cast<uint32_t>(0x3f201008u),
-    __E_Acceleration = static_cast<uint32_t>(0x3f2010u),
-    __E_AngularAcceleration = static_cast<uint32_t>(0x3f20u),
-    __E_All = static_cast<uint32_t>(0x8000003fu),
+    __E_None = static_cast<uint32_t>(0x0u),
+    __E_Position = static_cast<uint32_t>(0x1u),
+    __E_Rotation = static_cast<uint32_t>(0x2u),
+    __E_Velocity = static_cast<uint32_t>(0x4u),
+    __E_AngularVelocity = static_cast<uint32_t>(0x8u),
+    __E_Acceleration = static_cast<uint32_t>(0x10u),
+    __E_AngularAcceleration = static_cast<uint32_t>(0x20u),
+    __E_All = static_cast<uint32_t>(0x3fu),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -50,28 +50,28 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr InputTrackingState(uint32_t value__) noexcept;
 
-  /// @brief Field Acceleration value: U32(4136976)
+  /// @brief Field Acceleration value: U32(16)
   static ::UnityEngine::XR::InputTrackingState const Acceleration;
 
-  /// @brief Field All value: U32(2147483711)
+  /// @brief Field All value: U32(63)
   static ::UnityEngine::XR::InputTrackingState const All;
 
-  /// @brief Field AngularAcceleration value: U32(16160)
+  /// @brief Field AngularAcceleration value: U32(32)
   static ::UnityEngine::XR::InputTrackingState const AngularAcceleration;
 
-  /// @brief Field AngularVelocity value: U32(1059065864)
+  /// @brief Field AngularVelocity value: U32(8)
   static ::UnityEngine::XR::InputTrackingState const AngularVelocity;
 
-  /// @brief Field None value: U32(67240192)
+  /// @brief Field None value: U32(0)
   static ::UnityEngine::XR::InputTrackingState const None;
 
-  /// @brief Field Position value: U32(134480385)
+  /// @brief Field Position value: U32(1)
   static ::UnityEngine::XR::InputTrackingState const Position;
 
-  /// @brief Field Rotation value: U32(268960770)
+  /// @brief Field Rotation value: U32(2)
   static ::UnityEngine::XR::InputTrackingState const Rotation;
 
-  /// @brief Field Velocity value: U32(537921540)
+  /// @brief Field Velocity value: U32(4)
   static ::UnityEngine::XR::InputTrackingState const Velocity;
 
   /// @brief IL2CPP Metadata Type Index

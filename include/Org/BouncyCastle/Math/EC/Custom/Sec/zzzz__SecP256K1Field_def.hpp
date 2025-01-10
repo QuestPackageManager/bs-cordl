@@ -123,13 +123,13 @@ public:
   SecP256K1Field(SecP256K1Field const&) = delete;
 
   /// @brief Field P7 offset 0xffffffff size 0x4
-  static constexpr uint32_t P7{ static_cast<uint32_t>(0xd183ffffu) };
+  static constexpr uint32_t P7{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field PExt15 offset 0xffffffff size 0x4
-  static constexpr uint32_t PExt15{ static_cast<uint32_t>(0x4d183ffu) };
+  static constexpr uint32_t PExt15{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field PInv33 offset 0xffffffff size 0x4
-  static constexpr uint32_t PInv33{ static_cast<uint32_t>(0x1004d183u) };
+  static constexpr uint32_t PInv33{ static_cast<uint32_t>(0x3d1u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1422 };

@@ -166,7 +166,7 @@ public:
   static constexpr float_t COLLISION_BOUNDS_ADDED_BLEED_PERCENT{ static_cast<float_t>(0.1f) };
 
   /// @brief Field LINEPOINTER_THINNING_THRESHOLD offset 0xffffffff size 0x4
-  static constexpr float_t LINEPOINTER_THINNING_THRESHOLD{ static_cast<float_t>(0.0f) };
+  static constexpr float_t LINEPOINTER_THINNING_THRESHOLD{ static_cast<float_t>(0.015f) };
 
   /// @brief Field RAY_MAX_DISTANCE offset 0xffffffff size 0x4
   static constexpr float_t RAY_MAX_DISTANCE{ static_cast<float_t>(100.0f) };

@@ -1413,13 +1413,13 @@ public:
   static constexpr char16_t kHeaderChar{ u'v' };
 
   /// @brief Field kRecorderVersion offset 0xffffffff size 0x4
-  static constexpr uint32_t kRecorderVersion{ static_cast<uint32_t>(0x7601u) };
+  static constexpr uint32_t kRecorderVersion{ static_cast<uint32_t>(0x1u) };
 
   /// @brief Field kSavedDataRecorderVersion offset 0xffffffff size 0x4
-  static constexpr uint32_t kSavedDataRecorderVersion{ static_cast<uint32_t>(0x76010100u) };
+  static constexpr uint32_t kSavedDataRecorderVersion{ static_cast<uint32_t>(0x0u) };
 
   /// @brief Field kSavedDataWithOffsetRecorderVersion offset 0xffffffff size 0x4
-  static constexpr uint32_t kSavedDataWithOffsetRecorderVersion{ static_cast<uint32_t>(0x760101u) };
+  static constexpr uint32_t kSavedDataWithOffsetRecorderVersion{ static_cast<uint32_t>(0x1u) };
 
   /// @brief Field _recordingTextAsset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ____recordingTextAsset;

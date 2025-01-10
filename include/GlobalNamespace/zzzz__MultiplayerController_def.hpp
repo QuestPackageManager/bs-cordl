@@ -827,7 +827,7 @@ public:
   static constexpr float_t kGetMultiplayerGameStateTimeoutSeconds{ static_cast<float_t>(20.0f) };
 
   /// @brief Field kMinAnimationDurationPercentage offset 0xffffffff size 0x4
-  static constexpr float_t kMinAnimationDurationPercentage{ static_cast<float_t>(0.8f) };
+  static constexpr float_t kMinAnimationDurationPercentage{ static_cast<float_t>(0.75f) };
 
   /// @brief Field kSongTimeToSongStartSyncTimeOffsetMs offset 0xffffffff size 0x8
   static constexpr int64_t kSongTimeToSongStartSyncTimeOffsetMs{ static_cast<int64_t>(0xfffffffffffffda8) };

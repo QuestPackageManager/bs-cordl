@@ -249,7 +249,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18665 };
 
   /// @brief Field kEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t kEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kEpsilon{ static_cast<float_t>(0.001f) };
 
   /// @brief Field onStart, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___onStart;

@@ -514,7 +514,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4439 };
 
   /// @brief Field kChangeStateDelay offset 0xffffffff size 0x4
-  static constexpr float_t kChangeStateDelay{ static_cast<float_t>(0.1f) };
+  static constexpr float_t kChangeStateDelay{ static_cast<float_t>(0.05f) };
 
   /// @brief Field _pauseMenuManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PauseMenuManager> ____pauseMenuManager;

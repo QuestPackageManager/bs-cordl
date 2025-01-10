@@ -171,7 +171,7 @@ public:
   static constexpr float_t kRotationStep{ static_cast<float_t>(5.0f) };
 
   /// @brief Field kVerticalMoveStep offset 0xffffffff size 0x4
-  static constexpr float_t kVerticalMoveStep{ static_cast<float_t>(0.1f) };
+  static constexpr float_t kVerticalMoveStep{ static_cast<float_t>(0.05f) };
 
   /// @brief Field _xStepValuePicker, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____xStepValuePicker;

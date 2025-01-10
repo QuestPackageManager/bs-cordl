@@ -468,7 +468,7 @@ public:
   OVRNetwork(OVRNetwork const&) = delete;
 
   /// @brief Field FrameHeaderMagicIdentifier offset 0xffffffff size 0x4
-  static constexpr uint32_t FrameHeaderMagicIdentifier{ static_cast<uint32_t>(0x83a76bf0u) };
+  static constexpr uint32_t FrameHeaderMagicIdentifier{ static_cast<uint32_t>(0x5283a76bu) };
 
   /// @brief Field MaxBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t MaxBufferLength{ static_cast<int32_t>(0x10000) };

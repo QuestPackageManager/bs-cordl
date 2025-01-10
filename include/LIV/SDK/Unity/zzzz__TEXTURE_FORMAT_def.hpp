@@ -23,8 +23,8 @@ public:
 
   /// @brief Nested struct __TEXTURE_FORMAT_Unwrapped
   enum struct __TEXTURE_FORMAT_Unwrapped : uint32_t {
-    __E_UNDEFINED = static_cast<uint32_t>(0x1000a00u),
-    __E_ARGB32 = static_cast<uint32_t>(0x201000au),
+    __E_UNDEFINED = static_cast<uint32_t>(0x0u),
+    __E_ARGB32 = static_cast<uint32_t>(0xau),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -44,10 +44,10 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr TEXTURE_FORMAT(uint32_t value__) noexcept;
 
-  /// @brief Field ARGB32 value: U32(33619978)
+  /// @brief Field ARGB32 value: U32(10)
   static ::LIV::SDK::Unity::TEXTURE_FORMAT const ARGB32;
 
-  /// @brief Field UNDEFINED value: U32(16779776)
+  /// @brief Field UNDEFINED value: U32(0)
   static ::LIV::SDK::Unity::TEXTURE_FORMAT const UNDEFINED;
 
   /// @brief IL2CPP Metadata Type Index

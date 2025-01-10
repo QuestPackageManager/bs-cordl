@@ -218,13 +218,13 @@ public:
   constexpr Single(float_t m_value) noexcept;
 
   /// @brief Field Epsilon offset 0xffffffff size 0x4
-  static constexpr float_t Epsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t Epsilon{ static_cast<float_t>(1e-45f) };
 
   /// @brief Field MaxValue offset 0xffffffff size 0x4
-  static constexpr float_t MaxValue{ static_cast<float_t>(340282346638528859811704183484516925440.0f) };
+  static constexpr float_t MaxValue{ static_cast<float_t>(3.4028235e38f) };
 
   /// @brief Field MinValue offset 0xffffffff size 0x4
-  static constexpr float_t MinValue{ static_cast<float_t>(-340282346638528859811704183484516925440.0f) };
+  static constexpr float_t MinValue{ static_cast<float_t>(-3.4028235e38f) };
 
   /// @brief Field NaN offset 0xffffffff size 0x4
   static constexpr float_t NaN{ NAN };

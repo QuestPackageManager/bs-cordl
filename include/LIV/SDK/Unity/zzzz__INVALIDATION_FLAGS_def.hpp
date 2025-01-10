@@ -23,11 +23,11 @@ public:
 
   /// @brief Nested struct __INVALIDATION_FLAGS_Unwrapped
   enum struct __INVALIDATION_FLAGS_Unwrapped : uint32_t {
-    __E_NONE = static_cast<uint32_t>(0x4020100u),
-    __E_HMD_CAMERA = static_cast<uint32_t>(0x8040201u),
-    __E_STAGE = static_cast<uint32_t>(0x80402u),
-    __E_MR_CAMERA_PREFAB = static_cast<uint32_t>(0x804u),
-    __E_EXCLUDE_BEHAVIOURS = static_cast<uint32_t>(0x70000008u),
+    __E_NONE = static_cast<uint32_t>(0x0u),
+    __E_HMD_CAMERA = static_cast<uint32_t>(0x1u),
+    __E_STAGE = static_cast<uint32_t>(0x2u),
+    __E_MR_CAMERA_PREFAB = static_cast<uint32_t>(0x4u),
+    __E_EXCLUDE_BEHAVIOURS = static_cast<uint32_t>(0x8u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -47,19 +47,19 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr INVALIDATION_FLAGS(uint32_t value__) noexcept;
 
-  /// @brief Field EXCLUDE_BEHAVIOURS value: U32(1879048200)
+  /// @brief Field EXCLUDE_BEHAVIOURS value: U32(8)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const EXCLUDE_BEHAVIOURS;
 
-  /// @brief Field HMD_CAMERA value: U32(134480385)
+  /// @brief Field HMD_CAMERA value: U32(1)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const HMD_CAMERA;
 
-  /// @brief Field MR_CAMERA_PREFAB value: U32(2052)
+  /// @brief Field MR_CAMERA_PREFAB value: U32(4)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const MR_CAMERA_PREFAB;
 
-  /// @brief Field NONE value: U32(67240192)
+  /// @brief Field NONE value: U32(0)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const NONE;
 
-  /// @brief Field STAGE value: U32(525314)
+  /// @brief Field STAGE value: U32(2)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const STAGE;
 
   /// @brief IL2CPP Metadata Type Index

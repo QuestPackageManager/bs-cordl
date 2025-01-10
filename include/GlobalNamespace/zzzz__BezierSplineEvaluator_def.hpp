@@ -169,10 +169,10 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17685 };
 
   /// @brief Field kSlightAboveOne offset 0xffffffff size 0x4
-  static constexpr float_t kSlightAboveOne{ static_cast<float_t>(1.0f) };
+  static constexpr float_t kSlightAboveOne{ static_cast<float_t>(1.0005f) };
 
   /// @brief Field kSlightBelowZero offset 0xffffffff size 0x4
-  static constexpr float_t kSlightBelowZero{ static_cast<float_t>(-0.0f) };
+  static constexpr float_t kSlightBelowZero{ static_cast<float_t>(-0.0005f) };
 
   /// @brief Field _segments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* ____segments;

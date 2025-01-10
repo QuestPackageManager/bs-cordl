@@ -177,7 +177,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field kEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t kEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kEpsilon{ static_cast<float_t>(1e-5f) };
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   float_t x;
