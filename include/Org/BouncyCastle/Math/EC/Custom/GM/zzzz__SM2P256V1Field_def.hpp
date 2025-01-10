@@ -122,10 +122,10 @@ public:
   SM2P256V1Field(SM2P256V1Field const&) = delete;
 
   /// @brief Field P7 offset 0xffffffff size 0x4
-  static constexpr uint32_t P7{ static_cast<uint32_t>(0x804fefeu) };
+  static constexpr uint32_t P7{ static_cast<uint32_t>(0xfffffffeu) };
 
   /// @brief Field PExt15 offset 0xffffffff size 0x4
-  static constexpr uint32_t PExt15{ static_cast<uint32_t>(0xf00804feu) };
+  static constexpr uint32_t PExt15{ static_cast<uint32_t>(0xfffffffeu) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1379 };

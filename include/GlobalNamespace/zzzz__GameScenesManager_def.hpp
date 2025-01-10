@@ -2421,7 +2421,7 @@ public:
   static constexpr ::ConstString kRootContainerGOName{ u"RootContainer" };
 
   /// @brief Field kShortTransitionLength offset 0xffffffff size 0x4
-  static constexpr float_t kShortTransitionLength{ static_cast<float_t>(0.3f) };
+  static constexpr float_t kShortTransitionLength{ static_cast<float_t>(0.35f) };
 
   /// @brief Field kStandardTransitionLength offset 0xffffffff size 0x4
   static constexpr float_t kStandardTransitionLength{ static_cast<float_t>(0.7f) };

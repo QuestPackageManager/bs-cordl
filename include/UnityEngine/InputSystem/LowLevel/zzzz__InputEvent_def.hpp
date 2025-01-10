@@ -153,10 +153,10 @@ public:
   static constexpr int32_t kBaseEventSize{ static_cast<int32_t>(0x14) };
 
   /// @brief Field kHandledMask offset 0xffffffff size 0x4
-  static constexpr uint32_t kHandledMask{ static_cast<uint32_t>(0xf0u) };
+  static constexpr uint32_t kHandledMask{ static_cast<uint32_t>(0x80000000u) };
 
   /// @brief Field kIdMask offset 0xffffffff size 0x4
-  static constexpr uint32_t kIdMask{ static_cast<uint32_t>(0xfffffff0u) };
+  static constexpr uint32_t kIdMask{ static_cast<uint32_t>(0x7fffffffu) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -50,19 +50,19 @@ public:
   static constexpr ::ConstString isActive{ u"is_active" };
 
   /// @brief Field kDedicatedServerMasterServerMessageType offset 0xffffffff size 0x4
-  static constexpr uint32_t kDedicatedServerMasterServerMessageType{ static_cast<uint32_t>(0x64200302u) };
+  static constexpr uint32_t kDedicatedServerMasterServerMessageType{ static_cast<uint32_t>(0x2u) };
 
   /// @brief Field kGameLiftMessageType offset 0xffffffff size 0x4
-  static constexpr uint32_t kGameLiftMessageType{ static_cast<uint32_t>(0x65642003u) };
+  static constexpr uint32_t kGameLiftMessageType{ static_cast<uint32_t>(0x3u) };
 
   /// @brief Field kHandshakeMessageType offset 0xffffffff size 0x4
-  static constexpr uint32_t kHandshakeMessageType{ static_cast<uint32_t>(0x475abef0u) };
+  static constexpr uint32_t kHandshakeMessageType{ static_cast<uint32_t>(0xbe475abeu) };
 
   /// @brief Field kProtocolVersion offset 0xffffffff size 0x4
-  static constexpr uint32_t kProtocolVersion{ static_cast<uint32_t>(0x5abef009u) };
+  static constexpr uint32_t kProtocolVersion{ static_cast<uint32_t>(0x9u) };
 
   /// @brief Field kUserMasterServerMessageType offset 0xffffffff size 0x4
-  static constexpr uint32_t kUserMasterServerMessageType{ static_cast<uint32_t>(0x20030201u) };
+  static constexpr uint32_t kUserMasterServerMessageType{ static_cast<uint32_t>(0x1u) };
 
   /// @brief Field playerState offset 0xffffffff size 0x8
   static constexpr ::ConstString playerState{ u"player" };

@@ -7,6 +7,6 @@ constexpr ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE::TEXTURE_COLOR_SPACE(uint32_t v
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE::TEXTURE_COLOR_SPACE() {}
-constexpr ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE LIV::SDK::Unity::TEXTURE_COLOR_SPACE::UNDEFINED{ static_cast<uint32_t>(0x20100u) };
-constexpr ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE LIV::SDK::Unity::TEXTURE_COLOR_SPACE::LINEAR{ static_cast<uint32_t>(0x1000201u) };
-constexpr ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE LIV::SDK::Unity::TEXTURE_COLOR_SPACE::SRGB{ static_cast<uint32_t>(0x2010002u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE LIV::SDK::Unity::TEXTURE_COLOR_SPACE::UNDEFINED{ static_cast<uint32_t>(0x0u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE LIV::SDK::Unity::TEXTURE_COLOR_SPACE::LINEAR{ static_cast<uint32_t>(0x1u) };
+constexpr ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE LIV::SDK::Unity::TEXTURE_COLOR_SPACE::SRGB{ static_cast<uint32_t>(0x2u) };

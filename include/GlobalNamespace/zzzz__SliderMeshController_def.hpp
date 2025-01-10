@@ -190,7 +190,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4174 };
 
   /// @brief Field kDefaultGameNoteSize offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultGameNoteSize{ static_cast<float_t>(0.4f) };
+  static constexpr float_t kDefaultGameNoteSize{ static_cast<float_t>(0.45f) };
 
   /// @brief Field _numberOfFixedVertexPathSegments, offset: 0x20, size: 0x4, def value: None
   int32_t ____numberOfFixedVertexPathSegments;

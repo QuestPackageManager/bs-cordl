@@ -816,7 +816,7 @@ public:
   OVRSkeletonRenderer(OVRSkeletonRenderer const&) = delete;
 
   /// @brief Field LINE_RENDERER_WIDTH offset 0xffffffff size 0x4
-  static constexpr float_t LINE_RENDERER_WIDTH{ static_cast<float_t>(0.0f) };
+  static constexpr float_t LINE_RENDERER_WIDTH{ static_cast<float_t>(0.005f) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8490 };

@@ -155,16 +155,16 @@ public:
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x14) };
 
   /// @brief Field Y1 offset 0xffffffff size 0x4
-  static constexpr uint32_t Y1{ static_cast<uint32_t>(0x827999f0u) };
+  static constexpr uint32_t Y1{ static_cast<uint32_t>(0x5a827999u) };
 
   /// @brief Field Y2 offset 0xffffffff size 0x4
-  static constexpr uint32_t Y2{ static_cast<uint32_t>(0xd9eba1f0u) };
+  static constexpr uint32_t Y2{ static_cast<uint32_t>(0x6ed9eba1u) };
 
   /// @brief Field Y3 offset 0xffffffff size 0x4
-  static constexpr uint32_t Y3{ static_cast<uint32_t>(0x1bbcdcf0u) };
+  static constexpr uint32_t Y3{ static_cast<uint32_t>(0x8f1bbcdcu) };
 
   /// @brief Field Y4 offset 0xffffffff size 0x4
-  static constexpr uint32_t Y4{ static_cast<uint32_t>(0x62c1d6f0u) };
+  static constexpr uint32_t Y4{ static_cast<uint32_t>(0xca62c1d6u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 766 };

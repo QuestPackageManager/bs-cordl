@@ -106,7 +106,7 @@ public:
   SecP521R1Field(SecP521R1Field const&) = delete;
 
   /// @brief Field P16 offset 0xffffffff size 0x4
-  static constexpr uint32_t P16{ static_cast<uint32_t>(0xffffff81u) };
+  static constexpr uint32_t P16{ static_cast<uint32_t>(0x1ffu) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1437 };

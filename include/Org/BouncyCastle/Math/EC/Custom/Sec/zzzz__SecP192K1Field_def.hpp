@@ -123,13 +123,13 @@ public:
   SecP192K1Field(SecP192K1Field const&) = delete;
 
   /// @brief Field P5 offset 0xffffffff size 0x4
-  static constexpr uint32_t P5{ static_cast<uint32_t>(0xc991ffffu) };
+  static constexpr uint32_t P5{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field PExt11 offset 0xffffffff size 0x4
-  static constexpr uint32_t PExt11{ static_cast<uint32_t>(0x4c991ffu) };
+  static constexpr uint32_t PExt11{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field PInv33 offset 0xffffffff size 0x4
-  static constexpr uint32_t PInv33{ static_cast<uint32_t>(0xc04c991u) };
+  static constexpr uint32_t PInv33{ static_cast<uint32_t>(0x11c9u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1402 };

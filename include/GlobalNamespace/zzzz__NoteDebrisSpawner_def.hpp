@@ -198,7 +198,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4249 };
 
   /// @brief Field kLifeTimeOffset offset 0xffffffff size 0x4
-  static constexpr float_t kLifeTimeOffset{ static_cast<float_t>(0.1f) };
+  static constexpr float_t kLifeTimeOffset{ static_cast<float_t>(0.05f) };
 
   /// @brief Field kMaxLifeTime offset 0xffffffff size 0x4
   static constexpr float_t kMaxLifeTime{ static_cast<float_t>(2.0f) };

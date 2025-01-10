@@ -23,9 +23,9 @@ public:
 
   /// @brief Nested struct __TEXTURE_COLOR_SPACE_Unwrapped
   enum struct __TEXTURE_COLOR_SPACE_Unwrapped : uint32_t {
-    __E_UNDEFINED = static_cast<uint32_t>(0x20100u),
-    __E_LINEAR = static_cast<uint32_t>(0x1000201u),
-    __E_SRGB = static_cast<uint32_t>(0x2010002u),
+    __E_UNDEFINED = static_cast<uint32_t>(0x0u),
+    __E_LINEAR = static_cast<uint32_t>(0x1u),
+    __E_SRGB = static_cast<uint32_t>(0x2u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -45,13 +45,13 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr TEXTURE_COLOR_SPACE(uint32_t value__) noexcept;
 
-  /// @brief Field LINEAR value: U32(16777729)
+  /// @brief Field LINEAR value: U32(1)
   static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE const LINEAR;
 
-  /// @brief Field SRGB value: U32(33619970)
+  /// @brief Field SRGB value: U32(2)
   static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE const SRGB;
 
-  /// @brief Field UNDEFINED value: U32(131328)
+  /// @brief Field UNDEFINED value: U32(0)
   static ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE const UNDEFINED;
 
   /// @brief IL2CPP Metadata Type Index

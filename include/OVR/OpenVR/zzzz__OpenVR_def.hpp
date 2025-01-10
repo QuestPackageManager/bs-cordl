@@ -511,7 +511,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9042 };
 
   /// @brief Field k_nDriverNone offset 0xffffffff size 0x4
-  static constexpr uint32_t k_nDriverNone{ static_cast<uint32_t>(0x8000c0ffu) };
+  static constexpr uint32_t k_nDriverNone{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field k_pch_App_ActionManifestURL_String offset 0xffffffff size 0x8
   static constexpr ::ConstString k_pch_App_ActionManifestURL_String{ u"ActionManifestURL" };
@@ -997,124 +997,124 @@ public:
   static constexpr uint64_t k_ulInvalidPropertyContainer{ static_cast<uint64_t>(0x0u) };
 
   /// @brief Field k_ulInvalidSpatialAnchorHandle offset 0xffffffff size 0x4
-  static constexpr uint32_t k_ulInvalidSpatialAnchorHandle{ static_cast<uint32_t>(0x56492a00u) };
+  static constexpr uint32_t k_ulInvalidSpatialAnchorHandle{ static_cast<uint32_t>(0x0u) };
 
   /// @brief Field k_ulOverlayHandleInvalid offset 0xffffffff size 0x8
   static constexpr uint64_t k_ulOverlayHandleInvalid{ static_cast<uint64_t>(0x0u) };
 
   /// @brief Field k_unActionPropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unActionPropertyTag{ static_cast<uint32_t>(0x23222120u) };
+  static constexpr uint32_t k_unActionPropertyTag{ static_cast<uint32_t>(0x20u) };
 
   /// @brief Field k_unBoolPropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unBoolPropertyTag{ static_cast<uint32_t>(0x15140504u) };
+  static constexpr uint32_t k_unBoolPropertyTag{ static_cast<uint32_t>(0x4u) };
 
   /// @brief Field k_unControllerStateAxisCount offset 0xffffffff size 0x4
   static constexpr uint32_t k_unControllerStateAxisCount{ static_cast<uint32_t>(0x5u) };
 
   /// @brief Field k_unFloatPropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unFloatPropertyTag{ static_cast<uint32_t>(0x4030201u) };
+  static constexpr uint32_t k_unFloatPropertyTag{ static_cast<uint32_t>(0x1u) };
 
   /// @brief Field k_unHapticVibrationPropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unHapticVibrationPropertyTag{ static_cast<uint32_t>(0x83282423u) };
+  static constexpr uint32_t k_unHapticVibrationPropertyTag{ static_cast<uint32_t>(0x23u) };
 
   /// @brief Field k_unHiddenAreaPropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unHiddenAreaPropertyTag{ static_cast<uint32_t>(0x21201f1eu) };
+  static constexpr uint32_t k_unHiddenAreaPropertyTag{ static_cast<uint32_t>(0x1eu) };
 
   /// @brief Field k_unHmdMatrix34PropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unHmdMatrix34PropertyTag{ static_cast<uint32_t>(0x17161514u) };
+  static constexpr uint32_t k_unHmdMatrix34PropertyTag{ static_cast<uint32_t>(0x14u) };
 
   /// @brief Field k_unHmdMatrix44PropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unHmdMatrix44PropertyTag{ static_cast<uint32_t>(0x1e171615u) };
+  static constexpr uint32_t k_unHmdMatrix44PropertyTag{ static_cast<uint32_t>(0x15u) };
 
   /// @brief Field k_unHmdVector3PropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unHmdVector3PropertyTag{ static_cast<uint32_t>(0x1f1e1716u) };
+  static constexpr uint32_t k_unHmdVector3PropertyTag{ static_cast<uint32_t>(0x16u) };
 
   /// @brief Field k_unHmdVector4PropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unHmdVector4PropertyTag{ static_cast<uint32_t>(0x201f1e17u) };
+  static constexpr uint32_t k_unHmdVector4PropertyTag{ static_cast<uint32_t>(0x17u) };
 
   /// @brief Field k_unInputValuePropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unInputValuePropertyTag{ static_cast<uint32_t>(0x24232221u) };
+  static constexpr uint32_t k_unInputValuePropertyTag{ static_cast<uint32_t>(0x21u) };
 
   /// @brief Field k_unInt32PropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unInt32PropertyTag{ static_cast<uint32_t>(0x5040302u) };
+  static constexpr uint32_t k_unInt32PropertyTag{ static_cast<uint32_t>(0x2u) };
 
   /// @brief Field k_unInvalidPropertyTag offset 0xffffffff size 0x4
   static constexpr uint32_t k_unInvalidPropertyTag{ static_cast<uint32_t>(0x0u) };
 
   /// @brief Field k_unMaxActionNameLength offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxActionNameLength{ static_cast<uint32_t>(0x18104040u) };
+  static constexpr uint32_t k_unMaxActionNameLength{ static_cast<uint32_t>(0x40u) };
 
   /// @brief Field k_unMaxActionOriginCount offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxActionOriginCount{ static_cast<uint32_t>(0x56491810u) };
+  static constexpr uint32_t k_unMaxActionOriginCount{ static_cast<uint32_t>(0x10u) };
 
   /// @brief Field k_unMaxActionSetNameLength offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxActionSetNameLength{ static_cast<uint32_t>(0x49181040u) };
+  static constexpr uint32_t k_unMaxActionSetNameLength{ static_cast<uint32_t>(0x40u) };
 
   /// @brief Field k_unMaxApplicationKeyLength offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxApplicationKeyLength{ static_cast<uint32_t>(0x760e8080u) };
+  static constexpr uint32_t k_unMaxApplicationKeyLength{ static_cast<uint32_t>(0x80u) };
 
   /// @brief Field k_unMaxDriverDebugResponseSize offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxDriverDebugResponseSize{ static_cast<uint32_t>(0x8000c0u) };
+  static constexpr uint32_t k_unMaxDriverDebugResponseSize{ static_cast<uint32_t>(0x8000u) };
 
   /// @brief Field k_unMaxOverlayCount offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxOverlayCount{ static_cast<uint32_t>(0x491c2040u) };
+  static constexpr uint32_t k_unMaxOverlayCount{ static_cast<uint32_t>(0x40u) };
 
   /// @brief Field k_unMaxOverlayIntersectionMaskPrimitivesCount offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxOverlayIntersectionMaskPrimitivesCount{ static_cast<uint32_t>(0x56491c20u) };
+  static constexpr uint32_t k_unMaxOverlayIntersectionMaskPrimitivesCount{ static_cast<uint32_t>(0x20u) };
 
   /// @brief Field k_unMaxPropertyStringSize offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxPropertyStringSize{ static_cast<uint32_t>(0x8000c0u) };
+  static constexpr uint32_t k_unMaxPropertyStringSize{ static_cast<uint32_t>(0x8000u) };
 
   /// @brief Field k_unMaxSettingsKeyLength offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxSettingsKeyLength{ static_cast<uint32_t>(0x491e8080u) };
+  static constexpr uint32_t k_unMaxSettingsKeyLength{ static_cast<uint32_t>(0x80u) };
 
   /// @brief Field k_unMaxTrackedDeviceCount offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unMaxTrackedDeviceCount{ static_cast<uint32_t>(0xfffe40u) };
+  static constexpr uint32_t k_unMaxTrackedDeviceCount{ static_cast<uint32_t>(0x40u) };
 
   /// @brief Field k_unNotificationTextMaxSize offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unNotificationTextMaxSize{ static_cast<uint32_t>(0x49280081u) };
+  static constexpr uint32_t k_unNotificationTextMaxSize{ static_cast<uint32_t>(0x100u) };
 
   /// @brief Field k_unOpenVRInternalReserved_End offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unOpenVRInternalReserved_End{ static_cast<uint32_t>(0xc010a7u) };
+  static constexpr uint32_t k_unOpenVRInternalReserved_End{ static_cast<uint32_t>(0x2710u) };
 
   /// @brief Field k_unOpenVRInternalReserved_Start offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unOpenVRInternalReserved_Start{ static_cast<uint32_t>(0x10a7e883u) };
+  static constexpr uint32_t k_unOpenVRInternalReserved_Start{ static_cast<uint32_t>(0x3e8u) };
 
   /// @brief Field k_unPathHandleInfoTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unPathHandleInfoTag{ static_cast<uint32_t>(0x2221201fu) };
+  static constexpr uint32_t k_unPathHandleInfoTag{ static_cast<uint32_t>(0x1fu) };
 
   /// @brief Field k_unScreenshotHandleInvalid offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unScreenshotHandleInvalid{ static_cast<uint32_t>(0x56491a00u) };
+  static constexpr uint32_t k_unScreenshotHandleInvalid{ static_cast<uint32_t>(0x0u) };
 
   /// @brief Field k_unSkeletonPropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unSkeletonPropertyTag{ static_cast<uint32_t>(0xe8832824u) };
+  static constexpr uint32_t k_unSkeletonPropertyTag{ static_cast<uint32_t>(0x24u) };
 
   /// @brief Field k_unSpatialAnchorPosePropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unSpatialAnchorPosePropertyTag{ static_cast<uint32_t>(0xa7e88328u) };
+  static constexpr uint32_t k_unSpatialAnchorPosePropertyTag{ static_cast<uint32_t>(0x28u) };
 
   /// @brief Field k_unStringPropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unStringPropertyTag{ static_cast<uint32_t>(0x16151405u) };
+  static constexpr uint32_t k_unStringPropertyTag{ static_cast<uint32_t>(0x5u) };
 
   /// @brief Field k_unTrackedDeviceIndexInvalid offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unTrackedDeviceIndexInvalid{ static_cast<uint32_t>(0xffu) };
+  static constexpr uint32_t k_unTrackedDeviceIndexInvalid{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field k_unTrackedDeviceIndexOther offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unTrackedDeviceIndexOther{ static_cast<uint32_t>(0xfffeu) };
+  static constexpr uint32_t k_unTrackedDeviceIndexOther{ static_cast<uint32_t>(0xfffffffeu) };
 
   /// @brief Field k_unTrackedDeviceIndex_Hmd offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unTrackedDeviceIndex_Hmd{ static_cast<uint32_t>(0xfffe4000u) };
+  static constexpr uint32_t k_unTrackedDeviceIndex_Hmd{ static_cast<uint32_t>(0x0u) };
 
   /// @brief Field k_unUint64PropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unUint64PropertyTag{ static_cast<uint32_t>(0x14050403u) };
+  static constexpr uint32_t k_unUint64PropertyTag{ static_cast<uint32_t>(0x3u) };
 
   /// @brief Field k_unVROverlayMaxKeyLength offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unVROverlayMaxKeyLength{ static_cast<uint32_t>(0x80808080u) };
+  static constexpr uint32_t k_unVROverlayMaxKeyLength{ static_cast<uint32_t>(0x80u) };
 
   /// @brief Field k_unVROverlayMaxNameLength offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unVROverlayMaxNameLength{ static_cast<uint32_t>(0x20408080u) };
+  static constexpr uint32_t k_unVROverlayMaxNameLength{ static_cast<uint32_t>(0x80u) };
 
   /// @brief Field k_unWildcardPropertyTag offset 0xffffffff size 0x4
-  static constexpr uint32_t k_unWildcardPropertyTag{ static_cast<uint32_t>(0x28242322u) };
+  static constexpr uint32_t k_unWildcardPropertyTag{ static_cast<uint32_t>(0x22u) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

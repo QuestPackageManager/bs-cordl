@@ -47,7 +47,7 @@ public:
   static constexpr int32_t ChecksumSize{ static_cast<int32_t>(0x4) };
 
   /// @brief Field Poly offset 0xffffffff size 0x4
-  static constexpr uint32_t Poly{ static_cast<uint32_t>(0xf63b78f0u) };
+  static constexpr uint32_t Poly{ static_cast<uint32_t>(0x82f63b78u) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16563 };

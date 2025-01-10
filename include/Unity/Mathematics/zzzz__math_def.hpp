@@ -6371,10 +6371,10 @@ public:
   static constexpr double_t DBL_MIN_NORMAL{ static_cast<double_t>(0.0) };
 
   /// @brief Field E offset 0xffffffff size 0x4
-  static constexpr float_t E{ static_cast<float_t>(2.7f) };
+  static constexpr float_t E{ static_cast<float_t>(2.7182817f) };
 
   /// @brief Field EPSILON offset 0xffffffff size 0x4
-  static constexpr float_t EPSILON{ static_cast<float_t>(0.0f) };
+  static constexpr float_t EPSILON{ static_cast<float_t>(1.1920929e-7f) };
 
   /// @brief Field EPSILON_DBL offset 0xffffffff size 0x8
   static constexpr double_t EPSILON_DBL{ static_cast<double_t>(0.0) };
@@ -6383,31 +6383,31 @@ public:
   static constexpr double_t E_DBL{ static_cast<double_t>(2.7) };
 
   /// @brief Field FLT_MIN_NORMAL offset 0xffffffff size 0x4
-  static constexpr float_t FLT_MIN_NORMAL{ static_cast<float_t>(0.0f) };
+  static constexpr float_t FLT_MIN_NORMAL{ static_cast<float_t>(1.1754944e-38f) };
 
   /// @brief Field INFINITY_DBL offset 0xffffffff size 0x8
   static constexpr double_t INFINITY_DBL{ INFINITY };
 
   /// @brief Field LN10 offset 0xffffffff size 0x4
-  static constexpr float_t LN10{ static_cast<float_t>(2.3f) };
+  static constexpr float_t LN10{ static_cast<float_t>(2.3025851f) };
 
   /// @brief Field LN10_DBL offset 0xffffffff size 0x8
   static constexpr double_t LN10_DBL{ static_cast<double_t>(2.3) };
 
   /// @brief Field LN2 offset 0xffffffff size 0x4
-  static constexpr float_t LN2{ static_cast<float_t>(0.7f) };
+  static constexpr float_t LN2{ static_cast<float_t>(0.6931472f) };
 
   /// @brief Field LN2_DBL offset 0xffffffff size 0x8
   static constexpr double_t LN2_DBL{ static_cast<double_t>(0.7) };
 
   /// @brief Field LOG10E offset 0xffffffff size 0x4
-  static constexpr float_t LOG10E{ static_cast<float_t>(0.4f) };
+  static constexpr float_t LOG10E{ static_cast<float_t>(0.4342945f) };
 
   /// @brief Field LOG10E_DBL offset 0xffffffff size 0x8
   static constexpr double_t LOG10E_DBL{ static_cast<double_t>(0.4) };
 
   /// @brief Field LOG2E offset 0xffffffff size 0x4
-  static constexpr float_t LOG2E{ static_cast<float_t>(1.4f) };
+  static constexpr float_t LOG2E{ static_cast<float_t>(1.442695f) };
 
   /// @brief Field LOG2E_DBL offset 0xffffffff size 0x8
   static constexpr double_t LOG2E_DBL{ static_cast<double_t>(1.4) };
@@ -6416,13 +6416,13 @@ public:
   static constexpr double_t NAN_DBL{ NAN };
 
   /// @brief Field PI offset 0xffffffff size 0x4
-  static constexpr float_t PI{ static_cast<float_t>(3.1f) };
+  static constexpr float_t PI{ static_cast<float_t>(3.1415927f) };
 
   /// @brief Field PI_DBL offset 0xffffffff size 0x8
   static constexpr double_t PI_DBL{ static_cast<double_t>(3.1) };
 
   /// @brief Field SQRT2 offset 0xffffffff size 0x4
-  static constexpr float_t SQRT2{ static_cast<float_t>(1.4f) };
+  static constexpr float_t SQRT2{ static_cast<float_t>(1.4142135f) };
 
   /// @brief Field SQRT2_DBL offset 0xffffffff size 0x8
   static constexpr double_t SQRT2_DBL{ static_cast<double_t>(1.4) };

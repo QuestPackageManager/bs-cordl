@@ -103,13 +103,13 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15300 };
 
   /// @brief Field bufferLengthSeconds offset 0xffffffff size 0x4
-  static constexpr float_t bufferLengthSeconds{ static_cast<float_t>(0.2f) };
+  static constexpr float_t bufferLengthSeconds{ static_cast<float_t>(0.25f) };
 
   /// @brief Field bufferSize offset 0xffffffff size 0x4
   static constexpr int32_t bufferSize{ static_cast<int32_t>(0x2ee0) };
 
   /// @brief Field playbackDelayTimeSeconds offset 0xffffffff size 0x4
-  static constexpr float_t playbackDelayTimeSeconds{ static_cast<float_t>(0.1f) };
+  static constexpr float_t playbackDelayTimeSeconds{ static_cast<float_t>(0.05f) };
 
   /// @brief Field sampleRate offset 0xffffffff size 0x4
   static constexpr int32_t sampleRate{ static_cast<int32_t>(0xbb80) };

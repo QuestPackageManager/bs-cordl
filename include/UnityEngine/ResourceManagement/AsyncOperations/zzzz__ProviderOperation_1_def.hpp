@@ -357,7 +357,7 @@ public:
   static constexpr ::ConstString kInvalidHandleMsg{ u"The ProvideHandle is invalid. After the handle has been completed, it can no longer be used" };
 
   /// @brief Field k_OperationWaitingToCompletePercentComplete offset 0xffffffff size 0x4
-  static constexpr float_t k_OperationWaitingToCompletePercentComplete{ static_cast<float_t>(1.0f) };
+  static constexpr float_t k_OperationWaitingToCompletePercentComplete{ static_cast<float_t>(0.99f) };
 
   /// @brief Field m_ReleaseDependenciesOnFailure, offset: 0x98, size: 0x1, def value: None
   bool ___m_ReleaseDependenciesOnFailure;

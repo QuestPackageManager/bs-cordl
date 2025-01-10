@@ -414,25 +414,25 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4627 };
 
   /// @brief Field kBadBurstSliderElementEnergyDrain offset 0xffffffff size 0x4
-  static constexpr float_t kBadBurstSliderElementEnergyDrain{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kBadBurstSliderElementEnergyDrain{ static_cast<float_t>(0.025f) };
 
   /// @brief Field kBadNoteEnergyDrain offset 0xffffffff size 0x4
   static constexpr float_t kBadNoteEnergyDrain{ static_cast<float_t>(0.1f) };
 
   /// @brief Field kGoodBurstSliderElementCharge offset 0xffffffff size 0x4
-  static constexpr float_t kGoodBurstSliderElementCharge{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kGoodBurstSliderElementCharge{ static_cast<float_t>(0.002f) };
 
   /// @brief Field kGoodNoteEnergyCharge offset 0xffffffff size 0x4
-  static constexpr float_t kGoodNoteEnergyCharge{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kGoodNoteEnergyCharge{ static_cast<float_t>(0.01f) };
 
   /// @brief Field kHitBombEnergyDrain offset 0xffffffff size 0x4
-  static constexpr float_t kHitBombEnergyDrain{ static_cast<float_t>(0.2f) };
+  static constexpr float_t kHitBombEnergyDrain{ static_cast<float_t>(0.15f) };
 
   /// @brief Field kMissBurstSliderElementEnergyDrain offset 0xffffffff size 0x4
-  static constexpr float_t kMissBurstSliderElementEnergyDrain{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kMissBurstSliderElementEnergyDrain{ static_cast<float_t>(0.03f) };
 
   /// @brief Field kMissNoteEnergyDrain offset 0xffffffff size 0x4
-  static constexpr float_t kMissNoteEnergyDrain{ static_cast<float_t>(0.2f) };
+  static constexpr float_t kMissNoteEnergyDrain{ static_cast<float_t>(0.15f) };
 
   /// @brief Field kObstacleEnergyDrainPerSecond offset 0xffffffff size 0x4
   static constexpr float_t kObstacleEnergyDrainPerSecond{ static_cast<float_t>(1.3f) };

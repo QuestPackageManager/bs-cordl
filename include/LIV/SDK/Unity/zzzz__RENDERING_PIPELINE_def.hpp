@@ -23,11 +23,11 @@ public:
 
   /// @brief Nested struct __RENDERING_PIPELINE_Unwrapped
   enum struct __RENDERING_PIPELINE_Unwrapped : uint32_t {
-    __E_UNDEFINED = static_cast<uint32_t>(0x3020100u),
-    __E_FORWARD = static_cast<uint32_t>(0x4030201u),
-    __E_DEFERRED = static_cast<uint32_t>(0x5040302u),
-    __E_VERTEX_LIT = static_cast<uint32_t>(0x50403u),
-    __E_UNIVERSAL = static_cast<uint32_t>(0x504u),
+    __E_UNDEFINED = static_cast<uint32_t>(0x0u),
+    __E_FORWARD = static_cast<uint32_t>(0x1u),
+    __E_DEFERRED = static_cast<uint32_t>(0x2u),
+    __E_VERTEX_LIT = static_cast<uint32_t>(0x3u),
+    __E_UNIVERSAL = static_cast<uint32_t>(0x4u),
     __E_HIGH_DEFINITION = static_cast<uint32_t>(0x5u),
   };
 
@@ -48,22 +48,22 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr RENDERING_PIPELINE(uint32_t value__) noexcept;
 
-  /// @brief Field DEFERRED value: U32(84148994)
+  /// @brief Field DEFERRED value: U32(2)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const DEFERRED;
 
-  /// @brief Field FORWARD value: U32(67305985)
+  /// @brief Field FORWARD value: U32(1)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const FORWARD;
 
   /// @brief Field HIGH_DEFINITION value: U32(5)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
 
-  /// @brief Field UNDEFINED value: U32(50462976)
+  /// @brief Field UNDEFINED value: U32(0)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNDEFINED;
 
-  /// @brief Field UNIVERSAL value: U32(1284)
+  /// @brief Field UNIVERSAL value: U32(4)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNIVERSAL;
 
-  /// @brief Field VERTEX_LIT value: U32(328707)
+  /// @brief Field VERTEX_LIT value: U32(3)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const VERTEX_LIT;
 
   /// @brief IL2CPP Metadata Type Index

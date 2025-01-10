@@ -23,15 +23,15 @@ public:
 
   /// @brief Nested struct __ElementProperties_Unwrapped
   enum struct __ElementProperties_Unwrapped : uint32_t {
-    __E_DEFAULT = static_cast<uint32_t>(0x4020100u),
-    __E_URI_PARENT = static_cast<uint32_t>(0x8040201u),
-    __E_BOOL_PARENT = static_cast<uint32_t>(0x10080402u),
-    __E_NAME_PARENT = static_cast<uint32_t>(0x20100804u),
-    __E_EMPTY = static_cast<uint32_t>(0x40201008u),
-    __E_NO_ENTITIES = static_cast<uint32_t>(0x80402010u),
-    __E_HEAD = static_cast<uint32_t>(0x80804020u),
-    __E_BLOCK_WS = static_cast<uint32_t>(0x808040u),
-    __E_HAS_NS = static_cast<uint32_t>(0x1008080u),
+    __E_DEFAULT = static_cast<uint32_t>(0x0u),
+    __E_URI_PARENT = static_cast<uint32_t>(0x1u),
+    __E_BOOL_PARENT = static_cast<uint32_t>(0x2u),
+    __E_NAME_PARENT = static_cast<uint32_t>(0x4u),
+    __E_EMPTY = static_cast<uint32_t>(0x8u),
+    __E_NO_ENTITIES = static_cast<uint32_t>(0x10u),
+    __E_HEAD = static_cast<uint32_t>(0x20u),
+    __E_BLOCK_WS = static_cast<uint32_t>(0x40u),
+    __E_HAS_NS = static_cast<uint32_t>(0x80u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -51,31 +51,31 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr ElementProperties(uint32_t value__) noexcept;
 
-  /// @brief Field BLOCK_WS value: U32(8421440)
+  /// @brief Field BLOCK_WS value: U32(64)
   static ::System::Xml::ElementProperties const BLOCK_WS;
 
-  /// @brief Field BOOL_PARENT value: U32(268960770)
+  /// @brief Field BOOL_PARENT value: U32(2)
   static ::System::Xml::ElementProperties const BOOL_PARENT;
 
-  /// @brief Field DEFAULT value: U32(67240192)
+  /// @brief Field DEFAULT value: U32(0)
   static ::System::Xml::ElementProperties const DEFAULT;
 
-  /// @brief Field EMPTY value: U32(1075843080)
+  /// @brief Field EMPTY value: U32(8)
   static ::System::Xml::ElementProperties const EMPTY;
 
-  /// @brief Field HAS_NS value: U32(16810112)
+  /// @brief Field HAS_NS value: U32(128)
   static ::System::Xml::ElementProperties const HAS_NS;
 
-  /// @brief Field HEAD value: U32(2155888672)
+  /// @brief Field HEAD value: U32(32)
   static ::System::Xml::ElementProperties const HEAD;
 
-  /// @brief Field NAME_PARENT value: U32(537921540)
+  /// @brief Field NAME_PARENT value: U32(4)
   static ::System::Xml::ElementProperties const NAME_PARENT;
 
-  /// @brief Field NO_ENTITIES value: U32(2151686160)
+  /// @brief Field NO_ENTITIES value: U32(16)
   static ::System::Xml::ElementProperties const NO_ENTITIES;
 
-  /// @brief Field URI_PARENT value: U32(134480385)
+  /// @brief Field URI_PARENT value: U32(1)
   static ::System::Xml::ElementProperties const URI_PARENT;
 
   /// @brief IL2CPP Metadata Type Index

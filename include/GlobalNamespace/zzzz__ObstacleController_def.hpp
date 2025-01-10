@@ -685,7 +685,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4142 };
 
   /// @brief Field kAvoidMarkTimeOffset offset 0xffffffff size 0x4
-  static constexpr float_t kAvoidMarkTimeOffset{ static_cast<float_t>(0.2f) };
+  static constexpr float_t kAvoidMarkTimeOffset{ static_cast<float_t>(0.15f) };
 
   /// @brief Field _stretchableObstacle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StretchableObstacle> ____stretchableObstacle;

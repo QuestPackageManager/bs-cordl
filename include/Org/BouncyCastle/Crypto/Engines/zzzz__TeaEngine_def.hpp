@@ -141,10 +141,10 @@ public:
   static constexpr int32_t block_size{ static_cast<int32_t>(0x8) };
 
   /// @brief Field d_sum offset 0xffffffff size 0x4
-  static constexpr uint32_t d_sum{ static_cast<uint32_t>(0xef3720f0u) };
+  static constexpr uint32_t d_sum{ static_cast<uint32_t>(0xc6ef3720u) };
 
   /// @brief Field delta offset 0xffffffff size 0x4
-  static constexpr uint32_t delta{ static_cast<uint32_t>(0x3779b9f0u) };
+  static constexpr uint32_t delta{ static_cast<uint32_t>(0x9e3779b9u) };
 
   /// @brief Field rounds offset 0xffffffff size 0x4
   static constexpr int32_t rounds{ static_cast<int32_t>(0x20) };

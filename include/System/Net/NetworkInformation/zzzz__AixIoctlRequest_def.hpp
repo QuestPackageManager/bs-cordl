@@ -23,11 +23,11 @@ public:
 
   /// @brief Nested struct __AixIoctlRequest_Unwrapped
   enum struct __AixIoctlRequest_Unwrapped : uint32_t {
-    __E_SIOCGSIZIFCONF = static_cast<uint32_t>(0x4696af0u),
-    __E_SIOCGIFCONF = static_cast<uint32_t>(0x106945f0u),
-    __E_SIOCGIFFLAGS = static_cast<uint32_t>(0x286911f0u),
-    __E_SIOCGIFNETMASK = static_cast<uint32_t>(0x286925f0u),
-    __E_SIOCGIFMTU = static_cast<uint32_t>(0x286956f0u),
+    __E_SIOCGSIZIFCONF = static_cast<uint32_t>(0x4004696au),
+    __E_SIOCGIFCONF = static_cast<uint32_t>(0xc0106945u),
+    __E_SIOCGIFFLAGS = static_cast<uint32_t>(0xc0286911u),
+    __E_SIOCGIFNETMASK = static_cast<uint32_t>(0xc0286925u),
+    __E_SIOCGIFMTU = static_cast<uint32_t>(0xc0286956u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -47,19 +47,19 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr AixIoctlRequest(uint32_t value__) noexcept;
 
-  /// @brief Field SIOCGIFCONF value: U32(275334640)
+  /// @brief Field SIOCGIFCONF value: U32(3222300997)
   static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFCONF;
 
-  /// @brief Field SIOCGIFFLAGS value: U32(677974512)
+  /// @brief Field SIOCGIFFLAGS value: U32(3223873809)
   static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFFLAGS;
 
-  /// @brief Field SIOCGIFMTU value: U32(677992176)
+  /// @brief Field SIOCGIFMTU value: U32(3223873878)
   static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFMTU;
 
-  /// @brief Field SIOCGIFNETMASK value: U32(677979632)
+  /// @brief Field SIOCGIFNETMASK value: U32(3223873829)
   static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGIFNETMASK;
 
-  /// @brief Field SIOCGSIZIFCONF value: U32(74017520)
+  /// @brief Field SIOCGSIZIFCONF value: U32(1074030954)
   static ::System::Net::NetworkInformation::AixIoctlRequest const SIOCGSIZIFCONF;
 
   /// @brief IL2CPP Metadata Type Index

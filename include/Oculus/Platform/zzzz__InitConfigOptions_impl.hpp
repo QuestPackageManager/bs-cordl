@@ -7,4 +7,4 @@ constexpr ::Oculus::Platform::InitConfigOptions::InitConfigOptions(uint32_t valu
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::InitConfigOptions::InitConfigOptions() {}
-constexpr ::Oculus::Platform::InitConfigOptions Oculus::Platform::InitConfigOptions::DisableP2pNetworking{ static_cast<uint32_t>(0xde5ddedcu) };
+constexpr ::Oculus::Platform::InitConfigOptions Oculus::Platform::InitConfigOptions::DisableP2pNetworking{ static_cast<uint32_t>(0x1cde5ddeu) };

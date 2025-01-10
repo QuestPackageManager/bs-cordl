@@ -483,7 +483,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16471 };
 
   /// @brief Field kContinuousRumbleFadeDuration offset 0xffffffff size 0x4
-  static constexpr float_t kContinuousRumbleFadeDuration{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kContinuousRumbleFadeDuration{ static_cast<float_t>(0.016666668f) };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;

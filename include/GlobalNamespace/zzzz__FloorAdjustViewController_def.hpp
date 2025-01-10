@@ -138,7 +138,7 @@ public:
   static constexpr float_t kMinPlayerHeight{ static_cast<float_t>(0.5f) };
 
   /// @brief Field kMoveStep offset 0xffffffff size 0x4
-  static constexpr float_t kMoveStep{ static_cast<float_t>(0.1f) };
+  static constexpr float_t kMoveStep{ static_cast<float_t>(0.05f) };
 
   /// @brief Field _yIncButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____yIncButton;

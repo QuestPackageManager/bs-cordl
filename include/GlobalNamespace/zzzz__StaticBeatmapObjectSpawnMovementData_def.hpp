@@ -53,19 +53,19 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17093 };
 
   /// @brief Field kBaseLinesYPos offset 0xffffffff size 0x4
-  static constexpr float_t kBaseLinesYPos{ static_cast<float_t>(0.2f) };
+  static constexpr float_t kBaseLinesYPos{ static_cast<float_t>(0.25f) };
 
   /// @brief Field kNoteLinesDistance offset 0xffffffff size 0x4
   static constexpr float_t kNoteLinesDistance{ static_cast<float_t>(0.6f) };
 
   /// @brief Field kObstacleVerticalOffset offset 0xffffffff size 0x4
-  static constexpr float_t kObstacleVerticalOffset{ static_cast<float_t>(-0.2f) };
+  static constexpr float_t kObstacleVerticalOffset{ static_cast<float_t>(-0.15f) };
 
   /// @brief Field kTopLinesYPos offset 0xffffffff size 0x4
-  static constexpr float_t kTopLinesYPos{ static_cast<float_t>(1.5f) };
+  static constexpr float_t kTopLinesYPos{ static_cast<float_t>(1.45f) };
 
   /// @brief Field kUpperLinesYPos offset 0xffffffff size 0x4
-  static constexpr float_t kUpperLinesYPos{ static_cast<float_t>(0.9f) };
+  static constexpr float_t kUpperLinesYPos{ static_cast<float_t>(0.85f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

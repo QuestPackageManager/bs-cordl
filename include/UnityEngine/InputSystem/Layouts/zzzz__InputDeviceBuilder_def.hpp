@@ -240,7 +240,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field kSizeForControlUsingStateFromOtherControl offset 0xffffffff size 0x4
-  static constexpr uint32_t kSizeForControlUsingStateFromOtherControl{ static_cast<uint32_t>(0x10101ffu) };
+  static constexpr uint32_t kSizeForControlUsingStateFromOtherControl{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief Field m_Device, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* m_Device;

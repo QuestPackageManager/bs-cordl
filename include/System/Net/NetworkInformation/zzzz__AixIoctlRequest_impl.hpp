@@ -7,8 +7,8 @@ constexpr ::System::Net::NetworkInformation::AixIoctlRequest::AixIoctlRequest(ui
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixIoctlRequest::AixIoctlRequest() {}
-constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGSIZIFCONF{ static_cast<uint32_t>(0x4696af0u) };
-constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFCONF{ static_cast<uint32_t>(0x106945f0u) };
-constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFFLAGS{ static_cast<uint32_t>(0x286911f0u) };
-constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFNETMASK{ static_cast<uint32_t>(0x286925f0u) };
-constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFMTU{ static_cast<uint32_t>(0x286956f0u) };
+constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGSIZIFCONF{ static_cast<uint32_t>(0x4004696au) };
+constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFCONF{ static_cast<uint32_t>(0xc0106945u) };
+constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFFLAGS{ static_cast<uint32_t>(0xc0286911u) };
+constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFNETMASK{ static_cast<uint32_t>(0xc0286925u) };
+constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFMTU{ static_cast<uint32_t>(0xc0286956u) };

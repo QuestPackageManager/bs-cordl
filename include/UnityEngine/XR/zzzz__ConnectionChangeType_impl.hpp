@@ -7,6 +7,6 @@ constexpr ::UnityEngine::XR::ConnectionChangeType::ConnectionChangeType(uint32_t
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::ConnectionChangeType::ConnectionChangeType() {}
-constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::Connected{ static_cast<uint32_t>(0x20100u) };
-constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::Disconnected{ static_cast<uint32_t>(0x1000201u) };
-constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::ConfigChange{ static_cast<uint32_t>(0x2010002u) };
+constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::Connected{ static_cast<uint32_t>(0x0u) };
+constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::Disconnected{ static_cast<uint32_t>(0x1u) };
+constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::ConfigChange{ static_cast<uint32_t>(0x2u) };

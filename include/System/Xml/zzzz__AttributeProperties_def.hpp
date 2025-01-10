@@ -23,10 +23,10 @@ public:
 
   /// @brief Nested struct __AttributeProperties_Unwrapped
   enum struct __AttributeProperties_Unwrapped : uint32_t {
-    __E_DEFAULT = static_cast<uint32_t>(0x4020100u),
-    __E_URI = static_cast<uint32_t>(0x40201u),
-    __E_BOOLEAN = static_cast<uint32_t>(0x2000402u),
-    __E_NAME = static_cast<uint32_t>(0x4020004u),
+    __E_DEFAULT = static_cast<uint32_t>(0x0u),
+    __E_URI = static_cast<uint32_t>(0x1u),
+    __E_BOOLEAN = static_cast<uint32_t>(0x2u),
+    __E_NAME = static_cast<uint32_t>(0x4u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -46,16 +46,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr AttributeProperties(uint32_t value__) noexcept;
 
-  /// @brief Field BOOLEAN value: U32(33555458)
+  /// @brief Field BOOLEAN value: U32(2)
   static ::System::Xml::AttributeProperties const BOOLEAN;
 
-  /// @brief Field DEFAULT value: U32(67240192)
+  /// @brief Field DEFAULT value: U32(0)
   static ::System::Xml::AttributeProperties const DEFAULT;
 
-  /// @brief Field NAME value: U32(67239940)
+  /// @brief Field NAME value: U32(4)
   static ::System::Xml::AttributeProperties const NAME;
 
-  /// @brief Field URI value: U32(262657)
+  /// @brief Field URI value: U32(1)
   static ::System::Xml::AttributeProperties const URI;
 
   /// @brief IL2CPP Metadata Type Index

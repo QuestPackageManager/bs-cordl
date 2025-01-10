@@ -55,7 +55,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19184 };
 
   /// @brief Field kHalfJumpDistanceEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t kHalfJumpDistanceEpsilon{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kHalfJumpDistanceEpsilon{ static_cast<float_t>(0.001f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

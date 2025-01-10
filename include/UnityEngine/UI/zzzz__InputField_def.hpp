@@ -2057,7 +2057,7 @@ public:
   static constexpr ::ConstString kEmailSpecialCharacters{ u"!#$%&\'*+-/=?^_`{|}~" };
 
   /// @brief Field kHScrollSpeed offset 0xffffffff size 0x4
-  static constexpr float_t kHScrollSpeed{ static_cast<float_t>(0.1f) };
+  static constexpr float_t kHScrollSpeed{ static_cast<float_t>(0.05f) };
 
   /// @brief Field kOculusQuestDeviceModel offset 0xffffffff size 0x8
   static constexpr ::ConstString kOculusQuestDeviceModel{ u"Oculus Quest" };

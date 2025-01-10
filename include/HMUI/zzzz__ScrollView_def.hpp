@@ -926,7 +926,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16094 };
 
   /// @brief Field kThumbstickThreshold offset 0xffffffff size 0x4
-  static constexpr float_t kThumbstickThreshold{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kThumbstickThreshold{ static_cast<float_t>(0.01f) };
 
   /// @brief Field _viewport, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____viewport;

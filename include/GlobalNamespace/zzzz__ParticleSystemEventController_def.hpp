@@ -148,7 +148,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4330 };
 
   /// @brief Field kMaxSimDelta offset 0xffffffff size 0x4
-  static constexpr float_t kMaxSimDelta{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kMaxSimDelta{ static_cast<float_t>(0.033333335f) };
 
   /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;

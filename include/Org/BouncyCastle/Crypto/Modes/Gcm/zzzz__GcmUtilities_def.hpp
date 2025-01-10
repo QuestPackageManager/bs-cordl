@@ -145,7 +145,7 @@ public:
   GcmUtilities(GcmUtilities const&) = delete;
 
   /// @brief Field E1 offset 0xffffffff size 0x4
-  static constexpr uint32_t E1{ static_cast<uint32_t>(0xf0u) };
+  static constexpr uint32_t E1{ static_cast<uint32_t>(0xe1000000u) };
 
   /// @brief Field E1L offset 0xffffffff size 0x8
   static constexpr uint64_t E1L{ static_cast<uint64_t>(0xe100000000000000u) };

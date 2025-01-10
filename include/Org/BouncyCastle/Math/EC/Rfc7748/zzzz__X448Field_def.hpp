@@ -138,7 +138,7 @@ public:
   X448Field(X448Field const&) = delete;
 
   /// @brief Field M28 offset 0xffffffff size 0x4
-  static constexpr uint32_t M28{ static_cast<uint32_t>(0xffffffcfu) };
+  static constexpr uint32_t M28{ static_cast<uint32_t>(0xfffffffu) };
 
   /// @brief Field Size offset 0xffffffff size 0x4
   static constexpr int32_t Size{ static_cast<int32_t>(0x10) };

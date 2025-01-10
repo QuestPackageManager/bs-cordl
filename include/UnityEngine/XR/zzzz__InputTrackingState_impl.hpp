@@ -7,11 +7,11 @@ constexpr ::UnityEngine::XR::InputTrackingState::InputTrackingState(uint32_t val
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::InputTrackingState::InputTrackingState() {}
-constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::None{ static_cast<uint32_t>(0x4020100u) };
-constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Position{ static_cast<uint32_t>(0x8040201u) };
-constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Rotation{ static_cast<uint32_t>(0x10080402u) };
-constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Velocity{ static_cast<uint32_t>(0x20100804u) };
-constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::AngularVelocity{ static_cast<uint32_t>(0x3f201008u) };
-constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Acceleration{ static_cast<uint32_t>(0x3f2010u) };
-constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::AngularAcceleration{ static_cast<uint32_t>(0x3f20u) };
-constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::All{ static_cast<uint32_t>(0x8000003fu) };
+constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::None{ static_cast<uint32_t>(0x0u) };
+constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Position{ static_cast<uint32_t>(0x1u) };
+constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Rotation{ static_cast<uint32_t>(0x2u) };
+constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Velocity{ static_cast<uint32_t>(0x4u) };
+constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::AngularVelocity{ static_cast<uint32_t>(0x8u) };
+constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Acceleration{ static_cast<uint32_t>(0x10u) };
+constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::AngularAcceleration{ static_cast<uint32_t>(0x20u) };
+constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::All{ static_cast<uint32_t>(0x3fu) };

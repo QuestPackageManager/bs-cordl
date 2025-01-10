@@ -122,7 +122,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4032 };
 
   /// @brief Field kFixedDeltaTime offset 0xffffffff size 0x4
-  static constexpr float_t kFixedDeltaTime{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kFixedDeltaTime{ static_cast<float_t>(0.016666668f) };
 
   /// @brief Field _audioTimeSource, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;

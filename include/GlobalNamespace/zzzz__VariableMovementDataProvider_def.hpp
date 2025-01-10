@@ -453,7 +453,7 @@ public:
   static constexpr float_t kInitMoveDistance{ static_cast<float_t>(200.0f) };
 
   /// @brief Field kMinNoteJumpMovementSpeed offset 0xffffffff size 0x4
-  static constexpr float_t kMinNoteJumpMovementSpeed{ static_cast<float_t>(0.0f) };
+  static constexpr float_t kMinNoteJumpMovementSpeed{ static_cast<float_t>(0.01f) };
 
   /// @brief Field kMoveDuration offset 0xffffffff size 0x4
   static constexpr float_t kMoveDuration{ static_cast<float_t>(0.5f) };

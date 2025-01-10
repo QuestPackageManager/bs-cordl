@@ -51,10 +51,10 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6863 };
 
   /// @brief Field kAccelerationMultiplier offset 0xffffffff size 0x4
-  static constexpr float_t kAccelerationMultiplier{ static_cast<float_t>(-0.1f) };
+  static constexpr float_t kAccelerationMultiplier{ static_cast<float_t>(-0.10197162f) };
 
   /// @brief Field kSensorStandardGravity offset 0xffffffff size 0x4
-  static constexpr float_t kSensorStandardGravity{ static_cast<float_t>(9.8f) };
+  static constexpr float_t kSensorStandardGravity{ static_cast<float_t>(9.80665f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
