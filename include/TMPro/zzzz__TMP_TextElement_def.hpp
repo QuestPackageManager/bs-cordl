@@ -98,40 +98,40 @@ public:
 
   constexpr void __cordl_internal_set_m_Unicode(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x4801598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48047fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_elementType, addr 0x4804aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementType, addr 0x4807d0c, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextElementType get_elementType();
 
-  /// @brief Method get_glyph, addr 0x4804ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyph, addr 0x4807d34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Glyph* get_glyph();
 
-  /// @brief Method get_glyphIndex, addr 0x4804ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x4807d44, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_scale, addr 0x4804af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x4807d54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scale();
 
-  /// @brief Method get_textAsset, addr 0x4804ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textAsset, addr 0x4807d24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Asset> get_textAsset();
 
-  /// @brief Method get_unicode, addr 0x4804ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unicode, addr 0x4807d14, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_unicode();
 
-  /// @brief Method set_glyph, addr 0x4804ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyph, addr 0x4807d3c, size 0x8, virtual false, abstract: false, final false
   inline void set_glyph(::UnityEngine::TextCore::Glyph* value);
 
-  /// @brief Method set_glyphIndex, addr 0x4804ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphIndex, addr 0x4807d4c, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphIndex(uint32_t value);
 
-  /// @brief Method set_scale, addr 0x4804af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x4807d5c, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
-  /// @brief Method set_textAsset, addr 0x4804ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textAsset, addr 0x4807d2c, size 0x8, virtual false, abstract: false, final false
   inline void set_textAsset(::TMPro::TMP_Asset* value);
 
-  /// @brief Method set_unicode, addr 0x4804ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unicode, addr 0x4807d1c, size 0x8, virtual false, abstract: false, final false
   inline void set_unicode(uint32_t value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   TMP_TextElement(TMP_TextElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14568 };
 
   /// @brief Field m_ElementType, offset: 0x10, size: 0x1, def value: None
   ::TMPro::TextElementType ___m_ElementType;

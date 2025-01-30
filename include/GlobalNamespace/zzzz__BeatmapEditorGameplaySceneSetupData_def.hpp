@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_recordVRMovement(bool value);
 
-  /// @brief Method .ctor, addr 0x3b38984, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3c984, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool recordVRMovement, bool playVRMovement, ::ByRef<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
 
 protected:
@@ -69,7 +69,7 @@ public:
   BeatmapEditorGameplaySceneSetupData(BeatmapEditorGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5235 };
 
   /// @brief Field data, offset: 0x10, size: 0x20, def value: None
   ::GlobalNamespace::BeatmapEditorStartTestLevelData ___data;

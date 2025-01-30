@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GreaterThanInstruction_GreaterThanInt16* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x40c9d50, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40ccfb4, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c9ae4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ccd48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:
@@ -48,7 +48,7 @@ public:
   GreaterThanInstruction_GreaterThanInt16(GreaterThanInstruction_GreaterThanInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

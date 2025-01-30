@@ -75,46 +75,46 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*();
 
-  /// @brief Method And, addr 0x41bde50, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method And, addr 0x41c10b4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean And(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y);
 
-  /// @brief Method CompareTo, addr 0x41be02c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x41c1290, size 0x104, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Data::SqlTypes::SqlBoolean value);
 
-  /// @brief Method CompareTo, addr 0x41bdf28, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x41c118c, size 0x104, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method Equals, addr 0x41be130, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x41c1394, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x41be23c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x41c14a0, size 0xbc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetXsdType, addr 0x41be53c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetXsdType, addr 0x41c17a0, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method Or, addr 0x41bdebc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Or, addr 0x41c1120, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean Or(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x41be2f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x41c155c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x41be300, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x41c1564, size 0x124, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x41be424, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x41c1688, size 0x118, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method ToString, addr 0x41bdcbc, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41c0f20, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x41bced8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c013c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x41bd9f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c0c54, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x41bda5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c0cc0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, bool fNull);
 
   static inline ::System::Data::SqlTypes::SqlBoolean getStaticF_False();
@@ -127,19 +127,19 @@ public:
 
   static inline ::System::Data::SqlTypes::SqlBoolean getStaticF_Zero();
 
-  /// @brief Method get_ByteValue, addr 0x41bdc28, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_ByteValue, addr 0x41c0e8c, size 0x94, virtual false, abstract: false, final false
   inline uint8_t get_ByteValue();
 
-  /// @brief Method get_IsFalse, addr 0x41bda98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsFalse, addr 0x41c0cfc, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsFalse();
 
-  /// @brief Method get_IsNull, addr 0x41bda78, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x41c0cdc, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_IsTrue, addr 0x41bda88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsTrue, addr 0x41c0cec, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsTrue();
 
-  /// @brief Method get_Value, addr 0x41bd4c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x41c0728, size 0x58, virtual false, abstract: false, final false
   inline bool get_Value();
 
   /// @brief Convert to "::System::Data::SqlTypes::INullable"
@@ -151,19 +151,19 @@ public:
   /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
   constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable();
 
-  /// @brief Method op_BitwiseAnd, addr 0x41bdab8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x41c0d1c, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_BitwiseAnd(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y);
 
-  /// @brief Method op_BitwiseOr, addr 0x41bdb70, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x41c0dd4, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_BitwiseOr(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y);
 
-  /// @brief Method op_Equality, addr 0x41bdda0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x41c1004, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_Equality(::System::Data::SqlTypes::SqlBoolean x, ::System::Data::SqlTypes::SqlBoolean y);
 
-  /// @brief Method op_Implicit, addr 0x41bdaa8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x41c0d0c, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_Implicit___System__Data__SqlTypes__SqlBoolean(bool x);
 
-  /// @brief Method op_True, addr 0x41bd334, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_True, addr 0x41c0598, size 0x5c, virtual false, abstract: false, final false
   static inline bool op_True(::System::Data::SqlTypes::SqlBoolean x);
 
   static inline void setStaticF_False(::System::Data::SqlTypes::SqlBoolean value);
@@ -184,7 +184,7 @@ public:
   constexpr SqlBoolean(uint8_t m_value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11496 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

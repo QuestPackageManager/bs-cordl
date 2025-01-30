@@ -226,7 +226,7 @@ public:
   MiscHelpers__EveryNth_d__1_1(MiscHelpers__EveryNth_d__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7087 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -298,7 +298,7 @@ public:
   MiscHelpers(MiscHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

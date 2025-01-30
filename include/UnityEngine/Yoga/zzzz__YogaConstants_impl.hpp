@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t)>(&::UnityEngine::Yoga::YogaConstants::IsUndefined)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4969d5c;
+  constexpr static std::size_t addrs = 0x496cfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f8dcf0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90f54, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -121,7 +121,7 @@ public:
   ApplicationInvite(ApplicationInvite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15499 };
 
   /// @brief Field DestinationOptional, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::Destination* ___DestinationOptional;

@@ -119,7 +119,7 @@ public:
   AsyncOperationBase_1___c__DisplayClass60_0(AsyncOperationBase_1___c__DisplayClass60_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15693 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___value;
@@ -169,7 +169,7 @@ public:
   AsyncOperationBase_1___c__DisplayClass61_0(AsyncOperationBase_1___c__DisplayClass61_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15694 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___value;
@@ -664,7 +664,7 @@ public:
   AsyncOperationBase_1(AsyncOperationBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15695 };
 
   /// @brief Field <Result>k__BackingField, offset: 0x10, size: 0x8, def value: None
   TObject ____Result_k__BackingField;

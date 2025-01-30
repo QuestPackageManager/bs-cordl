@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::*)()>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26aaaec;
+  constexpr static std::size_t addrs = 0x26abca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::*)(::GlobalNamespace::BeatmapDataItem*)>(
         &::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x26aab84;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x26abd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,6 +37,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
+constexpr ::GlobalNamespace::IReadonlyBeatmapData*& GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::__cordl_internal_get_beatmapData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapData;
+}
+constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::__cordl_internal_get_beatmapData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___beatmapData;
+}
+constexpr void GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::__cordl_internal_set_beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*>&
 GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::__cordl_internal_get_prevObstacleDataInLines() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -75,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform::CreateTransformedData)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x26aa94c;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x26abaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::ObstacleData*, ::GlobalNamespace::ObstacleData*)>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform::CanBeMerged)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26aaaf4;
+  constexpr static std::size_t addrs = 0x26abcac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

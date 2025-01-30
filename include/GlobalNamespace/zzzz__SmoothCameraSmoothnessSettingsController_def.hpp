@@ -30,15 +30,15 @@ public:
   /// @brief Field kSmoothnesses, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kSmoothnesses, put = setStaticF_kSmoothnesses)) ::ArrayW<float_t, ::Array<float_t>*> kSmoothnesses;
 
-  /// @brief Method ApplyValue, addr 0x3c0fe94, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3c1605c, size 0xa4, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3c0fd84, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3c15f4c, size 0x110, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::SmoothCameraSmoothnessSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x3c0ff38, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3c16100, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3c1002c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c161f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_kSmoothnesses();
@@ -69,7 +69,7 @@ public:
   SmoothCameraSmoothnessSettingsController(SmoothCameraSmoothnessSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4868 };
 
   /// @brief Field _settingsManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

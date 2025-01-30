@@ -29,15 +29,15 @@ public:
   // Declarations
   __declspec(property(get = get_BoundingCollider)) ::UnityW<::UnityEngine::Collider> BoundingCollider;
 
-  /// @brief Method GetAllIntersectingObjects, addr 0x3a02f90, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetAllIntersectingObjects, addr 0x3a0541c, size 0x310, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetAllIntersectingObjects();
 
   static inline ::GlobalNamespace::HEU_BoundingVolume* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a032a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0572c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BoundingCollider, addr 0x3a02f48, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_BoundingCollider, addr 0x3a053d4, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_BoundingCollider();
 
 protected:
@@ -55,7 +55,7 @@ public:
   HEU_BoundingVolume(HEU_BoundingVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11569 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

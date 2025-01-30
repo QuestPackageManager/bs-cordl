@@ -28,12 +28,12 @@ namespace System::Net {
 class CORDL_TYPE HttpContinueDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x44a0028, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x44a328c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(int32_t StatusCode, ::System::Net::WebHeaderCollection* httpHeaders);
 
   static inline ::System::Net::HttpContinueDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x449ff9c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a3200, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   HttpContinueDelegate(HttpContinueDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9597 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

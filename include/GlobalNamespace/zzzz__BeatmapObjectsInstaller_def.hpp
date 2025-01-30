@@ -74,7 +74,7 @@ public:
   /// @brief Field _sliderShortPrefab, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__sliderShortPrefab, put = __cordl_internal_set__sliderShortPrefab)) ::UnityW<::GlobalNamespace::SliderController> _sliderShortPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3bef448, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf53b8, size 0x420, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BeatmapObjectsInstaller* New_ctor();
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderShortPrefab(::UnityW<::GlobalNamespace::SliderController> value);
 
-  /// @brief Method .ctor, addr 0x3bef868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf57d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +163,7 @@ public:
   BeatmapObjectsInstaller(BeatmapObjectsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4717 };
 
   /// @brief Field _normalBasicNotePrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameNoteController> ____normalBasicNotePrefab;

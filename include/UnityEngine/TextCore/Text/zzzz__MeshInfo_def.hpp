@@ -50,22 +50,22 @@ public:
   /// @brief Field k_DefaultTangent, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_k_DefaultTangent, put = setStaticF_k_DefaultTangent)) ::UnityEngine::Vector4 k_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x492d138, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x493039c, size 0x2c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x492d164, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x49303c8, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ResizeMeshInfo, addr 0x492cf40, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x49301a4, size 0x1f8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method SortGeometry, addr 0x492d1a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x4930404, size 0xb4, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData, addr 0x492d254, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x49304b8, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x492cb24, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492fd88, size 0x41c, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();
@@ -99,7 +99,7 @@ public:
                      ::ArrayW<int32_t, ::Array<int32_t>*> triangles, ::UnityW<::UnityEngine::Material> material, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15251 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

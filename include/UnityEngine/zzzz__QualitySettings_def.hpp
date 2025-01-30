@@ -34,41 +34,41 @@ public:
   /// @brief Field activeQualityLevelChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_activeQualityLevelChanged, put = setStaticF_activeQualityLevelChanged)) ::System::Action_2<int32_t, int32_t>* activeQualityLevelChanged;
 
-  /// @brief Method OnActiveQualityLevelChanged, addr 0x4875bd0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnActiveQualityLevelChanged, addr 0x4878e34, size 0x80, virtual false, abstract: false, final false
   static inline void OnActiveQualityLevelChanged(int32_t previousQualityLevel, int32_t currentQualityLevel);
 
   static inline ::System::Action_2<int32_t, int32_t>* getStaticF_activeQualityLevelChanged();
 
-  /// @brief Method get_INTERNAL_renderPipeline, addr 0x4875cf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_renderPipeline, addr 0x4878f54, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_renderPipeline();
 
-  /// @brief Method get_activeColorSpace, addr 0x4875e5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_activeColorSpace, addr 0x48790c0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_activeColorSpace();
 
-  /// @brief Method get_antiAliasing, addr 0x4875c8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_antiAliasing, addr 0x4878ef0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_antiAliasing();
 
-  /// @brief Method get_desiredColorSpace, addr 0x4874bd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_desiredColorSpace, addr 0x4877e3c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_desiredColorSpace();
 
-  /// @brief Method get_renderPipeline, addr 0x4875d54, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_renderPipeline, addr 0x4878fb8, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_renderPipeline();
 
   static inline void setStaticF_activeQualityLevelChanged(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method set_INTERNAL_renderPipeline, addr 0x4875d18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_INTERNAL_renderPipeline, addr 0x4878f7c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_INTERNAL_renderPipeline(::UnityEngine::ScriptableObject* value);
 
-  /// @brief Method set_antiAliasing, addr 0x4875cb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_antiAliasing, addr 0x4878f18, size 0x3c, virtual false, abstract: false, final false
   static inline void set_antiAliasing(int32_t value);
 
-  /// @brief Method set_maxQueuedFrames, addr 0x4875e20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_maxQueuedFrames, addr 0x4879084, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxQueuedFrames(int32_t value);
 
-  /// @brief Method set_renderPipeline, addr 0x4875de4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_renderPipeline, addr 0x4879048, size 0x3c, virtual false, abstract: false, final false
   static inline void set_renderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* value);
 
-  /// @brief Method set_vSyncCount, addr 0x4875c50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_vSyncCount, addr 0x4878eb4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_vSyncCount(int32_t value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   QualitySettings(QualitySettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

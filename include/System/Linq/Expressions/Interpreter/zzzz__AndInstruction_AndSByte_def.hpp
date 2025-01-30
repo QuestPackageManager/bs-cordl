@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::AndInstruction_AndSByte* New_ctor();
 
-  /// @brief Method Run, addr 0x40bf54c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c27b0, size 0xf4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40bf504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c2768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   AndInstruction_AndSByte(AndInstruction_AndSByte const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

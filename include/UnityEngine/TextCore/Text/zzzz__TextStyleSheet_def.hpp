@@ -38,21 +38,21 @@ public:
 
   __declspec(property(get = get_styles)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* styles;
 
-  /// @brief Method GetStyle, addr 0x4949c24, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x494ce88, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(int32_t hashCode);
 
-  /// @brief Method GetStyle, addr 0x4950368, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x49535cc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(::StringW name);
 
-  /// @brief Method LoadStyleDictionaryInternal, addr 0x495008c, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method LoadStyleDictionaryInternal, addr 0x49532f0, size 0x2dc, virtual false, abstract: false, final false
   inline void LoadStyleDictionaryInternal();
 
   static inline ::UnityEngine::TextCore::Text::TextStyleSheet* New_ctor();
 
-  /// @brief Method RefreshStyles, addr 0x49503fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyles, addr 0x4953660, size 0x4, virtual false, abstract: false, final false
   inline void RefreshStyles();
 
-  /// @brief Method Reset, addr 0x4950088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49532ec, size 0x4, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* const& __cordl_internal_get_m_StyleList() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>* value);
 
-  /// @brief Method .ctor, addr 0x4950400, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4953664, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_styles, addr 0x4950080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styles, addr 0x49532e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* get_styles();
 
 protected:
@@ -88,7 +88,7 @@ public:
   TextStyleSheet(TextStyleSheet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15297 };
 
   /// @brief Field m_StyleList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* ___m_StyleList;

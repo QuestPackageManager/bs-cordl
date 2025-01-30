@@ -53,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x3bf5440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfb36c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x3bf5370, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3bfac08, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_toggle, addr 0x3bf5368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x3bfb364, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
-  /// @brief Method set_color, addr 0x3bf53a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3bfac58, size 0x98, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   ColorSchemeColorToggleController(ColorSchemeColorToggleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4739 };
 
   /// @brief Field _colorGraphics, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> ____colorGraphics;

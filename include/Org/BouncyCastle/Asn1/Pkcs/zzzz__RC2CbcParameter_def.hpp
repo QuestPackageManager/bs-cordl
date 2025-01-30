@@ -45,10 +45,10 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetIV, addr 0x2410e90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0x2411eac, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method GetInstance, addr 0x2410a94, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2411ab0, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
@@ -57,7 +57,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2410f08, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2411f24, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_iv() const;
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x2410d58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2411d74, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0x2410dcc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2411de8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t parameterVersion, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0x2410bec, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2411c08, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_RC2ParameterVersion, addr 0x2410e7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_RC2ParameterVersion, addr 0x2411e98, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_RC2ParameterVersion();
 
 protected:

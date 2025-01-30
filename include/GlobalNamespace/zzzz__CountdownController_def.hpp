@@ -60,21 +60,21 @@ public:
   /// @brief Field _timeProvider, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider)) ::GlobalNamespace::ITimeProvider* _timeProvider;
 
-  /// @brief Method Awake, addr 0x3c08c6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c0eb8c, size 0x18, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CountdownController* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x3c08ec4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x3c0ede4, size 0xf4, virtual false, abstract: false, final false
   inline void StartCountdown(int64_t countdownEndTime);
 
-  /// @brief Method StopCountdown, addr 0x3c09044, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x3c0ef64, size 0x78, virtual false, abstract: false, final false
   inline void StopCountdown();
 
-  /// @brief Method Update, addr 0x3c08c84, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3c0eba4, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCountdown, addr 0x3c08fdc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateCountdown, addr 0x3c0eefc, size 0x68, virtual false, abstract: false, final false
   inline void UpdateCountdown(int64_t countdownEndTime);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__timeProvider(::GlobalNamespace::ITimeProvider* value);
 
-  /// @brief Method .ctor, addr 0x3c090bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0efdc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   CountdownController(CountdownController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4829 };
 
   /// @brief Field kGongTime offset 0xffffffff size 0x8
   static constexpr int64_t kGongTime{ static_cast<int64_t>(0x1388) };

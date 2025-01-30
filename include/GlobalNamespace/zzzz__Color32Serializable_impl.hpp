@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::UnityEngine::Color32)>(
     &::GlobalNamespace::Color32Serializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722ab8;
+  constexpr static std::size_t addrs = 0x2724f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::Color32Serializable::Serialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2722ac0;
+  constexpr static std::size_t addrs = 0x2724f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Color32Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::Color32Serializable::Deserialize)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2722b20;
+  constexpr static std::size_t addrs = 0x2724fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::GlobalNamespace::Color32Serializable)>(
     &::GlobalNamespace::Color32Serializable::op_Implicit___UnityEngine__Color32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722b84;
+  constexpr static std::size_t addrs = 0x2725010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Color32Serializable (*)(::UnityEngine::Color32)>(
     &::GlobalNamespace::Color32Serializable::op_Implicit___GlobalNamespace__Color32Serializable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722b8c;
+  constexpr static std::size_t addrs = 0x2725018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Color32Serializable::*)(::GlobalNamespace::Color32Serializable)>(
     &::GlobalNamespace::Color32Serializable::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2722b94;
+  constexpr static std::size_t addrs = 0x2725020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Color32Serializable::*)(::System::Object*)>(
     &::GlobalNamespace::Color32Serializable::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2722bd8;
+  constexpr static std::size_t addrs = 0x2725064;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Color32Serializable::*)()>(&::GlobalNamespace::Color32Serializable::GetHashCode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2722c80;
+  constexpr static std::size_t addrs = 0x272510c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::Color32Serializable::*)()>(&::GlobalNamespace::Color32Serializable::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2722ce8;
+  constexpr static std::size_t addrs = 0x2725174;
 
   inline static ::MethodInfo const* methodInfo() {
 

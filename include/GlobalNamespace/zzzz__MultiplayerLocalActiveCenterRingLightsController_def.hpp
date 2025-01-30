@@ -56,24 +56,24 @@ public:
   /// @brief Field _verticalLinePositions, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__verticalLinePositions, put = __cordl_internal_set__verticalLinePositions)) ::ArrayW<float_t, ::Array<float_t>*> _verticalLinePositions;
 
-  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x3bbcf3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x3bc2c58, size 0x18, virtual false, abstract: false, final false
   inline void HandleEdgeDistanceFromCenterWasCalculated(float_t constructEdgeDistanceFromCenter);
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x3bbd004, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x3bc2c70, size 0x18, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t spawnCenterDistance);
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bbd01c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc2c88, size 0x14c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Resize, addr 0x3bbd22c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x3bc2dec, size 0x2bc, virtual false, abstract: false, final false
   inline void Resize();
 
-  /// @brief Method Start, addr 0x3bbcdb8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bc2ad0, size 0x188, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TryResize, addr 0x3bbd214, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryResize, addr 0x3bc2dd4, size 0x18, virtual false, abstract: false, final false
   inline void TryResize();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__beatmapObjectSpawnCenter() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set__verticalLinePositions(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3bbd4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc30a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   MultiplayerLocalActiveCenterRingLightsController(MultiplayerLocalActiveCenterRingLightsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4511 };
 
   /// @brief Field _verticalLinePositions, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ____verticalLinePositions;

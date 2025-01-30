@@ -28,12 +28,12 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE BaselineFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4969674, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x496c8d8, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(::UnityEngine::Yoga::YogaNode* node, float_t width, float_t height);
 
   static inline ::UnityEngine::Yoga::BaselineFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4969570, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x496c7d4, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   BaselineFunction(BaselineFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

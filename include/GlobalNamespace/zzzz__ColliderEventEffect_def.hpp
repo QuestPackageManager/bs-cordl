@@ -42,13 +42,13 @@ public:
 
   static inline ::GlobalNamespace::ColliderEventEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b94ddc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b9ac20, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method Start, addr 0x3b94d60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9aba4, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TriggerValue, addr 0x3b94de4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b9ac28, size 0x8, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get__effectCollider() const;
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set__value(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b94dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9ac30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_effectCollider, addr 0x3b94d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectCollider, addr 0x3b9ab94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_effectCollider();
 
-  /// @brief Method get_value, addr 0x3b94d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x3b9ab9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
 protected:
@@ -93,7 +93,7 @@ public:
   ColliderEventEffect(ColliderEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4336 };
 
   /// @brief Field _effectCollider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Collider> ____effectCollider;

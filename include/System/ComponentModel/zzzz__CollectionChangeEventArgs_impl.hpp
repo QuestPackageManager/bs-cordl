@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::CollectionChangeEventArgs::*)(
     ::System::ComponentModel::CollectionChangeAction, ::System::Object*)>(&::System::ComponentModel::CollectionChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x444905c;
+  constexpr static std::size_t addrs = 0x444c2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::CollectionChangeAction (::System::ComponentModel::CollectionChangeEventArgs::*)()>(
     &::System::ComponentModel::CollectionChangeEventArgs::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44490d0;
+  constexpr static std::size_t addrs = 0x444c334;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::CollectionChangeEventArgs::*)()>(
     &::System::ComponentModel::CollectionChangeEventArgs::get_Element)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44490d8;
+  constexpr static std::size_t addrs = 0x444c33c;
 
   inline static ::MethodInfo const* methodInfo() {
 

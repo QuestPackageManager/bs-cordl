@@ -52,10 +52,10 @@ public:
 
   __declspec(property(get = get_trueSprite, put = set_trueSprite)) ::UnityW<::UnityEngine::Sprite> trueSprite;
 
-  /// @brief Method Apply, addr 0x3b2cf1c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x3b30f1c, size 0xa4, virtual false, abstract: false, final false
   inline void Apply();
 
-  /// @brief Method Awake, addr 0x3b2cf18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b30f18, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalSpriteSwitcher* New_ctor();
@@ -96,19 +96,19 @@ public:
 
   constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x3b2cfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b30fc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_falseSprite, addr 0x3b2cef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_falseSprite, addr 0x3b30ef8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_falseSprite();
 
-  /// @brief Method get_trueSprite, addr 0x3b2cf08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trueSprite, addr 0x3b30f08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_trueSprite();
 
-  /// @brief Method set_falseSprite, addr 0x3b2cf00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_falseSprite, addr 0x3b30f00, size 0x8, virtual false, abstract: false, final false
   inline void set_falseSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_trueSprite, addr 0x3b2cf10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trueSprite, addr 0x3b30f10, size 0x8, virtual false, abstract: false, final false
   inline void set_trueSprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   ConditionalSpriteSwitcher(ConditionalSpriteSwitcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5167 };
 
   /// @brief Field _sprite0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____sprite0;

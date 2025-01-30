@@ -71,7 +71,7 @@ public:
   KeyValueCollectionPropertyBag_3_KeyValuePairProperty(KeyValueCollectionPropertyBag_3_KeyValuePairProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17463 };
 
   /// @brief Field <Key>k__BackingField, offset: 0x18, size: 0x8, def value: None
   TKey ____Key_k__BackingField;
@@ -133,7 +133,7 @@ public:
   KeyValueCollectionPropertyBag_3(KeyValueCollectionPropertyBag_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17464 };
 
   /// @brief Field m_KeyValuePairProperty, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* ___m_KeyValuePairProperty;

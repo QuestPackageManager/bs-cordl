@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Net::Configuration::DefaultProxySection* New_ctor();
 
-  /// @brief Method Reset, addr 0x4405cd4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x4408f38, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method .ctor, addr 0x4405c64, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4408ec8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x4405c9c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x4408f00, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -52,7 +52,7 @@ public:
   DefaultProxySection(DefaultProxySection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

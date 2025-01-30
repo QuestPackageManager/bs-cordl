@@ -55,7 +55,7 @@ public:
   constexpr KeyboardNavigationManipulator___c__DisplayClass4_0(::UnityEngine::UIElements::KeyDownEvent* evt) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -84,31 +84,31 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Action,
                       put = __cordl_internal_set_m_Action)) ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* m_Action;
 
-  /// @brief Method Invoke, addr 0x4a3eb2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4a41d90, size 0x1c, virtual false, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::KeyboardNavigationOperation operation, ::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::KeyboardNavigationManipulator*
   New_ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* action);
 
-  /// @brief Method OnKeyDown, addr 0x4a3ea18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x4a41c7c, size 0x4c, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnNavigationCancel, addr 0x4a3eb48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationCancel, addr 0x4a41dac, size 0x24, virtual false, abstract: false, final false
   inline void OnNavigationCancel(::UnityEngine::UIElements::NavigationCancelEvent* evt);
 
-  /// @brief Method OnNavigationMove, addr 0x4a3eb90, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationMove, addr 0x4a41df4, size 0xb4, virtual false, abstract: false, final false
   inline void OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x4a3eb6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x4a41dd0, size 0x24, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x4a3e608, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x4a4186c, size 0x204, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x4a3e814, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x4a41a78, size 0x204, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method <OnKeyDown>g__GetOperation|4_0, addr 0x4a3ea64, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <OnKeyDown>g__GetOperation|4_0, addr 0x4a41cc8, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::KeyboardNavigationOperation
   _OnKeyDown_g__GetOperation_4_0(::ByRef<::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0> _cordl_fixed_empty_name_whitespace);
 
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Action(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* value);
 
-  /// @brief Method .ctor, addr 0x4a3e5d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a4183c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* action);
 
 protected:
@@ -136,7 +136,7 @@ public:
   KeyboardNavigationManipulator(KeyboardNavigationManipulator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5985 };
 
   /// @brief Field m_Action, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* ___m_Action;

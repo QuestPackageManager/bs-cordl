@@ -169,7 +169,7 @@ public:
   ObjectPool_1(ObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11158 };
 
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___m_List;

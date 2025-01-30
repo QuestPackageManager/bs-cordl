@@ -28,7 +28,7 @@ public:
   INoteControllerNoteDidDissolveEvent(INoteControllerNoteDidDissolveEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4124 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

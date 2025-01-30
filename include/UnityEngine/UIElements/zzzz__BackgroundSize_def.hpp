@@ -41,52 +41,52 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>*();
 
-  /// @brief Method Equals, addr 0x496e738, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x497199c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x496e7c8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4971a2c, size 0x5c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BackgroundSize other);
 
-  /// @brief Method GetHashCode, addr 0x496e824, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4971a88, size 0x5c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x496e6e8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x497194c, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundSize Initial();
 
-  /// @brief Method ToString, addr 0x496e8c8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4971b2c, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x496e050, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49712b4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundSizeType sizeType);
 
-  /// @brief Method .ctor, addr 0x496e0a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4971308, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length sizeX, ::UnityEngine::UIElements::Length sizeY);
 
-  /// @brief Method get_sizeType, addr 0x496e664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeType, addr 0x49718c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BackgroundSizeType get_sizeType();
 
-  /// @brief Method get_x, addr 0x496e6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x4971924, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_x();
 
-  /// @brief Method get_y, addr 0x496e6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x4971938, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_y();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundSize>* i___System__IEquatable_1___UnityEngine__UIElements__BackgroundSize_();
 
-  /// @brief Method op_Equality, addr 0x496e474, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x49716d8, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::BackgroundSize style1, ::UnityEngine::UIElements::BackgroundSize style2);
 
-  /// @brief Method op_Inequality, addr 0x496e880, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4971ae4, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::BackgroundSize style1, ::UnityEngine::UIElements::BackgroundSize style2);
 
-  /// @brief Method set_sizeType, addr 0x496e66c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_sizeType, addr 0x49718d0, size 0x54, virtual false, abstract: false, final false
   inline void set_sizeType(::UnityEngine::UIElements::BackgroundSizeType value);
 
-  /// @brief Method set_x, addr 0x496e6c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x497192c, size 0xc, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::UIElements::Length value);
 
-  /// @brief Method set_y, addr 0x496e6dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x4971940, size 0xc, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::UIElements::Length value);
 
   // Ctor Parameters []
@@ -98,7 +98,7 @@ public:
   constexpr BackgroundSize(::UnityEngine::UIElements::BackgroundSizeType m_SizeType, ::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5455 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

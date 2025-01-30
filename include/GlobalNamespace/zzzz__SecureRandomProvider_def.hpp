@@ -41,13 +41,13 @@ public:
   /// @brief Field _randomBuffer1, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__randomBuffer1, put = __cordl_internal_set__randomBuffer1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer1;
 
-  /// @brief Method FillBuffer, addr 0x22e4a98, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FillBuffer, addr 0x22e5ab4, size 0x114, virtual false, abstract: false, final false
   inline void FillBuffer();
 
-  /// @brief Method GetByte, addr 0x22e47ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0x22e5808, size 0xa8, virtual false, abstract: false, final false
   inline uint8_t GetByte();
 
-  /// @brief Method GetBytes, addr 0x22e46d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x22e56f0, size 0xb8, virtual false, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
   static inline ::GlobalNamespace::SecureRandomProvider_SecureRandomState* New_ctor();
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__randomBuffer1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x22e49f4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e5a10, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14964 };
 
   /// @brief Field kBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t kBufferSize{ static_cast<int32_t>(0x4000) };
@@ -137,16 +137,16 @@ public:
   /// @brief Field _secureRandomState, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__secureRandomState, put = setStaticF__secureRandomState)) ::GlobalNamespace::SecureRandomProvider_SecureRandomState* _secureRandomState;
 
-  /// @brief Method GetByte, addr 0x22e478c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0x22e57a8, size 0x60, virtual false, abstract: false, final false
   static inline uint8_t GetByte();
 
-  /// @brief Method GetBytes, addr 0x22e462c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x22e5648, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int32_t length);
 
-  /// @brief Method GetBytes, addr 0x22e4914, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x22e5930, size 0x74, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method GetBytes, addr 0x22e4894, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x22e58b0, size 0x80, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
   static inline ::GlobalNamespace::SecureRandomProvider_SecureRandomState* getStaticF__secureRandomState();
@@ -168,7 +168,7 @@ public:
   SecureRandomProvider(SecureRandomProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

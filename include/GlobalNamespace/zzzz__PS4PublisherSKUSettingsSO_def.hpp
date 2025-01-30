@@ -45,10 +45,10 @@ public:
 
   __declspec(property(get = get_masterVersion)) ::GlobalNamespace::SonyVersion* masterVersion;
 
-  /// @brief Method CopyValueFrom, addr 0x26e70b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CopyValueFrom, addr 0x26e958c, size 0x44, virtual false, abstract: false, final false
   inline void CopyValueFrom(::GlobalNamespace::PS4PublisherSKUSettingsSO_PS4BuildVersion* newVersion);
 
-  /// @brief Method IncreaseAppVersion, addr 0x26e7114, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IncreaseAppVersion, addr 0x26e95ec, size 0x38, virtual false, abstract: false, final false
   inline void IncreaseAppVersion();
 
   static inline ::GlobalNamespace::PS4PublisherSKUSettingsSO_PS4BuildVersion* New_ctor();
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set__masterVersion(::GlobalNamespace::SonyVersion* value);
 
-  /// @brief Method .ctor, addr 0x26e7170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e9648, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_applicationVersion, addr 0x26e70ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_applicationVersion, addr 0x26e9584, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyVersion* get_applicationVersion();
 
-  /// @brief Method get_masterVersion, addr 0x26e70a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_masterVersion, addr 0x26e957c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyVersion* get_masterVersion();
 
 protected:
@@ -89,7 +89,7 @@ public:
   PS4PublisherSKUSettingsSO_PS4BuildVersion(PS4PublisherSKUSettingsSO_PS4BuildVersion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13160 };
 
   /// @brief Field _masterVersion, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SonyVersion* ____masterVersion;
@@ -185,25 +185,25 @@ public:
 
   constexpr void __cordl_internal_set__parentalLockLevel(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26e7094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e956c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_applicationCategory, addr 0x26e708c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_applicationCategory, addr 0x26e9564, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PS4ApplicationCategory get_applicationCategory();
 
-  /// @brief Method get_buildVersion, addr 0x26e7064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildVersion, addr 0x26e953c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PS4PublisherSKUSettingsSO_PS4BuildVersion* get_buildVersion();
 
-  /// @brief Method get_defaultAgeRestriction, addr 0x26e7084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultAgeRestriction, addr 0x26e955c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_defaultAgeRestriction();
 
-  /// @brief Method get_latestBuildVersion, addr 0x26e706c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_latestBuildVersion, addr 0x26e9544, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PS4PublisherSKUSettingsSO_PS4BuildVersion* get_latestBuildVersion();
 
-  /// @brief Method get_npTitleFilenamePath, addr 0x26e707c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_npTitleFilenamePath, addr 0x26e9554, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_npTitleFilenamePath();
 
-  /// @brief Method get_parentalLockLevel, addr 0x26e7074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentalLockLevel, addr 0x26e954c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentalLockLevel();
 
 protected:
@@ -221,7 +221,7 @@ public:
   PS4PublisherSKUSettingsSO(PS4PublisherSKUSettingsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13161 };
 
   /// @brief Field _buildVersion, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PS4PublisherSKUSettingsSO_PS4BuildVersion* ____buildVersion;

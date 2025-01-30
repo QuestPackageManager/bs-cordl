@@ -106,7 +106,7 @@ public:
   static ::UnityEngine::UI::GraphicRaycaster_BlockingObjects const TwoD;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15057 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -137,10 +137,10 @@ public:
 
   static inline ::UnityEngine::UI::GraphicRaycaster___c* New_ctor();
 
-  /// @brief Method <Raycast>b__27_0, addr 0x4964200, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Raycast>b__27_0, addr 0x4967464, size 0x48, virtual false, abstract: false, final false
   inline int32_t _Raycast_b__27_0(::UnityEngine::UI::Graphic* g1, ::UnityEngine::UI::Graphic* g2);
 
-  /// @brief Method .ctor, addr 0x49641f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x496745c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::GraphicRaycaster___c* getStaticF___9();
@@ -166,7 +166,7 @@ public:
   GraphicRaycaster___c(GraphicRaycaster___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,12 +220,12 @@ public:
 
   static inline ::UnityEngine::UI::GraphicRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x4963ae0, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x4966d44, size 0x568, virtual false, abstract: false, final false
   static inline void Raycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Camera* eventCamera, ::UnityEngine::Vector2 pointerPosition,
                              ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* foundGraphics,
                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* results);
 
-  /// @brief Method Raycast, addr 0x4962e0c, size 0xc18, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x4966070, size 0xc18, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_BlockingMask() const;
@@ -258,41 +258,41 @@ public:
 
   constexpr void __cordl_internal_set_m_RaycastResults(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* value);
 
-  /// @brief Method .ctor, addr 0x4962d78, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4965fdc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* getStaticF_s_SortedGraphics();
 
-  /// @brief Method get_blockingMask, addr 0x4962d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingMask, addr 0x4965fcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_blockingMask();
 
-  /// @brief Method get_blockingObjects, addr 0x4962d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingObjects, addr 0x4965fbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::GraphicRaycaster_BlockingObjects get_blockingObjects();
 
-  /// @brief Method get_canvas, addr 0x4962c5c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x4965ec0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method get_eventCamera, addr 0x4964048, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x49672ac, size 0xc8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_ignoreReversedGraphics, addr 0x4962d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreReversedGraphics, addr 0x4965fa8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreReversedGraphics();
 
-  /// @brief Method get_renderOrderPriority, addr 0x4962cf0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x4965f54, size 0x54, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_sortOrderPriority, addr 0x4962c14, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x4965e78, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* value);
 
-  /// @brief Method set_blockingMask, addr 0x4962d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingMask, addr 0x4965fd4, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_blockingObjects, addr 0x4962d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingObjects, addr 0x4965fc4, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingObjects(::UnityEngine::UI::GraphicRaycaster_BlockingObjects value);
 
-  /// @brief Method set_ignoreReversedGraphics, addr 0x4962d4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreReversedGraphics, addr 0x4965fb0, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreReversedGraphics(bool value);
 
 protected:
@@ -310,7 +310,7 @@ public:
   GraphicRaycaster(GraphicRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15059 };
 
   /// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
   static constexpr int32_t kNoEventMaskSet{ static_cast<int32_t>(0xffffffff) };

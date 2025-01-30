@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b39fb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3dfb0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x3b39fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextScenesTransitionSetupData, addr 0x3b3dfa0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
 
-  /// @brief Method set_nextScenesTransitionSetupData, addr 0x3b39fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nextScenesTransitionSetupData, addr 0x3b3dfa8, size 0x8, virtual false, abstract: false, final false
   inline void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ShaderWarmupSceneSetupData(ShaderWarmupSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5246 };
 
   /// @brief Field <nextScenesTransitionSetupData>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData_k__BackingField;

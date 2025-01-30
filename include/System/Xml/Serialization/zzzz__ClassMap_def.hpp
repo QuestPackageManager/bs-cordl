@@ -133,27 +133,27 @@ public:
   /// @brief Field _xmlTextCollector, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__xmlTextCollector, put = __cordl_internal_set__xmlTextCollector)) ::System::Xml::Serialization::XmlTypeMapMember* _xmlTextCollector;
 
-  /// @brief Method AddMember, addr 0x438f9dc, size 0xb20, virtual false, abstract: false, final false
+  /// @brief Method AddMember, addr 0x4392c40, size 0xb20, virtual false, abstract: false, final false
   inline void AddMember(::System::Xml::Serialization::XmlTypeMapMember* member);
 
-  /// @brief Method BuildKey, addr 0x43904fc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method BuildKey, addr 0x4393760, size 0xe0, virtual false, abstract: false, final false
   inline ::StringW BuildKey(::StringW name, ::StringW ns, int32_t explicitOrder);
 
-  /// @brief Method GetAttribute, addr 0x439067c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x43938e0, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapMemberAttribute* GetAttribute(::StringW name, ::StringW ns);
 
-  /// @brief Method GetElement, addr 0x4390b00, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x4393d64, size 0x398, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfo* GetElement(::StringW name, ::StringW ns);
 
-  /// @brief Method GetElement, addr 0x4390738, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x439399c, size 0x3c8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfo* GetElement(::StringW name, ::StringW ns, int32_t minimalOrder);
 
   static inline ::System::Xml::Serialization::ClassMap* New_ctor();
 
-  /// @brief Method RegisterFlatList, addr 0x43905dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RegisterFlatList, addr 0x4393840, size 0xa0, virtual false, abstract: false, final false
   inline void RegisterFlatList(::System::Xml::Serialization::XmlTypeMapMemberExpandable* member);
 
-  /// @brief Method SetCanBeSimpleType, addr 0x4391494, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCanBeSimpleType, addr 0x43946f8, size 0xc, virtual false, abstract: false, final false
   inline void SetCanBeSimpleType(bool can);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__allMembers() const;
@@ -254,46 +254,46 @@ public:
 
   constexpr void __cordl_internal_set__xmlTextCollector(::System::Xml::Serialization::XmlTypeMapMember* value);
 
-  /// @brief Method .ctor, addr 0x439150c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4394770, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllMembers, addr 0x4391298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllMembers, addr 0x43944fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_AllMembers();
 
-  /// @brief Method get_AttributeMembers, addr 0x4388584, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeMembers, addr 0x438b7e8, size 0x414, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_AttributeMembers();
 
-  /// @brief Method get_DefaultAnyAttributeMember, addr 0x4391280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultAnyAttributeMember, addr 0x43944e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapMemberAnyAttribute* get_DefaultAnyAttributeMember();
 
-  /// @brief Method get_DefaultAnyElementMember, addr 0x4391278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultAnyElementMember, addr 0x43944dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapMemberAnyElement* get_DefaultAnyElementMember();
 
-  /// @brief Method get_ElementMembers, addr 0x4391290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementMembers, addr 0x43944f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_ElementMembers();
 
-  /// @brief Method get_FlatLists, addr 0x43912a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FlatLists, addr 0x4394504, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_FlatLists();
 
-  /// @brief Method get_HasSimpleContent, addr 0x43914a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_HasSimpleContent, addr 0x4394704, size 0x6c, virtual false, abstract: false, final false
   inline bool get_HasSimpleContent();
 
-  /// @brief Method get_IsOrderDependentMap, addr 0x4390e98, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method get_IsOrderDependentMap, addr 0x43940fc, size 0x3e0, virtual false, abstract: false, final false
   inline bool get_IsOrderDependentMap();
 
-  /// @brief Method get_ListMembers, addr 0x43912a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListMembers, addr 0x439450c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ListMembers();
 
-  /// @brief Method get_NamespaceDeclarations, addr 0x4391288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceDeclarations, addr 0x43944ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapMemberNamespaces* get_NamespaceDeclarations();
 
-  /// @brief Method get_ReturnMember, addr 0x43912b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReturnMember, addr 0x439451c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapMember* get_ReturnMember();
 
-  /// @brief Method get_SimpleContentBaseType, addr 0x43912c0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method get_SimpleContentBaseType, addr 0x4394524, size 0x1d4, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_SimpleContentBaseType();
 
-  /// @brief Method get_XmlTextCollector, addr 0x43912b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlTextCollector, addr 0x4394514, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapMember* get_XmlTextCollector();
 
 protected:
@@ -311,7 +311,7 @@ public:
   ClassMap(ClassMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7467 };
 
   /// @brief Field _elements, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ____elements;

@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b39ea8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3dea8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x3b39ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextScenesTransitionSetupData, addr 0x3b3dea0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
 
 protected:
@@ -56,7 +56,7 @@ public:
   HealthWarningSceneSetupData(HealthWarningSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5242 };
 
   /// @brief Field _nextScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData;

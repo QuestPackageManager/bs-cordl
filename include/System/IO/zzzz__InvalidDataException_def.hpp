@@ -31,13 +31,13 @@ public:
 
   static inline ::System::IO::InvalidDataException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x4485a34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4488c98, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4485ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4488d24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x4485a9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4488d00, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   InvalidDataException(InvalidDataException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

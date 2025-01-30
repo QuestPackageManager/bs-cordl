@@ -46,15 +46,15 @@ public:
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::HMUI::ViewController>>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3c15c18, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1bdd0, size 0xe8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c16048, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c1c200, size 0xf4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::PlayerOptionsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x3c16144, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_0, addr 0x3c1c2fc, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x3c1613c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1c2f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3c15ab8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3c1bc70, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3c15b68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3c1bd20, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   PlayerOptionsViewController(PlayerOptionsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4899 };
 
   /// @brief Field _playerSettingsPanelController, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerSettingsPanelController> ____playerSettingsPanelController;

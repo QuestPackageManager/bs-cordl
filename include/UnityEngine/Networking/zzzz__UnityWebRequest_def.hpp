@@ -109,7 +109,7 @@ public:
   static ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod const Put;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18238 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -320,7 +320,7 @@ public:
   static ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError const WriteError;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18239 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -387,7 +387,7 @@ public:
   static ::UnityEngine::Networking::UnityWebRequest_Result const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18240 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -480,67 +480,67 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Abort, addr 0x4ae3740, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Abort, addr 0x4ae69a4, size 0x3c, virtual false, abstract: false, final false
   inline void Abort();
 
-  /// @brief Method BeginWebRequest, addr 0x4ae3fc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginWebRequest, addr 0x4ae722c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* BeginWebRequest();
 
-  /// @brief Method Create, addr 0x4ae365c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4ae68c0, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create();
 
-  /// @brief Method Dispose, addr 0x4ae3f48, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4ae71ac, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeHandlers, addr 0x4ae3ee8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DisposeHandlers, addr 0x4ae714c, size 0x60, virtual false, abstract: false, final false
   inline void DisposeHandlers();
 
-  /// @brief Method EscapeURL, addr 0x4ae4dfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EscapeURL, addr 0x4ae8060, size 0x20, virtual false, abstract: false, final false
   static inline ::StringW EscapeURL(::StringW s);
 
-  /// @brief Method EscapeURL, addr 0x4ae4e1c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method EscapeURL, addr 0x4ae8080, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW EscapeURL(::StringW s, ::System::Text::Encoding* e);
 
-  /// @brief Method Finalize, addr 0x4ae3e4c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x4ae70b0, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Get, addr 0x4ae4d58, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4ae7fbc, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* Get(::StringW uri);
 
-  /// @brief Method GetCustomMethod, addr 0x4ae434c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetCustomMethod, addr 0x4ae75b0, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetCustomMethod();
 
-  /// @brief Method GetError, addr 0x4ae4490, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetError, addr 0x4ae76f4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError GetError();
 
-  /// @brief Method GetHTTPStatusString, addr 0x4ae35e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetHTTPStatusString, addr 0x4ae6848, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetHTTPStatusString(int64_t responseCode);
 
-  /// @brief Method GetMethod, addr 0x4ae4310, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x4ae7574, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod GetMethod();
 
-  /// @brief Method GetResponseHeader, addr 0x4ae49b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetResponseHeader, addr 0x4ae7c14, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetResponseHeader(::StringW name);
 
-  /// @brief Method GetUrl, addr 0x4ae4724, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetUrl, addr 0x4ae7988, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetUrl();
 
-  /// @brief Method GetWebErrorString, addr 0x4ae35a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWebErrorString, addr 0x4ae680c, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetWebErrorString(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError err);
 
-  /// @brief Method InternalDestroy, addr 0x4ae36c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroy, addr 0x4ae6924, size 0x80, virtual false, abstract: false, final false
   inline void InternalDestroy();
 
-  /// @brief Method InternalSetCustomMethod, addr 0x4ae4210, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InternalSetCustomMethod, addr 0x4ae7474, size 0x100, virtual false, abstract: false, final false
   inline void InternalSetCustomMethod(::StringW customMethodName);
 
-  /// @brief Method InternalSetDefaults, addr 0x4ae377c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InternalSetDefaults, addr 0x4ae69e0, size 0x14, virtual false, abstract: false, final false
   inline void InternalSetDefaults();
 
-  /// @brief Method InternalSetMethod, addr 0x4ae4090, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InternalSetMethod, addr 0x4ae72f4, size 0x100, virtual false, abstract: false, final false
   inline void InternalSetMethod(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod methodType);
 
-  /// @brief Method InternalSetUrl, addr 0x4ae4760, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InternalSetUrl, addr 0x4ae79c4, size 0x100, virtual false, abstract: false, final false
   inline void InternalSetUrl(::StringW url);
 
   static inline ::UnityEngine::Networking::UnityWebRequest* New_ctor(::System::Uri* uri, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
@@ -551,34 +551,34 @@ public:
   static inline ::UnityEngine::Networking::UnityWebRequest* New_ctor(::StringW url, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
                                                                      ::UnityEngine::Networking::UploadHandler* uploadHandler);
 
-  /// @brief Method Release, addr 0x4ae3684, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4ae68e8, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SendWebRequest, addr 0x4ae4004, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SendWebRequest, addr 0x4ae7268, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* SendWebRequest();
 
-  /// @brief Method SetCertificateHandler, addr 0x4ae4a7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetCertificateHandler, addr 0x4ae7ce0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetCertificateHandler(::UnityEngine::Networking::CertificateHandler* ch);
 
-  /// @brief Method SetCustomMethod, addr 0x4ae41cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetCustomMethod, addr 0x4ae7430, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetCustomMethod(::StringW customMethodName);
 
-  /// @brief Method SetDownloadHandler, addr 0x4ae4a38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadHandler, addr 0x4ae7c9c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetDownloadHandler(::UnityEngine::Networking::DownloadHandler* dh);
 
-  /// @brief Method SetMethod, addr 0x4ae404c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetMethod, addr 0x4ae72b0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetMethod(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod methodType);
 
-  /// @brief Method SetRedirectLimitFromScripting, addr 0x4ae4928, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRedirectLimitFromScripting, addr 0x4ae7b8c, size 0x44, virtual false, abstract: false, final false
   inline void SetRedirectLimitFromScripting(int32_t limit);
 
-  /// @brief Method SetTimeoutMsec, addr 0x4ae4bc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetTimeoutMsec, addr 0x4ae7e28, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetTimeoutMsec(int32_t timeout);
 
-  /// @brief Method SetUploadHandler, addr 0x4ae49f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetUploadHandler, addr 0x4ae7c58, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetUploadHandler(::UnityEngine::Networking::UploadHandler* uh);
 
-  /// @brief Method SetUrl, addr 0x4ae4860, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetUrl, addr 0x4ae7ac4, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError SetUrl(::StringW url);
 
   constexpr bool const& __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField() const;
@@ -629,91 +629,91 @@ public:
 
   constexpr void __cordl_internal_set_m_Uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x4ae3cc0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae6f24, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler, ::UnityEngine::Networking::UploadHandler* uploadHandler);
 
-  /// @brief Method .ctor, addr 0x4ae3790, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae69f4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, ::StringW method);
 
-  /// @brief Method .ctor, addr 0x4ae3a14, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae6c78, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler, ::UnityEngine::Networking::UploadHandler* uploadHandler);
 
-  /// @brief Method get_certificateHandler, addr 0x4ae3fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_certificateHandler, addr 0x4ae7224, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::CertificateHandler* get_certificateHandler();
 
-  /// @brief Method get_disposeCertificateHandlerOnDispose, addr 0x4ae3620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposeCertificateHandlerOnDispose, addr 0x4ae6884, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposeCertificateHandlerOnDispose();
 
-  /// @brief Method get_disposeDownloadHandlerOnDispose, addr 0x4ae3634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposeDownloadHandlerOnDispose, addr 0x4ae6898, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposeDownloadHandlerOnDispose();
 
-  /// @brief Method get_disposeUploadHandlerOnDispose, addr 0x4ae3648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposeUploadHandlerOnDispose, addr 0x4ae68ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposeUploadHandlerOnDispose();
 
-  /// @brief Method get_downloadHandler, addr 0x4ae3fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_downloadHandler, addr 0x4ae7214, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::DownloadHandler* get_downloadHandler();
 
-  /// @brief Method get_downloadedBytes, addr 0x4ae48ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_downloadedBytes, addr 0x4ae7b50, size 0x3c, virtual false, abstract: false, final false
   inline uint64_t get_downloadedBytes();
 
-  /// @brief Method get_error, addr 0x4ae44cc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method get_error, addr 0x4ae7730, size 0x1a4, virtual false, abstract: false, final false
   inline ::StringW get_error();
 
-  /// @brief Method get_isDone, addr 0x4ae48a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x4ae7b08, size 0x48, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_isModifiable, addr 0x4ae4190, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isModifiable, addr 0x4ae73f4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isModifiable();
 
-  /// @brief Method get_method, addr 0x4ae4388, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_method, addr 0x4ae75ec, size 0x108, virtual false, abstract: false, final false
   inline ::StringW get_method();
 
-  /// @brief Method get_responseCode, addr 0x4ae46ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_responseCode, addr 0x4ae7910, size 0x3c, virtual false, abstract: false, final false
   inline int64_t get_responseCode();
 
-  /// @brief Method get_result, addr 0x4ae4670, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_result, addr 0x4ae78d4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_Result get_result();
 
-  /// @brief Method get_uploadHandler, addr 0x4ae3fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uploadHandler, addr 0x4ae721c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UploadHandler* get_uploadHandler();
 
-  /// @brief Method get_url, addr 0x4ae46e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_url, addr 0x4ae794c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_url();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_certificateHandler, addr 0x4ae4ac0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_certificateHandler, addr 0x4ae7d24, size 0x104, virtual false, abstract: false, final false
   inline void set_certificateHandler(::UnityEngine::Networking::CertificateHandler* value);
 
-  /// @brief Method set_disposeCertificateHandlerOnDispose, addr 0x4ae3628, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposeCertificateHandlerOnDispose, addr 0x4ae688c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposeCertificateHandlerOnDispose(bool value);
 
-  /// @brief Method set_disposeDownloadHandlerOnDispose, addr 0x4ae363c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposeDownloadHandlerOnDispose, addr 0x4ae68a0, size 0xc, virtual false, abstract: false, final false
   inline void set_disposeDownloadHandlerOnDispose(bool value);
 
-  /// @brief Method set_disposeUploadHandlerOnDispose, addr 0x4ae3650, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposeUploadHandlerOnDispose, addr 0x4ae68b4, size 0xc, virtual false, abstract: false, final false
   inline void set_disposeUploadHandlerOnDispose(bool value);
 
-  /// @brief Method set_downloadHandler, addr 0x4ae3ab8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_downloadHandler, addr 0x4ae6d1c, size 0x104, virtual false, abstract: false, final false
   inline void set_downloadHandler(::UnityEngine::Networking::DownloadHandler* value);
 
-  /// @brief Method set_method, addr 0x4ae3894, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method set_method, addr 0x4ae6af8, size 0x180, virtual false, abstract: false, final false
   inline void set_method(::StringW value);
 
-  /// @brief Method set_redirectLimit, addr 0x4ae496c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_redirectLimit, addr 0x4ae7bd0, size 0x44, virtual false, abstract: false, final false
   inline void set_redirectLimit(int32_t value);
 
-  /// @brief Method set_timeout, addr 0x4ae4c08, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method set_timeout, addr 0x4ae7e6c, size 0x150, virtual false, abstract: false, final false
   inline void set_timeout(int32_t value);
 
-  /// @brief Method set_uploadHandler, addr 0x4ae3bbc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_uploadHandler, addr 0x4ae6e20, size 0x104, virtual false, abstract: false, final false
   inline void set_uploadHandler(::UnityEngine::Networking::UploadHandler* value);
 
-  /// @brief Method set_uri, addr 0x4ae3d64, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method set_uri, addr 0x4ae6fc8, size 0xe8, virtual false, abstract: false, final false
   inline void set_uri(::System::Uri* value);
 
-  /// @brief Method set_url, addr 0x4ae380c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_url, addr 0x4ae6a70, size 0x88, virtual false, abstract: false, final false
   inline void set_url(::StringW value);
 
 protected:
@@ -731,7 +731,7 @@ public:
   UnityWebRequest(UnityWebRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18241 };
 
   /// @brief Field kHttpVerbCREATE offset 0xffffffff size 0x8
   static constexpr ::ConstString kHttpVerbCREATE{ u"CREATE" };

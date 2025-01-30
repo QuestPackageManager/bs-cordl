@@ -32,7 +32,7 @@ public:
   /// @brief Field _polygons, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__polygons, put = __cordl_internal_set__polygons)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _polygons;
 
-  /// @brief Method Add, addr 0x46f6b2c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x46f9d90, size 0xa4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::ProBuilder::Poly2Tri::Polygon* p);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor();
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__polygons(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* value);
 
-  /// @brief Method .ctor, addr 0x46f69b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46f9c18, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x46f6a30, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46f9c94, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
 
-  /// @brief Method get_Polygons, addr 0x46f6bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Polygons, addr 0x46f9e34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* get_Polygons();
 
 protected:
@@ -69,7 +69,7 @@ public:
   PolygonSet(PolygonSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17817 };
 
   /// @brief Field _polygons, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* ____polygons;

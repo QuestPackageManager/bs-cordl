@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__frameworkName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cf1ff4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf5258, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW frameworkName);
 
-  /// @brief Method set_FrameworkDisplayName, addr 0x3cf2068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FrameworkDisplayName, addr 0x3cf52cc, size 0x8, virtual false, abstract: false, final false
   inline void set_FrameworkDisplayName(::StringW value);
 
 protected:

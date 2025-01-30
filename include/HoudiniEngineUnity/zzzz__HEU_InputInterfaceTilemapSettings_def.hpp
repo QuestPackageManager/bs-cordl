@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__exportUnusedTiles(bool value);
 
-  /// @brief Method .ctor, addr 0x3a80ad4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a82f60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   HEU_InputInterfaceTilemapSettings(HEU_InputInterfaceTilemapSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11830 };
 
   /// @brief Field _createGroupsForTiles, offset: 0x10, size: 0x1, def value: None
   bool ____createGroupsForTiles;

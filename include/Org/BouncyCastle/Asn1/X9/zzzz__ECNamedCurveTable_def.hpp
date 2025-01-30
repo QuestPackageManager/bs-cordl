@@ -28,24 +28,24 @@ namespace Org::BouncyCastle::Asn1::X9 {
 class CORDL_TYPE ECNamedCurveTable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetByName, addr 0x261ef98, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x261ffb4, size 0x19c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x261f46c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x2620488, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x261f134, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x2620150, size 0x19c, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x261f2d0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x26202ec, size 0x19c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261f7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26207f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Names, addr 0x261f5d4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x26205f0, size 0x204, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
 protected:

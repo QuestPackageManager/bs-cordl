@@ -35,7 +35,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x4408f5c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x440c1c0, size 0xec, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   static inline ::System::InvariantComparer* New_ctor();
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_m_compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x4408ee0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440c144, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::InvariantComparer* getStaticF_Default();
@@ -71,7 +71,7 @@ public:
   InvariantComparer(InvariantComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9186 };
 
   /// @brief Field m_compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ___m_compareInfo;

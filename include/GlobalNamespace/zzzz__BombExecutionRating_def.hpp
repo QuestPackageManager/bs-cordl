@@ -60,7 +60,7 @@ public:
   static ::GlobalNamespace::BombExecutionRating_Rating const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12800 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::BombExecutionRating_Rating value);
 
-  /// @brief Method .ctor, addr 0x26ac190, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ad3dc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::BombExecutionRating_Rating rating);
 
-  /// @brief Method get_rating, addr 0x26ac188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x26ad3d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BombExecutionRating_Rating get_rating();
 
 protected:
@@ -119,7 +119,7 @@ public:
   BombExecutionRating(BombExecutionRating const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12801 };
 
   /// @brief Field <rating>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::BombExecutionRating_Rating ____rating_k__BackingField;

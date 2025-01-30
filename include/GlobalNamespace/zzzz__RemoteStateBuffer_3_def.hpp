@@ -136,7 +136,7 @@ public:
   RemoteStateBuffer_3(RemoteStateBuffer_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14996 };
 
   /// @brief Field kMaxDeltaQueueSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxDeltaQueueSize{ static_cast<int32_t>(0x40) };

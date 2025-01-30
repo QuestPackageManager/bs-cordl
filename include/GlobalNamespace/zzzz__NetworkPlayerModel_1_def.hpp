@@ -335,7 +335,7 @@ public:
   NetworkPlayerModel_1_NetworkPlayer(NetworkPlayerModel_1_NetworkPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17356 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -400,7 +400,7 @@ public:
   NetworkPlayerModel_1_JoinMatchmakingPartyConfig(NetworkPlayerModel_1_JoinMatchmakingPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17357 };
 
   /// @brief Field secret, offset: 0x58, size: 0x8, def value: None
   ::StringW ___secret;
@@ -447,7 +447,7 @@ public:
   NetworkPlayerModel_1_StartClientPartyConfig(NetworkPlayerModel_1_StartClientPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -675,7 +675,7 @@ public:
   NetworkPlayerModel_1_NetworkServer(NetworkPlayerModel_1_NetworkServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17359 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -745,7 +745,7 @@ public:
   NetworkPlayerModel_1___c(NetworkPlayerModel_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -822,7 +822,7 @@ public:
   NetworkPlayerModel_1___c__DisplayClass59_0(NetworkPlayerModel_1___c__DisplayClass59_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
 
   /// @brief Field clearCurrentList, offset: 0x10, size: 0x1, def value: None
   bool ___clearCurrentList;
@@ -975,7 +975,7 @@ public:
   NetworkPlayerModel_1__GetOtherPlayers_d__58(NetworkPlayerModel_1__GetOtherPlayers_d__58 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17362 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1126,7 +1126,7 @@ public:
   NetworkPlayerModel_1__GetPartyPlayers_d__57(NetworkPlayerModel_1__GetPartyPlayers_d__57 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17363 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1181,7 +1181,7 @@ public:
                                                                         ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17364 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -1556,7 +1556,7 @@ public:
   NetworkPlayerModel_1(NetworkPlayerModel_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17365 };
 
   /// @brief Field kServerRefreshFrequency offset 0xffffffff size 0x4
   static constexpr float_t kServerRefreshFrequency{ static_cast<float_t>(10.0f) };

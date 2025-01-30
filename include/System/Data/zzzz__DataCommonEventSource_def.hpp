@@ -38,10 +38,10 @@ public:
   /// @brief Method EnterScope, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2, typename T3, typename T4> inline int64_t EnterScope(::StringW format, T1 arg1, T2 arg2, T3 arg3, T4 arg4);
 
-  /// @brief Method EnterScope, addr 0x415479c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EnterScope, addr 0x4157a00, size 0xc4, virtual false, abstract: false, final false
   inline int64_t EnterScope(::StringW message);
 
-  /// @brief Method ExitScope, addr 0x4154860, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExitScope, addr 0x4157ac4, size 0x10, virtual false, abstract: false, final false
   inline void ExitScope(int64_t scopeId);
 
   static inline ::System::Data::DataCommonEventSource* New_ctor();
@@ -65,10 +65,10 @@ public:
   template <typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
   inline void Trace(::StringW format, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6);
 
-  /// @brief Method Trace, addr 0x415478c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x41579f0, size 0x10, virtual false, abstract: false, final false
   inline void Trace(::StringW message);
 
-  /// @brief Method .ctor, addr 0x4154870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4157ad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Data::DataCommonEventSource* getStaticF_Log();
@@ -94,7 +94,7 @@ public:
   DataCommonEventSource(DataCommonEventSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11366 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

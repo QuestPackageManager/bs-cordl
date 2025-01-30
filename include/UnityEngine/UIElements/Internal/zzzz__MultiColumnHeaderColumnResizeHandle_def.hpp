@@ -41,14 +41,14 @@ public:
 
   constexpr void __cordl_internal_set__dragArea_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x49e6554, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e97b8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_dragAreaUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_dragArea, addr 0x49eb470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragArea, addr 0x49ee6d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragArea();
 
   static inline void setStaticF_dragAreaUssClassName(::StringW value);
@@ -70,7 +70,7 @@ public:
   MultiColumnHeaderColumnResizeHandle(MultiColumnHeaderColumnResizeHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6512 };
 
   /// @brief Field <dragArea>k__BackingField, offset: 0x3c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragArea_k__BackingField;

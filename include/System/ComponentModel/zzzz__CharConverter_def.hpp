@@ -30,19 +30,19 @@ namespace System::ComponentModel {
 class CORDL_TYPE CharConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x4448cd4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x444bf38, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x4448ecc, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x444c130, size 0x188, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x4448d9c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x444c000, size 0x130, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::CharConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4449054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444c2b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   CharConverter(CharConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9366 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

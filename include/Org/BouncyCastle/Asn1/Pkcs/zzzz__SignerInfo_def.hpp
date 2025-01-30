@@ -79,7 +79,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x2413560, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x241457c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignerInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignerInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -89,7 +89,7 @@ public:
                                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm,
                                                                       ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest, ::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes);
 
-  /// @brief Method ToAsn1Object, addr 0x2413e1c, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2414e38, size 0x1f8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_authenticatedAttributes() const;
@@ -134,34 +134,34 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x24136dc, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24146f8, size 0x6a4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x2413d80, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2414d9c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* version, ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* issuerAndSerialNumber,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Set* authenticatedAttributes,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest,
                     ::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes);
 
-  /// @brief Method get_AuthenticatedAttributes, addr 0x2413df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticatedAttributes, addr 0x2414e10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AuthenticatedAttributes();
 
-  /// @brief Method get_DigestAlgorithm, addr 0x2413dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithm, addr 0x2414e18, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithm();
 
-  /// @brief Method get_DigestEncryptionAlgorithm, addr 0x2413e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestEncryptionAlgorithm, addr 0x2414e28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestEncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedDigest, addr 0x2413e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedDigest, addr 0x2414e20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedDigest();
 
-  /// @brief Method get_IssuerAndSerialNumber, addr 0x2413dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerAndSerialNumber, addr 0x2414e08, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* get_IssuerAndSerialNumber();
 
-  /// @brief Method get_UnauthenticatedAttributes, addr 0x2413e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnauthenticatedAttributes, addr 0x2414e30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnauthenticatedAttributes();
 
-  /// @brief Method get_Version, addr 0x2413de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2414e00, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

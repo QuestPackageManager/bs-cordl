@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Hash128Field_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x499775c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499a9c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   Hash128Field_UxmlFactory(Hash128Field_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,7 +90,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Hash128Field_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49977a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499aa08, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   Hash128Field_UxmlTraits(Hash128Field_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,21 +125,21 @@ public:
   // Declarations
   __declspec(property(get = get_allowedCharacters)) ::StringW allowedCharacters;
 
-  /// @brief Method AcceptCharacter, addr 0x499782c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method AcceptCharacter, addr 0x499aa90, size 0xb8, virtual true, abstract: false, final false
   inline bool AcceptCharacter(char16_t c);
 
   static inline ::UnityEngine::UIElements::Hash128Field_Hash128Input* New_ctor();
 
-  /// @brief Method Parse, addr 0x499742c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x499a690, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 Parse(::StringW str);
 
-  /// @brief Method StringToValue, addr 0x49978e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x499ab48, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Hash128 StringToValue(::StringW str);
 
-  /// @brief Method .ctor, addr 0x4996f54, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499a1b8, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x49977ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x499aa50, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
 protected:
@@ -157,7 +157,7 @@ public:
   Hash128Field_Hash128Input(Hash128Field_Hash128Input const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -192,26 +192,26 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) ::UnityEngine::Hash128 value;
 
-  /// @brief Method ExecuteDefaultAction, addr 0x499749c, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x499a700, size 0x1f0, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::Hash128Field* New_ctor();
 
   static inline ::UnityEngine::UIElements::Hash128Field* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4997338, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x499a59c, size 0xc8, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::Hash128 newValue);
 
-  /// @brief Method StringToValue, addr 0x4997424, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x499a688, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Hash128 StringToValue(::StringW str);
 
-  /// @brief Method UpdateTextFromValue, addr 0x49972a0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method UpdateTextFromValue, addr 0x499a504, size 0x98, virtual true, abstract: false, final false
   inline void UpdateTextFromValue();
 
-  /// @brief Method UpdateValueFromText, addr 0x49971b4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueFromText, addr 0x499a418, size 0xec, virtual true, abstract: false, final false
   inline void UpdateValueFromText();
 
-  /// @brief Method ValueToString, addr 0x4997400, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x499a664, size 0x24, virtual true, abstract: false, final false
   inline ::StringW ValueToString(::UnityEngine::Hash128 value);
 
   constexpr bool const& __cordl_internal_get_m_UpdateTextFromValue() const;
@@ -220,10 +220,10 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateTextFromValue(bool value);
 
-  /// @brief Method .ctor, addr 0x4996dcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499a030, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4996dd8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499a03c, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -232,7 +232,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_value, addr 0x49970a4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x499a308, size 0x48, virtual true, abstract: false, final false
   inline ::UnityEngine::Hash128 get_value();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -241,7 +241,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_value, addr 0x49970ec, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x499a350, size 0xc8, virtual true, abstract: false, final false
   inline void set_value(::UnityEngine::Hash128 value);
 
 protected:
@@ -259,7 +259,7 @@ public:
   Hash128Field(Hash128Field const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5593 };
 
   /// @brief Field m_UpdateTextFromValue, offset: 0x460, size: 0x1, def value: None
   bool ___m_UpdateTextFromValue;

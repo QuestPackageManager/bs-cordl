@@ -49,93 +49,93 @@ public:
 
   __declspec(property(get = get_velocity)) ::UnityEngine::Vector3 velocity;
 
-  /// @brief Method Move, addr 0x4907414, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x490a678, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::CollisionFlags Move(::UnityEngine::Vector3 motion);
 
-  /// @brief Method Move_Injected, addr 0x4907468, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Move_Injected, addr 0x490a6cc, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::CollisionFlags Move_Injected(::ByRef<::UnityEngine::Vector3> motion);
 
   static inline ::UnityEngine::CharacterController* New_ctor();
 
-  /// @brief Method SimpleMove, addr 0x4907378, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SimpleMove, addr 0x490a5dc, size 0x58, virtual false, abstract: false, final false
   inline bool SimpleMove(::UnityEngine::Vector3 speed);
 
-  /// @brief Method SimpleMove_Injected, addr 0x49073d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SimpleMove_Injected, addr 0x490a634, size 0x44, virtual false, abstract: false, final false
   inline bool SimpleMove_Injected(::ByRef<::UnityEngine::Vector3> speed);
 
-  /// @brief Method .ctor, addr 0x4907b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490ad90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x49076d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x490a938, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x4907730, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x490a994, size 0x44, virtual false, abstract: false, final false
   inline void get_center_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_collisionFlags, addr 0x4907588, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_collisionFlags, addr 0x490a7ec, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::CollisionFlags get_collisionFlags();
 
-  /// @brief Method get_detectCollisions, addr 0x4907a2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_detectCollisions, addr 0x490ac90, size 0x3c, virtual false, abstract: false, final false
   inline bool get_detectCollisions();
 
-  /// @brief Method get_enableOverlapRecovery, addr 0x4907aac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enableOverlapRecovery, addr 0x490ad10, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enableOverlapRecovery();
 
-  /// @brief Method get_height, addr 0x490764c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x490a8b0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_isGrounded, addr 0x490754c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isGrounded, addr 0x490a7b0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isGrounded();
 
-  /// @brief Method get_minMoveDistance, addr 0x49079a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minMoveDistance, addr 0x490ac08, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_minMoveDistance();
 
-  /// @brief Method get_radius, addr 0x49075c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x490a828, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method get_skinWidth, addr 0x490791c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_skinWidth, addr 0x490ab80, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_skinWidth();
 
-  /// @brief Method get_slopeLimit, addr 0x490780c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_slopeLimit, addr 0x490aa70, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_slopeLimit();
 
-  /// @brief Method get_stepOffset, addr 0x4907894, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_stepOffset, addr 0x490aaf8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_stepOffset();
 
-  /// @brief Method get_velocity, addr 0x49074ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x490a710, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
-  /// @brief Method get_velocity_Injected, addr 0x4907508, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_velocity_Injected, addr 0x490a76c, size 0x44, virtual false, abstract: false, final false
   inline void get_velocity_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_center, addr 0x4907774, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x490a9d8, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x49077c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x490aa2c, size 0x44, virtual false, abstract: false, final false
   inline void set_center_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_detectCollisions, addr 0x4907a68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_detectCollisions, addr 0x490accc, size 0x44, virtual false, abstract: false, final false
   inline void set_detectCollisions(bool value);
 
-  /// @brief Method set_enableOverlapRecovery, addr 0x4907ae8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enableOverlapRecovery, addr 0x490ad4c, size 0x44, virtual false, abstract: false, final false
   inline void set_enableOverlapRecovery(bool value);
 
-  /// @brief Method set_height, addr 0x4907688, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x490a8ec, size 0x4c, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_minMoveDistance, addr 0x49079e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minMoveDistance, addr 0x490ac44, size 0x4c, virtual false, abstract: false, final false
   inline void set_minMoveDistance(float_t value);
 
-  /// @brief Method set_radius, addr 0x4907600, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x490a864, size 0x4c, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
-  /// @brief Method set_skinWidth, addr 0x4907958, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_skinWidth, addr 0x490abbc, size 0x4c, virtual false, abstract: false, final false
   inline void set_skinWidth(float_t value);
 
-  /// @brief Method set_slopeLimit, addr 0x4907848, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_slopeLimit, addr 0x490aaac, size 0x4c, virtual false, abstract: false, final false
   inline void set_slopeLimit(float_t value);
 
-  /// @brief Method set_stepOffset, addr 0x49078d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_stepOffset, addr 0x490ab34, size 0x4c, virtual false, abstract: false, final false
   inline void set_stepOffset(float_t value);
 
 protected:
@@ -153,7 +153,7 @@ public:
   CharacterController(CharacterController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

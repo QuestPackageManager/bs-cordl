@@ -28,22 +28,22 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_ParmInfo {
 public:
   // Declarations
-  /// @brief Method isFloat, addr 0x3a48cdc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isFloat, addr 0x3a4b168, size 0x14, virtual false, abstract: false, final false
   inline bool isFloat();
 
-  /// @brief Method isInt, addr 0x3a48cc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method isInt, addr 0x3a4b14c, size 0x1c, virtual false, abstract: false, final false
   inline bool isInt();
 
-  /// @brief Method isNode, addr 0x3a48d3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method isNode, addr 0x3a4b1c8, size 0x10, virtual false, abstract: false, final false
   inline bool isNode();
 
-  /// @brief Method isNonValue, addr 0x3a48d4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isNonValue, addr 0x3a4b1d8, size 0x14, virtual false, abstract: false, final false
   inline bool isNonValue();
 
-  /// @brief Method isPath, addr 0x3a48d1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isPath, addr 0x3a4b1a8, size 0x20, virtual false, abstract: false, final false
   inline bool isPath();
 
-  /// @brief Method isString, addr 0x3a48cf0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method isString, addr 0x3a4b17c, size 0x2c, virtual false, abstract: false, final false
   inline bool isString();
 
   // Ctor Parameters []
@@ -78,7 +78,7 @@ public:
                           int32_t disabledConditionSH) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11719 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

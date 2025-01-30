@@ -73,10 +73,10 @@ public:
   /// @brief Field versionPresent, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_versionPresent, put = __cordl_internal_set_versionPresent)) bool versionPresent;
 
-  /// @brief Method GetInstance, addr 0x2406720, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x240773c, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x240311c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2404138, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* responderID, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt,
@@ -88,7 +88,7 @@ public:
                                                                         ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt, ::Org::BouncyCastle::Asn1::Asn1Sequence* responses,
                                                                         ::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions);
 
-  /// @brief Method ToAsn1Object, addr 0x2406b80, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2407b9c, size 0x210, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_producedAt() const;
@@ -127,32 +127,32 @@ public:
 
   constexpr void __cordl_internal_set_versionPresent(bool value);
 
-  /// @brief Method .ctor, addr 0x2406ac4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2407ae0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* responderID, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt, ::Org::BouncyCastle::Asn1::Asn1Sequence* responses,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions);
 
-  /// @brief Method .ctor, addr 0x2406798, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24077b4, size 0x2dc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x2406a74, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2407a90, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* version, ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* responderID, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt,
                     ::Org::BouncyCastle::Asn1::Asn1Sequence* responses, ::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions);
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_V1();
 
-  /// @brief Method get_ProducedAt, addr 0x2406b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProducedAt, addr 0x2407b84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_ProducedAt();
 
-  /// @brief Method get_ResponderID, addr 0x2406b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponderID, addr 0x2407b7c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* get_ResponderID();
 
-  /// @brief Method get_ResponseExtensions, addr 0x2406b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseExtensions, addr 0x2407b94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_ResponseExtensions();
 
-  /// @brief Method get_Responses, addr 0x2406b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Responses, addr 0x2407b8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_Responses();
 
-  /// @brief Method get_Version, addr 0x2406b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2407b74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
   static inline void setStaticF_V1(::Org::BouncyCastle::Asn1::DerInteger* value);

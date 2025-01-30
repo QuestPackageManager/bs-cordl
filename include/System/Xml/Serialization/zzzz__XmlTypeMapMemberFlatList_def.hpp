@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set__listMap(::System::Xml::Serialization::ListMap* value);
 
-  /// @brief Method .ctor, addr 0x438ea1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4391c80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ListMap, addr 0x438ea0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListMap, addr 0x4391c70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::ListMap* get_ListMap();
 
-  /// @brief Method set_ListMap, addr 0x438ea14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ListMap, addr 0x4391c78, size 0x8, virtual false, abstract: false, final false
   inline void set_ListMap(::System::Xml::Serialization::ListMap* value);
 
 protected:
@@ -58,7 +58,7 @@ public:
   XmlTypeMapMemberFlatList(XmlTypeMapMemberFlatList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7461 };
 
   /// @brief Field _listMap, offset: 0x80, size: 0x8, def value: None
   ::System::Xml::Serialization::ListMap* ____listMap;

@@ -30,15 +30,15 @@ public:
   /// @brief Field _boundSingletons, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__boundSingletons, put = __cordl_internal_set__boundSingletons)) ::System::Collections::Generic::HashSet_1<::System::Type*>* _boundSingletons;
 
-  /// @brief Method MarkNonSingleton, addr 0x4b54a18, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method MarkNonSingleton, addr 0x4b57c7c, size 0xac, virtual false, abstract: false, final false
   inline void MarkNonSingleton(::System::Type* type);
 
-  /// @brief Method MarkSingleton, addr 0x4b54ac4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method MarkSingleton, addr 0x4b57d28, size 0xd4, virtual false, abstract: false, final false
   inline void MarkSingleton(::System::Type* type);
 
   static inline ::Zenject::Internal::SingletonMarkRegistry* New_ctor();
 
-  /// @brief Method Unmark, addr 0x4b54b98, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Unmark, addr 0x4b57dfc, size 0x6c, virtual false, abstract: false, final false
   inline void Unmark(::System::Type* type);
 
   constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>* const& __cordl_internal_get__boundNonSingletons() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__boundSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x4b54c04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b57e68, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   SingletonMarkRegistry(SingletonMarkRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12708 };
 
   /// @brief Field _boundSingletons, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::System::Type*>* ____boundSingletons;

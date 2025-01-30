@@ -63,13 +63,13 @@ public:
   template <typename TBaseTypeInList, typename TQueryType>
   static inline void AddSubsystemSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
-  /// @brief Method ClearSubsystems, addr 0x4918cd4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ClearSubsystems, addr 0x491bf38, size 0x24c, virtual false, abstract: false, final false
   static inline void ClearSubsystems();
 
   /// @brief Method GetInstances, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetInstances(::System::Collections::Generic::List_1<T>* subsystems);
 
-  /// @brief Method GetIntegratedSubsystemByPtr, addr 0x4919090, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetIntegratedSubsystemByPtr, addr 0x491c2f4, size 0x184, virtual false, abstract: false, final false
   static inline ::UnityEngine::IntegratedSubsystem* GetIntegratedSubsystemByPtr(::System::IntPtr ptr);
 
   /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -78,25 +78,25 @@ public:
   /// @brief Method GetSubsystems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetSubsystems(::System::Collections::Generic::List_1<T>* subsystems);
 
-  /// @brief Method InitializeIntegratedSubsystem, addr 0x4918bd0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InitializeIntegratedSubsystem, addr 0x491be34, size 0x104, virtual false, abstract: false, final false
   static inline void InitializeIntegratedSubsystem(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method ReloadSubsystemsCompleted, addr 0x4918af0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReloadSubsystemsCompleted, addr 0x491bd54, size 0xe0, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsCompleted();
 
-  /// @brief Method ReloadSubsystemsStarted, addr 0x4918a10, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReloadSubsystemsStarted, addr 0x491bc74, size 0xe0, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsStarted();
 
-  /// @brief Method RemoveDeprecatedSubsystem, addr 0x49188a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RemoveDeprecatedSubsystem, addr 0x491bb04, size 0x80, virtual false, abstract: false, final false
   static inline bool RemoveDeprecatedSubsystem(::UnityEngine::Subsystem* subsystem);
 
-  /// @brief Method RemoveIntegratedSubsystemByPtr, addr 0x491851c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method RemoveIntegratedSubsystemByPtr, addr 0x491b780, size 0x158, virtual false, abstract: false, final false
   static inline void RemoveIntegratedSubsystemByPtr(::System::IntPtr ptr);
 
-  /// @brief Method RemoveStandaloneSubsystem, addr 0x4919214, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RemoveStandaloneSubsystem, addr 0x491c478, size 0x80, virtual false, abstract: false, final false
   static inline bool RemoveStandaloneSubsystem(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* subsystem);
 
-  /// @brief Method StaticConstructScriptingClassMap, addr 0x4918f20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StaticConstructScriptingClassMap, addr 0x491c184, size 0x28, virtual false, abstract: false, final false
   static inline void StaticConstructScriptingClassMap();
 
   static inline ::System::Action* getStaticF_afterReloadSubsystems();
@@ -142,7 +142,7 @@ public:
   SubsystemManager(SubsystemManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

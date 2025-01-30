@@ -56,18 +56,18 @@ public:
   /// @brief Field version, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
-  /// @brief Method CloneNode, addr 0x4334dec, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x4338050, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method IsValidXmlVersion, addr 0x4334630, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidXmlVersion, addr 0x4337894, size 0x7c, virtual false, abstract: false, final false
   inline bool IsValidXmlVersion(::StringW ver);
 
   static inline ::System::Xml::XmlDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x4334e8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x43380f0, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x4334e28, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x433808c, size 0x64, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::StringW const& __cordl_internal_get_encoding() const;
@@ -88,46 +88,46 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43344a4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4337708, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::StringW encoding, ::StringW standalone, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Encoding, addr 0x4334860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x4337ac4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_InnerText, addr 0x4334890, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x4337af4, size 0x174, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method get_LocalName, addr 0x4334dd8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x433803c, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x4334d98, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4337ffc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x4334de4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x4338048, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Standalone, addr 0x4334868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Standalone, addr 0x4337acc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Value, addr 0x4334870, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4337ad4, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_Version, addr 0x4334850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x4337ab4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
-  /// @brief Method set_Encoding, addr 0x43346ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Encoding, addr 0x4337910, size 0x68, virtual false, abstract: false, final false
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_InnerText, addr 0x4334a04, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x4337c68, size 0x17c, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x4334714, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method set_Standalone, addr 0x4337978, size 0x13c, virtual false, abstract: false, final false
   inline void set_Standalone(::StringW value);
 
-  /// @brief Method set_Value, addr 0x4334880, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x4337ae4, size 0x10, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method set_Version, addr 0x4334858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x4337abc, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::StringW value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   XmlDeclaration(XmlDeclaration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7292 };
 
   /// @brief Field version, offset: 0x20, size: 0x8, def value: None
   ::StringW ___version;

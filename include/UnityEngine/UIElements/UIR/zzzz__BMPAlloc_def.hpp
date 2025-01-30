@@ -24,13 +24,13 @@ public:
   /// @brief Field Invalid, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Invalid, put = setStaticF_Invalid)) ::UnityEngine::UIElements::UIR::BMPAlloc Invalid;
 
-  /// @brief Method Equals, addr 0x49ae998, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x49b1bfc, size 0x38, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UIR::BMPAlloc other);
 
-  /// @brief Method IsValid, addr 0x49ac574, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x49af7d8, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method ToString, addr 0x49ae9d0, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x49b1c34, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_Invalid();
@@ -46,7 +46,7 @@ public:
   constexpr BMPAlloc(int32_t page, uint16_t pageLine, uint8_t bitIndex, ::UnityEngine::UIElements::UIR::OwnedState ownedState) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6402 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

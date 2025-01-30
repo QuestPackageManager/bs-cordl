@@ -35,16 +35,16 @@ public:
 
   __declspec(property(put = set_Width)) int32_t Width;
 
-  /// @brief Method set_Height, addr 0x485e5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Height, addr 0x4861818, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(int32_t value);
 
-  /// @brief Method set_ImageFormat, addr 0x485e5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ImageFormat, addr 0x4861808, size 0x8, virtual false, abstract: false, final false
   inline void set_ImageFormat(::UnityEngine::TextureFormat value);
 
-  /// @brief Method set_RawImageDataReference, addr 0x485e59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RawImageDataReference, addr 0x4861800, size 0x8, virtual false, abstract: false, final false
   inline void set_RawImageDataReference(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method set_Width, addr 0x485e5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Width, addr 0x4861810, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(int32_t value);
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
                                int32_t _Width_k__BackingField, int32_t _Height_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10570 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

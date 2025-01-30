@@ -87,7 +87,7 @@ public:
 
   static inline ::System::Net::Security::SslStream___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <SetAndVerifySelectionCallback>b__0, addr 0x4405ad0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <SetAndVerifySelectionCallback>b__0, addr 0x4408d34, size 0x38, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _SetAndVerifySelectionCallback_b__0(::StringW t,
                                                                                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                                   ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
-  /// @brief Method .ctor, addr 0x4405314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4408578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   SslStream___c__DisplayClass21_0(SslStream___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9900 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Security::LocalCertificateSelectionCallback* ___callback;
@@ -192,51 +192,51 @@ public:
   /// @brief Field validationCallback, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_validationCallback, put = __cordl_internal_set_validationCallback)) ::System::Net::Security::RemoteCertificateValidationCallback* validationCallback;
 
-  /// @brief Method AuthenticateAsClient, addr 0x440531c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method AuthenticateAsClient, addr 0x4408580, size 0x54, virtual true, abstract: false, final false
   inline void AuthenticateAsClient(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates,
                                    ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
 
-  /// @brief Method AuthenticateAsClientAsync, addr 0x4405444, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method AuthenticateAsClientAsync, addr 0x44086a8, size 0x54, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AuthenticateAsClientAsync(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates,
                                                                      ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
 
-  /// @brief Method AuthenticateAsServer, addr 0x44053f0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method AuthenticateAsServer, addr 0x4408654, size 0x54, virtual true, abstract: false, final false
   inline void AuthenticateAsServer(::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, bool clientCertificateRequired,
                                    ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
 
-  /// @brief Method BeginAuthenticateAsClient, addr 0x4405370, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method BeginAuthenticateAsClient, addr 0x44085d4, size 0x74, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginAuthenticateAsClient(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates,
                                                            ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation,
                                                            ::System::AsyncCallback* asyncCallback, ::System::Object* asyncState);
 
-  /// @brief Method BeginRead, addr 0x44059a4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x4408c08, size 0x6c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x4405a58, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x4408cbc, size 0x6c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method CheckDisposed, addr 0x4404e20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CheckDisposed, addr 0x4408084, size 0x5c, virtual false, abstract: false, final false
   inline void CheckDisposed();
 
-  /// @brief Method Dispose, addr 0x4405798, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x44089fc, size 0xac, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndAuthenticateAsClient, addr 0x44053e4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndAuthenticateAsClient, addr 0x4408648, size 0xc, virtual true, abstract: false, final false
   inline void EndAuthenticateAsClient(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndRead, addr 0x4405a10, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x4408c74, size 0x48, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x4405ac4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x4408d28, size 0xc, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Flush, addr 0x4405774, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x44089d8, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x4405750, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x44089b4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetProvider, addr 0x4404ea0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x4408104, size 0x70, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProvider();
 
   static inline ::System::Net::Security::SslStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsProvider* provider,
@@ -249,28 +249,28 @@ public:
                                                              ::System::Net::Security::RemoteCertificateValidationCallback* userCertificateValidationCallback,
                                                              ::System::Net::Security::LocalCertificateSelectionCallback* userCertificateSelectionCallback);
 
-  /// @brief Method Read, addr 0x4405844, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x4408aa8, size 0x54, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAsync, addr 0x44058ec, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x4408b50, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Seek, addr 0x44056f8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x440895c, size 0x58, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetAndVerifySelectionCallback, addr 0x4405084, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetAndVerifySelectionCallback, addr 0x44082e8, size 0x16c, virtual false, abstract: false, final false
   inline void SetAndVerifySelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* callback);
 
-  /// @brief Method SetAndVerifyValidationCallback, addr 0x4404fac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetAndVerifyValidationCallback, addr 0x4408210, size 0xd8, virtual false, abstract: false, final false
   inline void SetAndVerifyValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* callback);
 
-  /// @brief Method SetLength, addr 0x44056bc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x4408920, size 0x3c, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x4405898, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x4408afc, size 0x54, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteAsync, addr 0x4405948, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x4408bac, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr bool const& __cordl_internal_get_explicitSettings() const;
@@ -309,59 +309,59 @@ public:
 
   constexpr void __cordl_internal_set_validationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  /// @brief Method .ctor, addr 0x44051f0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4408454, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsProvider* provider, ::Mono::Security::Interface::MonoTlsSettings* settings);
 
-  /// @brief Method .ctor, addr 0x4404f10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4408174, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback* userCertificateValidationCallback);
 
-  /// @brief Method .ctor, addr 0x4404f1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4408180, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::RemoteCertificateValidationCallback* userCertificateValidationCallback,
                     ::System::Net::Security::LocalCertificateSelectionCallback* userCertificateSelectionCallback);
 
-  /// @brief Method get_CanRead, addr 0x44054f0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x4408754, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x44054e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x440874c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanTimeout, addr 0x4405508, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanTimeout, addr 0x440876c, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanTimeout();
 
-  /// @brief Method get_CanWrite, addr 0x4405528, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x440878c, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Impl, addr 0x4404e08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Impl, addr 0x440806c, size 0x18, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Impl();
 
-  /// @brief Method get_InternalTargetHost, addr 0x4404e7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_InternalTargetHost, addr 0x44080e0, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_InternalTargetHost();
 
-  /// @brief Method get_IsAuthenticated, addr 0x4405498, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_IsAuthenticated, addr 0x44086fc, size 0x2c, virtual true, abstract: false, final false
   inline bool get_IsAuthenticated();
 
-  /// @brief Method get_Length, addr 0x4405610, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4408874, size 0x28, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_LocalCertificate, addr 0x44054c4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_LocalCertificate, addr 0x4408728, size 0x24, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalCertificate();
 
-  /// @brief Method get_Position, addr 0x4405638, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x440889c, size 0x2c, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method get_ReadTimeout, addr 0x4405540, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_ReadTimeout, addr 0x44087a4, size 0x2c, virtual true, abstract: false, final false
   inline int32_t get_ReadTimeout();
 
-  /// @brief Method get_WriteTimeout, addr 0x44055a8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_WriteTimeout, addr 0x440880c, size 0x2c, virtual true, abstract: false, final false
   inline int32_t get_WriteTimeout();
 
-  /// @brief Method set_Position, addr 0x4405664, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x44088c8, size 0x58, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method set_ReadTimeout, addr 0x440556c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method set_ReadTimeout, addr 0x44087d0, size 0x3c, virtual true, abstract: false, final false
   inline void set_ReadTimeout(int32_t value);
 
-  /// @brief Method set_WriteTimeout, addr 0x44055d4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method set_WriteTimeout, addr 0x4408838, size 0x3c, virtual true, abstract: false, final false
   inline void set_WriteTimeout(int32_t value);
 
 protected:
@@ -379,7 +379,7 @@ public:
   SslStream(SslStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9901 };
 
   /// @brief Field provider, offset: 0x38, size: 0x8, def value: None
   ::Mono::Net::Security::MobileTlsProvider* ___provider;

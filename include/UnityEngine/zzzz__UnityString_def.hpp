@@ -22,7 +22,7 @@ namespace UnityEngine {
 class CORDL_TYPE UnityString : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x49162b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x4919514, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
@@ -40,7 +40,7 @@ public:
   UnityString(UnityString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

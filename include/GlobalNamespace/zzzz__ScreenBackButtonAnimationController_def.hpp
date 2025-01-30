@@ -81,7 +81,7 @@ public:
   static ::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType const MoveOut2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16781 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,12 +114,12 @@ public:
   /// @brief Field _animator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Method Awake, addr 0x2282888, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2283664, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ScreenBackButtonAnimationController* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x22828a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x2283684, size 0x70, virtual false, abstract: false, final false
   inline void StartAnimation(::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType animationType);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType, int32_t>* const& __cordl_internal_get__animationHashes() const;
@@ -134,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x2282918, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22836f4, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -152,7 +152,7 @@ public:
   ScreenBackButtonAnimationController(ScreenBackButtonAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16782 };
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;

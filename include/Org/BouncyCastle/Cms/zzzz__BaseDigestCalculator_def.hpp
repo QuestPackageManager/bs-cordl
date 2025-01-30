@@ -26,7 +26,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
 
-  /// @brief Method GetDigest, addr 0x264cae4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetDigest, addr 0x264db00, size 0x5c, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   static inline ::Org::BouncyCastle::Cms::BaseDigestCalculator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x264cabc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264dad8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"

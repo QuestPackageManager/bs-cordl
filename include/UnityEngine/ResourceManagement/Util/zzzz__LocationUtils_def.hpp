@@ -24,11 +24,11 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE LocationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DependenciesEqual, addr 0x4796024, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method DependenciesEqual, addr 0x4799288, size 0x28c, virtual false, abstract: false, final false
   static inline bool DependenciesEqual(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps1,
                                        ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps2);
 
-  /// @brief Method LocationEquals, addr 0x4795be0, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method LocationEquals, addr 0x4798e44, size 0x2f4, virtual false, abstract: false, final false
   static inline bool LocationEquals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc1, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc2);
 
 protected:
@@ -46,7 +46,7 @@ public:
   LocationUtils(LocationUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,7 +29,7 @@ public:
   constexpr HmdQuad_t(::OVR::OpenVR::HmdVector3_t vCorners0, ::OVR::OpenVR::HmdVector3_t vCorners1, ::OVR::OpenVR::HmdVector3_t vCorners2, ::OVR::OpenVR::HmdVector3_t vCorners3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8970 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

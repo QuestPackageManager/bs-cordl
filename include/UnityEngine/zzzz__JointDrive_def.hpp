@@ -33,34 +33,34 @@ public:
 
   __declspec(property(get = get_useAcceleration, put = set_useAcceleration)) bool useAcceleration;
 
-  /// @brief Method get_maximumForce, addr 0x48f2cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maximumForce, addr 0x48f5f38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maximumForce();
 
-  /// @brief Method get_mode, addr 0x48f2d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x48f5f64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDriveMode get_mode();
 
-  /// @brief Method get_positionDamper, addr 0x48f2cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionDamper, addr 0x48f5f28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionDamper();
 
-  /// @brief Method get_positionSpring, addr 0x48f2cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionSpring, addr 0x48f5f18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionSpring();
 
-  /// @brief Method get_useAcceleration, addr 0x48f2ce4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_useAcceleration, addr 0x48f5f48, size 0x10, virtual false, abstract: false, final false
   inline bool get_useAcceleration();
 
-  /// @brief Method set_maximumForce, addr 0x48f2cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maximumForce, addr 0x48f5f40, size 0x8, virtual false, abstract: false, final false
   inline void set_maximumForce(float_t value);
 
-  /// @brief Method set_mode, addr 0x48f2d08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x48f5f6c, size 0x4, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::JointDriveMode value);
 
-  /// @brief Method set_positionDamper, addr 0x48f2ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionDamper, addr 0x48f5f30, size 0x8, virtual false, abstract: false, final false
   inline void set_positionDamper(float_t value);
 
-  /// @brief Method set_positionSpring, addr 0x48f2cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionSpring, addr 0x48f5f20, size 0x8, virtual false, abstract: false, final false
   inline void set_positionSpring(float_t value);
 
-  /// @brief Method set_useAcceleration, addr 0x48f2cf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useAcceleration, addr 0x48f5f58, size 0xc, virtual false, abstract: false, final false
   inline void set_useAcceleration(bool value);
 
   // Ctor Parameters []
@@ -72,7 +72,7 @@ public:
   constexpr JointDrive(float_t m_PositionSpring, float_t m_PositionDamper, float_t m_MaximumForce, int32_t m_UseAcceleration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15717 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

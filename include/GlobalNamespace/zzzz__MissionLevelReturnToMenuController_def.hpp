@@ -47,7 +47,7 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x3bad510, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x3bb2df4, size 0xb0, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3bad5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb2ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
@@ -89,7 +89,7 @@ public:
   MissionLevelReturnToMenuController(MissionLevelReturnToMenuController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4452 };
 
   /// @brief Field _missionLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelSceneSetupData;

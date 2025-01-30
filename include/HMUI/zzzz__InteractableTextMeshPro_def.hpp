@@ -43,7 +43,7 @@ public:
 
   static inline ::HMUI::InteractableTextMeshPro* New_ctor();
 
-  /// @brief Method OnCanvasGroupChanged, addr 0x39ed5c4, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasGroupChanged, addr 0x39efa50, size 0x194, virtual true, abstract: false, final false
   inline void OnCanvasGroupChanged();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* const& __cordl_internal_get__canvasGroupCache() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x39ed758, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39efbe4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   InteractableTextMeshPro(InteractableTextMeshPro const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16032 };
 
   /// @brief Field _interactionAlpha, offset: 0x20, size: 0x4, def value: None
   float_t ____interactionAlpha;

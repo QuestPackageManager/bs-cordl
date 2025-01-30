@@ -166,7 +166,7 @@ public:
   NetPacketProcessor_HashCache_1(NetPacketProcessor_HashCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16574 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,18 +179,18 @@ namespace LiteNetLib::Utils {
 class CORDL_TYPE NetPacketProcessor_SubscribeDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3abf104, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ac1590, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3abf12c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ac15b8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3abf0f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ac157c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3abefec, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac1478, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -208,7 +208,7 @@ public:
   NetPacketProcessor_SubscribeDelegate(NetPacketProcessor_SubscribeDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16575 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -275,7 +275,7 @@ public:
   NetPacketProcessor___c__DisplayClass25_0_1(NetPacketProcessor___c__DisplayClass25_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16576 };
 
   /// @brief Field packetConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___packetConstructor;
@@ -349,7 +349,7 @@ public:
   NetPacketProcessor___c__DisplayClass26_0_2(NetPacketProcessor___c__DisplayClass26_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16577 };
 
   /// @brief Field packetConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___packetConstructor;
@@ -423,7 +423,7 @@ public:
   NetPacketProcessor___c__DisplayClass27_0_1(NetPacketProcessor___c__DisplayClass27_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16578 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetPacketProcessor* _____4__this;
@@ -497,7 +497,7 @@ public:
   NetPacketProcessor___c__DisplayClass28_0_2(NetPacketProcessor___c__DisplayClass28_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16579 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetPacketProcessor* _____4__this;
@@ -562,7 +562,7 @@ public:
   NetPacketProcessor___c__DisplayClass29_0_2(NetPacketProcessor___c__DisplayClass29_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16580 };
 
   /// @brief Field packetConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___packetConstructor;
@@ -624,7 +624,7 @@ public:
   NetPacketProcessor___c__DisplayClass30_0_1(NetPacketProcessor___c__DisplayClass30_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16581 };
 
   /// @brief Field packetConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___packetConstructor;
@@ -686,7 +686,7 @@ public:
   NetPacketProcessor___c__DisplayClass31_0_2(NetPacketProcessor___c__DisplayClass31_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16582 };
 
   /// @brief Field reference, offset: 0x10, size: 0x8, def value: None
   T ___reference;
@@ -748,7 +748,7 @@ public:
   NetPacketProcessor___c__DisplayClass32_0_1(NetPacketProcessor___c__DisplayClass32_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16583 };
 
   /// @brief Field reference, offset: 0x10, size: 0x8, def value: None
   T ___reference;
@@ -797,7 +797,7 @@ public:
   /// @brief Field _netSerializer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__netSerializer, put = __cordl_internal_set__netSerializer)) ::LiteNetLib::Utils::NetSerializer* _netSerializer;
 
-  /// @brief Method GetCallbackFromData, addr 0x3abedac, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetCallbackFromData, addr 0x3ac1238, size 0xcc, virtual true, abstract: false, final false
   inline ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method GetHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -807,16 +807,16 @@ public:
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor(int32_t maxStringLength);
 
-  /// @brief Method ReadAllPackets, addr 0x3abeee0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x3ac136c, size 0x5c, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadAllPackets, addr 0x3abef44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x3ac13d0, size 0x60, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method ReadPacket, addr 0x3abef3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x3ac13c8, size 0x8, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadPacket, addr 0x3abefa4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x3ac1430, size 0x48, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -901,10 +901,10 @@ public:
 
   constexpr void __cordl_internal_set__netSerializer(::LiteNetLib::Utils::NetSerializer* value);
 
-  /// @brief Method .ctor, addr 0x3abeb58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac0fe4, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3abec40, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac10cc, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
 protected:
@@ -922,7 +922,7 @@ public:
   NetPacketProcessor(NetPacketProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16584 };
 
   /// @brief Field _netSerializer, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetSerializer* ____netSerializer;

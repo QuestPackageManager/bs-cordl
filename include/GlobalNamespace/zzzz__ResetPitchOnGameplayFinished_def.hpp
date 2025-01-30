@@ -31,10 +31,10 @@ public:
   __declspec(property(get = __cordl_internal_get__gameplayLevelSceneTransitionEvents,
                       put = __cordl_internal_set__gameplayLevelSceneTransitionEvents)) ::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
-  /// @brief Method Finalize, addr 0x3ad3774, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3ad6154, size 0x104, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x3ad3878, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x3ad6258, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
   static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  /// @brief Method .ctor, addr 0x3ad36c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad60a8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO* audioManager);
 
 protected:
@@ -70,7 +70,7 @@ public:
   ResetPitchOnGameplayFinished(ResetPitchOnGameplayFinished const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4024 };
 
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayLevelSceneTransitionEvents* ____gameplayLevelSceneTransitionEvents;

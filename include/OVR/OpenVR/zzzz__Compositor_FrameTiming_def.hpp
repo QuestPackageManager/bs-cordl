@@ -44,7 +44,7 @@ public:
                                    float_t m_flCompositorUpdateEndMs, float_t m_flCompositorRenderStartMs, ::OVR::OpenVR::TrackedDevicePose_t m_HmdPose) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9020 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };

@@ -51,21 +51,21 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x421cff8, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x422025c, size 0x148, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x421d140, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x42203a4, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ContentRangeHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x421cff0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x4220254, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x421d750, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42209b4, size 0x25c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x421d22c, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4220490, size 0x3d8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
 
   constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__From_k__BackingField() const;
@@ -92,31 +92,31 @@ public:
 
   constexpr void __cordl_internal_set_unit(::StringW value);
 
-  /// @brief Method .ctor, addr 0x421cf5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42201c0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_From, addr 0x421cfac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_From, addr 0x4220210, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_From();
 
-  /// @brief Method get_Length, addr 0x421cfc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4220224, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_Length();
 
-  /// @brief Method get_To, addr 0x421cfd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_To, addr 0x4220238, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_To();
 
-  /// @brief Method get_Unit, addr 0x421cfe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unit, addr 0x422024c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Unit();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_From, addr 0x421cfb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_From, addr 0x422021c, size 0x8, virtual false, abstract: false, final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_Length, addr 0x421cfcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Length, addr 0x4220230, size 0x8, virtual false, abstract: false, final false
   inline void set_Length(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_To, addr 0x421cfe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_To, addr 0x4220244, size 0x8, virtual false, abstract: false, final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
 protected:
@@ -134,7 +134,7 @@ public:
   ContentRangeHeaderValue(ContentRangeHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16702 };
 
   /// @brief Field unit, offset: 0x10, size: 0x8, def value: None
   ::StringW ___unit;

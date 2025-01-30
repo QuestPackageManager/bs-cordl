@@ -69,7 +69,7 @@ public:
   constexpr TextureBlitter_BlitInfo(::UnityW<::UnityEngine::Texture> src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, int32_t border, ::UnityEngine::Color tint) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6398 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -149,30 +149,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginBlit, addr 0x49ad4f4, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method BeginBlit, addr 0x49b0758, size 0x1f8, virtual false, abstract: false, final false
   inline void BeginBlit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method BlitOneNow, addr 0x49ad47c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BlitOneNow, addr 0x49b06e0, size 0x78, virtual false, abstract: false, final false
   inline void BlitOneNow(::UnityEngine::RenderTexture* dst, ::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
-  /// @brief Method Commit, addr 0x49add08, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x49b0f6c, size 0xec, virtual false, abstract: false, final false
   inline void Commit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method Dispose, addr 0x49ad068, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49b02cc, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49ad0d4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49b0338, size 0x7c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DoBlit, addr 0x49ad6ec, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method DoBlit, addr 0x49b0950, size 0x5a0, virtual false, abstract: false, final false
   inline void DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>* blitInfos, int32_t startIndex);
 
-  /// @brief Method EndBlit, addr 0x49adc8c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EndBlit, addr 0x49b0ef0, size 0x7c, virtual false, abstract: false, final false
   inline void EndBlit();
 
   static inline ::UnityEngine::UIElements::UIR::TextureBlitter* New_ctor(int32_t capacity);
 
-  /// @brief Method QueueBlit, addr 0x49ad330, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method QueueBlit, addr 0x49b0594, size 0x14c, virtual false, abstract: false, final false
   inline void QueueBlit(::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -217,14 +217,14 @@ public:
 
   constexpr void __cordl_internal_set_m_Viewport(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x49ad27c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b04e0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_TextureIds();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_CommitSampler();
 
-  /// @brief Method get_disposed, addr 0x49ad054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49b02b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -234,7 +234,7 @@ public:
 
   static inline void setStaticF_s_CommitSampler(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x49ad05c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49b02c0, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -252,7 +252,7 @@ public:
   TextureBlitter(TextureBlitter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6399 };
 
   /// @brief Field m_SingleBlit, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo, ::Array<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*> ___m_SingleBlit;

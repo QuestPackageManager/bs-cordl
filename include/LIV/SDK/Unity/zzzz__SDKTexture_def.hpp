@@ -26,10 +26,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKTexture {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3ac8914, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3acada0, size 0x3a4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3ac2838, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac4cc4, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTexture get_empty();
 
   // Ctor Parameters []
@@ -45,7 +45,7 @@ public:
                        ::LIV::SDK::Unity::TEXTURE_TYPE type, ::LIV::SDK::Unity::TEXTURE_FORMAT format, ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE colorSpace, int32_t width, int32_t height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17330 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

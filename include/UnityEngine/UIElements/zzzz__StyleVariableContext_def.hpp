@@ -42,7 +42,7 @@ public:
   constexpr StyleVariableContext___c__DisplayClass7_0(int32_t hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6187 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -82,26 +82,26 @@ public:
   /// @brief Field none, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_none, put = setStaticF_none)) ::UnityEngine::UIElements::StyleVariableContext* none;
 
-  /// @brief Method Add, addr 0x4a8c74c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4a8f9b0, size 0x310, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleVariable sv);
 
-  /// @brief Method AddInitialRange, addr 0x4a8ca6c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddInitialRange, addr 0x4a8fcd0, size 0x10c, virtual false, abstract: false, final false
   inline void AddInitialRange(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method Clear, addr 0x4a8cb78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4a8fddc, size 0xb0, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetVariableHash, addr 0x4a8cf04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVariableHash, addr 0x4a90168, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetVariableHash();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method TryFindVariable, addr 0x4a8ce18, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryFindVariable, addr 0x4a9007c, size 0xec, virtual false, abstract: false, final false
   inline bool TryFindVariable(::StringW name, ::ByRef<::UnityEngine::UIElements::StyleVariable> v);
 
-  /// @brief Method <Add>g__ComputeOrderSensitiveHash|7_0, addr 0x4a8ca5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Add>g__ComputeOrderSensitiveHash|7_0, addr 0x4a8fcc0, size 0x10, virtual false, abstract: false, final false
   static inline int32_t _Add_g__ComputeOrderSensitiveHash_7_0(int32_t index, ::ByRef<::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_SortedHash() const;
@@ -128,10 +128,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Variables(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* value);
 
-  /// @brief Method .ctor, addr 0x4a8cc28, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8fe8c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a8cd0c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8ff70, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* getStaticF_none();
@@ -153,7 +153,7 @@ public:
   StyleVariableContext(StyleVariableContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6188 };
 
   /// @brief Field m_VariableHash, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_VariableHash;

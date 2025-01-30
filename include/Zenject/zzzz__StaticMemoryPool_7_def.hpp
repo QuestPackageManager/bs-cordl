@@ -87,7 +87,7 @@ public:
   StaticMemoryPool_7(StaticMemoryPool_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12432 };
 
   /// @brief Field _onSpawnMethod, offset: 0x28, size: 0x8, def value: None
   ::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* ____onSpawnMethod;

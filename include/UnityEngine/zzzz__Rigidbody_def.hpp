@@ -113,454 +113,454 @@ public:
 
   __declspec(property(get = get_worldCenterOfMass)) ::UnityEngine::Vector3 worldCenterOfMass;
 
-  /// @brief Method AddExplosionForce, addr 0x49061a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddExplosionForce, addr 0x4909408, size 0xc, virtual false, abstract: false, final false
   inline void AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius);
 
-  /// @brief Method AddExplosionForce, addr 0x490619c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddExplosionForce, addr 0x4909400, size 0x8, virtual false, abstract: false, final false
   inline void AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius, float_t upwardsModifier);
 
-  /// @brief Method AddExplosionForce, addr 0x490609c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AddExplosionForce, addr 0x4909300, size 0x84, virtual false, abstract: false, final false
   inline void AddExplosionForce(float_t explosionForce, ::UnityEngine::Vector3 explosionPosition, float_t explosionRadius, float_t upwardsModifier, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddExplosionForce_Injected, addr 0x4906120, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddExplosionForce_Injected, addr 0x4909384, size 0x7c, virtual false, abstract: false, final false
   inline void AddExplosionForce_Injected(float_t explosionForce, ::ByRef<::UnityEngine::Vector3> explosionPosition, float_t explosionRadius, float_t upwardsModifier, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddForce, addr 0x4905d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddForce, addr 0x4908fd4, size 0x8, virtual false, abstract: false, final false
   inline void AddForce(::UnityEngine::Vector3 force);
 
-  /// @brief Method AddForce, addr 0x4905cc0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddForce, addr 0x4908f24, size 0x5c, virtual false, abstract: false, final false
   inline void AddForce(::UnityEngine::Vector3 force, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddForce, addr 0x4905d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddForce, addr 0x4908fe0, size 0x8, virtual false, abstract: false, final false
   inline void AddForce(float_t x, float_t y, float_t z);
 
-  /// @brief Method AddForce, addr 0x4905d78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddForce, addr 0x4908fdc, size 0x4, virtual false, abstract: false, final false
   inline void AddForce(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddForceAtPosition, addr 0x4906094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddForceAtPosition, addr 0x49092f8, size 0x8, virtual false, abstract: false, final false
   inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position);
 
-  /// @brief Method AddForceAtPosition, addr 0x4905fd0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddForceAtPosition, addr 0x4909234, size 0x68, virtual false, abstract: false, final false
   inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddForceAtPosition_Injected, addr 0x4906038, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddForceAtPosition_Injected, addr 0x490929c, size 0x5c, virtual false, abstract: false, final false
   inline void AddForceAtPosition_Injected(::ByRef<::UnityEngine::Vector3> force, ::ByRef<::UnityEngine::Vector3> position, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddForce_Injected, addr 0x4905d1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddForce_Injected, addr 0x4908f80, size 0x54, virtual false, abstract: false, final false
   inline void AddForce_Injected(::ByRef<::UnityEngine::Vector3> force, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddRelativeForce, addr 0x4905e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeForce, addr 0x4909098, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeForce(::UnityEngine::Vector3 force);
 
-  /// @brief Method AddRelativeForce, addr 0x4905d84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeForce, addr 0x4908fe8, size 0x5c, virtual false, abstract: false, final false
   inline void AddRelativeForce(::UnityEngine::Vector3 force, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddRelativeForce, addr 0x4905e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeForce, addr 0x49090a4, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeForce(float_t x, float_t y, float_t z);
 
-  /// @brief Method AddRelativeForce, addr 0x4905e3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeForce, addr 0x49090a0, size 0x4, virtual false, abstract: false, final false
   inline void AddRelativeForce(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddRelativeForce_Injected, addr 0x4905de0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeForce_Injected, addr 0x4909044, size 0x54, virtual false, abstract: false, final false
   inline void AddRelativeForce_Injected(::ByRef<::UnityEngine::Vector3> force, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddRelativeTorque, addr 0x4905fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeTorque, addr 0x4909220, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeTorque(::UnityEngine::Vector3 torque);
 
-  /// @brief Method AddRelativeTorque, addr 0x4905f0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeTorque, addr 0x4909170, size 0x5c, virtual false, abstract: false, final false
   inline void AddRelativeTorque(::UnityEngine::Vector3 torque, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddRelativeTorque, addr 0x4905fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeTorque, addr 0x490922c, size 0x8, virtual false, abstract: false, final false
   inline void AddRelativeTorque(float_t x, float_t y, float_t z);
 
-  /// @brief Method AddRelativeTorque, addr 0x4905fc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeTorque, addr 0x4909228, size 0x4, virtual false, abstract: false, final false
   inline void AddRelativeTorque(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddRelativeTorque_Injected, addr 0x4905f68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddRelativeTorque_Injected, addr 0x49091cc, size 0x54, virtual false, abstract: false, final false
   inline void AddRelativeTorque_Injected(::ByRef<::UnityEngine::Vector3> torque, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddTorque, addr 0x4905ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddTorque, addr 0x490915c, size 0x8, virtual false, abstract: false, final false
   inline void AddTorque(::UnityEngine::Vector3 torque);
 
-  /// @brief Method AddTorque, addr 0x4905e48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddTorque, addr 0x49090ac, size 0x5c, virtual false, abstract: false, final false
   inline void AddTorque(::UnityEngine::Vector3 torque, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddTorque, addr 0x4905f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddTorque, addr 0x4909168, size 0x8, virtual false, abstract: false, final false
   inline void AddTorque(float_t x, float_t y, float_t z);
 
-  /// @brief Method AddTorque, addr 0x4905f00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddTorque, addr 0x4909164, size 0x4, virtual false, abstract: false, final false
   inline void AddTorque(float_t x, float_t y, float_t z, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method AddTorque_Injected, addr 0x4905ea4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddTorque_Injected, addr 0x4909108, size 0x54, virtual false, abstract: false, final false
   inline void AddTorque_Injected(::ByRef<::UnityEngine::Vector3> torque, ::UnityEngine::ForceMode mode);
 
-  /// @brief Method ClosestPointOnBounds, addr 0x4906278, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClosestPointOnBounds, addr 0x49094dc, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnBounds(::UnityEngine::Vector3 position);
 
-  /// @brief Method GetAccumulatedForce, addr 0x4905bc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulatedForce, addr 0x4908e2c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetAccumulatedForce();
 
-  /// @brief Method GetAccumulatedForce, addr 0x4905b08, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulatedForce, addr 0x4908d6c, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetAccumulatedForce(float_t step);
 
-  /// @brief Method GetAccumulatedForce_Injected, addr 0x4905b74, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulatedForce_Injected, addr 0x4908dd8, size 0x54, virtual false, abstract: false, final false
   inline void GetAccumulatedForce_Injected(float_t step, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method GetAccumulatedTorque, addr 0x4905ca4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulatedTorque, addr 0x4908f08, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetAccumulatedTorque();
 
-  /// @brief Method GetAccumulatedTorque, addr 0x4905be4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulatedTorque, addr 0x4908e48, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetAccumulatedTorque(float_t step);
 
-  /// @brief Method GetAccumulatedTorque_Injected, addr 0x4905c50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulatedTorque_Injected, addr 0x4908eb4, size 0x54, virtual false, abstract: false, final false
   inline void GetAccumulatedTorque_Injected(float_t step, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method GetPointVelocity, addr 0x4905794, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPointVelocity, addr 0x49089f8, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPointVelocity(::UnityEngine::Vector3 worldPoint);
 
-  /// @brief Method GetPointVelocity_Injected, addr 0x49057fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPointVelocity_Injected, addr 0x4908a60, size 0x54, virtual false, abstract: false, final false
   inline void GetPointVelocity_Injected(::ByRef<::UnityEngine::Vector3> worldPoint, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method GetRelativePointVelocity, addr 0x49056d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetRelativePointVelocity, addr 0x490893c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetRelativePointVelocity(::UnityEngine::Vector3 relativePoint);
 
-  /// @brief Method GetRelativePointVelocity_Injected, addr 0x4905740, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetRelativePointVelocity_Injected, addr 0x49089a4, size 0x54, virtual false, abstract: false, final false
   inline void GetRelativePointVelocity_Injected(::ByRef<::UnityEngine::Vector3> relativePoint, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method Internal_ClosestPointOnBounds, addr 0x49061b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_ClosestPointOnBounds, addr 0x4909414, size 0x6c, virtual false, abstract: false, final false
   inline void Internal_ClosestPointOnBounds(::UnityEngine::Vector3 point, ::ByRef<::UnityEngine::Vector3> outPos, ::ByRef<float_t> distance);
 
-  /// @brief Method Internal_ClosestPointOnBounds_Injected, addr 0x490621c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_ClosestPointOnBounds_Injected, addr 0x4909480, size 0x5c, virtual false, abstract: false, final false
   inline void Internal_ClosestPointOnBounds_Injected(::ByRef<::UnityEngine::Vector3> point, ::ByRef<::UnityEngine::Vector3> outPos, ::ByRef<float_t> distance);
 
-  /// @brief Method Internal_SweepTestAll, addr 0x4906558, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SweepTestAll, addr 0x49097bc, size 0x6c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> Internal_SweepTestAll(::UnityEngine::Vector3 direction, float_t maxDistance,
                                                                                                         ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_SweepTestAll_Injected, addr 0x49065c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_SweepTestAll_Injected, addr 0x4909828, size 0x64, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> Internal_SweepTestAll_Injected(::ByRef<::UnityEngine::Vector3> direction, float_t maxDistance,
                                                                                                                  ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method IsSleeping, addr 0x49055e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsSleeping, addr 0x490884c, size 0x3c, virtual false, abstract: false, final false
   inline bool IsSleeping();
 
-  /// @brief Method Move, addr 0x49054f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x490875c, size 0x60, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method MovePosition, addr 0x49053c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MovePosition, addr 0x490862c, size 0x54, virtual false, abstract: false, final false
   inline void MovePosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method MovePosition_Injected, addr 0x490541c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method MovePosition_Injected, addr 0x4908680, size 0x44, virtual false, abstract: false, final false
   inline void MovePosition_Injected(::ByRef<::UnityEngine::Vector3> position);
 
-  /// @brief Method MoveRotation, addr 0x4905460, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MoveRotation, addr 0x49086c4, size 0x54, virtual false, abstract: false, final false
   inline void MoveRotation(::UnityEngine::Quaternion rot);
 
-  /// @brief Method MoveRotation_Injected, addr 0x49054b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method MoveRotation_Injected, addr 0x4908718, size 0x44, virtual false, abstract: false, final false
   inline void MoveRotation_Injected(::ByRef<::UnityEngine::Quaternion> rot);
 
-  /// @brief Method Move_Injected, addr 0x4905558, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Move_Injected, addr 0x49087bc, size 0x54, virtual false, abstract: false, final false
   inline void Move_Injected(::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Quaternion> rotation);
 
   static inline ::UnityEngine::Rigidbody* New_ctor();
 
-  /// @brief Method ResetCenterOfMass, addr 0x4905660, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ResetCenterOfMass, addr 0x49088c4, size 0x3c, virtual false, abstract: false, final false
   inline void ResetCenterOfMass();
 
-  /// @brief Method ResetInertiaTensor, addr 0x490569c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ResetInertiaTensor, addr 0x4908900, size 0x3c, virtual false, abstract: false, final false
   inline void ResetInertiaTensor();
 
-  /// @brief Method SetDensity, addr 0x49045ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetDensity, addr 0x4907810, size 0x4c, virtual false, abstract: false, final false
   inline void SetDensity(float_t density);
 
-  /// @brief Method SetMaxAngularVelocity, addr 0x4906750, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetMaxAngularVelocity, addr 0x49099b4, size 0x4c, virtual false, abstract: false, final false
   inline void SetMaxAngularVelocity(float_t a);
 
-  /// @brief Method Sleep, addr 0x49055ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Sleep, addr 0x4908810, size 0x3c, virtual false, abstract: false, final false
   inline void Sleep();
 
-  /// @brief Method SweepTest, addr 0x490631c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SweepTest, addr 0x4909580, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit SweepTest(::UnityEngine::Vector3 direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::ByRef<bool> hasHit);
 
-  /// @brief Method SweepTest, addr 0x4906548, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SweepTest, addr 0x49097ac, size 0x10, virtual false, abstract: false, final false
   inline bool SweepTest(::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo);
 
-  /// @brief Method SweepTest, addr 0x4906540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SweepTest, addr 0x49097a4, size 0x8, virtual false, abstract: false, final false
   inline bool SweepTest(::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance);
 
-  /// @brief Method SweepTest, addr 0x4906438, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SweepTest, addr 0x490969c, size 0x108, virtual false, abstract: false, final false
   inline bool SweepTest(::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method SweepTestAll, addr 0x4906728, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SweepTestAll, addr 0x490998c, size 0x10, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> SweepTestAll(::UnityEngine::Vector3 direction);
 
-  /// @brief Method SweepTestAll, addr 0x4906720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SweepTestAll, addr 0x4909984, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> SweepTestAll(::UnityEngine::Vector3 direction, float_t maxDistance);
 
-  /// @brief Method SweepTestAll, addr 0x4906628, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SweepTestAll, addr 0x490988c, size 0xf8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> SweepTestAll(::UnityEngine::Vector3 direction, float_t maxDistance,
                                                                                                ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method SweepTest_Injected, addr 0x49063bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SweepTest_Injected, addr 0x4909620, size 0x7c, virtual false, abstract: false, final false
   inline void SweepTest_Injected(::ByRef<::UnityEngine::Vector3> direction, float_t maxDistance, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::ByRef<bool> hasHit,
                                  ::ByRef<::UnityEngine::RaycastHit> ret);
 
-  /// @brief Method WakeUp, addr 0x4905624, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WakeUp, addr 0x4908888, size 0x3c, virtual false, abstract: false, final false
   inline void WakeUp();
 
-  /// @brief Method .ctor, addr 0x49068a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4909b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_angularDrag, addr 0x490449c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_angularDrag, addr 0x4907700, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_angularDrag();
 
-  /// @brief Method get_angularVelocity, addr 0x49042dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity, addr 0x4907540, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_angularVelocity();
 
-  /// @brief Method get_angularVelocity_Injected, addr 0x4904338, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity_Injected, addr 0x490759c, size 0x44, virtual false, abstract: false, final false
   inline void get_angularVelocity_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_automaticCenterOfMass, addr 0x4904900, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_automaticCenterOfMass, addr 0x4907b64, size 0x3c, virtual false, abstract: false, final false
   inline bool get_automaticCenterOfMass();
 
-  /// @brief Method get_automaticInertiaTensor, addr 0x4904b58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_automaticInertiaTensor, addr 0x4907dbc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_automaticInertiaTensor();
 
-  /// @brief Method get_centerOfMass, addr 0x4904980, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_centerOfMass, addr 0x4907be4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_centerOfMass();
 
-  /// @brief Method get_centerOfMass_Injected, addr 0x49049dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_centerOfMass_Injected, addr 0x4907c40, size 0x44, virtual false, abstract: false, final false
   inline void get_centerOfMass_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_collisionDetectionMode, addr 0x4904880, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_collisionDetectionMode, addr 0x4907ae4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::CollisionDetectionMode get_collisionDetectionMode();
 
-  /// @brief Method get_constraints, addr 0x4904800, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_constraints, addr 0x4907a64, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::RigidbodyConstraints get_constraints();
 
-  /// @brief Method get_detectCollisions, addr 0x4904e44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_detectCollisions, addr 0x49080a8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_detectCollisions();
 
-  /// @brief Method get_drag, addr 0x4904414, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_drag, addr 0x4907678, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_drag();
 
-  /// @brief Method get_excludeLayers, addr 0x49058d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_excludeLayers, addr 0x4908b34, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_excludeLayers();
 
-  /// @brief Method get_excludeLayers_Injected, addr 0x490591c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_excludeLayers_Injected, addr 0x4908b80, size 0x44, virtual false, abstract: false, final false
   inline void get_excludeLayers_Injected(::ByRef<::UnityEngine::LayerMask> ret);
 
-  /// @brief Method get_freezeRotation, addr 0x4904780, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_freezeRotation, addr 0x49079e4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_freezeRotation();
 
-  /// @brief Method get_includeLayers, addr 0x49059ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_includeLayers, addr 0x4908c50, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_includeLayers();
 
-  /// @brief Method get_includeLayers_Injected, addr 0x4905a38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_includeLayers_Injected, addr 0x4908c9c, size 0x44, virtual false, abstract: false, final false
   inline void get_includeLayers_Injected(::ByRef<::UnityEngine::LayerMask> ret);
 
-  /// @brief Method get_inertiaTensor, addr 0x4904d0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_inertiaTensor, addr 0x4907f70, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_inertiaTensor();
 
-  /// @brief Method get_inertiaTensorRotation, addr 0x4904bd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_inertiaTensorRotation, addr 0x4907e3c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_inertiaTensorRotation();
 
-  /// @brief Method get_inertiaTensorRotation_Injected, addr 0x4904c30, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_inertiaTensorRotation_Injected, addr 0x4907e94, size 0x44, virtual false, abstract: false, final false
   inline void get_inertiaTensorRotation_Injected(::ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method get_inertiaTensor_Injected, addr 0x4904d68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_inertiaTensor_Injected, addr 0x4907fcc, size 0x44, virtual false, abstract: false, final false
   inline void get_inertiaTensor_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_interpolation, addr 0x4905130, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_interpolation, addr 0x4908394, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::RigidbodyInterpolation get_interpolation();
 
-  /// @brief Method get_isKinematic, addr 0x4904700, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isKinematic, addr 0x4907964, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isKinematic();
 
-  /// @brief Method get_mass, addr 0x4904524, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mass, addr 0x4907788, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_mass();
 
-  /// @brief Method get_maxAngularVelocity, addr 0x49052b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxAngularVelocity, addr 0x490851c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_maxAngularVelocity();
 
-  /// @brief Method get_maxDepenetrationVelocity, addr 0x4904678, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxDepenetrationVelocity, addr 0x49078dc, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_maxDepenetrationVelocity();
 
-  /// @brief Method get_maxLinearVelocity, addr 0x4905340, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxLinearVelocity, addr 0x49085a4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_maxLinearVelocity();
 
-  /// @brief Method get_position, addr 0x4904ec4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x4908128, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_position_Injected, addr 0x4904f20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_position_Injected, addr 0x4908184, size 0x44, virtual false, abstract: false, final false
   inline void get_position_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_rotation, addr 0x4904ffc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x4908260, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_rotation_Injected, addr 0x4905054, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_rotation_Injected, addr 0x49082b8, size 0x44, virtual false, abstract: false, final false
   inline void get_rotation_Injected(::ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method get_sleepAngularVelocity, addr 0x4906744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sleepAngularVelocity, addr 0x49099a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sleepAngularVelocity();
 
-  /// @brief Method get_sleepThreshold, addr 0x4905230, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sleepThreshold, addr 0x4908494, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_sleepThreshold();
 
-  /// @brief Method get_sleepVelocity, addr 0x4906738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sleepVelocity, addr 0x490999c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sleepVelocity();
 
-  /// @brief Method get_solverIterationCount, addr 0x49067a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_solverIterationCount, addr 0x4909a0c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_solverIterationCount();
 
-  /// @brief Method get_solverIterations, addr 0x49051b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_solverIterations, addr 0x4908414, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_solverIterations();
 
-  /// @brief Method get_solverVelocityIterationCount, addr 0x4906828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_solverVelocityIterationCount, addr 0x4909a8c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_solverVelocityIterationCount();
 
-  /// @brief Method get_solverVelocityIterations, addr 0x4905850, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_solverVelocityIterations, addr 0x4908ab4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_solverVelocityIterations();
 
-  /// @brief Method get_useConeFriction, addr 0x490679c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useConeFriction, addr 0x4909a00, size 0x8, virtual false, abstract: false, final false
   inline bool get_useConeFriction();
 
-  /// @brief Method get_useGravity, addr 0x49045f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useGravity, addr 0x490785c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_useGravity();
 
-  /// @brief Method get_velocity, addr 0x49041a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x4907408, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
-  /// @brief Method get_velocity_Injected, addr 0x4904200, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_velocity_Injected, addr 0x4907464, size 0x44, virtual false, abstract: false, final false
   inline void get_velocity_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_worldCenterOfMass, addr 0x4904ab8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_worldCenterOfMass, addr 0x4907d1c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldCenterOfMass();
 
-  /// @brief Method get_worldCenterOfMass_Injected, addr 0x4904b14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_worldCenterOfMass_Injected, addr 0x4907d78, size 0x44, virtual false, abstract: false, final false
   inline void get_worldCenterOfMass_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_angularDrag, addr 0x49044d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_angularDrag, addr 0x490773c, size 0x4c, virtual false, abstract: false, final false
   inline void set_angularDrag(float_t value);
 
-  /// @brief Method set_angularVelocity, addr 0x490437c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_angularVelocity, addr 0x49075e0, size 0x54, virtual false, abstract: false, final false
   inline void set_angularVelocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_angularVelocity_Injected, addr 0x49043d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularVelocity_Injected, addr 0x4907634, size 0x44, virtual false, abstract: false, final false
   inline void set_angularVelocity_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_automaticCenterOfMass, addr 0x490493c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_automaticCenterOfMass, addr 0x4907ba0, size 0x44, virtual false, abstract: false, final false
   inline void set_automaticCenterOfMass(bool value);
 
-  /// @brief Method set_automaticInertiaTensor, addr 0x4904b94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_automaticInertiaTensor, addr 0x4907df8, size 0x44, virtual false, abstract: false, final false
   inline void set_automaticInertiaTensor(bool value);
 
-  /// @brief Method set_centerOfMass, addr 0x4904a20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_centerOfMass, addr 0x4907c84, size 0x54, virtual false, abstract: false, final false
   inline void set_centerOfMass(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_centerOfMass_Injected, addr 0x4904a74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_centerOfMass_Injected, addr 0x4907cd8, size 0x44, virtual false, abstract: false, final false
   inline void set_centerOfMass_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_collisionDetectionMode, addr 0x49048bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_collisionDetectionMode, addr 0x4907b20, size 0x44, virtual false, abstract: false, final false
   inline void set_collisionDetectionMode(::UnityEngine::CollisionDetectionMode value);
 
-  /// @brief Method set_constraints, addr 0x490483c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_constraints, addr 0x4907aa0, size 0x44, virtual false, abstract: false, final false
   inline void set_constraints(::UnityEngine::RigidbodyConstraints value);
 
-  /// @brief Method set_detectCollisions, addr 0x4904e80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_detectCollisions, addr 0x49080e4, size 0x44, virtual false, abstract: false, final false
   inline void set_detectCollisions(bool value);
 
-  /// @brief Method set_drag, addr 0x4904450, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_drag, addr 0x49076b4, size 0x4c, virtual false, abstract: false, final false
   inline void set_drag(float_t value);
 
-  /// @brief Method set_excludeLayers, addr 0x4905960, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_excludeLayers, addr 0x4908bc4, size 0x48, virtual false, abstract: false, final false
   inline void set_excludeLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_excludeLayers_Injected, addr 0x49059a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_excludeLayers_Injected, addr 0x4908c0c, size 0x44, virtual false, abstract: false, final false
   inline void set_excludeLayers_Injected(::ByRef<::UnityEngine::LayerMask> value);
 
-  /// @brief Method set_freezeRotation, addr 0x49047bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_freezeRotation, addr 0x4907a20, size 0x44, virtual false, abstract: false, final false
   inline void set_freezeRotation(bool value);
 
-  /// @brief Method set_includeLayers, addr 0x4905a7c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_includeLayers, addr 0x4908ce0, size 0x48, virtual false, abstract: false, final false
   inline void set_includeLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_includeLayers_Injected, addr 0x4905ac4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_includeLayers_Injected, addr 0x4908d28, size 0x44, virtual false, abstract: false, final false
   inline void set_includeLayers_Injected(::ByRef<::UnityEngine::LayerMask> value);
 
-  /// @brief Method set_inertiaTensor, addr 0x4904dac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_inertiaTensor, addr 0x4908010, size 0x54, virtual false, abstract: false, final false
   inline void set_inertiaTensor(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_inertiaTensorRotation, addr 0x4904c74, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_inertiaTensorRotation, addr 0x4907ed8, size 0x54, virtual false, abstract: false, final false
   inline void set_inertiaTensorRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_inertiaTensorRotation_Injected, addr 0x4904cc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_inertiaTensorRotation_Injected, addr 0x4907f2c, size 0x44, virtual false, abstract: false, final false
   inline void set_inertiaTensorRotation_Injected(::ByRef<::UnityEngine::Quaternion> value);
 
-  /// @brief Method set_inertiaTensor_Injected, addr 0x4904e00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_inertiaTensor_Injected, addr 0x4908064, size 0x44, virtual false, abstract: false, final false
   inline void set_inertiaTensor_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_interpolation, addr 0x490516c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_interpolation, addr 0x49083d0, size 0x44, virtual false, abstract: false, final false
   inline void set_interpolation(::UnityEngine::RigidbodyInterpolation value);
 
-  /// @brief Method set_isKinematic, addr 0x490473c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_isKinematic, addr 0x49079a0, size 0x44, virtual false, abstract: false, final false
   inline void set_isKinematic(bool value);
 
-  /// @brief Method set_mass, addr 0x4904560, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_mass, addr 0x49077c4, size 0x4c, virtual false, abstract: false, final false
   inline void set_mass(float_t value);
 
-  /// @brief Method set_maxAngularVelocity, addr 0x49052f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxAngularVelocity, addr 0x4908558, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxAngularVelocity(float_t value);
 
-  /// @brief Method set_maxDepenetrationVelocity, addr 0x49046b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxDepenetrationVelocity, addr 0x4907918, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxDepenetrationVelocity(float_t value);
 
-  /// @brief Method set_maxLinearVelocity, addr 0x490537c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxLinearVelocity, addr 0x49085e0, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxLinearVelocity(float_t value);
 
-  /// @brief Method set_position, addr 0x4904f64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x49081c8, size 0x54, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_position_Injected, addr 0x4904fb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_position_Injected, addr 0x490821c, size 0x44, virtual false, abstract: false, final false
   inline void set_position_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_rotation, addr 0x4905098, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x49082fc, size 0x54, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_rotation_Injected, addr 0x49050ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rotation_Injected, addr 0x4908350, size 0x44, virtual false, abstract: false, final false
   inline void set_rotation_Injected(::ByRef<::UnityEngine::Quaternion> value);
 
-  /// @brief Method set_sleepAngularVelocity, addr 0x490674c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_sleepAngularVelocity, addr 0x49099b0, size 0x4, virtual false, abstract: false, final false
   inline void set_sleepAngularVelocity(float_t value);
 
-  /// @brief Method set_sleepThreshold, addr 0x490526c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_sleepThreshold, addr 0x49084d0, size 0x4c, virtual false, abstract: false, final false
   inline void set_sleepThreshold(float_t value);
 
-  /// @brief Method set_sleepVelocity, addr 0x4906740, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_sleepVelocity, addr 0x49099a4, size 0x4, virtual false, abstract: false, final false
   inline void set_sleepVelocity(float_t value);
 
-  /// @brief Method set_solverIterationCount, addr 0x49067e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_solverIterationCount, addr 0x4909a48, size 0x44, virtual false, abstract: false, final false
   inline void set_solverIterationCount(int32_t value);
 
-  /// @brief Method set_solverIterations, addr 0x49051ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_solverIterations, addr 0x4908450, size 0x44, virtual false, abstract: false, final false
   inline void set_solverIterations(int32_t value);
 
-  /// @brief Method set_solverVelocityIterationCount, addr 0x4906864, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_solverVelocityIterationCount, addr 0x4909ac8, size 0x44, virtual false, abstract: false, final false
   inline void set_solverVelocityIterationCount(int32_t value);
 
-  /// @brief Method set_solverVelocityIterations, addr 0x490588c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_solverVelocityIterations, addr 0x4908af0, size 0x44, virtual false, abstract: false, final false
   inline void set_solverVelocityIterations(int32_t value);
 
-  /// @brief Method set_useConeFriction, addr 0x49067a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_useConeFriction, addr 0x4909a08, size 0x4, virtual false, abstract: false, final false
   inline void set_useConeFriction(bool value);
 
-  /// @brief Method set_useGravity, addr 0x4904634, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useGravity, addr 0x4907898, size 0x44, virtual false, abstract: false, final false
   inline void set_useGravity(bool value);
 
-  /// @brief Method set_velocity, addr 0x4904244, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_velocity, addr 0x49074a8, size 0x54, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_velocity_Injected, addr 0x4904298, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_velocity_Injected, addr 0x49074fc, size 0x44, virtual false, abstract: false, final false
   inline void set_velocity_Injected(::ByRef<::UnityEngine::Vector3> value);
 
 protected:
@@ -578,7 +578,7 @@ public:
   Rigidbody(Rigidbody const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15748 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

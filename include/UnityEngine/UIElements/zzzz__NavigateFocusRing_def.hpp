@@ -60,7 +60,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* New_ctor(int32_t i);
 
-  /// @brief Method .ctor, addr 0x4a364e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39744, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t i);
 
 protected:
@@ -78,7 +78,7 @@ public:
   NavigateFocusRing_ChangeDirection(NavigateFocusRing_ChangeDirection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,25 +93,25 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE NavigateFocusRing_FocusableHierarchyTraversal {
 public:
   // Declarations
-  /// @brief Method GetBestOverall, addr 0x4a36154, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetBestOverall, addr 0x4a393b8, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetBestOverall(::UnityEngine::UIElements::VisualElement* candidate, ::UnityEngine::UIElements::VisualElement* bestSoFar);
 
-  /// @brief Method Order, addr 0x4a366dc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Order, addr 0x4a39940, size 0xec, virtual false, abstract: false, final false
   inline int32_t Order(::UnityEngine::UIElements::VisualElement* a, ::UnityEngine::UIElements::VisualElement* b);
 
-  /// @brief Method StrictOrder, addr 0x4a36a64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StrictOrder, addr 0x4a39cc8, size 0x84, virtual false, abstract: false, final false
   inline int32_t StrictOrder(::UnityEngine::UIElements::VisualElement* a, ::UnityEngine::UIElements::VisualElement* b);
 
-  /// @brief Method StrictOrder, addr 0x4a367c8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method StrictOrder, addr 0x4a39a2c, size 0x1bc, virtual false, abstract: false, final false
   inline int32_t StrictOrder(::UnityEngine::Rect ra, ::UnityEngine::Rect rb);
 
-  /// @brief Method TieBreaker, addr 0x4a36984, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method TieBreaker, addr 0x4a39be8, size 0xe0, virtual false, abstract: false, final false
   inline int32_t TieBreaker(::UnityEngine::Rect ra, ::UnityEngine::Rect rb);
 
-  /// @brief Method ValidateElement, addr 0x4a36614, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x4a39878, size 0xc8, virtual false, abstract: false, final false
   inline bool ValidateElement(::UnityEngine::UIElements::VisualElement* v);
 
-  /// @brief Method ValidateHierarchyTraversal, addr 0x4a3654c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ValidateHierarchyTraversal, addr 0x4a397b0, size 0xc8, virtual false, abstract: false, final false
   inline bool ValidateHierarchyTraversal(::UnityEngine::UIElements::VisualElement* v);
 
   // Ctor Parameters []
@@ -125,7 +125,7 @@ public:
                                                           ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* direction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5957 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -196,19 +196,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IFocusRing"
   constexpr operator ::UnityEngine::UIElements::IFocusRing*() noexcept;
 
-  /// @brief Method GetFocusChangeDirection, addr 0x4a3588c, size 0x364, virtual true, abstract: false, final true
+  /// @brief Method GetFocusChangeDirection, addr 0x4a38af0, size 0x364, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::FocusChangeDirection* GetFocusChangeDirection(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method GetNextFocusable, addr 0x4a35bf0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method GetNextFocusable, addr 0x4a38e54, size 0x154, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* GetNextFocusable(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::FocusChangeDirection* direction);
 
-  /// @brief Method GetNextFocusable2D, addr 0x4a35d44, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method GetNextFocusable2D, addr 0x4a38fa8, size 0x410, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* GetNextFocusable2D(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* direction);
 
-  /// @brief Method IsActive, addr 0x4a36230, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x4a39494, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsActive(::UnityEngine::UIElements::VisualElement* v);
 
-  /// @brief Method IsNavigable, addr 0x4a36308, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsNavigable, addr 0x4a3956c, size 0x50, virtual false, abstract: false, final false
   static inline bool IsNavigable(::UnityEngine::UIElements::Focusable* focusable);
 
   static inline ::UnityEngine::UIElements::NavigateFocusRing* New_ctor(::UnityEngine::UIElements::VisualElement* root);
@@ -225,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Root(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x4a35810, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a38a74, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* root);
 
   static inline ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* getStaticF_Down();
@@ -240,7 +240,7 @@ public:
 
   static inline ::UnityEngine::UIElements::NavigateFocusRing_ChangeDirection* getStaticF_Up();
 
-  /// @brief Method get_focusController, addr 0x4a357ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_focusController, addr 0x4a38a50, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
   /// @brief Convert to "::UnityEngine::UIElements::IFocusRing"
@@ -273,7 +273,7 @@ public:
   NavigateFocusRing(NavigateFocusRing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5958 };
 
   /// @brief Field m_Root, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Root;

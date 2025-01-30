@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::TutorialReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x3baebb8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x3bb44a0, size 0x20, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialSceneSetupData() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialSceneSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3baebd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb44c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
@@ -61,7 +61,7 @@ public:
   TutorialReturnToMenuController(TutorialReturnToMenuController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4462 };
 
   /// @brief Field _tutorialSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> ____tutorialSceneSetupData;

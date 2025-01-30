@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__webRequest_k__BackingField(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x4ae35a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae6804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_webRequest, addr 0x4ae3590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_webRequest, addr 0x4ae67f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_webRequest();
 
-  /// @brief Method set_webRequest, addr 0x4ae3598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_webRequest, addr 0x4ae67fc, size 0x8, virtual false, abstract: false, final false
   inline void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:
@@ -59,7 +59,7 @@ public:
   UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18237 };
 
   /// @brief Field <webRequest>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ____webRequest_k__BackingField;

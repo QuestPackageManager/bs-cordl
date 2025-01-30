@@ -80,7 +80,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
 
-  /// @brief Method Get, addr 0x23ca004, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x23cb020, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Get(::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HashDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23c9c70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cac8c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
@@ -181,7 +181,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
 
-  /// @brief Method Get, addr 0x23ca08c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x23cb0a8, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Get(::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_HMacDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23c9fc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cafdc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* hMac, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
@@ -285,7 +285,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
 
-  /// @brief Method Get, addr 0x23ca114, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x23cb130, size 0x90, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Get(::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder_CtrDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* blockCipher, int32_t keySizeInBits,
@@ -322,7 +322,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23c9e14, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cae30, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* blockCipher, int32_t keySizeInBits, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
 
@@ -406,14 +406,14 @@ public:
   /// @brief Field mSecurityStrength, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
-  /// @brief Method BuildCtr, addr 0x23c9cb4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method BuildCtr, addr 0x23cacd0, size 0x160, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* BuildCtr(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t keySizeInBits, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
                                                                         bool predictionResistant);
 
-  /// @brief Method BuildHMac, addr 0x23c9e68, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method BuildHMac, addr 0x23cae84, size 0x158, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* BuildHMac(::Org::BouncyCastle::Crypto::IMac* hMac, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, bool predictionResistant);
 
-  /// @brief Method BuildHash, addr 0x23c9b18, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method BuildHash, addr 0x23cab34, size 0x158, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* BuildHash(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, bool predictionResistant);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* New_ctor();
@@ -422,13 +422,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* New_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
-  /// @brief Method SetEntropyBitsRequired, addr 0x23c9b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEntropyBitsRequired, addr 0x23cab2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* SetEntropyBitsRequired(int32_t entropyBitsRequired);
 
-  /// @brief Method SetPersonalizationString, addr 0x23c9b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPersonalizationString, addr 0x23cab1c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* SetPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString);
 
-  /// @brief Method SetSecurityStrength, addr 0x23c9b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSecurityStrength, addr 0x23cab24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* SetSecurityStrength(int32_t securityStrength);
 
   constexpr int32_t const& __cordl_internal_get_mEntropyBitsRequired() const;
@@ -461,13 +461,13 @@ public:
 
   constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23c99e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ca9fc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x23c9a3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23caa58, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant);
 
-  /// @brief Method .ctor, addr 0x23c9acc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23caae8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
 protected:

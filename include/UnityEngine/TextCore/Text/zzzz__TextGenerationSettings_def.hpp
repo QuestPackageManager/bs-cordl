@@ -213,18 +213,18 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x4930a7c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4933ce0, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49305d4, size 0x4a8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4933838, size 0x4a8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings* other);
 
-  /// @brief Method GetHashCode, addr 0x4930b88, size 0x4d0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4933dec, size 0x4d0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor();
 
-  /// @brief Method ToString, addr 0x4931060, size 0x1aa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x49342c4, size 0x1aa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_autoSize() const;
@@ -533,13 +533,13 @@ public:
 
   constexpr void __cordl_internal_set_wordWrappingRatio(float_t value);
 
-  /// @brief Method .ctor, addr 0x4932b08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4935d6c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>* i___System__IEquatable_1___UnityEngine__TextCore__Text__TextGenerationSettings__() noexcept;
 
-  /// @brief Method op_Equality, addr 0x4931058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x49342bc, size 0x8, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TextCore::Text::TextGenerationSettings* left, ::UnityEngine::TextCore::Text::TextGenerationSettings* right);
 
 protected:
@@ -557,7 +557,7 @@ public:
   TextGenerationSettings(TextGenerationSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15263 };
 
   /// @brief Field text, offset: 0x10, size: 0x8, def value: None
   ::StringW ___text;

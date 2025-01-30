@@ -28,10 +28,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE LanguagePack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x3f89948, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x3f8cbac, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
 
-  /// @brief Method SetCurrent, addr 0x3f89a98, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x3f8ccfc, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
 
 protected:
@@ -49,7 +49,7 @@ public:
   LanguagePack(LanguagePack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

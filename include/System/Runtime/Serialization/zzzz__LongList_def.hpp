@@ -35,23 +35,23 @@ public:
   /// @brief Field m_values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_values, put = __cordl_internal_set_m_values)) ::ArrayW<int64_t, ::Array<int64_t>*> m_values;
 
-  /// @brief Method Add, addr 0x3cfa19c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3cfd400, size 0x80, virtual false, abstract: false, final false
   inline void Add(int64_t value);
 
-  /// @brief Method EnlargeArray, addr 0x3cfa488, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x3cfd6ec, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
-  /// @brief Method MoveNext, addr 0x3cf84f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3cfb758, size 0x80, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor(int32_t startingSize);
 
-  /// @brief Method RemoveElement, addr 0x3cfa0e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RemoveElement, addr 0x3cfd34c, size 0x8c, virtual false, abstract: false, final false
   inline bool RemoveElement(int64_t value);
 
-  /// @brief Method StartEnumeration, addr 0x3cf84a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StartEnumeration, addr 0x3cfb70c, size 0xc, virtual false, abstract: false, final false
   inline void StartEnumeration();
 
   constexpr int32_t const& __cordl_internal_get_m_count() const;
@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3cfa194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfd3f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cfa41c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfd680, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method get_Count, addr 0x3cfa510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3cfd774, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Current, addr 0x3cf84b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3cfb718, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_Current();
 
 protected:

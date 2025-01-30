@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_envoySinks(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3cc5b70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc8dd4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks);
 
-  /// @brief Method get_EnvoySinks, addr 0x3cc5b98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_EnvoySinks, addr 0x3cc8dfc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
 
   /// @brief Convert to "::System::Runtime::Remoting::IEnvoyInfo"

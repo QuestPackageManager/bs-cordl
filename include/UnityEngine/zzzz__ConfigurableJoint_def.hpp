@@ -107,307 +107,307 @@ public:
 
   static inline ::UnityEngine::ConfigurableJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x490c43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490f6a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_angularXDrive, addr 0x490be28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_angularXDrive, addr 0x490f08c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDrive get_angularXDrive();
 
-  /// @brief Method get_angularXDrive_Injected, addr 0x490be7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_angularXDrive_Injected, addr 0x490f0e0, size 0x44, virtual false, abstract: false, final false
   inline void get_angularXDrive_Injected(::ByRef<::UnityEngine::JointDrive> ret);
 
-  /// @brief Method get_angularXLimitSpring, addr 0x490acf8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_angularXLimitSpring, addr 0x490df5c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimitSpring get_angularXLimitSpring();
 
-  /// @brief Method get_angularXLimitSpring_Injected, addr 0x490ad44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_angularXLimitSpring_Injected, addr 0x490dfa8, size 0x44, virtual false, abstract: false, final false
   inline void get_angularXLimitSpring_Injected(::ByRef<::UnityEngine::SoftJointLimitSpring> ret);
 
-  /// @brief Method get_angularXMotion, addr 0x490aa5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_angularXMotion, addr 0x490dcc0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ConfigurableJointMotion get_angularXMotion();
 
-  /// @brief Method get_angularYLimit, addr 0x490b2d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_angularYLimit, addr 0x490e53c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_angularYLimit();
 
-  /// @brief Method get_angularYLimit_Injected, addr 0x490b334, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_angularYLimit_Injected, addr 0x490e598, size 0x44, virtual false, abstract: false, final false
   inline void get_angularYLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_angularYMotion, addr 0x490aadc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_angularYMotion, addr 0x490dd40, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ConfigurableJointMotion get_angularYMotion();
 
-  /// @brief Method get_angularYZDrive, addr 0x490bf54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_angularYZDrive, addr 0x490f1b8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDrive get_angularYZDrive();
 
-  /// @brief Method get_angularYZDrive_Injected, addr 0x490bfa8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_angularYZDrive_Injected, addr 0x490f20c, size 0x44, virtual false, abstract: false, final false
   inline void get_angularYZDrive_Injected(::ByRef<::UnityEngine::JointDrive> ret);
 
-  /// @brief Method get_angularYZLimitSpring, addr 0x490ae14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_angularYZLimitSpring, addr 0x490e078, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimitSpring get_angularYZLimitSpring();
 
-  /// @brief Method get_angularYZLimitSpring_Injected, addr 0x490ae60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_angularYZLimitSpring_Injected, addr 0x490e0c4, size 0x44, virtual false, abstract: false, final false
   inline void get_angularYZLimitSpring_Injected(::ByRef<::UnityEngine::SoftJointLimitSpring> ret);
 
-  /// @brief Method get_angularZLimit, addr 0x490b410, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_angularZLimit, addr 0x490e674, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_angularZLimit();
 
-  /// @brief Method get_angularZLimit_Injected, addr 0x490b46c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_angularZLimit_Injected, addr 0x490e6d0, size 0x44, virtual false, abstract: false, final false
   inline void get_angularZLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_angularZMotion, addr 0x490ab5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_angularZMotion, addr 0x490ddc0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ConfigurableJointMotion get_angularZMotion();
 
-  /// @brief Method get_configuredInWorldSpace, addr 0x490c33c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_configuredInWorldSpace, addr 0x490f5a0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_configuredInWorldSpace();
 
-  /// @brief Method get_highAngularXLimit, addr 0x490b1a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_highAngularXLimit, addr 0x490e404, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_highAngularXLimit();
 
-  /// @brief Method get_highAngularXLimit_Injected, addr 0x490b1fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_highAngularXLimit_Injected, addr 0x490e460, size 0x44, virtual false, abstract: false, final false
   inline void get_highAngularXLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_linearLimit, addr 0x490af30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_linearLimit, addr 0x490e194, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_linearLimit();
 
-  /// @brief Method get_linearLimitSpring, addr 0x490abdc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_linearLimitSpring, addr 0x490de40, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimitSpring get_linearLimitSpring();
 
-  /// @brief Method get_linearLimitSpring_Injected, addr 0x490ac28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_linearLimitSpring_Injected, addr 0x490de8c, size 0x44, virtual false, abstract: false, final false
   inline void get_linearLimitSpring_Injected(::ByRef<::UnityEngine::SoftJointLimitSpring> ret);
 
-  /// @brief Method get_linearLimit_Injected, addr 0x490af8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_linearLimit_Injected, addr 0x490e1f0, size 0x44, virtual false, abstract: false, final false
   inline void get_linearLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_lowAngularXLimit, addr 0x490b068, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_lowAngularXLimit, addr 0x490e2cc, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_lowAngularXLimit();
 
-  /// @brief Method get_lowAngularXLimit_Injected, addr 0x490b0c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_lowAngularXLimit_Injected, addr 0x490e328, size 0x44, virtual false, abstract: false, final false
   inline void get_lowAngularXLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_projectionAngle, addr 0x490c2b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_projectionAngle, addr 0x490f518, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_projectionAngle();
 
-  /// @brief Method get_projectionDistance, addr 0x490c22c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_projectionDistance, addr 0x490f490, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_projectionDistance();
 
-  /// @brief Method get_projectionMode, addr 0x490c1ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_projectionMode, addr 0x490f410, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::JointProjectionMode get_projectionMode();
 
-  /// @brief Method get_rotationDriveMode, addr 0x490bda8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDriveMode, addr 0x490f00c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::RotationDriveMode get_rotationDriveMode();
 
-  /// @brief Method get_secondaryAxis, addr 0x490a7a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_secondaryAxis, addr 0x490da08, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_secondaryAxis();
 
-  /// @brief Method get_secondaryAxis_Injected, addr 0x490a800, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_secondaryAxis_Injected, addr 0x490da64, size 0x44, virtual false, abstract: false, final false
   inline void get_secondaryAxis_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_slerpDrive, addr 0x490c080, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_slerpDrive, addr 0x490f2e4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDrive get_slerpDrive();
 
-  /// @brief Method get_slerpDrive_Injected, addr 0x490c0d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_slerpDrive_Injected, addr 0x490f338, size 0x44, virtual false, abstract: false, final false
   inline void get_slerpDrive_Injected(::ByRef<::UnityEngine::JointDrive> ret);
 
-  /// @brief Method get_swapBodies, addr 0x490c3bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_swapBodies, addr 0x490f620, size 0x3c, virtual false, abstract: false, final false
   inline bool get_swapBodies();
 
-  /// @brief Method get_targetAngularVelocity, addr 0x490bc70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_targetAngularVelocity, addr 0x490eed4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_targetAngularVelocity();
 
-  /// @brief Method get_targetAngularVelocity_Injected, addr 0x490bccc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_targetAngularVelocity_Injected, addr 0x490ef30, size 0x44, virtual false, abstract: false, final false
   inline void get_targetAngularVelocity_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_targetPosition, addr 0x490b548, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_targetPosition, addr 0x490e7ac, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_targetPosition();
 
-  /// @brief Method get_targetPosition_Injected, addr 0x490b5a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_targetPosition_Injected, addr 0x490e808, size 0x44, virtual false, abstract: false, final false
   inline void get_targetPosition_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_targetRotation, addr 0x490bb3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_targetRotation, addr 0x490eda0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_targetRotation();
 
-  /// @brief Method get_targetRotation_Injected, addr 0x490bb94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_targetRotation_Injected, addr 0x490edf8, size 0x44, virtual false, abstract: false, final false
   inline void get_targetRotation_Injected(::ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method get_targetVelocity, addr 0x490b680, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_targetVelocity, addr 0x490e8e4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_targetVelocity();
 
-  /// @brief Method get_targetVelocity_Injected, addr 0x490b6dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_targetVelocity_Injected, addr 0x490e940, size 0x44, virtual false, abstract: false, final false
   inline void get_targetVelocity_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_xDrive, addr 0x490b7b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_xDrive, addr 0x490ea1c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDrive get_xDrive();
 
-  /// @brief Method get_xDrive_Injected, addr 0x490b80c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_xDrive_Injected, addr 0x490ea70, size 0x44, virtual false, abstract: false, final false
   inline void get_xDrive_Injected(::ByRef<::UnityEngine::JointDrive> ret);
 
-  /// @brief Method get_xMotion, addr 0x490a8dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_xMotion, addr 0x490db40, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ConfigurableJointMotion get_xMotion();
 
-  /// @brief Method get_yDrive, addr 0x490b8e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_yDrive, addr 0x490eb48, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDrive get_yDrive();
 
-  /// @brief Method get_yDrive_Injected, addr 0x490b938, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_yDrive_Injected, addr 0x490eb9c, size 0x44, virtual false, abstract: false, final false
   inline void get_yDrive_Injected(::ByRef<::UnityEngine::JointDrive> ret);
 
-  /// @brief Method get_yMotion, addr 0x490a95c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_yMotion, addr 0x490dbc0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ConfigurableJointMotion get_yMotion();
 
-  /// @brief Method get_zDrive, addr 0x490ba10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_zDrive, addr 0x490ec74, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDrive get_zDrive();
 
-  /// @brief Method get_zDrive_Injected, addr 0x490ba64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_zDrive_Injected, addr 0x490ecc8, size 0x44, virtual false, abstract: false, final false
   inline void get_zDrive_Injected(::ByRef<::UnityEngine::JointDrive> ret);
 
-  /// @brief Method get_zMotion, addr 0x490a9dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_zMotion, addr 0x490dc40, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::ConfigurableJointMotion get_zMotion();
 
-  /// @brief Method set_angularXDrive, addr 0x490bec0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_angularXDrive, addr 0x490f124, size 0x50, virtual false, abstract: false, final false
   inline void set_angularXDrive(::UnityEngine::JointDrive value);
 
-  /// @brief Method set_angularXDrive_Injected, addr 0x490bf10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularXDrive_Injected, addr 0x490f174, size 0x44, virtual false, abstract: false, final false
   inline void set_angularXDrive_Injected(::ByRef<::UnityEngine::JointDrive> value);
 
-  /// @brief Method set_angularXLimitSpring, addr 0x490ad88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_angularXLimitSpring, addr 0x490dfec, size 0x48, virtual false, abstract: false, final false
   inline void set_angularXLimitSpring(::UnityEngine::SoftJointLimitSpring value);
 
-  /// @brief Method set_angularXLimitSpring_Injected, addr 0x490add0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularXLimitSpring_Injected, addr 0x490e034, size 0x44, virtual false, abstract: false, final false
   inline void set_angularXLimitSpring_Injected(::ByRef<::UnityEngine::SoftJointLimitSpring> value);
 
-  /// @brief Method set_angularXMotion, addr 0x490aa98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularXMotion, addr 0x490dcfc, size 0x44, virtual false, abstract: false, final false
   inline void set_angularXMotion(::UnityEngine::ConfigurableJointMotion value);
 
-  /// @brief Method set_angularYLimit, addr 0x490b378, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_angularYLimit, addr 0x490e5dc, size 0x54, virtual false, abstract: false, final false
   inline void set_angularYLimit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_angularYLimit_Injected, addr 0x490b3cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularYLimit_Injected, addr 0x490e630, size 0x44, virtual false, abstract: false, final false
   inline void set_angularYLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_angularYMotion, addr 0x490ab18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularYMotion, addr 0x490dd7c, size 0x44, virtual false, abstract: false, final false
   inline void set_angularYMotion(::UnityEngine::ConfigurableJointMotion value);
 
-  /// @brief Method set_angularYZDrive, addr 0x490bfec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_angularYZDrive, addr 0x490f250, size 0x50, virtual false, abstract: false, final false
   inline void set_angularYZDrive(::UnityEngine::JointDrive value);
 
-  /// @brief Method set_angularYZDrive_Injected, addr 0x490c03c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularYZDrive_Injected, addr 0x490f2a0, size 0x44, virtual false, abstract: false, final false
   inline void set_angularYZDrive_Injected(::ByRef<::UnityEngine::JointDrive> value);
 
-  /// @brief Method set_angularYZLimitSpring, addr 0x490aea4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_angularYZLimitSpring, addr 0x490e108, size 0x48, virtual false, abstract: false, final false
   inline void set_angularYZLimitSpring(::UnityEngine::SoftJointLimitSpring value);
 
-  /// @brief Method set_angularYZLimitSpring_Injected, addr 0x490aeec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularYZLimitSpring_Injected, addr 0x490e150, size 0x44, virtual false, abstract: false, final false
   inline void set_angularYZLimitSpring_Injected(::ByRef<::UnityEngine::SoftJointLimitSpring> value);
 
-  /// @brief Method set_angularZLimit, addr 0x490b4b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_angularZLimit, addr 0x490e714, size 0x54, virtual false, abstract: false, final false
   inline void set_angularZLimit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_angularZLimit_Injected, addr 0x490b504, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularZLimit_Injected, addr 0x490e768, size 0x44, virtual false, abstract: false, final false
   inline void set_angularZLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_angularZMotion, addr 0x490ab98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_angularZMotion, addr 0x490ddfc, size 0x44, virtual false, abstract: false, final false
   inline void set_angularZMotion(::UnityEngine::ConfigurableJointMotion value);
 
-  /// @brief Method set_configuredInWorldSpace, addr 0x490c378, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_configuredInWorldSpace, addr 0x490f5dc, size 0x44, virtual false, abstract: false, final false
   inline void set_configuredInWorldSpace(bool value);
 
-  /// @brief Method set_highAngularXLimit, addr 0x490b240, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_highAngularXLimit, addr 0x490e4a4, size 0x54, virtual false, abstract: false, final false
   inline void set_highAngularXLimit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_highAngularXLimit_Injected, addr 0x490b294, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_highAngularXLimit_Injected, addr 0x490e4f8, size 0x44, virtual false, abstract: false, final false
   inline void set_highAngularXLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_linearLimit, addr 0x490afd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_linearLimit, addr 0x490e234, size 0x54, virtual false, abstract: false, final false
   inline void set_linearLimit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_linearLimitSpring, addr 0x490ac6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_linearLimitSpring, addr 0x490ded0, size 0x48, virtual false, abstract: false, final false
   inline void set_linearLimitSpring(::UnityEngine::SoftJointLimitSpring value);
 
-  /// @brief Method set_linearLimitSpring_Injected, addr 0x490acb4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_linearLimitSpring_Injected, addr 0x490df18, size 0x44, virtual false, abstract: false, final false
   inline void set_linearLimitSpring_Injected(::ByRef<::UnityEngine::SoftJointLimitSpring> value);
 
-  /// @brief Method set_linearLimit_Injected, addr 0x490b024, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_linearLimit_Injected, addr 0x490e288, size 0x44, virtual false, abstract: false, final false
   inline void set_linearLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_lowAngularXLimit, addr 0x490b108, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_lowAngularXLimit, addr 0x490e36c, size 0x54, virtual false, abstract: false, final false
   inline void set_lowAngularXLimit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_lowAngularXLimit_Injected, addr 0x490b15c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_lowAngularXLimit_Injected, addr 0x490e3c0, size 0x44, virtual false, abstract: false, final false
   inline void set_lowAngularXLimit_Injected(::ByRef<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_projectionAngle, addr 0x490c2f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_projectionAngle, addr 0x490f554, size 0x4c, virtual false, abstract: false, final false
   inline void set_projectionAngle(float_t value);
 
-  /// @brief Method set_projectionDistance, addr 0x490c268, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_projectionDistance, addr 0x490f4cc, size 0x4c, virtual false, abstract: false, final false
   inline void set_projectionDistance(float_t value);
 
-  /// @brief Method set_projectionMode, addr 0x490c1e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_projectionMode, addr 0x490f44c, size 0x44, virtual false, abstract: false, final false
   inline void set_projectionMode(::UnityEngine::JointProjectionMode value);
 
-  /// @brief Method set_rotationDriveMode, addr 0x490bde4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rotationDriveMode, addr 0x490f048, size 0x44, virtual false, abstract: false, final false
   inline void set_rotationDriveMode(::UnityEngine::RotationDriveMode value);
 
-  /// @brief Method set_secondaryAxis, addr 0x490a844, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_secondaryAxis, addr 0x490daa8, size 0x54, virtual false, abstract: false, final false
   inline void set_secondaryAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_secondaryAxis_Injected, addr 0x490a898, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_secondaryAxis_Injected, addr 0x490dafc, size 0x44, virtual false, abstract: false, final false
   inline void set_secondaryAxis_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_slerpDrive, addr 0x490c118, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_slerpDrive, addr 0x490f37c, size 0x50, virtual false, abstract: false, final false
   inline void set_slerpDrive(::UnityEngine::JointDrive value);
 
-  /// @brief Method set_slerpDrive_Injected, addr 0x490c168, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_slerpDrive_Injected, addr 0x490f3cc, size 0x44, virtual false, abstract: false, final false
   inline void set_slerpDrive_Injected(::ByRef<::UnityEngine::JointDrive> value);
 
-  /// @brief Method set_swapBodies, addr 0x490c3f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_swapBodies, addr 0x490f65c, size 0x44, virtual false, abstract: false, final false
   inline void set_swapBodies(bool value);
 
-  /// @brief Method set_targetAngularVelocity, addr 0x490bd10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_targetAngularVelocity, addr 0x490ef74, size 0x54, virtual false, abstract: false, final false
   inline void set_targetAngularVelocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_targetAngularVelocity_Injected, addr 0x490bd64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetAngularVelocity_Injected, addr 0x490efc8, size 0x44, virtual false, abstract: false, final false
   inline void set_targetAngularVelocity_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_targetPosition, addr 0x490b5e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_targetPosition, addr 0x490e84c, size 0x54, virtual false, abstract: false, final false
   inline void set_targetPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_targetPosition_Injected, addr 0x490b63c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetPosition_Injected, addr 0x490e8a0, size 0x44, virtual false, abstract: false, final false
   inline void set_targetPosition_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_targetRotation, addr 0x490bbd8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_targetRotation, addr 0x490ee3c, size 0x54, virtual false, abstract: false, final false
   inline void set_targetRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_targetRotation_Injected, addr 0x490bc2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetRotation_Injected, addr 0x490ee90, size 0x44, virtual false, abstract: false, final false
   inline void set_targetRotation_Injected(::ByRef<::UnityEngine::Quaternion> value);
 
-  /// @brief Method set_targetVelocity, addr 0x490b720, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_targetVelocity, addr 0x490e984, size 0x54, virtual false, abstract: false, final false
   inline void set_targetVelocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_targetVelocity_Injected, addr 0x490b774, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetVelocity_Injected, addr 0x490e9d8, size 0x44, virtual false, abstract: false, final false
   inline void set_targetVelocity_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_xDrive, addr 0x490b850, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_xDrive, addr 0x490eab4, size 0x50, virtual false, abstract: false, final false
   inline void set_xDrive(::UnityEngine::JointDrive value);
 
-  /// @brief Method set_xDrive_Injected, addr 0x490b8a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_xDrive_Injected, addr 0x490eb04, size 0x44, virtual false, abstract: false, final false
   inline void set_xDrive_Injected(::ByRef<::UnityEngine::JointDrive> value);
 
-  /// @brief Method set_xMotion, addr 0x490a918, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_xMotion, addr 0x490db7c, size 0x44, virtual false, abstract: false, final false
   inline void set_xMotion(::UnityEngine::ConfigurableJointMotion value);
 
-  /// @brief Method set_yDrive, addr 0x490b97c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_yDrive, addr 0x490ebe0, size 0x50, virtual false, abstract: false, final false
   inline void set_yDrive(::UnityEngine::JointDrive value);
 
-  /// @brief Method set_yDrive_Injected, addr 0x490b9cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_yDrive_Injected, addr 0x490ec30, size 0x44, virtual false, abstract: false, final false
   inline void set_yDrive_Injected(::ByRef<::UnityEngine::JointDrive> value);
 
-  /// @brief Method set_yMotion, addr 0x490a998, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_yMotion, addr 0x490dbfc, size 0x44, virtual false, abstract: false, final false
   inline void set_yMotion(::UnityEngine::ConfigurableJointMotion value);
 
-  /// @brief Method set_zDrive, addr 0x490baa8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_zDrive, addr 0x490ed0c, size 0x50, virtual false, abstract: false, final false
   inline void set_zDrive(::UnityEngine::JointDrive value);
 
-  /// @brief Method set_zDrive_Injected, addr 0x490baf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_zDrive_Injected, addr 0x490ed5c, size 0x44, virtual false, abstract: false, final false
   inline void set_zDrive_Injected(::ByRef<::UnityEngine::JointDrive> value);
 
-  /// @brief Method set_zMotion, addr 0x490aa18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_zMotion, addr 0x490dc7c, size 0x44, virtual false, abstract: false, final false
   inline void set_zMotion(::UnityEngine::ConfigurableJointMotion value);
 
 protected:
@@ -425,7 +425,7 @@ public:
   ConfigurableJoint(ConfigurableJoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TilemapRenderer::*)()>(
     &::UnityEngine::Tilemaps::TilemapRenderer::RegisterSpriteAtlasRegistered)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4954704;
+  constexpr static std::size_t addrs = 0x4957968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TilemapRenderer*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TilemapRenderer::*)()>(
     &::UnityEngine::Tilemaps::TilemapRenderer::UnregisterSpriteAtlasRegistered)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4954784;
+  constexpr static std::size_t addrs = 0x49579e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TilemapRenderer::*)(::UnityEngine::U2D::SpriteAtlas*)>(
     &::UnityEngine::Tilemaps::TilemapRenderer::OnSpriteAtlasRegistered)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4954804;
+  constexpr static std::size_t addrs = 0x4957a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -117,7 +117,7 @@ public:
   VerticalVirtualizationController_1___c(VerticalVirtualizationController_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -323,7 +323,7 @@ public:
   VerticalVirtualizationController_1(VerticalVirtualizationController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5491 };
 
   /// @brief Field m_Pool, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Pool::ObjectPool_1<T>* ___m_Pool;

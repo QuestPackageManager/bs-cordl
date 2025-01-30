@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__missionNodeConnection(::UnityW<::GlobalNamespace::MissionNodeConnection> value);
 
-  /// @brief Method .ctor, addr 0x3c08514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0e428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,7 @@ public:
   MissionNodeUpdatePositionInEditMode(MissionNodeUpdatePositionInEditMode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4824 };
 
   /// @brief Field _missionNodeConnection, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodeConnection> ____missionNodeConnection;

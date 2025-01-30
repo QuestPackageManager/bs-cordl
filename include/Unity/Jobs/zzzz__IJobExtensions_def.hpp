@@ -74,7 +74,7 @@ public:
   JobStruct_1_IJobExtensions_ExecuteJobFunction(JobStruct_1_IJobExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,7 +110,7 @@ public:
   constexpr IJobExtensions_JobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10543 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -153,7 +153,7 @@ public:
   IJobExtensions(IJobExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

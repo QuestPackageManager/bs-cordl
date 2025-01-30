@@ -19,10 +19,10 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_Viewport {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3a4913c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a4b5c8, size 0x70, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method .ctor, addr 0x3a490b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4b540, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr HAPI_Viewport(::ArrayW<float_t, ::Array<float_t>*> position, ::ArrayW<float_t, ::Array<float_t>*> rotationQuaternion, float_t offset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11740 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

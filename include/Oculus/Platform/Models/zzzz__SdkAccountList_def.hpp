@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::SdkAccountList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x3f9233c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f955a0, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -44,7 +44,7 @@ public:
   SdkAccountList(SdkAccountList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15564 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

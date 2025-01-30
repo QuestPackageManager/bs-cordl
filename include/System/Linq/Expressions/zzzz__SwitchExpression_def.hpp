@@ -77,16 +77,16 @@ public:
 
   constexpr void __cordl_internal_set__SwitchValue_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Cases, addr 0x40bb6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cases, addr 0x40be95c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* get_Cases();
 
-  /// @brief Method get_Comparison, addr 0x40bb708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comparison, addr 0x40be96c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Comparison();
 
-  /// @brief Method get_DefaultBody, addr 0x40bb700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultBody, addr 0x40be964, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_DefaultBody();
 
-  /// @brief Method get_SwitchValue, addr 0x40bb6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SwitchValue, addr 0x40be954, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_SwitchValue();
 
 protected:
@@ -104,7 +104,7 @@ public:
   SwitchExpression(SwitchExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13735 };
 
   /// @brief Field <SwitchValue>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____SwitchValue_k__BackingField;

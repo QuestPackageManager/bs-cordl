@@ -86,22 +86,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27064b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27089ac, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
-  /// @brief Method get_angleOffset, addr 0x270649c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleOffset, addr 0x2708994, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_angleOffset();
 
-  /// @brief Method get_color, addr 0x27064a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x270899c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_color();
 
-  /// @brief Method get_cutDirection, addr 0x27064ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x27089a4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_layer, addr 0x2706494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x270898c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x270648c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x2708984, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -119,7 +119,7 @@ public:
   ColorNoteData(ColorNoteData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13419 };
 
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;

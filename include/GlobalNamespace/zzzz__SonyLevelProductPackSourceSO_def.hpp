@@ -71,10 +71,10 @@ public:
 
   static inline ::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c* New_ctor();
 
-  /// @brief Method <.ctor>b__10_0, addr 0x26e9144, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_0, addr 0x26eb61c, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource* __ctor_b__10_0(::GlobalNamespace::BeatmapLevelSO* level, int32_t index);
 
-  /// @brief Method .ctor, addr 0x26e913c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c* getStaticF___9();
@@ -100,7 +100,7 @@ public:
   LevelProductPackSource_SonyLevelProductPackSourceSO___c(LevelProductPackSource_SonyLevelProductPackSourceSO___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13194 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -161,19 +161,19 @@ public:
 
   constexpr void __cordl_internal_set__packIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26e8f94, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb46c, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPackSO* levelPack, int32_t packIndex);
 
-  /// @brief Method get_levelPack, addr 0x26e8f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPack, addr 0x26eb454, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> get_levelPack();
 
-  /// @brief Method get_levelProductsData, addr 0x26e8f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelProductsData, addr 0x26eb45c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> get_levelProductsData();
 
-  /// @brief Method get_packIndex, addr 0x26e8f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packIndex, addr 0x26eb44c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_packIndex();
 
-  /// @brief Method set_levelProductsData, addr 0x26e8f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelProductsData, addr 0x26eb464, size 0x8, virtual false, abstract: false, final false
   inline void set_levelProductsData(::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> value);
 
 protected:
@@ -191,7 +191,7 @@ public:
   SonyLevelProductPackSourceSO_LevelProductPackSource(SonyLevelProductPackSourceSO_LevelProductPackSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13195 };
 
   /// @brief Field _packIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____packIndex;
@@ -289,37 +289,37 @@ public:
 
   constexpr void __cordl_internal_set__ps5SieeDcCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e91b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb68c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelSO* level, int32_t levelIndex);
 
-  /// @brief Method get_level, addr 0x26e922c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_level, addr 0x26eb704, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_level();
 
-  /// @brief Method get_levelIndex, addr 0x26e91e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelIndex, addr 0x26eb6bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelIndex();
 
-  /// @brief Method get_ps4SieaAcCode, addr 0x26e921c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4SieaAcCode, addr 0x26eb6f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps4SieaAcCode();
 
-  /// @brief Method get_ps4SieeDcCode, addr 0x26e920c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4SieeDcCode, addr 0x26eb6e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps4SieeDcCode();
 
-  /// @brief Method get_ps5SieaAcCode, addr 0x26e91fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5SieaAcCode, addr 0x26eb6d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps5SieaAcCode();
 
-  /// @brief Method get_ps5SieeDcCode, addr 0x26e91ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5SieeDcCode, addr 0x26eb6c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps5SieeDcCode();
 
-  /// @brief Method set_ps4SieaAcCode, addr 0x26e9224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4SieaAcCode, addr 0x26eb6fc, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4SieaAcCode(::StringW value);
 
-  /// @brief Method set_ps4SieeDcCode, addr 0x26e9214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4SieeDcCode, addr 0x26eb6ec, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4SieeDcCode(::StringW value);
 
-  /// @brief Method set_ps5SieaAcCode, addr 0x26e9204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5SieaAcCode, addr 0x26eb6dc, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5SieaAcCode(::StringW value);
 
-  /// @brief Method set_ps5SieeDcCode, addr 0x26e91f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5SieeDcCode, addr 0x26eb6cc, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5SieeDcCode(::StringW value);
 
 protected:
@@ -337,7 +337,7 @@ public:
   SonyLevelProductPackSourceSO_LevelProductSource(SonyLevelProductPackSourceSO_LevelProductSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13196 };
 
   /// @brief Field _levelIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____levelIndex;
@@ -417,16 +417,16 @@ public:
 
   constexpr void __cordl_internal_set__validUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e924c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_redirectedProductLabel, addr 0x26e923c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectedProductLabel, addr 0x26eb714, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_redirectedProductLabel();
 
-  /// @brief Method get_sourceLevelPackId, addr 0x26e9234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLevelPackId, addr 0x26eb70c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sourceLevelPackId();
 
-  /// @brief Method get_validUntilDate, addr 0x26e9244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validUntilDate, addr 0x26eb71c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_validUntilDate();
 
 protected:
@@ -444,7 +444,7 @@ public:
   SonyLevelProductPackSourceSO_LevelProductRedirectionSource(SonyLevelProductPackSourceSO_LevelProductRedirectionSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13197 };
 
   /// @brief Field _sourceLevelPackId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____sourceLevelPackId;
@@ -512,16 +512,16 @@ public:
   constexpr void __cordl_internal_set__levelProductRedirectionSources(
       ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>*> value);
 
-  /// @brief Method .ctor, addr 0x26e8ed8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb3b0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelProductPackSource, addr 0x26e8ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelProductPackSource, addr 0x26eb398, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* get_levelProductPackSource();
 
-  /// @brief Method get_redirectionSources, addr 0x26e8ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectionSources, addr 0x26eb3a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>* get_redirectionSources();
 
-  /// @brief Method set_levelProductPackSource, addr 0x26e8ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelProductPackSource, addr 0x26eb3a0, size 0x8, virtual false, abstract: false, final false
   inline void set_levelProductPackSource(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* value);
 
 protected:
@@ -539,7 +539,7 @@ public:
   SonyLevelProductPackSourceSO(SonyLevelProductPackSourceSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13198 };
 
   /// @brief Field _levelProductPackSource, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* ____levelProductPackSource;

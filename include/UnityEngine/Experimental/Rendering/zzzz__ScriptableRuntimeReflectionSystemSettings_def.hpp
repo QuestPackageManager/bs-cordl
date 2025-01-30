@@ -27,17 +27,17 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* s_Instance;
 
-  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x48ce9dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x48d1c40, size 0x28, virtual false, abstract: false, final false
   static inline void ScriptingDirtyReflectionSystemInstance();
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* getStaticF_s_Instance();
 
-  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x48ce984, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x48d1be8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* value);
 
-  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x48ce83c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x48d1aa0, size 0x148, virtual false, abstract: false, final false
   static inline void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ScriptableRuntimeReflectionSystemSettings(ScriptableRuntimeReflectionSystemSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

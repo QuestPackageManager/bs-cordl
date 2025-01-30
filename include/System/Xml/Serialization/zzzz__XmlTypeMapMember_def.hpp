@@ -79,33 +79,33 @@ public:
   /// @brief Field _typeData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__typeData, put = __cordl_internal_set__typeData)) ::System::Xml::Serialization::TypeData* _typeData;
 
-  /// @brief Method CheckOptionalValueType, addr 0x438e630, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CheckOptionalValueType, addr 0x4391894, size 0x7c, virtual false, abstract: false, final false
   inline void CheckOptionalValueType(::System::Type* type);
 
-  /// @brief Method GetValue, addr 0x4387180, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x438a3e4, size 0x110, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* ob);
 
-  /// @brief Method GetValue, addr 0x438e224, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x4391488, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* GetValue(::System::Object* ob, ::StringW name);
 
-  /// @brief Method GetValueSpecified, addr 0x438a714, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method GetValueSpecified, addr 0x438d978, size 0x238, virtual false, abstract: false, final false
   inline bool GetValueSpecified(::System::Object* ob);
 
-  /// @brief Method InitMember, addr 0x438dfe8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method InitMember, addr 0x439124c, size 0x23c, virtual false, abstract: false, final false
   inline void InitMember(::System::Type* type);
 
-  /// @brief Method IsReadOnly, addr 0x438df34, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsReadOnly, addr 0x4391198, size 0xb4, virtual false, abstract: false, final false
   inline bool IsReadOnly(::System::Type* type);
 
   static inline ::System::Xml::Serialization::XmlTypeMapMember* New_ctor();
 
-  /// @brief Method SetValue, addr 0x438e474, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x43916d8, size 0x130, virtual false, abstract: false, final false
   static inline void SetValue(::System::Object* ob, ::StringW name, ::System::Object* value);
 
-  /// @brief Method SetValue, addr 0x438e340, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x43915a4, size 0x134, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* ob, ::System::Object* value);
 
-  /// @brief Method SetValueSpecified, addr 0x438e6ac, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method SetValueSpecified, addr 0x4391910, size 0x274, virtual false, abstract: false, final false
   inline void SetValueSpecified(::System::Object* ob, bool value);
 
   constexpr ::System::Object* const& __cordl_internal_get__defaultValue() const;
@@ -168,49 +168,49 @@ public:
 
   constexpr void __cordl_internal_set__typeData(::System::Xml::Serialization::TypeData* value);
 
-  /// @brief Method .ctor, addr 0x438dea4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4391108, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DefaultValue, addr 0x438df24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x4391188, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method get_GlobalIndex, addr 0x438e5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GlobalIndex, addr 0x4391828, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GlobalIndex();
 
-  /// @brief Method get_Index, addr 0x438e5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x4391818, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_IsOptionalValueType, addr 0x438a708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsOptionalValueType, addr 0x438d96c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsOptionalValueType();
 
-  /// @brief Method get_IsReturnValue, addr 0x438e5f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsReturnValue, addr 0x4391858, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsReturnValue();
 
-  /// @brief Method get_Name, addr 0x438df14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4391178, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_TypeData, addr 0x438e5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeData, addr 0x4391808, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::TypeData* get_TypeData();
 
-  /// @brief Method set_DefaultValue, addr 0x438df2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValue, addr 0x4391190, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValue(::System::Object* value);
 
-  /// @brief Method set_GlobalIndex, addr 0x438e5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GlobalIndex, addr 0x4391830, size 0x8, virtual false, abstract: false, final false
   inline void set_GlobalIndex(int32_t value);
 
-  /// @brief Method set_Index, addr 0x438e5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Index, addr 0x4391820, size 0x8, virtual false, abstract: false, final false
   inline void set_Index(int32_t value);
 
-  /// @brief Method set_IsOptionalValueType, addr 0x438e5d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_IsOptionalValueType, addr 0x4391838, size 0x20, virtual false, abstract: false, final false
   inline void set_IsOptionalValueType(bool value);
 
-  /// @brief Method set_IsReturnValue, addr 0x438e600, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_IsReturnValue, addr 0x4391864, size 0x30, virtual false, abstract: false, final false
   inline void set_IsReturnValue(bool value);
 
-  /// @brief Method set_Name, addr 0x438df1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x4391180, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_TypeData, addr 0x438e5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeData, addr 0x4391810, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeData(::System::Xml::Serialization::TypeData* value);
 
 protected:
@@ -228,7 +228,7 @@ public:
   XmlTypeMapMember(XmlTypeMapMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7456 };
 
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;

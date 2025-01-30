@@ -32,12 +32,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE LoadResourceFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4a414bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4a44720, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> Invoke(::StringW pathName, ::System::Type* type, float_t dpiScaling);
 
   static inline ::UnityEngine::UIElements::LoadResourceFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4a4141c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a44680, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -55,7 +55,7 @@ public:
   LoadResourceFunction(LoadResourceFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

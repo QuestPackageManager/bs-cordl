@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
-  /// @brief Method .ctor, addr 0x39e200c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4498, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup);
 
-  /// @brief Method get_groupIntensity, addr 0x39e2004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIntensity, addr 0x39e4490, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupIntensity();
 
-  /// @brief Method get_lightGroup, addr 0x39e1ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x39e4488, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
 protected:
@@ -96,7 +96,7 @@ public:
   DirectionalLightWithIdsGroupEntry_GroupLightData(DirectionalLightWithIdsGroupEntry_GroupLightData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16307 };
 
   /// @brief Field _lightGroup, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroup;
@@ -145,13 +145,13 @@ public:
 
   constexpr void __cordl_internal_set__lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39e204c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e44d8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x39e2044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x39e44d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_lightId, addr 0x39e203c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightId, addr 0x39e44c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightId();
 
 protected:
@@ -169,7 +169,7 @@ public:
   DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId(DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16308 };
 
   /// @brief Field _lightId, offset: 0x10, size: 0x4, def value: None
   int32_t ____lightId;
@@ -255,16 +255,16 @@ public:
 
   constexpr void __cordl_internal_set__individualLightData(::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* value);
 
-  /// @brief Method .ctor, addr 0x39e1ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4480, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupLightData, addr 0x39e1fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightData, addr 0x39e4468, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData*>* get_groupLightData();
 
-  /// @brief Method get_groupLightsWeighting, addr 0x39e1fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightsWeighting, addr 0x39e4478, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_groupLightsWeighting();
 
-  /// @brief Method get_individualLightData, addr 0x39e1fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_individualLightData, addr 0x39e4470, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* get_individualLightData();
 
 protected:
@@ -282,7 +282,7 @@ public:
   DirectionalLightWithIdsGroupEntry(DirectionalLightWithIdsGroupEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16309 };
 
   /// @brief Field _directionalLightWithIds, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLightWithIds> ____directionalLightWithIds;

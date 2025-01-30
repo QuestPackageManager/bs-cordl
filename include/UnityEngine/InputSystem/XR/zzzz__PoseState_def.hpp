@@ -99,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set_velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x45e24c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e5724, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity,
                     ::UnityEngine::Vector3 angularVelocity);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_s_Format();
 
-  /// @brief Method get_format, addr 0x45e2468, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x45e56cc, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -215,7 +215,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6728 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };

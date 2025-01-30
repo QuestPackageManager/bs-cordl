@@ -58,22 +58,22 @@ public:
   /// @brief Field s_ListPool, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ListPool, put = setStaticF_s_ListPool)) ::UnityEngine::UIElements::EventCallbackListPool* s_ListPool;
 
-  /// @brief Method GetCallbackList, addr 0x4a25b28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackList, addr 0x4a28d8c, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackList(::UnityEngine::UIElements::EventCallbackList* initializer);
 
-  /// @brief Method GetCallbackListForReading, addr 0x4a25ccc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackListForReading, addr 0x4a28f30, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackListForReading();
 
-  /// @brief Method GetCallbackListForWriting, addr 0x4a25c14, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackListForWriting, addr 0x4a28e78, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackListForWriting();
 
-  /// @brief Method HasBubbleHandlers, addr 0x4a25f00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasBubbleHandlers, addr 0x4a29164, size 0x20, virtual false, abstract: false, final false
   inline bool HasBubbleHandlers();
 
-  /// @brief Method HasTrickleDownHandlers, addr 0x4a25ee0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasTrickleDownHandlers, addr 0x4a29144, size 0x20, virtual false, abstract: false, final false
   inline bool HasTrickleDownHandlers();
 
-  /// @brief Method InvokeCallbacks, addr 0x4a25d3c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbacks, addr 0x4a28fa0, size 0x1a4, virtual false, abstract: false, final false
   inline void InvokeCallbacks(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
   static inline ::UnityEngine::UIElements::EventCallbackRegistry* New_ctor();
@@ -88,13 +88,13 @@ public:
   inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>* callback, TCallbackArgs userArgs, ::UnityEngine::UIElements::TrickleDown useTrickleDown,
                                ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method ReleaseCallbackList, addr 0x4a25b90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCallbackList, addr 0x4a28df4, size 0x68, virtual false, abstract: false, final false
   static inline void ReleaseCallbackList(::UnityEngine::UIElements::EventCallbackList* toRelease);
 
   /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEventType> inline bool UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
-  /// @brief Method UnregisterCallback, addr 0x4a25ce8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallback, addr 0x4a28f4c, size 0x54, virtual false, abstract: false, final false
   inline bool UnregisterCallback(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
   constexpr ::UnityEngine::UIElements::EventCallbackList* const& __cordl_internal_get_m_Callbacks() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TemporaryCallbacks(::UnityEngine::UIElements::EventCallbackList* value);
 
-  /// @brief Method .ctor, addr 0x4a25bf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a28e5c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* getStaticF_s_ListPool();
@@ -137,7 +137,7 @@ public:
   EventCallbackRegistry(EventCallbackRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5818 };
 
   /// @brief Field m_Callbacks, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallbackList* ___m_Callbacks;

@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAppDownloadProgressResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AppDownloadProgressResult*> {
 public:
   // Declarations
-  /// @brief Method GetAppDownloadProgressResult, addr 0x3f7c3d4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAppDownloadProgressResult, addr 0x3f7f638, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadProgressResult* GetAppDownloadProgressResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f7c410, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7f674, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadProgressResult* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAppDownloadProgressResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7a364, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7d5c8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithAppDownloadProgressResult(MessageWithAppDownloadProgressResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

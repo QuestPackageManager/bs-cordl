@@ -150,19 +150,19 @@ public:
 
   constexpr void __cordl_internal_set_m_ActionName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x45e003c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e32a0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x45e0084, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e32e8, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method .ctor, addr 0x45e0250, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e34b4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Guid actionGUID, ::StringW name);
 
-  /// @brief Method get_actionId, addr 0x45e002c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_actionId, addr 0x45e3290, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_actionId();
 
-  /// @brief Method get_actionName, addr 0x45e0034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_actionName, addr 0x45e3298, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_actionName();
 
 protected:
@@ -180,7 +180,7 @@ public:
   PlayerInput_ActionEvent(PlayerInput_ActionEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6717 };
 
   /// @brief Field m_ActionId, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_ActionId;
@@ -207,7 +207,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::PlayerInput_DeviceLostEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45daac0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45ddd24, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -225,7 +225,7 @@ public:
   PlayerInput_DeviceLostEvent(PlayerInput_DeviceLostEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -242,7 +242,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::PlayerInput_DeviceRegainedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45dab68, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45dddcc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -260,7 +260,7 @@ public:
   PlayerInput_DeviceRegainedEvent(PlayerInput_DeviceRegainedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -277,7 +277,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::PlayerInput_ControlsChangedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45dac10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45dde74, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -295,7 +295,7 @@ public:
   PlayerInput_ControlsChangedEvent(PlayerInput_ControlsChangedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -504,126 +504,126 @@ public:
 
   __declspec(property(get = get_user)) ::UnityEngine::InputSystem::Users::InputUser user;
 
-  /// @brief Method ActivateInput, addr 0x45da484, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ActivateInput, addr 0x45dd6e8, size 0xb4, virtual false, abstract: false, final false
   inline void ActivateInput();
 
-  /// @brief Method AssignPlayerIndex, addr 0x45ddeac, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method AssignPlayerIndex, addr 0x45e1110, size 0x1fc, virtual false, abstract: false, final false
   inline void AssignPlayerIndex();
 
-  /// @brief Method AssignUserAndDevices, addr 0x45d9cc4, size 0x7c0, virtual false, abstract: false, final false
+  /// @brief Method AssignUserAndDevices, addr 0x45dcf28, size 0x7c0, virtual false, abstract: false, final false
   inline void AssignUserAndDevices();
 
-  /// @brief Method CacheMessageNames, addr 0x45dc93c, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method CacheMessageNames, addr 0x45dfba0, size 0x3c8, virtual false, abstract: false, final false
   inline void CacheMessageNames();
 
-  /// @brief Method ClearCaches, addr 0x45d9cc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ClearCaches, addr 0x45dcf24, size 0x4, virtual false, abstract: false, final false
   inline void ClearCaches();
 
-  /// @brief Method DeactivateInput, addr 0x45db760, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeactivateInput, addr 0x45de9c4, size 0x24, virtual false, abstract: false, final false
   inline void DeactivateInput();
 
-  /// @brief Method DebugLogAction, addr 0x45df2c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DebugLogAction, addr 0x45e2528, size 0x78, virtual false, abstract: false, final false
   inline void DebugLogAction(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method DoInstantiate, addr 0x45dc29c, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method DoInstantiate, addr 0x45df500, size 0x340, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> DoInstantiate(::UnityEngine::GameObject* prefab);
 
-  /// @brief Method FindFirstPairedToDevice, addr 0x45dbfdc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method FindFirstPairedToDevice, addr 0x45df240, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> FindFirstPairedToDevice(::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Method GetDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline TDevice GetDevice();
 
-  /// @brief Method GetPlayerByIndex, addr 0x45dbee0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerByIndex, addr 0x45df144, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> GetPlayerByIndex(int32_t playerIndex);
 
-  /// @brief Method HandleControlsChanged, addr 0x45de6cc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandleControlsChanged, addr 0x45e1930, size 0x124, virtual false, abstract: false, final false
   inline void HandleControlsChanged();
 
-  /// @brief Method HandleDeviceLost, addr 0x45df33c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandleDeviceLost, addr 0x45e25a0, size 0x124, virtual false, abstract: false, final false
   inline void HandleDeviceLost();
 
-  /// @brief Method HandleDeviceRegained, addr 0x45df460, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandleDeviceRegained, addr 0x45e26c4, size 0x124, virtual false, abstract: false, final false
   inline void HandleDeviceRegained();
 
-  /// @brief Method HaveBindingForDevice, addr 0x45dd6f8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HaveBindingForDevice, addr 0x45e095c, size 0x104, virtual false, abstract: false, final false
   inline bool HaveBindingForDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method InitializeActions, addr 0x45d9500, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method InitializeActions, addr 0x45dc764, size 0x500, virtual false, abstract: false, final false
   inline void InitializeActions();
 
-  /// @brief Method InstallOnActionTriggeredHook, addr 0x45dc76c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method InstallOnActionTriggeredHook, addr 0x45df9d0, size 0x1d0, virtual false, abstract: false, final false
   inline void InstallOnActionTriggeredHook();
 
-  /// @brief Method Instantiate, addr 0x45dc144, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x45df3a8, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> Instantiate(::UnityEngine::GameObject* prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex,
                                                                               ::UnityEngine::InputSystem::InputDevice* pairWithDevice);
 
-  /// @brief Method Instantiate, addr 0x45dc5dc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x45df840, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> Instantiate(::UnityEngine::GameObject* prefab, int32_t playerIndex, ::StringW controlScheme, int32_t splitScreenIndex,
                                                                               ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> pairWithDevices);
 
   static inline ::UnityEngine::InputSystem::PlayerInput* New_ctor();
 
-  /// @brief Method OnActionTriggered, addr 0x45dce8c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method OnActionTriggered, addr 0x45e00f0, size 0x1f0, virtual false, abstract: false, final false
   inline void OnActionTriggered(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnDeviceChange, addr 0x45dfdec, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDeviceChange, addr 0x45e3050, size 0x108, virtual false, abstract: false, final false
   inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method OnDisable, addr 0x45dedf0, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x45e2054, size 0x2f0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x45de0a8, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x45e130c, size 0x4b4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPreFilterUnpairedDeviceUsed, addr 0x45df700, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnPreFilterUnpairedDeviceUsed, addr 0x45e2964, size 0xf0, virtual false, abstract: false, final false
   static inline bool OnPreFilterUnpairedDeviceUsed(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method OnUnpairedDeviceUsed, addr 0x45df7f0, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method OnUnpairedDeviceUsed, addr 0x45e2a54, size 0x5fc, virtual false, abstract: false, final false
   inline void OnUnpairedDeviceUsed(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method OnUserChange, addr 0x45df584, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method OnUserChange, addr 0x45e27e8, size 0x170, virtual false, abstract: false, final false
   static inline void OnUserChange(::UnityEngine::InputSystem::Users::InputUser user, ::UnityEngine::InputSystem::Users::InputUserChange change, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method PassivateInput, addr 0x45db784, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PassivateInput, addr 0x45de9e8, size 0x24, virtual false, abstract: false, final false
   inline void PassivateInput();
 
-  /// @brief Method StartListeningForDeviceChanges, addr 0x45de610, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method StartListeningForDeviceChanges, addr 0x45e1874, size 0xbc, virtual false, abstract: false, final false
   inline void StartListeningForDeviceChanges();
 
-  /// @brief Method StartListeningForUnpairedDeviceActivity, addr 0x45da73c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method StartListeningForUnpairedDeviceActivity, addr 0x45dd9a0, size 0x12c, virtual false, abstract: false, final false
   inline void StartListeningForUnpairedDeviceActivity();
 
-  /// @brief Method StopListeningForDeviceChanges, addr 0x45ded84, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StopListeningForDeviceChanges, addr 0x45e1fe8, size 0x6c, virtual false, abstract: false, final false
   inline void StopListeningForDeviceChanges();
 
-  /// @brief Method StopListeningForUnpairedDeviceActivity, addr 0x45da868, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StopListeningForUnpairedDeviceActivity, addr 0x45ddacc, size 0x70, virtual false, abstract: false, final false
   inline void StopListeningForUnpairedDeviceActivity();
 
-  /// @brief Method SwitchControlSchemeInternal, addr 0x45db96c, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method SwitchControlSchemeInternal, addr 0x45debd0, size 0x3ec, virtual false, abstract: false, final false
   inline void SwitchControlSchemeInternal(::ByRef<::UnityEngine::InputSystem::InputControlScheme> controlScheme,
                                           ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> devices);
 
-  /// @brief Method SwitchCurrentActionMap, addr 0x45db5f8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SwitchCurrentActionMap, addr 0x45de85c, size 0x168, virtual false, abstract: false, final false
   inline void SwitchCurrentActionMap(::StringW mapNameOrId);
 
-  /// @brief Method SwitchCurrentControlScheme, addr 0x45db7a8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SwitchCurrentControlScheme, addr 0x45dea0c, size 0x1c4, virtual false, abstract: false, final false
   inline bool SwitchCurrentControlScheme(::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> devices);
 
-  /// @brief Method SwitchCurrentControlScheme, addr 0x45dbd58, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SwitchCurrentControlScheme, addr 0x45defbc, size 0xd4, virtual false, abstract: false, final false
   inline void SwitchCurrentControlScheme(::StringW controlScheme, ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> devices);
 
-  /// @brief Method TryToActivateControlScheme, addr 0x45dd4a8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method TryToActivateControlScheme, addr 0x45e070c, size 0x1dc, virtual false, abstract: false, final false
   inline bool TryToActivateControlScheme(::UnityEngine::InputSystem::InputControlScheme controlScheme);
 
-  /// @brief Method UnassignUserAndDevices, addr 0x45ddb34, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UnassignUserAndDevices, addr 0x45e0d98, size 0xb8, virtual false, abstract: false, final false
   inline void UnassignUserAndDevices();
 
-  /// @brief Method UninitializeActions, addr 0x45d9af8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method UninitializeActions, addr 0x45dcd5c, size 0x1c8, virtual false, abstract: false, final false
   inline void UninitializeActions();
 
-  /// @brief Method UninstallOnActionTriggeredHook, addr 0x45dcd04, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method UninstallOnActionTriggeredHook, addr 0x45dff68, size 0x188, virtual false, abstract: false, final false
   inline void UninstallOnActionTriggeredHook();
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::PlayerInput_ActionEvent*, ::Array<::UnityEngine::InputSystem::PlayerInput_ActionEvent*>*> const& __cordl_internal_get_m_ActionEvents() const;
@@ -812,19 +812,19 @@ public:
 
   constexpr void __cordl_internal_set_m_UnpairedDeviceUsedDelegate(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x45dffcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e3230, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onActionTriggered, addr 0x45dac58, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_onActionTriggered, addr 0x45ddebc, size 0x9c, virtual false, abstract: false, final false
   inline void add_onActionTriggered(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* value);
 
-  /// @brief Method add_onControlsChanged, addr 0x45db000, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_onControlsChanged, addr 0x45de264, size 0x9c, virtual false, abstract: false, final false
   inline void add_onControlsChanged(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  /// @brief Method add_onDeviceLost, addr 0x45dad90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_onDeviceLost, addr 0x45ddff4, size 0x9c, virtual false, abstract: false, final false
   inline void add_onDeviceLost(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  /// @brief Method add_onDeviceRegained, addr 0x45daec8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_onDeviceRegained, addr 0x45de12c, size 0x9c, virtual false, abstract: false, final false
   inline void add_onDeviceRegained(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   static inline ::ArrayW<::UnityW<::UnityEngine::InputSystem::PlayerInput>, ::Array<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> getStaticF_s_AllActivePlayers();
@@ -846,82 +846,82 @@ public:
   static inline ::System::Action_3<::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*>*
   getStaticF_s_UserChangeDelegate();
 
-  /// @brief Method get_actionEvents, addr 0x45da99c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_actionEvents, addr 0x45ddc00, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::PlayerInput_ActionEvent*> get_actionEvents();
 
-  /// @brief Method get_actions, addr 0x45d94bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_actions, addr 0x45dc720, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_actions();
 
-  /// @brief Method get_active, addr 0x45d94a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x45dc708, size 0x8, virtual false, abstract: false, final false
   inline bool get_active();
 
-  /// @brief Method get_all, addr 0x45db450, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x45de6b4, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> get_all();
 
-  /// @brief Method get_camera, addr 0x45db138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x45de39c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_controlsChangedEvent, addr 0x45dabb0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_controlsChangedEvent, addr 0x45dde14, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::PlayerInput_ControlsChangedEvent* get_controlsChangedEvent();
 
-  /// @brief Method get_currentActionMap, addr 0x45da8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentActionMap, addr 0x45ddb3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionMap* get_currentActionMap();
 
-  /// @brief Method get_currentControlScheme, addr 0x45da538, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_currentControlScheme, addr 0x45dd79c, size 0x80, virtual false, abstract: false, final false
   inline ::StringW get_currentControlScheme();
 
-  /// @brief Method get_defaultActionMap, addr 0x45da92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultActionMap, addr 0x45ddb90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultActionMap();
 
-  /// @brief Method get_defaultControlScheme, addr 0x45da6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultControlScheme, addr 0x45dd950, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultControlScheme();
 
-  /// @brief Method get_deviceLostEvent, addr 0x45daa60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_deviceLostEvent, addr 0x45ddcc4, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::PlayerInput_DeviceLostEvent* get_deviceLostEvent();
 
-  /// @brief Method get_deviceRegainedEvent, addr 0x45dab08, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRegainedEvent, addr 0x45ddd6c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::PlayerInput_DeviceRegainedEvent* get_deviceRegainedEvent();
 
-  /// @brief Method get_devices, addr 0x45db2b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_devices, addr 0x45de514, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_devices();
 
-  /// @brief Method get_hasMissingRequiredDevices, addr 0x45db38c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_hasMissingRequiredDevices, addr 0x45de5f0, size 0x48, virtual false, abstract: false, final false
   inline bool get_hasMissingRequiredDevices();
 
-  /// @brief Method get_inputIsActive, addr 0x45d949c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputIsActive, addr 0x45dc700, size 0x8, virtual false, abstract: false, final false
   inline bool get_inputIsActive();
 
-  /// @brief Method get_isSinglePlayer, addr 0x45db4e0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_isSinglePlayer, addr 0x45de744, size 0x118, virtual false, abstract: false, final false
   static inline bool get_isSinglePlayer();
 
-  /// @brief Method get_neverAutoSwitchControlSchemes, addr 0x45da6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_neverAutoSwitchControlSchemes, addr 0x45dd960, size 0x8, virtual false, abstract: false, final false
   inline bool get_neverAutoSwitchControlSchemes();
 
-  /// @brief Method get_notificationBehavior, addr 0x45da93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_notificationBehavior, addr 0x45ddba0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::PlayerNotifications get_notificationBehavior();
 
-  /// @brief Method get_playerIndex, addr 0x45d94ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerIndex, addr 0x45dc710, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playerIndex();
 
-  /// @brief Method get_splitScreenIndex, addr 0x45d94b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_splitScreenIndex, addr 0x45dc718, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_splitScreenIndex();
 
-  /// @brief Method get_uiInputModule, addr 0x45db148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uiInputModule, addr 0x45de3ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::UI::InputSystemUIInputModule> get_uiInputModule();
 
-  /// @brief Method get_user, addr 0x45db2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_user, addr 0x45de50c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Users::InputUser get_user();
 
-  /// @brief Method remove_onActionTriggered, addr 0x45dacf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_onActionTriggered, addr 0x45ddf58, size 0x9c, virtual false, abstract: false, final false
   inline void remove_onActionTriggered(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* value);
 
-  /// @brief Method remove_onControlsChanged, addr 0x45db09c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_onControlsChanged, addr 0x45de300, size 0x9c, virtual false, abstract: false, final false
   inline void remove_onControlsChanged(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  /// @brief Method remove_onDeviceLost, addr 0x45dae2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_onDeviceLost, addr 0x45de090, size 0x9c, virtual false, abstract: false, final false
   inline void remove_onDeviceLost(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
-  /// @brief Method remove_onDeviceRegained, addr 0x45daf64, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_onDeviceRegained, addr 0x45de1c8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_onDeviceRegained(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   static inline void setStaticF_s_AllActivePlayers(::ArrayW<::UnityW<::UnityEngine::InputSystem::PlayerInput>, ::Array<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> value);
@@ -943,31 +943,31 @@ public:
   static inline void setStaticF_s_UserChangeDelegate(
       ::System::Action_3<::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method set_actionEvents, addr 0x45da9e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_actionEvents, addr 0x45ddc48, size 0x7c, virtual false, abstract: false, final false
   inline void set_actionEvents(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::PlayerInput_ActionEvent*> value);
 
-  /// @brief Method set_actions, addr 0x45d9a00, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_actions, addr 0x45dcc64, size 0xf8, virtual false, abstract: false, final false
   inline void set_actions(::UnityEngine::InputSystem::InputActionAsset* value);
 
-  /// @brief Method set_camera, addr 0x45db140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_camera, addr 0x45de3a4, size 0x8, virtual false, abstract: false, final false
   inline void set_camera(::UnityEngine::Camera* value);
 
-  /// @brief Method set_currentActionMap, addr 0x45da8e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_currentActionMap, addr 0x45ddb44, size 0x4c, virtual false, abstract: false, final false
   inline void set_currentActionMap(::UnityEngine::InputSystem::InputActionMap* value);
 
-  /// @brief Method set_defaultActionMap, addr 0x45da934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultActionMap, addr 0x45ddb98, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultActionMap(::StringW value);
 
-  /// @brief Method set_defaultControlScheme, addr 0x45da6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultControlScheme, addr 0x45dd958, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultControlScheme(::StringW value);
 
-  /// @brief Method set_neverAutoSwitchControlSchemes, addr 0x45da704, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_neverAutoSwitchControlSchemes, addr 0x45dd968, size 0x38, virtual false, abstract: false, final false
   inline void set_neverAutoSwitchControlSchemes(bool value);
 
-  /// @brief Method set_notificationBehavior, addr 0x45da944, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_notificationBehavior, addr 0x45ddba8, size 0x58, virtual false, abstract: false, final false
   inline void set_notificationBehavior(::UnityEngine::InputSystem::PlayerNotifications value);
 
-  /// @brief Method set_uiInputModule, addr 0x45db150, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method set_uiInputModule, addr 0x45de3b4, size 0x158, virtual false, abstract: false, final false
   inline void set_uiInputModule(::UnityEngine::InputSystem::UI::InputSystemUIInputModule* value);
 
 protected:
@@ -994,7 +994,7 @@ public:
   static constexpr ::ConstString DeviceRegainedMessage{ u"OnDeviceRegained" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6721 };
 
   /// @brief Field m_Actions, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ___m_Actions;

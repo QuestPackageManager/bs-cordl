@@ -71,24 +71,24 @@ public:
   /// @brief Field m_shaderGraphHighestValues, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraphHighestValues, put = __cordl_internal_set_m_shaderGraphHighestValues)) ::Tayx::Graphy::G_GraphShader* m_shaderGraphHighestValues;
 
-  /// @brief Method CreatePoints, addr 0x44d3720, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x44d6984, size 0x214, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x44d30d8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d633c, size 0x134, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioGraph* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x44d2e48, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d60ac, size 0x50, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x44d2e98, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d60fc, size 0x38, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x44d320c, size 0x4d0, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x44d6470, size 0x4d0, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x44d2f30, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d6194, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraphHighestValues(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x44d3934, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d6b98, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,7 +181,7 @@ public:
   G_AudioGraph(G_AudioGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17233 };
 
   /// @brief Field m_imageGraph, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageGraph;

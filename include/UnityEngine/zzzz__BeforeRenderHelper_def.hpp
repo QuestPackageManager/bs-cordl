@@ -42,7 +42,7 @@ public:
   constexpr BeforeRenderHelper_OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction* callback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10710 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -75,16 +75,16 @@ public:
   /// @brief Field s_OrderBlocks, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_OrderBlocks, put = setStaticF_s_OrderBlocks)) ::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>* s_OrderBlocks;
 
-  /// @brief Method GetUpdateOrder, addr 0x48719f8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateOrder, addr 0x4874c5c, size 0x118, virtual false, abstract: false, final false
   static inline int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method Invoke, addr 0x4861f74, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48651d8, size 0x1a8, virtual false, abstract: false, final false
   static inline void Invoke();
 
-  /// @brief Method RegisterCallback, addr 0x4861020, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallback, addr 0x4864284, size 0x34c, virtual false, abstract: false, final false
   static inline void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method UnregisterCallback, addr 0x48613c0, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallback, addr 0x4864624, size 0x304, virtual false, abstract: false, final false
   static inline void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>* getStaticF_s_OrderBlocks();
@@ -106,7 +106,7 @@ public:
   BeforeRenderHelper(BeforeRenderHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10711 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

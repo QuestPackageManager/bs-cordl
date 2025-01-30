@@ -20,31 +20,31 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE NumberHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AlignToMultipleOf, addr 0x456c590, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AlignToMultipleOf, addr 0x456f7f4, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t AlignToMultipleOf(int32_t number, int32_t alignment);
 
-  /// @brief Method AlignToMultipleOf, addr 0x456c5ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AlignToMultipleOf, addr 0x456f810, size 0x1c, virtual false, abstract: false, final false
   static inline int64_t AlignToMultipleOf(int64_t number, int64_t alignment);
 
-  /// @brief Method AlignToMultipleOf, addr 0x456c5c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AlignToMultipleOf, addr 0x456f82c, size 0x1c, virtual false, abstract: false, final false
   static inline uint32_t AlignToMultipleOf(uint32_t number, uint32_t alignment);
 
-  /// @brief Method Approximately, addr 0x456c5e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x456f848, size 0x9c, virtual false, abstract: false, final false
   static inline bool Approximately(double_t a, double_t b);
 
-  /// @brief Method IntToNormalizedFloat, addr 0x456c680, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IntToNormalizedFloat, addr 0x456f8e4, size 0x38, virtual false, abstract: false, final false
   static inline float_t IntToNormalizedFloat(int32_t value, int32_t minValue, int32_t maxValue);
 
-  /// @brief Method NormalizedFloatToInt, addr 0x456c6b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method NormalizedFloatToInt, addr 0x456f91c, size 0x50, virtual false, abstract: false, final false
   static inline int32_t NormalizedFloatToInt(float_t value, int32_t intMinValue, int32_t intMaxValue);
 
-  /// @brief Method NormalizedFloatToUInt, addr 0x456c740, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NormalizedFloatToUInt, addr 0x456f9a4, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t NormalizedFloatToUInt(float_t value, uint32_t uintMinValue, uint32_t uintMaxValue);
 
-  /// @brief Method RemapUIntBitsToNormalizeFloatToUIntBits, addr 0x456c788, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RemapUIntBitsToNormalizeFloatToUIntBits, addr 0x456f9ec, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t RemapUIntBitsToNormalizeFloatToUIntBits(uint32_t value, uint32_t inBitSize, uint32_t outBitSize);
 
-  /// @brief Method UIntToNormalizedFloat, addr 0x456c708, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UIntToNormalizedFloat, addr 0x456f96c, size 0x38, virtual false, abstract: false, final false
   static inline float_t UIntToNormalizedFloat(uint32_t value, uint32_t minValue, uint32_t maxValue);
 
 protected:
@@ -62,7 +62,7 @@ public:
   NumberHelpers(NumberHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

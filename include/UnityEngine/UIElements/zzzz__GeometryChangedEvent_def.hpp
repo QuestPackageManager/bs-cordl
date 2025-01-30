@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::GeometryChangedEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a29054, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2c2b8, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::GeometryChangedEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a2904c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c2b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::GeometryChangedEvent___c* getStaticF___9();
@@ -61,7 +61,7 @@ public:
   GeometryChangedEvent___c(GeometryChangedEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,13 +93,13 @@ public:
 
   __declspec(property(get = get_oldRect, put = set_oldRect)) ::UnityEngine::Rect oldRect;
 
-  /// @brief Method GetPooled, addr 0x4a28df8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a2c05c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* GetPooled(::UnityEngine::Rect oldRect, ::UnityEngine::Rect newRect);
 
-  /// @brief Method Init, addr 0x4a28eb8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a2c11c, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a28f08, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a2c16c, size 0x34, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* New_ctor();
@@ -122,25 +122,25 @@ public:
 
   constexpr void __cordl_internal_set__oldRect_k__BackingField(::UnityEngine::Rect value);
 
-  /// @brief Method .ctor, addr 0x4a28f7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c1e0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_layoutPass, addr 0x4a28f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layoutPass, addr 0x4a2c1d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layoutPass();
 
-  /// @brief Method get_newRect, addr 0x4a28f54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_newRect, addr 0x4a2c1b8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_newRect();
 
-  /// @brief Method get_oldRect, addr 0x4a28f3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_oldRect, addr 0x4a2c1a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_oldRect();
 
-  /// @brief Method set_layoutPass, addr 0x4a28f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layoutPass, addr 0x4a2c1d8, size 0x8, virtual false, abstract: false, final false
   inline void set_layoutPass(int32_t value);
 
-  /// @brief Method set_newRect, addr 0x4a28f60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_newRect, addr 0x4a2c1c4, size 0xc, virtual false, abstract: false, final false
   inline void set_newRect(::UnityEngine::Rect value);
 
-  /// @brief Method set_oldRect, addr 0x4a28f48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_oldRect, addr 0x4a2c1ac, size 0xc, virtual false, abstract: false, final false
   inline void set_oldRect(::UnityEngine::Rect value);
 
 protected:
@@ -158,7 +158,7 @@ public:
   GeometryChangedEvent(GeometryChangedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5849 };
 
   /// @brief Field <oldRect>k__BackingField, offset: 0x84, size: 0x10, def value: None
   ::UnityEngine::Rect ____oldRect_k__BackingField;

@@ -38,15 +38,15 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE BestFitAllocator_BlockPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::BestFitAllocator_Block*> {
 public:
   // Declarations
-  /// @brief Method CreateBlock, addr 0x49b94cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateBlock, addr 0x49bc730, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::BestFitAllocator_Block* CreateBlock();
 
   static inline ::UnityEngine::UIElements::UIR::BestFitAllocator_BlockPool* New_ctor();
 
-  /// @brief Method ResetBlock, addr 0x49b9564, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResetBlock, addr 0x49bc7c8, size 0x4, virtual false, abstract: false, final false
   static inline void ResetBlock(::UnityEngine::UIElements::UIR::BestFitAllocator_Block* block);
 
-  /// @brief Method .ctor, addr 0x49b8d98, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bbffc, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   BestFitAllocator_BlockPool(BestFitAllocator_BlockPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -146,10 +146,10 @@ public:
 
   constexpr void __cordl_internal_set_start(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x49b951c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bc780, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_size, addr 0x49b9070, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x49bc2d4, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_size();
 
 protected:
@@ -167,7 +167,7 @@ public:
   BestFitAllocator_Block(BestFitAllocator_Block const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6424 };
 
   /// @brief Field start, offset: 0x18, size: 0x4, def value: None
   uint32_t ___start;
@@ -241,21 +241,21 @@ public:
 
   __declspec(property(get = get_totalSize)) uint32_t totalSize;
 
-  /// @brief Method Allocate, addr 0x49b8e94, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x49bc0f8, size 0x198, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size);
 
-  /// @brief Method BestFitFindAvailableBlock, addr 0x49b902c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method BestFitFindAvailableBlock, addr 0x49bc290, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BestFitAllocator_Block* BestFitFindAvailableBlock(uint32_t size);
 
-  /// @brief Method CoalesceBlockWithPrevious, addr 0x49b93c4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CoalesceBlockWithPrevious, addr 0x49bc628, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BestFitAllocator_Block* CoalesceBlockWithPrevious(::UnityEngine::UIElements::UIR::BestFitAllocator_Block* block);
 
-  /// @brief Method Free, addr 0x49b9168, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x49bc3cc, size 0x25c, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
 
   static inline ::UnityEngine::UIElements::UIR::BestFitAllocator* New_ctor(uint32_t size);
 
-  /// @brief Method SplitBlock, addr 0x49b907c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SplitBlock, addr 0x49bc2e0, size 0xec, virtual false, abstract: false, final false
   inline void SplitBlock(::UnityEngine::UIElements::UIR::BestFitAllocator_Block* block, uint32_t size);
 
   constexpr uint32_t const& __cordl_internal_get__totalSize_k__BackingField() const;
@@ -288,13 +288,13 @@ public:
 
   constexpr void __cordl_internal_set_m_HighWatermark(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x49b8cf4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bbf58, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(uint32_t size);
 
-  /// @brief Method get_highWatermark, addr 0x49b8e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highWatermark, addr 0x49bc0f0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_highWatermark();
 
-  /// @brief Method get_totalSize, addr 0x49b8e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalSize, addr 0x49bc0e8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_totalSize();
 
 protected:
@@ -312,7 +312,7 @@ public:
   BestFitAllocator(BestFitAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6425 };
 
   /// @brief Field <totalSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   uint32_t ____totalSize_k__BackingField;

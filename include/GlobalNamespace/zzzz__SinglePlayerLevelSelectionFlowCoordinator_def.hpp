@@ -108,10 +108,10 @@ public:
 
   static inline ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0* New_ctor();
 
-  /// @brief Method <StartLevelOrShow360Prompt>b__0, addr 0x3b520dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <StartLevelOrShow360Prompt>b__0, addr 0x3b560dc, size 0x94, virtual false, abstract: false, final false
   inline void _StartLevelOrShow360Prompt_b__0(int32_t _);
 
-  /// @brief Method <StartLevelOrShow360Prompt>b__1, addr 0x3b52170, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <StartLevelOrShow360Prompt>b__1, addr 0x3b56170, size 0x50, virtual false, abstract: false, final false
   inline void _StartLevelOrShow360Prompt_b__1();
 
   constexpr ::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_practice(bool value);
 
-  /// @brief Method .ctor, addr 0x3b51ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b55ed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +156,7 @@ public:
   SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0(SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5305 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator> _____4__this;
@@ -247,61 +247,61 @@ public:
 
   __declspec(property(get = get_playerSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSettings;
 
-  /// @brief Method ActionButtonWasPressed, addr 0x3b51a50, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ActionButtonWasPressed, addr 0x3b55a50, size 0xc, virtual true, abstract: false, final false
   inline void ActionButtonWasPressed();
 
-  /// @brief Method BackButtonWasPressed, addr 0x3b51f94, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x3b55f94, size 0x94, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DismissPracticeViewController, addr 0x3b52028, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DismissPracticeViewController, addr 0x3b56028, size 0xb4, virtual false, abstract: false, final false
   inline void DismissPracticeViewController(::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method HandleBasicLevelCompletionResults, addr 0x3b50d64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicLevelCompletionResults, addr 0x3b54d64, size 0x24, virtual false, abstract: false, final false
   inline bool HandleBasicLevelCompletionResults(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, bool practice);
 
-  /// @brief Method HandlePracticeViewControllerDidPressPlayButton, addr 0x3b51ed8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandlePracticeViewControllerDidPressPlayButton, addr 0x3b55ed8, size 0xc, virtual false, abstract: false, final false
   inline void HandlePracticeViewControllerDidPressPlayButton();
 
-  /// @brief Method HandleStandardLevelDidFinish, addr 0x3b51ee4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelDidFinish, addr 0x3b55ee4, size 0xb0, virtual false, abstract: false, final false
   inline void HandleStandardLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
                                            ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method LevelSelectionFlowCoordinatorDidActivate, addr 0x3b51644, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LevelSelectionFlowCoordinatorDidActivate, addr 0x3b55644, size 0xb8, virtual true, abstract: false, final true
   inline void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method LevelSelectionFlowCoordinatorDidDeactivate, addr 0x3b516fc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method LevelSelectionFlowCoordinatorDidDeactivate, addr 0x3b556fc, size 0xb0, virtual true, abstract: false, final true
   inline void LevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method LevelSelectionFlowCoordinatorTopViewControllerWillChange, addr 0x3b517ac, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method LevelSelectionFlowCoordinatorTopViewControllerWillChange, addr 0x3b557ac, size 0x2a4, virtual true, abstract: false, final false
   inline void LevelSelectionFlowCoordinatorTopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController,
                                                                        ::HMUI::ViewController_AnimationType animationType);
 
   static inline ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator* New_ctor();
 
-  /// @brief Method PracticeButtonWasPressed, addr 0x3b51d90, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PracticeButtonWasPressed, addr 0x3b55d90, size 0x8c, virtual true, abstract: false, final false
   inline void PracticeButtonWasPressed();
 
-  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x3b514d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x3b554d8, size 0x4, virtual true, abstract: false, final false
   inline void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
 
-  /// @brief Method SelectionDidChange, addr 0x3b51e1c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3b55e1c, size 0xb4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method SetupGameplaySetupViewController, addr 0x3b5092c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetupGameplaySetupViewController, addr 0x3b5492c, size 0x30, virtual false, abstract: false, final false
   inline void SetupGameplaySetupViewController(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x3b514d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x3b554d0, size 0x4, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x3b514d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x3b554d4, size 0x4, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method StartLevel, addr 0x3b51018, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x3b55018, size 0x270, virtual false, abstract: false, final false
   inline void StartLevel(::System::Action* beforeSceneSwitchCallback, bool practice);
 
-  /// @brief Method StartLevelOrShow360Prompt, addr 0x3b51a5c, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method StartLevelOrShow360Prompt, addr 0x3b55a5c, size 0x334, virtual false, abstract: false, final false
   inline void StartLevelOrShow360Prompt(::System::Action* beforeSceneSwitchCallback, bool practice);
 
   constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO> const& __cordl_internal_get__appStaticSettings() const;
@@ -364,40 +364,40 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value);
 
-  /// @brief Method .ctor, addr 0x3b51290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b55290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b514dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b554dc, size 0xb4, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value);
 
-  /// @brief Method get_enableCustomLevels, addr 0x3b51450, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_enableCustomLevels, addr 0x3b55450, size 0x1c, virtual true, abstract: false, final false
   inline bool get_enableCustomLevels();
 
   /// @brief Method get_gameMode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_gameplayModifiers, addr 0x3b5146c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x3b5546c, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_hideGameplaySetup, addr 0x3b51488, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hideGameplaySetup, addr 0x3b55488, size 0x8, virtual true, abstract: false, final false
   inline bool get_hideGameplaySetup();
 
-  /// @brief Method get_initialLeftScreenViewController, addr 0x3b514a0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_initialLeftScreenViewController, addr 0x3b554a0, size 0x30, virtual true, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_initialLeftScreenViewController();
 
-  /// @brief Method get_initialTopScreenViewController, addr 0x3b51498, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_initialTopScreenViewController, addr 0x3b55498, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_initialTopScreenViewController();
 
-  /// @brief Method get_isInPracticeView, addr 0x3b513c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_isInPracticeView, addr 0x3b553c0, size 0x74, virtual false, abstract: false, final false
   inline bool get_isInPracticeView();
 
-  /// @brief Method get_leaderboardViewController, addr 0x3b51490, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_leaderboardViewController, addr 0x3b55490, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardViewController> get_leaderboardViewController();
 
-  /// @brief Method get_playerSettings, addr 0x3b51434, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_playerSettings, addr 0x3b55434, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b51590, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b55590, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>* value);
 
 protected:
@@ -415,7 +415,7 @@ public:
   SinglePlayerLevelSelectionFlowCoordinator(SinglePlayerLevelSelectionFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5306 };
 
   /// @brief Field _degree360BeatmapCharacteristic, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____degree360BeatmapCharacteristic;

@@ -56,22 +56,22 @@ public:
 
   constexpr void __cordl_internal_set_isMixed(bool value);
 
-  /// @brief Method .ctor, addr 0x42b9ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bd134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x42b9eb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x42bd11c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method get_HasMixedAttribute, addr 0x42b9ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasMixedAttribute, addr 0x42bd12c, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasMixedAttribute();
 
-  /// @brief Method get_IsMixed, addr 0x42b9e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsMixed, addr 0x42bd100, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMixed();
 
-  /// @brief Method set_Content, addr 0x42b9ec0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x42bd124, size 0x8, virtual true, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
-  /// @brief Method set_IsMixed, addr 0x42b9ea4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_IsMixed, addr 0x42bd108, size 0x14, virtual false, abstract: false, final false
   inline void set_IsMixed(bool value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   XmlSchemaComplexContent(XmlSchemaComplexContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7662 };
 
   /// @brief Field content, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaContent* ___content;

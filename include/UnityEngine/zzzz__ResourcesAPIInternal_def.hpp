@@ -31,22 +31,22 @@ namespace UnityEngine {
 class CORDL_TYPE ResourcesAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindObjectsOfTypeAll, addr 0x48a4df0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x48a8054, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
-  /// @brief Method FindShaderByName, addr 0x48a4e2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x48a8090, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method Load, addr 0x48a4e68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x48a80cc, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll, addr 0x48a4eac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x48a8110, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsyncInternal, addr 0x48a4ef0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAsyncInternal, addr 0x48a8154, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceRequest* LoadAsyncInternal(::StringW path, ::System::Type* type);
 
-  /// @brief Method UnloadAsset, addr 0x48a4f34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x48a8198, size 0x3c, virtual false, abstract: false, final false
   static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
 protected:
@@ -64,7 +64,7 @@ public:
   ResourcesAPIInternal(ResourcesAPIInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

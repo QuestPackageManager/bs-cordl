@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_OutputAttributeDictionary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a3aad0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3cf5c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   HEU_OutputAttributeDictionary(HEU_OutputAttributeDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

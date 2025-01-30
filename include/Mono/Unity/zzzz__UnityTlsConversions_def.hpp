@@ -39,23 +39,23 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTlsConversions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertProtocolVersion, addr 0x410c504, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConvertProtocolVersion, addr 0x410f768, size 0x20, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::UnityTls_unitytls_protocol protocol);
 
-  /// @brief Method GetMaxProtocol, addr 0x410b7d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMaxProtocol, addr 0x410ea38, size 0x38, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols protocols);
 
-  /// @brief Method GetMinProtocol, addr 0x410b79c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMinProtocol, addr 0x410ea00, size 0x38, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols protocols);
 
-  /// @brief Method VerifyResultToAlertDescription, addr 0x4109304, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToAlertDescription, addr 0x410c568, size 0x54, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult,
                                                                                              ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method VerifyResultToChainStatus, addr 0x410d9fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToChainStatus, addr 0x4110c60, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags VerifyResultToChainStatus(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult);
 
-  /// @brief Method VerifyResultToPolicyErrror, addr 0x410d9cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToPolicyErrror, addr 0x4110c30, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult);
 
 protected:
@@ -73,7 +73,7 @@ public:
   UnityTlsConversions(UnityTlsConversions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x3a06be4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a09070, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   HEU_InputObjectPreset(HEU_InputObjectPreset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11594 };
 
   /// @brief Field _gameObjectName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____gameObjectName;

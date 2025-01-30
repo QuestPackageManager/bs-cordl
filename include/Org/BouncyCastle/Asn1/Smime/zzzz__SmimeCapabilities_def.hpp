@@ -72,21 +72,21 @@ public:
   /// @brief Field capabilities, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_capabilities, put = __cordl_internal_set_capabilities)) ::Org::BouncyCastle::Asn1::Asn1Sequence* capabilities;
 
-  /// @brief Method DoGetCapabilitiesForOid, addr 0x24f2c34, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method DoGetCapabilitiesForOid, addr 0x24f3c50, size 0x640, virtual false, abstract: false, final false
   inline void DoGetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, ::System::Collections::IList* list);
 
-  /// @brief Method GetCapabilities, addr 0x24f2bc0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetCapabilities, addr 0x24f3bdc, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetCapabilities(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
 
-  /// @brief Method GetCapabilitiesForOid, addr 0x24f3274, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCapabilitiesForOid, addr 0x24f4290, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
 
-  /// @brief Method GetInstance, addr 0x24f2964, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24f3980, size 0x234, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x24f342c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24f4448, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_capabilities() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_capabilities(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x24f2b98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f3bb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Aes128Cbc();

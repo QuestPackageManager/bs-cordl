@@ -20,13 +20,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DisableGCWhileEnabled* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39c295c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39c4de8, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39c2950, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39c4ddc, size 0xc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x39c2968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c4df4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   DisableGCWhileEnabled(DisableGCWhileEnabled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

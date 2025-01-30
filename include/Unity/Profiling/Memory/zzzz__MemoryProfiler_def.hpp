@@ -51,19 +51,19 @@ public:
   /// @brief Field m_SnapshotFinished, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_SnapshotFinished, put = setStaticF_m_SnapshotFinished)) ::System::Action_2<::StringW, bool>* m_SnapshotFinished;
 
-  /// @brief Method FinalizeSnapshot, addr 0x485eee8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method FinalizeSnapshot, addr 0x486214c, size 0x84, virtual false, abstract: false, final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
-  /// @brief Method PrepareMetadata, addr 0x485eb70, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method PrepareMetadata, addr 0x4861dd4, size 0x1fc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMetadata();
 
-  /// @brief Method SaveScreenshotToDisk, addr 0x485ef6c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshotToDisk, addr 0x48621d0, size 0xfc, virtual false, abstract: false, final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, ::System::IntPtr pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method WriteIntToByteArray, addr 0x485ed6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WriteIntToByteArray, addr 0x4861fd0, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t WriteIntToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t value);
 
-  /// @brief Method WriteStringToByteArray, addr 0x485edf8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToByteArray, addr 0x486205c, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, ::StringW value);
 
   static inline ::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* getStaticF_CreatingMetadata();
@@ -93,7 +93,7 @@ public:
   MemoryProfiler(MemoryProfiler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10578 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

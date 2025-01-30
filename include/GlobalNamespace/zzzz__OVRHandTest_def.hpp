@@ -68,18 +68,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE BoolMonitor_OVRHandTest_BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4035800, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4038a64, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4035820, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4038a84, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x40357ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4038a50, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::GlobalNamespace::BoolMonitor_OVRHandTest_BoolGenerator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40347dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4037a40, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -97,7 +97,7 @@ public:
   BoolMonitor_OVRHandTest_BoolGenerator(BoolMonitor_OVRHandTest_BoolGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,12 +135,12 @@ public:
   /// @brief Field m_prevValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
-  /// @brief Method AppendToStringBuilder, addr 0x4035570, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AppendToStringBuilder, addr 0x40387d4, size 0xd4, virtual false, abstract: false, final false
   inline void AppendToStringBuilder(::ByRef<::System::Text::StringBuilder*> sb);
 
   static inline ::GlobalNamespace::OVRHandTest_BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRHandTest_BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x40354e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4038744, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_currentValue() const;
@@ -185,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  /// @brief Method .ctor, addr 0x4034864, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4037ac8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRHandTest_BoolGenerator* generator, float_t displayTimeout);
 
 protected:
@@ -203,7 +203,7 @@ public:
   OVRHandTest_BoolMonitor(OVRHandTest_BoolMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8432 };
 
   /// @brief Field m_name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_name;
@@ -261,13 +261,13 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTest___c* New_ctor();
 
-  /// @brief Method <Start>b__14_0, addr 0x40358ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x4038b10, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__14_0();
 
-  /// @brief Method <.cctor>b__19_0, addr 0x4035904, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__19_0, addr 0x4038b68, size 0x108, virtual false, abstract: false, final false
   inline bool __cctor_b__19_0();
 
-  /// @brief Method .ctor, addr 0x40358a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4038b08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRHandTest___c* getStaticF___9();
@@ -293,7 +293,7 @@ public:
   OVRHandTest___c(OVRHandTest___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -359,10 +359,10 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTest* New_ctor();
 
-  /// @brief Method Start, addr 0x403450c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4037770, size 0x2d0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x40348dc, size 0xc04, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4037b40, size 0xc04, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_data() const;
@@ -443,7 +443,7 @@ public:
 
   constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x4035644, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40388a8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRHandTest_BoolMonitor* getStaticF_controllers();
@@ -469,7 +469,7 @@ public:
   OVRHandTest(OVRHandTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8434 };
 
   /// @brief Field uiText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___uiText;

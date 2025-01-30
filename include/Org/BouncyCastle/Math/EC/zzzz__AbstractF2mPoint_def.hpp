@@ -36,37 +36,37 @@ public:
                                                                           ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                           bool withCompression);
 
-  /// @brief Method SatisfiesCurveEquation, addr 0x2484904, size 0x454, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesCurveEquation, addr 0x2485920, size 0x454, virtual true, abstract: false, final false
   inline bool SatisfiesCurveEquation();
 
-  /// @brief Method SatisfiesOrder, addr 0x2484d58, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesOrder, addr 0x2485d74, size 0x2c0, virtual true, abstract: false, final false
   inline bool SatisfiesOrder();
 
-  /// @brief Method ScaleX, addr 0x2485018, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method ScaleX, addr 0x2486034, size 0x298, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleXNegateY, addr 0x24852b0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ScaleXNegateY, addr 0x24862cc, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleXNegateY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleY, addr 0x24852c0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ScaleY, addr 0x24862dc, size 0xe8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleYNegateX, addr 0x24853a8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ScaleYNegateX, addr 0x24863c4, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleYNegateX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method Subtract, addr 0x24853b8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x24863d4, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Subtract(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method Tau, addr 0x2485424, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method Tau, addr 0x2486440, size 0x284, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* Tau();
 
-  /// @brief Method TauPow, addr 0x24856a8, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method TauPow, addr 0x24866c4, size 0x29c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* TauPow(int32_t pow);
 
-  /// @brief Method .ctor, addr 0x24848ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2485908, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x24848f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2485914, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 

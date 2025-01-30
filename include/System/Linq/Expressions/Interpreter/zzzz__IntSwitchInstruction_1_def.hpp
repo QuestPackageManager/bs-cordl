@@ -70,7 +70,7 @@ public:
   IntSwitchInstruction_1(IntSwitchInstruction_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13797 };
 
   /// @brief Field _cases, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<T, int32_t>* ____cases;

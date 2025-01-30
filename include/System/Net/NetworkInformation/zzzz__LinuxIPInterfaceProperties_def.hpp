@@ -39,13 +39,13 @@ public:
   static inline ::System::Net::NetworkInformation::LinuxIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo, addr 0x43ea424, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo, addr 0x43ed688, size 0x498, virtual false, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::StringW iface);
 
-  /// @brief Method .ctor, addr 0x43ea3b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ed618, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x43ea8bc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x43edb20, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:
@@ -63,7 +63,7 @@ public:
   LinuxIPInterfaceProperties(LinuxIPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9786 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

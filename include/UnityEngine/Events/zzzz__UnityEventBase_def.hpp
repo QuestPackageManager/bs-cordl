@@ -60,16 +60,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method AddCall, addr 0x48bd42c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddCall, addr 0x48c0690, size 0x18, virtual false, abstract: false, final false
   inline void AddCall(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method DirtyPersistentCalls, addr 0x48bcf00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DirtyPersistentCalls, addr 0x48c0164, size 0x28, virtual false, abstract: false, final false
   inline void DirtyPersistentCalls();
 
-  /// @brief Method FindMethod, addr 0x48bbed0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x48bf134, size 0x1cc, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* FindMethod(::UnityEngine::Events::PersistentCall* call);
 
-  /// @brief Method FindMethod, addr 0x48bcf2c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x48c0190, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* FindMethod(::StringW name, ::System::Type* listenerType, ::UnityEngine::Events::PersistentListenerMode mode, ::System::Type* argumentType);
 
   /// @brief Method FindMethod_Impl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -78,33 +78,33 @@ public:
   /// @brief Method GetDelegate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method GetPersistentEventCount, addr 0x48bd3e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPersistentEventCount, addr 0x48c0644, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetPersistentEventCount();
 
-  /// @brief Method GetValidMethodInfo, addr 0x48bd1f8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetValidMethodInfo, addr 0x48c045c, size 0x1e8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetValidMethodInfo(::System::Type* objectType, ::StringW functionName, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argumentTypes);
 
   static inline ::UnityEngine::Events::UnityEventBase* New_ctor();
 
-  /// @brief Method PrepareInvoke, addr 0x48bd474, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PrepareInvoke, addr 0x48c06d8, size 0x20, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
 
-  /// @brief Method RebuildPersistentCallsIfNeeded, addr 0x48bd3f8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method RebuildPersistentCallsIfNeeded, addr 0x48c065c, size 0x34, virtual false, abstract: false, final false
   inline void RebuildPersistentCallsIfNeeded();
 
-  /// @brief Method RemoveAllListeners, addr 0x48bd45c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllListeners, addr 0x48c06c0, size 0x18, virtual false, abstract: false, final false
   inline void RemoveAllListeners();
 
-  /// @brief Method RemoveListener, addr 0x48bd444, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x48c06a8, size 0x18, virtual false, abstract: false, final false
   inline void RemoveListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ToString, addr 0x48bd494, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48c06f8, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x48bcf28, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x48c018c, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x48bcefc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x48c0160, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr ::UnityEngine::Events::InvokableCallList* const& __cordl_internal_get_m_Calls() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PersistentCalls(::UnityEngine::Events::PersistentCallGroup* value);
 
-  /// @brief Method .ctor, addr 0x48bce64, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c00c8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -146,7 +146,7 @@ public:
   UnityEventBase(UnityEventBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10987 };
 
   /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::InvokableCallList* ___m_Calls;

@@ -32,28 +32,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::PointF>"
   constexpr operator ::System::IEquatable_1<::System::Drawing::PointF>*();
 
-  /// @brief Method Equals, addr 0x4210384, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x42135e8, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4210408, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x421366c, size 0x1c, virtual true, abstract: false, final true
   inline bool Equals(::System::Drawing::PointF other);
 
-  /// @brief Method GetHashCode, addr 0x4210424, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4213688, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x42104bc, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4213720, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_X, addr 0x421035c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x42135c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_X();
 
-  /// @brief Method get_Y, addr 0x4210364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x42135c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Y();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Drawing::PointF>"
   constexpr ::System::IEquatable_1<::System::Drawing::PointF>* i___System__IEquatable_1___System__Drawing__PointF_();
 
-  /// @brief Method op_Equality, addr 0x421036c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x42135d0, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Drawing::PointF left, ::System::Drawing::PointF right);
 
   // Ctor Parameters []
@@ -64,7 +64,7 @@ public:
   constexpr PointF(float_t x, float_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17433 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

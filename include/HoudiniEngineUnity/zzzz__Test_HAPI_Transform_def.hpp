@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a97390, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9981c, size 0x200, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_Transform* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_Transform* New_ctor(::HoudiniEngineUnity::HAPI_Transform self);
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_Transform value);
 
-  /// @brief Method .ctor, addr 0x3a9735c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a997e8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_Transform self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
@@ -61,7 +61,7 @@ public:
   Test_HAPI_Transform(Test_HAPI_Transform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11879 };
 
   /// @brief Field self, offset: 0x10, size: 0x28, def value: None
   ::HoudiniEngineUnity::HAPI_Transform ___self;

@@ -28,50 +28,50 @@ namespace Org::BouncyCastle::Crypto::Agreement::Srp {
 class CORDL_TYPE Srp6Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CalculateK, addr 0x268a0f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CalculateK, addr 0x268b114, size 0xc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateK(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method CalculateKey, addr 0x268a2b8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method CalculateKey, addr 0x268b2d4, size 0x214, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateKey(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* S);
 
-  /// @brief Method CalculateM1, addr 0x268a184, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CalculateM1, addr 0x268b1a0, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateM1(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* A,
                                                                    ::Org::BouncyCastle::Math::BigInteger* B, ::Org::BouncyCastle::Math::BigInteger* S);
 
-  /// @brief Method CalculateM2, addr 0x268a234, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CalculateM2, addr 0x268b250, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateM2(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* A,
                                                                    ::Org::BouncyCastle::Math::BigInteger* M1, ::Org::BouncyCastle::Math::BigInteger* S);
 
-  /// @brief Method CalculateU, addr 0x2689f14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CalculateU, addr 0x268af30, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateU(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* A,
                                                                   ::Org::BouncyCastle::Math::BigInteger* B);
 
-  /// @brief Method CalculateX, addr 0x26899e8, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method CalculateX, addr 0x268aa04, size 0x404, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateX(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method GeneratePrivateValue, addr 0x2689ff4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GeneratePrivateValue, addr 0x268b010, size 0x104, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* GeneratePrivateValue(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N,
                                                                             ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GetPadded, addr 0x268b0f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetPadded, addr 0x268c114, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPadded(::Org::BouncyCastle::Math::BigInteger* n, int32_t length);
 
-  /// @brief Method HashPaddedPair, addr 0x268ab34, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method HashPaddedPair, addr 0x268bb50, size 0x29c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* HashPaddedPair(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* n1,
                                                                       ::Org::BouncyCastle::Math::BigInteger* n2);
 
-  /// @brief Method HashPaddedTriplet, addr 0x268add0, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method HashPaddedTriplet, addr 0x268bdec, size 0x328, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* HashPaddedTriplet(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::BigInteger* N,
                                                                          ::Org::BouncyCastle::Math::BigInteger* n1, ::Org::BouncyCastle::Math::BigInteger* n2,
                                                                          ::Org::BouncyCastle::Math::BigInteger* n3);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Utilities* New_ctor();
 
-  /// @brief Method ValidatePublicValue, addr 0x2689e30, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ValidatePublicValue, addr 0x268ae4c, size 0xe4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ValidatePublicValue(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method .ctor, addr 0x268b194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268c1b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

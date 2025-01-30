@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::PlayableTrack* New_ctor();
 
-  /// @brief Method OnCreateClip, addr 0x48290d0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnCreateClip, addr 0x482c334, size 0x94, virtual true, abstract: false, final false
   inline void OnCreateClip(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method .ctor, addr 0x4829164, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482c3c8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   PlayableTrack(PlayableTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

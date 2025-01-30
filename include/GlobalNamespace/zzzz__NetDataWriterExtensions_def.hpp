@@ -25,10 +25,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE NetDataWriterExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetUpPacket, addr 0x22dad80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0x22dbd9c, size 0x4, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, ::GlobalNamespace::PacketOption packetOptions);
 
-  /// @brief Method SetUpPacket, addr 0x22dad84, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0x22dbda0, size 0x4c, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, uint8_t packetOptions);
 
 protected:
@@ -46,7 +46,7 @@ public:
   NetDataWriterExtensions(NetDataWriterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

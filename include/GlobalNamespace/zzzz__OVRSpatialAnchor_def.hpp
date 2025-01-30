@@ -167,7 +167,7 @@ public:
       ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* Delegate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8308 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -203,31 +203,31 @@ public:
 
   __declspec(property(get = get_Uuids, put = set_Uuids)) ::System::Collections::Generic::IReadOnlyList_1<::System::Guid>* Uuids;
 
-  /// @brief Method ToQueryOptions, addr 0x4018454, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ToQueryOptions, addr 0x401b6b8, size 0x14c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSpaceQuery_Options ToQueryOptions();
 
-  /// @brief Method get_MaxAnchorCount, addr 0x40182b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxAnchorCount, addr 0x401b518, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxAnchorCount();
 
-  /// @brief Method get_StorageLocation, addr 0x40182a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StorageLocation, addr 0x401b508, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSpace_StorageLocation get_StorageLocation();
 
-  /// @brief Method get_Timeout, addr 0x40182c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Timeout, addr 0x401b528, size 0x8, virtual false, abstract: false, final false
   inline double_t get_Timeout();
 
-  /// @brief Method get_Uuids, addr 0x40182d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Uuids, addr 0x401b538, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Guid>* get_Uuids();
 
-  /// @brief Method set_MaxAnchorCount, addr 0x40182bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxAnchorCount, addr 0x401b520, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxAnchorCount(int32_t value);
 
-  /// @brief Method set_StorageLocation, addr 0x40182ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StorageLocation, addr 0x401b510, size 0x8, virtual false, abstract: false, final false
   inline void set_StorageLocation(::GlobalNamespace::OVRSpace_StorageLocation value);
 
-  /// @brief Method set_Timeout, addr 0x40182cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x401b530, size 0x8, virtual false, abstract: false, final false
   inline void set_Timeout(double_t value);
 
-  /// @brief Method set_Uuids, addr 0x40182dc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method set_Uuids, addr 0x401b540, size 0x178, virtual false, abstract: false, final false
   inline void set_Uuids(::System::Collections::Generic::IReadOnlyList_1<::System::Guid>* value);
 
   // Ctor Parameters []
@@ -244,7 +244,7 @@ public:
   static constexpr int32_t MaxSupported{ static_cast<int32_t>(0x400) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8309 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -290,34 +290,34 @@ public:
 
   __declspec(property(get = get_Uuid)) ::System::Guid Uuid;
 
-  /// @brief Method AddStorableAndShareableComponents, addr 0x4018b58, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AddStorableAndShareableComponents, addr 0x401bdbc, size 0xb0, virtual false, abstract: false, final false
   inline void AddStorableAndShareableComponents();
 
-  /// @brief Method BindTo, addr 0x4018c08, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method BindTo, addr 0x401be6c, size 0x354, virtual false, abstract: false, final false
   inline void BindTo(::GlobalNamespace::OVRSpatialAnchor* spatialAnchor);
 
-  /// @brief Method Localize, addr 0x4018808, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Localize, addr 0x401ba6c, size 0xd4, virtual false, abstract: false, final false
   inline void Localize(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor, bool>* onComplete, double_t timeout);
 
-  /// @brief Method LocalizeAsync, addr 0x40188dc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LocalizeAsync, addr 0x401bb40, size 0xe8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> LocalizeAsync(double_t timeout);
 
-  /// @brief Method ValidateLocalization, addr 0x40189c4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ValidateLocalization, addr 0x401bc28, size 0x194, virtual false, abstract: false, final false
   inline void ValidateLocalization();
 
-  /// @brief Method .ctor, addr 0x4018f5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401c1c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRSpace space, ::System::Guid uuid);
 
-  /// @brief Method get_Localized, addr 0x40185ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Localized, addr 0x401b810, size 0x98, virtual false, abstract: false, final false
   inline bool get_Localized();
 
-  /// @brief Method get_Localizing, addr 0x4018644, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_Localizing, addr 0x401b8a8, size 0xa0, virtual false, abstract: false, final false
   inline bool get_Localizing();
 
-  /// @brief Method get_Pose, addr 0x40186e4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_Pose, addr 0x401b948, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_Pose();
 
-  /// @brief Method get_Uuid, addr 0x40185a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Uuid, addr 0x401b804, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
   // Ctor Parameters []
@@ -329,7 +329,7 @@ public:
   constexpr OVRSpatialAnchor_UnboundAnchor(::GlobalNamespace::OVRSpace _space, ::System::Guid _Uuid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8310 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -389,7 +389,7 @@ public:
   static ::GlobalNamespace::OVRSpatialAnchor_MultiAnchorActionType const Share;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8311 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -412,19 +412,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRSpatialAnchor_Development : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Log, addr 0x4018f68, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x401c1cc, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogError, addr 0x4019080, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x401c2e4, size 0x8c, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
-  /// @brief Method LogRequest, addr 0x401910c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogRequest, addr 0x401c370, size 0x4, virtual false, abstract: false, final false
   static inline void LogRequest(uint64_t requestId, ::StringW message);
 
-  /// @brief Method LogRequestResult, addr 0x4019110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogRequestResult, addr 0x401c374, size 0x4, virtual false, abstract: false, final false
   static inline void LogRequestResult(uint64_t requestId, bool result, ::StringW successMessage, ::StringW failureMessage);
 
-  /// @brief Method LogWarning, addr 0x4018ff4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x401c258, size 0x8c, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
 protected:
@@ -442,7 +442,7 @@ public:
   OVRSpatialAnchor_Development(OVRSpatialAnchor_Development const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -465,7 +465,7 @@ public:
   constexpr OVRSpatialAnchor_SaveOptions(::GlobalNamespace::OVRSpace_StorageLocation Storage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8313 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -496,7 +496,7 @@ public:
   constexpr OVRSpatialAnchor_EraseOptions(::GlobalNamespace::OVRSpace_StorageLocation Storage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8314 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -571,7 +571,7 @@ public:
   static ::GlobalNamespace::OVRSpatialAnchor_OperationResult const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8315 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -621,7 +621,7 @@ public:
   constexpr OVRSpatialAnchor_InvertedCapture_2(TCapture _capture, ::System::Action_2<TCapture, TResult>* _callback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8316 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -651,10 +651,10 @@ public:
 
   static inline ::GlobalNamespace::OVRSpatialAnchor___c* New_ctor();
 
-  /// @brief Method <GetListToStoreTheShareRequest>b__41_0, addr 0x4019178, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <GetListToStoreTheShareRequest>b__41_0, addr 0x401c3dc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t _GetListToStoreTheShareRequest_b__41_0(::GlobalNamespace::OVRSpaceUser x, ::GlobalNamespace::OVRSpaceUser y);
 
-  /// @brief Method .ctor, addr 0x4019170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401c3d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRSpatialAnchor___c* getStaticF___9();
@@ -680,7 +680,7 @@ public:
   OVRSpatialAnchor___c(OVRSpatialAnchor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8317 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -781,173 +781,173 @@ public:
   /// @brief Field _startCalled, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__startCalled, put = __cordl_internal_set__startCalled)) bool _startCalled;
 
-  /// @brief Method AreSortedUserListsEqual, addr 0x40158ac, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method AreSortedUserListsEqual, addr 0x4018b10, size 0x2a0, virtual false, abstract: false, final false
   static inline bool AreSortedUserListsEqual(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSpaceUser>* sortedList1,
                                              ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSpaceUser>* sortedList2);
 
-  /// @brief Method CopyAnchorListIntoListFromPool, addr 0x401443c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CopyAnchorListIntoListFromPool, addr 0x40176a0, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*
   CopyAnchorListIntoListFromPool(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchorList);
 
-  /// @brief Method CreateSpatialAnchor, addr 0x4015da4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchor, addr 0x4019008, size 0x224, virtual false, abstract: false, final false
   inline void CreateSpatialAnchor();
 
-  /// @brief Method Erase, addr 0x4015b5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Erase, addr 0x4018dc0, size 0xb0, virtual false, abstract: false, final false
   inline void Erase(::GlobalNamespace::OVRSpatialAnchor_EraseOptions eraseOptions, ::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
-  /// @brief Method Erase, addr 0x4015b4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Erase, addr 0x4018db0, size 0x10, virtual false, abstract: false, final false
   inline void Erase(::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
-  /// @brief Method EraseAsync, addr 0x4015ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EraseAsync, addr 0x4018f44, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> EraseAsync();
 
-  /// @brief Method EraseAsync, addr 0x4015c0c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EraseAsync, addr 0x4018e70, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> EraseAsync(::GlobalNamespace::OVRSpatialAnchor_EraseOptions eraseOptions);
 
-  /// @brief Method GetListToStoreTheShareRequest, addr 0x4015568, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method GetListToStoreTheShareRequest, addr 0x40187cc, size 0x344, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*
   GetListToStoreTheShareRequest(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>* users);
 
-  /// @brief Method GetTrackingSpacePose, addr 0x4016534, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTrackingSpacePose, addr 0x4019798, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose GetTrackingSpacePose();
 
-  /// @brief Method InitializeFromExisting, addr 0x4013868, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method InitializeFromExisting, addr 0x4016acc, size 0x200, virtual false, abstract: false, final false
   inline void InitializeFromExisting(::GlobalNamespace::OVRSpace space, ::System::Guid uuid);
 
-  /// @brief Method InitializeOnLoad, addr 0x40167d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InitializeOnLoad, addr 0x4019a3c, size 0xf0, virtual false, abstract: false, final false
   static inline void InitializeOnLoad();
 
-  /// @brief Method InitializeUnchecked, addr 0x4013b90, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method InitializeUnchecked, addr 0x4016df4, size 0x138, virtual false, abstract: false, final false
   inline void InitializeUnchecked(::GlobalNamespace::OVRSpace space, ::System::Guid uuid);
 
-  /// @brief Method InvokeMultiAnchorDelegate, addr 0x4016e1c, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method InvokeMultiAnchorDelegate, addr 0x401a080, size 0x594, virtual false, abstract: false, final false
   static inline void InvokeMultiAnchorDelegate(uint64_t requestId, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result, ::GlobalNamespace::OVRSpatialAnchor_MultiAnchorActionType actionType);
 
-  /// @brief Method LateUpdate, addr 0x4015fd8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x401923c, size 0x50, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LoadUnboundAnchors, addr 0x40175c4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LoadUnboundAnchors, addr 0x401a828, size 0x104, virtual false, abstract: false, final false
   static inline bool LoadUnboundAnchors(::GlobalNamespace::OVRSpatialAnchor_LoadOptions options,
                                         ::System::Action_1<::ArrayW<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor, ::Array<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*>>* onComplete);
 
-  /// @brief Method LoadUnboundAnchorsAsync, addr 0x40176c8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LoadUnboundAnchorsAsync, addr 0x401a92c, size 0x124, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::ArrayW<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor, ::Array<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>*>>
   LoadUnboundAnchorsAsync(::GlobalNamespace::OVRSpatialAnchor_LoadOptions options);
 
   static inline ::GlobalNamespace::OVRSpatialAnchor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x401647c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x40196e0, size 0xb8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnShareSpacesComplete, addr 0x4018230, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnShareSpacesComplete, addr 0x401b494, size 0x68, virtual false, abstract: false, final false
   static inline void OnShareSpacesComplete(uint64_t requestId, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-  /// @brief Method OnSpaceEraseComplete, addr 0x40175c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceEraseComplete, addr 0x401a824, size 0x4, virtual false, abstract: false, final false
   static inline void OnSpaceEraseComplete(uint64_t requestId, bool result, ::System::Guid uuid, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location);
 
-  /// @brief Method OnSpaceListSaveComplete, addr 0x40181c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceListSaveComplete, addr 0x401b42c, size 0x68, virtual false, abstract: false, final false
   static inline void OnSpaceListSaveComplete(uint64_t requestId, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-  /// @brief Method OnSpaceQueryComplete, addr 0x40177ec, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceQueryComplete, addr 0x401aa50, size 0x598, virtual false, abstract: false, final false
   static inline void OnSpaceQueryComplete(uint64_t requestId, bool queryResult);
 
-  /// @brief Method OnSpaceSaveComplete, addr 0x40175bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceSaveComplete, addr 0x401a820, size 0x4, virtual false, abstract: false, final false
   static inline void OnSpaceSaveComplete(uint64_t requestId, ::GlobalNamespace::OVRSpace space, bool result, ::System::Guid uuid);
 
-  /// @brief Method OnSpaceSetComponentStatusComplete, addr 0x40180e8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnSpaceSetComponentStatusComplete, addr 0x401b34c, size 0xe0, virtual false, abstract: false, final false
   static inline void OnSpaceSetComponentStatusComplete(uint64_t requestId, bool result, ::GlobalNamespace::OVRSpace space, ::System::Guid uuid,
                                                        ::GlobalNamespace::OVRPlugin_SpaceComponentType componentType, bool enabled);
 
-  /// @brief Method OnSpatialAnchorCreateComplete, addr 0x40173b0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method OnSpatialAnchorCreateComplete, addr 0x401a614, size 0x20c, virtual false, abstract: false, final false
   static inline void OnSpatialAnchorCreateComplete(uint64_t requestId, bool success, ::GlobalNamespace::OVRSpace space, ::System::Guid uuid);
 
-  /// @brief Method PopulateUnbound, addr 0x4017d84, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method PopulateUnbound, addr 0x401afe8, size 0x364, virtual false, abstract: false, final false
   static inline void PopulateUnbound(::System::Guid uuid, uint64_t space);
 
-  /// @brief Method Save, addr 0x4014184, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x40173e8, size 0x2b8, virtual false, abstract: false, final false
   static inline void
   Save(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions,
        ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
-  /// @brief Method Save, addr 0x4013cc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x4016f2c, size 0x10, virtual false, abstract: false, final false
   inline void Save(::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
-  /// @brief Method Save, addr 0x4013cd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x4016f3c, size 0xb0, virtual false, abstract: false, final false
   inline void Save(::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions, ::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
-  /// @brief Method SaveAsync, addr 0x401417c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x40173e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync();
 
-  /// @brief Method SaveAsync, addr 0x401401c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x4017280, size 0x160, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync(::GlobalNamespace::OVRSpatialAnchor_SaveOptions saveOptions);
 
-  /// @brief Method SaveBatchAnchors, addr 0x4016028, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SaveBatchAnchors, addr 0x401928c, size 0x1ec, virtual false, abstract: false, final false
   static inline void SaveBatchAnchors();
 
-  /// @brief Method Share, addr 0x4014f34, size 0x634, virtual false, abstract: false, final false
+  /// @brief Method Share, addr 0x4018198, size 0x634, virtual false, abstract: false, final false
   static inline void
   Share(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpaceUser>* users,
         ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
-  /// @brief Method Share, addr 0x40144b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Share, addr 0x4017718, size 0xa0, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user, ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
-  /// @brief Method Share, addr 0x401475c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Share, addr 0x40179c0, size 0xa8, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
-  /// @brief Method Share, addr 0x401492c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Share, addr 0x4017b90, size 0xb8, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::GlobalNamespace::OVRSpaceUser user3,
                     ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
-  /// @brief Method Share, addr 0x4014b6c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Share, addr 0x4017dd0, size 0xc0, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2, ::GlobalNamespace::OVRSpaceUser user3, ::GlobalNamespace::OVRSpaceUser user4,
                     ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
-  /// @brief Method Share, addr 0x4014e0c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Share, addr 0x4018070, size 0xa0, virtual false, abstract: false, final false
   inline void Share(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>* users, ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* onComplete);
 
-  /// @brief Method ShareAsync, addr 0x4014554, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x40177b8, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult> ShareAsync(::GlobalNamespace::OVRSpaceUser user);
 
-  /// @brief Method ShareAsync, addr 0x4014804, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x4017a68, size 0x128, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult> ShareAsync(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2);
 
-  /// @brief Method ShareAsync, addr 0x40149e4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x4017c48, size 0x188, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult> ShareAsync(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2,
                                                                                                       ::GlobalNamespace::OVRSpaceUser user3);
 
-  /// @brief Method ShareAsync, addr 0x4014c2c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x4017e90, size 0x1e0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult> ShareAsync(::GlobalNamespace::OVRSpaceUser user1, ::GlobalNamespace::OVRSpaceUser user2,
                                                                                                       ::GlobalNamespace::OVRSpaceUser user3, ::GlobalNamespace::OVRSpaceUser user4);
 
-  /// @brief Method ShareAsync, addr 0x4014eac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ShareAsync, addr 0x4018110, size 0x88, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult> ShareAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpaceUser>* users);
 
-  /// @brief Method ShareAsyncInternal, addr 0x4014624, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ShareAsyncInternal, addr 0x4017888, size 0x138, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult> ShareAsyncInternal(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>* users);
 
-  /// @brief Method ShareBatchAnchors, addr 0x4016214, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method ShareBatchAnchors, addr 0x4019478, size 0x268, virtual false, abstract: false, final false
   static inline void ShareBatchAnchors();
 
-  /// @brief Method Start, addr 0x4015d8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4018ff0, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ThrowIfBound, addr 0x4013a68, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfBound, addr 0x4016ccc, size 0x128, virtual false, abstract: false, final false
   static inline void ThrowIfBound(::System::Guid uuid);
 
-  /// @brief Method ToNativeArray, addr 0x4013d88, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ToNativeArray, addr 0x4016fec, size 0x294, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint64_t> ToNativeArray(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors);
 
   /// @brief Method TryExtractValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> static inline bool TryExtractValue(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dict, TKey key, ::ByRef<TValue> value);
 
-  /// @brief Method TryGetPose, addr 0x40165f8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method TryGetPose, addr 0x401985c, size 0x1e0, virtual false, abstract: false, final false
   static inline bool TryGetPose(::GlobalNamespace::OVRSpace space, ::ByRef<::GlobalNamespace::OVRPose> pose);
 
-  /// @brief Method Update, addr 0x4015fc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x401922c, size 0x10, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTransform, addr 0x4015ce8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x4018f4c, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateTransform();
 
   constexpr ::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* const& __cordl_internal_get_OnLocalize() const;
@@ -992,10 +992,10 @@ public:
 
   constexpr void __cordl_internal_set__startCalled(bool value);
 
-  /// @brief Method .ctor, addr 0x4018298, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401b4fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnLocalize, addr 0x4013634, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_OnLocalize, addr 0x4016898, size 0xb0, virtual false, abstract: false, final false
   inline void add_OnLocalize(::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::System::Guid>* getStaticF_AsyncRequestTaskIds();
@@ -1017,22 +1017,22 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>* getStaticF_UnboundAnchorBuffer();
 
-  /// @brief Method get_Created, addr 0x40137b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Created, addr 0x4016a1c, size 0x10, virtual false, abstract: false, final false
   inline bool get_Created();
 
-  /// @brief Method get_Localized, addr 0x40137d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Localized, addr 0x4016a3c, size 0x90, virtual false, abstract: false, final false
   inline bool get_Localized();
 
-  /// @brief Method get_PendingCreation, addr 0x40137c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_PendingCreation, addr 0x4016a2c, size 0x10, virtual false, abstract: false, final false
   inline bool get_PendingCreation();
 
-  /// @brief Method get_Space, addr 0x4013794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Space, addr 0x40169f8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSpace get_Space();
 
-  /// @brief Method get_Uuid, addr 0x40137a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Uuid, addr 0x4016a08, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
-  /// @brief Method remove_OnLocalize, addr 0x40136e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_OnLocalize, addr 0x4016948, size 0xb0, virtual false, abstract: false, final false
   inline void remove_OnLocalize(::System::Action_1<::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
   static inline void setStaticF_AsyncRequestTaskIds(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::System::Guid>* value);
@@ -1054,10 +1054,10 @@ public:
 
   static inline void setStaticF_UnboundAnchorBuffer(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor_UnboundAnchor>* value);
 
-  /// @brief Method set_Space, addr 0x401379c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Space, addr 0x4016a00, size 0x8, virtual false, abstract: false, final false
   inline void set_Space(::GlobalNamespace::OVRSpace value);
 
-  /// @brief Method set_Uuid, addr 0x40137b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Uuid, addr 0x4016a14, size 0x8, virtual false, abstract: false, final false
   inline void set_Uuid(::System::Guid value);
 
 protected:
@@ -1075,7 +1075,7 @@ public:
   OVRSpatialAnchor(OVRSpatialAnchor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8318 };
 
   /// @brief Field _startCalled, offset: 0x20, size: 0x1, def value: None
   bool ____startCalled;

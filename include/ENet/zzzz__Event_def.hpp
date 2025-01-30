@@ -44,28 +44,28 @@ public:
 
   __declspec(property(get = get_Type)) ::ENet::EventType Type;
 
-  /// @brief Method .ctor, addr 0x3aa3e98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa6324, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ENet::ENetEvent event);
 
-  /// @brief Method get_ChannelID, addr 0x3aa3f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelID, addr 0x3aa63ac, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_ChannelID();
 
-  /// @brief Method get_Data, addr 0x3aa3f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x3aa63b4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Data();
 
-  /// @brief Method get_NativeData, addr 0x3aa3e80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x3aa630c, size 0xc, virtual false, abstract: false, final false
   inline ::ENet::ENetEvent get_NativeData();
 
-  /// @brief Method get_Packet, addr 0x3aa3f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Packet, addr 0x3aa63bc, size 0x8, virtual false, abstract: false, final false
   inline ::ENet::Packet get_Packet();
 
-  /// @brief Method get_Peer, addr 0x3aa3eac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Peer, addr 0x3aa6338, size 0x38, virtual false, abstract: false, final false
   inline ::ENet::Peer get_Peer();
 
-  /// @brief Method get_Type, addr 0x3aa3ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3aa6330, size 0x8, virtual false, abstract: false, final false
   inline ::ENet::EventType get_Type();
 
-  /// @brief Method set_NativeData, addr 0x3aa3e8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x3aa6318, size 0xc, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetEvent value);
 
   // Ctor Parameters []
@@ -76,7 +76,7 @@ public:
   constexpr Event(::ENet::ENetEvent nativeEvent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17746 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

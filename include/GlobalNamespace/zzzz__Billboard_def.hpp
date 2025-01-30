@@ -70,7 +70,7 @@ public:
   static ::GlobalNamespace::Billboard_RotationMode const ZAxis;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16404 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -104,12 +104,12 @@ public:
   /// @brief Field _transform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x39c179c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39c3c28, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Billboard* New_ctor();
 
-  /// @brief Method OnWillRenderObject, addr 0x39c17b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x39c3c44, size 0xd0, virtual false, abstract: false, final false
   inline void OnWillRenderObject();
 
   constexpr bool const& __cordl_internal_get__flipDirection() const;
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x39c1888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c3d14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,7 +148,7 @@ public:
   Billboard(Billboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16405 };
 
   /// @brief Field _rotationMode, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::Billboard_RotationMode ____rotationMode;

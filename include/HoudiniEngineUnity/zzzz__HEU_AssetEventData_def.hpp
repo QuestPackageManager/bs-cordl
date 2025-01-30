@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_OutputObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method .ctor, addr 0x3a0667c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a08b08, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
 protected:
@@ -85,7 +85,7 @@ public:
   HEU_AssetEventData(HEU_AssetEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11580 };
 
   /// @brief Field Asset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ___Asset;

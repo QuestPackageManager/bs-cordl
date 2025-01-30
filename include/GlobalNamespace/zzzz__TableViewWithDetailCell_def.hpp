@@ -53,7 +53,7 @@ public:
   TableViewWithDetailCell_IDataSource(TableViewWithDetailCell_IDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,24 +87,24 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x39e83cc, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x39ea858, size 0x1e0, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x39e8278, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x39ea704, size 0xa0, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method DidSelectCellWithIdx, addr 0x39e8610, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method DidSelectCellWithIdx, addr 0x39eaa9c, size 0x130, virtual true, abstract: false, final false
   inline void DidSelectCellWithIdx(int32_t idx);
 
   static inline ::GlobalNamespace::TableViewWithDetailCell* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x39e8318, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x39ea7a4, size 0xb4, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method ReloadData, addr 0x39e85ac, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x39eaa38, size 0x28, virtual true, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method ReloadData, addr 0x39e85d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x39eaa60, size 0x3c, virtual false, abstract: false, final false
   inline void ReloadData(int32_t currentNewIndex);
 
   constexpr ::GlobalNamespace::TableViewWithDetailCell_IDataSource* const& __cordl_internal_get__dataSource() const;
@@ -131,28 +131,28 @@ public:
 
   constexpr void __cordl_internal_set_didSelectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x39e8740, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eabcc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didDeselectContentCellEvent, addr 0x39e80e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didDeselectContentCellEvent, addr 0x39ea574, size 0xb0, virtual false, abstract: false, final false
   inline void add_didDeselectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
-  /// @brief Method add_didSelectContentCellEvent, addr 0x39e7f88, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectContentCellEvent, addr 0x39ea414, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
-  /// @brief Method get_dataSource, addr 0x39e8248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x39ea6d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TableViewWithDetailCell_IDataSource* get_dataSource();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
-  /// @brief Method remove_didDeselectContentCellEvent, addr 0x39e8198, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didDeselectContentCellEvent, addr 0x39ea624, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didDeselectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
-  /// @brief Method remove_didSelectContentCellEvent, addr 0x39e8038, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectContentCellEvent, addr 0x39ea4c4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectContentCellEvent(::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* value);
 
-  /// @brief Method set_dataSource, addr 0x39e8250, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_dataSource, addr 0x39ea6dc, size 0x28, virtual false, abstract: false, final false
   inline void set_dataSource(::GlobalNamespace::TableViewWithDetailCell_IDataSource* value);
 
 protected:
@@ -170,7 +170,7 @@ public:
   TableViewWithDetailCell(TableViewWithDetailCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16007 };
 
   /// @brief Field didSelectContentCellEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::TableViewWithDetailCell>, int32_t>* ___didSelectContentCellEvent;

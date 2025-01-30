@@ -44,19 +44,19 @@ public:
   /// @brief Field tmin, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_tmin, put = __cordl_internal_set_tmin)) int32_t tmin;
 
-  /// @brief Method Adapt, addr 0x3db467c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Adapt, addr 0x3db78e0, size 0x78, virtual false, abstract: false, final false
   inline int32_t Adapt(int32_t delta, int32_t numPoints, bool firstTime);
 
-  /// @brief Method Decode, addr 0x3db4320, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3db7584, size 0x2d8, virtual false, abstract: false, final false
   inline ::StringW Decode(::StringW s, int32_t offset);
 
-  /// @brief Method DecodeDigit, addr 0x3db46f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method DecodeDigit, addr 0x3db7958, size 0x40, virtual false, abstract: false, final false
   inline int32_t DecodeDigit(char16_t c);
 
-  /// @brief Method Encode, addr 0x3db3bb4, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3db6e18, size 0x348, virtual false, abstract: false, final false
   inline ::StringW Encode(::StringW s, int32_t offset);
 
-  /// @brief Method EncodeDigit, addr 0x3db4664, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EncodeDigit, addr 0x3db78c8, size 0x18, virtual false, abstract: false, final false
   inline char16_t EncodeDigit(int32_t d);
 
   static inline ::System::Globalization::Bootstring* New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_tmin(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3db45f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db785c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 
 protected:

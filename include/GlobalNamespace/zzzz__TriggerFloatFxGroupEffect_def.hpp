@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x3b8b148, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b911d8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -85,7 +85,7 @@ public:
   TriggerFloatFxGroupEffect_InitData(TriggerFloatFxGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4281 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -128,10 +128,10 @@ public:
   /// @brief Field _initData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::TriggerFloatFxGroupEffect_InitData* _initData;
 
-  /// @brief Method Cleanup, addr 0x3b8aee4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3b90f74, size 0x1c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x3b8b110, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x3b911a0, size 0x38, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffect* New_ctor(::GlobalNamespace::TriggerFloatFxGroupEffect_InitData* initData,
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::TriggerFloatFxGroupEffect_InitData* value);
 
-  /// @brief Method .ctor, addr 0x3b8aff8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b91088, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::TriggerFloatFxGroupEffect_InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
 protected:
@@ -173,7 +173,7 @@ public:
   TriggerFloatFxGroupEffect(TriggerFloatFxGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4282 };
 
   /// @brief Field _beatmapCallbacksController, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

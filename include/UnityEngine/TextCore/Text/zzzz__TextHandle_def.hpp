@@ -58,75 +58,75 @@ public:
 
   __declspec(property(get = get_textInfo)) ::UnityEngine::TextCore::Text::TextInfo* textInfo;
 
-  /// @brief Method ComputeTextHeight, addr 0x494d668, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextHeight, addr 0x49508cc, size 0x18, virtual false, abstract: false, final false
   inline float_t ComputeTextHeight(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
-  /// @brief Method ComputeTextWidth, addr 0x494d5dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextWidth, addr 0x4950840, size 0x18, virtual false, abstract: false, final false
   inline float_t ComputeTextWidth(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
-  /// @brief Method DistanceToLine, addr 0x494ccd8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DistanceToLine, addr 0x494ff3c, size 0xc8, virtual false, abstract: false, final false
   static inline float_t DistanceToLine(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 point);
 
-  /// @brief Method FindIntersectingLink, addr 0x494cda0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingLink, addr 0x4950004, size 0x2c4, virtual false, abstract: false, final false
   inline int32_t FindIntersectingLink(::UnityEngine::Vector3 position, bool inverseYAxis);
 
-  /// @brief Method FindNearestCharacterOnLine, addr 0x494c5b4, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method FindNearestCharacterOnLine, addr 0x494f818, size 0x2c0, virtual false, abstract: false, final false
   inline int32_t FindNearestCharacterOnLine(::UnityEngine::Vector2 position, int32_t line, bool visibleOnly);
 
-  /// @brief Method FindNearestLine, addr 0x494c4e4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FindNearestLine, addr 0x494f748, size 0xd0, virtual false, abstract: false, final false
   inline int32_t FindNearestLine(::UnityEngine::Vector2 position);
 
-  /// @brief Method GetCharacterHeightFromIndex, addr 0x494d218, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterHeightFromIndex, addr 0x495047c, size 0x98, virtual false, abstract: false, final false
   inline float_t GetCharacterHeightFromIndex(int32_t index);
 
-  /// @brief Method GetCursorIndexFromPosition, addr 0x494c3cc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetCursorIndexFromPosition, addr 0x494f630, size 0x118, virtual false, abstract: false, final false
   inline int32_t GetCursorIndexFromPosition(::UnityEngine::Vector2 position, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x494c0f0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x494f354, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(int32_t index, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x494c240, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x494f4a4, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingLineHeight(int32_t index, bool useXAdvance, bool inverseYAxis);
 
-  /// @brief Method GetLineHeight, addr 0x494d0f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x4950358, size 0x90, virtual false, abstract: false, final false
   inline float_t GetLineHeight(int32_t lineNumber);
 
-  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x494d184, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x49503e8, size 0x94, virtual false, abstract: false, final false
   inline float_t GetLineHeightFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineNumber, addr 0x494d064, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetLineNumber, addr 0x49502c8, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetLineNumber(int32_t index);
 
-  /// @brief Method IndexOf, addr 0x494d428, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x495068c, size 0xe8, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method IsDirty, addr 0x494c0a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsDirty, addr 0x494f304, size 0x50, virtual false, abstract: false, final false
   inline bool IsDirty();
 
-  /// @brief Method IsElided, addr 0x494d2b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsElided, addr 0x4950514, size 0x40, virtual false, abstract: false, final false
   inline bool IsElided();
 
-  /// @brief Method LastIndexOf, addr 0x494d510, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x4950774, size 0xcc, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LineDownCharacterPosition, addr 0x494c874, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x494fad8, size 0x1dc, virtual false, abstract: false, final false
   inline int32_t LineDownCharacterPosition(int32_t originalPos);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x494ca50, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x494fcb4, size 0x1c8, virtual false, abstract: false, final false
   inline int32_t LineUpCharacterPosition(int32_t originalPos);
 
   static inline ::UnityEngine::TextCore::Text::TextHandle* New_ctor();
 
-  /// @brief Method PointIntersectRectangle, addr 0x494cc18, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PointIntersectRectangle, addr 0x494fe7c, size 0xc0, virtual false, abstract: false, final false
   static inline bool PointIntersectRectangle(::UnityEngine::Vector3 m, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c, ::UnityEngine::Vector3 d);
 
-  /// @brief Method Substring, addr 0x494d2f0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x4950554, size 0x138, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex, int32_t length);
 
-  /// @brief Method Update, addr 0x494d680, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x49508e4, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* Update(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
-  /// @brief Method UpdatePreferredValues, addr 0x494d5f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreferredValues, addr 0x4950858, size 0x74, virtual false, abstract: false, final false
   inline void UpdatePreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
   constexpr bool const& __cordl_internal_get_isDirty() const;
@@ -159,17 +159,17 @@ public:
 
   constexpr void __cordl_internal_set_textGenerationSettings(::UnityEngine::TextCore::Text::TextGenerationSettings* value);
 
-  /// @brief Method .ctor, addr 0x494bdec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494f050, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* getStaticF_m_LayoutTextInfo();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* getStaticF_s_LayoutSettings();
 
-  /// @brief Method get_layoutTextInfo, addr 0x494bfe8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_layoutTextInfo, addr 0x494f24c, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextInfo* get_layoutTextInfo();
 
-  /// @brief Method get_textInfo, addr 0x494be50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_textInfo, addr 0x494f0b4, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfo();
 
   static inline void setStaticF_m_LayoutTextInfo(::UnityEngine::TextCore::Text::TextInfo* value);
@@ -191,7 +191,7 @@ public:
   TextHandle(TextHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15281 };
 
   /// @brief Field m_PreferredSize, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_PreferredSize;

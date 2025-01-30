@@ -22,15 +22,15 @@ public:
   // Declarations
   __declspec(property(get = get_EncodingName)) ::StringW EncodingName;
 
-  /// @brief Method GetPreamble, addr 0x435e78c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetPreamble, addr 0x43619f0, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
 
   static inline ::System::Xml::Ucs4Encoding2143* New_ctor();
 
-  /// @brief Method .ctor, addr 0x435e4bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4361720, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EncodingName, addr 0x435e74c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_EncodingName, addr 0x43619b0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_EncodingName();
 
 protected:
@@ -48,7 +48,7 @@ public:
   Ucs4Encoding2143(Ucs4Encoding2143 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

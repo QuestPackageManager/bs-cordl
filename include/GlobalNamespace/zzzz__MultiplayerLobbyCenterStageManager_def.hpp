@@ -44,18 +44,18 @@ public:
   /// @brief Field _minOuterCircleRadius, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  /// @brief Method ActivateCenterStageManager, addr 0x3c09658, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ActivateCenterStageManager, addr 0x3c0f578, size 0x20, virtual false, abstract: false, final false
   inline void ActivateCenterStageManager();
 
-  /// @brief Method DeactivateCenterStageManager, addr 0x3c09774, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeactivateCenterStageManager, addr 0x3c0f818, size 0x20, virtual false, abstract: false, final false
   inline void DeactivateCenterStageManager();
 
-  /// @brief Method Init, addr 0x3c09650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c0f570, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageManager* New_ctor();
 
-  /// @brief Method RecalculateCenterPosition, addr 0x3c0967c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RecalculateCenterPosition, addr 0x3c0f598, size 0xf8, virtual false, abstract: false, final false
   inline void RecalculateCenterPosition();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__centerObjectTransform() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x3c09798, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0f970, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   MultiplayerLobbyCenterStageManager(MultiplayerLobbyCenterStageManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4834 };
 
   /// @brief Field _centerObjectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____centerObjectTransform;

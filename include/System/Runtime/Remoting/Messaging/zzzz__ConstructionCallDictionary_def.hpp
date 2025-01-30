@@ -28,15 +28,15 @@ public:
   /// @brief Field InternalKeys, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_InternalKeys, put = setStaticF_InternalKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalKeys;
 
-  /// @brief Method GetMethodProperty, addr 0x3cea688, size 0x3cc, virtual true, abstract: false, final false
+  /// @brief Method GetMethodProperty, addr 0x3ced8ec, size 0x3cc, virtual true, abstract: false, final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary* New_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
-  /// @brief Method SetMethodProperty, addr 0x3ceafb8, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method SetMethodProperty, addr 0x3cee21c, size 0x268, virtual true, abstract: false, final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3ce96d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cec93c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalKeys();

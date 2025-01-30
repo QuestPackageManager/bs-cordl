@@ -161,7 +161,7 @@ public:
   static ::Oculus::Haptics::Ffi_Result const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18774 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -193,7 +193,7 @@ public:
   constexpr Ffi_SdkVersion(uint16_t major, uint16_t minor, uint16_t patch) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18775 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6 };
@@ -262,7 +262,7 @@ public:
   static ::Oculus::Haptics::Ffi_Controller const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18776 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -329,7 +329,7 @@ public:
   static ::Oculus::Haptics::Ffi_LogLevel const Warn;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18777 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -352,18 +352,18 @@ namespace Oculus::Haptics {
 class CORDL_TYPE Ffi_LogCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3f55b7c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3f58de0, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Oculus::Haptics::Ffi_LogLevel level, ::StringW message, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3f55c10, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3f58e74, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3f55b68, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3f58dcc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Oculus::Haptics::Ffi_LogLevel level, ::StringW message);
 
   static inline ::Oculus::Haptics::Ffi_LogCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3f55adc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f58d40, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -381,7 +381,7 @@ public:
   Ffi_LogCallback(Ffi_LogCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -405,7 +405,7 @@ public:
   constexpr Ffi_NullBackendStatistics(int64_t play_call_count, int64_t stop_call_count, int64_t samples_played) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18779 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -450,103 +450,103 @@ public:
 
   using SdkVersion = ::Oculus::Haptics::Ffi_SdkVersion;
 
-  /// @brief Method Failed, addr 0x3f54a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Failed, addr 0x3f57cdc, size 0x8, virtual false, abstract: false, final false
   static inline bool Failed(::Oculus::Haptics::Ffi_Result result);
 
   static inline ::Oculus::Haptics::Ffi* New_ctor();
 
-  /// @brief Method Succeeded, addr 0x3f548b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Succeeded, addr 0x3f57b18, size 0xc, virtual false, abstract: false, final false
   static inline bool Succeeded(::Oculus::Haptics::Ffi_Result result);
 
-  /// @brief Method .ctor, addr 0x3f55ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f58d38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method clip_duration, addr 0x3f54dcc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method clip_duration, addr 0x3f58030, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result clip_duration(int32_t clipId, ::ByRef<float_t> clip_duration);
 
-  /// @brief Method create_player, addr 0x3f54b48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method create_player, addr 0x3f57dac, size 0x7c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result create_player(::ByRef<int32_t> player_id);
 
-  /// @brief Method error_message, addr 0x3f548c0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method error_message, addr 0x3f57b24, size 0x128, virtual false, abstract: false, final false
   static inline ::StringW error_message();
 
-  /// @brief Method get_null_backend_statistics, addr 0x3f55a60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_null_backend_statistics, addr 0x3f58cc4, size 0x74, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_NullBackendStatistics get_null_backend_statistics();
 
-  /// @brief Method haptics_sdk_error_message, addr 0x3f55878, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method haptics_sdk_error_message, addr 0x3f58adc, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr haptics_sdk_error_message();
 
-  /// @brief Method haptics_sdk_error_message_length, addr 0x3f558e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method haptics_sdk_error_message_length, addr 0x3f58b44, size 0x68, virtual false, abstract: false, final false
   static inline int32_t haptics_sdk_error_message_length();
 
-  /// @brief Method initialize_with_null_backend, addr 0x3f557f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method initialize_with_null_backend, addr 0x3f58a5c, size 0x80, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result initialize_with_null_backend(::Oculus::Haptics::Ffi_LogCallback* logCallback);
 
-  /// @brief Method initialize_with_ovr_plugin, addr 0x3f54794, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method initialize_with_ovr_plugin, addr 0x3f579f8, size 0x120, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result initialize_with_ovr_plugin(::StringW game_engine_name, ::StringW game_engine_version, ::StringW game_engine_haptics_sdk_version,
                                                                          ::Oculus::Haptics::Ffi_LogCallback* logCallback);
 
-  /// @brief Method initialize_with_ovr_plugin_bytes, addr 0x3f55730, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method initialize_with_ovr_plugin_bytes, addr 0x3f58994, size 0xc8, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result initialize_with_ovr_plugin_bytes(::ByRefConst<::ArrayW<uint8_t, ::Array<uint8_t>*>> game_engine_name,
                                                                                ::ByRefConst<::ArrayW<uint8_t, ::Array<uint8_t>*>> game_engine_version,
                                                                                ::ByRefConst<::ArrayW<uint8_t, ::Array<uint8_t>*>> game_engine_haptics_sdk_version,
                                                                                ::Oculus::Haptics::Ffi_LogCallback* logCallback);
 
-  /// @brief Method initialized, addr 0x3f549e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method initialized, addr 0x3f57c4c, size 0x90, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result initialized(::ByRef<bool> initialized);
 
-  /// @brief Method load_clip, addr 0x3f54a80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method load_clip, addr 0x3f57ce4, size 0x4c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result load_clip(::StringW data, ::ByRef<int32_t> clip_id_out);
 
-  /// @brief Method load_clip_bytes, addr 0x3f559c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method load_clip_bytes, addr 0x3f58c28, size 0x9c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result load_clip_bytes(::ByRefConst<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, uint32_t data_length, ::ByRef<int32_t> clip_id_out);
 
-  /// @brief Method player_amplitude, addr 0x3f54ff8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method player_amplitude, addr 0x3f5825c, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_amplitude(int32_t playerId, ::ByRef<float_t> amplitude);
 
-  /// @brief Method player_frequency_shift, addr 0x3f55108, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method player_frequency_shift, addr 0x3f5836c, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_frequency_shift(int32_t playerId, ::ByRef<float_t> frequency_shift);
 
-  /// @brief Method player_looping_enabled, addr 0x3f54ed4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method player_looping_enabled, addr 0x3f58138, size 0x98, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_looping_enabled(int32_t playerId, ::ByRef<bool> looping_enabled);
 
-  /// @brief Method player_play, addr 0x3f54ccc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method player_play, addr 0x3f57f30, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_play(int32_t playerId, ::Oculus::Haptics::Ffi_Controller controller);
 
-  /// @brief Method player_priority, addr 0x3f55498, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method player_priority, addr 0x3f586fc, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_priority(int32_t playerId, ::ByRef<uint32_t> priority);
 
-  /// @brief Method player_set_amplitude, addr 0x3f54f6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method player_set_amplitude, addr 0x3f581d0, size 0x8c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_set_amplitude(int32_t playerId, float_t amplitude);
 
-  /// @brief Method player_set_clip, addr 0x3f54bc4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method player_set_clip, addr 0x3f57e28, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_set_clip(int32_t playerId, int32_t clipId);
 
-  /// @brief Method player_set_frequency_shift, addr 0x3f5507c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method player_set_frequency_shift, addr 0x3f582e0, size 0x8c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_set_frequency_shift(int32_t playerId, float_t amount);
 
-  /// @brief Method player_set_looping_enabled, addr 0x3f54e50, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method player_set_looping_enabled, addr 0x3f580b4, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_set_looping_enabled(int32_t playerId, bool enabled);
 
-  /// @brief Method player_set_priority, addr 0x3f55414, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method player_set_priority, addr 0x3f58678, size 0x84, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_set_priority(int32_t playerId, uint32_t priority);
 
-  /// @brief Method player_stop, addr 0x3f54d50, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method player_stop, addr 0x3f57fb4, size 0x7c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result player_stop(int32_t playerId);
 
-  /// @brief Method release_clip, addr 0x3f54acc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method release_clip, addr 0x3f57d30, size 0x7c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result release_clip(int32_t clipId);
 
-  /// @brief Method release_player, addr 0x3f5551c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method release_player, addr 0x3f58780, size 0x7c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result release_player(int32_t playerId);
 
-  /// @brief Method set_suspended, addr 0x3f55948, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_suspended, addr 0x3f58bac, size 0x7c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result set_suspended(bool suspended);
 
-  /// @brief Method uninitialize, addr 0x3f5565c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method uninitialize, addr 0x3f588c0, size 0x68, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_Result uninitialize();
 
-  /// @brief Method version, addr 0x3f556c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method version, addr 0x3f58928, size 0x6c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::Ffi_SdkVersion version();
 
 protected:
@@ -570,7 +570,7 @@ public:
   static constexpr ::ConstString NativeLibName{ u"haptics_sdk" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18780 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

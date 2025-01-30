@@ -29,15 +29,15 @@ public:
   /// @brief Field otherRuntimes, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_otherRuntimes, put = __cordl_internal_set_otherRuntimes)) int32_t otherRuntimes;
 
-  /// @brief Method EvaluateMagnitude, addr 0x39d1e70, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x39d42fc, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method Init, addr 0x39d1ee4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39d4370, size 0x4, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x39d1e68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x39d42f4, size 0x8, virtual true, abstract: false, final false
   inline float_t ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_oculusRuntime() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_otherRuntimes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39d1ee8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d4374, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   OpenXRRuntimeBasedActionBindingComposite(OpenXRRuntimeBasedActionBindingComposite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16490 };
 
   /// @brief Field oculusRuntime, offset: 0x10, size: 0x4, def value: None
   int32_t ___oculusRuntime;

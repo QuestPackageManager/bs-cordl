@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__RequestingAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x3dfb174, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfe3d8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3dfb1e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfe444, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
 
-  /// @brief Method get_Name, addr 0x3dfb250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3dfe4b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:

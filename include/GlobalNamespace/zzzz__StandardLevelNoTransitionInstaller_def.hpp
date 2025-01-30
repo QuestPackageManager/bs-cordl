@@ -45,7 +45,7 @@ public:
 
   __declspec(property(get = get_standardLevelNoTransitionInstallerData)) ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> standardLevelNoTransitionInstallerData;
 
-  /// @brief Method InstallBindings, addr 0x3b37dd8, size 0x2d0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b3bdd8, size 0x2d0, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::StandardLevelNoTransitionInstaller* New_ctor();
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value);
 
-  /// @brief Method .ctor, addr 0x3b383c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3c3c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_standardLevelNoTransitionInstallerData, addr 0x3b37dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_standardLevelNoTransitionInstallerData, addr 0x3b3bdd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> get_standardLevelNoTransitionInstallerData();
 
 protected:
@@ -89,7 +89,7 @@ public:
   StandardLevelNoTransitionInstaller(StandardLevelNoTransitionInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5230 };
 
   /// @brief Field _scenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____scenesTransitionSetupData;

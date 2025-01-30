@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_alert(::Mono::Security::Interface::Alert* value);
 
-  /// @brief Method .ctor, addr 0x3c45058, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c482bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x3c450cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c48330, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
 protected:
@@ -59,7 +59,7 @@ public:
   TlsException(TlsException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15959 };
 
   /// @brief Field alert, offset: 0x90, size: 0x8, def value: None
   ::Mono::Security::Interface::Alert* ___alert;

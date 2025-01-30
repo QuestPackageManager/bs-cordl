@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Predicate(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x48b0edc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b4140, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<bool>* predicate);
 
-  /// @brief Method get_keepWaiting, addr 0x48b0eac, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x48b4110, size 0x30, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
 protected:
@@ -55,7 +55,7 @@ public:
   WaitUntil(WaitUntil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10924 };
 
   /// @brief Field m_Predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___m_Predicate;

@@ -48,18 +48,18 @@ public:
                       put = __cordl_internal_set__deactivateOnBoostObjects)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
       _deactivateOnBoostObjects;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b88c50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b8ece0, size 0x18, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::GameObjectSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b88c34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b8ecc4, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b88b88, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8ec18, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x3b88c68, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x3b8ecf8, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__activateOnBoostObjects() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b88d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8edbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   GameObjectSwitchEventEffect(GameObjectSwitchEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4260 };
 
   /// @brief Field _deactivateOnBoostObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____deactivateOnBoostObjects;

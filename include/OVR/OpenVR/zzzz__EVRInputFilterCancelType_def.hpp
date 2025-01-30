@@ -51,7 +51,7 @@ public:
   static ::OVR::OpenVR::EVRInputFilterCancelType const VRInputFilterCancel_Timers;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8955 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

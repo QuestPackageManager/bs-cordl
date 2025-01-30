@@ -363,146 +363,146 @@ public:
   /// @brief Field os, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_os, put = setStaticF_os)) ::System::OperatingSystem* os;
 
-  /// @brief Method CreateVersionFromString, addr 0x3e30198, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CreateVersionFromString, addr 0x3e333fc, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Version* CreateVersionFromString(::StringW info);
 
-  /// @brief Method Exit, addr 0x3e3042c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exit, addr 0x3e33690, size 0x4, virtual false, abstract: false, final false
   static inline void Exit(int32_t exitCode);
 
-  /// @brief Method FailFast, addr 0x3e31150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FailFast, addr 0x3e343b4, size 0x8, virtual false, abstract: false, final false
   static inline void FailFast(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method FailFast, addr 0x3e31158, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FailFast, addr 0x3e343bc, size 0x4, virtual false, abstract: false, final false
   static inline void FailFast(::StringW message, ::System::Exception* exception, ::StringW errorSource);
 
-  /// @brief Method GetCommandLineArgs, addr 0x3e30430, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCommandLineArgs, addr 0x3e33694, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
-  /// @brief Method GetEnvironmentVariable, addr 0x3e304fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentVariable, addr 0x3e33760, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetEnvironmentVariable(::StringW variable);
 
-  /// @brief Method GetEnvironmentVariable, addr 0x3e30f60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentVariable, addr 0x3e341c4, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetEnvironmentVariable(::StringW variable, ::System::EnvironmentVariableTarget target);
 
-  /// @brief Method GetEnvironmentVariableNames, addr 0x3e305cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentVariableNames, addr 0x3e33830, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetEnvironmentVariableNames();
 
-  /// @brief Method GetEnvironmentVariables, addr 0x3e30500, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentVariables, addr 0x3e33764, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* GetEnvironmentVariables();
 
-  /// @brief Method GetFolderPath, addr 0x3e305d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetFolderPath, addr 0x3e33834, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetFolderPath(::System::Environment_SpecialFolder folder);
 
-  /// @brief Method GetFolderPath, addr 0x3e305d8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetFolderPath, addr 0x3e3383c, size 0x34, virtual false, abstract: false, final false
   static inline ::StringW GetFolderPath(::System::Environment_SpecialFolder folder, ::System::Environment_SpecialFolderOption option);
 
-  /// @brief Method GetIs64BitOperatingSystem, addr 0x3e3115c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetIs64BitOperatingSystem, addr 0x3e343c0, size 0x4, virtual false, abstract: false, final false
   static inline bool GetIs64BitOperatingSystem();
 
-  /// @brief Method GetLogicalDrivesInternal, addr 0x3e31178, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalDrivesInternal, addr 0x3e343dc, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetLogicalDrivesInternal();
 
-  /// @brief Method GetMachineConfigPath, addr 0x3e3117c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetMachineConfigPath, addr 0x3e343e0, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetMachineConfigPath();
 
-  /// @brief Method GetNewLine, addr 0x3e30070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNewLine, addr 0x3e332d4, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetNewLine();
 
-  /// @brief Method GetOSVersionString, addr 0x3e300e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOSVersionString, addr 0x3e33344, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetOSVersionString();
 
-  /// @brief Method GetPageSize, addr 0x3e31180, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetPageSize, addr 0x3e343e4, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetPageSize();
 
-  /// @brief Method GetResourceString, addr 0x3e2c7ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetResourceString, addr 0x3e2fa50, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetResourceString(::StringW key);
 
-  /// @brief Method GetResourceString, addr 0x3e2e5a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetResourceString, addr 0x3e3180c, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW GetResourceString(::StringW key, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method GetResourceStringEncodingName, addr 0x3e2fec4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetResourceStringEncodingName, addr 0x3e33128, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GetResourceStringEncodingName(int32_t codePage);
 
-  /// @brief Method GetStackTrace, addr 0x3e311bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetStackTrace, addr 0x3e34420, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW GetStackTrace(::System::Exception* e, bool needFileInfo);
 
-  /// @brief Method GetWindowsFolderPath, addr 0x3e3060c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetWindowsFolderPath, addr 0x3e33870, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetWindowsFolderPath(int32_t folder);
 
-  /// @brief Method InternalSetEnvironmentVariable, addr 0x3e310dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InternalSetEnvironmentVariable, addr 0x3e34340, size 0x70, virtual false, abstract: false, final false
   static inline void InternalSetEnvironmentVariable(::StringW variable, ::StringW value);
 
-  /// @brief Method InternalSetEnvironmentVariable, addr 0x3e3114c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalSetEnvironmentVariable, addr 0x3e343b0, size 0x4, virtual false, abstract: false, final false
   static inline void InternalSetEnvironmentVariable(::cordl_internals::Ptr<char16_t> variable, int32_t variable_length, ::cordl_internals::Ptr<char16_t> value, int32_t value_length);
 
-  /// @brief Method ReadXdgUserDir, addr 0x3e30ae8, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ReadXdgUserDir, addr 0x3e33d4c, size 0x474, virtual false, abstract: false, final false
   static inline ::StringW ReadXdgUserDir(::StringW config_dir, ::StringW home_dir, ::StringW key, ::StringW fallback);
 
-  /// @brief Method SetEnvironmentVariable, addr 0x3e30f70, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetEnvironmentVariable, addr 0x3e341d4, size 0x16c, virtual false, abstract: false, final false
   static inline void SetEnvironmentVariable(::StringW variable, ::StringW value);
 
-  /// @brief Method UnixGetFolderPath, addr 0x3e30628, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method UnixGetFolderPath, addr 0x3e3388c, size 0x4c0, virtual false, abstract: false, final false
   static inline ::StringW UnixGetFolderPath(::System::Environment_SpecialFolder folder, ::System::Environment_SpecialFolderOption option);
 
   static inline ::StringW getStaticF_nl();
 
   static inline ::System::OperatingSystem* getStaticF_os();
 
-  /// @brief Method get_CurrentDirectory, addr 0x3e30040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentDirectory, addr 0x3e332a4, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW get_CurrentDirectory();
 
-  /// @brief Method get_CurrentManagedThreadId, addr 0x3e30048, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentManagedThreadId, addr 0x3e332ac, size 0x20, virtual false, abstract: false, final false
   static inline int32_t get_CurrentManagedThreadId();
 
-  /// @brief Method get_HasShutdownStarted, addr 0x3e30068, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_HasShutdownStarted, addr 0x3e332cc, size 0x4, virtual false, abstract: false, final false
   static inline bool get_HasShutdownStarted();
 
-  /// @brief Method get_Is64BitOperatingSystem, addr 0x3e31160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Is64BitOperatingSystem, addr 0x3e343c4, size 0x4, virtual false, abstract: false, final false
   static inline bool get_Is64BitOperatingSystem();
 
-  /// @brief Method get_Is64BitProcess, addr 0x3e31164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Is64BitProcess, addr 0x3e343c8, size 0x8, virtual false, abstract: false, final false
   static inline bool get_Is64BitProcess();
 
-  /// @brief Method get_IsRunningOnWindows, addr 0x3e30610, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsRunningOnWindows, addr 0x3e33874, size 0x18, virtual false, abstract: false, final false
   static inline bool get_IsRunningOnWindows();
 
-  /// @brief Method get_IsUnix, addr 0x3e31184, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_IsUnix, addr 0x3e343e8, size 0x38, virtual false, abstract: false, final false
   static inline bool get_IsUnix();
 
-  /// @brief Method get_MachineName, addr 0x3e3006c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_MachineName, addr 0x3e332d0, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW get_MachineName();
 
-  /// @brief Method get_NewLine, addr 0x3e30074, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_NewLine, addr 0x3e332d8, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW get_NewLine();
 
-  /// @brief Method get_OSVersion, addr 0x3e300e4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_OSVersion, addr 0x3e33348, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::OperatingSystem* get_OSVersion();
 
-  /// @brief Method get_Platform, addr 0x3e300dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Platform, addr 0x3e33340, size 0x4, virtual false, abstract: false, final false
   static inline ::System::PlatformID get_Platform();
 
-  /// @brief Method get_ProcessorCount, addr 0x3e31174, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessorCount, addr 0x3e343d8, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_ProcessorCount();
 
-  /// @brief Method get_StackTrace, addr 0x3e303b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x3e33618, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW get_StackTrace();
 
-  /// @brief Method get_TickCount, addr 0x3e30420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_TickCount, addr 0x3e33684, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_TickCount();
 
-  /// @brief Method get_UserDomainName, addr 0x3e30424, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_UserDomainName, addr 0x3e33688, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW get_UserDomainName();
 
-  /// @brief Method get_UserName, addr 0x3e30428, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_UserName, addr 0x3e3368c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW get_UserName();
 
-  /// @brief Method internalGetEnvironmentVariable, addr 0x3e30438, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method internalGetEnvironmentVariable, addr 0x3e3369c, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW internalGetEnvironmentVariable(::StringW variable);
 
-  /// @brief Method internalGetEnvironmentVariable_native, addr 0x3e30434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internalGetEnvironmentVariable_native, addr 0x3e33698, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW internalGetEnvironmentVariable_native(::System::IntPtr variable);
 
-  /// @brief Method internalGetHome, addr 0x3e30f5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internalGetHome, addr 0x3e341c0, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW internalGetHome();
 
   static inline void setStaticF_nl(::StringW value);

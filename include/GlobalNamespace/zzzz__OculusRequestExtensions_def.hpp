@@ -27,7 +27,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusRequestExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToPlatformException, addr 0x2274410, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToPlatformException, addr 0x22751ec, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlatformException* ToPlatformException(::Oculus::Platform::Models::Error* error, ::GlobalNamespace::PlatformException_ErrorType errorType);
 
 protected:
@@ -45,7 +45,7 @@ public:
   OculusRequestExtensions(OculusRequestExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

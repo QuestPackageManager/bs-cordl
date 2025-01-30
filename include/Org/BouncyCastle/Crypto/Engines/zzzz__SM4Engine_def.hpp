@@ -43,33 +43,33 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method ExpandKey, addr 0x2371e04, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method ExpandKey, addr 0x2372e20, size 0x564, virtual false, abstract: false, final false
   inline void ExpandKey(bool forEncryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method GetBlockSize, addr 0x2372640, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x237365c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x2372438, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2373454, size 0x1c0, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method L, addr 0x2372368, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method L, addr 0x2373384, size 0x78, virtual false, abstract: false, final false
   static inline uint32_t L(uint32_t B);
 
-  /// @brief Method L_ap, addr 0x2371d40, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method L_ap, addr 0x2372d5c, size 0x40, virtual false, abstract: false, final false
   static inline uint32_t L_ap(uint32_t B);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SM4Engine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x2372648, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x2373664, size 0x2b0, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x23728f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2373914, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method T, addr 0x23723e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method T, addr 0x23733fc, size 0x58, virtual false, abstract: false, final false
   static inline uint32_t T(uint32_t Z);
 
-  /// @brief Method T_ap, addr 0x2371d80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method T_ap, addr 0x2372d9c, size 0x84, virtual false, abstract: false, final false
   inline uint32_t T_ap(uint32_t Z);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_rk() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_rk(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2372a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2373a40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_CK();
@@ -87,10 +87,10 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Sbox();
 
-  /// @brief Method get_AlgorithmName, addr 0x23725f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2373614, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x2372638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x2373654, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
@@ -102,7 +102,7 @@ public:
 
   static inline void setStaticF_Sbox(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method tau, addr 0x2371c78, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method tau, addr 0x2372c94, size 0xc8, virtual false, abstract: false, final false
   static inline uint32_t tau(uint32_t A);
 
 protected:

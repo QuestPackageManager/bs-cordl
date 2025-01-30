@@ -22,22 +22,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusXRPlugin : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAppSpacePosition, addr 0x4027228, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpacePosition, addr 0x402a48c, size 0x90, virtual false, abstract: false, final false
   static inline void SetAppSpacePosition(float_t x, float_t y, float_t z);
 
-  /// @brief Method SetAppSpaceRotation, addr 0x40272b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpaceRotation, addr 0x402a51c, size 0x98, virtual false, abstract: false, final false
   static inline void SetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetColorOffset, addr 0x4027118, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetColorOffset, addr 0x402a37c, size 0x94, virtual false, abstract: false, final false
   static inline void SetColorOffset(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetColorScale, addr 0x4027080, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetColorScale, addr 0x402a2e4, size 0x98, virtual false, abstract: false, final false
   static inline void SetColorScale(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetDepthSubmission, addr 0x4027350, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetDepthSubmission, addr 0x402a5b4, size 0x7c, virtual false, abstract: false, final false
   static inline void SetDepthSubmission(bool enable);
 
-  /// @brief Method SetSpaceWarp, addr 0x40271ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSpaceWarp, addr 0x402a410, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSpaceWarp(::GlobalNamespace::OVRPlugin_Bool on);
 
 protected:
@@ -55,7 +55,7 @@ public:
   OculusXRPlugin(OculusXRPlugin const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

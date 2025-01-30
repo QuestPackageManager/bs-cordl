@@ -35,10 +35,10 @@ public:
   /// @brief Field kdf, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf)) ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
 
-  /// @brief Method BigIntToBytes, addr 0x268d548, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method BigIntToBytes, addr 0x268e564, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BigIntToBytes(::Org::BouncyCastle::Math::BigInteger* r);
 
-  /// @brief Method CalculateAgreement, addr 0x268d2e8, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x268e304, size 0x260, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_kdf(::Org::BouncyCastle::Crypto::IDerivationFunction* value);
 
-  /// @brief Method .ctor, addr 0x268d24c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268e268, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
 protected:

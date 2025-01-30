@@ -30,15 +30,15 @@ public:
   /// @brief Field _beatmapObjectManager, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Method HandleNoteWasCut, addr 0x3baedf0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x3bb46d8, size 0x8c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method Init, addr 0x3baebe0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3bb44c8, size 0x144, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::BadCutsMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3baed60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb4648, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method .ctor, addr 0x3baeebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb48a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   BadCutsMissionObjectiveChecker(BadCutsMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4463 };
 
   /// @brief Field _beatmapObjectManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;

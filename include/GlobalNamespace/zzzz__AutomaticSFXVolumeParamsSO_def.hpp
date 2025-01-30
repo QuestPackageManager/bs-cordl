@@ -109,31 +109,31 @@ public:
 
   constexpr void __cordl_internal_set__volumeSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x3acf9a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad28f8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_attackTime, addr 0x3acf978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attackTime, addr 0x3ad28d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_attackTime();
 
-  /// @brief Method get_impact, addr 0x3acf970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_impact, addr 0x3ad28c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_impact();
 
-  /// @brief Method get_maxVolume, addr 0x3acf990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x3ad28e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_minVolume, addr 0x3acf988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minVolume, addr 0x3ad28e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minVolume();
 
-  /// @brief Method get_musicVolumeMultiplier, addr 0x3acf960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_musicVolumeMultiplier, addr 0x3ad28b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_musicVolumeMultiplier();
 
-  /// @brief Method get_releaseTime, addr 0x3acf980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseTime, addr 0x3ad28d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_releaseTime();
 
-  /// @brief Method get_threshold, addr 0x3acf968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_threshold, addr 0x3ad28c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_threshold();
 
-  /// @brief Method get_volumeSmooth, addr 0x3acf998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeSmooth, addr 0x3ad28f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeSmooth();
 
 protected:
@@ -151,7 +151,7 @@ public:
   AutomaticSFXVolumeParamsSO(AutomaticSFXVolumeParamsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4002 };
 
   /// @brief Field _musicVolumeMultiplier, offset: 0x18, size: 0x4, def value: None
   float_t ____musicVolumeMultiplier;

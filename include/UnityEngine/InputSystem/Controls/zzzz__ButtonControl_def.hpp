@@ -36,7 +36,7 @@ public:
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  /// @brief Method IsValueConsideredPressed, addr 0x45603e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsValueConsideredPressed, addr 0x456364c, size 0x6c, virtual false, abstract: false, final false
   inline bool IsValueConsideredPressed(float_t value);
 
   static inline ::UnityEngine::InputSystem::Controls::ButtonControl* New_ctor();
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  /// @brief Method .ctor, addr 0x455fa70, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4562cd4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_s_GlobalDefaultButtonPressPoint();
 
   static inline float_t getStaticF_s_GlobalDefaultButtonReleaseThreshold();
 
-  /// @brief Method get_isPressed, addr 0x4560454, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x45636b8, size 0xa0, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x456037c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x45635e0, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_wasPressedThisFrame, addr 0x45604f4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_wasPressedThisFrame, addr 0x4563758, size 0x128, virtual false, abstract: false, final false
   inline bool get_wasPressedThisFrame();
 
-  /// @brief Method get_wasReleasedThisFrame, addr 0x456061c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_wasReleasedThisFrame, addr 0x4563880, size 0x128, virtual false, abstract: false, final false
   inline bool get_wasReleasedThisFrame();
 
   static inline void setStaticF_s_GlobalDefaultButtonPressPoint(float_t value);
@@ -85,7 +85,7 @@ public:
   ButtonControl(ButtonControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7037 };
 
   /// @brief Field kMinButtonPressPoint offset 0xffffffff size 0x4
   static constexpr float_t kMinButtonPressPoint{ static_cast<float_t>(0.0001f) };

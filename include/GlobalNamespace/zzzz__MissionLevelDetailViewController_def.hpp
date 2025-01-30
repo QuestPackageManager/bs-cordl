@@ -77,10 +77,10 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelDetailViewController___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <RefreshContent>b__0, addr 0x3c18e48, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method <RefreshContent>b__0, addr 0x3c1f000, size 0x1d8, virtual false, abstract: false, final false
   inline void _RefreshContent_b__0(int32_t idx, ::GlobalNamespace::ObjectiveListItem* objectiveListItem);
 
-  /// @brief Method <RefreshContent>b__1, addr 0x3c19020, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RefreshContent>b__1, addr 0x3c1f1d8, size 0x7c, virtual false, abstract: false, final false
   inline void _RefreshContent_b__1(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
 
   constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get_missionObjectives() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_modifierParamsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3c18e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1efc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   MissionLevelDetailViewController___c__DisplayClass14_0(MissionLevelDetailViewController___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4915 };
 
   /// @brief Field missionObjectives, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> ___missionObjectives;
@@ -170,18 +170,18 @@ public:
 
   __declspec(property(get = get_missionNode)) ::UnityW<::GlobalNamespace::MissionNode> missionNode;
 
-  /// @brief Method DidActivate, addr 0x3c18d68, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1ef20, size 0xa8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::MissionLevelDetailViewController* New_ctor();
 
-  /// @brief Method PlayButtonPressed, addr 0x3c18e18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PlayButtonPressed, addr 0x3c1efd0, size 0x28, virtual false, abstract: false, final false
   inline void PlayButtonPressed();
 
-  /// @brief Method RefreshContent, addr 0x3c18b4c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x3c1ed04, size 0x21c, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method Setup, addr 0x3c18b20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3c1ecd8, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionNode* missionNode);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& __cordl_internal_get__gameplayModifierInfoListItemsList() const;
@@ -232,16 +232,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x3c18e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1eff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x3c189b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x3c1eb70, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
-  /// @brief Method get_missionNode, addr 0x3c18b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionNode, addr 0x3c1ecd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_missionNode();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3c18a68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3c1ec20, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionLevelDetailViewController>>* value);
 
 protected:
@@ -259,7 +259,7 @@ public:
   MissionLevelDetailViewController(MissionLevelDetailViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4916 };
 
   /// @brief Field _gameplayModifiersModel, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;

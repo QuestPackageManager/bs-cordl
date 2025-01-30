@@ -61,16 +61,16 @@ public:
 
   static inline ::Zenject::ConventionAssemblySelectionBinder___c* New_ctor();
 
-  /// @brief Method <FromAssembliesContaining>b__8_0, addr 0x4afe908, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <FromAssembliesContaining>b__8_0, addr 0x4b01b6c, size 0x28, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* _FromAssembliesContaining_b__8_0(::System::Type* t);
 
-  /// @brief Method __zenCreate, addr 0x4afe930, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b01b94, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afe984, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b01be8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4afe900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b01b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::ConventionAssemblySelectionBinder___c* getStaticF___9();
@@ -96,7 +96,7 @@ public:
   ConventionAssemblySelectionBinder___c(ConventionAssemblySelectionBinder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12022 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -116,7 +116,7 @@ public:
 
   static inline ::Zenject::ConventionAssemblySelectionBinder___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <FromAssemblies>b__0, addr 0x4afeb3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <FromAssemblies>b__0, addr 0x4b01da0, size 0x58, virtual false, abstract: false, final false
   inline bool _FromAssemblies_b__0(::System::Reflection::Assembly* assembly);
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* const& __cordl_internal_get_assemblies() const;
@@ -125,13 +125,13 @@ public:
 
   constexpr void __cordl_internal_set_assemblies(::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4afeb94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b01df8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afebe8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b01e4c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4afe7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b01a44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   ConventionAssemblySelectionBinder___c__DisplayClass12_0(ConventionAssemblySelectionBinder___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12023 };
 
   /// @brief Field assemblies, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* ___assemblies;
@@ -178,31 +178,31 @@ public:
   /// @brief Field <BindInfo>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField)) ::Zenject::ConventionBindInfo* _BindInfo_k__BackingField;
 
-  /// @brief Method FromAllAssemblies, addr 0x4afe4a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromAllAssemblies, addr 0x4b0170c, size 0x4, virtual false, abstract: false, final false
   inline void FromAllAssemblies();
 
-  /// @brief Method FromAssemblies, addr 0x4afe73c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromAssemblies, addr 0x4b019a0, size 0x4, virtual false, abstract: false, final false
   inline void FromAssemblies(::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> assemblies);
 
-  /// @brief Method FromAssemblies, addr 0x4afe5dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FromAssemblies, addr 0x4b01840, size 0xc0, virtual false, abstract: false, final false
   inline void FromAssemblies(::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* assemblies);
 
-  /// @brief Method FromAssembliesContaining, addr 0x4afe4ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromAssembliesContaining, addr 0x4b01710, size 0x4, virtual false, abstract: false, final false
   inline void FromAssembliesContaining(::ArrayW<::System::Type*, ::Array<::System::Type*>*> types);
 
-  /// @brief Method FromAssembliesContaining, addr 0x4afe4b0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FromAssembliesContaining, addr 0x4b01714, size 0x12c, virtual false, abstract: false, final false
   inline void FromAssembliesContaining(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
-  /// @brief Method FromAssembliesWhere, addr 0x4afe88c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method FromAssembliesWhere, addr 0x4b01af0, size 0x18, virtual false, abstract: false, final false
   inline void FromAssembliesWhere(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
 
-  /// @brief Method FromAssembly, addr 0x4afe740, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromAssembly, addr 0x4b019a4, size 0xa0, virtual false, abstract: false, final false
   inline void FromAssembly(::System::Reflection::Assembly* assembly);
 
   /// @brief Method FromAssemblyContaining, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void FromAssemblyContaining();
 
-  /// @brief Method FromThisAssembly, addr 0x4afe69c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromThisAssembly, addr 0x4b01900, size 0xa0, virtual false, abstract: false, final false
   inline void FromThisAssembly();
 
   static inline ::Zenject::ConventionAssemblySelectionBinder* New_ctor(::Zenject::ConventionBindInfo* bindInfo);
@@ -213,13 +213,13 @@ public:
 
   constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::ConventionBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4afe470, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b016d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ConventionBindInfo* bindInfo);
 
-  /// @brief Method get_BindInfo, addr 0x4afe498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindInfo, addr 0x4b016fc, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ConventionBindInfo* get_BindInfo();
 
-  /// @brief Method set_BindInfo, addr 0x4afe4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindInfo, addr 0x4b01704, size 0x8, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::ConventionBindInfo* value);
 
 protected:
@@ -237,7 +237,7 @@ public:
   ConventionAssemblySelectionBinder(ConventionAssemblySelectionBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12024 };
 
   /// @brief Field <BindInfo>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ConventionBindInfo* ____BindInfo_k__BackingField;

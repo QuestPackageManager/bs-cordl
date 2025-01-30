@@ -75,7 +75,7 @@ public:
   static ::HoudiniEngineUnity::HEU_SessionSyncData_Status const Stopped;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11774 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -194,13 +194,13 @@ public:
 
   constexpr void __cordl_internal_set__viewportLocal(::HoudiniEngineUnity::HAPI_Viewport value);
 
-  /// @brief Method .ctor, addr 0x3a59704, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5bb90, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SyncStatus, addr 0x3a5c2e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_SyncStatus, addr 0x3a5e76c, size 0x14, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionSyncData_Status get_SyncStatus();
 
-  /// @brief Method set_SyncStatus, addr 0x3a5c2f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SyncStatus, addr 0x3a5e780, size 0xc, virtual false, abstract: false, final false
   inline void set_SyncStatus(::HoudiniEngineUnity::HEU_SessionSyncData_Status value);
 
 protected:
@@ -218,7 +218,7 @@ public:
   HEU_SessionSyncData(HEU_SessionSyncData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11775 };
 
   /// @brief Field _status, offset: 0x10, size: 0x4, def value: None
   int32_t ____status;

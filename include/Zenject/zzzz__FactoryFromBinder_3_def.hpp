@@ -114,7 +114,7 @@ public:
   FactoryFromBinder_3___c__2_1(FactoryFromBinder_3___c__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +167,7 @@ public:
   FactoryFromBinder_3___c__DisplayClass1_0(FactoryFromBinder_3___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12077 };
 
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TContract>* ___method;
@@ -221,7 +221,7 @@ public:
   FactoryFromBinder_3(FactoryFromBinder_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

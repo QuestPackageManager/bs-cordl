@@ -29,7 +29,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::SharedStatic_PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x450a000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x450d264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -64,13 +64,13 @@ public:
   // Declarations
   using PreserveAttribute = ::Unity::Burst::SharedStatic_PreserveAttribute;
 
-  /// @brief Method CheckResult, addr 0x4509f5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x450d1c0, size 0x54, virtual false, abstract: false, final false
   static inline void CheckResult(::cordl_internals::Ptr<void> result);
 
-  /// @brief Method CheckSizeOf, addr 0x4509ef0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CheckSizeOf, addr 0x450d154, size 0x6c, virtual false, abstract: false, final false
   static inline void CheckSizeOf(uint32_t sizeOf);
 
-  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x4509fb0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x450d214, size 0x50, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
 protected:
@@ -88,7 +88,7 @@ public:
   SharedStatic(SharedStatic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -69,23 +69,23 @@ public:
 
   constexpr void __cordl_internal_set_pub(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* value);
 
-  /// @brief Method .ctor, addr 0x252b0c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252c0dc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* keyPair, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x252b0e0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252c0fc, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x252b720, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252c73c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv);
 
-  /// @brief Method get_KeyId, addr 0x252b74c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x252c768, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PrivateKey, addr 0x252b770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x252c78c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* get_PrivateKey();
 
-  /// @brief Method get_PublicKey, addr 0x252b768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x252c784, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* get_PublicKey();
 
 protected:

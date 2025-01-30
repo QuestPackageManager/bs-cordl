@@ -39,21 +39,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method Awake, addr 0x39bf9dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39c1e68, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x39bf9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39c1e60, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method LateUpdate, addr 0x39bfbc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39c2050, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::DeactivateMenuControllersOnFocusCaptureOrTrackingLost* New_ctor();
 
-  /// @brief Method SetActiveMenuController, addr 0x39bfbc8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetActiveMenuController, addr 0x39c2054, size 0x70, virtual false, abstract: false, final false
   inline void SetActiveMenuController(bool active, ::GlobalNamespace::VRController* vrController);
 
-  /// @brief Method UpdateMenuControllersState, addr 0x39bf9e0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateMenuControllersState, addr 0x39c1e6c, size 0x1e4, virtual false, abstract: false, final false
   inline void UpdateMenuControllersState();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::VRController>, ::Array<::UnityW<::GlobalNamespace::VRController>>*> const& __cordl_internal_get__vrControllers() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39bfc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c20c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loggerPrefix, addr 0x39bf994, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x39c1e20, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
@@ -92,7 +92,7 @@ public:
   DeactivateMenuControllersOnFocusCaptureOrTrackingLost(DeactivateMenuControllersOnFocusCaptureOrTrackingLost const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16387 };
 
   /// @brief Field _vrControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::VRController>, ::Array<::UnityW<::GlobalNamespace::VRController>>*> ____vrControllers;

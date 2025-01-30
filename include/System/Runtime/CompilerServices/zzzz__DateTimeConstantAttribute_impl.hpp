@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::CompilerServices::DateTimeConstantAttribute::*)()>(
     &::System::Runtime::CompilerServices::DateTimeConstantAttribute::get_Value)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d1724c;
+  constexpr static std::size_t addrs = 0x3d1a4b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

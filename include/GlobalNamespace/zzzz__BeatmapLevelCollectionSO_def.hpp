@@ -33,10 +33,10 @@ public:
 
   __declspec(property(get = get_beatmapLevels)) ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* beatmapLevels;
 
-  /// @brief Method AddBeatmapLevel, addr 0x26c38e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapLevel, addr 0x26c4b38, size 0xa4, virtual false, abstract: false, final false
   inline void AddBeatmapLevel(::GlobalNamespace::BeatmapLevelSO* beatmapLevel);
 
-  /// @brief Method Create, addr 0x26c3844, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x26c4a98, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> Create();
 
   static inline ::GlobalNamespace::BeatmapLevelCollectionSO* New_ctor();
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__beatmapLevels(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value);
 
-  /// @brief Method .ctor, addr 0x26c3988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c4bdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapLevels, addr 0x26c383c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevels, addr 0x26c4a90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* get_beatmapLevels();
 
 protected:
@@ -68,7 +68,7 @@ public:
   BeatmapLevelCollectionSO(BeatmapLevelCollectionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12946 };
 
   /// @brief Field _beatmapLevels, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevels;

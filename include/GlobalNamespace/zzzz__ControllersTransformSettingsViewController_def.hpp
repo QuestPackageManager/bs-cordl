@@ -52,18 +52,18 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Method DidActivate, addr 0x3af7508, size 0x520, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3afb5d4, size 0x520, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandlePositionSliderValueDidChange, addr 0x3af7ce0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandlePositionSliderValueDidChange, addr 0x3afbdac, size 0x124, virtual false, abstract: false, final false
   inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method HandleRotationSliderValueDidChange, addr 0x3af7e04, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationSliderValueDidChange, addr 0x3afbed0, size 0x118, virtual false, abstract: false, final false
   inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   static inline ::GlobalNamespace::ControllersTransformSettingsViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3af7a28, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3afbaf4, size 0x2b8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posXSlider() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x3af7f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afbfe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
   ControllersTransformSettingsViewController(ControllersTransformSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4945 };
 
   /// @brief Field kPositionMul offset 0xffffffff size 0x4
   static constexpr float_t kPositionMul{ static_cast<float_t>(100.0f) };

@@ -39,10 +39,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::DelegateHelpers___c* New_ctor();
 
-  /// @brief Method <MakeDelegate>b__1_0, addr 0x40f8c38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <MakeDelegate>b__1_0, addr 0x40fbe9c, size 0x18, virtual false, abstract: false, final false
   inline bool _MakeDelegate_b__1_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x40f8c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fbe94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::DelegateHelpers___c* getStaticF___9();
@@ -68,7 +68,7 @@ public:
   DelegateHelpers___c(DelegateHelpers___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14123 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -85,7 +85,7 @@ public:
   // Declarations
   using __c = ::System::Linq::Expressions::Interpreter::DelegateHelpers___c;
 
-  /// @brief Method MakeDelegate, addr 0x40e5c84, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method MakeDelegate, addr 0x40e8ee8, size 0x670, virtual false, abstract: false, final false
   static inline ::System::Type* MakeDelegate(::ArrayW<::System::Type*, ::Array<::System::Type*>*> types);
 
 protected:
@@ -103,7 +103,7 @@ public:
   DelegateHelpers(DelegateHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14124 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

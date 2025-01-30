@@ -47,24 +47,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CalculateCompletedOperationHashcode, addr 0x44f5b44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CalculateCompletedOperationHashcode, addr 0x44f8da8, size 0x8c, virtual false, abstract: false, final false
   inline int32_t CalculateCompletedOperationHashcode(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method CalculateHashCode, addr 0x44f5a00, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashCode, addr 0x44f8c64, size 0x144, virtual false, abstract: false, final false
   inline int32_t CalculateHashCode(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method Dispose, addr 0x44f63ec, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x44f9650, size 0xd8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateCompletedOperationDisplayName, addr 0x44f5bd0, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method GenerateCompletedOperationDisplayName, addr 0x44f8e34, size 0x44c, virtual false, abstract: false, final false
   inline ::StringW GenerateCompletedOperationDisplayName(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
   static inline ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
-  /// @brief Method OnResourceManagerDiagnosticEvent, addr 0x44f601c, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method OnResourceManagerDiagnosticEvent, addr 0x44f9280, size 0x3d0, virtual false, abstract: false, final false
   inline void OnResourceManagerDiagnosticEvent(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext eventContext);
 
-  /// @brief Method SumDependencyNameHashCodes, addr 0x44f57d4, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SumDependencyNameHashCodes, addr 0x44f8a38, size 0x22c, virtual false, abstract: false, final false
   inline int32_t SumDependencyNameHashCodes(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
   constexpr ::UnityEngine::ResourceManagement::ResourceManager* const& __cordl_internal_get_m_ResourceManager() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_m_cachedDiagnosticInfo(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x44f56e8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f894c, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
   /// @brief Convert to "::System::IDisposable"
@@ -100,7 +100,7 @@ public:
   ResourceManagerDiagnostics(ResourceManagerDiagnostics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16197 };
 
   /// @brief Field k_MaximumCompletedOpResultEntryLength offset 0xffffffff size 0x4
   static constexpr int32_t k_MaximumCompletedOpResultEntryLength{ static_cast<int32_t>(0x1e) };

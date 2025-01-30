@@ -143,7 +143,7 @@ public:
   OVRTask_1_CallbackInvoker(OVRTask_1_CallbackInvoker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,7 +187,7 @@ public:
   OVRTask_1_CallbackRemover(OVRTask_1_CallbackRemover const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -231,7 +231,7 @@ public:
   OVRTask_1_InternalDataRemover(OVRTask_1_InternalDataRemover const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -294,7 +294,7 @@ public:
   OVRTask_1_InternalData_1(OVRTask_1_InternalData_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8384 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -357,7 +357,7 @@ public:
   OVRTask_1_IncrementalResultSubscriber_1(OVRTask_1_IncrementalResultSubscriber_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -553,7 +553,7 @@ public:
   constexpr OVRTask_1(::System::Guid _id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8389 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -602,7 +602,7 @@ public:
   constexpr OVRTask_1_Awaiter(::GlobalNamespace::OVRTask_1<TResult> _task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8386 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -677,7 +677,7 @@ public:
   constexpr OVRTask_1_Callback(::System::Action_1<TResult>* _delegate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -753,7 +753,7 @@ public:
   constexpr OVRTask_1_CallbackWithState_1(T _data, ::System::Action_2<TResult, T>* _delegate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8388 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

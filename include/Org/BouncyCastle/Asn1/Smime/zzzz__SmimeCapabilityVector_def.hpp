@@ -31,18 +31,18 @@ public:
   /// @brief Field capabilities, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_capabilities, put = __cordl_internal_set_capabilities)) ::Org::BouncyCastle::Asn1::Asn1EncodableVector* capabilities;
 
-  /// @brief Method AddCapability, addr 0x24f40a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddCapability, addr 0x24f50c0, size 0x7c, virtual false, abstract: false, final false
   inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
 
-  /// @brief Method AddCapability, addr 0x24f4250, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddCapability, addr 0x24f526c, size 0x104, virtual false, abstract: false, final false
   inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method AddCapability, addr 0x24f4120, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddCapability, addr 0x24f513c, size 0x130, virtual false, abstract: false, final false
   inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* New_ctor();
 
-  /// @brief Method ToAsn1EncodableVector, addr 0x24f4354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1EncodableVector, addr 0x24f5370, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ToAsn1EncodableVector();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& __cordl_internal_get_capabilities() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_capabilities(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method .ctor, addr 0x24f435c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f5378, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

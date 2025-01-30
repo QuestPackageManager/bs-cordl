@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Data::VersionNotFoundException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x413cc98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413fefc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x413cc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413fef4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x413ccf4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413ff58, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -55,7 +55,7 @@ public:
   VersionNotFoundException(VersionNotFoundException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

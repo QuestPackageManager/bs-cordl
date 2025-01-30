@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::KeyDownEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a28aa0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2bd04, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::KeyDownEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a28a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2bcfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::KeyDownEvent___c* getStaticF___9();
@@ -62,7 +62,7 @@ public:
   KeyDownEvent___c(KeyDownEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -79,18 +79,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::KeyDownEvent___c;
 
-  /// @brief Method GetEquivalentImguiEvent, addr 0x4a27c94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetEquivalentImguiEvent, addr 0x4a2aef8, size 0xc0, virtual false, abstract: false, final false
   inline void GetEquivalentImguiEvent(::UnityEngine::Event* outImguiEvent);
 
   static inline ::UnityEngine::UIElements::KeyDownEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x4a27d54, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x4a2afb8, size 0x100, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method SendEquivalentNavigationEventIfAny, addr 0x4a27e54, size 0x908, virtual false, abstract: false, final false
+  /// @brief Method SendEquivalentNavigationEventIfAny, addr 0x4a2b0b8, size 0x908, virtual false, abstract: false, final false
   inline void SendEquivalentNavigationEventIfAny(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a289f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2bc58, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   KeyDownEvent(KeyDownEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5844 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

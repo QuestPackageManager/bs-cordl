@@ -25,7 +25,7 @@ public:
   /// @brief Field AF_INET6, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_AF_INET6, put = __cordl_internal_set_AF_INET6)) int32_t AF_INET6;
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x43ebf4c, size 0x9b4, virtual true, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x43ef1b0, size 0x9b4, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor();
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_AF_INET6(int32_t value);
 
-  /// @brief Method .ctor, addr 0x43ebf2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ef190, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43ea2ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ed550, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t AF_INET6);
 
 protected:
@@ -59,7 +59,7 @@ public:
   MacOsNetworkInterfaceAPI(MacOsNetworkInterfaceAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9798 };
 
   /// @brief Field AF_INET6, offset: 0x10, size: 0x4, def value: None
   int32_t ___AF_INET6;

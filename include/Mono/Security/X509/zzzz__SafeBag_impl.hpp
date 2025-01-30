@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::SafeBag::*)(::StringW, ::Mono::Security::ASN1*)>(
     &::Mono::Security::X509::SafeBag::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c326ac;
+  constexpr static std::size_t addrs = 0x3c35910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::X509::SafeBag::*)()>(&::Mono::Security::X509::SafeBag::get_BagOID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c326d8;
+  constexpr static std::size_t addrs = 0x3c3593c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::SafeBag*>::get(), "get_BagOID",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::X509::SafeBag::*)()>(&::Mono::Security::X509::SafeBag::get_ASN1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c326e0;
+  constexpr static std::size_t addrs = 0x3c35944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::SafeBag*>::get(), "get_ASN1",

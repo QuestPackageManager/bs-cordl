@@ -26,18 +26,18 @@ public:
   // Declarations
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method Init, addr 0x497aed4, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x497e138, size 0x3dc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method Init, addr 0x497c4b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x497f71c, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x497c968, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497fbcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x497c4b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x497f714, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:
@@ -55,7 +55,7 @@ public:
   ReusableMultiColumnTreeViewItem(ReusableMultiColumnTreeViewItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

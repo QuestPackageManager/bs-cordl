@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b37d7c;
+  constexpr static std::size_t addrs = 0x3b3bd7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::*)()>(
     &::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b37dc8;
+  constexpr static std::size_t addrs = 0x3b3bdc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

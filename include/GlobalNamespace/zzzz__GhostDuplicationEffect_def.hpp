@@ -81,7 +81,7 @@ public:
                                                      bool lastPhase) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -170,16 +170,16 @@ public:
 
   static inline ::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <Animate>b__0, addr 0x3b7f828, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Animate>b__0, addr 0x3b853c4, size 0x18, virtual false, abstract: false, final false
   inline void _Animate_b__0(float_t val);
 
-  /// @brief Method <Animate>b__1, addr 0x3b7f840, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <Animate>b__1, addr 0x3b853dc, size 0x2c, virtual false, abstract: false, final false
   inline void _Animate_b__1(float_t val);
 
-  /// @brief Method <Animate>b__2, addr 0x3b7f86c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <Animate>b__2, addr 0x3b85408, size 0x50, virtual false, abstract: false, final false
   inline void _Animate_b__2(::UnityEngine::Vector3 pos);
 
-  /// @brief Method <Animate>b__3, addr 0x3b7f8bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <Animate>b__3, addr 0x3b85458, size 0x40, virtual false, abstract: false, final false
   inline void _Animate_b__3(float_t val);
 
   constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect> const& __cordl_internal_get___4__this() const;
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_ghostEffectParams(::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams value);
 
-  /// @brief Method .ctor, addr 0x3b7f55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b850f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -218,7 +218,7 @@ public:
   GhostDuplicationEffect___c__DisplayClass7_0(GhostDuplicationEffect___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4221 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GhostDuplicationEffect> _____4__this;
@@ -273,21 +273,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b7f900, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b8549c, size 0xf8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b7f9f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b85594, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b7fa00, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b8559c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b7fa38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b855d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b7f8fc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b85498, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -314,7 +314,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7f5d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b85170, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -341,7 +341,7 @@ public:
   GhostDuplicationEffect__HideRedundantWithDelay_d__8(GhostDuplicationEffect__HideRedundantWithDelay_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4222 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -398,24 +398,24 @@ public:
 
   __declspec(property(get = get_size, put = set_size)) float_t size;
 
-  /// @brief Method Animate, addr 0x3b7f1ac, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x3b84d48, size 0x3b0, virtual false, abstract: false, final false
   inline void Animate(::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams ghostEffectParams);
 
-  /// @brief Method Awake, addr 0x3b7f094, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b84c30, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HideRedundantWithDelay, addr 0x3b7f564, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HideRedundantWithDelay, addr 0x3b85100, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HideRedundantWithDelay(float_t delay);
 
-  /// @brief Method Init, addr 0x3b7f0a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b84c40, size 0x88, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GhostDuplicationEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b7f00c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b84ba8, size 0x88, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetDistances, addr 0x3b7f5fc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetDistances, addr 0x3b85198, size 0xec, virtual false, abstract: false, final false
   inline void SetDistances(float_t distance, ::UnityEngine::Vector3 direction);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvases() const;
@@ -436,22 +436,22 @@ public:
 
   constexpr void __cordl_internal_set_isInitialized(bool value);
 
-  /// @brief Method .ctor, addr 0x3b7f820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b853bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alpha, addr 0x3b7f7e0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x3b8537c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
-  /// @brief Method get_size, addr 0x3b7f798, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x3b85334, size 0x48, virtual false, abstract: false, final false
   inline float_t get_size();
 
-  /// @brief Method set_alpha, addr 0x3b7f12c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3b84cc8, size 0x80, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_hide, addr 0x3b7f6e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3b85284, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
-  /// @brief Method set_size, addr 0x3b7f714, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x3b852b0, size 0x84, virtual false, abstract: false, final false
   inline void set_size(float_t value);
 
 protected:
@@ -469,7 +469,7 @@ public:
   GhostDuplicationEffect(GhostDuplicationEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4223 };
 
   /// @brief Field _canvases, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> ____canvases;

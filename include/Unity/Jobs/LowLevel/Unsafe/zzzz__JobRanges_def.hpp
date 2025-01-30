@@ -29,7 +29,7 @@ public:
   constexpr JobRanges(int32_t BatchSize, int32_t NumJobs, int32_t TotalIterationCount, ::System::IntPtr StartEndIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10553 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

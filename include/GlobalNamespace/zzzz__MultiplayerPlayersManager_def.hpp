@@ -127,21 +127,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bdb75c, size 0x3e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3be16bc, size 0x3d0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bdbb3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3be1a8c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bdbb44, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3be1a94, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bdbb7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3be1acc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bdb758, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3be16b8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
-  /// @brief Method .ctor, addr 0x3bdb634, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be1594, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -189,7 +189,7 @@ public:
   MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51(MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4601 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -336,34 +336,34 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
   constexpr operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*() noexcept;
 
-  /// @brief Method BindPlayerFactories, addr 0x3bdb304, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method BindPlayerFactories, addr 0x3be1284, size 0x248, virtual false, abstract: false, final false
   inline void BindPlayerFactories(::GlobalNamespace::MultiplayerPlayerLayout layout);
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x3bdb65c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x3be15bc, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x3bdb678, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x3be15d8, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerPlayersManager* New_ctor();
 
-  /// @brief Method ReportLocalPlayerNetworkDidFailed, addr 0x3bcb730, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReportLocalPlayerNetworkDidFailed, addr 0x3bd1778, size 0x1c, virtual false, abstract: false, final false
   inline void ReportLocalPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method SpawnPlayers, addr 0x3bcdf1c, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method SpawnPlayers, addr 0x3bd3f64, size 0x93c, virtual false, abstract: false, final false
   inline void SpawnPlayers(::GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState,
                            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers);
 
-  /// @brief Method SwitchLocalPlayerToInactive, addr 0x3bced78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SwitchLocalPlayerToInactive, addr 0x3bd4db0, size 0x20, virtual false, abstract: false, final false
   inline void SwitchLocalPlayerToInactive();
 
-  /// @brief Method SwitchLocalPlayerToInactiveCoroutine, addr 0x3bdb5d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SwitchLocalPlayerToInactiveCoroutine, addr 0x3be1534, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SwitchLocalPlayerToInactiveCoroutine();
 
-  /// @brief Method TryGetConnectedCenterFacingRotation, addr 0x3bdb56c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryGetConnectedCenterFacingRotation, addr 0x3be14cc, size 0x68, virtual false, abstract: false, final false
   inline bool TryGetConnectedCenterFacingRotation(::StringW userId, ::ByRef<float_t> centerFacingRotation);
 
-  /// @brief Method TryGetConnectedPlayerController, addr 0x3bccff8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryGetConnectedPlayerController, addr 0x3bd3040, size 0x68, virtual false, abstract: false, final false
   inline bool TryGetConnectedPlayerController(::StringW userId, ::ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController);
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> const& __cordl_internal_get__activeLocalPlayerControllerPrefab() const;
@@ -516,55 +516,55 @@ public:
 
   constexpr void __cordl_internal_set_playerSpawningDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bdb694, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be15f4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSwitchPlayerToInactiveEvent, addr 0x3bce868, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didSwitchPlayerToInactiveEvent, addr 0x3bd48a0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didSwitchPlayerToInactiveEvent(::System::Action* value);
 
-  /// @brief Method add_playerDidFinishEvent, addr 0x3bdb044, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerDidFinishEvent, addr 0x3be0fc4, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x3bdb1a4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x3be1124, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerSpawningDidFinishEvent, addr 0x3bd8f34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_playerSpawningDidFinishEvent, addr 0x3bdeeb4, size 0x9c, virtual false, abstract: false, final false
   inline void add_playerSpawningDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_activeLocalPlayerFacade, addr 0x3bdb034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeLocalPlayerFacade, addr 0x3be0fb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> get_activeLocalPlayerFacade();
 
-  /// @brief Method get_allActiveAtGameStartPlayers, addr 0x3bdb024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allActiveAtGameStartPlayers, addr 0x3be0fa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_allActiveAtGameStartPlayers();
 
-  /// @brief Method get_inactivePlayerFacade, addr 0x3bdb03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inactivePlayerFacade, addr 0x3be0fbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> get_inactivePlayerFacade();
 
-  /// @brief Method get_localPlayerStartSeekSongController, addr 0x3bdb02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerStartSeekSongController, addr 0x3be0fac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IStartSeekSongControllerProvider* get_localPlayerStartSeekSongController();
 
-  /// @brief Method get_localPlayerTransform, addr 0x3bd7e40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerTransform, addr 0x3bdddc0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_localPlayerTransform();
 
-  /// @brief Method get_playerSpawningFinished, addr 0x3bdb010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpawningFinished, addr 0x3be0f90, size 0x8, virtual false, abstract: false, final false
   inline bool get_playerSpawningFinished();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
   constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* i___GlobalNamespace__IMultiplayerLevelEndActionsPublisher() noexcept;
 
-  /// @brief Method remove_didSwitchPlayerToInactiveEvent, addr 0x3bcaee4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didSwitchPlayerToInactiveEvent, addr 0x3bd0f2c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didSwitchPlayerToInactiveEvent(::System::Action* value);
 
-  /// @brief Method remove_playerDidFinishEvent, addr 0x3bdb0f4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerDidFinishEvent, addr 0x3be1074, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x3bdb254, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x3be11d4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerSpawningDidFinishEvent, addr 0x3bd909c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_playerSpawningDidFinishEvent, addr 0x3bdf01c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_playerSpawningDidFinishEvent(::System::Action* value);
 
-  /// @brief Method set_playerSpawningFinished, addr 0x3bdb018, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpawningFinished, addr 0x3be0f98, size 0xc, virtual false, abstract: false, final false
   inline void set_playerSpawningFinished(bool value);
 
 protected:
@@ -582,7 +582,7 @@ public:
   MultiplayerPlayersManager(MultiplayerPlayersManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4602 };
 
   /// @brief Field _activeLocalPlayerControllerPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> ____activeLocalPlayerControllerPrefab;

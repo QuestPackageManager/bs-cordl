@@ -52,54 +52,54 @@ public:
   /// @brief Field _root, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__root, put = __cordl_internal_set__root)) ::System::Object* _root;
 
-  /// @brief Method Add, addr 0x3dbc830, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3dbfa94, size 0xe4, virtual true, abstract: false, final false
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear, addr 0x3dbc914, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3dbfb78, size 0xd4, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clone, addr 0x3dbc9e8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3dbfc4c, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Contains, addr 0x3dbcacc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x3dbfd30, size 0xec, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method ContainsKey, addr 0x3dbcbb8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ContainsKey, addr 0x3dbfe1c, size 0xec, virtual true, abstract: false, final false
   inline bool ContainsKey(::System::Object* key);
 
-  /// @brief Method ContainsValue, addr 0x3dbcca4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ContainsValue, addr 0x3dbff08, size 0xec, virtual true, abstract: false, final false
   inline bool ContainsValue(::System::Object* key);
 
-  /// @brief Method CopyTo, addr 0x3dbcd90, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dbfff4, size 0xe4, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetByIndex, addr 0x3dbce74, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetByIndex, addr 0x3dc00d8, size 0xec, virtual true, abstract: false, final false
   inline ::System::Object* GetByIndex(int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x3dbcf60, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3dc01c4, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetKey, addr 0x3dbd044, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetKey, addr 0x3dc02a8, size 0xec, virtual true, abstract: false, final false
   inline ::System::Object* GetKey(int32_t index);
 
-  /// @brief Method GetKeyList, addr 0x3dbd130, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetKeyList, addr 0x3dc0394, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Collections::IList* GetKeyList();
 
-  /// @brief Method GetValueList, addr 0x3dbd214, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetValueList, addr 0x3dc0478, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Collections::IList* GetValueList();
 
-  /// @brief Method IndexOfKey, addr 0x3dbd2f8, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method IndexOfKey, addr 0x3dc055c, size 0x14c, virtual true, abstract: false, final false
   inline int32_t IndexOfKey(::System::Object* key);
 
-  /// @brief Method IndexOfValue, addr 0x3dbd444, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method IndexOfValue, addr 0x3dc06a8, size 0xec, virtual true, abstract: false, final false
   inline int32_t IndexOfValue(::System::Object* value);
 
   static inline ::GlobalNamespace::SortedList_SyncSortedList* New_ctor(::System::Collections::SortedList* list);
 
-  /// @brief Method Remove, addr 0x3dbd60c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x3dc0870, size 0xdc, virtual true, abstract: false, final false
   inline void Remove(::System::Object* key);
 
-  /// @brief Method RemoveAt, addr 0x3dbd530, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x3dc0794, size 0xdc, virtual true, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
   constexpr ::System::Collections::SortedList* const& __cordl_internal_get__list() const;
@@ -114,28 +114,28 @@ public:
 
   constexpr void __cordl_internal_set__root(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3dbc4d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dbf738, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::SortedList* list);
 
-  /// @brief Method get_Count, addr 0x3dbc524, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dbf788, size 0xe4, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x3dbc634, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x3dbf898, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x3dbc610, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x3dbf874, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x3dbc658, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3dbf8bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x3dbc660, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3dbf8c4, size 0xec, virtual true, abstract: false, final false
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method get_SyncRoot, addr 0x3dbc608, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3dbf86c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method set_Item, addr 0x3dbc74c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3dbf9b0, size 0xe4, virtual true, abstract: false, final false
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
 protected:

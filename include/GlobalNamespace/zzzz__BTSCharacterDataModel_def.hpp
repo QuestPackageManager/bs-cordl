@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method .ctor, addr 0x225ff64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2260d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x225ff54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2260d30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_prefabAssetReference, addr 0x225ff5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabAssetReference, addr 0x2260d38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
 
 protected:
@@ -85,7 +85,7 @@ public:
   BTSCharacterDataModel_PrefabWithId(BTSCharacterDataModel_PrefabWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17668 };
 
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
@@ -135,13 +135,13 @@ public:
 
   constexpr void __cordl_internal_set__id(int32_t value);
 
-  /// @brief Method .ctor, addr 0x225ff7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2260d58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipAssetReference, addr 0x225ff74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipAssetReference, addr 0x2260d50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
 
-  /// @brief Method get_id, addr 0x225ff6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2260d48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
 protected:
@@ -159,7 +159,7 @@ public:
   BTSCharacterDataModel_AnimationClipWithId(BTSCharacterDataModel_AnimationClipWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17669 };
 
   /// @brief Field _id, offset: 0x10, size: 0x4, def value: None
   int32_t ____id;
@@ -222,13 +222,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabsWithIds(::ArrayW<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*, ::Array<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>*> value);
 
-  /// @brief Method .ctor, addr 0x225ff4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2260d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipsWithIds, addr 0x225ff44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipsWithIds, addr 0x2260d20, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*, ::Array<::GlobalNamespace::BTSCharacterDataModel_AnimationClipWithId*>*> get_animationClipsWithIds();
 
-  /// @brief Method get_prefabsWithIds, addr 0x225ff3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabsWithIds, addr 0x2260d18, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*, ::Array<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>*> get_prefabsWithIds();
 
 protected:
@@ -246,7 +246,7 @@ public:
   BTSCharacterDataModel(BTSCharacterDataModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17670 };
 
   /// @brief Field _prefabsWithIds, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*, ::Array<::GlobalNamespace::BTSCharacterDataModel_PrefabWithId*>*> ____prefabsWithIds;

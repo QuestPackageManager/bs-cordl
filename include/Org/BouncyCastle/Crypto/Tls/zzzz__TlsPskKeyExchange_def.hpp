@@ -122,16 +122,16 @@ public:
   /// @brief Field mServerPublicKey, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
 
-  /// @brief Method GenerateClientKeyExchange, addr 0x2432ca0, size 0x478, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientKeyExchange, addr 0x2433cbc, size 0x478, virtual true, abstract: false, final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method GenerateOtherSecret, addr 0x24339a8, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GenerateOtherSecret, addr 0x24349c4, size 0x13c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateOtherSecret(int32_t pskLength);
 
-  /// @brief Method GeneratePremasterSecret, addr 0x2433874, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method GeneratePremasterSecret, addr 0x2434890, size 0x134, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
 
-  /// @brief Method GenerateServerKeyExchange, addr 0x24323e8, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method GenerateServerKeyExchange, addr 0x2433404, size 0x338, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsPskKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
@@ -147,28 +147,28 @@ public:
                                                                               ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters, ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves,
                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> clientECPointFormats, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverECPointFormats);
 
-  /// @brief Method ProcessClientCredentials, addr 0x2432c68, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCredentials, addr 0x2433c84, size 0x38, virtual true, abstract: false, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x2433504, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientKeyExchange, addr 0x2434520, size 0x370, virtual true, abstract: false, final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method ProcessServerCertificate, addr 0x24327a8, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCertificate, addr 0x24337c4, size 0x254, virtual true, abstract: false, final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method ProcessServerCredentials, addr 0x2432288, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCredentials, addr 0x24332a4, size 0x160, virtual true, abstract: false, final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method ProcessServerKeyExchange, addr 0x2432a1c, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerKeyExchange, addr 0x2433a38, size 0x188, virtual true, abstract: false, final false
   inline void ProcessServerKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method SkipServerCredentials, addr 0x243223c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method SkipServerCredentials, addr 0x2433258, size 0x4c, virtual true, abstract: false, final false
   inline void SkipServerCredentials();
 
-  /// @brief Method ValidateCertificateRequest, addr 0x2432c30, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificateRequest, addr 0x2433c4c, size 0x38, virtual true, abstract: false, final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method ValidateRsaPublicKey, addr 0x2433ae4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ValidateRsaPublicKey, addr 0x2434b00, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ValidateRsaPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mClientECPointFormats() const;
@@ -273,18 +273,18 @@ public:
 
   constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x24320b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24330cc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity,
                     ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters,
                     ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientECPointFormats, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverECPointFormats);
 
-  /// @brief Method .ctor, addr 0x2432174, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2433190, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity,
                     ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                     ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters, ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientECPointFormats,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> serverECPointFormats);
 
-  /// @brief Method get_RequiresServerKeyExchange, addr 0x24329fc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresServerKeyExchange, addr 0x2433a18, size 0x20, virtual true, abstract: false, final false
   inline bool get_RequiresServerKeyExchange();
 
 protected:

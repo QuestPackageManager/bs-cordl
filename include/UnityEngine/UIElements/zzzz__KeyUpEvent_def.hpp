@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::KeyUpEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a28cc4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2bf28, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::KeyUpEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a28cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2bf20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::KeyUpEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   KeyUpEvent___c(KeyUpEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::KeyUpEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a28c18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2be7c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   KeyUpEvent(KeyUpEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

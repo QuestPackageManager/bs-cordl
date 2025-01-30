@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__activityId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e7198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e9670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activityId, addr 0x26e7190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activityId, addr 0x26e9668, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_activityId();
 
 protected:
@@ -53,7 +53,7 @@ public:
   ProgressActivitySubtaskSO(ProgressActivitySubtaskSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13164 };
 
   /// @brief Field _activityId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____activityId;

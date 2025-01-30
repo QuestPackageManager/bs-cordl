@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::MainEffectCore* New_ctor();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x4081054, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderValues, addr 0x40842b8, size 0x88, virtual false, abstract: false, final false
   static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
 
-  /// @brief Method .ctor, addr 0x4081a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4084c9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__baseColorBoostID();
@@ -57,7 +57,7 @@ public:
   MainEffectCore(MainEffectCore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

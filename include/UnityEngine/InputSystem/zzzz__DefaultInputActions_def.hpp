@@ -98,34 +98,34 @@ public:
 
   __declspec(property(get = get_enabled)) bool enabled;
 
-  /// @brief Method Disable, addr 0x45d63b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x45d9618, size 0x24, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x45d6390, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x45d95f4, size 0x24, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Get, addr 0x45d6374, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x45d95d8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionMap* Get();
 
-  /// @brief Method SetCallbacks, addr 0x45d6414, size 0xacc, virtual false, abstract: false, final false
+  /// @brief Method SetCallbacks, addr 0x45d9678, size 0xacc, virtual false, abstract: false, final false
   inline void SetCallbacks(::UnityEngine::InputSystem::DefaultInputActions_IPlayerActions* instance);
 
-  /// @brief Method .ctor, addr 0x45d6318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45d957c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::DefaultInputActions* wrapper);
 
-  /// @brief Method get_Fire, addr 0x45d6358, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Fire, addr 0x45d95bc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Fire();
 
-  /// @brief Method get_Look, addr 0x45d633c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Look, addr 0x45d95a0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Look();
 
-  /// @brief Method get_Move, addr 0x45d6320, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Move, addr 0x45d9584, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Move();
 
-  /// @brief Method get_enabled, addr 0x45d63d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x45d963c, size 0x24, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method op_Implicit, addr 0x45d63fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x45d9660, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionMap* op_Implicit___UnityEngine__InputSystem__InputActionMap_(::UnityEngine::InputSystem::DefaultInputActions_PlayerActions set);
 
   // Ctor Parameters []
@@ -136,7 +136,7 @@ public:
   constexpr DefaultInputActions_PlayerActions(::UnityEngine::InputSystem::DefaultInputActions* m_Wrapper) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -181,55 +181,55 @@ public:
 
   __declspec(property(get = get_enabled)) bool enabled;
 
-  /// @brief Method Disable, addr 0x45d7040, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x45da2a4, size 0x24, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x45d701c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x45da280, size 0x24, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Get, addr 0x45d7000, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x45da264, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionMap* Get();
 
-  /// @brief Method SetCallbacks, addr 0x45d70a0, size 0x2314, virtual false, abstract: false, final false
+  /// @brief Method SetCallbacks, addr 0x45da304, size 0x2314, virtual false, abstract: false, final false
   inline void SetCallbacks(::UnityEngine::InputSystem::DefaultInputActions_IUIActions* instance);
 
-  /// @brief Method .ctor, addr 0x45d6ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45da144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::DefaultInputActions* wrapper);
 
-  /// @brief Method get_Cancel, addr 0x45d6f20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Cancel, addr 0x45da184, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Cancel();
 
-  /// @brief Method get_Click, addr 0x45d6f58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Click, addr 0x45da1bc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Click();
 
-  /// @brief Method get_MiddleClick, addr 0x45d6f90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_MiddleClick, addr 0x45da1f4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_MiddleClick();
 
-  /// @brief Method get_Navigate, addr 0x45d6ee8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Navigate, addr 0x45da14c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Navigate();
 
-  /// @brief Method get_Point, addr 0x45d6f3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Point, addr 0x45da1a0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Point();
 
-  /// @brief Method get_RightClick, addr 0x45d6fac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_RightClick, addr 0x45da210, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_RightClick();
 
-  /// @brief Method get_ScrollWheel, addr 0x45d6f74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ScrollWheel, addr 0x45da1d8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_ScrollWheel();
 
-  /// @brief Method get_Submit, addr 0x45d6f04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Submit, addr 0x45da168, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Submit();
 
-  /// @brief Method get_TrackedDeviceOrientation, addr 0x45d6fe4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_TrackedDeviceOrientation, addr 0x45da248, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_TrackedDeviceOrientation();
 
-  /// @brief Method get_TrackedDevicePosition, addr 0x45d6fc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_TrackedDevicePosition, addr 0x45da22c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_TrackedDevicePosition();
 
-  /// @brief Method get_enabled, addr 0x45d7064, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x45da2c8, size 0x24, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method op_Implicit, addr 0x45d7088, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x45da2ec, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionMap* op_Implicit___UnityEngine__InputSystem__InputActionMap_(::UnityEngine::InputSystem::DefaultInputActions_UIActions set);
 
   // Ctor Parameters []
@@ -240,7 +240,7 @@ public:
   constexpr DefaultInputActions_UIActions(::UnityEngine::InputSystem::DefaultInputActions* m_Wrapper) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6712 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -277,7 +277,7 @@ public:
   DefaultInputActions_IPlayerActions(DefaultInputActions_IPlayerActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -325,7 +325,7 @@ public:
   DefaultInputActions_IUIActions(DefaultInputActions_IUIActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -460,30 +460,30 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection2"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection2*() noexcept;
 
-  /// @brief Method Contains, addr 0x45d5e2c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x45d9090, size 0x1c, virtual true, abstract: false, final true
   inline bool Contains(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method Disable, addr 0x45d5e9c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Disable, addr 0x45d9100, size 0x1c, virtual true, abstract: false, final true
   inline void Disable();
 
-  /// @brief Method Dispose, addr 0x45d5cb4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x45d8f18, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Enable, addr 0x45d5e80, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Enable, addr 0x45d90e4, size 0x1c, virtual true, abstract: false, final true
   inline void Enable();
 
-  /// @brief Method FindAction, addr 0x45d5ed4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method FindAction, addr 0x45d9138, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);
 
-  /// @brief Method FindBinding, addr 0x45d5ef4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method FindBinding, addr 0x45d9158, size 0x5c, virtual true, abstract: false, final true
   inline int32_t FindBinding(::UnityEngine::InputSystem::InputBinding bindingMask, ::ByRef<::UnityEngine::InputSystem::InputAction*> action);
 
-  /// @brief Method GetEnumerator, addr 0x45d5e48, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x45d90ac, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>* GetEnumerator();
 
   static inline ::UnityEngine::InputSystem::DefaultInputActions* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x45d5e64, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x45d90c8, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& __cordl_internal_get__asset_k__BackingField() const;
@@ -624,43 +624,43 @@ public:
 
   constexpr void __cordl_internal_set_m_XRSchemeIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x45d5954, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45d8bb8, size 0x360, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GamepadScheme, addr 0x45d6018, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_GamepadScheme, addr 0x45d927c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme get_GamepadScheme();
 
-  /// @brief Method get_JoystickScheme, addr 0x45d6198, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_JoystickScheme, addr 0x45d93fc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme get_JoystickScheme();
 
-  /// @brief Method get_KeyboardMouseScheme, addr 0x45d5f58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_KeyboardMouseScheme, addr 0x45d91bc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme get_KeyboardMouseScheme();
 
-  /// @brief Method get_Player, addr 0x45d5f50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Player, addr 0x45d91b4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::DefaultInputActions_PlayerActions get_Player();
 
-  /// @brief Method get_TouchScheme, addr 0x45d60d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_TouchScheme, addr 0x45d933c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme get_TouchScheme();
 
-  /// @brief Method get_UI, addr 0x45d5f54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_UI, addr 0x45d91b8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::DefaultInputActions_UIActions get_UI();
 
-  /// @brief Method get_XRScheme, addr 0x45d6258, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_XRScheme, addr 0x45d94bc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme get_XRScheme();
 
-  /// @brief Method get_asset, addr 0x45d594c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x45d8bb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_asset();
 
-  /// @brief Method get_bindingMask, addr 0x45d5d10, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_bindingMask, addr 0x45d8f74, size 0x28, virtual true, abstract: false, final true
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
 
-  /// @brief Method get_bindings, addr 0x45d5eb8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_bindings, addr 0x45d911c, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* get_bindings();
 
-  /// @brief Method get_controlSchemes, addr 0x45d5e10, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_controlSchemes, addr 0x45d9074, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> get_controlSchemes();
 
-  /// @brief Method get_devices, addr 0x45d5d84, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_devices, addr 0x45d8fe8, size 0x40, virtual true, abstract: false, final true
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> get_devices();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
@@ -679,10 +679,10 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection2"
   constexpr ::UnityEngine::InputSystem::IInputActionCollection2* i___UnityEngine__InputSystem__IInputActionCollection2() noexcept;
 
-  /// @brief Method set_bindingMask, addr 0x45d5d38, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method set_bindingMask, addr 0x45d8f9c, size 0x4c, virtual true, abstract: false, final true
   inline void set_bindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> value);
 
-  /// @brief Method set_devices, addr 0x45d5dc4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method set_devices, addr 0x45d9028, size 0x4c, virtual true, abstract: false, final true
   inline void set_devices(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> value);
 
 protected:
@@ -700,7 +700,7 @@ public:
   DefaultInputActions(DefaultInputActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6715 };
 
   /// @brief Field <asset>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ____asset_k__BackingField;

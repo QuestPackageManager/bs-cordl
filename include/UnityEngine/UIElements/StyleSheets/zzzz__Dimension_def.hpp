@@ -101,7 +101,7 @@ public:
   static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Unitless;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6448 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -129,34 +129,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*();
 
-  /// @brief Method Equals, addr 0x49d32f0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x49d6554, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49d32c8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49d652c, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::Dimension other);
 
-  /// @brief Method GetHashCode, addr 0x49d337c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x49d65e0, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToAngle, addr 0x49d3214, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ToAngle, addr 0x49d6478, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle ToAngle();
 
-  /// @brief Method ToLength, addr 0x49ce498, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x49d16fc, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length ToLength();
 
-  /// @brief Method ToString, addr 0x49d33c4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x49d6628, size 0x134, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToTime, addr 0x49d31e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToTime, addr 0x49d6448, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeValue ToTime();
 
-  /// @brief Method .ctor, addr 0x49d31d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d643c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>* i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__Dimension_();
 
-  /// @brief Method op_Equality, addr 0x49d32a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x49d6504, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleSheets::Dimension lhs, ::UnityEngine::UIElements::StyleSheets::Dimension rhs);
 
   // Ctor Parameters []
@@ -168,7 +168,7 @@ public:
   constexpr Dimension(::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit, float_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6449 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Data::InvalidConstraintException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x413ca78, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413fcdc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x413ca70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413fcd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x413cad4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413fd38, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -55,7 +55,7 @@ public:
   InvalidConstraintException(InvalidConstraintException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

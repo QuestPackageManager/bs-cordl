@@ -53,10 +53,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IVisualTreeUpdater"
   constexpr operator ::UnityEngine::UIElements::IVisualTreeUpdater*() noexcept;
 
-  /// @brief Method Dispose, addr 0x49a2d78, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49a5fdc, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a2de4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49a6048, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::BaseVisualTreeUpdater* New_ctor();
@@ -79,19 +79,19 @@ public:
 
   constexpr void __cordl_internal_set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method .ctor, addr 0x499f4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a2708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_panelChanged, addr 0x49a2bf8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_panelChanged, addr 0x49a5e5c, size 0xb0, virtual false, abstract: false, final false
   inline void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method get_panel, addr 0x499f3d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panel, addr 0x49a2634, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
   /// @brief Method get_profilerMarker, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_visualTree, addr 0x49a09dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_visualTree, addr 0x49a3c40, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
   /// @brief Convert to "::System::IDisposable"
@@ -100,10 +100,10 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IVisualTreeUpdater"
   constexpr ::UnityEngine::UIElements::IVisualTreeUpdater* i___UnityEngine__UIElements__IVisualTreeUpdater() noexcept;
 
-  /// @brief Method remove_panelChanged, addr 0x49a2ca8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_panelChanged, addr 0x49a5f0c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method set_panel, addr 0x49a2d58, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method set_panel, addr 0x49a5fbc, size 0x20, virtual true, abstract: false, final true
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
 protected:
@@ -121,7 +121,7 @@ public:
   BaseVisualTreeUpdater(BaseVisualTreeUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6347 };
 
   /// @brief Field panelChanged, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* ___panelChanged;

@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_ENUMERATION* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a3ed8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a713c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TokenizedType, addr 0x43af694, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x43b28f8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
 protected:
@@ -46,7 +46,7 @@ public:
   Datatype_ENUMERATION(Datatype_ENUMERATION const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7580 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

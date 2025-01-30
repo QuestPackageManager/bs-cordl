@@ -41,19 +41,19 @@ public:
   __declspec(property(get = getStaticF_s_paramInfoCache, put = setStaticF_s_paramInfoCache)) ::System::Dynamic::Utils::CacheDict_2<
       ::System::Reflection::MethodBase*, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>>* s_paramInfoCache;
 
-  /// @brief Method GetAnyStaticMethodValidated, addr 0x4102704, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetAnyStaticMethodValidated, addr 0x4105968, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetAnyStaticMethodValidated(::System::Type* type, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types);
 
-  /// @brief Method GetParametersCached, addr 0x4101e38, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetParametersCached, addr 0x410509c, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersCached(::System::Reflection::MethodBase* method);
 
-  /// @brief Method GetReturnType, addr 0x41028f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetReturnType, addr 0x4105b54, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Type* GetReturnType(::System::Reflection::MethodBase* mi);
 
-  /// @brief Method GetTypeCode, addr 0x4102994, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetTypeCode, addr 0x4105bf8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TypeCode GetTypeCode(::System::Type* type);
 
-  /// @brief Method MatchesArgumentTypes, addr 0x41027a8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method MatchesArgumentTypes, addr 0x4105a0c, size 0x148, virtual false, abstract: false, final false
   static inline bool MatchesArgumentTypes(::System::Reflection::MethodInfo* mi, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes);
 
   static inline ::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>>*
@@ -77,7 +77,7 @@ public:
   TypeExtensions(TypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

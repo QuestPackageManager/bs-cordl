@@ -21,13 +21,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureMouse, addr 0x4a3f524, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x4a42788, size 0xd8, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method HasMouseCapture, addr 0x4a3dcd0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x4a40f34, size 0xac, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method ReleaseMouse, addr 0x4a3f6f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMouse, addr 0x4a4295c, size 0xd8, virtual false, abstract: false, final false
   static inline void ReleaseMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
 protected:
@@ -45,7 +45,7 @@ public:
   MouseCaptureController(MouseCaptureController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

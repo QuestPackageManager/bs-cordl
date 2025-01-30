@@ -38,19 +38,19 @@ public:
 
   constexpr void __cordl_internal_set_bits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23bec0c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bfc28, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x23bec4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bfc68, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t bits);
 
-  /// @brief Method .ctor, addr 0x23bec74, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bfc90, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor, addr 0x23beca8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bfcc4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen, int32_t bits);
 
-  /// @brief Method get_EffectiveKeyBits, addr 0x23becd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EffectiveKeyBits, addr 0x23bfcec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EffectiveKeyBits();
 
 protected:

@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__WrapNonExceptionThrows_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3d17544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1a7a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_WrapNonExceptionThrows, addr 0x3d1754c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WrapNonExceptionThrows, addr 0x3d1a7b0, size 0xc, virtual false, abstract: false, final false
   inline void set_WrapNonExceptionThrows(bool value);
 
 protected:

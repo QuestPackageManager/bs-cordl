@@ -37,16 +37,16 @@ public:
 
   static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x4446420, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4449684, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4446434, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4449698, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW argumentName, int32_t invalidValue, ::System::Type* enumClass);
 
-  /// @brief Method .ctor, addr 0x4446518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444977c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x444642c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4449690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -64,7 +64,7 @@ public:
   InvalidEnumArgumentException(InvalidEnumArgumentException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9353 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

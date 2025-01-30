@@ -61,10 +61,10 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26fb3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fd8ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_v, addr 0x26fb168, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_v, addr 0x26fd654, size 0x30, virtual false, abstract: false, final false
   inline ::StringW get_v();
 
 protected:
@@ -82,7 +82,7 @@ public:
   BeatmapSaveDataHelpers_VersionSerializedData(BeatmapSaveDataHelpers_VersionSerializedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13267 };
 
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::StringW ____version;
@@ -112,7 +112,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapSaveDataHelpers___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetVersionAsync>b__0, addr 0x26fb3c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetVersionAsync>b__0, addr 0x26fd8b4, size 0x58, virtual false, abstract: false, final false
   inline ::System::Version* _GetVersionAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_data() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26fb284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fd770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,7 +139,7 @@ public:
   BeatmapSaveDataHelpers___c__DisplayClass6_0(BeatmapSaveDataHelpers___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13268 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::StringW ___data;
@@ -175,10 +175,10 @@ public:
   /// @brief Field version4, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_version4, put = setStaticF_version4)) ::System::Version* version4;
 
-  /// @brief Method GetVersion, addr 0x26fad70, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x26fd25c, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Version* GetVersion(::StringW data);
 
-  /// @brief Method GetVersionAsync, addr 0x26fb198, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetVersionAsync, addr 0x26fd684, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::Version*>* GetVersionAsync(::StringW data);
 
   static inline ::System::Version* getStaticF_noVersion();
@@ -212,7 +212,7 @@ public:
   BeatmapSaveDataHelpers(BeatmapSaveDataHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

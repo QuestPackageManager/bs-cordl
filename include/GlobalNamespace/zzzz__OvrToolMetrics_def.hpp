@@ -36,21 +36,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CaptureFrame, addr 0x3b1cb7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x3b20b7c, size 0x54, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method Dispose, addr 0x3b1cb78, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3b20b78, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateListReport, addr 0x3b1cbd0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GenerateListReport, addr 0x3b20bd0, size 0x18c, virtual false, abstract: false, final false
   inline ::StringW GenerateListReport();
 
-  /// @brief Method GenerateTableReport, addr 0x3b1cd5c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x3b20d5c, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW GenerateTableReport();
 
   static inline ::GlobalNamespace::OvrToolMetrics* New_ctor();
 
-  /// @brief Method RecordMetrics, addr 0x3b1cb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RecordMetrics, addr 0x3b20b70, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OvrToolMetrics* RecordMetrics(int32_t initialFrameCapacity);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__metrics() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b1cf28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b20f28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -92,7 +92,7 @@ public:
   OvrToolMetrics(OvrToolMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5111 };
 
   /// @brief Field _metrics, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____metrics;

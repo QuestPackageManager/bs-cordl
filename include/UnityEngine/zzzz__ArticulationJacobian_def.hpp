@@ -31,31 +31,31 @@ public:
 
   __declspec(property(get = get_rows, put = set_rows)) int32_t rows;
 
-  /// @brief Method .ctor, addr 0x48f3ccc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f6f30, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(int32_t rows, int32_t cols);
 
-  /// @brief Method get_Item, addr 0x48f3de4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48f7048, size 0xb8, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t row, int32_t col);
 
-  /// @brief Method get_columns, addr 0x48f3f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columns, addr 0x48f71d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columns();
 
-  /// @brief Method get_elements, addr 0x48f3f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elements, addr 0x48f71e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<float_t>* get_elements();
 
-  /// @brief Method get_rows, addr 0x48f3f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rows, addr 0x48f71c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rows();
 
-  /// @brief Method set_Item, addr 0x48f3e9c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x48f7100, size 0xc8, virtual false, abstract: false, final false
   inline void set_Item(int32_t row, int32_t col, float_t value);
 
-  /// @brief Method set_columns, addr 0x48f3f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columns, addr 0x48f71e0, size 0x8, virtual false, abstract: false, final false
   inline void set_columns(int32_t value);
 
-  /// @brief Method set_elements, addr 0x48f3f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elements, addr 0x48f71f0, size 0x8, virtual false, abstract: false, final false
   inline void set_elements(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method set_rows, addr 0x48f3f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rows, addr 0x48f71d0, size 0x8, virtual false, abstract: false, final false
   inline void set_rows(int32_t value);
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
   constexpr ArticulationJacobian(int32_t rowsCount, int32_t colsCount, ::System::Collections::Generic::List_1<float_t>* matrixData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

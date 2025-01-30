@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_choice(::System::Xml::Schema::XmlSchemaChoice* value);
 
-  /// @brief Method .ctor, addr 0x42c888c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42cbaf0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Choice, addr 0x42c8884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Choice, addr 0x42cbae8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaChoice* get_Choice();
 
 protected:
@@ -55,7 +55,7 @@ public:
   XmlSchemaSubstitutionGroupV1Compat(XmlSchemaSubstitutionGroupV1Compat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7728 };
 
   /// @brief Field choice, offset: 0x48, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaChoice* ___choice;

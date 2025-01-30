@@ -88,7 +88,7 @@ public:
   /// @brief Field verifyDataLength, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_verifyDataLength, put = __cordl_internal_set_verifyDataLength)) int32_t verifyDataLength;
 
-  /// @brief Method Clear, addr 0x2417fc8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x2418fe4, size 0x6c, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* New_ctor();
@@ -183,43 +183,43 @@ public:
 
   constexpr void __cordl_internal_set_verifyDataLength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2418094, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24190b0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CipherSuite, addr 0x241803c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CipherSuite, addr 0x2419058, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_CipherSuite();
 
-  /// @brief Method get_ClientRandom, addr 0x2418064, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ClientRandom, addr 0x2419080, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ClientRandom();
 
-  /// @brief Method get_CompressionAlgorithm, addr 0x2418044, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithm, addr 0x2419060, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_CompressionAlgorithm();
 
-  /// @brief Method get_Entity, addr 0x2418034, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Entity, addr 0x2419050, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Entity();
 
-  /// @brief Method get_IsExtendedMasterSecret, addr 0x241808c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsExtendedMasterSecret, addr 0x24190a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsExtendedMasterSecret();
 
-  /// @brief Method get_MasterSecret, addr 0x241805c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MasterSecret, addr 0x2419078, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MasterSecret();
 
-  /// @brief Method get_PrfAlgorithm, addr 0x241804c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PrfAlgorithm, addr 0x2419068, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_PrfAlgorithm();
 
-  /// @brief Method get_PskIdentity, addr 0x241807c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PskIdentity, addr 0x2419098, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PskIdentity();
 
-  /// @brief Method get_ServerRandom, addr 0x241806c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ServerRandom, addr 0x2419088, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ServerRandom();
 
-  /// @brief Method get_SessionHash, addr 0x2418074, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SessionHash, addr 0x2419090, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SessionHash();
 
-  /// @brief Method get_SrpIdentity, addr 0x2418084, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SrpIdentity, addr 0x24190a0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SrpIdentity();
 
-  /// @brief Method get_VerifyDataLength, addr 0x2418054, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_VerifyDataLength, addr 0x2419070, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_VerifyDataLength();
 
 protected:

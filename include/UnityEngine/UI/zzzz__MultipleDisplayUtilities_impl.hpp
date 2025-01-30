@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::EventSystems::PointerEventData*, ::ByRef<::UnityEngine::Vector2>)>(
     &::UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4abe61c;
+  constexpr static std::size_t addrs = 0x4ac1880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForRaycast)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4abeaf4;
+  constexpr static std::size_t addrs = 0x4ac1d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::MultipleDisplayUtilities::RelativeMouseAtScaled)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x4abe688;
+  constexpr static std::size_t addrs = 0x4ac18ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

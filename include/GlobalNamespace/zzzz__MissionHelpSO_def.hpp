@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__missionHelpId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d41b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d5408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_missionHelpId, addr 0x26d41ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionHelpId, addr 0x26d5400, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionHelpId();
 
 protected:
@@ -53,7 +53,7 @@ public:
   MissionHelpSO(MissionHelpSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13044 };
 
   /// @brief Field _missionHelpId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____missionHelpId;

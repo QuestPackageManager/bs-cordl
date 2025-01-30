@@ -52,34 +52,34 @@ public:
   /// @brief Field parameters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_parameters, put = setStaticF_parameters)) ::System::Collections::IDictionary* parameters;
 
-  /// @brief Method ConfigureBasepoint, addr 0x23153e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0x23163fc, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::BigInteger* x,
                                                                            ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method ConfigureCurve, addr 0x2315478, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x2316494, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method GetByName, addr 0x23176ac, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x23186c8, size 0x1ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByNameX9, addr 0x2317898, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetByNameX9, addr 0x23188b4, size 0x144, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByNameX9(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x23172c4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x23182e0, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetByOidX9, addr 0x23173e0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetByOidX9, addr 0x23183fc, size 0x1c4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOidX9(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x23179dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x23189f8, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x2317adc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x2318af8, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231547c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2316498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_names();
@@ -88,7 +88,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_parameters();
 
-  /// @brief Method get_Names, addr 0x23175a4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x23185c0, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_names(::System::Collections::IDictionary* value);

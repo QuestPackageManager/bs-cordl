@@ -40,30 +40,30 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE CollectionUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddRange, addr 0x25cf000, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x25d001c, size 0x35c, virtual false, abstract: false, final false
   static inline void AddRange(::System::Collections::IList* to, ::System::Collections::IEnumerable* range);
 
-  /// @brief Method CheckElementsAreOfType, addr 0x25cf35c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method CheckElementsAreOfType, addr 0x25d0378, size 0x308, virtual false, abstract: false, final false
   static inline bool CheckElementsAreOfType(::System::Collections::IEnumerable* e, ::System::Type* t);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::CollectionUtilities* New_ctor();
 
-  /// @brief Method ReadOnly, addr 0x25cdf94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x25cefb0, size 0x5c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* ReadOnly(::Org::BouncyCastle::Utilities::Collections::ISet* s);
 
-  /// @brief Method ReadOnly, addr 0x25cf664, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x25d0680, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* ReadOnly(::System::Collections::IDictionary* d);
 
-  /// @brief Method ReadOnly, addr 0x25cdff0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x25cf00c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadOnly(::System::Collections::IList* l);
 
-  /// @brief Method RequireNext, addr 0x25cf738, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RequireNext, addr 0x25d0754, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Object* RequireNext(::System::Collections::IEnumerator* e);
 
-  /// @brief Method ToString, addr 0x25cf868, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x25d0884, size 0x314, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Collections::IEnumerable* c);
 
-  /// @brief Method .ctor, addr 0x25cfb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

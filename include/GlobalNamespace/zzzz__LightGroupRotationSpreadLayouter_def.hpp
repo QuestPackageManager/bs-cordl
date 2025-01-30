@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__startFromCenter(bool value);
 
-  /// @brief Method .ctor, addr 0x3b8d51c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b935ac, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   LightGroupRotationSpreadLayouter(LightGroupRotationSpreadLayouter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4298 };
 
   /// @brief Field _rotationStep, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rotationStep;

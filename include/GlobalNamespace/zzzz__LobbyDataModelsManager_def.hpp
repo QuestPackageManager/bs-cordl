@@ -51,10 +51,10 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  /// @brief Method Activate, addr 0x26d9f7c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x26db1d0, size 0x214, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x26da284, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x26db4d8, size 0x1a0, virtual false, abstract: false, final false
   inline void Deactivate();
 
   static inline ::GlobalNamespace::LobbyDataModelsManager* New_ctor();
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x26da518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26db76c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   LobbyDataModelsManager(LobbyDataModelsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13101 };
 
   /// @brief Field _lobbyStateDataModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;

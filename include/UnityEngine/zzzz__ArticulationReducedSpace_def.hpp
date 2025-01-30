@@ -36,7 +36,7 @@ public:
   constexpr ArticulationReducedSpace__x_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -67,19 +67,19 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) float_t Item[];
 
-  /// @brief Method .ctor, addr 0x48f3c98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f6efc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a);
 
-  /// @brief Method .ctor, addr 0x48f3ca8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f6f0c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b);
 
-  /// @brief Method .ctor, addr 0x48f3cb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f6f1c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b, float_t c);
 
-  /// @brief Method get_Item, addr 0x48f3bf0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48f6e54, size 0x54, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t i);
 
-  /// @brief Method set_Item, addr 0x48f3c44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x48f6ea8, size 0x54, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, float_t value);
 
   // Ctor Parameters []
@@ -91,7 +91,7 @@ public:
   constexpr ArticulationReducedSpace(::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer x, int32_t dofCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15735 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

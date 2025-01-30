@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__levelDirPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b389d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3c9d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelDirPath, ::StringW levelAssetPath);
 
-  /// @brief Method get_levelAssetPath, addr 0x3b389d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAssetPath, addr 0x3b3c9d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAssetPath();
 
-  /// @brief Method get_levelDirPath, addr 0x3b389c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelDirPath, addr 0x3b3c9c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelDirPath();
 
 protected:
@@ -67,7 +67,7 @@ public:
   BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5236 };
 
   /// @brief Field _levelDirPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelDirPath;

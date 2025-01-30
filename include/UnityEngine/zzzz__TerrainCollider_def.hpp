@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(put = set_terrainData)) ::UnityW<::UnityEngine::TerrainData> terrainData;
 
-  /// @brief Method set_terrainData, addr 0x491e49c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_terrainData, addr 0x4921700, size 0x44, virtual false, abstract: false, final false
   inline void set_terrainData(::UnityEngine::TerrainData* value);
 
 protected:
@@ -41,7 +41,7 @@ public:
   TerrainCollider(TerrainCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

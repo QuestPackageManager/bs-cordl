@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagAttribute::*)()>(
     &::Unity::Properties::Internal::ReflectedPropertyBagAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4915460;
+  constexpr static std::size_t addrs = 0x49186c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

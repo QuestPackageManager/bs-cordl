@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ObjectiveListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b04968, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b089b4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   ObjectiveListItemsList(ObjectiveListItemsList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

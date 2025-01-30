@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x39e59cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e7e58, size 0x58, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightWithId* New_ctor();
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x39e5a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x39e59ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e7e38, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -79,7 +79,7 @@ public:
   TubeBloomPrePassLightWithId(TubeBloomPrePassLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16342 };
 
   /// @brief Field _tubeBloomPrePassLight, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;

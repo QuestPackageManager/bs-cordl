@@ -38,10 +38,10 @@ public:
   /// @brief Field _typeId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__typeId, put = __cordl_internal_set__typeId)) ::StringW _typeId;
 
-  /// @brief Method Equals, addr 0x4450cc8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4453f2c, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4450d6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4453fd0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::EditorAttribute* New_ctor(::StringW typeName, ::StringW baseTypeName);
@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set__typeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4450b9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4453e00, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW baseTypeName);
 
-  /// @brief Method get_EditorBaseTypeName, addr 0x4450c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditorBaseTypeName, addr 0x4453e90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorBaseTypeName();
 
-  /// @brief Method get_EditorTypeName, addr 0x4450c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditorTypeName, addr 0x4453e98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorTypeName();
 
-  /// @brief Method get_TypeId, addr 0x4450c3c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x4453ea0, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
 protected:
@@ -91,7 +91,7 @@ public:
   EditorAttribute(EditorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9382 };
 
   /// @brief Field _typeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____typeId;

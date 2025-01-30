@@ -41,10 +41,10 @@ public:
 
   static inline ::GlobalNamespace::RollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method Reset, addr 0x22e264c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x22e3668, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x22e252c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22e3548, size 0x120, virtual false, abstract: false, final false
   inline void Update(float_t value);
 
   constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__buffer() const;
@@ -77,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22e24c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e34e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method get_currentAverage, addr 0x22e24ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAverage, addr 0x22e34c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentAverage();
 
-  /// @brief Method get_hasValue, addr 0x22e24b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasValue, addr 0x22e34d0, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasValue();
 
 protected:
@@ -101,7 +101,7 @@ public:
   RollingAverage(RollingAverage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14949 };
 
   /// @brief Field kGranularity offset 0xffffffff size 0x8
   static constexpr int64_t kGranularity{ static_cast<int64_t>(0x3e8) };

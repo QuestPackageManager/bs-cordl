@@ -34,23 +34,32 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field prevObstacleDataInLines, offset 0x10, size 0x8
+  /// @brief Field beatmapData, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapData, put = __cordl_internal_set_beatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
+
+  /// @brief Field prevObstacleDataInLines, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_prevObstacleDataInLines,
                       put = __cordl_internal_set_prevObstacleDataInLines)) ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*>
       prevObstacleDataInLines;
 
   static inline ::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x26aab84, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x26abd3c, size 0x260, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
+
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get_beatmapData() const;
+
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get_beatmapData();
 
   constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> const& __cordl_internal_get_prevObstacleDataInLines() const;
 
   constexpr ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*>& __cordl_internal_get_prevObstacleDataInLines();
 
+  constexpr void __cordl_internal_set_beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+
   constexpr void __cordl_internal_set_prevObstacleDataInLines(::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26aaaec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26abca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,17 +77,22 @@ public:
   BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0(BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12793 };
 
-  /// @brief Field prevObstacleDataInLines, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field beatmapData, offset: 0x10, size: 0x8, def value: None
+  ::GlobalNamespace::IReadonlyBeatmapData* ___beatmapData;
+
+  /// @brief Field prevObstacleDataInLines, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ObstacleData*, ::Array<::GlobalNamespace::ObstacleData*>*> ___prevObstacleDataInLines;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0, ___prevObstacleDataInLines) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0, ___beatmapData) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0, ___prevObstacleDataInLines) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -90,10 +104,10 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0;
 
-  /// @brief Method CanBeMerged, addr 0x26aaaf4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CanBeMerged, addr 0x26abcac, size 0x90, virtual false, abstract: false, final false
   static inline bool CanBeMerged(::GlobalNamespace::ObstacleData* firstObstacle, ::GlobalNamespace::ObstacleData* secondObstacle);
 
-  /// @brief Method CreateTransformedData, addr 0x26aa94c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x26abaf0, size 0x1b4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
 protected:
@@ -111,7 +125,7 @@ public:
   BeatmapDataObstaclesMergingTransform(BeatmapDataObstaclesMergingTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12794 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

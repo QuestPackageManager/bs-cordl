@@ -48,18 +48,18 @@ public:
 
   __declspec(property(get = get_radius)) float_t radius;
 
-  /// @brief Method Awake, addr 0x3be54e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3beb5b8, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Cut, addr 0x3be5514, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Cut, addr 0x3beb5e8, size 0x34, virtual true, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   static inline ::GlobalNamespace::BoxCuttableBySaber* New_ctor();
 
-  /// @brief Method RefreshRadius, addr 0x3be5430, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RefreshRadius, addr 0x3beb504, size 0x60, virtual false, abstract: false, final false
   inline void RefreshRadius();
 
-  /// @brief Method SetColliderCenterAndSize, addr 0x3be5574, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetColliderCenterAndSize, addr 0x3beb648, size 0x58, virtual false, abstract: false, final false
   inline void SetColliderCenterAndSize(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size);
 
   constexpr bool const& __cordl_internal_get__canBeCut() const;
@@ -80,28 +80,28 @@ public:
 
   constexpr void __cordl_internal_set__radius(float_t value);
 
-  /// @brief Method .ctor, addr 0x3be55cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3beb6a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeCut, addr 0x3be5400, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canBeCut, addr 0x3beb4d4, size 0x8, virtual true, abstract: false, final false
   inline bool get_canBeCut();
 
-  /// @brief Method get_colliderCenter, addr 0x3be54c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_colliderCenter, addr 0x3beb59c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_colliderCenter();
 
-  /// @brief Method get_colliderSize, addr 0x3be5490, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_colliderSize, addr 0x3beb564, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_colliderSize();
 
-  /// @brief Method get_radius, addr 0x3be53c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x3beb494, size 0x8, virtual true, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_canBeCut, addr 0x3be53c8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_canBeCut, addr 0x3beb49c, size 0x38, virtual true, abstract: false, final false
   inline void set_canBeCut(bool value);
 
-  /// @brief Method set_colliderCenter, addr 0x3be54ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_colliderCenter, addr 0x3beb580, size 0x1c, virtual false, abstract: false, final false
   inline void set_colliderCenter(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_colliderSize, addr 0x3be5408, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_colliderSize, addr 0x3beb4dc, size 0x28, virtual false, abstract: false, final false
   inline void set_colliderSize(::UnityEngine::Vector3 value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   BoxCuttableBySaber(BoxCuttableBySaber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4647 };
 
   /// @brief Field _collider, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::BoxCollider> ____collider;

@@ -106,7 +106,7 @@ public:
   constexpr PerformanceConfigurationChecks_Mismatch(::StringW message, int32_t frames) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5112 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -145,7 +145,7 @@ public:
                                                      ::UnityEngine::ThreadPriority backgroundLoadingPriority) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5113 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -199,7 +199,7 @@ public:
                                                     bool useOcclusionMesh) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5114 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -303,7 +303,7 @@ public:
                                                      bool eyeTextureArrayEnabled, bool localDimmingSupported, bool localDimming) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5115 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
@@ -469,7 +469,7 @@ public:
   constexpr PerformanceConfigurationChecks_OculusXRConfig(::UnityEngine::Vector3 boundaryDimension) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5116 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -515,7 +515,7 @@ public:
                                                         ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5117 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
@@ -641,7 +641,7 @@ public:
   constexpr PerformanceConfigurationChecks_LevelConfig(::GlobalNamespace::GameplayModifierMask modifiers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -704,22 +704,22 @@ public:
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x3b1cf8c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x3b20f8c, size 0x28c, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x3b1cf30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3b20f30, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x3b1d218, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method SetExpected, addr 0x3b21218, size 0x4c0, virtual false, abstract: false, final false
   inline bool SetExpected(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                           ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x3b1d6d8, size 0x1c04, virtual false, abstract: false, final false
+  /// @brief Method VerifyExpected, addr 0x3b216d8, size 0x1c04, virtual false, abstract: false, final false
   inline bool VerifyExpected(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                              ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
@@ -771,7 +771,7 @@ public:
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::PerformanceConfigurationChecks_XRConfig value);
 
-  /// @brief Method .ctor, addr 0x3b1f2dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b232dc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -789,7 +789,7 @@ public:
   PerformanceConfigurationChecks(PerformanceConfigurationChecks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5119 };
 
   /// @brief Field appConfig, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig ___appConfig;

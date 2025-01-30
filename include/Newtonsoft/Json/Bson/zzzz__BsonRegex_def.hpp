@@ -51,22 +51,22 @@ public:
 
   constexpr void __cordl_internal_set__Pattern_k__BackingField(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method .ctor, addr 0x3f51c08, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f54e6c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, ::StringW options);
 
-  /// @brief Method get_Options, addr 0x3f51bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x3f54e5c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Options();
 
-  /// @brief Method get_Pattern, addr 0x3f51be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x3f54e4c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Pattern();
 
-  /// @brief Method get_Type, addr 0x3f51cb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3f54f1c, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method set_Options, addr 0x3f51c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Options, addr 0x3f54e64, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method set_Pattern, addr 0x3f51bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pattern, addr 0x3f54e54, size 0x8, virtual false, abstract: false, final false
   inline void set_Pattern(::Newtonsoft::Json::Bson::BsonString* value);
 
 protected:
@@ -84,7 +84,7 @@ public:
   BsonRegex(BsonRegex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10517 };
 
   /// @brief Field <Pattern>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::Bson::BsonString* ____Pattern_k__BackingField;

@@ -86,7 +86,7 @@ public:
   static ::GlobalNamespace::TimelineArrayReference_ArrayTypes const TubeLight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5207 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_arrayType(::GlobalNamespace::TimelineArrayReference_ArrayTypes value);
 
-  /// @brief Method .ctor, addr 0x3b341a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b381a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,7 +193,7 @@ public:
   TimelineArrayReference(TimelineArrayReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5208 };
 
   /// @brief Field arrayType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::TimelineArrayReference_ArrayTypes ___arrayType;

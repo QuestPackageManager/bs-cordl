@@ -44,7 +44,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaGroupRef* New_ctor();
 
-  /// @brief Method SetParticle, addr 0x42bd760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParticle, addr 0x42c09c4, size 0x8, virtual false, abstract: false, final false
   inline void SetParticle(::System::Xml::Schema::XmlSchemaGroupBase* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaGroupBase* const& __cordl_internal_get_particle() const;
@@ -65,22 +65,22 @@ public:
 
   constexpr void __cordl_internal_set_refined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method .ctor, addr 0x42bd778, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c09dc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Particle, addr 0x42bd758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle, addr 0x42c09bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroupBase* get_Particle();
 
-  /// @brief Method get_Redefined, addr 0x42bd768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Redefined, addr 0x42c09cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroup* get_Redefined();
 
-  /// @brief Method get_RefName, addr 0x42bd750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x42c09b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method set_Redefined, addr 0x42bd770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Redefined, addr 0x42c09d4, size 0x8, virtual false, abstract: false, final false
   inline void set_Redefined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method set_RefName, addr 0x42bb538, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x42be79c, size 0x98, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -98,7 +98,7 @@ public:
   XmlSchemaGroupRef(XmlSchemaGroupRef const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7694 };
 
   /// @brief Field refName, offset: 0x78, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___refName;

@@ -39,18 +39,18 @@ public:
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent,
                       put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* valueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0x3c0e814, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3c149dc, size 0x30, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3c0e7ec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3c149b4, size 0x28, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::FormattedIntListSettingsController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3c0e7d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3c149a0, size 0x14, virtual false, abstract: false, final false
   inline void SetValue(int32_t value, bool callCallback);
 
-  /// @brief Method TextForValue, addr 0x3c0e844, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3c14a0c, size 0x78, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::StringW const& __cordl_internal_get__formattingString() const;
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3c0e8bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c14a84, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x3c0e678, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x3c14840, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x3c0e728, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x3c148f0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   FormattedIntListSettingsController(FormattedIntListSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4855 };
 
   /// @brief Field _minValue, offset: 0x30, size: 0x4, def value: None
   int32_t ____minValue;

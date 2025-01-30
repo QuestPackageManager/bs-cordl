@@ -28,10 +28,10 @@ public:
   /// @brief Field s_PropertySyntaxCache, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_PropertySyntaxCache, put = setStaticF_s_PropertySyntaxCache)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_PropertySyntaxCache;
 
-  /// @brief Method TryGetNonTerminalValue, addr 0x49cf824, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetNonTerminalValue, addr 0x49d2a88, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetNonTerminalValue(::StringW name, ::ByRef<::StringW> syntax);
 
-  /// @brief Method TryGetSyntax, addr 0x49cf794, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetSyntax, addr 0x49d29f8, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetSyntax(::StringW name, ::ByRef<::StringW> syntax);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_NonTerminalValues();
@@ -57,7 +57,7 @@ public:
   StylePropertyCache(StylePropertyCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6444 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

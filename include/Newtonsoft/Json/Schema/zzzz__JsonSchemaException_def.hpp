@@ -72,28 +72,28 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f060a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0930c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3f060c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f09324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3f060b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f09314, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3f060b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0931c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3f060c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0932c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method get_LineNumber, addr 0x3f06090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x3f092f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x3f06098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x3f092fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Path, addr 0x3f060a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3f09304, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -111,7 +111,7 @@ public:
   JsonSchemaException(JsonSchemaException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10359 };
 
   /// @brief Field <LineNumber>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____LineNumber_k__BackingField;

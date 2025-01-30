@@ -31,19 +31,19 @@ public:
 
   __declspec(property(get = get_time)) int32_t time;
 
-  /// @brief Method DestroyPing, addr 0x48a3730, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DestroyPing, addr 0x48a6994, size 0x5c, virtual false, abstract: false, final false
   inline void DestroyPing();
 
-  /// @brief Method Finalize, addr 0x48a369c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x48a6900, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x48a3660, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x48a68c4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(::StringW address);
 
-  /// @brief Method Internal_Destroy, addr 0x48a378c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x48a69f0, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
-  /// @brief Method Internal_IsDone, addr 0x48a3828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsDone, addr 0x48a6a8c, size 0x3c, virtual false, abstract: false, final false
   inline bool Internal_IsDone();
 
   static inline ::UnityEngine::Ping* New_ctor(::StringW address);
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48a3610, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a6874, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW address);
 
-  /// @brief Method get_isDone, addr 0x48a37c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x48a6a2c, size 0x60, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_time, addr 0x48a3864, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x48a6ac8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_time();
 
 protected:
@@ -78,7 +78,7 @@ public:
   Ping(Ping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10830 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

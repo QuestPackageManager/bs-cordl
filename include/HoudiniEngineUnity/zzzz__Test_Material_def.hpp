@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Material*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Material*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a992a4, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9b730, size 0xf4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Material* other);
 
-  /// @brief Method IsNull, addr 0x3a99244, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a9b6d0, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Material* New_ctor(::UnityEngine::Material* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x3a9921c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9b6a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Material* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Material*>"
@@ -70,7 +70,7 @@ public:
   Test_Material(Test_Material const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11895 };
 
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___self;

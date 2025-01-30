@@ -39,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set_next(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method .ctor, addr 0x4333f18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x433717c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_NextSibling, addr 0x433c088, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_NextSibling, addr 0x433f2ec, size 0x50, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
-  /// @brief Method get_PreviousSibling, addr 0x433c020, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_PreviousSibling, addr 0x433f284, size 0x68, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_PreviousSibling();
 
 protected:
@@ -63,7 +63,7 @@ public:
   XmlLinkedNode(XmlLinkedNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7301 };
 
   /// @brief Field next, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::XmlLinkedNode* ___next;

@@ -37,33 +37,33 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>*();
 
-  /// @brief Method Equals, addr 0x491e6f8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x492195c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x491e770, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49219d4, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::GlyphRect other);
 
-  /// @brief Method GetHashCode, addr 0x491e694, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x49218f8, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x491e688, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49218ec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y, int32_t width, int32_t height);
 
   static inline ::UnityEngine::TextCore::GlyphRect getStaticF_s_ZeroGlyphRect();
 
-  /// @brief Method get_height, addr 0x491e628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x492188c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_width, addr 0x491e620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x4921884, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method get_x, addr 0x491e610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x4921874, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x491e618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x492187c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method get_zero, addr 0x491e630, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x4921894, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::GlyphRect get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphRect>"
@@ -80,7 +80,7 @@ public:
   constexpr GlyphRect(int32_t m_X, int32_t m_Y, int32_t m_Width, int32_t m_Height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18174 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

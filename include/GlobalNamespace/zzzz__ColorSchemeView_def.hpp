@@ -49,7 +49,7 @@ public:
 
   static inline ::GlobalNamespace::ColorSchemeView* New_ctor();
 
-  /// @brief Method SetColors, addr 0x3c249c8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3c27c2c, size 0x1b8, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__saberBColorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3c24b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c27de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   ColorSchemeView(ColorSchemeView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18993 };
 
   /// @brief Field _saberAColorImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____saberAColorImage;

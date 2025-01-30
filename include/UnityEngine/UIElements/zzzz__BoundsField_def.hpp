@@ -61,7 +61,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BoundsField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4989cb8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498cf1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   BoundsField_UxmlFactory(BoundsField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -112,7 +112,7 @@ public:
   /// @brief Field m_ExtentsZValue, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ExtentsZValue, put = __cordl_internal_set_m_ExtentsZValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ExtentsZValue;
 
-  /// @brief Method Init, addr 0x4989d00, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x498cf64, size 0x25c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BoundsField_UxmlTraits* New_ctor();
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ExtentsZValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4989f5c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498d1c0, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,7 +171,7 @@ public:
   BoundsField_UxmlTraits(BoundsField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5522 };
 
   /// @brief Field m_CenterXValue, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_CenterXValue;
@@ -245,10 +245,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BoundsField* New_ctor(::StringW label);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x49898b8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x498cb1c, size 0xfc, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::Bounds newValue);
 
-  /// @brief Method UpdateMixedValueContent, addr 0x49899b4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x498cc18, size 0x74, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::Vector3Field* const& __cordl_internal_get_m_CenterField() const;
@@ -263,16 +263,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ExtentsField(::UnityEngine::UIElements::Vector3Field* value);
 
-  /// @brief Method <.ctor>b__10_0, addr 0x4989b60, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_0, addr 0x498cdc4, size 0xac, virtual false, abstract: false, final false
   inline void __ctor_b__10_0(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>* e);
 
-  /// @brief Method <.ctor>b__10_1, addr 0x4989c0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_1, addr 0x498ce70, size 0xac, virtual false, abstract: false, final false
   inline void __ctor_b__10_1(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>* e);
 
-  /// @brief Method .ctor, addr 0x4989418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498c67c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4989420, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498c684, size 0x378, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_centerFieldUssClassName();
@@ -310,7 +310,7 @@ public:
   BoundsField(BoundsField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5523 };
 
   /// @brief Field m_CenterField, offset: 0x450, size: 0x8, def value: None
   ::UnityEngine::UIElements::Vector3Field* ___m_CenterField;

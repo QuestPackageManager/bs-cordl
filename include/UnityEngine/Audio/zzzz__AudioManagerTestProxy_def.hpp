@@ -18,12 +18,12 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioManagerTestProxy : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeAudibilityConsistency, addr 0x485aebc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ComputeAudibilityConsistency, addr 0x485e120, size 0x28, virtual false, abstract: false, final false
   static inline bool ComputeAudibilityConsistency();
 
   static inline ::UnityEngine::Audio::AudioManagerTestProxy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x485aee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485e148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   AudioManagerTestProxy(AudioManagerTestProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -43,15 +43,15 @@ public:
   /// @brief Field _hasCachedData, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__hasCachedData, put = __cordl_internal_set__hasCachedData)) bool _hasCachedData;
 
-  /// @brief Method GetCurvedCanvasSettings, addr 0x39ed208, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettings, addr 0x39ef694, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x39ed3f4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x39ef880, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
 
   static inline ::HMUI::CurvedCanvasSettingsHelper* New_ctor();
 
-  /// @brief Method Reset, addr 0x39ed1f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x39ef680, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__cachedCanvas() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__hasCachedData(bool value);
 
-  /// @brief Method .ctor, addr 0x39ed530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ef9bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* getStaticF__curvedCanvasCache();
@@ -100,7 +100,7 @@ public:
   CurvedCanvasSettingsHelper(CurvedCanvasSettingsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16031 };
 
   /// @brief Field _cachedCanvas, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Canvas> ____cachedCanvas;

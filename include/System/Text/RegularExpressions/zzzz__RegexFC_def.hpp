@@ -36,10 +36,10 @@ public:
   /// @brief Field _nullable, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__nullable, put = __cordl_internal_set__nullable)) bool _nullable;
 
-  /// @brief Method AddFC, addr 0x441d810, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddFC, addr 0x4420a74, size 0xac, virtual false, abstract: false, final false
   inline bool AddFC(::System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
 
-  /// @brief Method GetFirstChars, addr 0x441cba4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstChars, addr 0x441fe08, size 0x38, virtual false, abstract: false, final false
   inline ::StringW GetFirstChars(::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set__nullable(bool value);
 
-  /// @brief Method .ctor, addr 0x441d8bc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4420b20, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor, addr 0x441d9b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4420c18, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor, addr 0x441d798, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44209fc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool nullable);
 
-  /// @brief Method get_CaseInsensitive, addr 0x441da4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x4420cb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method set_CaseInsensitive, addr 0x441da54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CaseInsensitive, addr 0x4420cb8, size 0xc, virtual false, abstract: false, final false
   inline void set_CaseInsensitive(bool value);
 
 protected:
@@ -96,7 +96,7 @@ public:
   RegexFC(RegexFC const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9239 };
 
   /// @brief Field _cc, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::RegexCharClass* ____cc;

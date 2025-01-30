@@ -93,7 +93,7 @@ public:
   RemoteMultiplayerSyncState_3(RemoteMultiplayerSyncState_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17352 };
 
   /// @brief Field _player, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____player;

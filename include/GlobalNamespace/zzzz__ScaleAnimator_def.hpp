@@ -55,36 +55,36 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Animate, addr 0x3be0534, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x3be6484, size 0x100, virtual false, abstract: false, final false
   inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method HideInstant, addr 0x3be041c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HideInstant, addr 0x3be636c, size 0xa8, virtual false, abstract: false, final false
   inline void HideInstant();
 
-  /// @brief Method InitIfNeeded, addr 0x3be0160, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3be60b0, size 0x244, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::ScaleAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3be00d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3be6028, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPositionAndRotation, addr 0x3be03a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3be62f4, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ShowInstant, addr 0x3be04c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShowInstant, addr 0x3be6414, size 0x70, virtual false, abstract: false, final false
   inline void ShowInstant();
 
-  /// @brief Method <InitIfNeeded>b__7_0, addr 0x3be0644, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_0, addr 0x3be6594, size 0x24, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_0(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_1, addr 0x3be0694, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_1, addr 0x3be65e4, size 0x24, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_1(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_2, addr 0x3be0668, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_2, addr 0x3be65b8, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_2();
 
-  /// @brief Method <InitIfNeeded>b__7_3, addr 0x3be06b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_3, addr 0x3be6608, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_3();
 
   constexpr float_t const& __cordl_internal_get__displayedScale() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3be0634, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be6584, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,7 +141,7 @@ public:
   ScaleAnimator(ScaleAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4620 };
 
   /// @brief Field _displayedScale, offset: 0x20, size: 0x4, def value: None
   float_t ____displayedScale;

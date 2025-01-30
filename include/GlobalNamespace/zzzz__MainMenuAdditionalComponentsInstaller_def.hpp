@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE MainMenuAdditionalComponentsInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3bf1d98, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf7d08, size 0x5c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainMenuAdditionalComponentsInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bf1df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf7d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   MainMenuAdditionalComponentsInstaller(MainMenuAdditionalComponentsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

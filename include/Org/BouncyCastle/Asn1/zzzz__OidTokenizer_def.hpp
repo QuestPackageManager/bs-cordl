@@ -30,7 +30,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::OidTokenizer* New_ctor(::StringW oid);
 
-  /// @brief Method NextToken, addr 0x263b754, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x263c770, size 0x88, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
   constexpr int32_t const& __cordl_internal_get_index() const;
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x263b71c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263c738, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method get_HasMoreTokens, addr 0x263b744, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasMoreTokens, addr 0x263c760, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasMoreTokens();
 
 protected:

@@ -32,12 +32,12 @@ public:
   __declspec(property(get = __cordl_internal_get_m_AttachedUIDocuments,
                       put = __cordl_internal_set_m_AttachedUIDocuments)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_AttachedUIDocuments;
 
-  /// @brief Method AddToListAndToVisualTree, addr 0x4a38b70, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method AddToListAndToVisualTree, addr 0x4a3bdd4, size 0x338, virtual false, abstract: false, final false
   inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
 
   static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
 
-  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x4a38af0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x4a3bd54, size 0x78, virtual false, abstract: false, final false
   inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* const& __cordl_internal_get_m_AttachedUIDocuments() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
 
-  /// @brief Method .ctor, addr 0x4a38ea8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3c10c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   UIDocumentList(UIDocumentList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5966 };
 
   /// @brief Field m_AttachedUIDocuments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* ___m_AttachedUIDocuments;

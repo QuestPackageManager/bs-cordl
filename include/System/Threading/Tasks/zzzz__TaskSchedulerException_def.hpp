@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3e5d76c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e609d0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e5d85c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e60ac0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e5d7dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e60a40, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* innerException);
 
 protected:

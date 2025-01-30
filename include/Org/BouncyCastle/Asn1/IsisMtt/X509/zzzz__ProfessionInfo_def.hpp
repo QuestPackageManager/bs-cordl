@@ -118,13 +118,13 @@ public:
   /// @brief Field registrationNumber, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_registrationNumber, put = __cordl_internal_set_registrationNumber)) ::StringW registrationNumber;
 
-  /// @brief Method GetInstance, addr 0x23fb314, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23fc330, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetProfessionItems, addr 0x23fe338, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GetProfessionItems, addr 0x23ff354, size 0x114, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> GetProfessionItems();
 
-  /// @brief Method GetProfessionOids, addr 0x23fe44c, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GetProfessionOids, addr 0x23ff468, size 0x168, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> GetProfessionOids();
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*
@@ -135,7 +135,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23fe168, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23ff184, size 0x1c0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_addProfessionInfo() const;
@@ -168,13 +168,13 @@ public:
 
   constexpr void __cordl_internal_set_registrationNumber(::StringW value);
 
-  /// @brief Method .ctor, addr 0x23fe0ac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ff0c8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority,
                     ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> professionItems,
                     ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> professionOids, ::StringW registrationNumber,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* addProfessionInfo);
 
-  /// @brief Method .ctor, addr 0x23fd7fc, size 0x8b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fe818, size 0x8b0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Notar();
@@ -215,13 +215,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Wirtschaftsprferin();
 
-  /// @brief Method get_AddProfessionInfo, addr 0x23fe328, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AddProfessionInfo, addr 0x23ff344, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_AddProfessionInfo();
 
-  /// @brief Method get_NamingAuthority, addr 0x23fe330, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NamingAuthority, addr 0x23ff34c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* get_NamingAuthority();
 
-  /// @brief Method get_RegistrationNumber, addr 0x23fe5b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RegistrationNumber, addr 0x23ff5d0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_RegistrationNumber();
 
   static inline void setStaticF_Notar(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);

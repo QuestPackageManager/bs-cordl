@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAssetFileDeleteResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAssetFileDeleteResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7a574;
+  constexpr static std::size_t addrs = 0x3f7d7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDeleteResult* (::Oculus::Platform::MessageWithAssetFileDeleteResult::*)()>(
     &::Oculus::Platform::MessageWithAssetFileDeleteResult::GetAssetFileDeleteResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7c8b4;
+  constexpr static std::size_t addrs = 0x3f7fb18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDeleteResult* (
     ::Oculus::Platform::MessageWithAssetFileDeleteResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAssetFileDeleteResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7c8f0;
+  constexpr static std::size_t addrs = 0x3f7fb54;
 
   inline static ::MethodInfo const* methodInfo() {
 

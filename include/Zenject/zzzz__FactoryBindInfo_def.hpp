@@ -73,25 +73,25 @@ public:
 
   constexpr void __cordl_internal_set__ProviderFunc_k__BackingField(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x4b13fd8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b1723c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* factoryType);
 
-  /// @brief Method get_Arguments, addr 0x4b14080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x4b172e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_Arguments();
 
-  /// @brief Method get_FactoryType, addr 0x4b14060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FactoryType, addr 0x4b172c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_FactoryType();
 
-  /// @brief Method get_ProviderFunc, addr 0x4b14070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProviderFunc, addr 0x4b172d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* get_ProviderFunc();
 
-  /// @brief Method set_Arguments, addr 0x4b14088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Arguments, addr 0x4b172ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Arguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
-  /// @brief Method set_FactoryType, addr 0x4b14068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FactoryType, addr 0x4b172cc, size 0x8, virtual false, abstract: false, final false
   inline void set_FactoryType(::System::Type* value);
 
-  /// @brief Method set_ProviderFunc, addr 0x4b14078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProviderFunc, addr 0x4b172dc, size 0x8, virtual false, abstract: false, final false
   inline void set_ProviderFunc(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
 
 protected:
@@ -109,7 +109,7 @@ public:
   FactoryBindInfo(FactoryBindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12288 };
 
   /// @brief Field <FactoryType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____FactoryType_k__BackingField;

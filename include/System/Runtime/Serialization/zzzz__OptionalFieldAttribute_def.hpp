@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_versionAdded(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3cfb794, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfe9f8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_VersionAdded, addr 0x3cfb7a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_VersionAdded, addr 0x3cfea08, size 0x70, virtual false, abstract: false, final false
   inline void set_VersionAdded(int32_t value);
 
 protected:

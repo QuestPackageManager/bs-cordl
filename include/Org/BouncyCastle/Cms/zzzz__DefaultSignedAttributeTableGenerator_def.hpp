@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method DoCreateStandardAttributeTable, addr 0x2673d98, size 0x714, virtual false, abstract: false, final false
+  /// @brief Method DoCreateStandardAttributeTable, addr 0x2674db4, size 0x714, virtual false, abstract: false, final false
   inline void DoCreateStandardAttributeTable(::System::Collections::IDictionary* parameters, ::System::Collections::IDictionary* std);
 
-  /// @brief Method GetAttributes, addr 0x26744ac, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x26754c8, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x265d810, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265e82c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x265dce0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265ecfc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
-  /// @brief Method createStandardAttributeTable, addr 0x2673d20, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method createStandardAttributeTable, addr 0x2674d3c, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Hashtable* createStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"

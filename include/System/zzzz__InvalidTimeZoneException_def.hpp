@@ -31,13 +31,13 @@ public:
 
   static inline ::System::InvalidTimeZoneException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3deaae8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dedd4c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3deaba8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dede0c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3deab40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dedda4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -25,24 +25,24 @@ public:
 
   __declspec(property(get = get_sharedMesh, put = set_sharedMesh)) ::UnityW<::UnityEngine::Mesh> sharedMesh;
 
-  /// @brief Method DontStripMeshFilter, addr 0x4884094, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshFilter, addr 0x48872f8, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshFilter();
 
   static inline ::UnityEngine::MeshFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4884198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48873fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x4884118, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x488737c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_sharedMesh, addr 0x4884098, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh, addr 0x48872fc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
 
-  /// @brief Method set_mesh, addr 0x4884154, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x48873b8, size 0x44, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_sharedMesh, addr 0x48840d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh, addr 0x4887338, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMesh(::UnityEngine::Mesh* value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   MeshFilter(MeshFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

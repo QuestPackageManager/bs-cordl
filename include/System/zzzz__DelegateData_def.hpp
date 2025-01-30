@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_target_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3e32c78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e35edc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

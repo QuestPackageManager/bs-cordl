@@ -31,10 +31,10 @@ public:
 
   static inline ::GlobalNamespace::FloatFxGroupEffectCollectionTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b895cc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b8f65c, size 0x8c, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b89658, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b8f6e8, size 0x8c, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> const&
@@ -45,7 +45,7 @@ public:
   constexpr void
   __cordl_internal_set__floatFxGroupEffectTargets(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b896e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8f774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   FloatFxGroupEffectCollectionTarget(FloatFxGroupEffectCollectionTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4268 };
 
   /// @brief Field _floatFxGroupEffectTargets, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> ____floatFxGroupEffectTargets;

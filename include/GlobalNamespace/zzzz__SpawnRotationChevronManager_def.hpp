@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_fullyLit(bool value);
 
-  /// @brief Method .ctor, addr 0x3b9a7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba0494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,7 +131,7 @@ public:
   SpawnRotationChevronManager_DirectionData(SpawnRotationChevronManager_DirectionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4370 };
 
   /// @brief Field chevron, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SpawnRotationChevron> ___chevron;
@@ -166,7 +166,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SpawnRotationChevronManager_QueuedDirectionData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3b9a7cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba0488, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t duration, int32_t rotation);
 
   // Ctor Parameters []
@@ -178,7 +178,7 @@ public:
   constexpr SpawnRotationChevronManager_QueuedDirectionData(float_t time, float_t duration, int32_t rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4371 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -278,24 +278,24 @@ public:
   __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
                       put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
 
-  /// @brief Method HandleBeatmapObjectCallback, addr 0x3b9a418, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectCallback, addr 0x3ba03d4, size 0xb4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3b99670, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3b9f62c, size 0x148, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
   static inline ::GlobalNamespace::SpawnRotationChevronManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9a320, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba02dc, size 0xf8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SpawnDirectionData, addr 0x3b99fa8, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method SpawnDirectionData, addr 0x3b9ff64, size 0x378, virtual false, abstract: false, final false
   inline void SpawnDirectionData(float_t time, float_t duration, int32_t rotation);
 
-  /// @brief Method Start, addr 0x3b995d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9f58c, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b997b8, size 0x7f0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9f774, size 0x7f0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__activeDirections() const;
@@ -406,7 +406,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3b9a4ec, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba049c, size 0x160, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -424,7 +424,7 @@ public:
   SpawnRotationChevronManager(SpawnRotationChevronManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4372 };
 
   /// @brief Field _fadeInTime, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInTime;

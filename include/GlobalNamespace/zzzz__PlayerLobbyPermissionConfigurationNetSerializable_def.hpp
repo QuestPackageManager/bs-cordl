@@ -56,19 +56,19 @@ public:
 
   __declspec(property(get = get_userId)) ::StringW userId;
 
-  /// @brief Method Deserialize, addr 0x271f6cc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x2721b58, size 0x6c, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x271f5e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2721a70, size 0x30, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Init(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission,
                                                                                     bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
 
   static inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x271f580, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x2721a0c, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x271f66c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2721af8, size 0x60, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr bool const& __cordl_internal_get__hasInvitePermission() const;
@@ -107,25 +107,25 @@ public:
 
   constexpr void __cordl_internal_set__userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x271f614, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2721aa0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasInvitePermission, addr 0x271f578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasInvitePermission, addr 0x2721a04, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInvitePermission();
 
-  /// @brief Method get_hasKickVotePermission, addr 0x271f570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasKickVotePermission, addr 0x27219fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasKickVotePermission();
 
-  /// @brief Method get_hasRecommendBeatmapsPermission, addr 0x271f560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendBeatmapsPermission, addr 0x27219ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendBeatmapsPermission();
 
-  /// @brief Method get_hasRecommendGameplayModifiersPermission, addr 0x271f568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendGameplayModifiersPermission, addr 0x27219f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendGameplayModifiersPermission();
 
-  /// @brief Method get_isServerOwner, addr 0x271f558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isServerOwner, addr 0x27219e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isServerOwner();
 
-  /// @brief Method get_userId, addr 0x271f550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x27219dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
 protected:
@@ -143,7 +143,7 @@ public:
   PlayerLobbyPermissionConfigurationNetSerializable(PlayerLobbyPermissionConfigurationNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17007 };
 
   /// @brief Field _userId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____userId;

@@ -57,45 +57,45 @@ public:
   /// @brief Field stream, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream)) ::System::IO::Stream* stream;
 
-  /// @brief Method BeginRead, addr 0x435da5c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x4360cc0, size 0x24, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x435da80, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x4360ce4, size 0x24, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method Dispose, addr 0x435d924, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4360b88, size 0x138, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x435daa4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x4360d08, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x435dac8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x4360d2c, size 0x24, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Finalize, addr 0x435d880, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x4360ae4, size 0xa4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Flush, addr 0x435daec, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x4360d50, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::System::Xml::XmlRegisteredNonCachedStream* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager, ::StringW host);
 
-  /// @brief Method Read, addr 0x435db10, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x4360d74, size 0x24, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x435db34, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x4360d98, size 0x24, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x435db58, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x4360dbc, size 0x24, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x435db7c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x4360de0, size 0x24, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x435dba0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x4360e04, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x435dbc4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x4360e28, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
   constexpr ::System::Xml::XmlDownloadManager* const& __cordl_internal_get_downloadManager() const;
@@ -116,25 +116,25 @@ public:
 
   constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x435ca18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x435fc7c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager, ::StringW host);
 
-  /// @brief Method get_CanRead, addr 0x435dbe8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x4360e4c, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x435dc08, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x4360e6c, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x435dc28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x4360e8c, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x435dc48, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4360eac, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x435dc68, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x4360ecc, size 0x24, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x435dc8c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x4360ef0, size 0x24, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -152,7 +152,7 @@ public:
   XmlRegisteredNonCachedStream(XmlRegisteredNonCachedStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7348 };
 
   /// @brief Field stream, offset: 0x28, size: 0x8, def value: None
   ::System::IO::Stream* ___stream;

@@ -34,7 +34,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x49b1ff8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49b525c, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::GradientRemap* const& __cordl_internal_get_firstGradientRemap() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x49b1f90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b51f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   VectorImageRenderInfo(VectorImageRenderInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6408 };
 
   /// @brief Field useCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___useCount;

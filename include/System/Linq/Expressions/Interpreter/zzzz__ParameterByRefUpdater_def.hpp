@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ParameterByRefUpdater* New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex);
 
-  /// @brief Method Update, addr 0x40e41c0, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x40e7424, size 0x1e8, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::System::Linq::Expressions::Interpreter::LocalVariable* const& __cordl_internal_get__parameter() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__parameter(::System::Linq::Expressions::Interpreter::LocalVariable* value);
 
-  /// @brief Method .ctor, addr 0x40e4190, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e73f4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LocalVariable* parameter, int32_t argumentIndex);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ParameterByRefUpdater(ParameterByRefUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13950 };
 
   /// @brief Field _parameter, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::LocalVariable* ____parameter;

@@ -32,31 +32,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>*();
 
-  /// @brief Method Equals, addr 0x4a65ba4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a68e08, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a65c2c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a68e90, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimerState other);
 
-  /// @brief Method GetHashCode, addr 0x4a65c50, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a68eb4, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deltaTime, addr 0x4a65b98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x4a68dfc, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_deltaTime();
 
-  /// @brief Method get_now, addr 0x4a65b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_now, addr 0x4a68dec, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_now();
 
-  /// @brief Method get_start, addr 0x4a65b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_start, addr 0x4a68ddc, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_start();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>* i___System__IEquatable_1___UnityEngine__UIElements__TimerState_();
 
-  /// @brief Method set_now, addr 0x4a65b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_now, addr 0x4a68df4, size 0x8, virtual false, abstract: false, final false
   inline void set_now(int64_t value);
 
-  /// @brief Method set_start, addr 0x4a65b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_start, addr 0x4a68de4, size 0x8, virtual false, abstract: false, final false
   inline void set_start(int64_t value);
 
   // Ctor Parameters []
@@ -68,7 +68,7 @@ public:
   constexpr TimerState(int64_t _start_k__BackingField, int64_t _now_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6044 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

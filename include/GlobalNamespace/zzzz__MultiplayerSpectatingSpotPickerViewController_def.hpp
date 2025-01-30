@@ -34,24 +34,24 @@ public:
   /// @brief Field _stepValuePicker, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__stepValuePicker, put = __cordl_internal_set__stepValuePicker)) ::UnityW<::GlobalNamespace::StepValuePicker> _stepValuePicker;
 
-  /// @brief Method HandleDecButtonWasPressed, addr 0x3baa3c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleDecButtonWasPressed, addr 0x3bafe2c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleDecButtonWasPressed();
 
-  /// @brief Method HandleIncButtonWasPressed, addr 0x3baa3a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleIncButtonWasPressed, addr 0x3bafe10, size 0x1c, virtual false, abstract: false, final false
   inline void HandleIncButtonWasPressed();
 
-  /// @brief Method HandleSpectatingSpotDidChangeEvent, addr 0x3baa3a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSpectatingSpotDidChangeEvent, addr 0x3bafe0c, size 0x4, virtual false, abstract: false, final false
   inline void HandleSpectatingSpotDidChangeEvent(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3baa1f8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bafc64, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshSpectatingSpotName, addr 0x3baa0fc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RefreshSpectatingSpotName, addr 0x3bafb68, size 0xfc, virtual false, abstract: false, final false
   inline void RefreshSpectatingSpotName();
 
-  /// @brief Method Start, addr 0x3ba9fc0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bafa2c, size 0x13c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> const& __cordl_internal_get__spectatorController() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x3baa3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bafe48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   MultiplayerSpectatingSpotPickerViewController(MultiplayerSpectatingSpotPickerViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4436 };
 
   /// @brief Field _stepValuePicker, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____stepValuePicker;

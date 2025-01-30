@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__ErrorContext_k__BackingField(::Newtonsoft::Json::Serialization::ErrorContext* value);
 
-  /// @brief Method .ctor, addr 0x3ee371c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee6980, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
-  /// @brief Method get_CurrentObject, addr 0x3ee370c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentObject, addr 0x3ee6970, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_CurrentObject();
 
-  /// @brief Method get_ErrorContext, addr 0x3ee3714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorContext, addr 0x3ee6978, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ErrorContext* get_ErrorContext();
 
 protected:
@@ -73,7 +73,7 @@ public:
   ErrorEventArgs(ErrorEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10302 };
 
   /// @brief Field <CurrentObject>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____CurrentObject_k__BackingField;

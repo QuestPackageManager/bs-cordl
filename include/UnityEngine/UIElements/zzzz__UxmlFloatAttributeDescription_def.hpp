@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa034c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa35b0, size 0x8, virtual false, abstract: false, final false
   inline float_t _GetValueFromBag_b__3_0(::StringW s, float_t f);
 
-  /// @brief Method .ctor, addr 0x4aa0344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa35a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c* getStaticF___9();
@@ -74,7 +74,7 @@ public:
   UxmlFloatAttributeDescription___c(UxmlFloatAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,15 +91,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c;
 
-  /// @brief Method ConvertValueToFloat, addr 0x4aa024c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToFloat, addr 0x4aa34b0, size 0x9c, virtual false, abstract: false, final false
   static inline float_t ConvertValueToFloat(::StringW v, float_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4aa0100, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4aa3364, size 0x14c, virtual true, abstract: false, final false
   inline float_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4aa0068, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa32cc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   UxmlFloatAttributeDescription(UxmlFloatAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6248 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

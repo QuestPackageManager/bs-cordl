@@ -37,15 +37,15 @@ public:
   __declspec(property(get = __cordl_internal_get_lookup,
                       put = __cordl_internal_set_lookup)) ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* lookup;
 
-  /// @brief Method Add, addr 0x47b3580, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x47b67e4, size 0xc0, virtual false, abstract: false, final false
   inline void Add(::System::Action* rhs);
 
-  /// @brief Method Call, addr 0x47b3700, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x47b6964, size 0x98, virtual false, abstract: false, final false
   inline void Call();
 
   static inline ::TMPro::FastAction* New_ctor();
 
-  /// @brief Method Remove, addr 0x47b3640, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x47b68a4, size 0xc0, virtual false, abstract: false, final false
   inline void Remove(::System::Action* rhs);
 
   constexpr ::System::Collections::Generic::LinkedList_1<::System::Action*>* const& __cordl_internal_get_delegates() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x47b3798, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b69fc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   FastAction(FastAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14417 };
 
   /// @brief Field delegates, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::System::Action*>* ___delegates;

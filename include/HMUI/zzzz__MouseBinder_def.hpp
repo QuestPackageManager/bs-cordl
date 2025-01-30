@@ -86,7 +86,7 @@ public:
   static ::HMUI::MouseBinder_MouseEventType const ButtonUp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16023 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -145,7 +145,7 @@ public:
   static ::HMUI::MouseBinder_ButtonType const Secondary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16024 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -185,34 +185,34 @@ public:
 
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  /// @brief Method AddButtonBinding, addr 0x39ebda0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddButtonBinding, addr 0x39ee22c, size 0xf4, virtual false, abstract: false, final false
   inline void AddButtonBinding(::HMUI::MouseBinder_ButtonType buttonType, ::HMUI::MouseBinder_MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method AddButtonBindings, addr 0x39ebc2c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AddButtonBindings, addr 0x39ee0b8, size 0x174, virtual false, abstract: false, final false
   inline void
   AddButtonBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*>*>* bindingData);
 
-  /// @brief Method AddScrollBinding, addr 0x39ebb30, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddScrollBinding, addr 0x39edfbc, size 0xa4, virtual false, abstract: false, final false
   inline void AddScrollBinding(::UnityEngine::Events::UnityAction_1<float_t>* action);
 
-  /// @brief Method AddScrollBindings, addr 0x39eb9f4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AddScrollBindings, addr 0x39ede80, size 0x13c, virtual false, abstract: false, final false
   inline void AddScrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x39ebf44, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x39ee3d0, size 0xa4, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Init, addr 0x39eb930, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39eddbc, size 0xc4, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ManualUpdate, addr 0x39ebfe8, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x39ee474, size 0x384, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::HMUI::MouseBinder* New_ctor();
 
-  /// @brief Method RemoveButtonBinding, addr 0x39ebe94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RemoveButtonBinding, addr 0x39ee320, size 0xb0, virtual false, abstract: false, final false
   inline void RemoveButtonBinding(::HMUI::MouseBinder_ButtonType buttonType, ::HMUI::MouseBinder_MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method RemoveScrollBinding, addr 0x39ebbd4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveScrollBinding, addr 0x39ee060, size 0x58, virtual false, abstract: false, final false
   inline void RemoveScrollBinding(::UnityEngine::Events::UnityAction_1<float_t>* action);
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*>>* const&
@@ -236,13 +236,13 @@ public:
 
   constexpr void __cordl_internal_set__scrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* value);
 
-  /// @brief Method .ctor, addr 0x39eb914, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39edda0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x39eb900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x39edd8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0x39eb908, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x39edd94, size 0xc, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:
@@ -260,7 +260,7 @@ public:
   MouseBinder(MouseBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16025 };
 
   /// @brief Field <enabled>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____enabled_k__BackingField;

@@ -71,7 +71,7 @@ public:
   static ::GlobalNamespace::BloomPrePass_Mode const SetDataOnly;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16235 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,24 +113,24 @@ public:
   /// @brief Field _renderData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__renderData, put = __cordl_internal_set__renderData)) ::GlobalNamespace::BloomPrePassRenderDataSO_Data* _renderData;
 
-  /// @brief Method Awake, addr 0x39d57cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39d7c58, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x39d57d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x39d7c5c, size 0xc4, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::BloomPrePass* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39d59dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39d7e68, size 0xac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPostRender, addr 0x39d6c50, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x39d90dc, size 0x94, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreRender, addr 0x39d5a88, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x39d7f14, size 0x254, virtual false, abstract: false, final false
   inline void OnPreRender();
 
-  /// @brief Method SetMode, addr 0x39d6d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMode, addr 0x39d918c, size 0x8, virtual false, abstract: false, final false
   inline void SetMode(::GlobalNamespace::BloomPrePass_Mode mode);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__bloomPrePassEffectContainer() const;
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set__renderData(::GlobalNamespace::BloomPrePassRenderDataSO_Data* value);
 
-  /// @brief Method .ctor, addr 0x39d6d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d9194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,7 +181,7 @@ public:
   BloomPrePass(BloomPrePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16236 };
 
   /// @brief Field _bloomPrepassRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> ____bloomPrepassRenderer;

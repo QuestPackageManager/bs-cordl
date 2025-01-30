@@ -63,7 +63,7 @@ public:
   UxmlObjectAttributeDescription_1(UxmlObjectAttributeDescription_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6266 };
 
   /// @brief Field <defaultValue>k__BackingField, offset: 0x10, size: 0x8, def value: None
   T ____defaultValue_k__BackingField;

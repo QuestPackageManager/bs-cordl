@@ -58,42 +58,42 @@ public:
   /// @brief Field _table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-  /// @brief Method ChildRelationCollectionChanged, addr 0x416c720, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ChildRelationCollectionChanged, addr 0x416f984, size 0xb0, virtual false, abstract: false, final false
   inline void ChildRelationCollectionChanged(::System::Object* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
 
-  /// @brief Method CleanUp, addr 0x416c7d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x416fa34, size 0x1c, virtual false, abstract: false, final false
   inline void CleanUp(bool updateListeners);
 
-  /// @brief Method ColumnCollectionChanged, addr 0x416c89c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ColumnCollectionChanged, addr 0x416fb00, size 0xcc, virtual false, abstract: false, final false
   inline void ColumnCollectionChanged(::System::Object* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
 
-  /// @brief Method IndexListChanged, addr 0x416ca34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IndexListChanged, addr 0x416fc98, size 0xb0, virtual false, abstract: false, final false
   inline void IndexListChanged(::System::ComponentModel::ListChangedEventArgs* e);
 
-  /// @brief Method MaintainDataView, addr 0x416c968, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method MaintainDataView, addr 0x416fbcc, size 0xcc, virtual false, abstract: false, final false
   inline void MaintainDataView(::System::ComponentModel::ListChangedType changedType, ::System::Data::DataRow* row, bool trackAddRemove);
 
   static inline ::System::Data::DataViewListener* New_ctor(::System::Data::DataView* dv);
 
-  /// @brief Method ParentRelationCollectionChanged, addr 0x416c7ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ParentRelationCollectionChanged, addr 0x416fa50, size 0xb0, virtual false, abstract: false, final false
   inline void ParentRelationCollectionChanged(::System::Object* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
 
-  /// @brief Method RegisterListChangedEvent, addr 0x416bebc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RegisterListChangedEvent, addr 0x416f120, size 0xe0, virtual false, abstract: false, final false
   inline void RegisterListChangedEvent(::System::Data::Index* index);
 
-  /// @brief Method RegisterListener, addr 0x416cae4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method RegisterListener, addr 0x416fd48, size 0x218, virtual false, abstract: false, final false
   inline void RegisterListener(::System::Data::DataTable* table);
 
-  /// @brief Method RegisterMetaDataEvents, addr 0x4168e74, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method RegisterMetaDataEvents, addr 0x416c0d8, size 0x1dc, virtual false, abstract: false, final false
   inline void RegisterMetaDataEvents(::System::Data::DataTable* table);
 
-  /// @brief Method UnregisterListChangedEvent, addr 0x416bdbc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UnregisterListChangedEvent, addr 0x416f020, size 0x100, virtual false, abstract: false, final false
   inline void UnregisterListChangedEvent();
 
-  /// @brief Method UnregisterMetaDataEvents, addr 0x4169b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterMetaDataEvents, addr 0x416cda0, size 0x8, virtual false, abstract: false, final false
   inline void UnregisterMetaDataEvents();
 
-  /// @brief Method UnregisterMetaDataEvents, addr 0x416ccfc, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method UnregisterMetaDataEvents, addr 0x416ff60, size 0x298, virtual false, abstract: false, final false
   inline void UnregisterMetaDataEvents(bool updateListeners);
 
   constexpr ::System::WeakReference* const& __cordl_internal_get__dvWeak() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x4168df8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x416c05c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataView* dv);
 
 protected:
@@ -138,7 +138,7 @@ public:
   DataViewListener(DataViewListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11409 };
 
   /// @brief Field _dvWeak, offset: 0x10, size: 0x8, def value: None
   ::System::WeakReference* ____dvWeak;

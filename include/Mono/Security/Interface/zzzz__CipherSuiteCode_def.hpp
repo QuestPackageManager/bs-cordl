@@ -1107,7 +1107,7 @@ public:
   static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_WITH_AES_256_CBC_SHA;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15951 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

@@ -28,10 +28,10 @@ public:
 
   static inline ::System::Resources::MissingManifestResourceException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d19a94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1ccf8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d19af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1cd54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

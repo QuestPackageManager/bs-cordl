@@ -68,15 +68,15 @@ public:
 
   constexpr void __cordl_internal_set__caps(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x440f440, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44126a4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x440f290, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44124f4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::ArrayW<int32_t, ::Array<int32_t>*> caps, int32_t capcount, ::StringW name);
 
   static inline ::System::Text::RegularExpressions::Group* getStaticF_s_emptyGroup();
 
-  /// @brief Method get_Success, addr 0x440f32c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Success, addr 0x4412590, size 0x10, virtual false, abstract: false, final false
   inline bool get_Success();
 
   static inline void setStaticF_s_emptyGroup(::System::Text::RegularExpressions::Group* value);
@@ -96,7 +96,7 @@ public:
   Group(Group const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9221 };
 
   /// @brief Field _caps, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____caps;

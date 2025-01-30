@@ -67,7 +67,7 @@ public:
   static ::GlobalNamespace::OVRMixedRealityCaptureTest_CameraMode const ThirdPerson;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8450 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -104,18 +104,18 @@ public:
   /// @brief Field inited, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
 
-  /// @brief Method Initialize, addr 0x40389b0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x403bc14, size 0x224, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRMixedRealityCaptureTest* New_ctor();
 
-  /// @brief Method Start, addr 0x4038900, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x403bb64, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4038fe4, size 0x764, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x403c248, size 0x764, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x4038bd4, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x403be38, size 0x410, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
   constexpr ::GlobalNamespace::OVRMixedRealityCaptureTest_CameraMode const& __cordl_internal_get_currentMode() const;
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_inited(bool value);
 
-  /// @brief Method .ctor, addr 0x4039748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403c9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -160,7 +160,7 @@ public:
   OVRMixedRealityCaptureTest(OVRMixedRealityCaptureTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8451 };
 
   /// @brief Field inited, offset: 0x20, size: 0x1, def value: None
   bool ___inited;

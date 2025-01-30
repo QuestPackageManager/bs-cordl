@@ -29,10 +29,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifier"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifier*() noexcept;
 
-  /// @brief Method IsVerified, addr 0x23b4b00, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method IsVerified, addr 0x23b5b1c, size 0x88, virtual true, abstract: false, final true
   inline bool IsVerified(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff, int32_t sigLen);
 
-  /// @brief Method IsVerified, addr 0x23b4a54, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method IsVerified, addr 0x23b5a70, size 0xac, virtual true, abstract: false, final true
   inline bool IsVerified(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x23b4a2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b5a48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifier"

@@ -1230,70 +1230,70 @@ public:
 
   constexpr void __cordl_internal_set_UShort9(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x4528174, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b3d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(double_t a, double_t b, double_t c, double_t d);
 
-  /// @brief Method .ctor, addr 0x4528154, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b3b8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b, float_t c, float_t d, float_t e, float_t f, float_t g, float_t h);
 
-  /// @brief Method .ctor, addr 0x4528024, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b288, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int16_t a, int16_t b, int16_t c, int16_t d, int16_t e, int16_t f, int16_t g, int16_t h, int16_t i, int16_t j, int16_t k, int16_t l, int16_t m, int16_t n, int16_t o, int16_t p);
 
-  /// @brief Method .ctor, addr 0x452810c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b370, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t a, int32_t b, int32_t c, int32_t d, int32_t e, int32_t f, int32_t g, int32_t h);
 
-  /// @brief Method .ctor, addr 0x452818c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b3f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int64_t a, int64_t b, int64_t c, int64_t d);
 
-  /// @brief Method .ctor, addr 0x4527f30, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b194, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(int8_t a, int8_t b, int8_t c, int8_t d, int8_t e, int8_t f, int8_t g, int8_t h, int8_t i, int8_t j, int8_t k, int8_t l, int8_t m, int8_t n, int8_t o, int8_t p, int8_t q, int8_t r,
                     int8_t s, int8_t t, int8_t u, int8_t v, int8_t w, int8_t x, int8_t y, int8_t z, int8_t A, int8_t B, int8_t C, int8_t D, int8_t E, int8_t F);
 
-  /// @brief Method .ctor, addr 0x4528098, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b2fc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(uint16_t a, uint16_t b, uint16_t c, uint16_t d, uint16_t e, uint16_t f, uint16_t g, uint16_t h, uint16_t i, uint16_t j, uint16_t k, uint16_t l, uint16_t m, uint16_t n, uint16_t o,
                     uint16_t p);
 
-  /// @brief Method .ctor, addr 0x4528130, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b394, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint32_t a, uint32_t b, uint32_t c, uint32_t d, uint32_t e, uint32_t f, uint32_t g, uint32_t h);
 
-  /// @brief Method .ctor, addr 0x45281a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b408, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t a, uint64_t b, uint64_t c, uint64_t d);
 
-  /// @brief Method .ctor, addr 0x4527e30, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b094, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t a, uint8_t b, uint8_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k, uint8_t l, uint8_t m, uint8_t n, uint8_t o, uint8_t p,
                     uint8_t q, uint8_t r, uint8_t s, uint8_t t, uint8_t u, uint8_t v, uint8_t w, uint8_t x, uint8_t y, uint8_t z, uint8_t A, uint8_t B, uint8_t C, uint8_t D, uint8_t E, uint8_t F);
 
-  /// @brief Method .ctor, addr 0x4527f18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b17c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int8_t b);
 
-  /// @brief Method .ctor, addr 0x4527e18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b07c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint8_t b);
 
-  /// @brief Method .ctor, addr 0x4528168, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b3cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(double_t f);
 
-  /// @brief Method .ctor, addr 0x4528148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b3ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t f);
 
-  /// @brief Method .ctor, addr 0x4528180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b3e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int64_t f);
 
-  /// @brief Method .ctor, addr 0x4528198, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b3fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t f);
 
-  /// @brief Method .ctor, addr 0x45281b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b414, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::Intrinsics::v128 lo, ::Unity::Burst::Intrinsics::v128 hi);
 
-  /// @brief Method .ctor, addr 0x4528018, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b27c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int16_t v);
 
-  /// @brief Method .ctor, addr 0x4528100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b364, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t v);
 
-  /// @brief Method .ctor, addr 0x452808c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b2f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint16_t v);
 
-  /// @brief Method .ctor, addr 0x4528124, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452b388, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t v);
 
   // Ctor Parameters []
@@ -3251,7 +3251,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14645 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

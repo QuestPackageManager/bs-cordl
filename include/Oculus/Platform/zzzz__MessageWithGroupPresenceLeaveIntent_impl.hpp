@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithGroupPresenceLeaveIntent::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithGroupPresenceLeaveIntent::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7a9ec;
+  constexpr static std::size_t addrs = 0x3f7dc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::GroupPresenceLeaveIntent* (::Oculus::Platform::MessageWithGroupPresenceLeaveIntent::*)()>(
     &::Oculus::Platform::MessageWithGroupPresenceLeaveIntent::GetGroupPresenceLeaveIntent)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7d2d4;
+  constexpr static std::size_t addrs = 0x3f80538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::GroupPresenceLeaveIntent* (
     ::Oculus::Platform::MessageWithGroupPresenceLeaveIntent::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithGroupPresenceLeaveIntent::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7d310;
+  constexpr static std::size_t addrs = 0x3f80574;
 
   inline static ::MethodInfo const* methodInfo() {
 

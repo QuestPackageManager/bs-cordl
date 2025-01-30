@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_Item)) ::System::Xml::Serialization::XmlArrayItemAttribute* Item[];
 
-  /// @brief Method Add, addr 0x436d444, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x43706a8, size 0xb8, virtual false, abstract: false, final false
   inline int32_t Add(::System::Xml::Serialization::XmlArrayItemAttribute* attribute);
 
-  /// @brief Method AddKeyHash, addr 0x436d4fc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x4370760, size 0xcc, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlArrayItemAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x436d5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x437082c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x436d344, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43705a8, size 0x100, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlArrayItemAttribute* get_Item(int32_t index);
 
 protected:
@@ -56,7 +56,7 @@ public:
   XmlArrayItemAttributes(XmlArrayItemAttributes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7409 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

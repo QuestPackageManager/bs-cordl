@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_platformToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x407f210, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4082474, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
 protected:
@@ -61,7 +61,7 @@ public:
   GetXPlatformAccessTokenRequestSony(GetXPlatformAccessTokenRequestSony const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18757 };
 
   /// @brief Field platformToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___platformToken;

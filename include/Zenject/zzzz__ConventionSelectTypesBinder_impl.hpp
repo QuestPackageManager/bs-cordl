@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ConventionSelectTypesBinder___c::*)()>(&::Zenject::ConventionSelectTypesBinder___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b01a28;
+  constexpr static std::size_t addrs = 0x4b04c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConventionSelectTypesBinder___c*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ConventionSelectTypesBinder___c::*)(::System::Type*)>(
     &::Zenject::ConventionSelectTypesBinder___c::_AllClasses_b__4_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b01a30;
+  constexpr static std::size_t addrs = 0x4b04c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ConventionSelectTypesBinder___c::*)(::System::Type*)>(
     &::Zenject::ConventionSelectTypesBinder___c::_AllNonAbstractClasses_b__5_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4b01a48;
+  constexpr static std::size_t addrs = 0x4b04cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ConventionSelectTypesBinder___c::*)(::System::Type*)>(
     &::Zenject::ConventionSelectTypesBinder___c::_AllAbstractClasses_b__6_0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4b01a8c;
+  constexpr static std::size_t addrs = 0x4b04cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ConventionSelectTypesBinder___c::*)(::System::Type*)>(
     &::Zenject::ConventionSelectTypesBinder___c::_AllInterfaces_b__7_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b01ac8;
+  constexpr static std::size_t addrs = 0x4b04d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::ConventionSelectTypesBinder___c::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b01ae0;
+  constexpr static std::size_t addrs = 0x4b04d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ConventionSelectTypesBinder___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b01b34;
+  constexpr static std::size_t addrs = 0x4b04d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConventionSelectTypesBinder___c*>::get(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ConventionSelectTypesBinder::*)(::Zenject::ConventionBindInfo*)>(
     &::Zenject::ConventionSelectTypesBinder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4afd7c0;
+  constexpr static std::size_t addrs = 0x4b00a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConventionFilterTypesBinder* (::Zenject::ConventionSelectTypesBinder::*)()>(
     &::Zenject::ConventionSelectTypesBinder::CreateNextBinder)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4b015b8;
+  constexpr static std::size_t addrs = 0x4b0481c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConventionSelectTypesBinder*>::get(),
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConventionFilterTypesBinder* (::Zenject::ConventionSelectTypesBinder::*)()>(
     &::Zenject::ConventionSelectTypesBinder::AllTypes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b01618;
+  constexpr static std::size_t addrs = 0x4b0487c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConventionSelectTypesBinder*>::get(), "AllTypes",
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConventionFilterTypesBinder* (::Zenject::ConventionSelectTypesBinder::*)()>(
     &::Zenject::ConventionSelectTypesBinder::AllClasses)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4b0161c;
+  constexpr static std::size_t addrs = 0x4b04880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConventionSelectTypesBinder*>::get(), "AllClasses",
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConventionFilterTypesBinder* (::Zenject::ConventionSelectTypesBinder::*)()>(
     &::Zenject::ConventionSelectTypesBinder::AllNonAbstractClasses)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4b01708;
+  constexpr static std::size_t addrs = 0x4b0496c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConventionSelectTypesBinder*>::get(),
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConventionFilterTypesBinder* (::Zenject::ConventionSelectTypesBinder::*)()>(
     &::Zenject::ConventionSelectTypesBinder::AllAbstractClasses)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4b017f4;
+  constexpr static std::size_t addrs = 0x4b04a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConventionSelectTypesBinder*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConventionFilterTypesBinder* (::Zenject::ConventionSelectTypesBinder::*)()>(
     &::Zenject::ConventionSelectTypesBinder::AllInterfaces)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4b018e0;
+  constexpr static std::size_t addrs = 0x4b04b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConventionSelectTypesBinder*>::get(), "AllInterfaces",

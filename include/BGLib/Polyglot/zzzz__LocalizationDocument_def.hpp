@@ -72,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x22ad25c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ae038, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DocsId, addr 0x22ad244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DocsId, addr 0x22ae020, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DocsId();
 
-  /// @brief Method get_Format, addr 0x22ad254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x22ae030, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_SheetId, addr 0x22ad24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SheetId, addr 0x22ae028, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SheetId();
 
-  /// @brief Method get_TextAsset, addr 0x22ad23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x22ae018, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -102,7 +102,7 @@ public:
   LocalizationDocument(LocalizationDocument const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18052 };
 
   /// @brief Field docsId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___docsId;

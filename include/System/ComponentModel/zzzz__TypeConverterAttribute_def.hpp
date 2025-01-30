@@ -34,10 +34,10 @@ public:
   /// @brief Field <ConverterTypeName>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ConverterTypeName_k__BackingField, put = __cordl_internal_set__ConverterTypeName_k__BackingField)) ::StringW _ConverterTypeName_k__BackingField;
 
-  /// @brief Method Equals, addr 0x445a2e8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x445d54c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x445a368, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x445d5cc, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor();
@@ -52,18 +52,18 @@ public:
 
   constexpr void __cordl_internal_set__ConverterTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x445a218, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445d47c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x445a274, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445d4d8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x445a2b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445d51c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
   static inline ::System::ComponentModel::TypeConverterAttribute* getStaticF_Default();
 
-  /// @brief Method get_ConverterTypeName, addr 0x445a2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterTypeName, addr 0x445d544, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ConverterTypeName();
 
   static inline void setStaticF_Default(::System::ComponentModel::TypeConverterAttribute* value);
@@ -83,7 +83,7 @@ public:
   TypeConverterAttribute(TypeConverterAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9421 };
 
   /// @brief Field <ConverterTypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ConverterTypeName_k__BackingField;

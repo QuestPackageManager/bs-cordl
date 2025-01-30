@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)()>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::get_formatString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4566c80;
+  constexpr static std::size_t addrs = 0x4569ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::set_formatString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4566c88;
+  constexpr static std::size_t addrs = 0x4569eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4566c90;
+  constexpr static std::size_t addrs = 0x4569ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

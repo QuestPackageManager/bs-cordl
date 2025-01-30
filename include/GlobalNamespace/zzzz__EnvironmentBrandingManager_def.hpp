@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x3ad780c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ada650, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool hideBranding);
 
 protected:
@@ -58,7 +58,7 @@ public:
   EnvironmentBrandingManager_InitData(EnvironmentBrandingManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4044 };
 
   /// @brief Field hideBranding, offset: 0x10, size: 0x1, def value: None
   bool ___hideBranding;
@@ -95,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentBrandingManager* New_ctor();
 
-  /// @brief Method Start, addr 0x3ad7738, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ada57c, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__brandingObjects() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set__replacementBrandingObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3ad7804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ada648, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +134,7 @@ public:
   EnvironmentBrandingManager(EnvironmentBrandingManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4045 };
 
   /// @brief Field _brandingObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____brandingObjects;

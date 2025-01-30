@@ -40,13 +40,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x460ef9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4612200, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time);
 
-  /// @brief Method Create, addr 0x460f014, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4612278, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time);
 
-  /// @brief Method From, addr 0x460ee78, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x46120dc, size 0x124, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_character(int32_t value);
 
-  /// @brief Method get_typeStatic, addr 0x460ee6c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x46120d0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
@@ -113,7 +113,7 @@ public:
   static constexpr int32_t Type{ static_cast<int32_t>(0x54455854) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6955 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

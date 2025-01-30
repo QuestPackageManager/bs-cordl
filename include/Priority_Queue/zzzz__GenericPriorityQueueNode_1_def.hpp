@@ -92,7 +92,7 @@ public:
   GenericPriorityQueueNode_1(GenericPriorityQueueNode_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16938 };
 
   /// @brief Field <Priority>k__BackingField, offset: 0x10, size: 0x8, def value: None
   TPriority ____Priority_k__BackingField;

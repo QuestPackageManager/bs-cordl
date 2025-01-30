@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3be7fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bedf28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   SetSaberBladeParams_PropertyTintColorPair(SetSaberBladeParams_PropertyTintColorPair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4667 };
 
   /// @brief Field tintColor, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ___tintColor;
@@ -119,7 +119,7 @@ public:
 
   static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
 
-  /// @brief Method Start, addr 0x3be7eac, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bede1c, size 0x104, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x3be7fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bedf20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,7 +167,7 @@ public:
   SetSaberBladeParams(SetSaberBladeParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4668 };
 
   /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;

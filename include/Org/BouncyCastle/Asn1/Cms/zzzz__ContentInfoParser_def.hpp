@@ -39,7 +39,7 @@ public:
   /// @brief Field contentType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
 
-  /// @brief Method GetContent, addr 0x230307c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x2304098, size 0xbc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetContent(int32_t tag);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23006cc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23016e8, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_ContentType, addr 0x2303074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x2304090, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
 protected:

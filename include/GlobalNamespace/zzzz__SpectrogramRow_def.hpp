@@ -45,12 +45,12 @@ public:
   /// @brief Field _spectrogramDataID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__spectrogramDataID, put = setStaticF__spectrogramDataID)) int32_t _spectrogramDataID;
 
-  /// @brief Method Awake, addr 0x3b9af54, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ba0d78, size 0xa0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::SpectrogramRow* New_ctor();
 
-  /// @brief Method Update, addr 0x3b9aff4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba0e18, size 0x120, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__dataIndex() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
-  /// @brief Method .ctor, addr 0x3b9b114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba0f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
@@ -97,7 +97,7 @@ public:
   SpectrogramRow(SpectrogramRow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4375 };
 
   /// @brief Field _meshRenderers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> ____meshRenderers;

@@ -37,19 +37,19 @@ namespace System::IO {
 class CORDL_TYPE DirectoryInfo : public ::System::IO::FileSystemInfo {
 public:
   // Declarations
-  /// @brief Method Delete, addr 0x3d65344, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Delete, addr 0x3d685a8, size 0xc, virtual true, abstract: false, final false
   inline void Delete();
 
-  /// @brief Method GetDirectories, addr 0x3d65044, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetDirectories, addr 0x3d682a8, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::IO::DirectoryInfo*, ::Array<::System::IO::DirectoryInfo*>*> GetDirectories();
 
-  /// @brief Method GetDirectories, addr 0x3d650ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDirectories, addr 0x3d68350, size 0xa0, virtual false, abstract: false, final false
   inline ::ArrayW<::System::IO::DirectoryInfo*, ::Array<::System::IO::DirectoryInfo*>*> GetDirectories(::StringW searchPattern, ::System::IO::EnumerationOptions* enumerationOptions);
 
-  /// @brief Method Init, addr 0x3d64dac, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d68010, size 0x298, virtual false, abstract: false, final false
   inline void Init(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method InternalEnumerateInfos, addr 0x3d6518c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method InternalEnumerateInfos, addr 0x3d683f0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::IO::FileSystemInfo*>* InternalEnumerateInfos(::StringW path, ::StringW searchPattern, ::System::IO::SearchTarget searchTarget,
                                                                                                                      ::System::IO::EnumerationOptions* options);
 
@@ -59,13 +59,13 @@ public:
 
   static inline ::System::IO::DirectoryInfo* New_ctor(::StringW path);
 
-  /// @brief Method .ctor, addr 0x3d65414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d68678, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d64318, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d6757c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method .ctor, addr 0x3d63b7c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d66de0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
 protected:

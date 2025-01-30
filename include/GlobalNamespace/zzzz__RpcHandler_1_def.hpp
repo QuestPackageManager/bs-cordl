@@ -162,7 +162,7 @@ public:
   RpcHandler_1___c__DisplayClass10_0_1(RpcHandler_1___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14950 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___callback;
@@ -212,7 +212,7 @@ public:
   RpcHandler_1___c__DisplayClass11_0_2(RpcHandler_1___c__DisplayClass11_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14951 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::StringW, T0>* ___callback;
@@ -262,7 +262,7 @@ public:
   RpcHandler_1___c__DisplayClass12_0_3(RpcHandler_1___c__DisplayClass12_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14952 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_3<::StringW, T0, T1>* ___callback;
@@ -312,7 +312,7 @@ public:
   RpcHandler_1___c__DisplayClass13_0_4(RpcHandler_1___c__DisplayClass13_0_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14953 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_4<::StringW, T0, T1, T2>* ___callback;
@@ -362,7 +362,7 @@ public:
   RpcHandler_1___c__DisplayClass14_0_5(RpcHandler_1___c__DisplayClass14_0_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14954 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_5<::StringW, T0, T1, T2, T3>* ___callback;
@@ -412,7 +412,7 @@ public:
   RpcHandler_1___c__DisplayClass15_0_1(RpcHandler_1___c__DisplayClass15_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14955 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::StringW, int64_t>* ___callback;
@@ -462,7 +462,7 @@ public:
   RpcHandler_1___c__DisplayClass16_0_2(RpcHandler_1___c__DisplayClass16_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14956 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_3<::StringW, int64_t, T0>* ___callback;
@@ -512,7 +512,7 @@ public:
   RpcHandler_1___c__DisplayClass17_0_3(RpcHandler_1___c__DisplayClass17_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14957 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_4<::StringW, int64_t, T0, T1>* ___callback;
@@ -562,7 +562,7 @@ public:
   RpcHandler_1___c__DisplayClass18_0_4(RpcHandler_1___c__DisplayClass18_0_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14958 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_5<::StringW, int64_t, T0, T1, T2>* ___callback;
@@ -612,7 +612,7 @@ public:
   RpcHandler_1___c__DisplayClass19_0_5(RpcHandler_1___c__DisplayClass19_0_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14959 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_6<::StringW, int64_t, T0, T1, T2, T3>* ___callback;
@@ -662,7 +662,7 @@ public:
   RpcHandler_1___c__DisplayClass20_0_1(RpcHandler_1___c__DisplayClass20_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14960 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>* ___callback;
@@ -803,7 +803,7 @@ public:
   RpcHandler_1(RpcHandler_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14961 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

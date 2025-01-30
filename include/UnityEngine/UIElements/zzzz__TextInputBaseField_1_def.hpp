@@ -193,7 +193,7 @@ public:
   TextInputBaseField_1_UxmlTraits(TextInputBaseField_1_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5613 };
 
   /// @brief Field m_MaxLength, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_MaxLength;
@@ -511,7 +511,7 @@ public:
   TextInputBaseField_1_TextInputBase(TextInputBaseField_1_TextInputBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5614 };
 
   /// @brief Field <textElement>k__BackingField, offset: 0x3c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextElement* ____textElement_k__BackingField;
@@ -765,7 +765,7 @@ public:
   TextInputBaseField_1(TextInputBaseField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5615 };
 
   /// @brief Field m_VisualInputTabIndex, offset: 0x440, size: 0x4, def value: None
   int32_t ___m_VisualInputTabIndex;
