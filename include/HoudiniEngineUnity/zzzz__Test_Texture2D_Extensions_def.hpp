@@ -48,13 +48,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Texture2D_Extensions___c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a9c3c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a9e854, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Texture2D* _ToTestObject_b__1_0(::UnityEngine::Texture2D* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a9c424, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a9e8b0, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Texture2D* _ToTestObject_b__2_0(::UnityEngine::Texture2D* lod);
 
-  /// @brief Method .ctor, addr 0x3a9c3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9e84c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::Test_Texture2D_Extensions___c* getStaticF___9();
@@ -84,7 +84,7 @@ public:
   Test_Texture2D_Extensions___c(Test_Texture2D_Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::Test_Texture2D_Extensions___c;
 
-  /// @brief Method ToTestObject, addr 0x3a9c17c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a9e608, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Texture2D*, ::Array<::HoudiniEngineUnity::Test_Texture2D*>*>
   ToTestObject(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a9bc30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a9e0bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Texture2D* ToTestObject(::UnityEngine::Texture2D* self);
 
-  /// @brief Method ToTestObject, addr 0x3a9c26c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a9e6f8, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Texture2D*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Texture2D>>* self);
 
 protected:
@@ -126,7 +126,7 @@ public:
   Test_Texture2D_Extensions(Test_Texture2D_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

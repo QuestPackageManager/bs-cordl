@@ -27,19 +27,19 @@ public:
 
   __declspec(property(get = get_size)) float_t size;
 
-  /// @brief Method GetLODs, addr 0x4884ad8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLODs, addr 0x4887d3c, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> GetLODs();
 
-  /// @brief Method RecalculateBounds, addr 0x4884a9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBounds, addr 0x4887d00, size 0x3c, virtual false, abstract: false, final false
   inline void RecalculateBounds();
 
-  /// @brief Method SetLODs, addr 0x4884b14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLODs, addr 0x4887d78, size 0x44, virtual false, abstract: false, final false
   inline void SetLODs(::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> lods);
 
-  /// @brief Method get_lodCount, addr 0x4884a60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_lodCount, addr 0x4887cc4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_lodCount();
 
-  /// @brief Method get_size, addr 0x4884a24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x4887c88, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_size();
 
 protected:
@@ -57,7 +57,7 @@ public:
   LODGroup(LODGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10780 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

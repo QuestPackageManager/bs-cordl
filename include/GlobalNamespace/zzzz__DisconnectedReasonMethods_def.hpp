@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE DisconnectedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x26d9b24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x26dad78, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method LocalizedKey, addr 0x26d9a7c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x26dacd0, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason);
 
 protected:
@@ -43,7 +43,7 @@ public:
   DisconnectedReasonMethods(DisconnectedReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13088 };
 
   /// @brief Field kDisconnectedKicked offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisconnectedKicked{ u"DISCONNECTED_KICKED" };

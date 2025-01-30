@@ -32,19 +32,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE VRPlatformUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x39c73a0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x39c982c, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxisDefaultImplementation(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x39c6c24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x39c90b0, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDefaultImplementation();
 
-  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x39c6ca0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x39c912c, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDownDefaultImplementation();
 
-  /// @brief Method StopXR, addr 0x39c74d8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method StopXR, addr 0x39c9964, size 0x100, virtual false, abstract: false, final false
   static inline void StopXR(::GlobalNamespace::IVerboseLogger* logger);
 
-  /// @brief Method TriggerValueDefaultImplementation, addr 0x39c7320, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method TriggerValueDefaultImplementation, addr 0x39c97ac, size 0x80, virtual false, abstract: false, final false
   static inline float_t TriggerValueDefaultImplementation(::UnityEngine::XR::XRNode node);
 
 protected:
@@ -62,7 +62,7 @@ public:
   VRPlatformUtils(VRPlatformUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16465 };
 
   /// @brief Field kMenuButtonLeftHand offset 0xffffffff size 0x8
   static constexpr ::ConstString kMenuButtonLeftHand{ u"OpenXRPrimaryButtonLeftHand" };

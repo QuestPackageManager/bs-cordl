@@ -43,10 +43,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PropagationPaths___c* New_ctor();
 
-  /// @brief Method <.cctor>b__12_0, addr 0x4a32368, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__12_0, addr 0x4a355cc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PropagationPaths* __cctor_b__12_0();
 
-  /// @brief Method .ctor, addr 0x4a32360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a355c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PropagationPaths___c* getStaticF___9();
@@ -68,7 +68,7 @@ public:
   PropagationPaths___c(PropagationPaths___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,12 +100,12 @@ public:
   __declspec(property(get = __cordl_internal_get_trickleDownPath,
                       put = __cordl_internal_set_trickleDownPath)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* trickleDownPath;
 
-  /// @brief Method Build, addr 0x4a20dbc, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x4a24020, size 0x2a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::PropagationPaths* New_ctor();
 
-  /// @brief Method Release, addr 0x4a25088, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4a282ec, size 0x110, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_bubbleUpPath() const;
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_trickleDownPath(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x4a32138, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3539c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* getStaticF_s_Pool();
@@ -148,7 +148,7 @@ public:
   PropagationPaths(PropagationPaths const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5930 };
 
   /// @brief Field k_DefaultPropagationDepth offset 0xffffffff size 0x4
   static constexpr int32_t k_DefaultPropagationDepth{ static_cast<int32_t>(0x10) };

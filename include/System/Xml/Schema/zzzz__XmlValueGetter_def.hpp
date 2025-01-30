@@ -24,12 +24,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlValueGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x42c9308, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x42cc56c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::Xml::Schema::XmlValueGetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x42c9280, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42cc4e4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -47,7 +47,7 @@ public:
   XmlValueGetter(XmlValueGetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

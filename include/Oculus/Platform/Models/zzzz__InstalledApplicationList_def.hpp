@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::InstalledApplicationList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x3f8fc1c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f92e80, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -44,7 +44,7 @@ public:
   InstalledApplicationList(InstalledApplicationList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15523 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -41,7 +41,7 @@ public:
 
   static inline ::Mono::Net::Security::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ToString, addr 0x410eda4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4112008, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
@@ -74,13 +74,13 @@ public:
 
   constexpr void __cordl_internal_set_TotalBytes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x410ecac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4111f10, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method get_EndOffset, addr 0x410ec78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_EndOffset, addr 0x4111edc, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_EndOffset();
 
-  /// @brief Method get_Remaining, addr 0x410ec84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x4111ee8, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -98,7 +98,7 @@ public:
   BufferOffsetSize(BufferOffsetSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9133 };
 
   /// @brief Field Buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Buffer;

@@ -36,11 +36,11 @@ public:
   // Declarations
   __declspec(property(get = get_isReadable)) bool isReadable;
 
-  /// @brief Method Internal_Create, addr 0x4894bf0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x4897e54, size 0xd4, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method Internal_CreateImpl, addr 0x4894b6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl, addr 0x4897dd0, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl(::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                          ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
@@ -66,39 +66,39 @@ public:
 
   static inline ::UnityEngine::CubemapArray* New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized);
 
-  /// @brief Method ValidateIsNotCrunched, addr 0x4894ee0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ValidateIsNotCrunched, addr 0x4898144, size 0x54, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x4894cc4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4897f28, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x4894da0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4898004, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x4894d10, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4897f74, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x4894df4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4898058, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x4895208, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489846c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
-  /// @brief Method .ctor, addr 0x4895160, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48983c4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear);
 
-  /// @brief Method .ctor, addr 0x48950ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4898310, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear, bool createUninitialized);
 
-  /// @brief Method .ctor, addr 0x48950a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4898304, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear);
 
-  /// @brief Method .ctor, addr 0x4894f34, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4898198, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized);
 
-  /// @brief Method get_isReadable, addr 0x4894b30, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x4897d94, size 0x3c, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
 protected:
@@ -116,7 +116,7 @@ public:
   CubemapArray(CubemapArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

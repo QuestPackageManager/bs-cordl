@@ -71,7 +71,7 @@ public:
   SubContainerCreatorByMethod_2(SubContainerCreatorByMethod_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12589 };
 
   /// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* ____installMethod;

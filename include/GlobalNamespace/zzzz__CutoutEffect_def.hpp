@@ -57,13 +57,13 @@ public:
 
   static inline ::GlobalNamespace::CutoutEffect* New_ctor();
 
-  /// @brief Method SetCutout, addr 0x3b7c4ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetCutout, addr 0x3b820ac, size 0xc4, virtual false, abstract: false, final false
   inline void SetCutout(float_t cutout);
 
-  /// @brief Method SetCutout, addr 0x3b7c81c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetCutout, addr 0x3b823b8, size 0xe4, virtual false, abstract: false, final false
   inline void SetCutout(float_t cutout, ::UnityEngine::Vector3 cutoutOffset);
 
-  /// @brief Method Start, addr 0x3b7c7e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8237c, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__cutout() const;
@@ -96,14 +96,14 @@ public:
 
   constexpr void __cordl_internal_set__useRandomCutoutOffset(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x3b7c900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8249c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__cutoutPropertyID();
 
   static inline int32_t getStaticF__cutoutTexOffsetPropertyID();
 
-  /// @brief Method get_useRandomCutoutOffset, addr 0x3b7c74c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_useRandomCutoutOffset, addr 0x3b822e8, size 0x94, virtual false, abstract: false, final false
   inline bool get_useRandomCutoutOffset();
 
   static inline void setStaticF__cutoutPropertyID(int32_t value);
@@ -125,7 +125,7 @@ public:
   CutoutEffect(CutoutEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4202 };
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;

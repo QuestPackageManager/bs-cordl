@@ -66,10 +66,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerPositionHUDController* New_ctor();
 
-  /// @brief Method Start, addr 0x3ba4b48, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3baa5b4, size 0x150, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3ba4c98, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3baa704, size 0x1b0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -120,10 +120,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x3ba4e48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baa8b4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_alpha, addr 0x3ba4b2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3baa598, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
 protected:
@@ -141,7 +141,7 @@ public:
   MultiplayerPositionHUDController(MultiplayerPositionHUDController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4414 };
 
   /// @brief Field _playerCountText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerCountText;

@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4af0ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af4154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4af0ef8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af415c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x4af0f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4af4184, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x4af0f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x4af418c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   HtmlElementAttributesAttribute(HtmlElementAttributesAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18489 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

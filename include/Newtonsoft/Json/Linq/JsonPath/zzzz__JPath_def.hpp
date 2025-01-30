@@ -62,69 +62,69 @@ public:
   /// @brief Field _expression, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression)) ::StringW _expression;
 
-  /// @brief Method CreatePathFilter, addr 0x3f332ac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreatePathFilter, addr 0x3f36510, size 0x84, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* CreatePathFilter(::StringW member, bool scan);
 
-  /// @brief Method CreateUnexpectedCharacterException, addr 0x3f3486c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CreateUnexpectedCharacterException, addr 0x3f37ad0, size 0xe4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonException* CreateUnexpectedCharacterException();
 
-  /// @brief Method EatWhitespace, addr 0x3f32c60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EatWhitespace, addr 0x3f35ec4, size 0x54, virtual false, abstract: false, final false
   inline void EatWhitespace();
 
-  /// @brief Method EnsureLength, addr 0x3f33460, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EnsureLength, addr 0x3f366c4, size 0x6c, virtual false, abstract: false, final false
   inline void EnsureLength(::StringW message);
 
-  /// @brief Method Evaluate, addr 0x3f3562c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x3f38890, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
   Evaluate(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* filters, ::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
            ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method Evaluate, addr 0x3f355ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x3f38810, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Evaluate(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t,
                                                                                                     ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method Match, addr 0x3f35054, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x3f382b8, size 0xb0, virtual false, abstract: false, final false
   inline bool Match(::StringW s);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::JPath* New_ctor(::StringW expression);
 
-  /// @brief Method ParseArrayIndexer, addr 0x3f33a08, size 0x780, virtual false, abstract: false, final false
+  /// @brief Method ParseArrayIndexer, addr 0x3f36c6c, size 0x780, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* ParseArrayIndexer(char16_t indexerCloseChar);
 
-  /// @brief Method ParseExpression, addr 0x3f34188, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method ParseExpression, addr 0x3f373ec, size 0x49c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JsonPath::QueryExpression* ParseExpression();
 
-  /// @brief Method ParseIndexer, addr 0x3f33330, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ParseIndexer, addr 0x3f36594, size 0x108, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* ParseIndexer(char16_t indexerOpenChar, bool scan);
 
-  /// @brief Method ParseMain, addr 0x3f32afc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ParseMain, addr 0x3f35d60, size 0x164, virtual false, abstract: false, final false
   inline void ParseMain();
 
-  /// @brief Method ParseOperator, addr 0x3f34db8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ParseOperator, addr 0x3f3801c, size 0x260, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JsonPath::QueryOperator ParseOperator();
 
-  /// @brief Method ParsePath, addr 0x3f32cb4, size 0x5f8, virtual false, abstract: false, final false
+  /// @brief Method ParsePath, addr 0x3f35f18, size 0x5f8, virtual false, abstract: false, final false
   inline bool ParsePath(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* filters, int32_t currentPartStartIndex, bool query);
 
-  /// @brief Method ParseQuery, addr 0x3f33838, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ParseQuery, addr 0x3f36a9c, size 0x1d0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* ParseQuery(char16_t indexerCloseChar, bool scan);
 
-  /// @brief Method ParseQuotedField, addr 0x3f334cc, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method ParseQuotedField, addr 0x3f36730, size 0x36c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* ParseQuotedField(char16_t indexerCloseChar, bool scan);
 
-  /// @brief Method ParseSide, addr 0x3f34950, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ParseSide, addr 0x3f37bb4, size 0x110, virtual false, abstract: false, final false
   inline ::System::Object* ParseSide();
 
-  /// @brief Method ReadQuotedString, addr 0x3f3518c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ReadQuotedString, addr 0x3f383f0, size 0x28c, virtual false, abstract: false, final false
   inline ::StringW ReadQuotedString();
 
-  /// @brief Method ReadRegexString, addr 0x3f35418, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ReadRegexString, addr 0x3f3867c, size 0x16c, virtual false, abstract: false, final false
   inline ::StringW ReadRegexString();
 
-  /// @brief Method TryParseExpression, addr 0x3f34674, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method TryParseExpression, addr 0x3f378d8, size 0x1f8, virtual false, abstract: false, final false
   inline bool TryParseExpression(::ByRef<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*> expressionPath);
 
-  /// @brief Method TryParseValue, addr 0x3f34a60, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x3f37cc4, size 0x358, virtual false, abstract: false, final false
   inline bool TryParseValue(::ByRef<::System::Object*> value);
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* const& __cordl_internal_get__Filters_k__BackingField() const;
@@ -145,12 +145,12 @@ public:
 
   constexpr void __cordl_internal_set__expression(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f32a44, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f35ca8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW expression);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_FloatCharacters();
 
-  /// @brief Method get_Filters, addr 0x3f32a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Filters, addr 0x3f35ca0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* get_Filters();
 
   static inline void setStaticF_FloatCharacters(::ArrayW<char16_t, ::Array<char16_t>*> value);
@@ -170,7 +170,7 @@ public:
   JPath(JPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10447 };
 
   /// @brief Field _expression, offset: 0x10, size: 0x8, def value: None
   ::StringW ____expression;

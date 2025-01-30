@@ -52,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x3afebe8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x3b02c34, size 0x44, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get___4__this() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3afeb40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b02b8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   DisconnectPromptView___c__DisplayClass12_0(DisconnectPromptView___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4972 };
 
   /// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___finishedCallback;
@@ -133,24 +133,24 @@ public:
   /// @brief Field didViewFinishEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_didViewFinishEvent, put = __cordl_internal_set_didViewFinishEvent)) ::System::Action_1<bool>* didViewFinishEvent;
 
-  /// @brief Method Hide, addr 0x3afea78, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3b02ac4, size 0xc8, virtual false, abstract: false, final false
   inline void Hide(::System::Action* finishedCallback);
 
   static inline ::GlobalNamespace::DisconnectPromptView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3afea24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b02a70, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3afe934, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b02980, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Show, addr 0x3afea40, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3b02a8c, size 0x38, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method <OnEnable>b__9_0, addr 0x3afeba8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_0, addr 0x3b02bf4, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_0();
 
-  /// @brief Method <OnEnable>b__9_1, addr 0x3afebc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_1, addr 0x3b02c14, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_1();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -195,13 +195,13 @@ public:
 
   constexpr void __cordl_internal_set_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3afeb48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b02b94, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didViewFinishEvent, addr 0x3afe7d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didViewFinishEvent, addr 0x3b02820, size 0xb0, virtual false, abstract: false, final false
   inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_didViewFinishEvent, addr 0x3afe884, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didViewFinishEvent, addr 0x3b028d0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didViewFinishEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -219,7 +219,7 @@ public:
   DisconnectPromptView(DisconnectPromptView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4973 };
 
   /// @brief Field _presentPanelAnimation, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;

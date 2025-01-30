@@ -63,22 +63,22 @@ public:
   /// @brief Method SetLightColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color lightColor);
 
-  /// @brief Method SetOptionalDataProvider, addr 0x2248804, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method SetOptionalDataProvider, addr 0x22495e0, size 0x1e8, virtual false, abstract: false, final false
   inline void SetOptionalDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* optionalDataProvider);
 
-  /// @brief Method SetPoseDataProvider, addr 0x2248508, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method SetPoseDataProvider, addr 0x22492e4, size 0x218, virtual false, abstract: false, final false
   inline void SetPoseDataProvider(::BeatSaber::AvatarCore::IAvatarPoseDataProvider* poseDataProvider);
 
-  /// @brief Method SetVisualDataProvider, addr 0x2248720, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetVisualDataProvider, addr 0x22494fc, size 0xe4, virtual false, abstract: false, final false
   inline void SetVisualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* visualDataProvider);
 
-  /// @brief Method UpdateAvatarFromOptionalData, addr 0x2248b44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarFromOptionalData, addr 0x2249920, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data);
 
   /// @brief Method UpdateAvatarFromOptionalData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data, float_t playbackDelaySeconds);
 
-  /// @brief Method UpdateAvatarFromOptionalDataList, addr 0x22489ec, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarFromOptionalDataList, addr 0x22497c8, size 0x158, virtual false, abstract: false, final false
   inline void UpdateAvatarFromOptionalDataList(::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* optionalData);
 
   /// @brief Method UpdateAvatarFromPose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x2248c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22499ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_bodyCenterWorldPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -126,7 +126,7 @@ public:
   Avatar(Avatar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17550 };
 
   /// @brief Field visualDataProvider, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* ___visualDataProvider;

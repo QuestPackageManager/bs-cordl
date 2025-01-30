@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set_Renderable(::Zenject::IGuiRenderable* value);
 
-  /// @brief Method __zenCreate, addr 0x4b45cfc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b48f60, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b45e08, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4906c, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b455ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b48810, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IGuiRenderable* renderable, int32_t priority);
 
 protected:
@@ -105,7 +105,7 @@ public:
   GuiRenderableManager_RenderableInfo(GuiRenderableManager_RenderableInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12652 };
 
   /// @brief Field Renderable, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IGuiRenderable* ___Renderable;
@@ -141,19 +141,19 @@ public:
 
   static inline ::Zenject::GuiRenderableManager___c* New_ctor();
 
-  /// @brief Method <.ctor>b__1_0, addr 0x4b4617c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_0, addr 0x4b493e0, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__1_0(::Zenject::GuiRenderableManager_RenderableInfo* x);
 
-  /// @brief Method <.ctor>b__1_2, addr 0x4b46164, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_2, addr 0x4b493c8, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__1_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x4b46194, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b493f8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b461e8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4944c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b4615c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b493c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::GuiRenderableManager___c* getStaticF___9();
@@ -183,7 +183,7 @@ public:
   GuiRenderableManager___c(GuiRenderableManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -209,16 +209,16 @@ public:
 
   constexpr void __cordl_internal_set_renderable(::Zenject::IGuiRenderable* value);
 
-  /// @brief Method <.ctor>b__1, addr 0x4b463a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1, addr 0x4b49604, size 0x80, virtual false, abstract: false, final false
   inline bool __ctor_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x4b46420, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b49684, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b46474, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b496d8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b455a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b48808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -236,7 +236,7 @@ public:
   GuiRenderableManager___c__DisplayClass1_0(GuiRenderableManager___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12654 };
 
   /// @brief Field renderable, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IGuiRenderable* ___renderable;
@@ -269,7 +269,7 @@ public:
   static inline ::Zenject::GuiRenderableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                                                           ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
-  /// @brief Method OnGui, addr 0x4b455dc, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method OnGui, addr 0x4b48840, size 0x310, virtual false, abstract: false, final false
   inline void OnGui();
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager_RenderableInfo*>* const& __cordl_internal_get__renderables() const;
@@ -278,13 +278,13 @@ public:
 
   constexpr void __cordl_internal_set__renderables(::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager_RenderableInfo*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b458ec, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b48b50, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b45a04, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b48c68, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b4504c, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b482b0, size 0x558, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
@@ -303,7 +303,7 @@ public:
   GuiRenderableManager(GuiRenderableManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12655 };
 
   /// @brief Field _renderables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::GuiRenderableManager_RenderableInfo*>* ____renderables;

@@ -79,7 +79,7 @@ public:
   static ::UnityEngine::InputSystem::XInput::XInputController_DeviceType const Gamepad;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6758 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -170,7 +170,7 @@ public:
   static ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType const Wheel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6759 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -237,7 +237,7 @@ public:
   static ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags const Wireless;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6760 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -272,7 +272,7 @@ public:
                                           ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6761 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -336,12 +336,12 @@ public:
 
   __declspec(property(get = get_view, put = set_view)) ::UnityEngine::InputSystem::Controls::ButtonControl* view;
 
-  /// @brief Method FinishSetup, addr 0x45e786c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x45eaad0, size 0x20, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XInput::XInputController* New_ctor();
 
-  /// @brief Method ParseCapabilities, addr 0x45e77d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseCapabilities, addr 0x45eaa3c, size 0x70, virtual false, abstract: false, final false
   inline void ParseCapabilities();
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__menu_k__BackingField() const;
@@ -374,25 +374,25 @@ public:
 
   constexpr void __cordl_internal_set_m_SubType(::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType value);
 
-  /// @brief Method .ctor, addr 0x45e788c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45eaaf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flags, addr 0x45e7848, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x45eaaac, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags get_flags();
 
-  /// @brief Method get_menu, addr 0x45e7794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x45ea9f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();
 
-  /// @brief Method get_subType, addr 0x45e77b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_subType, addr 0x45eaa18, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType get_subType();
 
-  /// @brief Method get_view, addr 0x45e77a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_view, addr 0x45eaa08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_view();
 
-  /// @brief Method set_menu, addr 0x45e779c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x45eaa00, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_view, addr 0x45e77ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_view, addr 0x45eaa10, size 0x8, virtual false, abstract: false, final false
   inline void set_view(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -410,7 +410,7 @@ public:
   XInputController(XInputController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6762 };
 
   /// @brief Field <menu>k__BackingField, offset: 0x1f0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____menu_k__BackingField;

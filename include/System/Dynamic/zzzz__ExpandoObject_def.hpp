@@ -177,7 +177,7 @@ public:
   ExpandoObject_KeyCollectionDebugView(ExpandoObject_KeyCollectionDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,21 +220,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x40fe248, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x41014ac, size 0x14c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x40fe3c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x4101628, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40fe3cc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4101630, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40fe404, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4101668, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x40fe244, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x41014a8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -267,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set__n_5__3(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40fe21c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4101480, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
@@ -294,7 +294,7 @@ public:
   KeyCollection_ExpandoObject__GetEnumerator_d__15(KeyCollection_ExpandoObject__GetEnumerator_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14160 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -361,30 +361,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x40fdda8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x410100c, size 0x28, virtual true, abstract: false, final true
   inline void Add(::StringW item);
 
-  /// @brief Method CheckVersion, addr 0x40fdd48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckVersion, addr 0x4100fac, size 0x60, virtual false, abstract: false, final false
   inline void CheckVersion();
 
-  /// @brief Method Clear, addr 0x40fddd0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x4101034, size 0x28, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x40fddf8, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x410105c, size 0xf4, virtual true, abstract: false, final true
   inline bool Contains(::StringW item);
 
-  /// @brief Method CopyTo, addr 0x40fdeec, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x4101150, size 0x27c, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::StringW, ::Array<::StringW>*> array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x40fe1b0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x4101414, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
 
   static inline ::System::Dynamic::ExpandoObject_KeyCollection* New_ctor(::System::Dynamic::ExpandoObject* expando);
 
-  /// @brief Method Remove, addr 0x40fe188, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x41013ec, size 0x28, virtual true, abstract: false, final true
   inline bool Remove(::StringW item);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40fe218, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x410147c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Dynamic::ExpandoObject* const& __cordl_internal_get__expando() const;
@@ -411,13 +411,13 @@ public:
 
   constexpr void __cordl_internal_set__expandoVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40fcf40, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41001a4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::ExpandoObject* expando);
 
-  /// @brief Method get_Count, addr 0x40fe168, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x41013cc, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x40fe180, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x41013e4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::StringW>"
@@ -444,7 +444,7 @@ public:
   ExpandoObject_KeyCollection(ExpandoObject_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14161 };
 
   /// @brief Field _expando, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::ExpandoObject* ____expando;
@@ -494,7 +494,7 @@ public:
   ExpandoObject_ValueCollectionDebugView(ExpandoObject_ValueCollectionDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14162 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -537,21 +537,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x40feaa4, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4101d08, size 0x120, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x40febc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4101e28, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40febcc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4101e30, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40fec04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4101e68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x40feaa0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4101d04, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -584,7 +584,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40fea74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4101cd8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -611,7 +611,7 @@ public:
   ValueCollection_ExpandoObject__GetEnumerator_d__15(ValueCollection_ExpandoObject__GetEnumerator_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14163 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -678,30 +678,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x40fe55c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x41017c0, size 0x28, virtual true, abstract: false, final true
   inline void Add(::System::Object* item);
 
-  /// @brief Method CheckVersion, addr 0x40fe4fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckVersion, addr 0x4101760, size 0x60, virtual false, abstract: false, final false
   inline void CheckVersion();
 
-  /// @brief Method Clear, addr 0x40fe584, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x41017e8, size 0x28, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x40fe5ac, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x4101810, size 0x160, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* item);
 
-  /// @brief Method CopyTo, addr 0x40fe70c, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x4101970, size 0x274, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::System::Object*, ::Array<::System::Object*>*> array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x40fea14, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x4101c78, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Object*>* GetEnumerator();
 
   static inline ::System::Dynamic::ExpandoObject_ValueCollection* New_ctor(::System::Dynamic::ExpandoObject* expando);
 
-  /// @brief Method Remove, addr 0x40fe9ec, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x4101c50, size 0x28, virtual true, abstract: false, final true
   inline bool Remove(::System::Object* item);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40fea9c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4101d00, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Dynamic::ExpandoObject* const& __cordl_internal_get__expando() const;
@@ -728,13 +728,13 @@ public:
 
   constexpr void __cordl_internal_set__expandoVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40fe40c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4101670, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::ExpandoObject* expando);
 
-  /// @brief Method get_Count, addr 0x40fe9cc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x4101c30, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x40fe9e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x4101c48, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Object*>"
@@ -761,7 +761,7 @@ public:
   ExpandoObject_ValueCollection(ExpandoObject_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14164 };
 
   /// @brief Field _expando, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::ExpandoObject* ____expando;
@@ -804,7 +804,7 @@ public:
 
   static inline ::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <BindInvokeMember>b__0, addr 0x410013c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <BindInvokeMember>b__0, addr 0x41033a0, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* _BindInvokeMember_b__0(::System::Dynamic::DynamicMetaObject* value);
 
   constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> const& __cordl_internal_get_args() const;
@@ -819,7 +819,7 @@ public:
 
   constexpr void __cordl_internal_set_binder(::System::Dynamic::InvokeMemberBinder* value);
 
-  /// @brief Method .ctor, addr 0x40ff84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4102ab0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -837,7 +837,7 @@ public:
   MetaExpando_ExpandoObject___c__DisplayClass3_0(MetaExpando_ExpandoObject___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14165 };
 
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::InvokeMemberBinder* ___binder;
@@ -903,27 +903,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x410016c, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x41033d0, size 0x138, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x41002ec, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x4103550, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x41002a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x4103508, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4100388, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x41035ec, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x41002ac, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4103510, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x41002e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4103548, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4100168, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x41033cc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -968,7 +968,7 @@ public:
 
   constexpr void __cordl_internal_set__klass_5__3(::System::Dynamic::ExpandoClass* value);
 
-  /// @brief Method .ctor, addr 0x4100010, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4103274, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -1001,7 +1001,7 @@ public:
   MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6(MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14166 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1057,47 +1057,47 @@ public:
 
   __declspec(property(get = get_Value)) ::System::Dynamic::ExpandoObject* Value;
 
-  /// @brief Method AddDynamicTestAndDefer, addr 0x40ff3c8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method AddDynamicTestAndDefer, addr 0x410262c, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* AddDynamicTestAndDefer(::System::Dynamic::DynamicMetaObjectBinder* binder, ::System::Dynamic::ExpandoClass* klass,
                                                                       ::System::Dynamic::ExpandoClass* originalClass, ::System::Dynamic::DynamicMetaObject* succeeds);
 
-  /// @brief Method BindDeleteMember, addr 0x40ffcec, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method BindDeleteMember, addr 0x4102f50, size 0x2b4, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindDeleteMember(::System::Dynamic::DeleteMemberBinder* binder);
 
-  /// @brief Method BindGetMember, addr 0x40ff67c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BindGetMember, addr 0x41028e0, size 0x98, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindGetMember(::System::Dynamic::GetMemberBinder* binder);
 
-  /// @brief Method BindGetOrInvokeMember, addr 0x40fecb4, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method BindGetOrInvokeMember, addr 0x4101f18, size 0x5c8, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindGetOrInvokeMember(::System::Dynamic::DynamicMetaObjectBinder* binder, ::StringW name, bool ignoreCase,
                                                                      ::System::Dynamic::DynamicMetaObject* fallback,
                                                                      ::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*>* fallbackInvoke);
 
-  /// @brief Method BindInvokeMember, addr 0x40ff724, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method BindInvokeMember, addr 0x4102988, size 0x128, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindInvokeMember(::System::Dynamic::InvokeMemberBinder* binder,
                                                                 ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method BindSetMember, addr 0x40ff864, size 0x3d8, virtual true, abstract: false, final false
+  /// @brief Method BindSetMember, addr 0x4102ac8, size 0x3d8, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindSetMember(::System::Dynamic::SetMemberBinder* binder, ::System::Dynamic::DynamicMetaObject* value);
 
-  /// @brief Method GetClassEnsureIndex, addr 0x40ffc3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetClassEnsureIndex, addr 0x4102ea0, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Dynamic::ExpandoClass* GetClassEnsureIndex(::StringW name, bool caseInsensitive, ::System::Dynamic::ExpandoObject* obj, ::ByRef<::System::Dynamic::ExpandoClass*> klass,
                                                               ::ByRef<int32_t> index);
 
-  /// @brief Method GetDynamicMemberNames, addr 0x40fffa0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x4103204, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames();
 
-  /// @brief Method GetLimitedSelf, addr 0x40ff2e0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetLimitedSelf, addr 0x4102544, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetLimitedSelf();
 
-  /// @brief Method GetRestrictions, addr 0x4100044, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRestrictions, addr 0x41032a8, size 0x58, virtual false, abstract: false, final false
   inline ::System::Dynamic::BindingRestrictions* GetRestrictions();
 
   static inline ::System::Dynamic::ExpandoObject_MetaExpando* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::ExpandoObject* value);
 
-  /// @brief Method .ctor, addr 0x40fec0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4101e70, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Dynamic::ExpandoObject* value);
 
-  /// @brief Method get_Value, addr 0x40ff27c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x41024e0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Dynamic::ExpandoObject* get_Value();
 
 protected:
@@ -1115,7 +1115,7 @@ public:
   ExpandoObject_MetaExpando(ExpandoObject_MetaExpando const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14167 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1148,14 +1148,14 @@ public:
   /// @brief Field _version, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
-  /// @brief Method GetAlignedSize, addr 0x41006d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAlignedSize, addr 0x4103934, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetAlignedSize(int32_t len);
 
   static inline ::System::Dynamic::ExpandoObject_ExpandoData* New_ctor();
 
   static inline ::System::Dynamic::ExpandoObject_ExpandoData* New_ctor(::System::Dynamic::ExpandoClass* klass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data, int32_t version);
 
-  /// @brief Method UpdateClass, addr 0x4100530, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UpdateClass, addr 0x4103794, size 0x1a0, virtual false, abstract: false, final false
   inline ::System::Dynamic::ExpandoObject_ExpandoData* UpdateClass(::System::Dynamic::ExpandoClass* newClass);
 
   constexpr ::System::Dynamic::ExpandoClass* const& __cordl_internal_get_Class() const;
@@ -1176,26 +1176,26 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4100420, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4103684, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x41004f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4103758, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::ExpandoClass* klass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data, int32_t version);
 
   static inline ::System::Dynamic::ExpandoObject_ExpandoData* getStaticF_Empty();
 
-  /// @brief Method get_Item, addr 0x40fe394, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x41015f8, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x4100404, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4103668, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Version, addr 0x41003fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x4103660, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
   static inline void setStaticF_Empty(::System::Dynamic::ExpandoObject_ExpandoData* value);
 
-  /// @brief Method set_Item, addr 0x410038c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x41035f0, size 0x70, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
@@ -1213,7 +1213,7 @@ public:
   ExpandoObject_ExpandoData(ExpandoObject_ExpandoData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14168 };
 
   /// @brief Field Class, offset: 0x10, size: 0x8, def value: None
   ::System::Dynamic::ExpandoClass* ___Class;
@@ -1277,23 +1277,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4100760, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x41039c4, size 0x1a4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x4100904, size 0xc, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x4103b68, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4100910, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4103b74, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4100948, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4103bac, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x410075c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x41039c0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1332,7 +1332,7 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4100734, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4103998, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
@@ -1360,7 +1360,7 @@ public:
   ExpandoObject__GetExpandoEnumerator_d__51(ExpandoObject__GetExpandoEnumerator_d__51 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14169 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1485,105 +1485,105 @@ public:
   /// @brief Convert operator to "::System::Dynamic::IDynamicMetaObjectProvider"
   constexpr operator ::System::Dynamic::IDynamicMetaObjectProvider*() noexcept;
 
-  /// @brief Method ExpandoContainsKey, addr 0x40fcebc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ExpandoContainsKey, addr 0x4100120, size 0x2c, virtual false, abstract: false, final false
   inline bool ExpandoContainsKey(::StringW key);
 
-  /// @brief Method GetExpandoEnumerator, addr 0x40fdad0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetExpandoEnumerator, addr 0x4100d34, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
   GetExpandoEnumerator(::System::Dynamic::ExpandoObject_ExpandoData* data, int32_t version);
 
-  /// @brief Method IsDeletedMember, addr 0x40fcbe4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsDeletedMember, addr 0x40ffe48, size 0xa8, virtual false, abstract: false, final false
   inline bool IsDeletedMember(int32_t index);
 
   static inline ::System::Dynamic::ExpandoObject* New_ctor();
 
-  /// @brief Method PromoteClass, addr 0x40f9864, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method PromoteClass, addr 0x40fcac8, size 0x164, virtual false, abstract: false, final false
   inline void PromoteClass(::System::Object* oldClass, ::System::Object* newClass);
 
-  /// @brief Method PromoteClassCore, addr 0x40fcd84, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PromoteClassCore, addr 0x40fffe8, size 0x38, virtual false, abstract: false, final false
   inline ::System::Dynamic::ExpandoObject_ExpandoData* PromoteClassCore(::System::Dynamic::ExpandoClass* oldClass, ::System::Dynamic::ExpandoClass* newClass);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add, addr 0x40fd30c, size 0x60, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Add, addr 0x4100570, size 0x60, virtual true, abstract: false, final
   /// true
   inline void
   System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear, addr 0x40fd36c, size 0x224, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Clear, addr 0x41005d0, size 0x224, virtual true, abstract: false, final
   /// true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains, addr 0x40fd590, size 0x94, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Contains, addr 0x41007f4, size 0x94, virtual true, abstract: false,
   /// final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains(
       ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo, addr 0x40fd624, size 0x424, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.CopyTo, addr 0x4100888, size 0x424, virtual true, abstract: false,
   /// final true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo(
       ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>, ::Array<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*> array,
       int32_t arrayIndex);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove, addr 0x40fda48, size 0x6c, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.Remove, addr 0x4100cac, size 0x6c, virtual true, abstract: false, final
   /// true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove(
       ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Count, addr 0x40fd2fc, size 0x8, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Count, addr 0x4100560, size 0x8, virtual true, abstract: false,
   /// final true
   inline int32_t System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_IsReadOnly, addr 0x40fd304, size 0x8, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_IsReadOnly, addr 0x4100568, size 0x8, virtual true, abstract:
   /// false, final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly();
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.Add, addr 0x40fd16c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.Add, addr 0x41003d0, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IDictionary_System_String_System_Object__Add(::StringW key, ::System::Object* value);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey, addr 0x40fd170, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.ContainsKey, addr 0x41003d4, size 0xd4, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey(::StringW key);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.Remove, addr 0x40fd244, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.Remove, addr 0x41004a8, size 0xa0, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IDictionary_System_String_System_Object__Remove(::StringW key);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue, addr 0x40fd2e4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.TryGetValue, addr 0x4100548, size 0x18, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue(::StringW key, ::ByRef<::System::Object*> value);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item, addr 0x40fd08c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Item, addr 0x41002f0, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IDictionary_System_String_System_Object__get_Item(::StringW key);
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Keys, addr 0x40fcee8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Keys, addr 0x410014c, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<::StringW>* System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys();
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Values, addr 0x40fd030, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.get_Values, addr 0x4100294, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<::System::Object*>* System_Collections_Generic_IDictionary_System_String_System_Object__get_Values();
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.set_Item, addr 0x40fd0f0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,System.Object>.set_Item, addr 0x4100354, size 0x7c, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IDictionary_System_String_System_Object__set_Item(::StringW key, ::System::Object* value);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x40fdab4, size 0x1c, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x4100d18, size 0x1c, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40fdb50, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4100db4, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject, addr 0x40fcdbc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.Dynamic.IDynamicMetaObjectProvider.GetMetaObject, addr 0x4100020, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject(::System::Linq::Expressions::Expression* parameter);
 
-  /// @brief Method TryAddMember, addr 0x40fce28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryAddMember, addr 0x410008c, size 0x7c, virtual false, abstract: false, final false
   inline void TryAddMember(::StringW key, ::System::Object* value);
 
-  /// @brief Method TryDeleteValue, addr 0x40f9500, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method TryDeleteValue, addr 0x40fc764, size 0x310, virtual false, abstract: false, final false
   inline bool TryDeleteValue(::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ::System::Object* deleteValue);
 
-  /// @brief Method TryGetValue, addr 0x40f8f80, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x40fc1e4, size 0x128, virtual false, abstract: false, final false
   inline bool TryGetValue(::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ::ByRef<::System::Object*> value);
 
-  /// @brief Method TryGetValueForKey, addr 0x40fcea4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueForKey, addr 0x4100108, size 0x18, virtual false, abstract: false, final false
   inline bool TryGetValueForKey(::StringW key, ::ByRef<::System::Object*> value);
 
-  /// @brief Method TrySetValue, addr 0x40f90d0, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method TrySetValue, addr 0x40fc334, size 0x398, virtual false, abstract: false, final false
   inline void TrySetValue(::System::Object* indexClass, int32_t index, ::System::Object* value, ::StringW name, bool ignoreCase, bool add);
 
   constexpr ::System::Object* const& __cordl_internal_get_LockObject() const;
@@ -1610,7 +1610,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyChanged(::System::ComponentModel::PropertyChangedEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x40fccec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fff50, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_Uninitialized();
@@ -1625,7 +1625,7 @@ public:
 
   static inline ::System::Reflection::MethodInfo* getStaticF_s_expandoTrySetValue();
 
-  /// @brief Method get_Class, addr 0x40f9838, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Class, addr 0x40fca9c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Dynamic::ExpandoClass* get_Class();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
@@ -1675,7 +1675,7 @@ public:
   ExpandoObject(ExpandoObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14170 };
 
   /// @brief Field LockObject, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___LockObject;

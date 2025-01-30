@@ -111,7 +111,7 @@ public:
   static ::System::Net::NetworkInformation::LinuxArpHardware const TUNNEL6;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

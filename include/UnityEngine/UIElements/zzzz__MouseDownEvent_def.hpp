@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseDownEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a2a498, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2d6fc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseDownEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a2a490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2d6f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseDownEvent___c* getStaticF___9();
@@ -65,7 +65,7 @@ public:
   MouseDownEvent___c(MouseDownEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -82,24 +82,24 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseDownEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a2a38c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a2d5f0, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseDownEvent* GetPooled(::UnityEngine::UIElements::PointerDownEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x4a2a3e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a2d644, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseDownEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method Init, addr 0x4a2a070, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a2d2d4, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a2a0c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a2d328, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method MakeFromPointerEvent, addr 0x4a2a124, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method MakeFromPointerEvent, addr 0x4a2d388, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseDownEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
   static inline ::UnityEngine::UIElements::MouseDownEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a2a0d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2d334, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   MouseDownEvent(MouseDownEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

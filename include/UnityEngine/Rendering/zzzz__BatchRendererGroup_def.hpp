@@ -48,13 +48,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE BatchRendererGroup_OnPerformCulling : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48c8838, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48cba9c, size 0x7c, virtual true, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext,
                                          ::UnityEngine::Rendering::BatchCullingOutput cullingOutput, ::System::IntPtr userContext);
 
   static inline ::UnityEngine::Rendering::BatchRendererGroup_OnPerformCulling* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x48c8734, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48cb998, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -72,7 +72,7 @@ public:
   BatchRendererGroup_OnPerformCulling(BatchRendererGroup_OnPerformCulling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,7 +95,7 @@ public:
   /// @brief Field m_PerformCulling, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PerformCulling, put = __cordl_internal_set_m_PerformCulling)) ::UnityEngine::Rendering::BatchRendererGroup_OnPerformCulling* m_PerformCulling;
 
-  /// @brief Method InvokeOnPerformCulling, addr 0x48c84f0, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnPerformCulling, addr 0x48cb754, size 0x244, virtual false, abstract: false, final false
   static inline void InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ::ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput> context,
                                             ::ByRef<::UnityEngine::Rendering::LODParameters> lodParameters, ::System::IntPtr userContext);
 
@@ -126,7 +126,7 @@ public:
   BatchRendererGroup(BatchRendererGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11256 };
 
   /// @brief Field m_GroupHandle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_GroupHandle;

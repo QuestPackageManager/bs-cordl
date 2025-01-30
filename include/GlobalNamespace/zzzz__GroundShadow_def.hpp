@@ -20,16 +20,16 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GroundShadow* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x39e79e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39e9e74, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x39e7a88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e9f14, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Setup, addr 0x39e79ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x39e9e78, size 0x9c, virtual false, abstract: false, final false
   inline void Setup();
 
-  /// @brief Method .ctor, addr 0x39e7a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e9f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   GroundShadow(GroundShadow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15999 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

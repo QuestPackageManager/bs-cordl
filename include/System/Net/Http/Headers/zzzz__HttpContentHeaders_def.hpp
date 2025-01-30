@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method .ctor, addr 0x42174f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421a754, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpContent* content);
 
-  /// @brief Method get_ContentLength, addr 0x4215090, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x42182f4, size 0x128, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_ContentLength();
 
-  /// @brief Method get_ContentType, addr 0x4218158, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x421b3bc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
 
-  /// @brief Method set_ContentType, addr 0x42196dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x421c940, size 0x74, virtual false, abstract: false, final false
   inline void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   HttpContentHeaders(HttpContentHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16710 };
 
   /// @brief Field content, offset: 0x20, size: 0x8, def value: None
   ::System::Net::Http::HttpContent* ___content;

@@ -50,19 +50,19 @@ public:
   /// @brief Field _thirdPersonPosition, offset 0x30, size 0xc
   __declspec(property(get = __cordl_internal_get__thirdPersonPosition, put = __cordl_internal_set__thirdPersonPosition)) ::UnityEngine::Vector3 _thirdPersonPosition;
 
-  /// @brief Method Init, addr 0x3beb5a8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bf1518, size 0x1a8, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method LateUpdate, addr 0x3beb790, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3bf1700, size 0x1f4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3beb770, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bf16e0, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3beb750, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bf16c0, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__thirdPersonPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3beb984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf18f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,7 +125,7 @@ public:
   SmoothCamera(SmoothCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4691 };
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;

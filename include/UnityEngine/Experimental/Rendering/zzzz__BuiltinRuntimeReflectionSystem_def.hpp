@@ -26,24 +26,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem"
   constexpr operator ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() noexcept;
 
-  /// @brief Method BuiltinUpdate, addr 0x48ce7b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method BuiltinUpdate, addr 0x48d1a14, size 0x28, virtual false, abstract: false, final false
   static inline bool BuiltinUpdate();
 
-  /// @brief Method Dispose, addr 0x48ce7d8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x48d1a3c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x48ce7dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x48d1a40, size 0x4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Internal_BuiltinRuntimeReflectionSystem_New, addr 0x48ce7e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_BuiltinRuntimeReflectionSystem_New, addr 0x48d1a44, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* Internal_BuiltinRuntimeReflectionSystem_New();
 
   static inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* New_ctor();
 
-  /// @brief Method TickRealtimeProbes, addr 0x48ce788, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method TickRealtimeProbes, addr 0x48d19ec, size 0x28, virtual true, abstract: false, final true
   inline bool TickRealtimeProbes();
 
-  /// @brief Method .ctor, addr 0x48ce834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d1a98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -67,7 +67,7 @@ public:
   BuiltinRuntimeReflectionSystem(BuiltinRuntimeReflectionSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11313 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

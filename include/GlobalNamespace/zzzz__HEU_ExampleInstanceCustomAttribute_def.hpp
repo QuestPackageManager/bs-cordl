@@ -23,18 +23,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method InstancerCallback, addr 0x3a04e2c, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method InstancerCallback, addr 0x3a072b8, size 0x3a8, virtual false, abstract: false, final false
   inline void InstancerCallback();
 
   /// @brief Method LogArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void LogArray(::StringW name, ::ArrayW<T, ::Array<T>*> arr, int32_t tupleSize);
 
-  /// @brief Method LogAttr, addr 0x3a051d4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method LogAttr, addr 0x3a07660, size 0x154, virtual false, abstract: false, final false
   static inline void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute* outAttr);
 
   static inline ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a05328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a077b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   HEU_ExampleInstanceCustomAttribute(HEU_ExampleInstanceCustomAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11571 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

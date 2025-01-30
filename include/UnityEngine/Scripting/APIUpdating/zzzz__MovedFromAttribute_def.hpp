@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value);
 
-  /// @brief Method .ctor, addr 0x48bda70, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c0cd4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
-  /// @brief Method .ctor, addr 0x48bdadc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c0d40, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceNamespace);
 
 protected:
@@ -54,7 +54,7 @@ public:
   MovedFromAttribute(MovedFromAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11004 };
 
   /// @brief Field data, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData ___data;

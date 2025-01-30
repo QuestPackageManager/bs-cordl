@@ -52,10 +52,10 @@ public:
   /// @brief Field mServerCredentials, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_mServerCredentials, put = __cordl_internal_set_mServerCredentials)) ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* mServerCredentials;
 
-  /// @brief Method GenerateServerKeyExchange, addr 0x2427fc4, size 0x444, virtual true, abstract: false, final false
+  /// @brief Method GenerateServerKeyExchange, addr 0x2428fe0, size 0x444, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
 
-  /// @brief Method InitVerifyer, addr 0x24286d0, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method InitVerifyer, addr 0x24296ec, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* InitVerifyer(::Org::BouncyCastle::Crypto::Tls::TlsSigner* tlsSigner, ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
                                                             ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
@@ -66,10 +66,10 @@ public:
                                                                               ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                                                                               ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method ProcessServerCredentials, addr 0x2427e60, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCredentials, addr 0x2428e7c, size 0x164, virtual true, abstract: false, final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method ProcessServerKeyExchange, addr 0x2428408, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerKeyExchange, addr 0x2429424, size 0x2c8, virtual true, abstract: false, final false
   inline void ProcessServerKeyExchange(::System::IO::Stream* input);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* const& __cordl_internal_get_mServerCredentials() const;
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* value);
 
-  /// @brief Method .ctor, addr 0x2427dd0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2428dec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method .ctor, addr 0x2427e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2428e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                     ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 

@@ -59,12 +59,12 @@ namespace System::Threading {
 class CORDL_TYPE OSSpecificSynchronizationContext_InvocationEntryDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3e55560, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3e587c4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IntPtr arg);
 
   static inline ::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3e553f0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e58654, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -103,7 +103,7 @@ public:
   /// @brief Field m_State, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_State, put = __cordl_internal_set_m_State)) ::System::Object* m_State;
 
-  /// @brief Method Invoke, addr 0x3e554ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3e58710, size 0x28, virtual false, abstract: false, final false
   inline void Invoke();
 
   static inline ::System::Threading::OSSpecificSynchronizationContext_InvocationContext* New_ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_m_State(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e5547c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e586e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
 protected:
@@ -173,10 +173,10 @@ public:
 
   static inline ::System::Threading::OSSpecificSynchronizationContext___c* New_ctor();
 
-  /// @brief Method <Get>b__3_0, addr 0x3e555d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Get>b__3_0, addr 0x3e5883c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Threading::OSSpecificSynchronizationContext* _Get_b__3_0(::System::Object* _osContext);
 
-  /// @brief Method .ctor, addr 0x3e555d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e58834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::OSSpecificSynchronizationContext___c* getStaticF___9();
@@ -232,27 +232,27 @@ public:
       get = getStaticF_s_ContextCache,
       put = setStaticF_s_ContextCache)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>* s_ContextCache;
 
-  /// @brief Method CreateCopy, addr 0x3e55204, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x3e58468, size 0x60, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method Get, addr 0x3e54ec0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3e58124, size 0x158, virtual false, abstract: false, final false
   static inline ::System::Threading::OSSpecificSynchronizationContext* Get();
 
-  /// @brief Method GetOSContext, addr 0x3e55200, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOSContext, addr 0x3e58464, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* GetOSContext();
 
-  /// @brief Method InvocationEntry, addr 0x3e55070, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method InvocationEntry, addr 0x3e582d4, size 0x168, virtual false, abstract: false, final false
   static inline void InvocationEntry(::System::IntPtr arg);
 
   static inline ::System::Threading::OSSpecificSynchronizationContext* New_ctor(::System::Object* osContext);
 
-  /// @brief Method Post, addr 0x3e5529c, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Post, addr 0x3e58500, size 0x154, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method PostInternal, addr 0x3e554a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PostInternal, addr 0x3e5870c, size 0x4, virtual false, abstract: false, final false
   static inline void PostInternal(::System::Object* osSynchronizationContext, ::System::IntPtr callback, ::System::IntPtr arg);
 
-  /// @brief Method Send, addr 0x3e55264, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x3e584c8, size 0x38, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
   constexpr ::System::Object* const& __cordl_internal_get_m_OSSynchronizationContext() const;
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set_m_OSSynchronizationContext(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e551d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5843c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* osContext);
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>* getStaticF_s_ContextCache();

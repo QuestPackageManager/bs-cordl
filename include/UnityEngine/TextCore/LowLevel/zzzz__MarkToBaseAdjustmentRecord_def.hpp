@@ -35,16 +35,16 @@ public:
 
   __declspec(property(get = get_markPositionAdjustment)) ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment markPositionAdjustment;
 
-  /// @brief Method get_baseGlyphAnchorPoint, addr 0x4920e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseGlyphAnchorPoint, addr 0x492409c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint get_baseGlyphAnchorPoint();
 
-  /// @brief Method get_baseGlyphID, addr 0x4920e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseGlyphID, addr 0x4924094, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_baseGlyphID();
 
-  /// @brief Method get_markGlyphID, addr 0x4920e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markGlyphID, addr 0x49240a4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_markGlyphID();
 
-  /// @brief Method get_markPositionAdjustment, addr 0x4920e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markPositionAdjustment, addr 0x49240ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment get_markPositionAdjustment();
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
                                        ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment m_MarkPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18191 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

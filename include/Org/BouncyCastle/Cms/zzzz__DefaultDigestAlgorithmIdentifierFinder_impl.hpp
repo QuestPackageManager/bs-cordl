@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
         &::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::find)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x2660958;
+  constexpr static std::size_t addrs = 0x2661974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (
     ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::*)(::StringW)>(&::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::find)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2670804;
+  constexpr static std::size_t addrs = 0x2671820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::*)()>(
     &::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2660950;
+  constexpr static std::size_t addrs = 0x266196c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

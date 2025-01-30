@@ -45,7 +45,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MirroredSliderController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ae8c94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aecc9c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   MirroredSliderController_Pool(MirroredSliderController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4112 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,30 +104,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::ISliderDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x3ae89c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3aec9d0, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Dissolve, addr 0x3ae8c64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Dissolve, addr 0x3aecc6c, size 0x28, virtual false, abstract: false, final false
   inline void Dissolve(float_t duration);
 
-  /// @brief Method HandleSliderDidStartDissolving, addr 0x3ae8c3c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HandleSliderDidStartDissolving, addr 0x3aecc44, size 0x28, virtual true, abstract: false, final true
   inline void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float_t duration);
 
-  /// @brief Method Mirror, addr 0x3ae23ac, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0x3ae63b8, size 0x180, virtual false, abstract: false, final false
   inline void Mirror(::GlobalNamespace::SliderController* sliderController);
 
   static inline ::GlobalNamespace::MirroredSliderController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ae8b44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3aecb4c, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveListeners, addr 0x3ae8b48, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RemoveListeners, addr 0x3aecb50, size 0xf4, virtual false, abstract: false, final false
   inline void RemoveListeners();
 
-  /// @brief Method Update, addr 0x3ae89e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aec9ec, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateMaterialPropertyBlock, addr 0x3ae8a94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterialPropertyBlock, addr 0x3aeca9c, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateMaterialPropertyBlock(float_t timeSinceHeadNoteJump);
 
   constexpr ::UnityW<::GlobalNamespace::SliderController> const& __cordl_internal_get__followedSlider() const;
@@ -166,13 +166,13 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3ae8c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aecc94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::ISliderDidStartDissolvingEvent* i___GlobalNamespace__ISliderDidStartDissolvingEvent() noexcept;
 
-  /// @brief Method set_hide, addr 0x3ae2d10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3ae6d1c, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -190,7 +190,7 @@ public:
   MirroredSliderController(MirroredSliderController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4113 };
 
   /// @brief Field _meshFilter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;

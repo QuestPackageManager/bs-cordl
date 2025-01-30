@@ -30,26 +30,26 @@ public:
   /// @brief Field s_Collector, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Collector, put = setStaticF_s_Collector)) ::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> s_Collector;
 
-  /// @brief Method FindOrCreateGlobalInstance, addr 0x47a23c4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateGlobalInstance, addr 0x47a5628, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> FindOrCreateGlobalInstance();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* New_ctor();
 
-  /// @brief Method PostEvent, addr 0x47a25e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method PostEvent, addr 0x47a5848, size 0x80, virtual false, abstract: false, final false
   inline void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method RegisterEventHandler, addr 0x47a2584, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventHandler, addr 0x47a57e8, size 0xc, virtual false, abstract: false, final false
   static inline bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _cordl_register, bool create);
 
-  /// @brief Method UnregisterEventHandler, addr 0x47a2590, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UnregisterEventHandler, addr 0x47a57f4, size 0x54, virtual false, abstract: false, final false
   inline void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method .ctor, addr 0x47a2664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a58c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> getStaticF_s_Collector();
 
-  /// @brief Method get_PlayerConnectionGuid, addr 0x47a23c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerConnectionGuid, addr 0x47a5624, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Guid get_PlayerConnectionGuid();
 
   static inline void setStaticF_s_Collector(::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector> value);
@@ -69,7 +69,7 @@ public:
   DiagnosticEventCollector(DiagnosticEventCollector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

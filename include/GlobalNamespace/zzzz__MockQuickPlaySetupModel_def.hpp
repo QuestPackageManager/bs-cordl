@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
 
-  /// @brief Method GetQuickPlaySetupAsync, addr 0x3bc8470, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x3bce034, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockQuickPlaySetupModel* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method .ctor, addr 0x3bc84e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bce0a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
@@ -66,7 +66,7 @@ public:
   MockQuickPlaySetupModel(MockQuickPlaySetupModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4549 };
 
   /// @brief Field _quickPlaySetupData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::QuickPlaySetupData* ____quickPlaySetupData;

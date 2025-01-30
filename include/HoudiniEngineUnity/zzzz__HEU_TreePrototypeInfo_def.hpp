@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9e6d4, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3aa0b60, size 0x14c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_TreePrototypeInfo* New_ctor();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a9e820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa0cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>"
@@ -68,7 +68,7 @@ public:
   HEU_TreePrototypeInfo(HEU_TreePrototypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11939 };
 
   /// @brief Field _prefabPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____prefabPath;

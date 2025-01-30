@@ -33,21 +33,21 @@ public:
   /// @brief Field _houdiniAsset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__houdiniAsset, put = __cordl_internal_set__houdiniAsset)) ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _houdiniAsset;
 
-  /// @brief Method ClearHoudiniEngineReferences, addr 0x3a24a14, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ClearHoudiniEngineReferences, addr 0x3a26ea0, size 0x74, virtual false, abstract: false, final false
   inline void ClearHoudiniEngineReferences();
 
-  /// @brief Method DestroyRootComponent, addr 0x3a24a88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DestroyRootComponent, addr 0x3a26f14, size 0x10, virtual false, abstract: false, final false
   static inline void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a24768, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a26bf4, size 0x1d0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x3a24938, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x3a26dc4, size 0xdc, virtual false, abstract: false, final false
   inline void RemoveHoudiniEngineAssetData();
 
-  /// @brief Method Reset, addr 0x3a24a98, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3a26f24, size 0xe8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get__bakeTargets() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__houdiniAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  /// @brief Method .ctor, addr 0x3a24b80, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2700c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   HEU_HoudiniAssetRoot(HEU_HoudiniAssetRoot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11625 };
 
   /// @brief Field _houdiniAsset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____houdiniAsset;

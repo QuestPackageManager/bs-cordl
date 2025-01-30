@@ -56,10 +56,10 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4914b1c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917d80, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4914d9c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4918000, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -77,7 +77,7 @@ public:
   SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17529 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,10 +96,10 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4914bbc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917e20, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4914ddc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4918040, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -117,7 +117,7 @@ public:
   SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -136,10 +136,10 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4914c5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917ec0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4914e1c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4918080, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -157,7 +157,7 @@ public:
   SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17531 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -176,10 +176,10 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4914cfc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917f60, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4914e5c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x49180c0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -197,7 +197,7 @@ public:
   SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17532 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -222,7 +222,7 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49139cc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916c30, size 0x160, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,7 +240,7 @@ public:
   SystemVersionPropertyBag(SystemVersionPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

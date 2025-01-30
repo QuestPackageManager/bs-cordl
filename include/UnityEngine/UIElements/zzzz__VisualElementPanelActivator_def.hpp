@@ -54,19 +54,19 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementPanelActivator* New_ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method OnEnter, addr 0x499e298, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnter, addr 0x49a14fc, size 0x10, virtual false, abstract: false, final false
   inline void OnEnter(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnLeave, addr 0x499e2a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnLeave, addr 0x49a150c, size 0x74, virtual false, abstract: false, final false
   inline void OnLeave(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method SendActivation, addr 0x499e068, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendActivation, addr 0x49a12cc, size 0x118, virtual false, abstract: false, final false
   inline void SendActivation();
 
-  /// @brief Method SendDeactivation, addr 0x499e180, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendDeactivation, addr 0x49a13e4, size 0x118, virtual false, abstract: false, final false
   inline void SendDeactivation();
 
-  /// @brief Method SetActive, addr 0x499de18, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x49a107c, size 0x250, virtual false, abstract: false, final false
   inline void SetActive(bool action);
 
   constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
@@ -99,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set_m_OnDetachFromPanelCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::DetachFromPanelEvent*>* value);
 
-  /// @brief Method .ctor, addr 0x499dd38, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a0f9c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method get_isActive, addr 0x499dd10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x49a0f74, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isDetaching, addr 0x499dd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDetaching, addr 0x49a0f88, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDetaching();
 
-  /// @brief Method set_isActive, addr 0x499dd18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x49a0f7c, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isDetaching, addr 0x499dd2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDetaching, addr 0x49a0f90, size 0xc, virtual false, abstract: false, final false
   inline void set_isDetaching(bool value);
 
 protected:
@@ -129,7 +129,7 @@ public:
   VisualElementPanelActivator(VisualElementPanelActivator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6329 };
 
   /// @brief Field m_Activatable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::IVisualElementPanelActivatable* ___m_Activatable;

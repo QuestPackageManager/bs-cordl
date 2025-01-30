@@ -68,7 +68,7 @@ public:
   constexpr AutoRecord_Beatmap(float_t beatsPerMinute, int32_t noteLineCount, ::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*> items) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5135 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -109,24 +109,24 @@ public:
   /// @brief Field kCutStartOffset, offset 0xffffffff, size 0x1c
   __declspec(property(get = getStaticF_kCutStartOffset, put = setStaticF_kCutStartOffset)) ::UnityEngine::Pose kCutStartOffset;
 
-  /// @brief Method AddNoteHandFrames, addr 0x3b25f00, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method AddNoteHandFrames, addr 0x3b29f00, size 0x504, virtual false, abstract: false, final false
   static inline void
   AddNoteHandFrames(::GlobalNamespace::NoteData* note, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
                     ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*> handFrames,
                     ::ArrayW<::GlobalNamespace::NoteCutDirection, ::Array<::GlobalNamespace::NoteCutDirection>*> lastCutDirections);
 
-  /// @brief Method AddSliderHandFrames, addr 0x3b26404, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method AddSliderHandFrames, addr 0x3b2a404, size 0x600, virtual false, abstract: false, final false
   static inline void AddSliderHandFrames(
       ::GlobalNamespace::SliderData* slider, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
       ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*, ::Array<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>*> handFrames);
 
-  /// @brief Method CreatePlayerPoseFrames, addr 0x3b255e8, size 0x8d8, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayerPoseFrames, addr 0x3b295e8, size 0x8d8, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(::ByRef<::GlobalNamespace::AutoRecord_Beatmap> beatmap);
 
-  /// @brief Method LocateCutPosition, addr 0x3b25ec0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LocateCutPosition, addr 0x3b29ec0, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LocateCutPosition(int32_t lineCount, int32_t line, ::GlobalNamespace::NoteLineLayer layer);
 
-  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3b26a04, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3b2aa04, size 0x88, virtual false, abstract: false, final false
   static inline int32_t _CreatePlayerPoseFrames_g__FixFrames_1_0(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames);
 
   static inline ::UnityEngine::Pose getStaticF_kCutEndOffset();
@@ -152,7 +152,7 @@ public:
   AutoRecord(AutoRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

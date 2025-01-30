@@ -39,15 +39,15 @@ public:
   /// @brief Field _maxRankText, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__maxRankText, put = __cordl_internal_set__maxRankText)) ::UnityW<::TMPro::TextMeshProUGUI> _maxRankText;
 
-  /// @brief Method Hide, addr 0x3b04288, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3b082d4, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::LevelStatsView* New_ctor();
 
-  /// @brief Method ShowStats, addr 0x3b042ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShowStats, addr 0x3b082f8, size 0x2c, virtual false, abstract: false, final false
   inline void ShowStats(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method ShowStats, addr 0x3b042d8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ShowStats, addr 0x3b08324, size 0x170, virtual false, abstract: false, final false
   inline void ShowStats(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__highScoreText() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__maxRankText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b04448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b08494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   LevelStatsView(LevelStatsView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4991 };
 
   /// @brief Field _highScoreText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____highScoreText;

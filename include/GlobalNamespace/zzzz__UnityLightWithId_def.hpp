@@ -36,7 +36,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x39e5a48, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e7ed4, size 0x4c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::UnityLightWithId* New_ctor();
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__minAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e5a94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7f20, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x39e5a2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e7eb8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -80,7 +80,7 @@ public:
   UnityLightWithId(UnityLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16343 };
 
   /// @brief Field _light, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Light> ____light;

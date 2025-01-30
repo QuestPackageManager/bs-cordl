@@ -44,10 +44,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2713958, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2715da8, size 0x158, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2713ab0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2715f00, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -65,7 +65,7 @@ public:
                                                                                      ::UnityW<::GlobalNamespace::CustomLevelsSettingsAsyncInstaller> __4__this) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17776 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -108,13 +108,13 @@ public:
   /// @brief Field _customLevelsEnabled, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__customLevelsEnabled, put = __cordl_internal_set__customLevelsEnabled)) bool _customLevelsEnabled;
 
-  /// @brief Method InstallBindings, addr 0x2713894, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2715ce4, size 0xbc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x2713760, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2715bb0, size 0x64, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x27137c4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2715c14, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::CustomLevelsSettingsAsyncInstaller* New_ctor();
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__customLevelsEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x2713950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2715da0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -143,7 +143,7 @@ public:
   CustomLevelsSettingsAsyncInstaller(CustomLevelsSettingsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
 
   /// @brief Field _customLevelsEnabled, offset: 0x28, size: 0x1, def value: None
   bool ____customLevelsEnabled;

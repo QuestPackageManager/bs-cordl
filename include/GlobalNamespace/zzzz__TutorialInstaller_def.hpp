@@ -48,7 +48,7 @@ public:
   /// @brief Field _songBPM, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__songBPM, put = __cordl_internal_set__songBPM)) float_t _songBPM;
 
-  /// @brief Method InstallBindings, addr 0x3bf3618, size 0xe70, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf9588, size 0xe74, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialInstaller* New_ctor();
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__songBPM(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bf4488, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfa3fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   TutorialInstaller(TutorialInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4735 };
 
   /// @brief Field _audioClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;

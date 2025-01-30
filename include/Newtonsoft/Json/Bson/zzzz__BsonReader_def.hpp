@@ -117,7 +117,7 @@ public:
   static ::Newtonsoft::Json::Bson::BsonReader_BsonReaderState const ReferenceStart;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10506 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -169,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set_Type(::Newtonsoft::Json::Bson::BsonType value);
 
-  /// @brief Method .ctor, addr 0x3f50768, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f539cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Bson::BsonType type);
 
 protected:
@@ -187,7 +187,7 @@ public:
   BsonReader_ContainerContext(BsonReader_ContainerContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10507 };
 
   /// @brief Field Type, offset: 0x10, size: 0x1, def value: None
   ::Newtonsoft::Json::Bson::BsonType ___Type;
@@ -269,22 +269,22 @@ public:
   /// @brief Field _stack, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonReader_ContainerContext*>* _stack;
 
-  /// @brief Method BytesInSequence, addr 0x3f51340, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method BytesInSequence, addr 0x3f545a4, size 0x1d0, virtual false, abstract: false, final false
   inline int32_t BytesInSequence(uint8_t b);
 
-  /// @brief Method Close, addr 0x3f506a0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3f53904, size 0x38, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EnsureBuffers, addr 0x3f50f9c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method EnsureBuffers, addr 0x3f54200, size 0xac, virtual false, abstract: false, final false
   inline void EnsureBuffers();
 
-  /// @brief Method GetLastFullCharStop, addr 0x3f51048, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetLastFullCharStop, addr 0x3f542ac, size 0x8c, virtual false, abstract: false, final false
   inline int32_t GetLastFullCharStop(int32_t start);
 
-  /// @brief Method GetString, addr 0x3f510d4, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x3f54338, size 0x26c, virtual false, abstract: false, final false
   inline ::StringW GetString(int32_t length);
 
-  /// @brief Method MovePosition, addr 0x3f50eb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MovePosition, addr 0x3f54114, size 0x24, virtual false, abstract: false, final false
   inline void MovePosition(int32_t count);
 
   static inline ::Newtonsoft::Json::Bson::BsonReader* New_ctor(::System::IO::BinaryReader* reader);
@@ -295,55 +295,55 @@ public:
 
   static inline ::Newtonsoft::Json::Bson::BsonReader* New_ctor(::System::IO::Stream* stream, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling);
 
-  /// @brief Method PopContext, addr 0x3f50e0c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PopContext, addr 0x3f54070, size 0xa4, virtual false, abstract: false, final false
   inline void PopContext();
 
-  /// @brief Method PushContext, addr 0x3f50790, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PushContext, addr 0x3f539f4, size 0xa4, virtual false, abstract: false, final false
   inline void PushContext(::Newtonsoft::Json::Bson::BsonReader_ContainerContext* newContext);
 
-  /// @brief Method Read, addr 0x3f4ff70, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3f531d4, size 0x1a8, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadBinary, addr 0x3f50f0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadBinary, addr 0x3f54170, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBinary(::ByRef<::Newtonsoft::Json::Bson::BsonBinaryType> binaryType);
 
-  /// @brief Method ReadByte, addr 0x3f50dd8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x3f5403c, size 0x34, virtual false, abstract: false, final false
   inline uint8_t ReadByte();
 
-  /// @brief Method ReadBytes, addr 0x3f50834, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x3f53a98, size 0x38, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBytes(int32_t count);
 
-  /// @brief Method ReadCodeWScope, addr 0x3f504c4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ReadCodeWScope, addr 0x3f53728, size 0x1dc, virtual false, abstract: false, final false
   inline bool ReadCodeWScope();
 
-  /// @brief Method ReadDouble, addr 0x3f50ed4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReadDouble, addr 0x3f54138, size 0x38, virtual false, abstract: false, final false
   inline double_t ReadDouble();
 
-  /// @brief Method ReadElement, addr 0x3f4fc9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadElement, addr 0x3f52f00, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW ReadElement();
 
-  /// @brief Method ReadInt32, addr 0x3f506d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32, addr 0x3f5393c, size 0x38, virtual false, abstract: false, final false
   inline int32_t ReadInt32();
 
-  /// @brief Method ReadInt64, addr 0x3f50f64, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReadInt64, addr 0x3f541c8, size 0x38, virtual false, abstract: false, final false
   inline int64_t ReadInt64();
 
-  /// @brief Method ReadLengthString, addr 0x3f50710, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadLengthString, addr 0x3f53974, size 0x58, virtual false, abstract: false, final false
   inline ::StringW ReadLengthString();
 
-  /// @brief Method ReadNormal, addr 0x3f50118, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ReadNormal, addr 0x3f5337c, size 0x1f4, virtual false, abstract: false, final false
   inline bool ReadNormal();
 
-  /// @brief Method ReadReference, addr 0x3f5030c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ReadReference, addr 0x3f53570, size 0x1b8, virtual false, abstract: false, final false
   inline bool ReadReference();
 
-  /// @brief Method ReadString, addr 0x3f4fcec, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x3f52f50, size 0x284, virtual false, abstract: false, final false
   inline ::StringW ReadString();
 
-  /// @brief Method ReadType, addr 0x3f4fcb8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ReadType, addr 0x3f52f1c, size 0x34, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType ReadType();
 
-  /// @brief Method ReadType, addr 0x3f5086c, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method ReadType, addr 0x3f53ad0, size 0x56c, virtual false, abstract: false, final false
   inline void ReadType(::Newtonsoft::Json::Bson::BsonType type);
 
   constexpr ::Newtonsoft::Json::Bson::BsonReader_BsonReaderState const& __cordl_internal_get__bsonReaderState() const;
@@ -406,16 +406,16 @@ public:
 
   constexpr void __cordl_internal_set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonReader_ContainerContext*>* value);
 
-  /// @brief Method .ctor, addr 0x3f4fbc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f52e24, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::BinaryReader* reader);
 
-  /// @brief Method .ctor, addr 0x3f4fbcc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f52e30, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::BinaryReader* reader, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling);
 
-  /// @brief Method .ctor, addr 0x3f4fab8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f52d1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream);
 
-  /// @brief Method .ctor, addr 0x3f4fac4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f52d28, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, bool readRootValueAsArray, ::System::DateTimeKind dateTimeKindHandling);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_SeqRange1();
@@ -426,13 +426,13 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_SeqRange4();
 
-  /// @brief Method get_DateTimeKindHandling, addr 0x3f4faa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeKindHandling, addr 0x3f52d0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTimeKind get_DateTimeKindHandling();
 
-  /// @brief Method get_JsonNet35BinaryCompatibility, addr 0x3f4fa80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_JsonNet35BinaryCompatibility, addr 0x3f52ce4, size 0x8, virtual false, abstract: false, final false
   inline bool get_JsonNet35BinaryCompatibility();
 
-  /// @brief Method get_ReadRootValueAsArray, addr 0x3f4fa94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadRootValueAsArray, addr 0x3f52cf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadRootValueAsArray();
 
   static inline void setStaticF_SeqRange1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -443,13 +443,13 @@ public:
 
   static inline void setStaticF_SeqRange4(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_DateTimeKindHandling, addr 0x3f4fab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeKindHandling, addr 0x3f52d14, size 0x8, virtual false, abstract: false, final false
   inline void set_DateTimeKindHandling(::System::DateTimeKind value);
 
-  /// @brief Method set_JsonNet35BinaryCompatibility, addr 0x3f4fa88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_JsonNet35BinaryCompatibility, addr 0x3f52cec, size 0xc, virtual false, abstract: false, final false
   inline void set_JsonNet35BinaryCompatibility(bool value);
 
-  /// @brief Method set_ReadRootValueAsArray, addr 0x3f4fa9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ReadRootValueAsArray, addr 0x3f52d00, size 0xc, virtual false, abstract: false, final false
   inline void set_ReadRootValueAsArray(bool value);
 
 protected:
@@ -470,7 +470,7 @@ public:
   static constexpr int32_t MaxCharBytesSize{ static_cast<int32_t>(0x80) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10508 };
 
   /// @brief Field _reader, offset: 0x78, size: 0x8, def value: None
   ::System::IO::BinaryReader* ____reader;

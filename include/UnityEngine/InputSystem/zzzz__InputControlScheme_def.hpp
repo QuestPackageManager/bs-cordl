@@ -147,7 +147,7 @@ public:
   static ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Result const MissingRequired;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6600 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -180,19 +180,19 @@ public:
 
   __declspec(property(get = get_requirementIndex)) int32_t requirementIndex;
 
-  /// @brief Method get_control, addr 0x4573674, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x45768d8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_device, addr 0x45736c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x4576924, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method get_isOptional, addr 0x4573714, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isOptional, addr 0x4576978, size 0x14, virtual false, abstract: false, final false
   inline bool get_isOptional();
 
-  /// @brief Method get_requirement, addr 0x45736e0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_requirement, addr 0x4576944, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement get_requirement();
 
-  /// @brief Method get_requirementIndex, addr 0x45736d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requirementIndex, addr 0x457693c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_requirementIndex();
 
   // Ctor Parameters []
@@ -207,7 +207,7 @@ public:
       ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6601 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -254,19 +254,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x457385c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4576ac0, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x4573734, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4576998, size 0x2c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x4573760, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x45769c4, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x45737ec, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4576a50, size 0x70, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method get_Current, addr 0x457376c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x45769d0, size 0x80, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Match get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::MatchResult_InputControlScheme_Match>"
@@ -291,7 +291,7 @@ public:
       ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> m_Controls) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6602 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -352,31 +352,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x4573604, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4576868, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x4573590, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x45767f4, size 0x70, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::MatchResult_InputControlScheme_Match>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4573600, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4576864, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Item, addr 0x4573510, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4576774, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::MatchResult_InputControlScheme_Match get_Item(int32_t index);
 
-  /// @brief Method get_devices, addr 0x45733d4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_devices, addr 0x4576638, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*> get_devices();
 
-  /// @brief Method get_hasMissingOptionalDevices, addr 0x45733c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasMissingOptionalDevices, addr 0x4576628, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasMissingOptionalDevices();
 
-  /// @brief Method get_hasMissingRequiredDevices, addr 0x45733b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasMissingRequiredDevices, addr 0x4576618, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasMissingRequiredDevices();
 
-  /// @brief Method get_isSuccessfulMatch, addr 0x45733a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isSuccessfulMatch, addr 0x4576608, size 0x10, virtual false, abstract: false, final false
   inline bool get_isSuccessfulMatch();
 
-  /// @brief Method get_score, addr 0x457339c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_score, addr 0x4576600, size 0x8, virtual false, abstract: false, final false
   inline float_t get_score();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::MatchResult_InputControlScheme_Match>"
@@ -404,7 +404,7 @@ public:
       ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement, ::Array<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>*> m_Requirements) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6603 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -483,7 +483,7 @@ public:
   static ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags const Or;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6604 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -519,49 +519,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>*();
 
-  /// @brief Method Equals, addr 0x4573a0c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4576c70, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x45739a0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4576c04, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement other);
 
-  /// @brief Method GetHashCode, addr 0x4573a84, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4576ce8, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x45738dc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4576b40, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_controlPath, addr 0x4573860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_controlPath, addr 0x4576ac4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_controlPath();
 
-  /// @brief Method get_isAND, addr 0x4573880, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isAND, addr 0x4576ae4, size 0x10, virtual false, abstract: false, final false
   inline bool get_isAND();
 
-  /// @brief Method get_isOR, addr 0x4573890, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isOR, addr 0x4576af4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isOR();
 
-  /// @brief Method get_isOptional, addr 0x4573728, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isOptional, addr 0x457698c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isOptional();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>* i___System__IEquatable_1___UnityEngine__InputSystem__InputControlScheme_DeviceRequirement_();
 
-  /// @brief Method op_Equality, addr 0x4573078, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x45762dc, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement left, ::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement right);
 
-  /// @brief Method op_Inequality, addr 0x4573b70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4576dd4, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement left, ::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement right);
 
-  /// @brief Method set_controlPath, addr 0x4573868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_controlPath, addr 0x4576acc, size 0x8, virtual false, abstract: false, final false
   inline void set_controlPath(::StringW value);
 
-  /// @brief Method set_isAND, addr 0x457389c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isAND, addr 0x4576b00, size 0x20, virtual false, abstract: false, final false
   inline void set_isAND(bool value);
 
-  /// @brief Method set_isOR, addr 0x45738bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isOR, addr 0x4576b20, size 0x20, virtual false, abstract: false, final false
   inline void set_isOR(bool value);
 
-  /// @brief Method set_isOptional, addr 0x4573870, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_isOptional, addr 0x4576ad4, size 0x10, virtual false, abstract: false, final false
   inline void set_isOptional(bool value);
 
   // Ctor Parameters []
@@ -573,7 +573,7 @@ public:
   constexpr InputControlScheme_DeviceRequirement(::StringW m_ControlPath, ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags m_Flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6605 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -601,10 +601,10 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE SchemeJson_InputControlScheme_DeviceJson {
 public:
   // Declarations
-  /// @brief Method From, addr 0x4573db0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x4577014, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson From(::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement requirement);
 
-  /// @brief Method ToDeviceEntry, addr 0x4573cbc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToDeviceEntry, addr 0x4576f20, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement ToDeviceEntry();
 
   // Ctor Parameters []
@@ -616,7 +616,7 @@ public:
   constexpr SchemeJson_InputControlScheme_DeviceJson(::StringW devicePath, bool isOptional, bool isOR) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6606 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -651,17 +651,17 @@ public:
   // Declarations
   using DeviceJson = ::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson;
 
-  /// @brief Method ToJson, addr 0x4573dc4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x4577028, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson, ::Array<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>*>
   ToJson(::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*> schemes);
 
-  /// @brief Method ToJson, addr 0x4573cd0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x4576f34, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme_SchemeJson ToJson(::UnityEngine::InputSystem::InputControlScheme scheme);
 
-  /// @brief Method ToScheme, addr 0x4573ba0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ToScheme, addr 0x4576e04, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme ToScheme();
 
-  /// @brief Method ToSchemes, addr 0x4573ecc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToSchemes, addr 0x4577130, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*>
   ToSchemes(::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson, ::Array<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>*> schemes);
 
@@ -677,7 +677,7 @@ public:
       ::ArrayW<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson, ::Array<::UnityEngine::InputSystem::SchemeJson_InputControlScheme_DeviceJson>*> devices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6607 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -725,10 +725,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme>*();
 
-  /// @brief Method Equals, addr 0x45730a4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4576308, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4572f30, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4576194, size 0x148, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputControlScheme other);
 
   /// @brief Method FindControlSchemeForDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -746,43 +746,43 @@ public:
                                                  ::ByRef<::UnityEngine::InputSystem::InputControlScheme_MatchResult> matchResult, ::UnityEngine::InputSystem::InputDevice* mustIncludeDevice,
                                                  bool allowUnsuccessfulMatch);
 
-  /// @brief Method GetHashCode, addr 0x4573134, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4576398, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method PickDevicesFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevices> inline ::UnityEngine::InputSystem::InputControlScheme_MatchResult PickDevicesFrom(TDevices devices, ::UnityEngine::InputSystem::InputDevice* favorDevice);
 
-  /// @brief Method SetNameAndBindingGroup, addr 0x4572d4c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetNameAndBindingGroup, addr 0x4575fb0, size 0xb8, virtual false, abstract: false, final false
   inline void SetNameAndBindingGroup(::StringW name, ::StringW bindingGroup);
 
-  /// @brief Method SupportsDevice, addr 0x4572e04, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SupportsDevice, addr 0x4576068, size 0xcc, virtual false, abstract: false, final false
   inline bool SupportsDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method ToString, addr 0x45731b4, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4576418, size 0x184, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4572c5c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4575ec0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>* devices, ::StringW bindingGroup);
 
-  /// @brief Method get_bindingGroup, addr 0x4572bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindingGroup, addr 0x4575e50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_bindingGroup();
 
-  /// @brief Method get_deviceRequirements, addr 0x4572bfc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRequirements, addr 0x4575e60, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement> get_deviceRequirements();
 
-  /// @brief Method get_name, addr 0x4572be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4575e48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputControlScheme>* i___System__IEquatable_1___UnityEngine__InputSystem__InputControlScheme_();
 
-  /// @brief Method op_Equality, addr 0x4573338, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x457659c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::InputControlScheme left, ::UnityEngine::InputSystem::InputControlScheme right);
 
-  /// @brief Method op_Inequality, addr 0x4573368, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x45765cc, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::InputControlScheme left, ::UnityEngine::InputSystem::InputControlScheme right);
 
-  /// @brief Method set_bindingGroup, addr 0x4572bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bindingGroup, addr 0x4575e58, size 0x8, virtual false, abstract: false, final false
   inline void set_bindingGroup(::StringW value);
 
   // Ctor Parameters []
@@ -797,7 +797,7 @@ public:
       ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement, ::Array<::UnityEngine::InputSystem::InputControlScheme_DeviceRequirement>*> m_DeviceRequirements) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6608 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

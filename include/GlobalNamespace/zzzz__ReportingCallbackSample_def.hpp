@@ -36,16 +36,16 @@ public:
 
   static inline ::GlobalNamespace::ReportingCallbackSample* New_ctor();
 
-  /// @brief Method OnReportButtonIntentNotif, addr 0x3f58cb8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnReportButtonIntentNotif, addr 0x3f5bf1c, size 0xa0, virtual false, abstract: false, final false
   inline void OnReportButtonIntentNotif(::Oculus::Platform::Message_1<::StringW>* message);
 
-  /// @brief Method Start, addr 0x3f58b18, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f5bd7c, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateConsole, addr 0x3f58c0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateConsole, addr 0x3f5be70, size 0xac, virtual false, abstract: false, final false
   inline void UpdateConsole(::StringW value);
 
-  /// @brief Method <Start>b__2_0, addr 0x3f58ea4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__2_0, addr 0x3f5c108, size 0xe4, virtual false, abstract: false, final false
   inline void _Start_b__2_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* message);
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_DestinationsConsole() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_InVRConsole(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x3f58e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f5c100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ReportingCallbackSample(ReportingCallbackSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15302 };
 
   /// @brief Field InVRConsole, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___InVRConsole;

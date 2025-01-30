@@ -113,33 +113,33 @@ public:
 
   __declspec(property(get = get_worldCorners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> worldCorners;
 
-  /// @brief Method Awake, addr 0x47b4cb8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x47b7f1c, size 0xc8, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetAnchorPosition, addr 0x47b4754, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetAnchorPosition, addr 0x47b79b8, size 0xf8, virtual false, abstract: false, final false
   inline ::TMPro::TextContainerAnchors GetAnchorPosition(::UnityEngine::Vector2 pivot);
 
-  /// @brief Method GetPivot, addr 0x47b49a0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetPivot, addr 0x47b7c04, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPivot(::TMPro::TextContainerAnchors anchor);
 
   static inline ::TMPro::TextContainer* New_ctor();
 
-  /// @brief Method OnContainerChanged, addr 0x47b484c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnContainerChanged, addr 0x47b7ab0, size 0x110, virtual false, abstract: false, final false
   inline void OnContainerChanged();
 
-  /// @brief Method OnDisable, addr 0x47b4d84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x47b7fe8, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x47b4d80, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x47b7fe4, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x47b4edc, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x47b8140, size 0x15c, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method SetRect, addr 0x47b4ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRect, addr 0x47b7d18, size 0x8, virtual false, abstract: false, final false
   inline void SetRect(::UnityEngine::Vector2 size);
 
-  /// @brief Method UpdateCorners, addr 0x47b4d88, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method UpdateCorners, addr 0x47b7fec, size 0x154, virtual false, abstract: false, final false
   inline void UpdateCorners();
 
   constexpr ::TMPro::TextContainerAnchors const& __cordl_internal_get_m_anchorPosition() const;
@@ -214,83 +214,83 @@ public:
 
   constexpr void __cordl_internal_set_m_worldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x47b5038, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b829c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_k_defaultSize();
 
-  /// @brief Method get_anchorPosition, addr 0x47b495c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_anchorPosition, addr 0x47b7bc0, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextContainerAnchors get_anchorPosition();
 
-  /// @brief Method get_corners, addr 0x47b4b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_corners, addr 0x47b7d7c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_corners();
 
-  /// @brief Method get_hasChanged, addr 0x47b46e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasChanged, addr 0x47b7944, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasChanged();
 
-  /// @brief Method get_height, addr 0x47b4ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x47b7d3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_isAutoFitting, addr 0x47b4b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isAutoFitting, addr 0x47b7d68, size 0x8, virtual false, abstract: false, final false
   inline bool get_isAutoFitting();
 
-  /// @brief Method get_isDefaultHeight, addr 0x47b4afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDefaultHeight, addr 0x47b7d60, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDefaultHeight();
 
-  /// @brief Method get_isDefaultWidth, addr 0x47b4af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDefaultWidth, addr 0x47b7d58, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDefaultWidth();
 
-  /// @brief Method get_margins, addr 0x47b4b28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_margins, addr 0x47b7d8c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_margins();
 
-  /// @brief Method get_pivot, addr 0x47b46f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pivot, addr 0x47b7958, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pivot();
 
-  /// @brief Method get_rect, addr 0x47b4a18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rect, addr 0x47b7c7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rect();
 
-  /// @brief Method get_rectTransform, addr 0x47b4b90, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x47b7df4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_size, addr 0x47b4a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x47b7cd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_size();
 
-  /// @brief Method get_textMeshPro, addr 0x47b4c24, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_textMeshPro, addr 0x47b7e88, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextMeshPro> get_textMeshPro();
 
-  /// @brief Method get_width, addr 0x47b4abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x47b7d20, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
-  /// @brief Method get_worldCorners, addr 0x47b4b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_worldCorners, addr 0x47b7d84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_worldCorners();
 
   static inline void setStaticF_k_defaultSize(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_anchorPosition, addr 0x47b4964, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_anchorPosition, addr 0x47b7bc8, size 0x3c, virtual false, abstract: false, final false
   inline void set_anchorPosition(::TMPro::TextContainerAnchors value);
 
-  /// @brief Method set_hasChanged, addr 0x47b46e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasChanged, addr 0x47b794c, size 0xc, virtual false, abstract: false, final false
   inline void set_hasChanged(bool value);
 
-  /// @brief Method set_height, addr 0x47b4ae0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x47b7d44, size 0x14, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_isAutoFitting, addr 0x47b4b0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isAutoFitting, addr 0x47b7d70, size 0xc, virtual false, abstract: false, final false
   inline void set_isAutoFitting(bool value);
 
-  /// @brief Method set_margins, addr 0x47b4b34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_margins, addr 0x47b7d98, size 0x5c, virtual false, abstract: false, final false
   inline void set_margins(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_pivot, addr 0x47b46fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_pivot, addr 0x47b7960, size 0x58, virtual false, abstract: false, final false
   inline void set_pivot(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_rect, addr 0x47b4a24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_rect, addr 0x47b7c88, size 0x48, virtual false, abstract: false, final false
   inline void set_rect(::UnityEngine::Rect value);
 
-  /// @brief Method set_size, addr 0x47b4a74, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x47b7cd8, size 0x40, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_width, addr 0x47b4ac4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x47b7d28, size 0x14, virtual false, abstract: false, final false
   inline void set_width(float_t value);
 
 protected:
@@ -308,7 +308,7 @@ public:
   TextContainer(TextContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14426 };
 
   /// @brief Field m_hasChanged, offset: 0x20, size: 0x1, def value: None
   bool ___m_hasChanged;

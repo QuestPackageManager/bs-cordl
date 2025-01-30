@@ -38,10 +38,10 @@ public:
   /// @brief Field m_currentActivator, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_m_currentActivator, put = __cordl_internal_set_m_currentActivator)) ::UnityEngine::UIElements::ManipulatorActivationFilter m_currentActivator;
 
-  /// @brief Method CanStartManipulation, addr 0x4a3f898, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x4a42afc, size 0x174, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x4a3fa0c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x4a42c70, size 0xb8, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IMouseEvent* e);
 
   static inline ::UnityEngine::UIElements::MouseManipulator* New_ctor();
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_m_currentActivator(::UnityEngine::UIElements::ManipulatorActivationFilter value);
 
-  /// @brief Method .ctor, addr 0x4a3f818, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a42a7c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activators, addr 0x4a3f808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activators, addr 0x4a42a6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* get_activators();
 
-  /// @brief Method set_activators, addr 0x4a3f810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activators, addr 0x4a42a74, size 0x8, virtual false, abstract: false, final false
   inline void set_activators(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   MouseManipulator(MouseManipulator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5991 };
 
   /// @brief Field <activators>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* ____activators_k__BackingField;

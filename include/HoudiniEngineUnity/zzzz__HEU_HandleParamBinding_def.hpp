@@ -65,7 +65,7 @@ public:
   static ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType const TRANSLATE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11668 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -108,7 +108,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a48918, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a4ada4, size 0x200, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other);
 
   static inline ::HoudiniEngineUnity::HEU_HandleParamBinding* New_ctor();
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__parmID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a47a04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a49e90, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
@@ -164,7 +164,7 @@ public:
   HEU_HandleParamBinding(HEU_HandleParamBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11669 };
 
   /// @brief Field _paramType, offset: 0x10, size: 0x4, def value: None
   ::HoudiniEngineUnity::HEU_HandleParamBinding_HEU_HandleParamType ____paramType;

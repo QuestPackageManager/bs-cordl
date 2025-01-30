@@ -30,19 +30,19 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE HighlightState {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x4947e18, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x494b07c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4947dac, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x494b010, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4947c60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494aec4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color32 color, ::UnityEngine::TextCore::Text::Offset padding);
 
-  /// @brief Method op_Equality, addr 0x4947c70, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x494aed4, size 0xf4, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TextCore::Text::HighlightState lhs, ::UnityEngine::TextCore::Text::HighlightState rhs);
 
-  /// @brief Method op_Inequality, addr 0x4947d64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x494afc8, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::TextCore::Text::HighlightState lhs, ::UnityEngine::TextCore::Text::HighlightState rhs);
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   constexpr HighlightState(::UnityEngine::Color32 color, ::UnityEngine::TextCore::Text::Offset padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15278 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

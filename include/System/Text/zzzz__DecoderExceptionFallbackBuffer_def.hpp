@@ -21,21 +21,21 @@ public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x3e6d930, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3e70b94, size 0x8, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x3e6db04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x3e70d68, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
   static inline ::System::Text::DecoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method Throw, addr 0x3e6d938, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x3e70b9c, size 0x1cc, virtual false, abstract: false, final false
   inline void Throw(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3e6d8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e70b20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0x3e6db0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x3e70d70, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

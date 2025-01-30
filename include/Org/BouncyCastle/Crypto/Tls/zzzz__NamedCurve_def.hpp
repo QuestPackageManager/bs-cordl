@@ -19,15 +19,15 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE NamedCurve : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x24152c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x24162e0, size 0x28, virtual false, abstract: false, final false
   static inline bool IsValid(int32_t namedCurve);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NamedCurve* New_ctor();
 
-  /// @brief Method RefersToASpecificNamedCurve, addr 0x24152ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RefersToASpecificNamedCurve, addr 0x2416308, size 0x14, virtual false, abstract: false, final false
   static inline bool RefersToASpecificNamedCurve(int32_t namedCurve);
 
-  /// @brief Method .ctor, addr 0x2415300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241631c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

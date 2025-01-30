@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_rotZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b1a1e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1e1e8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW);
 
 protected:
@@ -124,7 +124,7 @@ public:
   PosesRecordingSaveData_PoseSaveData(PosesRecordingSaveData_PoseSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5102 };
 
   /// @brief Field posX, offset: 0x10, size: 0x4, def value: None
   float_t ___posX;
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b1a24c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1e24c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::PosesRecordingSaveData_PoseSaveData*, ::Array<::GlobalNamespace::PosesRecordingSaveData_PoseSaveData*>*> poses, float_t time);
 
 protected:
@@ -215,7 +215,7 @@ public:
   PosesRecordingSaveData_TransformsSaveKeyframe(PosesRecordingSaveData_TransformsSaveKeyframe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5103 };
 
   /// @brief Field poses, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::PosesRecordingSaveData_PoseSaveData*, ::Array<::GlobalNamespace::PosesRecordingSaveData_PoseSaveData*>*> ___poses;
@@ -287,7 +287,7 @@ public:
 
   constexpr void __cordl_internal_set_nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b1a284, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1e284, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
 protected:
@@ -305,7 +305,7 @@ public:
   PosesRecordingSaveData_ExternalCameraCalibrationSaveData(PosesRecordingSaveData_ExternalCameraCalibrationSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5104 };
 
   /// @brief Field fieldOfVision, offset: 0x10, size: 0x4, def value: None
   float_t ___fieldOfVision;
@@ -389,7 +389,7 @@ public:
 
   constexpr void __cordl_internal_set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3b1a1ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1e1ac, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                     ::ArrayW<::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe*, ::Array<::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe*>*> keyframes,
                     ::GlobalNamespace::PosesRecordingSaveData_ExternalCameraCalibrationSaveData* externalCameraCalibration);
@@ -409,7 +409,7 @@ public:
   PosesRecordingSaveData(PosesRecordingSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5105 };
 
   /// @brief Field objectIds, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___objectIds;

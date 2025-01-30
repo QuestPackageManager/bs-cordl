@@ -63,138 +63,138 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x158
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRCompositor FnTable;
 
-  /// @brief Method CanRenderScene, addr 0x4072734, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CanRenderScene, addr 0x4075998, size 0x24, virtual false, abstract: false, final false
   inline bool CanRenderScene();
 
-  /// @brief Method ClearLastSubmittedFrame, addr 0x4072498, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClearLastSubmittedFrame, addr 0x40756fc, size 0x24, virtual false, abstract: false, final false
   inline void ClearLastSubmittedFrame();
 
-  /// @brief Method ClearSkyboxOverride, addr 0x4072638, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClearSkyboxOverride, addr 0x407589c, size 0x24, virtual false, abstract: false, final false
   inline void ClearSkyboxOverride();
 
-  /// @brief Method CompositorBringToFront, addr 0x407265c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CompositorBringToFront, addr 0x40758c0, size 0x24, virtual false, abstract: false, final false
   inline void CompositorBringToFront();
 
-  /// @brief Method CompositorDumpImages, addr 0x40727c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CompositorDumpImages, addr 0x4075a28, size 0x24, virtual false, abstract: false, final false
   inline void CompositorDumpImages();
 
-  /// @brief Method CompositorGoToBack, addr 0x4072680, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CompositorGoToBack, addr 0x40758e4, size 0x24, virtual false, abstract: false, final false
   inline void CompositorGoToBack();
 
-  /// @brief Method CompositorQuit, addr 0x40726a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CompositorQuit, addr 0x4075908, size 0x24, virtual false, abstract: false, final false
   inline void CompositorQuit();
 
-  /// @brief Method FadeGrid, addr 0x40725c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FadeGrid, addr 0x4075824, size 0x28, virtual false, abstract: false, final false
   inline void FadeGrid(float_t fSeconds, bool bFadeIn);
 
-  /// @brief Method FadeToColor, addr 0x4072570, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FadeToColor, addr 0x40757d4, size 0x28, virtual false, abstract: false, final false
   inline void FadeToColor(float_t fSeconds, float_t fRed, float_t fGreen, float_t fBlue, float_t fAlpha, bool bBackground);
 
-  /// @brief Method ForceInterleavedReprojectionOn, addr 0x407280c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ForceInterleavedReprojectionOn, addr 0x4075a70, size 0x28, virtual false, abstract: false, final false
   inline void ForceInterleavedReprojectionOn(bool bOverride);
 
-  /// @brief Method ForceReconnectProcess, addr 0x4072834, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ForceReconnectProcess, addr 0x4075a98, size 0x24, virtual false, abstract: false, final false
   inline void ForceReconnectProcess();
 
-  /// @brief Method GetCumulativeStats, addr 0x407254c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCumulativeStats, addr 0x40757b0, size 0x24, virtual false, abstract: false, final false
   inline void GetCumulativeStats(::ByRef<::OVR::OpenVR::Compositor_CumulativeStats> pStats, uint32_t nStatsSizeInBytes);
 
-  /// @brief Method GetCurrentFadeColor, addr 0x4072598, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentFadeColor, addr 0x40757fc, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::HmdColor_t GetCurrentFadeColor(bool bBackground);
 
-  /// @brief Method GetCurrentGridAlpha, addr 0x40725e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentGridAlpha, addr 0x407584c, size 0x24, virtual false, abstract: false, final false
   inline float_t GetCurrentGridAlpha();
 
-  /// @brief Method GetCurrentSceneFocusProcess, addr 0x40726ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentSceneFocusProcess, addr 0x4075950, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetCurrentSceneFocusProcess();
 
-  /// @brief Method GetFrameTimeRemaining, addr 0x4072528, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetFrameTimeRemaining, addr 0x407578c, size 0x24, virtual false, abstract: false, final false
   inline float_t GetFrameTimeRemaining();
 
-  /// @brief Method GetFrameTiming, addr 0x40724e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetFrameTiming, addr 0x4075744, size 0x24, virtual false, abstract: false, final false
   inline bool GetFrameTiming(::ByRef<::OVR::OpenVR::Compositor_FrameTiming> pTiming, uint32_t unFramesAgo);
 
-  /// @brief Method GetFrameTimings, addr 0x4072504, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetFrameTimings, addr 0x4075768, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetFrameTimings(::ByRef<::OVR::OpenVR::Compositor_FrameTiming> pTiming, uint32_t nFrames);
 
-  /// @brief Method GetLastFrameRenderer, addr 0x4072710, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLastFrameRenderer, addr 0x4075974, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetLastFrameRenderer();
 
-  /// @brief Method GetLastPoseForTrackedDeviceIndex, addr 0x4072450, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLastPoseForTrackedDeviceIndex, addr 0x40756b4, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint32_t unDeviceIndex, ::ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose,
                                                                             ::ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputGamePose);
 
-  /// @brief Method GetLastPoses, addr 0x4072418, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetLastPoses, addr 0x407567c, size 0x38, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError GetLastPoses(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*> pRenderPoseArray,
                                                         ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*> pGamePoseArray);
 
-  /// @brief Method GetMirrorTextureD3D11, addr 0x4072880, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMirrorTextureD3D11, addr 0x4075ae4, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError GetMirrorTextureD3D11(::OVR::OpenVR::EVREye eEye, ::System::IntPtr pD3D11DeviceOrResource, ::ByRef<::System::IntPtr> ppD3D11ShaderResourceView);
 
-  /// @brief Method GetMirrorTextureGL, addr 0x40728c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMirrorTextureGL, addr 0x4075b2c, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError GetMirrorTextureGL(::OVR::OpenVR::EVREye eEye, ::ByRef<uint32_t> pglTextureId, ::System::IntPtr pglSharedTextureHandle);
 
-  /// @brief Method GetTrackingSpace, addr 0x40723bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTrackingSpace, addr 0x4075620, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::ETrackingUniverseOrigin GetTrackingSpace();
 
-  /// @brief Method GetVulkanDeviceExtensionsRequired, addr 0x4072980, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetVulkanDeviceExtensionsRequired, addr 0x4075be4, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetVulkanDeviceExtensionsRequired(::System::IntPtr pPhysicalDevice, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
-  /// @brief Method GetVulkanInstanceExtensionsRequired, addr 0x407295c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetVulkanInstanceExtensionsRequired, addr 0x4075bc0, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetVulkanInstanceExtensionsRequired(::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
-  /// @brief Method HideMirrorWindow, addr 0x407277c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HideMirrorWindow, addr 0x40759e0, size 0x24, virtual false, abstract: false, final false
   inline void HideMirrorWindow();
 
-  /// @brief Method IsFullscreen, addr 0x40726c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsFullscreen, addr 0x407592c, size 0x24, virtual false, abstract: false, final false
   inline bool IsFullscreen();
 
-  /// @brief Method IsMirrorWindowVisible, addr 0x40727a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsMirrorWindowVisible, addr 0x4075a04, size 0x24, virtual false, abstract: false, final false
   inline bool IsMirrorWindowVisible();
 
-  /// @brief Method LockGLSharedTextureForAccess, addr 0x4072914, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LockGLSharedTextureForAccess, addr 0x4075b78, size 0x24, virtual false, abstract: false, final false
   inline void LockGLSharedTextureForAccess(::System::IntPtr glSharedTextureHandle);
 
   static inline ::OVR::OpenVR::CVRCompositor* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method PostPresentHandoff, addr 0x40724bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PostPresentHandoff, addr 0x4075720, size 0x24, virtual false, abstract: false, final false
   inline void PostPresentHandoff();
 
-  /// @brief Method ReleaseMirrorTextureD3D11, addr 0x40728a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMirrorTextureD3D11, addr 0x4075b08, size 0x24, virtual false, abstract: false, final false
   inline void ReleaseMirrorTextureD3D11(::System::IntPtr pD3D11ShaderResourceView);
 
-  /// @brief Method ReleaseSharedGLTexture, addr 0x40728f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReleaseSharedGLTexture, addr 0x4075b54, size 0x24, virtual false, abstract: false, final false
   inline bool ReleaseSharedGLTexture(uint32_t glTextureId, ::System::IntPtr glSharedTextureHandle);
 
-  /// @brief Method SetExplicitTimingMode, addr 0x40729a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetExplicitTimingMode, addr 0x4075c08, size 0x24, virtual false, abstract: false, final false
   inline void SetExplicitTimingMode(::OVR::OpenVR::EVRCompositorTimingMode eTimingMode);
 
-  /// @brief Method SetSkyboxOverride, addr 0x407260c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetSkyboxOverride, addr 0x4075870, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError SetSkyboxOverride(::ArrayW<::OVR::OpenVR::Texture_t, ::Array<::OVR::OpenVR::Texture_t>*> pTextures);
 
-  /// @brief Method SetTrackingSpace, addr 0x4072398, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingSpace, addr 0x40755fc, size 0x24, virtual false, abstract: false, final false
   inline void SetTrackingSpace(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin);
 
-  /// @brief Method ShouldAppRenderWithLowResources, addr 0x40727e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShouldAppRenderWithLowResources, addr 0x4075a4c, size 0x24, virtual false, abstract: false, final false
   inline bool ShouldAppRenderWithLowResources();
 
-  /// @brief Method ShowMirrorWindow, addr 0x4072758, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShowMirrorWindow, addr 0x40759bc, size 0x24, virtual false, abstract: false, final false
   inline void ShowMirrorWindow();
 
-  /// @brief Method Submit, addr 0x4072474, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Submit, addr 0x40756d8, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError Submit(::OVR::OpenVR::EVREye eEye, ::ByRef<::OVR::OpenVR::Texture_t> pTexture, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pBounds,
                                                   ::OVR::OpenVR::EVRSubmitFlags nSubmitFlags);
 
-  /// @brief Method SubmitExplicitTimingData, addr 0x40729c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SubmitExplicitTimingData, addr 0x4075c2c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError SubmitExplicitTimingData();
 
-  /// @brief Method SuspendRendering, addr 0x4072858, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SuspendRendering, addr 0x4075abc, size 0x28, virtual false, abstract: false, final false
   inline void SuspendRendering(bool bSuspend);
 
-  /// @brief Method UnlockGLSharedTextureForAccess, addr 0x4072938, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UnlockGLSharedTextureForAccess, addr 0x4075b9c, size 0x24, virtual false, abstract: false, final false
   inline void UnlockGLSharedTextureForAccess(::System::IntPtr glSharedTextureHandle);
 
-  /// @brief Method WaitGetPoses, addr 0x40723e0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method WaitGetPoses, addr 0x4075644, size 0x38, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError WaitGetPoses(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*> pRenderPoseArray,
                                                         ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*> pGamePoseArray);
 
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRCompositor value);
 
-  /// @brief Method .ctor, addr 0x4072284, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40754e8, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -222,7 +222,7 @@ public:
   CVRCompositor(CVRCompositor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8880 };
 
   /// @brief Field FnTable, offset: 0x10, size: 0x158, def value: None
   ::OVR::OpenVR::IVRCompositor ___FnTable;

@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b90188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b96218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   LightPairRotationEventEffect_RotationData(LightPairRotationEventEffect_RotationData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4316 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;
@@ -230,21 +230,21 @@ public:
   /// @brief Field _zPositionAngleOffsetScale, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__zPositionAngleOffsetScale, put = __cordl_internal_set__zPositionAngleOffsetScale)) float_t _zPositionAngleOffsetScale;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b90450, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b964e0, size 0x384, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightPairRotationEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b90434, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b964c4, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b8fdbc, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b95e4c, size 0x3cc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b90190, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b96220, size 0x2a4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRotationData, addr 0x3b907d4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRotationData, addr 0x3b96864, size 0x21c, virtual false, abstract: false, final false
   inline void UpdateRotationData(int32_t beatmapEventDataValue, ::GlobalNamespace::LightPairRotationEventEffect_RotationData* rotationData, float_t startRotationOffset, float_t direction);
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -361,7 +361,7 @@ public:
 
   constexpr void __cordl_internal_set__zPositionAngleOffsetScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b909f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b96a80, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -379,7 +379,7 @@ public:
   LightPairRotationEventEffect(LightPairRotationEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4317 };
 
   /// @brief Field kSpeedMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kSpeedMultiplier{ static_cast<float_t>(20.0f) };

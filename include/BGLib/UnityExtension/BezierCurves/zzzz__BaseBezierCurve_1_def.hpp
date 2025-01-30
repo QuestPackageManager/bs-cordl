@@ -49,7 +49,7 @@ public:
   BaseBezierCurve_1(BaseBezierCurve_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17180 };
 
   /// @brief Field _bezierCurveData, offset: 0x20, size: 0x8, def value: None
   T ____bezierCurveData;

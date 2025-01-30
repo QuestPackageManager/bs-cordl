@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b2bb54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2fb54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_apiName, addr 0x3b2babc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x3b2fabc, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x3b2bafc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x3b2fafc, size 0x58, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
@@ -65,7 +65,7 @@ public:
   PlayingTutorialPresenceData(PlayingTutorialPresenceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5159 };
 
   /// @brief Field kPlayingTutorialRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayingTutorialRichPresenceLocalizationKey{ u"PLAYING_TUTORIAL_PRESENCE" };

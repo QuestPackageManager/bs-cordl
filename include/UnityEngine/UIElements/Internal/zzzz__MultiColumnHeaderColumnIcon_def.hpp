@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon* New_ctor();
 
-  /// @brief Method UpdateClassList, addr 0x49e9df0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UpdateClassList, addr 0x49ed054, size 0x164, virtual false, abstract: false, final false
   inline void UpdateClassList();
 
   constexpr bool const& __cordl_internal_get__isImageInline_k__BackingField() const;
@@ -41,20 +41,20 @@ public:
 
   constexpr void __cordl_internal_set__isImageInline_k__BackingField(bool value);
 
-  /// @brief Method <.ctor>b__5_0, addr 0x49e9fec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__5_0, addr 0x49ed250, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__5_0(::UnityEngine::UIElements::CustomStyleResolvedEvent* evt);
 
-  /// @brief Method .ctor, addr 0x49e9ce8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ecf4c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_isImageInline, addr 0x49e9cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isImageInline, addr 0x49ecf38, size 0x8, virtual false, abstract: false, final false
   inline bool get_isImageInline();
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_isImageInline, addr 0x49e9cdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isImageInline, addr 0x49ecf40, size 0xc, virtual false, abstract: false, final false
   inline void set_isImageInline(bool value);
 
 protected:
@@ -72,7 +72,7 @@ public:
   MultiColumnHeaderColumnIcon(MultiColumnHeaderColumnIcon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6510 };
 
   /// @brief Field <isImageInline>k__BackingField, offset: 0x40b, size: 0x1, def value: None
   bool ____isImageInline_k__BackingField;

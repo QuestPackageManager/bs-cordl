@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3be8250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bee1c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   SetSaberGlowColor_PropertyTintColorPair(SetSaberGlowColor_PropertyTintColorPair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4670 };
 
   /// @brief Field tintColor, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ___tintColor;
@@ -134,10 +134,10 @@ public:
 
   static inline ::GlobalNamespace::SetSaberGlowColor* New_ctor();
 
-  /// @brief Method SetColors, addr 0x3be80b4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3bee024, size 0x114, virtual false, abstract: false, final false
   inline void SetColors();
 
-  /// @brief Method Start, addr 0x3be81c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bee138, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -179,10 +179,10 @@ public:
 
   constexpr void __cordl_internal_set__saberTypeObject(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x3be8248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bee1b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_saberType, addr 0x3be7ba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x3bedb10, size 0xc, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:
@@ -200,7 +200,7 @@ public:
   SetSaberGlowColor(SetSaberGlowColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4671 };
 
   /// @brief Field _saberTypeObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saberTypeObject;

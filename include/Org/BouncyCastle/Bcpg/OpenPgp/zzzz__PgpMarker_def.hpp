@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Bcpg::MarkerPacket* value);
 
-  /// @brief Method .ctor, addr 0x252def8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252ef14, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
 protected:

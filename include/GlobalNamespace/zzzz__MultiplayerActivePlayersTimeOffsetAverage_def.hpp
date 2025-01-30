@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set__timeOfLastValidReturnedTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3bc89ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bce5b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFailed, addr 0x3bc88a4, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x3bce468, size 0x148, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x3bc8650, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x3bce214, size 0x254, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
@@ -87,7 +87,7 @@ public:
   MultiplayerActivePlayersTimeOffsetAverage(MultiplayerActivePlayersTimeOffsetAverage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4552 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

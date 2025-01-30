@@ -31,13 +31,13 @@ public:
 
   static inline ::System::RankException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3dfb0f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfe35c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dfb170, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfe3d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dfb150, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfe3b4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

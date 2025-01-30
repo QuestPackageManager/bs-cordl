@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x46043e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4607644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   AndroidMagneticFieldSensor(AndroidMagneticFieldSensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

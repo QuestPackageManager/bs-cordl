@@ -95,10 +95,10 @@ public:
 
   constexpr void __cordl_internal_set_unitType(::Unity::Profiling::ProfilerMarkerDataUnit value);
 
-  /// @brief Method get_Category, addr 0x485e5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Category, addr 0x4861820, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerCategory get_Category();
 
-  /// @brief Method get_Name, addr 0x485e5c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4861828, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   // Ctor Parameters []
@@ -217,7 +217,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10573 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

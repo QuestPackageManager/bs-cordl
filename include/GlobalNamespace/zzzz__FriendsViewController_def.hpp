@@ -55,21 +55,21 @@ public:
 
   __declspec(property(get = get_otherPlayersTitle)) ::StringW otherPlayersTitle;
 
-  /// @brief Method DidDeactivate, addr 0x3c1438c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c1a554, size 0x44, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleOpenPartyToggleChanged, addr 0x3c14400, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleOpenPartyToggleChanged, addr 0x3c1a5c0, size 0x10, virtual false, abstract: false, final false
   inline void HandleOpenPartyToggleChanged(bool openParty);
 
-  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x3c140f8, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x3c1a2c0, size 0x114, virtual true, abstract: false, final false
   inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
 
   static inline ::GlobalNamespace::FriendsViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c143d0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c1a598, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshParty, addr 0x3c1420c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RefreshParty, addr 0x3c1a3d4, size 0x180, virtual false, abstract: false, final false
   inline void RefreshParty(bool overrideHide);
 
   constexpr bool const& __cordl_internal_get__allowAnyoneToJoin() const;
@@ -102,16 +102,16 @@ public:
 
   constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method .ctor, addr 0x3c14410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1a5d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_myPartyTitle, addr 0x3c14070, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_myPartyTitle, addr 0x3c1a238, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_myPartyTitle();
 
-  /// @brief Method get_networkPlayerModel, addr 0x3c140f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_networkPlayerModel, addr 0x3c1a2b8, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
 
-  /// @brief Method get_otherPlayersTitle, addr 0x3c140b0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_otherPlayersTitle, addr 0x3c1a278, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_otherPlayersTitle();
 
 protected:
@@ -129,7 +129,7 @@ public:
   FriendsViewController(FriendsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4895 };
 
   /// @brief Field _enableOpenPartyToggle, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____enableOpenPartyToggle;

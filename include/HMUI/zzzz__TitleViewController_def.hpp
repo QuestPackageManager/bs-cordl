@@ -27,7 +27,7 @@ public:
 
   static inline ::HMUI::TitleViewController* New_ctor();
 
-  /// @brief Method SetText, addr 0x2286784, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x2287560, size 0x24, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2289bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228a9a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   TitleViewController(TitleViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16815 };
 
   /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

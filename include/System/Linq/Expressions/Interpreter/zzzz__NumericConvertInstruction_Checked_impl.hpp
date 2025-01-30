@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NumericConvertInstruction_Checked::*)()>(
     &::GlobalNamespace::NumericConvertInstruction_Checked::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40f19e0;
+  constexpr static std::size_t addrs = 0x40f4c44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NumericConvertInstruction_Checked::*)(::System::TypeCode, ::System::TypeCode, bool)>(
     &::GlobalNamespace::NumericConvertInstruction_Checked::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x40f1a20;
+  constexpr static std::size_t addrs = 0x40f4c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Checked::*)(::System::Object*)>(
     &::GlobalNamespace::NumericConvertInstruction_Checked::Convert)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x40f1a5c;
+  constexpr static std::size_t addrs = 0x40f4cc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Checked::*)(int32_t)>(
     &::GlobalNamespace::NumericConvertInstruction_Checked::ConvertInt32)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x40f1dc4;
+  constexpr static std::size_t addrs = 0x40f5028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Checked::*)(int64_t)>(
     &::GlobalNamespace::NumericConvertInstruction_Checked::ConvertInt64)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x40f2068;
+  constexpr static std::size_t addrs = 0x40f52cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Checked::*)(uint64_t)>(
     &::GlobalNamespace::NumericConvertInstruction_Checked::ConvertUInt64)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x40f22f8;
+  constexpr static std::size_t addrs = 0x40f555c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Checked::*)(double_t)>(
     &::GlobalNamespace::NumericConvertInstruction_Checked::ConvertDouble)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x40f2588;
+  constexpr static std::size_t addrs = 0x40f57ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

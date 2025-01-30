@@ -61,36 +61,36 @@ public:
       get = __cordl_internal_get__tweensByOwner,
       put = __cordl_internal_set__tweensByOwner)) ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* _tweensByOwner;
 
-  /// @brief Method AddTween, addr 0x44daadc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddTween, addr 0x44ddd40, size 0x50, virtual false, abstract: false, final false
   inline ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame);
 
-  /// @brief Method AddTweenToDataStructures, addr 0x44dab2c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddTweenToDataStructures, addr 0x44ddd90, size 0x168, virtual false, abstract: false, final false
   inline bool AddTweenToDataStructures(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame);
 
-  /// @brief Method AddTweenToOwnerDictionary, addr 0x44daefc, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AddTweenToOwnerDictionary, addr 0x44de160, size 0x198, virtual false, abstract: false, final false
   inline void AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::System::Object* owner);
 
   /// @brief Method GetTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t GetTime();
 
-  /// @brief Method KillAllTweens, addr 0x44dad80, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method KillAllTweens, addr 0x44ddfe4, size 0x17c, virtual false, abstract: false, final false
   inline void KillAllTweens(::System::Object* owner);
 
-  /// @brief Method LateUpdate, addr 0x44da6ec, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x44dd950, size 0x220, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Tweening::TweeningManager* New_ctor();
 
-  /// @brief Method RemoveTweenFromOwnerDictionary, addr 0x44da90c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method RemoveTweenFromOwnerDictionary, addr 0x44ddb70, size 0x1d0, virtual false, abstract: false, final false
   inline void RemoveTweenFromOwnerDictionary(::Tweening::Tween* tween);
 
-  /// @brief Method RestartTween, addr 0x44dac94, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RestartTween, addr 0x44ddef8, size 0xc4, virtual false, abstract: false, final false
   inline ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame);
 
-  /// @brief Method ResumeTween, addr 0x44dad58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResumeTween, addr 0x44ddfbc, size 0x28, virtual false, abstract: false, final false
   inline ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame);
 
-  /// @brief Method Start, addr 0x44da688, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x44dd8ec, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::List_1<::Tweening::Tween*>* const& __cordl_internal_get__activeTweens() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__tweensByOwner(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
 
-  /// @brief Method .ctor, addr 0x44da3dc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dd640, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,7 +147,7 @@ public:
   TweeningManager(TweeningManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18673 };
 
   /// @brief Field _activeTweens, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Tweening::Tween*>* ____activeTweens;

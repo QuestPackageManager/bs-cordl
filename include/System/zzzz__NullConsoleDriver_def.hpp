@@ -31,10 +31,10 @@ public:
 
   static inline ::System::NullConsoleDriver* New_ctor();
 
-  /// @brief Method ReadKey, addr 0x3e39dcc, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x3e3d030, size 0x5c, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method .ctor, addr 0x3e32920, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e35b84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ConsoleKeyInfo getStaticF_EmptyConsoleKeyInfo();

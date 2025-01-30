@@ -92,84 +92,84 @@ public:
   /// @brief Field m_topObject, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_topObject, put = __cordl_internal_set_m_topObject)) ::System::Object* m_topObject;
 
-  /// @brief Method AddObjectHolder, addr 0x3cf692c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AddObjectHolder, addr 0x3cf9b90, size 0xf8, virtual false, abstract: false, final false
   inline void AddObjectHolder(::System::Runtime::Serialization::ObjectHolder* holder);
 
-  /// @brief Method AddOnDeserialization, addr 0x3cf9e60, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method AddOnDeserialization, addr 0x3cfd0c4, size 0x80, virtual true, abstract: false, final false
   inline void AddOnDeserialization(::System::Runtime::Serialization::DeserializationEventHandler* handler);
 
-  /// @brief Method AddOnDeserialized, addr 0x3cf9ee0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method AddOnDeserialized, addr 0x3cfd144, size 0x90, virtual true, abstract: false, final false
   inline void AddOnDeserialized(::System::Object* obj);
 
-  /// @brief Method CanCallGetType, addr 0x3cf6784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CanCallGetType, addr 0x3cf99e8, size 0x8, virtual false, abstract: false, final false
   inline bool CanCallGetType(::System::Object* obj);
 
-  /// @brief Method CompleteISerializableObject, addr 0x3cf71b8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method CompleteISerializableObject, addr 0x3cfa41c, size 0x27c, virtual false, abstract: false, final false
   inline void CompleteISerializableObject(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method CompleteObject, addr 0x3cf7d44, size 0x614, virtual false, abstract: false, final false
+  /// @brief Method CompleteObject, addr 0x3cfafa8, size 0x614, virtual false, abstract: false, final false
   inline void CompleteObject(::System::Runtime::Serialization::ObjectHolder* holder, bool bObjectFullyComplete);
 
-  /// @brief Method DoFixups, addr 0x3cf9240, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method DoFixups, addr 0x3cfc4a4, size 0x2f4, virtual true, abstract: false, final false
   inline void DoFixups();
 
-  /// @brief Method DoNewlyRegisteredObjectFixups, addr 0x3cf79e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DoNewlyRegisteredObjectFixups, addr 0x3cfac44, size 0xd8, virtual false, abstract: false, final false
   inline void DoNewlyRegisteredObjectFixups(::System::Runtime::Serialization::ObjectHolder* holder);
 
-  /// @brief Method DoValueTypeFixup, addr 0x3cf7498, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method DoValueTypeFixup, addr 0x3cfa6fc, size 0x548, virtual false, abstract: false, final false
   inline bool DoValueTypeFixup(::System::Reflection::FieldInfo* memberToFix, ::System::Runtime::Serialization::ObjectHolder* holder, ::System::Object* value);
 
-  /// @brief Method FindObjectHolder, addr 0x3cf6808, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FindObjectHolder, addr 0x3cf9a6c, size 0x58, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolder* FindObjectHolder(int64_t objectID);
 
-  /// @brief Method FindOrCreateObjectHolder, addr 0x3cf6860, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateObjectHolder, addr 0x3cf9ac4, size 0x98, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolder* FindOrCreateObjectHolder(int64_t objectID);
 
-  /// @brief Method FixupSpecialObject, addr 0x3cf6d24, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method FixupSpecialObject, addr 0x3cf9f88, size 0x230, virtual false, abstract: false, final false
   inline void FixupSpecialObject(::System::Runtime::Serialization::ObjectHolder* holder);
 
-  /// @brief Method GetCompletionInfo, addr 0x3cf6a24, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetCompletionInfo, addr 0x3cf9c88, size 0x2b0, virtual false, abstract: false, final false
   inline bool GetCompletionInfo(::System::Runtime::Serialization::FixupHolder* fixup, ::ByRef<::System::Runtime::Serialization::ObjectHolder*> holder, ::ByRef<::System::Object*> member,
                                 bool bThrowIfMissing);
 
-  /// @brief Method GetConstructor, addr 0x3cf9110, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetConstructor, addr 0x3cfc374, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Reflection::RuntimeConstructorInfo* GetConstructor(::System::RuntimeType* t);
 
-  /// @brief Method GetObject, addr 0x3cf8574, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetObject, addr 0x3cfb7d8, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(int64_t objectID);
 
   static inline ::System::Runtime::Serialization::ObjectManager* New_ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context,
                                                                           bool checkSecurity, bool isCrossAppDomain);
 
-  /// @brief Method RaiseDeserializationEvent, addr 0x3cf9e14, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method RaiseDeserializationEvent, addr 0x3cfd078, size 0x4c, virtual true, abstract: false, final false
   inline void RaiseDeserializationEvent();
 
-  /// @brief Method RaiseOnDeserializedEvent, addr 0x3cf9f70, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method RaiseOnDeserializedEvent, addr 0x3cfd1d4, size 0x84, virtual true, abstract: false, final false
   inline void RaiseOnDeserializedEvent(::System::Object* obj);
 
-  /// @brief Method RaiseOnDeserializingEvent, addr 0x3cf9ff4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RaiseOnDeserializingEvent, addr 0x3cfd258, size 0x84, virtual false, abstract: false, final false
   inline void RaiseOnDeserializingEvent(::System::Object* obj);
 
-  /// @brief Method RecordArrayElementFixup, addr 0x3cf9cc0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method RecordArrayElementFixup, addr 0x3cfcf24, size 0x154, virtual true, abstract: false, final false
   inline void RecordArrayElementFixup(int64_t arrayToBeFixed, ::ArrayW<int32_t, ::Array<int32_t>*> indices, int64_t objectRequired);
 
-  /// @brief Method RecordDelayedFixup, addr 0x3cf9b6c, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method RecordDelayedFixup, addr 0x3cfcdd0, size 0x154, virtual true, abstract: false, final false
   inline void RecordDelayedFixup(int64_t objectToBeFixed, ::StringW memberName, int64_t objectRequired);
 
-  /// @brief Method RecordFixup, addr 0x3cf98ac, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method RecordFixup, addr 0x3cfcb10, size 0x284, virtual true, abstract: false, final false
   inline void RecordFixup(int64_t objectToBeFixed, ::System::Reflection::MemberInfo* member, int64_t objectRequired);
 
-  /// @brief Method RegisterFixup, addr 0x3cf96a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method RegisterFixup, addr 0x3cfc908, size 0xd8, virtual false, abstract: false, final false
   inline void RegisterFixup(::System::Runtime::Serialization::FixupHolder* fixup, int64_t objectToBeFixed, int64_t objectRequired);
 
-  /// @brief Method RegisterObject, addr 0x3cf87f8, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method RegisterObject, addr 0x3cfba5c, size 0x5a8, virtual false, abstract: false, final false
   inline void RegisterObject(::System::Object* obj, int64_t objectID, ::System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, ::System::Reflection::MemberInfo* member,
                              ::ArrayW<int32_t, ::Array<int32_t>*> arrayIndex);
 
-  /// @brief Method RegisterString, addr 0x3cf8624, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RegisterString, addr 0x3cfb888, size 0xf8, virtual false, abstract: false, final false
   inline void RegisterString(::StringW obj, int64_t objectID, ::System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method ResolveObjectReference, addr 0x3cf7ab8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method ResolveObjectReference, addr 0x3cfad1c, size 0x27c, virtual false, abstract: false, final false
   inline bool ResolveObjectReference(::System::Runtime::Serialization::ObjectHolder* holder);
 
   constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_m_context() const;
@@ -220,16 +220,16 @@ public:
 
   constexpr void __cordl_internal_set_m_topObject(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3cf6704, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf9968, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context, bool checkSecurity, bool isCrossAppDomain);
 
-  /// @brief Method get_SpecialFixupObjects, addr 0x3cf679c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_SpecialFixupObjects, addr 0x3cf9a00, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolderList* get_SpecialFixupObjects();
 
-  /// @brief Method get_TopObject, addr 0x3cf6794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopObject, addr 0x3cf99f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TopObject();
 
-  /// @brief Method set_TopObject, addr 0x3cf678c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TopObject, addr 0x3cf99f0, size 0x8, virtual false, abstract: false, final false
   inline void set_TopObject(::System::Object* value);
 
 protected:

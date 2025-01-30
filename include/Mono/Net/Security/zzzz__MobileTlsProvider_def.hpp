@@ -55,7 +55,7 @@ public:
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ::ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ::ByRef<::System::Net::Security::SslPolicyErrors> errors, ::ByRef<int32_t> status11);
 
-  /// @brief Method .ctor, addr 0x410e5dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4111840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   MobileTlsProvider(MobileTlsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

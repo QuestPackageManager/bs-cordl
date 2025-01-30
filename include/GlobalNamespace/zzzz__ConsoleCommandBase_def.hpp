@@ -64,10 +64,10 @@ public:
 
   static inline ::GlobalNamespace::ConsoleCommandBase___c* New_ctor();
 
-  /// @brief Method <ParseUnmatchedArguments>b__11_0, addr 0x3b09c70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ParseUnmatchedArguments>b__11_0, addr 0x3b0dcbc, size 0x54, virtual false, abstract: false, final false
   inline bool _ParseUnmatchedArguments_b__11_0(::StringW x);
 
-  /// @brief Method .ctor, addr 0x3b09c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0dcb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::ConsoleCommandBase___c* getStaticF___9();
@@ -93,7 +93,7 @@ public:
   ConsoleCommandBase___c(ConsoleCommandBase___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,7 +114,7 @@ public:
 
   static inline ::GlobalNamespace::ConsoleCommandBase___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <ParseUnmatchedArguments>b__1, addr 0x3b09cc4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <ParseUnmatchedArguments>b__1, addr 0x3b0dd10, size 0x84, virtual false, abstract: false, final false
   inline bool _ParseUnmatchedArguments_b__1(::GlobalNamespace::ArgumentBase* arg);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* const& __cordl_internal_get_matchedArguments() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_matchedArguments(::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* value);
 
-  /// @brief Method .ctor, addr 0x3b09a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0dad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,7 +141,7 @@ public:
   ConsoleCommandBase___c__DisplayClass11_0(ConsoleCommandBase___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5024 };
 
   /// @brief Field matchedArguments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* ___matchedArguments;
@@ -174,29 +174,29 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>*() noexcept;
 
-  /// @brief Method AreArgumentsValid, addr 0x3b08b48, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AreArgumentsValid, addr 0x3b0cb94, size 0xb8, virtual false, abstract: false, final false
   inline bool AreArgumentsValid(::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>* messages);
 
-  /// @brief Method CompareTo, addr 0x3b09bb0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3b0dbfc, size 0x54, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::ConsoleCommandBase* other);
 
-  /// @brief Method ExecuteAsync, addr 0x3b08a78, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x3b0cac4, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ExecuteAsync(::ArrayW<::StringW, ::Array<::StringW>*> args,
                                                         ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>* messages);
 
   /// @brief Method ExecuteAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>* messages);
 
-  /// @brief Method GetArguments, addr 0x3b085b0, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x3b0c5fc, size 0x264, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> GetArguments();
 
-  /// @brief Method GetArgumentsText, addr 0x3b08814, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetArgumentsText, addr 0x3b0c860, size 0x25c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DebugConsoleController_ConsoleMessage GetArgumentsText();
 
   /// @brief Method GetCommandName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW GetCommandName();
 
-  /// @brief Method GetInvalidArgumentMessage, addr 0x3b095ac, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidArgumentMessage, addr 0x3b0d5f8, size 0x4dc, virtual false, abstract: false, final false
   inline void GetInvalidArgumentMessage(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ArgumentBase*>* missingArguments,
                                         ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>* messages);
 
@@ -206,21 +206,21 @@ public:
   /// @brief Method GetShortHelpText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::DebugConsoleController_ConsoleMessage GetShortHelpText();
 
-  /// @brief Method Initialize, addr 0x3b08598, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b0c5e4, size 0x18, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::ConsoleCommandBase* New_ctor();
 
-  /// @brief Method ParseMatchedArguments, addr 0x3b08c00, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method ParseMatchedArguments, addr 0x3b0cc4c, size 0x554, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>*
   ParseMatchedArguments(::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>* messages);
 
-  /// @brief Method ParseUnmatchedArguments, addr 0x3b09154, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method ParseUnmatchedArguments, addr 0x3b0d1a0, size 0x458, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>*
   ParseUnmatchedArguments(::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* matchedArguments,
                           ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>* messages);
 
-  /// @brief Method Reset, addr 0x3b09b4c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3b0db98, size 0x64, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> const& __cordl_internal_get__arguments() const;
@@ -235,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set__console(::GlobalNamespace::DebugConsoleController* value);
 
-  /// @brief Method .ctor, addr 0x3b09c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0dc50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>"
@@ -256,7 +256,7 @@ public:
   ConsoleCommandBase(ConsoleCommandBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5025 };
 
   /// @brief Field _console, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::DebugConsoleController* ____console;

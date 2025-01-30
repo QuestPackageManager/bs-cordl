@@ -69,28 +69,28 @@ public:
 
   static inline ::GlobalNamespace::AutoSetupController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b542d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b582d4, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b540e0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b580e0, size 0x1f4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Setup, addr 0x3b540d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b580d8, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
 
-  /// @brief Method <OnEnable>b__12_0, addr 0x3b543b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_0, addr 0x3b583b8, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_0();
 
-  /// @brief Method <OnEnable>b__12_1, addr 0x3b543d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_1, addr 0x3b583d8, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_1(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_2, addr 0x3b543f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_2, addr 0x3b583f8, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_2(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_3, addr 0x3b54418, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_3, addr 0x3b58418, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_3(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_4, addr 0x3b54438, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_4, addr 0x3b58438, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_4(bool isOn);
 
   constexpr ::GlobalNamespace::AutoSetupData* const& __cordl_internal_get__autoSetupData() const;
@@ -147,13 +147,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method .ctor, addr 0x3b542f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b582f0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b53f78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b57f78, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b54028, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b58028, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
 protected:
@@ -171,7 +171,7 @@ public:
   AutoSetupController(AutoSetupController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5314 };
 
   /// @brief Field _closeButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____closeButton;

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE Interpolation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x44d8e68, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x44dc0cc, size 0x54c, virtual false, abstract: false, final false
   static inline float_t Interpolate(float_t t, ::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -40,7 +40,7 @@ public:
   Interpolation(Interpolation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

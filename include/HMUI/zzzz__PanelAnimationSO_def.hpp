@@ -46,16 +46,16 @@ public:
   /// @brief Field _scaleYAnimationCurve, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__scaleYAnimationCurve, put = __cordl_internal_set__scaleYAnimationCurve)) ::UnityEngine::AnimationCurve* _scaleYAnimationCurve;
 
-  /// @brief Method ExecuteAnimation, addr 0x39e9ef8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x39ec384, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go);
 
-  /// @brief Method ExecuteAnimation, addr 0x39e9fd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x39ec460, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x39e9fe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x39ec470, size 0xc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x39e9f08, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x39ec394, size 0xcc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
 
   static inline ::HMUI::PanelAnimationSO* New_ctor();
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x39e9ff0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ec47c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   PanelAnimationSO(PanelAnimationSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16015 };
 
   /// @brief Field _duration, offset: 0x18, size: 0x4, def value: None
   float_t ____duration;

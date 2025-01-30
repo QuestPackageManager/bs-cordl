@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_songPackMask(::GlobalNamespace::SongPackMask value);
 
-  /// @brief Method .ctor, addr 0x3c0a35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c10480, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   QuickPlaySongPacksDropdown_SongPackMaskItem(QuickPlaySongPacksDropdown_SongPackMaskItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4837 };
 
   /// @brief Field serializedName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___serializedName;
@@ -180,16 +180,16 @@ public:
 
   static inline ::GlobalNamespace::QuickPlaySongPacksDropdown___c* New_ctor();
 
-  /// @brief Method <LazyInit>b__15_2, addr 0x3c0a3c8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method <LazyInit>b__15_2, addr 0x3c105a8, size 0x1a8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem* _LazyInit_b__15_2(::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack* localizedPack);
 
-  /// @brief Method <LazyInit>b__15_3, addr 0x3c0a5b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <LazyInit>b__15_3, addr 0x3c10790, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _LazyInit_b__15_3(::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem* item);
 
-  /// @brief Method <LazyInit>b__15_4, addr 0x3c0a570, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <LazyInit>b__15_4, addr 0x3c10750, size 0x40, virtual false, abstract: false, final false
   inline bool _LazyInit_b__15_4(::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName* packName);
 
-  /// @brief Method .ctor, addr 0x3c0a3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c105a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::QuickPlaySongPacksDropdown___c* getStaticF___9();
@@ -225,7 +225,7 @@ public:
   QuickPlaySongPacksDropdown___c(QuickPlaySongPacksDropdown___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -245,7 +245,7 @@ public:
 
   static inline ::GlobalNamespace::QuickPlaySongPacksDropdown___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <SelectCellWithSerializedName>b__0, addr 0x3c0a5d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <SelectCellWithSerializedName>b__0, addr 0x3c107a8, size 0x24, virtual false, abstract: false, final false
   inline bool _SelectCellWithSerializedName_b__0(::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem* item);
 
   constexpr ::StringW const& __cordl_internal_get_serializedName() const;
@@ -254,7 +254,7 @@ public:
 
   constexpr void __cordl_internal_set_serializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c0a5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1039c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -272,7 +272,7 @@ public:
   QuickPlaySongPacksDropdown___c__DisplayClass13_0(QuickPlaySongPacksDropdown___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4839 };
 
   /// @brief Field serializedName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___serializedName;
@@ -318,33 +318,33 @@ public:
   /// @brief Field didSelectCellWithIdxEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
 
-  /// @brief Method GetSelectedSerializedName, addr 0x3c09c2c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedSerializedName, addr 0x3c0fe04, size 0x70, virtual false, abstract: false, final false
   inline ::StringW GetSelectedSerializedName();
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x3c0a1c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x3c103a4, size 0x24, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
-  /// @brief Method LazyInit, addr 0x3c09c9c, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x3c0fe74, size 0x3d4, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::QuickPlaySongPacksDropdown* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c09b54, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c0fd2c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithSerializedName, addr 0x3c0a070, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithSerializedName, addr 0x3c10248, size 0x154, virtual false, abstract: false, final false
   inline void SelectCellWithSerializedName(::StringW serializedName);
 
-  /// @brief Method SetOverrideSongPacks, addr 0x3c09c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetOverrideSongPacks, addr 0x3c0fdfc, size 0x8, virtual false, abstract: false, final false
   inline void SetOverrideSongPacks(::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride* quickPlaySongPacksOverride);
 
-  /// @brief Method Start, addr 0x3c09ac4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3c0fc9c, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <LazyInit>b__15_0, addr 0x3c0a1f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <LazyInit>b__15_0, addr 0x3c103d0, size 0xb0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem* _LazyInit_b__15_0(::StringW serializedName);
 
-  /// @brief Method <LazyInit>b__15_1, addr 0x3c0a2a0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <LazyInit>b__15_1, addr 0x3c10488, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem* _LazyInit_b__15_1(::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack* pack);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem*>* const& __cordl_internal_get__data() const;
@@ -383,13 +383,13 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3c0a1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c103c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3c09964, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3c0fb3c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3c09a14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3c0fbec, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -407,7 +407,7 @@ public:
   QuickPlaySongPacksDropdown(QuickPlaySongPacksDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4840 };
 
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;

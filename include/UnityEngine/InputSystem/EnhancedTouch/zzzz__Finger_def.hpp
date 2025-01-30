@@ -74,19 +74,19 @@ public:
 
   __declspec(property(get = get_touchHistory)) ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory touchHistory;
 
-  /// @brief Method FindTouch, addr 0x45ffbfc, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method FindTouch, addr 0x4602e60, size 0x334, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch FindTouch(uint32_t uniqueId);
 
-  /// @brief Method GetTouchHistory, addr 0x45fff30, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetTouchHistory, addr 0x4603194, size 0x220, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory GetTouchHistory(::UnityEngine::InputSystem::EnhancedTouch::Touch touch);
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::Finger* New_ctor(::UnityEngine::InputSystem::Touchscreen* screen, int32_t index,
                                                                             ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask);
 
-  /// @brief Method OnTouchRecorded, addr 0x45ff948, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method OnTouchRecorded, addr 0x4602bac, size 0x28c, virtual false, abstract: false, final false
   inline void OnTouchRecorded(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record record);
 
-  /// @brief Method ShouldRecordTouch, addr 0x45ff860, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ShouldRecordTouch, addr 0x4602ac4, size 0xb4, virtual false, abstract: false, final false
   static inline bool ShouldRecordTouch(::UnityEngine::InputSystem::InputControl* control, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   constexpr int32_t const& __cordl_internal_get__index_k__BackingField() const;
@@ -107,28 +107,28 @@ public:
 
   constexpr void __cordl_internal_set_m_StateHistory(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* value);
 
-  /// @brief Method .ctor, addr 0x45ff50c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4602770, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Touchscreen* screen, int32_t index, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask);
 
-  /// @brief Method get_currentTouch, addr 0x45ff110, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_currentTouch, addr 0x4602374, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_currentTouch();
 
-  /// @brief Method get_index, addr 0x45ff090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x46022f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_isActive, addr 0x45ff098, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x46022fc, size 0x78, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_lastTouch, addr 0x45ff2ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_lastTouch, addr 0x4602550, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_lastTouch();
 
-  /// @brief Method get_screen, addr 0x45ff088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screen, addr 0x46022ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Touchscreen* get_screen();
 
-  /// @brief Method get_screenPosition, addr 0x45ff254, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_screenPosition, addr 0x46024b8, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_screenPosition();
 
-  /// @brief Method get_touchHistory, addr 0x45ff49c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_touchHistory, addr 0x4602700, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory get_touchHistory();
 
 protected:
@@ -146,7 +146,7 @@ public:
   Finger(Finger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6822 };
 
   /// @brief Field <screen>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Touchscreen* ____screen_k__BackingField;

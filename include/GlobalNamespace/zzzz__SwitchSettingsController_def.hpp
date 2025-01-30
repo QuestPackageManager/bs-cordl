@@ -30,24 +30,24 @@ public:
   /// @brief Method ApplyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ApplyValue(bool value);
 
-  /// @brief Method Awake, addr 0x3c271dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c2a440, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
   /// @brief Method GetInitValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool GetInitValue();
 
-  /// @brief Method HandleToggleValueDidChange, addr 0x3c27384, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueDidChange, addr 0x3c2a5e8, size 0x10, virtual false, abstract: false, final false
   inline void HandleToggleValueDidChange(bool value);
 
   static inline ::GlobalNamespace::SwitchSettingsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c27280, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c2a4e4, size 0xa4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x3c27324, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c2a588, size 0x3c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshUI, addr 0x3c27360, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3c2a5c4, size 0x24, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr bool const& __cordl_internal_get__on() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x3c27394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2a5f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   SwitchSettingsController(SwitchSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18972 };
 
   /// @brief Field _toggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggle;

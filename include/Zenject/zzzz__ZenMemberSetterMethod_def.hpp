@@ -30,18 +30,18 @@ namespace Zenject {
 class CORDL_TYPE ZenMemberSetterMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4af04f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4af3754, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* obj, ::System::Object* value, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4af0518, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4af377c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4af04dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4af3740, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* obj, ::System::Object* value);
 
   static inline ::Zenject::ZenMemberSetterMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4af03d8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af363c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -59,7 +59,7 @@ public:
   ZenMemberSetterMethod(ZenMemberSetterMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

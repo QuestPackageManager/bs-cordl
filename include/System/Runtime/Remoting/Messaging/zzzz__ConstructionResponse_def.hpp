@@ -66,16 +66,16 @@ public:
   static inline ::System::Runtime::Remoting::Messaging::ConstructionResponse* New_ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                                                                                        ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3ce3798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce69fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3ceb700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cee964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cd99dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cdcc40, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* resultObject, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method get_Properties, addr 0x3ceb708, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3cee96c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionReturnMessage"

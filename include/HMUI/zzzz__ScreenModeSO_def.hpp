@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set__data(::HMUI::ScreenModeData* value);
 
-  /// @brief Method .ctor, addr 0x228956c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228a348, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_data, addr 0x2289564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x228a340, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ScreenModeData* get_data();
 
 protected:
@@ -55,7 +55,7 @@ public:
   ScreenModeSO(ScreenModeSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16810 };
 
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
   ::HMUI::ScreenModeData* ____data;

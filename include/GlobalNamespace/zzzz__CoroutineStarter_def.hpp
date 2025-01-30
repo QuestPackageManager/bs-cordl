@@ -28,15 +28,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICoroutineStarter"
   constexpr operator ::GlobalNamespace::ICoroutineStarter*() noexcept;
 
-  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0x22b1a1c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0x22b27f8, size 0xd4, virtual true, abstract: false, final true
   inline ::UnityEngine::Coroutine* ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0x22b1af0, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0x22b28cc, size 0xcc, virtual true, abstract: false, final true
   inline void ICoroutineStarter_StopCoroutine(::UnityEngine::Coroutine* routine);
 
   static inline ::GlobalNamespace::CoroutineStarter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b1bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b2998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICoroutineStarter"
@@ -57,7 +57,7 @@ public:
   CoroutineStarter(CoroutineStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17123 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

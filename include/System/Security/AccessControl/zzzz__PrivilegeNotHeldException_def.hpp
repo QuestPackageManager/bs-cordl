@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3cc1320, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3cc4584, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor();
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__privilegeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cc124c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc44b0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc1298, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc44fc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

@@ -24,13 +24,13 @@ public:
   /// @brief Field Error, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_Error, put = setStaticF_Error)) ::GlobalNamespace::LoadBeatmapLevelDataResult Error;
 
-  /// @brief Method FromValue, addr 0x26d2d38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromValue, addr 0x26d3f8c, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult FromValue(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method Success, addr 0x26d2d2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Success, addr 0x26d3f80, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult Success(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method .ctor, addr 0x26d2d1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3f70, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isError, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult getStaticF_Error();
@@ -46,7 +46,7 @@ public:
   constexpr LoadBeatmapLevelDataResult(bool isError, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13024 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

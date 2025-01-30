@@ -79,42 +79,42 @@ public:
 
   __declspec(property(put = set_time)) float_t time;
 
-  /// @brief Method Awake, addr 0x3ad0344, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ad316c, size 0x154, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CrossFade, addr 0x3ad0570, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CrossFade, addr 0x3ad3398, size 0x1cc, virtual false, abstract: false, final false
   inline void CrossFade(float_t toSongTime, float_t toVolume);
 
-  /// @brief Method InterruptLastPitchGainEffect, addr 0x3ad0558, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InterruptLastPitchGainEffect, addr 0x3ad3380, size 0x18, virtual false, abstract: false, final false
   inline void InterruptLastPitchGainEffect();
 
   static inline ::GlobalNamespace::CrossFadeAudioSource* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad0498, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad32c0, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Play, addr 0x3ad073c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x3ad3564, size 0x1c, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method PlayPitchGainEffect, addr 0x3ad0520, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PlayPitchGainEffect, addr 0x3ad3348, size 0x38, virtual false, abstract: false, final false
   inline void PlayPitchGainEffect(float_t volumeScale);
 
-  /// @brief Method Stop, addr 0x3ad0758, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3ad3580, size 0x50, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method <Awake>b__21_0, addr 0x3ad07bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_0, addr 0x3ad35e4, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__21_0(float_t val);
 
-  /// @brief Method <Awake>b__21_1, addr 0x3ad07d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_1, addr 0x3ad3600, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__21_1(float_t val);
 
-  /// @brief Method <CrossFade>b__25_0, addr 0x3ad07f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CrossFade>b__25_0, addr 0x3ad361c, size 0x1c, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_0(float_t val);
 
-  /// @brief Method <CrossFade>b__25_1, addr 0x3ad0810, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CrossFade>b__25_1, addr 0x3ad3638, size 0x1c, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_1(float_t val);
 
-  /// @brief Method <CrossFade>b__25_2, addr 0x3ad082c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <CrossFade>b__25_2, addr 0x3ad3654, size 0x30, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_2();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__activeAudioSource() const;
@@ -189,22 +189,22 @@ public:
 
   constexpr void __cordl_internal_set__volumeUpTween(::Tweening::Tween_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3ad07a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad35d0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clip, addr 0x3ad024c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x3ad3074, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_clip();
 
-  /// @brief Method get_isPlaying, addr 0x3ad0328, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x3ad3150, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method set_clip, addr 0x3ad0268, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x3ad3090, size 0x40, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_pitch, addr 0x3ad02a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_pitch, addr 0x3ad30d0, size 0x40, virtual false, abstract: false, final false
   inline void set_pitch(float_t value);
 
-  /// @brief Method set_time, addr 0x3ad02e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x3ad3110, size 0x40, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:
@@ -222,7 +222,7 @@ public:
   CrossFadeAudioSource(CrossFadeAudioSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4006 };
 
   /// @brief Field _duration, offset: 0x20, size: 0x4, def value: None
   float_t ____duration;

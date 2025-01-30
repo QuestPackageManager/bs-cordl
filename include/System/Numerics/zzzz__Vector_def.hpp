@@ -28,7 +28,7 @@ public:
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
-  /// @brief Method get_IsHardwareAccelerated, addr 0x3d35b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsHardwareAccelerated, addr 0x3d38db4, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsHardwareAccelerated();
 
 protected:

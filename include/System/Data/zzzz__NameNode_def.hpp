@@ -52,41 +52,41 @@ public:
   /// @brief Field _name, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
-  /// @brief Method Bind, addr 0x417b368, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x417e5cc, size 0x228, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x417b784, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x417e9e8, size 0x7c, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x417b590, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417e7f4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x417b650, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417e8b4, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> records);
 
-  /// @brief Method Eval, addr 0x417b5b4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x417e818, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x417b6dc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x417e940, size 0x54, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x417b730, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x417e994, size 0x54, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x417b680, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x417e8e4, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x417b688, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x417e8ec, size 0x54, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::NameNode* New_ctor(::System::Data::DataTable* table, ::StringW name);
 
   static inline ::System::Data::NameNode* New_ctor(::System::Data::DataTable* table, ::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t pos);
 
-  /// @brief Method Optimize, addr 0x417b800, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x417ea64, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
-  /// @brief Method ParseName, addr 0x41792d4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ParseName, addr 0x417c538, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW ParseName(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t pos);
 
   constexpr ::System::Data::DataColumn* const& __cordl_internal_get__column() const;
@@ -107,13 +107,13 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4179a64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417ccc8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x4179588, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417c7ec, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t pos);
 
-  /// @brief Method get_IsSqlColumn, addr 0x417b34c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IsSqlColumn, addr 0x417e5b0, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsSqlColumn();
 
 protected:
@@ -131,7 +131,7 @@ public:
   NameNode(NameNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11436 };
 
   /// @brief Field _name, offset: 0x18, size: 0x8, def value: None
   ::StringW ____name;

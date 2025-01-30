@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x2280f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2281d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duplicationGroupName, addr 0x2280f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duplicationGroupName, addr 0x2281d30, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_duplicationGroupName();
 
-  /// @brief Method get_lightGroups, addr 0x2280f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x2281d38, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
 
 protected:
@@ -72,7 +72,7 @@ public:
   LightGroupDuplicationGroup(LightGroupDuplicationGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18634 };
 
   /// @brief Field _duplicationGroupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____duplicationGroupName;

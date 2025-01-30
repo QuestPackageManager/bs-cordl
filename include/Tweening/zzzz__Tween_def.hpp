@@ -88,21 +88,21 @@ public:
 
   __declspec(property(get = get_updateAt, put = set_updateAt)) ::Tweening::FrameParity updateAt;
 
-  /// @brief Method Kill, addr 0x44da630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Kill, addr 0x44dd894, size 0xc, virtual false, abstract: false, final false
   inline void Kill();
 
   static inline ::Tweening::Tween* New_ctor();
 
-  /// @brief Method Restart, addr 0x44da63c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Restart, addr 0x44dd8a0, size 0x10, virtual false, abstract: false, final false
   inline void Restart(float_t startTime);
 
-  /// @brief Method Resume, addr 0x44da64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x44dd8b0, size 0x8, virtual false, abstract: false, final false
   inline void Resume();
 
   /// @brief Method Sample, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Sample(float_t t);
 
-  /// @brief Method SetStartTimeAndEndTime, addr 0x44da654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetStartTimeAndEndTime, addr 0x44dd8b8, size 0xc, virtual false, abstract: false, final false
   inline void SetStartTimeAndEndTime(float_t startTime, float_t endTime);
 
   /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -180,55 +180,55 @@ public:
 
   constexpr void __cordl_internal_set_onStart(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x44da660, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dd8c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_delay, addr 0x44da600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delay, addr 0x44dd864, size 0x8, virtual false, abstract: false, final false
   inline float_t get_delay();
 
-  /// @brief Method get_duration, addr 0x44da5dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x44dd840, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_easeType, addr 0x44da610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x44dd874, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_isActive, addr 0x44da580, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x44dd7e4, size 0x30, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isComplete, addr 0x44da5b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isComplete, addr 0x44dd814, size 0x14, virtual false, abstract: false, final false
   inline bool get_isComplete();
 
-  /// @brief Method get_isKilled, addr 0x44da5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isKilled, addr 0x44dd828, size 0x8, virtual false, abstract: false, final false
   inline bool get_isKilled();
 
-  /// @brief Method get_isStarted, addr 0x44da578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isStarted, addr 0x44dd7dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isStarted();
 
-  /// @brief Method get_loop, addr 0x44da5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x44dd850, size 0x8, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_progress, addr 0x44da5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x44dd830, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method get_startTime, addr 0x44da5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x44dd838, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method get_updateAt, addr 0x44da620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateAt, addr 0x44dd884, size 0x8, virtual false, abstract: false, final false
   inline ::Tweening::FrameParity get_updateAt();
 
-  /// @brief Method set_delay, addr 0x44da608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delay, addr 0x44dd86c, size 0x8, virtual false, abstract: false, final false
   inline void set_delay(float_t value);
 
-  /// @brief Method set_duration, addr 0x44da5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x44dd848, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_easeType, addr 0x44da618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x44dd87c, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method set_loop, addr 0x44da5f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x44dd858, size 0xc, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method set_updateAt, addr 0x44da628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_updateAt, addr 0x44dd88c, size 0x8, virtual false, abstract: false, final false
   inline void set_updateAt(::Tweening::FrameParity value);
 
 protected:
@@ -246,7 +246,7 @@ public:
   Tween(Tween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18669 };
 
   /// @brief Field kEpsilon offset 0xffffffff size 0x4
   static constexpr float_t kEpsilon{ static_cast<float_t>(0.001f) };

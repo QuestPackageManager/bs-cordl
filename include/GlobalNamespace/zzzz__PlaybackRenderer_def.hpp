@@ -101,7 +101,7 @@ public:
   static ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type const Foreground;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5090 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -156,7 +156,7 @@ public:
 
   __declspec(property(get = get_type)) ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type;
 
-  /// @brief Method CreateTexture, addr 0x3b18b44, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x3b1cb44, size 0xc4, virtual false, abstract: false, final false
   inline void CreateTexture(int32_t width, int32_t height);
 
   static inline ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type,
@@ -198,28 +198,28 @@ public:
 
   constexpr void __cordl_internal_set__type(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type value);
 
-  /// @brief Method .ctor, addr 0x3b19450, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1d450, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type, ::UnityEngine::Color backgroundColor);
 
-  /// @brief Method get_backgroundColor, addr 0x3b19444, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundColor, addr 0x3b1d444, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_backgroundColor();
 
-  /// @brief Method get_layerMask, addr 0x3b19424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layerMask, addr 0x3b1d424, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_layerMask();
 
-  /// @brief Method get_name, addr 0x3b19414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x3b1d414, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_path, addr 0x3b19434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x3b1d434, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_texture, addr 0x3b1941c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x3b1d41c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_texture();
 
-  /// @brief Method get_type, addr 0x3b1942c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x3b1d42c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type get_type();
 
-  /// @brief Method set_path, addr 0x3b1943c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_path, addr 0x3b1d43c, size 0x8, virtual false, abstract: false, final false
   inline void set_path(::StringW value);
 
 protected:
@@ -237,7 +237,7 @@ public:
   PlaybackRenderer_PlaybackScreenshot(PlaybackRenderer_PlaybackScreenshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5091 };
 
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
@@ -316,33 +316,33 @@ public:
   /// @brief Field texturesReadyEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_texturesReadyEvent, put = __cordl_internal_set_texturesReadyEvent)) ::System::Action* texturesReadyEvent;
 
-  /// @brief Method CreateClipQuad, addr 0x3b18854, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method CreateClipQuad, addr 0x3b1c854, size 0x27c, virtual false, abstract: false, final false
   inline void CreateClipQuad();
 
-  /// @brief Method CreateTextures, addr 0x3b18ad0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateTextures, addr 0x3b1cad0, size 0x74, virtual false, abstract: false, final false
   inline void CreateTextures(int32_t width, int32_t height);
 
-  /// @brief Method GetDistanceToHMD, addr 0x3b18c08, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToHMD, addr 0x3b1cc08, size 0x30c, virtual false, abstract: false, final false
   inline float_t GetDistanceToHMD();
 
-  /// @brief Method InitCamera, addr 0x3b1876c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitCamera, addr 0x3b1c76c, size 0xe8, virtual false, abstract: false, final false
   inline void InitCamera(::UnityEngine::Camera* camera, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* cameraCalibration);
 
-  /// @brief Method LateUpdate, addr 0x3b19368, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b1d368, size 0xa4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PlaybackRenderer* New_ctor();
 
-  /// @brief Method OrientClipQuad, addr 0x3b18f14, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OrientClipQuad, addr 0x3b1cf14, size 0x140, virtual false, abstract: false, final false
   inline void OrientClipQuad();
 
-  /// @brief Method RenderBackground, addr 0x3b19214, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RenderBackground, addr 0x3b1d214, size 0x154, virtual false, abstract: false, final false
   inline void RenderBackground(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* screenshot);
 
-  /// @brief Method RenderForeground, addr 0x3b19054, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RenderForeground, addr 0x3b1d054, size 0x1c0, virtual false, abstract: false, final false
   inline void RenderForeground(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* screenshot);
 
-  /// @brief Method Setup, addr 0x3b17d00, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b1bd00, size 0x88, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Camera* hmdCamera, ::UnityEngine::Camera* camera, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* cameraCalibration, int32_t textureWidth,
                     int32_t textureHeight, ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> screenshots);
 
@@ -400,16 +400,16 @@ public:
 
   constexpr void __cordl_internal_set_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b1940c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1d40c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_texturesReadyEvent, addr 0x3b1862c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_texturesReadyEvent, addr 0x3b1c62c, size 0x9c, virtual false, abstract: false, final false
   inline void add_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method get_screenshots, addr 0x3b18764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenshots, addr 0x3b1c764, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> get_screenshots();
 
-  /// @brief Method remove_texturesReadyEvent, addr 0x3b186c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_texturesReadyEvent, addr 0x3b1c6c8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_texturesReadyEvent(::System::Action* value);
 
 protected:
@@ -427,7 +427,7 @@ public:
   PlaybackRenderer(PlaybackRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5092 };
 
   /// @brief Field texturesReadyEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___texturesReadyEvent;

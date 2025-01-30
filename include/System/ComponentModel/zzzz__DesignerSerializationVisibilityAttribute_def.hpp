@@ -44,13 +44,13 @@ public:
   __declspec(property(get = __cordl_internal_get__Visibility_k__BackingField,
                       put = __cordl_internal_set__Visibility_k__BackingField)) ::System::ComponentModel::DesignerSerializationVisibility _Visibility_k__BackingField;
 
-  /// @brief Method Equals, addr 0x4445f5c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x44491c0, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4446034, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4449298, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x444603c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x44492a0, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DesignerSerializationVisibilityAttribute* New_ctor(::System::ComponentModel::DesignerSerializationVisibility visibility);
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__Visibility_k__BackingField(::System::ComponentModel::DesignerSerializationVisibility value);
 
-  /// @brief Method .ctor, addr 0x4445f2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4449190, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::DesignerSerializationVisibility visibility);
 
   static inline ::System::ComponentModel::DesignerSerializationVisibilityAttribute* getStaticF_Content();
@@ -72,7 +72,7 @@ public:
 
   static inline ::System::ComponentModel::DesignerSerializationVisibilityAttribute* getStaticF_Visible();
 
-  /// @brief Method get_Visibility, addr 0x4445f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Visibility, addr 0x44491b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::DesignerSerializationVisibility get_Visibility();
 
   static inline void setStaticF_Content(::System::ComponentModel::DesignerSerializationVisibilityAttribute* value);
@@ -98,7 +98,7 @@ public:
   DesignerSerializationVisibilityAttribute(DesignerSerializationVisibilityAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9346 };
 
   /// @brief Field <Visibility>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::DesignerSerializationVisibility ____Visibility_k__BackingField;

@@ -30,7 +30,7 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
 
-  /// @brief Method ToString, addr 0x25d3810, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25d482c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::DateTime const& __cordl_internal_get_dt() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_dt(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x25c99e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25caa00, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dt);
 
-  /// @brief Method get_Value, addr 0x25d3808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x25d4824, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Value();
 
 protected:

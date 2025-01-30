@@ -25,10 +25,10 @@ public:
 
   static inline ::UnityEngine::RuntimeAnimatorController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48520a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485530c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClips, addr 0x4852ed8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_animationClips, addr 0x485613c, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips();
 
 protected:
@@ -46,7 +46,7 @@ public:
   RuntimeAnimatorController(RuntimeAnimatorController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b3a03c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3e03c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::StringW subtitle);
 
 protected:
@@ -57,7 +57,7 @@ public:
   StartupErrorSceneSetupData(StartupErrorSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5248 };
 
   /// @brief Field title, offset: 0x10, size: 0x8, def value: None
   ::StringW ___title;

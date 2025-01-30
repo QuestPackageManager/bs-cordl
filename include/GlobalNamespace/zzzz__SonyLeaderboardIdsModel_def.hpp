@@ -35,12 +35,12 @@ public:
   /// @brief Field _leaderboardIds, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__leaderboardIds, put = __cordl_internal_set__leaderboardIds)) ::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* _leaderboardIds;
 
-  /// @brief Method GetMaxId, addr 0x270432c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetMaxId, addr 0x2706824, size 0x6c, virtual false, abstract: false, final false
   inline uint32_t GetMaxId();
 
   static inline ::GlobalNamespace::SonyLeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* idsMaps);
 
-  /// @brief Method TryGetSonyLeaderboardId, addr 0x27042b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetSonyLeaderboardId, addr 0x27067ac, size 0x78, virtual false, abstract: false, final false
   inline bool TryGetSonyLeaderboardId(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::ByRef<uint32_t> sonyLeaderboardId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* const& __cordl_internal_get__leaderboardIds() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2703cbc, size 0x5f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27061b4, size 0x5f8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* idsMaps);
 
 protected:
@@ -67,7 +67,7 @@ public:
   SonyLeaderboardIdsModel(SonyLeaderboardIdsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13361 };
 
   /// @brief Field _leaderboardIds, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* ____leaderboardIds;

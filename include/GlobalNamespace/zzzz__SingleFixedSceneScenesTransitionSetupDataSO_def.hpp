@@ -29,7 +29,7 @@ public:
 
   __declspec(property(get = get_sceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> sceneInfo;
 
-  /// @brief Method Init, addr 0x22998ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x229a6c8, size 0xec, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SceneSetupData* sceneSetupData);
 
   static inline ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO* New_ctor();
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set__sceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  /// @brief Method .ctor, addr 0x2299ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229a88c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sceneInfo, addr 0x2299d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneInfo, addr 0x229ab14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SceneInfo> get_sceneInfo();
 
 protected:
@@ -61,7 +61,7 @@ public:
   SingleFixedSceneScenesTransitionSetupDataSO(SingleFixedSceneScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17635 };
 
   /// @brief Field _sceneInfo, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SceneInfo> ____sceneInfo;

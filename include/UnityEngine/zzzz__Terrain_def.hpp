@@ -40,48 +40,48 @@ public:
 
   __declspec(property(get = get_terrainData, put = set_terrainData)) ::UnityW<::UnityEngine::TerrainData> terrainData;
 
-  /// @brief Method Flush, addr 0x4919ac4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x491cd28, size 0x3c, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::UnityEngine::Terrain* New_ctor();
 
-  /// @brief Method SetNeighbors, addr 0x4919a58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetNeighbors, addr 0x491ccbc, size 0x6c, virtual false, abstract: false, final false
   inline void SetNeighbors(::UnityEngine::Terrain* left, ::UnityEngine::Terrain* top, ::UnityEngine::Terrain* right, ::UnityEngine::Terrain* bottom);
 
-  /// @brief Method .ctor, addr 0x4919b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491cd8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeTerrains, addr 0x4919b00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_activeTerrains, addr 0x491cd64, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> get_activeTerrains();
 
-  /// @brief Method get_allowAutoConnect, addr 0x4919958, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowAutoConnect, addr 0x491cbbc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_allowAutoConnect();
 
-  /// @brief Method get_groupingID, addr 0x49199d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_groupingID, addr 0x491cc3c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_groupingID();
 
-  /// @brief Method get_materialTemplate, addr 0x49198d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_materialTemplate, addr 0x491cb3c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_materialTemplate();
 
-  /// @brief Method get_terrainData, addr 0x49197c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_terrainData, addr 0x491ca24, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TerrainData> get_terrainData();
 
-  /// @brief Method set_allowAutoConnect, addr 0x4919994, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_allowAutoConnect, addr 0x491cbf8, size 0x44, virtual false, abstract: false, final false
   inline void set_allowAutoConnect(bool value);
 
-  /// @brief Method set_detailObjectDensity, addr 0x491988c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_detailObjectDensity, addr 0x491caf0, size 0x4c, virtual false, abstract: false, final false
   inline void set_detailObjectDensity(float_t value);
 
-  /// @brief Method set_detailObjectDistance, addr 0x4919840, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_detailObjectDistance, addr 0x491caa4, size 0x4c, virtual false, abstract: false, final false
   inline void set_detailObjectDistance(float_t value);
 
-  /// @brief Method set_drawInstanced, addr 0x4919a14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_drawInstanced, addr 0x491cc78, size 0x44, virtual false, abstract: false, final false
   inline void set_drawInstanced(bool value);
 
-  /// @brief Method set_materialTemplate, addr 0x4919914, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_materialTemplate, addr 0x491cb78, size 0x44, virtual false, abstract: false, final false
   inline void set_materialTemplate(::UnityEngine::Material* value);
 
-  /// @brief Method set_terrainData, addr 0x49197fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_terrainData, addr 0x491ca60, size 0x44, virtual false, abstract: false, final false
   inline void set_terrainData(::UnityEngine::TerrainData* value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   Terrain(Terrain const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

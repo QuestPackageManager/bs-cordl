@@ -60,10 +60,10 @@ public:
 
   static inline ::System::Net::Http::Headers::MediaTypeHeaderValue___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x42229f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4225c54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_CharSet>b__6_0, addr 0x42229f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_CharSet>b__6_0, addr 0x4225c5c, size 0x58, virtual false, abstract: false, final false
   inline bool _get_CharSet_b__6_0(::System::Net::Http::Headers::NameValueHeaderValue* l);
 
   static inline ::System::Net::Http::Headers::MediaTypeHeaderValue___c* getStaticF___9();
@@ -89,7 +89,7 @@ public:
   MediaTypeHeaderValue___c(MediaTypeHeaderValue___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,10 +122,10 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x4222664, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x42258c8, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x422272c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4225990, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::MediaTypeHeaderValue* New_ctor();
@@ -134,16 +134,16 @@ public:
 
   static inline ::System::Net::Http::Headers::MediaTypeHeaderValue* New_ctor(::System::Net::Http::Headers::MediaTypeHeaderValue* source);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x422260c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x4225870, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x42227a8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4225a0c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x4222814, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4225a78, size 0x180, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::MediaTypeHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseMediaType, addr 0x4222484, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryParseMediaType, addr 0x42256e8, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::System::Net::Http::Headers::Token> TryParseMediaType(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::StringW> media);
 
   constexpr ::StringW const& __cordl_internal_get_media_type() const;
@@ -158,28 +158,28 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
 
-  /// @brief Method .ctor, addr 0x422247c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42256e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4219610, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421c874, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW mediaType);
 
-  /// @brief Method .ctor, addr 0x422219c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4225400, size 0x268, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::MediaTypeHeaderValue* source);
 
-  /// @brief Method get_CharSet, addr 0x42181c0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_CharSet, addr 0x421b424, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW get_CharSet();
 
-  /// @brief Method get_Parameters, addr 0x4222404, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x4225668, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_CharSet, addr 0x421963c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_CharSet, addr 0x421c8a0, size 0xa0, virtual false, abstract: false, final false
   inline void set_CharSet(::StringW value);
 
-  /// @brief Method set_MediaType, addr 0x4222044, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method set_MediaType, addr 0x42252a8, size 0x158, virtual false, abstract: false, final false
   inline void set_MediaType(::StringW value);
 
 protected:
@@ -197,7 +197,7 @@ public:
   MediaTypeHeaderValue(MediaTypeHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16723 };
 
   /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* ___parameters;

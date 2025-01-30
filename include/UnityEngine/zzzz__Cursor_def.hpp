@@ -30,19 +30,19 @@ namespace UnityEngine {
 class CORDL_TYPE Cursor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetCursor, addr 0x4899690, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetCursor, addr 0x489c8f4, size 0x58, virtual false, abstract: false, final false
   static inline void SetCursor(::UnityEngine::Texture2D* texture, ::UnityEngine::Vector2 hotspot, ::UnityEngine::CursorMode cursorMode);
 
-  /// @brief Method SetCursor_Injected, addr 0x48996e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCursor_Injected, addr 0x489c94c, size 0x54, virtual false, abstract: false, final false
   static inline void SetCursor_Injected(::UnityEngine::Texture2D* texture, ::ByRef<::UnityEngine::Vector2> hotspot, ::UnityEngine::CursorMode cursorMode);
 
-  /// @brief Method get_lockState, addr 0x4899778, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lockState, addr 0x489c9dc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::CursorLockMode get_lockState();
 
-  /// @brief Method set_lockState, addr 0x48997a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lockState, addr 0x489ca04, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lockState(::UnityEngine::CursorLockMode value);
 
-  /// @brief Method set_visible, addr 0x489973c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_visible, addr 0x489c9a0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_visible(bool value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   Cursor(Cursor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

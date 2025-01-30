@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToBackgroundExecutionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26e7d70;
+  constexpr static std::size_t addrs = 0x26ea248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::remove_didGoToBackgroundExecutionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26e7e0c;
+  constexpr static std::size_t addrs = 0x26ea2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::add_didGoToForegroundExecutionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26e7ea8;
+  constexpr static std::size_t addrs = 0x26ea380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)(::System::Action*)>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::remove_didGoToForegroundExecutionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26e7f44;
+  constexpr static std::size_t addrs = 0x26ea41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::get_isInBackgroundExecution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e7fe0;
+  constexpr static std::size_t addrs = 0x26ea4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::Tick)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26e7fe8;
+  constexpr static std::size_t addrs = 0x26ea4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(), "Tick",
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyBackgroundExecutionHelper::*)()>(
     &::GlobalNamespace::SonyBackgroundExecutionHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e8010;
+  constexpr static std::size_t addrs = 0x26ea4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyBackgroundExecutionHelper*>::get(),

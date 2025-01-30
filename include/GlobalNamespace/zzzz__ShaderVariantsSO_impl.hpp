@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::PassType (::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::*)()>(
     &::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::get_passType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4084e38;
+  constexpr static std::size_t addrs = 0x408809c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::*)()>(
     &::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::get_keywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4084e40;
+  constexpr static std::size_t addrs = 0x40880a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::*)(::UnityEngine::Rendering::PassType, ::StringW)>(
     &::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4084e48;
+  constexpr static std::size_t addrs = 0x40880ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*, ::Array<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*>*> (
         ::GlobalNamespace::ShaderVariantsSO_ShaderVariant::*)()>(&::GlobalNamespace::ShaderVariantsSO_ShaderVariant::get_variants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4084dfc;
+  constexpr static std::size_t addrs = 0x4088060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::GlobalNamespace::ShaderVariantsSO_ShaderVariant::*)()>(
     &::GlobalNamespace::ShaderVariantsSO_ShaderVariant::get_shader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4084e04;
+  constexpr static std::size_t addrs = 0x4088068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*>::get(),
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Shader*, ::ArrayW<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*, ::Array<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*>*>)>(
     &::GlobalNamespace::ShaderVariantsSO_ShaderVariant::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4084e0c;
+  constexpr static std::size_t addrs = 0x4088070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*, ::Array<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*>*> (::GlobalNamespace::ShaderVariantsSO::*)()>(
         &::GlobalNamespace::ShaderVariantsSO::get_shaderVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4084de4;
+  constexpr static std::size_t addrs = 0x4088048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderVariantsSO*>::get(),
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShaderVariantsSO::*)(
     ::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*, ::Array<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*>*>)>(&::GlobalNamespace::ShaderVariantsSO::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4084dec;
+  constexpr static std::size_t addrs = 0x4088050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShaderVariantsSO::*)()>(&::GlobalNamespace::ShaderVariantsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4084df4;
+  constexpr static std::size_t addrs = 0x4088058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderVariantsSO*>::get(), ".ctor",

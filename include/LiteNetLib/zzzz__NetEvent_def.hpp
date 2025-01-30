@@ -108,7 +108,7 @@ public:
   static ::LiteNetLib::NetEvent_EType const ReceiveUnconnected;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16541 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -225,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set_UserData(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3ab05cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab2a58, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* manager);
 
 protected:
@@ -243,7 +243,7 @@ public:
   NetEvent(NetEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16542 };
 
   /// @brief Field Type, offset: 0x10, size: 0x4, def value: None
   ::LiteNetLib::NetEvent_EType ___Type;

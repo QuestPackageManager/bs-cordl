@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_Setter(::Zenject::ZenMemberSetterMethod* value);
 
-  /// @brief Method .ctor, addr 0x4af0750, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af39b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info);
 
 protected:
@@ -99,7 +99,7 @@ public:
   InjectTypeInfo_InjectMemberInfo(InjectTypeInfo_InjectMemberInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18425 };
 
   /// @brief Field Setter, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ZenMemberSetterMethod* ___Setter;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x4af077c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af39e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenFactoryMethod* factory, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters);
 
 protected:
@@ -162,7 +162,7 @@ public:
   InjectTypeInfo_InjectConstructorInfo(InjectTypeInfo_InjectConstructorInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18426 };
 
   /// @brief Field Factory, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ZenFactoryMethod* ___Factory;
@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x4af07a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3a0c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenInjectMethod* action, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters, ::StringW name);
 
 protected:
@@ -235,7 +235,7 @@ public:
   InjectTypeInfo_InjectMethodInfo(InjectTypeInfo_InjectMethodInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18427 };
 
   /// @brief Field Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Name;
@@ -337,15 +337,15 @@ public:
 
   constexpr void __cordl_internal_set__BaseTypeInfo_k__BackingField(::Zenject::InjectTypeInfo* value);
 
-  /// @brief Method .ctor, addr 0x4af0524, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3788, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Zenject::InjectTypeInfo_InjectConstructorInfo* injectConstructor,
                     ::ArrayW<::Zenject::InjectTypeInfo_InjectMethodInfo*, ::Array<::Zenject::InjectTypeInfo_InjectMethodInfo*>*> injectMethods,
                     ::ArrayW<::Zenject::InjectTypeInfo_InjectMemberInfo*, ::Array<::Zenject::InjectTypeInfo_InjectMemberInfo*>*> injectMembers);
 
-  /// @brief Method <get_AllInjectables>b__0, addr 0x4af0720, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllInjectables>b__0, addr 0x4af3984, size 0x18, virtual false, abstract: false, final false
   static inline ::Zenject::InjectableInfo* _get_AllInjectables_b__0(::Zenject::InjectTypeInfo_InjectMemberInfo* x);
 
-  /// @brief Method <get_AllInjectables>b__1, addr 0x4af0738, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllInjectables>b__1, addr 0x4af399c, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* _get_AllInjectables_b__1(::Zenject::InjectTypeInfo_InjectMethodInfo* x);
 
   static inline ::System::Func_2<::Zenject::InjectTypeInfo_InjectMemberInfo*, ::Zenject::InjectableInfo*>* getStaticF_CS$__9__CachedAnonymousMethodDelegate2();
@@ -353,10 +353,10 @@ public:
   static inline ::System::Func_2<::Zenject::InjectTypeInfo_InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>*
   getStaticF_CS$__9__CachedAnonymousMethodDelegate3();
 
-  /// @brief Method get_AllInjectables, addr 0x4af0574, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method get_AllInjectables, addr 0x4af37d8, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* get_AllInjectables();
 
-  /// @brief Method get_BaseTypeInfo, addr 0x4af0564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypeInfo, addr 0x4af37c8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* get_BaseTypeInfo();
 
   static inline void setStaticF_CS$__9__CachedAnonymousMethodDelegate2(::System::Func_2<::Zenject::InjectTypeInfo_InjectMemberInfo*, ::Zenject::InjectableInfo*>* value);
@@ -364,7 +364,7 @@ public:
   static inline void
   setStaticF_CS$__9__CachedAnonymousMethodDelegate3(::System::Func_2<::Zenject::InjectTypeInfo_InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>* value);
 
-  /// @brief Method set_BaseTypeInfo, addr 0x4af056c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeInfo, addr 0x4af37d0, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseTypeInfo(::Zenject::InjectTypeInfo* value);
 
 protected:
@@ -382,7 +382,7 @@ public:
   InjectTypeInfo(InjectTypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18428 };
 
   /// @brief Field Type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___Type;

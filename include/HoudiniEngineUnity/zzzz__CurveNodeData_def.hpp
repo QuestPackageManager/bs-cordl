@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*() noexcept;
 
-  /// @brief Method GetRotation, addr 0x3a093a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x3a0b834, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method IsEquivalentTo, addr 0x3a093cc, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a0b858, size 0x1ac, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::CurveNodeData* other);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor();
@@ -72,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set_scale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3a08edc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0b368, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3a092b8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0b744, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::CurveNodeData* other);
 
-  /// @brief Method .ctor, addr 0x3a08f84, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0b410, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position);
 
-  /// @brief Method .ctor, addr 0x3a09054, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0b4e0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x3a09180, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0b60c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
@@ -105,7 +105,7 @@ public:
   CurveNodeData(CurveNodeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11604 };
 
   /// @brief Field position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___position;

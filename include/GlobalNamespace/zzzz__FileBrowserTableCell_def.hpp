@@ -39,12 +39,12 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x3bff618, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3c05540, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::FileBrowserTableCell* New_ctor();
 
-  /// @brief Method SelectionDidChange, addr 0x3bff580, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3c054a8, size 0x98, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3bff658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c05580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3bff55c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3c05484, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x3bff538, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3c05460, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   FileBrowserTableCell(FileBrowserTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4780 };
 
   /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

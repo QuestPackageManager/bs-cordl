@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_player(::Oculus::Haptics::HapticClipPlayer* value);
 
-  /// @brief Method .ctor, addr 0x39c8520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ca9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   OculusAdvancedHapticFeedbackPlayer_HapticPlayerState(OculusAdvancedHapticFeedbackPlayer_HapticPlayerState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16467 };
 
   /// @brief Field player, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Haptics::HapticClipPlayer* ___player;
@@ -166,27 +166,27 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x39c85d8, size 0x1f0, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x39caa64, size 0x1f0, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method Dispose, addr 0x39c8950, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x39caddc, size 0x20c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetHapticClip, addr 0x39c8528, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHapticClip, addr 0x39ca9b4, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityW<::Oculus::Haptics::HapticClip> GetHapticClip(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method HandleApplicationQuitting, addr 0x39c8d9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x39cb228, size 0x68, virtual false, abstract: false, final false
   inline void HandleApplicationQuitting();
 
-  /// @brief Method Initialize, addr 0x39c88ac, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x39cad38, size 0xa4, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x39c8278, size 0x2a8, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x39ca704, size 0x2a8, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method Tick, addr 0x39c8b5c, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x39cafe8, size 0x1c4, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
@@ -231,7 +231,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39c8e04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cb290, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -261,7 +261,7 @@ public:
   OculusAdvancedHapticFeedbackPlayer(OculusAdvancedHapticFeedbackPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16468 };
 
   /// @brief Field _vrPlatformHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

@@ -45,13 +45,13 @@ public:
   /// @brief Field _textureName, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__textureName, put = __cordl_internal_set__textureName)) ::StringW _textureName;
 
-  /// @brief Method CamerasDict, addr 0x407f978, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CamerasDict, addr 0x4082bdc, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-  /// @brief Method CommandBufferCameraEvent, addr 0x407f9d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CommandBufferCameraEvent, addr 0x4082c34, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
-  /// @brief Method CreateCommandBuffer, addr 0x407f78c, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method CreateCommandBuffer, addr 0x40829f0, size 0x1ec, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::CommandBufferGrabPass* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__textureName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x407f9d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4082c3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();
@@ -90,7 +90,7 @@ public:
   CommandBufferGrabPass(CommandBufferGrabPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17888 };
 
   /// @brief Field _textureName, offset: 0x30, size: 0x8, def value: None
   ::StringW ____textureName;

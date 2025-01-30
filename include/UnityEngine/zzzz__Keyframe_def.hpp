@@ -20,10 +20,10 @@ namespace UnityEngine {
 struct CORDL_TYPE Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x485fcac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4862f10, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x485fcbc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4862f20, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr Keyframe(float_t m_Time, float_t m_Value, float_t m_InTangent, float_t m_OutTangent, int32_t m_WeightedMode, float_t m_InWeight, float_t m_OutWeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10644 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

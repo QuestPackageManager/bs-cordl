@@ -49,7 +49,7 @@ public:
   /// @brief Field _setupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData)) ::GlobalNamespace::AppInitSetupData* _setupData;
 
-  /// @brief Method InstallBindings, addr 0x2717bb8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x271a044, size 0x90, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PlatformInstallerSO* New_ctor();
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
 
-  /// @brief Method .ctor, addr 0x2717c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271a0d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   PlatformInstallerSO(PlatformInstallerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
 
   /// @brief Field _setupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::AppInitSetupData* ____setupData;

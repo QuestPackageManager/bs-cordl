@@ -46,7 +46,7 @@ public:
 
   static inline ::GlobalNamespace::ColorSchemeTableCell* New_ctor();
 
-  /// @brief Method SetColors, addr 0x3bf5b9c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3bfbac8, size 0x7c, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
@@ -68,16 +68,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3bf5e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfbdbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3bf5e6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3bfbd98, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_showEditIcon, addr 0x3bf5b58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showEditIcon, addr 0x3bfba84, size 0x20, virtual false, abstract: false, final false
   inline void set_showEditIcon(bool value);
 
-  /// @brief Method set_text, addr 0x3bf5b78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3bfbaa4, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   ColorSchemeTableCell(ColorSchemeTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4741 };
 
   /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

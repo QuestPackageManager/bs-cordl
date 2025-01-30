@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x4afc8c4, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x4affb28, size 0x104, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::Zenject::SignalDeclarationAsyncInitializer* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set__tickManager(::Zenject::LazyInject_1<::Zenject::TickableManager*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4afc9c8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4affc2c, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afcae0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4affd44, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4afc898, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4affafc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -91,7 +91,7 @@ public:
   SignalDeclarationAsyncInitializer(SignalDeclarationAsyncInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12008 };
 
   /// @brief Field _tickManager, offset: 0x10, size: 0x8, def value: None
   ::Zenject::LazyInject_1<::Zenject::TickableManager*>* ____tickManager;

@@ -177,7 +177,7 @@ public:
   InputControl_1(InputControl_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6620 };
 
   /// @brief Field m_ProcessorStack, offset: 0xe0, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> ___m_ProcessorStack;

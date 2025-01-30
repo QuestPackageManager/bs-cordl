@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMvcActionSelectorAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4af0ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af414c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   AspMvcActionSelectorAttribute(AspMvcActionSelectorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

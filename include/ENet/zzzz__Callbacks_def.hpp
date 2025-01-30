@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_nativeCallbacks(::ENet::ENetCallbacks value);
 
-  /// @brief Method .ctor, addr 0x3aa3f60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa63ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ENet::AllocCallback* allocCallback, ::ENet::FreeCallback* freeCallback, ::ENet::NoMemoryCallback* noMemoryCallback);
 
-  /// @brief Method get_NativeData, addr 0x3aa3f38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x3aa63c4, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetCallbacks get_NativeData();
 
-  /// @brief Method set_NativeData, addr 0x3aa3f4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x3aa63d8, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetCallbacks value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   Callbacks(Callbacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17747 };
 
   /// @brief Field nativeCallbacks, offset: 0x10, size: 0x18, def value: None
   ::ENet::ENetCallbacks ___nativeCallbacks;

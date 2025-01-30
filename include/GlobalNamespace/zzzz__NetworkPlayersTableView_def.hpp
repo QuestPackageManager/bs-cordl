@@ -98,7 +98,7 @@ public:
   static ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType const Player;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4847 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType value);
 
-  /// @brief Method .ctor, addr 0x3c0d3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1359c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -179,7 +179,7 @@ public:
   NetworkPlayersTableView_CellInfo(NetworkPlayersTableView_CellInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4848 };
 
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType ___type;
@@ -247,27 +247,27 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method AddPlayers, addr 0x3c0cd3c, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method AddPlayers, addr 0x3c12f04, size 0x698, virtual false, abstract: false, final false
   inline void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
 
-  /// @brief Method CellForIdx, addr 0x3c0c6a0, size 0x5d4, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x3c12868, size 0x5d4, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x3c0c650, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x3c12818, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method HandleCellWasPressed, addr 0x3c0d870, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleCellWasPressed, addr 0x3c13a38, size 0x4, virtual false, abstract: false, final false
   inline void HandleCellWasPressed(::HMUI::TableView* tableView, ::HMUI::TableCell* tableCell);
 
-  /// @brief Method HasVisibleOptions, addr 0x3c0d3dc, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method HasVisibleOptions, addr 0x3c135a4, size 0x350, virtual false, abstract: false, final false
   static inline bool HasVisibleOptions(::GlobalNamespace::INetworkPlayer* player);
 
   static inline ::GlobalNamespace::NetworkPlayersTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3c0c658, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x3c12820, size 0x48, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetParties, addr 0x3c0d72c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetParties, addr 0x3c138f4, size 0x144, virtual false, abstract: false, final false
   inline void SetParties(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers,
                          ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
 
@@ -325,7 +325,7 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method .ctor, addr 0x3c0d874, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c13a3c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
@@ -346,7 +346,7 @@ public:
   NetworkPlayersTableView(NetworkPlayersTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4849 };
 
   /// @brief Field kHeaderCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kHeaderCellIdentifier{ u"HeaderCell" };

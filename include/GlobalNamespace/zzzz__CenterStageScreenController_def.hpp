@@ -84,36 +84,36 @@ public:
 
   __declspec(property(get = get_countdownShown, put = set_countdownShown)) bool countdownShown;
 
-  /// @brief Method HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged, addr 0x3c1add4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged, addr 0x3c20ca4, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method Hide, addr 0x3c1ab94, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3c0f838, size 0x138, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method HideCountdown, addr 0x3c1accc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HideCountdown, addr 0x3c20bb0, size 0x3c, virtual false, abstract: false, final false
   inline void HideCountdown(bool instant);
 
   static inline ::GlobalNamespace::CenterStageScreenController* New_ctor();
 
-  /// @brief Method SetCountdownEndTime, addr 0x3c1ad4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetCountdownEndTime, addr 0x3c20c20, size 0x54, virtual false, abstract: false, final false
   inline void SetCountdownEndTime(int64_t countdownEndTime);
 
-  /// @brief Method SetNextGameplaySetupData, addr 0x3c1aa30, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetNextGameplaySetupData, addr 0x3c20a4c, size 0x164, virtual false, abstract: false, final false
   inline void SetNextGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method Setup, addr 0x3c1a848, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3c209ec, size 0x30, virtual false, abstract: false, final false
   inline void Setup(bool showModifiers);
 
-  /// @brief Method Show, addr 0x3c1a878, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3c0f690, size 0x188, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method ShowCountdown, addr 0x3c1ad10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ShowCountdown, addr 0x3c20bec, size 0x34, virtual false, abstract: false, final false
   inline void ShowCountdown(int64_t countdownEndTime);
 
-  /// @brief Method ShowCountdownColorPreset, addr 0x3c1ada4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShowCountdownColorPreset, addr 0x3c20c74, size 0x30, virtual false, abstract: false, final false
   inline void ShowCountdownColorPreset(bool animated);
 
-  /// @brief Method ShowLobbyColorPreset, addr 0x3c1aa00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShowLobbyColorPreset, addr 0x3c20a1c, size 0x30, virtual false, abstract: false, final false
   inline void ShowLobbyColorPreset(bool animated);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
@@ -182,13 +182,13 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerLobbyCenterScreenLayoutAnimator(::UnityW<::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator> value);
 
-  /// @brief Method .ctor, addr 0x3c1add8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c20ca8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_countdownShown, addr 0x3c1a834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_countdownShown, addr 0x3c209d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_countdownShown();
 
-  /// @brief Method set_countdownShown, addr 0x3c1a83c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_countdownShown, addr 0x3c209e0, size 0xc, virtual false, abstract: false, final false
   inline void set_countdownShown(bool value);
 
 protected:
@@ -206,7 +206,7 @@ public:
   CenterStageScreenController(CenterStageScreenController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4926 };
 
   /// @brief Field _defaultMenuLightsPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultMenuLightsPreset;

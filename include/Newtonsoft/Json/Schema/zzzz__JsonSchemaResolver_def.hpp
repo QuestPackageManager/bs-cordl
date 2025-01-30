@@ -37,10 +37,10 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaResolver___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <GetSchema>b__0, addr 0x3f0a404, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetSchema>b__0, addr 0x3f0d668, size 0x28, virtual false, abstract: false, final false
   inline bool _GetSchema_b__0(::Newtonsoft::Json::Schema::JsonSchema* s);
 
-  /// @brief Method <GetSchema>b__1, addr 0x3f0a42c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetSchema>b__1, addr 0x3f0d690, size 0x28, virtual false, abstract: false, final false
   inline bool _GetSchema_b__1(::Newtonsoft::Json::Schema::JsonSchema* s);
 
   constexpr ::StringW const& __cordl_internal_get_reference() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_reference(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f0a3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0d660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   JsonSchemaResolver___c__DisplayClass5_0(JsonSchemaResolver___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10368 };
 
   /// @brief Field reference, offset: 0x10, size: 0x8, def value: None
   ::StringW ___reference;
@@ -95,7 +95,7 @@ public:
   __declspec(property(get = __cordl_internal_get__LoadedSchemas_k__BackingField,
                       put = __cordl_internal_set__LoadedSchemas_k__BackingField)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _LoadedSchemas_k__BackingField;
 
-  /// @brief Method GetSchema, addr 0x3f0a2c4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GetSchema, addr 0x3f0d528, size 0x138, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* GetSchema(::StringW reference);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaResolver* New_ctor();
@@ -106,13 +106,13 @@ public:
 
   constexpr void __cordl_internal_set__LoadedSchemas_k__BackingField(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method .ctor, addr 0x3f004bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f03720, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LoadedSchemas, addr 0x3f0a2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoadedSchemas, addr 0x3f0d518, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_LoadedSchemas();
 
-  /// @brief Method set_LoadedSchemas, addr 0x3f0a2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LoadedSchemas, addr 0x3f0d520, size 0x8, virtual false, abstract: false, final false
   inline void set_LoadedSchemas(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   JsonSchemaResolver(JsonSchemaResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10369 };
 
   /// @brief Field <LoadedSchemas>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* ____LoadedSchemas_k__BackingField;

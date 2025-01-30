@@ -75,21 +75,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4040a08, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4043c6c, size 0x11c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4040b24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4043d88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4040b2c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4043d90, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4040b64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4043dc8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4040a04, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4043c68, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRRuntimeController> value);
 
-  /// @brief Method .ctor, addr 0x4040928, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4043b8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -137,7 +137,7 @@ public:
   OVRRuntimeController__UpdateControllerModel_d__16(OVRRuntimeController__UpdateControllerModel_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8475 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -207,30 +207,30 @@ public:
   /// @brief Field rightControllerModelPath, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rightControllerModelPath, put = setStaticF_rightControllerModelPath)) ::StringW rightControllerModelPath;
 
-  /// @brief Method InputFocusAquired, addr 0x4040950, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x4043bb4, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x404095c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x4043bc0, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
-  /// @brief Method IsModelSupported, addr 0x404001c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsModelSupported, addr 0x4043280, size 0x16c, virtual false, abstract: false, final false
   inline bool IsModelSupported(::StringW modelPath);
 
-  /// @brief Method LoadControllerModel, addr 0x4040670, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method LoadControllerModel, addr 0x40438d4, size 0x2b8, virtual false, abstract: false, final false
   inline bool LoadControllerModel(::StringW modelPath);
 
   static inline ::GlobalNamespace::OVRRuntimeController* New_ctor();
 
-  /// @brief Method Start, addr 0x403fe9c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4043100, size 0x180, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x40401e8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x404344c, size 0x108, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateControllerAnimation, addr 0x40402f0, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerAnimation, addr 0x4043554, size 0x380, virtual false, abstract: false, final false
   inline void UpdateControllerAnimation();
 
-  /// @brief Method UpdateControllerModel, addr 0x4040188, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerModel, addr 0x40433ec, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateControllerModel();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* const& __cordl_internal_get_m_animationNodes() const;
@@ -293,7 +293,7 @@ public:
 
   constexpr void __cordl_internal_set_m_supportAnimation(bool value);
 
-  /// @brief Method .ctor, addr 0x4040964, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4043bc8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_leftControllerModelPath();
@@ -319,7 +319,7 @@ public:
   OVRRuntimeController(OVRRuntimeController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8476 };
 
   /// @brief Field m_controller, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_Controller ___m_controller;

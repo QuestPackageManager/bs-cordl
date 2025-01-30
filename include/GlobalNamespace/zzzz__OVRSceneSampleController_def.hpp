@@ -57,24 +57,24 @@ public:
   /// @brief Field visionMode, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_visionMode, put = __cordl_internal_set_visionMode)) bool visionMode;
 
-  /// @brief Method Awake, addr 0x4040b6c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4043dd0, size 0x1b4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRSceneSampleController* New_ctor();
 
-  /// @brief Method Start, addr 0x4040d20, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4043f84, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4040e10, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4044074, size 0xd4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRecenterPose, addr 0x4040ee4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateRecenterPose, addr 0x4044148, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateRecenterPose();
 
-  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x4041050, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x40442b4, size 0xac, virtual false, abstract: false, final false
   inline void UpdateSpeedAndRotationScaleMultiplier();
 
-  /// @brief Method UpdateVisionMode, addr 0x4040f94, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisionMode, addr 0x40441f8, size 0xbc, virtual false, abstract: false, final false
   inline void UpdateVisionMode();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraController() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_visionMode(bool value);
 
-  /// @brief Method .ctor, addr 0x40410fc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4044360, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -143,7 +143,7 @@ public:
   OVRSceneSampleController(OVRSceneSampleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8477 };
 
   /// @brief Field quitKey, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ___quitKey;

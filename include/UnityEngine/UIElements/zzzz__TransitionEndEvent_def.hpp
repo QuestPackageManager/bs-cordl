@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::TransitionEndEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a33180, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a363e4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TransitionEndEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a33178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a363dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TransitionEndEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   TransitionEndEvent___c(TransitionEndEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TransitionEndEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a330d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a36338, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   TransitionEndEvent(TransitionEndEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5943 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

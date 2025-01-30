@@ -31,16 +31,16 @@ public:
   /// @brief Field padding, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_padding, put = __cordl_internal_set_padding)) ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding;
 
-  /// @brief Method DoFinal, addr 0x23b56bc, size 0x4dc, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x23b66d8, size 0x4dc, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetOutputSize, addr 0x23b5264, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x23b6280, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x23b52b0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x23b62cc, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
-  /// @brief Method Init, addr 0x23b50c4, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23b60e0, size 0x1a0, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
@@ -48,10 +48,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher,
                                                                                            ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method ProcessByte, addr 0x23b52e8, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x23b6304, size 0x128, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x23b5410, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x23b642c, size 0x2ac, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* const& __cordl_internal_get_padding() const;
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_padding(::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* value);
 
-  /// @brief Method .ctor, addr 0x23b5050, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b606c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0x23b4f60, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b5f7c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
 protected:

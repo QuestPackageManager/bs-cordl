@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::*)()>(
     &::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af5094;
+  constexpr static std::size_t addrs = 0x3af9160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

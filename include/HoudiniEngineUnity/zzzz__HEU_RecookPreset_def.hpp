@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
 
-  /// @brief Method .ctor, addr 0x3a06d18, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a091a4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   HEU_RecookPreset(HEU_RecookPreset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11598 };
 
   /// @brief Field _volumeCachePresets, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* ____volumeCachePresets;

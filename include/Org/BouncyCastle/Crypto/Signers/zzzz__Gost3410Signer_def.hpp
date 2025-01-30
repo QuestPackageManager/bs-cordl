@@ -50,15 +50,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsaExt"
   constexpr operator ::Org::BouncyCastle::Crypto::IDsaExt*() noexcept;
 
-  /// @brief Method GenerateSignature, addr 0x23d3390, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x23d43ac, size 0x26c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GenerateSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Init, addr 0x23d3190, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23d41ac, size 0x1dc, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Gost3410Signer* New_ctor();
 
-  /// @brief Method VerifySignature, addr 0x23d35fc, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23d4618, size 0x2a4, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> message, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters* const& __cordl_internal_get_key() const;
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x23d38a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d48bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x23d3150, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23d416c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_Order, addr 0x23d336c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Order, addr 0x23d4388, size 0x24, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Order();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsa"

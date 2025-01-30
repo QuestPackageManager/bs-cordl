@@ -72,112 +72,112 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  /// @brief Method Create, addr 0x4895b28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4898d8c, size 0x3c, virtual false, abstract: false, final false
   inline bool Create();
 
-  /// @brief Method DiscardContents, addr 0x4895ae4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DiscardContents, addr 0x4898d48, size 0x44, virtual false, abstract: false, final false
   inline void DiscardContents();
 
-  /// @brief Method DiscardContents, addr 0x4895a90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DiscardContents, addr 0x4898cf4, size 0x54, virtual false, abstract: false, final false
   inline void DiscardContents(bool discardColor, bool discardDepth);
 
-  /// @brief Method GetActive, addr 0x489584c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetActive, addr 0x4898ab0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetActive();
 
-  /// @brief Method GetColorBuffer, addr 0x4895914, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetColorBuffer, addr 0x4898b78, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderBuffer GetColorBuffer();
 
-  /// @brief Method GetColorBuffer_Injected, addr 0x4895968, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetColorBuffer_Injected, addr 0x4898bcc, size 0x44, virtual false, abstract: false, final false
   inline void GetColorBuffer_Injected(::ByRef<::UnityEngine::RenderBuffer> ret);
 
-  /// @brief Method GetColorFormat, addr 0x48953f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetColorFormat, addr 0x4898654, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetColorFormat(bool suppressWarnings);
 
-  /// @brief Method GetCompatibleFormat, addr 0x4896f9c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetCompatibleFormat, addr 0x489a200, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetCompatibleFormat(::UnityEngine::RenderTextureFormat renderTextureFormat, ::UnityEngine::RenderTextureReadWrite readWrite);
 
-  /// @brief Method GetDefaultColorFormat, addr 0x48965d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultColorFormat, addr 0x4899834, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDefaultColorFormat(::UnityEngine::Experimental::Rendering::DefaultFormat format);
 
-  /// @brief Method GetDefaultDepthStencilFormat, addr 0x48965f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultDepthStencilFormat, addr 0x489985c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDefaultDepthStencilFormat(::UnityEngine::Experimental::Rendering::DefaultFormat format, int32_t depth);
 
-  /// @brief Method GetDepthBuffer, addr 0x48959ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetDepthBuffer, addr 0x4898c10, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderBuffer GetDepthBuffer();
 
-  /// @brief Method GetDepthBuffer_Injected, addr 0x4895a00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDepthBuffer_Injected, addr 0x4898c64, size 0x44, virtual false, abstract: false, final false
   inline void GetDepthBuffer_Injected(::ByRef<::UnityEngine::RenderBuffer> ret);
 
-  /// @brief Method GetDepthStencilFormatLegacy, addr 0x4896ac8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetDepthStencilFormatLegacy, addr 0x4899d2c, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormatLegacy(int32_t depthBits, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat);
 
-  /// @brief Method GetDepthStencilFormatLegacy, addr 0x489717c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetDepthStencilFormatLegacy, addr 0x489a3e0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormatLegacy(int32_t depthBits, ::UnityEngine::Experimental::Rendering::DefaultFormat format);
 
-  /// @brief Method GetDepthStencilFormatLegacy, addr 0x48970f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetDepthStencilFormatLegacy, addr 0x489a354, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormatLegacy(int32_t depthBits, ::UnityEngine::RenderTextureFormat format);
 
-  /// @brief Method GetDepthStencilFormatLegacy, addr 0x48970fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetDepthStencilFormatLegacy, addr 0x489a360, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormatLegacy(int32_t depthBits, bool requestedShadowMap);
 
-  /// @brief Method GetDescriptor, addr 0x48956d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDescriptor, addr 0x4898938, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor GetDescriptor();
 
-  /// @brief Method GetDescriptor_Injected, addr 0x4895ce4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDescriptor_Injected, addr 0x4898f48, size 0x44, virtual false, abstract: false, final false
   inline void GetDescriptor_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> ret);
 
-  /// @brief Method GetTemporary, addr 0x4897190, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a3f4, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(::UnityEngine::RenderTextureDescriptor desc);
 
-  /// @brief Method GetTemporary, addr 0x4897514, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a778, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height);
 
-  /// @brief Method GetTemporary, addr 0x48974e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a748, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer);
 
-  /// @brief Method GetTemporary, addr 0x48974b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a71c, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format);
 
-  /// @brief Method GetTemporary, addr 0x4897490, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a6f4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
                                                                     ::UnityEngine::RenderTextureReadWrite readWrite);
 
-  /// @brief Method GetTemporary, addr 0x489746c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a6d0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
                                                                     ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing);
 
-  /// @brief Method GetTemporary, addr 0x489744c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a6b0, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
                                                                     ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode);
 
-  /// @brief Method GetTemporary, addr 0x4897430, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a694, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
                                                                     ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode,
                                                                     ::UnityEngine::VRTextureUsage vrUsage);
 
-  /// @brief Method GetTemporary, addr 0x48973a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary, addr 0x489a608, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary(int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::RenderTextureFormat format,
                                                                     ::UnityEngine::RenderTextureReadWrite readWrite, int32_t antiAliasing, ::UnityEngine::RenderTextureMemoryless memorylessMode,
                                                                     ::UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale);
 
-  /// @brief Method GetTemporaryImpl, addr 0x4897230, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetTemporaryImpl, addr 0x489a494, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporaryImpl(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
                                                                         ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int32_t antiAliasing,
                                                                         ::UnityEngine::RenderTextureMemoryless memorylessMode, ::UnityEngine::VRTextureUsage vrUsage, bool useDynamicScale);
 
-  /// @brief Method GetTemporary_Internal, addr 0x4895d28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary_Internal, addr 0x4898f8c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary_Internal(::UnityEngine::RenderTextureDescriptor desc);
 
-  /// @brief Method GetTemporary_Internal_Injected, addr 0x4895d64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTemporary_Internal_Injected, addr 0x4898fc8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary_Internal_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> desc);
 
-  /// @brief Method Initialize, addr 0x4896c84, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4899ee8, size 0x1e0, virtual false, abstract: false, final false
   inline void Initialize(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, ::UnityEngine::RenderTextureReadWrite readWrite, int32_t mipCount);
 
-  /// @brief Method Internal_Create, addr 0x4895c20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x4898e84, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::RenderTexture* rt);
 
-  /// @brief Method IsCreated, addr 0x4895ba0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsCreated, addr 0x4898e04, size 0x3c, virtual false, abstract: false, final false
   inline bool IsCreated();
 
   static inline ::UnityEngine::RenderTexture* New_ctor();
@@ -206,128 +206,128 @@ public:
 
   static inline ::UnityEngine::RenderTexture* New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, ::UnityEngine::RenderTextureReadWrite readWrite);
 
-  /// @brief Method Release, addr 0x4895b64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4898dc8, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method ReleaseTemporary, addr 0x4895da0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseTemporary, addr 0x4899004, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseTemporary(::UnityEngine::RenderTexture* temp);
 
-  /// @brief Method SetActive, addr 0x4895874, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x4898ad8, size 0x3c, virtual false, abstract: false, final false
   static inline void SetActive(::UnityEngine::RenderTexture* rt);
 
-  /// @brief Method SetColorFormat, addr 0x4895434, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetColorFormat, addr 0x4898698, size 0x44, virtual false, abstract: false, final false
   inline void SetColorFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method SetMipMapCount, addr 0x4895a44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetMipMapCount, addr 0x4898ca8, size 0x44, virtual false, abstract: false, final false
   inline void SetMipMapCount(int32_t count);
 
-  /// @brief Method SetRenderTextureDescriptor, addr 0x4895c5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTextureDescriptor, addr 0x4898ec0, size 0x44, virtual false, abstract: false, final false
   inline void SetRenderTextureDescriptor(::UnityEngine::RenderTextureDescriptor desc);
 
-  /// @brief Method SetRenderTextureDescriptor_Injected, addr 0x4895ca0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTextureDescriptor_Injected, addr 0x4898f04, size 0x44, virtual false, abstract: false, final false
   inline void SetRenderTextureDescriptor_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> desc);
 
-  /// @brief Method SetSRGBReadWrite, addr 0x4895bdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetSRGBReadWrite, addr 0x4898e40, size 0x44, virtual false, abstract: false, final false
   inline void SetSRGBReadWrite(bool srgb);
 
-  /// @brief Method ValidateRenderTextureDesc, addr 0x4895f28, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ValidateRenderTextureDesc, addr 0x489918c, size 0x3e8, virtual false, abstract: false, final false
   static inline void ValidateRenderTextureDesc(::UnityEngine::RenderTextureDescriptor desc);
 
-  /// @brief Method .ctor, addr 0x4895ddc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899040, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4895e30, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899094, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTextureDescriptor desc);
 
-  /// @brief Method .ctor, addr 0x4896310, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899574, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTexture* textureToCopy);
 
-  /// @brief Method .ctor, addr 0x4896b4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899db0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat);
 
-  /// @brief Method .ctor, addr 0x4896620, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899884, size 0x204, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x4896f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489a1f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth);
 
-  /// @brief Method .ctor, addr 0x48964fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899760, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format);
 
-  /// @brief Method .ctor, addr 0x4896824, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899a88, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method .ctor, addr 0x48968b4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899b18, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x4896e64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489a0c8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format);
 
-  /// @brief Method .ctor, addr 0x4896ef4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489a158, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x4896bdc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4899e40, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, ::UnityEngine::RenderTextureReadWrite readWrite);
 
-  /// @brief Method get_active, addr 0x48958b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x4898b14, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> get_active();
 
-  /// @brief Method get_antiAliasing, addr 0x48957cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_antiAliasing, addr 0x4898a30, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_antiAliasing();
 
-  /// @brief Method get_colorBuffer, addr 0x4895a88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_colorBuffer, addr 0x4898cec, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderBuffer get_colorBuffer();
 
-  /// @brief Method get_depthBuffer, addr 0x4895a8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_depthBuffer, addr 0x4898cf0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderBuffer get_depthBuffer();
 
-  /// @brief Method get_depthStencilFormat, addr 0x489574c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_depthStencilFormat, addr 0x48989b0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_depthStencilFormat();
 
-  /// @brief Method get_descriptor, addr 0x4896478, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_descriptor, addr 0x48996dc, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor get_descriptor();
 
-  /// @brief Method get_format, addr 0x48955b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x489881c, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureFormat get_format();
 
-  /// @brief Method get_graphicsFormat, addr 0x4895478, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsFormat, addr 0x48986dc, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_graphicsFormat();
 
-  /// @brief Method get_height, addr 0x489532c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_height, addr 0x4898590, size 0x3c, virtual true, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_sRGB, addr 0x4895540, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sRGB, addr 0x48987a4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_sRGB();
 
-  /// @brief Method get_vrUsage, addr 0x489557c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vrUsage, addr 0x48987e0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::VRTextureUsage get_vrUsage();
 
-  /// @brief Method get_width, addr 0x48952ac, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_width, addr 0x4898510, size 0x3c, virtual true, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_active, addr 0x48958d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x4898b3c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_active(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_antiAliasing, addr 0x4895808, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_antiAliasing, addr 0x4898a6c, size 0x44, virtual false, abstract: false, final false
   inline void set_antiAliasing(int32_t value);
 
-  /// @brief Method set_depthStencilFormat, addr 0x4895788, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_depthStencilFormat, addr 0x48989ec, size 0x44, virtual false, abstract: false, final false
   inline void set_depthStencilFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
-  /// @brief Method set_dimension, addr 0x48953ac, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method set_dimension, addr 0x4898610, size 0x44, virtual true, abstract: false, final false
   inline void set_dimension(::UnityEngine::Rendering::TextureDimension value);
 
-  /// @brief Method set_graphicsFormat, addr 0x48954b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_graphicsFormat, addr 0x489871c, size 0x44, virtual false, abstract: false, final false
   inline void set_graphicsFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
-  /// @brief Method set_height, addr 0x4895368, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method set_height, addr 0x48985cc, size 0x44, virtual true, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_useMipMap, addr 0x48954fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useMipMap, addr 0x4898760, size 0x44, virtual false, abstract: false, final false
   inline void set_useMipMap(bool value);
 
-  /// @brief Method set_width, addr 0x48952e8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method set_width, addr 0x489854c, size 0x44, virtual true, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:
@@ -345,7 +345,7 @@ public:
   RenderTexture(RenderTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

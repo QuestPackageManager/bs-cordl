@@ -55,7 +55,7 @@ public:
   GameplayModifiersConfiguration_SongSpeed(GameplayModifiersConfiguration_SongSpeed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16980 };
 
   /// @brief Field kFaster offset 0xffffffff size 0x4
   static constexpr float_t kFaster{ static_cast<float_t>(1.2f) };
@@ -97,7 +97,7 @@ public:
   GameplayModifiersConfiguration_CutAngleTolerance(GameplayModifiersConfiguration_CutAngleTolerance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16981 };
 
   /// @brief Field kDefault offset 0xffffffff size 0x4
   static constexpr float_t kDefault{ static_cast<float_t>(60.0f) };
@@ -133,7 +133,7 @@ public:
   GameplayModifiersConfiguration_NoteUniformScale(GameplayModifiersConfiguration_NoteUniformScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16982 };
 
   /// @brief Field kDefault offset 0xffffffff size 0x4
   static constexpr float_t kDefault{ static_cast<float_t>(1.0f) };
@@ -175,7 +175,7 @@ public:
   GameplayModifiersConfiguration(GameplayModifiersConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16983 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

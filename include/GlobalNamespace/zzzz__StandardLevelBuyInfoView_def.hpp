@@ -51,7 +51,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelBuyInfoView* New_ctor();
 
-  /// @brief Method RefreshView, addr 0x3b06050, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x3b0a09c, size 0x98, virtual false, abstract: false, final false
   inline void RefreshView(::StringW infoText, bool canBuyPack);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyLevelButton() const;
@@ -84,16 +84,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b060e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0a134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_buyLevelButton, addr 0x3b06038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyLevelButton, addr 0x3b0a084, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyLevelButton();
 
-  /// @brief Method get_buyPackButton, addr 0x3b06048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyPackButton, addr 0x3b0a094, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyPackButton();
 
-  /// @brief Method get_openPackButton, addr 0x3b06040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_openPackButton, addr 0x3b0a08c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_openPackButton();
 
 protected:
@@ -111,7 +111,7 @@ public:
   StandardLevelBuyInfoView(StandardLevelBuyInfoView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5007 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

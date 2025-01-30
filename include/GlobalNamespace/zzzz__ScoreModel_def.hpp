@@ -114,13 +114,13 @@ public:
 
   constexpr void __cordl_internal_set_minBeforeCutScore(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26fc8cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fedb8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore);
 
-  /// @brief Method get_executionOrder, addr 0x26fc938, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x26fee24, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_maxCutScore, addr 0x26fb8bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_maxCutScore, addr 0x26fdda8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_maxCutScore();
 
 protected:
@@ -138,7 +138,7 @@ public:
   ScoreModel_NoteScoreDefinition(ScoreModel_NoteScoreDefinition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13309 };
 
   /// @brief Field maxCenterDistanceCutScore, offset: 0x10, size: 0x4, def value: None
   int32_t ___maxCenterDistanceCutScore;
@@ -192,7 +192,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::ScoreModel_MaxScoreCounterElement*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::ScoreModel_MaxScoreCounterElement*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x26fc954, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x26fee40, size 0x94, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::ScoreModel_MaxScoreCounterElement* other);
 
   static inline ::GlobalNamespace::ScoreModel_MaxScoreCounterElement* New_ctor(::GlobalNamespace::NoteData_ScoringType scoringType, float_t time);
@@ -209,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x26fc330, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fe81c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteData_ScoringType scoringType, float_t time);
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::ScoreModel_MaxScoreCounterElement*>"
@@ -230,7 +230,7 @@ public:
   ScoreModel_MaxScoreCounterElement(ScoreModel_MaxScoreCounterElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13310 };
 
   /// @brief Field noteScoreDefinition, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ScoreModel_NoteScoreDefinition* ___noteScoreDefinition;
@@ -271,21 +271,21 @@ public:
   __declspec(property(get = getStaticF_fullScoreScoringTypes,
                       put = setStaticF_fullScoreScoringTypes)) ::System::Collections::Generic::HashSet_1<::GlobalNamespace::NoteData_ScoringType>* fullScoreScoringTypes;
 
-  /// @brief Method ComputeMaxMultipliedScoreForBeatmap, addr 0x26fb8d8, size 0xa58, virtual false, abstract: false, final false
+  /// @brief Method ComputeMaxMultipliedScoreForBeatmap, addr 0x26fddc4, size 0xa58, virtual false, abstract: false, final false
   static inline int32_t ComputeMaxMultipliedScoreForBeatmap(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method ComputeQuickInaccurateMaxMultipliedScoreForBeatmap, addr 0x26fb80c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ComputeQuickInaccurateMaxMultipliedScoreForBeatmap, addr 0x26fdcf8, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t ComputeQuickInaccurateMaxMultipliedScoreForBeatmap(::GlobalNamespace::BeatmapBasicData* beatmapBasicData);
 
-  /// @brief Method GetModifiedScoreForGameplayModifiersScoreMultiplier, addr 0x26fc45c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetModifiedScoreForGameplayModifiersScoreMultiplier, addr 0x26fe948, size 0x80, virtual false, abstract: false, final false
   static inline int32_t GetModifiedScoreForGameplayModifiersScoreMultiplier(int32_t multipliedScore, float_t gameplayModifiersScoreMultiplier);
 
-  /// @brief Method GetNoteScoreDefinition, addr 0x26fb78c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetNoteScoreDefinition, addr 0x26fdc78, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ScoreModel_NoteScoreDefinition* GetNoteScoreDefinition(::GlobalNamespace::NoteData_ScoringType scoringType);
 
   static inline ::GlobalNamespace::ScoreModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26fc4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fe9c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData_ScoringType, ::GlobalNamespace::ScoreModel_NoteScoreDefinition*>* getStaticF__scoreDefinitions();
@@ -315,7 +315,7 @@ public:
   ScoreModel(ScoreModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13311 };
 
   /// @brief Field kMaxAfterCutScore offset 0xffffffff size 0x4
   static constexpr int32_t kMaxAfterCutScore{ static_cast<int32_t>(0x1e) };

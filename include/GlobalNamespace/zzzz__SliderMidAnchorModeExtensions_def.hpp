@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SliderMidAnchorModeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OppositeDirection, addr 0x22449c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OppositeDirection, addr 0x22457a4, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderMidAnchorMode OppositeDirection(::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode);
 
 protected:
@@ -39,7 +39,7 @@ public:
   SliderMidAnchorModeExtensions(SliderMidAnchorModeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

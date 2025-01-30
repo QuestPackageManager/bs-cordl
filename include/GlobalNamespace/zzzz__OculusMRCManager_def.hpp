@@ -240,19 +240,19 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
   constexpr operator ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*() noexcept;
 
-  /// @brief Method Init, addr 0x39c91b0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39cb63c, size 0x160, virtual false, abstract: false, final false
   inline void Init(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* instantiateMixedRealityBackgroundCameraGameObject,
                    ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* instantiateMixedRealityForegroundCameraGameObject);
 
-  /// @brief Method InstantiateMixedRealityCameraGameObject, addr 0x39c9310, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityCameraGameObject, addr 0x39cb79c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::OVRManager_MrcCameraType cameraType);
 
   static inline ::GlobalNamespace::OculusMRCManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39c9158, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39cb5e4, size 0x58, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x39c90e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39cb570, size 0x74, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::OVRManager_CameraDevice const& __cordl_internal_get__capturingCameraDevice_k__BackingField() const;
@@ -441,178 +441,178 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39c9344, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cb7d0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_capturingCameraDevice, addr 0x39c8f08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_capturingCameraDevice, addr 0x39cb394, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_CameraDevice get_capturingCameraDevice();
 
-  /// @brief Method get_chromaKeyColor, addr 0x39c8f70, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_chromaKeyColor, addr 0x39cb3fc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_chromaKeyColor();
 
-  /// @brief Method get_chromaKeySimilarity, addr 0x39c8f88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_chromaKeySimilarity, addr 0x39cb414, size 0x8, virtual true, abstract: false, final true
   inline float_t get_chromaKeySimilarity();
 
-  /// @brief Method get_chromaKeySmoothRange, addr 0x39c8f98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_chromaKeySmoothRange, addr 0x39cb424, size 0x8, virtual true, abstract: false, final true
   inline float_t get_chromaKeySmoothRange();
 
-  /// @brief Method get_chromaKeySpillRange, addr 0x39c8fa8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_chromaKeySpillRange, addr 0x39cb434, size 0x8, virtual true, abstract: false, final true
   inline float_t get_chromaKeySpillRange();
 
-  /// @brief Method get_compositionMethod, addr 0x39c8ec8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_compositionMethod, addr 0x39cb354, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_CompositionMethod get_compositionMethod();
 
-  /// @brief Method get_depthQuality, addr 0x39c8fcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_depthQuality, addr 0x39cb458, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_DepthQuality get_depthQuality();
 
-  /// @brief Method get_dynamicCullingMask, addr 0x39c8eb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dynamicCullingMask, addr 0x39cb340, size 0x8, virtual true, abstract: false, final true
   inline bool get_dynamicCullingMask();
 
-  /// @brief Method get_dynamicLightingDepthVariationClampingValue, addr 0x39c8fec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dynamicLightingDepthVariationClampingValue, addr 0x39cb478, size 0x8, virtual true, abstract: false, final true
   inline float_t get_dynamicLightingDepthVariationClampingValue();
 
-  /// @brief Method get_dynamicLightingSmoothFactor, addr 0x39c8fdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dynamicLightingSmoothFactor, addr 0x39cb468, size 0x8, virtual true, abstract: false, final true
   inline float_t get_dynamicLightingSmoothFactor();
 
-  /// @brief Method get_enableMixedReality, addr 0x39c8e80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_enableMixedReality, addr 0x39cb30c, size 0x8, virtual true, abstract: false, final true
   inline bool get_enableMixedReality();
 
-  /// @brief Method get_externalCompositionBackdropColorQuest, addr 0x39c8ef0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_externalCompositionBackdropColorQuest, addr 0x39cb37c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_externalCompositionBackdropColorQuest();
 
-  /// @brief Method get_externalCompositionBackdropColorRift, addr 0x39c8ed8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_externalCompositionBackdropColorRift, addr 0x39cb364, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_externalCompositionBackdropColorRift();
 
-  /// @brief Method get_extraHiddenLayers, addr 0x39c8e94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_extraHiddenLayers, addr 0x39cb320, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::LayerMask get_extraHiddenLayers();
 
-  /// @brief Method get_extraVisibleLayers, addr 0x39c8ea4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_extraVisibleLayers, addr 0x39cb330, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::LayerMask get_extraVisibleLayers();
 
-  /// @brief Method get_flipCameraFrameHorizontally, addr 0x39c8f18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_flipCameraFrameHorizontally, addr 0x39cb3a4, size 0x8, virtual true, abstract: false, final true
   inline bool get_flipCameraFrameHorizontally();
 
-  /// @brief Method get_flipCameraFrameVertically, addr 0x39c8f2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_flipCameraFrameVertically, addr 0x39cb3b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_flipCameraFrameVertically();
 
-  /// @brief Method get_handPoseStateLatency, addr 0x39c8f40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_handPoseStateLatency, addr 0x39cb3cc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_handPoseStateLatency();
 
-  /// @brief Method get_instantiateMixedRealityCameraGameObject, addr 0x39c9060, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method get_instantiateMixedRealityCameraGameObject, addr 0x39cb4ec, size 0x80, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* get_instantiateMixedRealityCameraGameObject();
 
-  /// @brief Method get_mrcActivationMode, addr 0x39c9050, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mrcActivationMode, addr 0x39cb4dc, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_MrcActivationMode get_mrcActivationMode();
 
-  /// @brief Method get_sandwichCompositionBufferedFrames, addr 0x39c8f60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_sandwichCompositionBufferedFrames, addr 0x39cb3ec, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_sandwichCompositionBufferedFrames();
 
-  /// @brief Method get_sandwichCompositionRenderLatency, addr 0x39c8f50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_sandwichCompositionRenderLatency, addr 0x39cb3dc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_sandwichCompositionRenderLatency();
 
-  /// @brief Method get_useDynamicLighting, addr 0x39c8fb8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_useDynamicLighting, addr 0x39cb444, size 0x8, virtual true, abstract: false, final true
   inline bool get_useDynamicLighting();
 
-  /// @brief Method get_virtualGreenScreenApplyDepthCulling, addr 0x39c902c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_virtualGreenScreenApplyDepthCulling, addr 0x39cb4b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_virtualGreenScreenApplyDepthCulling();
 
-  /// @brief Method get_virtualGreenScreenBottomY, addr 0x39c901c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_virtualGreenScreenBottomY, addr 0x39cb4a8, size 0x8, virtual true, abstract: false, final true
   inline float_t get_virtualGreenScreenBottomY();
 
-  /// @brief Method get_virtualGreenScreenDepthTolerance, addr 0x39c9040, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_virtualGreenScreenDepthTolerance, addr 0x39cb4cc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_virtualGreenScreenDepthTolerance();
 
-  /// @brief Method get_virtualGreenScreenTopY, addr 0x39c900c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_virtualGreenScreenTopY, addr 0x39cb498, size 0x8, virtual true, abstract: false, final true
   inline float_t get_virtualGreenScreenTopY();
 
-  /// @brief Method get_virtualGreenScreenType, addr 0x39c8ffc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_virtualGreenScreenType, addr 0x39cb488, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_VirtualGreenScreenType get_virtualGreenScreenType();
 
   /// @brief Convert to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
   constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* i___GlobalNamespace__OVRMixedRealityCaptureConfiguration() noexcept;
 
-  /// @brief Method set_capturingCameraDevice, addr 0x39c8f10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_capturingCameraDevice, addr 0x39cb39c, size 0x8, virtual true, abstract: false, final true
   inline void set_capturingCameraDevice(::GlobalNamespace::OVRManager_CameraDevice value);
 
-  /// @brief Method set_chromaKeyColor, addr 0x39c8f7c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_chromaKeyColor, addr 0x39cb408, size 0xc, virtual true, abstract: false, final true
   inline void set_chromaKeyColor(::UnityEngine::Color value);
 
-  /// @brief Method set_chromaKeySimilarity, addr 0x39c8f90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_chromaKeySimilarity, addr 0x39cb41c, size 0x8, virtual true, abstract: false, final true
   inline void set_chromaKeySimilarity(float_t value);
 
-  /// @brief Method set_chromaKeySmoothRange, addr 0x39c8fa0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_chromaKeySmoothRange, addr 0x39cb42c, size 0x8, virtual true, abstract: false, final true
   inline void set_chromaKeySmoothRange(float_t value);
 
-  /// @brief Method set_chromaKeySpillRange, addr 0x39c8fb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_chromaKeySpillRange, addr 0x39cb43c, size 0x8, virtual true, abstract: false, final true
   inline void set_chromaKeySpillRange(float_t value);
 
-  /// @brief Method set_compositionMethod, addr 0x39c8ed0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_compositionMethod, addr 0x39cb35c, size 0x8, virtual true, abstract: false, final true
   inline void set_compositionMethod(::GlobalNamespace::OVRManager_CompositionMethod value);
 
-  /// @brief Method set_depthQuality, addr 0x39c8fd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_depthQuality, addr 0x39cb460, size 0x8, virtual true, abstract: false, final true
   inline void set_depthQuality(::GlobalNamespace::OVRManager_DepthQuality value);
 
-  /// @brief Method set_dynamicCullingMask, addr 0x39c8ebc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_dynamicCullingMask, addr 0x39cb348, size 0xc, virtual true, abstract: false, final true
   inline void set_dynamicCullingMask(bool value);
 
-  /// @brief Method set_dynamicLightingDepthVariationClampingValue, addr 0x39c8ff4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_dynamicLightingDepthVariationClampingValue, addr 0x39cb480, size 0x8, virtual true, abstract: false, final true
   inline void set_dynamicLightingDepthVariationClampingValue(float_t value);
 
-  /// @brief Method set_dynamicLightingSmoothFactor, addr 0x39c8fe4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_dynamicLightingSmoothFactor, addr 0x39cb470, size 0x8, virtual true, abstract: false, final true
   inline void set_dynamicLightingSmoothFactor(float_t value);
 
-  /// @brief Method set_enableMixedReality, addr 0x39c8e88, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_enableMixedReality, addr 0x39cb314, size 0xc, virtual true, abstract: false, final true
   inline void set_enableMixedReality(bool value);
 
-  /// @brief Method set_externalCompositionBackdropColorQuest, addr 0x39c8efc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_externalCompositionBackdropColorQuest, addr 0x39cb388, size 0xc, virtual true, abstract: false, final true
   inline void set_externalCompositionBackdropColorQuest(::UnityEngine::Color value);
 
-  /// @brief Method set_externalCompositionBackdropColorRift, addr 0x39c8ee4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_externalCompositionBackdropColorRift, addr 0x39cb370, size 0xc, virtual true, abstract: false, final true
   inline void set_externalCompositionBackdropColorRift(::UnityEngine::Color value);
 
-  /// @brief Method set_extraHiddenLayers, addr 0x39c8e9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_extraHiddenLayers, addr 0x39cb328, size 0x8, virtual true, abstract: false, final true
   inline void set_extraHiddenLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_extraVisibleLayers, addr 0x39c8eac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_extraVisibleLayers, addr 0x39cb338, size 0x8, virtual true, abstract: false, final true
   inline void set_extraVisibleLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_flipCameraFrameHorizontally, addr 0x39c8f20, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_flipCameraFrameHorizontally, addr 0x39cb3ac, size 0xc, virtual true, abstract: false, final true
   inline void set_flipCameraFrameHorizontally(bool value);
 
-  /// @brief Method set_flipCameraFrameVertically, addr 0x39c8f34, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_flipCameraFrameVertically, addr 0x39cb3c0, size 0xc, virtual true, abstract: false, final true
   inline void set_flipCameraFrameVertically(bool value);
 
-  /// @brief Method set_handPoseStateLatency, addr 0x39c8f48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_handPoseStateLatency, addr 0x39cb3d4, size 0x8, virtual true, abstract: false, final true
   inline void set_handPoseStateLatency(float_t value);
 
-  /// @brief Method set_instantiateMixedRealityCameraGameObject, addr 0x39c90e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method set_instantiateMixedRealityCameraGameObject, addr 0x39cb56c, size 0x4, virtual true, abstract: false, final true
   inline void set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
 
-  /// @brief Method set_mrcActivationMode, addr 0x39c9058, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_mrcActivationMode, addr 0x39cb4e4, size 0x8, virtual true, abstract: false, final true
   inline void set_mrcActivationMode(::GlobalNamespace::OVRManager_MrcActivationMode value);
 
-  /// @brief Method set_sandwichCompositionBufferedFrames, addr 0x39c8f68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_sandwichCompositionBufferedFrames, addr 0x39cb3f4, size 0x8, virtual true, abstract: false, final true
   inline void set_sandwichCompositionBufferedFrames(int32_t value);
 
-  /// @brief Method set_sandwichCompositionRenderLatency, addr 0x39c8f58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_sandwichCompositionRenderLatency, addr 0x39cb3e4, size 0x8, virtual true, abstract: false, final true
   inline void set_sandwichCompositionRenderLatency(float_t value);
 
-  /// @brief Method set_useDynamicLighting, addr 0x39c8fc0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_useDynamicLighting, addr 0x39cb44c, size 0xc, virtual true, abstract: false, final true
   inline void set_useDynamicLighting(bool value);
 
-  /// @brief Method set_virtualGreenScreenApplyDepthCulling, addr 0x39c9034, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_virtualGreenScreenApplyDepthCulling, addr 0x39cb4c0, size 0xc, virtual true, abstract: false, final true
   inline void set_virtualGreenScreenApplyDepthCulling(bool value);
 
-  /// @brief Method set_virtualGreenScreenBottomY, addr 0x39c9024, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_virtualGreenScreenBottomY, addr 0x39cb4b0, size 0x8, virtual true, abstract: false, final true
   inline void set_virtualGreenScreenBottomY(float_t value);
 
-  /// @brief Method set_virtualGreenScreenDepthTolerance, addr 0x39c9048, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_virtualGreenScreenDepthTolerance, addr 0x39cb4d4, size 0x8, virtual true, abstract: false, final true
   inline void set_virtualGreenScreenDepthTolerance(float_t value);
 
-  /// @brief Method set_virtualGreenScreenTopY, addr 0x39c9014, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_virtualGreenScreenTopY, addr 0x39cb4a0, size 0x8, virtual true, abstract: false, final true
   inline void set_virtualGreenScreenTopY(float_t value);
 
-  /// @brief Method set_virtualGreenScreenType, addr 0x39c9004, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_virtualGreenScreenType, addr 0x39cb490, size 0x8, virtual true, abstract: false, final true
   inline void set_virtualGreenScreenType(::GlobalNamespace::OVRManager_VirtualGreenScreenType value);
 
 protected:
@@ -630,7 +630,7 @@ public:
   OculusMRCManager(OculusMRCManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16469 };
 
   /// @brief Field _vrPlatformHelper, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

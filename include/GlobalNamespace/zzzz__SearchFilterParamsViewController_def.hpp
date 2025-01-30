@@ -116,33 +116,33 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3b63790, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b67790, size 0x24c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b639dc, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b679dc, size 0x1b8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleFilterByNotOwnedValueValueChanged, addr 0x3b63ea4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleFilterByNotOwnedValueValueChanged, addr 0x3b67ea4, size 0x2c, virtual false, abstract: false, final false
   inline void HandleFilterByNotOwnedValueValueChanged(bool isOn);
 
-  /// @brief Method HandleFilterByOwnedValueValueChanged, addr 0x3b63e78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleFilterByOwnedValueValueChanged, addr 0x3b67e78, size 0x2c, virtual false, abstract: false, final false
   inline void HandleFilterByOwnedValueValueChanged(bool isOn);
 
-  /// @brief Method MaxBpmControllerValueDidChange, addr 0x3b63df0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MaxBpmControllerValueDidChange, addr 0x3b67df0, size 0x88, virtual false, abstract: false, final false
   inline void MaxBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* maxBpmController, float_t value);
 
-  /// @brief Method MinBpmControllerValueDidChange, addr 0x3b63d68, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MinBpmControllerValueDidChange, addr 0x3b67d68, size 0x88, virtual false, abstract: false, final false
   inline void MinBpmControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* minBpmController, float_t value);
 
   static inline ::GlobalNamespace::SearchFilterParamsViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x3b63b94, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x3b67b94, size 0x1d4, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
-  /// @brief Method Refresh, addr 0x3b63430, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b67430, size 0x360, virtual false, abstract: false, final false
   inline void Refresh(::ByRef<::GlobalNamespace::LevelFilter> filter);
 
-  /// @brief Method Setup, addr 0x3b63400, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b67400, size 0x30, virtual false, abstract: false, final false
   inline void Setup(::ByRef<::GlobalNamespace::LevelFilter> filter);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsDropdown> const& __cordl_internal_get__beatmapCharacteristicsDropdown() const;
@@ -259,13 +259,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method .ctor, addr 0x3b63ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b67ed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b63298, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b67298, size 0xb4, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b6334c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b6734c, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>* value);
 
 protected:
@@ -283,7 +283,7 @@ public:
   SearchFilterParamsViewController(SearchFilterParamsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5354 };
 
   /// @brief Field _filterByOwnedToggle, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByOwnedToggle;

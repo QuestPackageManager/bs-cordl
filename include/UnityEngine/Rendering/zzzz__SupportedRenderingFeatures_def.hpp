@@ -81,7 +81,7 @@ public:
   static ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes const Rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11236 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -144,7 +144,7 @@ public:
   static ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes const Subtractive;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11237 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -305,42 +305,42 @@ public:
   /// @brief Field s_Active, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Active, put = setStaticF_s_Active)) ::UnityEngine::Rendering::SupportedRenderingFeatures* s_Active;
 
-  /// @brief Method FallbackLightmapperByRef, addr 0x48c8060, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FallbackLightmapperByRef, addr 0x48cb2c4, size 0x1c, virtual false, abstract: false, final false
   static inline void FallbackLightmapperByRef(::System::IntPtr lightmapperPtr);
 
-  /// @brief Method FallbackMixedLightingModeByRef, addr 0x48c796c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method FallbackMixedLightingModeByRef, addr 0x48cabd0, size 0x134, virtual false, abstract: false, final false
   static inline void FallbackMixedLightingModeByRef(::System::IntPtr fallbackModePtr);
 
-  /// @brief Method IsAutoAmbientProbeBakingSupported, addr 0x48c7ef8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsAutoAmbientProbeBakingSupported, addr 0x48cb15c, size 0x78, virtual false, abstract: false, final false
   static inline void IsAutoAmbientProbeBakingSupported(::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsAutoDefaultReflectionProbeBakingSupported, addr 0x48c7f70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsAutoDefaultReflectionProbeBakingSupported, addr 0x48cb1d4, size 0x78, virtual false, abstract: false, final false
   static inline void IsAutoDefaultReflectionProbeBakingSupported(::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsLightmapBakeTypeSupported, addr 0x48c7c14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapBakeTypeSupported, addr 0x48cae78, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsLightmapBakeTypeSupported(::UnityEngine::LightmapBakeType bakeType);
 
-  /// @brief Method IsLightmapBakeTypeSupportedByRef, addr 0x48c7c80, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapBakeTypeSupportedByRef, addr 0x48caee4, size 0xf0, virtual false, abstract: false, final false
   static inline void IsLightmapBakeTypeSupportedByRef(::UnityEngine::LightmapBakeType bakeType, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsLightmapperSupportedByRef, addr 0x48c7dfc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapperSupportedByRef, addr 0x48cb060, size 0x84, virtual false, abstract: false, final false
   static inline void IsLightmapperSupportedByRef(int32_t lightmapper, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsLightmapsModeSupportedByRef, addr 0x48c7d70, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapsModeSupportedByRef, addr 0x48cafd4, size 0x8c, virtual false, abstract: false, final false
   static inline void IsLightmapsModeSupportedByRef(::UnityEngine::LightmapsMode mode, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsMixedLightingModeSupported, addr 0x48c7aa0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMixedLightingModeSupported, addr 0x48cad04, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsMixedLightingModeSupported(::UnityEngine::MixedLightingMode mixedMode);
 
-  /// @brief Method IsMixedLightingModeSupportedByRef, addr 0x48c7b0c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsMixedLightingModeSupportedByRef, addr 0x48cad70, size 0x108, virtual false, abstract: false, final false
   static inline void IsMixedLightingModeSupportedByRef(::UnityEngine::MixedLightingMode mixedMode, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsUIOverlayRenderedBySRP, addr 0x48c7e80, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsUIOverlayRenderedBySRP, addr 0x48cb0e4, size 0x78, virtual false, abstract: false, final false
   static inline void IsUIOverlayRenderedBySRP(::System::IntPtr isSupportedPtr);
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* New_ctor();
 
-  /// @brief Method OverridesLightProbeSystem, addr 0x48c7fe8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OverridesLightProbeSystem, addr 0x48cb24c, size 0x78, virtual false, abstract: false, final false
   static inline void OverridesLightProbeSystem(::System::IntPtr overridesPtr);
 
   constexpr bool const& __cordl_internal_get__autoAmbientProbeBaking_k__BackingField() const;
@@ -523,47 +523,47 @@ public:
 
   constexpr void __cordl_internal_set__supportsHDR_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x48c6bf8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c9e5c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* getStaticF_s_Active();
 
-  /// @brief Method get_active, addr 0x48c787c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x48caae0, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
 
-  /// @brief Method get_autoAmbientProbeBaking, addr 0x48c7954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoAmbientProbeBaking, addr 0x48cabb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoAmbientProbeBaking();
 
-  /// @brief Method get_autoDefaultReflectionProbeBaking, addr 0x48c795c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoDefaultReflectionProbeBaking, addr 0x48cabc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoDefaultReflectionProbeBaking();
 
-  /// @brief Method get_defaultMixedLightingModes, addr 0x48c791c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultMixedLightingModes, addr 0x48cab80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes get_defaultMixedLightingModes();
 
-  /// @brief Method get_enlighten, addr 0x48c7944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enlighten, addr 0x48caba8, size 0x8, virtual false, abstract: false, final false
   inline bool get_enlighten();
 
-  /// @brief Method get_enlightenLightmapper, addr 0x48c793c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenLightmapper, addr 0x48caba0, size 0x8, virtual false, abstract: false, final false
   inline bool get_enlightenLightmapper();
 
-  /// @brief Method get_lightmapBakeTypes, addr 0x48c792c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapBakeTypes, addr 0x48cab90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightmapBakeType get_lightmapBakeTypes();
 
-  /// @brief Method get_lightmapsModes, addr 0x48c7934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapsModes, addr 0x48cab98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightmapsMode get_lightmapsModes();
 
-  /// @brief Method get_mixedLightingModes, addr 0x48c7924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mixedLightingModes, addr 0x48cab88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes get_mixedLightingModes();
 
-  /// @brief Method get_overridesLightProbeSystem, addr 0x48c7964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overridesLightProbeSystem, addr 0x48cabc8, size 0x8, virtual false, abstract: false, final false
   inline bool get_overridesLightProbeSystem();
 
-  /// @brief Method get_rendersUIOverlay, addr 0x48c794c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rendersUIOverlay, addr 0x48cabb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_rendersUIOverlay();
 
   static inline void setStaticF_s_Active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 
-  /// @brief Method set_active, addr 0x48c6c7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x48c9ee0, size 0x5c, virtual false, abstract: false, final false
   static inline void set_active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 
 protected:
@@ -581,7 +581,7 @@ public:
   SupportedRenderingFeatures(SupportedRenderingFeatures const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11238 };
 
   /// @brief Field <reflectionProbeModes>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::SupportedRenderingFeatures_ReflectionProbeModes ____reflectionProbeModes_k__BackingField;

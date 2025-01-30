@@ -60,12 +60,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4341398, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x43445fc, size 0x1c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator* New_ctor(::System::Object* value);
 
-  /// @brief Method Reset, addr 0x43413b4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x4344618, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Object* const& __cordl_internal_get_loneValue() const;
@@ -80,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set_position(int32_t value);
 
-  /// @brief Method .ctor, addr 0x434131c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4344580, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method get_Current, addr 0x434134c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x43445b0, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -104,7 +104,7 @@ public:
   SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator(SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7305 };
 
   /// @brief Field loneValue, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___loneValue;
@@ -135,22 +135,22 @@ public:
 
   __declspec(property(get = get_Item)) ::System::Object* Item[];
 
-  /// @brief Method Add, addr 0x4340bd8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4343e3c, size 0x11c, virtual false, abstract: false, final false
   inline void Add(::System::Object* value);
 
-  /// @brief Method GetEnumerator, addr 0x434095c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x4343bc0, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method Insert, addr 0x434117c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x43443e0, size 0x1a0, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method RemoveAt, addr 0x4340f04, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x4344168, size 0xe0, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method get_Count, addr 0x43408b0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4343b14, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x4340598, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43437fc, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
   // Ctor Parameters []
@@ -161,7 +161,7 @@ public:
   constexpr XmlNamedNodeMap_SmallXmlNodeList(::System::Object* field) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7306 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -197,36 +197,36 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method AddNode, addr 0x4340a54, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method AddNode, addr 0x4343cb8, size 0x184, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* AddNode(::System::Xml::XmlNode* node);
 
-  /// @brief Method AddNodeForLoad, addr 0x4340cf4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method AddNodeForLoad, addr 0x4343f58, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* AddNodeForLoad(::System::Xml::XmlNode* node, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method FindNodeOffset, addr 0x4340730, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FindNodeOffset, addr 0x4343994, size 0x124, virtual false, abstract: false, final false
   inline int32_t FindNodeOffset(::StringW localName, ::StringW namespaceURI);
 
-  /// @brief Method FindNodeOffset, addr 0x43404b4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FindNodeOffset, addr 0x4343718, size 0xe4, virtual false, abstract: false, final false
   inline int32_t FindNodeOffset(::StringW name);
 
-  /// @brief Method GetEnumerator, addr 0x4340954, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x4343bb8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetNamedItem, addr 0x434041c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetNamedItem, addr 0x4343680, size 0x98, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* GetNamedItem(::StringW name);
 
-  /// @brief Method InsertNodeAt, addr 0x4340fe4, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method InsertNodeAt, addr 0x4344248, size 0x198, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* InsertNodeAt(int32_t i, ::System::Xml::XmlNode* node);
 
   static inline ::System::Xml::XmlNamedNodeMap* New_ctor(::System::Xml::XmlNode* parent);
 
-  /// @brief Method RemoveNodeAt, addr 0x4340d9c, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method RemoveNodeAt, addr 0x4344000, size 0x168, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* RemoveNodeAt(int32_t i);
 
-  /// @brief Method ReplaceNodeAt, addr 0x4340854, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReplaceNodeAt, addr 0x4343ab8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* ReplaceNodeAt(int32_t i, ::System::Xml::XmlNode* node);
 
-  /// @brief Method SetNamedItem, addr 0x4340674, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method SetNamedItem, addr 0x43438d8, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* SetNamedItem(::System::Xml::XmlNode* node);
 
   constexpr ::System::Xml::XmlNamedNodeMap_SmallXmlNodeList const& __cordl_internal_get_nodes() const;
@@ -241,10 +241,10 @@ public:
 
   constexpr void __cordl_internal_set_parent(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x43403f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4343658, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* parent);
 
-  /// @brief Method get_Count, addr 0x43408a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4343b0c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -265,7 +265,7 @@ public:
   XmlNamedNodeMap(XmlNamedNodeMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7307 };
 
   /// @brief Field parent, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNode* ___parent;

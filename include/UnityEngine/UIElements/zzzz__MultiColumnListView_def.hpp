@@ -81,7 +81,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::MultiColumnListView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49fdadc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a00d40, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   MultiColumnListView_UxmlFactory(MultiColumnListView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,7 +126,7 @@ public:
   /// @brief Field m_SortingEnabled, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SortingEnabled, put = __cordl_internal_set_m_SortingEnabled)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_SortingEnabled;
 
-  /// @brief Method Init, addr 0x49fdb24, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a00d88, size 0x170, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::MultiColumnListView_UxmlTraits* New_ctor();
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SortingEnabled(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x49fdc94, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a00ef8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,7 +167,7 @@ public:
   MultiColumnListView_UxmlTraits(MultiColumnListView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5652 };
 
   /// @brief Field m_SortingEnabled, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_SortingEnabled;
@@ -231,23 +231,23 @@ public:
 
   __declspec(property(get = get_viewController)) ::UnityEngine::UIElements::MultiColumnListViewController* viewController;
 
-  /// @brief Method CreateViewController, addr 0x49fd814, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x4a00a78, size 0x78, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method CreateVirtualizationController, addr 0x49fda78, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CreateVirtualizationController, addr 0x4a00cdc, size 0x48, virtual true, abstract: false, final false
   inline void CreateVirtualizationController();
 
   static inline ::UnityEngine::UIElements::MultiColumnListView* New_ctor();
 
   static inline ::UnityEngine::UIElements::MultiColumnListView* New_ctor(::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method RaiseColumnSortingChanged, addr 0x49fd590, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseColumnSortingChanged, addr 0x4a007f4, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseColumnSortingChanged();
 
-  /// @brief Method RaiseHeaderContextMenuPopulate, addr 0x49fdac0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseHeaderContextMenuPopulate, addr 0x4a00d24, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseHeaderContextMenuPopulate(::UnityEngine::UIElements::ContextualMenuPopulateEvent* evt, ::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method SetViewController, addr 0x49fd88c, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method SetViewController, addr 0x4a00af0, size 0x1ec, virtual true, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::CollectionViewController* controller);
 
   constexpr ::System::Action* const& __cordl_internal_get_columnSortingChanged() const;
@@ -286,28 +286,28 @@ public:
 
   constexpr void __cordl_internal_set_m_SortingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x49fd60c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a00870, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49fd664, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a008c8, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method get_columns, addr 0x49fd364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columns, addr 0x4a005c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Columns* get_columns();
 
-  /// @brief Method get_sortColumnDescriptions, addr 0x49fd3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortColumnDescriptions, addr 0x4a0061c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SortColumnDescriptions* get_sortColumnDescriptions();
 
-  /// @brief Method get_viewController, addr 0x49fd2e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x4a00544, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MultiColumnListViewController* get_viewController();
 
-  /// @brief Method set_columns, addr 0x49fd36c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_columns, addr 0x4a005d0, size 0x4c, virtual false, abstract: false, final false
   inline void set_columns(::UnityEngine::UIElements::Columns* value);
 
-  /// @brief Method set_sortColumnDescriptions, addr 0x49fd3c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_sortColumnDescriptions, addr 0x4a00624, size 0x90, virtual false, abstract: false, final false
   inline void set_sortColumnDescriptions(::UnityEngine::UIElements::SortColumnDescriptions* value);
 
-  /// @brief Method set_sortingEnabled, addr 0x49fd5ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_sortingEnabled, addr 0x4a00810, size 0x60, virtual false, abstract: false, final false
   inline void set_sortingEnabled(bool value);
 
 protected:
@@ -325,7 +325,7 @@ public:
   MultiColumnListView(MultiColumnListView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5653 };
 
   /// @brief Field m_Columns, offset: 0x538, size: 0x8, def value: None
   ::UnityEngine::UIElements::Columns* ___m_Columns;

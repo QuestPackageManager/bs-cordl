@@ -28,7 +28,7 @@ public:
   constexpr SpawnRotation(::BeatmapSaveDataCommon::ExecutionTime t, float_t r) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13385 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -83,57 +83,57 @@ public:
   /// @brief Field m_TextElement, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextElement, put = __cordl_internal_set_m_TextElement)) ::UnityEngine::UIElements::TextElement* m_TextElement;
 
-  /// @brief Method ATagOnPointerMove, addr 0x4a92210, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ATagOnPointerMove, addr 0x4a95474, size 0x2b8, virtual false, abstract: false, final false
   inline void ATagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
 
-  /// @brief Method ATagOnPointerOut, addr 0x4a924c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ATagOnPointerOut, addr 0x4a9572c, size 0x8, virtual false, abstract: false, final false
   inline void ATagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* _);
 
-  /// @brief Method ATagOnPointerOver, addr 0x4a92208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ATagOnPointerOver, addr 0x4a9546c, size 0x8, virtual false, abstract: false, final false
   inline void ATagOnPointerOver(::UnityEngine::UIElements::PointerOverEvent* _);
 
-  /// @brief Method ATagOnPointerUp, addr 0x4a9206c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ATagOnPointerUp, addr 0x4a952d0, size 0x19c, virtual false, abstract: false, final false
   inline void ATagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
 
-  /// @brief Method ComputeTextHeight, addr 0x4a915a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextHeight, addr 0x4a94804, size 0xac, virtual false, abstract: false, final false
   inline float_t ComputeTextHeight(::StringW textToMeasure, float_t width, float_t height);
 
-  /// @brief Method ComputeTextWidth, addr 0x4a911dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextWidth, addr 0x4a94440, size 0xbc, virtual false, abstract: false, final false
   inline float_t ComputeTextWidth(::StringW textToMeasure, bool wordWrap, float_t width, float_t height);
 
-  /// @brief Method ConvertUssToTextGenerationSettings, addr 0x4a91298, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method ConvertUssToTextGenerationSettings, addr 0x4a944fc, size 0x308, virtual false, abstract: false, final false
   inline void ConvertUssToTextGenerationSettings(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
-  /// @brief Method GetTextEffectPadding, addr 0x4a9366c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetTextEffectPadding, addr 0x4a968d0, size 0x1b0, virtual false, abstract: false, final false
   inline float_t GetTextEffectPadding(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method GetTextOverflowMode, addr 0x4a93318, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetTextOverflowMode, addr 0x4a9657c, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextOverflowMode GetTextOverflowMode();
 
-  /// @brief Method HandleATag, addr 0x4a91734, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method HandleATag, addr 0x4a94998, size 0x528, virtual false, abstract: false, final false
   inline void HandleATag();
 
-  /// @brief Method HandleLinkTag, addr 0x4a91c5c, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method HandleLinkTag, addr 0x4a94ec0, size 0x410, virtual false, abstract: false, final false
   inline void HandleLinkTag();
 
-  /// @brief Method LinkTagOnPointerDown, addr 0x4a924d0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerDown, addr 0x4a95734, size 0x2f8, virtual false, abstract: false, final false
   inline void LinkTagOnPointerDown(::UnityEngine::UIElements::PointerDownEvent* pde);
 
-  /// @brief Method LinkTagOnPointerMove, addr 0x4a92ac0, size 0x648, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerMove, addr 0x4a95d24, size 0x648, virtual false, abstract: false, final false
   inline void LinkTagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
 
-  /// @brief Method LinkTagOnPointerOut, addr 0x4a93108, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerOut, addr 0x4a9636c, size 0x210, virtual false, abstract: false, final false
   inline void LinkTagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* poe);
 
-  /// @brief Method LinkTagOnPointerUp, addr 0x4a927c8, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerUp, addr 0x4a95a2c, size 0x2f8, virtual false, abstract: false, final false
   inline void LinkTagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
 
   static inline ::UnityEngine::UIElements::UITKTextHandle* New_ctor(::UnityEngine::UIElements::TextElement* te);
 
-  /// @brief Method TextLibraryCanElide, addr 0x4a933bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TextLibraryCanElide, addr 0x4a96620, size 0x30, virtual false, abstract: false, final false
   inline bool TextLibraryCanElide();
 
-  /// @brief Method Update, addr 0x4a9164c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4a948b0, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* Update();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__MeasuredSizes_k__BackingField() const;
@@ -178,23 +178,23 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x4a91140, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a943a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* te);
 
   static inline float_t getStaticF_k_MinPadding();
 
-  /// @brief Method get_MeasuredSizes, addr 0x4a911bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MeasuredSizes, addr 0x4a94420, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_MeasuredSizes();
 
-  /// @brief Method get_RoundedSizes, addr 0x4a911cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RoundedSizes, addr 0x4a94430, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_RoundedSizes();
 
   static inline void setStaticF_k_MinPadding(float_t value);
 
-  /// @brief Method set_MeasuredSizes, addr 0x4a911c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MeasuredSizes, addr 0x4a94428, size 0x8, virtual false, abstract: false, final false
   inline void set_MeasuredSizes(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_RoundedSizes, addr 0x4a911d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RoundedSizes, addr 0x4a94438, size 0x8, virtual false, abstract: false, final false
   inline void set_RoundedSizes(::UnityEngine::Vector2 value);
 
 protected:
@@ -212,7 +212,7 @@ public:
   UITKTextHandle(UITKTextHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6199 };
 
   /// @brief Field <MeasuredSizes>k__BackingField, offset: 0x34, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____MeasuredSizes_k__BackingField;

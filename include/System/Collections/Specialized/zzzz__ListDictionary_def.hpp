@@ -99,12 +99,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x447f490, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x44826f4, size 0x9c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Collections::Specialized::ListDictionary_NodeEnumerator* New_ctor(::System::Collections::Specialized::ListDictionary* list);
 
-  /// @brief Method Reset, addr 0x447f52c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x4482790, size 0x7c, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode* const& __cordl_internal_get__current() const;
@@ -131,19 +131,19 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x447f0c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4482324, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::ListDictionary* list);
 
-  /// @brief Method get_Current, addr 0x447f2f0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x4482554, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry, addr 0x447f354, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x44825b8, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x447f3d0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x4482634, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x447f430, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x4482694, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -167,7 +167,7 @@ public:
   ListDictionary_NodeEnumerator(ListDictionary_NodeEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9484 };
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Specialized::ListDictionary* ____list;
@@ -222,12 +222,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x447f868, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4482acc, size 0x9c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator* New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
-  /// @brief Method Reset, addr 0x447f904, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x4482b68, size 0x7c, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::Specialized::ListDictionary_DictionaryNode* const& __cordl_internal_get__current() const;
@@ -260,10 +260,10 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x447f7a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4482a0c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
-  /// @brief Method get_Current, addr 0x447f7f4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x4482a58, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -284,7 +284,7 @@ public:
   NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator(NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9485 };
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Specialized::ListDictionary* ____list;
@@ -346,19 +346,19 @@ public:
 
   static inline ::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection* New_ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x447f5a8, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x448280c, size 0x144, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x447f6ec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x4482950, size 0x38, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x447f724, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x4482988, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x447f72c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x4482990, size 0x18, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x447f744, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x44829a8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr bool const& __cordl_internal_get__isKeys() const;
@@ -373,7 +373,7 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::Specialized::ListDictionary* value);
 
-  /// @brief Method .ctor, addr 0x447ea18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4481c7c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::ListDictionary* list, bool isKeys);
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -397,7 +397,7 @@ public:
   ListDictionary_NodeKeyValueCollection(ListDictionary_NodeKeyValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9486 };
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Specialized::ListDictionary* ____list;
@@ -451,7 +451,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x447e9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4481c08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -469,7 +469,7 @@ public:
   ListDictionary_DictionaryNode(ListDictionary_DictionaryNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9487 };
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___key;
@@ -545,29 +545,29 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x447eb34, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x4481d98, size 0x20c, virtual true, abstract: false, final true
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear, addr 0x447ed40, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x4481fa4, size 0x14, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x447ed54, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x4481fb8, size 0x150, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method CopyTo, addr 0x447eea4, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x4482108, size 0x1c4, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x447f068, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x44822cc, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Specialized::ListDictionary* New_ctor();
 
   static inline ::System::Collections::Specialized::ListDictionary* New_ctor(::System::Collections::IComparer* comparer);
 
-  /// @brief Method Remove, addr 0x447f15c, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x44823c0, size 0x194, virtual true, abstract: false, final true
   inline void Remove(::System::Object* key);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x447f104, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4482368, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
@@ -600,34 +600,34 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x447e658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44818bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x447e660, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44818c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IComparer* comparer);
 
-  /// @brief Method get_Count, addr 0x447e9ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x4481c10, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x447ea50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsFixedSize, addr 0x4481cb4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x447ea48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x4481cac, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x447ea58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x4481cbc, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x447e688, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x44818ec, size 0x15c, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method get_Keys, addr 0x447e9b4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x4481c18, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_SyncRoot, addr 0x447ea60, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x4481cc4, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x447ead4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_Values, addr 0x4481d38, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Values();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -639,7 +639,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x447e7e4, size 0x1c0, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x4481a48, size 0x1c0, virtual true, abstract: false, final true
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
 protected:
@@ -657,7 +657,7 @@ public:
   ListDictionary(ListDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9488 };
 
   /// @brief Field head, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Specialized::ListDictionary_DictionaryNode* ___head;

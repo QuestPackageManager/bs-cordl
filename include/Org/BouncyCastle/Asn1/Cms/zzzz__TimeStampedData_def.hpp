@@ -65,7 +65,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x230e200, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x230f21c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData* metaData,
@@ -73,7 +73,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x230e2c4, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x230f2e0, size 0x1ac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_content() const;
@@ -106,23 +106,23 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x230de24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230ee40, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData* metaData, ::Org::BouncyCastle::Asn1::Asn1OctetString* content,
                     ::Org::BouncyCastle::Asn1::Cms::Evidence* temporalEvidence);
 
-  /// @brief Method .ctor, addr 0x230deb0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230eecc, size 0x268, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Content, addr 0x230e2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x230f2d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Content();
 
-  /// @brief Method get_DataUri, addr 0x230e2a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataUri, addr 0x230f2c0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
 
-  /// @brief Method get_MetaData, addr 0x230e2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MetaData, addr 0x230f2c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
 
-  /// @brief Method get_TemporalEvidence, addr 0x230e2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TemporalEvidence, addr 0x230f2d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Evidence* get_TemporalEvidence();
 
 protected:

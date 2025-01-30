@@ -69,19 +69,19 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b04280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b082cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_bombsCount, addr 0x3b04238, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_bombsCount, addr 0x3b08284, size 0x48, virtual false, abstract: false, final false
   inline void set_bombsCount(int32_t value);
 
-  /// @brief Method set_notesCount, addr 0x3b041a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_notesCount, addr 0x3b081f4, size 0x48, virtual false, abstract: false, final false
   inline void set_notesCount(int32_t value);
 
-  /// @brief Method set_notesPerSecond, addr 0x3b04128, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_notesPerSecond, addr 0x3b08174, size 0x80, virtual false, abstract: false, final false
   inline void set_notesPerSecond(float_t value);
 
-  /// @brief Method set_obstaclesCount, addr 0x3b041f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesCount, addr 0x3b0823c, size 0x48, virtual false, abstract: false, final false
   inline void set_obstaclesCount(int32_t value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   LevelParamsPanel(LevelParamsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4990 };
 
   /// @brief Field _notesPerSecondText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____notesPerSecondText;

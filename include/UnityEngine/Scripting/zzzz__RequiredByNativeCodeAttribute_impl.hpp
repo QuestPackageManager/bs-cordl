@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)()>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4916b50;
+  constexpr static std::size_t addrs = 0x4919db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::StringW)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4916b58;
+  constexpr static std::size_t addrs = 0x4919dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::StringW)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4916b80;
+  constexpr static std::size_t addrs = 0x4919de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Optional)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4916b88;
+  constexpr static std::size_t addrs = 0x4919dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_GenerateProxy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4916b94;
+  constexpr static std::size_t addrs = 0x4919df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

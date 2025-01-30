@@ -37,12 +37,12 @@ namespace UnityEngine {
 class CORDL_TYPE CullingGroup_StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48683b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x486b618, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
   static inline ::UnityEngine::CullingGroup_StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4868328, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486b58c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +60,7 @@ public:
   CullingGroup_StateChanged(CullingGroup_StateChanged const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,7 +83,7 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method SendEvents, addr 0x48682cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x486b530, size 0x5c, virtual false, abstract: false, final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, int32_t count);
 
   constexpr ::UnityEngine::CullingGroup_StateChanged* const& __cordl_internal_get_m_OnStateChanged() const;
@@ -113,7 +113,7 @@ public:
   CullingGroup(CullingGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10682 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

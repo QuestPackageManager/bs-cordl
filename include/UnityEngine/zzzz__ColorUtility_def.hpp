@@ -22,7 +22,7 @@ namespace UnityEngine {
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToHtmlStringRGB, addr 0x489b5f8, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ToHtmlStringRGB, addr 0x489e85c, size 0x3e8, virtual false, abstract: false, final false
   static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color color);
 
 protected:
@@ -40,7 +40,7 @@ public:
   ColorUtility(ColorUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

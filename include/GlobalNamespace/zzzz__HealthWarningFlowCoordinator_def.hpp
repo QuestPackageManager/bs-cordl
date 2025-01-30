@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3c03324, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0924c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
 protected:
@@ -159,7 +159,7 @@ public:
   HealthWarningFlowCoordinator_InitData(HealthWarningFlowCoordinator_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4794 };
 
   /// @brief Field nextScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___nextScenesTransitionSetupData;
@@ -182,10 +182,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c0334c, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c09274, size 0x154, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c034a0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c093c8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -202,7 +202,7 @@ public:
                                                               ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -238,10 +238,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c03508, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c09430, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c038d4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c097fc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -260,7 +260,7 @@ public:
                                                                                                               ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4796 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -301,10 +301,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c038e0, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c09808, size 0x2f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c03bd8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c09b00, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -322,7 +322,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4797 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -437,63 +437,63 @@ public:
   __declspec(property(get = __cordl_internal_get__viewControllerTitles,
                       put = __cordl_internal_set__viewControllerTitles)) ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* _viewControllerTitles;
 
-  /// @brief Method CheckPlayerSensitivityFlagAndContinueFlow, addr 0x3c03144, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckPlayerSensitivityFlagAndContinueFlow, addr 0x3c0906c, size 0xa0, virtual false, abstract: false, final false
   inline void CheckPlayerSensitivityFlagAndContinueFlow();
 
-  /// @brief Method DidActivate, addr 0x3c02288, size 0x5c4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c081b0, size 0x5c4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c0289c, size 0x324, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c087c4, size 0x324, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method EndOfLifeNoticeContinueFlow, addr 0x3c03020, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EndOfLifeNoticeContinueFlow, addr 0x3c08f48, size 0x38, virtual false, abstract: false, final false
   inline void EndOfLifeNoticeContinueFlow();
 
-  /// @brief Method GoToNextScene, addr 0x3c03228, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GoToNextScene, addr 0x3c09150, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToNextScene();
 
-  /// @brief Method HandleEndOfLifeNoticeViewControllerDidFinish, addr 0x3c03058, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleEndOfLifeNoticeViewControllerDidFinish, addr 0x3c08f80, size 0x5c, virtual false, abstract: false, final false
   inline void HandleEndOfLifeNoticeViewControllerDidFinish();
 
-  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x3c02e74, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x3c08d9c, size 0xc4, virtual false, abstract: false, final false
   inline void HandleEulaViewControllerDidFinish(::GlobalNamespace::EulaViewController_ButtonType buttonType);
 
-  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x3c032ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x3c09214, size 0x30, virtual false, abstract: false, final false
   inline void HandleExplicitContentWarningViewControllerDidFinish();
 
-  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x3c02f8c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x3c08eb4, size 0x94, virtual false, abstract: false, final false
   inline void HandleHealthWarningViewControllerDidFinish();
 
-  /// @brief Method HandleNoUserAgeWarningViewControllerDidFinish, addr 0x3c032e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoUserAgeWarningViewControllerDidFinish, addr 0x3c09210, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoUserAgeWarningViewControllerDidFinish();
 
-  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x3c02f38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x3c08e60, size 0x54, virtual false, abstract: false, final false
   inline void HandlePrivacyPolicyViewControllerDidFinish();
 
-  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguage, addr 0x3c02c44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguage, addr 0x3c08b6c, size 0x7c, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidChangeLanguage(::BGLib::Polyglot::Language language);
 
-  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButtonAsync, addr 0x3c02cc0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButtonAsync, addr 0x3c08be8, size 0x90, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidPressContinueButtonAsync();
 
-  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x3c02d50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x3c08c78, size 0x30, virtual false, abstract: false, final false
   inline void HandleSelectRegionViewControllerDidPressContinueButton(::GlobalNamespace::SelectRegionViewController_Region region);
 
-  /// @brief Method HandleUserAgeCategoryArrived, addr 0x3c031e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleUserAgeCategoryArrived, addr 0x3c0910c, size 0x44, virtual false, abstract: false, final false
   inline void HandleUserAgeCategoryArrived();
 
   static inline ::GlobalNamespace::HealthWarningFlowCoordinator* New_ctor();
 
-  /// @brief Method ResolveMainViewController, addr 0x3c0284c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResolveMainViewController, addr 0x3c08774, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> ResolveMainViewController();
 
-  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x3c02d80, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x3c08ca8, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> ResolvePlayerAgreementsViewController();
 
-  /// @brief Method TopViewControllerWillChange, addr 0x3c02bc0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x3c08ae8, size 0x84, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method WaitForUserAgeCategory, addr 0x3c030b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WaitForUserAgeCategory, addr 0x3c08fdc, size 0x90, virtual false, abstract: false, final false
   inline void WaitForUserAgeCategory();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
@@ -610,7 +610,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllerTitles(::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3c0331c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c09244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -628,7 +628,7 @@ public:
   HealthWarningFlowCoordinator(HealthWarningFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4798 };
 
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> ____appInitScenesTransitionSetupDataContainer;

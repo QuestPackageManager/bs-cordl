@@ -33,27 +33,27 @@ public:
   // Declarations
   __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method DeserializeSection, addr 0x4089fdc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DeserializeSection, addr 0x408d240, size 0x38, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* xmlReader);
 
-  /// @brief Method IsModified, addr 0x408a014, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x408d278, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
   static inline ::System::Configuration::IgnoreSection* New_ctor();
 
-  /// @brief Method Reset, addr 0x408a04c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x408d2b0, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentSection);
 
-  /// @brief Method ResetModified, addr 0x408a084, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x408d2e8, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection, addr 0x408a0bc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SerializeSection, addr 0x408d320, size 0x38, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentSection, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
-  /// @brief Method .ctor, addr 0x4089f6c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408d1d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x4089fa4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x408d208, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -71,7 +71,7 @@ public:
   IgnoreSection(IgnoreSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19273 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

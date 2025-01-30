@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_userSettingsVolumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3acde50, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad0a2c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t userSettingsVolumeOffset, bool adaptiveSfx, int32_t frequency);
 
 protected:
@@ -137,21 +137,21 @@ public:
   /// @brief Field _minThreshold, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__minThreshold, put = __cordl_internal_set__minThreshold)) float_t _minThreshold;
 
-  /// @brief Method ApplyLoudness, addr 0x3acdd1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ApplyLoudness, addr 0x3ad08f8, size 0x30, virtual false, abstract: false, final false
   inline void ApplyLoudness(float_t songLoudness);
 
   static inline ::GlobalNamespace::AdaptiveSfxVolume* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x3acd988, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x3ad0564, size 0x174, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method OnDisable, addr 0x3acd8fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3ad04d8, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x3acd828, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad0404, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3acdc68, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ad0844, size 0x34, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__minThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x3acdd4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad0928, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x23fc590;
+  constexpr static std::size_t addrs = 0x23fd5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::GetInstance)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x23fae64;
+  constexpr static std::size_t addrs = 0x23fbe80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::_ctor)> {
   constexpr static std::size_t size = 0x5d8;
-  constexpr static std::size_t addrs = 0x23fc70c;
+  constexpr static std::size_t addrs = 0x23fd728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::get_NamingAuthorityID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23fcdcc;
+  constexpr static std::size_t addrs = 0x23fdde8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::get_NamingAuthorityText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23fcdd4;
+  constexpr static std::size_t addrs = 0x23fddf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::get_NamingAuthorityUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23fcddc;
+  constexpr static std::size_t addrs = 0x23fddf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW, ::Org::BouncyCastle::Asn1::X500::DirectoryString*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x23fcde4;
+  constexpr static std::size_t addrs = 0x23fde00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority::ToAsn1Object)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x23fce20;
+  constexpr static std::size_t addrs = 0x23fde3c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set__titleId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e709c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e9574, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_productLabel, addr 0x26ec718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_productLabel, addr 0x26eebf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_productLabel();
 
-  /// @brief Method get_serviceIdPrefix, addr 0x26ec708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serviceIdPrefix, addr 0x26eebe0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serviceIdPrefix();
 
-  /// @brief Method get_skuName, addr 0x26ec700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skuName, addr 0x26eebd8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_skuName();
 
-  /// @brief Method get_titleId, addr 0x26ec710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleId, addr 0x26eebe8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleId();
 
 protected:
@@ -95,7 +95,7 @@ public:
   SonyPublisherSKUSettingsSO(SonyPublisherSKUSettingsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13210 };
 
   /// @brief Field _skuName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____skuName;

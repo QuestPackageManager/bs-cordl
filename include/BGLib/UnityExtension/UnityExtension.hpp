@@ -9,6 +9,7 @@ module;
 #include "BGLib/UnityExtension/Debouncer_1.hpp"
 #include "BGLib/UnityExtension/ExternalFileReader.hpp"
 #include "BGLib/UnityExtension/InfoBoxAttribute.hpp"
+#include "BGLib/UnityExtension/LogHelper.hpp"
 #include "BGLib/UnityExtension/SerializableDictionary_2.hpp"
 #include "BGLib/UnityExtension/ShaderPropertyAttributeFilter.hpp"
 #include "BGLib/UnityExtension/ShaderPropertyIDAttribute.hpp"

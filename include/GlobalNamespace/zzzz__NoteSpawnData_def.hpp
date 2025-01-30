@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE NoteSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3ae12b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae52fc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset, ::UnityEngine::Vector3 jumpEndOffset, float_t gravityBase);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr NoteSpawnData(::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset, ::UnityEngine::Vector3 jumpEndOffset, float_t gravityBase) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4082 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

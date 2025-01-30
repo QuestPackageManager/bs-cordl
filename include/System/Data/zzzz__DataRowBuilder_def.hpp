@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x4165138, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x416839c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t record);
 
 protected:
@@ -60,7 +60,7 @@ public:
   DataRowBuilder(DataRowBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11387 };
 
   /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataTable* ____table;

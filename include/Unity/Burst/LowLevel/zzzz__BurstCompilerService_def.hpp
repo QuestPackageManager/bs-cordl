@@ -73,7 +73,7 @@ public:
   static ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10635 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -98,33 +98,33 @@ public:
   // Declarations
   using BurstLogType = ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType;
 
-  /// @brief Method CompileAsyncDelegateMethod, addr 0x485f9c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CompileAsyncDelegateMethod, addr 0x4862c2c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t CompileAsyncDelegateMethod(::System::Object* delegateMethod, ::StringW compilerOptions);
 
-  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x485fa0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x4862c70, size 0x3c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetAsyncCompiledAsyncDelegateMethod(int32_t userID);
 
-  /// @brief Method GetCurrentExecutionMode, addr 0x485fa84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentExecutionMode, addr 0x4862ce8, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetCurrentExecutionMode();
 
-  /// @brief Method GetDisassembly, addr 0x485f984, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDisassembly, addr 0x4862be8, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetDisassembly(::System::Reflection::MethodInfo* m, ::StringW compilerOptions);
 
-  /// @brief Method GetOrCreateSharedMemory, addr 0x485f200, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedMemory, addr 0x4862464, size 0x54, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetOrCreateSharedMemory(::ByRef<::UnityEngine::Hash128> key, uint32_t size_of, uint32_t alignment);
 
-  /// @brief Method LoadBurstLibrary, addr 0x485fb84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadBurstLibrary, addr 0x4862de8, size 0x3c, virtual false, abstract: false, final false
   static inline bool LoadBurstLibrary(::StringW fullPathToLibBurstGenerated);
 
-  /// @brief Method Log, addr 0x485faac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x4862d10, size 0x6c, virtual false, abstract: false, final false
   static inline void Log(::cordl_internals::Ptr<void> userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, ::cordl_internals::Ptr<uint8_t> message,
                          ::cordl_internals::Ptr<uint8_t> filename, int32_t lineNumber);
 
-  /// @brief Method RuntimeLog, addr 0x485fb18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLog, addr 0x4862d7c, size 0x6c, virtual false, abstract: false, final false
   static inline void RuntimeLog(::cordl_internals::Ptr<void> userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, ::cordl_internals::Ptr<uint8_t> message,
                                 ::cordl_internals::Ptr<uint8_t> filename, int32_t lineNumber);
 
-  /// @brief Method SetCurrentExecutionMode, addr 0x485fa48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentExecutionMode, addr 0x4862cac, size 0x3c, virtual false, abstract: false, final false
   static inline void SetCurrentExecutionMode(uint32_t environment);
 
 protected:
@@ -142,7 +142,7 @@ public:
   BurstCompilerService(BurstCompilerService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

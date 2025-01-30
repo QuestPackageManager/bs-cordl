@@ -32,27 +32,27 @@ public:
   /// @brief Field newlineChar, offset 0xffffffff, size 0x2
   __declspec(property(get = getStaticF_newlineChar, put = setStaticF_newlineChar)) char16_t newlineChar;
 
-  /// @brief Method CheckEOL, addr 0x3d81fc8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CheckEOL, addr 0x3d8522c, size 0x198, virtual false, abstract: false, final false
   inline bool CheckEOL(char16_t current);
 
   static inline ::System::IO::UnexceptionalStreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Peek, addr 0x3d81c30, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x3d84e94, size 0x88, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x3d81cb8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3d84f1c, size 0x88, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x3d81d40, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3d84fa4, size 0x288, virtual true, abstract: false, final false
   inline int32_t Read(::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest_buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x3d82160, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x3d853c4, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x3d821e8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x3d8544c, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method .ctor, addr 0x3d81bc0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d84e24, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
   static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_newline();

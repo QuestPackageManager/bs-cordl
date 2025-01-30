@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_lobbySecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ac990, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26adbdc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbyCode);
 
-  /// @brief Method .ctor, addr 0x26ac964, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26adbb0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbySecret, ::StringW lobbyCode);
 
 protected:
@@ -62,7 +62,7 @@ public:
   SelectMultiplayerLobbyDestination(SelectMultiplayerLobbyDestination const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12821 };
 
   /// @brief Field lobbySecret, offset: 0x10, size: 0x8, def value: None
   ::StringW ___lobbySecret;

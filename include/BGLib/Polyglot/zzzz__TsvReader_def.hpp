@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::BGLib::Polyglot::TsvReader* New_ctor();
 
-  /// @brief Method Parse, addr 0x22aa954, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x22ab730, size 0x1a4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
-  /// @brief Method .ctor, addr 0x22aaaf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ab8d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   TsvReader(TsvReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18041 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

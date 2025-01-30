@@ -58,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x42bd4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c0744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FacetType, addr 0x42bd4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FacetType, addr 0x42c0734, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::FacetType get_FacetType();
 
-  /// @brief Method get_IsFixed, addr 0x42bd414, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixed, addr 0x42c0678, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFixed();
 
-  /// @brief Method get_Value, addr 0x42bd404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x42c0668, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_FacetType, addr 0x42bd4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FacetType, addr 0x42c073c, size 0x8, virtual false, abstract: false, final false
   inline void set_FacetType(::System::Xml::Schema::FacetType value);
 
-  /// @brief Method set_IsFixed, addr 0x42bd41c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method set_IsFixed, addr 0x42c0680, size 0xb4, virtual true, abstract: false, final false
   inline void set_IsFixed(bool value);
 
-  /// @brief Method set_Value, addr 0x42bd40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x42c0670, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   XmlSchemaFacet(XmlSchemaFacet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7677 };
 
   /// @brief Field value, offset: 0x50, size: 0x8, def value: None
   ::StringW ___value;

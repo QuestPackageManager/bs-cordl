@@ -32,7 +32,7 @@ public:
   ILocationSizeData(ILocationSizeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

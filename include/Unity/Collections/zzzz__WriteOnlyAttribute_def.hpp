@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::WriteOnlyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x485f070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48622d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   WriteOnlyAttribute(WriteOnlyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

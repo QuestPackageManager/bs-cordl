@@ -36,7 +36,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ByRefUpdater* New_ctor(int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x40e418c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x40e73f0, size 0x4, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
   /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_ArgumentIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40e4164, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e73c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t argumentIndex);
 
 protected:
@@ -66,7 +66,7 @@ public:
   ByRefUpdater(ByRefUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13949 };
 
   /// @brief Field ArgumentIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___ArgumentIndex;

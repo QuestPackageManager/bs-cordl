@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__BasePath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4af0c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3e6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4af0c10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3e74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW basePath);
 
-  /// @brief Method get_BasePath, addr 0x4af0c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BasePath, addr 0x4af3e9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BasePath();
 
-  /// @brief Method set_BasePath, addr 0x4af0c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BasePath, addr 0x4af3ea4, size 0x8, virtual false, abstract: false, final false
   inline void set_BasePath(::StringW value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   PathReferenceAttribute(PathReferenceAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18466 };
 
   /// @brief Field <BasePath>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____BasePath_k__BackingField;

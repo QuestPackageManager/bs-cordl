@@ -58,7 +58,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::HelpBox_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4997db4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499b018, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   HelpBox_UxmlFactory(HelpBox_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,7 +98,7 @@ public:
   /// @brief Field m_Text, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x4997dfc, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x499b060, size 0x154, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::HelpBox_UxmlTraits* New_ctor();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4997f50, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499b1b4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   HelpBox_UxmlTraits(HelpBox_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5596 };
 
   /// @brief Field m_Text, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
@@ -196,14 +196,14 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method GetIconClass, addr 0x4997b80, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetIconClass, addr 0x499ade4, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW GetIconClass(::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   static inline ::UnityEngine::UIElements::HelpBox* New_ctor();
 
   static inline ::UnityEngine::UIElements::HelpBox* New_ctor(::StringW text, ::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
-  /// @brief Method UpdateIcon, addr 0x4997928, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UpdateIcon, addr 0x499ab8c, size 0xb4, virtual false, abstract: false, final false
   inline void UpdateIcon(::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   constexpr ::UnityEngine::UIElements::HelpBoxMessageType const& __cordl_internal_get_m_HelpBoxMessageType() const;
@@ -230,10 +230,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Label(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x49979dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499ac40, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4997a30, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499ac94, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   static inline ::StringW getStaticF_iconErrorUssClassName();
@@ -260,10 +260,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_messageType, addr 0x4997910, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_messageType, addr 0x499ab74, size 0x18, virtual false, abstract: false, final false
   inline void set_messageType(::UnityEngine::UIElements::HelpBoxMessageType value);
 
-  /// @brief Method set_text, addr 0x49978ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x499ab50, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -281,7 +281,7 @@ public:
   HelpBox(HelpBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5597 };
 
   /// @brief Field m_HelpBoxMessageType, offset: 0x3c8, size: 0x4, def value: None
   ::UnityEngine::UIElements::HelpBoxMessageType ___m_HelpBoxMessageType;

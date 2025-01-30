@@ -27,13 +27,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::PushbackStream* New_ctor(::System::IO::Stream* s);
 
-  /// @brief Method Read, addr 0x25d7d20, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x25d8d3c, size 0x60, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x25d7cfc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x25d8d18, size 0x24, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Unread, addr 0x25d7d80, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Unread, addr 0x25d8d9c, size 0x68, virtual true, abstract: false, final false
   inline void Unread(int32_t b);
 
   constexpr int32_t const& __cordl_internal_get_buf() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_buf(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25d7cec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d8d08, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* s);
 
 protected:

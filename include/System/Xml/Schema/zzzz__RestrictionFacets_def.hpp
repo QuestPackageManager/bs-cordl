@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
 
-  /// @brief Method .ctor, addr 0x43a02c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a3528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,7 +173,7 @@ public:
   RestrictionFacets(RestrictionFacets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7519 };
 
   /// @brief Field Length, offset: 0x10, size: 0x4, def value: None
   int32_t ___Length;

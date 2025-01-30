@@ -60,28 +60,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x400f41c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4012680, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAt, addr 0x400f2d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAt, addr 0x4012538, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetAt(int32_t index);
 
-  /// @brief Method RemoveAt, addr 0x400f3d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x4012634, size 0x3c, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method .ctor, addr 0x400f220, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4012484, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_Count, addr 0x400f40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4012670, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x400f2c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x401252c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_Count, addr 0x400f414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x4012678, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
   constexpr TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList(int32_t _Count_k__BackingField, ::Unity::Collections::NativeArray_1<int32_t> _data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8291 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -126,13 +126,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Cross, addr 0x400f318, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Cross, addr 0x401257c, size 0x10, virtual false, abstract: false, final false
   static inline float_t Cross(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method Execute, addr 0x400eec8, size 0x358, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x401212c, size 0x358, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method PointInTriangle, addr 0x400f328, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method PointInTriangle, addr 0x401258c, size 0xa8, virtual false, abstract: false, final false
   static inline bool PointInTriangle(::UnityEngine::Vector2 p, ::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, ::UnityEngine::Vector2 c);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -147,7 +147,7 @@ public:
   constexpr OVRScenePlaneMeshFilter_TriangulateBoundaryJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> Boundary, ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8292 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -197,19 +197,19 @@ public:
 
   static inline ::GlobalNamespace::OVRScenePlaneMeshFilter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x400ee40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x40120a4, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RequestMeshGeneration, addr 0x400dc24, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequestMeshGeneration, addr 0x4010e88, size 0x30, virtual false, abstract: false, final false
   inline void RequestMeshGeneration();
 
-  /// @brief Method ScheduleMeshGeneration, addr 0x400e138, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method ScheduleMeshGeneration, addr 0x401139c, size 0x5c8, virtual false, abstract: false, final false
   inline void ScheduleMeshGeneration();
 
-  /// @brief Method Start, addr 0x400df94, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x40111f8, size 0x1a4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x400e700, size 0x740, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4011964, size 0x740, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__boundary() const;
@@ -248,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set__triangles(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x400eec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4012124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -266,7 +266,7 @@ public:
   OVRScenePlaneMeshFilter(OVRScenePlaneMeshFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8293 };
 
   /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;

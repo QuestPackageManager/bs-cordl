@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRMeshData (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::get_MeshData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3fad024;
+  constexpr static std::size_t addrs = 0x3fb0288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)(::GlobalNamespace::OVRMeshData)>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::set_MeshData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fad034;
+  constexpr static std::size_t addrs = 0x3fb0298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)(::GlobalNamespace::OVRMeshData)>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3fad04c;
+  constexpr static std::size_t addrs = 0x3fb02b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::Update)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x3fad080;
+  constexpr static std::size_t addrs = 0x3fb02e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::MarkModified)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fad40c;
+  constexpr static std::size_t addrs = 0x3fb0670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -72,7 +72,7 @@ public:
   static ::GlobalNamespace::OVRHeadsetEmulator_OpMode const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7892 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -135,18 +135,18 @@ public:
   /// @brief Field resetHmdPoseOnRelease, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get_resetHmdPoseOnRelease, put = __cordl_internal_set_resetHmdPoseOnRelease)) bool resetHmdPoseOnRelease;
 
-  /// @brief Method IsEmulationActivated, addr 0x3fb46ac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsEmulationActivated, addr 0x3fb7910, size 0xc8, virtual false, abstract: false, final false
   inline bool IsEmulationActivated();
 
-  /// @brief Method IsTweakingPitch, addr 0x3fb4774, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsTweakingPitch, addr 0x3fb79d8, size 0x7c, virtual false, abstract: false, final false
   inline bool IsTweakingPitch();
 
   static inline ::GlobalNamespace::OVRHeadsetEmulator* New_ctor();
 
-  /// @brief Method Start, addr 0x3fb4244, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fb74a8, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fb4248, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fb74ac, size 0x464, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& __cordl_internal_get_activateKeys() const;
@@ -221,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set_resetHmdPoseOnRelease(bool value);
 
-  /// @brief Method .ctor, addr 0x3fb47f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fb7a54, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -254,7 +254,7 @@ public:
   static constexpr float_t MOUSE_SCALE_Y{ static_cast<float_t>(2.0f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7893 };
 
   /// @brief Field opMode, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRHeadsetEmulator_OpMode ___opMode;

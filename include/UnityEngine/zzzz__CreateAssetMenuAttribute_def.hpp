@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__menuName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48a63fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a9660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_fileName, addr 0x48a63f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fileName, addr 0x48a9658, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
-  /// @brief Method set_menuName, addr 0x48a63ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuName, addr 0x48a9650, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   CreateAssetMenuAttribute(CreateAssetMenuAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10861 };
 
   /// @brief Field <menuName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____menuName_k__BackingField;

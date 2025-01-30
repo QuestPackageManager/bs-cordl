@@ -47,10 +47,10 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementUtils___c* New_ctor();
 
-  /// @brief Method <AssignInspectorStyleIfNecessary>b__5_0, addr 0x499eb14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <AssignInspectorStyleIfNecessary>b__5_0, addr 0x49a1d78, size 0x6c, virtual false, abstract: false, final false
   inline bool _AssignInspectorStyleIfNecessary_b__5_0(::UnityEngine::UIElements::VisualElement* i);
 
-  /// @brief Method .ctor, addr 0x499eb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a1d70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::VisualElementUtils___c* getStaticF___9();
@@ -76,7 +76,7 @@ public:
   VisualElementUtils___c(VisualElementUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -102,13 +102,13 @@ public:
   /// @brief Field s_usedNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_usedNames, put = setStaticF_s_usedNames)) ::System::Collections::Generic::HashSet_1<::StringW>* s_usedNames;
 
-  /// @brief Method AssignInspectorStyleIfNecessary, addr 0x499e8b0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AssignInspectorStyleIfNecessary, addr 0x49a1b14, size 0x100, virtual false, abstract: false, final false
   static inline void AssignInspectorStyleIfNecessary(::UnityEngine::UIElements::VisualElement* element, ::StringW classNameToEnable);
 
-  /// @brief Method GetFoldoutDepth, addr 0x499e7cc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetFoldoutDepth, addr 0x49a1a30, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t GetFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method GetUniqueName, addr 0x499e6b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueName, addr 0x49a191c, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueName(::StringW nameBase);
 
   static inline ::System::Type* getStaticF_s_FoldoutType();
@@ -138,7 +138,7 @@ public:
   VisualElementUtils(VisualElementUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

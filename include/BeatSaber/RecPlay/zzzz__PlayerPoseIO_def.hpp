@@ -31,19 +31,19 @@ namespace BeatSaber::RecPlay {
 class CORDL_TYPE PlayerPoseIO : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clamp, addr 0x2279bbc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x227a998, size 0x14c, virtual false, abstract: false, final false
   static inline bool Clamp(::ByRef<::System::ReadOnlySpan_1<char16_t>> s, char16_t start, char16_t end);
 
-  /// @brief Method DeserializeFromText, addr 0x2279388, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeFromText, addr 0x227a164, size 0x68c, virtual false, abstract: false, final false
   static inline bool DeserializeFromText(::StringW text, ::ByRef<::BeatSaber::RecPlay::PlayerPoseFrames> playerPoseFrames, ::ByRef<::StringW> log);
 
-  /// @brief Method NextToken, addr 0x2279a14, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x227a7f0, size 0x1a8, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> NextToken(::ByRef<::System::ReadOnlySpan_1<char16_t>> s);
 
-  /// @brief Method SerializeAsText, addr 0x2278bf4, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method SerializeAsText, addr 0x22799d0, size 0x388, virtual false, abstract: false, final false
   static inline ::StringW SerializeAsText(::BeatSaber::RecPlay::PlayerPoseFrames frames);
 
-  /// @brief Method <SerializeAsText>g__WriteFrames|0_0, addr 0x2278f7c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method <SerializeAsText>g__WriteFrames|0_0, addr 0x2279d58, size 0x40c, virtual false, abstract: false, final false
   static inline void _SerializeAsText_g__WriteFrames_0_0(::System::Text::StringBuilder* sb, ::StringW name,
                                                          ::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames);
 
@@ -62,7 +62,7 @@ public:
   PlayerPoseIO(PlayerPoseIO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

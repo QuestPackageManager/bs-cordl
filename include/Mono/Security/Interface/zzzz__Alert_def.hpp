@@ -39,7 +39,7 @@ public:
 
   static inline ::Mono::Security::Interface::Alert* New_ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method ToString, addr 0x3c448c0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c47b24, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::AlertDescription const& __cordl_internal_get_description() const;
@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_level(::Mono::Security::Interface::AlertLevel value);
 
-  /// @brief Method .ctor, addr 0x3c44814, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c47a78, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method get_Description, addr 0x3c4480c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x3c47a70, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertDescription get_Description();
 
-  /// @brief Method get_Level, addr 0x3c44804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x3c47a68, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertLevel get_Level();
 
-  /// @brief Method inferAlertLevel, addr 0x3c44880, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method inferAlertLevel, addr 0x3c47ae4, size 0x40, virtual false, abstract: false, final false
   inline void inferAlertLevel();
 
 protected:
@@ -81,7 +81,7 @@ public:
   Alert(Alert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15948 };
 
   /// @brief Field level, offset: 0x10, size: 0x1, def value: None
   ::Mono::Security::Interface::AlertLevel ___level;

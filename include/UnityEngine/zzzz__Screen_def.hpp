@@ -32,46 +32,46 @@ namespace UnityEngine {
 class CORDL_TYPE Screen : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetScreenOrientation, addr 0x487267c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetScreenOrientation, addr 0x48758e0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ScreenOrientation GetScreenOrientation();
 
-  /// @brief Method SetResolution, addr 0x48728dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetResolution, addr 0x4875b40, size 0x6c, virtual false, abstract: false, final false
   static inline void SetResolution(int32_t width, int32_t height, bool fullscreen);
 
-  /// @brief Method SetResolution, addr 0x487286c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetResolution, addr 0x4875ad0, size 0x70, virtual false, abstract: false, final false
   static inline void SetResolution(int32_t width, int32_t height, bool fullscreen, int32_t preferredRefreshRate);
 
-  /// @brief Method SetResolution, addr 0x48727b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetResolution, addr 0x4875a14, size 0x60, virtual false, abstract: false, final false
   static inline void SetResolution(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, ::UnityEngine::RefreshRate preferredRefreshRate);
 
-  /// @brief Method SetResolution_Injected, addr 0x4872810, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetResolution_Injected, addr 0x4875a74, size 0x5c, virtual false, abstract: false, final false
   static inline void SetResolution_Injected(int32_t width, int32_t height, ::UnityEngine::FullScreenMode fullscreenMode, ::ByRef<::UnityEngine::RefreshRate> preferredRefreshRate);
 
-  /// @brief Method get_currentResolution, addr 0x48726cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_currentResolution, addr 0x4875930, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Resolution get_currentResolution();
 
-  /// @brief Method get_currentResolution_Injected, addr 0x4872710, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_currentResolution_Injected, addr 0x4875974, size 0x3c, virtual false, abstract: false, final false
   static inline void get_currentResolution_Injected(::ByRef<::UnityEngine::Resolution> ret);
 
-  /// @brief Method get_dpi, addr 0x4872654, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_dpi, addr 0x48758b8, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_dpi();
 
-  /// @brief Method get_fullScreen, addr 0x487274c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fullScreen, addr 0x48759b0, size 0x28, virtual false, abstract: false, final false
   static inline bool get_fullScreen();
 
-  /// @brief Method get_height, addr 0x487262c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x4875890, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_height();
 
-  /// @brief Method get_orientation, addr 0x48726a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_orientation, addr 0x4875908, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ScreenOrientation get_orientation();
 
-  /// @brief Method get_resolutions, addr 0x4872948, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_resolutions, addr 0x4875bac, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Resolution, ::Array<::UnityEngine::Resolution>*> get_resolutions();
 
-  /// @brief Method get_width, addr 0x4872604, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x4875868, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_width();
 
-  /// @brief Method set_fullScreen, addr 0x4872774, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_fullScreen, addr 0x48759d8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_fullScreen(bool value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   Screen(Screen const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

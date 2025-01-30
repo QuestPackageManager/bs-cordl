@@ -52,24 +52,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* __9;
 
-  /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_2<::UnityW<::UnityEngine::Renderer>, ::UnityW<::UnityEngine::Material>>* __9__3_0;
+  /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0)) ::System::Func_2<::UnityW<::UnityEngine::Renderer>, ::UnityW<::UnityEngine::Material>>* __9__4_0;
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* New_ctor();
 
-  /// @brief Method <Initialize>b__3_0, addr 0x3aca768, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> _Initialize_b__3_0(::UnityEngine::Renderer* renderer);
+  /// @brief Method <Initialize>b__4_0, addr 0x3acd344, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> _Initialize_b__4_0(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method .ctor, addr 0x3aca760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acd33c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityW<::UnityEngine::Renderer>, ::UnityW<::UnityEngine::Material>>* getStaticF___9__3_0();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::Renderer>, ::UnityW<::UnityEngine::Material>>* getStaticF___9__4_0();
 
   static inline void setStaticF___9(::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* value);
 
-  static inline void setStaticF___9__3_0(::System::Func_2<::UnityW<::UnityEngine::Renderer>, ::UnityW<::UnityEngine::Material>>* value);
+  static inline void setStaticF___9__4_0(::System::Func_2<::UnityW<::UnityEngine::Renderer>, ::UnityW<::UnityEngine::Material>>* value);
 
 protected:
   // Ctor Parameters []
@@ -103,6 +103,10 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c;
 
+  /// @brief Field _allMaterialVariantHashes, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__allMaterialVariantHashes,
+                      put = __cordl_internal_set__allMaterialVariantHashes)) ::System::Collections::Generic::HashSet_1<::StringW>* _allMaterialVariantHashes;
+
   /// @brief Field _materialsThatWereNotRendered, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__materialsThatWereNotRendered,
                       put = __cordl_internal_set__materialsThatWereNotRendered)) ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* _materialsThatWereNotRendered;
@@ -120,16 +124,26 @@ public:
   /// @brief Convert operator to "::Zenject::ILateTickable"
   constexpr operator ::Zenject::ILateTickable*() noexcept;
 
-  /// @brief Method GetGameObjectPath, addr 0x3aca548, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method FullMaterialLookup, addr 0x3accc74, size 0x5c4, virtual false, abstract: false, final false
+  inline void FullMaterialLookup();
+
+  /// @brief Method GetGameObjectPath, addr 0x3accb18, size 0x15c, virtual false, abstract: false, final false
   inline ::StringW GetGameObjectPath(::UnityEngine::GameObject* obj);
 
-  /// @brief Method Initialize, addr 0x3aca158, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3acc724, size 0x188, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method LateTick, addr 0x3aca2e0, size 0x268, virtual true, abstract: false, final true
+  /// @brief Method JustRenderersAndInitialMaterials, addr 0x3acc8b0, size 0x268, virtual false, abstract: false, final false
+  inline void JustRenderersAndInitialMaterials();
+
+  /// @brief Method LateTick, addr 0x3acc8ac, size 0x4, virtual true, abstract: false, final true
   inline void LateTick();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger* New_ctor();
+
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__allMaterialVariantHashes() const;
+
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__allMaterialVariantHashes();
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* const& __cordl_internal_get__materialsThatWereNotRendered() const;
 
@@ -143,13 +157,15 @@ public:
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get__reusableStringBuilder();
 
+  constexpr void __cordl_internal_set__allMaterialVariantHashes(::System::Collections::Generic::HashSet_1<::StringW>* value);
+
   constexpr void __cordl_internal_set__materialsThatWereNotRendered(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* value);
 
   constexpr void __cordl_internal_set__renderersThatWereNotRendered(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Renderer>>* value);
 
   constexpr void __cordl_internal_set__reusableStringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x3aca6a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acd238, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -184,6 +200,9 @@ public:
   /// @brief Field _reusableStringBuilder, offset: 0x20, size: 0x8, def value: None
   ::System::Text::StringBuilder* ____reusableStringBuilder;
 
+  /// @brief Field _allMaterialVariantHashes, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Generic::HashSet_1<::StringW>* ____allMaterialVariantHashes;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -193,7 +212,9 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmupDebugger, ____m
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmupDebugger, ____reusableStringBuilder) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentShaderWarmupDebugger, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmupDebugger, ____allMaterialVariantHashes) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentShaderWarmupDebugger, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentShaderWarmupDebugger);

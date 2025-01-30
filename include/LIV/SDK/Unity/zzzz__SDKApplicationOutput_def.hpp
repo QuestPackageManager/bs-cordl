@@ -20,10 +20,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKApplicationOutput {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3ac7fe8, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3aca474, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3ac19b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac3e44, size 0x80, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKApplicationOutput get_empty();
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
                                  ::StringW xrDeviceName, ::StringW graphicsAPI, ::StringW sdkID, ::StringW sdkVersion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17326 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

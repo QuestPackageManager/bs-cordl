@@ -48,10 +48,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x229c748, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229d524, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x229ca48, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x229d824, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -70,7 +70,7 @@ public:
                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task_1<bool>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -110,13 +110,13 @@ public:
   // Declarations
   using _AnyTaskTrueNonAlloc_d__2 = ::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2;
 
-  /// @brief Method AnyTaskTrueNonAlloc, addr 0x229c658, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AnyTaskTrueNonAlloc, addr 0x229d434, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* AnyTaskTrueNonAlloc(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>* tasks);
 
   /// @brief Method RunSync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T RunSync(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* asyncTask);
 
-  /// @brief Method RunSync, addr 0x229c5d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RunSync, addr 0x229d3b0, size 0x84, virtual false, abstract: false, final false
   static inline void RunSync(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
 
 protected:
@@ -134,7 +134,7 @@ public:
   AsyncHelper(AsyncHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

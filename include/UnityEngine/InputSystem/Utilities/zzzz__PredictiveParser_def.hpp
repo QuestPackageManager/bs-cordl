@@ -22,22 +22,22 @@ namespace UnityEngine::InputSystem::Utilities {
 struct CORDL_TYPE PredictiveParser {
 public:
   // Declarations
-  /// @brief Method AcceptInt, addr 0x456d19c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AcceptInt, addr 0x4570400, size 0x5c, virtual false, abstract: false, final false
   inline void AcceptInt(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method AcceptSingleChar, addr 0x456d034, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AcceptSingleChar, addr 0x4570298, size 0x38, virtual false, abstract: false, final false
   inline bool AcceptSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c);
 
-  /// @brief Method AcceptString, addr 0x456d06c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AcceptString, addr 0x45702d0, size 0x130, virtual false, abstract: false, final false
   inline bool AcceptString(::System::ReadOnlySpan_1<char16_t> input, ::ByRef<::System::ReadOnlySpan_1<char16_t>> output);
 
-  /// @brief Method ExpectInt, addr 0x456cce8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ExpectInt, addr 0x456ff4c, size 0x124, virtual false, abstract: false, final false
   inline int32_t ExpectInt(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method ExpectSingleChar, addr 0x456cbe8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ExpectSingleChar, addr 0x456fe4c, size 0x100, virtual false, abstract: false, final false
   inline void ExpectSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c);
 
-  /// @brief Method ExpectString, addr 0x456ce0c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ExpectString, addr 0x4570070, size 0x228, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> ExpectString(::System::ReadOnlySpan_1<char16_t> str);
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr PredictiveParser(int32_t m_Position) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7106 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

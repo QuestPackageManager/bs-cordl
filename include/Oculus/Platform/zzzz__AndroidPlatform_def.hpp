@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE AndroidPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsyncInitialize, addr 0x3f5a2d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x3f5d534, size 0xfc, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
-  /// @brief Method Initialize, addr 0x3f5a18c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3f5d3f0, size 0xac, virtual false, abstract: false, final false
   inline bool Initialize(::StringW appId);
 
   static inline ::Oculus::Platform::AndroidPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f5a460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f5d6c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   AndroidPlatform(AndroidPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

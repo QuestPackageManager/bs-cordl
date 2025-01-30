@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::BaselineFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Yoga::BaselineFunction::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4969570;
+  constexpr static std::size_t addrs = 0x496c7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::BaselineFunction::*)(::UnityEngine::Yoga::YogaNode*, float_t, float_t)>(
     &::UnityEngine::Yoga::BaselineFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4969674;
+  constexpr static std::size_t addrs = 0x496c8d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

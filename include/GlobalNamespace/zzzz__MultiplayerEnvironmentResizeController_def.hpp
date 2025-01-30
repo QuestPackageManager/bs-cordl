@@ -87,7 +87,7 @@ public:
   static ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType const Position;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4566 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -160,19 +160,19 @@ public:
 
   constexpr void __cordl_internal_set__resizeType(::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType value);
 
-  /// @brief Method .ctor, addr 0x3bcfeb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd5ee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lights, addr 0x3bcfea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x3bd5ed4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> get_lights();
 
-  /// @brief Method get_offset, addr 0x3bcfe9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x3bd5ecc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_offset();
 
-  /// @brief Method get_otherTransforms, addr 0x3bcfeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherTransforms, addr 0x3bd5edc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> get_otherTransforms();
 
-  /// @brief Method get_resizeType, addr 0x3bcfe94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resizeType, addr 0x3bd5ec4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType get_resizeType();
 
 protected:
@@ -190,7 +190,7 @@ public:
   MultiplayerEnvironmentResizeController_ResizeData(MultiplayerEnvironmentResizeController_ResizeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4567 };
 
   /// @brief Field _resizeType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType ____resizeType;
@@ -259,24 +259,24 @@ public:
   /// @brief Field resizingDidFinishEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_resizingDidFinishEvent, put = __cordl_internal_set_resizingDidFinishEvent)) ::System::Action* resizingDidFinishEvent;
 
-  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x3bcfb10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x3bd5b44, size 0x18, virtual false, abstract: false, final false
   inline void HandleEdgeDistanceFromCenterWasCalculated(float_t edgeDistanceFromCenter);
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x3bcfb28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x3bd5b5c, size 0x18, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t distance);
 
   static inline ::GlobalNamespace::MultiplayerEnvironmentResizeController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bcfb40, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bd5b74, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Resize, addr 0x3bcfca4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x3bd5cd4, size 0x1e8, virtual false, abstract: false, final false
   inline void Resize();
 
-  /// @brief Method Start, addr 0x3bcf9e0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bd5a18, size 0x12c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TryResize, addr 0x3bcfc8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryResize, addr 0x3bd5cbc, size 0x18, virtual false, abstract: false, final false
   inline void TryResize();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__beatmapObjectSpawnCenter() const;
@@ -330,16 +330,16 @@ public:
 
   constexpr void __cordl_internal_set_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bcfe8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd5ebc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_resizingDidFinishEvent, addr 0x3bcf8a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_resizingDidFinishEvent, addr 0x3bd58e0, size 0x9c, virtual false, abstract: false, final false
   inline void add_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_isResizingFinished, addr 0x3bcf8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isResizingFinished, addr 0x3bd58d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isResizingFinished();
 
-  /// @brief Method remove_resizingDidFinishEvent, addr 0x3bcf944, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_resizingDidFinishEvent, addr 0x3bd597c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_resizingDidFinishEvent(::System::Action* value);
 
 protected:
@@ -357,7 +357,7 @@ public:
   MultiplayerEnvironmentResizeController(MultiplayerEnvironmentResizeController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4568 };
 
   /// @brief Field _platformEnd, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____platformEnd;

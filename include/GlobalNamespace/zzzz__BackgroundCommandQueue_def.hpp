@@ -48,10 +48,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22b04d0, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22b12ac, size 0x42c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22b08fc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22b16d8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -68,7 +68,7 @@ public:
                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17110 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -118,12 +118,12 @@ public:
   /// @brief Field _sync, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__sync, put = __cordl_internal_set__sync)) ::System::Object* _sync;
 
-  /// @brief Method Enqueue, addr 0x22b01d8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x22b0fb4, size 0x190, virtual false, abstract: false, final false
   inline void Enqueue(::GlobalNamespace::IBackgroundCommand* command);
 
   static inline ::GlobalNamespace::BackgroundCommandQueue* New_ctor();
 
-  /// @brief Method RunInternal, addr 0x22b0368, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x22b1144, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunInternal();
 
   constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>* const& __cordl_internal_get__commandsQueue() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__sync(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x22b0428, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b1204, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   BackgroundCommandQueue(BackgroundCommandQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17111 };
 
   /// @brief Field _sync, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____sync;

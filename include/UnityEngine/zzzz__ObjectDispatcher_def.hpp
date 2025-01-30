@@ -53,15 +53,15 @@ public:
 
   static inline ::UnityEngine::ObjectDispatcher___c* New_ctor();
 
-  /// @brief Method <.cctor>b__54_0, addr 0x48a333c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__54_0, addr 0x48a65a0, size 0xd0, virtual false, abstract: false, final false
   inline void __cctor_b__54_0(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> changed, ::System::IntPtr changedID, ::System::IntPtr destroyedID, int32_t changedCount,
                               int32_t destroyedCount, ::System::Action_1<::UnityEngine::TypeDispatchData>* callback);
 
-  /// @brief Method <.cctor>b__54_1, addr 0x48a340c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__54_1, addr 0x48a6670, size 0x204, virtual false, abstract: false, final false
   inline void __cctor_b__54_1(::System::IntPtr transformed, ::System::IntPtr parents, ::System::IntPtr localToWorldMatrices, ::System::IntPtr positions, ::System::IntPtr rotations,
                               ::System::IntPtr scales, int32_t count, ::System::Action_1<::UnityEngine::TransformDispatchData>* callback);
 
-  /// @brief Method .ctor, addr 0x48a3334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a6598, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ObjectDispatcher___c* getStaticF___9();
@@ -83,7 +83,7 @@ public:
   ObjectDispatcher___c(ObjectDispatcher___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -148,7 +148,7 @@ public:
   ObjectDispatcher(ObjectDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10829 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

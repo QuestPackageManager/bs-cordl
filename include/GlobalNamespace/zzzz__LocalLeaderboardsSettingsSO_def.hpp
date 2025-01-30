@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__maxNumberOfScoresInLeaderboard(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2701880, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2703d78, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x2701870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x2703d68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxNumberOfScoresInLeaderboard();
 
-  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x2701878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x2703d70, size 0x8, virtual false, abstract: false, final false
   inline void set_maxNumberOfScoresInLeaderboard(int32_t value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   LocalLeaderboardsSettingsSO(LocalLeaderboardsSettingsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13341 };
 
   /// @brief Field _maxNumberOfScoresInLeaderboard, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxNumberOfScoresInLeaderboard;

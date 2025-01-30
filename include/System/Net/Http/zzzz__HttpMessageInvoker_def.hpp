@@ -43,15 +43,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4218358, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x421b5bc, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4215d10, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4218f74, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Http::HttpMessageInvoker* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method SendAsync, addr 0x4216698, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x42198fc, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_handler(::System::Net::Http::HttpMessageHandler* value);
 
-  /// @brief Method .ctor, addr 0x4215ae0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4218d44, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
   /// @brief Convert to "::System::IDisposable"
@@ -88,7 +88,7 @@ public:
   HttpMessageInvoker(HttpMessageInvoker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16689 };
 
   /// @brief Field handler, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::HttpMessageHandler* ___handler;

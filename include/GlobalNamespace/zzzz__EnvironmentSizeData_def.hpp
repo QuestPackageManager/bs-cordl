@@ -73,7 +73,7 @@ public:
   static ::GlobalNamespace::EnvironmentSizeData_FloorType const NoFloor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -128,7 +128,7 @@ public:
   static ::GlobalNamespace::EnvironmentSizeData_CeilingType const NoCeiling;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12839 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -183,7 +183,7 @@ public:
   static ::GlobalNamespace::EnvironmentSizeData_TrackLaneType const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12840 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -247,16 +247,16 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneType(::GlobalNamespace::EnvironmentSizeData_TrackLaneType value);
 
-  /// @brief Method .ctor, addr 0x26ad924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26aeb70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ceilingType, addr 0x26ad914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ceilingType, addr 0x26aeb60, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData_CeilingType get_ceilingType();
 
-  /// @brief Method get_floorType, addr 0x26ad90c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floorType, addr 0x26aeb58, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData_FloorType get_floorType();
 
-  /// @brief Method get_trackLaneType, addr 0x26ad91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackLaneType, addr 0x26aeb68, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData_TrackLaneType get_trackLaneType();
 
 protected:
@@ -274,7 +274,7 @@ public:
   EnvironmentSizeData(EnvironmentSizeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
 
   /// @brief Field _floorType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentSizeData_FloorType ____floorType;

@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x270446c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x2704464, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x270695c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -80,7 +80,7 @@ public:
   BeatIndex(BeatIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13364 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;

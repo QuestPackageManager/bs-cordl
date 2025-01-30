@@ -27,13 +27,13 @@ public:
   /// @brief Field s_Raycasters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Raycasters, put = setStaticF_s_Raycasters)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* s_Raycasters;
 
-  /// @brief Method AddRaycaster, addr 0x4adf1ac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddRaycaster, addr 0x4ae2410, size 0x110, virtual false, abstract: false, final false
   static inline void AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
-  /// @brief Method GetRaycasters, addr 0x4adf2bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRaycasters, addr 0x4ae2520, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* GetRaycasters();
 
-  /// @brief Method RemoveRaycasters, addr 0x4adf314, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RemoveRaycasters, addr 0x4ae2578, size 0xd0, virtual false, abstract: false, final false
   static inline void RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* getStaticF_s_Raycasters();
@@ -55,7 +55,7 @@ public:
   RaycasterManager(RaycasterManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x39e7e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ea2c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x39e7e10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x39ea29c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x39e7dec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x39ea278, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -59,7 +59,7 @@ public:
   SimpleTextTableCell(SimpleTextTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16003 };
 
   /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

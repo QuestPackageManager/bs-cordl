@@ -65,7 +65,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x26d81fc, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x26d9450, size 0xe8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::GlobalNamespace::MultiplayerBadgeAwardData* New_ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle,
@@ -107,22 +107,22 @@ public:
 
   constexpr void __cordl_internal_set__weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d644c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d76a0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData);
 
-  /// @brief Method get_awardedPlayer, addr 0x26d81c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_awardedPlayer, addr 0x26d9414, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
 
-  /// @brief Method get_icon, addr 0x26d81f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x26d9448, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_subtitle, addr 0x26d81ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtitle, addr 0x26d9440, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitle();
 
-  /// @brief Method get_title, addr 0x26d81e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x26d9438, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_titleLocalizationKey, addr 0x26d81c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizationKey, addr 0x26d941c, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
   /// @brief Convert to "::System::IComparable"
@@ -143,7 +143,7 @@ public:
   MultiplayerBadgeAwardData(MultiplayerBadgeAwardData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13082 };
 
   /// @brief Field _awardedPlayer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____awardedPlayer;

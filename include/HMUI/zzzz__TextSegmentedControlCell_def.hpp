@@ -54,25 +54,25 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x4089da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408d004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fontSize, addr 0x4089d84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x408cfe8, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method get_preferredWidth, addr 0x4089d2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x408cf90, size 0x24, virtual false, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_text, addr 0x4089d60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x408cfc4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_fontSize, addr 0x4089cc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x408cf2c, size 0x1c, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hideBackgroundImage, addr 0x4089d08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x408cf6c, size 0x24, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_text, addr 0x4089ce4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x408cf48, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   TextSegmentedControlCell(TextSegmentedControlCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18799 };
 
   /// @brief Field _text, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

@@ -32,7 +32,7 @@ public:
   /// @brief Field _wrappedException, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__wrappedException, put = __cordl_internal_set__wrappedException)) ::System::Object* _wrappedException;
 
-  /// @brief Method GetObjectData, addr 0x3d176f0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3d1a954, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor();
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__wrappedException(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3d177d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1aa38, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d175f0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1a854, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d17560, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1a7c4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* thrownObject);
 
-  /// @brief Method get_WrappedException, addr 0x3d177cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WrappedException, addr 0x3d1aa30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_WrappedException();
 
 protected:

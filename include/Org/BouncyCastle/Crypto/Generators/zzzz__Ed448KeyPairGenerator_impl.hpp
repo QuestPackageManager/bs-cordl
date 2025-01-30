@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2382718;
+  constexpr static std::size_t addrs = 0x2383734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (
     ::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2382734;
+  constexpr static std::size_t addrs = 0x2383750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23827e0;
+  constexpr static std::size_t addrs = 0x23837fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

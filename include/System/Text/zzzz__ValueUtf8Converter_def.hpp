@@ -26,13 +26,13 @@ namespace System::Text {
 struct CORDL_TYPE ValueUtf8Converter {
 public:
   // Declarations
-  /// @brief Method ConvertAndTerminateString, addr 0x3c8b75c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ConvertAndTerminateString, addr 0x3c8e9c0, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::Span_1<uint8_t> ConvertAndTerminateString(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method Dispose, addr 0x3c8b9f0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c8ec54, size 0xf4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x3c8b750, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8e9b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<uint8_t> initialBuffer);
 
   // Ctor Parameters []

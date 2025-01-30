@@ -57,16 +57,16 @@ public:
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4221638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x422489c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_ConnectionClose>b__19_0, addr 0x4221640, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <get_ConnectionClose>b__19_0, addr 0x42248a4, size 0x50, virtual false, abstract: false, final false
   inline bool _get_ConnectionClose_b__19_0(::StringW l);
 
-  /// @brief Method <get_ExpectContinue>b__29_0, addr 0x4221690, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_ExpectContinue>b__29_0, addr 0x42248f4, size 0x58, virtual false, abstract: false, final false
   inline bool _get_ExpectContinue_b__29_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
 
-  /// @brief Method <get_TransferEncodingChunked>b__71_0, addr 0x42216e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_TransferEncodingChunked>b__71_0, addr 0x422494c, size 0x58, virtual false, abstract: false, final false
   inline bool _get_TransferEncodingChunked_b__71_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders___c* getStaticF___9();
@@ -100,7 +100,7 @@ public:
   HttpRequestHeaders___c(HttpRequestHeaders___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -134,7 +134,7 @@ public:
   /// @brief Field expectContinue, offset 0x20, size 0x2
   __declspec(property(get = __cordl_internal_get_expectContinue, put = __cordl_internal_set_expectContinue)) ::System::Nullable_1<bool> expectContinue;
 
-  /// @brief Method AddHeaders, addr 0x4216170, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AddHeaders, addr 0x42193d4, size 0x294, virtual false, abstract: false, final false
   inline void AddHeaders(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders* New_ctor();
@@ -145,28 +145,28 @@ public:
 
   constexpr void __cordl_internal_set_expectContinue(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x42189f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421bc5c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Connection, addr 0x4211fc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x4215228, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* get_Connection();
 
-  /// @brief Method get_ConnectionClose, addr 0x42129ac, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionClose, addr 0x4215c10, size 0x184, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ConnectionClose();
 
-  /// @brief Method get_ExpectContinue, addr 0x4212b30, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_ExpectContinue, addr 0x4215d94, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ExpectContinue();
 
-  /// @brief Method get_Host, addr 0x4212cfc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Host, addr 0x4215f60, size 0x68, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_TransferEncoding, addr 0x4221574, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_TransferEncoding, addr 0x42247d8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
 
-  /// @brief Method get_TransferEncodingChunked, addr 0x4214f24, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_TransferEncodingChunked, addr 0x4218188, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_TransferEncodingChunked();
 
-  /// @brief Method set_Authorization, addr 0x4221500, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Authorization, addr 0x4224764, size 0x74, virtual false, abstract: false, final false
   inline void set_Authorization(::System::Net::Http::Headers::AuthenticationHeaderValue* value);
 
 protected:
@@ -184,7 +184,7 @@ public:
   HttpRequestHeaders(HttpRequestHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16717 };
 
   /// @brief Field expectContinue, offset: 0x20, size: 0x2, def value: None
   ::System::Nullable_1<bool> ___expectContinue;

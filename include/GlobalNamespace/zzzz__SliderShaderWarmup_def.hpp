@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::SliderShaderWarmup* New_ctor();
 
-  /// @brief Method Start, addr 0x3b78d5c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b7ebcc, size 0x1c8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderMeshController(::UnityW<::GlobalNamespace::SliderMeshController> value);
 
-  /// @brief Method .ctor, addr 0x3b78f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ed94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   SliderShaderWarmup(SliderShaderWarmup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4181 };
 
   /// @brief Field _sliderMeshController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderMeshController> ____sliderMeshController;

@@ -97,36 +97,36 @@ public:
 
   __declspec(property(get = get_isCharacterVisible)) bool isCharacterVisible;
 
-  /// @brief Method EndEarlyAnimation, addr 0x2260838, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EndEarlyAnimation, addr 0x2261614, size 0x74, virtual false, abstract: false, final false
   inline void EndEarlyAnimation();
 
-  /// @brief Method HandleSpawnCharacterPlayableDirectorStopped, addr 0x2260ac0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCharacterPlayableDirectorStopped, addr 0x226189c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSpawnCharacterPlayableDirectorStopped(::UnityEngine::Playables::PlayableDirector* playableDirector);
 
   static inline ::GlobalNamespace::BTSCharacterSpawnAnimationController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x22606a0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x226147c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PauseAnimation, addr 0x2260a24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method PauseAnimation, addr 0x2261800, size 0x9c, virtual false, abstract: false, final false
   inline void PauseAnimation();
 
-  /// @brief Method PlayAnimation, addr 0x2260770, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method PlayAnimation, addr 0x226154c, size 0xc8, virtual false, abstract: false, final false
   inline void PlayAnimation();
 
-  /// @brief Method ResumeAnimation, addr 0x22609e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ResumeAnimation, addr 0x22617bc, size 0x44, virtual false, abstract: false, final false
   inline void ResumeAnimation();
 
-  /// @brief Method SetCharacter, addr 0x22608c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetCharacter, addr 0x22616a4, size 0x94, virtual false, abstract: false, final false
   inline void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
 
-  /// @brief Method Start, addr 0x2260610, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22613ec, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopAnimation, addr 0x22608ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method StopAnimation, addr 0x2261688, size 0x1c, virtual false, abstract: false, final false
   inline void StopAnimation();
 
-  /// @brief Method WillResumeAnimation, addr 0x226095c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WillResumeAnimation, addr 0x2261738, size 0x84, virtual false, abstract: false, final false
   inline void WillResumeAnimation();
 
   constexpr float_t const& __cordl_internal_get__animatorNormalizedTimeBeforePause() const;
@@ -213,22 +213,22 @@ public:
 
   constexpr void __cordl_internal_set_animationFinishedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2260adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22618b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_animationFinishedEvent, addr 0x2260054, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_animationFinishedEvent, addr 0x2260e30, size 0x9c, virtual false, abstract: false, final false
   inline void add_animationFinishedEvent(::System::Action* value);
 
-  /// @brief Method get_characterActivationTrack, addr 0x22601c4, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method get_characterActivationTrack, addr 0x2260fa0, size 0x44c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Timeline::ActivationTrack> get_characterActivationTrack();
 
-  /// @brief Method get_duration, addr 0x226018c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2260f68, size 0x38, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_isCharacterVisible, addr 0x226002c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isCharacterVisible, addr 0x2260e08, size 0x28, virtual false, abstract: false, final false
   inline bool get_isCharacterVisible();
 
-  /// @brief Method remove_animationFinishedEvent, addr 0x22600f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_animationFinishedEvent, addr 0x2260ecc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_animationFinishedEvent(::System::Action* value);
 
 protected:
@@ -246,7 +246,7 @@ public:
   BTSCharacterSpawnAnimationController(BTSCharacterSpawnAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17674 };
 
   /// @brief Field kCharacterActivationStreamName offset 0xffffffff size 0x8
   static constexpr ::ConstString kCharacterActivationStreamName{ u"CharacterActivationTrack" };

@@ -56,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelExtensions___c* New_ctor();
 
-  /// @brief Method <ToRuntime>b__1_0, addr 0x26c7fec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ToRuntime>b__1_0, addr 0x26c9240, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _ToRuntime_b__1_0(::StringW l);
 
-  /// @brief Method .ctor, addr 0x26c7fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapLevelExtensions___c* getStaticF___9();
@@ -85,7 +85,7 @@ public:
   BeatmapLevelExtensions___c(BeatmapLevelExtensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12958 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -102,13 +102,13 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::BeatmapLevelExtensions___c;
 
-  /// @brief Method CreateColorScheme, addr 0x26c7cf0, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method CreateColorScheme, addr 0x26c8f44, size 0x290, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* CreateColorScheme(int32_t idx, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelSO_ColorScheme*>* colorSchemes);
 
-  /// @brief Method ToCensoredRuntime, addr 0x26c6560, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method ToCensoredRuntime, addr 0x26c77b4, size 0x930, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToCensoredRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::UnityEngine::Sprite* coverSprite, ::StringW censoredLocalizedSongName);
 
-  /// @brief Method ToRuntime, addr 0x26c6ebc, size 0xd04, virtual false, abstract: false, final false
+  /// @brief Method ToRuntime, addr 0x26c8110, size 0xd04, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
 protected:
@@ -126,7 +126,7 @@ public:
   BeatmapLevelExtensions(BeatmapLevelExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12959 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

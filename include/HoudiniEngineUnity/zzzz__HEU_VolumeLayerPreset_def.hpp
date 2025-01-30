@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__uiExpanded(bool value);
 
-  /// @brief Method .ctor, addr 0x3a06c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a09120, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   HEU_VolumeLayerPreset(HEU_VolumeLayerPreset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11596 };
 
   /// @brief Field _layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____layerName;

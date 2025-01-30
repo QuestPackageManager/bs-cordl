@@ -27,7 +27,7 @@ public:
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
-  /// @brief Method AddKeyHash, addr 0x436f814, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x4372a78, size 0x7c, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlEnumAttribute* New_ctor(::StringW name);
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43713c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4374624, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x43713e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x437464c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -59,7 +59,7 @@ public:
   XmlEnumAttribute(XmlEnumAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7417 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;

@@ -47,10 +47,10 @@ public:
   /// @brief Field m_VertsPool, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VertsPool, put = __cordl_internal_set_m_VertsPool)) ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* m_VertsPool;
 
-  /// @brief Method Dispose, addr 0x49a5b34, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49a8d98, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a5b98, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49a8dfc, size 0x90, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   constexpr bool const& __cordl_internal_get_m_Disposed() const;
@@ -98,7 +98,7 @@ public:
   DetachedAllocator(DetachedAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6359 };
 
   /// @brief Field m_VertsPool, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* ___m_VertsPool;

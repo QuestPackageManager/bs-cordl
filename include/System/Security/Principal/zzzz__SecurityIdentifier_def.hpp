@@ -49,50 +49,50 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>"
   constexpr operator ::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x3cb8cf8, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3cbbf5c, size 0x168, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Security::Principal::SecurityIdentifier* sid);
 
-  /// @brief Method CreateFromBinaryForm, addr 0x3cb8898, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateFromBinaryForm, addr 0x3cbbafc, size 0x160, virtual false, abstract: false, final false
   inline void CreateFromBinaryForm(::System::IntPtr binaryForm, int32_t length);
 
-  /// @brief Method Equals, addr 0x3cb8ec8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3cbc12c, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x3cb8f2c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3cbc190, size 0xa8, virtual false, abstract: false, final false
   inline bool Equals(::System::Security::Principal::SecurityIdentifier* sid);
 
-  /// @brief Method GetBinaryForm, addr 0x3cb8fd4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetBinaryForm, addr 0x3cbc238, size 0xc0, virtual false, abstract: false, final false
   inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method GetHashCode, addr 0x3cb9094, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3cbc2f8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSidAuthority, addr 0x3cb8bd0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetSidAuthority, addr 0x3cbbe34, size 0x80, virtual false, abstract: false, final false
   inline uint64_t GetSidAuthority();
 
-  /// @brief Method GetSidSubAuthority, addr 0x3cb8c50, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSidSubAuthority, addr 0x3cbbeb4, size 0x7c, virtual false, abstract: false, final false
   inline uint32_t GetSidSubAuthority(uint8_t index);
 
-  /// @brief Method GetSidSubAuthorityCount, addr 0x3cb8ccc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetSidSubAuthorityCount, addr 0x3cbbf30, size 0x2c, virtual false, abstract: false, final false
   inline uint8_t GetSidSubAuthorityCount();
 
   static inline ::System::Security::Principal::SecurityIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
   static inline ::System::Security::Principal::SecurityIdentifier* New_ctor(::StringW sddlForm);
 
-  /// @brief Method ParseSddlForm, addr 0x3cb8374, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method ParseSddlForm, addr 0x3cbb5d8, size 0x440, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ParseSddlForm(::StringW sddlForm);
 
-  /// @brief Method ToString, addr 0x3cb90bc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cbc320, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate, addr 0x3cb90c8, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method Translate, addr 0x3cbc32c, size 0x218, virtual true, abstract: false, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method TryParseAuthority, addr 0x3cb9460, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method TryParseAuthority, addr 0x3cbc6c4, size 0xe0, virtual false, abstract: false, final false
   static inline bool TryParseAuthority(::StringW s, ::ByRef<uint64_t> result);
 
-  /// @brief Method TryParseSubAuthority, addr 0x3cb9540, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method TryParseSubAuthority, addr 0x3cbc7a4, size 0xe0, virtual false, abstract: false, final false
   static inline bool TryParseSubAuthority(::StringW s, ::ByRef<uint32_t> result);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
@@ -101,26 +101,26 @@ public:
 
   constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3cb87b4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cbba18, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x3cb82bc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cbb520, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sddlForm);
 
   static inline int32_t getStaticF_MaxBinaryLength();
 
   static inline int32_t getStaticF_MinBinaryLength();
 
-  /// @brief Method get_BinaryLength, addr 0x3cb89f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryLength, addr 0x3cbbc5c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_BinaryLength();
 
-  /// @brief Method get_Value, addr 0x3cb8a14, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3cbbc78, size 0x1bc, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>"
   constexpr ::System::IComparable_1<::System::Security::Principal::SecurityIdentifier*>* i___System__IComparable_1___System__Security__Principal__SecurityIdentifier__() noexcept;
 
-  /// @brief Method op_Equality, addr 0x3cb8e60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3cbc0c4, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::SecurityIdentifier* left, ::System::Security::Principal::SecurityIdentifier* right);
 
   static inline void setStaticF_MaxBinaryLength(int32_t value);

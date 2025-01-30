@@ -108,39 +108,39 @@ public:
   /// @brief Field didPressResumeButtonEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressResumeButtonEvent, put = __cordl_internal_set_didPressResumeButtonEvent)) ::System::Action* didPressResumeButtonEvent;
 
-  /// @brief Method Awake, addr 0x3ba91cc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3baec38, size 0x1c4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisconnectButtonPressed, addr 0x3ba9600, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectButtonPressed, addr 0x3baf06c, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectButtonPressed();
 
-  /// @brief Method GiveUpButtonPressed, addr 0x3ba9700, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GiveUpButtonPressed, addr 0x3baf16c, size 0x4c, virtual false, abstract: false, final false
   inline void GiveUpButtonPressed();
 
-  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3ba9634, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3baf0a0, size 0xcc, virtual false, abstract: false, final false
   inline void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
 
-  /// @brief Method HideMenu, addr 0x3ba8f54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HideMenu, addr 0x3bae9c0, size 0x44, virtual false, abstract: false, final false
   inline void HideMenu();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ba9440, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3baeeac, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ResumeButtonPressed, addr 0x3ba95c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ResumeButtonPressed, addr 0x3baf034, size 0x38, virtual false, abstract: false, final false
   inline void ResumeButtonPressed();
 
-  /// @brief Method ShowMenu, addr 0x3ba8f04, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x3bae970, size 0x50, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method Start, addr 0x3ba9390, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3baedfc, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3ba94e0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3baef4c, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__32_0, addr 0x3ba9754, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__32_0, addr 0x3baf1c0, size 0x20, virtual false, abstract: false, final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__32_0();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -251,25 +251,25 @@ public:
 
   constexpr void __cordl_internal_set_didPressResumeButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3ba974c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baf1b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressDisconnectButtonEvent, addr 0x3ba86e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressDisconnectButtonEvent, addr 0x3bae14c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressDisconnectButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressGiveUpButtonEvent, addr 0x3ba8818, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressGiveUpButtonEvent, addr 0x3bae284, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressGiveUpButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressResumeButtonEvent, addr 0x3ba877c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressResumeButtonEvent, addr 0x3bae1e8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressResumeButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressDisconnectButtonEvent, addr 0x3ba8bfc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressDisconnectButtonEvent, addr 0x3bae668, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressDisconnectButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressGiveUpButtonEvent, addr 0x3ba8d34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressGiveUpButtonEvent, addr 0x3bae7a0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressGiveUpButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressResumeButtonEvent, addr 0x3ba8c98, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressResumeButtonEvent, addr 0x3bae704, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressResumeButtonEvent(::System::Action* value);
 
 protected:
@@ -287,7 +287,7 @@ public:
   MultiplayerLocalActivePlayerInGameMenuViewController(MultiplayerLocalActivePlayerInGameMenuViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4434 };
 
   /// @brief Field kDisabledInteractionDuration offset 0xffffffff size 0x4
   static constexpr float_t kDisabledInteractionDuration{ static_cast<float_t>(0.2f) };

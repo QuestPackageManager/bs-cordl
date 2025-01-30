@@ -95,7 +95,7 @@ public:
   static ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation_OculusTokenRequestOperationState const Succeeded;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18318 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,10 +122,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2278298, size 0x354, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2279074, size 0x354, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22785ec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22793c8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -146,7 +146,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18319 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -207,16 +207,16 @@ public:
 
   static inline ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation* New_ctor();
 
-  /// @brief Method OnCompleteLoadingOculusAccessToken, addr 0x2278124, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method OnCompleteLoadingOculusAccessToken, addr 0x2278f00, size 0x174, virtual false, abstract: false, final false
   inline void OnCompleteLoadingOculusAccessToken(::Oculus::Platform::Message_1<::StringW>* message);
 
-  /// @brief Method RequestAccessToken, addr 0x2278020, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RequestAccessToken, addr 0x2278dfc, size 0x104, virtual false, abstract: false, final false
   inline void RequestAccessToken();
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x2277f28, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RequestXPlatformAccessToken, addr 0x2278d04, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Run, addr 0x2277ddc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x2278bb8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* Run(::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation_OculusTokenRequestOperationState const& __cordl_internal_get__operationState() const;
@@ -231,7 +231,7 @@ public:
 
   constexpr void __cordl_internal_set__tokenData(::GlobalNamespace::XPlatformAccessTokenData value);
 
-  /// @brief Method .ctor, addr 0x2277eb8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2278c94, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -249,7 +249,7 @@ public:
   OculusXPlatformAccessTokenRequestOperation(OculusXPlatformAccessTokenRequestOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18320 };
 
   /// @brief Field kMaxTokenRetry offset 0xffffffff size 0x4
   static constexpr int32_t kMaxTokenRetry{ static_cast<int32_t>(0x3) };

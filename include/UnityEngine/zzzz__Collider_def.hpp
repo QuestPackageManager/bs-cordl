@@ -70,117 +70,117 @@ public:
 
   __declspec(property(get = get_sharedMaterial, put = set_sharedMaterial)) ::UnityW<::UnityEngine::PhysicMaterial> sharedMaterial;
 
-  /// @brief Method ClosestPoint, addr 0x4906a38, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ClosestPoint, addr 0x4909c9c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPoint(::UnityEngine::Vector3 position);
 
-  /// @brief Method ClosestPointOnBounds, addr 0x49072cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClosestPointOnBounds, addr 0x490a530, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnBounds(::UnityEngine::Vector3 position);
 
-  /// @brief Method ClosestPoint_Injected, addr 0x4906aa0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ClosestPoint_Injected, addr 0x4909d04, size 0x54, virtual false, abstract: false, final false
   inline void ClosestPoint_Injected(::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method Internal_ClosestPointOnBounds, addr 0x4907204, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_ClosestPointOnBounds, addr 0x490a468, size 0x6c, virtual false, abstract: false, final false
   inline void Internal_ClosestPointOnBounds(::UnityEngine::Vector3 point, ::ByRef<::UnityEngine::Vector3> outPos, ::ByRef<float_t> distance);
 
-  /// @brief Method Internal_ClosestPointOnBounds_Injected, addr 0x4907270, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_ClosestPointOnBounds_Injected, addr 0x490a4d4, size 0x5c, virtual false, abstract: false, final false
   inline void Internal_ClosestPointOnBounds_Injected(::ByRef<::UnityEngine::Vector3> point, ::ByRef<::UnityEngine::Vector3> outPos, ::ByRef<float_t> distance);
 
   static inline ::UnityEngine::Collider* New_ctor();
 
-  /// @brief Method Raycast, addr 0x4907058, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x490a2bc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit Raycast(::UnityEngine::Ray ray, float_t maxDistance, ::ByRef<bool> hasHit);
 
-  /// @brief Method Raycast, addr 0x4907158, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x490a3bc, size 0xac, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance);
 
-  /// @brief Method Raycast_Injected, addr 0x49070ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Raycast_Injected, addr 0x490a350, size 0x6c, virtual false, abstract: false, final false
   inline void Raycast_Injected(::ByRef<::UnityEngine::Ray> ray, float_t maxDistance, ::ByRef<bool> hasHit, ::ByRef<::UnityEngine::RaycastHit> ret);
 
-  /// @brief Method .ctor, addr 0x4907370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490a5d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_attachedArticulationBody, addr 0x4904068, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_attachedArticulationBody, addr 0x49072cc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ArticulationBody> get_attachedArticulationBody();
 
-  /// @brief Method get_attachedRigidbody, addr 0x48f2dec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_attachedRigidbody, addr 0x48f6050, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_attachedRigidbody();
 
-  /// @brief Method get_bounds, addr 0x4906af4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x4909d58, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_bounds_Injected, addr 0x4906b5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bounds_Injected, addr 0x4909dc0, size 0x44, virtual false, abstract: false, final false
   inline void get_bounds_Injected(::ByRef<::UnityEngine::Bounds> ret);
 
-  /// @brief Method get_contactOffset, addr 0x49069b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_contactOffset, addr 0x4909c14, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_contactOffset();
 
-  /// @brief Method get_enabled, addr 0x49068b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x4909b14, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_excludeLayers, addr 0x4906d20, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_excludeLayers, addr 0x4909f84, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_excludeLayers();
 
-  /// @brief Method get_excludeLayers_Injected, addr 0x4906d6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_excludeLayers_Injected, addr 0x4909fd0, size 0x44, virtual false, abstract: false, final false
   inline void get_excludeLayers_Injected(::ByRef<::UnityEngine::LayerMask> ret);
 
-  /// @brief Method get_hasModifiableContacts, addr 0x4906ba0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasModifiableContacts, addr 0x4909e04, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasModifiableContacts();
 
-  /// @brief Method get_includeLayers, addr 0x4906e3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_includeLayers, addr 0x490a0a0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_includeLayers();
 
-  /// @brief Method get_includeLayers_Injected, addr 0x4906e88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_includeLayers_Injected, addr 0x490a0ec, size 0x44, virtual false, abstract: false, final false
   inline void get_includeLayers_Injected(::ByRef<::UnityEngine::LayerMask> ret);
 
-  /// @brief Method get_isTrigger, addr 0x4906930, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isTrigger, addr 0x4909b94, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isTrigger();
 
-  /// @brief Method get_layerOverridePriority, addr 0x4906ca0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_layerOverridePriority, addr 0x4909f04, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_layerOverridePriority();
 
-  /// @brief Method get_material, addr 0x4906fd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x490a23c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::PhysicMaterial> get_material();
 
-  /// @brief Method get_providesContacts, addr 0x4906c20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_providesContacts, addr 0x4909e84, size 0x3c, virtual false, abstract: false, final false
   inline bool get_providesContacts();
 
-  /// @brief Method get_sharedMaterial, addr 0x4906f58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMaterial, addr 0x490a1bc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::PhysicMaterial> get_sharedMaterial();
 
-  /// @brief Method set_contactOffset, addr 0x49069ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_contactOffset, addr 0x4909c50, size 0x4c, virtual false, abstract: false, final false
   inline void set_contactOffset(float_t value);
 
-  /// @brief Method set_enabled, addr 0x49068ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x4909b50, size 0x44, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_excludeLayers, addr 0x4906db0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_excludeLayers, addr 0x490a014, size 0x48, virtual false, abstract: false, final false
   inline void set_excludeLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_excludeLayers_Injected, addr 0x4906df8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_excludeLayers_Injected, addr 0x490a05c, size 0x44, virtual false, abstract: false, final false
   inline void set_excludeLayers_Injected(::ByRef<::UnityEngine::LayerMask> value);
 
-  /// @brief Method set_hasModifiableContacts, addr 0x4906bdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_hasModifiableContacts, addr 0x4909e40, size 0x44, virtual false, abstract: false, final false
   inline void set_hasModifiableContacts(bool value);
 
-  /// @brief Method set_includeLayers, addr 0x4906ecc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_includeLayers, addr 0x490a130, size 0x48, virtual false, abstract: false, final false
   inline void set_includeLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_includeLayers_Injected, addr 0x4906f14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_includeLayers_Injected, addr 0x490a178, size 0x44, virtual false, abstract: false, final false
   inline void set_includeLayers_Injected(::ByRef<::UnityEngine::LayerMask> value);
 
-  /// @brief Method set_isTrigger, addr 0x490696c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_isTrigger, addr 0x4909bd0, size 0x44, virtual false, abstract: false, final false
   inline void set_isTrigger(bool value);
 
-  /// @brief Method set_layerOverridePriority, addr 0x4906cdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_layerOverridePriority, addr 0x4909f40, size 0x44, virtual false, abstract: false, final false
   inline void set_layerOverridePriority(int32_t value);
 
-  /// @brief Method set_material, addr 0x4907014, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x490a278, size 0x44, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::PhysicMaterial* value);
 
-  /// @brief Method set_providesContacts, addr 0x4906c5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_providesContacts, addr 0x4909ec0, size 0x44, virtual false, abstract: false, final false
   inline void set_providesContacts(bool value);
 
-  /// @brief Method set_sharedMaterial, addr 0x4906f94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMaterial, addr 0x490a1f8, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMaterial(::UnityEngine::PhysicMaterial* value);
 
 protected:
@@ -198,7 +198,7 @@ public:
   Collider(Collider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,13 +20,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRAutoDestroyInMRC* New_ctor();
 
-  /// @brief Method Start, addr 0x402841c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x402b680, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4028534, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x402b798, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x4028538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402b79c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   OVRAutoDestroyInMRC(OVRAutoDestroyInMRC const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

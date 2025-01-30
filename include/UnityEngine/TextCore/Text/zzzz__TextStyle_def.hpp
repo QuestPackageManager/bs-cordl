@@ -55,7 +55,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
-  /// @brief Method RefreshStyle, addr 0x494fecc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x4953130, size 0x1b4, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
@@ -106,18 +106,18 @@ public:
 
   constexpr void __cordl_internal_set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x494fe80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49530e4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x4948ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x494bd24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x494905c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingTagArray, addr 0x494c2c0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x4948ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x494bd2c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleOpeningTagArray();
 
   static inline void setStaticF_k_NormalStyle(::UnityEngine::TextCore::Text::TextStyle* value);
@@ -137,7 +137,7 @@ public:
   TextStyle(TextStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15296 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;

@@ -42,101 +42,101 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0xf8
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRApplications FnTable;
 
-  /// @brief Method AddApplicationManifest, addr 0x4071500, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AddApplicationManifest, addr 0x4074764, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError AddApplicationManifest(::StringW pchApplicationManifestFullPath, bool bTemporary);
 
-  /// @brief Method CancelApplicationLaunch, addr 0x4071674, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CancelApplicationLaunch, addr 0x40748d8, size 0x24, virtual false, abstract: false, final false
   inline bool CancelApplicationLaunch(::StringW pchAppKey);
 
-  /// @brief Method GetApplicationAutoLaunch, addr 0x40717f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationAutoLaunch, addr 0x4074a5c, size 0x24, virtual false, abstract: false, final false
   inline bool GetApplicationAutoLaunch(::StringW pchAppKey);
 
-  /// @brief Method GetApplicationCount, addr 0x4071570, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationCount, addr 0x40747d4, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetApplicationCount();
 
-  /// @brief Method GetApplicationKeyByIndex, addr 0x4071594, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationKeyByIndex, addr 0x40747f8, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError GetApplicationKeyByIndex(uint32_t unApplicationIndex, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
-  /// @brief Method GetApplicationKeyByProcessId, addr 0x40715b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationKeyByProcessId, addr 0x407481c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError GetApplicationKeyByProcessId(uint32_t unProcessId, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
-  /// @brief Method GetApplicationLaunchArguments, addr 0x40718ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationLaunchArguments, addr 0x4074b10, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetApplicationLaunchArguments(uint32_t unHandle, ::System::Text::StringBuilder* pchArgs, uint32_t unArgs);
 
-  /// @brief Method GetApplicationProcessId, addr 0x40716bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationProcessId, addr 0x4074920, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetApplicationProcessId(::StringW pchAppKey);
 
-  /// @brief Method GetApplicationPropertyBool, addr 0x4071788, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationPropertyBool, addr 0x40749ec, size 0x24, virtual false, abstract: false, final false
   inline bool GetApplicationPropertyBool(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
-  /// @brief Method GetApplicationPropertyString, addr 0x4071764, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationPropertyString, addr 0x40749c8, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetApplicationPropertyString(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::System::Text::StringBuilder* pchPropertyValueBuffer,
                                                uint32_t unPropertyValueBufferLen, ::ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
-  /// @brief Method GetApplicationPropertyUint64, addr 0x40717ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationPropertyUint64, addr 0x4074a10, size 0x24, virtual false, abstract: false, final false
   inline uint64_t GetApplicationPropertyUint64(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::ByRef<::OVR::OpenVR::EVRApplicationError> peError);
 
-  /// @brief Method GetApplicationSupportedMimeTypes, addr 0x4071864, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationSupportedMimeTypes, addr 0x4074ac8, size 0x24, virtual false, abstract: false, final false
   inline bool GetApplicationSupportedMimeTypes(::StringW pchAppKey, ::System::Text::StringBuilder* pchMimeTypesBuffer, uint32_t unMimeTypesBuffer);
 
-  /// @brief Method GetApplicationsErrorNameFromEnum, addr 0x40716e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationsErrorNameFromEnum, addr 0x4074944, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetApplicationsErrorNameFromEnum(::OVR::OpenVR::EVRApplicationError error);
 
-  /// @brief Method GetApplicationsThatSupportMimeType, addr 0x4071888, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationsThatSupportMimeType, addr 0x4074aec, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetApplicationsThatSupportMimeType(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint32_t unAppKeysThatSupportBuffer);
 
-  /// @brief Method GetApplicationsTransitionStateNameFromEnum, addr 0x407193c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetApplicationsTransitionStateNameFromEnum, addr 0x4074ba0, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetApplicationsTransitionStateNameFromEnum(::OVR::OpenVR::EVRApplicationTransitionState state);
 
-  /// @brief Method GetCurrentSceneProcessId, addr 0x4071a08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentSceneProcessId, addr 0x4074c6c, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetCurrentSceneProcessId();
 
-  /// @brief Method GetDefaultApplicationForMimeType, addr 0x4071840, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultApplicationForMimeType, addr 0x4074aa4, size 0x24, virtual false, abstract: false, final false
   inline bool GetDefaultApplicationForMimeType(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
-  /// @brief Method GetStartingApplication, addr 0x40718d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetStartingApplication, addr 0x4074b34, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError GetStartingApplication(::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
 
-  /// @brief Method GetTransitionState, addr 0x40718f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTransitionState, addr 0x4074b58, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationTransitionState GetTransitionState();
 
-  /// @brief Method IdentifyApplication, addr 0x4071698, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IdentifyApplication, addr 0x40748fc, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError IdentifyApplication(uint32_t unProcessId, ::StringW pchAppKey);
 
-  /// @brief Method IsApplicationInstalled, addr 0x407154c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsApplicationInstalled, addr 0x40747b0, size 0x24, virtual false, abstract: false, final false
   inline bool IsApplicationInstalled(::StringW pchAppKey);
 
-  /// @brief Method IsQuitUserPromptRequested, addr 0x40719c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsQuitUserPromptRequested, addr 0x4074c24, size 0x24, virtual false, abstract: false, final false
   inline bool IsQuitUserPromptRequested();
 
-  /// @brief Method LaunchApplication, addr 0x40715dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LaunchApplication, addr 0x4074840, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError LaunchApplication(::StringW pchAppKey);
 
-  /// @brief Method LaunchApplicationFromMimeType, addr 0x407162c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LaunchApplicationFromMimeType, addr 0x4074890, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError LaunchApplicationFromMimeType(::StringW pchMimeType, ::StringW pchArgs);
 
-  /// @brief Method LaunchDashboardOverlay, addr 0x4071650, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LaunchDashboardOverlay, addr 0x40748b4, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError LaunchDashboardOverlay(::StringW pchAppKey);
 
-  /// @brief Method LaunchInternalProcess, addr 0x40719e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LaunchInternalProcess, addr 0x4074c48, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError LaunchInternalProcess(::StringW pchBinaryPath, ::StringW pchArguments, ::StringW pchWorkingDirectory);
 
-  /// @brief Method LaunchTemplateApplication, addr 0x4071600, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LaunchTemplateApplication, addr 0x4074864, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError LaunchTemplateApplication(::StringW pchTemplateAppKey, ::StringW pchNewAppKey,
                                                                       ::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*> pKeys);
 
   static inline ::OVR::OpenVR::CVRApplications* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method PerformApplicationPrelaunchCheck, addr 0x4071918, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PerformApplicationPrelaunchCheck, addr 0x4074b7c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError PerformApplicationPrelaunchCheck(::StringW pchAppKey);
 
-  /// @brief Method RemoveApplicationManifest, addr 0x4071528, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RemoveApplicationManifest, addr 0x407478c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError RemoveApplicationManifest(::StringW pchApplicationManifestFullPath);
 
-  /// @brief Method SetApplicationAutoLaunch, addr 0x40717d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetApplicationAutoLaunch, addr 0x4074a34, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError SetApplicationAutoLaunch(::StringW pchAppKey, bool bAutoLaunch);
 
-  /// @brief Method SetDefaultApplicationForMimeType, addr 0x407181c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultApplicationForMimeType, addr 0x4074a80, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError SetDefaultApplicationForMimeType(::StringW pchAppKey, ::StringW pchMimeType);
 
   constexpr ::OVR::OpenVR::IVRApplications const& __cordl_internal_get_FnTable() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRApplications value);
 
-  /// @brief Method .ctor, addr 0x40713ec, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4074650, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -163,7 +163,7 @@ public:
   CVRApplications(CVRApplications const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8877 };
 
   /// @brief Field FnTable, offset: 0x10, size: 0xf8, def value: None
   ::OVR::OpenVR::IVRApplications ___FnTable;

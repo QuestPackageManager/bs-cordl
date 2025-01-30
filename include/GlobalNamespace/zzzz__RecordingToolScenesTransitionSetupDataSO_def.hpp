@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3b37dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b3bdc0, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::RecordingToolSceneSetupData* recordingToolSceneSetupData);
 
   static inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b3d994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b41994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

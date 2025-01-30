@@ -37,7 +37,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BeatmapObjectAvoidanceYOffsetEvaluator_BufferData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x225e014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225edf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t songTime, float_t yOffset);
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr BeatmapObjectAvoidanceYOffsetEvaluator_BufferData(float_t songTime, float_t yOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17664 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -96,10 +96,10 @@ public:
                                                                                ::Array<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>*>
       _yJumpOffsetBuffer;
 
-  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x225e190, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x225ef6c, size 0x314, virtual false, abstract: false, final false
   inline float_t GetJumpOffsetYAtJumpStartSongTime(float_t lastDeltaTime);
 
-  /// @brief Method ManualUpdate, addr 0x225e01c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x225edf8, size 0x174, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider,
@@ -138,7 +138,7 @@ public:
   constexpr void __cordl_internal_set__yJumpOffsetBuffer(
       ::ArrayW<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData, ::Array<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>*> value);
 
-  /// @brief Method .ctor, addr 0x225de58, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225ec34, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider,
                     ::GlobalNamespace::IVariableMovementDataProvider* variableMovementDataProvider, float_t moveToPlayerHeadTParam);
 
@@ -157,7 +157,7 @@ public:
   BeatmapObjectAvoidanceYOffsetEvaluator(BeatmapObjectAvoidanceYOffsetEvaluator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17665 };
 
   /// @brief Field kYJumpOffsetBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t kYJumpOffsetBufferLength{ static_cast<int32_t>(0x7d0) };

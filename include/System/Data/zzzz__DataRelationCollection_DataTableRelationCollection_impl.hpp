@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(::System::Data::DataTable*, bool)>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4160b20;
+  constexpr static std::size_t addrs = 0x4163d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)()>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::get_List)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4160bc4;
+  constexpr static std::size_t addrs = 0x4163e28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)()>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::EnsureDataSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4160bcc;
+  constexpr static std::size_t addrs = 0x4163e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSet* (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)()>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::GetDataSet)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4160c10;
+  constexpr static std::size_t addrs = 0x4163e74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(int32_t)>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::get_Item)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4160c34;
+  constexpr static std::size_t addrs = 0x4163e98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(::StringW)>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::get_Item)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4160d34;
+  constexpr static std::size_t addrs = 0x4163f98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(
     ::System::ComponentModel::CollectionChangeEventHandler*)>(&::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::add_RelationPropertyChanged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4160e20;
+  constexpr static std::size_t addrs = 0x4164084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(
     ::System::ComponentModel::CollectionChangeEventHandler*)>(&::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::remove_RelationPropertyChanged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4160ebc;
+  constexpr static std::size_t addrs = 0x4164120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(::System::Data::DataRelation*)>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::AddCache)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4160f58;
+  constexpr static std::size_t addrs = 0x41641bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(::System::Data::DataRelation*)>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::AddCore)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4160fa0;
+  constexpr static std::size_t addrs = 0x4164204;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(::System::Data::DataRelation*)>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::RemoveCache)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4161060;
+  constexpr static std::size_t addrs = 0x41642c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::*)(::System::Data::DataRelation*)>(
     &::GlobalNamespace::DataRelationCollection_DataTableRelationCollection::RemoveCore)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4161134;
+  constexpr static std::size_t addrs = 0x4164398;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -129,7 +129,7 @@ public:
   LocalizedTextComponent_1(LocalizedTextComponent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18057 };
 
   /// @brief Field localizedComponent, offset: 0x20, size: 0x8, def value: None
   T ___localizedComponent;

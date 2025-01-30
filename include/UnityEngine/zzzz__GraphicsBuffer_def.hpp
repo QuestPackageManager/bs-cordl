@@ -92,7 +92,7 @@ public:
   static ::UnityEngine::GraphicsBuffer_Target const Vertex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10739 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -141,7 +141,7 @@ public:
   GraphicsBuffer(GraphicsBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10740 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

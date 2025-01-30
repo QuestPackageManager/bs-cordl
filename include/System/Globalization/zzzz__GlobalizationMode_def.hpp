@@ -21,12 +21,12 @@ public:
   /// @brief Field <Invariant>k__BackingField, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__Invariant_k__BackingField, put = setStaticF__Invariant_k__BackingField)) bool _Invariant_k__BackingField;
 
-  /// @brief Method GetGlobalizationInvariantMode, addr 0x3d99a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalizationInvariantMode, addr 0x3d9ccd8, size 0x8, virtual false, abstract: false, final false
   static inline bool GetGlobalizationInvariantMode();
 
   static inline bool getStaticF__Invariant_k__BackingField();
 
-  /// @brief Method get_Invariant, addr 0x3d99a1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Invariant, addr 0x3d9cc80, size 0x58, virtual false, abstract: false, final false
   static inline bool get_Invariant();
 
   static inline void setStaticF__Invariant_k__BackingField(bool value);

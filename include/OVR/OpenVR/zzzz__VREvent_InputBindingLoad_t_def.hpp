@@ -28,7 +28,7 @@ public:
   constexpr VREvent_InputBindingLoad_t(uint64_t ulAppContainer, uint64_t pathMessage, uint64_t pathUrl, uint64_t pathControllerType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9005 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

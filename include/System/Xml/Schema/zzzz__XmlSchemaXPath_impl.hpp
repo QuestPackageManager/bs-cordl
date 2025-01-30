@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaXPath::*)()>(&::System::Xml::Schema::XmlSchemaXPath::get_XPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bd8f8;
+  constexpr static std::size_t addrs = 0x42c0b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaXPath*>::get(), "get_XPath",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaXPath::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaXPath::set_XPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bd900;
+  constexpr static std::size_t addrs = 0x42c0b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaXPath::*)()>(&::System::Xml::Schema::XmlSchemaXPath::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bd908;
+  constexpr static std::size_t addrs = 0x42c0b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaXPath*>::get(), ".ctor",

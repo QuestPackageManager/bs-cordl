@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGyroscope* New_ctor();
 
-  /// @brief Method .ctor, addr 0x46043e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x460764c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   AndroidGyroscope(AndroidGyroscope const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

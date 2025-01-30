@@ -31,10 +31,10 @@ public:
 
   static inline ::BGLib::Polyglot::SaveLanguagePreference* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0x22aff58, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x22b0d34, size 0x28, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Start, addr 0x22aff08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22b0ce4, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_preferenceKey() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_preferenceKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22aff80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b0d5c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"
@@ -64,7 +64,7 @@ public:
   SaveLanguagePreference(SaveLanguagePreference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18061 };
 
   /// @brief Field preferenceKey, offset: 0x20, size: 0x8, def value: None
   ::StringW ___preferenceKey;

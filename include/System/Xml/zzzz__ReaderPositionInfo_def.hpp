@@ -29,7 +29,7 @@ public:
   /// @brief Field lineInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_lineInfo, put = __cordl_internal_set_lineInfo)) ::System::Xml::IXmlLineInfo* lineInfo;
 
-  /// @brief Method HasLineInfo, addr 0x434949c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method HasLineInfo, addr 0x434c700, size 0xa0, virtual true, abstract: false, final false
   inline bool HasLineInfo();
 
   static inline ::System::Xml::ReaderPositionInfo* New_ctor(::System::Xml::IXmlLineInfo* lineInfo);
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set_lineInfo(::System::Xml::IXmlLineInfo* value);
 
-  /// @brief Method .ctor, addr 0x434946c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x434c6d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::IXmlLineInfo* lineInfo);
 
-  /// @brief Method get_LineNumber, addr 0x434953c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x434c7a0, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x43495e0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x434c844, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LinePosition();
 
 protected:
@@ -64,7 +64,7 @@ public:
   ReaderPositionInfo(ReaderPositionInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7325 };
 
   /// @brief Field lineInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::IXmlLineInfo* ___lineInfo;

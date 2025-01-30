@@ -30,19 +30,19 @@ public:
 
   __declspec(property(get = get_parentId)) int32_t parentId;
 
-  /// @brief Method .ctor, addr 0x4a0c2fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0f560, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t id, int32_t parentId, ::System::Collections::Generic::IEnumerable_1<int32_t>* childrenIds);
 
-  /// @brief Method get_childrenIds, addr 0x4a0c29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childrenIds, addr 0x4a0f500, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_childrenIds();
 
-  /// @brief Method get_hasChildren, addr 0x4a0c2a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_hasChildren, addr 0x4a0f508, size 0x58, virtual false, abstract: false, final false
   inline bool get_hasChildren();
 
-  /// @brief Method get_id, addr 0x4a0c28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x4a0f4f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_parentId, addr 0x4a0c294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentId, addr 0x4a0f4f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentId();
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   constexpr TreeItem(int32_t _id_k__BackingField, int32_t _parentId_k__BackingField, ::System::Collections::Generic::IEnumerable_1<int32_t>* _childrenIds_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5712 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

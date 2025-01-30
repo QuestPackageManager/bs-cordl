@@ -46,7 +46,7 @@ public:
   PoolableStaticMemoryPool_2(PoolableStaticMemoryPool_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12417 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

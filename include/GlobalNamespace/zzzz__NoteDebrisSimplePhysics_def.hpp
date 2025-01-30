@@ -51,13 +51,13 @@ public:
 
   __declspec(property(get = get_currentLinearVelocity)) ::UnityEngine::Vector3 currentLinearVelocity;
 
-  /// @brief Method Awake, addr 0x3aeb32c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3aef31c, size 0x70, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x3aeb39c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3aef38c, size 0xa4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity, bool forceOnlySimplePhysics);
 
-  /// @brief Method LateUpdate, addr 0x3aeb04c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3aef03c, size 0x178, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteDebrisSimplePhysics* New_ctor();
@@ -104,13 +104,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3aeb440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aef430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentAngularVelocityDegrees, addr 0x3aeb320, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentAngularVelocityDegrees, addr 0x3aef310, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentAngularVelocityDegrees();
 
-  /// @brief Method get_currentLinearVelocity, addr 0x3aeb314, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentLinearVelocity, addr 0x3aef304, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentLinearVelocity();
 
 protected:
@@ -128,7 +128,7 @@ public:
   NoteDebrisSimplePhysics(NoteDebrisSimplePhysics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4131 };
 
   /// @brief Field _currentLinearVelocity, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____currentLinearVelocity;

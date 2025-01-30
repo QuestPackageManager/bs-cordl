@@ -68,7 +68,7 @@ public:
   static ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType const OPERATOR_SINGLE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11841 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set__toolType(::HoudiniEngineUnity::HEU_ShelfToolData_ToolType value);
 
-  /// @brief Method .ctor, addr 0x3a85abc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a87f48, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -185,7 +185,7 @@ public:
   HEU_ShelfToolData(HEU_ShelfToolData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11842 };
 
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;

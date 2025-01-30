@@ -24,19 +24,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x26c20bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x26c3310, size 0x24, virtual false, abstract: false, final false
   static inline float_t DefaultNoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method DefaultRating, addr 0x26c2064, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DefaultRating, addr 0x26c32b8, size 0x20, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method Name, addr 0x26c1f2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x26c3180, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method NoteJumpMovementSpeed, addr 0x26c2084, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpMovementSpeed, addr 0x26c32d8, size 0x38, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty, float_t noteJumpMovementSpeed, bool fastNotes);
 
-  /// @brief Method ShortName, addr 0x26c1fc8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShortName, addr 0x26c321c, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -54,7 +54,7 @@ public:
   BeatmapDifficultyMethods(BeatmapDifficultyMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12935 };
 
   /// @brief Field kDefaultDifficultyNjs offset 0xffffffff size 0x4
   static constexpr float_t kDefaultDifficultyNjs{ static_cast<float_t>(10.0f) };

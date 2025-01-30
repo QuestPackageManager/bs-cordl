@@ -45,13 +45,13 @@ public:
   /// @brief Field _status, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status)) ::System::Security::Cryptography::AsnDecodeStatus _status;
 
-  /// @brief Method CopyFrom, addr 0x4436828, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x4439a8c, size 0x1c8, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Decode, addr 0x443629c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x4439500, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> extension);
 
-  /// @brief Method Encode, addr 0x4436594, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x44397f8, size 0x15c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension* New_ctor(::System::Security::Cryptography::AsnEncodedData* encodedBasicConstraints, bool critical);
 
-  /// @brief Method ToString, addr 0x44369f0, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4439c54, size 0x270, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   constexpr bool const& __cordl_internal_get__certificateAuthority() const;
@@ -88,22 +88,22 @@ public:
 
   constexpr void __cordl_internal_set__status(::System::Security::Cryptography::AsnDecodeStatus value);
 
-  /// @brief Method .ctor, addr 0x44361fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4439460, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4436460, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44396c4, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint, bool critical);
 
-  /// @brief Method .ctor, addr 0x4434c44, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4437ea8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* encodedBasicConstraints, bool critical);
 
-  /// @brief Method get_CertificateAuthority, addr 0x44366f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateAuthority, addr 0x4439954, size 0x68, virtual false, abstract: false, final false
   inline bool get_CertificateAuthority();
 
-  /// @brief Method get_HasPathLengthConstraint, addr 0x4436758, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_HasPathLengthConstraint, addr 0x44399bc, size 0x68, virtual false, abstract: false, final false
   inline bool get_HasPathLengthConstraint();
 
-  /// @brief Method get_PathLengthConstraint, addr 0x44367c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_PathLengthConstraint, addr 0x4439a24, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_PathLengthConstraint();
 
 protected:
@@ -121,7 +121,7 @@ public:
   X509BasicConstraintsExtension(X509BasicConstraintsExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9311 };
 
   /// @brief Field friendlyName offset 0xffffffff size 0x8
   static constexpr ::ConstString friendlyName{ u"Basic Constraints" };

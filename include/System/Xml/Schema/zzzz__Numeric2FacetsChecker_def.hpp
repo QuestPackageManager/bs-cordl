@@ -34,24 +34,24 @@ namespace System::Xml::Schema {
 class CORDL_TYPE Numeric2FacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x43b7368, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43ba5cc, size 0x60, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x43b73c8, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43ba62c, size 0x2b8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(double_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x43b7744, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43ba9a8, size 0x10, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(float_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x43b7754, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x43ba9b8, size 0x78, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x43b7680, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x43ba8e4, size 0xc4, virtual false, abstract: false, final false
   inline bool MatchEnumeration(double_t value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter);
 
   static inline ::System::Xml::Schema::Numeric2FacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a3838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a6a9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   Numeric2FacetsChecker(Numeric2FacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

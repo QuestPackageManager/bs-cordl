@@ -52,18 +52,18 @@ public:
                       put = __cordl_internal_set__deactivateOnBoostRenderers)) ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>
       _deactivateOnBoostRenderers;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b92338, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b983c8, size 0x20, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::MeshRendererSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9231c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b983ac, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b921f4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b98284, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x3b92358, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x3b983e8, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__activateOnBoostRenderers() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b9241c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b984ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   MeshRendererSwitchEventEffect(MeshRendererSwitchEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4322 };
 
   /// @brief Field _beatmapEvent, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEvent;

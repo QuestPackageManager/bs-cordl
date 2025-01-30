@@ -24,7 +24,7 @@ public:
   /// @brief Field _connectedPlayer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  /// @brief Method InstallBindings, addr 0x3bdcd70, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3be2cc0, size 0x250, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x3bdcfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be2f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   MultiplayerResultsPyramidViewAvatarInstaller(MultiplayerResultsPyramidViewAvatarInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4609 };
 
   /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;

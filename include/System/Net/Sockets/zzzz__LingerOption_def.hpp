@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set_lingerTime(int32_t value);
 
-  /// @brief Method .ctor, addr 0x43fed20, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4401f84, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool enable, int32_t seconds);
 
-  /// @brief Method set_Enabled, addr 0x43fed54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x4401fb8, size 0xc, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
-  /// @brief Method set_LingerTime, addr 0x43fed60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LingerTime, addr 0x4401fc4, size 0x8, virtual false, abstract: false, final false
   inline void set_LingerTime(int32_t value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   LingerOption(LingerOption const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9860 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;

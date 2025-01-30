@@ -38,16 +38,16 @@ public:
   /// @brief Field _instancesToInject, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__instancesToInject, put = __cordl_internal_set__instancesToInject)) ::System::Collections::Generic::HashSet_1<::System::Object*>* _instancesToInject;
 
-  /// @brief Method AddInstance, addr 0x4b37c80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AddInstance, addr 0x4b3aee4, size 0x58, virtual false, abstract: false, final false
   inline void AddInstance(::System::Object* instance);
 
-  /// @brief Method AddInstances, addr 0x4b37cd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AddInstances, addr 0x4b3af3c, size 0x58, virtual false, abstract: false, final false
   inline void AddInstances(::System::Collections::Generic::IEnumerable_1<::System::Object*>* instances);
 
-  /// @brief Method LazyInject, addr 0x4b37d30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LazyInject, addr 0x4b3af94, size 0x7c, virtual false, abstract: false, final false
   inline void LazyInject(::System::Object* instance);
 
-  /// @brief Method LazyInjectAll, addr 0x4b37dac, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LazyInjectAll, addr 0x4b3b010, size 0x21c, virtual false, abstract: false, final false
   inline void LazyInjectAll();
 
   static inline ::Zenject::LazyInstanceInjector* New_ctor(::Zenject::DiContainer* container);
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set__instancesToInject(::System::Collections::Generic::HashSet_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x4b37bf0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3ae54, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method get_Instances, addr 0x4b37c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Instances, addr 0x4b3aedc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Instances();
 
 protected:
@@ -85,7 +85,7 @@ public:
   LazyInstanceInjector(LazyInstanceInjector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12508 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

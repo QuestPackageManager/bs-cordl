@@ -581,7 +581,7 @@ public:
   PointerEventBase_1(PointerEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5908 };
 
   /// @brief Field m_AltitudeNeedsConversion, offset: 0x84, size: 0x1, def value: None
   bool ___m_AltitudeNeedsConversion;

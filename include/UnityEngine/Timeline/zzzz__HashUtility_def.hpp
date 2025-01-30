@@ -19,25 +19,25 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE HashUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CombineHash, addr 0x482b720, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x482e984, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2);
 
-  /// @brief Method CombineHash, addr 0x482b73c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x482e9a0, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method CombineHash, addr 0x482b768, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x482e9cc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3, int32_t h4);
 
-  /// @brief Method CombineHash, addr 0x482b7a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x482ea08, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5);
 
-  /// @brief Method CombineHash, addr 0x482b7f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x482ea54, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6);
 
-  /// @brief Method CombineHash, addr 0x482b84c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x482eab0, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t h1, int32_t h2, int32_t h3, int32_t h4, int32_t h5, int32_t h6, int32_t h7);
 
-  /// @brief Method CombineHash, addr 0x482b878, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x482eadc, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CombineHash(::ArrayW<int32_t, ::Array<int32_t>*> hashes);
 
 protected:
@@ -55,7 +55,7 @@ public:
   HashUtility(HashUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

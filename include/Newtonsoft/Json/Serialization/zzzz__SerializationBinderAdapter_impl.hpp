@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationBinderAdapter::*)(
     ::System::Runtime::Serialization::SerializationBinder*)>(&::Newtonsoft::Json::Serialization::SerializationBinderAdapter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3efd530;
+  constexpr static std::size_t addrs = 0x3f00794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Serialization::SerializationBinderAdapter::*)(::StringW, ::StringW)>(
     &::Newtonsoft::Json::Serialization::SerializationBinderAdapter::BindToType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3efd558;
+  constexpr static std::size_t addrs = 0x3f007bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::SerializationBinderAdapter::*)(
     ::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::Newtonsoft::Json::Serialization::SerializationBinderAdapter::BindToName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3efd578;
+  constexpr static std::size_t addrs = 0x3f007dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

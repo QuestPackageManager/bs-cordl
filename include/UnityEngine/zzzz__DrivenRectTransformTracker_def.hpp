@@ -28,10 +28,10 @@ namespace UnityEngine {
 struct CORDL_TYPE DrivenRectTransformTracker {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x48b36fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x48b6960, size 0x4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Object* driver, ::UnityEngine::RectTransform* rectTransform, ::UnityEngine::DrivenTransformProperties drivenProperties);
 
-  /// @brief Method Clear, addr 0x48b3700, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x48b6964, size 0x4, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
   constexpr DrivenRectTransformTracker();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

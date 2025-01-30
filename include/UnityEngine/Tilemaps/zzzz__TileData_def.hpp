@@ -56,29 +56,29 @@ public:
 
   __declspec(property(put = set_transform)) ::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method CreateDefault, addr 0x4954848, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateDefault, addr 0x4957aac, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Tilemaps::TileData CreateDefault();
 
   static inline ::UnityEngine::Tilemaps::TileData getStaticF_Default();
 
   static inline void setStaticF_Default(::UnityEngine::Tilemaps::TileData value);
 
-  /// @brief Method set_colliderType, addr 0x4953958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colliderType, addr 0x4956bbc, size 0x8, virtual false, abstract: false, final false
   inline void set_colliderType(::UnityEngine::Tilemaps::Tile_ColliderType value);
 
-  /// @brief Method set_color, addr 0x4953898, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x4956afc, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_flags, addr 0x4953950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x4956bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Tilemaps::TileFlags value);
 
-  /// @brief Method set_gameObject, addr 0x49538c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x4956b24, size 0x90, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_sprite, addr 0x4953808, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x4956a6c, size 0x90, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_transform, addr 0x49538a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x4956b08, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
                      ::UnityEngine::Tilemaps::Tile_ColliderType m_ColliderType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18571 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

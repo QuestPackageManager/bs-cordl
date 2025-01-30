@@ -33,22 +33,22 @@ public:
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x3d16a08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3d19c6c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder Create();
 
-  /// @brief Method SetException, addr 0x3d16c08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x3d19e6c, size 0x64, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x3d16af4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x3d19d58, size 0x70, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x3d16a14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x3d19c78, size 0x64, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStateMachine> inline void Start(::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method get_Task, addr 0x3d16ce8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x3d19f4c, size 0x90, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask get_Task();
 
   // Ctor Parameters []

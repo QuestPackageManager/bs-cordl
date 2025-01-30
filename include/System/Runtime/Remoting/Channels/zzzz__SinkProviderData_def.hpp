@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_sinkName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ce2a28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce5c8c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Children, addr 0x3ce2ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x3ce5d2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Children();
 
-  /// @brief Method get_Properties, addr 0x3ce2ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3ce5d34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
 protected:

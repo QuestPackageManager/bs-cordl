@@ -54,12 +54,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x22efb60, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x22f0b7c, size 0x1c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22efb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f0b6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -107,33 +107,33 @@ public:
   /// @brief Field objIds, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
 
-  /// @brief Method ConfigureBasepoint, addr 0x22ef0d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0x22f00f0, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  /// @brief Method ConfigureCurve, addr 0x22ef1c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x22f01e0, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method DefineCurve, addr 0x22ef260, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method DefineCurve, addr 0x22f027c, size 0x210, virtual false, abstract: false, final false
   static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method FromHex, addr 0x22ef1c8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x22f01e4, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method GetByName, addr 0x22ef58c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x22f05a8, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x22ef760, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x22f077c, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x22ef940, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x22f095c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x22ef60c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x22f0628, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22efb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f0b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_curves();
@@ -142,7 +142,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_objIds();
 
-  /// @brief Method get_Names, addr 0x22efa40, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x22f0a5c, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_curves(::System::Collections::IDictionary* value);

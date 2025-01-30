@@ -40,10 +40,10 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsPropertyBag_CenterProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49148fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917b60, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x491498c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4917bf0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -61,7 +61,7 @@ public:
   BoundsPropertyBag_CenterProperty(BoundsPropertyBag_CenterProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17523 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -80,10 +80,10 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsPropertyBag_ExtentsProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4914944, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917ba8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49149cc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4917c30, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -101,7 +101,7 @@ public:
   BoundsPropertyBag_ExtentsProperty(BoundsPropertyBag_ExtentsProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,7 +122,7 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49137ec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916a50, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   BoundsPropertyBag(BoundsPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,24 +32,24 @@ public:
   /// @brief Field top, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_top, put = __cordl_internal_set_top)) int32_t top;
 
-  /// @brief Method IncreaseCapacity, addr 0x3d11c18, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x3d14e7c, size 0x88, virtual false, abstract: false, final false
   inline void IncreaseCapacity();
 
-  /// @brief Method IsEmpty, addr 0x3d06440, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x3d096a4, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* New_ctor(::StringW stackId);
 
-  /// @brief Method Peek, addr 0x3d09d1c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x3d0cf80, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method PeekPeek, addr 0x3d10c64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PeekPeek, addr 0x3d13ec8, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* PeekPeek();
 
-  /// @brief Method Pop, addr 0x3d06450, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x3d096b4, size 0x50, virtual false, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method Push, addr 0x3d064a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x3d09704, size 0xac, virtual false, abstract: false, final false
   inline void Push(::System::Object* obj);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d079cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0ac30, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW stackId);
 
 protected:

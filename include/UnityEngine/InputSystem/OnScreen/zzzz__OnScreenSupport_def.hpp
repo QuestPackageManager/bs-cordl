@@ -18,7 +18,7 @@ namespace UnityEngine::InputSystem::OnScreen {
 class CORDL_TYPE OnScreenSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x45f8474, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45fb6d8, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -36,7 +36,7 @@ public:
   OnScreenSupport(OnScreenSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6798 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

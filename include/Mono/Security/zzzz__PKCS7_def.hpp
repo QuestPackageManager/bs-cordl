@@ -69,7 +69,7 @@ public:
   /// @brief Field contentType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) ::StringW contentType;
 
-  /// @brief Method GetASN1, addr 0x3c31394, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetASN1, addr 0x3c345f8, size 0xac, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* GetASN1();
 
   static inline ::Mono::Security::PKCS7_ContentInfo* New_ctor();
@@ -92,31 +92,31 @@ public:
 
   constexpr void __cordl_internal_set_contentType(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c31118, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3437c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c31214, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c34478, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x3c311ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c34410, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x3c31188, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c343ec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method get_ASN1, addr 0x3c31390, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x3c345f4, size 0x4, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_Content, addr 0x3c31440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x3c346a4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_Content();
 
-  /// @brief Method get_ContentType, addr 0x3c31450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x3c346b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContentType();
 
-  /// @brief Method set_Content, addr 0x3c31448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x3c346ac, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::Mono::Security::ASN1* value);
 
-  /// @brief Method set_ContentType, addr 0x3c31458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x3c346bc, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentType(::StringW value);
 
 protected:
@@ -134,7 +134,7 @@ public:
   PKCS7_ContentInfo(PKCS7_ContentInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15914 };
 
   /// @brief Field contentType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___contentType;
@@ -203,16 +203,16 @@ public:
 
   constexpr void __cordl_internal_set__version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3c31460, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c346c4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c3147c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c346e0, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_EncryptedContent, addr 0x3c3173c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedContent, addr 0x3c349a0, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_EncryptedContent();
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0x3c31734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithm, addr 0x3c34998, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::PKCS7_ContentInfo* get_EncryptionAlgorithm();
 
 protected:
@@ -230,7 +230,7 @@ public:
   PKCS7_EncryptedData(PKCS7_EncryptedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15915 };
 
   /// @brief Field _version, offset: 0x10, size: 0x1, def value: None
   uint8_t ____version;
@@ -296,7 +296,7 @@ public:
 
   static inline ::Mono::Security::PKCS7_SignedData* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method OidToName, addr 0x3c3226c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OidToName, addr 0x3c354d0, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW OidToName(::StringW oid);
 
   constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get_certs() const;
@@ -341,19 +341,19 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3c317b0, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c34a14, size 0x4c4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_Certificates, addr 0x3c32440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x3c356a4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_ContentInfo, addr 0x3c32448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x3c356ac, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::PKCS7_ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_SignerInfo, addr 0x3c32450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignerInfo, addr 0x3c356b4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::PKCS7_SignerInfo* get_SignerInfo();
 
-  /// @brief Method set_HashName, addr 0x3c32420, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x3c35684, size 0x20, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
 protected:
@@ -371,7 +371,7 @@ public:
   PKCS7_SignedData(PKCS7_SignedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15916 };
 
   /// @brief Field version, offset: 0x10, size: 0x1, def value: None
   uint8_t ___version;
@@ -511,34 +511,34 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3c321e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3544c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c31e78, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c350dc, size 0x370, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_AuthenticatedAttributes, addr 0x3c32610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticatedAttributes, addr 0x3c35874, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_AuthenticatedAttributes();
 
-  /// @brief Method get_HashName, addr 0x3c32618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashName, addr 0x3c3587c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HashName();
 
-  /// @brief Method get_IssuerName, addr 0x3c32594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x3c357f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_SerialNumber, addr 0x3c3259c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3c35800, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
-  /// @brief Method get_Signature, addr 0x3c32628, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x3c3588c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
 
-  /// @brief Method get_UnauthenticatedAttributes, addr 0x3c3269c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnauthenticatedAttributes, addr 0x3c35900, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_UnauthenticatedAttributes();
 
-  /// @brief Method get_Version, addr 0x3c326a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3c35908, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_Version();
 
-  /// @brief Method set_HashName, addr 0x3c32620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x3c35884, size 0x8, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
 protected:
@@ -556,7 +556,7 @@ public:
   PKCS7_SignerInfo(PKCS7_SignerInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15917 };
 
   /// @brief Field version, offset: 0x10, size: 0x1, def value: None
   uint8_t ___version;
@@ -634,7 +634,7 @@ public:
   PKCS7(PKCS7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

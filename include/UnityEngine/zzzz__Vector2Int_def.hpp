@@ -59,25 +59,25 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x48a1e88, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48a50ec, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x48a1f10, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48a5174, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Vector2Int other);
 
-  /// @brief Method FloorToInt, addr 0x48a1da0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FloorToInt, addr 0x48a5004, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int FloorToInt(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x48a1f38, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48a519c, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x48a1f80, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48a51e4, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x48a1f90, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x48a51f4, size 0x178, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x48a1d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a4fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y);
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Down();
@@ -92,10 +92,10 @@ public:
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Zero();
 
-  /// @brief Method get_x, addr 0x48a1d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x48a4fcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x48a1d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x48a4fdc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector2Int>"
@@ -104,10 +104,10 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x48a1e68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48a50cc, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int rhs);
 
-  /// @brief Method op_Implicit, addr 0x48a1d90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48a4ff4, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector2Int v);
 
   static inline void setStaticF_s_Down(::UnityEngine::Vector2Int value);
@@ -122,10 +122,10 @@ public:
 
   static inline void setStaticF_s_Zero(::UnityEngine::Vector2Int value);
 
-  /// @brief Method set_x, addr 0x48a1d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x48a4fd4, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x48a1d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x48a4fe4, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
   // Ctor Parameters []
@@ -136,7 +136,7 @@ public:
   constexpr Vector2Int(int32_t m_X, int32_t m_Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10823 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

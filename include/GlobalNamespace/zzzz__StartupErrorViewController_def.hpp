@@ -31,15 +31,15 @@ public:
   /// @brief Field _text, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TMP_Text> _text;
 
-  /// @brief Method DidActivate, addr 0x3afaa5c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3afeb54, size 0xb0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleQuitButtonPressed, addr 0x3afab30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleQuitButtonPressed, addr 0x3afec28, size 0x50, virtual false, abstract: false, final false
   inline void HandleQuitButtonPressed();
 
   static inline ::GlobalNamespace::StartupErrorViewController* New_ctor();
 
-  /// @brief Method SetMessage, addr 0x3afab0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetMessage, addr 0x3afec04, size 0x24, virtual false, abstract: false, final false
   inline void SetMessage(::StringW message);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__quitButton() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3afab80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afec78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   StartupErrorViewController(StartupErrorViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4963 };
 
   /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____text;

@@ -59,7 +59,7 @@ public:
   AssetReferenceT_1(AssetReferenceT_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

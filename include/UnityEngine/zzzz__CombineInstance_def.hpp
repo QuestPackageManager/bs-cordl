@@ -33,16 +33,16 @@ public:
 
   __declspec(property(put = set_transform)) ::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method get_mesh, addr 0x488e838, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x4891a9c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method set_mesh, addr 0x488e874, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x4891ad8, size 0x90, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_subMeshIndex, addr 0x488e904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshIndex, addr 0x4891b68, size 0x8, virtual false, abstract: false, final false
   inline void set_subMeshIndex(int32_t value);
 
-  /// @brief Method set_transform, addr 0x488e90c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x4891b70, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
                             ::UnityEngine::Vector4 m_RealtimeLightmapScaleOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10788 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

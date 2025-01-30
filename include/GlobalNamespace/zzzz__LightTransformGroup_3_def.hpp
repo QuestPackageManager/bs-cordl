@@ -136,7 +136,7 @@ public:
   LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4310 };
 
   /// @brief Field _mirrorX, offset: 0x28, size: 0x1, def value: None
   bool ____mirrorX;

@@ -93,21 +93,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3badf7c, size 0x4a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bb3864, size 0x4a4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bae420, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bb3d08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bae428, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bb3d10, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bae460, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bb3d48, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3badf78, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bb3860, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x3badc6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb3554, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -179,7 +179,7 @@ public:
   MultiplayerLevelFinishedController__StartLevelFinished_d__20(MultiplayerLevelFinishedController__StartLevelFinished_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4453 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -270,24 +270,24 @@ public:
   __declspec(property(
       get = get_otherPlayersCompletionResults)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersCompletionResults;
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x3badc94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x3bb357c, size 0x20, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x3badcb4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x3bb359c, size 0x34, virtual false, abstract: false, final false
   inline void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleRpcLevelFinished, addr 0x3badce8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method HandleRpcLevelFinished, addr 0x3bb35d0, size 0x214, virtual false, abstract: false, final false
   inline void HandleRpcLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   static inline ::GlobalNamespace::MultiplayerLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bad998, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb3280, size 0x268, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bad73c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bb3024, size 0x25c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x3badc00, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x3bb34e8, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults);
 
   constexpr ::GlobalNamespace::BeatmapBasicData* const& __cordl_internal_get__beatmapBasicData() const;
@@ -349,23 +349,23 @@ public:
   __cordl_internal_set_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  /// @brief Method .ctor, addr 0x3badefc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb37e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_allResultsCollectedEvent, addr 0x3bad5c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_allResultsCollectedEvent, addr 0x3bb2eac, size 0xb0, virtual false, abstract: false, final false
   inline void add_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                               ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  /// @brief Method get_gameResultsReady, addr 0x3bad724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameResultsReady, addr 0x3bb300c, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameResultsReady();
 
-  /// @brief Method get_localPlayerResults, addr 0x3bad734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerResults, addr 0x3bb301c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults* get_localPlayerResults();
 
-  /// @brief Method get_otherPlayersCompletionResults, addr 0x3bad72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayersCompletionResults, addr 0x3bb3014, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* get_otherPlayersCompletionResults();
 
-  /// @brief Method remove_allResultsCollectedEvent, addr 0x3bad674, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_allResultsCollectedEvent, addr 0x3bb2f5c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
@@ -384,7 +384,7 @@ public:
   MultiplayerLevelFinishedController(MultiplayerLevelFinishedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4454 };
 
   /// @brief Field kMinSceneDuration offset 0xffffffff size 0x4
   static constexpr float_t kMinSceneDuration{ static_cast<float_t>(2.0f) };

@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_subtypeIdentifiers(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3adc0fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3adea60, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers);
 
 protected:
@@ -76,7 +76,7 @@ public:
   BeatmapDataCallbackWrapper(BeatmapDataCallbackWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4063 };
 
   /// @brief Field BasicBeatmapEventType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___BasicBeatmapEventType;

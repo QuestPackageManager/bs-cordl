@@ -30,19 +30,19 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE X509Helper2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateChainImpl, addr 0x4442790, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateChainImpl, addr 0x44459f4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* CreateChainImpl(bool useMachineContext);
 
-  /// @brief Method GetInvalidChainContextException, addr 0x4442840, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidChainContextException, addr 0x4445aa4, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidChainContextException();
 
-  /// @brief Method GetMonoCertificate, addr 0x44426c0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetMonoCertificate, addr 0x4445924, size 0xd0, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Certificate* GetMonoCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method IsValid, addr 0x44427ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x4445a50, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x4442800, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x4445a64, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
 protected:
@@ -60,7 +60,7 @@ public:
   X509Helper2(X509Helper2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9333 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

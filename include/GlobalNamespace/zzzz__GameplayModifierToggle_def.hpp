@@ -61,7 +61,7 @@ public:
 
   static inline ::GlobalNamespace::GameplayModifierToggle* New_ctor();
 
-  /// @brief Method Start, addr 0x3c277e8, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3c2aa4c, size 0x37c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> const& __cordl_internal_get__gameplayModifier() const;
@@ -106,13 +106,13 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x3c27b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2adc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayModifier, addr 0x3c277e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifier, addr 0x3c2aa44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> get_gameplayModifier();
 
-  /// @brief Method get_toggle, addr 0x3c277d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x3c2aa3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
 protected:
@@ -130,7 +130,7 @@ public:
   GameplayModifierToggle(GameplayModifierToggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19197 };
 
   /// @brief Field _gameplayModifier, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____gameplayModifier;

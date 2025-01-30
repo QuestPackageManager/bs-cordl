@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_StartLine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40ada80;
+  constexpr static std::size_t addrs = 0x40b0ce4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_EndLine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40adaa8;
+  constexpr static std::size_t addrs = 0x40b0d0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::SymbolDocumentInfo* (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_Document)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40adad0;
+  constexpr static std::size_t addrs = 0x40b0d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::DebugInfoExpression*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_IsClear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40adad8;
+  constexpr static std::size_t addrs = 0x40b0d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 

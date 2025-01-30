@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__show(bool value);
 
-  /// @brief Method .ctor, addr 0x3a5170c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a53b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   TOPNodeTags(TOPNodeTags const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11754 };
 
   /// @brief Field _show, offset: 0x10, size: 0x1, def value: None
   bool ____show;

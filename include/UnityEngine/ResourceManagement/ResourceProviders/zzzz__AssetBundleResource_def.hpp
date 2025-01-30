@@ -108,7 +108,7 @@ public:
   static ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType const Web;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15651 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -199,80 +199,80 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*() noexcept;
 
-  /// @brief Method AddBeginWebRequestHandler, addr 0x4799b64, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddBeginWebRequestHandler, addr 0x479cdc8, size 0x110, virtual false, abstract: false, final false
   inline void AddBeginWebRequestHandler(::UnityEngine::ResourceManagement::WebRequestQueueOperation* webRequestQueueOperation);
 
-  /// @brief Method AddCallbackInvokeIfDone, addr 0x47996d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddCallbackInvokeIfDone, addr 0x479c934, size 0x60, virtual false, abstract: false, final false
   inline void AddCallbackInvokeIfDone(::UnityEngine::AsyncOperation* operation, ::System::Action_1<::UnityEngine::AsyncOperation*>* callback);
 
-  /// @brief Method BeginOperation, addr 0x4798640, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method BeginOperation, addr 0x479b8a4, size 0x15c, virtual false, abstract: false, final false
   inline void BeginOperation();
 
-  /// @brief Method BeginWebRequestOperation, addr 0x4799c74, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method BeginWebRequestOperation, addr 0x479ced8, size 0xe8, virtual false, abstract: false, final false
   inline void BeginWebRequestOperation(::UnityEngine::AsyncOperation* asyncOp);
 
-  /// @brief Method CompleteBundleLoad, addr 0x4799e7c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CompleteBundleLoad, addr 0x479d0e0, size 0x134, virtual false, abstract: false, final false
   inline void CompleteBundleLoad(::UnityEngine::AssetBundle* bundle);
 
-  /// @brief Method CreateWebRequest, addr 0x4798080, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateWebRequest, addr 0x479b2e4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
-  /// @brief Method CreateWebRequest, addr 0x47980a8, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method CreateWebRequest, addr 0x479b30c, size 0x238, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::StringW url);
 
-  /// @brief Method EnqueueWebRequest, addr 0x4799a54, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method EnqueueWebRequest, addr 0x479ccb8, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* EnqueueWebRequest(::StringW internalId);
 
-  /// @brief Method GetAssetBundle, addr 0x47983fc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method GetAssetBundle, addr 0x479b660, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::AssetBundle> GetAssetBundle();
 
-  /// @brief Method GetAssetPreloadRequest, addr 0x47982e0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPreloadRequest, addr 0x479b544, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* GetAssetPreloadRequest();
 
-  /// @brief Method GetDownloadStatus, addr 0x4798430, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetDownloadStatus, addr 0x479b694, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
 
-  /// @brief Method GetLoadInfo, addr 0x4799730, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetLoadInfo, addr 0x479c994, size 0x30, virtual false, abstract: false, final false
   static inline void GetLoadInfo(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle,
                                  ::ByRef<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType> loadType, ::ByRef<::StringW> path);
 
-  /// @brief Method GetLoadInfo, addr 0x4799760, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetLoadInfo, addr 0x479c9c4, size 0x244, virtual false, abstract: false, final false
   static inline void GetLoadInfo(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                                  ::ByRef<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource_LoadType> loadType, ::ByRef<::StringW> path);
 
-  /// @brief Method LoadLocalBundle, addr 0x47999a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method LoadLocalBundle, addr 0x479cc08, size 0xb0, virtual false, abstract: false, final false
   inline void LoadLocalBundle();
 
-  /// @brief Method LocalRequestOperationCompleted, addr 0x4799628, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LocalRequestOperationCompleted, addr 0x479c88c, size 0xa8, virtual false, abstract: false, final false
   inline void LocalRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource* New_ctor();
 
-  /// @brief Method OnUnloadOperationComplete, addr 0x4798638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnUnloadOperationComplete, addr 0x479b89c, size 0x8, virtual false, abstract: false, final false
   inline void OnUnloadOperationComplete(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method PercentComplete, addr 0x4798418, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method PercentComplete, addr 0x479b67c, size 0x18, virtual false, abstract: false, final false
   inline float_t PercentComplete();
 
-  /// @brief Method Start, addr 0x479879c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x479ba00, size 0x2cc, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::AssetBundleUnloadOperation* unloadOp);
 
-  /// @brief Method Unload, addr 0x4799fb0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Unload, addr 0x479d214, size 0xa8, virtual false, abstract: false, final false
   inline bool Unload(::ByRef<::UnityEngine::AssetBundleUnloadOperation*> unloadOp);
 
-  /// @brief Method Update, addr 0x4799d5c, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x479cfc0, size 0x120, virtual true, abstract: false, final true
   inline void Update(float_t unscaledDeltaTime);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x4798c84, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x479bee8, size 0x384, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method WebRequestOperationCompleted, addr 0x4799008, size 0x620, virtual false, abstract: false, final false
+  /// @brief Method WebRequestOperationCompleted, addr 0x479c26c, size 0x620, virtual false, abstract: false, final false
   inline void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method <AddBeginWebRequestHandler>b__39_0, addr 0x479a06c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <AddBeginWebRequestHandler>b__39_0, addr 0x479d2d0, size 0x4, virtual false, abstract: false, final false
   inline void _AddBeginWebRequestHandler_b__39_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
-  /// @brief Method <GetAssetPreloadRequest>b__26_0, addr 0x479a060, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <GetAssetPreloadRequest>b__26_0, addr 0x479d2c4, size 0xc, virtual false, abstract: false, final false
   inline void _GetAssetPreloadRequest_b__26_0(::UnityEngine::AsyncOperation* operation);
 
   constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
@@ -383,13 +383,13 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
 
-  /// @brief Method .ctor, addr 0x479a058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479d2bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BytesToDownload, addr 0x4797f7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_BytesToDownload, addr 0x479b1e0, size 0x58, virtual false, abstract: false, final false
   inline int64_t get_BytesToDownload();
 
-  /// @brief Method get_HasTimedOut, addr 0x4797f3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_HasTimedOut, addr 0x479b1a0, size 0x40, virtual false, abstract: false, final false
   inline bool get_HasTimedOut();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
@@ -413,7 +413,7 @@ public:
   AssetBundleResource(AssetBundleResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15652 };
 
   /// @brief Field k_WaitForWebRequestMainThreadSleep offset 0xffffffff size 0x4
   static constexpr int32_t k_WaitForWebRequestMainThreadSleep{ static_cast<int32_t>(0x1) };

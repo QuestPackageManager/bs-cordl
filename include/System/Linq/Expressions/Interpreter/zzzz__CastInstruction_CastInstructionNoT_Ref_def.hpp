@@ -24,12 +24,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE CastInstructionNoT_CastInstruction_Ref : public ::GlobalNamespace::CastInstruction_CastInstructionNoT {
 public:
   // Declarations
-  /// @brief Method ConvertNull, addr 0x40f7f10, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ConvertNull, addr 0x40fb174, size 0x1c, virtual true, abstract: false, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   static inline ::GlobalNamespace::CastInstructionNoT_CastInstruction_Ref* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x40f7d98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40faffc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:
@@ -47,7 +47,7 @@ public:
   CastInstructionNoT_CastInstruction_Ref(CastInstructionNoT_CastInstruction_Ref const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14115 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

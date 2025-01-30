@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsException* New_ctor(::StringW message, ::System::Exception* cause);
 
-  /// @brief Method .ctor, addr 0x242ea44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242fa60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause);
 
 protected:

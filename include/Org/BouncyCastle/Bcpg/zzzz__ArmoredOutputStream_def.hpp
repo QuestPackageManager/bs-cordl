@@ -89,41 +89,41 @@ public:
   /// @brief Field type, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::StringW type;
 
-  /// @brief Method AddHeader, addr 0x263ff50, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method AddHeader, addr 0x2640f6c, size 0x218, virtual false, abstract: false, final false
   inline void AddHeader(::StringW name, ::StringW val);
 
-  /// @brief Method BeginClearText, addr 0x2640390, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method BeginClearText, addr 0x26413ac, size 0x1d4, virtual false, abstract: false, final false
   inline void BeginClearText(::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method Close, addr 0x264110c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2642128, size 0x38, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DoClose, addr 0x2641144, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method DoClose, addr 0x2642160, size 0x1ac, virtual false, abstract: false, final false
   inline void DoClose();
 
-  /// @brief Method DoWrite, addr 0x2640564, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DoWrite, addr 0x2641580, size 0x44, virtual false, abstract: false, final false
   inline void DoWrite(::StringW s);
 
-  /// @brief Method Encode, addr 0x263f324, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2640340, size 0x2f4, virtual false, abstract: false, final false
   static inline void Encode(::System::IO::Stream* outStream, ::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t len);
 
-  /// @brief Method EndClearText, addr 0x26405a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EndClearText, addr 0x26415c4, size 0x8, virtual false, abstract: false, final false
   inline void EndClearText();
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
-  /// @brief Method ResetHeaders, addr 0x2640168, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ResetHeaders, addr 0x2641184, size 0x228, virtual false, abstract: false, final false
   inline void ResetHeaders();
 
-  /// @brief Method SetHeader, addr 0x263f744, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method SetHeader, addr 0x2640760, size 0x2b4, virtual false, abstract: false, final false
   inline void SetHeader(::StringW name, ::StringW val);
 
-  /// @brief Method WriteByte, addr 0x26405b0, size 0xac0, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x26415cc, size 0xac0, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method WriteHeaderEntry, addr 0x2641070, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteHeaderEntry, addr 0x264208c, size 0x9c, virtual false, abstract: false, final false
   inline void WriteHeaderEntry(::StringW name, ::StringW v);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_buf() const;
@@ -192,10 +192,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x263f618, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2640634, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x263f9f8, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2640a14, size 0x558, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
   static inline ::StringW getStaticF_HeaderVersion();

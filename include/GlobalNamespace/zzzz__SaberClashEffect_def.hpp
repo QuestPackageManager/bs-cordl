@@ -64,15 +64,15 @@ public:
   __declspec(property(get = __cordl_internal_get__sparkleParticleSystemEmmisionModule,
                       put = __cordl_internal_set__sparkleParticleSystemEmmisionModule)) ::UnityEngine::ParticleSystem_EmissionModule _sparkleParticleSystemEmmisionModule;
 
-  /// @brief Method LateUpdate, addr 0x3b95a5c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b9b8a0, size 0x10c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberClashEffect* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b95a4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b9b890, size 0x10, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x3b958a4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9b6e8, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__sparkleParticleSystemEmmisionModule(::UnityEngine::ParticleSystem_EmissionModule value);
 
-  /// @brief Method .ctor, addr 0x3b95b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9b9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,7 +147,7 @@ public:
   SaberClashEffect(SaberClashEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4340 };
 
   /// @brief Field _sparkleParticleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____sparkleParticleSystem;

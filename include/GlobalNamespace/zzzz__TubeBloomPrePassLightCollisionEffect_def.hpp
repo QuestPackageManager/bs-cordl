@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x3b96840, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9c684, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b96878, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9c6bc, size 0x3e0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__environmentLayerMask() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3b96c58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9ca9c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,7 +141,7 @@ public:
   TubeBloomPrePassLightCollisionEffect(TubeBloomPrePassLightCollisionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4345 };
 
   /// @brief Field _tubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x478afd0;
+  constexpr static std::size_t addrs = 0x478e234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Object*>* (
     ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)()>(&::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::GetPool)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4796440;
+  constexpr static std::size_t addrs = 0x47996a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(
     ::System::Collections::Generic::List_1<::System::Object*>*)>(&::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::ReleasePool)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4796530;
+  constexpr static std::size_t addrs = 0x4799794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(::System::Type*, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x47965ec;
+  constexpr static std::size_t addrs = 0x4799850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int32_t, ::System::Object*)>(
     &::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::Release)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4796728;
+  constexpr static std::size_t addrs = 0x479998c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

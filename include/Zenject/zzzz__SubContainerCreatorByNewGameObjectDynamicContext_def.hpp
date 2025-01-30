@@ -30,7 +30,7 @@ public:
   /// @brief Field _gameObjectBindInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo)) ::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
-  /// @brief Method CreateGameObject, addr 0x4b3f230, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x4b42494, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::ByRef<bool> shouldMakeActive);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x4b3f1dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b42440, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
 protected:
@@ -59,7 +59,7 @@ public:
   SubContainerCreatorByNewGameObjectDynamicContext(SubContainerCreatorByNewGameObjectDynamicContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12595 };
 
   /// @brief Field _gameObjectBindInfo, offset: 0x18, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;

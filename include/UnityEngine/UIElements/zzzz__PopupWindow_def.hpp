@@ -39,7 +39,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::PopupWindow_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49ff46c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a026d0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   PopupWindow_UxmlFactory(PopupWindow_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -74,7 +74,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::PopupWindow_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49ff4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a02718, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   PopupWindow_UxmlTraits(PopupWindow_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,14 +130,14 @@ public:
 
   constexpr void __cordl_internal_set_m_ContentContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x49ff298, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a024fc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_contentUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_contentContainer, addr 0x49ff3c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x4a02628, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   static inline void setStaticF_contentUssClassName(::StringW value);
@@ -159,7 +159,7 @@ public:
   PopupWindow(PopupWindow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5668 };
 
   /// @brief Field m_ContentContainer, offset: 0x4a0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_ContentContainer;

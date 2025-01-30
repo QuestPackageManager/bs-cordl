@@ -55,10 +55,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* New_ctor(bool hasResult, bool isRethrow);
 
-  /// @brief Method Run, addr 0x40c41a8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c740c, size 0x88, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method WrapThrownObject, addr 0x40c4230, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WrapThrownObject, addr 0x40c7494, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Exception* WrapThrownObject(::System::Object* thrown);
 
   constexpr bool const& __cordl_internal_get__hasResult() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__rethrow(bool value);
 
-  /// @brief Method .ctor, addr 0x40c4128, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c738c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool hasResult, bool isRethrow);
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_Rethrow();
@@ -84,13 +84,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_VoidThrow();
 
-  /// @brief Method get_ConsumedStack, addr 0x40c41a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c7404, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40c4158, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c73bc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40c4198, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c73fc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Rethrow(::System::Linq::Expressions::Interpreter::ThrowInstruction* value);
@@ -116,7 +116,7 @@ public:
   ThrowInstruction(ThrowInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13796 };
 
   /// @brief Field _hasResult, offset: 0x10, size: 0x1, def value: None
   bool ____hasResult;

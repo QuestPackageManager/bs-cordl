@@ -64,7 +64,7 @@ public:
   CachedInvokableCall_1(CachedInvokableCall_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10982 };
 
   /// @brief Field m_Arg1, offset: 0x18, size: 0x8, def value: None
   T ___m_Arg1;

@@ -91,7 +91,7 @@ public:
   AddressablesExtensions___c__DisplayClass3_0_1(AddressablesExtensions___c__DisplayClass3_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17158 };
 
   /// @brief Field asyncOperationHandle, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> ___asyncOperationHandle;
@@ -141,7 +141,7 @@ public:
   AddressablesExtensions(AddressablesExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

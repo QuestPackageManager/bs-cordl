@@ -27,12 +27,12 @@ namespace System {
 class CORDL_TYPE EventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3dd3854, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3dd6ab8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   static inline ::System::EventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3dd3750, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd69b4, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

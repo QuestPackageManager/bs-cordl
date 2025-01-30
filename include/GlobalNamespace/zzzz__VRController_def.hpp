@@ -104,43 +104,43 @@ public:
 
   __declspec(property(get = get_viewAnchorTransform)) ::UnityW<::UnityEngine::Transform> viewAnchorTransform;
 
-  /// @brief Method AdjustPose, addr 0x39d307c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AdjustPose, addr 0x39d5508, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose AdjustPose(::UnityEngine::Pose originalPose, ::UnityEngine::Pose adjustment);
 
-  /// @brief Method Init, addr 0x39d2408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39d4894, size 0xc, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method InvertControllerPose, addr 0x39d302c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvertControllerPose, addr 0x39d54b8, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InvertControllerPose(::UnityEngine::Pose finalPose);
 
   static inline ::GlobalNamespace::VRController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39d28a0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39d4d2c, size 0x100, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39d25c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39d4a54, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetupVRPlatformHelper, addr 0x39d2414, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method SetupVRPlatformHelper, addr 0x39d48a0, size 0x1b4, virtual false, abstract: false, final false
   inline void SetupVRPlatformHelper();
 
-  /// @brief Method TryGetControllerOffset, addr 0x39d29a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGetControllerOffset, addr 0x39d4e2c, size 0x70, virtual false, abstract: false, final false
   inline bool TryGetControllerOffset(::ByRef<::UnityEngine::Pose> poseOffset);
 
-  /// @brief Method TryGetControllerOffset, addr 0x39d2a10, size 0x61c, virtual false, abstract: false, final false
+  /// @brief Method TryGetControllerOffset, addr 0x39d4e9c, size 0x61c, virtual false, abstract: false, final false
   static inline bool TryGetControllerOffset(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper, ::GlobalNamespace::VRControllerTransformOffset* transformOffset,
                                             ::ByRef<::UnityEngine::XR::XRNode> node, ::ByRef<::UnityEngine::Pose> poseOffset);
 
-  /// @brief Method Update, addr 0x39d25f0, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39d4a7c, size 0x2b0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAnchorOffsetPose, addr 0x39d23bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UpdateAnchorOffsetPose, addr 0x39d4848, size 0x4c, virtual false, abstract: false, final false
   inline void UpdateAnchorOffsetPose();
 
-  /// @brief Method UpdateAnchorOffsetPose, addr 0x39d32e0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method UpdateAnchorOffsetPose, addr 0x39d576c, size 0x114, virtual false, abstract: false, final false
   inline void UpdateAnchorOffsetPose(::UnityEngine::Pose poseOffset);
 
-  /// @brief Method UpdatePoseOffset, addr 0x39d3128, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdatePoseOffset, addr 0x39d55b4, size 0x1b8, virtual false, abstract: false, final false
   static inline void UpdatePoseOffset(::ByRef<::UnityEngine::XR::XRNode> node, ::ByRef<::UnityEngine::Vector3> customPositionOffset, ::ByRef<::UnityEngine::Vector3> customRotationOffset,
                                       ::ByRef<::UnityEngine::Pose> poseOffset);
 
@@ -198,60 +198,60 @@ public:
 
   constexpr void __cordl_internal_set_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value);
 
-  /// @brief Method .ctor, addr 0x39d33f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d5880, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_anchorUpdateEvent, addr 0x39d2160, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_anchorUpdateEvent, addr 0x39d45ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value);
 
   static inline ::UnityEngine::Vector3 getStaticF_kLeftControllerDefaultPosition();
 
   static inline ::UnityEngine::Vector3 getStaticF_kRightControllerDefaultPosition();
 
-  /// @brief Method get_active, addr 0x39d2138, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x39d45c4, size 0x20, virtual false, abstract: false, final false
   inline bool get_active();
 
-  /// @brief Method get_forward, addr 0x39d1f90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_forward, addr 0x39d441c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_forward();
 
-  /// @brief Method get_mouseMode, addr 0x39d22c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mouseMode, addr 0x39d474c, size 0x8, virtual false, abstract: false, final false
   inline bool get_mouseMode();
 
-  /// @brief Method get_node, addr 0x39d1f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_node, addr 0x39d43bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRNode get_node();
 
-  /// @brief Method get_nodeIdx, addr 0x39d1f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nodeIdx, addr 0x39d43cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_nodeIdx();
 
-  /// @brief Method get_position, addr 0x39d1f50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x39d43dc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x39d1f70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x39d43fc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_thumbstick, addr 0x39d208c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstick, addr 0x39d4518, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_thumbstick();
 
-  /// @brief Method get_triggerValue, addr 0x39d1fb0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_triggerValue, addr 0x39d443c, size 0xdc, virtual false, abstract: false, final false
   inline float_t get_triggerValue();
 
-  /// @brief Method get_viewAnchorTransform, addr 0x39d2158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewAnchorTransform, addr 0x39d45e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_viewAnchorTransform();
 
-  /// @brief Method remove_anchorUpdateEvent, addr 0x39d2210, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_anchorUpdateEvent, addr 0x39d469c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_anchorUpdateEvent(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>* value);
 
   static inline void setStaticF_kLeftControllerDefaultPosition(::UnityEngine::Vector3 value);
 
   static inline void setStaticF_kRightControllerDefaultPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_mouseMode, addr 0x39d22c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method set_mouseMode, addr 0x39d4754, size 0xf4, virtual false, abstract: false, final false
   inline void set_mouseMode(bool value);
 
-  /// @brief Method set_node, addr 0x39d1f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_node, addr 0x39d43c4, size 0x8, virtual false, abstract: false, final false
   inline void set_node(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method set_nodeIdx, addr 0x39d1f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nodeIdx, addr 0x39d43d4, size 0x8, virtual false, abstract: false, final false
   inline void set_nodeIdx(int32_t value);
 
 protected:
@@ -269,7 +269,7 @@ public:
   VRController(VRController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16491 };
 
   /// @brief Field _node, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::XR::XRNode ____node;

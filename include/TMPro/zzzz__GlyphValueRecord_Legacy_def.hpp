@@ -22,10 +22,10 @@ namespace TMPro {
 struct CORDL_TYPE GlyphValueRecord_Legacy {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x47d2de0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d6044, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
 
-  /// @brief Method op_Addition, addr 0x47d2e40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x47d60a4, size 0x14, virtual false, abstract: false, final false
   static inline ::TMPro::GlyphValueRecord_Legacy op_Addition(::TMPro::GlyphValueRecord_Legacy a, ::TMPro::GlyphValueRecord_Legacy b);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr GlyphValueRecord_Legacy(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14482 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

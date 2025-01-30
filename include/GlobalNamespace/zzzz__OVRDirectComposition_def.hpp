@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRDirectComposition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f9724c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9a4b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   OVRDirectComposition(OVRDirectComposition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

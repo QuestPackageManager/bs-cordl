@@ -117,7 +117,7 @@ public:
   static ::System::Xml::Schema::XsdDateTime_DateTimeTypeCode const XdrDateTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7762 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -180,7 +180,7 @@ public:
   static ::System::Xml::Schema::XsdDateTime_XsdDateTimeKind const Zulu;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7763 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -206,34 +206,34 @@ public:
   /// @brief Field Power10, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Power10, put = setStaticF_Power10)) ::ArrayW<int32_t, ::Array<int32_t>*> Power10;
 
-  /// @brief Method Parse, addr 0x42fb348, size 0xb44, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x42fe5ac, size 0xb44, virtual false, abstract: false, final false
   inline bool Parse(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds);
 
-  /// @brief Method Parse2Dig, addr 0x42fe574, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Parse2Dig, addr 0x43017d8, size 0xa8, virtual false, abstract: false, final false
   inline bool Parse2Dig(int32_t start, ::ByRef<int32_t> num);
 
-  /// @brief Method Parse4Dig, addr 0x42fe44c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Parse4Dig, addr 0x43016b0, size 0x128, virtual false, abstract: false, final false
   inline bool Parse4Dig(int32_t start, ::ByRef<int32_t> num);
 
-  /// @brief Method ParseChar, addr 0x42fe064, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ParseChar, addr 0x43012c8, size 0x44, virtual false, abstract: false, final false
   inline bool ParseChar(int32_t start, char16_t ch);
 
-  /// @brief Method ParseDate, addr 0x42fde48, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method ParseDate, addr 0x43010ac, size 0x21c, virtual false, abstract: false, final false
   inline bool ParseDate(int32_t start);
 
-  /// @brief Method ParseTime, addr 0x42fe61c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method ParseTime, addr 0x4301880, size 0x378, virtual false, abstract: false, final false
   inline bool ParseTime(::ByRef<int32_t> start);
 
-  /// @brief Method ParseTimeAndWhitespace, addr 0x42fe3b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeAndWhitespace, addr 0x4301614, size 0x9c, virtual false, abstract: false, final false
   inline bool ParseTimeAndWhitespace(int32_t start);
 
-  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x42fe0a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x430130c, size 0x9c, virtual false, abstract: false, final false
   inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
 
-  /// @brief Method ParseZoneAndWhitespace, addr 0x42fe144, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method ParseZoneAndWhitespace, addr 0x43013a8, size 0x26c, virtual false, abstract: false, final false
   inline bool ParseZoneAndWhitespace(int32_t start);
 
-  /// @brief Method Test, addr 0x42fde3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Test, addr 0x43010a0, size 0xc, virtual false, abstract: false, final false
   static inline bool Test(::System::Xml::Schema::XsdDateTimeFlags left, ::System::Xml::Schema::XsdDateTimeFlags right);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_Power10();
@@ -254,7 +254,7 @@ public:
                                ::System::Xml::Schema::XsdDateTime_XsdDateTimeKind kind, int32_t zoneHour, int32_t zoneMinute, ::StringW text, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7764 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -434,43 +434,43 @@ public:
   /// @brief Field typeCodes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_typeCodes, put = setStaticF_typeCodes)) ::ArrayW<::System::Xml::Schema::XmlTypeCode, ::Array<::System::Xml::Schema::XmlTypeCode>*> typeCodes;
 
-  /// @brief Method InitiateXsdDateTime, addr 0x42fbe8c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitiateXsdDateTime, addr 0x42ff0f0, size 0xbc, virtual false, abstract: false, final false
   inline void InitiateXsdDateTime(::System::Xml::Schema::XsdDateTime_Parser parser);
 
-  /// @brief Method IntToCharArray, addr 0x42fd81c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IntToCharArray, addr 0x4300a80, size 0x68, virtual false, abstract: false, final false
   inline void IntToCharArray(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t value, int32_t digits);
 
-  /// @brief Method PrintDate, addr 0x42fd484, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method PrintDate, addr 0x43006e8, size 0x144, virtual false, abstract: false, final false
   inline void PrintDate(::System::Text::StringBuilder* sb);
 
-  /// @brief Method PrintTime, addr 0x42fd5c8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method PrintTime, addr 0x430082c, size 0x254, virtual false, abstract: false, final false
   inline void PrintTime(::System::Text::StringBuilder* sb);
 
-  /// @brief Method PrintZone, addr 0x42fd8ec, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method PrintZone, addr 0x4300b50, size 0x1a0, virtual false, abstract: false, final false
   inline void PrintZone(::System::Text::StringBuilder* sb);
 
-  /// @brief Method ShortToCharArray, addr 0x42fd884, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ShortToCharArray, addr 0x4300ae8, size 0x68, virtual false, abstract: false, final false
   inline void ShortToCharArray(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t start, int32_t value);
 
-  /// @brief Method ToString, addr 0x42fd040, size 0x444, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43002a4, size 0x444, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x42fbfdc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x42ff240, size 0xc0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds, ::ByRef<::System::Xml::Schema::XsdDateTime> result);
 
-  /// @brief Method .ctor, addr 0x42fc09c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ff300, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dateTime, ::System::Xml::Schema::XsdDateTimeFlags kinds);
 
-  /// @brief Method .ctor, addr 0x42fc260, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ff4c4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset dateTimeOffset);
 
-  /// @brief Method .ctor, addr 0x42fc2d0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ff534, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset dateTimeOffset, ::System::Xml::Schema::XsdDateTimeFlags kinds);
 
-  /// @brief Method .ctor, addr 0x42fbf48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ff1ac, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XsdDateTime_Parser parser);
 
-  /// @brief Method .ctor, addr 0x42fb1a0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42fe404, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds);
 
   static inline int32_t getStaticF_LzHH();
@@ -519,43 +519,43 @@ public:
 
   static inline ::ArrayW<::System::Xml::Schema::XmlTypeCode, ::Array<::System::Xml::Schema::XmlTypeCode>*> getStaticF_typeCodes();
 
-  /// @brief Method get_Day, addr 0x42fc520, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Day, addr 0x42ff784, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Day();
 
-  /// @brief Method get_Fraction, addr 0x42fc680, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_Fraction, addr 0x42ff8e4, size 0x118, virtual false, abstract: false, final false
   inline int32_t get_Fraction();
 
-  /// @brief Method get_Hour, addr 0x42fc578, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Hour, addr 0x42ff7dc, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Hour();
 
-  /// @brief Method get_InternalKind, addr 0x42fc468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalKind, addr 0x42ff6cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XsdDateTime_XsdDateTimeKind get_InternalKind();
 
-  /// @brief Method get_InternalTypeCode, addr 0x42fc460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalTypeCode, addr 0x42ff6c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XsdDateTime_DateTimeTypeCode get_InternalTypeCode();
 
-  /// @brief Method get_Minute, addr 0x42fc5d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Minute, addr 0x42ff834, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Minute();
 
-  /// @brief Method get_Month, addr 0x42fc4c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Month, addr 0x42ff72c, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Month();
 
-  /// @brief Method get_Second, addr 0x42fc628, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Second, addr 0x42ff88c, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Second();
 
-  /// @brief Method get_Year, addr 0x42fc470, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Year, addr 0x42ff6d4, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Year();
 
-  /// @brief Method get_ZoneHour, addr 0x42fc798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ZoneHour, addr 0x42ff9fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ZoneHour();
 
-  /// @brief Method get_ZoneMinute, addr 0x42fc7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ZoneMinute, addr 0x42ffa04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ZoneMinute();
 
-  /// @brief Method op_Implicit, addr 0x42fc7a8, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x42ffa0c, size 0x53c, virtual false, abstract: false, final false
   static inline ::System::DateTime op_Implicit___System__DateTime(::System::Xml::Schema::XsdDateTime xdt);
 
-  /// @brief Method op_Implicit, addr 0x42fcce4, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x42fff48, size 0x35c, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset op_Implicit___System__DateTimeOffset(::System::Xml::Schema::XsdDateTime xdt);
 
   static inline void setStaticF_LzHH(int32_t value);
@@ -612,7 +612,7 @@ public:
   constexpr XsdDateTime(::System::DateTime dt, uint32_t extra) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7765 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

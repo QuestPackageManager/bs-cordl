@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE TimelineUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindTrackAssetByName, addr 0x3b341b0, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method FindTrackAssetByName, addr 0x3b381b0, size 0x3d0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::TrackAsset> FindTrackAssetByName(::UnityEngine::Timeline::TimelineAsset* timeline, ::StringW name);
 
 protected:
@@ -43,7 +43,7 @@ public:
   TimelineUtils(TimelineUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -52,7 +52,7 @@ public:
   constexpr Update_ScriptRunBehaviourUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11086 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -80,7 +80,7 @@ public:
   constexpr Update_DirectorUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11087 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -108,7 +108,7 @@ public:
   constexpr Update_ScriptRunDelayedDynamicFrameRate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11088 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -136,7 +136,7 @@ public:
   constexpr Update_ScriptRunDelayedTasks();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11089 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -172,7 +172,7 @@ public:
   constexpr Update();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11090 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

@@ -30,7 +30,7 @@ public:
   IExperimentalFeatures(IExperimentalFeatures const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6319 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

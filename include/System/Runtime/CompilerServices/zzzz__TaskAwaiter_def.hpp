@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <OutputWaitEtwEvents>b__0, addr 0x3d18360, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method <OutputWaitEtwEvents>b__0, addr 0x3d1b5c4, size 0x174, virtual false, abstract: false, final false
   inline void _OutputWaitEtwEvents_b__0();
 
   constexpr ::System::Action* const& __cordl_internal_get_continuation() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x3d18358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1b5bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,34 +110,34 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x3d17f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3d1b1e4, size 0x8, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method HandleNonSuccessAndDebuggerNotification, addr 0x3d17fd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleNonSuccessAndDebuggerNotification, addr 0x3d1b238, size 0x60, virtual false, abstract: false, final false
   static inline void HandleNonSuccessAndDebuggerNotification(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method OnCompleted, addr 0x3d17b64, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x3d1adc8, size 0x10, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method OnCompletedInternal, addr 0x3d17ed0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnCompletedInternal, addr 0x3d1b134, size 0xb0, virtual false, abstract: false, final false
   static inline void OnCompletedInternal(::System::Threading::Tasks::Task* task, ::System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
 
-  /// @brief Method OutputWaitEtwEvents, addr 0x3d18180, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OutputWaitEtwEvents, addr 0x3d1b3e4, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Action* OutputWaitEtwEvents(::System::Threading::Tasks::Task* task, ::System::Action* continuation);
 
-  /// @brief Method ThrowForNonSuccess, addr 0x3d18034, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ThrowForNonSuccess, addr 0x3d1b298, size 0x14c, virtual false, abstract: false, final false
   static inline void ThrowForNonSuccess(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x3d17d00, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x3d1af64, size 0x10, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method ValidateEnd, addr 0x3d17f88, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ValidateEnd, addr 0x3d1b1ec, size 0x4c, virtual false, abstract: false, final false
   static inline void ValidateEnd(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method .ctor, addr 0x3d17eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1b110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method get_IsCompleted, addr 0x3d17eb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3d1b118, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"

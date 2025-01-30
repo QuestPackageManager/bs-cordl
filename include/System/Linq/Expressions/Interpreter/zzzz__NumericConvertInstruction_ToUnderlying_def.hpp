@@ -27,15 +27,15 @@ public:
   // Declarations
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
-  /// @brief Method Convert, addr 0x40f294c, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x40f5bb0, size 0x25c, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Object* obj);
 
   static inline ::GlobalNamespace::NumericConvertInstruction_ToUnderlying* New_ctor(::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method .ctor, addr 0x40f291c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f5b80, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_InstructionName, addr 0x40f28dc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f5b40, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -53,7 +53,7 @@ public:
   NumericConvertInstruction_ToUnderlying(NumericConvertInstruction_ToUnderlying const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14060 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

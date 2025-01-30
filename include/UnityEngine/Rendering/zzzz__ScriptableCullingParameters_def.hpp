@@ -56,7 +56,7 @@ public:
   constexpr ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11224 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
@@ -92,7 +92,7 @@ public:
   constexpr ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11225 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -136,26 +136,26 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>*();
 
-  /// @brief Method Equals, addr 0x48c590c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48c8b70, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48c5464, size 0x40c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48c86c8, size 0x40c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableCullingParameters other);
 
-  /// @brief Method GetCullingPlane, addr 0x48c5330, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetCullingPlane, addr 0x48c8594, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x48c59f4, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48c8c58, size 0x288, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetLayerCullingDistance, addr 0x48c5258, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetLayerCullingDistance, addr 0x48c84bc, size 0xd8, virtual false, abstract: false, final false
   inline float_t GetLayerCullingDistance(int32_t layerIndex);
 
   static inline int32_t getStaticF_layerCount();
 
   static inline int32_t getStaticF_maximumCullingPlaneCount();
 
-  /// @brief Method get_cullingPlaneCount, addr 0x48c5250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingPlaneCount, addr 0x48c84b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cullingPlaneCount();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"
@@ -193,7 +193,7 @@ public:
                                         int32_t m_maximumVisibleLights, bool m_ConservativeEnclosingSphere, int32_t m_NumIterationsEnclosingSphere) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11226 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x630 };

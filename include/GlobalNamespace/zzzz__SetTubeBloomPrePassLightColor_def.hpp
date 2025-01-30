@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::SetTubeBloomPrePassLightColor* New_ctor();
 
-  /// @brief Method Start, addr 0x3be8258, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bee1c8, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__color() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
 
-  /// @brief Method .ctor, addr 0x3be82c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bee238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   SetTubeBloomPrePassLightColor(SetTubeBloomPrePassLightColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4672 };
 
   /// @brief Field _color, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color;

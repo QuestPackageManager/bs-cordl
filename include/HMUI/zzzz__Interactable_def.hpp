@@ -44,19 +44,19 @@ public:
 
   constexpr void __cordl_internal_set_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method .ctor, addr 0x3aab024, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aad4b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_interactableChangeEvent, addr 0x3aaae80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_interactableChangeEvent, addr 0x3aad30c, size 0xb0, virtual false, abstract: false, final false
   inline void add_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method get_interactable, addr 0x3aaafe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3aad46c, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method remove_interactableChangeEvent, addr 0x3aaaf30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_interactableChangeEvent, addr 0x3aad3bc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method set_interactable, addr 0x3aaafe8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3aad474, size 0x3c, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:
@@ -74,7 +74,7 @@ public:
   Interactable(Interactable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19251 };
 
   /// @brief Field _interactable, offset: 0x20, size: 0x1, def value: None
   bool ____interactable;

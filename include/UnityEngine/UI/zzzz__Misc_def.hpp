@@ -21,10 +21,10 @@ namespace UnityEngine::UI {
 class CORDL_TYPE Misc : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Destroy, addr 0x4abe42c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x4ac1690, size 0x124, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method DestroyImmediate, addr 0x4abe550, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DestroyImmediate, addr 0x4ac17b4, size 0xcc, virtual false, abstract: false, final false
   static inline void DestroyImmediate(::UnityEngine::Object* obj);
 
 protected:
@@ -42,7 +42,7 @@ public:
   Misc(Misc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15116 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

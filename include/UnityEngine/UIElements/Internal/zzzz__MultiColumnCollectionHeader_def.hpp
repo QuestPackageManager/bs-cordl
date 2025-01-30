@@ -144,7 +144,7 @@ public:
   constexpr ViewState_MultiColumnCollectionHeader_ColumnState(int32_t index, ::StringW name, float_t actualWidth, ::UnityEngine::UIElements::Length width, bool visible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6502 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -201,12 +201,12 @@ public:
   __declspec(property(get = __cordl_internal_get_m_SortDescriptions,
                       put = __cordl_internal_set_m_SortDescriptions)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* m_SortDescriptions;
 
-  /// @brief Method Apply, addr 0x49e87ec, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x49eba50, size 0x35c, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* header);
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ViewState* New_ctor();
 
-  /// @brief Method Save, addr 0x49e8b48, size 0x710, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x49ebdac, size 0x710, virtual false, abstract: false, final false
   inline void Save(::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* header);
 
   constexpr bool const& __cordl_internal_get_m_HasPersistedData() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SortDescriptions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
-  /// @brief Method .ctor, addr 0x49e982c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49eca90, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,7 +245,7 @@ public:
   MultiColumnCollectionHeader_ViewState(MultiColumnCollectionHeader_ViewState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6503 };
 
   /// @brief Field m_HasPersistedData, offset: 0x10, size: 0x1, def value: None
   bool ___m_HasPersistedData;
@@ -301,19 +301,19 @@ public:
 
   constexpr void __cordl_internal_set__resizeHandle_k__BackingField(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* value);
 
-  /// @brief Method .ctor, addr 0x49e6638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e989c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_control, addr 0x49e98f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x49ecb54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* get_control();
 
-  /// @brief Method get_resizeHandle, addr 0x49e9900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resizeHandle, addr 0x49ecb64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* get_resizeHandle();
 
-  /// @brief Method set_control, addr 0x49e98f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_control, addr 0x49ecb5c, size 0x8, virtual false, abstract: false, final false
   inline void set_control(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* value);
 
-  /// @brief Method set_resizeHandle, addr 0x49e9908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_resizeHandle, addr 0x49ecb6c, size 0x8, virtual false, abstract: false, final false
   inline void set_resizeHandle(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* value);
 
 protected:
@@ -331,7 +331,7 @@ public:
   MultiColumnCollectionHeader_ColumnData(MultiColumnCollectionHeader_ColumnData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6504 };
 
   /// @brief Field <control>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* ____control_k__BackingField;
@@ -356,7 +356,7 @@ namespace UnityEngine::UIElements::Internal {
 struct CORDL_TYPE MultiColumnCollectionHeader_SortedColumnState {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x49e5590, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e87f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::SortColumnDescription* desc, ::UnityEngine::UIElements::SortDirection dir);
 
   // Ctor Parameters []
@@ -368,7 +368,7 @@ public:
   constexpr MultiColumnCollectionHeader_SortedColumnState(::UnityEngine::UIElements::SortColumnDescription* columnDesc, ::UnityEngine::UIElements::SortDirection direction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6505 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -404,10 +404,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0* New_ctor();
 
-  /// @brief Method <OnContextualMenuManipulator>b__1, addr 0x49e9910, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OnContextualMenuManipulator>b__1, addr 0x49ecb74, size 0x28, virtual false, abstract: false, final false
   inline void _OnContextualMenuManipulator_b__1(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method <OnContextualMenuManipulator>b__2, addr 0x49e9938, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <OnContextualMenuManipulator>b__2, addr 0x49ecb9c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenuAction_Status _OnContextualMenuManipulator_b__2(::UnityEngine::UIElements::DropdownMenuAction* a);
 
   constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* const& __cordl_internal_get___4__this() const;
@@ -422,7 +422,7 @@ public:
 
   constexpr void __cordl_internal_set_column(::UnityEngine::UIElements::Column* value);
 
-  /// @brief Method .ctor, addr 0x49e7bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49eae10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -440,7 +440,7 @@ public:
   MultiColumnCollectionHeader___c__DisplayClass65_0(MultiColumnCollectionHeader___c__DisplayClass65_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6506 };
 
   /// @brief Field column, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Column* ___column;
@@ -470,7 +470,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0* New_ctor();
 
-  /// @brief Method <UpdateSortColumnDescriptionsOnClick>b__0, addr 0x49e99b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <UpdateSortColumnDescriptionsOnClick>b__0, addr 0x49ecc1c, size 0x88, virtual false, abstract: false, final false
   inline bool _UpdateSortColumnDescriptionsOnClick_b__0(::UnityEngine::UIElements::SortColumnDescription* d);
 
   constexpr ::UnityEngine::UIElements::Column* const& __cordl_internal_get_column() const;
@@ -479,7 +479,7 @@ public:
 
   constexpr void __cordl_internal_set_column(::UnityEngine::UIElements::Column* value);
 
-  /// @brief Method .ctor, addr 0x49e850c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49eb770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -497,7 +497,7 @@ public:
   MultiColumnCollectionHeader___c__DisplayClass71_0(MultiColumnCollectionHeader___c__DisplayClass71_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6507 };
 
   /// @brief Field column, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Column* ___column;
@@ -621,86 +621,86 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ApplyColumnSorting, addr 0x49e68d0, size 0x8bc, virtual false, abstract: false, final false
+  /// @brief Method ApplyColumnSorting, addr 0x49e9b34, size 0x8bc, virtual false, abstract: false, final false
   inline void ApplyColumnSorting();
 
-  /// @brief Method Dispose, addr 0x49e9258, size 0x4c8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49ec4bc, size 0x4c8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DoLayout, addr 0x49e7d18, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method DoLayout, addr 0x49eaf7c, size 0x40, virtual false, abstract: false, final false
   inline void DoLayout();
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* New_ctor(::UnityEngine::UIElements::Columns* columns,
                                                                                            ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                                                                                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method OnColumnAdded, addr 0x49e5148, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method OnColumnAdded, addr 0x49e83ac, size 0x30c, virtual false, abstract: false, final false
   inline void OnColumnAdded(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method OnColumnAdded, addr 0x49e5db4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnColumnAdded, addr 0x49e9018, size 0x4, virtual false, abstract: false, final false
   inline void OnColumnAdded(::UnityEngine::UIElements::Column* column, int32_t index);
 
-  /// @brief Method OnColumnChanged, addr 0x49e6874, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnColumnChanged, addr 0x49e9ad8, size 0x5c, virtual false, abstract: false, final false
   inline void OnColumnChanged(::UnityEngine::UIElements::Column* column, ::UnityEngine::UIElements::ColumnDataType type);
 
-  /// @brief Method OnColumnClicked, addr 0x49e8090, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method OnColumnClicked, addr 0x49eb2f4, size 0x228, virtual false, abstract: false, final false
   inline void OnColumnClicked(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnColumnControlGeometryChanged, addr 0x49e7d58, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method OnColumnControlGeometryChanged, addr 0x49eafbc, size 0x248, virtual false, abstract: false, final false
   inline void OnColumnControlGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnColumnRemoved, addr 0x49e6640, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method OnColumnRemoved, addr 0x49e98a4, size 0x234, virtual false, abstract: false, final false
   inline void OnColumnRemoved(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method OnColumnReordered, addr 0x49e718c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method OnColumnReordered, addr 0x49ea3f0, size 0x17c, virtual false, abstract: false, final false
   inline void OnColumnReordered(::UnityEngine::UIElements::Column* column, int32_t from, int32_t to);
 
-  /// @brief Method OnColumnResized, addr 0x49e7308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnColumnResized, addr 0x49ea56c, size 0x4, virtual false, abstract: false, final false
   inline void OnColumnResized(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method OnContextualMenuManipulator, addr 0x49e730c, size 0x8a0, virtual false, abstract: false, final false
+  /// @brief Method OnContextualMenuManipulator, addr 0x49ea570, size 0x8a0, virtual false, abstract: false, final false
   inline void OnContextualMenuManipulator(::UnityEngine::UIElements::ContextualMenuPopulateEvent* evt);
 
-  /// @brief Method OnGeometryChanged, addr 0x49e7c98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnGeometryChanged, addr 0x49eaefc, size 0x80, virtual false, abstract: false, final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
-  /// @brief Method OnMoveManipulatorActivated, addr 0x49e7bb4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnMoveManipulatorActivated, addr 0x49eae18, size 0xe4, virtual false, abstract: false, final false
   inline void OnMoveManipulatorActivated(::UnityEngine::UIElements::Internal::ColumnMover* mover);
 
-  /// @brief Method OnViewDataReady, addr 0x49e86f8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x49eb95c, size 0xf4, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method RaiseColumnResized, addr 0x49e7fa0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RaiseColumnResized, addr 0x49eb204, size 0xf0, virtual false, abstract: false, final false
   inline void RaiseColumnResized(int32_t columnIndex);
 
-  /// @brief Method RaiseColumnSortingChanged, addr 0x49e55d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method RaiseColumnSortingChanged, addr 0x49e8838, size 0x38, virtual false, abstract: false, final false
   inline void RaiseColumnSortingChanged();
 
-  /// @brief Method ResizeToFit, addr 0x49e5564, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ResizeToFit, addr 0x49e87c8, size 0x2c, virtual false, abstract: false, final false
   inline void ResizeToFit();
 
-  /// @brief Method SaveViewState, addr 0x49e559c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SaveViewState, addr 0x49e8800, size 0x38, virtual false, abstract: false, final false
   inline void SaveViewState();
 
-  /// @brief Method ScheduleDoLayout, addr 0x49e5454, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ScheduleDoLayout, addr 0x49e86b8, size 0x110, virtual false, abstract: false, final false
   inline void ScheduleDoLayout();
 
-  /// @brief Method ScrollHorizontally, addr 0x49e8514, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ScrollHorizontally, addr 0x49eb778, size 0x1b8, virtual false, abstract: false, final false
   inline void ScrollHorizontally(float_t horizontalOffset);
 
-  /// @brief Method UpdateColumnControls, addr 0x49e560c, size 0x7a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateColumnControls, addr 0x49e8870, size 0x7a8, virtual false, abstract: false, final false
   inline void UpdateColumnControls();
 
-  /// @brief Method UpdateSortColumnDescriptionsOnClick, addr 0x49e82b8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method UpdateSortColumnDescriptionsOnClick, addr 0x49eb51c, size 0x254, virtual false, abstract: false, final false
   inline void UpdateSortColumnDescriptionsOnClick(::UnityEngine::UIElements::Column* column, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method UpdateSortedColumns, addr 0x49e3668, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSortedColumns, addr 0x49e68cc, size 0x70c, virtual false, abstract: false, final false
   inline void UpdateSortedColumns();
 
-  /// @brief Method UpdateSortingStatus, addr 0x49e3db8, size 0x660, virtual false, abstract: false, final false
+  /// @brief Method UpdateSortingStatus, addr 0x49e701c, size 0x660, virtual false, abstract: false, final false
   inline void UpdateSortingStatus();
 
-  /// @brief Method <OnContextualMenuManipulator>b__65_0, addr 0x49e9828, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <OnContextualMenuManipulator>b__65_0, addr 0x49eca8c, size 0x4, virtual false, abstract: false, final false
   inline void _OnContextualMenuManipulator_b__65_0(::UnityEngine::UIElements::DropdownMenuAction* a);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__columnContainer_k__BackingField() const;
@@ -808,20 +808,20 @@ public:
 
   constexpr void __cordl_internal_set_viewDataRestored(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x49e4968, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e7bcc, size 0x7e0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method add_columnResized, addr 0x49e4418, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_columnResized, addr 0x49e767c, size 0xb4, virtual false, abstract: false, final false
   inline void add_columnResized(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method add_columnSortingChanged, addr 0x49e4580, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_columnSortingChanged, addr 0x49e77e4, size 0xa0, virtual false, abstract: false, final false
   inline void add_columnSortingChanged(::System::Action* value);
 
-  /// @brief Method add_contextMenuPopulateEvent, addr 0x49e46c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_contextMenuPopulateEvent, addr 0x49e7924, size 0xb4, virtual false, abstract: false, final false
   inline void add_contextMenuPopulateEvent(::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* value);
 
-  /// @brief Method add_viewDataRestored, addr 0x49e4828, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_viewDataRestored, addr 0x49e7a8c, size 0xa0, virtual false, abstract: false, final false
   inline void add_viewDataRestored(::System::Action* value);
 
   static inline ::StringW getStaticF_columnContainerUssClassName();
@@ -832,46 +832,46 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_columnContainer, addr 0x49e35ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnContainer, addr 0x49e6810, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_columnContainer();
 
-  /// @brief Method get_columnDataMap, addr 0x49e359c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnDataMap, addr 0x49e6800, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData*>* get_columnDataMap();
 
-  /// @brief Method get_columnLayout, addr 0x49e35a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnLayout, addr 0x49e6808, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ColumnLayout* get_columnLayout();
 
-  /// @brief Method get_columns, addr 0x49e3d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columns, addr 0x49e6fd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Columns* get_columns();
 
-  /// @brief Method get_isApplyingViewState, addr 0x49e3594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isApplyingViewState, addr 0x49e67f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isApplyingViewState();
 
-  /// @brief Method get_resizeHandleContainer, addr 0x49e35b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resizeHandleContainer, addr 0x49e6818, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_resizeHandleContainer();
 
-  /// @brief Method get_sortDescriptions, addr 0x49e35c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortDescriptions, addr 0x49e6828, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SortColumnDescriptions* get_sortDescriptions();
 
-  /// @brief Method get_sortedColumns, addr 0x49e35bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortedColumns, addr 0x49e6820, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::SortColumnDescription*>* get_sortedColumns();
 
-  /// @brief Method get_sortingEnabled, addr 0x49e3d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortingEnabled, addr 0x49e6fe0, size 0x8, virtual false, abstract: false, final false
   inline bool get_sortingEnabled();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_columnResized, addr 0x49e44cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_columnResized, addr 0x49e7730, size 0xb4, virtual false, abstract: false, final false
   inline void remove_columnResized(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method remove_columnSortingChanged, addr 0x49e4620, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_columnSortingChanged, addr 0x49e7884, size 0xa0, virtual false, abstract: false, final false
   inline void remove_columnSortingChanged(::System::Action* value);
 
-  /// @brief Method remove_contextMenuPopulateEvent, addr 0x49e4774, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_contextMenuPopulateEvent, addr 0x49e79d8, size 0xb4, virtual false, abstract: false, final false
   inline void remove_contextMenuPopulateEvent(::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>* value);
 
-  /// @brief Method remove_viewDataRestored, addr 0x49e48c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_viewDataRestored, addr 0x49e7b2c, size 0xa0, virtual false, abstract: false, final false
   inline void remove_viewDataRestored(::System::Action* value);
 
   static inline void setStaticF_columnContainerUssClassName(::StringW value);
@@ -882,10 +882,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_sortDescriptions, addr 0x49e35cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_sortDescriptions, addr 0x49e6830, size 0x9c, virtual false, abstract: false, final false
   inline void set_sortDescriptions(::UnityEngine::UIElements::SortColumnDescriptions* value);
 
-  /// @brief Method set_sortingEnabled, addr 0x49e3d84, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_sortingEnabled, addr 0x49e6fe8, size 0x34, virtual false, abstract: false, final false
   inline void set_sortingEnabled(bool value);
 
 protected:
@@ -903,7 +903,7 @@ public:
   MultiColumnCollectionHeader(MultiColumnCollectionHeader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6508 };
 
   /// @brief Field m_SortingEnabled, offset: 0x3c8, size: 0x1, def value: None
   bool ___m_SortingEnabled;

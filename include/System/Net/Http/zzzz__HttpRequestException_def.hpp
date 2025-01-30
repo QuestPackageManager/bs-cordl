@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Net::Http::HttpRequestException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x4218848, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421baac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x42179b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421ac14, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x4215290, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42184f4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -52,7 +52,7 @@ public:
   HttpRequestException(HttpRequestException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16691 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

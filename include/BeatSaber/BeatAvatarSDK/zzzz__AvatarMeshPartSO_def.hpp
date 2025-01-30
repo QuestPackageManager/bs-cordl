@@ -25,10 +25,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22591b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2259f94, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x225917c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x2259f58, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:
@@ -46,7 +46,7 @@ public:
   AvatarMeshPartSO(AvatarMeshPartSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

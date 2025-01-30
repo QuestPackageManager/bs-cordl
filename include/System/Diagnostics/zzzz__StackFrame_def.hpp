@@ -50,38 +50,38 @@ public:
   /// @brief Field nativeOffset, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_nativeOffset, put = __cordl_internal_set_nativeOffset)) int32_t nativeOffset;
 
-  /// @brief Method GetFileLineNumber, addr 0x3db52c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFileLineNumber, addr 0x3db8528, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetFileLineNumber();
 
-  /// @brief Method GetFileName, addr 0x3db52cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFileName, addr 0x3db8530, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetFileName();
 
-  /// @brief Method GetILOffset, addr 0x3db53a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetILOffset, addr 0x3db860c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetILOffset();
 
-  /// @brief Method GetInternalMethodName, addr 0x3db53d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInternalMethodName, addr 0x3db8634, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetInternalMethodName();
 
-  /// @brief Method GetMethod, addr 0x3db53b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x3db8614, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodBase* GetMethod();
 
-  /// @brief Method GetMethodAddress, addr 0x3db53c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodAddress, addr 0x3db8624, size 0x8, virtual false, abstract: false, final false
   inline int64_t GetMethodAddress();
 
-  /// @brief Method GetMethodIndex, addr 0x3db53c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodIndex, addr 0x3db862c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t GetMethodIndex();
 
-  /// @brief Method GetNativeOffset, addr 0x3db53b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNativeOffset, addr 0x3db861c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetNativeOffset();
 
-  /// @brief Method GetSecureFileName, addr 0x3db52d4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetSecureFileName, addr 0x3db8538, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW GetSecureFileName();
 
   static inline ::System::Diagnostics::StackFrame* New_ctor();
 
   static inline ::System::Diagnostics::StackFrame* New_ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method ToString, addr 0x3db53d8, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3db863c, size 0x240, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_columnNumber() const;
@@ -138,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set_nativeOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3db5214, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db8478, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3db5264, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db84c8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method get_frame_info, addr 0x3db520c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frame_info, addr 0x3db8470, size 0x8, virtual false, abstract: false, final false
   static inline bool get_frame_info(int32_t skip, bool needFileInfo, ::ByRef<::System::Reflection::MethodBase*> method, ::ByRef<int32_t> iloffset, ::ByRef<int32_t> native_offset,
                                     ::ByRef<::StringW> file, ::ByRef<int32_t> line, ::ByRef<int32_t> column);
 

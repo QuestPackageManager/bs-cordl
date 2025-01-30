@@ -55,13 +55,13 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaNode___c* New_ctor();
 
-  /// @brief Method <GetId>b__26_0, addr 0x3f0a27c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetId>b__26_0, addr 0x3f0d4e0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _GetId_b__26_0(::Newtonsoft::Json::Schema::JsonSchema* s);
 
-  /// @brief Method <GetId>b__26_1, addr 0x3f0a294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetId>b__26_1, addr 0x3f0d4f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _GetId_b__26_1(::StringW id);
 
-  /// @brief Method .ctor, addr 0x3f0a274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0d4d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaNode___c* getStaticF___9();
@@ -91,7 +91,7 @@ public:
   JsonSchemaNode___c(JsonSchemaNode___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10365 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -151,10 +151,10 @@ public:
   __declspec(property(get = __cordl_internal_get__Schemas_k__BackingField,
                       put = __cordl_internal_set__Schemas_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* _Schemas_k__BackingField;
 
-  /// @brief Method Combine, addr 0x3f098d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x3f0cb34, size 0x68, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* Combine(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method GetId, addr 0x3f094fc, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x3f0c760, size 0x238, virtual false, abstract: false, final false
   static inline ::StringW GetId(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Schema::JsonSchema*>* schemata);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaNode* New_ctor(::Newtonsoft::Json::Schema::JsonSchema* schema);
@@ -203,37 +203,37 @@ public:
 
   constexpr void __cordl_internal_set__Schemas_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method .ctor, addr 0x3f09734, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0c998, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method .ctor, addr 0x3f0a000, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0d264, size 0x218, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaNode* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method get_AdditionalItems, addr 0x3f09ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalItems, addr 0x3f0d254, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* get_AdditionalItems();
 
-  /// @brief Method get_AdditionalProperties, addr 0x3f09fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalProperties, addr 0x3f0d244, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* get_AdditionalProperties();
 
-  /// @brief Method get_Id, addr 0x3f09fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x3f0d21c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_Items, addr 0x3f09fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x3f0d23c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_Items();
 
-  /// @brief Method get_PatternProperties, addr 0x3f09fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PatternProperties, addr 0x3f0d234, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_PatternProperties();
 
-  /// @brief Method get_Properties, addr 0x3f09fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3f0d22c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* get_Properties();
 
-  /// @brief Method get_Schemas, addr 0x3f09fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schemas, addr 0x3f0d224, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_Schemas();
 
-  /// @brief Method set_AdditionalItems, addr 0x3f09ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdditionalItems, addr 0x3f0d25c, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalItems(::Newtonsoft::Json::Schema::JsonSchemaNode* value);
 
-  /// @brief Method set_AdditionalProperties, addr 0x3f09fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdditionalProperties, addr 0x3f0d24c, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalProperties(::Newtonsoft::Json::Schema::JsonSchemaNode* value);
 
 protected:
@@ -251,7 +251,7 @@ public:
   JsonSchemaNode(JsonSchemaNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10366 };
 
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;

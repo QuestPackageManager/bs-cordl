@@ -35,12 +35,12 @@ public:
 
   __declspec(property(get = get_renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> renderers;
 
-  /// @brief Method ApplyChanges, addr 0x39e646c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ApplyChanges, addr 0x39e88f8, size 0x64, virtual false, abstract: false, final false
   inline void ApplyChanges();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockController* New_ctor();
 
-  /// @brief Method SetRendererState, addr 0x39e6658, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetRendererState, addr 0x39e8ae4, size 0x68, virtual false, abstract: false, final false
   inline void SetRendererState(bool newState);
 
   constexpr ::UnityEngine::MaterialPropertyBlock* const& __cordl_internal_get__materialPropertyBlock() const;
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x39e6844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e8cd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x39e6544, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x39e89d0, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
-  /// @brief Method get_renderers, addr 0x39e683c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderers, addr 0x39e8cc8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> get_renderers();
 
 protected:
@@ -79,7 +79,7 @@ public:
   MaterialPropertyBlockController(MaterialPropertyBlockController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16350 };
 
   /// @brief Field _renderers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> ____renderers;

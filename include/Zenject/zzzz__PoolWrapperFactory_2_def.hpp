@@ -81,7 +81,7 @@ public:
   PoolWrapperFactory_2(PoolWrapperFactory_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12415 };
 
   /// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IMemoryPool_2<TParam1, TValue>* ____pool;

@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetDetailsList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*> {
 public:
   // Declarations
-  /// @brief Method GetAssetDetailsList, addr 0x3f7c7e4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetDetailsList, addr 0x3f7fa48, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetAssetDetailsList();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f7c820, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7fa84, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAssetDetailsList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7a51c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7d780, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithAssetDetailsList(MessageWithAssetDetailsList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

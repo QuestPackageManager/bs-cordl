@@ -22,7 +22,7 @@ public:
   /// @brief Field s_httpTrimCharacters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_httpTrimCharacters, put = setStaticF_s_httpTrimCharacters)) ::ArrayW<char16_t, ::Array<char16_t>*> s_httpTrimCharacters;
 
-  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x4489cd8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x448cf3c, size 0x100, virtual false, abstract: false, final false
   static inline bool IsInvalidMethodOrHeaderString(::StringW stringValue);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_httpTrimCharacters();
@@ -44,7 +44,7 @@ public:
   HttpValidationHelpers(HttpValidationHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

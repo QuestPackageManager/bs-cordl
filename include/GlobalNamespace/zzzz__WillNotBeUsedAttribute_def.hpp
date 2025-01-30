@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::WillNotBeUsedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229c0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229ce98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   WillNotBeUsedAttribute(WillNotBeUsedAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19148 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -28,10 +28,10 @@ public:
   /// @brief Field digest, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
 
-  /// @brief Method Encode, addr 0x264691c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2647938, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetDigest, addr 0x26468a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x26478c0, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   static inline ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2643d18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2644d34, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x26467a8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26477c4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
 protected:

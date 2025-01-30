@@ -27,11 +27,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorSchemeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ResolveColor, addr 0x269fb58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ResolveColor, addr 0x26a0b74, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ResolveColor(::System::Nullable_1<::UnityEngine::Color> playerOverrideColor, bool usePlayerOverride, ::System::Nullable_1<bool> useBeatmapOverride,
                                                   ::System::Nullable_1<::UnityEngine::Color> beatmapOverrideColor, ::UnityEngine::Color environmentColor);
 
-  /// @brief Method ResolveColorScheme, addr 0x269f11c, size 0xa3c, virtual false, abstract: false, final false
+  /// @brief Method ResolveColorScheme, addr 0x26a0138, size 0xa3c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* ResolveColorScheme(::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
                                                                    ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::ColorScheme* environmentColorScheme);
 
@@ -50,7 +50,7 @@ public:
   ColorSchemeExtensions(ColorSchemeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

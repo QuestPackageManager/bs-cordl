@@ -112,10 +112,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x3ecfa44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x3ed2ca8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
-  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x3ecfa60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x3ed2cc4, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
   constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get_c() const;
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_method(::System::Reflection::MethodBase* value);
 
-  /// @brief Method .ctor, addr 0x3ecf9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed2c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,7 +148,7 @@ public:
   LateBoundReflectionDelegateFactory___c__DisplayClass3_0(LateBoundReflectionDelegateFactory___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10248 };
 
   /// @brief Field c, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___c;
@@ -219,7 +219,7 @@ public:
   LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass4_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10249 };
 
   /// @brief Field c, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___c;
@@ -284,7 +284,7 @@ public:
   LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass5_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10250 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
@@ -337,7 +337,7 @@ public:
   LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass6_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10251 };
 
   /// @brief Field propertyInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___propertyInfo;
@@ -387,7 +387,7 @@ public:
   LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass7_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10252 };
 
   /// @brief Field fieldInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ___fieldInfo;
@@ -437,7 +437,7 @@ public:
   LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass8_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10253 };
 
   /// @brief Field fieldInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ___fieldInfo;
@@ -487,7 +487,7 @@ public:
   LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1(LateBoundReflectionDelegateFactory___c__DisplayClass9_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10254 };
 
   /// @brief Field propertyInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___propertyInfo;
@@ -532,7 +532,7 @@ public:
   /// @brief Method CreateMethodCall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, ::System::Object*>* CreateMethodCall(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateParameterizedConstructor, addr 0x3ecf874, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method CreateParameterizedConstructor, addr 0x3ed2ad8, size 0x15c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateParameterizedConstructor(::System::Reflection::MethodBase* method);
 
   /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -543,12 +543,12 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ecf9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed2c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x3ecf81c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3ed2a80, size 0x58, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_Instance();
 
   static inline void setStaticF__instance(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* value);
@@ -568,7 +568,7 @@ public:
   LateBoundReflectionDelegateFactory(LateBoundReflectionDelegateFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

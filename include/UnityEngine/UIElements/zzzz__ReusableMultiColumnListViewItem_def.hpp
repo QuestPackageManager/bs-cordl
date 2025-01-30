@@ -26,18 +26,18 @@ public:
   // Declarations
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method Init, addr 0x497a530, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x497d794, size 0x3e4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns, bool usesAnimatedDrag);
 
-  /// @brief Method Init, addr 0x497c4a8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x497f70c, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableMultiColumnListViewItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x497c4ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497f710, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x497c4a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x497f704, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:
@@ -55,7 +55,7 @@ public:
   ReusableMultiColumnListViewItem(ReusableMultiColumnListViewItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
