@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x3c01fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c04b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x3c01fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x3c04b38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
-  /// @brief Method get_text, addr 0x3c01fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3c04b30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Text> get_text();
 
 protected:
@@ -72,7 +72,7 @@ public:
   TextButton(TextButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4769 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ____text;

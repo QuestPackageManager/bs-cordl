@@ -56,45 +56,45 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRStorable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRStorable>*();
 
-  /// @brief Method Equals, addr 0x3fa00e0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3fa2d38, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3f9ff9c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3fa2bf4, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRStorable other);
 
-  /// @brief Method GetHashCode, addr 0x3fa0170, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3fa2dc8, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRStorable>.FromAnchor, addr 0x3f9fcc0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRStorable>.FromAnchor, addr 0x3fa2918, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRStorable IOVRAnchorComponent_OVRStorable__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRStorable>.get_Handle, addr 0x3f9fc6c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRStorable>.get_Handle, addr 0x3fa28c4, size 0x54, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRStorable__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRStorable>.get_Type, addr 0x3f9fc14, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRStorable>.get_Type, addr 0x3fa286c, size 0x50, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRStorable__get_Type();
 
-  /// @brief Method SetEnabledAsync, addr 0x3f9fe9c, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method SetEnabledAsync, addr 0x3fa2af4, size 0x100, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method ToString, addr 0x3fa0204, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3fa2e5c, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3f9fcf0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fa2948, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRStorable getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x3fa02ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x3fa2f04, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x3f9fdb0, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x3fa2a08, size 0xec, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x3f9fd54, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x3fa29ac, size 0x5c, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x3f9fc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3fa28bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRStorable>"
@@ -103,10 +103,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRStorable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRStorable>* i___System__IEquatable_1___GlobalNamespace__OVRStorable_();
 
-  /// @brief Method op_Equality, addr 0x3fa0004, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3fa2c5c, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRStorable lhs, ::GlobalNamespace::OVRStorable rhs);
 
-  /// @brief Method op_Inequality, addr 0x3fa0070, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3fa2cc8, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRStorable lhs, ::GlobalNamespace::OVRStorable rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRStorable value);
@@ -119,7 +119,7 @@ public:
   constexpr OVRStorable(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

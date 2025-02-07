@@ -43,7 +43,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4b53be4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4b5683c, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer* New_ctor(::UnityEngine::GameObject* gameObject);
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method __zenCreate, addr 0x4b53c40, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b56898, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b53ce8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b56940, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b53bbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b56814, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject);
 
   /// @brief Convert to "::System::IDisposable"
@@ -81,7 +81,7 @@ public:
   DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer(DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12688 };
 
   /// @brief Field _gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject;
@@ -106,7 +106,7 @@ public:
   /// @brief Field _name, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
-  /// @brief Method InstallBindings, addr 0x4b53768, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4b563c0, size 0x148, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::DefaultGameObjectParentInstaller* New_ctor(::StringW name);
@@ -117,13 +117,13 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b538b0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b56508, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b53954, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b565ac, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b5370c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b56364, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
 protected:
@@ -141,7 +141,7 @@ public:
   DefaultGameObjectParentInstaller(DefaultGameObjectParentInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12689 };
 
   /// @brief Field _name, offset: 0x18, size: 0x8, def value: None
   ::StringW ____name;

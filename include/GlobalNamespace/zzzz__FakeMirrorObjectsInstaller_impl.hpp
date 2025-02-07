@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller___c::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf6018;
+  constexpr static std::size_t addrs = 0x3bf8b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller___c*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FakeMirrorObjectsInstaller___c::*)(::Zenject::BindingId)>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller___c::_InstallBindings_b__10_0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3bf6020;
+  constexpr static std::size_t addrs = 0x3bf8b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MirroredGameNoteController> (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf5af0;
+  constexpr static std::size_t addrs = 0x3bf8654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x3bf5af8;
+  constexpr static std::size_t addrs = 0x3bf865c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(&::GlobalNamespace::FakeMirrorObjectsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf5fb4;
+  constexpr static std::size_t addrs = 0x3bf8b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller*>::get(), ".ctor",

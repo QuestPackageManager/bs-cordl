@@ -61,16 +61,16 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method Accept, addr 0x40badd4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40bda2c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetArgument, addr 0x40b9510, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetArgument, addr 0x40bc168, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::IndexExpression* New_ctor(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
                                                                        ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method Rewrite, addr 0x40ba308, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40bcf60, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Rewrite(::System::Linq::Expressions::Expression* instance,
                                                           ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -92,23 +92,23 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method .ctor, addr 0x40bacc8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bd920, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method get_ArgumentCount, addr 0x40b9470, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentCount, addr 0x40bc0c8, size 0xa0, virtual true, abstract: false, final true
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Indexer, addr 0x40badcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Indexer, addr 0x40bda24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::PropertyInfo* get_Indexer();
 
-  /// @brief Method get_NodeType, addr 0x40bad58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40bd9b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Object, addr 0x40badc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Object, addr 0x40bda1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Object();
 
-  /// @brief Method get_Type, addr 0x40bad60, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40bd9b8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -129,7 +129,7 @@ public:
   IndexExpression(IndexExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13678 };
 
   /// @brief Field _arguments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____arguments;

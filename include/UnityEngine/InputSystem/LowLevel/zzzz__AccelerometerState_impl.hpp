@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::AccelerometerState::get_kFormat)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x460a7b4;
+  constexpr static std::size_t addrs = 0x460d40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::AccelerometerState>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::AccelerometerState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::AccelerometerState::get_format)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x460a7e4;
+  constexpr static std::size_t addrs = 0x460d43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::AccelerometerState>::get(),

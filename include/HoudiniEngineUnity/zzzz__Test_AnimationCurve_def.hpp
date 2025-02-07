@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9d790, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9fff4, size 0xe0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_AnimationCurve* other);
 
-  /// @brief Method IsNull, addr 0x3a9d780, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a9ffe4, size 0x10, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve* New_ctor(::UnityEngine::AnimationCurve* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x3a9d758, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9ffbc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AnimationCurve* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
@@ -71,7 +71,7 @@ public:
   Test_AnimationCurve(Test_AnimationCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11916 };
 
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___self;

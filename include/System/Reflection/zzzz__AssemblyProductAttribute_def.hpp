@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__Product_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d23c0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d26864, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW product);
 
 protected:

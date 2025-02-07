@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__materials, put = __cordl_internal_set__materials)) ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>
       _materials;
 
-  /// @brief Method Awake, addr 0x3ba1590, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ba40f0, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StaticEnvironmentLights* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__materials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  /// @brief Method .ctor, addr 0x3ba1624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba4184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   StaticEnvironmentLights(StaticEnvironmentLights const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4379 };
 
   /// @brief Field _lightColors, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> ____lightColors;

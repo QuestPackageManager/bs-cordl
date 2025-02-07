@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::CopyPosition*)>(&::GlobalNamespace::CopyPosition_CopyPositionUpdater::Add)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x39c4904;
+  constexpr static std::size_t addrs = 0x39c7140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CopyPosition_CopyPositionUpdater::*)()>(
     &::GlobalNamespace::CopyPosition_CopyPositionUpdater::LateUpdate)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x39c4ae8;
+  constexpr static std::size_t addrs = 0x39c7324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CopyPosition_CopyPositionUpdater*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CopyPosition_CopyPositionUpdater::*)()>(
     &::GlobalNamespace::CopyPosition_CopyPositionUpdater::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39c4c94;
+  constexpr static std::size_t addrs = 0x39c74d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CopyPosition_CopyPositionUpdater*>::get(),
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CopyPosition::*)()>(&::GlobalNamespace::CopyPosition::Refresh)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39c48c0;
+  constexpr static std::size_t addrs = 0x39c70fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CopyPosition*>::get(), "Refresh",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CopyPosition::*)()>(&::GlobalNamespace::CopyPosition::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39c4900;
+  constexpr static std::size_t addrs = 0x39c713c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CopyPosition*>::get(), "Awake",
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CopyPosition::*)()>(&::GlobalNamespace::CopyPosition::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4ae0;
+  constexpr static std::size_t addrs = 0x39c731c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CopyPosition*>::get(), ".ctor",

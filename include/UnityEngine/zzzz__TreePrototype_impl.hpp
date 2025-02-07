@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_prefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491eb94;
+  constexpr static std::size_t addrs = 0x49217ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_prefab",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)(::UnityEngine::GameObject*)>(&::UnityEngine::TreePrototype::set_prefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491eb9c;
+  constexpr static std::size_t addrs = 0x49217f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_bendFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491eba4;
+  constexpr static std::size_t addrs = 0x49217fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_bendFactor",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)(float_t)>(&::UnityEngine::TreePrototype::set_bendFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491ebac;
+  constexpr static std::size_t addrs = 0x4921804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_navMeshLod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491ebb4;
+  constexpr static std::size_t addrs = 0x492180c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_navMeshLod",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491ebbc;
+  constexpr static std::size_t addrs = 0x4921814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), ".ctor",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TreePrototype::*)(::System::Object*)>(&::UnityEngine::TreePrototype::Equals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x491ebc4;
+  constexpr static std::size_t addrs = 0x492181c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491ed38;
+  constexpr static std::size_t addrs = 0x4921990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TreePrototype::*)(::UnityEngine::TreePrototype*)>(&::UnityEngine::TreePrototype::Equals)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x491ec28;
+  constexpr static std::size_t addrs = 0x4921880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

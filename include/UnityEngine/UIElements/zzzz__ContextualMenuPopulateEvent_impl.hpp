@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent___c::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a301b4;
+  constexpr static std::size_t addrs = 0x4a32e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ContextualMenuPopulateEvent* (
     ::UnityEngine::UIElements::ContextualMenuPopulateEvent___c::*)()>(&::UnityEngine::UIElements::ContextualMenuPopulateEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a301bc;
+  constexpr static std::size_t addrs = 0x4a32e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DropdownMenu* (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2f828;
+  constexpr static std::size_t addrs = 0x4a32480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)(::UnityEngine::UIElements::DropdownMenu*)>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2f830;
+  constexpr static std::size_t addrs = 0x4a32488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EventBase* (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::get_triggerEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2f838;
+  constexpr static std::size_t addrs = 0x4a32490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::set_triggerEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2f840;
+  constexpr static std::size_t addrs = 0x4a32498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::ContextualMenuPopulateEvent* (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::DropdownMenu*, ::UnityEngine::UIElements::IEventHandler*,
                                                                             ::UnityEngine::UIElements::ContextualMenuManager*)>(&::UnityEngine::UIElements::ContextualMenuPopulateEvent::GetPooled)> {
   constexpr static std::size_t size = 0x770;
-  constexpr static std::size_t addrs = 0x4a2f848;
+  constexpr static std::size_t addrs = 0x4a324a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::Init)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4a2ffb8;
+  constexpr static std::size_t addrs = 0x4a32c10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::LocalInit)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4a30028;
+  constexpr static std::size_t addrs = 0x4a32c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>::get(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4a3005c;
+  constexpr static std::size_t addrs = 0x4a32cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>::get(),
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a300cc;
+  constexpr static std::size_t addrs = 0x4a32d24;
 
   inline static ::MethodInfo const* methodInfo() {
 

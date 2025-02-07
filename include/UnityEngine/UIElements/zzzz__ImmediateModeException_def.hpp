@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ImmediateModeException* New_ctor(::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x4a417bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a44414, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* inner);
 
 protected:
@@ -41,7 +41,7 @@ public:
   ImmediateModeException(ImmediateModeException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5982 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

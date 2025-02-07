@@ -22,49 +22,49 @@ namespace System {
 class CORDL_TYPE Buffer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BlockCopy, addr 0x3e1a34c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method BlockCopy, addr 0x3e1cfa4, size 0x1a8, virtual false, abstract: false, final false
   static inline void BlockCopy(::System::Array* src, int32_t srcOffset, ::System::Array* dst, int32_t dstOffset, int32_t count);
 
-  /// @brief Method ByteLength, addr 0x3e1a2b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ByteLength, addr 0x3e1cf10, size 0x94, virtual false, abstract: false, final false
   static inline int32_t ByteLength(::System::Array* array);
 
-  /// @brief Method IndexOfByte, addr 0x3e1a004, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method IndexOfByte, addr 0x3e1cc5c, size 0x118, virtual false, abstract: false, final false
   static inline int32_t IndexOfByte(::cordl_internals::Ptr<uint8_t> src, uint8_t value, int32_t index, int32_t count);
 
-  /// @brief Method InternalBlockCopy, addr 0x3e1a000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalBlockCopy, addr 0x3e1cc58, size 0x4, virtual false, abstract: false, final false
   static inline bool InternalBlockCopy(::System::Array* src, int32_t srcOffsetBytes, ::System::Array* dst, int32_t dstOffsetBytes, int32_t byteCount);
 
-  /// @brief Method InternalMemcpy, addr 0x3e1a2b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalMemcpy, addr 0x3e1cf0c, size 0x4, virtual false, abstract: false, final false
   static inline void InternalMemcpy(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t count);
 
-  /// @brief Method Memcpy, addr 0x3e1a1d4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Memcpy, addr 0x3e1ce2c, size 0xe0, virtual false, abstract: false, final false
   static inline void Memcpy(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t len);
 
-  /// @brief Method Memcpy, addr 0x3e1a1a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Memcpy, addr 0x3e1cdfc, size 0x30, virtual false, abstract: false, final false
   static inline void Memcpy(::cordl_internals::Ptr<uint8_t> pDest, int32_t destIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, int32_t len);
 
-  /// @brief Method Memmove, addr 0x3e1a580, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Memmove, addr 0x3e1d1d8, size 0x28, virtual false, abstract: false, final false
   static inline void Memmove(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, uint32_t len);
 
   /// @brief Method Memmove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Memmove(::ByRef<T> destination, ::ByRef<T> source, uint64_t elementCount);
 
-  /// @brief Method MemoryCopy, addr 0x3e1a4f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MemoryCopy, addr 0x3e1d14c, size 0x8c, virtual false, abstract: false, final false
   static inline void MemoryCopy(::cordl_internals::Ptr<void> source, ::cordl_internals::Ptr<void> destination, int64_t destinationSizeInBytes, int64_t sourceBytesToCopy);
 
-  /// @brief Method ZeroMemory, addr 0x3e1a120, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x3e1cd78, size 0x84, virtual false, abstract: false, final false
   static inline void ZeroMemory(::cordl_internals::Ptr<uint8_t> src, int64_t len);
 
-  /// @brief Method _ByteLength, addr 0x3e1a11c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _ByteLength, addr 0x3e1cd74, size 0x4, virtual false, abstract: false, final false
   static inline int32_t _ByteLength(::System::Array* array);
 
-  /// @brief Method memcpy1, addr 0x3e1a690, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method memcpy1, addr 0x3e1d2e8, size 0x9c, virtual false, abstract: false, final false
   static inline void memcpy1(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
-  /// @brief Method memcpy2, addr 0x3e1a624, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method memcpy2, addr 0x3e1d27c, size 0x6c, virtual false, abstract: false, final false
   static inline void memcpy2(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
-  /// @brief Method memcpy4, addr 0x3e1a5a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method memcpy4, addr 0x3e1d200, size 0x7c, virtual false, abstract: false, final false
   static inline void memcpy4(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, int32_t size);
 
 protected:

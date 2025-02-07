@@ -36,15 +36,15 @@ public:
   /// @brief Field _oculusMRCManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusMRCManager, put = __cordl_internal_set__oculusMRCManager)) ::UnityW<::GlobalNamespace::OculusMRCManager> _oculusMRCManager;
 
-  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x408391c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x4086574, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
-  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x408399c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x40865f4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
   static inline ::GlobalNamespace::ExternalCamerasManager* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x4083858, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x40864b0, size 0xc4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mrcBackgroundCameraPrefab() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__oculusMRCManager(::UnityW<::GlobalNamespace::OculusMRCManager> value);
 
-  /// @brief Method .ctor, addr 0x4083a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4086674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   ExternalCamerasManager(ExternalCamerasManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17892 };
 
   /// @brief Field _oculusMRCManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OculusMRCManager> ____oculusMRCManager;

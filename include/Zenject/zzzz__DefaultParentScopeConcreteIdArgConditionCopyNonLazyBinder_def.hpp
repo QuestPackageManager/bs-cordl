@@ -36,7 +36,7 @@ public:
 
   static inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithDefaultGameObjectParent, addr 0x4b05210, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithDefaultGameObjectParent, addr 0x4b07e68, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::StringW defaultParentName);
 
   constexpr ::Zenject::SubContainerCreatorBindInfo* const& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField() const;
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__SubContainerCreatorBindInfo_k__BackingField(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4b051d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b07e2c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x4b05200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x4b07e58, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
 
-  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x4b05208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x4b07e60, size 0x8, virtual false, abstract: false, final false
   inline void set_SubContainerCreatorBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
 protected:
@@ -69,7 +69,7 @@ public:
   DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12043 };
 
   /// @brief Field <SubContainerCreatorBindInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorBindInfo* ____SubContainerCreatorBindInfo_k__BackingField;

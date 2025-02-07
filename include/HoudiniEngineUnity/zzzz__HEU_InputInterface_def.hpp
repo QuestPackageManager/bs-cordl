@@ -38,7 +38,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputInterface* New_ctor(int32_t priority);
 
-  /// @brief Method RegisterInterface, addr 0x3a7dd14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RegisterInterface, addr 0x3a80578, size 0x58, virtual false, abstract: false, final false
   inline void RegisterInterface();
 
   constexpr int32_t const& __cordl_internal_get__priority() const;
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__priority(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a7dcec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a80550, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t priority);
 
-  /// @brief Method get_Priority, addr 0x3a7dce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x3a80548, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Priority();
 
 protected:
@@ -71,7 +71,7 @@ public:
   static constexpr int32_t DEFAULT_PRIORITY{ static_cast<int32_t>(0x64) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11825 };
 
   /// @brief Field _priority, offset: 0x10, size: 0x4, def value: None
   int32_t ____priority;

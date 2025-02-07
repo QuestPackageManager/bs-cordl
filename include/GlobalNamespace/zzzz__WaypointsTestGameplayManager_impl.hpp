@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestGameplayManager::*)()>(
     &::GlobalNamespace::WaypointsTestGameplayManager::Start)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22637a4;
+  constexpr static std::size_t addrs = 0x2265050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestGameplayManager*>::get(), "Start",
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestGameplayManager::*)()>(
     &::GlobalNamespace::WaypointsTestGameplayManager::LateUpdate)> {
   constexpr static std::size_t size = 0xbcc;
-  constexpr static std::size_t addrs = 0x22637d8;
+  constexpr static std::size_t addrs = 0x2265084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestGameplayManager*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestGameplayManager::*)()>(
     &::GlobalNamespace::WaypointsTestGameplayManager::OnDestroy)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x226454c;
+  constexpr static std::size_t addrs = 0x2265df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestGameplayManager*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::WaypointsTestGameplayManager::*)(float_t)>(
     &::GlobalNamespace::WaypointsTestGameplayManager::GetBar)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x22643a4;
+  constexpr static std::size_t addrs = 0x2265c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestGameplayManager::*)()>(
     &::GlobalNamespace::WaypointsTestGameplayManager::OnDrawGizmos)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x226486c;
+  constexpr static std::size_t addrs = 0x2266118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestGameplayManager*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestGameplayManager::*)()>(
     &::GlobalNamespace::WaypointsTestGameplayManager::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2264a44;
+  constexpr static std::size_t addrs = 0x22662f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestGameplayManager*>::get(), ".ctor",

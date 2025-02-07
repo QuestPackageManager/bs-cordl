@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x24b64a8;
+  constexpr static std::size_t addrs = 0x24b7ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24b6658;
+  constexpr static std::size_t addrs = 0x24b8054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b6694;
+  constexpr static std::size_t addrs = 0x24b8090;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Lambda)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b669c;
+  constexpr static std::size_t addrs = 0x24b8098;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* (
     ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_SplitParams)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b66a4;
+  constexpr static std::size_t addrs = 0x24b80a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> (
     ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_V1)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24b66ac;
+  constexpr static std::size_t addrs = 0x24b80a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> (
     ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_V2)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24b6798;
+  constexpr static std::size_t addrs = 0x24b8194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_G1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x24b6884;
+  constexpr static std::size_t addrs = 0x24b8280;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_G2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x24b68a4;
+  constexpr static std::size_t addrs = 0x24b82a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Bits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x24b68c4;
+  constexpr static std::size_t addrs = 0x24b82c0;
 
   inline static ::MethodInfo const* methodInfo() {
 

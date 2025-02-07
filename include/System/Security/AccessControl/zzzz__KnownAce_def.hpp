@@ -54,22 +54,22 @@ public:
 
   constexpr void __cordl_internal_set_identifier(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x3cc7cfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cca954, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x3cc7cf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cca950, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-  /// @brief Method get_AccessMask, addr 0x3cc7d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessMask, addr 0x3cca958, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
-  /// @brief Method get_SecurityIdentifier, addr 0x3cc7d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SecurityIdentifier, addr 0x3cca968, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Principal::SecurityIdentifier* get_SecurityIdentifier();
 
-  /// @brief Method set_AccessMask, addr 0x3cc7d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AccessMask, addr 0x3cca960, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessMask(int32_t value);
 
-  /// @brief Method set_SecurityIdentifier, addr 0x3cc7d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SecurityIdentifier, addr 0x3cca970, size 0x8, virtual false, abstract: false, final false
   inline void set_SecurityIdentifier(::System::Security::Principal::SecurityIdentifier* value);
 
 protected:

@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49e23a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49e4ffc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49e239c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e4ff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c* getStaticF___9();
@@ -60,7 +60,7 @@ public:
   PointerOutLinkTagEvent___c(PointerOutLinkTagEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,18 +77,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent___c;
 
-  /// @brief Method GetPooled, addr 0x49e22a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49e4efc, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* evt, ::StringW linkID);
 
-  /// @brief Method Init, addr 0x49e2244, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49e4e9c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49e2298, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49e4ef0, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOutLinkTagEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49e22ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e4f44, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   PointerOutLinkTagEvent(PointerOutLinkTagEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

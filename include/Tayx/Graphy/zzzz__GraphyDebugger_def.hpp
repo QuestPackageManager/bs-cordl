@@ -170,7 +170,7 @@ public:
   static ::Tayx::Graphy::GraphyDebugger_DebugVariable const Ram_Reserved;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -237,7 +237,7 @@ public:
   static ::Tayx::Graphy::GraphyDebugger_DebugComparer const Less_than;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17200 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -292,7 +292,7 @@ public:
   static ::Tayx::Graphy::GraphyDebugger_ConditionEvaluation const Only_one_condition_has_to_be_met;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17201 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -351,7 +351,7 @@ public:
   static ::Tayx::Graphy::GraphyDebugger_MessageType const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17202 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -383,7 +383,7 @@ public:
   constexpr GraphyDebugger_DebugCondition(::Tayx::Graphy::GraphyDebugger_DebugVariable Variable, ::Tayx::Graphy::GraphyDebugger_DebugComparer Comparer, float_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17203 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -470,12 +470,12 @@ public:
   /// @brief Field timePassed, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_timePassed, put = __cordl_internal_set_timePassed)) float_t timePassed;
 
-  /// @brief Method Executed, addr 0x44cd2bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Executed, addr 0x44cff14, size 0xc, virtual false, abstract: false, final false
   inline void Executed();
 
   static inline ::Tayx::Graphy::GraphyDebugger_DebugPacket* New_ctor();
 
-  /// @brief Method Update, addr 0x44ccb94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44cf7ec, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_Active() const;
@@ -580,10 +580,10 @@ public:
 
   constexpr void __cordl_internal_set_timePassed(float_t value);
 
-  /// @brief Method .ctor, addr 0x44cc194, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44cedec, size 0x120, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Check, addr 0x44cd2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Check, addr 0x44cff20, size 0x8, virtual false, abstract: false, final false
   inline bool get_Check();
 
 protected:
@@ -601,7 +601,7 @@ public:
   GraphyDebugger_DebugPacket(GraphyDebugger_DebugPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17204 };
 
   /// @brief Field Active, offset: 0x10, size: 0x1, def value: None
   bool ___Active;
@@ -709,10 +709,10 @@ public:
 
   static inline ::Tayx::Graphy::GraphyDebugger___c* New_ctor();
 
-  /// @brief Method <CheckDebugPackets>b__24_0, addr 0x44cd334, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <CheckDebugPackets>b__24_0, addr 0x44cff8c, size 0xc, virtual false, abstract: false, final false
   inline bool _CheckDebugPackets_b__24_0(::Tayx::Graphy::GraphyDebugger_DebugPacket* packet);
 
-  /// @brief Method .ctor, addr 0x44cd32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44cff84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Tayx::Graphy::GraphyDebugger___c* getStaticF___9();
@@ -738,7 +738,7 @@ public:
   GraphyDebugger___c(GraphyDebugger___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -758,7 +758,7 @@ public:
 
   static inline ::Tayx::Graphy::GraphyDebugger___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <GetFirstDebugPacketWithId>b__0, addr 0x44cd340, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetFirstDebugPacketWithId>b__0, addr 0x44cff98, size 0x24, virtual false, abstract: false, final false
   inline bool _GetFirstDebugPacketWithId_b__0(::Tayx::Graphy::GraphyDebugger_DebugPacket* x);
 
   constexpr int32_t const& __cordl_internal_get_packetId() const;
@@ -767,7 +767,7 @@ public:
 
   constexpr void __cordl_internal_set_packetId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44cc674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44cf2cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -785,7 +785,7 @@ public:
   GraphyDebugger___c__DisplayClass18_0(GraphyDebugger___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17206 };
 
   /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
   int32_t ___packetId;
@@ -810,7 +810,7 @@ public:
 
   static inline ::Tayx::Graphy::GraphyDebugger___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <GetAllDebugPacketsWithId>b__0, addr 0x44cd364, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetAllDebugPacketsWithId>b__0, addr 0x44cffbc, size 0x24, virtual false, abstract: false, final false
   inline bool _GetAllDebugPacketsWithId_b__0(::Tayx::Graphy::GraphyDebugger_DebugPacket* x);
 
   constexpr int32_t const& __cordl_internal_get_packetId() const;
@@ -819,7 +819,7 @@ public:
 
   constexpr void __cordl_internal_set_packetId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44cc754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44cf3ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -837,7 +837,7 @@ public:
   GraphyDebugger___c__DisplayClass19_0(GraphyDebugger___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17207 };
 
   /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
   int32_t ___packetId;
@@ -862,7 +862,7 @@ public:
 
   static inline ::Tayx::Graphy::GraphyDebugger___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <RemoveAllDebugPacketsWithId>b__0, addr 0x44cd388, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RemoveAllDebugPacketsWithId>b__0, addr 0x44cffe0, size 0x24, virtual false, abstract: false, final false
   inline bool _RemoveAllDebugPacketsWithId_b__0(::Tayx::Graphy::GraphyDebugger_DebugPacket* x);
 
   constexpr int32_t const& __cordl_internal_get_packetId() const;
@@ -871,7 +871,7 @@ public:
 
   constexpr void __cordl_internal_set_packetId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44cc8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44cf528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -889,7 +889,7 @@ public:
   GraphyDebugger___c__DisplayClass21_0(GraphyDebugger___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17208 };
 
   /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
   int32_t ___packetId;
@@ -942,62 +942,62 @@ public:
   /// @brief Field m_ramMonitor, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ramMonitor, put = __cordl_internal_set_m_ramMonitor)) ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> m_ramMonitor;
 
-  /// @brief Method AddCallbackToAllDebugPacketWithId, addr 0x44cc9ac, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method AddCallbackToAllDebugPacketWithId, addr 0x44cf604, size 0x1e8, virtual false, abstract: false, final false
   inline void AddCallbackToAllDebugPacketWithId(::System::Action* callback, int32_t id);
 
-  /// @brief Method AddCallbackToFirstDebugPacketWithId, addr 0x44cc8d8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddCallbackToFirstDebugPacketWithId, addr 0x44cf530, size 0xd4, virtual false, abstract: false, final false
   inline void AddCallbackToFirstDebugPacketWithId(::System::Action* callback, int32_t id);
 
-  /// @brief Method AddNewDebugPacket, addr 0x44cbf5c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x44cebb4, size 0xa4, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(::Tayx::Graphy::GraphyDebugger_DebugPacket* newDebugPacket);
 
-  /// @brief Method AddNewDebugPacket, addr 0x44cc000, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x44cec58, size 0x194, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::Tayx::Graphy::GraphyDebugger_DebugCondition newDebugCondition, ::Tayx::Graphy::GraphyDebugger_MessageType newMessageType, ::StringW newMessage,
                                 bool newDebugBreak, ::System::Action* newCallback);
 
-  /// @brief Method AddNewDebugPacket, addr 0x44cc3c8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x44cf020, size 0x12c, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::Tayx::Graphy::GraphyDebugger_DebugCondition newDebugCondition, ::Tayx::Graphy::GraphyDebugger_MessageType newMessageType, ::StringW newMessage,
                                 bool newDebugBreak, ::System::Collections::Generic::List_1<::System::Action*>* newCallbacks);
 
-  /// @brief Method AddNewDebugPacket, addr 0x44cc2b4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x44cef0c, size 0x114, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::System::Collections::Generic::List_1<::Tayx::Graphy::GraphyDebugger_DebugCondition>* newDebugConditions,
                                 ::Tayx::Graphy::GraphyDebugger_MessageType newMessageType, ::StringW newMessage, bool newDebugBreak, ::System::Action* newCallback);
 
-  /// @brief Method AddNewDebugPacket, addr 0x44cc4f4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x44cf14c, size 0xac, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::System::Collections::Generic::List_1<::Tayx::Graphy::GraphyDebugger_DebugCondition>* newDebugConditions,
                                 ::Tayx::Graphy::GraphyDebugger_MessageType newMessageType, ::StringW newMessage, bool newDebugBreak,
                                 ::System::Collections::Generic::List_1<::System::Action*>* newCallbacks);
 
-  /// @brief Method CheckDebugPackets, addr 0x44cbb44, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method CheckDebugPackets, addr 0x44ce79c, size 0x418, virtual false, abstract: false, final false
   inline void CheckDebugPackets();
 
-  /// @brief Method CheckIfConditionIsMet, addr 0x44ccbf0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CheckIfConditionIsMet, addr 0x44cf848, size 0xf4, virtual false, abstract: false, final false
   inline bool CheckIfConditionIsMet(::Tayx::Graphy::GraphyDebugger_DebugCondition debugCondition);
 
-  /// @brief Method ExecuteOperationsInDebugPacket, addr 0x44ccce4, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ExecuteOperationsInDebugPacket, addr 0x44cf93c, size 0x3e4, virtual false, abstract: false, final false
   inline void ExecuteOperationsInDebugPacket(::Tayx::Graphy::GraphyDebugger_DebugPacket* debugPacket);
 
-  /// @brief Method GetAllDebugPacketsWithId, addr 0x44cc67c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAllDebugPacketsWithId, addr 0x44cf2d4, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Tayx::Graphy::GraphyDebugger_DebugPacket*>* GetAllDebugPacketsWithId(int32_t packetId);
 
-  /// @brief Method GetFirstDebugPacketWithId, addr 0x44cc5a0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetFirstDebugPacketWithId, addr 0x44cf1f8, size 0xd4, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::GraphyDebugger_DebugPacket* GetFirstDebugPacketWithId(int32_t packetId);
 
-  /// @brief Method GetRequestedValueFromDebugVariable, addr 0x44cd0c8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetRequestedValueFromDebugVariable, addr 0x44cfd20, size 0x1f4, virtual false, abstract: false, final false
   inline float_t GetRequestedValueFromDebugVariable(::Tayx::Graphy::GraphyDebugger_DebugVariable debugVariable);
 
   static inline ::Tayx::Graphy::GraphyDebugger* New_ctor();
 
-  /// @brief Method RemoveAllDebugPacketsWithId, addr 0x44cc7e8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllDebugPacketsWithId, addr 0x44cf440, size 0xe8, virtual false, abstract: false, final false
   inline void RemoveAllDebugPacketsWithId(int32_t packetId);
 
-  /// @brief Method RemoveFirstDebugPacketWithId, addr 0x44cc75c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFirstDebugPacketWithId, addr 0x44cf3b4, size 0x8c, virtual false, abstract: false, final false
   inline void RemoveFirstDebugPacketWithId(int32_t packetId);
 
-  /// @brief Method Start, addr 0x44cbaa0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x44ce6f8, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x44cbb40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44ce798, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> const& __cordl_internal_get_m_audioMonitor() const;
@@ -1024,7 +1024,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ramMonitor(::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> value);
 
-  /// @brief Method .ctor, addr 0x44cb9ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ce644, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1042,7 +1042,7 @@ public:
   GraphyDebugger(GraphyDebugger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17209 };
 
   /// @brief Field m_debugPackets, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Tayx::Graphy::GraphyDebugger_DebugPacket*>* ___m_debugPackets;

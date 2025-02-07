@@ -40,7 +40,7 @@ public:
 
   static inline ::HMUI::IconAndTextSegmentedControlCell* New_ctor();
 
-  /// @brief Method SetTextActive, addr 0x408b964, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetTextActive, addr 0x408e5bc, size 0x30, virtual false, abstract: false, final false
   inline void SetTextActive(bool active);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
@@ -55,19 +55,19 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x408bbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408e840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x408bba8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x408e800, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_text, addr 0x408bbc4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x408e81c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_sprite, addr 0x408b5fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x408e254, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_text, addr 0x408b618, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x408e270, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   IconAndTextSegmentedControlCell(IconAndTextSegmentedControlCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18792 };
 
   /// @brief Field _icon, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;

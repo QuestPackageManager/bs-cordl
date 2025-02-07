@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass10_0::*)()>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass10_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a2d8c;
+  constexpr static std::size_t addrs = 0x22a4638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::KeyValuePair_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass10_0::_Contains_b__0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x22a34b4;
+  constexpr static std::size_t addrs = 0x22a4d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass7_0::*)()>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a2b6c;
+  constexpr static std::size_t addrs = 0x22a4418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass7_0::*)(::StringW)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass7_0::_get_Item_b__0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22a3518;
+  constexpr static std::size_t addrs = 0x22a4dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>*, ::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22a1f54;
+  constexpr static std::size_t addrs = 0x22a3800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::*)(
     ::BGLib::DotnetExtension::CommandLine::ArgumentOption)>(&::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::get_Item)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22a2650;
+  constexpr static std::size_t addrs = 0x22a3efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::*)(::StringW)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::get_Item)> {
   constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x22a2724;
+  constexpr static std::size_t addrs = 0x22a3fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::*)(
     ::BGLib::DotnetExtension::CommandLine::ArgumentOption)>(&::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::GetValueOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22a2b74;
+  constexpr static std::size_t addrs = 0x22a4420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::*)(
     ::BGLib::DotnetExtension::CommandLine::ArgumentOption)>(&::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::Contains)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22a2be4;
+  constexpr static std::size_t addrs = 0x22a4490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::*)(::StringW)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::Contains)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22a2cb8;
+  constexpr static std::size_t addrs = 0x22a4564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::*)()>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParserResult::ToString)> {
   constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x22a2d94;
+  constexpr static std::size_t addrs = 0x22a4640;
 
   inline static ::MethodInfo const* methodInfo() {
 

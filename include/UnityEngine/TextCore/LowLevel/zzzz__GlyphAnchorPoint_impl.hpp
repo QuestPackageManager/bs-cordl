@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::get_xCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4924074;
+  constexpr static std::size_t addrs = 0x4926ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint>::get(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint::get_yCoordinate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492407c;
+  constexpr static std::size_t addrs = 0x4926cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint>::get(),

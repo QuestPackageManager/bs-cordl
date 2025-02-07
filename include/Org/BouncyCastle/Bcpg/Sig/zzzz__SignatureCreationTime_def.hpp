@@ -22,20 +22,20 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 class CORDL_TYPE SignatureCreationTime : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x263ea0c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x2640408, size 0xb4, virtual false, abstract: false, final false
   inline ::System::DateTime GetTime();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime* New_ctor(bool critical, ::System::DateTime date);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method TimeToBytes, addr 0x263e890, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TimeToBytes, addr 0x264028c, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TimeToBytes(::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x263e9c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26403bc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::System::DateTime date);
 
-  /// @brief Method .ctor, addr 0x263e978, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2640374, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:

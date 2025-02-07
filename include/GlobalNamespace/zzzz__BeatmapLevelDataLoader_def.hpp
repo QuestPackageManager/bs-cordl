@@ -55,10 +55,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26bfd88, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c1784, size 0x2cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26c00cc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c1ac8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -79,7 +79,7 @@ public:
                                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12922 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -143,20 +143,20 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x26bf9c4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x26c13c0, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataFromAssetBundleExistsAsync(::StringW levelId, ::StringW assetBundlePath,
                                                                                                    ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x26bfad4, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x26c14d0, size 0x1b4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetBundleAsync, addr 0x26bf66c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetBundleAsync, addr 0x26c1068, size 0x134, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadBeatmapLevelDataFromAssetBundleAsync(::StringW levelId, ::StringW assetBundlePath, ::StringW levelDataAssetName,
                                                                                                                              ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::BeatmapLevelDataLoader* New_ctor();
 
-  /// @brief Method TryUnload, addr 0x26bfc88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryUnload, addr 0x26c1684, size 0x84, virtual false, abstract: false, final false
   inline bool TryUnload(::StringW beatmapLevelId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>* const& __cordl_internal_get__loadRequests() const;
@@ -165,10 +165,10 @@ public:
 
   constexpr void __cordl_internal_set__loadRequests(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>* value);
 
-  /// @brief Method .ctor, addr 0x26bfd0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c1708, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loadRequestCount, addr 0x26bf61c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_loadRequestCount, addr 0x26c1018, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_loadRequestCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -189,7 +189,7 @@ public:
   BeatmapLevelDataLoader(BeatmapLevelDataLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12923 };
 
   /// @brief Field _loadRequests, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>* ____loadRequests;

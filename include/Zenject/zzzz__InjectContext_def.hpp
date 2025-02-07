@@ -110,27 +110,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4b21f6c, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4b24bc4, size 0x300, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Zenject::InjectContext__get_AllObjectTypes_d__56* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4b22364, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4b24fbc, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4b2231c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4b24f74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b22400, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b25058, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b22324, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b24f7c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b2235c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b24fb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4b21f50, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4b24ba8, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -163,16 +163,16 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x4b2226c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4b24ec4, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method __zenCreate, addr 0x4b22404, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b2505c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b224cc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b25124, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b219bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b24614, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
@@ -205,7 +205,7 @@ public:
   InjectContext__get_AllObjectTypes_d__56(InjectContext__get_AllObjectTypes_d__56 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12451 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -280,27 +280,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4b22750, size 0x2ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4b253a8, size 0x2ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Zenject::InjectContext__get_ParentContexts_d__52* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator, addr 0x4b22b34, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator, addr 0x4b2578c, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* System_Collections_Generic_IEnumerable_Zenject_InjectContext__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current, addr 0x4b22aec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current, addr 0x4b25744, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::InjectContext* System_Collections_Generic_IEnumerator_Zenject_InjectContext__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b22bd0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b25828, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b22af4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b2574c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b22b2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b25784, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4b22734, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4b2538c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -333,16 +333,16 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x4b22a3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4b25694, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method __zenCreate, addr 0x4b22bd4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b2582c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b22c9c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b258f4, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b21874, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b244cc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>"
@@ -375,7 +375,7 @@ public:
   InjectContext__get_ParentContexts_d__52(InjectContext__get_ParentContexts_d__52 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12452 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -450,27 +450,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4b22f20, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4b25b78, size 0x2bc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Zenject::InjectContext__get_ParentContextsAndSelf_d__54* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator, addr 0x4b232d4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator, addr 0x4b25f2c, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* System_Collections_Generic_IEnumerable_Zenject_InjectContext__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current, addr 0x4b2328c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current, addr 0x4b25ee4, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::InjectContext* System_Collections_Generic_IEnumerator_Zenject_InjectContext__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b23370, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b25fc8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b23294, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b25eec, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b232cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b25f24, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4b22f04, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4b25b5c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -503,16 +503,16 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x4b231dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4b25e34, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method __zenCreate, addr 0x4b23374, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b25fcc, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2343c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b26094, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b21918, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b24570, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>"
@@ -545,7 +545,7 @@ public:
   InjectContext__get_ParentContextsAndSelf_d__54(InjectContext__get_ParentContextsAndSelf_d__54 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12453 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -654,19 +654,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clone, addr 0x4b21ac4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x4b2471c, size 0xb4, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* Clone();
 
-  /// @brief Method CreateSubContext, addr 0x4b219f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateSubContext, addr 0x4b24648, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* CreateSubContext(::System::Type* memberType);
 
-  /// @brief Method CreateSubContext, addr 0x4b219f8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateSubContext, addr 0x4b24650, size 0xcc, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* CreateSubContext(::System::Type* memberType, ::System::Object* identifier);
 
-  /// @brief Method Dispose, addr 0x4b216fc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4b24354, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetObjectGraphString, addr 0x4b21b78, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectGraphString, addr 0x4b247d0, size 0x3d8, virtual false, abstract: false, final false
   inline ::StringW GetObjectGraphString();
 
   static inline ::Zenject::InjectContext* New_ctor();
@@ -677,7 +677,7 @@ public:
 
   static inline ::Zenject::InjectContext* New_ctor(::Zenject::DiContainer* container, ::System::Type* memberType, ::System::Object* identifier, bool optional);
 
-  /// @brief Method Reset, addr 0x4b215b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4b2420c, size 0x60, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::Zenject::BindingId const& __cordl_internal_get__bindingId() const;
@@ -740,97 +740,97 @@ public:
 
   constexpr void __cordl_internal_set__sourceType(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x4b21594, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b241ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4b21614, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2426c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* memberType);
 
-  /// @brief Method .ctor, addr 0x4b21658, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b242b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* memberType, ::System::Object* identifier);
 
-  /// @brief Method .ctor, addr 0x4b216a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b24300, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* memberType, ::System::Object* identifier, bool optional);
 
-  /// @brief Method get_AllObjectTypes, addr 0x4b2194c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_AllObjectTypes, addr 0x4b245a4, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_AllObjectTypes();
 
-  /// @brief Method get_BindingId, addr 0x4b21754, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BindingId, addr 0x4b243ac, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_BindingId();
 
-  /// @brief Method get_ConcreteIdentifier, addr 0x4b217d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConcreteIdentifier, addr 0x4b2442c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ConcreteIdentifier();
 
-  /// @brief Method get_Container, addr 0x4b217f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4b2444c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_FallBackValue, addr 0x4b217e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FallBackValue, addr 0x4b2443c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_FallBackValue();
 
-  /// @brief Method get_Identifier, addr 0x4b21790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x4b243e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method get_MemberName, addr 0x4b21798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x4b243f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_MemberType, addr 0x4b217a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x4b24400, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_ObjectInstance, addr 0x4b21780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectInstance, addr 0x4b243d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ObjectInstance();
 
-  /// @brief Method get_ObjectType, addr 0x4b21760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x4b243b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_Optional, addr 0x4b217b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Optional, addr 0x4b24408, size 0x8, virtual false, abstract: false, final false
   inline bool get_Optional();
 
-  /// @brief Method get_ParentContext, addr 0x4b21770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentContext, addr 0x4b243c8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* get_ParentContext();
 
-  /// @brief Method get_ParentContexts, addr 0x4b21804, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ParentContexts, addr 0x4b2445c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>* get_ParentContexts();
 
-  /// @brief Method get_ParentContextsAndSelf, addr 0x4b218a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ParentContextsAndSelf, addr 0x4b24500, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>* get_ParentContextsAndSelf();
 
-  /// @brief Method get_SourceType, addr 0x4b217c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceType, addr 0x4b2441c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectSources get_SourceType();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_ConcreteIdentifier, addr 0x4b217dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ConcreteIdentifier, addr 0x4b24434, size 0x8, virtual false, abstract: false, final false
   inline void set_ConcreteIdentifier(::System::Object* value);
 
-  /// @brief Method set_Container, addr 0x4b217fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Container, addr 0x4b24454, size 0x8, virtual false, abstract: false, final false
   inline void set_Container(::Zenject::DiContainer* value);
 
-  /// @brief Method set_FallBackValue, addr 0x4b217ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FallBackValue, addr 0x4b24444, size 0x8, virtual false, abstract: false, final false
   inline void set_FallBackValue(::System::Object* value);
 
-  /// @brief Method set_Identifier, addr 0x4b216a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x4b242f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method set_MemberName, addr 0x4b217a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberName, addr 0x4b243f8, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberName(::StringW value);
 
-  /// @brief Method set_MemberType, addr 0x4b21650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberType, addr 0x4b242a8, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Type* value);
 
-  /// @brief Method set_ObjectInstance, addr 0x4b21788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectInstance, addr 0x4b243e0, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectInstance(::System::Object* value);
 
-  /// @brief Method set_ObjectType, addr 0x4b21768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectType, addr 0x4b243c0, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectType(::System::Type* value);
 
-  /// @brief Method set_Optional, addr 0x4b217b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x4b24410, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
-  /// @brief Method set_ParentContext, addr 0x4b21778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentContext, addr 0x4b243d0, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentContext(::Zenject::InjectContext* value);
 
-  /// @brief Method set_SourceType, addr 0x4b217cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SourceType, addr 0x4b24424, size 0x8, virtual false, abstract: false, final false
   inline void set_SourceType(::Zenject::InjectSources value);
 
 protected:
@@ -848,7 +848,7 @@ public:
   InjectContext(InjectContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12454 };
 
   /// @brief Field _bindingId, offset: 0x10, size: 0x10, def value: None
   ::Zenject::BindingId ____bindingId;

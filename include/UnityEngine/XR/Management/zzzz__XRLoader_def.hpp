@@ -24,27 +24,27 @@ namespace UnityEngine::XR::Management {
 class CORDL_TYPE XRLoader : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Method Deinitialize, addr 0x48335f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x4836248, size 0x8, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method GetLoadedSubsystem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline T GetLoadedSubsystem();
 
-  /// @brief Method GetSupportedGraphicsDeviceTypes, addr 0x48335f8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetSupportedGraphicsDeviceTypes, addr 0x4836250, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::GraphicsDeviceType>* GetSupportedGraphicsDeviceTypes(bool buildingPlayer);
 
-  /// @brief Method Initialize, addr 0x48335d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4836230, size 0x8, virtual true, abstract: false, final false
   inline bool Initialize();
 
   static inline ::UnityEngine::XR::Management::XRLoader* New_ctor();
 
-  /// @brief Method Start, addr 0x48335e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x4836238, size 0x8, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Stop, addr 0x48335e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x4836240, size 0x8, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method .ctor, addr 0x4833660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48362b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   XRLoader(XRLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

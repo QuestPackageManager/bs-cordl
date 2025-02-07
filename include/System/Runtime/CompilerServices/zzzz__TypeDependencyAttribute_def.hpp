@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d1cb60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1f7b8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
 protected:

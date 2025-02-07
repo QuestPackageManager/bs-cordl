@@ -51,7 +51,7 @@ public:
 
   __declspec(property(get = get_colorScheme, put = set_colorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> colorScheme;
 
-  /// @brief Method InstallBindings, addr 0x3b3a6f4, size 0xec8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b3d254, size 0xec8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LightmappingSceneSetup* New_ctor();
@@ -86,13 +86,13 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value);
 
-  /// @brief Method .ctor, addr 0x3b3b688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3e1e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x3b3a6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x3b3d244, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method set_colorScheme, addr 0x3b3a6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorScheme, addr 0x3b3d24c, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   LightmappingSceneSetup(LightmappingSceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5224 };
 
   /// @brief Field _beatmapLevelSo, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____beatmapLevelSo;

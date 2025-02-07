@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::GlobalNamespace::SecureRandomProvider_SecureRandomState::GetBytes)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x22e56f0;
+  constexpr static std::size_t addrs = 0x22e70ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(
     &::GlobalNamespace::SecureRandomProvider_SecureRandomState::GetByte)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22e5808;
+  constexpr static std::size_t addrs = 0x22e7204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(
     &::GlobalNamespace::SecureRandomProvider_SecureRandomState::FillBuffer)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22e5ab4;
+  constexpr static std::size_t addrs = 0x22e74b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(
     &::GlobalNamespace::SecureRandomProvider_SecureRandomState::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22e5a10;
+  constexpr static std::size_t addrs = 0x22e740c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(int32_t)>(&::GlobalNamespace::SecureRandomProvider::GetBytes)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22e5648;
+  constexpr static std::size_t addrs = 0x22e7044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)()>(&::GlobalNamespace::SecureRandomProvider::GetByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22e57a8;
+  constexpr static std::size_t addrs = 0x22e71a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SecureRandomProvider*>::get(), "GetByte",
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::GlobalNamespace::SecureRandomProvider::GetBytes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22e58b0;
+  constexpr static std::size_t addrs = 0x22e72ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::SecureRandomProvider::GetBytes)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22e5930;
+  constexpr static std::size_t addrs = 0x22e732c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

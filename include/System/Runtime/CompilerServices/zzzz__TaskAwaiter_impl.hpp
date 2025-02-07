@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0::*)()>(
     &::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1b5bc;
+  constexpr static std::size_t addrs = 0x3d1e214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0::*)()>(
     &::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0::_OutputWaitEtwEvents_b__0)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3d1b5c4;
+  constexpr static std::size_t addrs = 0x3d1e21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::TaskAwaiter::*)(::System::Threading::Tasks::Task*)>(
     &::System::Runtime::CompilerServices::TaskAwaiter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1b110;
+  constexpr static std::size_t addrs = 0x3d1dd68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::CompilerServices::TaskAwaiter::*)()>(
     &::System::Runtime::CompilerServices::TaskAwaiter::get_IsCompleted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d1b118;
+  constexpr static std::size_t addrs = 0x3d1dd70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::TaskAwaiter>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::TaskAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::TaskAwaiter::OnCompleted)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d1adc8;
+  constexpr static std::size_t addrs = 0x3d1da20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::TaskAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::TaskAwaiter::UnsafeOnCompleted)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d1af64;
+  constexpr static std::size_t addrs = 0x3d1dbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::TaskAwaiter::*)()>(
     &::System::Runtime::CompilerServices::TaskAwaiter::GetResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1b1e4;
+  constexpr static std::size_t addrs = 0x3d1de3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::TaskAwaiter>::get(),
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(&::System::Runtime::CompilerServices::TaskAwaiter::ValidateEnd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d1b1ec;
+  constexpr static std::size_t addrs = 0x3d1de44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(
     &::System::Runtime::CompilerServices::TaskAwaiter::HandleNonSuccessAndDebuggerNotification)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d1b238;
+  constexpr static std::size_t addrs = 0x3d1de90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(&::System::Runtime::CompilerServices::TaskAwaiter::ThrowForNonSuccess)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3d1b298;
+  constexpr static std::size_t addrs = 0x3d1def0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*, ::System::Action*, bool, bool)>(
     &::System::Runtime::CompilerServices::TaskAwaiter::OnCompletedInternal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d1b134;
+  constexpr static std::size_t addrs = 0x3d1dd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action* (*)(::System::Threading::Tasks::Task*, ::System::Action*)>(
     &::System::Runtime::CompilerServices::TaskAwaiter::OutputWaitEtwEvents)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3d1b3e4;
+  constexpr static std::size_t addrs = 0x3d1e03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

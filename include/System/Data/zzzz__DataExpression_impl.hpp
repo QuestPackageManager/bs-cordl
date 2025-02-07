@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataExpression::*)(::System::Data::DataTable*, ::StringW)>(
     &::System::Data::DataExpression::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x416ecec;
+  constexpr static std::size_t addrs = 0x4171944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataExpression::*)(::System::Data::DataTable*, ::StringW, ::System::Type*)>(
     &::System::Data::DataExpression::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x417a6f0;
+  constexpr static std::size_t addrs = 0x417d348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::get_Expression)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x417b800;
+  constexpr static std::size_t addrs = 0x417e458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataExpression*>::get(), "get_Expression",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::get_HasValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x417b850;
+  constexpr static std::size_t addrs = 0x417e4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataExpression*>::get(), "get_HasValue",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataExpression::*)(::System::Data::DataTable*)>(&::System::Data::DataExpression::Bind)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x417b718;
+  constexpr static std::size_t addrs = 0x417e370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataExpression::*)(::System::Data::DataColumn*)>(&::System::Data::DataExpression::DependsOn)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x417134c;
+  constexpr static std::size_t addrs = 0x4173fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::Evaluate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x417b860;
+  constexpr static std::size_t addrs = 0x417e4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataExpression*>::get(), "Evaluate",
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::DataExpression::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::DataExpression::Evaluate)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x417b86c;
+  constexpr static std::size_t addrs = 0x417e4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataExpression::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::DataExpression::Invoke)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x417baec;
+  constexpr static std::size_t addrs = 0x417e744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> (::System::Data::DataExpression::*)()>(
     &::System::Data::DataExpression::GetDependency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x417bc5c;
+  constexpr static std::size_t addrs = 0x417e8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataExpression*>::get(), "GetDependency",
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::IsTableAggregate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x417bc64;
+  constexpr static std::size_t addrs = 0x417e8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataExpression*>::get(), "IsTableAggregate",
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*)>(&::System::Data::DataExpression::IsUnknown)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x417bc7c;
+  constexpr static std::size_t addrs = 0x417e8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x417bcd4;
+  constexpr static std::size_t addrs = 0x417e92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataExpression*>::get(), "HasLocalAggregate",
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataExpression::*)()>(&::System::Data::DataExpression::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x417bcec;
+  constexpr static std::size_t addrs = 0x417e944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataExpression*>::get(), "HasRemoteAggregate",
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*)>(&::System::Data::DataExpression::ToBoolean)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x41783e8;
+  constexpr static std::size_t addrs = 0x417b040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

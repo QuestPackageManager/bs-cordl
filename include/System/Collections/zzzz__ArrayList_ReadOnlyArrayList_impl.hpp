@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Collections::ArrayList*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc4164;
+  constexpr static std::size_t addrs = 0x3dc6dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc675c;
+  constexpr static std::size_t addrs = 0x3dc93b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dc6780;
+  constexpr static std::size_t addrs = 0x3dc93d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dc6788;
+  constexpr static std::size_t addrs = 0x3dc93e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6790;
+  constexpr static std::size_t addrs = 0x3dc93e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_Item)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc67b4;
+  constexpr static std::size_t addrs = 0x3dc940c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, ::System::Object*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::set_Item)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc67d8;
+  constexpr static std::size_t addrs = 0x3dc9430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6824;
+  constexpr static std::size_t addrs = 0x3dc947c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Object*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::Add)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6848;
+  constexpr static std::size_t addrs = 0x3dc94a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Collections::ICollection*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::AddRange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6894;
+  constexpr static std::size_t addrs = 0x3dc94ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::set_Capacity)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc68e0;
+  constexpr static std::size_t addrs = 0x3dc9538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::Clear)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc692c;
+  constexpr static std::size_t addrs = 0x3dc9584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::Clone)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3dc6978;
+  constexpr static std::size_t addrs = 0x3dc95d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Object*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6a60;
+  constexpr static std::size_t addrs = 0x3dc96b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Array*, int32_t)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::CopyTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6a84;
+  constexpr static std::size_t addrs = 0x3dc96dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, ::System::Array*, int32_t, int32_t)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::CopyTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6aa8;
+  constexpr static std::size_t addrs = 0x3dc9700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6acc;
+  constexpr static std::size_t addrs = 0x3dc9724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Object*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::IndexOf)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6af0;
+  constexpr static std::size_t addrs = 0x3dc9748;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, ::System::Object*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::Insert)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6b14;
+  constexpr static std::size_t addrs = 0x3dc976c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, ::System::Collections::ICollection*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::InsertRange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6b60;
+  constexpr static std::size_t addrs = 0x3dc97b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Object*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::Remove)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6bac;
+  constexpr static std::size_t addrs = 0x3dc9804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::RemoveAt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6bf8;
+  constexpr static std::size_t addrs = 0x3dc9850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, int32_t)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::RemoveRange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6c44;
+  constexpr static std::size_t addrs = 0x3dc989c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, int32_t)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::Reverse)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6c90;
+  constexpr static std::size_t addrs = 0x3dc98e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, int32_t, ::System::Collections::IComparer*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::Sort)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dc6cdc;
+  constexpr static std::size_t addrs = 0x3dc9934;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::ToArray)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6d28;
+  constexpr static std::size_t addrs = 0x3dc9980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Type*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::ToArray)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dc6d4c;
+  constexpr static std::size_t addrs = 0x3dc99a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

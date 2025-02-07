@@ -26,24 +26,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
 
-  /// @brief Method LoadRecording, addr 0x3b1b05c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LoadRecording, addr 0x3b1dbbc, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
   static inline ::GlobalNamespace::EmptyPosesSerializer* New_ctor();
 
-  /// @brief Method RecordingCanBeCreated, addr 0x3b1b06c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingCanBeCreated, addr 0x3b1dbcc, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
 
-  /// @brief Method RecordingExists, addr 0x3b1b064, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingExists, addr 0x3b1dbc4, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method SaveRecording, addr 0x3b1b058, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveRecording, addr 0x3b1dbb8, size 0x4, virtual true, abstract: false, final true
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method SaveToOldFormat, addr 0x3b1b054, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveToOldFormat, addr 0x3b1dbb4, size 0x4, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method .ctor, addr 0x3b1b074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1dbd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
@@ -64,7 +64,7 @@ public:
   EmptyPosesSerializer(EmptyPosesSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

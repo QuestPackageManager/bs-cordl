@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VariableMovementDataProviderDebugWindow::*)()>(
     &::GlobalNamespace::VariableMovementDataProviderDebugWindow::OnGUI)> {
   constexpr static std::size_t size = 0xb1c;
-  constexpr static std::size_t addrs = 0x3ae78ec;
+  constexpr static std::size_t addrs = 0x3aea44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VariableMovementDataProviderDebugWindow::*)()>(
     &::GlobalNamespace::VariableMovementDataProviderDebugWindow::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ae8408;
+  constexpr static std::size_t addrs = 0x3aeaf68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

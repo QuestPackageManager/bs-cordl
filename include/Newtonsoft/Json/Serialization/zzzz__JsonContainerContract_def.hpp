@@ -113,40 +113,40 @@ public:
 
   constexpr void __cordl_internal_set__itemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method .ctor, addr 0x3ee6b80, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee97d8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_FinalItemContract, addr 0x3ee74bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FinalItemContract, addr 0x3eea114, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_FinalItemContract();
 
-  /// @brief Method get_ItemContract, addr 0x3ee7470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemContract, addr 0x3eea0c8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_ItemContract();
 
-  /// @brief Method get_ItemConverter, addr 0x3ee74c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverter, addr 0x3eea11c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
 
-  /// @brief Method get_ItemIsReference, addr 0x3ee74d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemIsReference, addr 0x3eea12c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ItemIsReference();
 
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x3ee74e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x3eea13c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
 
-  /// @brief Method get_ItemTypeNameHandling, addr 0x3ee74f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x3eea14c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
 
-  /// @brief Method set_ItemContract, addr 0x3ee7478, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ItemContract, addr 0x3eea0d0, size 0x44, virtual false, abstract: false, final false
   inline void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method set_ItemConverter, addr 0x3ee74cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverter, addr 0x3eea124, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
 
-  /// @brief Method set_ItemIsReference, addr 0x3ee74dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemIsReference, addr 0x3eea134, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemIsReference(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x3ee74ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x3eea144, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  /// @brief Method set_ItemTypeNameHandling, addr 0x3ee74fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x3eea154, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
 protected:
@@ -164,7 +164,7 @@ public:
   JsonContainerContract(JsonContainerContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10311 };
 
   /// @brief Field _itemContract, offset: 0x90, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonContract* ____itemContract;

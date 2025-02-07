@@ -60,91 +60,91 @@ public:
   /// @brief Field fixedNumberFormats, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_fixedNumberFormats, put = setStaticF_fixedNumberFormats)) ::ArrayW<::StringW, ::Array<::StringW>*> fixedNumberFormats;
 
-  /// @brief Method Append2DigitNumber, addr 0x3dd8da8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Append2DigitNumber, addr 0x3ddba00, size 0x5c, virtual false, abstract: false, final false
   static inline void Append2DigitNumber(::System::Text::StringBuilder* result, int32_t val);
 
-  /// @brief Method ExpandPredefinedFormat, addr 0x3dd90a8, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method ExpandPredefinedFormat, addr 0x3ddbd00, size 0x39c, virtual false, abstract: false, final false
   static inline ::StringW ExpandPredefinedFormat(::System::ReadOnlySpan_1<char16_t> format, ::ByRef<::System::DateTime> dateTime, ::ByRef<::System::Globalization::DateTimeFormatInfo*> dtfi,
                                                  ::ByRef<::System::TimeSpan> offset);
 
-  /// @brief Method Format, addr 0x3dd03b0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3dd3008, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::DateTime dateTime, ::StringW format, ::System::IFormatProvider* provider);
 
-  /// @brief Method Format, addr 0x3dd40f0, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3dd6d48, size 0x2b0, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::DateTime dateTime, ::StringW format, ::System::IFormatProvider* provider, ::System::TimeSpan offset);
 
-  /// @brief Method FormatCustomized, addr 0x3dd7674, size 0x1138, virtual false, abstract: false, final false
+  /// @brief Method FormatCustomized, addr 0x3dda2cc, size 0x1138, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatCustomized(::System::DateTime dateTime, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                                                 ::System::TimeSpan offset, ::System::Text::StringBuilder* result);
 
-  /// @brief Method FormatCustomizedRoundripTimeZone, addr 0x3dd8b58, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method FormatCustomizedRoundripTimeZone, addr 0x3ddb7b0, size 0x250, virtual false, abstract: false, final false
   static inline void FormatCustomizedRoundripTimeZone(::System::DateTime dateTime, ::System::TimeSpan offset, ::System::Text::StringBuilder* result);
 
-  /// @brief Method FormatCustomizedTimeZone, addr 0x3dd87ac, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method FormatCustomizedTimeZone, addr 0x3ddb404, size 0x3ac, virtual false, abstract: false, final false
   static inline void FormatCustomizedTimeZone(::System::DateTime dateTime, ::System::TimeSpan offset, ::System::ReadOnlySpan_1<char16_t> format, int32_t tokenLen, bool timeOnly,
                                               ::System::Text::StringBuilder* result);
 
-  /// @brief Method FormatDayOfWeek, addr 0x3dd71dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FormatDayOfWeek, addr 0x3dd9e34, size 0x34, virtual false, abstract: false, final false
   static inline ::StringW FormatDayOfWeek(int32_t dayOfWeek, int32_t repeat, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method FormatDigits, addr 0x3dd6f70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FormatDigits, addr 0x3dd9bc8, size 0x70, virtual false, abstract: false, final false
   static inline void FormatDigits(::System::Text::StringBuilder* outputBuffer, int32_t value, int32_t len);
 
-  /// @brief Method FormatDigits, addr 0x3dd6fe0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method FormatDigits, addr 0x3dd9c38, size 0xf8, virtual false, abstract: false, final false
   static inline void FormatDigits(::System::Text::StringBuilder* outputBuffer, int32_t value, int32_t len, bool overrideLengthLimit);
 
-  /// @brief Method FormatHebrewMonthName, addr 0x3dd7244, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FormatHebrewMonthName, addr 0x3dd9e9c, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW FormatHebrewMonthName(::System::DateTime time, int32_t month, int32_t repeatCount, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method FormatMonth, addr 0x3dd7210, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FormatMonth, addr 0x3dd9e68, size 0x34, virtual false, abstract: false, final false
   static inline ::StringW FormatMonth(int32_t month, int32_t repeatCount, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method FormatStringBuilder, addr 0x3dd9c88, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method FormatStringBuilder, addr 0x3ddc8e0, size 0x330, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatStringBuilder(::System::DateTime dateTime, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                                                    ::System::TimeSpan offset);
 
-  /// @brief Method GetRealFormat, addr 0x3dd8e04, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetRealFormat, addr 0x3ddba5c, size 0x2a4, virtual false, abstract: false, final false
   static inline ::StringW GetRealFormat(::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method HebrewFormatDigits, addr 0x3dd70d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HebrewFormatDigits, addr 0x3dd9d30, size 0x7c, virtual false, abstract: false, final false
   static inline void HebrewFormatDigits(::System::Text::StringBuilder* outputBuffer, int32_t digits);
 
-  /// @brief Method InvalidFormatForLocal, addr 0x3dd9444, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InvalidFormatForLocal, addr 0x3ddc09c, size 0x4, virtual false, abstract: false, final false
   static inline void InvalidFormatForLocal(::System::ReadOnlySpan_1<char16_t> format, ::System::DateTime dateTime);
 
-  /// @brief Method IsUseGenitiveForm, addr 0x3dd751c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IsUseGenitiveForm, addr 0x3dda174, size 0x158, virtual false, abstract: false, final false
   static inline bool IsUseGenitiveForm(::System::ReadOnlySpan_1<char16_t> format, int32_t index, int32_t tokenLen, char16_t patternToMatch);
 
-  /// @brief Method ParseNextChar, addr 0x3dd74ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseNextChar, addr 0x3dda104, size 0x70, virtual false, abstract: false, final false
   static inline int32_t ParseNextChar(::System::ReadOnlySpan_1<char16_t> format, int32_t pos);
 
-  /// @brief Method ParseQuoteString, addr 0x3dd7304, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ParseQuoteString, addr 0x3dd9f5c, size 0x1a8, virtual false, abstract: false, final false
   static inline int32_t ParseQuoteString(::System::ReadOnlySpan_1<char16_t> format, int32_t pos, ::System::Text::StringBuilder* result);
 
-  /// @brief Method ParseRepeatPattern, addr 0x3dd7154, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ParseRepeatPattern, addr 0x3dd9dac, size 0x88, virtual false, abstract: false, final false
   static inline int32_t ParseRepeatPattern(::System::ReadOnlySpan_1<char16_t> format, int32_t pos, char16_t patternChar);
 
-  /// @brief Method TryFormat, addr 0x3dd0610, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method TryFormat, addr 0x3dd3268, size 0xb8, virtual false, abstract: false, final false
   static inline bool TryFormat(::System::DateTime dateTime, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format,
                                ::System::IFormatProvider* provider);
 
-  /// @brief Method TryFormat, addr 0x3dd462c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method TryFormat, addr 0x3dd7284, size 0x20c, virtual false, abstract: false, final false
   static inline bool TryFormat(::System::DateTime dateTime, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format,
                                ::System::IFormatProvider* provider, ::System::TimeSpan offset);
 
-  /// @brief Method TryFormatO, addr 0x3dd9448, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method TryFormatO, addr 0x3ddc0a0, size 0x4dc, virtual false, abstract: false, final false
   static inline bool TryFormatO(::System::DateTime dateTime, ::System::TimeSpan offset, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormatR, addr 0x3dd9924, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method TryFormatR, addr 0x3ddc57c, size 0x364, virtual false, abstract: false, final false
   static inline bool TryFormatR(::System::DateTime dateTime, ::System::TimeSpan offset, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method WriteDigits, addr 0x3dda0a4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WriteDigits, addr 0x3ddccfc, size 0xac, virtual false, abstract: false, final false
   static inline void WriteDigits(uint64_t value, ::System::Span_1<char16_t> buffer);
 
-  /// @brief Method WriteFourDecimalDigits, addr 0x3dda004, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteFourDecimalDigits, addr 0x3ddcc5c, size 0xa0, virtual false, abstract: false, final false
   static inline void WriteFourDecimalDigits(uint32_t value, ::System::Span_1<char16_t> buffer, int32_t startingIndex);
 
-  /// @brief Method WriteTwoDecimalDigits, addr 0x3dd9fb8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method WriteTwoDecimalDigits, addr 0x3ddcc10, size 0x4c, virtual false, abstract: false, final false
   static inline void WriteTwoDecimalDigits(uint32_t value, ::System::Span_1<char16_t> destination, int32_t offset);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InvariantAbbreviatedDayNames();

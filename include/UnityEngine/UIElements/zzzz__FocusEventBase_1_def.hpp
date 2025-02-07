@@ -133,7 +133,7 @@ public:
   FocusEventBase_1(FocusEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5826 };
 
   /// @brief Field <relatedTarget>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ____relatedTarget_k__BackingField;

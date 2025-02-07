@@ -21,40 +21,40 @@ namespace UnityEngine::Internal {
 class CORDL_TYPE InputUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAxis, addr 0x48eb85c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAxis, addr 0x48ee4b4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAxis(::StringW axisName);
 
-  /// @brief Method GetAxisRaw, addr 0x48eb8d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAxisRaw, addr 0x48ee52c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAxisRaw(::StringW axisName);
 
-  /// @brief Method GetAxisRaw__Unmanaged, addr 0x48ed3cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAxisRaw__Unmanaged, addr 0x48f0024, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetAxisRaw__Unmanaged(::cordl_internals::Ptr<uint8_t> axisName, int32_t axisNameLen);
 
-  /// @brief Method GetAxis__Unmanaged, addr 0x48ed388, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAxis__Unmanaged, addr 0x48effe0, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetAxis__Unmanaged(::cordl_internals::Ptr<uint8_t> axisName, int32_t axisNameLen);
 
-  /// @brief Method GetButton, addr 0x48eb94c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetButton, addr 0x48ee5a4, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetButton(::StringW buttonName);
 
-  /// @brief Method GetButtonDown, addr 0x48eb9c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetButtonDown, addr 0x48ee61c, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetButtonDown(::StringW buttonName);
 
-  /// @brief Method GetButtonDown__Unmanaged, addr 0x48ed454, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButtonDown__Unmanaged, addr 0x48f00ac, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t GetButtonDown__Unmanaged(::cordl_internals::Ptr<uint8_t> buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetButtonUp__Unmanaged, addr 0x48ed498, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButtonUp__Unmanaged, addr 0x48f00f0, size 0x44, virtual false, abstract: false, final false
   static inline bool GetButtonUp__Unmanaged(::cordl_internals::Ptr<uint8_t> buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetButton__Unmanaged, addr 0x48ed410, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButton__Unmanaged, addr 0x48f0068, size 0x44, virtual false, abstract: false, final false
   static inline bool GetButton__Unmanaged(::cordl_internals::Ptr<uint8_t> buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetKeyDownString__Unmanaged, addr 0x48ed344, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyDownString__Unmanaged, addr 0x48eff9c, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyDownString__Unmanaged(::cordl_internals::Ptr<uint8_t> name, int32_t nameLen);
 
-  /// @brief Method GetKeyString__Unmanaged, addr 0x48ed2bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyString__Unmanaged, addr 0x48eff14, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyString__Unmanaged(::cordl_internals::Ptr<uint8_t> name, int32_t nameLen);
 
-  /// @brief Method GetKeyUpString__Unmanaged, addr 0x48ed300, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyUpString__Unmanaged, addr 0x48eff58, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyUpString__Unmanaged(::cordl_internals::Ptr<uint8_t> name, int32_t nameLen);
 
 protected:
@@ -72,7 +72,7 @@ public:
   InputUnsafeUtility(InputUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

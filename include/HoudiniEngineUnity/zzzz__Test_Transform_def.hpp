@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9b1d8, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9da3c, size 0x1cc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform* other);
 
-  /// @brief Method IsNull, addr 0x3a9b178, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a9d9dc, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Transform* New_ctor(::UnityEngine::Transform* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a9b150, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9d9b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>"
@@ -70,7 +70,7 @@ public:
   Test_Transform(Test_Transform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11893 };
 
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___self;

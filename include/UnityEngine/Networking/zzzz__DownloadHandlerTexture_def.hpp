@@ -40,22 +40,22 @@ public:
 
   __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::Texture2D> texture;
 
-  /// @brief Method Create, addr 0x4ae81ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4aeae44, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);
 
-  /// @brief Method Dispose, addr 0x4ae82e8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4aeaf40, size 0x24, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetContent, addr 0x4ae8384, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x4aeafdc, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
-  /// @brief Method GetNativeData, addr 0x4ae82dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x4aeaf34, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method InternalCreateTexture, addr 0x4ae8230, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateTexture, addr 0x4aeae88, size 0x4c, virtual false, abstract: false, final false
   inline void InternalCreateTexture(bool readable);
 
-  /// @brief Method InternalGetTextureNative, addr 0x4ae8348, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetTextureNative, addr 0x4aeafa0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> InternalGetTextureNative();
 
   static inline ::UnityEngine::Networking::DownloadHandlerTexture* New_ctor(bool readable);
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x4ae827c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aeaed4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(bool readable);
 
-  /// @brief Method get_texture, addr 0x4ae830c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x4aeaf64, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
 protected:
@@ -93,7 +93,7 @@ public:
   DownloadHandlerTexture(DownloadHandlerTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19046 };
 
   /// @brief Field m_NativeData, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___m_NativeData;

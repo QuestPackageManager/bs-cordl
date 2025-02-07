@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus___c::*)()>(&::Zenject::SignalBus___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aff4ac;
+  constexpr static std::size_t addrs = 0x4b02104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalBus___c*>::get(), ".ctor",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindingId (::Zenject::SignalBus___c::*)(::Zenject::SignalDeclaration*)>(
     &::Zenject::SignalBus___c::__ctor_b__7_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aff4b4;
+  constexpr static std::size_t addrs = 0x4b0210c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalDeclaration* (::Zenject::SignalBus___c::*)(::Zenject::SignalDeclaration*)>(
     &::Zenject::SignalBus___c::__ctor_b__7_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aff4cc;
+  constexpr static std::size_t addrs = 0x4b02124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Zenject::SignalBus___c::*)(::Zenject::SignalSubscription*)>(
     &::Zenject::SignalBus___c::_LateDispose_b__12_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4aff4d4;
+  constexpr static std::size_t addrs = 0x4b0212c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SignalBus___c::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4aff504;
+  constexpr static std::size_t addrs = 0x4b0215c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SignalBus___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4aff558;
+  constexpr static std::size_t addrs = 0x4b021b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalBus___c*>::get(), "__zenCreateInjectTypeInfo",
@@ -263,7 +263,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::SignalBus::*)(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*, ::Zenject::SignalBus*, ::Zenject::ZenjectSettings*,
                                                ::Zenject::SignalSubscription_Pool*, ::Zenject::SignalDeclaration_Factory*, ::Zenject::DiContainer*)>(&::Zenject::SignalBus::_ctor)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x4afddf4;
+  constexpr static std::size_t addrs = 0x4b00a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalBus* (::Zenject::SignalBus::*)()>(&::Zenject::SignalBus::get_ParentBus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afe070;
+  constexpr static std::size_t addrs = 0x4b00cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalBus*>::get(), "get_ParentBus",
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::SignalBus::*)()>(&::Zenject::SignalBus::get_NumSubscribers)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4afe078;
+  constexpr static std::size_t addrs = 0x4b00cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalBus*>::get(), "get_NumSubscribers",
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)()>(&::Zenject::SignalBus::LateDispose)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x4afe0c8;
+  constexpr static std::size_t addrs = 0x4b00d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalBus*>::get(), "LateDispose",
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Object*, ::System::Object*)>(&::Zenject::SignalBus::FireId)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4afe518;
+  constexpr static std::size_t addrs = 0x4b01170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Object*)>(&::Zenject::SignalBus::Fire)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4afe5ac;
+  constexpr static std::size_t addrs = 0x4b01204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Object*, ::System::Object*)>(&::Zenject::SignalBus::TryFireId)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4afe5b8;
+  constexpr static std::size_t addrs = 0x4b01210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Object*)>(&::Zenject::SignalBus::TryFire)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4afe614;
+  constexpr static std::size_t addrs = 0x4b0126c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Object*, ::System::Action_1<::System::Object*>*)>(
     &::Zenject::SignalBus::SubscribeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afab98;
+  constexpr static std::size_t addrs = 0x4afd7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Action_1<::System::Object*>*)>(
     &::Zenject::SignalBus::Subscribe)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4afe674;
+  constexpr static std::size_t addrs = 0x4b012cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Object*, ::System::Action*)>(
     &::Zenject::SignalBus::UnsubscribeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afe684;
+  constexpr static std::size_t addrs = 0x4b012dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Action*)>(&::Zenject::SignalBus::Unsubscribe)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4afe6e0;
+  constexpr static std::size_t addrs = 0x4b01338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Object*, ::System::Action_1<::System::Object*>*)>(
     &::Zenject::SignalBus::UnsubscribeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afae0c;
+  constexpr static std::size_t addrs = 0x4afda64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Action_1<::System::Object*>*)>(
     &::Zenject::SignalBus::Unsubscribe)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4afe6f0;
+  constexpr static std::size_t addrs = 0x4b01348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Object*, ::System::Action*)>(
     &::Zenject::SignalBus::TryUnsubscribeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afe700;
+  constexpr static std::size_t addrs = 0x4b01358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -494,7 +494,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Action*)>(&::Zenject::SignalBus::TryUnsubscribe)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4afe708;
+  constexpr static std::size_t addrs = 0x4b01360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Object*, ::System::Action_1<::System::Object*>*)>(
     &::Zenject::SignalBus::TryUnsubscribeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afe718;
+  constexpr static std::size_t addrs = 0x4b01370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Action_1<::System::Object*>*)>(
     &::Zenject::SignalBus::TryUnsubscribe)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4afe720;
+  constexpr static std::size_t addrs = 0x4b01378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Object*, ::System::Object*, bool)>(
     &::Zenject::SignalBus::UnsubscribeInternal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4afe68c;
+  constexpr static std::size_t addrs = 0x4b012e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::Zenject::BindingId, ::System::Object*, bool)>(
     &::Zenject::SignalBus::UnsubscribeInternal)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4afe730;
+  constexpr static std::size_t addrs = 0x4b01388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -575,7 +575,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::Zenject::SignalSubscriptionId, bool)>(&::Zenject::SignalBus::UnsubscribeInternal)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4afe754;
+  constexpr static std::size_t addrs = 0x4b013ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::SignalBus::*)(::System::Type*, ::System::Object*, ::System::Object*, ::System::Action_1<::System::Object*>*)>(&::Zenject::SignalBus::SubscribeInternal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4afe620;
+  constexpr static std::size_t addrs = 0x4b01278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::Zenject::BindingId, ::System::Object*, ::System::Action_1<::System::Object*>*)>(
     &::Zenject::SignalBus::SubscribeInternal)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4afe86c;
+  constexpr static std::size_t addrs = 0x4b014c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBus::*)(::Zenject::SignalSubscriptionId, ::System::Action_1<::System::Object*>*)>(
     &::Zenject::SignalBus::SubscribeInternal)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4afe890;
+  constexpr static std::size_t addrs = 0x4b014e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -643,7 +643,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Object*, ::System::Nullable_1<::Zenject::SignalMissingHandlerResponses>, ::System::Nullable_1<bool>, ::System::Nullable_1<int32_t>)>(
     &::Zenject::SignalBus::DeclareSignal)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x4afeb08;
+  constexpr static std::size_t addrs = 0x4b01760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalDeclaration* (::Zenject::SignalBus::*)(::System::Type*, ::System::Object*, bool)>(
     &::Zenject::SignalBus::GetDeclaration)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4afe568;
+  constexpr static std::size_t addrs = 0x4b011c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalDeclaration* (::Zenject::SignalBus::*)(::Zenject::BindingId, bool)>(
     &::Zenject::SignalBus::GetDeclaration)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4afe9d0;
+  constexpr static std::size_t addrs = 0x4b01628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -692,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SignalBus::__zenCreate)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x4afeca0;
+  constexpr static std::size_t addrs = 0x4b018f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SignalBus::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x4afef24;
+  constexpr static std::size_t addrs = 0x4b01b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalBus*>::get(), "__zenCreateInjectTypeInfo",

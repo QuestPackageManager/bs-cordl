@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Zenject::DiContainer*, ::System::Type*, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*, ::Zenject::GameObjectCreationParameters*, ::System::Object*,
     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*)>(&::Zenject::AddToNewGameObjectComponentProvider::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b3d808;
+  constexpr static std::size_t addrs = 0x4b40460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::AddToNewGameObjectComponentProvider::*)()>(
     &::Zenject::AddToNewGameObjectComponentProvider::get_ShouldToggleActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3d834;
+  constexpr static std::size_t addrs = 0x4b4048c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::AddToNewGameObjectComponentProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::AddToNewGameObjectComponentProvider::GetGameObject)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4b3d83c;
+  constexpr static std::size_t addrs = 0x4b40494;
 
   inline static ::MethodInfo const* methodInfo() {
 

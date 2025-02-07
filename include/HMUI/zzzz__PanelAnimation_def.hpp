@@ -101,21 +101,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39ec0a8, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ee90c, size 0x294, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::PanelAnimation__AnimationCoroutine_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39ec33c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39eeba0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39ec344, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39eeba8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39ec37c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39eebe0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x39ec0a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39ee908, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x39ec074, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ee8d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -223,7 +223,7 @@ public:
   PanelAnimation__AnimationCoroutine_d__1(PanelAnimation__AnimationCoroutine_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16014 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -305,7 +305,7 @@ public:
   // Declarations
   using _AnimationCoroutine_d__1 = ::HMUI::PanelAnimation__AnimationCoroutine_d__1;
 
-  /// @brief Method AnimationCoroutine, addr 0x39ebfb8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AnimationCoroutine, addr 0x39ee81c, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimationCoroutine(float_t duration, ::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup,
                                                                 ::UnityEngine::AnimationCurve* scaleXAnimationCurve, ::UnityEngine::AnimationCurve* scaleYAnimationCurve,
                                                                 ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve,
@@ -313,12 +313,12 @@ public:
 
   static inline ::HMUI::PanelAnimation* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x39ebe64, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x39ee6c8, size 0x154, virtual false, abstract: false, final false
   inline void StartAnimation(::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup, float_t duration, ::UnityEngine::AnimationCurve* scaleXAnimationCurve,
                              ::UnityEngine::AnimationCurve* scaleYAnimationCurve, ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve,
                              ::System::Action* finishedCallback);
 
-  /// @brief Method .ctor, addr 0x39ec09c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ee900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -336,7 +336,7 @@ public:
   PanelAnimation(PanelAnimation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

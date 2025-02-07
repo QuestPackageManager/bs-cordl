@@ -33,15 +33,15 @@ public:
                       put = __cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>
       _missionObjectiveCheckersManager;
 
-  /// @brief Method Awake, addr 0x3b984b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b9b014, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x3b985d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x3b9b134, size 0x78, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
 
   static inline ::GlobalNamespace::MissionClearedEnvironmentEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b98544, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9b0a4, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
-  /// @brief Method .ctor, addr 0x3b9864c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9b1ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   MissionClearedEnvironmentEffect(MissionClearedEnvironmentEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4324 };
 
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;

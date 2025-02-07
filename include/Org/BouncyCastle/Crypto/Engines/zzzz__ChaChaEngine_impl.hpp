@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2354e48;
+  constexpr static std::size_t addrs = 0x2356844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::ChaChaEngine*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2354e9c;
+  constexpr static std::size_t addrs = 0x2356898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2354f00;
+  constexpr static std::size_t addrs = 0x23568fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::AdvanceCounter)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2354f84;
+  constexpr static std::size_t addrs = 0x2356980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ResetCounter)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2354fd0;
+  constexpr static std::size_t addrs = 0x23569cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::SetKey)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2354ffc;
+  constexpr static std::size_t addrs = 0x23569f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::GenerateKeyStream)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2355100;
+  constexpr static std::size_t addrs = 0x2356afc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ChachaCore)> {
   constexpr static std::size_t size = 0x638;
-  constexpr static std::size_t addrs = 0x2354810;
+  constexpr static std::size_t addrs = 0x235620c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

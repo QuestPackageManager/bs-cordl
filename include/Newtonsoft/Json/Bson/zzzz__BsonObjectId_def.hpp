@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3f52c08, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f55860, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_Value, addr 0x3f52c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3f55858, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Value();
 
 protected:
@@ -53,7 +53,7 @@ public:
   BsonObjectId(BsonObjectId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10506 };
 
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____Value_k__BackingField;

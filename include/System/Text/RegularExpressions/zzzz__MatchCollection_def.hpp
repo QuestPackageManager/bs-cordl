@@ -78,18 +78,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4415384, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4417fdc, size 0x50, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Text::RegularExpressions::MatchCollection_Enumerator* New_ctor(::System::Text::RegularExpressions::MatchCollection* collection);
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4415440, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4418098, size 0xc, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x441543c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4418094, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x441544c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x44180a4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr ::System::Text::RegularExpressions::MatchCollection* const& __cordl_internal_get__collection() const;
@@ -104,10 +104,10 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4414aec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4417744, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::MatchCollection* collection);
 
-  /// @brief Method get_Current, addr 0x44153d4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x441802c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Text::RegularExpressions::Match* get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Match*>"
@@ -135,7 +135,7 @@ public:
   MatchCollection_Enumerator(MatchCollection_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9227 };
 
   /// @brief Field _collection, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::MatchCollection* ____collection;
@@ -229,83 +229,83 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x4414c58, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x44178b0, size 0x7c, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::System::Text::RegularExpressions::Match*, ::Array<::System::Text::RegularExpressions::Match*>*> array, int32_t arrayIndex);
 
-  /// @brief Method CopyTo, addr 0x4414b8c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x44177e4, size 0xcc, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method EnsureInitialized, addr 0x44148ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EnsureInitialized, addr 0x4417504, size 0x14, virtual false, abstract: false, final false
   inline void EnsureInitialized();
 
-  /// @brief Method GetEnumerator, addr 0x4414a88, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x44176e0, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetMatch, addr 0x4414920, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetMatch, addr 0x4417578, size 0x168, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* GetMatch(int32_t i);
 
   static inline ::System::Text::RegularExpressions::MatchCollection* New_ctor();
 
   static inline ::System::Text::RegularExpressions::MatchCollection* New_ctor(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Match>.Add, addr 0x4414e34, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Match>.Add, addr 0x4417a8c, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_System_Text_RegularExpressions_Match__Add(::System::Text::RegularExpressions::Match* item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Match>.Clear, addr 0x4414e80, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Match>.Clear, addr 0x4417ad8, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_System_Text_RegularExpressions_Match__Clear();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Match>.Contains, addr 0x4414ecc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Match>.Contains, addr 0x4417b24, size 0x6c, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Text_RegularExpressions_Match__Contains(::System::Text::RegularExpressions::Match* item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Match>.Remove, addr 0x4414f38, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Match>.Remove, addr 0x4417b90, size 0x4c, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Text_RegularExpressions_Match__Remove(::System::Text::RegularExpressions::Match* item);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Text.RegularExpressions.Match>.GetEnumerator, addr 0x4414b1c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Text.RegularExpressions.Match>.GetEnumerator, addr 0x4417774, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Match*>* System_Collections_Generic_IEnumerable_System_Text_RegularExpressions_Match__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.IndexOf, addr 0x4414cd4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.IndexOf, addr 0x441792c, size 0x6c, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IList_System_Text_RegularExpressions_Match__IndexOf(::System::Text::RegularExpressions::Match* item);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.Insert, addr 0x4414d40, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.Insert, addr 0x4417998, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_System_Text_RegularExpressions_Match__Insert(int32_t index, ::System::Text::RegularExpressions::Match* item);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.RemoveAt, addr 0x4414d8c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.RemoveAt, addr 0x44179e4, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_System_Text_RegularExpressions_Match__RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.get_Item, addr 0x4414dd8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.get_Item, addr 0x4417a30, size 0x10, virtual true, abstract: false, final true
   inline ::System::Text::RegularExpressions::Match* System_Collections_Generic_IList_System_Text_RegularExpressions_Match__get_Item(int32_t index);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.set_Item, addr 0x4414de8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Match>.set_Item, addr 0x4417a40, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_System_Text_RegularExpressions_Match__set_Item(int32_t index, ::System::Text::RegularExpressions::Match* value);
 
-  /// @brief Method System.Collections.IList.Add, addr 0x4414f84, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Add, addr 0x4417bdc, size 0x4c, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_Add(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Clear, addr 0x4414fd0, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Clear, addr 0x4417c28, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_IList_Clear();
 
-  /// @brief Method System.Collections.IList.Contains, addr 0x441501c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Contains, addr 0x4417c74, size 0xf4, virtual true, abstract: false, final true
   inline bool System_Collections_IList_Contains(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.IndexOf, addr 0x4415110, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.IndexOf, addr 0x4417d68, size 0xf4, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Insert, addr 0x4415204, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Insert, addr 0x4417e5c, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Remove, addr 0x4415258, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Remove, addr 0x4417eb0, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_IList_Remove(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.RemoveAt, addr 0x44152a4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.RemoveAt, addr 0x4417efc, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_IList_RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x4415250, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x4417ea8, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsFixedSize();
 
-  /// @brief Method System.Collections.IList.get_Item, addr 0x44152f0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_Item, addr 0x4417f48, size 0x10, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IList_get_Item(int32_t index);
 
-  /// @brief Method System.Collections.IList.set_Item, addr 0x4415300, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.set_Item, addr 0x4417f58, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
 
   constexpr int32_t const& __cordl_internal_get__beginning() const;
@@ -356,25 +356,25 @@ public:
 
   constexpr void __cordl_internal_set__startat(int32_t value);
 
-  /// @brief Method .ctor, addr 0x441534c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4417fa4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4414720, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4417378, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int32_t beginning, int32_t length, int32_t startat);
 
-  /// @brief Method get_Count, addr 0x4414850, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x44174a8, size 0x5c, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x4414848, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x44174a0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x4414b80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x44177d8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x44148c0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4417518, size 0x60, virtual true, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* get_Item(int32_t i);
 
-  /// @brief Method get_SyncRoot, addr 0x4414b88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x44177e0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Match*>"
@@ -420,7 +420,7 @@ public:
   MatchCollection(MatchCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9228 };
 
   /// @brief Field _regex, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::Regex* ____regex;

@@ -61,7 +61,7 @@ public:
 
   static inline ::Zenject::ConventionBindInfo___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <ShouldIncludeAssembly>b__0, addr 0x4b02410, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <ShouldIncludeAssembly>b__0, addr 0x4b05068, size 0x28, virtual false, abstract: false, final false
   inline bool _ShouldIncludeAssembly_b__0(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
 
   constexpr ::System::Reflection::Assembly* const& __cordl_internal_get_assembly() const;
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set_assembly(::System::Reflection::Assembly* value);
 
-  /// @brief Method __zenCreate, addr 0x4b02438, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b05090, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0248c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b050e4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0219c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b04df4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   ConventionBindInfo___c__DisplayClass6_0(ConventionBindInfo___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12026 };
 
   /// @brief Field assembly, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::Assembly* ___assembly;
@@ -119,7 +119,7 @@ public:
 
   static inline ::Zenject::ConventionBindInfo___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ShouldIncludeType>b__0, addr 0x4b02644, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <ShouldIncludeType>b__0, addr 0x4b0529c, size 0x28, virtual false, abstract: false, final false
   inline bool _ShouldIncludeType_b__0(::System::Func_2<::System::Type*, bool>* predicate);
 
   constexpr ::System::Type* const& __cordl_internal_get_type() const;
@@ -128,13 +128,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4b0266c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b052c4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b026c0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b05318, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b02278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b04ed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -152,7 +152,7 @@ public:
   ConventionBindInfo___c__DisplayClass7_0(ConventionBindInfo___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12027 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
@@ -188,30 +188,30 @@ public:
   /// @brief Field _typeFilters, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__typeFilters, put = __cordl_internal_set__typeFilters)) ::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* _typeFilters;
 
-  /// @brief Method AddAssemblyFilter, addr 0x4b01a4c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddAssemblyFilter, addr 0x4b046a4, size 0xa4, virtual false, abstract: false, final false
   inline void AddAssemblyFilter(::System::Func_2<::System::Reflection::Assembly*, bool>* predicate);
 
-  /// @brief Method AddTypeFilter, addr 0x4b02004, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddTypeFilter, addr 0x4b04c5c, size 0xa4, virtual false, abstract: false, final false
   inline void AddTypeFilter(::System::Func_2<::System::Type*, bool>* predicate);
 
-  /// @brief Method GetAllAssemblies, addr 0x4b020a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetAllAssemblies, addr 0x4b04d00, size 0x20, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* GetAllAssemblies();
 
-  /// @brief Method GetTypes, addr 0x4b02280, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetTypes, addr 0x4b04ed8, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetTypes(::System::Reflection::Assembly* assembly);
 
   static inline ::Zenject::ConventionBindInfo* New_ctor();
 
-  /// @brief Method ResolveTypes, addr 0x4b00a4c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ResolveTypes, addr 0x4b036a4, size 0x1b8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypes();
 
-  /// @brief Method ShouldIncludeAssembly, addr 0x4b020c8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ShouldIncludeAssembly, addr 0x4b04d20, size 0xd4, virtual false, abstract: false, final false
   inline bool ShouldIncludeAssembly(::System::Reflection::Assembly* assembly);
 
-  /// @brief Method ShouldIncludeType, addr 0x4b021a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ShouldIncludeType, addr 0x4b04dfc, size 0xd4, virtual false, abstract: false, final false
   inline bool ShouldIncludeType(::System::Type* type);
 
-  /// @brief Method <ResolveTypes>b__9_0, addr 0x4b0240c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <ResolveTypes>b__9_0, addr 0x4b05064, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* _ResolveTypes_b__9_0(::System::Reflection::Assembly* assembly);
 
   constexpr ::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>* const& __cordl_internal_get__assemblyFilters() const;
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set__typeFilters(::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* value);
 
-  /// @brief Method .ctor, addr 0x4b00960, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b035b8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>>* getStaticF__assemblyTypeCache();
@@ -248,7 +248,7 @@ public:
   ConventionBindInfo(ConventionBindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12028 };
 
   /// @brief Field _typeFilters, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* ____typeFilters;

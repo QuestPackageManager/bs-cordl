@@ -80,7 +80,7 @@ public:
   SendPacketsElement(SendPacketsElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9866 };
 
   /// @brief Field m_FilePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_FilePath;

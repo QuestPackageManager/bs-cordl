@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Gradient*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Gradient*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9d304, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9fb68, size 0xf4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Gradient* other);
 
-  /// @brief Method IsNull, addr 0x3a9d2f4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a9fb58, size 0x10, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Gradient* New_ctor(::UnityEngine::Gradient* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::Gradient* value);
 
-  /// @brief Method .ctor, addr 0x3a9d2cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9fb30, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Gradient* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>"
@@ -70,7 +70,7 @@ public:
   Test_Gradient(Test_Gradient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11913 };
 
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Gradient* ___self;

@@ -95,7 +95,7 @@ public:
   IntervalTreeNode_2___c(IntervalTreeNode_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -218,7 +218,7 @@ public:
   IntervalTreeNode_2(IntervalTreeNode_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18956 };
 
   /// @brief Field center, offset: 0x10, size: 0x8, def value: None
   TKey ___center;

@@ -34,48 +34,48 @@ public:
   /// @brief Field x, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::ArrayW<uint32_t, ::Array<uint32_t>*> x;
 
-  /// @brief Method Decode, addr 0x3c6654c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3c691a4, size 0xc8, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint32_t, ::Array<uint32_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t index);
 
-  /// @brief Method Encode, addr 0x3c66310, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3c68f68, size 0xf8, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint32_t, ::Array<uint32_t>*> input);
 
-  /// @brief Method F, addr 0x3c66480, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0x3c690d8, size 0x10, virtual false, abstract: false, final false
   inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method FF, addr 0x3c664bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FF, addr 0x3c69114, size 0x28, virtual false, abstract: false, final false
   inline void FF(::ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method G, addr 0x3c66490, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method G, addr 0x3c690e8, size 0x14, virtual false, abstract: false, final false
   inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method GG, addr 0x3c664e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GG, addr 0x3c6913c, size 0x38, virtual false, abstract: false, final false
   inline void GG(::ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method H, addr 0x3c664a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method H, addr 0x3c690fc, size 0xc, virtual false, abstract: false, final false
   inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method HH, addr 0x3c6651c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HH, addr 0x3c69174, size 0x30, virtual false, abstract: false, final false
   inline void HH(::ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method HashCore, addr 0x3c65a78, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c686d0, size 0x124, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x3c66214, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c68e6c, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x3c659c4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c6861c, size 0xb4, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method MD4Transform, addr 0x3c65b9c, size 0x678, virtual false, abstract: false, final false
+  /// @brief Method MD4Transform, addr 0x3c687f4, size 0x678, virtual false, abstract: false, final false
   inline void MD4Transform(::ArrayW<uint32_t, ::Array<uint32_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
 
   static inline ::Mono::Security::Cryptography::MD4Managed* New_ctor();
 
-  /// @brief Method Padding, addr 0x3c66408, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Padding, addr 0x3c69060, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
 
-  /// @brief Method ROL, addr 0x3c664b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ROL, addr 0x3c69108, size 0xc, virtual false, abstract: false, final false
   inline uint32_t ROL(uint32_t x, uint8_t n);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c658f4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6854c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

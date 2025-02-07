@@ -48,41 +48,41 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* New_ctor();
 
-  /// @brief Method NullCheck, addr 0x40cc1c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NullCheck, addr 0x40cee18, size 0x10, virtual false, abstract: false, final false
   static inline void NullCheck(::System::Object* o);
 
   /// @brief Method Run, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToDebugString, addr 0x40cf8ac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x40d2504, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x40cf854, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40d24ac, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x40cbf90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40cebe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConsumedContinuations, addr 0x40cf7cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedContinuations, addr 0x40d2424, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedContinuations();
 
-  /// @brief Method get_ConsumedStack, addr 0x40cf7bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40d2414, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_ContinuationsBalance, addr 0x40cf818, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ContinuationsBalance, addr 0x40d2470, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_ContinuationsBalance();
 
   /// @brief Method get_InstructionName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedContinuations, addr 0x40cf7d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedContinuations, addr 0x40d242c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedContinuations();
 
-  /// @brief Method get_ProducedStack, addr 0x40cf7c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40d241c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
-  /// @brief Method get_StackBalance, addr 0x40cf7dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_StackBalance, addr 0x40d2434, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_StackBalance();
 
 protected:
@@ -100,7 +100,7 @@ public:
   Instruction(Instruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BlurEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a29a5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2c6b4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BlurEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a29a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c6ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::BlurEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   BlurEvent___c(BlurEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,10 +78,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BlurEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x4a29908, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x4a2c560, size 0x8c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a299b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c608, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   BlurEvent(BlurEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5830 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

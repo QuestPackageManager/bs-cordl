@@ -26,25 +26,25 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE CryptoConvert : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromCapiPrivateKeyBlob, addr 0x3c48f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromCapiPrivateKeyBlob, addr 0x3c4bbec, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob);
 
-  /// @brief Method FromCapiPrivateKeyBlob, addr 0x3c48f9c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method FromCapiPrivateKeyBlob, addr 0x3c4bbf4, size 0x230, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob, int32_t offset);
 
-  /// @brief Method GetParametersFromCapiPrivateKeyBlob, addr 0x3c491cc, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method GetParametersFromCapiPrivateKeyBlob, addr 0x3c4be24, size 0x588, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSAParameters GetParametersFromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob, int32_t offset);
 
-  /// @brief Method ToHex, addr 0x3c49754, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ToHex, addr 0x3c4c3ac, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW ToHex(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ToInt32LE, addr 0x3c48df8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToInt32LE, addr 0x3c4ba50, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ToInt32LE(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method ToUInt32LE, addr 0x3c48e6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32LE, addr 0x3c4bac4, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32LE(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method Trim, addr 0x3c48ee0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x3c4bb38, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Trim(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
 protected:
@@ -62,7 +62,7 @@ public:
   CryptoConvert(CryptoConvert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15963 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -42,12 +42,12 @@ public:
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3af9020, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3afbb80, size 0x11c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::RecordingToolSettingsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x3af9144, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_0, addr 0x3afbca4, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -74,13 +74,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3af913c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afbc9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3af8ee8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3afba48, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3af8f84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3afbae4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:
@@ -98,7 +98,7 @@ public:
   RecordingToolSettingsViewController(RecordingToolSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4941 };
 
   /// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;

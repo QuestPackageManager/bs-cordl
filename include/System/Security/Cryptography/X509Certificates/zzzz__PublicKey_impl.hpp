@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::Oid*, ::System::Security::Cryptography::AsnEncodedData*, ::System::Security::Cryptography::AsnEncodedData*)>(
     &::System::Security::Cryptography::X509Certificates::PublicKey::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4438050;
+  constexpr static std::size_t addrs = 0x443aca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::AsnEncodedData* (
     ::System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&::System::Security::Cryptography::X509Certificates::PublicKey::get_EncodedKeyValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44381b8;
+  constexpr static std::size_t addrs = 0x443ae10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::AsnEncodedData* (
     ::System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&::System::Security::Cryptography::X509Certificates::PublicKey::get_EncodedParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44381c0;
+  constexpr static std::size_t addrs = 0x443ae18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::AsymmetricAlgorithm* (
     ::System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&::System::Security::Cryptography::X509Certificates::PublicKey::get_Key)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x44381c8;
+  constexpr static std::size_t addrs = 0x443ae20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::Oid* (::System::Security::Cryptography::X509Certificates::PublicKey::*)()>(
     &::System::Security::Cryptography::X509Certificates::PublicKey::get_Oid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4438b88;
+  constexpr static std::size_t addrs = 0x443b7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::X509Certificates::PublicKey::GetUnsignedBigInteger)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4438b90;
+  constexpr static std::size_t addrs = 0x443b7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::DSA* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::System::Security::Cryptography::X509Certificates::PublicKey::DecodeDSA)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x4438708;
+  constexpr static std::size_t addrs = 0x443b360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::X509Certificates::PublicKey::DecodeRSA)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x443836c;
+  constexpr static std::size_t addrs = 0x443afc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

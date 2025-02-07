@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (::BeatSaber::RecPlay::PoseNoise::*)(float_t)>(&::BeatSaber::RecPlay::PoseNoise::Sample)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x227b1f4;
+  constexpr static std::size_t addrs = 0x227caa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(float_t)>(&::BeatSaber::RecPlay::PoseNoise::SampleLemniscateOfBernoulli)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x227b2b0;
+  constexpr static std::size_t addrs = 0x227cb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

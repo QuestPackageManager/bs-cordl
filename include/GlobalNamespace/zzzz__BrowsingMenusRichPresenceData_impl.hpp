@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(
     &::GlobalNamespace::BrowsingMenusRichPresenceData::get_apiName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b2f97c;
+  constexpr static std::size_t addrs = 0x3b324dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BrowsingMenusRichPresenceData*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(
     &::GlobalNamespace::BrowsingMenusRichPresenceData::get_localizedDescription)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b2f9bc;
+  constexpr static std::size_t addrs = 0x3b3251c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BrowsingMenusRichPresenceData*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(
     &::GlobalNamespace::BrowsingMenusRichPresenceData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2fa14;
+  constexpr static std::size_t addrs = 0x3b32574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BrowsingMenusRichPresenceData*>::get(),

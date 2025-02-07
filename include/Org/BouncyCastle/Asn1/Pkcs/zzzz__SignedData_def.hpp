@@ -66,7 +66,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x2413cec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24156e8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignedData* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* _version, ::Org::BouncyCastle::Asn1::Asn1Set* _digestAlgorithms,
@@ -75,7 +75,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x24143f4, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2415df0, size 0x188, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_certificates() const;
@@ -114,29 +114,29 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x2414370, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415d6c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* _version, ::Org::BouncyCastle::Asn1::Asn1Set* _digestAlgorithms, ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* _contentInfo,
                     ::Org::BouncyCastle::Asn1::Asn1Set* _certificates, ::Org::BouncyCastle::Asn1::Asn1Set* _crls, ::Org::BouncyCastle::Asn1::Asn1Set* _signerInfos);
 
-  /// @brief Method .ctor, addr 0x2413d90, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241578c, size 0x5e0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Certificates, addr 0x24143dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x2415dd8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
 
-  /// @brief Method get_ContentInfo, addr 0x24143d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x2415dd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_Crls, addr 0x24143e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Crls, addr 0x2415de0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Crls();
 
-  /// @brief Method get_DigestAlgorithms, addr 0x24143cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithms, addr 0x2415dc8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_DigestAlgorithms();
 
-  /// @brief Method get_SignerInfos, addr 0x24143ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignerInfos, addr 0x2415de8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_SignerInfos();
 
-  /// @brief Method get_Version, addr 0x24143c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2415dc0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

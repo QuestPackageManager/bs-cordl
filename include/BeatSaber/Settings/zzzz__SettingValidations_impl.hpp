@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustQuest1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x228098c;
+  constexpr static std::size_t addrs = 0x2282238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustQuest2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2280a94;
+  constexpr static std::size_t addrs = 0x2282340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustQuest3)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2280b28;
+  constexpr static std::size_t addrs = 0x22823d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustQuestPro)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2280de0;
+  constexpr static std::size_t addrs = 0x228268c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>, bool)>(
     &::BeatSaber::Settings::SettingValidations::AdjustStandalone)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2280e74;
+  constexpr static std::size_t addrs = 0x2282720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustPlayStation4)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2280f30;
+  constexpr static std::size_t addrs = 0x22827dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>)>(
     &::BeatSaber::Settings::SettingValidations::AdjustPlayStation4Pro)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2280fbc;
+  constexpr static std::size_t addrs = 0x2282868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>)>(&::BeatSaber::Settings::SettingValidations::AdjustPlayStation5)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2281048;
+  constexpr static std::size_t addrs = 0x22828f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>, float_t)>(
     &::BeatSaber::Settings::SettingValidations::AdjustSettings)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2280a20;
+  constexpr static std::size_t addrs = 0x22822cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::RoomSettings>)>(
     &::BeatSaber::Settings::SettingValidations::AdjustRoomSettings)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22810d4;
+  constexpr static std::size_t addrs = 0x2282980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::ControllerSettings>)>(
     &::BeatSaber::Settings::SettingValidations::AdjustControllerSettings)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x228112c;
+  constexpr static std::size_t addrs = 0x22829d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::SmoothCameraSettings>)>(
     &::BeatSaber::Settings::SettingValidations::AdjustSmoothCameraSettings)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22811d0;
+  constexpr static std::size_t addrs = 0x2282a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::AudioSettings>, float_t)>(
     &::BeatSaber::Settings::SettingValidations::AdjustAudioSettings)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2281218;
+  constexpr static std::size_t addrs = 0x2282ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (*)(::Unity::Mathematics::float3, float_t, float_t)>(
     &::BeatSaber::Settings::SettingValidations::Clamp)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22812ac;
+  constexpr static std::size_t addrs = 0x2282b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (*)(::Unity::Mathematics::float3, float_t, float_t)>(
     &::BeatSaber::Settings::SettingValidations::Wrap)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2281354;
+  constexpr static std::size_t addrs = 0x2282c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::BeatSaber::Settings::SettingValidations::Wrap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x228132c;
+  constexpr static std::size_t addrs = 0x2282bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::BeatSaber::Settings::SettingValidations::Pick)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x2280c10;
+  constexpr static std::size_t addrs = 0x22824bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

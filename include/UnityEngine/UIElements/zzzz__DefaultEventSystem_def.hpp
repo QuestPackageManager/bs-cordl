@@ -153,7 +153,7 @@ public:
   static ::UnityEngine::UIElements::DefaultEventSystem_UpdateMode const IgnoreIfAppNotFocused;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5735 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -179,10 +179,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x4a17cb8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a1a910, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x4a16fc0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a19c18, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::DefaultEventSystem* es);
 
   /// @brief Convert to "::System::IDisposable"
@@ -196,7 +196,7 @@ public:
   constexpr DefaultEventSystem_FocusBasedEventSequenceContext(::UnityEngine::UIElements::DefaultEventSystem* es) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -280,7 +280,7 @@ public:
   DefaultEventSystem_IInput(DefaultEventSystem_IInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -310,51 +310,51 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::DefaultEventSystem_IInput"
   constexpr operator ::UnityEngine::UIElements::DefaultEventSystem_IInput*() noexcept;
 
-  /// @brief Method ClearLastPenContactEvent, addr 0x4a17cec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ClearLastPenContactEvent, addr 0x4a1a944, size 0x8, virtual true, abstract: false, final true
   inline void ClearLastPenContactEvent();
 
-  /// @brief Method GetAxisRaw, addr 0x4a17ce0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetAxisRaw, addr 0x4a1a938, size 0xc, virtual true, abstract: false, final true
   inline float_t GetAxisRaw(::StringW axis);
 
-  /// @brief Method GetButtonDown, addr 0x4a17cd4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetButtonDown, addr 0x4a1a92c, size 0xc, virtual true, abstract: false, final true
   inline bool GetButtonDown(::StringW button);
 
-  /// @brief Method GetLastPenContactEvent, addr 0x4a17cf4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method GetLastPenContactEvent, addr 0x4a1a94c, size 0x38, virtual true, abstract: false, final true
   inline ::UnityEngine::PenData GetLastPenContactEvent();
 
-  /// @brief Method GetMouseButtonDown, addr 0x4a17d74, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonDown, addr 0x4a1a9cc, size 0xc, virtual true, abstract: false, final true
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0x4a17d80, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonUp, addr 0x4a1a9d8, size 0xc, virtual true, abstract: false, final true
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0x4a17d34, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method GetTouch, addr 0x4a1a98c, size 0x38, virtual true, abstract: false, final true
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem_Input* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a152f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a17f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anyKey, addr 0x4a17d9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_anyKey, addr 0x4a1a9f4, size 0x8, virtual true, abstract: false, final true
   inline bool get_anyKey();
 
-  /// @brief Method get_doubleClickTime, addr 0x4a17dac, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_doubleClickTime, addr 0x4a1aa04, size 0x24, virtual true, abstract: false, final true
   inline float_t get_doubleClickTime();
 
-  /// @brief Method get_mouseButtonCount, addr 0x4a17d94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mouseButtonCount, addr 0x4a1a9ec, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_mouseButtonCount();
 
-  /// @brief Method get_mousePosition, addr 0x4a17d8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mousePosition, addr 0x4a1a9e4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0x4a17d6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mousePresent, addr 0x4a1a9c4, size 0x8, virtual true, abstract: false, final true
   inline bool get_mousePresent();
 
-  /// @brief Method get_touchCount, addr 0x4a17d2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_touchCount, addr 0x4a1a984, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_touchCount();
 
-  /// @brief Method get_unscaledTime, addr 0x4a17da4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_unscaledTime, addr 0x4a1a9fc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_unscaledTime();
 
   /// @brief Convert to "::UnityEngine::UIElements::DefaultEventSystem_IInput"
@@ -375,7 +375,7 @@ public:
   DefaultEventSystem_Input(DefaultEventSystem_Input const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -407,51 +407,51 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::DefaultEventSystem_IInput"
   constexpr operator ::UnityEngine::UIElements::DefaultEventSystem_IInput*() noexcept;
 
-  /// @brief Method ClearLastPenContactEvent, addr 0x4a17dfc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ClearLastPenContactEvent, addr 0x4a1aa54, size 0x4, virtual true, abstract: false, final true
   inline void ClearLastPenContactEvent();
 
-  /// @brief Method GetAxisRaw, addr 0x4a17dd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetAxisRaw, addr 0x4a1aa30, size 0x8, virtual true, abstract: false, final true
   inline float_t GetAxisRaw(::StringW axis);
 
-  /// @brief Method GetButtonDown, addr 0x4a17dd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetButtonDown, addr 0x4a1aa28, size 0x8, virtual true, abstract: false, final true
   inline bool GetButtonDown(::StringW button);
 
-  /// @brief Method GetLastPenContactEvent, addr 0x4a17e00, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method GetLastPenContactEvent, addr 0x4a1aa58, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::PenData GetLastPenContactEvent();
 
-  /// @brief Method GetMouseButtonDown, addr 0x4a17e18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonDown, addr 0x4a1aa70, size 0x8, virtual true, abstract: false, final true
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0x4a17e20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMouseButtonUp, addr 0x4a1aa78, size 0x8, virtual true, abstract: false, final true
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0x4a17de8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetTouch, addr 0x4a1aa40, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem_NoInput* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a152f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a17f50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anyKey, addr 0x4a17e40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_anyKey, addr 0x4a1aa98, size 0x8, virtual true, abstract: false, final true
   inline bool get_anyKey();
 
-  /// @brief Method get_doubleClickTime, addr 0x4a17e50, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_doubleClickTime, addr 0x4a1aaa8, size 0xc, virtual true, abstract: false, final true
   inline float_t get_doubleClickTime();
 
-  /// @brief Method get_mouseButtonCount, addr 0x4a17e38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mouseButtonCount, addr 0x4a1aa90, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_mouseButtonCount();
 
-  /// @brief Method get_mousePosition, addr 0x4a17e28, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_mousePosition, addr 0x4a1aa80, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0x4a17e10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_mousePresent, addr 0x4a1aa68, size 0x8, virtual true, abstract: false, final true
   inline bool get_mousePresent();
 
-  /// @brief Method get_touchCount, addr 0x4a17de0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_touchCount, addr 0x4a1aa38, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_touchCount();
 
-  /// @brief Method get_unscaledTime, addr 0x4a17e48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_unscaledTime, addr 0x4a1aaa0, size 0x8, virtual true, abstract: false, final true
   inline float_t get_unscaledTime();
 
   /// @brief Convert to "::UnityEngine::UIElements::DefaultEventSystem_IInput"
@@ -472,7 +472,7 @@ public:
   DefaultEventSystem_NoInput(DefaultEventSystem_NoInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -541,51 +541,51 @@ public:
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem___c* New_ctor();
 
-  /// @brief Method <ProcessMouseEvents>b__36_0, addr 0x4a18068, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessMouseEvents>b__36_0, addr 0x4a1acc0, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__36_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
                                                                            ::UnityEngine::UIElements::DefaultEventSystem* self);
 
-  /// @brief Method <ProcessMouseEvents>b__36_1, addr 0x4a18104, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <ProcessMouseEvents>b__36_1, addr 0x4a1ad5c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__36_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
                                                                            ::System::ValueTuple_3<int32_t, int32_t, ::UnityEngine::EventModifiers> t);
 
-  /// @brief Method <ProcessMouseEvents>b__36_2, addr 0x4a18118, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <ProcessMouseEvents>b__36_2, addr 0x4a1ad70, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessMouseEvents_b__36_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta,
                                                                            ::System::ValueTuple_3<int32_t, int32_t, ::UnityEngine::EventModifiers> t);
 
-  /// @brief Method <ProcessPenEvents>b__46_0, addr 0x4a1845c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <ProcessPenEvents>b__46_0, addr 0x4a1b0b4, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessPenEvents_b__46_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::PenData _pen);
 
-  /// @brief Method <ProcessTabEvent>b__53_0, addr 0x4a18508, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method <ProcessTabEvent>b__53_0, addr 0x4a1b160, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase*
   _ProcessTabEvent_b__53_0(::System::ValueTuple_3<::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers, ::UnityEngine::UIElements::DefaultEventSystem_IInput*> t);
 
-  /// @brief Method <ProcessTouchEvents>b__45_0, addr 0x4a18390, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <ProcessTouchEvents>b__45_0, addr 0x4a1afe8, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _ProcessTouchEvents_b__45_0(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::Touch _touch);
 
-  /// @brief Method <SendIMGUIEvents>b__30_0, addr 0x4a17ec0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <SendIMGUIEvents>b__30_0, addr 0x4a1ab18, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__30_0(::UnityEngine::UIElements::DefaultEventSystem* self);
 
-  /// @brief Method <SendIMGUIEvents>b__30_1, addr 0x4a17f24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <SendIMGUIEvents>b__30_1, addr 0x4a1ab7c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__30_1(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 _,
                                                                         ::System::ValueTuple_2<::UnityEngine::EventModifiers, ::UnityEngine::Vector2> t);
 
-  /// @brief Method <SendIMGUIEvents>b__30_2, addr 0x4a17fc0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <SendIMGUIEvents>b__30_2, addr 0x4a1ac18, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _SendIMGUIEvents_b__30_2(::UnityEngine::Vector3 panelPosition, ::UnityEngine::Vector3 panelDelta, ::UnityEngine::Event* evt);
 
-  /// @brief Method <SendInputEvents>b__37_0, addr 0x4a1812c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <SendInputEvents>b__37_0, addr 0x4a1ad84, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__37_0(::UnityEngine::UIElements::DefaultEventSystem* self);
 
-  /// @brief Method <SendInputEvents>b__37_1, addr 0x4a181c0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <SendInputEvents>b__37_1, addr 0x4a1ae18, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__37_1(::UnityEngine::UIElements::DefaultEventSystem* self);
 
-  /// @brief Method <SendInputEvents>b__37_2, addr 0x4a182a8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <SendInputEvents>b__37_2, addr 0x4a1af00, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* _SendInputEvents_b__37_2(::UnityEngine::UIElements::DefaultEventSystem* self);
 
-  /// @brief Method <.cctor>b__58_0, addr 0x4a185f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__58_0, addr 0x4a1b24c, size 0x8, virtual false, abstract: false, final false
   inline bool __cctor_b__58_0();
 
-  /// @brief Method .ctor, addr 0x4a17eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1ab10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem___c* getStaticF___9();
@@ -666,7 +666,7 @@ public:
   DefaultEventSystem___c(DefaultEventSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -771,45 +771,45 @@ public:
   /// @brief Field m_VerticalAxis, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VerticalAxis, put = __cordl_internal_set_m_VerticalAxis)) ::StringW m_VerticalAxis;
 
-  /// @brief Method FocusBasedEventSequence, addr 0x4a164e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FocusBasedEventSequence, addr 0x4a1913c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DefaultEventSystem_FocusBasedEventSequenceContext FocusBasedEventSequence();
 
-  /// @brief Method GetDefaultInput, addr 0x4a1515c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultInput, addr 0x4a17db4, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DefaultEventSystem_IInput* GetDefaultInput();
 
-  /// @brief Method GetRawMoveVector, addr 0x4a17818, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetRawMoveVector, addr 0x4a1a470, size 0x2b4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetRawMoveVector();
 
-  /// @brief Method MakePenEvent, addr 0x4a17760, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MakePenEvent, addr 0x4a1a3b8, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* MakePenEvent(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method MakeTouchEvent, addr 0x4a175e0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method MakeTouchEvent, addr 0x4a1a238, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* MakeTouchEvent(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers);
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem* New_ctor();
 
-  /// @brief Method OnFocusEvent, addr 0x4a17564, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnFocusEvent, addr 0x4a1a1bc, size 0x4, virtual false, abstract: false, final false
   inline void OnFocusEvent(::UnityEngine::UIElements::RuntimePanel* panel, ::UnityEngine::UIElements::FocusEvent* evt);
 
-  /// @brief Method ProcessMouseEvents, addr 0x4a15b98, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method ProcessMouseEvents, addr 0x4a187f0, size 0x94c, virtual false, abstract: false, final false
   inline void ProcessMouseEvents();
 
-  /// @brief Method ProcessPenEvents, addr 0x4a15480, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ProcessPenEvents, addr 0x4a180d8, size 0x2cc, virtual false, abstract: false, final false
   inline bool ProcessPenEvents();
 
-  /// @brief Method ProcessTabEvent, addr 0x4a17008, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ProcessTabEvent, addr 0x4a19c60, size 0x188, virtual false, abstract: false, final false
   inline void ProcessTabEvent(::UnityEngine::Event* e, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method ProcessTouchEvents, addr 0x4a1574c, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTouchEvents, addr 0x4a183a4, size 0x44c, virtual false, abstract: false, final false
   inline bool ProcessTouchEvents();
 
   /// @brief Method SendFocusBasedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TArg> inline void SendFocusBasedEvent(::System::Func_2<TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg);
 
-  /// @brief Method SendIMGUIEvents, addr 0x4a16504, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method SendIMGUIEvents, addr 0x4a1915c, size 0x758, virtual false, abstract: false, final false
   inline void SendIMGUIEvents();
 
-  /// @brief Method SendInputEvents, addr 0x4a16c5c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method SendInputEvents, addr 0x4a198b4, size 0x364, virtual false, abstract: false, final false
   inline void SendInputEvents();
 
   /// @brief Method SendPositionBasedEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -817,16 +817,16 @@ public:
   inline void SendPositionBasedEvent(::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector3 delta, int32_t pointerId, ::System::Nullable_1<int32_t> targetDisplay,
                                      ::System::Func_4<::UnityEngine::Vector3, ::UnityEngine::Vector3, TArg, ::UnityEngine::UIElements::EventBase*>* evtFactory, TArg arg, bool deselectIfNoTarget);
 
-  /// @brief Method ShouldIgnoreEventsOnAppNotFocused, addr 0x4a15300, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShouldIgnoreEventsOnAppNotFocused, addr 0x4a17f58, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldIgnoreEventsOnAppNotFocused();
 
-  /// @brief Method ShouldSendMoveFromInput, addr 0x4a17190, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendMoveFromInput, addr 0x4a19de8, size 0x3d4, virtual false, abstract: false, final false
   inline bool ShouldSendMoveFromInput();
 
-  /// @brief Method Update, addr 0x4a15378, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4a17fd0, size 0x108, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::DefaultEventSystem_UpdateMode updateMode);
 
-  /// @brief Method UpdateFocusedPanel, addr 0x4a17568, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UpdateFocusedPanel, addr 0x4a1a1c0, size 0x78, virtual false, abstract: false, final false
   inline void UpdateFocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* runtimePanel);
 
   constexpr ::StringW const& __cordl_internal_get_m_CancelButton() const;
@@ -967,23 +967,23 @@ public:
 
   constexpr void __cordl_internal_set_m_VerticalAxis(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a17acc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1a724, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_1<bool>* getStaticF_IsEditorRemoteConnected();
 
-  /// @brief Method get_focusedPanel, addr 0x4a15320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusedPanel, addr 0x4a17f78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseRuntimePanel* get_focusedPanel();
 
-  /// @brief Method get_input, addr 0x4a15138, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_input, addr 0x4a17d90, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DefaultEventSystem_IInput* get_input();
 
-  /// @brief Method get_isAppFocused, addr 0x4a150e8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isAppFocused, addr 0x4a17d40, size 0x50, virtual false, abstract: false, final false
   inline bool get_isAppFocused();
 
   static inline void setStaticF_IsEditorRemoteConnected(::System::Func_1<bool>* value);
 
-  /// @brief Method set_focusedPanel, addr 0x4a15328, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_focusedPanel, addr 0x4a17f80, size 0x50, virtual false, abstract: false, final false
   inline void set_focusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value);
 
 protected:
@@ -1001,7 +1001,7 @@ public:
   DefaultEventSystem(DefaultEventSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5741 };
 
   /// @brief Field m_Input, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::DefaultEventSystem_IInput* ___m_Input;

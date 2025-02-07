@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PoseOffsets::*)(::ByRef<::BeatSaber::RecPlay::PlayerPose>)>(
     &::BeatSaber::RecPlay::PoseOffsets::Adjust)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x227ac58;
+  constexpr static std::size_t addrs = 0x227c504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Add)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x422d858;
+  constexpr static std::size_t addrs = 0x42304b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Add)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x422d930;
+  constexpr static std::size_t addrs = 0x4230588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
                                                                                            ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::Add)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x422fd7c;
+  constexpr static std::size_t addrs = 0x42329d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t)>(
     &::System::Numerics::BigIntegerCalculator::AddSelf)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x422fe00;
+  constexpr static std::size_t addrs = 0x4232a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Subtract)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x422dc58;
+  constexpr static std::size_t addrs = 0x42308b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Subtract)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x422dd90;
+  constexpr static std::size_t addrs = 0x42309e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
                                                                                            ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::Subtract)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x422fe74;
+  constexpr static std::size_t addrs = 0x4232acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::System::Numerics::BigIntegerCalculator::Compare)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x422dd10;
+  constexpr static std::size_t addrs = 0x4230968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Divide)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x422f4b0;
+  constexpr static std::size_t addrs = 0x4232108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Remainder)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x422f79c;
+  constexpr static std::size_t addrs = 0x42323f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Divide)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x422f55c;
+  constexpr static std::size_t addrs = 0x42321b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Remainder)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x422f7f4;
+  constexpr static std::size_t addrs = 0x423244c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
                                                                                            ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::Divide)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x422ff68;
+  constexpr static std::size_t addrs = 0x4232bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t)>(
     &::System::Numerics::BigIntegerCalculator::AddDivisor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x423036c;
+  constexpr static std::size_t addrs = 0x4232fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t, uint64_t)>(
     &::System::Numerics::BigIntegerCalculator::SubtractDivisor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4230324;
+  constexpr static std::size_t addrs = 0x4232f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, uint32_t, uint32_t, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::DivideGuessTooBig)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x42302d8;
+  constexpr static std::size_t addrs = 0x4232f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::System::Numerics::BigIntegerCalculator::CreateCopy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x422feec;
+  constexpr static std::size_t addrs = 0x4232b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Numerics::BigIntegerCalculator::LeadingZeros)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4230260;
+  constexpr static std::size_t addrs = 0x4232eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::System::Numerics::BigIntegerCalculator::Square)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x422f1b4;
+  constexpr static std::size_t addrs = 0x4231e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t)>(
     &::System::Numerics::BigIntegerCalculator::Square)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x42303ac;
+  constexpr static std::size_t addrs = 0x4233004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Multiply)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x422f0d0;
+  constexpr static std::size_t addrs = 0x4231d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Multiply)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x422f274;
+  constexpr static std::size_t addrs = 0x4231ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
                                                                                            ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::Multiply)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x4230814;
+  constexpr static std::size_t addrs = 0x423346c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
                                                                                            ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::SubtractCore)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4230754;
+  constexpr static std::size_t addrs = 0x42333ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

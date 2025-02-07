@@ -33,36 +33,36 @@ public:
 
   __declspec(property(get = get_y)) float_t y;
 
-  /// @brief Method .ctor, addr 0x4747ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474a72c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t mask);
 
-  /// @brief Method .ctor, addr 0x4747ab0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474a708, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 v, float_t epsilon);
 
   static inline ::UnityEngine::ProBuilder::Vector2Mask getStaticF_XY();
 
-  /// @brief Method get_x, addr 0x4747a80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x474a6d8, size 0x18, virtual false, abstract: false, final false
   inline float_t get_x();
 
-  /// @brief Method get_y, addr 0x4747a98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x474a6f0, size 0x18, virtual false, abstract: false, final false
   inline float_t get_y();
 
-  /// @brief Method op_BitwiseAnd, addr 0x4747b78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x474a7d0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_BitwiseAnd(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_BitwiseOr, addr 0x4747b6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x474a7c4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_BitwiseOr(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_ExclusiveOr, addr 0x4747b84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x474a7dc, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_ExclusiveOr(::UnityEngine::ProBuilder::Vector2Mask left, ::UnityEngine::ProBuilder::Vector2Mask right);
 
-  /// @brief Method op_Implicit, addr 0x4747b44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x474a79c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vector2Mask op_Implicit___UnityEngine__ProBuilder__Vector2Mask(::UnityEngine::Vector2 v);
 
-  /// @brief Method op_Implicit, addr 0x4747adc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x474a734, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::Vector2Mask mask);
 
-  /// @brief Method op_Multiply, addr 0x4747b90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x474a7e8, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Multiply(::UnityEngine::ProBuilder::Vector2Mask mask, float_t value);
 
   static inline void setStaticF_XY(::UnityEngine::ProBuilder::Vector2Mask value);
@@ -81,7 +81,7 @@ public:
   static constexpr uint8_t Y{ static_cast<uint8_t>(0x2u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14333 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

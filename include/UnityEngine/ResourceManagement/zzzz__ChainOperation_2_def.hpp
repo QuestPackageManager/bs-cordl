@@ -181,7 +181,7 @@ public:
   ChainOperation_2(ChainOperation_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15591 };
 
   /// @brief Field m_DepOp, offset: 0x98, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> ___m_DepOp;

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::*)(int32_t)>(
     &::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4833940;
+  constexpr static std::size_t addrs = 0x4836598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x483401c;
+  constexpr static std::size_t addrs = 0x4836c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x4834038;
+  constexpr static std::size_t addrs = 0x4836c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::__m__Finally1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x48342f8;
+  constexpr static std::size_t addrs = 0x4836f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4834348;
+  constexpr static std::size_t addrs = 0x4836fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4834350;
+  constexpr static std::size_t addrs = 0x4836fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings__InitializeLoader_d__24::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4834388;
+  constexpr static std::size_t addrs = 0x4836fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::get_automaticLoading)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4833744;
+  constexpr static std::size_t addrs = 0x483639c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)(bool)>(
     &::UnityEngine::XR::Management::XRManagerSettings::set_automaticLoading)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x483374c;
+  constexpr static std::size_t addrs = 0x48363a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::get_automaticRunning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4833758;
+  constexpr static std::size_t addrs = 0x48363b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)(bool)>(
     &::UnityEngine::XR::Management::XRManagerSettings::set_automaticRunning)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4833760;
+  constexpr static std::size_t addrs = 0x48363b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* (
     ::UnityEngine::XR::Management::XRManagerSettings::*)()>(&::UnityEngine::XR::Management::XRManagerSettings::get_loaders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483376c;
+  constexpr static std::size_t addrs = 0x48363c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* (
     ::UnityEngine::XR::Management::XRManagerSettings::*)()>(&::UnityEngine::XR::Management::XRManagerSettings::get_activeLoaders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4833774;
+  constexpr static std::size_t addrs = 0x48363cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::get_isInitializationComplete)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483377c;
+  constexpr static std::size_t addrs = 0x48363d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::XR::Management::XRLoader> (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::get_activeLoader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4833784;
+  constexpr static std::size_t addrs = 0x48363dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)(::UnityEngine::XR::Management::XRLoader*)>(
     &::UnityEngine::XR::Management::XRManagerSettings::set_activeLoader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483378c;
+  constexpr static std::size_t addrs = 0x48363e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::InitializeLoaderSync)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x4832fc0;
+  constexpr static std::size_t addrs = 0x4835c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::InitializeLoader)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x48338e0;
+  constexpr static std::size_t addrs = 0x4836538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings::*)(::UnityEngine::XR::Management::XRLoader*, int32_t)>(
     &::UnityEngine::XR::Management::XRManagerSettings::TryAddLoader)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x4833968;
+  constexpr static std::size_t addrs = 0x48365c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings::*)(::UnityEngine::XR::Management::XRLoader*)>(
     &::UnityEngine::XR::Management::XRManagerSettings::TryRemoveLoader)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4833af8;
+  constexpr static std::size_t addrs = 0x4836750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*)>(&::UnityEngine::XR::Management::XRManagerSettings::TrySetLoaders)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x4833b8c;
+  constexpr static std::size_t addrs = 0x48367e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::Awake)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4833d60;
+  constexpr static std::size_t addrs = 0x48369b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRManagerSettings::*)(::UnityEngine::XR::Management::XRLoader*)>(
     &::UnityEngine::XR::Management::XRManagerSettings::CheckGraphicsAPICompatibility)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4833794;
+  constexpr static std::size_t addrs = 0x48363ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::StartSubsystems)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4833214;
+  constexpr static std::size_t addrs = 0x4835e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::StopSubsystems)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x483339c;
+  constexpr static std::size_t addrs = 0x4835ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::DeinitializeLoader)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4833478;
+  constexpr static std::size_t addrs = 0x48360d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4833f00;
+  constexpr static std::size_t addrs = 0x4836b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::OnDisable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4833f18;
+  constexpr static std::size_t addrs = 0x4836b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::OnDestroy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4833f30;
+  constexpr static std::size_t addrs = 0x4836b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* (
     ::UnityEngine::XR::Management::XRManagerSettings::*)()>(&::UnityEngine::XR::Management::XRManagerSettings::get_currentLoaders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4833f40;
+  constexpr static std::size_t addrs = 0x4836b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*)>(&::UnityEngine::XR::Management::XRManagerSettings::set_currentLoaders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4833f48;
+  constexpr static std::size_t addrs = 0x4836ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -595,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* (
     ::UnityEngine::XR::Management::XRManagerSettings::*)()>(&::UnityEngine::XR::Management::XRManagerSettings::get_registeredLoaders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4833f50;
+  constexpr static std::size_t addrs = 0x4836ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRManagerSettings::*)()>(
     &::UnityEngine::XR::Management::XRManagerSettings::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4833f58;
+  constexpr static std::size_t addrs = 0x4836bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagerSettings*>::get(),

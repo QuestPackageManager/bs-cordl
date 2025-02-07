@@ -18,7 +18,7 @@ namespace HMUI {
 class CORDL_TYPE EventSystemHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsInputFieldSelected, addr 0x39efc6c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsInputFieldSelected, addr 0x39f24d0, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsInputFieldSelected();
 
 protected:
@@ -36,7 +36,7 @@ public:
   EventSystemHelpers(EventSystemHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16034 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,10 +19,10 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE Common : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Pause, addr 0x45294f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x452c14c, size 0x4, virtual false, abstract: false, final false
   static inline void Pause();
 
-  /// @brief Method umul128, addr 0x45294f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method umul128, addr 0x452c150, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t umul128(uint64_t x, uint64_t y, ::ByRef<uint64_t> high);
 
 protected:
@@ -40,7 +40,7 @@ public:
   Common(Common const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -60,10 +60,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2273b78, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2275424, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2273f24, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22757d0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -82,7 +82,7 @@ public:
                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18389 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -128,10 +128,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2273fa0, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x227584c, size 0x274, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2274214, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2275ac0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -148,7 +148,7 @@ public:
                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Init::GameVersion*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18390 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -202,27 +202,27 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method GetBuildId, addr 0x227391c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetBuildId, addr 0x22751c8, size 0x94, virtual false, abstract: false, final false
   static inline uint64_t GetBuildId();
 
-  /// @brief Method GetBuildTimeGameVersion, addr 0x22739b0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetBuildTimeGameVersion, addr 0x227525c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion* GetBuildTimeGameVersion();
 
-  /// @brief Method GetContentVersion, addr 0x2270448, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetContentVersion, addr 0x2271cf4, size 0xfc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Content GetContentVersion();
 
-  /// @brief Method GetVersionAsync, addr 0x2273810, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetVersionAsync, addr 0x22750bc, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* GetVersionAsync();
 
-  /// @brief Method GetVersionInternalAsync, addr 0x2273834, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetVersionInternalAsync, addr 0x22750e0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* GetVersionInternalAsync();
 
-  /// @brief Method Initialize, addr 0x2273780, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x227502c, size 0x90, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::BeatSaber::Init::GameVersionProvider* New_ctor();
 
-  /// @brief Method NoDomainReloadInit, addr 0x2273738, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x2274fe4, size 0x48, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   constexpr ::BeatSaber::Init::IPlatformInit* const& __cordl_internal_get__platformInit() const;
@@ -237,7 +237,7 @@ public:
 
   constexpr void __cordl_internal_set__versionTask(::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* value);
 
-  /// @brief Method .ctor, addr 0x2273b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227541c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Nullable_1<::BeatSaber::Init::GameVersion_Content> getStaticF__contentVersion();
@@ -262,7 +262,7 @@ public:
   GameVersionProvider(GameVersionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18390 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18391 };
 
   /// @brief Field _versionTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* ____versionTask;

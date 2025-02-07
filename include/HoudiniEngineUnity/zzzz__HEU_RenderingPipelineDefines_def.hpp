@@ -25,27 +25,27 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_RenderingPipelineDefines : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddDefine, addr 0x3a87d10, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddDefine, addr 0x3a8a574, size 0x104, virtual false, abstract: false, final false
   static inline void AddDefine(::StringW define);
 
-  /// @brief Method GetDefines, addr 0x3a87ed4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDefines, addr 0x3a8a738, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetDefines();
 
-  /// @brief Method GetPipeline, addr 0x3a87be0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetPipeline, addr 0x3a8a444, size 0x130, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_PipelineType GetPipeline();
 
   static inline ::HoudiniEngineUnity::HEU_RenderingPipelineDefines* New_ctor();
 
-  /// @brief Method RemoveDefine, addr 0x3a87e14, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RemoveDefine, addr 0x3a8a678, size 0xc0, virtual false, abstract: false, final false
   static inline void RemoveDefine(::StringW define);
 
-  /// @brief Method SetDefines, addr 0x3a87f3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetDefines, addr 0x3a8a7a0, size 0x4, virtual false, abstract: false, final false
   static inline void SetDefines(::System::Collections::Generic::List_1<::StringW>* definesList);
 
-  /// @brief Method UpdateDefines, addr 0x3a87b08, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefines, addr 0x3a8a36c, size 0xd8, virtual false, abstract: false, final false
   static inline void UpdateDefines();
 
-  /// @brief Method .ctor, addr 0x3a87f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a8a7a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   HEU_RenderingPipelineDefines(HEU_RenderingPipelineDefines const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11840 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -53,24 +53,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformUserModel"
   constexpr operator ::GlobalNamespace::IPlatformUserModel*() noexcept;
 
-  /// @brief Method GetUserAuthToken, addr 0x4080f04, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method GetUserAuthToken, addr 0x4083b5c, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
 
-  /// @brief Method GetUserFriendsUserIds, addr 0x4080e48, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method GetUserFriendsUserIds, addr 0x4083aa0, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
 
-  /// @brief Method GetUserInfo, addr 0x4080d3c, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method GetUserInfo, addr 0x4083994, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserNamesForUserIds, addr 0x4080fbc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetUserNamesForUserIds, addr 0x4083c14, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
 
-  /// @brief Method GetUsersSystemLanguage, addr 0x40810c8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetUsersSystemLanguage, addr 0x4083d20, size 0x5c, virtual true, abstract: false, final true
   inline ::BGLib::Polyglot::Language GetUsersSystemLanguage();
 
   static inline ::GlobalNamespace::MockPlatformUserModel* New_ctor();
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x4081028, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method RequestXPlatformAccessToken, addr 0x4083c80, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::Action_1<::GlobalNamespace::UserInfo*>* const& __cordl_internal_get_platformUserInfoDidChangeEvent() const;
@@ -79,19 +79,19 @@ public:
 
   constexpr void __cordl_internal_set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x4081124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4083d7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x4080bd4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x408382c, size 0xb0, virtual true, abstract: false, final true
   inline void add_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x4080d34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x408398c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanXPlatformAccessTokenBeCached();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformUserModel"
   constexpr ::GlobalNamespace::IPlatformUserModel* i___GlobalNamespace__IPlatformUserModel() noexcept;
 
-  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x4080c84, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x40838dc, size 0xb0, virtual true, abstract: false, final true
   inline void remove_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
 protected:
@@ -109,7 +109,7 @@ public:
   MockPlatformUserModel(MockPlatformUserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18747 };
 
   /// @brief Field platformUserInfoDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::UserInfo*>* ___platformUserInfoDidChangeEvent;

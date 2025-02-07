@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::get_IsDeterministic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23db248;
+  constexpr static std::size_t addrs = 0x23dcc44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23db250;
+  constexpr static std::size_t addrs = 0x23dcc4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23db258;
+  constexpr static std::size_t addrs = 0x23dcc54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::NextK)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x23db2a4;
+  constexpr static std::size_t addrs = 0x23dcca0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23db35c;
+  constexpr static std::size_t addrs = 0x23dcd58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

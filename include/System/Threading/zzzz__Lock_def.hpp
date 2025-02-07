@@ -24,12 +24,12 @@ public:
   /// @brief Field _lock, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Object* _lock;
 
-  /// @brief Method Acquire, addr 0x3e53604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x3e5625c, size 0x8, virtual false, abstract: false, final false
   inline void Acquire();
 
   static inline ::System::Threading::Lock* New_ctor();
 
-  /// @brief Method Release, addr 0x3e53628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x3e56280, size 0x8, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Object* const& __cordl_internal_get__lock() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e53638, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e56290, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

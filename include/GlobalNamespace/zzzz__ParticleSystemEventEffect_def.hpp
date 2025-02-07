@@ -97,21 +97,21 @@ public:
   /// @brief Field kFadeSpeed, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_kFadeSpeed, put = __cordl_internal_set_kFadeSpeed)) float_t kFadeSpeed;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b9a3f0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b9cf50, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::ParticleSystemEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9a30c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9ce6c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshParticles, addr 0x3b9a1e4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RefreshParticles, addr 0x3b9cd44, size 0x128, virtual false, abstract: false, final false
   inline void RefreshParticles();
 
-  /// @brief Method Start, addr 0x3b9a008, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9cb68, size 0x1dc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b9a328, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9ce88, size 0xc8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__afterHighlightColor() const;
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_kFadeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b9a5b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9d114, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,7 +240,7 @@ public:
   ParticleSystemEventEffect(ParticleSystemEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4335 };
 
   /// @brief Field _lightColor0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor0;

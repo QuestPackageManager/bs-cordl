@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerMissionStatsData::*)()>(
     &::GlobalNamespace::PlayerMissionStatsData::get_missionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f735c;
+  constexpr static std::size_t addrs = 0x26f8d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerMissionStatsData*>::get(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerMissionStatsData::*)()>(&::GlobalNamespace::PlayerMissionStatsData::get_cleared)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7364;
+  constexpr static std::size_t addrs = 0x26f8d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerMissionStatsData*>::get(), "get_cleared",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerMissionStatsData::*)(bool)>(&::GlobalNamespace::PlayerMissionStatsData::set_cleared)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f736c;
+  constexpr static std::size_t addrs = 0x26f8d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerMissionStatsData::*)(::StringW, bool)>(
     &::GlobalNamespace::PlayerMissionStatsData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26f1ed4;
+  constexpr static std::size_t addrs = 0x26f38d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

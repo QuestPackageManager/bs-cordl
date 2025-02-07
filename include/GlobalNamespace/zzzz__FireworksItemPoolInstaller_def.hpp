@@ -31,7 +31,7 @@ public:
   /// @brief Field _fireworksController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__fireworksController, put = __cordl_internal_set__fireworksController)) ::UnityW<::GlobalNamespace::FireworksController> _fireworksController;
 
-  /// @brief Method InstallBindings, addr 0x3b836dc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b8623c, size 0x94, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FireworksItemPoolInstaller* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__fireworksController(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  /// @brief Method .ctor, addr 0x3b83770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b862d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   FireworksItemPoolInstaller(FireworksItemPoolInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4211 };
 
   /// @brief Field _fireworksController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;

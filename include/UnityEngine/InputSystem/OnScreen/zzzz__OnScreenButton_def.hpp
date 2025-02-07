@@ -41,10 +41,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenButton* New_ctor();
 
-  /// @brief Method OnPointerDown, addr 0x45f9154, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x45fbdac, size 0x4c, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x45f9108, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x45fbd60, size 0x4c, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ControlPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x45f91b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45fbe08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controlPathInternal, addr 0x45f91a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_controlPathInternal, addr 0x45fbdf8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_controlPathInternal();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -68,7 +68,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method set_controlPathInternal, addr 0x45f91a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_controlPathInternal, addr 0x45fbe00, size 0x8, virtual true, abstract: false, final false
   inline void set_controlPathInternal(::StringW value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   OnScreenButton(OnScreenButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6794 };
 
   /// @brief Field m_ControlPath, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_ControlPath;

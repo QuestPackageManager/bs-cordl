@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f94834, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9748c, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -111,7 +111,7 @@ public:
   Party(Party const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15552 };
 
   /// @brief Field ID, offset: 0x10, size: 0x8, def value: None
   uint64_t ____cordl_ID;

@@ -101,6 +101,9 @@ namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
+class PersistentAudioNoiseController;
+}
+namespace GlobalNamespace {
 class PlatformLeaderboardsModel;
 }
 namespace GlobalNamespace {
@@ -180,60 +183,60 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::MainSystemInit___c* __9;
 
-  /// @brief Field <>9__43_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__43_0, put = setStaticF___9__43_0)) ::System::Func_2<::Zenject::InjectContext*, ::System::Random*>* __9__43_0;
+  /// @brief Field <>9__44_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__44_0, put = setStaticF___9__44_0)) ::System::Func_2<::Zenject::InjectContext*, ::System::Random*>* __9__44_0;
 
-  /// @brief Field <>9__43_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__43_1, put = setStaticF___9__43_1)) ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
-                                                                                                ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* __9__43_1;
+  /// @brief Field <>9__44_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__44_1, put = setStaticF___9__44_1)) ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
+                                                                                                ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* __9__44_1;
 
-  /// @brief Field <>9__43_2, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__43_2, put = setStaticF___9__43_2)) ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
-                                                                                                ::GlobalNamespace::OculusLevelProductCollectionModel*>* __9__43_2;
+  /// @brief Field <>9__44_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__44_2, put = setStaticF___9__44_2)) ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*,
+                                                                                                ::GlobalNamespace::OculusLevelProductCollectionModel*>* __9__44_2;
 
-  /// @brief Field <>9__46_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__46_0, put = setStaticF___9__46_0)) ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* __9__46_0;
+  /// @brief Field <>9__47_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__47_0, put = setStaticF___9__47_0)) ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* __9__47_0;
 
   static inline ::GlobalNamespace::MainSystemInit___c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__43_0, addr 0x27198cc, size 0x58, virtual false, abstract: false, final false
-  inline ::System::Random* _InstallBindings_b__43_0(::Zenject::InjectContext* _);
+  /// @brief Method <InstallBindings>b__44_0, addr 0x271b310, size 0x58, virtual false, abstract: false, final false
+  inline ::System::Random* _InstallBindings_b__44_0(::Zenject::InjectContext* _);
 
-  /// @brief Method <InstallBindings>b__43_1, addr 0x2719924, size 0x70, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _InstallBindings_b__43_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+  /// @brief Method <InstallBindings>b__44_1, addr 0x271b368, size 0x70, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _InstallBindings_b__44_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallBindings>b__43_2, addr 0x2719994, size 0x70, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OculusLevelProductCollectionModel* _InstallBindings_b__43_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+  /// @brief Method <InstallBindings>b__44_2, addr 0x271b3d8, size 0x70, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OculusLevelProductCollectionModel* _InstallBindings_b__44_2(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallPlatformLeaderboardsModel>b__46_0, addr 0x2719a04, size 0x78, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LeaderboardIdsModel* _InstallPlatformLeaderboardsModel_b__46_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
+  /// @brief Method <InstallPlatformLeaderboardsModel>b__47_0, addr 0x271b448, size 0x78, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::LeaderboardIdsModel* _InstallPlatformLeaderboardsModel_b__47_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method .ctor, addr 0x27198c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271b308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MainSystemInit___c* getStaticF___9();
 
-  static inline ::System::Func_2<::Zenject::InjectContext*, ::System::Random*>* getStaticF___9__43_0();
+  static inline ::System::Func_2<::Zenject::InjectContext*, ::System::Random*>* getStaticF___9__44_0();
 
   static inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>*
-  getStaticF___9__43_1();
+  getStaticF___9__44_1();
 
   static inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*
-  getStaticF___9__43_2();
+  getStaticF___9__44_2();
 
-  static inline ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* getStaticF___9__46_0();
+  static inline ::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* getStaticF___9__47_0();
 
   static inline void setStaticF___9(::GlobalNamespace::MainSystemInit___c* value);
 
-  static inline void setStaticF___9__43_0(::System::Func_2<::Zenject::InjectContext*, ::System::Random*>* value);
+  static inline void setStaticF___9__44_0(::System::Func_2<::Zenject::InjectContext*, ::System::Random*>* value);
 
   static inline void
-  setStaticF___9__43_1(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* value);
+  setStaticF___9__44_1(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::PerceivedLoudnessPerLevelModel*>* value);
 
   static inline void
-  setStaticF___9__43_2(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>* value);
+  setStaticF___9__44_2(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>* value);
 
-  static inline void setStaticF___9__46_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value);
+  static inline void setStaticF___9__47_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value);
 
 protected:
   // Ctor Parameters []
@@ -250,7 +253,7 @@ public:
   MainSystemInit___c(MainSystemInit___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17793 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -357,6 +360,10 @@ public:
   /// @brief Field _oculusVRHelperPrefab, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusVRHelperPrefab, put = __cordl_internal_set__oculusVRHelperPrefab)) ::UnityW<::GlobalNamespace::OculusVRHelper> _oculusVRHelperPrefab;
 
+  /// @brief Field _persistentAudioNoisePrefab, offset 0x160, size 0x8
+  __declspec(property(get = __cordl_internal_get__persistentAudioNoisePrefab, put = __cordl_internal_set__persistentAudioNoisePrefab)) ::UnityW<::GlobalNamespace::PersistentAudioNoiseController>
+      _persistentAudioNoisePrefab;
+
   /// @brief Field _platformLeaderboardsModel, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__platformLeaderboardsModel, put = __cordl_internal_set__platformLeaderboardsModel)) ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>
       _platformLeaderboardsModel;
@@ -392,7 +399,7 @@ public:
   __declspec(property(get = __cordl_internal_get__richPresenceManagerPrefab, put = __cordl_internal_set__richPresenceManagerPrefab)) ::UnityW<::GlobalNamespace::RichPresenceManager>
       _richPresenceManagerPrefab;
 
-  /// @brief Field _settingsManager, offset 0x160, size 0x8
+  /// @brief Field _settingsManager, offset 0x168, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
   /// @brief Field _songPackMasksModel, offset 0x20, size 0x8
@@ -423,25 +430,25 @@ public:
   /// @brief Field _voipManagerPrefab, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__voipManagerPrefab, put = __cordl_internal_set__voipManagerPrefab)) ::UnityW<::GlobalNamespace::VoipManager> _voipManagerPrefab;
 
-  /// @brief Method Init, addr 0x2717d24, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2719720, size 0x74, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SettingsApplicatorSO* settingsApplicator);
 
-  /// @brief Method InstallBindings, addr 0x2717d98, size 0x16a4, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2719794, size 0x16ec, virtual false, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container, bool isRunningFromTests);
 
-  /// @brief Method InstallOculusDestinationBindings, addr 0x271943c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InstallOculusDestinationBindings, addr 0x271ae80, size 0xf8, virtual false, abstract: false, final false
   inline void InstallOculusDestinationBindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPS4Bindings, addr 0x2719850, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InstallPS4Bindings, addr 0x271b294, size 0x4, virtual false, abstract: false, final false
   inline void InstallPS4Bindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPS5Bindings, addr 0x271984c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InstallPS5Bindings, addr 0x271b290, size 0x4, virtual false, abstract: false, final false
   inline void InstallPS5Bindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPlatformLeaderboardsModel, addr 0x2719624, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method InstallPlatformLeaderboardsModel, addr 0x271b068, size 0x228, virtual false, abstract: false, final false
   inline void InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container, bool isRunningFromTests);
 
-  /// @brief Method InstallRichPresence, addr 0x2719534, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InstallRichPresence, addr 0x271af78, size 0xf0, virtual false, abstract: false, final false
   inline void InstallRichPresence(::Zenject::DiContainer* container, bool isRunningFromTests);
 
   static inline ::GlobalNamespace::MainSystemInit* New_ctor();
@@ -537,6 +544,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::OculusVRHelper> const& __cordl_internal_get__oculusVRHelperPrefab() const;
 
   constexpr ::UnityW<::GlobalNamespace::OculusVRHelper>& __cordl_internal_get__oculusVRHelperPrefab();
+
+  constexpr ::UnityW<::GlobalNamespace::PersistentAudioNoiseController> const& __cordl_internal_get__persistentAudioNoisePrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PersistentAudioNoiseController>& __cordl_internal_get__persistentAudioNoisePrefab();
 
   constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> const& __cordl_internal_get__platformLeaderboardsModel() const;
 
@@ -660,6 +671,8 @@ public:
 
   constexpr void __cordl_internal_set__oculusVRHelperPrefab(::UnityW<::GlobalNamespace::OculusVRHelper> value);
 
+  constexpr void __cordl_internal_set__persistentAudioNoisePrefab(::UnityW<::GlobalNamespace::PersistentAudioNoiseController> value);
+
   constexpr void __cordl_internal_set__platformLeaderboardsModel(::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> value);
 
   constexpr void __cordl_internal_set__playerDataFileManager(::UnityW<::GlobalNamespace::PlayerDataFileManagerSO> value);
@@ -698,7 +711,7 @@ public:
 
   constexpr void __cordl_internal_set__voipManagerPrefab(::UnityW<::GlobalNamespace::VoipManager> value);
 
-  /// @brief Method .ctor, addr 0x2719854, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271b298, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -716,7 +729,7 @@ public:
   MainSystemInit(MainSystemInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17794 };
 
   /// @brief Field _songPackMasksModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPackMasksModelSO> ____songPackMasksModel;
@@ -841,7 +854,10 @@ public:
   /// @brief Field _ps4MaxCachedBeatmapLevels, offset: 0x15c, size: 0x4, def value: None
   int32_t ____ps4MaxCachedBeatmapLevels;
 
-  /// @brief Field _settingsManager, offset: 0x160, size: 0x8, def value: None
+  /// @brief Field _persistentAudioNoisePrefab, offset: 0x160, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PersistentAudioNoiseController> ____persistentAudioNoisePrefab;
+
+  /// @brief Field _settingsManager, offset: 0x168, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -929,9 +945,11 @@ static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____defaultMaxCachedBe
 
 static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____ps4MaxCachedBeatmapLevels) == 0x15c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____settingsManager) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____persistentAudioNoisePrefab) == 0x160, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSystemInit, 0x168>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainSystemInit, ____settingsManager) == 0x168, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSystemInit, 0x170>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainSystemInit);

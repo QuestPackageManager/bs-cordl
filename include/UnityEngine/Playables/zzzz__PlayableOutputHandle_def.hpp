@@ -46,91 +46,91 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>*();
 
-  /// @brief Method AddNotificationReceiver, addr 0x48cf93c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AddNotificationReceiver, addr 0x48d2594, size 0x84, virtual false, abstract: false, final false
   inline void AddNotificationReceiver(::UnityEngine::Playables::INotificationReceiver* receiver);
 
-  /// @brief Method AddNotificationReceiver_Injected, addr 0x48cf9c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddNotificationReceiver_Injected, addr 0x48d2618, size 0x44, virtual false, abstract: false, final false
   static inline void AddNotificationReceiver_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::UnityEngine::Playables::INotificationReceiver* receiver);
 
-  /// @brief Method CompareVersion, addr 0x48cf0b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CompareVersion, addr 0x48d1d10, size 0x34, virtual false, abstract: false, final false
   static inline bool CompareVersion(::UnityEngine::Playables::PlayableOutputHandle lhs, ::UnityEngine::Playables::PlayableOutputHandle rhs);
 
-  /// @brief Method Equals, addr 0x48cf194, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48d1dec, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::PlayableOutputHandle other);
 
-  /// @brief Method Equals, addr 0x48cf0ec, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48d1d44, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* p);
 
-  /// @brief Method GetHashCode, addr 0x48cf084, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48d1cdc, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetPlayableOutputType, addr 0x48cf2c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPlayableOutputType, addr 0x48d1f1c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Type* GetPlayableOutputType();
 
-  /// @brief Method GetPlayableOutputType_Injected, addr 0x48cf338, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPlayableOutputType_Injected, addr 0x48d1f90, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::Type* GetPlayableOutputType_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self);
 
-  /// @brief Method GetSourceOutputPort, addr 0x48cf6c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetSourceOutputPort, addr 0x48d2318, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetSourceOutputPort();
 
-  /// @brief Method GetSourceOutputPort_Injected, addr 0x48cf734, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSourceOutputPort_Injected, addr 0x48d238c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetSourceOutputPort_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self);
 
-  /// @brief Method GetSourcePlayable, addr 0x48cf504, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetSourcePlayable, addr 0x48d215c, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableHandle GetSourcePlayable();
 
-  /// @brief Method GetSourcePlayable_Injected, addr 0x48cf590, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSourcePlayable_Injected, addr 0x48d21e8, size 0x44, virtual false, abstract: false, final false
   static inline void GetSourcePlayable_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::ByRef<::UnityEngine::Playables::PlayableHandle> ret);
 
   /// @brief Method IsPlayableOutputOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOutputOfType();
 
-  /// @brief Method IsValid, addr 0x48cf214, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x48d1e6c, size 0x74, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method IsValid_Injected, addr 0x48cf288, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid_Injected, addr 0x48d1ee0, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValid_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self);
 
-  /// @brief Method PushNotification, addr 0x48cf840, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PushNotification, addr 0x48d2498, size 0xa0, virtual false, abstract: false, final false
   inline void PushNotification(::UnityEngine::Playables::PlayableHandle origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
-  /// @brief Method PushNotification_Injected, addr 0x48cf8e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PushNotification_Injected, addr 0x48d2538, size 0x5c, virtual false, abstract: false, final false
   static inline void PushNotification_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::ByRef<::UnityEngine::Playables::PlayableHandle> origin,
                                                ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
-  /// @brief Method SetReferenceObject, addr 0x48cf374, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetReferenceObject, addr 0x48d1fcc, size 0x84, virtual false, abstract: false, final false
   inline void SetReferenceObject(::UnityEngine::Object* target);
 
-  /// @brief Method SetReferenceObject_Injected, addr 0x48cf3f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetReferenceObject_Injected, addr 0x48d2050, size 0x44, virtual false, abstract: false, final false
   static inline void SetReferenceObject_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::UnityEngine::Object* target);
 
-  /// @brief Method SetSourcePlayable, addr 0x48cf5d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetSourcePlayable, addr 0x48d222c, size 0x98, virtual false, abstract: false, final false
   inline void SetSourcePlayable(::UnityEngine::Playables::PlayableHandle target, int32_t port);
 
-  /// @brief Method SetSourcePlayable_Injected, addr 0x48cf66c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetSourcePlayable_Injected, addr 0x48d22c4, size 0x54, virtual false, abstract: false, final false
   static inline void SetSourcePlayable_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::ByRef<::UnityEngine::Playables::PlayableHandle> target, int32_t port);
 
-  /// @brief Method SetUserData, addr 0x48cf43c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetUserData, addr 0x48d2094, size 0x84, virtual false, abstract: false, final false
   inline void SetUserData(::UnityEngine::Object* target);
 
-  /// @brief Method SetUserData_Injected, addr 0x48cf4c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetUserData_Injected, addr 0x48d2118, size 0x44, virtual false, abstract: false, final false
   static inline void SetUserData_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::UnityEngine::Object* target);
 
-  /// @brief Method SetWeight, addr 0x48cf770, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetWeight, addr 0x48d23c8, size 0x84, virtual false, abstract: false, final false
   inline void SetWeight(float_t weight);
 
-  /// @brief Method SetWeight_Injected, addr 0x48cf7f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetWeight_Injected, addr 0x48d244c, size 0x4c, virtual false, abstract: false, final false
   static inline void SetWeight_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, float_t weight);
 
   static inline ::UnityEngine::Playables::PlayableOutputHandle getStaticF_m_Null();
 
-  /// @brief Method get_Null, addr 0x48cf02c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x48d1c84, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutputHandle get_Null();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>"
   constexpr ::System::IEquatable_1<::UnityEngine::Playables::PlayableOutputHandle>* i___System__IEquatable_1___UnityEngine__Playables__PlayableOutputHandle_();
 
-  /// @brief Method op_Equality, addr 0x48cef34, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48d1b8c, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Playables::PlayableOutputHandle lhs, ::UnityEngine::Playables::PlayableOutputHandle rhs);
 
   static inline void setStaticF_m_Null(::UnityEngine::Playables::PlayableOutputHandle value);
@@ -143,7 +143,7 @@ public:
   constexpr PlayableOutputHandle(::System::IntPtr m_Handle, uint32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11288 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

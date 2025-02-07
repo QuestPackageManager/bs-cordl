@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView___c__DisplayClass19_0::*)()>(&::HMUI::ModalView___c__DisplayClass19_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22927f8;
+  constexpr static std::size_t addrs = 0x22940a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass19_0*>::get(), ".ctor",
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView___c__DisplayClass19_0::*)()>(&::HMUI::ModalView___c__DisplayClass19_0::_Hide_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2293218;
+  constexpr static std::size_t addrs = 0x2294ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass19_0*>::get(), "<Hide>b__0",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView___c__DisplayClass23_0::*)()>(&::HMUI::ModalView___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2293200;
+  constexpr static std::size_t addrs = 0x2294aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass23_0*>::get(), ".ctor",
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView___c__DisplayClass23_0::*)()>(
     &::HMUI::ModalView___c__DisplayClass23_0::_HandleParentViewControllerDidDeactivate_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2293294;
+  constexpr static std::size_t addrs = 0x2294b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(::System::Action*)>(&::HMUI::ModalView::add_blockerClickedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x229218c;
+  constexpr static std::size_t addrs = 0x2293a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(::System::Action*)>(&::HMUI::ModalView::remove_blockerClickedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2292228;
+  constexpr static std::size_t addrs = 0x2293ad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ModalView::*)()>(&::HMUI::ModalView::get_isShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22922c4;
+  constexpr static std::size_t addrs = 0x2293b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "get_isShown",
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::OnDisable)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22922cc;
+  constexpr static std::size_t addrs = 0x2293b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "OnDisable",
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22922e0;
+  constexpr static std::size_t addrs = 0x2293b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "OnDestroy",
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(::UnityEngine::Transform*)>(&::HMUI::ModalView::SetupView)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x229236c;
+  constexpr static std::size_t addrs = 0x2293c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(bool, ::System::Action*)>(&::HMUI::ModalView::Hide)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x22925ec;
+  constexpr static std::size_t addrs = 0x2293e98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(bool, bool, ::System::Action*)>(&::HMUI::ModalView::Show)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x2292800;
+  constexpr static std::size_t addrs = 0x22940ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::HMUI::ModalView::*)()>(&::HMUI::ModalView::CreateBlocker)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x2292cb4;
+  constexpr static std::size_t addrs = 0x2294560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "CreateBlocker",
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::HandleBlockerButtonClicked)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x229310c;
+  constexpr static std::size_t addrs = 0x22949b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "HandleBlockerButtonClicked",
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(bool, bool)>(&::HMUI::ModalView::HandleParentViewControllerDidDeactivate)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2293128;
+  constexpr static std::size_t addrs = 0x22949d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::ByRef<::UnityEngine::Canvas*>, ::ByRef<::HMUI::ViewControllerBase*>)>(&::HMUI::ModalView::GetModalRootTransform)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2292bb4;
+  constexpr static std::size_t addrs = 0x2294460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2293208;
+  constexpr static std::size_t addrs = 0x2294ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), ".ctor",

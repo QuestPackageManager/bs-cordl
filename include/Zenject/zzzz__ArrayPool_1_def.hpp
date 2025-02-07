@@ -72,7 +72,7 @@ public:
   ArrayPool_1(ArrayPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12435 };
 
   /// @brief Field _length, offset: 0x24, size: 0x4, def value: None
   int32_t ____length;

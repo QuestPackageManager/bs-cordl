@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, uint32_t)>(&::Unity::Burst::Unsafe::CopyBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45294a4;
+  constexpr static std::size_t addrs = 0x452c0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint8_t>, ::ByRef<uint8_t>, uint32_t)>(&::Unity::Burst::Unsafe::CopyBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45294ac;
+  constexpr static std::size_t addrs = 0x452c104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, uint32_t)>(
     &::Unity::Burst::Unsafe::CopyBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45294b4;
+  constexpr static std::size_t addrs = 0x452c10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint8_t>, ::ByRef<uint8_t>, uint32_t)>(&::Unity::Burst::Unsafe::CopyBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45294bc;
+  constexpr static std::size_t addrs = 0x452c114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint8_t, uint32_t)>(&::Unity::Burst::Unsafe::InitBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45294c4;
+  constexpr static std::size_t addrs = 0x452c11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint8_t>, uint8_t, uint32_t)>(&::Unity::Burst::Unsafe::InitBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45294cc;
+  constexpr static std::size_t addrs = 0x452c124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint8_t, uint32_t)>(&::Unity::Burst::Unsafe::InitBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45294d4;
+  constexpr static std::size_t addrs = 0x452c12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint8_t>, uint8_t, uint32_t)>(&::Unity::Burst::Unsafe::InitBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45294dc;
+  constexpr static std::size_t addrs = 0x452c134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

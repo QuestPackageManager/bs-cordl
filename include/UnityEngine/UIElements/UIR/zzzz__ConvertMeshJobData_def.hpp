@@ -40,7 +40,7 @@ public:
                                float_t textureId, ::System::IntPtr indexSrc, ::System::IntPtr indexDst, int32_t indexCount, int32_t indexOffset, int32_t flipIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6365 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };

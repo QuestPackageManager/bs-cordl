@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::SymmetricEncDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x2644628, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646024, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:

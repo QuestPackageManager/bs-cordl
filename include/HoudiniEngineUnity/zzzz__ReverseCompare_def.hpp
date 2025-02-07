@@ -26,12 +26,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x3a7218c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3a749f0, size 0x78, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
   static inline ::HoudiniEngineUnity::ReverseCompare* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a72204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a74a68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -52,7 +52,7 @@ public:
   ReverseCompare(ReverseCompare const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

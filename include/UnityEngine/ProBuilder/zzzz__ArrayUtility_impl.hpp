@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)(int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::ArrayUtility_SearchRange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4701280;
+  constexpr static std::size_t addrs = 0x4703ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(
     &::UnityEngine::ProBuilder::ArrayUtility_SearchRange::Valid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4701288;
+  constexpr static std::size_t addrs = 0x4703ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ArrayUtility_SearchRange>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(
     &::UnityEngine::ProBuilder::ArrayUtility_SearchRange::Center)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x470129c;
+  constexpr static std::size_t addrs = 0x4703ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ArrayUtility_SearchRange>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(
     &::UnityEngine::ProBuilder::ArrayUtility_SearchRange::ToString)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x47012b4;
+  constexpr static std::size_t addrs = 0x4703f0c;
 
   inline static ::MethodInfo const* methodInfo() {
 

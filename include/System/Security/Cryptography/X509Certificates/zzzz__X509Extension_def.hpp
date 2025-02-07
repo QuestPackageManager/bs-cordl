@@ -28,10 +28,10 @@ public:
   /// @brief Field _critical, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__critical, put = __cordl_internal_set__critical)) bool _critical;
 
-  /// @brief Method CopyFrom, addr 0x4444cfc, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x4447954, size 0x124, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method FormatUnkownData, addr 0x4444e20, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FormatUnkownData, addr 0x4447a78, size 0x11c, virtual false, abstract: false, final false
   inline ::StringW FormatUnkownData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Extension* New_ctor();
@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__critical(bool value);
 
-  /// @brief Method .ctor, addr 0x4444cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4447910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4444cc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4447918, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical);
 
-  /// @brief Method get_Critical, addr 0x4444ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Critical, addr 0x4447940, size 0x8, virtual false, abstract: false, final false
   inline bool get_Critical();
 
-  /// @brief Method set_Critical, addr 0x4444cf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Critical, addr 0x4447948, size 0xc, virtual false, abstract: false, final false
   inline void set_Critical(bool value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   X509Extension(X509Extension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9331 };
 
   /// @brief Field _critical, offset: 0x20, size: 0x1, def value: None
   bool ____critical;

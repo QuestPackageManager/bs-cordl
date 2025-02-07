@@ -25,12 +25,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE NamedValueChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x3b1af9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x3b1dafc, size 0xb0, virtual false, abstract: false, final false
   static inline bool Check(::StringW fieldName, ::System::Object* value, ::System::Object* expectedValue, ::System::Text::StringBuilder* assertMessageSb);
 
   static inline ::GlobalNamespace::NamedValueChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b1b04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1dbac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   NamedValueChecker(NamedValueChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

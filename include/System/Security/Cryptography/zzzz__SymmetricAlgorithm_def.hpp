@@ -85,28 +85,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clear, addr 0x3caea1c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3cb1674, size 0x94, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Create, addr 0x3caf25c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3cb1eb4, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::SymmetricAlgorithm* Create(::StringW algName);
 
-  /// @brief Method CreateDecryptor, addr 0x3caf3a4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x3cb1ffc, size 0x50, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
 
   /// @brief Method CreateDecryptor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x3caf354, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x3cb1fac, size 0x50, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
 
   /// @brief Method CreateEncryptor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method Dispose, addr 0x3cae9b0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3cb1608, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3caeab0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3cb1708, size 0x4c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method GenerateIV, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -117,7 +117,7 @@ public:
 
   static inline ::System::Security::Cryptography::SymmetricAlgorithm* New_ctor();
 
-  /// @brief Method ValidKeySize, addr 0x3caefcc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ValidKeySize, addr 0x3cb1c24, size 0x9c, virtual false, abstract: false, final false
   inline bool ValidKeySize(int32_t bitLength);
 
   constexpr int32_t const& __cordl_internal_get_BlockSizeValue() const;
@@ -174,52 +174,52 @@ public:
 
   constexpr void __cordl_internal_set_PaddingValue(::System::Security::Cryptography::PaddingMode value);
 
-  /// @brief Method .ctor, addr 0x3cae98c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb15e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlockSize, addr 0x3caeafc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BlockSize, addr 0x3cb1754, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_BlockSize();
 
-  /// @brief Method get_FeedbackSize, addr 0x3caebec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FeedbackSize, addr 0x3cb1844, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_FeedbackSize();
 
-  /// @brief Method get_IV, addr 0x3caebf4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_IV, addr 0x3cb184c, size 0x94, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_IV();
 
-  /// @brief Method get_Key, addr 0x3caede4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3cb1a3c, size 0x94, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method get_KeySize, addr 0x3caf0e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x3cb1d38, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_LegalKeySizes, addr 0x3caf068, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_LegalKeySizes, addr 0x3cb1cc0, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> get_LegalKeySizes();
 
-  /// @brief Method get_Mode, addr 0x3caf164, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x3cb1dbc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::CipherMode get_Mode();
 
-  /// @brief Method get_Padding, addr 0x3caf1e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Padding, addr 0x3cb1e38, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::PaddingMode get_Padding();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_BlockSize, addr 0x3caeb04, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method set_BlockSize, addr 0x3cb175c, size 0xe8, virtual true, abstract: false, final false
   inline void set_BlockSize(int32_t value);
 
-  /// @brief Method set_IV, addr 0x3caec88, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method set_IV, addr 0x3cb18e0, size 0x15c, virtual true, abstract: false, final false
   inline void set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Key, addr 0x3caee78, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x3cb1ad0, size 0x154, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_KeySize, addr 0x3caf0e8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x3cb1d40, size 0x7c, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
-  /// @brief Method set_Mode, addr 0x3caf16c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method set_Mode, addr 0x3cb1dc4, size 0x74, virtual true, abstract: false, final false
   inline void set_Mode(::System::Security::Cryptography::CipherMode value);
 
-  /// @brief Method set_Padding, addr 0x3caf1e8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method set_Padding, addr 0x3cb1e40, size 0x74, virtual true, abstract: false, final false
   inline void set_Padding(::System::Security::Cryptography::PaddingMode value);
 
 protected:

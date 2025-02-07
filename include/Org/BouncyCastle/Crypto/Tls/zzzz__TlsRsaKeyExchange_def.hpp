@@ -55,33 +55,33 @@ public:
   /// @brief Field mServerPublicKey, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
 
-  /// @brief Method GenerateClientKeyExchange, addr 0x243506c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientKeyExchange, addr 0x2436a68, size 0x28, virtual true, abstract: false, final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method GeneratePremasterSecret, addr 0x24351ac, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GeneratePremasterSecret, addr 0x2436ba8, size 0x50, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange* New_ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method ProcessClientCredentials, addr 0x2434fe8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCredentials, addr 0x24369e4, size 0x84, virtual true, abstract: false, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x2435094, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientKeyExchange, addr 0x2436a90, size 0x118, virtual true, abstract: false, final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method ProcessServerCertificate, addr 0x2434d18, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCertificate, addr 0x2436714, size 0x22c, virtual true, abstract: false, final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method ProcessServerCredentials, addr 0x2434bb8, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCredentials, addr 0x24365b4, size 0x160, virtual true, abstract: false, final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method SkipServerCredentials, addr 0x2434b80, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SkipServerCredentials, addr 0x243657c, size 0x38, virtual true, abstract: false, final false
   inline void SkipServerCredentials();
 
-  /// @brief Method ValidateCertificateRequest, addr 0x2434f44, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificateRequest, addr 0x2436940, size 0xa4, virtual true, abstract: false, final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method ValidateRsaPublicKey, addr 0x24351fc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ValidateRsaPublicKey, addr 0x2436bf8, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ValidateRsaPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPremasterSecret() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x2434b68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2436564, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 
 protected:

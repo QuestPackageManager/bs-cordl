@@ -49,15 +49,15 @@ public:
   /// @brief Field StrafeSpeed, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_StrafeSpeed, put = __cordl_internal_set_StrafeSpeed)) float_t StrafeSpeed;
 
-  /// @brief Method Awake, addr 0x3fa96dc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fac334, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRDebugHeadController* New_ctor();
 
-  /// @brief Method Start, addr 0x3fa97d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fac430, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fa97dc, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fac434, size 0x534, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_AllowMovement() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_StrafeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3fa9d10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fac968, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
   OVRDebugHeadController(OVRDebugHeadController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7853 };
 
   /// @brief Field AllowPitchLook, offset: 0x20, size: 0x1, def value: None
   bool ___AllowPitchLook;

@@ -67,51 +67,51 @@ public:
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
-  /// @brief Method AttachToPanel, addr 0x4a673f4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method AttachToPanel, addr 0x4a6a04c, size 0x1e4, virtual false, abstract: false, final false
   inline void AttachToPanel();
 
-  /// @brief Method CreateRenderChain, addr 0x4a66eac, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateRenderChain, addr 0x4a69b04, size 0x70, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChain* CreateRenderChain();
 
-  /// @brief Method DestroyRenderChain, addr 0x4a671f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DestroyRenderChain, addr 0x4a69e50, size 0x50, virtual false, abstract: false, final false
   inline void DestroyRenderChain();
 
-  /// @brief Method DetachFromPanel, addr 0x4a67260, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method DetachFromPanel, addr 0x4a69eb8, size 0x194, virtual false, abstract: false, final false
   inline void DetachFromPanel();
 
-  /// @brief Method Dispose, addr 0x4a679e4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a6a63c, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method InitRenderChain, addr 0x4a66df0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitRenderChain, addr 0x4a69a48, size 0xbc, virtual false, abstract: false, final false
   inline void InitRenderChain();
 
   static inline ::UnityEngine::UIElements::UIRRepaintUpdater* New_ctor();
 
-  /// @brief Method OnGraphicsResourcesRecreate, addr 0x4a67028, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method OnGraphicsResourcesRecreate, addr 0x4a69c80, size 0x1d0, virtual false, abstract: false, final false
   static inline void OnGraphicsResourcesRecreate(bool recreate);
 
-  /// @brief Method OnPanelAtlasChanged, addr 0x4a67994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPanelAtlasChanged, addr 0x4a6a5ec, size 0x4, virtual false, abstract: false, final false
   inline void OnPanelAtlasChanged();
 
-  /// @brief Method OnPanelChanged, addr 0x4a67248, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnPanelChanged, addr 0x4a69ea0, size 0x18, virtual false, abstract: false, final false
   inline void OnPanelChanged(::UnityEngine::UIElements::BaseVisualElementPanel* obj);
 
-  /// @brief Method OnPanelHierarchyChanged, addr 0x4a67998, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnPanelHierarchyChanged, addr 0x4a6a5f0, size 0x38, virtual false, abstract: false, final false
   inline void OnPanelHierarchyChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType);
 
-  /// @brief Method OnPanelStandardShaderChanged, addr 0x4a675d8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method OnPanelStandardShaderChanged, addr 0x4a6a230, size 0x198, virtual false, abstract: false, final false
   inline void OnPanelStandardShaderChanged();
 
-  /// @brief Method OnPanelStandardWorldSpaceShaderChanged, addr 0x4a67770, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method OnPanelStandardWorldSpaceShaderChanged, addr 0x4a6a3c8, size 0x198, virtual false, abstract: false, final false
   inline void OnPanelStandardWorldSpaceShaderChanged();
 
-  /// @brief Method OnVersionChanged, addr 0x4a66c3c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x4a69894, size 0xf8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method ResetAllElementsDataRecursive, addr 0x4a67908, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ResetAllElementsDataRecursive, addr 0x4a6a560, size 0x8c, virtual false, abstract: false, final false
   inline void ResetAllElementsDataRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x4a66d34, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x4a6998c, size 0xbc, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__breakBatches_k__BackingField() const;
@@ -144,30 +144,30 @@ public:
 
   constexpr void __cordl_internal_set_renderChain(::UnityEngine::UIElements::UIR::RenderChain* value);
 
-  /// @brief Method .ctor, addr 0x4a66b44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6979c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_breakBatches, addr 0x4a66c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_breakBatches, addr 0x4a6988c, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakBatches();
 
-  /// @brief Method get_disposed, addr 0x4a679d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x4a6a628, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_drawStats, addr 0x4a66c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawStats, addr 0x4a69884, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawStats();
 
-  /// @brief Method get_profilerMarker, addr 0x4a66bd4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x4a6982c, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);
 
   static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x4a679d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x4a6a630, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -185,7 +185,7 @@ public:
   UIRRepaintUpdater(UIRRepaintUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6040 };
 
   /// @brief Field attachedPanel, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseVisualElementPanel* ___attachedPanel;

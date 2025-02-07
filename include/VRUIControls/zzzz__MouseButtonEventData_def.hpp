@@ -30,10 +30,10 @@ public:
 
   static inline ::VRUIControls::MouseButtonEventData* New_ctor();
 
-  /// @brief Method PressedThisFrame, addr 0x4aed814, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PressedThisFrame, addr 0x4af046c, size 0x10, virtual false, abstract: false, final false
   inline bool PressedThisFrame();
 
-  /// @brief Method ReleasedThisFrame, addr 0x4aed824, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReleasedThisFrame, addr 0x4af047c, size 0x14, virtual false, abstract: false, final false
   inline bool ReleasedThisFrame();
 
   constexpr ::UnityEngine::EventSystems::PointerEventData* const& __cordl_internal_get_buttonData() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonState(::UnityEngine::EventSystems::PointerEventData_FramePressState value);
 
-  /// @brief Method .ctor, addr 0x4aed838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   MouseButtonEventData(MouseButtonEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18249 };
 
   /// @brief Field buttonState, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::EventSystems::PointerEventData_FramePressState ___buttonState;

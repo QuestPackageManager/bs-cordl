@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::System::Action_1<::GlobalNamespace::BeatmapKey>*)>(
     &::GlobalNamespace::ServerPlayerListViewController::add_selectSuggestedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c22218;
+  constexpr static std::size_t addrs = 0x3c24e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::System::Action_1<::GlobalNamespace::BeatmapKey>*)>(
     &::GlobalNamespace::ServerPlayerListViewController::remove_selectSuggestedBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c222c8;
+  constexpr static std::size_t addrs = 0x3c24f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(
     ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*)>(&::GlobalNamespace::ServerPlayerListViewController::add_selectSuggestedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c22378;
+  constexpr static std::size_t addrs = 0x3c24fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(
     ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*)>(&::GlobalNamespace::ServerPlayerListViewController::remove_selectSuggestedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c22428;
+  constexpr static std::size_t addrs = 0x3c25080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::ServerPlayerListViewController::add_kickPlayerEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c224d8;
+  constexpr static std::size_t addrs = 0x3c25130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::ServerPlayerListViewController::remove_kickPlayerEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c22588;
+  constexpr static std::size_t addrs = 0x3c251e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::System::Action*)>(
     &::GlobalNamespace::ServerPlayerListViewController::add_didOpenInvitePanelEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c22638;
+  constexpr static std::size_t addrs = 0x3c25290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::System::Action*)>(
     &::GlobalNamespace::ServerPlayerListViewController::remove_didOpenInvitePanelEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c226d4;
+  constexpr static std::size_t addrs = 0x3c2532c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ServerPlayerListViewController::DidActivate)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x3c22770;
+  constexpr static std::size_t addrs = 0x3c253c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(bool, bool)>(
     &::GlobalNamespace::ServerPlayerListViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x3c23020;
+  constexpr static std::size_t addrs = 0x3c25c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::StringW)>(
     &::GlobalNamespace::ServerPlayerListViewController::HandleLobbyPlayersDataDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c23348;
+  constexpr static std::size_t addrs = 0x3c25fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::GlobalNamespace::MultiplayerLobbyState)>(
     &::GlobalNamespace::ServerPlayerListViewController::HandleLobbyGameStateControllerLobbyStateChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c2334c;
+  constexpr static std::size_t addrs = 0x3c25fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)()>(
     &::GlobalNamespace::ServerPlayerListViewController::HandleLobbyPlayerPermissionChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c23350;
+  constexpr static std::size_t addrs = 0x3c25fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)()>(
     &::GlobalNamespace::ServerPlayerListViewController::SetDataToTable)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3c22de0;
+  constexpr static std::size_t addrs = 0x3c25a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerPlayerListViewController*>::get(),
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::ServerPlayerListViewController::HandleSelectSuggestedLevel)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c23354;
+  constexpr static std::size_t addrs = 0x3c25fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::ServerPlayerListViewController::HandleSelectSuggestedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c2339c;
+  constexpr static std::size_t addrs = 0x3c25ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)(::StringW)>(
     &::GlobalNamespace::ServerPlayerListViewController::HandleKickPlayer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c233b8;
+  constexpr static std::size_t addrs = 0x3c26010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)()>(
     &::GlobalNamespace::ServerPlayerListViewController::HandleOpenPlatformInvitePanel)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c233d4;
+  constexpr static std::size_t addrs = 0x3c2602c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerPlayerListViewController*>::get(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)()>(
     &::GlobalNamespace::ServerPlayerListViewController::TrySetInviteButtonEnabled)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x3c22ae4;
+  constexpr static std::size_t addrs = 0x3c2573c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerPlayerListViewController*>::get(),
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerPlayerListViewController::*)()>(
     &::GlobalNamespace::ServerPlayerListViewController::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c2349c;
+  constexpr static std::size_t addrs = 0x3c260f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerPlayerListViewController*>::get(),

@@ -80,7 +80,7 @@ public:
   DelegateProperty_2(DelegateProperty_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17444 };
 
   /// @brief Field m_Getter, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* ___m_Getter;

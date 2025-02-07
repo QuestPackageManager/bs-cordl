@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)()>(
     &::GlobalNamespace::AchievementsEvaluationHandler::Start)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x26a1868;
+  constexpr static std::size_t addrs = 0x26a3264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AchievementsEvaluationHandler*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)()>(
     &::GlobalNamespace::AchievementsEvaluationHandler::OnDestroy)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x26a1b48;
+  constexpr static std::size_t addrs = 0x26a3544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AchievementsEvaluationHandler*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::AchievementsEvaluationHandler::HandleSoloFreePlayOverallStatsDataDidUpdate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26a1cf8;
+  constexpr static std::size_t addrs = 0x26a36f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::AchievementsEvaluationHandler::HandlePartyFreePlayOverallStatsDataDidUpdate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26a2344;
+  constexpr static std::size_t addrs = 0x26a3d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(
     ::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*)>(&::GlobalNamespace::AchievementsEvaluationHandler::HandleCampaignOverallStatsDataDidUpdate)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26a2374;
+  constexpr static std::size_t addrs = 0x26a3d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(
     ::GlobalNamespace::IMissionNode*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::AchievementsEvaluationHandler::ProcessMissionFinishData)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x26a246c;
+  constexpr static std::size_t addrs = 0x26a3e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(
     ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::AchievementsEvaluationHandler::ProcessSoloFreePlayLevelFinishData)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x26a20ac;
+  constexpr static std::size_t addrs = 0x26a3aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)(
     ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::AchievementsEvaluationHandler::ProcessLevelFinishData)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x26a1d4c;
+  constexpr static std::size_t addrs = 0x26a3748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsEvaluationHandler::*)()>(
     &::GlobalNamespace::AchievementsEvaluationHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a29ec;
+  constexpr static std::size_t addrs = 0x26a43e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AchievementsEvaluationHandler*>::get(),

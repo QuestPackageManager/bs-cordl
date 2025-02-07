@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::Vector3Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45663b4;
+  constexpr static std::size_t addrs = 0x456900c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::Vector3Control*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector3Control::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::set_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45663bc;
+  constexpr static std::size_t addrs = 0x4569014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::Vector3Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45663c4;
+  constexpr static std::size_t addrs = 0x456901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::Vector3Control*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector3Control::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::set_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45663cc;
+  constexpr static std::size_t addrs = 0x4569024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::Vector3Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::get_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45663d4;
+  constexpr static std::size_t addrs = 0x456902c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::Vector3Control*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector3Control::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::set_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45663dc;
+  constexpr static std::size_t addrs = 0x4569034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector3Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x45663e4;
+  constexpr static std::size_t addrs = 0x456903c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::Vector3Control*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector3Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::FinishSetup)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x456646c;
+  constexpr static std::size_t addrs = 0x45690c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Controls::Vector3Control::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4566550;
+  constexpr static std::size_t addrs = 0x45691a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector3Control::*)(::UnityEngine::Vector3, ::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x456663c;
+  constexpr static std::size_t addrs = 0x4569294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::Vector3Control::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4566744;
+  constexpr static std::size_t addrs = 0x456939c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::Vector3Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector3Control::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x456680c;
+  constexpr static std::size_t addrs = 0x4569464;
 
   inline static ::MethodInfo const* methodInfo() {
 

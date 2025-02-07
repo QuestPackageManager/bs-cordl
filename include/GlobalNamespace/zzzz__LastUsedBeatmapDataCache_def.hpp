@@ -34,17 +34,17 @@ namespace GlobalNamespace {
 struct CORDL_TYPE LastUsedBeatmapDataCache {
 public:
   // Declarations
-  /// @brief Method AreRequiredGameplayModifiersSame, addr 0x26b6298, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AreRequiredGameplayModifiersSame, addr 0x26b7c94, size 0x1c, virtual false, abstract: false, final false
   static inline bool AreRequiredGameplayModifiersSame(::GlobalNamespace::GameplayModifiers* first, ::GlobalNamespace::GameplayModifiers* second);
 
-  /// @brief Method AreRequiredPlayerSettingsSame, addr 0x26b62b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AreRequiredPlayerSettingsSame, addr 0x26b7cb0, size 0x1c, virtual false, abstract: false, final false
   static inline bool AreRequiredPlayerSettingsSame(::GlobalNamespace::PlayerSpecificSettings* first, ::GlobalNamespace::PlayerSpecificSettings* second);
 
-  /// @brief Method AreSameBeatmapDataCached, addr 0x26b61d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AreSameBeatmapDataCached, addr 0x26b7bd4, size 0xc0, virtual false, abstract: false, final false
   inline bool AreSameBeatmapDataCached(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                        ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method .ctor, addr 0x26b61bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b7bb8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
@@ -61,7 +61,7 @@ public:
                                      ::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12879 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

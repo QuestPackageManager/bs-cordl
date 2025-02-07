@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::XR::XRDeviceDescriptor::*)()>(
     &::UnityEngine::InputSystem::XR::XRDeviceDescriptor::ToJson)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e9294;
+  constexpr static std::size_t addrs = 0x45ebeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::XRDeviceDescriptor*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::XRDeviceDescriptor* (*)(::StringW)>(
     &::UnityEngine::InputSystem::XR::XRDeviceDescriptor::FromJson)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45e6444;
+  constexpr static std::size_t addrs = 0x45e909c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::XRDeviceDescriptor::*)()>(
     &::UnityEngine::InputSystem::XR::XRDeviceDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e929c;
+  constexpr static std::size_t addrs = 0x45ebef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::XRDeviceDescriptor*>::get(),

@@ -41,18 +41,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupManager"
   constexpr operator ::UnityEngine::UIElements::IGroupManager*() noexcept;
 
-  /// @brief Method Init, addr 0x4a3dde0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x4a40a38, size 0x8, virtual true, abstract: false, final true
   inline void Init(::UnityEngine::UIElements::IGroupBox* groupBox);
 
   static inline ::UnityEngine::UIElements::DefaultGroupManager* New_ctor();
 
-  /// @brief Method OnOptionSelectionChanged, addr 0x4a3dde8, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method OnOptionSelectionChanged, addr 0x4a40a40, size 0x1d0, virtual true, abstract: false, final true
   inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);
 
-  /// @brief Method RegisterOption, addr 0x4a3dfb8, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method RegisterOption, addr 0x4a40c10, size 0x14c, virtual true, abstract: false, final true
   inline void RegisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnregisterOption, addr 0x4a3e104, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method UnregisterOption, addr 0x4a40d5c, size 0xd4, virtual true, abstract: false, final true
   inline void UnregisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   constexpr ::UnityEngine::UIElements::IGroupBox* const& __cordl_internal_get_m_GroupBox() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedOption(::UnityEngine::UIElements::IGroupBoxOption* value);
 
-  /// @brief Method .ctor, addr 0x4a3d64c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a402a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupManager"
@@ -94,7 +94,7 @@ public:
   DefaultGroupManager(DefaultGroupManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5975 };
 
   /// @brief Field m_GroupOptions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* ___m_GroupOptions;

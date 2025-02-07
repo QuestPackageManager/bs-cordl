@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerHelpers::WantsToPlayNextLevel)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22c0d40;
+  constexpr static std::size_t addrs = 0x22c273c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerHelpers::WasActiveAtLevelStart)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22c0dfc;
+  constexpr static std::size_t addrs = 0x22c27f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerHelpers::IsActive)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22c0eb8;
+  constexpr static std::size_t addrs = 0x22c28b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerHelpers::HasFinishedLevel)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22c0f74;
+  constexpr static std::size_t addrs = 0x22c2970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerHelpers::IsActiveOrFinished)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22c1030;
+  constexpr static std::size_t addrs = 0x22c2a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerHelpers::IsFailed)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x22c1058;
+  constexpr static std::size_t addrs = 0x22c2a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

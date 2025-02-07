@@ -93,13 +93,13 @@ namespace GlobalNamespace {
 struct CORDL_TYPE DebugConsoleController_ConsoleMessage {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3b0f050, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3b11bb0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3b0dadc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1063c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::LogType type);
 
-  /// @brief Method op_Addition, addr 0x3b0f058, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x3b11bb8, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::DebugConsoleController_ConsoleMessage op_Addition(::GlobalNamespace::DebugConsoleController_ConsoleMessage a,
                                                                                      ::GlobalNamespace::DebugConsoleController_ConsoleMessage b);
 
@@ -111,7 +111,7 @@ public:
   constexpr DebugConsoleController_ConsoleMessage(::StringW Message, ::UnityEngine::LogType Type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5027 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -142,10 +142,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b0f078, size 0x2e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b11bd8, size 0x2e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b0f35c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b11ebc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -162,7 +162,7 @@ public:
                                                           ::GlobalNamespace::DebugConsoleController* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5028 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -203,10 +203,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b0f368, size 0x3c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b11ec8, size 0x3c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b0f728, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b12288, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -226,7 +226,7 @@ public:
                                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5029 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -272,10 +272,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b0f790, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b122f0, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b0fb5c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b126bc, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -296,7 +296,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5030 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -381,54 +381,54 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CheckCommand, addr 0x3b0ec30, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CheckCommand, addr 0x3b11790, size 0x138, virtual false, abstract: false, final false
   inline void CheckCommand(::GlobalNamespace::ConsoleCommandBase* command);
 
-  /// @brief Method CommandNotFoundMessage, addr 0x3b0ea98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CommandNotFoundMessage, addr 0x3b115f8, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DebugConsoleController_ConsoleMessage CommandNotFoundMessage(::StringW command);
 
-  /// @brief Method DisplayMessage, addr 0x3b0dae8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DisplayMessage, addr 0x3b10648, size 0xb0, virtual false, abstract: false, final false
   inline void DisplayMessage(::GlobalNamespace::DebugConsoleController_ConsoleMessage message);
 
-  /// @brief Method ExecuteCommands, addr 0x3b0e818, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommands, addr 0x3b11378, size 0x90, virtual false, abstract: false, final false
   inline void ExecuteCommands();
 
-  /// @brief Method ExecuteCommandsAsync, addr 0x3b0e8a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandsAsync, addr 0x3b11408, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ExecuteCommandsAsync();
 
-  /// @brief Method FillDictOfCommands, addr 0x3b0e43c, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method FillDictOfCommands, addr 0x3b10f9c, size 0x374, virtual false, abstract: false, final false
   inline void FillDictOfCommands(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ConsoleCommandBase*>* commandInstances);
 
-  /// @brief Method GetAllConsoleCommandInstances, addr 0x3b0df20, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method GetAllConsoleCommandInstances, addr 0x3b10a80, size 0x51c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ConsoleCommandBase*>* GetAllConsoleCommandInstances();
 
-  /// @brief Method GetCommand, addr 0x3b0ee30, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetCommand, addr 0x3b11990, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ConsoleCommandBase* GetCommand(::StringW commandName);
 
-  /// @brief Method GetCommands, addr 0x3b0ee28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCommands, addr 0x3b11988, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* GetCommands();
 
-  /// @brief Method Initialize, addr 0x3b0dd94, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3b108f4, size 0x18c, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method IsCommandClass, addr 0x3b0ed68, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsCommandClass, addr 0x3b118c8, size 0xc0, virtual false, abstract: false, final false
   inline bool IsCommandClass(::System::Type* type);
 
   static inline ::GlobalNamespace::DebugConsoleController* New_ctor();
 
-  /// @brief Method QueueNewInput, addr 0x3b0e96c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method QueueNewInput, addr 0x3b114cc, size 0x58, virtual false, abstract: false, final false
   inline void QueueNewInput(::StringW input);
 
-  /// @brief Method StripExtraWhitespace, addr 0x3b0eb0c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method StripExtraWhitespace, addr 0x3b1166c, size 0x124, virtual false, abstract: false, final false
   inline ::StringW StripExtraWhitespace(::StringW commandText);
 
-  /// @brief Method Tick, addr 0x3b0e7b0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3b11310, size 0x68, virtual true, abstract: false, final true
   inline void Tick();
 
-  /// @brief Method TryExecuteCommand, addr 0x3b0e9c4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TryExecuteCommand, addr 0x3b11524, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TryExecuteCommand(::StringW commandText, ::System::Collections::Generic::List_1<::GlobalNamespace::DebugConsoleController_ConsoleMessage>* messages);
 
-  /// @brief Method <Initialize>b__8_0, addr 0x3b0ef6c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__8_0, addr 0x3b11acc, size 0xe4, virtual false, abstract: false, final false
   inline void _Initialize_b__8_0();
 
   constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& __cordl_internal_get__commandLineParserResult() const;
@@ -473,7 +473,7 @@ public:
 
   constexpr void __cordl_internal_set_onNewMessageToOutput(::System::Action_2<::StringW, ::UnityEngine::LogType>* value);
 
-  /// @brief Method .ctor, addr 0x3b0eea8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b11a08, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -497,7 +497,7 @@ public:
   DebugConsoleController(DebugConsoleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5031 };
 
   /// @brief Field onNewMessageToOutput, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::StringW, ::UnityEngine::LogType>* ___onNewMessageToOutput;

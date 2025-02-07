@@ -35,14 +35,14 @@ public:
   /// @brief Field value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
 
-  /// @brief Method HasMoreTokens, addr 0x261cbc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasMoreTokens, addr 0x261e5bc, size 0x28, virtual false, abstract: false, final false
   inline bool HasMoreTokens();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid, char16_t separator);
 
-  /// @brief Method NextToken, addr 0x261c970, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x261e36c, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
   constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_buffer() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x261c968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261e364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x261cb3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261e538, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, char16_t separator);
 
 protected:

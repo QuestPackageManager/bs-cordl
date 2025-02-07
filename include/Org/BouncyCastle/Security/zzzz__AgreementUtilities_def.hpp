@@ -34,33 +34,33 @@ public:
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
 
-  /// @brief Method GetAlgorithmName, addr 0x2599ef4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x259b8f0, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetBasicAgreement, addr 0x25996ec, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetBasicAgreement, addr 0x259b0e8, size 0x264, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreement(::StringW algorithm);
 
-  /// @brief Method GetBasicAgreement, addr 0x259968c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetBasicAgreement, addr 0x259b088, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreement(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetBasicAgreementWithKdf, addr 0x2599af8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetBasicAgreementWithKdf, addr 0x259b4f4, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreementWithKdf(::StringW agreeAlgorithm, ::StringW wrapAlgorithm);
 
-  /// @brief Method GetBasicAgreementWithKdf, addr 0x2599a90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetBasicAgreementWithKdf, addr 0x259b48c, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreementWithKdf(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW wrapAlgorithm);
 
-  /// @brief Method GetMechanism, addr 0x2599950, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetMechanism, addr 0x259b34c, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW GetMechanism(::StringW algorithm);
 
-  /// @brief Method GetRawAgreement, addr 0x2599d88, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetRawAgreement, addr 0x259b784, size 0x16c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IRawAgreement* GetRawAgreement(::StringW algorithm);
 
-  /// @brief Method GetRawAgreement, addr 0x2599d28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetRawAgreement, addr 0x259b724, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IRawAgreement* GetRawAgreement(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Security::AgreementUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2599284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259ac80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();

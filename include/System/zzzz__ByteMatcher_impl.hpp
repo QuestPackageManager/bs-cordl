@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ByteMatcher::*)(::System::TermInfoStrings, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::ByteMatcher::AddMapping)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3e43130;
+  constexpr static std::size_t addrs = 0x3e45d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ByteMatcher::*)()>(&::System::ByteMatcher::Sort)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e43250;
+  constexpr static std::size_t addrs = 0x3e45ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ByteMatcher*>::get(), "Sort",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ByteMatcher::*)(int32_t)>(&::System::ByteMatcher::StartsWith)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3e40148;
+  constexpr static std::size_t addrs = 0x3e42da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::TermInfoStrings (::System::ByteMatcher::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::ByRef<int32_t>)>(&::System::ByteMatcher::Match)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x3e401d0;
+  constexpr static std::size_t addrs = 0x3e42e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ByteMatcher::*)()>(&::System::ByteMatcher::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e43074;
+  constexpr static std::size_t addrs = 0x3e45ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ByteMatcher*>::get(), ".ctor",

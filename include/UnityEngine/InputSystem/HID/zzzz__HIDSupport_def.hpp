@@ -37,10 +37,10 @@ namespace UnityEngine::InputSystem::HID {
 struct CORDL_TYPE HIDSupport_HIDPageUsage {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x46015d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x460422c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::HID::HID_UsagePage page, int32_t usage);
 
-  /// @brief Method .ctor, addr 0x4601724, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x460437c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::HID::HID_GenericDesktop usage);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   constexpr HIDSupport_HIDPageUsage(::UnityEngine::InputSystem::HID::HID_UsagePage page, int32_t usage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6820 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -87,17 +87,17 @@ public:
                       put = setStaticF_s_SupportedHIDUsages)) ::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*>
       s_SupportedHIDUsages;
 
-  /// @brief Method Initialize, addr 0x46015dc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4604234, size 0x148, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*> getStaticF_s_SupportedHIDUsages();
 
-  /// @brief Method get_supportedHIDUsages, addr 0x4601348, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportedHIDUsages, addr 0x4603fa0, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> get_supportedHIDUsages();
 
   static inline void setStaticF_s_SupportedHIDUsages(::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*> value);
 
-  /// @brief Method set_supportedHIDUsages, addr 0x46013a8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method set_supportedHIDUsages, addr 0x4604000, size 0x22c, virtual false, abstract: false, final false
   static inline void set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> value);
 
 protected:
@@ -115,7 +115,7 @@ public:
   HIDSupport(HIDSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

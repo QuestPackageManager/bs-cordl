@@ -22,10 +22,10 @@ namespace UnityEngine::_Scripting::APIUpdating {
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x48bda38, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x48c0690, size 0x13c, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ::ByRef<::StringW> assembly, ::ByRef<::StringW> nsp, ::ByRef<::StringW> klass);
 
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x48bdb74, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x48c07cc, size 0x2b8, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ::ByRef<::StringW> assemblyName, ::ByRef<::StringW> nsp, ::ByRef<::StringW> className);
 
 protected:
@@ -43,7 +43,7 @@ public:
   APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10968 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

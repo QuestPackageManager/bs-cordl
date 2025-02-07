@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockServerSettings* (::GlobalNamespace::MultiplayerMockSettings::*)()>(
     &::GlobalNamespace::MultiplayerMockSettings::get_quickplayServer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bce0b4;
+  constexpr static std::size_t addrs = 0x3bd0c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMockSettings*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockPlayerSettings* (::GlobalNamespace::MultiplayerMockSettings::*)()>(
     &::GlobalNamespace::MultiplayerMockSettings::get_localPlayer)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3bce0bc;
+  constexpr static std::size_t addrs = 0x3bd0c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMockSettings*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::QuickPlaySetupData* (::GlobalNamespace::MultiplayerMockSettings::*)()>(
     &::GlobalNamespace::MultiplayerMockSettings::get_quickPlaySetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bce168;
+  constexpr static std::size_t addrs = 0x3bd0cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMockSettings*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerMockSettings::*)(::GlobalNamespace::QuickPlaySetupData*)>(
     &::GlobalNamespace::MultiplayerMockSettings::set_quickPlaySetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bce170;
+  constexpr static std::size_t addrs = 0x3bd0cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerStatusData* (::GlobalNamespace::MultiplayerMockSettings::*)()>(
     &::GlobalNamespace::MultiplayerMockSettings::get_multiplayerStatusData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bce178;
+  constexpr static std::size_t addrs = 0x3bd0cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMockSettings*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerMockSettings::*)(::GlobalNamespace::MultiplayerStatusData*)>(
     &::GlobalNamespace::MultiplayerMockSettings::set_multiplayerStatusData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bce180;
+  constexpr static std::size_t addrs = 0x3bd0ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* (
     ::GlobalNamespace::MultiplayerMockSettings::*)()>(&::GlobalNamespace::MultiplayerMockSettings::get_otherPlayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bce188;
+  constexpr static std::size_t addrs = 0x3bd0ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMockSettings*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerMockSettings> (*)()>(
     &::GlobalNamespace::MultiplayerMockSettings::SharedSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bce190;
+  constexpr static std::size_t addrs = 0x3bd0cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMockSettings*>::get(),
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerMockSettings::*)()>(&::GlobalNamespace::MultiplayerMockSettings::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3bce198;
+  constexpr static std::size_t addrs = 0x3bd0cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMockSettings*>::get(), ".ctor",

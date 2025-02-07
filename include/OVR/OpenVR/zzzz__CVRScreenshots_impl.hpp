@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRScreenshots::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRScreenshots::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4077894;
+  constexpr static std::size_t addrs = 0x407a4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::CVRScreenshots::*)(
     ::ByRef<uint32_t>, ::OVR::OpenVR::EVRScreenshotType, ::StringW, ::StringW)>(&::OVR::OpenVR::CVRScreenshots::RequestScreenshot)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40779b0;
+  constexpr static std::size_t addrs = 0x407a608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::CVRScreenshots::*)(
     ::ArrayW<::OVR::OpenVR::EVRScreenshotType, ::Array<::OVR::OpenVR::EVRScreenshotType>*>)>(&::OVR::OpenVR::CVRScreenshots::HookScreenshot)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x40779d8;
+  constexpr static std::size_t addrs = 0x407a630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::OVR::OpenVR::EVRScreenshotType (::OVR::OpenVR::CVRScreenshots::*)(uint32_t, ::ByRef<::OVR::OpenVR::EVRScreenshotError>)>(&::OVR::OpenVR::CVRScreenshots::GetScreenshotPropertyType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4077a04;
+  constexpr static std::size_t addrs = 0x407a65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     uint32_t, ::OVR::OpenVR::EVRScreenshotPropertyFilenames, ::System::Text::StringBuilder*, uint32_t, ::ByRef<::OVR::OpenVR::EVRScreenshotError>)>(
     &::OVR::OpenVR::CVRScreenshots::GetScreenshotPropertyFilename)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4077a28;
+  constexpr static std::size_t addrs = 0x407a680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::CVRScreenshots::*)(uint32_t, float_t)>(
     &::OVR::OpenVR::CVRScreenshots::UpdateScreenshotProgress)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4077a4c;
+  constexpr static std::size_t addrs = 0x407a6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::CVRScreenshots::*)(::ByRef<uint32_t>, ::StringW, ::StringW)>(
     &::OVR::OpenVR::CVRScreenshots::TakeStereoScreenshot)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4077a70;
+  constexpr static std::size_t addrs = 0x407a6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::CVRScreenshots::*)(
     uint32_t, ::OVR::OpenVR::EVRScreenshotType, ::StringW, ::StringW)>(&::OVR::OpenVR::CVRScreenshots::SubmitScreenshot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4077a98;
+  constexpr static std::size_t addrs = 0x407a6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -45,21 +45,21 @@ public:
   __declspec(property(get = __cordl_internal_get_didSelectMissionNodeEvent,
                       put = __cordl_internal_set_didSelectMissionNodeEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* didSelectMissionNodeEvent;
 
-  /// @brief Method DeselectSelectedNode, addr 0x3c0d800, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DeselectSelectedNode, addr 0x3c10464, size 0x80, virtual false, abstract: false, final false
   inline void DeselectSelectedNode();
 
-  /// @brief Method HandleNodeWasDisplayed, addr 0x3c0deb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleNodeWasDisplayed, addr 0x3c10b18, size 0x80, virtual false, abstract: false, final false
   inline void HandleNodeWasDisplayed(::GlobalNamespace::MissionNodeVisualController* missionNode);
 
-  /// @brief Method HandleNodeWasSelect, addr 0x3c0de00, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleNodeWasSelect, addr 0x3c10a64, size 0xb4, virtual false, abstract: false, final false
   inline void HandleNodeWasSelect(::GlobalNamespace::MissionNodeVisualController* missionNode);
 
   static inline ::GlobalNamespace::MissionNodeSelectionManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c0db38, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c1079c, size 0x168, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3c0d8a8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3c1050c, size 0x130, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> const& __cordl_internal_get__missionNodes() const;
@@ -86,13 +86,13 @@ public:
 
   constexpr void __cordl_internal_set_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  /// @brief Method .ctor, addr 0x3c0df34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c10b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectMissionNodeEvent, addr 0x3c0d6a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectMissionNodeEvent, addr 0x3c10304, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  /// @brief Method remove_didSelectMissionNodeEvent, addr 0x3c0d750, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectMissionNodeEvent, addr 0x3c103b4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   MissionNodeSelectionManager(MissionNodeSelectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4823 };
 
   /// @brief Field _missionNodesManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;

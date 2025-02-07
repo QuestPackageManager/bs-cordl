@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)()>(&::UnityEngine::Playables::Playable::get_Null)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48cc5d8;
+  constexpr static std::size_t addrs = 0x48cf230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::Playable>::get(), "get_Null",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)(::UnityEngine::Playables::PlayableGraph, int32_t)>(
     &::UnityEngine::Playables::Playable::Create)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x48cc630;
+  constexpr static std::size_t addrs = 0x48cf288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::Playable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Playables::Playable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48cc728;
+  constexpr static std::size_t addrs = 0x48cf380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Playables::Playable::*)()>(
     &::UnityEngine::Playables::Playable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48cc730;
+  constexpr static std::size_t addrs = 0x48cf388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::Playable>::get(), "GetHandle",
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::Playables::Playable::*)()>(&::UnityEngine::Playables::Playable::GetPlayableType)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48cc73c;
+  constexpr static std::size_t addrs = 0x48cf394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::Playable>::get(), "GetPlayableType",
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::Playable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Playables::Playable::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48cc83c;
+  constexpr static std::size_t addrs = 0x48cf494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

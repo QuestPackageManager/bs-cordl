@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(::System::Type*)>(&::Zenject::SignalDeclarationBindInfo::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4afbdec;
+  constexpr static std::size_t addrs = 0x4afea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Zenject::SignalDeclarationBindInfo::*)()>(
     &::Zenject::SignalDeclarationBindInfo::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe14;
+  constexpr static std::size_t addrs = 0x4afea6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalDeclarationBindInfo*>::get(), "get_Identifier",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(::System::Object*)>(
     &::Zenject::SignalDeclarationBindInfo::set_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe1c;
+  constexpr static std::size_t addrs = 0x4afea74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::SignalDeclarationBindInfo::*)()>(&::Zenject::SignalDeclarationBindInfo::get_SignalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe24;
+  constexpr static std::size_t addrs = 0x4afea7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalDeclarationBindInfo*>::get(), "get_SignalType",
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(::System::Type*)>(
     &::Zenject::SignalDeclarationBindInfo::set_SignalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe2c;
+  constexpr static std::size_t addrs = 0x4afea84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SignalDeclarationBindInfo::*)()>(&::Zenject::SignalDeclarationBindInfo::get_RunAsync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe34;
+  constexpr static std::size_t addrs = 0x4afea8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalDeclarationBindInfo*>::get(), "get_RunAsync",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(bool)>(&::Zenject::SignalDeclarationBindInfo::set_RunAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4afbe3c;
+  constexpr static std::size_t addrs = 0x4afea94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::SignalDeclarationBindInfo::*)()>(&::Zenject::SignalDeclarationBindInfo::get_TickPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe48;
+  constexpr static std::size_t addrs = 0x4afeaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalDeclarationBindInfo*>::get(), "get_TickPriority",
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(int32_t)>(&::Zenject::SignalDeclarationBindInfo::set_TickPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe50;
+  constexpr static std::size_t addrs = 0x4afeaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalMissingHandlerResponses (::Zenject::SignalDeclarationBindInfo::*)()>(
     &::Zenject::SignalDeclarationBindInfo::get_MissingHandlerResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe58;
+  constexpr static std::size_t addrs = 0x4afeab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalDeclarationBindInfo*>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(::Zenject::SignalMissingHandlerResponses)>(
     &::Zenject::SignalDeclarationBindInfo::set_MissingHandlerResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afbe60;
+  constexpr static std::size_t addrs = 0x4afeab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

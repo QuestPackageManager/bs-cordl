@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268a964;
+  constexpr static std::size_t addrs = 0x268c360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client*>::get(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x268a96c;
+  constexpr static std::size_t addrs = 0x268c368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::Init)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x268a978;
+  constexpr static std::size_t addrs = 0x268c374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::GenerateClientCredentials)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x268a9a4;
+  constexpr static std::size_t addrs = 0x268c3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::CalculateSecret)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x268ae08;
+  constexpr static std::size_t addrs = 0x268c804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::SelectPrivateValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x268b004;
+  constexpr static std::size_t addrs = 0x268ca00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::CalculateS)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x268af34;
+  constexpr static std::size_t addrs = 0x268c930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::CalculateClientEvidenceMessage)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x268b120;
+  constexpr static std::size_t addrs = 0x268cb1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::VerifyServerEvidenceMessage)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x268b1a4;
+  constexpr static std::size_t addrs = 0x268cba0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client::CalculateSessionKey)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x268b254;
+  constexpr static std::size_t addrs = 0x268cc50;
 
   inline static ::MethodInfo const* methodInfo() {
 

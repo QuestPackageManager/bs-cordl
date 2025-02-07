@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_leftHanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7378;
+  constexpr static std::size_t addrs = 0x26f8d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_playerHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7380;
+  constexpr static std::size_t addrs = 0x26f8d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_automaticPlayerHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7388;
+  constexpr static std::size_t addrs = 0x26f8d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_sfxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7390;
+  constexpr static std::size_t addrs = 0x26f8d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_reduceDebris)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7398;
+  constexpr static std::size_t addrs = 0x26f8d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_noTextsAndHuds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73a0;
+  constexpr static std::size_t addrs = 0x26f8d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_noFailEffects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73a8;
+  constexpr static std::size_t addrs = 0x26f8da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_advancedHud)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73b0;
+  constexpr static std::size_t addrs = 0x26f8dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_autoRestart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73b8;
+  constexpr static std::size_t addrs = 0x26f8db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_saberTrailIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73c0;
+  constexpr static std::size_t addrs = 0x26f8dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteJumpDurationTypeSettings (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_noteJumpDurationTypeSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73c8;
+  constexpr static std::size_t addrs = 0x26f8dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_noteJumpFixedDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73d0;
+  constexpr static std::size_t addrs = 0x26f8dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_noteJumpStartBeatOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73d8;
+  constexpr static std::size_t addrs = 0x26f8dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_hideNoteSpawnEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73e0;
+  constexpr static std::size_t addrs = 0x26f8ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_adaptiveSfx)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73e8;
+  constexpr static std::size_t addrs = 0x26f8de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_arcsHapticFeedback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73f0;
+  constexpr static std::size_t addrs = 0x26f8dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ArcVisibilityType (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_arcVisibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f73f8;
+  constexpr static std::size_t addrs = 0x26f8df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7400;
+  constexpr static std::size_t addrs = 0x26f8dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7408;
+  constexpr static std::size_t addrs = 0x26f8e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_headsetHapticIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f7410;
+  constexpr static std::size_t addrs = 0x26f8e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(),
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26f1588;
+  constexpr static std::size_t addrs = 0x26f2f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSpecificSettings*>::get(), ".ctor",
@@ -309,7 +309,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     bool, float_t, bool, float_t, bool, bool, bool, bool, bool, float_t, ::GlobalNamespace::NoteJumpDurationTypeSettings, float_t, float_t, bool, bool, bool, ::GlobalNamespace::ArcVisibilityType,
     ::GlobalNamespace::EnvironmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset, float_t)>(&::GlobalNamespace::PlayerSpecificSettings::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x26f58f0;
+  constexpr static std::size_t addrs = 0x26f72ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +348,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                   ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset>, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset>,
                                                   ::System::Nullable_1<float_t>)>(&::GlobalNamespace::PlayerSpecificSettings::CopyWith)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x26f5cf8;
+  constexpr static std::size_t addrs = 0x26f76f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (::GlobalNamespace::PlayerSpecificSettings::*)(
     ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::PlayerSpecificSettings::GetEnvironmentEffectsFilterPreset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26f7418;
+  constexpr static std::size_t addrs = 0x26f8e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)(::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::PlayerSpecificSettings::AreValuesEqual)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x26f7430;
+  constexpr static std::size_t addrs = 0x26f8e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

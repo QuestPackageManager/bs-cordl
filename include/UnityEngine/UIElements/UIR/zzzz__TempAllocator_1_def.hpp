@@ -46,7 +46,7 @@ public:
   constexpr TempAllocator_1_Page(::Unity::Collections::NativeArray_1<T> array, int32_t used) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6396 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -176,7 +176,7 @@ public:
   TempAllocator_1(TempAllocator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6397 };
 
   /// @brief Field m_ExcessMinCapacity, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_ExcessMinCapacity;

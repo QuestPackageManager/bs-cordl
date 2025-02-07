@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_GeoGroup::*)(::HoudiniEngineUnity::HEU_GeoGroup*)>(
     &::HoudiniEngineUnity::HEU_GeoGroup::CompareTo)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3a7d0a8;
+  constexpr static std::size_t addrs = 0x3a7f90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_GeoGroup::*)(int32_t)>(&::HoudiniEngineUnity::HEU_GeoGroup::SetupNormalIndices)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3a7af54;
+  constexpr static std::size_t addrs = 0x3a7d7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_GeoGroup::*)()>(&::HoudiniEngineUnity::HEU_GeoGroup::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3a7aed8;
+  constexpr static std::size_t addrs = 0x3a7d73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_GeoGroup*>::get(), ".ctor",

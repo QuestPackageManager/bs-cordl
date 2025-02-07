@@ -49,18 +49,18 @@ public:
 
   __declspec(property(get = get_ringPositionStep)) float_t ringPositionStep;
 
-  /// @brief Method FixedUpdate, addr 0x3ba1a60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3ba45c0, size 0x9c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x3ba1afc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3ba465c, size 0x9c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::TrackLaneRingsManager* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x3ba1b98, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x3ba46f8, size 0x284, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method Start, addr 0x3ba17b0, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba4310, size 0x2b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -99,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingPrefab(::UnityW<::GlobalNamespace::TrackLaneRing> value);
 
-  /// @brief Method .ctor, addr 0x3ba1e1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba497c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Rings, addr 0x3ba17a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rings, addr 0x3ba4308, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> get_Rings();
 
-  /// @brief Method get_ringPositionStep, addr 0x3ba17a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ringPositionStep, addr 0x3ba4300, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ringPositionStep();
 
 protected:
@@ -123,7 +123,7 @@ public:
   TrackLaneRingsManager(TrackLaneRingsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4381 };
 
   /// @brief Field _trackLaneRingPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRing> ____trackLaneRingPrefab;

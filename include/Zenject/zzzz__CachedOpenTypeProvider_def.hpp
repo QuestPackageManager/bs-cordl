@@ -68,16 +68,16 @@ public:
 
   static inline ::Zenject::CachedOpenTypeProvider___c* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4b3c324, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b3ef7c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b3c378, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b3efd0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b3c27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3eed4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_NumInstances>b__8_0, addr 0x4b3c284, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <get_NumInstances>b__8_0, addr 0x4b3eedc, size 0x54, virtual false, abstract: false, final false
   inline int32_t _get_NumInstances_b__8_0(::Zenject::CachedProvider* x);
 
   static inline ::Zenject::CachedOpenTypeProvider___c* getStaticF___9();
@@ -103,7 +103,7 @@ public:
   CachedOpenTypeProvider___c(CachedOpenTypeProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12518 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -136,14 +136,14 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method ClearCache, addr 0x4b3bd50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x4b3e9a8, size 0x50, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b3be4c, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b3eaa4, size 0x138, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4b3bda0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4b3e9f8, size 0xac, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::CachedOpenTypeProvider* New_ctor(::Zenject::IProvider* creator);
@@ -160,16 +160,16 @@ public:
 
   constexpr void __cordl_internal_set__providerMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::CachedProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x4b3baec, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3e744, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IProvider* creator);
 
-  /// @brief Method get_IsCached, addr 0x4b3bbf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4b3e84c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_NumInstances, addr 0x4b3bc24, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_NumInstances, addr 0x4b3e87c, size 0x12c, virtual false, abstract: false, final false
   inline int32_t get_NumInstances();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b3bbfc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b3e854, size 0x28, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -190,7 +190,7 @@ public:
   CachedOpenTypeProvider(CachedOpenTypeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12519 };
 
   /// @brief Field _creator, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IProvider* ____creator;

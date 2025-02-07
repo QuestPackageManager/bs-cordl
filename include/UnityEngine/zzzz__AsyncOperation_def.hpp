@@ -41,13 +41,13 @@ public:
 
   __declspec(property(get = get_progress)) float_t progress;
 
-  /// @brief Method Finalize, addr 0x48a8994, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x48ab5ec, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InternalDestroy, addr 0x48a881c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroy, addr 0x48ab474, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroy(::System::IntPtr ptr);
 
-  /// @brief Method InvokeCompletionEvent, addr 0x48a8a50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InvokeCompletionEvent, addr 0x48ab6a8, size 0x30, virtual false, abstract: false, final false
   inline void InvokeCompletionEvent();
 
   static inline ::UnityEngine::AsyncOperation* New_ctor();
@@ -64,28 +64,28 @@ public:
 
   constexpr void __cordl_internal_set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method .ctor, addr 0x48a804c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48aaca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_completed, addr 0x48a8a80, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method add_completed, addr 0x48ab6d8, size 0xfc, virtual false, abstract: false, final false
   inline void add_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method get_allowSceneActivation, addr 0x48a8914, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowSceneActivation, addr 0x48ab56c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_allowSceneActivation();
 
-  /// @brief Method get_isDone, addr 0x48a8858, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isDone, addr 0x48ab4b0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isDone();
 
-  /// @brief Method get_progress, addr 0x48a8894, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x48ab4ec, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method remove_completed, addr 0x48a8b7c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method remove_completed, addr 0x48ab7d4, size 0xa8, virtual false, abstract: false, final false
   inline void remove_completed(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
-  /// @brief Method set_allowSceneActivation, addr 0x48a8950, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_allowSceneActivation, addr 0x48ab5a8, size 0x44, virtual false, abstract: false, final false
   inline void set_allowSceneActivation(bool value);
 
-  /// @brief Method set_priority, addr 0x48a88d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x48ab528, size 0x44, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   AsyncOperation(AsyncOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10857 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

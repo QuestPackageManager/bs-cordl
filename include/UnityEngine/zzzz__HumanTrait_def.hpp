@@ -19,7 +19,7 @@ namespace UnityEngine {
 class CORDL_TYPE HumanTrait : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBoneIndexFromMono, addr 0x48522ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoneIndexFromMono, addr 0x4854f04, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoneIndexFromMono(int32_t humanId);
 
 protected:
@@ -37,7 +37,7 @@ public:
   HumanTrait(HumanTrait const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

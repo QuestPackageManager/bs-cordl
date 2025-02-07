@@ -29,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set_forceSimplePhysics(bool value);
 
-  /// @brief Method .ctor, addr 0x22700c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227196c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool deterministic);
 
 protected:
@@ -47,7 +47,7 @@ public:
   DeterminismConfig(DeterminismConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18374 };
 
   /// @brief Field forceSimplePhysics, offset: 0x10, size: 0x1, def value: None
   bool ___forceSimplePhysics;

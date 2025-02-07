@@ -31,12 +31,12 @@ public:
   /// @brief Field _ref, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ref, put = __cordl_internal_set__ref)) ::System::Text::RegularExpressions::RegexRunner* _ref;
 
-  /// @brief Method Get, addr 0x4415450, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x44180a8, size 0x58, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexRunner* Get();
 
   static inline ::System::Text::RegularExpressions::ExclusiveReference* New_ctor();
 
-  /// @brief Method Release, addr 0x44154a8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4418100, size 0xb8, virtual false, abstract: false, final false
   inline void Release(::System::Text::RegularExpressions::RegexRunner* obj);
 
   constexpr int32_t const& __cordl_internal_get__locked() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__ref(::System::Text::RegularExpressions::RegexRunner* value);
 
-  /// @brief Method .ctor, addr 0x4415560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44181b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   ExclusiveReference(ExclusiveReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9229 };
 
   /// @brief Field _ref, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::RegexRunner* ____ref;

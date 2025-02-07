@@ -118,7 +118,7 @@ public:
   ObjectPool_1(ObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14264 };
 
   /// @brief Field m_IsDisposed, offset: 0x10, size: 0x1, def value: None
   bool ___m_IsDisposed;

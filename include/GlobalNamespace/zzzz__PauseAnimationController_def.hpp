@@ -31,21 +31,21 @@ public:
   __declspec(property(get = __cordl_internal_get_resumeFromPauseAnimationDidFinishEvent,
                       put = __cordl_internal_set_resumeFromPauseAnimationDidFinishEvent)) ::System::Action* resumeFromPauseAnimationDidFinishEvent;
 
-  /// @brief Method Awake, addr 0x3bb03a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bb2f00, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EnterPauseAnimationDidFinish, addr 0x3bb04c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnterPauseAnimationDidFinish, addr 0x3bb3020, size 0x30, virtual false, abstract: false, final false
   inline void EnterPauseAnimationDidFinish();
 
   static inline ::GlobalNamespace::PauseAnimationController* New_ctor();
 
-  /// @brief Method ResumeFromPauseAnimationDidFinish, addr 0x3bb04f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResumeFromPauseAnimationDidFinish, addr 0x3bb3050, size 0x50, virtual false, abstract: false, final false
   inline void ResumeFromPauseAnimationDidFinish();
 
-  /// @brief Method StartEnterPauseAnimation, addr 0x3bb03d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartEnterPauseAnimation, addr 0x3bb2f30, size 0x78, virtual false, abstract: false, final false
   inline void StartEnterPauseAnimation();
 
-  /// @brief Method StartResumeFromPauseAnimation, addr 0x3bb0448, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartResumeFromPauseAnimation, addr 0x3bb2fa8, size 0x78, virtual false, abstract: false, final false
   inline void StartResumeFromPauseAnimation();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bb0540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb30a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x3bb0268, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x3bb2dc8, size 0x9c, virtual false, abstract: false, final false
   inline void add_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x3bb0304, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x3bb2e64, size 0x9c, virtual false, abstract: false, final false
   inline void remove_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
 protected:
@@ -84,7 +84,7 @@ public:
   PauseAnimationController(PauseAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4439 };
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;

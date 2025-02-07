@@ -110,7 +110,7 @@ public:
   LinkedListNode_1(LinkedListNode_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9517 };
 
   /// @brief Field list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<T>* ___list;

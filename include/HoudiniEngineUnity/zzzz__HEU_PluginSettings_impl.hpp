@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniEngineEnvFilePath)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a438f8;
+  constexpr static std::size_t addrs = 0x3a4615c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniEngineEnvFilePath)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a43c50;
+  constexpr static std::size_t addrs = 0x3a464b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_CookingEnabled)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a4412c;
+  constexpr static std::size_t addrs = 0x3a46990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_CookingEnabled)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44284;
+  constexpr static std::size_t addrs = 0x3a46ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_CookingTriggersDownstreamCooks)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a443a4;
+  constexpr static std::size_t addrs = 0x3a46c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_CookingTriggersDownstreamCooks)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44408;
+  constexpr static std::size_t addrs = 0x3a46c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_CookTemplatedGeos)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a4445c;
+  constexpr static std::size_t addrs = 0x3a46cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_CookTemplatedGeos)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a444c0;
+  constexpr static std::size_t addrs = 0x3a46d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_PushUnityTransformToHoudini)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a44514;
+  constexpr static std::size_t addrs = 0x3a46d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_PushUnityTransformToHoudini)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44578;
+  constexpr static std::size_t addrs = 0x3a46ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_TransformChangeTriggersCooks)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a445cc;
+  constexpr static std::size_t addrs = 0x3a46e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_TransformChangeTriggersCooks)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44630;
+  constexpr static std::size_t addrs = 0x3a46e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_CollisionGroupName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a44684;
+  constexpr static std::size_t addrs = 0x3a46ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_CollisionGroupName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a446fc;
+  constexpr static std::size_t addrs = 0x3a46f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_RenderedCollisionGroupName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a44750;
+  constexpr static std::size_t addrs = 0x3a46fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_RenderedCollisionGroupName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a447c8;
+  constexpr static std::size_t addrs = 0x3a4702c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_RenderedConvexCollisionGroupName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a4481c;
+  constexpr static std::size_t addrs = 0x3a47080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_RenderedConvexCollisionGroupName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44894;
+  constexpr static std::size_t addrs = 0x3a470f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnityMaterialAttribName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a448e8;
+  constexpr static std::size_t addrs = 0x3a4714c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnityMaterialAttribName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44960;
+  constexpr static std::size_t addrs = 0x3a471c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnitySubMaterialAttribName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a449b4;
+  constexpr static std::size_t addrs = 0x3a47218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnitySubMaterialAttribName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44a2c;
+  constexpr static std::size_t addrs = 0x3a47290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnitySubMaterialIndexAttribName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a44a80;
+  constexpr static std::size_t addrs = 0x3a472e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnitySubMaterialIndexAttribName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44af8;
+  constexpr static std::size_t addrs = 0x3a4735c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnityTagAttributeName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a44b4c;
+  constexpr static std::size_t addrs = 0x3a473b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnityTagAttributeName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44bc4;
+  constexpr static std::size_t addrs = 0x3a47428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnityStaticAttributeName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a44c18;
+  constexpr static std::size_t addrs = 0x3a4747c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnityStaticAttributeName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44c90;
+  constexpr static std::size_t addrs = 0x3a474f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnityScriptAttributeName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a44ce4;
+  constexpr static std::size_t addrs = 0x3a47548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnityScriptAttributeName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44d5c;
+  constexpr static std::size_t addrs = 0x3a475c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnityLayerAttributeName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a44db0;
+  constexpr static std::size_t addrs = 0x3a47614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnityLayerAttributeName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a44e28;
+  constexpr static std::size_t addrs = 0x3a4768c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_ImageGamma)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3a44e7c;
+  constexpr static std::size_t addrs = 0x3a476e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_ImageGamma)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a4501c;
+  constexpr static std::size_t addrs = 0x3a47880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_NormalGenerationThresholdAngle)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a45148;
+  constexpr static std::size_t addrs = 0x3a479ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_NormalGenerationThresholdAngle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a451b0;
+  constexpr static std::size_t addrs = 0x3a47a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_LastLoadHDAPath)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a45204;
+  constexpr static std::size_t addrs = 0x3a47a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_LastLoadHDAPath)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a4527c;
+  constexpr static std::size_t addrs = 0x3a47ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -529,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_LastLoadHIPPath)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a452d0;
+  constexpr static std::size_t addrs = 0x3a47b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -542,7 +542,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_LastLoadHIPPath)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45348;
+  constexpr static std::size_t addrs = 0x3a47bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -556,7 +556,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_InstanceAttr)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a4539c;
+  constexpr static std::size_t addrs = 0x3a47c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -569,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_InstanceAttr)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45414;
+  constexpr static std::size_t addrs = 0x3a47c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -583,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnityInstanceAttr)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a45468;
+  constexpr static std::size_t addrs = 0x3a47ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -596,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnityInstanceAttr)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a454e0;
+  constexpr static std::size_t addrs = 0x3a47d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -610,7 +610,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UnityInputMeshAttr)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a45534;
+  constexpr static std::size_t addrs = 0x3a47d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -623,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UnityInputMeshAttr)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a455ac;
+  constexpr static std::size_t addrs = 0x3a47e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -637,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_LineColor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a45600;
+  constexpr static std::size_t addrs = 0x3a47e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Color)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_LineColor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3a45680;
+  constexpr static std::size_t addrs = 0x3a47ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -664,7 +664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_EditorOnly_Tag)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a3fa70;
+  constexpr static std::size_t addrs = 0x3a422d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -677,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_EditorOnly_Tag)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3a45704;
+  constexpr static std::size_t addrs = 0x3a47f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -691,7 +691,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_HDAData_Name)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a3f9f8;
+  constexpr static std::size_t addrs = 0x3a4225c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -704,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_HDAData_Name)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a457ec;
+  constexpr static std::size_t addrs = 0x3a48050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::SessionMode (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_Session_Mode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a45840;
+  constexpr static std::size_t addrs = 0x3a480a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -731,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::SessionMode)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_Session_Mode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a4599c;
+  constexpr static std::size_t addrs = 0x3a48200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -745,7 +745,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_Session_PipeName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a45ac0;
+  constexpr static std::size_t addrs = 0x3a48324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -758,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_Session_PipeName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45b38;
+  constexpr static std::size_t addrs = 0x3a4839c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -772,7 +772,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_Session_Localhost)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a45b8c;
+  constexpr static std::size_t addrs = 0x3a483f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -785,7 +785,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_Session_Localhost)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45c04;
+  constexpr static std::size_t addrs = 0x3a48468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -799,7 +799,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_Session_Port)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a45c58;
+  constexpr static std::size_t addrs = 0x3a484bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -812,7 +812,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_Session_Port)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45cbc;
+  constexpr static std::size_t addrs = 0x3a48520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -826,7 +826,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_Session_Timeout)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3a45d10;
+  constexpr static std::size_t addrs = 0x3a48574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -839,7 +839,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_Session_Timeout)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45d7c;
+  constexpr static std::size_t addrs = 0x3a485e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -853,7 +853,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_Session_AutoClose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a45dd0;
+  constexpr static std::size_t addrs = 0x3a48634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -866,7 +866,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_Session_AutoClose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45e34;
+  constexpr static std::size_t addrs = 0x3a48698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -880,7 +880,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_Curves_ShowInSceneView)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a45e88;
+  constexpr static std::size_t addrs = 0x3a486ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -893,7 +893,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_Curves_ShowInSceneView)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45eec;
+  constexpr static std::size_t addrs = 0x3a48750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -907,7 +907,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_AssetCachePath)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a45f40;
+  constexpr static std::size_t addrs = 0x3a487a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -920,7 +920,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_AssetCachePath)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a45fb8;
+  constexpr static std::size_t addrs = 0x3a4881c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -934,7 +934,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UseFullPathNamesForOutput)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a4600c;
+  constexpr static std::size_t addrs = 0x3a48870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -947,7 +947,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UseFullPathNamesForOutput)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a46070;
+  constexpr static std::size_t addrs = 0x3a488d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)()>(
     &::HoudiniEngineUnity::HEU_PluginSettings::get_HEngineToolsShelves)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a460c4;
+  constexpr static std::size_t addrs = 0x3a48928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -976,7 +976,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::HoudiniEngineUnity::HEU_PluginSettings::set_HEngineToolsShelves)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3a462ec;
+  constexpr static std::size_t addrs = 0x3a48b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -990,7 +990,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_HEngineShelfSelectedIndex)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a464a0;
+  constexpr static std::size_t addrs = 0x3a48d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1003,7 +1003,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_HEngineShelfSelectedIndex)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a46500;
+  constexpr static std::size_t addrs = 0x3a48d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1017,7 +1017,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_DefaultTerrainMaterial)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a46554;
+  constexpr static std::size_t addrs = 0x3a48db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1030,7 +1030,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_DefaultTerrainMaterial)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a465cc;
+  constexpr static std::size_t addrs = 0x3a48e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1044,7 +1044,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_TerrainSplatTextureDefault)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a46620;
+  constexpr static std::size_t addrs = 0x3a48e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1057,7 +1057,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_TerrainSplatTextureDefault)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a46698;
+  constexpr static std::size_t addrs = 0x3a48efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1071,7 +1071,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_DefaultStandardShader)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3a466ec;
+  constexpr static std::size_t addrs = 0x3a48f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1084,7 +1084,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_DefaultStandardShader)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a46954;
+  constexpr static std::size_t addrs = 0x3a491b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1098,7 +1098,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_DefaultVertexColorShader)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3a469a8;
+  constexpr static std::size_t addrs = 0x3a4920c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1111,7 +1111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_DefaultVertexColorShader)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a46b50;
+  constexpr static std::size_t addrs = 0x3a493b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1125,7 +1125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_DefaultTransparentShader)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3a46ba4;
+  constexpr static std::size_t addrs = 0x3a49408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1138,7 +1138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_DefaultTransparentShader)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a46d4c;
+  constexpr static std::size_t addrs = 0x3a495b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1152,7 +1152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_DefaultCurveShader)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3a46da0;
+  constexpr static std::size_t addrs = 0x3a49604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1165,7 +1165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_DefaultCurveShader)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a46ee4;
+  constexpr static std::size_t addrs = 0x3a49748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1179,7 +1179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_SupportHoudiniBoxType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a46f38;
+  constexpr static std::size_t addrs = 0x3a4979c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1192,7 +1192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_SupportHoudiniBoxType)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a46f98;
+  constexpr static std::size_t addrs = 0x3a497fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1206,7 +1206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_SupportHoudiniSphereType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a46fec;
+  constexpr static std::size_t addrs = 0x3a49850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1219,7 +1219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_SupportHoudiniSphereType)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a4704c;
+  constexpr static std::size_t addrs = 0x3a498b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1233,7 +1233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_SetCurrentThreadToInvariantCulture)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a470a0;
+  constexpr static std::size_t addrs = 0x3a49904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1247,7 +1247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_SetCurrentThreadToInvariantCulture)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a47104;
+  constexpr static std::size_t addrs = 0x3a49968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1261,7 +1261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniDebugLaunchPath)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3a47270;
+  constexpr static std::size_t addrs = 0x3a49ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1274,7 +1274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniDebugLaunchPath)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a4737c;
+  constexpr static std::size_t addrs = 0x3a49be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1288,7 +1288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_LastExportPath)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a473d0;
+  constexpr static std::size_t addrs = 0x3a49c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1301,7 +1301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_LastExportPath)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a47448;
+  constexpr static std::size_t addrs = 0x3a49cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1315,7 +1315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_InputSelectionFilterLocation)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a4749c;
+  constexpr static std::size_t addrs = 0x3a49d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1329,7 +1329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_InputSelectionFilterLocation)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a47500;
+  constexpr static std::size_t addrs = 0x3a49d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1343,7 +1343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_InputSelectionFilterState)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a47554;
+  constexpr static std::size_t addrs = 0x3a49db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1356,7 +1356,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_InputSelectionFilterState)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a475b8;
+  constexpr static std::size_t addrs = 0x3a49e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1370,7 +1370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_InputSelectionFilterRoots)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a4760c;
+  constexpr static std::size_t addrs = 0x3a49e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1383,7 +1383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_InputSelectionFilterRoots)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a4766c;
+  constexpr static std::size_t addrs = 0x3a49ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1397,7 +1397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_InputSelectionFilterName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a476c0;
+  constexpr static std::size_t addrs = 0x3a49f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1410,7 +1410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_InputSelectionFilterName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a47738;
+  constexpr static std::size_t addrs = 0x3a49f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1424,7 +1424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_CookOptionSplitGeosByGroup)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a4778c;
+  constexpr static std::size_t addrs = 0x3a49ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1437,7 +1437,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_CookOptionSplitGeosByGroup)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a477ec;
+  constexpr static std::size_t addrs = 0x3a4a050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1451,7 +1451,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_MaxVerticesPerPrimitive)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a47840;
+  constexpr static std::size_t addrs = 0x3a4a0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1464,7 +1464,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_MaxVerticesPerPrimitive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a478a4;
+  constexpr static std::size_t addrs = 0x3a4a108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1478,7 +1478,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_HoudiniInstallPath)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a42ce4;
+  constexpr static std::size_t addrs = 0x3a45548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1491,7 +1491,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_HoudiniInstallPath)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a42dd4;
+  constexpr static std::size_t addrs = 0x3a45638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1505,7 +1505,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_LastHoudiniVersion)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a42d5c;
+  constexpr static std::size_t addrs = 0x3a455c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1518,7 +1518,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_LastHoudiniVersion)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a42e28;
+  constexpr static std::size_t addrs = 0x3a4568c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1532,7 +1532,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_SessionSyncAutoCook)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a478f8;
+  constexpr static std::size_t addrs = 0x3a4a15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1545,7 +1545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_SessionSyncAutoCook)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a4795c;
+  constexpr static std::size_t addrs = 0x3a4a1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1559,7 +1559,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_WriteCookLogs)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a404a0;
+  constexpr static std::size_t addrs = 0x3a42d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1572,7 +1572,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_WriteCookLogs)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a479b0;
+  constexpr static std::size_t addrs = 0x3a4a214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1586,7 +1586,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UseHDRColor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a47a04;
+  constexpr static std::size_t addrs = 0x3a4a268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1599,7 +1599,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UseHDRColor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a47a68;
+  constexpr static std::size_t addrs = 0x3a4a2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1613,7 +1613,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UseSpecularShader)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a46894;
+  constexpr static std::size_t addrs = 0x3a490f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1626,7 +1626,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UseSpecularShader)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a47abc;
+  constexpr static std::size_t addrs = 0x3a4a320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1640,7 +1640,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_UseLegacyShaders)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a468f4;
+  constexpr static std::size_t addrs = 0x3a49158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1653,7 +1653,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_UseLegacyShaders)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a47b10;
+  constexpr static std::size_t addrs = 0x3a4a374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1667,7 +1667,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HoudiniEngineUnity::HEU_PluginSettings::get_ShortenFolderPaths)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a47b64;
+  constexpr static std::size_t addrs = 0x3a4a3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_PluginSettings*>::get(),
@@ -1680,7 +1680,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::HoudiniEngineUnity::HEU_PluginSettings::set_ShortenFolderPaths)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a47bc4;
+  constexpr static std::size_t addrs = 0x3a4a428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

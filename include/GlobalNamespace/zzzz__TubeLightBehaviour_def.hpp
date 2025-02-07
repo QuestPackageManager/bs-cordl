@@ -79,7 +79,7 @@ public:
   static ::GlobalNamespace::TubeLightBehaviour_ParameterType const Values;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5212 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -140,10 +140,10 @@ public:
 
   static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x3b38a44, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3b3b5a4, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3b38638, size 0x40c, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3b3b198, size 0x40c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
@@ -206,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set_started(bool value);
 
-  /// @brief Method .ctor, addr 0x3b38b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3b670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -224,7 +224,7 @@ public:
   TubeLightBehaviour(TubeLightBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5213 };
 
   /// @brief Field _noPredefinedStartValue, offset: 0x10, size: 0x1, def value: None
   bool ____noPredefinedStartValue;

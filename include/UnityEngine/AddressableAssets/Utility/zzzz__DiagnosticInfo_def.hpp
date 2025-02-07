@@ -35,7 +35,7 @@ public:
   /// @brief Field ObjectId, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_ObjectId, put = __cordl_internal_set_ObjectId)) int32_t ObjectId;
 
-  /// @brief Method CreateEvent, addr 0x44f8900, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x44fb558, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType eventType,
                                                                                      int32_t frame, int32_t val);
 
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_ObjectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44f8944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fb59c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   DiagnosticInfo(DiagnosticInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16197 };
 
   /// @brief Field DisplayName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DisplayName;

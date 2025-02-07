@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateEnter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484ddd4;
+  constexpr static std::size_t addrs = 0x4850a2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484ddd8;
+  constexpr static std::size_t addrs = 0x4850a30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484dddc;
+  constexpr static std::size_t addrs = 0x4850a34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateMove)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484dde0;
+  constexpr static std::size_t addrs = 0x4850a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateIK)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484dde4;
+  constexpr static std::size_t addrs = 0x4850a3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateMachineEnter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484dde8;
+  constexpr static std::size_t addrs = 0x4850a40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateMachineExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484ddec;
+  constexpr static std::size_t addrs = 0x4850a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateEnter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484ddf0;
+  constexpr static std::size_t addrs = 0x4850a48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484ddf4;
+  constexpr static std::size_t addrs = 0x4850a4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484ddf8;
+  constexpr static std::size_t addrs = 0x4850a50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateMove)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484ddfc;
+  constexpr static std::size_t addrs = 0x4850a54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateIK)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484de00;
+  constexpr static std::size_t addrs = 0x4850a58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateMachineEnter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484de04;
+  constexpr static std::size_t addrs = 0x4850a5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateMachineExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x484de08;
+  constexpr static std::size_t addrs = 0x4850a60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)()>(&::UnityEngine::StateMachineBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x484de0c;
+  constexpr static std::size_t addrs = 0x4850a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::StateMachineBehaviour*>::get(), ".ctor",

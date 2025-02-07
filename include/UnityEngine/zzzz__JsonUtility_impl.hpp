@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*, bool)>(&::UnityEngine::JsonUtility::ToJsonInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48eda80;
+  constexpr static std::size_t addrs = 0x48f06d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::StringW, ::System::Object*, ::System::Type*)>(
     &::UnityEngine::JsonUtility::FromJsonInternal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48edac4;
+  constexpr static std::size_t addrs = 0x48f071c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*)>(&::UnityEngine::JsonUtility::ToJson)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48edb18;
+  constexpr static std::size_t addrs = 0x48f0770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*, bool)>(&::UnityEngine::JsonUtility::ToJson)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x48edb20;
+  constexpr static std::size_t addrs = 0x48f0778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::StringW, ::System::Type*)>(&::UnityEngine::JsonUtility::FromJson)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x48edc90;
+  constexpr static std::size_t addrs = 0x48f08e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Object*)>(&::UnityEngine::JsonUtility::FromJsonOverwrite)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x48ede7c;
+  constexpr static std::size_t addrs = 0x48f0ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

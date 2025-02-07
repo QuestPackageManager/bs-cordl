@@ -19,7 +19,7 @@ namespace UnityEngine {
 struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
-  /// @brief Method GetLayerValueFromID, addr 0x4862ed4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerValueFromID, addr 0x4865b2c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLayerValueFromID(int32_t id);
 
   // Ctor Parameters []
@@ -30,7 +30,7 @@ public:
   constexpr SortingLayer(int32_t m_Id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10644 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

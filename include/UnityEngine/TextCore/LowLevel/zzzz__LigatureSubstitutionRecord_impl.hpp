@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::get_componentGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49240d4;
+  constexpr static std::size_t addrs = 0x4926d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::get_ligatureGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49240dc;
+  constexpr static std::size_t addrs = 0x4926d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

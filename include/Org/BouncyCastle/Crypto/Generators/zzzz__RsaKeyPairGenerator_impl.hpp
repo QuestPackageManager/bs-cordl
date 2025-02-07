@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x238ed0c;
+  constexpr static std::size_t addrs = 0x2390708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (
     ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x238ee1c;
+  constexpr static std::size_t addrs = 0x2390818;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::*)(int32_t, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::ChooseRandomPrime)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x238f17c;
+  constexpr static std::size_t addrs = 0x2390b78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238f4dc;
+  constexpr static std::size_t addrs = 0x2390ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

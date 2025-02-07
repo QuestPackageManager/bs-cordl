@@ -61,10 +61,10 @@ public:
 
   constexpr void __cordl_internal_set__experimentPlatformKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26af91c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b1318, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW experimentPlatformKey);
 
-  /// @brief Method get_experimentPlatformKey, addr 0x26af914, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_experimentPlatformKey, addr 0x26b1310, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_experimentPlatformKey();
 
   /// @brief Convert to "::GlobalNamespace::IExperimentData"
@@ -85,7 +85,7 @@ public:
   OculusTestExperiment_ExperimentData(OculusTestExperiment_ExperimentData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12852 };
 
   /// @brief Field _experimentPlatformKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ____experimentPlatformKey;
@@ -108,10 +108,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26af944, size 0x474, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26b1340, size 0x474, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26afdb8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26b17b4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -128,7 +128,7 @@ public:
                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12853 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -173,7 +173,7 @@ public:
   /// @brief Field _experimentModel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__experimentModel, put = __cordl_internal_set__experimentModel)) ::GlobalNamespace::IExperimentModel* _experimentModel;
 
-  /// @brief Method Init, addr 0x26af87c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26b1278, size 0x90, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::OculusTestExperiment* New_ctor();
@@ -184,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set__experimentModel(::GlobalNamespace::IExperimentModel* value);
 
-  /// @brief Method .ctor, addr 0x26af90c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b1308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -202,7 +202,7 @@ public:
   OculusTestExperiment(OculusTestExperiment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12854 };
 
   /// @brief Field kIsInTest1Key offset 0xffffffff size 0x8
   static constexpr ::ConstString kIsInTest1Key{ u"beatsaber_experiments:test_parameter" };

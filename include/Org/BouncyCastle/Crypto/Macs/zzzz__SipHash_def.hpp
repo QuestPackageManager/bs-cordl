@@ -62,38 +62,38 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method ApplySipRounds, addr 0x2399ef8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ApplySipRounds, addr 0x239b8f4, size 0x4c, virtual true, abstract: false, final false
   inline void ApplySipRounds(int32_t n);
 
-  /// @brief Method BlockUpdate, addr 0x2399bbc, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x239b5b8, size 0x1ac, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t offset, int32_t length);
 
-  /// @brief Method DoFinal, addr 0x2399e04, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x239b800, size 0x44, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x2399d68, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x239b764, size 0x9c, virtual true, abstract: false, final false
   inline int64_t DoFinal();
 
-  /// @brief Method GetMacSize, addr 0x2399a24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMacSize, addr 0x239b420, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x2399a2c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x239b428, size 0x14c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::SipHash* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Macs::SipHash* New_ctor(int32_t c, int32_t d);
 
-  /// @brief Method ProcessMessageWord, addr 0x2399eac, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ProcessMessageWord, addr 0x239b8a8, size 0x4c, virtual true, abstract: false, final false
   inline void ProcessMessageWord();
 
-  /// @brief Method Reset, addr 0x2399e48, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x239b844, size 0x64, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotateLeft, addr 0x2399f44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x239b940, size 0xc, virtual false, abstract: false, final false
   static inline int64_t RotateLeft(int64_t x, int32_t n);
 
-  /// @brief Method Update, addr 0x2399b78, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x239b574, size 0x44, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
   constexpr int32_t const& __cordl_internal_get_c() const;
@@ -162,13 +162,13 @@ public:
 
   constexpr void __cordl_internal_set_wordPos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2399838, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239b234, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2399860, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239b25c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t c, int32_t d);
 
-  /// @brief Method get_AlgorithmName, addr 0x2399890, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x239b28c, size 0x194, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"

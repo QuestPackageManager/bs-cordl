@@ -59,21 +59,21 @@ public:
   /// @brief Field propertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  /// @brief Method Awake, addr 0x3ba0fdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ba3b3c, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x3ba106c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x3ba3bcc, size 0x30, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::SpectrogramRowPropertyAnimator* New_ctor();
 
-  /// @brief Method SetMultiplier, addr 0x3ba1140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplier, addr 0x3ba3ca0, size 0x8, virtual false, abstract: false, final false
   inline void SetMultiplier(float_t value);
 
-  /// @brief Method SetProperty, addr 0x3ba0fa8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x3ba3b08, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  /// @brief Method Update, addr 0x3ba109c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba3bfc, size 0xa4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__animationCurve() const;
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ba1148, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba3ca8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,7 +148,7 @@ public:
   SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4377 };
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;

@@ -39,19 +39,19 @@ public:
   /// @brief Field _settingsManager, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method DidActivate, addr 0x3afdbf0, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b00750, size 0x1dc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3afddcc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b0092c, size 0x58, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleEnabledChanged, addr 0x3afde24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleEnabledChanged, addr 0x3b00984, size 0x20, virtual false, abstract: false, final false
   inline void HandleEnabledChanged(bool newValue);
 
-  /// @brief Method HandleForceGameliftChanged, addr 0x3afde6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleForceGameliftChanged, addr 0x3b009cc, size 0x20, virtual false, abstract: false, final false
   inline void HandleForceGameliftChanged(bool newValue);
 
-  /// @brief Method HandleHostnameChanged, addr 0x3afde44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleHostnameChanged, addr 0x3b009a4, size 0x28, virtual false, abstract: false, final false
   inline void HandleHostnameChanged(::HMUI::InputFieldView* inputView);
 
   static inline ::GlobalNamespace::ServerSettingsViewController* New_ctor();
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3afde8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b009ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +98,7 @@ public:
   ServerSettingsViewController(ServerSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4956 };
 
   /// @brief Field _enabled, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____enabled;

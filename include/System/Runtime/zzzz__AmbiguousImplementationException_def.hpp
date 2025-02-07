@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Runtime::AmbiguousImplementationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cc88a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccb4f8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc8998, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccb5f0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cc8920, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccb578, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

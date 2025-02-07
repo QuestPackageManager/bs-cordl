@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__schemaTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x43924e4, size 0x75c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439513c, size 0x75c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName, ::StringW ns, ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType,
                     ::StringW xmlTypeNamespace);
 
@@ -83,7 +83,7 @@ public:
   XmlSerializableMapping(XmlSerializableMapping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7467 };
 
   /// @brief Field _schema, offset: 0x78, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchema* ____schema;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::Accelerometer::*)()>(
     &::UnityEngine::InputSystem::Accelerometer::get_acceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c8ea4;
+  constexpr static std::size_t addrs = 0x45cbafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Accelerometer*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Accelerometer::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::Accelerometer::set_acceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c8eac;
+  constexpr static std::size_t addrs = 0x45cbb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Accelerometer* (*)()>(&::UnityEngine::InputSystem::Accelerometer::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45c8eb4;
+  constexpr static std::size_t addrs = 0x45cbb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Accelerometer*>::get(), "get_current",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::Accelerometer*)>(&::UnityEngine::InputSystem::Accelerometer::set_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45c8efc;
+  constexpr static std::size_t addrs = 0x45cbb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Accelerometer::*)()>(&::UnityEngine::InputSystem::Accelerometer::MakeCurrent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45c8f48;
+  constexpr static std::size_t addrs = 0x45cbba0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Accelerometer::*)()>(&::UnityEngine::InputSystem::Accelerometer::OnRemoved)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x45c8f9c;
+  constexpr static std::size_t addrs = 0x45cbbf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Accelerometer::*)()>(&::UnityEngine::InputSystem::Accelerometer::FinishSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45c9020;
+  constexpr static std::size_t addrs = 0x45cbc78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Accelerometer::*)()>(&::UnityEngine::InputSystem::Accelerometer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c9098;
+  constexpr static std::size_t addrs = 0x45cbcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Accelerometer*>::get(), ".ctor",

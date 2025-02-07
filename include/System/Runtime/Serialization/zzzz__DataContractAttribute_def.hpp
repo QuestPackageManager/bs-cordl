@@ -29,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set_isReference(bool value);
 
-  /// @brief Method get_IsReference, addr 0x42373d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x423a02c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
 protected:
@@ -47,7 +47,7 @@ public:
   DataContractAttribute(DataContractAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19233 };
 
   /// @brief Field isReference, offset: 0x10, size: 0x1, def value: None
   bool ___isReference;

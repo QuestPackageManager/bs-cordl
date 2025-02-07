@@ -25,10 +25,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE TransformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindChildRecursively, addr 0x22b415c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method FindChildRecursively, addr 0x22b5b58, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindChildRecursively(::UnityEngine::Transform* parent, ::StringW name);
 
-  /// @brief Method InverseTransformRotation, addr 0x22b40a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformRotation, addr 0x22b5aa4, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion InverseTransformRotation(::UnityEngine::Transform* trans, ::UnityEngine::Quaternion worldRotation);
 
 protected:
@@ -46,7 +46,7 @@ public:
   TransformExtensions(TransformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,12 +18,12 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE MD2 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3c49918, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c67e28, size 0x50, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::MD2* Create();
 
   static inline ::Mono::Security::Cryptography::MD2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c498f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c67e08, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   MD2(MD2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

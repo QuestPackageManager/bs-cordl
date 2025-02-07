@@ -129,7 +129,7 @@ public:
   constexpr NativeSlice_1(::cordl_internals::Ptr<uint8_t> m_Buffer, int32_t m_Stride, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -205,7 +205,7 @@ public:
   constexpr NativeSlice_1_Enumerator(::Unity::Collections::NativeSlice_1<T> m_Array, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10609 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

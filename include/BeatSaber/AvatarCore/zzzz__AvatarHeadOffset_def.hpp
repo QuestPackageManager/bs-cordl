@@ -32,15 +32,15 @@ public:
   /// @brief Field _positionOffset, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset)) ::UnityEngine::Vector3 _positionOffset;
 
-  /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose, addr 0x224a94c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose, addr 0x224c1f8, size 0x54, virtual false, abstract: false, final false
   inline void HandleMultiplayerAvatarPoseControllerDidUpdatePose(::UnityEngine::Vector3 headLocalPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarHeadOffset* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x224a7d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x224c07c, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x224a694, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x224bf40, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController> const& __cordl_internal_get__avatarPoseController() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x224a9a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224c24c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   AvatarHeadOffset(AvatarHeadOffset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17558 };
 
   /// @brief Field _positionOffset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____positionOffset;

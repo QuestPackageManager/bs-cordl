@@ -43,10 +43,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
 
-  /// @brief Method Evaluate, addr 0x480fb14, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method Evaluate, addr 0x481276c, size 0x1e4, virtual true, abstract: false, final true
   inline void Evaluate();
 
-  /// @brief Method FetchPreviewComponents, addr 0x480fcf8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FetchPreviewComponents, addr 0x4812950, size 0x12c, virtual false, abstract: false, final false
   inline void FetchPreviewComponents();
 
   static inline ::UnityEngine::Timeline::AnimationPreviewUpdateCallback* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PreviewComponents(::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* value);
 
-  /// @brief Method .ctor, addr 0x480fa4c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48126a4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
@@ -90,7 +90,7 @@ public:
   AnimationPreviewUpdateCallback(AnimationPreviewUpdateCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15798 };
 
   /// @brief Field m_Output, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Animations::AnimationPlayableOutput ___m_Output;

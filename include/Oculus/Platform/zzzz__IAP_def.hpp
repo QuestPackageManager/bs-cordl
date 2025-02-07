@@ -34,25 +34,25 @@ namespace Oculus::Platform {
 class CORDL_TYPE IAP : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConsumePurchase, addr 0x3f8c0d4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ConsumePurchase, addr 0x3f8ed2c, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ConsumePurchase(::StringW sku);
 
-  /// @brief Method GetNextProductListPage, addr 0x3f8c7fc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetNextProductListPage, addr 0x3f8f454, size 0x1d8, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList*>* GetNextProductListPage(::Oculus::Platform::Models::ProductList* list);
 
-  /// @brief Method GetNextPurchaseListPage, addr 0x3f8c9d4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetNextPurchaseListPage, addr 0x3f8f62c, size 0x1d8, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetNextPurchaseListPage(::Oculus::Platform::Models::PurchaseList* list);
 
-  /// @brief Method GetProductsBySKU, addr 0x3f8c218, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetProductsBySKU, addr 0x3f8ee70, size 0x174, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList*>* GetProductsBySKU(::ArrayW<::StringW, ::Array<::StringW>*> skus);
 
-  /// @brief Method GetViewerPurchases, addr 0x3f8c38c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetViewerPurchases, addr 0x3f8efe4, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetViewerPurchases();
 
-  /// @brief Method GetViewerPurchasesDurableCache, addr 0x3f8c4dc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetViewerPurchasesDurableCache, addr 0x3f8f134, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetViewerPurchasesDurableCache();
 
-  /// @brief Method LaunchCheckoutFlow, addr 0x3f8c62c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method LaunchCheckoutFlow, addr 0x3f8f284, size 0x1d0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Purchase*>* LaunchCheckoutFlow(::StringW sku);
 
 protected:
@@ -70,7 +70,7 @@ public:
   IAP(IAP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

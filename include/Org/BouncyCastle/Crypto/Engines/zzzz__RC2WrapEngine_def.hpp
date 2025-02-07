@@ -68,21 +68,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method CalculateCmsKeyChecksum, addr 0x2364764, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CalculateCmsKeyChecksum, addr 0x2366160, size 0x180, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckCmsKeyChecksum, addr 0x2364e88, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckCmsKeyChecksum, addr 0x2366884, size 0x80, virtual false, abstract: false, final false
   inline bool CheckCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum);
 
-  /// @brief Method Init, addr 0x2364010, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2365a0c, size 0x2a8, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine* New_ctor();
 
-  /// @brief Method Unwrap, addr 0x23648e4, size 0x5a4, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x23662e0, size 0x5a4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Wrap, addr 0x23642f8, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0x2365cf4, size 0x46c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
@@ -133,12 +133,12 @@ public:
 
   constexpr void __cordl_internal_set_sr(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x2364f9c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2366998, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV2();
 
-  /// @brief Method get_AlgorithmName, addr 0x23642b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2365cb4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"

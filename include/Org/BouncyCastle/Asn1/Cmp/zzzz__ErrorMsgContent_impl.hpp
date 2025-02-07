@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x22f5120;
+  constexpr static std::size_t addrs = 0x22f6b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22f53b8;
+  constexpr static std::size_t addrs = 0x22f6db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::*)(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*)>(
     &::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22f5534;
+  constexpr static std::size_t addrs = 0x22f6f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::*)(
     ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*)>(&::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22f5540;
+  constexpr static std::size_t addrs = 0x22f6f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::get_PkiStatusInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f55c8;
+  constexpr static std::size_t addrs = 0x22f6fc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::get_ErrorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f55d0;
+  constexpr static std::size_t addrs = 0x22f6fcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* (::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::get_ErrorDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f55d8;
+  constexpr static std::size_t addrs = 0x22f6fd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x22f55e0;
+  constexpr static std::size_t addrs = 0x22f6fdc;
 
   inline static ::MethodInfo const* methodInfo() {
 

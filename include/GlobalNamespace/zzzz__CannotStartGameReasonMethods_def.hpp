@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x26daac4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x26dc4c0, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
 protected:
@@ -40,7 +40,7 @@ public:
   CannotStartGameReasonMethods(CannotStartGameReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13086 };
 
   /// @brief Field kAllPlayersNotInLobby offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllPlayersNotInLobby{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_NOT_IN_LOBBY" };

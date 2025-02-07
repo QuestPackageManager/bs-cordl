@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DecimalStorage::*)(::System::Data::DataColumn*)>(
     &::System::Data::Common::DecimalStorage::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x41e2bec;
+  constexpr static std::size_t addrs = 0x41e5844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Data::Common::DecimalStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::DecimalStorage::Aggregate)> {
   constexpr static std::size_t size = 0xa1c;
-  constexpr static std::size_t addrs = 0x41e7124;
+  constexpr static std::size_t addrs = 0x41e9d7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::DecimalStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::DecimalStorage::Compare)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x41e7b40;
+  constexpr static std::size_t addrs = 0x41ea798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::DecimalStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::DecimalStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x41e7cbc;
+  constexpr static std::size_t addrs = 0x41ea914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(::System::Object*)>(
     &::System::Data::Common::DecimalStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x41e7e28;
+  constexpr static std::size_t addrs = 0x41eaa80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DecimalStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DecimalStorage::Copy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x41e7fa0;
+  constexpr static std::size_t addrs = 0x41eabf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(int32_t)>(
     &::System::Data::Common::DecimalStorage::Get)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x41e7ff4;
+  constexpr static std::size_t addrs = 0x41eac4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DecimalStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::DecimalStorage::Set)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x41e80b8;
+  constexpr static std::size_t addrs = 0x41ead10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DecimalStorage::*)(int32_t)>(&::System::Data::Common::DecimalStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x41e8260;
+  constexpr static std::size_t addrs = 0x41eaeb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(::StringW)>(
     &::System::Data::Common::DecimalStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x41e8320;
+  constexpr static std::size_t addrs = 0x41eaf78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::DecimalStorage::*)(::System::Object*)>(
     &::System::Data::Common::DecimalStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x41e83d4;
+  constexpr static std::size_t addrs = 0x41eb02c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DecimalStorage::*)(int32_t)>(
     &::System::Data::Common::DecimalStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41e8470;
+  constexpr static std::size_t addrs = 0x41eb0c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::Common::DecimalStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::DecimalStorage::CopyValue)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x41e84b8;
+  constexpr static std::size_t addrs = 0x41eb110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DecimalStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::DecimalStorage::SetStorage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x41e85bc;
+  constexpr static std::size_t addrs = 0x41eb214;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_cutAngleTolerance(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7f37c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b81edc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t cutAngleTolerance);
 
 protected:
@@ -110,7 +110,7 @@ public:
   TutorialBeatmapObjectManager_InitData(TutorialBeatmapObjectManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4185 };
 
   /// @brief Field cutAngleTolerance, offset: 0x10, size: 0x4, def value: None
   float_t ___cutAngleTolerance;
@@ -156,29 +156,29 @@ public:
 
   __declspec(property(get = get_activeObstacleControllers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  /// @brief Method DespawnInternal, addr 0x3b7f160, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3b81cc0, size 0x15c, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal, addr 0x3b7f2bc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3b81e1c, size 0x58, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal, addr 0x3b7f314, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3b81e74, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
-  /// @brief Method Init, addr 0x3b7ee38, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b81998, size 0x130, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::TutorialBeatmapObjectManager_InitData* initData, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
                    ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool, ::GlobalNamespace::BombNoteController_Pool* bombNotePool,
                    ::GlobalNamespace::ObstacleController_Pool* obstaclePool);
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectManager* New_ctor();
 
-  /// @brief Method ProcessNoteData, addr 0x3b7f014, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ProcessNoteData, addr 0x3b81b74, size 0x148, virtual true, abstract: false, final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessObstacleData, addr 0x3b7ef68, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ProcessObstacleData, addr 0x3b81ac8, size 0xac, virtual true, abstract: false, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::ByRef<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
-  /// @brief Method ProcessSliderData, addr 0x3b7f15c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x3b81cbc, size 0x4, virtual true, abstract: false, final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* const& __cordl_internal_get__bombNotePoolContainer() const;
@@ -217,10 +217,10 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3b7f318, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b81e78, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeObstacleControllers, addr 0x3b7ede8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_activeObstacleControllers, addr 0x3b81948, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
 protected:
@@ -238,7 +238,7 @@ public:
   TutorialBeatmapObjectManager(TutorialBeatmapObjectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4186 };
 
   /// @brief Field _tutorialNotePoolContainer, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::TutorialNoteController>>* ____tutorialNotePoolContainer;

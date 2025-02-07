@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::*)(int32_t)>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4049948;
+  constexpr static std::size_t addrs = 0x404c5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4049b14;
+  constexpr static std::size_t addrs = 0x404c76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::MoveNext)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4049b18;
+  constexpr static std::size_t addrs = 0x404c770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4049bc8;
+  constexpr static std::size_t addrs = 0x404c820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4049bd0;
+  constexpr static std::size_t addrs = 0x404c828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4049c08;
+  constexpr static std::size_t addrs = 0x404c860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(&::GlobalNamespace::OVRSpectatorModeDomeTest::Awake)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4048dc8;
+  constexpr static std::size_t addrs = 0x404ba20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(), "Awake",
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(&::GlobalNamespace::OVRSpectatorModeDomeTest::Start)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4048e04;
+  constexpr static std::size_t addrs = 0x404ba5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(), "Start",
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(&::GlobalNamespace::OVRSpectatorModeDomeTest::Initialize)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x4048eb4;
+  constexpr static std::size_t addrs = 0x404bb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(),
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest::UpdateDefaultExternalCamera)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x40490dc;
+  constexpr static std::size_t addrs = 0x404bd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(),
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest::UpdateSpectatorCameraStatus)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x40494ec;
+  constexpr static std::size_t addrs = 0x404c144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(),
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRSpectatorModeDomeTest::*)(
     ::UnityEngine::Vector3, float_t, float_t, float_t)>(&::GlobalNamespace::OVRSpectatorModeDomeTest::SpectatorCameraDomePosition)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x40498b4;
+  constexpr static std::size_t addrs = 0x404c50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest::TimerCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4049854;
+  constexpr static std::size_t addrs = 0x404c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(),
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(&::GlobalNamespace::OVRSpectatorModeDomeTest::Update)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4049970;
+  constexpr static std::size_t addrs = 0x404c5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(), "Update",
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest::OnApplicationPause)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4049ab0;
+  constexpr static std::size_t addrs = 0x404c708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(),
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(
     &::GlobalNamespace::OVRSpectatorModeDomeTest::OnApplicationQuit)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4049ad0;
+  constexpr static std::size_t addrs = 0x404c728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(),
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpectatorModeDomeTest::*)()>(&::GlobalNamespace::OVRSpectatorModeDomeTest::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4049af0;
+  constexpr static std::size_t addrs = 0x404c748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpectatorModeDomeTest*>::get(), ".ctor",

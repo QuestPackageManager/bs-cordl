@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(&::Zenject::ProviderUtil::GetTypeToInstantiate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4b40930;
+  constexpr static std::size_t addrs = 0x4b43588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

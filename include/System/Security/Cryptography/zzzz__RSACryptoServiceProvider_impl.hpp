@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Security::Cryptography::RSACryptoServiceProvider::get_UseMachineKeyStore)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3caa4d8;
+  constexpr static std::size_t addrs = 0x3cad130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ca9adc;
+  constexpr static std::size_t addrs = 0x3cac734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(
     ::System::Security::Cryptography::CspParameters*)>(&::System::Security::Cryptography::RSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3caa564;
+  constexpr static std::size_t addrs = 0x3cad1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(int32_t)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3caa52c;
+  constexpr static std::size_t addrs = 0x3cad184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(
     int32_t, ::System::Security::Cryptography::CspParameters*)>(&::System::Security::Cryptography::RSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3caa570;
+  constexpr static std::size_t addrs = 0x3cad1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(int32_t, bool)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::Common)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3caa5cc;
+  constexpr static std::size_t addrs = 0x3cad224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(
     ::System::Security::Cryptography::CspParameters*)>(&::System::Security::Cryptography::RSACryptoServiceProvider::Common)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3caa7c4;
+  constexpr static std::size_t addrs = 0x3cad41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3caa8e0;
+  constexpr static std::size_t addrs = 0x3cad538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::RSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::get_KeySize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3caa980;
+  constexpr static std::size_t addrs = 0x3cad5d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::RSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::get_PublicOnly)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3caa9a0;
+  constexpr static std::size_t addrs = 0x3cad5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::RSACryptoServiceProvider::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::RSACryptoServiceProvider::EncryptValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3caa9bc;
+  constexpr static std::size_t addrs = 0x3cad614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSAParameters (::System::Security::Cryptography::RSACryptoServiceProvider::*)(
     bool)>(&::System::Security::Cryptography::RSACryptoServiceProvider::ExportParameters)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3caa9dc;
+  constexpr static std::size_t addrs = 0x3cad634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(
     ::System::Security::Cryptography::RSAParameters)>(&::System::Security::Cryptography::RSACryptoServiceProvider::ImportParameters)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3caab0c;
+  constexpr static std::size_t addrs = 0x3cad764;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::StringW)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::GetHashNameFromOID)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3caab60;
+  constexpr static std::size_t addrs = 0x3cad7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::RSACryptoServiceProvider::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3caad24;
+  constexpr static std::size_t addrs = 0x3cad97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3caae44;
+  constexpr static std::size_t addrs = 0x3cada9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::System::Object*, ::System::EventArgs*)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::OnKeyGenerated)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3caae98;
+  constexpr static std::size_t addrs = 0x3cadaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

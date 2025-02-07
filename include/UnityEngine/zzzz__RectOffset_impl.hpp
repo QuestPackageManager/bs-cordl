@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4874018;
+  constexpr static std::size_t addrs = 0x4876c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::RectOffset::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4874088;
+  constexpr static std::size_t addrs = 0x4876ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48740b4;
+  constexpr static std::size_t addrs = 0x4876d0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::RectOffset::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x48741b0;
+  constexpr static std::size_t addrs = 0x4876e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48743d4;
+  constexpr static std::size_t addrs = 0x487702c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::RectOffset::*)(::StringW, ::System::IFormatProvider*)>(
     &::UnityEngine::RectOffset::ToString)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x48743e4;
+  constexpr static std::size_t addrs = 0x487703c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::Destroy)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4874154;
+  constexpr static std::size_t addrs = 0x4876dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), "Destroy",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::RectOffset::InternalCreate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4874060;
+  constexpr static std::size_t addrs = 0x4876cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), "InternalCreate",
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::RectOffset::InternalDestroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487476c;
+  constexpr static std::size_t addrs = 0x48773c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::get_left)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487467c;
+  constexpr static std::size_t addrs = 0x48772d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), "get_left",
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)(int32_t)>(&::UnityEngine::RectOffset::set_left)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48742c4;
+  constexpr static std::size_t addrs = 0x4876f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::get_right)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48746b8;
+  constexpr static std::size_t addrs = 0x4877310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), "get_right",
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)(int32_t)>(&::UnityEngine::RectOffset::set_right)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4874308;
+  constexpr static std::size_t addrs = 0x4876f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::get_top)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48746f4;
+  constexpr static std::size_t addrs = 0x487734c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), "get_top",
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)(int32_t)>(&::UnityEngine::RectOffset::set_top)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x487434c;
+  constexpr static std::size_t addrs = 0x4876fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::get_bottom)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4874730;
+  constexpr static std::size_t addrs = 0x4877388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), "get_bottom",
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RectOffset::*)(int32_t)>(&::UnityEngine::RectOffset::set_bottom)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4874390;
+  constexpr static std::size_t addrs = 0x4876fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::get_horizontal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48747a8;
+  constexpr static std::size_t addrs = 0x4877400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), "get_horizontal",
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::RectOffset::*)()>(&::UnityEngine::RectOffset::get_vertical)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48747e4;
+  constexpr static std::size_t addrs = 0x487743c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RectOffset*>::get(), "get_vertical",

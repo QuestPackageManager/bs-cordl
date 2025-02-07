@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::GlobalNamespace::OculusXRPlugin::SetColorScale)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x402a2e4;
+  constexpr static std::size_t addrs = 0x402cf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::GlobalNamespace::OculusXRPlugin::SetColorOffset)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x402a37c;
+  constexpr static std::size_t addrs = 0x402cfd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin_Bool)>(&::GlobalNamespace::OculusXRPlugin::SetSpaceWarp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x402a410;
+  constexpr static std::size_t addrs = 0x402d068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t)>(&::GlobalNamespace::OculusXRPlugin::SetAppSpacePosition)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x402a48c;
+  constexpr static std::size_t addrs = 0x402d0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::GlobalNamespace::OculusXRPlugin::SetAppSpaceRotation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x402a51c;
+  constexpr static std::size_t addrs = 0x402d174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::OculusXRPlugin::SetDepthSubmission)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x402a5b4;
+  constexpr static std::size_t addrs = 0x402d20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

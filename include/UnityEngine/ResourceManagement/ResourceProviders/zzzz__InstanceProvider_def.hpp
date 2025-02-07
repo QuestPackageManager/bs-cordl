@@ -43,12 +43,12 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider* New_ctor();
 
-  /// @brief Method ProvideInstance, addr 0x479fc98, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method ProvideInstance, addr 0x47a28f0, size 0xd8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                                                              ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> prefabHandle,
                                                              ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 
-  /// @brief Method ReleaseInstance, addr 0x479fd70, size 0x23c, virtual true, abstract: false, final true
+  /// @brief Method ReleaseInstance, addr 0x47a29c8, size 0x23c, virtual true, abstract: false, final true
   inline void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::GameObject* instance);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
@@ -63,7 +63,7 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
                                                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>* value);
 
-  /// @brief Method .ctor, addr 0x479ffac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a2c04, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
@@ -84,7 +84,7 @@ public:
   InstanceProvider(InstanceProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15664 };
 
   /// @brief Field m_InstanceObjectToPrefabHandle, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>*

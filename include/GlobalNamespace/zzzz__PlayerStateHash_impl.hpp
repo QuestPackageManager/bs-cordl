@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStateHash::*)(::GlobalNamespace::BitMask128)>(
     &::GlobalNamespace::PlayerStateHash::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e2048;
+  constexpr static std::size_t addrs = 0x22e3a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStateHash::*)(::StringW)>(&::GlobalNamespace::PlayerStateHash::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x22e2050;
+  constexpr static std::size_t addrs = 0x22e3a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStateHash::*)(::System::Collections::Generic::HashSet_1<::StringW>*)>(
     &::GlobalNamespace::PlayerStateHash::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x22e20b4;
+  constexpr static std::size_t addrs = 0x22e3ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerStateHash::*)(::StringW)>(&::GlobalNamespace::PlayerStateHash::Contains)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22e2118;
+  constexpr static std::size_t addrs = 0x22e3b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerStateHash (::GlobalNamespace::PlayerStateHash::*)(::StringW)>(
     &::GlobalNamespace::PlayerStateHash::AddState)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22e2178;
+  constexpr static std::size_t addrs = 0x22e3b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerStateHash::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::PlayerStateHash::Serialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e21d8;
+  constexpr static std::size_t addrs = 0x22e3bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerStateHash (::GlobalNamespace::PlayerStateHash::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::PlayerStateHash::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22e21e0;
+  constexpr static std::size_t addrs = 0x22e3bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerStateHash (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::PlayerStateHash::Deserialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e21ec;
+  constexpr static std::size_t addrs = 0x22e3be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerStateHash::*)()>(&::GlobalNamespace::PlayerStateHash::ToString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22e21f4;
+  constexpr static std::size_t addrs = 0x22e3bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerStateHash::*)()>(&::GlobalNamespace::PlayerStateHash::ToShortString)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22e2270;
+  constexpr static std::size_t addrs = 0x22e3c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerStateHash>::get(), "ToShortString",
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::PlayerStateHash::*)()>(
     &::GlobalNamespace::PlayerStateHash::ToBytes)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22e22b8;
+  constexpr static std::size_t addrs = 0x22e3cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerStateHash>::get(), "ToBytes",
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PlayerStateHash::*)()>(&::GlobalNamespace::PlayerStateHash::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e2300;
+  constexpr static std::size_t addrs = 0x22e3cfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerStateHash::*)(::GlobalNamespace::PlayerStateHash)>(
     &::GlobalNamespace::PlayerStateHash::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22e2308;
+  constexpr static std::size_t addrs = 0x22e3d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerStateHash::*)(::System::Object*)>(&::GlobalNamespace::PlayerStateHash::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22e2330;
+  constexpr static std::size_t addrs = 0x22e3d2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::GlobalNamespace::PlayerStateHash>)>(&::GlobalNamespace::PlayerStateHash::TryParse)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x22e23bc;
+  constexpr static std::size_t addrs = 0x22e3db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerStateHash (*)(::StringW)>(&::GlobalNamespace::PlayerStateHash::Parse)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22e24e4;
+  constexpr static std::size_t addrs = 0x22e3ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerStateHash (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::GlobalNamespace::PlayerStateHash::FromBytes)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22e256c;
+  constexpr static std::size_t addrs = 0x22e3f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

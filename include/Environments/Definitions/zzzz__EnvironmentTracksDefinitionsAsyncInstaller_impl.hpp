@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22816e8;
+  constexpr static std::size_t addrs = 0x2282f94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2281728;
+  constexpr static std::size_t addrs = 0x2282fd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2281780;
+  constexpr static std::size_t addrs = 0x228302c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22819cc;
+  constexpr static std::size_t addrs = 0x2283278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

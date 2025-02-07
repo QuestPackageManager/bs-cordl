@@ -37,7 +37,7 @@ public:
   /// @brief Field typeName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method AddKeyHash, addr 0x4390bb4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x439380c, size 0xa4, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr bool const& __cordl_internal_get_includeInSchema() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method get_IncludeInSchema, addr 0x4390b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeInSchema, addr 0x43937a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeInSchema();
 
-  /// @brief Method get_Namespace, addr 0x4390b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x43937b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_TypeName, addr 0x4390b60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x43937b8, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -82,7 +82,7 @@ public:
   XmlTypeAttribute(XmlTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7454 };
 
   /// @brief Field includeInSchema, offset: 0x10, size: 0x1, def value: None
   bool ___includeInSchema;

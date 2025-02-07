@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Material> (::LIV::SDK::Unity::SDKRender::*)(bool, bool, ::UnityEngine::Rendering::ColorWriteMask)>(&::LIV::SDK::Unity::SDKRender::GetClipPlaneMaterial)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ac51dc;
+  constexpr static std::size_t addrs = 0x3ac7a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::LIV::SDK::Unity::SDKRender::*)(bool, ::UnityEngine::Rendering::ColorWriteMask)>(
     &::LIV::SDK::Unity::SDKRender::GetGroundClipPlaneMaterial)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ac52e0;
+  constexpr static std::size_t addrs = 0x3ac7b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_useDeferredRendering)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ac537c;
+  constexpr static std::size_t addrs = 0x3ac7be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_useDeferredRendering",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_interlacedRendering)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ac53a4;
+  constexpr static std::size_t addrs = 0x3ac7c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_interlacedRendering",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_canRenderBackground)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3ac53bc;
+  constexpr static std::size_t addrs = 0x3ac7c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_canRenderBackground",
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_canRenderForeground)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3ac5448;
+  constexpr static std::size_t addrs = 0x3ac7cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_canRenderForeground",
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_canRenderOptimized)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ac54e8;
+  constexpr static std::size_t addrs = 0x3ac7d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_canRenderOptimized",
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)(::LIV::SDK::Unity::LIV*)>(&::LIV::SDK::Unity::SDKRender::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3ac3ca4;
+  constexpr static std::size_t addrs = 0x3ac6508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::UpdateCameraSettings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ac5d00;
+  constexpr static std::size_t addrs = 0x3ac8564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "UpdateCameraSettings",
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::Render)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ac42bc;
+  constexpr static std::size_t addrs = 0x3ac6b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "Render",
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::RenderBackground)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3ac6648;
+  constexpr static std::size_t addrs = 0x3ac8eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "RenderBackground",
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::RenderForeground)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x3ac6760;
+  constexpr static std::size_t addrs = 0x3ac8fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "RenderForeground",
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::RenderOptimized)> {
   constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x3ac6c10;
+  constexpr static std::size_t addrs = 0x3ac9474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "RenderOptimized",
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::CreateAssets)> {
   constexpr static std::size_t size = 0x6d0;
-  constexpr static std::size_t addrs = 0x3ac5630;
+  constexpr static std::size_t addrs = 0x3ac7e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "CreateAssets",
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::DestroyAssets)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3ac8134;
+  constexpr static std::size_t addrs = 0x3aca998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "DestroyAssets",
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ac3e0c;
+  constexpr static std::size_t addrs = 0x3ac6670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "Dispose",
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::LIV::SDK::Unity::LIV> (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_liv)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac83ac;
+  constexpr static std::size_t addrs = 0x3acac10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_liv",
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKOutputFrame (::LIV::SDK::Unity::SDKRender::*)()>(
     &::LIV::SDK::Unity::SDKRender::get_outputFrame)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ac83b4;
+  constexpr static std::size_t addrs = 0x3acac18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_outputFrame",
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKInputFrame (::LIV::SDK::Unity::SDKRender::*)()>(
     &::LIV::SDK::Unity::SDKRender::get_inputFrame)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ac83c4;
+  constexpr static std::size_t addrs = 0x3acac28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_inputFrame",
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKResolution (::LIV::SDK::Unity::SDKRender::*)()>(
     &::LIV::SDK::Unity::SDKRender::get_resolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac83d4;
+  constexpr static std::size_t addrs = 0x3acac38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_resolution",
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::LIV::SDK::Unity::SDKRender::*)()>(
     &::LIV::SDK::Unity::SDKRender::get_cameraInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac83dc;
+  constexpr static std::size_t addrs = 0x3acac40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_cameraInstance",
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::LIV::SDK::Unity::SDKRender::*)()>(
     &::LIV::SDK::Unity::SDKRender::get_cameraReference)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3ac7868;
+  constexpr static std::size_t addrs = 0x3aca0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_cameraReference",
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_hmdCamera)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ac83e4;
+  constexpr static std::size_t addrs = 0x3acac48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_hmdCamera",
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_stage)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ac8400;
+  constexpr static std::size_t addrs = 0x3acac64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_stage",
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::LIV::SDK::Unity::SDKRender::*)()>(
     &::LIV::SDK::Unity::SDKRender::get_stageTransform)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ac8418;
+  constexpr static std::size_t addrs = 0x3acac7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_stageTransform",
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::LIV::SDK::Unity::SDKRender::*)()>(
     &::LIV::SDK::Unity::SDKRender::get_stageLocalToWorldMatrix)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ac8434;
+  constexpr static std::size_t addrs = 0x3acac98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(),
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::LIV::SDK::Unity::SDKRender::*)()>(
     &::LIV::SDK::Unity::SDKRender::get_localToWorldMatrix)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ac5f34;
+  constexpr static std::size_t addrs = 0x3ac8798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_localToWorldMatrix",
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_spectatorLayerMask)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ac5ff0;
+  constexpr static std::size_t addrs = 0x3ac8854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_spectatorLayerMask",
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_disableStandardAssets)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ac7514;
+  constexpr static std::size_t addrs = 0x3ac9d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(),
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::get_canSetPose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ac8524;
+  constexpr static std::size_t addrs = 0x3acad88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "get_canSetPose",
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LIV::SDK::Unity::SDKRender::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, float_t, bool)>(
     &::LIV::SDK::Unity::SDKRender::SetPose)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x3ac8544;
+  constexpr static std::size_t addrs = 0x3acada8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)(float_t, ::UnityEngine::Vector3, bool)>(
     &::LIV::SDK::Unity::SDKRender::SetGroundPlane)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3ac89d4;
+  constexpr static std::size_t addrs = 0x3acb238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)(::UnityEngine::Plane, bool)>(&::LIV::SDK::Unity::SDKRender::SetGroundPlane)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ac8b60;
+  constexpr static std::size_t addrs = 0x3acb3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)(::UnityEngine::Transform*, bool)>(
     &::LIV::SDK::Unity::SDKRender::SetGroundPlane)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3ac8b7c;
+  constexpr static std::size_t addrs = 0x3acb3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::ReleaseBridgePoseControl)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ac82b8;
+  constexpr static std::size_t addrs = 0x3acab1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "ReleaseBridgePoseControl",
@@ -510,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::UpdateBridgeResolution)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3ac624c;
+  constexpr static std::size_t addrs = 0x3ac8ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "UpdateBridgeResolution",
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::UpdateBridgeInputFrame)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3ac5d84;
+  constexpr static std::size_t addrs = 0x3ac85e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "UpdateBridgeInputFrame",
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::InvokePreRender)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ac6610;
+  constexpr static std::size_t addrs = 0x3ac8e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "InvokePreRender",
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::IvokePostRender)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ac7100;
+  constexpr static std::size_t addrs = 0x3ac9964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "IvokePostRender",
@@ -562,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::InvokePreRenderBackground)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ac7328;
+  constexpr static std::size_t addrs = 0x3ac9b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(),
@@ -575,7 +575,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::InvokePostRenderBackground)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ac7454;
+  constexpr static std::size_t addrs = 0x3ac9cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(),
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::InvokePreRenderForeground)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ac772c;
+  constexpr static std::size_t addrs = 0x3ac9f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(),
@@ -601,7 +601,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::InvokePostRenderForeground)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ac7764;
+  constexpr static std::size_t addrs = 0x3ac9fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(),
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::CreateBackgroundTexture)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ac8d40;
+  constexpr static std::size_t addrs = 0x3acb5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "CreateBackgroundTexture",
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::CreateForegroundTexture)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ac8f44;
+  constexpr static std::size_t addrs = 0x3acb7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "CreateForegroundTexture",
@@ -640,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::CreateOptimizedTexture)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ac8fd8;
+  constexpr static std::size_t addrs = 0x3acb83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "CreateOptimizedTexture",
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::CreateComplexClipPlaneTexture)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ac906c;
+  constexpr static std::size_t addrs = 0x3acb8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(),
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)()>(&::LIV::SDK::Unity::SDKRender::UpdateTextures)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x3ac6390;
+  constexpr static std::size_t addrs = 0x3ac8bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKRender*>::get(), "UpdateTextures",
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKRender::*)(::UnityEngine::RenderTexture*, ::LIV::SDK::Unity::TEXTURE_ID)>(
     &::LIV::SDK::Unity::SDKRender::SendTextureToBridge)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3ac7360;
+  constexpr static std::size_t addrs = 0x3ac9bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

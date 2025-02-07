@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::Start)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x3b88950;
+  constexpr static std::size_t addrs = 0x3b8b4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "Start",
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnDestroy)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3b88d5c;
+  constexpr static std::size_t addrs = 0x3b8b8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnDestroy",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnEnable)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3b88e50;
+  constexpr static std::size_t addrs = 0x3b8b9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnEnable",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnDisable)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3b89058;
+  constexpr static std::size_t addrs = 0x3b8bbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnDisable",
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SaberBurnMarkSparkles::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::SaberBurnMarkSparkles::GetBurnMarkPos)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x3b89138;
+  constexpr static std::size_t addrs = 0x3b8bc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::LateUpdate)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x3b8958c;
+  constexpr static std::size_t addrs = 0x3b8c0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "LateUpdate",
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b899c0;
+  constexpr static std::size_t addrs = 0x3b8c520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), ".ctor",

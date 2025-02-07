@@ -83,7 +83,7 @@ public:
   static ::UnityEngine::UIElements::UxmlAttributeDescription_Use const Required;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6243 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -150,7 +150,7 @@ public:
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW, T, T>* converterFunc, T defaultValue,
                                  ::ByRef<T> value);
 
-  /// @brief Method TryGetValueFromBagAsString, addr 0x4aa2aa0, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBagAsString, addr 0x4aa56f8, size 0x50c, virtual false, abstract: false, final false
   inline bool TryGetValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::ByRef<::StringW> value);
 
   constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
@@ -189,28 +189,28 @@ public:
 
   constexpr void __cordl_internal_set_m_ObsoleteNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x4aa29f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa5648, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x4aa2a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4aa566c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x4aa2a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x4aa5674, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_obsoleteNames, addr 0x4aa2a24, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_obsoleteNames, addr 0x4aa567c, size 0x5c, virtual false, abstract: false, final false
   inline void set_obsoleteNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_restriction, addr 0x4aa2a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_restriction, addr 0x4aa56f0, size 0x8, virtual false, abstract: false, final false
   inline void set_restriction(::UnityEngine::UIElements::UxmlTypeRestriction* value);
 
-  /// @brief Method set_type, addr 0x4aa2a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x4aa56d8, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::StringW value);
 
-  /// @brief Method set_typeNamespace, addr 0x4aa2a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_typeNamespace, addr 0x4aa56e0, size 0x8, virtual false, abstract: false, final false
   inline void set_typeNamespace(::StringW value);
 
-  /// @brief Method set_use, addr 0x4aa2a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_use, addr 0x4aa56e8, size 0x8, virtual false, abstract: false, final false
   inline void set_use(::UnityEngine::UIElements::UxmlAttributeDescription_Use value);
 
 protected:
@@ -228,7 +228,7 @@ public:
   UxmlAttributeDescription(UxmlAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6244 };
 
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;

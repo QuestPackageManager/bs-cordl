@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)(::ByRef<::UnityEngine::UIElements::UIR::NudgeJobData>)>(
     &::UnityEngine::UIElements::UIR::JobManager::Add)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49a98bc;
+  constexpr static std::size_t addrs = 0x49ac514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)(::ByRef<::UnityEngine::UIElements::UIR::ConvertMeshJobData>)>(
     &::UnityEngine::UIElements::UIR::JobManager::Add)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49a9914;
+  constexpr static std::size_t addrs = 0x49ac56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)(::ByRef<::UnityEngine::UIElements::UIR::CopyClosingMeshJobData>)>(&::UnityEngine::UIElements::UIR::JobManager::Add)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49a996c;
+  constexpr static std::size_t addrs = 0x49ac5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)()>(
     &::UnityEngine::UIElements::UIR::JobManager::CompleteNudgeJobs)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x49a99c4;
+  constexpr static std::size_t addrs = 0x49ac61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobManager*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)()>(
     &::UnityEngine::UIElements::UIR::JobManager::CompleteConvertMeshJobs)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x49a9cf4;
+  constexpr static std::size_t addrs = 0x49ac94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobManager*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)()>(
     &::UnityEngine::UIElements::UIR::JobManager::CompleteClosingMeshJobs)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x49a9f30;
+  constexpr static std::size_t addrs = 0x49acb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobManager*>::get(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::JobManager::*)()>(&::UnityEngine::UIElements::UIR::JobManager::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49aa16c;
+  constexpr static std::size_t addrs = 0x49acdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobManager*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)(bool)>(
     &::UnityEngine::UIElements::UIR::JobManager::set_disposed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49aa174;
+  constexpr static std::size_t addrs = 0x49acdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)()>(&::UnityEngine::UIElements::UIR::JobManager::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49aa180;
+  constexpr static std::size_t addrs = 0x49acdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobManager*>::get(), "Dispose",
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)(bool)>(&::UnityEngine::UIElements::UIR::JobManager::Dispose)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x49aa1e4;
+  constexpr static std::size_t addrs = 0x49ace3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobManager::*)()>(&::UnityEngine::UIElements::UIR::JobManager::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x49aa308;
+  constexpr static std::size_t addrs = 0x49acf60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobManager*>::get(), ".ctor",

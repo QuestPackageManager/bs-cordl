@@ -72,15 +72,15 @@ public:
   /// @brief Convert operator to "::HMUI::SegmentedControl_IDataSource"
   constexpr operator ::HMUI::SegmentedControl_IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x408cc24, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x408f87c, size 0x308, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
   static inline ::HMUI::TextSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x408cb78, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x408f7d0, size 0xac, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetTexts, addr 0x408cb60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetTexts, addr 0x408f7b8, size 0x18, virtual false, abstract: false, final false
   inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts, ::System::Collections::Generic::HashSet_1<int32_t>* disabledIndexes);
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__disabledIndexes() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x408cfb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408fc0c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::SegmentedControl_IDataSource"
@@ -176,7 +176,7 @@ public:
   TextSegmentedControl(TextSegmentedControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18799 };
 
   /// @brief Field _fontSize, offset: 0x80, size: 0x4, def value: None
   float_t ____fontSize;

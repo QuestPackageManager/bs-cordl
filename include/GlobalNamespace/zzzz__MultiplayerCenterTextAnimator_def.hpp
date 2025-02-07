@@ -65,45 +65,45 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method AnimateEnabled, addr 0x3bcfab8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AnimateEnabled, addr 0x3bd2618, size 0x144, virtual false, abstract: false, final false
   inline void AnimateEnabled(bool isEnabled, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimateFontSize, addr 0x3bcf9e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AnimateFontSize, addr 0x3bd2540, size 0x48, virtual false, abstract: false, final false
   inline void AnimateFontSize(float_t fontSize, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimatePositionOffsetSize, addr 0x3bcfa28, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AnimatePositionOffsetSize, addr 0x3bd2588, size 0x90, virtual false, abstract: false, final false
   inline void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimateTextColor, addr 0x3bcf944, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AnimateTextColor, addr 0x3bd24a4, size 0x9c, virtual false, abstract: false, final false
   inline void AnimateTextColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method Awake, addr 0x3bcf4d4, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bd2034, size 0x3e8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerCenterTextAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bcf8bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bd241c, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetText, addr 0x3bcfbfc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x3bd275c, size 0x24, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
-  /// @brief Method <Awake>b__8_0, addr 0x3bcfc28, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_0, addr 0x3bd2788, size 0x78, virtual false, abstract: false, final false
   inline void _Awake_b__8_0(float_t val);
 
-  /// @brief Method <Awake>b__8_1, addr 0x3bcfca0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_1, addr 0x3bd2800, size 0x78, virtual false, abstract: false, final false
   inline void _Awake_b__8_1(float_t val);
 
-  /// @brief Method <Awake>b__8_2, addr 0x3bcfd44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_2, addr 0x3bd28a4, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__8_2(float_t val);
 
-  /// @brief Method <Awake>b__8_3, addr 0x3bcfd60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_3, addr 0x3bd28c0, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__8_3(::UnityEngine::Color val);
 
-  /// @brief Method <Awake>b__8_4, addr 0x3bcfd84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_4, addr 0x3bd28e4, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__8_4(::UnityEngine::Vector3 val);
 
-  /// @brief Method <Awake>b__8_5, addr 0x3bcfd18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_5, addr 0x3bd2878, size 0x2c, virtual false, abstract: false, final false
   inline void _Awake_b__8_5();
 
   constexpr ::Tweening::Tween_1<::UnityEngine::Color>* const& __cordl_internal_get__colorTween() const;
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3bcfc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd2780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,7 +172,7 @@ public:
   MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4557 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FakeMirrorSettings::*)()>(
     &::GlobalNamespace::FakeMirrorSettings::get_fakeMirrorTransparency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4083d94;
+  constexpr static std::size_t addrs = 0x40869ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)(float_t)>(
     &::GlobalNamespace::FakeMirrorSettings::set_fakeMirrorTransparency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4083d9c;
+  constexpr static std::size_t addrs = 0x40869f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4083da4;
+  constexpr static std::size_t addrs = 0x40869fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "Start",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4083eb8;
+  constexpr static std::size_t addrs = 0x4086b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "OnEnable",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4083ebc;
+  constexpr static std::size_t addrs = 0x4086b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "OnValidate",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::SetGlobalParameters)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4083da8;
+  constexpr static std::size_t addrs = 0x4086a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(),
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4083ec0;
+  constexpr static std::size_t addrs = 0x4086b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), ".ctor",

@@ -64,7 +64,7 @@ public:
   /// @brief Field _shortBeatEffectPrefab, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__shortBeatEffectPrefab, put = __cordl_internal_set__shortBeatEffectPrefab)) ::UnityW<::GlobalNamespace::BeatEffect> _shortBeatEffectPrefab;
 
-  /// @brief Method ManualInstallBindings, addr 0x3bf58a0, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ManualInstallBindings, addr 0x3bf8404, size 0x248, virtual false, abstract: false, final false
   inline void ManualInstallBindings(::Zenject::DiContainer* container, bool shortBeatEffect);
 
   static inline ::GlobalNamespace::EffectPoolsManualInstaller* New_ctor();
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__shortBeatEffectPrefab(::UnityW<::GlobalNamespace::BeatEffect> value);
 
-  /// @brief Method .ctor, addr 0x3bf5ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf864c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   EffectPoolsManualInstaller(EffectPoolsManualInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4720 };
 
   /// @brief Field _flyingTextEffectPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingTextEffect> ____flyingTextEffectPrefab;

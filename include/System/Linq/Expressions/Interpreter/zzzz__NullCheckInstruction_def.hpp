@@ -37,21 +37,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NullCheckInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x40f3b50, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f67a8, size 0x5c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f3af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f6750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x40f3b00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f6758, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40f3b10, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f6768, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40f3b08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f6760, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -71,7 +71,7 @@ public:
   NullCheckInstruction(NullCheckInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,18 +33,18 @@ namespace ENet {
 class CORDL_TYPE PacketFreeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3aa5794, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3aa7ff8, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ENet::Packet packet, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3aa5818, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3aa807c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3aa5780, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3aa7fe4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ENet::Packet packet);
 
   static inline ::ENet::PacketFreeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3aa56f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa7f58, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -62,7 +62,7 @@ public:
   PacketFreeCallback(PacketFreeCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -52,16 +52,16 @@ public:
 
   static inline ::Zenject::PoolCleanupChecker___c* New_ctor();
 
-  /// @brief Method <.ctor>b__2_0, addr 0x4b2131c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_0, addr 0x4b23f74, size 0x6c, virtual false, abstract: false, final false
   inline bool __ctor_b__2_0(::System::Type* x);
 
-  /// @brief Method __zenCreate, addr 0x4b21388, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b23fe0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b213dc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b24034, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b21314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b23f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::PoolCleanupChecker___c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   PoolCleanupChecker___c(PoolCleanupChecker___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12439 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,7 +113,7 @@ public:
   /// @brief Convert operator to "::Zenject::ILateDisposable"
   constexpr operator ::Zenject::ILateDisposable*() noexcept;
 
-  /// @brief Method LateDispose, addr 0x4b20ad8, size 0x3d0, virtual true, abstract: false, final true
+  /// @brief Method LateDispose, addr 0x4b23730, size 0x3d0, virtual true, abstract: false, final true
   inline void LateDispose();
 
   static inline ::Zenject::PoolCleanupChecker* New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
@@ -131,13 +131,13 @@ public:
 
   constexpr void __cordl_internal_set__poolFactories(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b20ea8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b23b00, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b20fc0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b23c18, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b209c4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2361c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);
 
   /// @brief Convert to "::Zenject::ILateDisposable"
@@ -158,7 +158,7 @@ public:
   PoolCleanupChecker(PoolCleanupChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12440 };
 
   /// @brief Field _poolFactories, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* ____poolFactories;

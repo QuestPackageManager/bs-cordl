@@ -83,7 +83,7 @@ public:
   constexpr DynamicHeightVirtualizationController_1_ContentHeightCacheInfo(float_t sum, int32_t count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5481 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -147,7 +147,7 @@ public:
   static ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_VirtualizationChange<T> const Scroll;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5482 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -204,7 +204,7 @@ public:
   static ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ScrollDirection<T> const Up;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5483 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -587,7 +587,7 @@ public:
   DynamicHeightVirtualizationController_1(DynamicHeightVirtualizationController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5484 };
 
   /// @brief Field m_HighestCachedIndex, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_HighestCachedIndex;

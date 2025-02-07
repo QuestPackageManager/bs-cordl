@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::INetworkPlayer* (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::get_player)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c11860;
+  constexpr static std::size_t addrs = 0x3c144b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)(::GlobalNamespace::INetworkPlayer*)>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::set_player)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c11868;
+  constexpr static std::size_t addrs = 0x3c144c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::Refresh)> {
   constexpr static std::size_t size = 0xb98;
-  constexpr static std::size_t addrs = 0x3c11870;
+  constexpr static std::size_t addrs = 0x3c144c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::Block)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c12408;
+  constexpr static std::size_t addrs = 0x3c15060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::Unblock)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c124b4;
+  constexpr static std::size_t addrs = 0x3c1510c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::Join)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c12560;
+  constexpr static std::size_t addrs = 0x3c151b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(), "Join",
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::Invite)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c1260c;
+  constexpr static std::size_t addrs = 0x3c15264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::Kick)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c126b8;
+  constexpr static std::size_t addrs = 0x3c15310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(), "Kick",
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::Leave)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c12764;
+  constexpr static std::size_t addrs = 0x3c153bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c12810;
+  constexpr static std::size_t addrs = 0x3c15468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerOptionsTableCell*>::get(),

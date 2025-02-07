@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x4b40864, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x4b434bc, size 0xcc, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW resourcePath);
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__resourcePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4b4083c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b43494, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath);
 
   /// @brief Convert to "::Zenject::IPrefabProvider"
@@ -61,7 +61,7 @@ public:
   PrefabProviderResource(PrefabProviderResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12574 };
 
   /// @brief Field _resourcePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____resourcePath;

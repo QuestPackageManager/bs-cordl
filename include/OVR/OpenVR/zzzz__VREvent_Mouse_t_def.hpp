@@ -29,7 +29,7 @@ public:
   constexpr VREvent_Mouse_t(float_t x, float_t y, uint32_t button) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

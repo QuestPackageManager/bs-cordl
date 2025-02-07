@@ -35,24 +35,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
 
-  /// @brief Method HasCurveEquationPassed, addr 0x24b8464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasCurveEquationPassed, addr 0x24b9e60, size 0x8, virtual false, abstract: false, final false
   inline bool HasCurveEquationPassed();
 
-  /// @brief Method HasFailed, addr 0x24b8450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasFailed, addr 0x24b9e4c, size 0x8, virtual false, abstract: false, final false
   inline bool HasFailed();
 
-  /// @brief Method HasOrderPassed, addr 0x24b8478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasOrderPassed, addr 0x24b9e74, size 0x8, virtual false, abstract: false, final false
   inline bool HasOrderPassed();
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo* New_ctor();
 
-  /// @brief Method ReportCurveEquationPassed, addr 0x24b846c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportCurveEquationPassed, addr 0x24b9e68, size 0xc, virtual false, abstract: false, final false
   inline void ReportCurveEquationPassed();
 
-  /// @brief Method ReportFailed, addr 0x24b8458, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportFailed, addr 0x24b9e54, size 0xc, virtual false, abstract: false, final false
   inline void ReportFailed();
 
-  /// @brief Method ReportOrderPassed, addr 0x24b8480, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportOrderPassed, addr 0x24b9e7c, size 0xc, virtual false, abstract: false, final false
   inline void ReportOrderPassed();
 
   constexpr bool const& __cordl_internal_get_curveEquationPassed() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_orderPassed(bool value);
 
-  /// @brief Method .ctor, addr 0x24b84ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b9ee8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_PRECOMP_NAME();

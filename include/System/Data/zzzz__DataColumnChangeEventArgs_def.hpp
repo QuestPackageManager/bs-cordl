@@ -38,7 +38,7 @@ public:
   /// @brief Field _column, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__column, put = __cordl_internal_set__column)) ::System::Data::DataColumn* _column;
 
-  /// @brief Method InitializeColumnChangeEvent, addr 0x415b014, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitializeColumnChangeEvent, addr 0x415dc6c, size 0xc, virtual false, abstract: false, final false
   inline void InitializeColumnChangeEvent(::System::Data::DataColumn* column, ::System::Object* value);
 
   static inline ::System::Data::DataColumnChangeEventArgs* New_ctor(::System::Data::DataRow* row);
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set__column(::System::Data::DataColumn* value);
 
-  /// @brief Method .ctor, addr 0x415af18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x415db70, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row);
 
-  /// @brief Method .ctor, addr 0x415af84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x415dbdc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row, ::System::Data::DataColumn* column, ::System::Object* value);
 
-  /// @brief Method get_ProposedValue, addr 0x415b004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProposedValue, addr 0x415dc5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ProposedValue();
 
-  /// @brief Method set_ProposedValue, addr 0x415b00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProposedValue, addr 0x415dc64, size 0x8, virtual false, abstract: false, final false
   inline void set_ProposedValue(::System::Object* value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   DataColumnChangeEventArgs(DataColumnChangeEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11375 };
 
   /// @brief Field _column, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataColumn* ____column;

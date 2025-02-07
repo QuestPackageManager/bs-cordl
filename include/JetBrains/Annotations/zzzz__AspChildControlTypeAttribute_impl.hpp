@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspChildControlTypeAttribute::*)(::StringW, ::System::Type*)>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4af4284;
+  constexpr static std::size_t addrs = 0x4af6edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::AspChildControlTypeAttribute::*)()>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::get_TagName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af42b0;
+  constexpr static std::size_t addrs = 0x4af6f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AspChildControlTypeAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspChildControlTypeAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::set_TagName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af42b8;
+  constexpr static std::size_t addrs = 0x4af6f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::JetBrains::Annotations::AspChildControlTypeAttribute::*)()>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::get_ControlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af42c0;
+  constexpr static std::size_t addrs = 0x4af6f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AspChildControlTypeAttribute*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspChildControlTypeAttribute::*)(::System::Type*)>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::set_ControlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af42c8;
+  constexpr static std::size_t addrs = 0x4af6f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

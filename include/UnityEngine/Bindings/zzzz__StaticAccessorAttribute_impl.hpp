@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::StaticAccessorAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4919c9c;
+  constexpr static std::size_t addrs = 0x491c8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::UnityEngine::Bindings::StaticAccessorType)>(
     &::UnityEngine::Bindings::StaticAccessorAttribute::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4919ca4;
+  constexpr static std::size_t addrs = 0x491c8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::StaticAccessorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4919cac;
+  constexpr static std::size_t addrs = 0x491c904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW, ::UnityEngine::Bindings::StaticAccessorType)>(
     &::UnityEngine::Bindings::StaticAccessorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4919cd4;
+  constexpr static std::size_t addrs = 0x491c92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

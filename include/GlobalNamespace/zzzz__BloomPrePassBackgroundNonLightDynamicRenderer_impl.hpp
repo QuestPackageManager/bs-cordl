@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d9840;
+  constexpr static std::size_t addrs = 0x39dc0a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::OnEnable)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39d9848;
+  constexpr static std::size_t addrs = 0x39dc0ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)(::UnityEngine::Renderer*)>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::SetRenderer)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39d99e8;
+  constexpr static std::size_t addrs = 0x39dc24c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39d9b38;
+  constexpr static std::size_t addrs = 0x39dc39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

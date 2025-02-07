@@ -60,7 +60,7 @@ public:
   constexpr LRUCache_2_Entry(::System::Collections::Generic::LinkedListNode_1<TKey>* lruNode, TValue Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15622 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -106,7 +106,7 @@ public:
                        ::System::Collections::Generic::LinkedList_1<TKey>* lru) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15623 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

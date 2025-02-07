@@ -75,7 +75,7 @@ public:
   static ::UnityEngine::XR::XRDisplaySubsystem_LateLatchNode const RightHand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18279 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,7 +114,7 @@ public:
                                             bool shouldFillOutDepth, int32_t cullingPassIndex, ::System::IntPtr foveatedRenderingInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18280 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe0 };
@@ -194,7 +194,7 @@ public:
                                             ::System::IntPtr foveatedRenderingInfo, bool srcHdrEncoded, ::UnityEngine::ColorGamut srcHdrColorGamut, int32_t srcHdrMaxLuminance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18281 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -261,7 +261,7 @@ public:
   constexpr XRDisplaySubsystem_XRMirrorViewBlitDesc(::System::IntPtr displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18282 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

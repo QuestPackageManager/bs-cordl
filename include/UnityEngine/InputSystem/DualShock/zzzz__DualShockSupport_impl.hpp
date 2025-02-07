@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::DualShock::DualShockSupport::Initialize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x460759c;
+  constexpr static std::size_t addrs = 0x460a1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockSupport*>::get(),

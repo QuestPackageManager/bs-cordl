@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3b4199c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b444fc, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
 
   static inline ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b419a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b44504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   ShaderWarmupScenesTransitionSetupDataSO(ShaderWarmupScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5271 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -37,18 +37,18 @@ public:
   /// @brief Field instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::GlobalNamespace::SmallBufferPool* instance;
 
-  /// @brief Method GetBuffer, addr 0x22e5c70, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x22e766c, size 0x27c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer(int32_t length);
 
   static inline ::GlobalNamespace::SmallBufferPool* New_ctor();
 
-  /// @brief Method ReleaseBuffer, addr 0x22e5eec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffer, addr 0x22e78e8, size 0x4, virtual false, abstract: false, final false
   inline void ReleaseBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method ReleaseBuffer, addr 0x22e60ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffer, addr 0x22e7aa8, size 0x1c, virtual false, abstract: false, final false
   inline void ReleaseBuffer(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer);
 
-  /// @brief Method ReleaseBufferInternal, addr 0x22e5ef0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBufferInternal, addr 0x22e78ec, size 0x1bc, virtual false, abstract: false, final false
   inline void ReleaseBufferInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* const& __cordl_internal_get__cacheLarge() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__cacheSmall(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
 
-  /// @brief Method .ctor, addr 0x22e60c8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e7ac4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SmallBufferPool* getStaticF_instance();
@@ -97,7 +97,7 @@ public:
   SmallBufferPool(SmallBufferPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14968 };
 
   /// @brief Field kCacheLargeMaxCapacity offset 0xffffffff size 0x4
   static constexpr int32_t kCacheLargeMaxCapacity{ static_cast<int32_t>(0x10) };

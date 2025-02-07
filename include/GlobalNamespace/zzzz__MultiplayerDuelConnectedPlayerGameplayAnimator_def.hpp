@@ -34,21 +34,21 @@ public:
   __declspec(property(get = __cordl_internal_get__failController, put = __cordl_internal_set__failController)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController>
       _failController;
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0x3bbc61c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x3bbf17c, size 0xdc, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandlePlayerDidFail, addr 0x3bbc800, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFail, addr 0x3bbf360, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDidFail();
 
-  /// @brief Method HandleStateChanged, addr 0x3bbc6f8, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3bbf258, size 0x108, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bbc470, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bbefd0, size 0xd8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TransitionIntoFailedState, addr 0x3bbc548, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TransitionIntoFailedState, addr 0x3bbf0a8, size 0xd4, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
   constexpr ::UnityW<::GlobalNamespace::ScaleAnimator> const& __cordl_internal_get__avatarScaleAnimator() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__failController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> value);
 
-  /// @brief Method .ctor, addr 0x3bbc804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbf364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   MultiplayerDuelConnectedPlayerGameplayAnimator(MultiplayerDuelConnectedPlayerGameplayAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4492 };
 
   /// @brief Field _avatarScaleAnimator, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScaleAnimator> ____avatarScaleAnimator;

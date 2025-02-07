@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::CompositeLogger::*)(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>*)>(&::GlobalNamespace::CompositeLogger::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b1954c;
+  constexpr static std::size_t addrs = 0x3b1c0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::GlobalNamespace::IBeatSaberLogger*)>(
     &::GlobalNamespace::CompositeLogger::AddLogger)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b19574;
+  constexpr static std::size_t addrs = 0x3b1c0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW)>(&::GlobalNamespace::CompositeLogger::Log)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3b19618;
+  constexpr static std::size_t addrs = 0x3b1c178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW, ::System::Object*)>(
     &::GlobalNamespace::CompositeLogger::Log)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3b197c8;
+  constexpr static std::size_t addrs = 0x3b1c328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW)>(&::GlobalNamespace::CompositeLogger::LogWarning)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3b1998c;
+  constexpr static std::size_t addrs = 0x3b1c4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW, ::System::Object*)>(
     &::GlobalNamespace::CompositeLogger::LogWarning)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3b19b40;
+  constexpr static std::size_t addrs = 0x3b1c6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW)>(&::GlobalNamespace::CompositeLogger::LogError)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3b19d04;
+  constexpr static std::size_t addrs = 0x3b1c864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW, ::System::Object*)>(
     &::GlobalNamespace::CompositeLogger::LogError)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3b19eb8;
+  constexpr static std::size_t addrs = 0x3b1ca18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::System::Exception*)>(
     &::GlobalNamespace::CompositeLogger::LogException)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3b1a07c;
+  constexpr static std::size_t addrs = 0x3b1cbdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::System::Exception*, ::System::Object*)>(
     &::GlobalNamespace::CompositeLogger::LogException)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3b1a230;
+  constexpr static std::size_t addrs = 0x3b1cd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

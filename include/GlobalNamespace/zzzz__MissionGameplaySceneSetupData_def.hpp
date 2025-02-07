@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b3ded0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b40a30, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, bool autoRestart,
                     ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::StringW backButtonText);
@@ -112,7 +112,7 @@ public:
   MissionGameplaySceneSetupData(MissionGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5244 };
 
   /// @brief Field missionObjectives, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> ___missionObjectives;

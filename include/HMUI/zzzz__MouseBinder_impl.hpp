@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::get_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39edd8c;
+  constexpr static std::size_t addrs = 0x39f05f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::MouseBinder*>::get(), "get_enabled",
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::MouseBinder::*)(bool)>(&::HMUI::MouseBinder::set_enabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39edd94;
+  constexpr static std::size_t addrs = 0x39f05f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39edda0;
+  constexpr static std::size_t addrs = 0x39f0604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::MouseBinder*>::get(), ".ctor",
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::Init)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39eddbc;
+  constexpr static std::size_t addrs = 0x39f0620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::MouseBinder*>::get(), "Init",
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::MouseBinder::*)(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>*)>(&::HMUI::MouseBinder::AddScrollBindings)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x39ede80;
+  constexpr static std::size_t addrs = 0x39f06e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::MouseBinder::*)(::UnityEngine::Events::UnityAction_1<float_t>*)>(
     &::HMUI::MouseBinder::AddScrollBinding)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39edfbc;
+  constexpr static std::size_t addrs = 0x39f0820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::MouseBinder::*)(::UnityEngine::Events::UnityAction_1<float_t>*)>(
     &::HMUI::MouseBinder::RemoveScrollBinding)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39ee060;
+  constexpr static std::size_t addrs = 0x39f08c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*>*>*)>(
     &::HMUI::MouseBinder::AddButtonBindings)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x39ee0b8;
+  constexpr static std::size_t addrs = 0x39f091c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::MouseBinder::*)(::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*)>(&::HMUI::MouseBinder::AddButtonBinding)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39ee22c;
+  constexpr static std::size_t addrs = 0x39f0a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::MouseBinder::*)(::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*)>(&::HMUI::MouseBinder::RemoveButtonBinding)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39ee320;
+  constexpr static std::size_t addrs = 0x39f0b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::ClearBindings)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39ee3d0;
+  constexpr static std::size_t addrs = 0x39f0c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::MouseBinder*>::get(), "ClearBindings",
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::ManualUpdate)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x39ee474;
+  constexpr static std::size_t addrs = 0x39f0cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::MouseBinder*>::get(), "ManualUpdate",

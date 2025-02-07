@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::AssetFile::Delete)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f89be4;
+  constexpr static std::size_t addrs = 0x3f8c83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::AssetFile::DeleteById)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f89d3c;
+  constexpr static std::size_t addrs = 0x3f8c994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(::StringW)>(
     &::Oculus::Platform::AssetFile::DeleteByName)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f89e94;
+  constexpr static std::size_t addrs = 0x3f8caec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::AssetFile::Download)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f89fec;
+  constexpr static std::size_t addrs = 0x3f8cc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::AssetFile::DownloadById)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f8a144;
+  constexpr static std::size_t addrs = 0x3f8cd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(::StringW)>(
     &::Oculus::Platform::AssetFile::DownloadByName)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f8a29c;
+  constexpr static std::size_t addrs = 0x3f8cef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::AssetFile::DownloadCancel)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f8a3f4;
+  constexpr static std::size_t addrs = 0x3f8d04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(uint64_t)>(
     &::Oculus::Platform::AssetFile::DownloadCancelById)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f8a54c;
+  constexpr static std::size_t addrs = 0x3f8d1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(::StringW)>(
     &::Oculus::Platform::AssetFile::DownloadCancelByName)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f8a6a4;
+  constexpr static std::size_t addrs = 0x3f8d2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetailsList*>* (*)()>(
     &::Oculus::Platform::AssetFile::GetList)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3f8a7fc;
+  constexpr static std::size_t addrs = 0x3f8d454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AssetFile*>::get(), "GetList",
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* (*)(uint64_t)>(
     &::Oculus::Platform::AssetFile::Status)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f8a94c;
+  constexpr static std::size_t addrs = 0x3f8d5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* (*)(uint64_t)>(
     &::Oculus::Platform::AssetFile::StatusById)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f8aaa4;
+  constexpr static std::size_t addrs = 0x3f8d6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* (*)(::StringW)>(
     &::Oculus::Platform::AssetFile::StatusByName)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f8abfc;
+  constexpr static std::size_t addrs = 0x3f8d854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::AssetFileDownloadUpdate*>*)>(
     &::Oculus::Platform::AssetFile::SetDownloadUpdateNotificationCallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3f8ad54;
+  constexpr static std::size_t addrs = 0x3f8d9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -34,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get__obstacles, put = __cordl_internal_set__obstacles)) ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*>
       _obstacles;
 
-  /// @brief Method Convert, addr 0x270b8c4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270d2c0, size 0x120, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ObstacleItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> obstacles,
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacles(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> value);
 
-  /// @brief Method .ctor, addr 0x270b694, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270d090, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> obstacles, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -64,7 +64,7 @@ public:
   ObstacleItemConverter(ObstacleItemConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13478 };
 
   /// @brief Field _obstacles, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> ____obstacles;

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::*)(
     ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24f53d8;
+  constexpr static std::size_t addrs = 0x24f6dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::*)(
     ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24f54b8;
+  constexpr static std::size_t addrs = 0x24f6eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::*)(
     ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24f5598;
+  constexpr static std::size_t addrs = 0x24f6f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

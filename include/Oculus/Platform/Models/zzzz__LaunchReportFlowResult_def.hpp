@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_UserReportId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f933cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f96024, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -60,7 +60,7 @@ public:
   LaunchReportFlowResult(LaunchReportFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15531 };
 
   /// @brief Field DidCancel, offset: 0x10, size: 0x1, def value: None
   bool ___DidCancel;

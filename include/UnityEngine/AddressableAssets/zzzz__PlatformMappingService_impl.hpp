@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AddressablesPlatform (*)(::UnityEngine::RuntimePlatform)>(
     &::UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x44f84b4;
+  constexpr static std::size_t addrs = 0x44fb10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::RuntimePlatform)>(
     &::UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformPathInternal)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x44f8588;
+  constexpr static std::size_t addrs = 0x44fb1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AddressablesPlatform (*)()>(
     &::UnityEngine::AddressableAssets::PlatformMappingService::GetPlatform)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x44f86a8;
+  constexpr static std::size_t addrs = 0x44fb300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::PlatformMappingService*>::get(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::UnityEngine::AddressableAssets::PlatformMappingService::GetPlatformPathSubFolder)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x44ec62c;
+  constexpr static std::size_t addrs = 0x44ef284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::PlatformMappingService*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::PlatformMappingService::*)()>(
     &::UnityEngine::AddressableAssets::PlatformMappingService::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f872c;
+  constexpr static std::size_t addrs = 0x44fb384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::PlatformMappingService*>::get(),

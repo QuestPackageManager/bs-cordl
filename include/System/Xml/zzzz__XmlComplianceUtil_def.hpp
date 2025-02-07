@@ -19,10 +19,10 @@ namespace System::Xml {
 class CORDL_TYPE XmlComplianceUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CDataNormalize, addr 0x4358ac0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CDataNormalize, addr 0x435b718, size 0x1e0, virtual false, abstract: false, final false
   static inline ::StringW CDataNormalize(::StringW value);
 
-  /// @brief Method NonCDataNormalize, addr 0x435883c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method NonCDataNormalize, addr 0x435b494, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW NonCDataNormalize(::StringW value);
 
 protected:
@@ -40,7 +40,7 @@ public:
   XmlComplianceUtil(XmlComplianceUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

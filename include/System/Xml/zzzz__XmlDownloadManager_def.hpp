@@ -73,7 +73,7 @@ public:
 
   static inline ::System::Xml::XmlDownloadManager___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <GetStreamAsync>b__0, addr 0x436024c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <GetStreamAsync>b__0, addr 0x4362ea4, size 0x8c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* _GetStreamAsync_b__0();
 
   constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x4360134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4362d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   XmlDownloadManager___c__DisplayClass4_0(XmlDownloadManager___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7345 };
 
   /// @brief Field uri, offset: 0x10, size: 0x8, def value: None
   ::System::Uri* ___uri;
@@ -124,10 +124,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x43602d8, size 0x790, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4362f30, size 0x790, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4360a68, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43636c0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -149,7 +149,7 @@ public:
                                                            ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7346 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -219,23 +219,23 @@ public:
   /// @brief Field connections, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_connections, put = __cordl_internal_set_connections)) ::System::Collections::Hashtable* connections;
 
-  /// @brief Method GetNonFileStream, addr 0x435f80c, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method GetNonFileStream, addr 0x4362464, size 0x468, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetNonFileStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetNonFileStreamAsync, addr 0x436013c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetNonFileStreamAsync, addr 0x4362d94, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetNonFileStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                           ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetStream, addr 0x435f70c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStream, addr 0x4362364, size 0x100, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetStreamAsync, addr 0x435ffd4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetStreamAsync, addr 0x4362c2c, size 0x160, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                    ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
   static inline ::System::Xml::XmlDownloadManager* New_ctor();
 
-  /// @brief Method Remove, addr 0x435fe68, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4362ac0, size 0x16c, virtual false, abstract: false, final false
   inline void Remove(::StringW host);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_connections() const;
@@ -244,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set_connections(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x4360244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4362e9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -262,7 +262,7 @@ public:
   XmlDownloadManager(XmlDownloadManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7347 };
 
   /// @brief Field connections, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___connections;

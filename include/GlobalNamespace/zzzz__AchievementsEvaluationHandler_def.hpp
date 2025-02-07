@@ -162,30 +162,30 @@ public:
   __declspec(property(get = __cordl_internal_get__totalScore100MillionAchievement, put = __cordl_internal_set__totalScore100MillionAchievement)) ::UnityW<::GlobalNamespace::AchievementSO>
       _totalScore100MillionAchievement;
 
-  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x26a2374, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x26a3d70, size 0xf8, virtual false, abstract: false, final false
   inline void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::IMissionNode* missionNode);
 
-  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x26a2344, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x26a3d40, size 0x30, virtual false, abstract: false, final false
   inline void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x26a1cf8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x26a36f4, size 0x54, virtual false, abstract: false, final false
   inline void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
   static inline ::GlobalNamespace::AchievementsEvaluationHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26a1b48, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26a3544, size 0x1b0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProcessLevelFinishData, addr 0x26a1d4c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ProcessLevelFinishData, addr 0x26a3748, size 0x360, virtual false, abstract: false, final false
   inline void ProcessLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ProcessMissionFinishData, addr 0x26a246c, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method ProcessMissionFinishData, addr 0x26a3e68, size 0x400, virtual false, abstract: false, final false
   inline void ProcessMissionFinishData(::GlobalNamespace::IMissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x26a20ac, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x26a3aa8, size 0x298, virtual false, abstract: false, final false
   inline void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Start, addr 0x26a1868, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26a3264, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15ExpertLevelsFullComboAchievement() const;
@@ -356,7 +356,7 @@ public:
 
   constexpr void __cordl_internal_set__totalScore100MillionAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  /// @brief Method .ctor, addr 0x26a29ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a43e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -374,7 +374,7 @@ public:
   AchievementsEvaluationHandler(AchievementsEvaluationHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12748 };
 
   /// @brief Field _clearedLevel100Achievement, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevel100Achievement;

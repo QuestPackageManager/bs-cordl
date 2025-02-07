@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW)>(&::GlobalNamespace::UnityDebugLogger::Log)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b1a928;
+  constexpr static std::size_t addrs = 0x3b1d488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW, ::System::Object*)>(
     &::GlobalNamespace::UnityDebugLogger::Log)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b1a980;
+  constexpr static std::size_t addrs = 0x3b1d4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW)>(&::GlobalNamespace::UnityDebugLogger::LogWarning)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b1aa38;
+  constexpr static std::size_t addrs = 0x3b1d598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW, ::System::Object*)>(
     &::GlobalNamespace::UnityDebugLogger::LogWarning)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b1aa90;
+  constexpr static std::size_t addrs = 0x3b1d5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW)>(&::GlobalNamespace::UnityDebugLogger::LogError)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b1ab48;
+  constexpr static std::size_t addrs = 0x3b1d6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::StringW, ::System::Object*)>(
     &::GlobalNamespace::UnityDebugLogger::LogError)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b1aba0;
+  constexpr static std::size_t addrs = 0x3b1d700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::System::Exception*)>(
     &::GlobalNamespace::UnityDebugLogger::LogException)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b1ac58;
+  constexpr static std::size_t addrs = 0x3b1d7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)(::System::Exception*, ::System::Object*)>(
     &::GlobalNamespace::UnityDebugLogger::LogException)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b1acb0;
+  constexpr static std::size_t addrs = 0x3b1d810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityDebugLogger::*)()>(&::GlobalNamespace::UnityDebugLogger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b1ad68;
+  constexpr static std::size_t addrs = 0x3b1d8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityDebugLogger*>::get(), ".ctor",

@@ -48,13 +48,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve_Extensions___c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a9db18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3aa037c, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_AnimationCurve* _ToTestObject_b__1_0(::UnityEngine::AnimationCurve* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a9db74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3aa03d8, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_AnimationCurve* _ToTestObject_b__2_0(::UnityEngine::AnimationCurve* lod);
 
-  /// @brief Method .ctor, addr 0x3a9db10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa0374, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve_Extensions___c* getStaticF___9();
@@ -84,7 +84,7 @@ public:
   Test_AnimationCurve_Extensions___c(Test_AnimationCurve_Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::Test_AnimationCurve_Extensions___c;
 
-  /// @brief Method ToTestObject, addr 0x3a9d8cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aa0130, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_AnimationCurve*, ::Array<::HoudiniEngineUnity::Test_AnimationCurve*>*>
   ToTestObject(::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a9d870, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aa00d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_AnimationCurve* ToTestObject(::UnityEngine::AnimationCurve* self);
 
-  /// @brief Method ToTestObject, addr 0x3a9d9bc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aa0220, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_AnimationCurve*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::AnimationCurve*>* self);
 
 protected:
@@ -126,7 +126,7 @@ public:
   Test_AnimationCurve_Extensions(Test_AnimationCurve_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(
     ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::add_hasBeenRemovedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be7058;
+  constexpr static std::size_t addrs = 0x3be9bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(
     ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::remove_hasBeenRemovedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be7108;
+  constexpr static std::size_t addrs = 0x3be9c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IMultiplayerObservable* (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_observable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be71b8;
+  constexpr static std::size_t addrs = 0x3be9d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_spotName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3be71c0;
+  constexpr static std::size_t addrs = 0x3be9d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_isMain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be727c;
+  constexpr static std::size_t addrs = 0x3be9ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3be7284;
+  constexpr static std::size_t addrs = 0x3be9de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::OnDisable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3be72a0;
+  constexpr static std::size_t addrs = 0x3be9e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(bool)>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::SetIsObserved)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3be72c0;
+  constexpr static std::size_t addrs = 0x3be9e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be72c4;
+  constexpr static std::size_t addrs = 0x3be9e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::IMultiplayerSpectatingSpot_get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be72cc;
+  constexpr static std::size_t addrs = 0x3be9e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

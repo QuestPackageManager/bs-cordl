@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Method GetScoreForNote, addr 0x3bc8720, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x3bcb280, size 0x30, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   static inline ::GlobalNamespace::DeterministicHitChanceScoreCalculator* New_ctor(float_t hitChance);
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__hitChance(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bc86f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bcb258, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t hitChance);
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
@@ -71,7 +71,7 @@ public:
   DeterministicHitChanceScoreCalculator(DeterministicHitChanceScoreCalculator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4535 };
 
   /// @brief Field kScorePerHit offset 0xffffffff size 0x4
   static constexpr int32_t kScorePerHit{ static_cast<int32_t>(0x69) };

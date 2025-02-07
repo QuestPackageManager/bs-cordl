@@ -122,7 +122,7 @@ public:
   static ::GlobalNamespace::MainMenuViewController_MenuButton const SoloFreePlay;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5369 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -149,10 +149,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b6e028, size 0x3a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b70b88, size 0x3a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b6e3cc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b70f2c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -171,7 +171,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5370 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -261,42 +261,42 @@ public:
   __declspec(property(get = __cordl_internal_get_promoButtonWasPressedEvent,
                       put = __cordl_internal_set_promoButtonWasPressedEvent)) ::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* promoButtonWasPressedEvent;
 
-  /// @brief Method DidActivate, addr 0x3b6d7c4, size 0x578, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b70324, size 0x578, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x3b6de30, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x3b70990, size 0x1b0, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::MainMenuViewController_MenuButton menuButton);
 
-  /// @brief Method LoadMusicPackPromoDataAsync, addr 0x3b6dd3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LoadMusicPackPromoDataAsync, addr 0x3b7089c, size 0x90, virtual false, abstract: false, final false
   inline void LoadMusicPackPromoDataAsync();
 
   static inline ::GlobalNamespace::MainMenuViewController* New_ctor();
 
-  /// @brief Method PackPromoButtonWasPressed, addr 0x3b6ddcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PackPromoButtonWasPressed, addr 0x3b7092c, size 0x64, virtual false, abstract: false, final false
   inline void PackPromoButtonWasPressed();
 
-  /// @brief Method <DidActivate>b__20_0, addr 0x3b6dfe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_0, addr 0x3b70b48, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_0();
 
-  /// @brief Method <DidActivate>b__20_1, addr 0x3b6dff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_1, addr 0x3b70b50, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_1();
 
-  /// @brief Method <DidActivate>b__20_2, addr 0x3b6dff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_2, addr 0x3b70b58, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_2();
 
-  /// @brief Method <DidActivate>b__20_3, addr 0x3b6e000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_3, addr 0x3b70b60, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_3();
 
-  /// @brief Method <DidActivate>b__20_4, addr 0x3b6e008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_4, addr 0x3b70b68, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_4();
 
-  /// @brief Method <DidActivate>b__20_5, addr 0x3b6e010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_5, addr 0x3b70b70, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_5();
 
-  /// @brief Method <DidActivate>b__20_6, addr 0x3b6e018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_6, addr 0x3b70b78, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_6();
 
-  /// @brief Method <DidActivate>b__20_7, addr 0x3b6e020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_7, addr 0x3b70b80, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_7();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -389,19 +389,19 @@ public:
 
   constexpr void __cordl_internal_set_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x3b6dfe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b6d504, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b70064, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
 
-  /// @brief Method add_promoButtonWasPressedEvent, addr 0x3b6d664, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_promoButtonWasPressedEvent, addr 0x3b701c4, size 0xb0, virtual false, abstract: false, final false
   inline void add_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b6d5b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b70114, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>* value);
 
-  /// @brief Method remove_promoButtonWasPressedEvent, addr 0x3b6d714, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_promoButtonWasPressedEvent, addr 0x3b70274, size 0xb0, virtual false, abstract: false, final false
   inline void remove_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* value);
 
 protected:
@@ -419,7 +419,7 @@ public:
   MainMenuViewController(MainMenuViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5371 };
 
   /// @brief Field _soloButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____soloButton;

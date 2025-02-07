@@ -71,21 +71,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddActionMap, addr 0x455e94c, size 0x1594, virtual false, abstract: false, final false
+  /// @brief Method AddActionMap, addr 0x45615a4, size 0x1594, virtual false, abstract: false, final false
   inline void AddActionMap(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method ApplyParameters, addr 0x456039c, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameters, addr 0x4562ff4, size 0x4f0, virtual false, abstract: false, final false
   static inline void ApplyParameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters, ::System::Object* instance,
                                      ::UnityEngine::InputSystem::InputActionMap* actionMap, ::ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::StringW objectRegistrationName,
                                      ::StringW namesAndParameters);
 
-  /// @brief Method AssignCompositePartIndex, addr 0x456016c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method AssignCompositePartIndex, addr 0x4562dc4, size 0x230, virtual false, abstract: false, final false
   static inline int32_t AssignCompositePartIndex(::System::Object* composite, ::StringW name, ::ByRef<int32_t> currentCompositePartCount);
 
-  /// @brief Method Dispose, addr 0x455e81c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4561474, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method InstantiateBindingComposite, addr 0x455fee0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateBindingComposite, addr 0x4562b38, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputBindingComposite* InstantiateBindingComposite(::ByRef<::UnityEngine::InputSystem::InputBinding> binding,
                                                                                                ::UnityEngine::InputSystem::InputActionMap* actionMap);
 
@@ -94,19 +94,19 @@ public:
   inline int32_t InstantiateWithParameters(::UnityEngine::InputSystem::Utilities::TypeTable registrations, ::StringW namesAndParameters, ::ByRef<::ArrayW<TType, ::Array<TType>*>> array,
                                            ::ByRef<int32_t> count, ::UnityEngine::InputSystem::InputActionMap* actionMap, ::ByRef<::UnityEngine::InputSystem::InputBinding> binding);
 
-  /// @brief Method StartWithPreviousResolve, addr 0x455e864, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartWithPreviousResolve, addr 0x45614bc, size 0xe8, virtual false, abstract: false, final false
   inline void StartWithPreviousResolve(::UnityEngine::InputSystem::InputActionState* state, bool isFullResolve);
 
-  /// @brief Method get_totalActionCount, addr 0x455e804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalActionCount, addr 0x456145c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalActionCount();
 
-  /// @brief Method get_totalBindingCount, addr 0x455e80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalBindingCount, addr 0x4561464, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalBindingCount();
 
-  /// @brief Method get_totalControlCount, addr 0x455e814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalControlCount, addr 0x456146c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalControlCount();
 
-  /// @brief Method get_totalMapCount, addr 0x455e7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalMapCount, addr 0x4561454, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalMapCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -136,7 +136,7 @@ public:
                                  ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* m_Parameters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6600 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x128 };

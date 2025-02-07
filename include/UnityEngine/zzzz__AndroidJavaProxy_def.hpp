@@ -48,22 +48,22 @@ public:
   /// @brief Field s_JavaLangSystemClass, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_JavaLangSystemClass, put = setStaticF_s_JavaLangSystemClass)) ::UnityEngine::GlobalJavaObjectRef* s_JavaLangSystemClass;
 
-  /// @brief Method Finalize, addr 0x484784c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x484a4a4, size 0x98, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetProxyObject, addr 0x4849e70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetProxyObject, addr 0x484cac8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* GetProxyObject();
 
-  /// @brief Method GetRawProxy, addr 0x4848b9c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetRawProxy, addr 0x484b7f4, size 0xf8, virtual false, abstract: false, final false
   inline ::System::IntPtr GetRawProxy();
 
-  /// @brief Method Invoke, addr 0x4847414, size 0x3e0, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x484a06c, size 0x3e0, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::StringW methodName, ::System::IntPtr javaArgs);
 
-  /// @brief Method Invoke, addr 0x48478e4, size 0x904, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x484a53c, size 0x904, virtual true, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Invoke, addr 0x4848d9c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x484b9f4, size 0x174, virtual true, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::UnityEngine::AndroidJavaObject*, ::Array<::UnityEngine::AndroidJavaObject*>*> javaArgs);
 
   static inline ::UnityEngine::AndroidJavaProxy* New_ctor(::StringW javaInterface);
@@ -82,27 +82,27 @@ public:
 
   constexpr void __cordl_internal_set_proxyObject(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48472b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4849f08, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW javaInterface);
 
-  /// @brief Method .ctor, addr 0x4847820, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484a478, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AndroidJavaClass* javaInterface);
 
-  /// @brief Method equals, addr 0x4849cf8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method equals, addr 0x484c950, size 0x58, virtual true, abstract: false, final false
   inline bool equals(::UnityEngine::AndroidJavaObject* obj);
 
   static inline ::System::IntPtr getStaticF_s_HashCodeMethodID();
 
   static inline ::UnityEngine::GlobalJavaObjectRef* getStaticF_s_JavaLangSystemClass();
 
-  /// @brief Method hashCode, addr 0x4849d50, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method hashCode, addr 0x484c9a8, size 0xbc, virtual true, abstract: false, final false
   inline int32_t hashCode();
 
   static inline void setStaticF_s_HashCodeMethodID(::System::IntPtr value);
 
   static inline void setStaticF_s_JavaLangSystemClass(::UnityEngine::GlobalJavaObjectRef* value);
 
-  /// @brief Method toString, addr 0x4849e0c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method toString, addr 0x484ca64, size 0x64, virtual true, abstract: false, final false
   inline ::StringW toString();
 
 protected:
@@ -120,7 +120,7 @@ public:
   AndroidJavaProxy(AndroidJavaProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16763 };
 
   /// @brief Field javaInterface, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AndroidJavaClass* ___javaInterface;

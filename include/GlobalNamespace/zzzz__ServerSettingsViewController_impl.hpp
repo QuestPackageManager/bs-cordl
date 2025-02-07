@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ServerSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3afdbf0;
+  constexpr static std::size_t addrs = 0x3b00750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::ServerSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3afddcc;
+  constexpr static std::size_t addrs = 0x3b0092c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(bool)>(
     &::GlobalNamespace::ServerSettingsViewController::HandleEnabledChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afde24;
+  constexpr static std::size_t addrs = 0x3b00984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(::HMUI::InputFieldView*)>(
     &::GlobalNamespace::ServerSettingsViewController::HandleHostnameChanged)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3afde44;
+  constexpr static std::size_t addrs = 0x3b009a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(bool)>(
     &::GlobalNamespace::ServerSettingsViewController::HandleForceGameliftChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afde6c;
+  constexpr static std::size_t addrs = 0x3b009cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)()>(
     &::GlobalNamespace::ServerSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afde8c;
+  constexpr static std::size_t addrs = 0x3b009ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerSettingsViewController*>::get(), ".ctor",

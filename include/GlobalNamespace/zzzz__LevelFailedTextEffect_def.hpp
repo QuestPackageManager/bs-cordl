@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextEffect* New_ctor();
 
-  /// @brief Method ShowEffect, addr 0x3b85b0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ShowEffect, addr 0x3b8866c, size 0x3c, virtual false, abstract: false, final false
   inline void ShowEffect();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x3b85b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b886a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   LevelFailedTextEffect(LevelFailedTextEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4227 };
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;

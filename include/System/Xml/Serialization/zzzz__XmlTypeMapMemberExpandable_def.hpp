@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__flatArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4391c6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43948c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FlatArrayIndex, addr 0x4391c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FlatArrayIndex, addr 0x43948b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FlatArrayIndex();
 
-  /// @brief Method set_FlatArrayIndex, addr 0x4391c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FlatArrayIndex, addr 0x43948bc, size 0x8, virtual false, abstract: false, final false
   inline void set_FlatArrayIndex(int32_t value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   XmlTypeMapMemberExpandable(XmlTypeMapMemberExpandable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7461 };
 
   /// @brief Field _flatArrayIndex, offset: 0x78, size: 0x4, def value: None
   int32_t ____flatArrayIndex;

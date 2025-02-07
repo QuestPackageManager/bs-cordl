@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::MaterialReferenceManager* (*)()>(&::TMPro::MaterialReferenceManager::get_instance)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47b6ac0;
+  constexpr static std::size_t addrs = 0x47b9718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::MaterialReferenceManager*>::get(), "get_instance",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_FontAsset*)>(&::TMPro::MaterialReferenceManager::AddFontAsset)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x47b6c88;
+  constexpr static std::size_t addrs = 0x47b98e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::MaterialReferenceManager::*)(::TMPro::TMP_FontAsset*)>(
     &::TMPro::MaterialReferenceManager::AddFontAssetInternal)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x47b6ca8;
+  constexpr static std::size_t addrs = 0x47b9900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_SpriteAsset*)>(&::TMPro::MaterialReferenceManager::AddSpriteAsset)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x47b6d6c;
+  constexpr static std::size_t addrs = 0x47b99c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::MaterialReferenceManager::*)(::TMPro::TMP_SpriteAsset*)>(
     &::TMPro::MaterialReferenceManager::AddSpriteAssetInternal)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x47b6d8c;
+  constexpr static std::size_t addrs = 0x47b99e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::TMPro::TMP_SpriteAsset*)>(&::TMPro::MaterialReferenceManager::AddSpriteAsset)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47b6e50;
+  constexpr static std::size_t addrs = 0x47b9aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::MaterialReferenceManager::*)(int32_t, ::TMPro::TMP_SpriteAsset*)>(
     &::TMPro::MaterialReferenceManager::AddSpriteAssetInternal)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x47b6e80;
+  constexpr static std::size_t addrs = 0x47b9ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::Material*)>(&::TMPro::MaterialReferenceManager::AddFontMaterial)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47b6f54;
+  constexpr static std::size_t addrs = 0x47b9bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::MaterialReferenceManager::*)(int32_t, ::UnityEngine::Material*)>(
     &::TMPro::MaterialReferenceManager::AddFontMaterialInternal)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x47b6f84;
+  constexpr static std::size_t addrs = 0x47b9bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::TMPro::TMP_ColorGradient*)>(&::TMPro::MaterialReferenceManager::AddColorGradientPreset)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47b6fec;
+  constexpr static std::size_t addrs = 0x47b9c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::MaterialReferenceManager::*)(int32_t, ::TMPro::TMP_ColorGradient*)>(
     &::TMPro::MaterialReferenceManager::AddColorGradientPreset_Internal)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47b701c;
+  constexpr static std::size_t addrs = 0x47b9c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::MaterialReferenceManager::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::MaterialReferenceManager::Contains)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47b70c0;
+  constexpr static std::size_t addrs = 0x47b9d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::MaterialReferenceManager::*)(::TMPro::TMP_SpriteAsset*)>(
     &::TMPro::MaterialReferenceManager::Contains)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47b711c;
+  constexpr static std::size_t addrs = 0x47b9d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::ByRef<::TMPro::TMP_FontAsset*>)>(&::TMPro::MaterialReferenceManager::TryGetFontAsset)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47b7178;
+  constexpr static std::size_t addrs = 0x47b9dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::MaterialReferenceManager::*)(int32_t, ::ByRef<::TMPro::TMP_FontAsset*>)>(
     &::TMPro::MaterialReferenceManager::TryGetFontAssetInternal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47b71a8;
+  constexpr static std::size_t addrs = 0x47b9e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::ByRef<::TMPro::TMP_SpriteAsset*>)>(&::TMPro::MaterialReferenceManager::TryGetSpriteAsset)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47b7214;
+  constexpr static std::size_t addrs = 0x47b9e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::MaterialReferenceManager::*)(int32_t, ::ByRef<::TMPro::TMP_SpriteAsset*>)>(
     &::TMPro::MaterialReferenceManager::TryGetSpriteAssetInternal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47b7244;
+  constexpr static std::size_t addrs = 0x47b9e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::ByRef<::TMPro::TMP_ColorGradient*>)>(
     &::TMPro::MaterialReferenceManager::TryGetColorGradientPreset)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47b72b0;
+  constexpr static std::size_t addrs = 0x47b9f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::MaterialReferenceManager::*)(int32_t, ::ByRef<::TMPro::TMP_ColorGradient*>)>(
     &::TMPro::MaterialReferenceManager::TryGetColorGradientPresetInternal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47b72e0;
+  constexpr static std::size_t addrs = 0x47b9f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::ByRef<::UnityEngine::Material*>)>(&::TMPro::MaterialReferenceManager::TryGetMaterial)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47b734c;
+  constexpr static std::size_t addrs = 0x47b9fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::MaterialReferenceManager::*)(int32_t, ::ByRef<::UnityEngine::Material*>)>(
     &::TMPro::MaterialReferenceManager::TryGetMaterialInternal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47b737c;
+  constexpr static std::size_t addrs = 0x47b9fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::MaterialReferenceManager::*)()>(&::TMPro::MaterialReferenceManager::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x47b6b34;
+  constexpr static std::size_t addrs = 0x47b978c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::MaterialReferenceManager*>::get(), ".ctor",

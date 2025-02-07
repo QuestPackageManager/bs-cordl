@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)()>(
     &::GlobalNamespace::GameLiftClientConnectionRequestHandler::get_playerSessionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c5384;
+  constexpr static std::size_t addrs = 0x22c6d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)(::StringW)>(
     &::GlobalNamespace::GameLiftClientConnectionRequestHandler::set_playerSessionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c538c;
+  constexpr static std::size_t addrs = 0x22c6d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::StringW, ::StringW, bool)>(&::GlobalNamespace::GameLiftClientConnectionRequestHandler::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22c5394;
+  constexpr static std::size_t addrs = 0x22c6d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)(
     ::LiteNetLib::Utils::NetDataReader*, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<bool>)>(&::GlobalNamespace::GameLiftClientConnectionRequestHandler::ValidateConnectionMessage)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c5404;
+  constexpr static std::size_t addrs = 0x22c6e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)()>(
     &::GlobalNamespace::GameLiftClientConnectionRequestHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c5418;
+  constexpr static std::size_t addrs = 0x22c6e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

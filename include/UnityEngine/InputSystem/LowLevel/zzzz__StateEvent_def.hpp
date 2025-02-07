@@ -53,7 +53,7 @@ public:
   constexpr StateEvent__stateData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -99,22 +99,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method From, addr 0x4611d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x46149e8, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputDevice* device, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                   ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method From, addr 0x4611d98, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x46149f0, size 0x330, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputDevice* device, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                   ::Unity::Collections::Allocator allocator, bool useDefaultState);
 
-  /// @brief Method From, addr 0x460d624, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x461027c, size 0x124, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::StateEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method FromDefaultStateFor, addr 0x46120c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromDefaultStateFor, addr 0x4614d20, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> FromDefaultStateFor(::UnityEngine::InputSystem::InputDevice* device, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                                  ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method FromUnchecked, addr 0x460d480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromUnchecked, addr 0x46100d8, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::StateEvent> FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
   /// @brief Method GetEventSizeWithPayload, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -126,7 +126,7 @@ public:
   /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState> static inline TState GetState(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method ToEventPtr, addr 0x4611d80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x46149d8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -147,13 +147,13 @@ public:
 
   constexpr void __cordl_internal_set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method get_state, addr 0x4611d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x46149d0, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_state();
 
-  /// @brief Method get_stateSizeInBytes, addr 0x460d748, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_stateSizeInBytes, addr 0x46103a0, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_stateSizeInBytes();
 
-  /// @brief Method get_typeStatic, addr 0x4611d84, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x46149dc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
@@ -221,7 +221,7 @@ public:
   static constexpr int32_t Type{ static_cast<int32_t>(0x53544154) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6955 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x19 };

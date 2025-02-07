@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Audio::AudioPlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW, ::UnityEngine::AudioSource*)>(&::UnityEngine::Audio::AudioPlayableOutput::Create)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x485ff24;
+  constexpr static std::size_t addrs = 0x4862b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Audio::AudioPlayableOutput::*)(::UnityEngine::Playables::PlayableOutputHandle)>(
     &::UnityEngine::Audio::AudioPlayableOutput::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48600cc;
+  constexpr static std::size_t addrs = 0x4862d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Audio::AudioPlayableOutput (*)()>(&::UnityEngine::Audio::AudioPlayableOutput::get_Null)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4860050;
+  constexpr static std::size_t addrs = 0x4862ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioPlayableOutput>::get(), "get_Null",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (::UnityEngine::Audio::AudioPlayableOutput::*)()>(
     &::UnityEngine::Audio::AudioPlayableOutput::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4860200;
+  constexpr static std::size_t addrs = 0x4862e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioPlayableOutput>::get(), "GetHandle",
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Audio::AudioPlayableOutput)>(
     &::UnityEngine::Audio::AudioPlayableOutput::op_Implicit___UnityEngine__Playables__PlayableOutput)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x485ffcc;
+  constexpr static std::size_t addrs = 0x4862c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Audio::AudioPlayableOutput (*)(::UnityEngine::Playables::PlayableOutput)>(
     &::UnityEngine::Audio::AudioPlayableOutput::op_Explicit___UnityEngine__Audio__AudioPlayableOutput)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x486020c;
+  constexpr static std::size_t addrs = 0x4862e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioSource> (::UnityEngine::Audio::AudioPlayableOutput::*)()>(
     &::UnityEngine::Audio::AudioPlayableOutput::GetTarget)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4860290;
+  constexpr static std::size_t addrs = 0x4862ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioPlayableOutput>::get(), "GetTarget",
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Audio::AudioPlayableOutput::*)(::UnityEngine::AudioSource*)>(
     &::UnityEngine::Audio::AudioPlayableOutput::SetTarget)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48601bc;
+  constexpr static std::size_t addrs = 0x4862e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Audio::AudioPlayableOutput::*)()>(
     &::UnityEngine::Audio::AudioPlayableOutput::GetEvaluateOnSeek)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x486034c;
+  constexpr static std::size_t addrs = 0x4862fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Audio::AudioPlayableOutput>::get(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Audio::AudioPlayableOutput::*)(bool)>(
     &::UnityEngine::Audio::AudioPlayableOutput::SetEvaluateOnSeek)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48603c4;
+  constexpr static std::size_t addrs = 0x486301c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioSource> (*)(::ByRef<::UnityEngine::Playables::PlayableOutputHandle>)>(
     &::UnityEngine::Audio::AudioPlayableOutput::InternalGetTarget)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48602cc;
+  constexpr static std::size_t addrs = 0x4862f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableOutputHandle>, ::UnityEngine::AudioSource*)>(
     &::UnityEngine::Audio::AudioPlayableOutput::InternalSetTarget)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4860308;
+  constexpr static std::size_t addrs = 0x4862f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableOutputHandle>)>(
     &::UnityEngine::Audio::AudioPlayableOutput::InternalGetEvaluateOnSeek)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4860388;
+  constexpr static std::size_t addrs = 0x4862fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableOutputHandle>, bool)>(
     &::UnityEngine::Audio::AudioPlayableOutput::InternalSetEvaluateOnSeek)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4860408;
+  constexpr static std::size_t addrs = 0x4863060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

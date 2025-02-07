@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintOverlayPanels)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a43340;
+  constexpr static std::size_t addrs = 0x4a45f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UpdateRuntimePanels)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a433a4;
+  constexpr static std::size_t addrs = 0x4a45ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintOffscreenPanels)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a43408;
+  constexpr static std::size_t addrs = 0x4a46060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RegisterPlayerloopCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a4346c;
+  constexpr static std::size_t addrs = 0x4a460c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UnregisterPlayerloopCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a43494;
+  constexpr static std::size_t addrs = 0x4a460ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::VisualElementCreation)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a434bc;
+  constexpr static std::size_t addrs = 0x4a46114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

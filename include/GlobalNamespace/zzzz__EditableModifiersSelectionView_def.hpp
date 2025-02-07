@@ -52,13 +52,13 @@ public:
 
   static inline ::GlobalNamespace::EditableModifiersSelectionView* New_ctor();
 
-  /// @brief Method SetGameplayModifiers, addr 0x3b02e6c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x3b059cc, size 0x60, virtual true, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method SetVisibility, addr 0x3b02e38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x3b05998, size 0x28, virtual false, abstract: false, final false
   inline void SetVisibility(bool visible);
 
-  /// @brief Method Setup, addr 0x3b02e60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b059c0, size 0xc, virtual false, abstract: false, final false
   inline void Setup(bool showClearButton);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearButton() const;
@@ -91,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__showClearButton_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3b03034, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b05b94, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clearButton, addr 0x3b02db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearButton, addr 0x3b05914, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_clearButton();
 
-  /// @brief Method get_editButton, addr 0x3b02dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editButton, addr 0x3b0590c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_editButton();
 
-  /// @brief Method get_interactable, addr 0x3b02dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3b0591c, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_showClearButton, addr 0x3b02e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showClearButton, addr 0x3b05984, size 0x8, virtual false, abstract: false, final false
   inline bool get_showClearButton();
 
-  /// @brief Method set_interactable, addr 0x3b02dc4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3b05924, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_showClearButton, addr 0x3b02e2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_showClearButton, addr 0x3b0598c, size 0xc, virtual false, abstract: false, final false
   inline void set_showClearButton(bool value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   EditableModifiersSelectionView(EditableModifiersSelectionView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4976 };
 
   /// @brief Field _editButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editButton;

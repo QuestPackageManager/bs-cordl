@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_creatorType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x44a31d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a5e2c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
-  /// @brief Method get_Creator, addr 0x44a2fd4, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method get_Creator, addr 0x44a5c2c, size 0x1f8, virtual false, abstract: false, final false
   inline ::System::Net::IWebRequestCreate* get_Creator();
 
-  /// @brief Method set_Creator, addr 0x44a31cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Creator, addr 0x44a5e24, size 0x8, virtual false, abstract: false, final false
   inline void set_Creator(::System::Net::IWebRequestCreate* value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   WebRequestPrefixElement(WebRequestPrefixElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9597 };
 
   /// @brief Field Prefix, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Prefix;

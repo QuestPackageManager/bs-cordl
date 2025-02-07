@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileDifficultyBeatmap::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::FileDifficultyBeatmap::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26cc940;
+  constexpr static std::size_t addrs = 0x26ce33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::FileDifficultyBeatmap::*)()>(
     &::GlobalNamespace::FileDifficultyBeatmap::GetBeatmapStringAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26cc96c;
+  constexpr static std::size_t addrs = 0x26ce368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileDifficultyBeatmap*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::FileDifficultyBeatmap::*)()>(
     &::GlobalNamespace::FileDifficultyBeatmap::GetLightshowStringAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26cca24;
+  constexpr static std::size_t addrs = 0x26ce420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileDifficultyBeatmap*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileDifficultyBeatmap::*)()>(
     &::GlobalNamespace::FileDifficultyBeatmap::GetBeatmapString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26ccadc;
+  constexpr static std::size_t addrs = 0x26ce4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileDifficultyBeatmap*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileDifficultyBeatmap::*)()>(
     &::GlobalNamespace::FileDifficultyBeatmap::GetLightshowString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26ccb54;
+  constexpr static std::size_t addrs = 0x26ce550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileDifficultyBeatmap*>::get(),

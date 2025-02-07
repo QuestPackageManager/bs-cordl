@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HAPI_ParmInfo::*)()>(&::HoudiniEngineUnity::HAPI_ParmInfo::isInt)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a4b14c;
+  constexpr static std::size_t addrs = 0x3a4d9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_ParmInfo>::get(), "isInt",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HAPI_ParmInfo::*)()>(&::HoudiniEngineUnity::HAPI_ParmInfo::isFloat)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a4b168;
+  constexpr static std::size_t addrs = 0x3a4d9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_ParmInfo>::get(), "isFloat",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HAPI_ParmInfo::*)()>(&::HoudiniEngineUnity::HAPI_ParmInfo::isString)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a4b17c;
+  constexpr static std::size_t addrs = 0x3a4d9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_ParmInfo>::get(), "isString",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HAPI_ParmInfo::*)()>(&::HoudiniEngineUnity::HAPI_ParmInfo::isPath)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a4b1a8;
+  constexpr static std::size_t addrs = 0x3a4da0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_ParmInfo>::get(), "isPath",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HAPI_ParmInfo::*)()>(&::HoudiniEngineUnity::HAPI_ParmInfo::isNode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a4b1c8;
+  constexpr static std::size_t addrs = 0x3a4da2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_ParmInfo>::get(), "isNode",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HAPI_ParmInfo::*)()>(&::HoudiniEngineUnity::HAPI_ParmInfo::isNonValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a4b1d8;
+  constexpr static std::size_t addrs = 0x3a4da3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_ParmInfo>::get(), "isNonValue",

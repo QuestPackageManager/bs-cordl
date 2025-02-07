@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*)>(&::GlobalNamespace::EnterTextViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c18d2c;
+  constexpr static std::size_t addrs = 0x3c1b984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*)>(&::GlobalNamespace::EnterTextViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c18ddc;
+  constexpr static std::size_t addrs = 0x3c1ba34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(::StringW)>(&::GlobalNamespace::EnterTextViewController::Init)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c18e8c;
+  constexpr static std::size_t addrs = 0x3c1bae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::EnterTextViewController::DidActivate)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3c18eb0;
+  constexpr static std::size_t addrs = 0x3c1bb08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)()>(
     &::GlobalNamespace::EnterTextViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c18f90;
+  constexpr static std::size_t addrs = 0x3c1bbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterTextViewController*>::get(),
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)()>(&::GlobalNamespace::EnterTextViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c19028;
+  constexpr static std::size_t addrs = 0x3c1bc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnterTextViewController*>::get(), ".ctor",

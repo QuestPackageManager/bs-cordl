@@ -29,16 +29,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadLocalFromClosureInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x40eb160, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40eddb8, size 0x128, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40eb0f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40edd48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x40eb120, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40edd78, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40eb118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40edd70, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -56,7 +56,7 @@ public:
   LoadLocalFromClosureInstruction(LoadLocalFromClosureInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13964 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

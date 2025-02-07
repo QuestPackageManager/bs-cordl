@@ -57,10 +57,10 @@ public:
 
   static inline ::Mono::Http::NtlmClient___c* New_ctor();
 
-  /// @brief Method <Authenticate>b__1_0, addr 0x411ac08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <Authenticate>b__1_0, addr 0x411d860, size 0x54, virtual false, abstract: false, final false
   inline ::Mono::Http::NtlmSession* _Authenticate_b__1_0(::System::Net::HttpWebRequest* x);
 
-  /// @brief Method .ctor, addr 0x411ac00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x411d858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Http::NtlmClient___c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   NtlmClient___c(NtlmClient___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,20 +111,20 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x411a764, size 0x364, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x411d3bc, size 0x364, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::Mono::Http::NtlmClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x411aac8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x411d720, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x411ab10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x411d768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* getStaticF_cache();
 
-  /// @brief Method get_AuthenticationType, addr 0x411aad0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x411d728, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -147,7 +147,7 @@ public:
   NtlmClient(NtlmClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9171 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

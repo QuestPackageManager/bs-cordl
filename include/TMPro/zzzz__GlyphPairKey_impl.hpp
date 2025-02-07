@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::GlyphPairKey::*)(uint32_t, uint32_t)>(&::TMPro::GlyphPairKey::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47d7f94;
+  constexpr static std::size_t addrs = 0x47dabec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::GlyphPairKey::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(&::TMPro::GlyphPairKey::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47cfc14;
+  constexpr static std::size_t addrs = 0x47d286c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

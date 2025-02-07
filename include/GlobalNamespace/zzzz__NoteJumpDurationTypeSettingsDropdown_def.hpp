@@ -29,12 +29,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x3c1583c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x3c18494, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c15930, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c18588, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

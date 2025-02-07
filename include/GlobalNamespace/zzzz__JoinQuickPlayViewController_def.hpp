@@ -63,21 +63,21 @@ public:
 
   __declspec(property(get = get_multiplayerModeSettings)) ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
 
-  /// @brief Method ButtonPressed, addr 0x3b6fc98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ButtonPressed, addr 0x3b727f8, size 0x8c, virtual false, abstract: false, final false
   inline void ButtonPressed(bool success);
 
-  /// @brief Method DidActivate, addr 0x3b6fb78, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b726d8, size 0x120, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::JoinQuickPlayViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3b6fae8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b72648, size 0x90, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData, ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
-  /// @brief Method <DidActivate>b__12_0, addr 0x3b6fd2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_0, addr 0x3b7288c, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_0();
 
-  /// @brief Method <DidActivate>b__12_1, addr 0x3b6fd34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_1, addr 0x3b72894, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_1();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> const& __cordl_internal_get__beatmapDifficultyDropdown() const;
@@ -122,16 +122,16 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3b6fd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b72884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b6f980, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b724e0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_multiplayerModeSettings, addr 0x3b6fae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerModeSettings, addr 0x3b72640, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b6fa30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b72590, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   JoinQuickPlayViewController(JoinQuickPlayViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5379 };
 
   /// @brief Field _beatmapDifficultyDropdown, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> ____beatmapDifficultyDropdown;

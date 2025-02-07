@@ -29,13 +29,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightColorBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x22435e8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x2244e94, size 0x11c, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x2243498, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x2244d44, size 0x150, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0x2243704, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2244fb0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   LightColorBeatmapEventDataProcessor(LightColorBeatmapEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17063 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

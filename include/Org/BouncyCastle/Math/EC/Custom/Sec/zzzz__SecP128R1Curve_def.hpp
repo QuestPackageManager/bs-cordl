@@ -59,13 +59,13 @@ public:
   /// @brief Field m_table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table)) ::ArrayW<uint32_t, ::Array<uint32_t>*> m_table;
 
-  /// @brief Method CreatePoint, addr 0x2459f84, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreatePoint, addr 0x245b980, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y);
 
-  /// @brief Method Lookup, addr 0x2459e6c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x245b868, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x245a064, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x245ba60, size 0xc4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP128R1Curve_SecP128R1LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP128R1Curve* outer,
@@ -89,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set_m_table(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2459a50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245b44c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP128R1Curve* outer, ::ArrayW<uint32_t, ::Array<uint32_t>*> table, int32_t size);
 
-  /// @brief Method get_Size, addr 0x2459e64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x245b860, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
 protected:
@@ -159,33 +159,33 @@ public:
   /// @brief Field q, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_q, put = setStaticF_q)) ::Org::BouncyCastle::Math::BigInteger* q;
 
-  /// @brief Method CloneCurve, addr 0x2459490, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CloneCurve, addr 0x245ae8c, size 0x50, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  /// @brief Method CreateCacheSafeLookupTable, addr 0x24598b0, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method CreateCacheSafeLookupTable, addr 0x245b2ac, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points,
                                                                                   int32_t off, int32_t len);
 
-  /// @brief Method CreateRawPoint, addr 0x245971c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x245b118, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method CreateRawPoint, addr 0x2459820, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CreateRawPoint, addr 0x245b21c, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                                                                 ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                 bool withCompression);
 
-  /// @brief Method FromBigInteger, addr 0x24595b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method FromBigInteger, addr 0x245afac, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP128R1Curve* New_ctor();
 
-  /// @brief Method RandomFieldElement, addr 0x2459a8c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElement, addr 0x245b488, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method RandomFieldElementMult, addr 0x2459c28, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElementMult, addr 0x245b624, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method SupportsCoordinateSystem, addr 0x24594e0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SupportsCoordinateSystem, addr 0x245aedc, size 0xc, virtual true, abstract: false, final false
   inline bool SupportsCoordinateSystem(int32_t coord);
 
   constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP128R1Point* const& __cordl_internal_get_m_infinity() const;
@@ -194,20 +194,20 @@ public:
 
   constexpr void __cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP128R1Point* value);
 
-  /// @brief Method .ctor, addr 0x2459274, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245ac70, size 0x214, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> getStaticF_SECP128R1_AFFINE_ZS();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_q();
 
-  /// @brief Method get_FieldSize, addr 0x245954c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_FieldSize, addr 0x245af48, size 0x64, virtual true, abstract: false, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method get_Infinity, addr 0x2459544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Infinity, addr 0x245af40, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method get_Q, addr 0x24594ec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Q, addr 0x245aee8, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
   static inline void setStaticF_SECP128R1_AFFINE_ZS(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> value);

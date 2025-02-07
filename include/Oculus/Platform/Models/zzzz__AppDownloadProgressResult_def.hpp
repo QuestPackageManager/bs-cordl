@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_StatusCode(::Oculus::Platform::AppStatus value);
 
-  /// @brief Method .ctor, addr 0x3f90e44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f93a9c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -70,7 +70,7 @@ public:
   AppDownloadProgressResult(AppDownloadProgressResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15498 };
 
   /// @brief Field DownloadBytes, offset: 0x10, size: 0x8, def value: None
   int64_t ___DownloadBytes;

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22f4328;
+  constexpr static std::size_t addrs = 0x22f5d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::Challenge* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22f43dc;
+  constexpr static std::size_t addrs = 0x22f5dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::get_Owf)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f4558;
+  constexpr static std::size_t addrs = 0x22f5f54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::ToAsn1Object)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22f4560;
+  constexpr static std::size_t addrs = 0x22f5f5c;
 
   inline static ::MethodInfo const* methodInfo() {
 

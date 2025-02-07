@@ -49,12 +49,12 @@ public:
 
   __declspec(property(get = get_lowestFPS, put = set_lowestFPS)) int32_t lowestFPS;
 
-  /// @brief Method Awake, addr 0x39c0d40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39c31c4, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FPSCounter* New_ctor();
 
-  /// @brief Method Update, addr 0x39c0d50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39c31d4, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__currentFPS_k__BackingField() const;
@@ -99,31 +99,31 @@ public:
 
   constexpr void __cordl_internal_set__timeBuffer(float_t value);
 
-  /// @brief Method .ctor, addr 0x39c0dfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c3280, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentFPS, addr 0x39c0d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentFPS, addr 0x39c3184, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentFPS();
 
-  /// @brief Method get_droppedFrames, addr 0x39c0d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_droppedFrames, addr 0x39c31b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_droppedFrames();
 
-  /// @brief Method get_highestFPS, addr 0x39c0d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highestFPS, addr 0x39c31a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_highestFPS();
 
-  /// @brief Method get_lowestFPS, addr 0x39c0d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowestFPS, addr 0x39c3194, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lowestFPS();
 
-  /// @brief Method set_currentFPS, addr 0x39c0d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentFPS, addr 0x39c318c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentFPS(int32_t value);
 
-  /// @brief Method set_droppedFrames, addr 0x39c0d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_droppedFrames, addr 0x39c31bc, size 0x8, virtual false, abstract: false, final false
   inline void set_droppedFrames(int32_t value);
 
-  /// @brief Method set_highestFPS, addr 0x39c0d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highestFPS, addr 0x39c31ac, size 0x8, virtual false, abstract: false, final false
   inline void set_highestFPS(int32_t value);
 
-  /// @brief Method set_lowestFPS, addr 0x39c0d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lowestFPS, addr 0x39c319c, size 0x8, virtual false, abstract: false, final false
   inline void set_lowestFPS(int32_t value);
 
 protected:
@@ -141,7 +141,7 @@ public:
   FPSCounter(FPSCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18858 };
 
   /// @brief Field <currentFPS>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____currentFPS_k__BackingField;

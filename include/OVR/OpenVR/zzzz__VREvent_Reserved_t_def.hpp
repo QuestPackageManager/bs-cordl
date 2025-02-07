@@ -28,7 +28,7 @@ public:
   constexpr VREvent_Reserved_t(uint64_t reserved0, uint64_t reserved1, uint64_t reserved2, uint64_t reserved3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8994 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

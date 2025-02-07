@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_trailTintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3bed93c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf04a0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3bed95c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf04c0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color trailTintColor);
 
 protected:
@@ -73,7 +73,7 @@ public:
   SaberModelContainer_InitData(SaberModelContainer_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4661 };
 
   /// @brief Field trailTintColor, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ___trailTintColor;
@@ -110,7 +110,7 @@ public:
 
   static inline ::GlobalNamespace::SaberModelContainer* New_ctor();
 
-  /// @brief Method Start, addr 0x3bed6b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bf0218, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__saberModelControllerPrefab(::UnityW<::GlobalNamespace::SaberModelController> value);
 
-  /// @brief Method .ctor, addr 0x3bed8d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf0438, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,7 +155,7 @@ public:
   SaberModelContainer(SaberModelContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4662 };
 
   /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____saber;

@@ -33,36 +33,36 @@ namespace System {
 class CORDL_TYPE SecurityUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DemandGrantSet, addr 0x440bcf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandGrantSet, addr 0x440e948, size 0x4, virtual false, abstract: false, final false
   static inline void DemandGrantSet(::System::Reflection::Assembly* assembly);
 
-  /// @brief Method DemandReflectionAccess, addr 0x440bcec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandReflectionAccess, addr 0x440e944, size 0x4, virtual false, abstract: false, final false
   static inline void DemandReflectionAccess(::System::Type* type);
 
-  /// @brief Method GenericArgumentsAreVisible, addr 0x440bf84, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GenericArgumentsAreVisible, addr 0x440ebdc, size 0xb0, virtual false, abstract: false, final false
   static inline bool GenericArgumentsAreVisible(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method HasReflectionPermission, addr 0x440bcf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasReflectionPermission, addr 0x440e94c, size 0x8, virtual false, abstract: false, final false
   static inline bool HasReflectionPermission(::System::Type* type);
 
-  /// @brief Method MethodInfoInvoke, addr 0x440c034, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MethodInfoInvoke, addr 0x440ec8c, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* MethodInfoInvoke(::System::Reflection::MethodInfo* method, ::System::Object* target, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method SecureConstructorInvoke, addr 0x440be04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SecureConstructorInvoke, addr 0x440ea5c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
                                                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic);
 
-  /// @brief Method SecureConstructorInvoke, addr 0x440be10, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SecureConstructorInvoke, addr 0x440ea68, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Object* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
                                                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic, ::System::Reflection::BindingFlags extraFlags);
 
-  /// @brief Method SecureCreateInstance, addr 0x440bcfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x440e954, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type);
 
-  /// @brief Method SecureCreateInstance, addr 0x440bdfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x440ea54, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method SecureCreateInstance, addr 0x440bd08, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x440e960, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic);
 
 protected:
@@ -80,7 +80,7 @@ public:
   SecurityUtils(SecurityUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

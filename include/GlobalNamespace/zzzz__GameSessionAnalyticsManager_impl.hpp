@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager__LogSessionEventAfterPlatformInit_d__6::*)()>(
     &::GlobalNamespace::GameSessionAnalyticsManager__LogSessionEventAfterPlatformInit_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3ace8e8;
+  constexpr static std::size_t addrs = 0x3ad114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager__LogSessionEventAfterPlatformInit_d__6::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameSessionAnalyticsManager__LogSessionEventAfterPlatformInit_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3aceba4;
+  constexpr static std::size_t addrs = 0x3ad1408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)(bool)>(
     &::GlobalNamespace::GameSessionAnalyticsManager::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ace61c;
+  constexpr static std::size_t addrs = 0x3ad0e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::GameSessionAnalyticsManager::*)(bool)>(
     &::GlobalNamespace::GameSessionAnalyticsManager::LogSessionEventAfterPlatformInit)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ace678;
+  constexpr static std::size_t addrs = 0x3ad0edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)(bool)>(
     &::GlobalNamespace::GameSessionAnalyticsManager::LogSessionEventOnFocus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ace66c;
+  constexpr static std::size_t addrs = 0x3ad0ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(
     &::GlobalNamespace::GameSessionAnalyticsManager::LogSessionFinish)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ace808;
+  constexpr static std::size_t addrs = 0x3ad106c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSessionAnalyticsManager*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(
     &::GlobalNamespace::GameSessionAnalyticsManager::LogSessionStart)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3ace750;
+  constexpr static std::size_t addrs = 0x3ad0fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSessionAnalyticsManager*>::get(),
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(&::GlobalNamespace::GameSessionAnalyticsManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ace8e0;
+  constexpr static std::size_t addrs = 0x3ad1144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSessionAnalyticsManager*>::get(), ".ctor",

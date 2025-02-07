@@ -59,7 +59,7 @@ public:
   static ::GlobalNamespace::AppInitSetupData_RunMode const PlayTest;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17606 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_runMode(::GlobalNamespace::AppInitSetupData_RunMode value);
 
-  /// @brief Method .ctor, addr 0x229470c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2295fb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   AppInitSetupData(AppInitSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17607 };
 
   /// @brief Field runMode, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::AppInitSetupData_RunMode ___runMode;

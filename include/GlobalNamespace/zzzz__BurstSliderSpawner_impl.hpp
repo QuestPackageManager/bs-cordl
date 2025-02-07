@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ae5320;
+  constexpr static std::size_t addrs = 0x3ae7e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(
     ::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, bool)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ae5424;
+  constexpr static std::size_t addrs = 0x3ae7f84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, bool, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ae543c;
+  constexpr static std::size_t addrs = 0x3ae7f9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(
     ::ByRef<::GlobalNamespace::NoteSpawnData>, ::System::IAsyncResult*)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ae5508;
+  constexpr static std::size_t addrs = 0x3ae8068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, ::ByRef<::UnityEngine::Vector2>, ::ByRef<::UnityEngine::Vector2>)>(
         &::GlobalNamespace::BurstSliderSpawner::BezierCurve)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ae4ea4;
+  constexpr static std::size_t addrs = 0x3ae7a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::SliderData*, ::ByRef<::GlobalNamespace::SliderSpawnData>, bool, ::GlobalNamespace::VariableMovementDataProvider*,
                          ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*)>(&::GlobalNamespace::BurstSliderSpawner::ProcessSliderData)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x3ae4f1c;
+  constexpr static std::size_t addrs = 0x3ae7a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

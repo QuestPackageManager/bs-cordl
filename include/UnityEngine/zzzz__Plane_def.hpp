@@ -39,34 +39,34 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method ClosestPointOnPlane, addr 0x48727c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClosestPointOnPlane, addr 0x4875420, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnPlane(::UnityEngine::Vector3 point);
 
-  /// @brief Method GetDistanceToPoint, addr 0x4872804, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToPoint, addr 0x487545c, size 0x24, virtual false, abstract: false, final false
   inline float_t GetDistanceToPoint(::UnityEngine::Vector3 point);
 
-  /// @brief Method Raycast, addr 0x4872894, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x48754ec, size 0x100, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ::ByRef<float_t> enter);
 
-  /// @brief Method SameSide, addr 0x4872828, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SameSide, addr 0x4875480, size 0x6c, virtual false, abstract: false, final false
   inline bool SameSide(::UnityEngine::Vector3 inPt0, ::UnityEngine::Vector3 inPt1);
 
-  /// @brief Method ToString, addr 0x4872994, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48755ec, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x48729a4, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x48755fc, size 0x188, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x4872650, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48752a8, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c);
 
-  /// @brief Method .ctor, addr 0x4872540, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4875198, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 inNormal, ::UnityEngine::Vector3 inPoint);
 
-  /// @brief Method get_distance, addr 0x4872538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x4875190, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_normal, addr 0x487252c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x4875184, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
   /// @brief Convert to "::System::IFormattable"
@@ -80,7 +80,7 @@ public:
   constexpr Plane(::UnityEngine::Vector3 m_Normal, float_t m_Distance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10703 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

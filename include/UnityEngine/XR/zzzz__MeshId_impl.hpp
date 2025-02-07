@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::XR::MeshId::*)()>(&::UnityEngine::XR::MeshId::ToString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4aecaa4;
+  constexpr static std::size_t addrs = 0x4aef6fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::XR::MeshId::*)()>(&::UnityEngine::XR::MeshId::GetHashCode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4aecb38;
+  constexpr static std::size_t addrs = 0x4aef790;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::MeshId::*)(::System::Object*)>(&::UnityEngine::XR::MeshId::Equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4aecb6c;
+  constexpr static std::size_t addrs = 0x4aef7c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::MeshId::*)(::UnityEngine::XR::MeshId)>(&::UnityEngine::XR::MeshId::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4aecc24;
+  constexpr static std::size_t addrs = 0x4aef87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -24,7 +24,7 @@ public:
   /// @brief Field _sceneSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::HealthWarningSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3b3a588, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b3d0e8, size 0x154, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::HealthWarningSceneSetup* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::HealthWarningSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3b3a6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3d23c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   HealthWarningSceneSetup(HealthWarningSceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5223 };
 
   /// @brief Field _sceneSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::HealthWarningSceneSetupData* ____sceneSetupData;

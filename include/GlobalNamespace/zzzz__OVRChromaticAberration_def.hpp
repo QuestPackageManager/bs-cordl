@@ -27,10 +27,10 @@ public:
 
   static inline ::GlobalNamespace::OVRChromaticAberration* New_ctor();
 
-  /// @brief Method Start, addr 0x402b7a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x402e3fc, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x402b840, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x402e498, size 0xf0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_chromatic() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton value);
 
-  /// @brief Method .ctor, addr 0x402b930, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402e588, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   OVRChromaticAberration(OVRChromaticAberration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8393 };
 
   /// @brief Field toggleButton, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawButton ___toggleButton;

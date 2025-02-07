@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::get_rootElement)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x497fcf4;
+  constexpr static std::size_t addrs = 0x498294c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(
     ::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>*)>(&::UnityEngine::UIElements::ReusableTreeViewItem::add_onPointerUp)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4979e6c;
+  constexpr static std::size_t addrs = 0x497cac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(
     ::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>*)>(&::UnityEngine::UIElements::ReusableTreeViewItem::remove_onPointerUp)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4979ce0;
+  constexpr static std::size_t addrs = 0x497c938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(
     ::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*)>(&::UnityEngine::UIElements::ReusableTreeViewItem::add_onToggleValueChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4979f1c;
+  constexpr static std::size_t addrs = 0x497cb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(
     ::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*)>(&::UnityEngine::UIElements::ReusableTreeViewItem::remove_onToggleValueChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4979d90;
+  constexpr static std::size_t addrs = 0x497c9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x497fbd0;
+  constexpr static std::size_t addrs = 0x4982828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableTreeViewItem*>::get(), ".ctor",
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::Init)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x497fd0c;
+  constexpr static std::size_t addrs = 0x4982964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::ReusableTreeViewItem::InitExpandHierarchy)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x497f720;
+  constexpr static std::size_t addrs = 0x4982378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::PreAttachElement)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x497fdd8;
+  constexpr static std::size_t addrs = 0x4982a30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::DetachElement)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x497ff8c;
+  constexpr static std::size_t addrs = 0x4982be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(int32_t)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::Indent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4979a0c;
+  constexpr static std::size_t addrs = 0x497c664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(bool)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::SetExpandedWithoutNotify)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4979ad4;
+  constexpr static std::size_t addrs = 0x497c72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(bool)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::SetToggleVisibility)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4979b9c;
+  constexpr static std::size_t addrs = 0x497c7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::OnToggleGeometryChanged)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x4980274;
+  constexpr static std::size_t addrs = 0x4982ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::UpdateIndentLayout)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4980140;
+  constexpr static std::size_t addrs = 0x4982d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableTreeViewItem*>::get(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::OnPointerUp)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x498048c;
+  constexpr static std::size_t addrs = 0x49830e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableTreeViewItem::*)(::UnityEngine::UIElements::ChangeEvent_1<bool>*)>(
     &::UnityEngine::UIElements::ReusableTreeViewItem::OnToggleValueChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x49804a8;
+  constexpr static std::size_t addrs = 0x4983100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

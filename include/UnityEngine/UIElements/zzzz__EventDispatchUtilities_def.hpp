@@ -24,16 +24,16 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE EventDispatchUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExecuteDefaultAction, addr 0x4a242e0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x4a26f38, size 0x168, virtual false, abstract: false, final false
   static inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEventAcrossPropagationPath, addr 0x4a29f90, size 0x778, virtual false, abstract: false, final false
+  /// @brief Method HandleEventAcrossPropagationPath, addr 0x4a2cbe8, size 0x778, virtual false, abstract: false, final false
   static inline void HandleEventAcrossPropagationPath(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method PropagateEvent, addr 0x4a259d0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method PropagateEvent, addr 0x4a28628, size 0x138, virtual false, abstract: false, final false
   static inline void PropagateEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method PropagateToIMGUIContainer, addr 0x4a25584, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method PropagateToIMGUIContainer, addr 0x4a281dc, size 0x44c, virtual false, abstract: false, final false
   static inline void PropagateToIMGUIContainer(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::EventBase* evt);
 
 protected:
@@ -51,7 +51,7 @@ public:
   EventDispatchUtilities(EventDispatchUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

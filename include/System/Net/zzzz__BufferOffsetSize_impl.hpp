@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::BufferOffsetSize::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, bool)>(
     &::System::Net::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44aa420;
+  constexpr static std::size_t addrs = 0x44ad078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::BufferOffsetSize::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::System::Net::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44aa4cc;
+  constexpr static std::size_t addrs = 0x44ad124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

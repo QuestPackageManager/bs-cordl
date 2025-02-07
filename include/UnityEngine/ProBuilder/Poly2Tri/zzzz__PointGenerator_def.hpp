@@ -34,13 +34,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
 
-  /// @brief Method UniformDistribution, addr 0x4700180, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method UniformDistribution, addr 0x4702dd8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
 
-  /// @brief Method UniformGrid, addr 0x4700340, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UniformGrid, addr 0x4702f98, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
 
-  /// @brief Method .ctor, addr 0x47004cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4703124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Random* getStaticF_RNG();
@@ -62,7 +62,7 @@ public:
   PointGenerator(PointGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -158,10 +158,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x3dc9d54, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dcc9ac, size 0x17c, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x3dc9ed0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3dccb28, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Hashtable_KeyCollection* New_ctor(::System::Collections::Hashtable* hashtable);
@@ -172,16 +172,16 @@ public:
 
   constexpr void __cordl_internal_set__hashtable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x3dc8b94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcb7ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* hashtable);
 
-  /// @brief Method get_Count, addr 0x3dc9f78, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dccbd0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x3dc9f30, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3dccb88, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x3dc9f54, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3dccbac, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -240,10 +240,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x3dc9f94, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dccbec, size 0x17c, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x3dca110, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3dccd68, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Hashtable_ValueCollection* New_ctor(::System::Collections::Hashtable* hashtable);
@@ -254,16 +254,16 @@ public:
 
   constexpr void __cordl_internal_set__hashtable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x3dc8c24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcb87c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* hashtable);
 
-  /// @brief Method get_Count, addr 0x3dca1b8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dcce10, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x3dca170, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3dccdc8, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x3dca194, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3dccdec, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -345,15 +345,15 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3dcac2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3dcd884, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x3dcac94, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3dcd8ec, size 0x120, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Collections::Hashtable_HashtableEnumerator* New_ctor(::System::Collections::Hashtable* hashtable, int32_t getObjRetType);
 
-  /// @brief Method Reset, addr 0x3dcaf48, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3dcdba0, size 0xa0, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__bucket() const;
@@ -398,19 +398,19 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3dc8890, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcb4e8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* hashtable, int32_t getObjRetType);
 
-  /// @brief Method get_Current, addr 0x3dcae18, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3dcda70, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry, addr 0x3dcadb4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Entry, addr 0x3dcda0c, size 0x64, virtual true, abstract: false, final false
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x3dcac34, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3dcd88c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x3dcaee8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3dcdb40, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -603,49 +603,49 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Add, addr 0x3dc78d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3dca52c, size 0x8, virtual true, abstract: false, final false
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear, addr 0x3dc7c90, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3dca8e8, size 0xa0, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clone, addr 0x3dc7d5c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3dca9b4, size 0x110, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Contains, addr 0x3dc7e6c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x3dcaac4, size 0x10, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method ContainsKey, addr 0x3dc7e7c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ContainsKey, addr 0x3dcaad4, size 0x164, virtual true, abstract: false, final false
   inline bool ContainsKey(::System::Object* key);
 
-  /// @brief Method CopyEntries, addr 0x3dc8084, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CopyEntries, addr 0x3dcacdc, size 0xec, virtual false, abstract: false, final false
   inline void CopyEntries(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method CopyKeys, addr 0x3dc7fe0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CopyKeys, addr 0x3dcac38, size 0xa4, virtual false, abstract: false, final false
   inline void CopyKeys(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method CopyTo, addr 0x3dc8170, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dcadc8, size 0x1a0, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method CopyValues, addr 0x3dc8310, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CopyValues, addr 0x3dcaf68, size 0xa8, virtual false, abstract: false, final false
   inline void CopyValues(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x3dc88e8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3dcb540, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetHash, addr 0x3dc8944, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetHash, addr 0x3dcb59c, size 0xc8, virtual true, abstract: false, final false
   inline int32_t GetHash(::System::Object* key);
 
-  /// @brief Method GetObjectData, addr 0x3dc8f60, size 0x53c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3dcbbb8, size 0x53c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitHash, addr 0x3dc7880, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InitHash, addr 0x3dca4d8, size 0x54, virtual false, abstract: false, final false
   inline uint32_t InitHash(::System::Object* key, int32_t hashsize, ::ByRef<uint32_t> seed, ::ByRef<uint32_t> incr);
 
-  /// @brief Method Insert, addr 0x3dc78dc, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x3dca534, size 0x3b4, virtual false, abstract: false, final false
   inline void Insert(::System::Object* key, ::System::Object* nvalue, bool add);
 
-  /// @brief Method KeyEquals, addr 0x3dc8a24, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method KeyEquals, addr 0x3dcb67c, size 0x108, virtual true, abstract: false, final false
   inline bool KeyEquals(::System::Object* item, ::System::Object* key);
 
   static inline ::System::Collections::Hashtable* New_ctor();
@@ -670,19 +670,19 @@ public:
 
   static inline ::System::Collections::Hashtable* New_ctor(bool trash);
 
-  /// @brief Method OnDeserialization, addr 0x3dc949c, size 0x83c, virtual true, abstract: false, final false
+  /// @brief Method OnDeserialization, addr 0x3dcc0f4, size 0x83c, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Remove, addr 0x3dc8c4c, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x3dcb8a4, size 0x1cc, virtual true, abstract: false, final false
   inline void Remove(::System::Object* key);
 
-  /// @brief Method Synchronized, addr 0x3dc8e90, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Synchronized, addr 0x3dcbae8, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* Synchronized(::System::Collections::Hashtable* table);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3dc8834, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3dcb48c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method UpdateVersion, addr 0x3dc7d30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UpdateVersion, addr 0x3dca988, size 0x2c, virtual false, abstract: false, final false
   inline void UpdateVersion();
 
   constexpr ::ArrayW<::System::Collections::Hashtable_bucket, ::Array<::System::Collections::Hashtable_bucket>*> const& __cordl_internal_get__buckets() const;
@@ -751,69 +751,69 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3dc71b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc9e10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dc7464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dca0bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x3dc74bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dca114, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x3dc71c4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc9e1c, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, float_t loadFactor);
 
-  /// @brief Method .ctor, addr 0x3dc746c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dca0c4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, float_t loadFactor, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x3dc74e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dca13c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* d);
 
-  /// @brief Method .ctor, addr 0x3dc74f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dca148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* d, float_t loadFactor);
 
-  /// @brief Method .ctor, addr 0x3dc74f8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dca150, size 0x320, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* d, float_t loadFactor, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x3dc7490, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dca0e8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x3dc7818, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dca470, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dc71b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc9e08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool trash);
 
-  /// @brief Method expand, addr 0x3dc85dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method expand, addr 0x3dcb234, size 0x6c, virtual false, abstract: false, final false
   inline void expand();
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* getStaticF_s_serializationInfoTable();
 
-  /// @brief Method get_Count, addr 0x3dc8e88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dcbae0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x3dc8a14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x3dcb66c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x3dc8a0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x3dcb664, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x3dc8a1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3dcb674, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x3dc83b8, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3dcb010, size 0x21c, virtual true, abstract: false, final false
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method get_Keys, addr 0x3dc8b2c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x3dcb784, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_SerializationInfoTable, addr 0x3dc7154, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationInfoTable, addr 0x3dc9dac, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
 
-  /// @brief Method get_SyncRoot, addr 0x3dc8e18, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3dcba70, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x3dc8bbc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Values, addr 0x3dcb814, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -834,19 +834,19 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method putEntry, addr 0x3dc8784, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method putEntry, addr 0x3dcb3dc, size 0xb0, virtual false, abstract: false, final false
   inline void putEntry(::ArrayW<::System::Collections::Hashtable_bucket, ::Array<::System::Collections::Hashtable_bucket>*> newBuckets, ::System::Object* key, ::System::Object* nvalue,
                        int32_t hashcode);
 
-  /// @brief Method rehash, addr 0x3dc8768, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method rehash, addr 0x3dcb3c0, size 0x1c, virtual false, abstract: false, final false
   inline void rehash();
 
-  /// @brief Method rehash, addr 0x3dc8648, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method rehash, addr 0x3dcb2a0, size 0x120, virtual false, abstract: false, final false
   inline void rehash(int32_t newsize);
 
   static inline void setStaticF_s_serializationInfoTable(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* value);
 
-  /// @brief Method set_Item, addr 0x3dc85d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3dcb22c, size 0x8, virtual true, abstract: false, final false
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
 protected:

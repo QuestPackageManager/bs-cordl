@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_Collider_Extensions___c::*)()>(
     &::HoudiniEngineUnity::Test_Collider_Extensions___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a9be88;
+  constexpr static std::size_t addrs = 0x3a9e6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Collider_Extensions___c*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Collider* (
     ::HoudiniEngineUnity::Test_Collider_Extensions___c::*)(::UnityEngine::Collider*)>(&::HoudiniEngineUnity::Test_Collider_Extensions___c::_ToTestObject_b__1_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a9be90;
+  constexpr static std::size_t addrs = 0x3a9e6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Collider* (
     ::HoudiniEngineUnity::Test_Collider_Extensions___c::*)(::UnityEngine::Collider*)>(&::HoudiniEngineUnity::Test_Collider_Extensions___c::_ToTestObject_b__2_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a9beec;
+  constexpr static std::size_t addrs = 0x3a9e750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_Collider* (*)(::UnityEngine::Collider*)>(
     &::HoudiniEngineUnity::Test_Collider_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a98c94;
+  constexpr static std::size_t addrs = 0x3a9b4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_Collider*, ::Array<::HoudiniEngineUnity::Test_Collider*>*> (*)(
     ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*>)>(&::HoudiniEngineUnity::Test_Collider_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3a9bc44;
+  constexpr static std::size_t addrs = 0x3a9e4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Collider*>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>*)>(
         &::HoudiniEngineUnity::Test_Collider_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3a9bd34;
+  constexpr static std::size_t addrs = 0x3a9e598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

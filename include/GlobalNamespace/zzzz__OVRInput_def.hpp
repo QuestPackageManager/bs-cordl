@@ -480,7 +480,7 @@ public:
   static ::GlobalNamespace::OVRInput_Button const Up;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -647,7 +647,7 @@ public:
   static ::GlobalNamespace::OVRInput_RawButton const Y;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7903 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -750,7 +750,7 @@ public:
   static ::GlobalNamespace::OVRInput_Touch const Two;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7904 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -853,7 +853,7 @@ public:
   static ::GlobalNamespace::OVRInput_RawTouch const Y;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7905 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -924,7 +924,7 @@ public:
   static ::GlobalNamespace::OVRInput_NearTouch const SecondaryThumbButtons;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7906 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -995,7 +995,7 @@ public:
   static ::GlobalNamespace::OVRInput_RawNearTouch const RThumbButtons;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7907 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1106,7 +1106,7 @@ public:
   static ::GlobalNamespace::OVRInput_Axis1D const SecondaryThumbRestForce;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1217,7 +1217,7 @@ public:
   static ::GlobalNamespace::OVRInput_RawAxis1D const RThumbRestForce;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7909 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1288,7 +1288,7 @@ public:
   static ::GlobalNamespace::OVRInput_Axis2D const SecondaryTouchpad;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7910 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1359,7 +1359,7 @@ public:
   static ::GlobalNamespace::OVRInput_RawAxis2D const RTouchpad;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7911 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1422,7 +1422,7 @@ public:
   static ::GlobalNamespace::OVRInput_OpenVRButton const Two;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7912 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -1513,7 +1513,7 @@ public:
   static ::GlobalNamespace::OVRInput_Controller const Touch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7913 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1572,7 +1572,7 @@ public:
   static ::GlobalNamespace::OVRInput_Handedness const Unsupported;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7914 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1635,7 +1635,7 @@ public:
   static ::GlobalNamespace::OVRInput_HapticsLocation const Thumb;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7915 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1698,7 +1698,7 @@ public:
   static ::GlobalNamespace::OVRInput_InteractionProfile const TouchPro;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7916 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1757,7 +1757,7 @@ public:
   static ::GlobalNamespace::OVRInput_Hand const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7917 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1824,7 +1824,7 @@ public:
   static ::GlobalNamespace::OVRInput_InputDeviceShowState const NoHand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7918 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1883,7 +1883,7 @@ public:
   static ::GlobalNamespace::OVRInput_ControllerInHandState const NoHand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7919 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1915,7 +1915,7 @@ public:
   constexpr OVRInput_HapticsAmplitudeEnvelopeVibration(int32_t SamplesCount, ::ArrayW<float_t, ::Array<float_t>*> Samples, float_t Duration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7920 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -1957,7 +1957,7 @@ public:
   constexpr OVRInput_HapticsPcmVibration(int32_t SamplesCount, ::ArrayW<float_t, ::Array<float_t>*> Samples, float_t SampleRateHz, bool Append) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7921 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -2035,7 +2035,7 @@ public:
   static ::GlobalNamespace::OVRInput_OpenVRController const WindowsMRController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7922 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2069,7 +2069,7 @@ public:
                                              ::UnityEngine::Vector3 localPosition, ::UnityEngine::Quaternion localOrientation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7923 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -2159,7 +2159,7 @@ public:
 
   constexpr void __cordl_internal_set_playingHaptics(bool value);
 
-  /// @brief Method .ctor, addr 0x3fc2c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc5864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2177,7 +2177,7 @@ public:
   OVRInput_HapticInfo(OVRInput_HapticInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7924 };
 
   /// @brief Field playingHaptics, offset: 0x10, size: 0x1, def value: None
   bool ___playingHaptics;
@@ -2318,7 +2318,7 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerBase_OVRInput_VirtualButtonMap* New_ctor();
 
-  /// @brief Method ToRawMask, addr 0x3fc4414, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ToRawMask, addr 0x3fc706c, size 0x214, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawButton ToRawMask(::GlobalNamespace::OVRInput_Button virtualMask);
 
   constexpr ::GlobalNamespace::OVRInput_RawButton const& __cordl_internal_get_Back() const;
@@ -2519,7 +2519,7 @@ public:
 
   constexpr void __cordl_internal_set_Up(::GlobalNamespace::OVRInput_RawButton value);
 
-  /// @brief Method .ctor, addr 0x3fc36a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc6300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2537,7 +2537,7 @@ public:
   OVRControllerBase_OVRInput_VirtualButtonMap(OVRControllerBase_OVRInput_VirtualButtonMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7925 };
 
   /// @brief Field None, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawButton ___None;
@@ -2758,7 +2758,7 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerBase_OVRInput_VirtualTouchMap* New_ctor();
 
-  /// @brief Method ToRawMask, addr 0x3fc4628, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ToRawMask, addr 0x3fc7280, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawTouch ToRawMask(::GlobalNamespace::OVRInput_Touch virtualMask);
 
   constexpr ::GlobalNamespace::OVRInput_RawTouch const& __cordl_internal_get_Four() const;
@@ -2839,7 +2839,7 @@ public:
 
   constexpr void __cordl_internal_set_Two(::GlobalNamespace::OVRInput_RawTouch value);
 
-  /// @brief Method .ctor, addr 0x3fc36b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc6308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2857,7 +2857,7 @@ public:
   OVRControllerBase_OVRInput_VirtualTouchMap(OVRControllerBase_OVRInput_VirtualTouchMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7926 };
 
   /// @brief Field None, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawTouch ___None;
@@ -2954,7 +2954,7 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerBase_OVRInput_VirtualNearTouchMap* New_ctor();
 
-  /// @brief Method ToRawMask, addr 0x3fc46fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToRawMask, addr 0x3fc7354, size 0x54, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawNearTouch ToRawMask(::GlobalNamespace::OVRInput_NearTouch virtualMask);
 
   constexpr ::GlobalNamespace::OVRInput_RawNearTouch const& __cordl_internal_get_None() const;
@@ -2987,7 +2987,7 @@ public:
 
   constexpr void __cordl_internal_set_SecondaryThumbButtons(::GlobalNamespace::OVRInput_RawNearTouch value);
 
-  /// @brief Method .ctor, addr 0x3fc36b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc6310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3005,7 +3005,7 @@ public:
   OVRControllerBase_OVRInput_VirtualNearTouchMap(OVRControllerBase_OVRInput_VirtualNearTouchMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7927 };
 
   /// @brief Field None, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawNearTouch ___None;
@@ -3092,7 +3092,7 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerBase_OVRInput_VirtualAxis1DMap* New_ctor();
 
-  /// @brief Method ToRawMask, addr 0x3fc4750, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToRawMask, addr 0x3fc73a8, size 0xf4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawAxis1D ToRawMask(::GlobalNamespace::OVRInput_Axis1D virtualMask);
 
   constexpr ::GlobalNamespace::OVRInput_RawAxis1D const& __cordl_internal_get_None() const;
@@ -3185,7 +3185,7 @@ public:
 
   constexpr void __cordl_internal_set_SecondaryThumbRestForce(::GlobalNamespace::OVRInput_RawAxis1D value);
 
-  /// @brief Method .ctor, addr 0x3fc36c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc6318, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3203,7 +3203,7 @@ public:
   OVRControllerBase_OVRInput_VirtualAxis1DMap(OVRControllerBase_OVRInput_VirtualAxis1DMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7928 };
 
   /// @brief Field None, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawAxis1D ___None;
@@ -3310,7 +3310,7 @@ public:
 
   static inline ::GlobalNamespace::OVRControllerBase_OVRInput_VirtualAxis2DMap* New_ctor();
 
-  /// @brief Method ToRawMask, addr 0x3fc4844, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToRawMask, addr 0x3fc749c, size 0x54, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawAxis2D ToRawMask(::GlobalNamespace::OVRInput_Axis2D virtualMask);
 
   constexpr ::GlobalNamespace::OVRInput_RawAxis2D const& __cordl_internal_get_None() const;
@@ -3343,7 +3343,7 @@ public:
 
   constexpr void __cordl_internal_set_SecondaryTouchpad(::GlobalNamespace::OVRInput_RawAxis2D value);
 
-  /// @brief Method .ctor, addr 0x3fc36c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc6320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3361,7 +3361,7 @@ public:
   OVRControllerBase_OVRInput_VirtualAxis2DMap(OVRControllerBase_OVRInput_VirtualAxis2DMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7929 };
 
   /// @brief Field None, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawAxis2D ___None;
@@ -3457,45 +3457,45 @@ public:
   /// @brief Method ConfigureTouchMap, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc440c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc7064, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
-  /// @brief Method GetControllerSampleRateHz, addr 0x3fc4398, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetControllerSampleRateHz, addr 0x3fc6ff0, size 0x74, virtual true, abstract: false, final false
   inline float_t GetControllerSampleRateHz();
 
-  /// @brief Method GetOpenVRControllerState, addr 0x3fc3aa0, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method GetOpenVRControllerState, addr 0x3fc66f8, size 0x4b4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_ControllerState6 GetOpenVRControllerState(::GlobalNamespace::OVRInput_Controller controllerType);
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerBase* New_ctor();
 
-  /// @brief Method ResolveToRawMask, addr 0x3fc2054, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResolveToRawMask, addr 0x3fc4cac, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawAxis1D ResolveToRawMask(::GlobalNamespace::OVRInput_Axis1D virtualMask);
 
-  /// @brief Method ResolveToRawMask, addr 0x3fc2500, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResolveToRawMask, addr 0x3fc5158, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawAxis2D ResolveToRawMask(::GlobalNamespace::OVRInput_Axis2D virtualMask);
 
-  /// @brief Method ResolveToRawMask, addr 0x3fc07d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResolveToRawMask, addr 0x3fc3428, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawButton ResolveToRawMask(::GlobalNamespace::OVRInput_Button virtualMask);
 
-  /// @brief Method ResolveToRawMask, addr 0x3fc1490, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResolveToRawMask, addr 0x3fc40e8, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawNearTouch ResolveToRawMask(::GlobalNamespace::OVRInput_NearTouch virtualMask);
 
-  /// @brief Method ResolveToRawMask, addr 0x3fc0dfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResolveToRawMask, addr 0x3fc3a54, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_RawTouch ResolveToRawMask(::GlobalNamespace::OVRInput_Touch virtualMask);
 
-  /// @brief Method SetControllerHapticsAmplitudeEnvelope, addr 0x3fc404c, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method SetControllerHapticsAmplitudeEnvelope, addr 0x3fc6ca4, size 0x138, virtual true, abstract: false, final false
   inline void SetControllerHapticsAmplitudeEnvelope(::GlobalNamespace::OVRInput_HapticsAmplitudeEnvelopeVibration hapticsVibration);
 
-  /// @brief Method SetControllerHapticsPcm, addr 0x3fc4184, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method SetControllerHapticsPcm, addr 0x3fc6ddc, size 0x214, virtual true, abstract: false, final false
   inline int32_t SetControllerHapticsPcm(::GlobalNamespace::OVRInput_HapticsPcmVibration hapticsVibration);
 
-  /// @brief Method SetControllerLocalizedVibration, addr 0x3fc3fc8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method SetControllerLocalizedVibration, addr 0x3fc6c20, size 0x84, virtual true, abstract: false, final false
   inline void SetControllerLocalizedVibration(::GlobalNamespace::OVRInput_HapticsLocation hapticsLocationMask, float_t frequency, float_t amplitude);
 
-  /// @brief Method SetControllerVibration, addr 0x3fc3f54, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method SetControllerVibration, addr 0x3fc6bac, size 0x74, virtual true, abstract: false, final false
   inline void SetControllerVibration(float_t frequency, float_t amplitude);
 
-  /// @brief Method Update, addr 0x3fc36d0, size 0x3d0, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3fc6328, size 0x3d0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::OVRInput_Controller Update();
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_HapticsPcmSamplesConsumedCache() const;
@@ -3558,7 +3558,7 @@ public:
 
   constexpr void __cordl_internal_set_touchMap(::GlobalNamespace::OVRControllerBase_OVRInput_VirtualTouchMap* value);
 
-  /// @brief Method .ctor, addr 0x3fc34f8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc6150, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3576,7 +3576,7 @@ public:
   OVRInput_OVRControllerBase(OVRInput_OVRControllerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7930 };
 
   /// @brief Field controllerType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_Controller ___controllerType;
@@ -3641,27 +3641,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerTouch : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc4968, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc75c0, size 0x4c, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc49b4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc760c, size 0x2c, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc4898, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc74f0, size 0x68, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc493c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc7594, size 0x2c, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc4900, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc7558, size 0x3c, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc49e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc7638, size 0x14, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerTouch* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fbd7b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc0408, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3679,7 +3679,7 @@ public:
   OVRInput_OVRControllerTouch(OVRInput_OVRControllerTouch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3694,27 +3694,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerLTouch : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc4adc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc7734, size 0x48, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc4b24, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc777c, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc4a14, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc766c, size 0x6c, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc4ab4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc770c, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc4a80, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc76d8, size 0x34, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc4b4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc77a4, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerLTouch* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc49f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc764c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3732,7 +3732,7 @@ public:
   OVRInput_OVRControllerLTouch(OVRInput_OVRControllerLTouch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3747,27 +3747,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerRTouch : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc4c48, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc78a0, size 0x48, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc4c90, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc78e8, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc4b74, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc77cc, size 0x78, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc4c20, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc7878, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc4bec, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc7844, size 0x34, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc4cb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc7910, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerRTouch* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc4b54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc77ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3785,7 +3785,7 @@ public:
   OVRInput_OVRControllerRTouch(OVRInput_OVRControllerRTouch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3800,27 +3800,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerHands : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc4d78, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc79d0, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc4da0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc79f8, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc4ce0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc7938, size 0x50, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc4d58, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc79b0, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc4d30, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc7988, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc4dc0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc7a18, size 0x14, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerHands* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc4cc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc7918, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3838,7 +3838,7 @@ public:
   OVRInput_OVRControllerHands(OVRInput_OVRControllerHands const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3853,27 +3853,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerLHand : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc4e8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc7ae4, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc4eb4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc7b0c, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc4df4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc7a4c, size 0x50, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc4e6c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc7ac4, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc4e44, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc7a9c, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc4ed4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc7b2c, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerLHand* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc4dd4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc7a2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3891,7 +3891,7 @@ public:
   OVRInput_OVRControllerLHand(OVRInput_OVRControllerLHand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7935 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3906,27 +3906,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerRHand : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc4f94, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc7bec, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc4fbc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc7c14, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc4efc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc7b54, size 0x50, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc4f74, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc7bcc, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc4f4c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc7ba4, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
-  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc4fdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBatteryPercentRemaining, addr 0x3fc7c34, size 0x8, virtual true, abstract: false, final false
   inline uint8_t GetBatteryPercentRemaining();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerRHand* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc4edc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc7b34, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3944,7 +3944,7 @@ public:
   OVRInput_OVRControllerRHand(OVRInput_OVRControllerRHand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7936 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3959,24 +3959,24 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerRemote : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc50ac, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc7d04, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc50d4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc7d2c, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc5004, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc7c5c, size 0x60, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc508c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc7ce4, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc5064, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc7cbc, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerRemote* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc4fe4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc7c3c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3994,7 +3994,7 @@ public:
   OVRInput_OVRControllerRemote(OVRInput_OVRControllerRemote const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4009,24 +4009,24 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerGamepadPC : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc51cc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc7e24, size 0x30, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc51fc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc7e54, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc5114, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc7d6c, size 0x70, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc51ac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc7e04, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc5184, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc7ddc, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerGamepadPC* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc50f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc7d4c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -4044,7 +4044,7 @@ public:
   OVRInput_OVRControllerGamepadPC(OVRInput_OVRControllerGamepadPC const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4059,24 +4059,24 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRInput_OVRControllerGamepadAndroid : public ::GlobalNamespace::OVRInput_OVRControllerBase {
 public:
   // Declarations
-  /// @brief Method ConfigureAxis1DMap, addr 0x3fc52fc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis1DMap, addr 0x3fc7f54, size 0x30, virtual true, abstract: false, final false
   inline void ConfigureAxis1DMap();
 
-  /// @brief Method ConfigureAxis2DMap, addr 0x3fc532c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAxis2DMap, addr 0x3fc7f84, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureAxis2DMap();
 
-  /// @brief Method ConfigureButtonMap, addr 0x3fc5244, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ConfigureButtonMap, addr 0x3fc7e9c, size 0x70, virtual true, abstract: false, final false
   inline void ConfigureButtonMap();
 
-  /// @brief Method ConfigureNearTouchMap, addr 0x3fc52dc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConfigureNearTouchMap, addr 0x3fc7f34, size 0x20, virtual true, abstract: false, final false
   inline void ConfigureNearTouchMap();
 
-  /// @brief Method ConfigureTouchMap, addr 0x3fc52b4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ConfigureTouchMap, addr 0x3fc7f0c, size 0x28, virtual true, abstract: false, final false
   inline void ConfigureTouchMap();
 
   static inline ::GlobalNamespace::OVRInput_OVRControllerGamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc5224, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc7e7c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -4094,7 +4094,7 @@ public:
   OVRInput_OVRControllerGamepadAndroid(OVRInput_OVRControllerGamepadAndroid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7939 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4232,233 +4232,233 @@ public:
   /// @brief Field stepType, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_stepType, put = setStaticF_stepType)) ::GlobalNamespace::OVRPlugin_Step stepType;
 
-  /// @brief Method AreHandPosesGeneratedByControllerData, addr 0x3fbe9b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AreHandPosesGeneratedByControllerData, addr 0x3fc1610, size 0x9c, virtual false, abstract: false, final false
   static inline bool AreHandPosesGeneratedByControllerData(::GlobalNamespace::OVRPlugin_Step stepId, ::GlobalNamespace::OVRInput_Hand hand);
 
-  /// @brief Method CalculateAbsMax, addr 0x3fc2650, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CalculateAbsMax, addr 0x3fc52a8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 CalculateAbsMax(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method CalculateAbsMax, addr 0x3fc20bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CalculateAbsMax, addr 0x3fc4d14, size 0x24, virtual false, abstract: false, final false
   static inline float_t CalculateAbsMax(float_t a, float_t b);
 
-  /// @brief Method CalculateDeadzone, addr 0x3fc2518, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CalculateDeadzone, addr 0x3fc5170, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 CalculateDeadzone(::UnityEngine::Vector2 a, float_t deadzone);
 
-  /// @brief Method CalculateDeadzone, addr 0x3fc206c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CalculateDeadzone, addr 0x3fc4cc4, size 0x50, virtual false, abstract: false, final false
   static inline float_t CalculateDeadzone(float_t a, float_t deadzone);
 
-  /// @brief Method DisableSimultaneousHandsAndControllers, addr 0x3fbeaa8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DisableSimultaneousHandsAndControllers, addr 0x3fc1700, size 0x54, virtual false, abstract: false, final false
   static inline bool DisableSimultaneousHandsAndControllers();
 
-  /// @brief Method EnableSimultaneousHandsAndControllers, addr 0x3fbea54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnableSimultaneousHandsAndControllers, addr 0x3fc16ac, size 0x54, virtual false, abstract: false, final false
   static inline bool EnableSimultaneousHandsAndControllers();
 
-  /// @brief Method FixedUpdate, addr 0x3fbe494, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3fc10ec, size 0x10c, virtual false, abstract: false, final false
   static inline void FixedUpdate();
 
-  /// @brief Method Get, addr 0x3fc2498, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc50f0, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Get(::GlobalNamespace::OVRInput_RawAxis2D rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fc20e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc4d38, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Get(::GlobalNamespace::OVRInput_Axis2D virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fbe3c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc101c, size 0x68, virtual false, abstract: false, final false
   static inline bool Get(::GlobalNamespace::OVRInput_RawButton rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fc1428, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc4080, size 0x68, virtual false, abstract: false, final false
   static inline bool Get(::GlobalNamespace::OVRInput_RawNearTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fbe42c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc1084, size 0x68, virtual false, abstract: false, final false
   static inline bool Get(::GlobalNamespace::OVRInput_RawTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fc05d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc3228, size 0x68, virtual false, abstract: false, final false
   static inline bool Get(::GlobalNamespace::OVRInput_Button virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fc1274, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc3ecc, size 0x68, virtual false, abstract: false, final false
   static inline bool Get(::GlobalNamespace::OVRInput_NearTouch virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fc0c48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc38a0, size 0x68, virtual false, abstract: false, final false
   static inline bool Get(::GlobalNamespace::OVRInput_Touch virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fc1fec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc4c44, size 0x68, virtual false, abstract: false, final false
   static inline float_t Get(::GlobalNamespace::OVRInput_RawAxis1D rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method Get, addr 0x3fc1908, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3fc4560, size 0x68, virtual false, abstract: false, final false
   static inline float_t Get(::GlobalNamespace::OVRInput_Axis1D virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetActiveController, addr 0x3fc2734, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetActiveController, addr 0x3fc538c, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRInput_Controller GetActiveController();
 
-  /// @brief Method GetActiveControllerForHand, addr 0x3fbebfc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetActiveControllerForHand, addr 0x3fc1854, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRInput_Controller GetActiveControllerForHand(::GlobalNamespace::OVRInput_Handedness handedness);
 
-  /// @brief Method GetConnectedControllers, addr 0x3fc2678, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedControllers, addr 0x3fc52d0, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRInput_Controller GetConnectedControllers();
 
-  /// @brief Method GetControllerBatteryPercentRemaining, addr 0x3fc33d0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetControllerBatteryPercentRemaining, addr 0x3fc6028, size 0x128, virtual false, abstract: false, final false
   static inline uint8_t GetControllerBatteryPercentRemaining(::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetControllerIsInHandState, addr 0x3fbeafc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetControllerIsInHandState, addr 0x3fc1754, size 0x100, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRInput_ControllerInHandState GetControllerIsInHandState(::GlobalNamespace::OVRInput_Hand hand);
 
-  /// @brief Method GetControllerOrientationTracked, addr 0x3fbe5f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetControllerOrientationTracked, addr 0x3fc1250, size 0xf0, virtual false, abstract: false, final false
   static inline bool GetControllerOrientationTracked(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetControllerOrientationValid, addr 0x3fbe6e8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetControllerOrientationValid, addr 0x3fc1340, size 0xf0, virtual false, abstract: false, final false
   static inline bool GetControllerOrientationValid(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetControllerPositionTracked, addr 0x3fbe7d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetControllerPositionTracked, addr 0x3fc1430, size 0xf0, virtual false, abstract: false, final false
   static inline bool GetControllerPositionTracked(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetControllerPositionValid, addr 0x3fbe8c8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetControllerPositionValid, addr 0x3fc1520, size 0xf0, virtual false, abstract: false, final false
   static inline bool GetControllerPositionValid(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetControllerSampleRateHz, addr 0x3fc32a8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetControllerSampleRateHz, addr 0x3fc5f00, size 0x128, virtual false, abstract: false, final false
   static inline float_t GetControllerSampleRateHz(::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetCurrentInteractionProfile, addr 0x3fbe5a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInteractionProfile, addr 0x3fc11f8, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRInput_InteractionProfile GetCurrentInteractionProfile(::GlobalNamespace::OVRInput_Hand hand);
 
-  /// @brief Method GetDominantHand, addr 0x3fc0580, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetDominantHand, addr 0x3fc31d8, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRInput_Handedness GetDominantHand();
 
-  /// @brief Method GetDown, addr 0x3fc09b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDown, addr 0x3fc3608, size 0x68, virtual false, abstract: false, final false
   static inline bool GetDown(::GlobalNamespace::OVRInput_RawButton rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetDown, addr 0x3fc1670, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDown, addr 0x3fc42c8, size 0x68, virtual false, abstract: false, final false
   static inline bool GetDown(::GlobalNamespace::OVRInput_RawNearTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetDown, addr 0x3fc0fdc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDown, addr 0x3fc3c34, size 0x68, virtual false, abstract: false, final false
   static inline bool GetDown(::GlobalNamespace::OVRInput_RawTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetDown, addr 0x3fc07e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDown, addr 0x3fc3440, size 0x68, virtual false, abstract: false, final false
   static inline bool GetDown(::GlobalNamespace::OVRInput_Button virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetDown, addr 0x3fc14a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDown, addr 0x3fc4100, size 0x68, virtual false, abstract: false, final false
   static inline bool GetDown(::GlobalNamespace::OVRInput_NearTouch virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetDown, addr 0x3fc0e14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDown, addr 0x3fc3a6c, size 0x68, virtual false, abstract: false, final false
   static inline bool GetDown(::GlobalNamespace::OVRInput_Touch virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetLocalControllerAcceleration, addr 0x3fbf53c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetLocalControllerAcceleration, addr 0x3fc2194, size 0x258, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLocalControllerAcceleration(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetLocalControllerAngularAcceleration, addr 0x3fbffa8, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetLocalControllerAngularAcceleration, addr 0x3fc2c00, size 0x264, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLocalControllerAngularAcceleration(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetLocalControllerAngularVelocity, addr 0x3fbfd44, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetLocalControllerAngularVelocity, addr 0x3fc299c, size 0x264, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLocalControllerAngularVelocity(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetLocalControllerPosition, addr 0x3fbed00, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method GetLocalControllerPosition, addr 0x3fc1958, size 0x5d8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLocalControllerPosition(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetLocalControllerRotation, addr 0x3fbf794, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method GetLocalControllerRotation, addr 0x3fc23ec, size 0x5b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetLocalControllerRotation(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetLocalControllerStatesWithoutPrediction, addr 0x3fc020c, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method GetLocalControllerStatesWithoutPrediction, addr 0x3fc2e64, size 0x374, virtual false, abstract: false, final false
   static inline bool GetLocalControllerStatesWithoutPrediction(::GlobalNamespace::OVRInput_Controller controllerType, ::ByRef<::UnityEngine::Vector3> position,
                                                                ::ByRef<::UnityEngine::Quaternion> rotation, ::ByRef<::UnityEngine::Vector3> velocity, ::ByRef<::UnityEngine::Vector3> angularVelocity);
 
-  /// @brief Method GetLocalControllerVelocity, addr 0x3fbf2d8, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetLocalControllerVelocity, addr 0x3fc1f30, size 0x264, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLocalControllerVelocity(::GlobalNamespace::OVRInput_Controller controllerType);
 
-  /// @brief Method GetOpenVRStringProperty, addr 0x3fc29a0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetOpenVRStringProperty, addr 0x3fc55f8, size 0x150, virtual false, abstract: false, final false
   static inline ::StringW GetOpenVRStringProperty(::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t deviceId);
 
-  /// @brief Method GetResolvedAxis1D, addr 0x3fc1970, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedAxis1D, addr 0x3fc45c8, size 0x67c, virtual false, abstract: false, final false
   static inline float_t GetResolvedAxis1D(::GlobalNamespace::OVRInput_Axis1D virtualMask, ::GlobalNamespace::OVRInput_RawAxis1D rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedAxis2D, addr 0x3fc2148, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedAxis2D, addr 0x3fc4da0, size 0x350, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetResolvedAxis2D(::GlobalNamespace::OVRInput_Axis2D virtualMask, ::GlobalNamespace::OVRInput_RawAxis2D rawMask,
                                                          ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedButton, addr 0x3fc0638, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedButton, addr 0x3fc3290, size 0x14c, virtual false, abstract: false, final false
   static inline bool GetResolvedButton(::GlobalNamespace::OVRInput_Button virtualMask, ::GlobalNamespace::OVRInput_RawButton rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedButtonDown, addr 0x3fc0850, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedButtonDown, addr 0x3fc34a8, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedButtonDown(::GlobalNamespace::OVRInput_Button virtualMask, ::GlobalNamespace::OVRInput_RawButton rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedButtonUp, addr 0x3fc0a80, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedButtonUp, addr 0x3fc36d8, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedButtonUp(::GlobalNamespace::OVRInput_Button virtualMask, ::GlobalNamespace::OVRInput_RawButton rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedNearTouch, addr 0x3fc12dc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedNearTouch, addr 0x3fc3f34, size 0x14c, virtual false, abstract: false, final false
   static inline bool GetResolvedNearTouch(::GlobalNamespace::OVRInput_NearTouch virtualMask, ::GlobalNamespace::OVRInput_RawNearTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedNearTouchDown, addr 0x3fc1510, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedNearTouchDown, addr 0x3fc4168, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedNearTouchDown(::GlobalNamespace::OVRInput_NearTouch virtualMask, ::GlobalNamespace::OVRInput_RawNearTouch rawMask,
                                               ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedNearTouchUp, addr 0x3fc1740, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedNearTouchUp, addr 0x3fc4398, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedNearTouchUp(::GlobalNamespace::OVRInput_NearTouch virtualMask, ::GlobalNamespace::OVRInput_RawNearTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedTouch, addr 0x3fc0cb0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedTouch, addr 0x3fc3908, size 0x14c, virtual false, abstract: false, final false
   static inline bool GetResolvedTouch(::GlobalNamespace::OVRInput_Touch virtualMask, ::GlobalNamespace::OVRInput_RawTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedTouchDown, addr 0x3fc0e7c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedTouchDown, addr 0x3fc3ad4, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedTouchDown(::GlobalNamespace::OVRInput_Touch virtualMask, ::GlobalNamespace::OVRInput_RawTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetResolvedTouchUp, addr 0x3fc10ac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedTouchUp, addr 0x3fc3d04, size 0x160, virtual false, abstract: false, final false
   static inline bool GetResolvedTouchUp(::GlobalNamespace::OVRInput_Touch virtualMask, ::GlobalNamespace::OVRInput_RawTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetUp, addr 0x3fc0be0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUp, addr 0x3fc3838, size 0x68, virtual false, abstract: false, final false
   static inline bool GetUp(::GlobalNamespace::OVRInput_RawButton rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetUp, addr 0x3fc18a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUp, addr 0x3fc44f8, size 0x68, virtual false, abstract: false, final false
   static inline bool GetUp(::GlobalNamespace::OVRInput_RawNearTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetUp, addr 0x3fc120c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUp, addr 0x3fc3e64, size 0x68, virtual false, abstract: false, final false
   static inline bool GetUp(::GlobalNamespace::OVRInput_RawTouch rawMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetUp, addr 0x3fc0a18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUp, addr 0x3fc3670, size 0x68, virtual false, abstract: false, final false
   static inline bool GetUp(::GlobalNamespace::OVRInput_Button virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetUp, addr 0x3fc16d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUp, addr 0x3fc4330, size 0x68, virtual false, abstract: false, final false
   static inline bool GetUp(::GlobalNamespace::OVRInput_NearTouch virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method GetUp, addr 0x3fc1044, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetUp, addr 0x3fc3c9c, size 0x68, virtual false, abstract: false, final false
   static inline bool GetUp(::GlobalNamespace::OVRInput_Touch virtualMask, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method InitHapticInfo, addr 0x3fbd7cc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method InitHapticInfo, addr 0x3fc0424, size 0x140, virtual false, abstract: false, final false
   static inline void InitHapticInfo();
 
-  /// @brief Method IsControllerConnected, addr 0x3fc26d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsControllerConnected, addr 0x3fc5328, size 0x64, virtual false, abstract: false, final false
   static inline bool IsControllerConnected(::GlobalNamespace::OVRInput_Controller controller);
 
-  /// @brief Method IsValidOpenVRDevice, addr 0x3fc2c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValidOpenVRDevice, addr 0x3fc586c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValidOpenVRDevice(uint32_t deviceId);
 
-  /// @brief Method PlayHapticImpulse, addr 0x3fc2af0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method PlayHapticImpulse, addr 0x3fc5748, size 0x11c, virtual false, abstract: false, final false
   static inline void PlayHapticImpulse(float_t amplitude, ::UnityEngine::XR::XRNode deviceNode);
 
-  /// @brief Method SetControllerHapticsAmplitudeEnvelope, addr 0x3fc2ffc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetControllerHapticsAmplitudeEnvelope, addr 0x3fc5c54, size 0x150, virtual false, abstract: false, final false
   static inline void SetControllerHapticsAmplitudeEnvelope(::GlobalNamespace::OVRInput_HapticsAmplitudeEnvelopeVibration hapticsVibration, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method SetControllerHapticsPcm, addr 0x3fc314c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SetControllerHapticsPcm, addr 0x3fc5da4, size 0x15c, virtual false, abstract: false, final false
   static inline int32_t SetControllerHapticsPcm(::GlobalNamespace::OVRInput_HapticsPcmVibration hapticsVibration, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method SetControllerLocalizedVibration, addr 0x3fc2e10, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SetControllerLocalizedVibration, addr 0x3fc5a68, size 0x1ec, virtual false, abstract: false, final false
   static inline void SetControllerLocalizedVibration(::GlobalNamespace::OVRInput_HapticsLocation hapticsLocationMask, float_t frequency, float_t amplitude,
                                                      ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method SetControllerVibration, addr 0x3fc2c20, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerVibration, addr 0x3fc5878, size 0x1f0, virtual false, abstract: false, final false
   static inline void SetControllerVibration(float_t frequency, float_t amplitude, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method SetOpenVRLocalPose, addr 0x3fc2890, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetOpenVRLocalPose, addr 0x3fc54e8, size 0x110, virtual false, abstract: false, final false
   static inline void SetOpenVRLocalPose(::UnityEngine::Vector3 leftPos, ::UnityEngine::Vector3 rightPos, ::UnityEngine::Quaternion leftRot, ::UnityEngine::Quaternion rightRot);
 
-  /// @brief Method ShouldResolveController, addr 0x3fc0784, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ShouldResolveController, addr 0x3fc33dc, size 0x4c, virtual false, abstract: false, final false
   static inline bool ShouldResolveController(::GlobalNamespace::OVRInput_Controller controllerType, ::GlobalNamespace::OVRInput_Controller controllerMask);
 
-  /// @brief Method StartVibration, addr 0x3fc278c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method StartVibration, addr 0x3fc53e4, size 0x104, virtual false, abstract: false, final false
   static inline void StartVibration(float_t amplitude, float_t duration, ::UnityEngine::XR::XRNode controllerNode);
 
-  /// @brief Method Update, addr 0x3fbd90c, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fc0564, size 0x53c, virtual false, abstract: false, final false
   static inline void Update();
 
-  /// @brief Method UpdateXRControllerHaptics, addr 0x3fbe1e0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateXRControllerHaptics, addr 0x3fc0e38, size 0x1e4, virtual false, abstract: false, final false
   static inline void UpdateXRControllerHaptics();
 
-  /// @brief Method UpdateXRControllerNodeIds, addr 0x3fbde48, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method UpdateXRControllerNodeIds, addr 0x3fc0aa0, size 0x398, virtual false, abstract: false, final false
   static inline void UpdateXRControllerNodeIds();
 
   static inline float_t getStaticF_AXIS_AS_BUTTON_THRESHOLD();
@@ -4497,7 +4497,7 @@ public:
 
   static inline ::GlobalNamespace::OVRPlugin_Step getStaticF_stepType();
 
-  /// @brief Method get_pluginSupportsActiveController, addr 0x3fbd1f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_pluginSupportsActiveController, addr 0x3fbfe50, size 0x9c, virtual false, abstract: false, final false
   static inline bool get_pluginSupportsActiveController();
 
   static inline void setStaticF_AXIS_AS_BUTTON_THRESHOLD(float_t value);
@@ -4551,7 +4551,7 @@ public:
   OVRInput(OVRInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

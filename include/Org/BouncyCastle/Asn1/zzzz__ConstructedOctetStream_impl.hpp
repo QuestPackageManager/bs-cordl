@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::ConstructedOctetStream::*)(::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(
     &::Org::BouncyCastle::Asn1::ConstructedOctetStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2633788;
+  constexpr static std::size_t addrs = 0x2635184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::Org::BouncyCastle::Asn1::ConstructedOctetStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Asn1::ConstructedOctetStream::Read)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x2635b88;
+  constexpr static std::size_t addrs = 0x2637584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::ConstructedOctetStream::*)()>(
     &::Org::BouncyCastle::Asn1::ConstructedOctetStream::ReadByte)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2635e4c;
+  constexpr static std::size_t addrs = 0x2637848;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetStringParser* (::Org::BouncyCastle::Asn1::ConstructedOctetStream::*)()>(
     &::Org::BouncyCastle::Asn1::ConstructedOctetStream::GetNextParser)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2635d4c;
+  constexpr static std::size_t addrs = 0x2637748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::ConstructedOctetStream*>::get(),

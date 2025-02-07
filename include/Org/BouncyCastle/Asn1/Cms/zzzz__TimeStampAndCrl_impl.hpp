@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)(::Org::BouncyCastle::Asn1::Cms::ContentInfo*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x230eb98;
+  constexpr static std::size_t addrs = 0x2310594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x230ebc0;
+  constexpr static std::size_t addrs = 0x23105bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x230ec48;
+  constexpr static std::size_t addrs = 0x2310644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::ContentInfo* (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::get_TimeStampToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230ecec;
+  constexpr static std::size_t addrs = 0x23106e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::CertificateList* (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::get_Crl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230ecf4;
+  constexpr static std::size_t addrs = 0x23106f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::ToAsn1Object)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x230ecfc;
+  constexpr static std::size_t addrs = 0x23106f8;
 
   inline static ::MethodInfo const* methodInfo() {
 

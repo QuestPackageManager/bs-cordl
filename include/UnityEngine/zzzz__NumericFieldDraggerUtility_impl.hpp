@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(bool, bool)>(&::UnityEngine::NumericFieldDraggerUtility::Acceleration)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48a6b04;
+  constexpr static std::size_t addrs = 0x48a975c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector2, float_t)>(&::UnityEngine::NumericFieldDraggerUtility::NiceDelta)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x48a6b28;
+  constexpr static std::size_t addrs = 0x48a9780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateFloatDragSensitivity)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48a6c80;
+  constexpr static std::size_t addrs = 0x48a98d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t, double_t, double_t)>(
     &::UnityEngine::NumericFieldDraggerUtility::CalculateFloatDragSensitivity)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48a6d10;
+  constexpr static std::size_t addrs = 0x48a9968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateIntDragSensitivity)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x48a6da0;
+  constexpr static std::size_t addrs = 0x48a99f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateIntDragSensitivity)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48a6e48;
+  constexpr static std::size_t addrs = 0x48a9aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateIntDragSensitivity)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48a6dcc;
+  constexpr static std::size_t addrs = 0x48a9a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t, int64_t, int64_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateIntDragSensitivity)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48a6e6c;
+  constexpr static std::size_t addrs = 0x48a9ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

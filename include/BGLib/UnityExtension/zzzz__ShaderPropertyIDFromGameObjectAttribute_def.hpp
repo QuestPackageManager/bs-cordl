@@ -22,12 +22,12 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE ShaderPropertyIDFromGameObjectAttribute : public ::BGLib::UnityExtension::ShaderPropertyIDAttribute {
 public:
   // Declarations
-  /// @brief Method GetTargetName, addr 0x22b61e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x22b7be4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute* New_ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
-  /// @brief Method .ctor, addr 0x22b61e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b7be0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
 protected:
@@ -45,7 +45,7 @@ public:
   ShaderPropertyIDFromGameObjectAttribute(ShaderPropertyIDFromGameObjectAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17175 };
 
   /// @brief Field kTargetName offset 0xffffffff size 0x8
   static constexpr ::ConstString kTargetName{ u"GameObject" };

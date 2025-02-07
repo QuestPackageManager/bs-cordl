@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49e1e4c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49e4aa4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49e1e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e4a9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c* getStaticF___9();
@@ -60,7 +60,7 @@ public:
   PointerOverLinkTagEvent___c(PointerOverLinkTagEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,13 +87,13 @@ public:
 
   __declspec(property(put = set_linkText)) ::StringW linkText;
 
-  /// @brief Method GetPooled, addr 0x49e1d2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49e4984, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* evt, ::StringW linkID, ::StringW linkText);
 
-  /// @brief Method Init, addr 0x49e1ccc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49e4924, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49e1d20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49e4978, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent* New_ctor();
@@ -110,13 +110,13 @@ public:
 
   constexpr void __cordl_internal_set__linkText_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49e1d94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e49ec, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_linkID, addr 0x49e1cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkID, addr 0x49e4914, size 0x8, virtual false, abstract: false, final false
   inline void set_linkID(::StringW value);
 
-  /// @brief Method set_linkText, addr 0x49e1cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkText, addr 0x49e491c, size 0x8, virtual false, abstract: false, final false
   inline void set_linkText(::StringW value);
 
 protected:
@@ -134,7 +134,7 @@ public:
   PointerOverLinkTagEvent(PointerOverLinkTagEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6483 };
 
   /// @brief Field <linkID>k__BackingField, offset: 0x108, size: 0x8, def value: None
   ::StringW ____linkID_k__BackingField;

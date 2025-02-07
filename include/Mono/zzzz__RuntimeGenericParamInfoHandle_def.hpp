@@ -35,19 +35,19 @@ public:
 
   __declspec(property(get = get_Constraints)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> Constraints;
 
-  /// @brief Method GetConstraints, addr 0x3c57440, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetConstraints, addr 0x3c5a098, size 0x12c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetConstraints();
 
-  /// @brief Method GetConstraintsCount, addr 0x3c57588, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetConstraintsCount, addr 0x3c5a1e0, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetConstraintsCount();
 
-  /// @brief Method .ctor, addr 0x3c5741c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5a074, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Attributes, addr 0x3c5756c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x3c5a1c4, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Reflection::GenericParameterAttributes get_Attributes();
 
-  /// @brief Method get_Constraints, addr 0x3c5743c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Constraints, addr 0x3c5a094, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_Constraints();
 
   // Ctor Parameters []

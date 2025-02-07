@@ -26,16 +26,16 @@ public:
   // Declarations
   static inline ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method OptionalSubscriber, addr 0x4afbd68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OptionalSubscriber, addr 0x4afe9c0, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriber();
 
-  /// @brief Method OptionalSubscriberWithWarning, addr 0x4afbd84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OptionalSubscriberWithWarning, addr 0x4afe9dc, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* OptionalSubscriberWithWarning();
 
-  /// @brief Method RequireSubscriber, addr 0x4afbd48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RequireSubscriber, addr 0x4afe9a0, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* RequireSubscriber();
 
-  /// @brief Method .ctor, addr 0x4afbd08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afe960, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
 protected:
@@ -53,7 +53,7 @@ public:
   DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder(DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

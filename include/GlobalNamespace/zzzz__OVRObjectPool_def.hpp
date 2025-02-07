@@ -108,7 +108,7 @@ public:
   OVRObjectPool_Storage_1(OVRObjectPool_Storage_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -143,7 +143,7 @@ public:
   constexpr OVRObjectPool_ListScope_1(::System::Collections::Generic::List_1<T>* _list) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8461 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -184,7 +184,7 @@ public:
   constexpr OVRObjectPool_DictionaryScope_2(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8462 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -225,7 +225,7 @@ public:
   constexpr OVRObjectPool_HashSetScope_1(::System::Collections::Generic::HashSet_1<T>* _set) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8463 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -266,7 +266,7 @@ public:
   constexpr OVRObjectPool_StackScope_1(::System::Collections::Generic::Stack_1<T>* _stack) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8464 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -307,7 +307,7 @@ public:
   constexpr OVRObjectPool_QueueScope_1(::System::Collections::Generic::Queue_1<T>* _queue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8465 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -348,7 +348,7 @@ public:
   constexpr OVRObjectPool_ItemScope_1(T _item) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8466 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -426,7 +426,7 @@ public:
   OVRObjectPool(OVRObjectPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

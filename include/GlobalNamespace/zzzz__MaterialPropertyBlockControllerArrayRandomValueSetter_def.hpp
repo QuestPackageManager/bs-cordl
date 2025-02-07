@@ -50,18 +50,18 @@ public:
   /// @brief Field _propertyName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
-  /// @brief Method ApplyParams, addr 0x39e8d1c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x39eb580, size 0x140, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x39e8e5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39eb6c0, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x39e8cfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x39eb560, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x39e8cd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39eb53c, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39e8e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eb6e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   MaterialPropertyBlockControllerArrayRandomValueSetter(MaterialPropertyBlockControllerArrayRandomValueSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16352 };
 
   /// @brief Field _materialPropertyBlockControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____materialPropertyBlockControllers;

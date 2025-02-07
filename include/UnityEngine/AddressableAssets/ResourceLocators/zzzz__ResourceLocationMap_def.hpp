@@ -60,13 +60,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method Add, addr 0x450070c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4503364, size 0x160, virtual false, abstract: false, final false
   inline void Add(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Add, addr 0x44fdee8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4500b40, size 0x68, virtual false, abstract: false, final false
   inline void Add(::System::Object* key, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
-  /// @brief Method Locate, addr 0x44fed0c, size 0x878, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x4501964, size 0x878, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type,
                      ::ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
@@ -90,26 +90,26 @@ public:
   constexpr void __cordl_internal_set_locations(
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
 
-  /// @brief Method .ctor, addr 0x44fdc54, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45008ac, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x44ffd78, size 0x994, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45029d0, size 0x994, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations);
 
-  /// @brief Method get_Keys, addr 0x44fecbc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x4501914, size 0x50, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_Locations, addr 0x450086c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Locations, addr 0x45034c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*
   get_Locations();
 
-  /// @brief Method get_LocatorId, addr 0x44ffd68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x45029c0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
-  /// @brief Method set_LocatorId, addr 0x44ffd70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocatorId, addr 0x45029c8, size 0x8, virtual false, abstract: false, final false
   inline void set_LocatorId(::StringW value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   ResourceLocationMap(ResourceLocationMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16213 };
 
   /// @brief Field <LocatorId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____LocatorId_k__BackingField;

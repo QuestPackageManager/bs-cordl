@@ -33,21 +33,21 @@ public:
       get = getStaticF_s_Factories,
       put = setStaticF_s_Factories)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* s_Factories;
 
-  /// @brief Method RegisterEngineFactories, addr 0x4aa4db8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method RegisterEngineFactories, addr 0x4aa7a10, size 0x230, virtual false, abstract: false, final false
   static inline void RegisterEngineFactories();
 
-  /// @brief Method RegisterFactory, addr 0x4aa52b8, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method RegisterFactory, addr 0x4aa7f10, size 0x49c, virtual false, abstract: false, final false
   static inline void RegisterFactory(::UnityEngine::UIElements::IBaseUxmlObjectFactory* factory);
 
-  /// @brief Method RegisterUserFactories, addr 0x4aa4fe8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method RegisterUserFactories, addr 0x4aa7c40, size 0x2d0, virtual false, abstract: false, final false
   static inline void RegisterUserFactories();
 
-  /// @brief Method TryGetFactories, addr 0x4aa5754, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetFactories, addr 0x4aa83ac, size 0x5c, virtual false, abstract: false, final false
   static inline bool TryGetFactories(::StringW fullTypeName, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*> factoryList);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* getStaticF_s_Factories();
 
-  /// @brief Method get_factories, addr 0x4aa4d10, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_factories, addr 0x4aa7968, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* get_factories();
 
   static inline void
@@ -68,7 +68,7 @@ public:
   UxmlObjectFactoryRegistry(UxmlObjectFactoryRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

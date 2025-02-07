@@ -52,10 +52,10 @@ public:
   /// @brief Field _rightHorizontalLaser, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__rightHorizontalLaser, put = __cordl_internal_set__rightHorizontalLaser)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _rightHorizontalLaser;
 
-  /// @brief Method InitIfNeeded, addr 0x3b89d44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3b8c8a4, size 0xc0, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method LateUpdate, addr 0x3b89e04, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b8c964, size 0x110, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SpawnLaserAnimation* New_ctor();
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__rightHorizontalLaser(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3b89f14, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8ca74, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
   SpawnLaserAnimation(SpawnLaserAnimation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4240 };
 
   /// @brief Field _centerThresholdTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____centerThresholdTransform;

@@ -32,7 +32,7 @@ public:
   static inline void SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderMouse, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderMouse,
                                     ::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition);
 
-  /// @brief Method SendMouseOverMouseOut, addr 0x4a27844, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method SendMouseOverMouseOut, addr 0x4a2a49c, size 0x36c, virtual false, abstract: false, final false
   static inline void SendMouseOverMouseOut(::UnityEngine::UIElements::VisualElement* previousTopElementUnderMouse, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderMouse,
                                            ::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition);
 
@@ -51,7 +51,7 @@ public:
   MouseEventsHelper(MouseEventsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

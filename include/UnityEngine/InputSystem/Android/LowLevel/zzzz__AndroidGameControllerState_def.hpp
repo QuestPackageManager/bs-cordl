@@ -56,7 +56,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x46083e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x460b038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   static constexpr ::ConstString Joystick{ u"Joystick" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,7 +110,7 @@ public:
   constexpr AndroidGameControllerState__axis_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6856 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc0 };
@@ -146,7 +146,7 @@ public:
   constexpr AndroidGameControllerState__buttons_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6857 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -188,15 +188,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithAxis, addr 0x4608358, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithAxis, addr 0x460afb0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithAxis(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis axis, float_t value);
 
-  /// @brief Method WithButton, addr 0x4608314, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x460af6c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithButton(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode code, bool value);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
 
-  /// @brief Method get_format, addr 0x46082bc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x460af14, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -220,7 +220,7 @@ public:
   static constexpr int32_t MaxButtons{ static_cast<int32_t>(0xdc) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xdc };

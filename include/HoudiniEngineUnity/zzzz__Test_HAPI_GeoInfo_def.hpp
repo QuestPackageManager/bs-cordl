@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a99ad0, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9c334, size 0x300, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_GeoInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_GeoInfo* New_ctor(::HoudiniEngineUnity::HAPI_GeoInfo self);
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_GeoInfo value);
 
-  /// @brief Method .ctor, addr 0x3a99a9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9c300, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_GeoInfo self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_GeoInfo*>"
@@ -61,7 +61,7 @@ public:
   Test_HAPI_GeoInfo(Test_HAPI_GeoInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11882 };
 
   /// @brief Field self, offset: 0x10, size: 0x24, def value: None
   ::HoudiniEngineUnity::HAPI_GeoInfo ___self;

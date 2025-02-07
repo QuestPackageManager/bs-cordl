@@ -73,7 +73,7 @@ public:
   static ::HoudiniEngineUnity::HEU_ParameterModifier_ModifierAction const SET_INT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11747 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -119,11 +119,11 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*() noexcept;
 
-  /// @brief Method GetNewModifier, addr 0x3a4c30c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetNewModifier, addr 0x3a4eb70, size 0x84, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::HEU_ParameterModifier_ModifierAction action, int32_t parameterIndex, int32_t instanceIndex,
                                                                             int32_t modifierValue);
 
-  /// @brief Method IsEquivalentTo, addr 0x3a4c398, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a4ebfc, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
 
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* New_ctor();
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set__parameterIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a4c390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4ebf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>"
@@ -185,7 +185,7 @@ public:
   HEU_ParameterModifier(HEU_ParameterModifier const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11748 };
 
   /// @brief Field _parameterIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____parameterIndex;

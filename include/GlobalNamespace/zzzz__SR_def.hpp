@@ -22,20 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x408d394, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
-
-  /// @brief Method Format, addr 0x408d410, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x422e25c, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
-
-  /// @brief Method Format, addr 0x408d480, size 0x78, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
-
-  /// @brief Method Format, addr 0x408d4f8, size 0x88, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
-
-  /// @brief Method GetString, addr 0x408d390, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name);
 
 protected:
   // Ctor Parameters []
@@ -52,7 +40,7 @@ public:
   SR(SR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

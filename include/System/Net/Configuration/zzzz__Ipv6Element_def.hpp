@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Net::Configuration::Ipv6Element* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4409050, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440bca8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x4409088, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x440bce0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -46,7 +46,7 @@ public:
   Ipv6Element(Ipv6Element const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

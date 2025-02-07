@@ -98,7 +98,7 @@ public:
   FxBeatmapEventDataBox_2(FxBeatmapEventDataBox_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12904 };
 
   /// @brief Field _beatStep, offset: 0x34, size: 0x4, def value: None
   float_t ____beatStep;

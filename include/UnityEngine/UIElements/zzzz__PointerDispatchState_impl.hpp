@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)()>(
     &::UnityEngine::UIElements::PointerDispatchState::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4a4816c;
+  constexpr static std::size_t addrs = 0x4a4adc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDispatchState*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)()>(
     &::UnityEngine::UIElements::PointerDispatchState::Reset)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a48244;
+  constexpr static std::size_t addrs = 0x4a4ae9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDispatchState*>::get(), "Reset",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IEventHandler* (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::GetCapturingElement)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4a40cf4;
+  constexpr static std::size_t addrs = 0x4a4394c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PointerDispatchState::*)(::UnityEngine::UIElements::IEventHandler*, int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::HasPointerCapture)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4a47034;
+  constexpr static std::size_t addrs = 0x4a49c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(::UnityEngine::UIElements::IEventHandler*, int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::CapturePointer)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4a4706c;
+  constexpr static std::size_t addrs = 0x4a49cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::ReleasePointer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4a47360;
+  constexpr static std::size_t addrs = 0x4a49fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(::UnityEngine::UIElements::IEventHandler*, int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::ReleasePointer)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a47198;
+  constexpr static std::size_t addrs = 0x4a49df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::ProcessPointerCapture)> {
   constexpr static std::size_t size = 0x998;
-  constexpr static std::size_t addrs = 0x4a477d4;
+  constexpr static std::size_t addrs = 0x4a4a42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::ActivateCompatibilityMouseEvents)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4a47454;
+  constexpr static std::size_t addrs = 0x4a4a0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::PreventCompatibilityMouseEvents)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4a4754c;
+  constexpr static std::size_t addrs = 0x4a4a1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PointerDispatchState::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::PointerDispatchState::ShouldSendCompatibilityMouseEvents)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4a476a0;
+  constexpr static std::size_t addrs = 0x4a4a2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

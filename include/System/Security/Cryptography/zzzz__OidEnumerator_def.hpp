@@ -42,15 +42,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4436b24, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x443977c, size 0x4c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Security::Cryptography::OidEnumerator* New_ctor(::System::Security::Cryptography::OidCollection* oids);
 
-  /// @brief Method Reset, addr 0x4436b70, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x44397c8, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4436b20, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4439778, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr int32_t const& __cordl_internal_get__current() const;
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set__oids(::System::Security::Cryptography::OidCollection* value);
 
-  /// @brief Method .ctor, addr 0x4436914, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443956c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::OidCollection* oids);
 
-  /// @brief Method get_Current, addr 0x4436b00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x4439758, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -89,7 +89,7 @@ public:
   OidEnumerator(OidEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9294 };
 
   /// @brief Field _oids, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::OidCollection* ____oids;

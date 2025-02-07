@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(
     ::UnityEngine::UIElements::TextElement*, ::UnityEngine::TextEditingUtilities*)>(&::UnityEngine::UIElements::KeyboardTextEditorEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x49ee804;
+  constexpr static std::size_t addrs = 0x49f145c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::ExecuteDefaultActionAtTarget)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x49ee93c;
+  constexpr static std::size_t addrs = 0x49f1594;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::FocusEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnFocus)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x49eebf0;
+  constexpr static std::size_t addrs = 0x49f1848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::BlurEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnBlur)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49eecd4;
+  constexpr static std::size_t addrs = 0x49f192c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::KeyDownEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnKeyDown)> {
   constexpr static std::size_t size = 0x9c8;
-  constexpr static std::size_t addrs = 0x49eed28;
+  constexpr static std::size_t addrs = 0x49f1980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)()>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::UpdateLabel)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x49efb70;
+  constexpr static std::size_t addrs = 0x49f27c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(
     ::UnityEngine::UIElements::ValidateCommandEvent*)>(&::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnValidateCommandEvent)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x49ef6f0;
+  constexpr static std::size_t addrs = 0x49f2348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardTextEditorEventHandler::*)(::UnityEngine::UIElements::ExecuteCommandEvent*)>(
     &::UnityEngine::UIElements::KeyboardTextEditorEventHandler::OnExecuteCommandEvent)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x49ef904;
+  constexpr static std::size_t addrs = 0x49f255c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

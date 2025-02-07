@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshWriteData::*)()>(&::UnityEngine::UIElements::MeshWriteData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a4b3e8;
+  constexpr static std::size_t addrs = 0x4a4e040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshWriteData*>::get(), ".ctor",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::MeshWriteData::*)()>(
     &::UnityEngine::UIElements::MeshWriteData::get_vertexCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a4b3f0;
+  constexpr static std::size_t addrs = 0x4a4e048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshWriteData*>::get(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::MeshWriteData::*)()>(&::UnityEngine::UIElements::MeshWriteData::get_indexCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a4b438;
+  constexpr static std::size_t addrs = 0x4a4e090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshWriteData*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::MeshWriteData::*)()>(
     &::UnityEngine::UIElements::MeshWriteData::get_uvRegion)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a4b480;
+  constexpr static std::size_t addrs = 0x4a4e0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshWriteData*>::get(), "get_uvRegion",
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshWriteData::*)(::UnityEngine::UIElements::Vertex)>(
     &::UnityEngine::UIElements::MeshWriteData::SetNextVertex)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a4b48c;
+  constexpr static std::size_t addrs = 0x4a4e0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshWriteData::*)(uint16_t)>(
     &::UnityEngine::UIElements::MeshWriteData::SetNextIndex)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a4b514;
+  constexpr static std::size_t addrs = 0x4a4e16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshWriteData::*)(
     ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>)>(&::UnityEngine::UIElements::MeshWriteData::SetAllVertices)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4a4b578;
+  constexpr static std::size_t addrs = 0x4a4e1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshWriteData::*)(::ArrayW<uint16_t, ::Array<uint16_t>*>)>(
     &::UnityEngine::UIElements::MeshWriteData::SetAllIndices)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4a4b64c;
+  constexpr static std::size_t addrs = 0x4a4e2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshWriteData::*)(
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>)>(&::UnityEngine::UIElements::MeshWriteData::Reset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a4b720;
+  constexpr static std::size_t addrs = 0x4a4e378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshWriteData::*)(
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Rect)>(&::UnityEngine::UIElements::MeshWriteData::Reset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a4b73c;
+  constexpr static std::size_t addrs = 0x4a4e394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

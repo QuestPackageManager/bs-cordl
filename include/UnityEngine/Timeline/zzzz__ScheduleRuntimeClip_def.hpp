@@ -59,20 +59,20 @@ public:
 
   __declspec(property(get = get_start)) double_t start;
 
-  /// @brief Method Create, addr 0x4826f70, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4829bc8, size 0x98, virtual false, abstract: false, final false
   inline void Create(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
                      double_t finishTail);
 
-  /// @brief Method DisableAt, addr 0x482739c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method DisableAt, addr 0x4829ff4, size 0x10, virtual true, abstract: false, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method EvaluateAt, addr 0x482710c, size 0x290, virtual true, abstract: false, final false
+  /// @brief Method EvaluateAt, addr 0x4829d64, size 0x290, virtual true, abstract: false, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
   static inline ::UnityEngine::Timeline::ScheduleRuntimeClip* New_ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable,
                                                                        ::UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail);
 
-  /// @brief Method SetTime, addr 0x4826ef8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetTime, addr 0x4829b50, size 0x58, virtual false, abstract: false, final false
   inline void SetTime(double_t time);
 
   constexpr ::UnityEngine::Timeline::TimelineClip* const& __cordl_internal_get_m_Clip() const;
@@ -111,26 +111,26 @@ public:
 
   constexpr void __cordl_internal_set_m_Started(bool value);
 
-  /// @brief Method .ctor, addr 0x4821790, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48243e8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
                     double_t finishTail);
 
-  /// @brief Method get_clip, addr 0x4826f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x4829ba8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* get_clip();
 
-  /// @brief Method get_duration, addr 0x4826eac, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x4829b04, size 0x4c, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_mixer, addr 0x4826f58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_mixer, addr 0x4829bb0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_mixer();
 
-  /// @brief Method get_playable, addr 0x4826f64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_playable, addr 0x4829bbc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_playable();
 
-  /// @brief Method get_start, addr 0x4826e34, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_start, addr 0x4829a8c, size 0x78, virtual true, abstract: false, final false
   inline double_t get_start();
 
-  /// @brief Method set_enable, addr 0x4827008, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method set_enable, addr 0x4829c60, size 0x104, virtual true, abstract: false, final false
   inline void set_enable(bool value);
 
 protected:
@@ -148,7 +148,7 @@ public:
   ScheduleRuntimeClip(ScheduleRuntimeClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15847 };
 
   /// @brief Field m_Clip, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Timeline::TimelineClip* ___m_Clip;

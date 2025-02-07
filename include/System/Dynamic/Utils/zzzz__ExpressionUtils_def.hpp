@@ -53,14 +53,14 @@ namespace System::Dynamic::Utils {
 class CORDL_TYPE ExpressionUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetParametersForValidation, addr 0x4104818, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetParametersForValidation, addr 0x4107470, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersForValidation(::System::Reflection::MethodBase* method,
                                                                                                                                           ::System::Linq::Expressions::ExpressionType nodeKind);
 
-  /// @brief Method RequiresCanRead, addr 0x4104ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RequiresCanRead, addr 0x4107c50, size 0x8, virtual false, abstract: false, final false
   static inline void RequiresCanRead(::System::Linq::Expressions::Expression* expression, ::StringW paramName);
 
-  /// @brief Method RequiresCanRead, addr 0x4104b68, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method RequiresCanRead, addr 0x41077c0, size 0x1b8, virtual false, abstract: false, final false
   static inline void RequiresCanRead(::System::Linq::Expressions::Expression* expression, ::StringW paramName, int32_t idx);
 
   /// @brief Method ReturnObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -75,21 +75,21 @@ public:
   /// @brief Method SameElementsInCollection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool SameElementsInCollection(::System::Collections::Generic::ICollection_1<T>* replacement, ::System::Collections::Generic::IReadOnlyList_1<T>* current);
 
-  /// @brief Method TryQuote, addr 0x4104ed4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method TryQuote, addr 0x4107b2c, size 0x124, virtual false, abstract: false, final false
   static inline bool TryQuote(::System::Type* parameterType, ::ByRef<::System::Linq::Expressions::Expression*> argument);
 
-  /// @brief Method ValidateArgumentCount, addr 0x41051a8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentCount, addr 0x4107e00, size 0xd4, virtual false, abstract: false, final false
   static inline void ValidateArgumentCount(::System::Linq::Expressions::LambdaExpression* lambda);
 
-  /// @brief Method ValidateArgumentCount, addr 0x41048ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentCount, addr 0x4107504, size 0xac, virtual false, abstract: false, final false
   static inline void ValidateArgumentCount(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind, int32_t count,
                                            ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> pis);
 
-  /// @brief Method ValidateArgumentTypes, addr 0x4104560, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentTypes, addr 0x41071b8, size 0x2b8, virtual false, abstract: false, final false
   static inline void ValidateArgumentTypes(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind,
                                            ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW methodParamName);
 
-  /// @brief Method ValidateOneArgument, addr 0x4104958, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ValidateOneArgument, addr 0x41075b0, size 0x210, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Expression* ValidateOneArgument(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind,
                                                                              ::System::Linq::Expressions::Expression* arguments, ::System::Reflection::ParameterInfo* pi, ::StringW methodParamName,
                                                                              ::StringW argumentParamName, int32_t index);
@@ -109,7 +109,7 @@ public:
   ExpressionUtils(ExpressionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14185 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

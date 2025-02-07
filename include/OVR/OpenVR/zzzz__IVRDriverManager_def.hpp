@@ -57,18 +57,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRDriverManager__GetDriverCount : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406fd18, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4072970, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406fd38, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4072990, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406fd04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x407295c, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
   static inline ::OVR::OpenVR::IVRDriverManager__GetDriverCount* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406fc7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40728d4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -86,7 +86,7 @@ public:
   IVRDriverManager__GetDriverCount(IVRDriverManager__GetDriverCount const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,18 +101,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRDriverManager__GetDriverName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406fe00, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4072a58, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406fea8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4072b00, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406fdec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4072a44, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
   static inline ::OVR::OpenVR::IVRDriverManager__GetDriverName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406fd60, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40729b8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -130,7 +130,7 @@ public:
   IVRDriverManager__GetDriverName(IVRDriverManager__GetDriverName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -145,18 +145,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRDriverManager__GetDriverHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406ff80, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4072bd8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchDriverName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406ffa0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4072bf8, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406ff6c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4072bc4, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::StringW pchDriverName);
 
   static inline ::OVR::OpenVR::IVRDriverManager__GetDriverHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406fed0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4072b28, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -174,7 +174,7 @@ public:
   IVRDriverManager__GetDriverHandle(IVRDriverManager__GetDriverHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -206,7 +206,7 @@ public:
                              ::OVR::OpenVR::IVRDriverManager__GetDriverHandle* GetDriverHandle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

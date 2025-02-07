@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::AnimatorStateInfo::*)()>(&::UnityEngine::AnimatorStateInfo::get_normalizedTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x484fc0c;
+  constexpr static std::size_t addrs = 0x4852864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AnimatorStateInfo>::get(), "get_normalizedTime",

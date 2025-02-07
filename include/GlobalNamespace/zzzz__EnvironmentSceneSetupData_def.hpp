@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x3b3ca04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f564, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
 
 protected:
@@ -71,7 +71,7 @@ public:
   EnvironmentSceneSetupData(EnvironmentSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5238 };
 
   /// @brief Field hideBranding, offset: 0x10, size: 0x1, def value: None
   bool ___hideBranding;

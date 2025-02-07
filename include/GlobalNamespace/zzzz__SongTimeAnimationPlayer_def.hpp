@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::SongTimeAnimationPlayer* New_ctor();
 
-  /// @brief Method Update, addr 0x3ad7b58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ada6b8, size 0x44, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  /// @brief Method .ctor, addr 0x3ad7b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ada6fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   SongTimeAnimationPlayer(SongTimeAnimationPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4034 };
 
   /// @brief Field _animationClip, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____animationClip;

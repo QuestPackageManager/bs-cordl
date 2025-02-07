@@ -47,12 +47,12 @@ public:
   /// @brief Field values, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::Org::BouncyCastle::Asn1::Asn1EncodableVector* values;
 
-  /// @brief Method GetValues, addr 0x26083c8, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x2609dc4, size 0x348, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetValues();
 
   static inline ::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2608710, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x260a10c, size 0xd8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames* const& __cordl_internal_get_policyAuthority() const;
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_values(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method .ctor, addr 0x2607d54, size 0x664, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2609750, size 0x664, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PolicyAuthority, addr 0x26083b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PolicyAuthority, addr 0x2609db4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_PolicyAuthority();
 
-  /// @brief Method get_ValueType, addr 0x26083c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x2609dbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ValueType();
 
 protected:

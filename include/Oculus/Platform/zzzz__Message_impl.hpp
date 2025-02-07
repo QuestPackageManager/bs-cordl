@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::System::Object*, ::System::IntPtr)>(
     &::Oculus::Platform::Message_Callback::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3f59828;
+  constexpr static std::size_t addrs = 0x3f5c480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::Oculus::Platform::Message*)>(
     &::Oculus::Platform::Message_Callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f7f0fc;
+  constexpr static std::size_t addrs = 0x3f81d54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::Oculus::Platform::Message_Callback::*)(::Oculus::Platform::Message*, ::System::AsyncCallback*, ::System::Object*)>(&::Oculus::Platform::Message_Callback::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3f7f110;
+  constexpr static std::size_t addrs = 0x3f81d68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::System::IAsyncResult*)>(
     &::Oculus::Platform::Message_Callback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f7f130;
+  constexpr static std::size_t addrs = 0x3f81d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::Oculus::Platform::Message_ExtraMessageTypesHandler::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3f7f13c;
+  constexpr static std::size_t addrs = 0x3f81d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(),
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (
     ::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::IntPtr, ::Oculus::Platform::Message_MessageType)>(&::Oculus::Platform::Message_ExtraMessageTypesHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f7f1c8;
+  constexpr static std::size_t addrs = 0x3f81e20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -343,7 +343,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::IntPtr, ::Oculus::Platform::Message_MessageType, ::System::AsyncCallback*, ::System::Object*)>(
     &::Oculus::Platform::Message_ExtraMessageTypesHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3f7f1dc;
+  constexpr static std::size_t addrs = 0x3f81e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::IAsyncResult*)>(
     &::Oculus::Platform::Message_ExtraMessageTypesHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f7f294;
+  constexpr static std::size_t addrs = 0x3f81eec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message::*)(::System::IntPtr)>(&::Oculus::Platform::Message::_ctor)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3f7b7dc;
+  constexpr static std::size_t addrs = 0x3f7e434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::Finalize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7ba88;
+  constexpr static std::size_t addrs = 0x3f7e6e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message_MessageType (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7ba90;
+  constexpr static std::size_t addrs = 0x3f7e6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_Type",
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_IsError)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3f5a414;
+  constexpr static std::size_t addrs = 0x3f5d06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_IsError",
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_RequestID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7ba98;
+  constexpr static std::size_t addrs = 0x3f7e6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_RequestID",
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Error* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7baa0;
+  constexpr static std::size_t addrs = 0x3f7e6f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::HttpTransferUpdate* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetHttpTransferUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7baa8;
+  constexpr static std::size_t addrs = 0x3f7e700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PlatformInitialize* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPlatformInitialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bab0;
+  constexpr static std::size_t addrs = 0x3f7e708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AbuseReportRecording* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAbuseReportRecording)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bab8;
+  constexpr static std::size_t addrs = 0x3f7e710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementDefinitionList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAchievementDefinitions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bac0;
+  constexpr static std::size_t addrs = 0x3f7e718;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementProgressList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAchievementProgressList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bac8;
+  constexpr static std::size_t addrs = 0x3f7e720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementUpdate* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAchievementUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bad0;
+  constexpr static std::size_t addrs = 0x3f7e728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAppDownloadProgressResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bad8;
+  constexpr static std::size_t addrs = 0x3f7e730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAppDownloadResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bae0;
+  constexpr static std::size_t addrs = 0x3f7e738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ApplicationInviteList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetApplicationInviteList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bae8;
+  constexpr static std::size_t addrs = 0x3f7e740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ApplicationVersion* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetApplicationVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7baf0;
+  constexpr static std::size_t addrs = 0x3f7e748;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetDetails* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7baf8;
+  constexpr static std::size_t addrs = 0x3f7e750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetDetailsList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetDetailsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb00;
+  constexpr static std::size_t addrs = 0x3f7e758;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -667,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDeleteResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDeleteResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb08;
+  constexpr static std::size_t addrs = 0x3f7e760;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -682,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDownloadCancelResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadCancelResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb10;
+  constexpr static std::size_t addrs = 0x3f7e768;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -697,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDownloadResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb18;
+  constexpr static std::size_t addrs = 0x3f7e770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDownloadUpdate* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb20;
+  constexpr static std::size_t addrs = 0x3f7e778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -727,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAvatarEditorResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb28;
+  constexpr static std::size_t addrs = 0x3f7e780;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -742,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::BlockedUserList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetBlockedUserList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb30;
+  constexpr static std::size_t addrs = 0x3f7e788;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -757,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Challenge* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetChallenge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb38;
+  constexpr static std::size_t addrs = 0x3f7e790;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -772,7 +772,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ChallengeEntryList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetChallengeEntryList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb40;
+  constexpr static std::size_t addrs = 0x3f7e798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -787,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ChallengeList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetChallengeList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb48;
+  constexpr static std::size_t addrs = 0x3f7e7a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -802,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetDataStore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb50;
+  constexpr static std::size_t addrs = 0x3f7e7a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -817,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetDestinationList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb58;
+  constexpr static std::size_t addrs = 0x3f7e7b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::GroupPresenceJoinIntent* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetGroupPresenceJoinIntent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb60;
+  constexpr static std::size_t addrs = 0x3f7e7b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::GroupPresenceLeaveIntent* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetGroupPresenceLeaveIntent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb68;
+  constexpr static std::size_t addrs = 0x3f7e7c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -862,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetInstalledApplicationList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb70;
+  constexpr static std::size_t addrs = 0x3f7e7c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InvitePanelResultInfo* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetInvitePanelResultInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb78;
+  constexpr static std::size_t addrs = 0x3f7e7d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -892,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchBlockFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchBlockFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb80;
+  constexpr static std::size_t addrs = 0x3f7e7d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -907,7 +907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchFriendRequestFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchFriendRequestFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb88;
+  constexpr static std::size_t addrs = 0x3f7e7e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -922,7 +922,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchInvitePanelFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchInvitePanelFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb90;
+  constexpr static std::size_t addrs = 0x3f7e7e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -937,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchReportFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bb98;
+  constexpr static std::size_t addrs = 0x3f7e7f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -952,7 +952,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchUnblockFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchUnblockFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bba0;
+  constexpr static std::size_t addrs = 0x3f7e7f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -966,7 +966,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetLeaderboardDidUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bba8;
+  constexpr static std::size_t addrs = 0x3f7e800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -981,7 +981,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LeaderboardEntryList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLeaderboardEntryList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbb0;
+  constexpr static std::size_t addrs = 0x3f7e808;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -996,7 +996,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LeaderboardList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLeaderboardList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbb8;
+  constexpr static std::size_t addrs = 0x3f7e810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1011,7 +1011,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LinkedAccountList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLinkedAccountList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbc0;
+  constexpr static std::size_t addrs = 0x3f7e818;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1026,7 +1026,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingApplicationStatus* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingApplicationStatus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbc8;
+  constexpr static std::size_t addrs = 0x3f7e820;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1041,7 +1041,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingStartResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingStartResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbd0;
+  constexpr static std::size_t addrs = 0x3f7e828;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1056,7 +1056,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingStatus* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingStatus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbd8;
+  constexpr static std::size_t addrs = 0x3f7e830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1071,7 +1071,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingVideoStats* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingVideoStats)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbe0;
+  constexpr static std::size_t addrs = 0x3f7e838;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1086,7 +1086,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::MicrophoneAvailabilityState* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetMicrophoneAvailabilityState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbe8;
+  constexpr static std::size_t addrs = 0x3f7e840;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1101,7 +1101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncConnection* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncConnection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbf0;
+  constexpr static std::size_t addrs = 0x3f7e848;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1116,7 +1116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSessionList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncSessionList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bbf8;
+  constexpr static std::size_t addrs = 0x3f7e850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1131,7 +1131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSessionsChangedNotification* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncSessionsChangedNotification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc00;
+  constexpr static std::size_t addrs = 0x3f7e858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1146,7 +1146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncSetSessionPropertyResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc08;
+  constexpr static std::size_t addrs = 0x3f7e860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1161,7 +1161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncVoipAttenuationValueList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc10;
+  constexpr static std::size_t addrs = 0x3f7e868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1176,7 +1176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::OrgScopedID* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetOrgScopedID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc18;
+  constexpr static std::size_t addrs = 0x3f7e870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1190,7 +1190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetParty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc20;
+  constexpr static std::size_t addrs = 0x3f7e878;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1204,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PartyID* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPartyID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc28;
+  constexpr static std::size_t addrs = 0x3f7e880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1219,7 +1219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PartyUpdateNotification* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPartyUpdateNotification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc30;
+  constexpr static std::size_t addrs = 0x3f7e888;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1233,7 +1233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PidList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPidList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc38;
+  constexpr static std::size_t addrs = 0x3f7e890;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1248,7 +1248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ProductList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetProductList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc40;
+  constexpr static std::size_t addrs = 0x3f7e898;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1263,7 +1263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Purchase* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPurchase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc48;
+  constexpr static std::size_t addrs = 0x3f7e8a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1278,7 +1278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PurchaseList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPurchaseList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc50;
+  constexpr static std::size_t addrs = 0x3f7e8a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1293,7 +1293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::RejoinDialogResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetRejoinDialogResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc58;
+  constexpr static std::size_t addrs = 0x3f7e8b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1308,7 +1308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::SdkAccountList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetSdkAccountList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc60;
+  constexpr static std::size_t addrs = 0x3f7e8b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1323,7 +1323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::SendInvitesResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetSendInvitesResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc68;
+  constexpr static std::size_t addrs = 0x3f7e8c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1338,7 +1338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ShareMediaResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetShareMediaResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc70;
+  constexpr static std::size_t addrs = 0x3f7e8c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1352,7 +1352,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc78;
+  constexpr static std::size_t addrs = 0x3f7e8d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1367,7 +1367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::SystemVoipState* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetSystemVoipState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc80;
+  constexpr static std::size_t addrs = 0x3f7e8d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1381,7 +1381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::User* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc88;
+  constexpr static std::size_t addrs = 0x3f7e8e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1396,7 +1396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserAccountAgeCategory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc90;
+  constexpr static std::size_t addrs = 0x3f7e8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1411,7 +1411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserCapabilityList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserCapabilityList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bc98;
+  constexpr static std::size_t addrs = 0x3f7e8f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1426,7 +1426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserDataStoreUpdateResponse* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserDataStoreUpdateResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bca0;
+  constexpr static std::size_t addrs = 0x3f7e8f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1441,7 +1441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bca8;
+  constexpr static std::size_t addrs = 0x3f7e900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1456,7 +1456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserProof* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserProof)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bcb0;
+  constexpr static std::size_t addrs = 0x3f7e908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1471,7 +1471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserReportID* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserReportID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f7bcb8;
+  constexpr static std::size_t addrs = 0x3f7e910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1485,7 +1485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (*)(::System::IntPtr)>(&::Oculus::Platform::Message::ParseMessageHandle)> {
   constexpr static std::size_t size = 0x1800;
-  constexpr static std::size_t addrs = 0x3f7bcc0;
+  constexpr static std::size_t addrs = 0x3f7e918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1499,7 +1499,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (*)()>(&::Oculus::Platform::Message::PopMessage)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3f5e3ac;
+  constexpr static std::size_t addrs = 0x3f61004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "PopMessage",
@@ -1513,7 +1513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_ExtraMessageTypesHandler*)>(
     &::Oculus::Platform::Message::set_HandleExtraMessageTypes)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f7f068;
+  constexpr static std::size_t addrs = 0x3f81cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1528,7 +1528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message_ExtraMessageTypesHandler* (*)()>(
     &::Oculus::Platform::Message::get_HandleExtraMessageTypes)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3f7f0b4;
+  constexpr static std::size_t addrs = 0x3f81d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(),

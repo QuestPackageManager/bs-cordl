@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsModelSO___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::AchievementsModelSO___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a2a80;
+  constexpr static std::size_t addrs = 0x26a447c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsModelSO___c__DisplayClass4_0::*)(
     ::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementResult)>(&::GlobalNamespace::AchievementsModelSO___c__DisplayClass4_0::_UnlockAchievement_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26a2ca0;
+  constexpr static std::size_t addrs = 0x26a469c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsModelSO::*)()>(&::GlobalNamespace::AchievementsModelSO::Initialize)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x26a19d8;
+  constexpr static std::size_t addrs = 0x26a33d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AchievementsModelSO*>::get(), "Initialize",
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsModelSO::*)(::GlobalNamespace::AchievementSO*)>(
     &::GlobalNamespace::AchievementsModelSO::UnlockAchievement)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x26a286c;
+  constexpr static std::size_t addrs = 0x26a4268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AchievementsModelSO::*)(::GlobalNamespace::AchievementSO*)>(
     &::GlobalNamespace::AchievementsModelSO::IsAchievementUnlocked)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x26a2b14;
+  constexpr static std::size_t addrs = 0x26a4510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsModelSO::*)()>(&::GlobalNamespace::AchievementsModelSO::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26a2b80;
+  constexpr static std::size_t addrs = 0x26a457c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AchievementsModelSO*>::get(), ".ctor",
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AchievementsModelSO::*)(
     ::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsResult, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::GlobalNamespace::AchievementsModelSO::_Initialize_b__3_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26a2bfc;
+  constexpr static std::size_t addrs = 0x26a45f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

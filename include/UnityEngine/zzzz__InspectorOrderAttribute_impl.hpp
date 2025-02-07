@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InspectorSort (::UnityEngine::InspectorOrderAttribute::*)()>(
     &::UnityEngine::InspectorOrderAttribute::get_m_inspectorSort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ae27c;
+  constexpr static std::size_t addrs = 0x48b0ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InspectorOrderAttribute*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InspectorSortDirection (::UnityEngine::InspectorOrderAttribute::*)()>(
     &::UnityEngine::InspectorOrderAttribute::get_m_sortDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ae284;
+  constexpr static std::size_t addrs = 0x48b0edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InspectorOrderAttribute*>::get(),

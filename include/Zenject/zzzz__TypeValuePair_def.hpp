@@ -24,7 +24,7 @@ namespace Zenject {
 struct CORDL_TYPE TypeValuePair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4b236a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b262fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Object* value);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr TypeValuePair(::System::Type* Type, ::System::Object* Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12455 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -59,27 +59,27 @@ public:
   /// @brief Field _timeSinceLastScoreUpdate, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__timeSinceLastScoreUpdate, put = __cordl_internal_set__timeSinceLastScoreUpdate)) float_t _timeSinceLastScoreUpdate;
 
-  /// @brief Method EnsureOpponentAssigned, addr 0x3bd52f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EnsureOpponentAssigned, addr 0x3bd7e50, size 0x2c, virtual false, abstract: false, final false
   inline bool EnsureOpponentAssigned();
 
-  /// @brief Method GetOpponentPlayer, addr 0x3bd531c, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method GetOpponentPlayer, addr 0x3bd7e7c, size 0x3d4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* GetOpponentPlayer();
 
-  /// @brief Method HandleStateChanged, addr 0x3bd57d0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3bd8330, size 0xf4, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State newState);
 
   static inline ::GlobalNamespace::MultiplayerDuelScoreManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bd51bc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bd7d1c, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bd4e18, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bd7978, size 0xd0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3bd5288, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bd7de8, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateScoreAndName, addr 0x3bd5004, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateScoreAndName, addr 0x3bd7b64, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateScoreAndName();
 
   constexpr float_t const& __cordl_internal_get__delayBetweenScoreUpdates() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceLastScoreUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bd58c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd8424, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,7 +142,7 @@ public:
   MultiplayerDuelScoreManager(MultiplayerDuelScoreManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4566 };
 
   /// @brief Field _scoreItem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreItem> ____scoreItem;

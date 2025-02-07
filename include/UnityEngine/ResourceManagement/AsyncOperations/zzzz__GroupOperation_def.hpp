@@ -90,7 +90,7 @@ public:
   static ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings const ReleaseDependenciesOnFailure;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15701 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -152,50 +152,50 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
   constexpr operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*() noexcept;
 
-  /// @brief Method CompleteIfDependenciesComplete, addr 0x47a7844, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CompleteIfDependenciesComplete, addr 0x47aa49c, size 0x2f4, virtual false, abstract: false, final false
   inline void CompleteIfDependenciesComplete();
 
-  /// @brief Method DependenciesAreUnchanged, addr 0x47a718c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method DependenciesAreUnchanged, addr 0x47a9de4, size 0x1d4, virtual false, abstract: false, final false
   inline bool DependenciesAreUnchanged(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method Destroy, addr 0x47a7b38, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x47aa790, size 0x10, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x47a7634, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x47aa28c, size 0x210, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x47a6c80, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x47a98d8, size 0x64, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method GetDependentOps, addr 0x47912c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDependentOps, addr 0x4793f20, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* GetDependentOps();
 
-  /// @brief Method GetDownloadStatus, addr 0x47a6f30, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method GetDownloadStatus, addr 0x47a9b88, size 0x25c, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method Init, addr 0x47911e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4793e40, size 0xb0, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releaseDependenciesOnFailure,
                    bool allowFailedDependencies);
 
-  /// @brief Method Init, addr 0x47a7d34, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x47aa98c, size 0x98, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations,
                    ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings settings);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x47a689c, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x47a94f4, size 0x3d4, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* New_ctor();
 
-  /// @brief Method OnOperationCompleted, addr 0x47a7dcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnOperationCompleted, addr 0x47aaa24, size 0x10, virtual false, abstract: false, final false
   inline void OnOperationCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
-  /// @brief Method ReleaseDependencies, addr 0x47a6ce4, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseDependencies, addr 0x47a993c, size 0x24c, virtual true, abstract: false, final false
   inline void ReleaseDependencies();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x47a6c70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x47a98c8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x47a6c78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x47a98d0, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
   constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* const& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const;
@@ -234,13 +234,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Settings(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings value);
 
-  /// @brief Method .ctor, addr 0x47a6764, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a93bc, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DebugName, addr 0x47a7360, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x47a9fb8, size 0x2d4, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method get_Progress, addr 0x47a7b48, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method get_Progress, addr 0x47aa7a0, size 0x1ec, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
@@ -261,7 +261,7 @@ public:
   GroupOperation(GroupOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15702 };
 
   /// @brief Field k_MaxDisplayedLocationLength offset 0xffffffff size 0x4
   static constexpr int32_t k_MaxDisplayedLocationLength{ static_cast<int32_t>(0x2d) };

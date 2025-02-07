@@ -32,7 +32,7 @@ public:
   constexpr LightRotationEvent(int32_t p, ::BeatmapSaveDataCommon::EaseType e, int32_t l, float_t r, ::BeatmapSaveDataCommon::RotationDirection d) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13382 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

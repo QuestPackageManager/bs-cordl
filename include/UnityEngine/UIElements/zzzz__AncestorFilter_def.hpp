@@ -35,18 +35,18 @@ public:
   /// @brief Field m_HashStack, offset 0x4010, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HashStack, put = __cordl_internal_set_m_HashStack)) ::System::Collections::Generic::Stack_1<int32_t>* m_HashStack;
 
-  /// @brief Method AddHash, addr 0x4a14868, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddHash, addr 0x4a174c0, size 0x94, virtual false, abstract: false, final false
   inline void AddHash(int32_t hash);
 
-  /// @brief Method IsCandidate, addr 0x4a148fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsCandidate, addr 0x4a17554, size 0x58, virtual false, abstract: false, final false
   inline bool IsCandidate(::UnityEngine::UIElements::StyleComplexSelector* complexSel);
 
   static inline ::UnityEngine::UIElements::AncestorFilter* New_ctor();
 
-  /// @brief Method PopElement, addr 0x4a14b84, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PopElement, addr 0x4a177dc, size 0xf0, virtual false, abstract: false, final false
   inline void PopElement();
 
-  /// @brief Method PushElement, addr 0x4a14954, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method PushElement, addr 0x4a175ac, size 0x230, virtual false, abstract: false, final false
   inline void PushElement(::UnityEngine::UIElements::VisualElement* element);
 
   constexpr ::UnityEngine::UIElements::CountingBloomFilter const& __cordl_internal_get_m_CountingBloomFilter() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_m_HashStack(::System::Collections::Generic::Stack_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x4a147e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a17440, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   AncestorFilter(AncestorFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5731 };
 
   /// @brief Field m_CountingBloomFilter, offset: 0x10, size: 0x4000, def value: None
   ::UnityEngine::UIElements::CountingBloomFilter ___m_CountingBloomFilter;

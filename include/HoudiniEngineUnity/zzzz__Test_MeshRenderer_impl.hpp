@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_MeshRenderer::*)(::UnityEngine::MeshRenderer*)>(
     &::HoudiniEngineUnity::Test_MeshRenderer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a9c75c;
+  constexpr static std::size_t addrs = 0x3a9efc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_MeshRenderer::*)()>(&::HoudiniEngineUnity::Test_MeshRenderer::IsNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a9c784;
+  constexpr static std::size_t addrs = 0x3a9efe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_MeshRenderer*>::get(), "IsNull",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_MeshRenderer::*)(::HoudiniEngineUnity::Test_MeshRenderer*)>(
     &::HoudiniEngineUnity::Test_MeshRenderer::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3a9c7e4;
+  constexpr static std::size_t addrs = 0x3a9f048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

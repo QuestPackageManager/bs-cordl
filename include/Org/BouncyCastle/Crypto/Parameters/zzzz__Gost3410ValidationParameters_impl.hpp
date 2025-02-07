@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23be078;
+  constexpr static std::size_t addrs = 0x23bfa74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::*)(int64_t, int64_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23be0a4;
+  constexpr static std::size_t addrs = 0x23bfaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::get_C)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23be0d0;
+  constexpr static std::size_t addrs = 0x23bfacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::get_X0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23be0d8;
+  constexpr static std::size_t addrs = 0x23bfad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::get_CL)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23be0e0;
+  constexpr static std::size_t addrs = 0x23bfadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::get_X0L)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23be0e8;
+  constexpr static std::size_t addrs = 0x23bfae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x23be0f0;
+  constexpr static std::size_t addrs = 0x23bfaec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x23be1b8;
+  constexpr static std::size_t addrs = 0x23bfbb4;
 
   inline static ::MethodInfo const* methodInfo() {
 

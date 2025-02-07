@@ -43,32 +43,32 @@ public:
   /// @brief Field _constructionActivator, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__constructionActivator, put = setStaticF__constructionActivator)) ::System::Runtime::Remoting::Activation::IActivator* _constructionActivator;
 
-  /// @brief Method Activate, addr 0x3cdcfb0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x3cdfc08, size 0x224, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessage* Activate(::System::Runtime::Remoting::Proxies::RemotingProxy* proxy,
                                                                            ::System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall);
 
-  /// @brief Method AllocateUninitializedClassInstance, addr 0x3ce63f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AllocateUninitializedClassInstance, addr 0x3ce9048, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* AllocateUninitializedClassInstance(::System::Type* type);
 
-  /// @brief Method CreateConstructionCall, addr 0x3cdb7c4, size 0x9c8, virtual false, abstract: false, final false
+  /// @brief Method CreateConstructionCall, addr 0x3cde41c, size 0x9c8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* CreateConstructionCall(::System::Type* type, ::StringW activationUrl,
                                                                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method CreateInstanceFromMessage, addr 0x3ce5ff4, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method CreateInstanceFromMessage, addr 0x3ce8c4c, size 0x3fc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessage* CreateInstanceFromMessage(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
-  /// @brief Method CreateProxyForType, addr 0x3ce63f4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateProxyForType, addr 0x3ce904c, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Object* CreateProxyForType(::System::Type* type);
 
-  /// @brief Method EnableProxyActivation, addr 0x3ce6528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnableProxyActivation, addr 0x3ce9180, size 0x8, virtual false, abstract: false, final false
   static inline void EnableProxyActivation(::System::Type* type, bool enable);
 
-  /// @brief Method RemoteActivate, addr 0x3ce5dd0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method RemoteActivate, addr 0x3ce8a28, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessage* RemoteActivate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   static inline ::System::Runtime::Remoting::Activation::IActivator* getStaticF__constructionActivator();
 
-  /// @brief Method get_ConstructionActivator, addr 0x3ce5d3c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_ConstructionActivator, addr 0x3ce8994, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Activation::IActivator* get_ConstructionActivator();
 
   static inline void setStaticF__constructionActivator(::System::Runtime::Remoting::Activation::IActivator* value);

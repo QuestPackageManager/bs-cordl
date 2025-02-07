@@ -80,12 +80,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x261136c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2612d68, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Org::BouncyCastle::Asn1::X509::RevokedCertificatesEnumeration_TbsCertificateList_RevokedCertificatesEnumerator* New_ctor(::System::Collections::IEnumerator* e);
 
-  /// @brief Method Reset, addr 0x261140c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2612e08, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::IEnumerator* const& __cordl_internal_get_e() const;
@@ -94,10 +94,10 @@ public:
 
   constexpr void __cordl_internal_set_e(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x2611344, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612d40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerator* e);
 
-  /// @brief Method get_Current, addr 0x26114b0, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2612eac, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -146,7 +146,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x2611268, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x2612c64, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList_RevokedCertificatesEnumeration* New_ctor(::System::Collections::IEnumerable* en);
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set_en(::System::Collections::IEnumerable* value);
 
-  /// @brief Method .ctor, addr 0x2611230, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612c2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* en);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -238,21 +238,21 @@ public:
   /// @brief Field version, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x2610984, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2612380, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x261099c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2612398, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetRevokedCertificateEnumeration, addr 0x2611198, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetRevokedCertificateEnumeration, addr 0x2612b94, size 0x98, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
 
-  /// @brief Method GetRevokedCertificates, addr 0x261104c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetRevokedCertificates, addr 0x2612a48, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CrlEntry*, ::Array<::Org::BouncyCastle::Asn1::X509::CrlEntry*>*> GetRevokedCertificates();
 
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2611260, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2612c5c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& __cordl_internal_get_crlExtensions() const;
@@ -303,28 +303,28 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x2610b18, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612514, size 0x4e8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Extensions, addr 0x2611258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x2612c54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_Issuer, addr 0x2611034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x2612a30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_NextUpdate, addr 0x2611044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x2612a40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
 
-  /// @brief Method get_Signature, addr 0x261102c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x2612a28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Signature();
 
-  /// @brief Method get_ThisUpdate, addr 0x261103c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ThisUpdate, addr 0x2612a38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
 
-  /// @brief Method get_Version, addr 0x2611000, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x26129fc, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_VersionNumber, addr 0x2611024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VersionNumber, addr 0x2612a20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_VersionNumber();
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::GC::GetCollectionCount)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e25bec;
+  constexpr static std::size_t addrs = 0x3e28844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::GC::GetMaxGeneration)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e25bf0;
+  constexpr static std::size_t addrs = 0x3e28848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::GC*>::get(), "GetMaxGeneration",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::System::GC::InternalCollect)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e25bf4;
+  constexpr static std::size_t addrs = 0x3e2884c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*>)>(&::System::GC::register_ephemeron_array)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e25bf8;
+  constexpr static std::size_t addrs = 0x3e28850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)()>(&::System::GC::get_ephemeron_tombstone)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e25bfc;
+  constexpr static std::size_t addrs = 0x3e28854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::GC*>::get(), "get_ephemeron_tombstone",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<uint32_t>, ::ByRef<uint64_t>, ::ByRef<uint32_t>, ::ByRef<::System::UIntPtr>, ::ByRef<::System::UIntPtr>)>(&::System::GC::GetMemoryInfo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e25c00;
+  constexpr static std::size_t addrs = 0x3e28858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::GC::Collect)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3e25c1c;
+  constexpr static std::size_t addrs = 0x3e28874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::GC*>::get(), "Collect",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::GC::CollectionCount)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3e25cb8;
+  constexpr static std::size_t addrs = 0x3e28910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::GC::KeepAlive)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e25d74;
+  constexpr static std::size_t addrs = 0x3e289cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::GC::get_MaxGeneration)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e25c6c;
+  constexpr static std::size_t addrs = 0x3e288c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::GC*>::get(), "get_MaxGeneration",
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::GC::_SuppressFinalize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e25d78;
+  constexpr static std::size_t addrs = 0x3e289d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::GC::SuppressFinalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3e25d7c;
+  constexpr static std::size_t addrs = 0x3e289d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::GC::_ReRegisterForFinalize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e25e1c;
+  constexpr static std::size_t addrs = 0x3e28a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::GC::ReRegisterForFinalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3e25e20;
+  constexpr static std::size_t addrs = 0x3e28a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

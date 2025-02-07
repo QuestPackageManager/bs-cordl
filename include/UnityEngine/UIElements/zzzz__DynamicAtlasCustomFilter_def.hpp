@@ -30,12 +30,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE DynamicAtlasCustomFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4970110, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4972d68, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::UnityEngine::Texture2D* texture, ::ByRef<::UnityEngine::UIElements::DynamicAtlasFilters> filtersToApply);
 
   static inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4970070, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4972cc8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -53,7 +53,7 @@ public:
   DynamicAtlasCustomFilter(DynamicAtlasCustomFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

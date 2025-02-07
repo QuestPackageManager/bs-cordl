@@ -71,13 +71,13 @@ public:
 
   static inline ::TMPro::KerningTable___c* New_ctor();
 
-  /// @brief Method <SortKerningPairs>b__7_0, addr 0x47d6ba0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortKerningPairs>b__7_0, addr 0x47d97f8, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortKerningPairs_b__7_0(::TMPro::KerningPair* s);
 
-  /// @brief Method <SortKerningPairs>b__7_1, addr 0x47d6bb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortKerningPairs>b__7_1, addr 0x47d9810, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortKerningPairs_b__7_1(::TMPro::KerningPair* s);
 
-  /// @brief Method .ctor, addr 0x47d6b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d97f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::KerningTable___c* getStaticF___9();
@@ -107,7 +107,7 @@ public:
   KerningTable___c(KerningTable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14485 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,7 +130,7 @@ public:
 
   static inline ::TMPro::KerningTable___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <AddKerningPair>b__0, addr 0x47d6bd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddKerningPair>b__0, addr 0x47d9828, size 0x3c, virtual false, abstract: false, final false
   inline bool _AddKerningPair_b__0(::TMPro::KerningPair* item);
 
   constexpr uint32_t const& __cordl_internal_get_first() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_second(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x47d65d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d9230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +163,7 @@ public:
   KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14486 };
 
   /// @brief Field first, offset: 0x10, size: 0x4, def value: None
   uint32_t ___first;
@@ -196,7 +196,7 @@ public:
 
   static inline ::TMPro::KerningTable___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <AddGlyphPairAdjustmentRecord>b__0, addr 0x47d6c0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddGlyphPairAdjustmentRecord>b__0, addr 0x47d9864, size 0x3c, virtual false, abstract: false, final false
   inline bool _AddGlyphPairAdjustmentRecord_b__0(::TMPro::KerningPair* item);
 
   constexpr uint32_t const& __cordl_internal_get_first() const;
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set_second(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x47d67cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d9424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,7 +229,7 @@ public:
   KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14487 };
 
   /// @brief Field first, offset: 0x10, size: 0x4, def value: None
   uint32_t ___first;
@@ -262,7 +262,7 @@ public:
 
   static inline ::TMPro::KerningTable___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <RemoveKerningPair>b__0, addr 0x47d6c48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <RemoveKerningPair>b__0, addr 0x47d98a0, size 0x3c, virtual false, abstract: false, final false
   inline bool _RemoveKerningPair_b__0(::TMPro::KerningPair* item);
 
   constexpr int32_t const& __cordl_internal_get_left() const;
@@ -277,7 +277,7 @@ public:
 
   constexpr void __cordl_internal_set_right(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47d68f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d9548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -295,7 +295,7 @@ public:
   KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14488 };
 
   /// @brief Field left, offset: 0x10, size: 0x4, def value: None
   int32_t ___left;
@@ -331,24 +331,24 @@ public:
   /// @brief Field kerningPairs, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_kerningPairs, put = __cordl_internal_set_kerningPairs)) ::System::Collections::Generic::List_1<::TMPro::KerningPair*>* kerningPairs;
 
-  /// @brief Method AddGlyphPairAdjustmentRecord, addr 0x47d65e0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method AddGlyphPairAdjustmentRecord, addr 0x47d9238, size 0x1ec, virtual false, abstract: false, final false
   inline int32_t AddGlyphPairAdjustmentRecord(uint32_t first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint32_t second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
 
-  /// @brief Method AddKerningPair, addr 0x47d642c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method AddKerningPair, addr 0x47d9084, size 0x1ac, virtual false, abstract: false, final false
   inline int32_t AddKerningPair(uint32_t first, uint32_t second, float_t offset);
 
-  /// @brief Method AddKerningPair, addr 0x47d6258, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method AddKerningPair, addr 0x47d8eb0, size 0x1d4, virtual false, abstract: false, final false
   inline void AddKerningPair();
 
   static inline ::TMPro::KerningTable* New_ctor();
 
-  /// @brief Method RemoveKerningPair, addr 0x47d68f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveKerningPair, addr 0x47d9550, size 0x58, virtual false, abstract: false, final false
   inline void RemoveKerningPair(int32_t index);
 
-  /// @brief Method RemoveKerningPair, addr 0x47d67d4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method RemoveKerningPair, addr 0x47d942c, size 0x11c, virtual false, abstract: false, final false
   inline void RemoveKerningPair(int32_t left, int32_t right);
 
-  /// @brief Method SortKerningPairs, addr 0x47d6950, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortKerningPairs, addr 0x47d95a8, size 0x1ec, virtual false, abstract: false, final false
   inline void SortKerningPairs();
 
   constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>* const& __cordl_internal_get_kerningPairs() const;
@@ -357,7 +357,7 @@ public:
 
   constexpr void __cordl_internal_set_kerningPairs(::System::Collections::Generic::List_1<::TMPro::KerningPair*>* value);
 
-  /// @brief Method .ctor, addr 0x47d5af0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d8748, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -375,7 +375,7 @@ public:
   KerningTable(KerningTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14489 };
 
   /// @brief Field kerningPairs, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::KerningPair*>* ___kerningPairs;

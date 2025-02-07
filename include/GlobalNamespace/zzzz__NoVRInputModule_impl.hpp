@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::NoVRInputModule::add_onProcessMousePressEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aed448;
+  constexpr static std::size_t addrs = 0x4af00a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::NoVRInputModule::remove_onProcessMousePressEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aed4f8;
+  constexpr static std::size_t addrs = 0x4af0150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::GlobalNamespace::NoVRInputModule::add_pointerDidClickEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aed5a8;
+  constexpr static std::size_t addrs = 0x4af0200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::GlobalNamespace::NoVRInputModule::remove_pointerDidClickEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aed658;
+  constexpr static std::size_t addrs = 0x4af02b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)()>(&::GlobalNamespace::NoVRInputModule::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aed708;
+  constexpr static std::size_t addrs = 0x4af0360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoVRInputModule*>::get(), ".ctor",

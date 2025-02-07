@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData::*)()>(
     &::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData::get_ps4TrophyId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea230;
+  constexpr static std::size_t addrs = 0x26ebc2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData::*)()>(
     &::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData::get_achievementId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26e9fcc;
+  constexpr static std::size_t addrs = 0x26eb9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::AchievementSO> (::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData::*)()>(
     &::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData::get_achievement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea238;
+  constexpr static std::size_t addrs = 0x26ebc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData::*)()>(
     &::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea240;
+  constexpr static std::size_t addrs = 0x26ebc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::SonyAchievementIdsModelSO_AchievementIdData*>* (
     ::GlobalNamespace::SonyAchievementIdsModelSO::*)()>(&::GlobalNamespace::SonyAchievementIdsModelSO::get_achievementsIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9d94;
+  constexpr static std::size_t addrs = 0x26eb790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyAchievementIdsModelSO*>::get(),
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyAchievementIdsModelSO::*)()>(&::GlobalNamespace::SonyAchievementIdsModelSO::OnEnable)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x26e9d9c;
+  constexpr static std::size_t addrs = 0x26eb798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyAchievementIdsModelSO::*)(::StringW, ::ByRef<int32_t>)>(
     &::GlobalNamespace::SonyAchievementIdsModelSO::GetTrophyId)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26e9fe8;
+  constexpr static std::size_t addrs = 0x26eb9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyAchievementIdsModelSO*>::get(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::GlobalNamespace::SonyAchievementIdsModelSO::*)()>(
     &::GlobalNamespace::SonyAchievementIdsModelSO::GetTrophyIds)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x26ea050;
+  constexpr static std::size_t addrs = 0x26eba4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyAchievementIdsModelSO*>::get(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyAchievementIdsModelSO::*)(int32_t, ::ByRef<::StringW>)>(
     &::GlobalNamespace::SonyAchievementIdsModelSO::GetAchievementId)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26ea0bc;
+  constexpr static std::size_t addrs = 0x26ebab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyAchievementIdsModelSO::*)()>(&::GlobalNamespace::SonyAchievementIdsModelSO::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x26ea124;
+  constexpr static std::size_t addrs = 0x26ebb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyAchievementIdsModelSO*>::get(), ".ctor",

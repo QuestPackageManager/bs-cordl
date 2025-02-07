@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(&::GlobalNamespace::MultiplayerLobbyAnalytics::Awake)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3acf534;
+  constexpr static std::size_t addrs = 0x3ad1d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAnalytics*>::get(), "Awake",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(&::GlobalNamespace::MultiplayerLobbyAnalytics::OnDestroy)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3acf6bc;
+  constexpr static std::size_t addrs = 0x3ad1f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAnalytics*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::HandleGameServerLobbyFlowCoordinatorDidSetupEvent)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3acf890;
+  constexpr static std::size_t addrs = 0x3ad20f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::HandleGameServerLobbyFlowCoordinatorDidFinish)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3acfa74;
+  constexpr static std::size_t addrs = 0x3ad22d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::HandleGameServerLobbyFlowCoordinatorStartGameOrReady)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3acfc54;
+  constexpr static std::size_t addrs = 0x3ad24b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3acfd60;
+  constexpr static std::size_t addrs = 0x3ad25c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::MultiplayerLobbyAnalytics::LogClick)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3acfb80;
+  constexpr static std::size_t addrs = 0x3ad23e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerLobbyAnalytics::*)(
     ::GlobalNamespace::GameServerLobbyFlowCoordinatorBase_LobbyType)>(&::GlobalNamespace::MultiplayerLobbyAnalytics::GetEventTypeFromLobbyType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3acf9f4;
+  constexpr static std::size_t addrs = 0x3ad2258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(&::GlobalNamespace::MultiplayerLobbyAnalytics::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acfe6c;
+  constexpr static std::size_t addrs = 0x3ad26d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyAnalytics*>::get(), ".ctor",

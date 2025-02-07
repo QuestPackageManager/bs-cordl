@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x49afd78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x49b29d0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color __cctor_b__2_0(::UnityEngine::Color c);
 
-  /// @brief Method .ctor, addr 0x49afd70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b29c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c* getStaticF___9();
@@ -64,7 +64,7 @@ public:
   ShaderInfoStorageRGBAFloat___c(ShaderInfoStorageRGBAFloat___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -86,7 +86,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor, addr 0x49afbbc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b2814, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   static inline ::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color>* getStaticF_s_Convert();
@@ -108,7 +108,7 @@ public:
   ShaderInfoStorageRGBAFloat(ShaderInfoStorageRGBAFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

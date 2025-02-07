@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeLayersPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* value);
 
-  /// @brief Method .ctor, addr 0x3a09128, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0b98c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   HEU_VolumeCachePreset(HEU_VolumeCachePreset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11598 };
 
   /// @brief Field _objName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____objName;

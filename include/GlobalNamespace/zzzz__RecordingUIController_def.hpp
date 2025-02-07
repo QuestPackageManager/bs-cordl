@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_recordingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3baa9c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bad520, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool recordingEnabled);
 
 protected:
@@ -59,7 +59,7 @@ public:
   RecordingUIController_InitData(RecordingUIController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4416 };
 
   /// @brief Field recordingEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___recordingEnabled;
@@ -93,12 +93,12 @@ public:
   /// @brief Field _updateTimeSpan, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
 
-  /// @brief Method Init, addr 0x3baa8c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bad424, size 0x80, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::RecordingUIController* New_ctor();
 
-  /// @brief Method Update, addr 0x3baa944, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bad4a4, size 0x6c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__circle() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__updateTimeSpan(float_t value);
 
-  /// @brief Method .ctor, addr 0x3baa9b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bad510, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -143,7 +143,7 @@ public:
   RecordingUIController(RecordingUIController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4417 };
 
   /// @brief Field _circle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____circle;

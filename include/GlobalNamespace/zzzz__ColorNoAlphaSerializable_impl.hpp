@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoAlphaSerializable::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorNoAlphaSerializable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2725184;
+  constexpr static std::size_t addrs = 0x2726bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoAlphaSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ColorNoAlphaSerializable::Serialize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2725190;
+  constexpr static std::size_t addrs = 0x2726bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoAlphaSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ColorNoAlphaSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x27251e0;
+  constexpr static std::size_t addrs = 0x2726c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::GlobalNamespace::ColorNoAlphaSerializable)>(
     &::GlobalNamespace::ColorNoAlphaSerializable::op_Implicit___UnityEngine__Color)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x272523c;
+  constexpr static std::size_t addrs = 0x2726c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorNoAlphaSerializable (*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorNoAlphaSerializable::op_Implicit___GlobalNamespace__ColorNoAlphaSerializable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2725240;
+  constexpr static std::size_t addrs = 0x2726c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ColorNoAlphaSerializable::*)(::GlobalNamespace::ColorNoAlphaSerializable)>(
     &::GlobalNamespace::ColorNoAlphaSerializable::Equals)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2725244;
+  constexpr static std::size_t addrs = 0x2726c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ColorNoAlphaSerializable::*)(::System::Object*)>(
     &::GlobalNamespace::ColorNoAlphaSerializable::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2725348;
+  constexpr static std::size_t addrs = 0x2726d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ColorNoAlphaSerializable::*)()>(
     &::GlobalNamespace::ColorNoAlphaSerializable::GetHashCode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x27253c4;
+  constexpr static std::size_t addrs = 0x2726e08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ColorNoAlphaSerializable::*)()>(
     &::GlobalNamespace::ColorNoAlphaSerializable::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2725448;
+  constexpr static std::size_t addrs = 0x2726e8c;
 
   inline static ::MethodInfo const* methodInfo() {
 

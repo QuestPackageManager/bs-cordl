@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Pkix::PkixCrlUtilities::*)(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*, ::Org::BouncyCastle::Pkix::PkixParameters*, ::System::DateTime)>(
     &::Org::BouncyCastle::Pkix::PkixCrlUtilities::FindCrls)> {
   constexpr static std::size_t size = 0x798;
-  constexpr static std::size_t addrs = 0x258197c;
+  constexpr static std::size_t addrs = 0x2583378;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Pkix::PkixCrlUtilities::*)(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::PkixCrlUtilities::FindCrls)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x258268c;
+  constexpr static std::size_t addrs = 0x2584088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (
     ::Org::BouncyCastle::Pkix::PkixCrlUtilities::*)(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*, ::System::Collections::IList*)>(&::Org::BouncyCastle::Pkix::PkixCrlUtilities::FindCrls)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x2582114;
+  constexpr static std::size_t addrs = 0x2583b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixCrlUtilities::*)()>(&::Org::BouncyCastle::Pkix::PkixCrlUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x258196c;
+  constexpr static std::size_t addrs = 0x2583368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixCrlUtilities*>::get(), ".ctor",

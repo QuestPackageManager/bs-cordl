@@ -57,16 +57,16 @@ public:
 
   constexpr void __cordl_internal_set__parentIndex(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3cf6968, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf95c0, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int32_t, ::Array<int32_t>*> parentIndex);
 
-  /// @brief Method get_ContainerID, addr 0x3cf6aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerID, addr 0x3cf9704, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContainerID();
 
-  /// @brief Method get_ParentField, addr 0x3cf6ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentField, addr 0x3cf970c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::FieldInfo* get_ParentField();
 
-  /// @brief Method get_ParentIndex, addr 0x3cf6abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentIndex, addr 0x3cf9714, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_ParentIndex();
 
 protected:

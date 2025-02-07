@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::*)()>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abca4;
+  constexpr static std::size_t addrs = 0x26ad6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::*)(::GlobalNamespace::BeatmapDataItem*)>(
         &::GlobalNamespace::BeatmapDataObstaclesMergingTransform___c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x26abd3c;
+  constexpr static std::size_t addrs = 0x26ad738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x26abaf0;
+  constexpr static std::size_t addrs = 0x26ad4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::ObstacleData*, ::GlobalNamespace::ObstacleData*)>(
     &::GlobalNamespace::BeatmapDataObstaclesMergingTransform::CanBeMerged)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26abcac;
+  constexpr static std::size_t addrs = 0x26ad6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

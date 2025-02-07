@@ -49,10 +49,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3babce8, size 0x2d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bae848, size 0x2d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3babfbc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3baeb1c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -70,7 +70,7 @@ public:
                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Init::GameVersion*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4423 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -136,10 +136,10 @@ public:
 
   static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
 
-  /// @brief Method SetText, addr 0x3bab9a4, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x3bae504, size 0x324, virtual false, abstract: false, final false
   inline void SetText(::BeatSaber::Init::GameVersion* gameVersion);
 
-  /// @brief Method Start, addr 0x3bab914, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bae474, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__buildIdText() const;
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x3babcc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae828, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -208,7 +208,7 @@ public:
   SetApplicationVersionText(SetApplicationVersionText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4424 };
 
   /// @brief Field _versionText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____versionText;

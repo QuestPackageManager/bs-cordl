@@ -59,27 +59,27 @@ public:
   /// @brief Field _ySensitivity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__ySensitivity, put = __cordl_internal_set__ySensitivity)) float_t _ySensitivity;
 
-  /// @brief Method ClampRotationAroundXAxis, addr 0x3b10e50, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClampRotationAroundXAxis, addr 0x3b139b0, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
 
-  /// @brief Method Init, addr 0x3b1012c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b12c8c, size 0x6c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* character);
 
-  /// @brief Method InternalLockUpdate, addr 0x3b10ec4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method InternalLockUpdate, addr 0x3b13a24, size 0xe4, virtual false, abstract: false, final false
   inline void InternalLockUpdate();
 
-  /// @brief Method LookRotation, addr 0x3b107d4, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x3b13334, size 0x3a8, virtual false, abstract: false, final false
   inline void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
   static inline ::GlobalNamespace::MouseLook* New_ctor();
 
-  /// @brief Method SetCursorLock, addr 0x3b10198, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetCursorLock, addr 0x3b12cf8, size 0x34, virtual false, abstract: false, final false
   inline void SetCursorLock(bool value);
 
-  /// @brief Method SetRotations, addr 0x3b10e3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRotations, addr 0x3b1399c, size 0x14, virtual false, abstract: false, final false
   inline void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
 
-  /// @brief Method UpdateCursorLock, addr 0x3b10eb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateCursorLock, addr 0x3b13a14, size 0x10, virtual false, abstract: false, final false
   inline void UpdateCursorLock();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__cameraTargetRot() const;
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set__ySensitivity(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b10d14, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b13874, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,7 +166,7 @@ public:
   MouseLook(MouseLook const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5035 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5036 };
 
   /// @brief Field _xSensitivity, offset: 0x10, size: 0x4, def value: None
   float_t ____xSensitivity;

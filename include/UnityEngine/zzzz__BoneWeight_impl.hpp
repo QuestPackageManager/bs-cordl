@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4891688;
+  constexpr static std::size_t addrs = 0x48942e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_weight0",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4891690;
+  constexpr static std::size_t addrs = 0x48942e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4891698;
+  constexpr static std::size_t addrs = 0x48942f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_weight1",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916a0;
+  constexpr static std::size_t addrs = 0x48942f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916a8;
+  constexpr static std::size_t addrs = 0x4894300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_weight2",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916b0;
+  constexpr static std::size_t addrs = 0x4894308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916b8;
+  constexpr static std::size_t addrs = 0x4894310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_weight3",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916c0;
+  constexpr static std::size_t addrs = 0x4894318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916c8;
+  constexpr static std::size_t addrs = 0x4894320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_boneIndex0",
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916d0;
+  constexpr static std::size_t addrs = 0x4894328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916d8;
+  constexpr static std::size_t addrs = 0x4894330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_boneIndex1",
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916e0;
+  constexpr static std::size_t addrs = 0x4894338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916e8;
+  constexpr static std::size_t addrs = 0x4894340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_boneIndex2",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916f0;
+  constexpr static std::size_t addrs = 0x4894348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48916f8;
+  constexpr static std::size_t addrs = 0x4894350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_boneIndex3",
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4891700;
+  constexpr static std::size_t addrs = 0x4894358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4891708;
+  constexpr static std::size_t addrs = 0x4894360;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::BoneWeight::*)(::System::Object*)>(&::UnityEngine::BoneWeight::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4891810;
+  constexpr static std::size_t addrs = 0x4894468;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::BoneWeight::*)(::UnityEngine::BoneWeight)>(&::UnityEngine::BoneWeight::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4891898;
+  constexpr static std::size_t addrs = 0x48944f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

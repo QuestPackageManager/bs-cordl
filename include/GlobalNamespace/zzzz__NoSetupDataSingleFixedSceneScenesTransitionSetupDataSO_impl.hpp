@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229a8e8;
+  constexpr static std::size_t addrs = 0x229c194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229a8e0;
+  constexpr static std::size_t addrs = 0x229c18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3afe1c8;
+  constexpr static std::size_t addrs = 0x3b00d28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3afe334;
+  constexpr static std::size_t addrs = 0x3b00e94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)()>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3afe3c4;
+  constexpr static std::size_t addrs = 0x3b00f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)(bool)>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::HandleEnabledChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afe3ec;
+  constexpr static std::size_t addrs = 0x3b00f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::SmoothCameraSettingsViewController::HandleFovChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3afe40c;
+  constexpr static std::size_t addrs = 0x3b00f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)()>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afe428;
+  constexpr static std::size_t addrs = 0x3b00f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSettingsViewController*>::get(),

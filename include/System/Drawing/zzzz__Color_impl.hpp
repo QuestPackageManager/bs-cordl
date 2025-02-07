@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_R)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4212e2c;
+  constexpr static std::size_t addrs = 0x4215a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Color>::get(), "get_R",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_G)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4212e74;
+  constexpr static std::size_t addrs = 0x4215acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Color>::get(), "get_G",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_B)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4212e88;
+  constexpr static std::size_t addrs = 0x4215ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Color>::get(), "get_B",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_A)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4212e98;
+  constexpr static std::size_t addrs = 0x4215af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Color>::get(), "get_A",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_IsKnownColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4212eac;
+  constexpr static std::size_t addrs = 0x4215b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Color>::get(), "get_IsKnownColor",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_Name)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4212eb8;
+  constexpr static std::size_t addrs = 0x4215b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Color>::get(), "get_Name",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_Value)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4212e40;
+  constexpr static std::size_t addrs = 0x4215a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Color>::get(), "get_Value",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Drawing::Color::*)()>(&::System::Drawing::Color::ToString)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x4212f44;
+  constexpr static std::size_t addrs = 0x4215b9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Drawing::Color, ::System::Drawing::Color)>(&::System::Drawing::Color::op_Equality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x421317c;
+  constexpr static std::size_t addrs = 0x4215dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::Color::*)(::System::Object*)>(&::System::Drawing::Color::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x42131c4;
+  constexpr static std::size_t addrs = 0x4215e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::Color::*)(::System::Drawing::Color)>(&::System::Drawing::Color::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4213254;
+  constexpr static std::size_t addrs = 0x4215eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::GetHashCode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x421329c;
+  constexpr static std::size_t addrs = 0x4215ef4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -55,38 +55,38 @@ public:
   /// @brief Field pFinder, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_pFinder, put = __cordl_internal_set_pFinder)) ::Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder;
 
-  /// @brief Method GetCurveParameters, addr 0x2551b9c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetCurveParameters, addr 0x2553598, size 0xc4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetCurveParameters(::StringW name);
 
   static inline ::Org::BouncyCastle::OpenSsl::PemReader* New_ctor(::System::IO::TextReader* reader);
 
   static inline ::Org::BouncyCastle::OpenSsl::PemReader* New_ctor(::System::IO::TextReader* reader, ::Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder);
 
-  /// @brief Method ReadAttributeCertificate, addr 0x2551a9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadAttributeCertificate, addr 0x2553498, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttributeCertificate(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
 
-  /// @brief Method ReadCertificate, addr 0x25516d0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ReadCertificate, addr 0x25530cc, size 0x15c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* ReadCertificate(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
 
-  /// @brief Method ReadCertificateRequest, addr 0x255158c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadCertificateRequest, addr 0x2552f88, size 0x144, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* ReadCertificateRequest(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
 
-  /// @brief Method ReadCrl, addr 0x2551940, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ReadCrl, addr 0x255333c, size 0x15c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
 
-  /// @brief Method ReadObject, addr 0x254fe44, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x2551840, size 0x4cc, virtual false, abstract: false, final false
   inline ::System::Object* ReadObject();
 
-  /// @brief Method ReadPkcs7, addr 0x255182c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ReadPkcs7, addr 0x2553228, size 0x114, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ReadPkcs7(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
 
-  /// @brief Method ReadPrivateKey, addr 0x2550310, size 0x11d8, virtual false, abstract: false, final false
+  /// @brief Method ReadPrivateKey, addr 0x2551d0c, size 0x11d8, virtual false, abstract: false, final false
   inline ::System::Object* ReadPrivateKey(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
 
-  /// @brief Method ReadPublicKey, addr 0x25514e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadPublicKey, addr 0x2552ee4, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ReadPublicKey(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
 
-  /// @brief Method ReadRsaPublicKey, addr 0x2551504, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ReadRsaPublicKey, addr 0x2552f00, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ReadRsaPublicKey(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* pemObject);
 
   constexpr ::Org::BouncyCastle::OpenSsl::IPasswordFinder* const& __cordl_internal_get_pFinder() const;
@@ -95,10 +95,10 @@ public:
 
   constexpr void __cordl_internal_set_pFinder(::Org::BouncyCastle::OpenSsl::IPasswordFinder* value);
 
-  /// @brief Method .ctor, addr 0x254fe08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2551804, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method .ctor, addr 0x254fe20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255181c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader, ::Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder);
 
 protected:

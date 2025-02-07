@@ -112,7 +112,7 @@ public:
   NavigationEventBase_1(NavigationEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5886 };
 
   /// @brief Field <modifiers>k__BackingField, offset: 0x84, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;

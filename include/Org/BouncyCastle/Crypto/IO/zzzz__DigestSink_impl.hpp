@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestSink::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::IO::DigestSink::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2390c78;
+  constexpr static std::size_t addrs = 0x2392674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::IO::DigestSink::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestSink::get_Digest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2390ca0;
+  constexpr static std::size_t addrs = 0x239269c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestSink::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::IO::DigestSink::WriteByte)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2390ca8;
+  constexpr static std::size_t addrs = 0x23926a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestSink::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::DigestSink::Write)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2390d54;
+  constexpr static std::size_t addrs = 0x2392750;
 
   inline static ::MethodInfo const* methodInfo() {
 

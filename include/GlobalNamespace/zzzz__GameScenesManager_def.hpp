@@ -262,7 +262,7 @@ public:
   static ::GlobalNamespace::GameScenesManager_SceneTransitionType const Replace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17608 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -298,7 +298,7 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager_ScenesStackData* New_ctor(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method SetDiContainer, addr 0x22984d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDiContainer, addr 0x2299d80, size 0x8, virtual false, abstract: false, final false
   inline void SetDiContainer(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container_k__BackingField() const;
@@ -313,19 +313,19 @@ public:
 
   constexpr void __cordl_internal_set__sceneNames_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x22953a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2296c4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method get_container, addr 0x22984c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_container, addr 0x2299d70, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_container();
 
-  /// @brief Method get_sceneNames, addr 0x22984b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneNames, addr 0x2299d60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_sceneNames();
 
-  /// @brief Method set_container, addr 0x22984cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_container, addr 0x2299d78, size 0x8, virtual false, abstract: false, final false
   inline void set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method set_sceneNames, addr 0x22984bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sceneNames, addr 0x2299d68, size 0x8, virtual false, abstract: false, final false
   inline void set_sceneNames(::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -343,7 +343,7 @@ public:
   GameScenesManager_ScenesStackData(GameScenesManager_ScenesStackData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17609 };
 
   /// @brief Field <sceneNames>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____sceneNames_k__BackingField;
@@ -408,7 +408,7 @@ public:
   static ::GlobalNamespace::GameScenesManager_ScenePresentType const LoadAndDoNotActivate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -467,7 +467,7 @@ public:
   static ::GlobalNamespace::GameScenesManager_SceneDismissType const Unload;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17611 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -505,10 +505,10 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass40_0* New_ctor();
 
-  /// @brief Method <PushScenes>b__0, addr 0x22984dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <PushScenes>b__0, addr 0x2299d88, size 0x6c, virtual false, abstract: false, final false
   inline void _PushScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <PushScenes>b__1, addr 0x2298674, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <PushScenes>b__1, addr 0x2299f20, size 0x7c, virtual false, abstract: false, final false
   inline void _PushScenes_b__1(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -535,7 +535,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2295ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229736c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -553,7 +553,7 @@ public:
   GameScenesManager___c__DisplayClass40_0(GameScenesManager___c__DisplayClass40_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17612 };
 
   /// @brief Field scenesStackData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameScenesManager_ScenesStackData* ___scenesStackData;
@@ -596,7 +596,7 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass41_0* New_ctor();
 
-  /// @brief Method <PopScenes>b__0, addr 0x22986f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <PopScenes>b__0, addr 0x2299f9c, size 0xac, virtual false, abstract: false, final false
   inline void _PopScenes_b__0(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -611,7 +611,7 @@ public:
 
   constexpr void __cordl_internal_set_finishCallback(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0x2295eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2297758, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -629,7 +629,7 @@ public:
   GameScenesManager___c__DisplayClass41_0(GameScenesManager___c__DisplayClass41_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17613 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
@@ -682,13 +682,13 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass42_0* New_ctor();
 
-  /// @brief Method <ReplaceScenes>b__0, addr 0x229879c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method <ReplaceScenes>b__0, addr 0x229a048, size 0x120, virtual false, abstract: false, final false
   inline void _ReplaceScenes_b__0(::Zenject::DiContainer* emptySceneContainer);
 
-  /// @brief Method <ReplaceScenes>b__1, addr 0x22988bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <ReplaceScenes>b__1, addr 0x229a168, size 0x6c, virtual false, abstract: false, final false
   inline void _ReplaceScenes_b__1(::Zenject::DiContainer* container);
 
-  /// @brief Method <ReplaceScenes>b__2, addr 0x2298928, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <ReplaceScenes>b__2, addr 0x229a1d4, size 0x7c, virtual false, abstract: false, final false
   inline void _ReplaceScenes_b__2(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -739,7 +739,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2296200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2297aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -757,7 +757,7 @@ public:
   GameScenesManager___c__DisplayClass42_0(GameScenesManager___c__DisplayClass42_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17614 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
@@ -840,13 +840,13 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass43_0* New_ctor();
 
-  /// @brief Method <ClearAndOpenScenes>b__0, addr 0x22989a4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method <ClearAndOpenScenes>b__0, addr 0x229a250, size 0x120, virtual false, abstract: false, final false
   inline void _ClearAndOpenScenes_b__0(::Zenject::DiContainer* emptySceneContainer);
 
-  /// @brief Method <ClearAndOpenScenes>b__1, addr 0x2298ac4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <ClearAndOpenScenes>b__1, addr 0x229a370, size 0x6c, virtual false, abstract: false, final false
   inline void _ClearAndOpenScenes_b__1(::Zenject::DiContainer* container);
 
-  /// @brief Method <ClearAndOpenScenes>b__2, addr 0x2298b30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <ClearAndOpenScenes>b__2, addr 0x229a3dc, size 0x7c, virtual false, abstract: false, final false
   inline void _ClearAndOpenScenes_b__2(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -897,7 +897,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2296848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22980f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -915,7 +915,7 @@ public:
   GameScenesManager___c__DisplayClass43_0(GameScenesManager___c__DisplayClass43_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
@@ -985,10 +985,10 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass44_0* New_ctor();
 
-  /// @brief Method <AppendScenes>b__0, addr 0x2298bac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <AppendScenes>b__0, addr 0x229a458, size 0x6c, virtual false, abstract: false, final false
   inline void _AppendScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <AppendScenes>b__1, addr 0x2298c18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AppendScenes>b__1, addr 0x229a4c4, size 0x7c, virtual false, abstract: false, final false
   inline void _AppendScenes_b__1(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -1015,7 +1015,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2296c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22984bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1033,7 +1033,7 @@ public:
   GameScenesManager___c__DisplayClass44_0(GameScenesManager___c__DisplayClass44_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17616 };
 
   /// @brief Field scenesStackData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameScenesManager_ScenesStackData* ___scenesStackData;
@@ -1079,10 +1079,10 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass45_0* New_ctor();
 
-  /// @brief Method <RemoveScenes>b__0, addr 0x2298c94, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <RemoveScenes>b__0, addr 0x229a540, size 0xac, virtual false, abstract: false, final false
   inline void _RemoveScenes_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method <RemoveScenes>b__1, addr 0x2298d40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <RemoveScenes>b__1, addr 0x229a5ec, size 0x64, virtual false, abstract: false, final false
   inline bool _RemoveScenes_b__1(::StringW scene);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -1103,7 +1103,7 @@ public:
 
   constexpr void __cordl_internal_set_sceneNamesToRemove(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2296fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298854, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1121,7 +1121,7 @@ public:
   GameScenesManager___c__DisplayClass45_0(GameScenesManager___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17617 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
@@ -1163,7 +1163,7 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass46_0* New_ctor();
 
-  /// @brief Method <ActivateScenes>b__0, addr 0x2298da4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <ActivateScenes>b__0, addr 0x229a650, size 0x74, virtual false, abstract: false, final false
   inline void _ActivateScenes_b__0(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -1184,7 +1184,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2297160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298a0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1202,7 +1202,7 @@ public:
   GameScenesManager___c__DisplayClass46_0(GameScenesManager___c__DisplayClass46_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17618 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
@@ -1244,7 +1244,7 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass47_0* New_ctor();
 
-  /// @brief Method <DeactivateScenes>b__0, addr 0x2298e18, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <DeactivateScenes>b__0, addr 0x229a6c4, size 0x74, virtual false, abstract: false, final false
   inline void _DeactivateScenes_b__0(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get___4__this() const;
@@ -1265,7 +1265,7 @@ public:
 
   constexpr void __cordl_internal_set_scenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2297318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298bc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1283,7 +1283,7 @@ public:
   GameScenesManager___c__DisplayClass47_0(GameScenesManager___c__DisplayClass47_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17619 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> _____4__this;
@@ -1318,7 +1318,7 @@ public:
 
   static inline ::GlobalNamespace::GameScenesManager___c__DisplayClass55_0* New_ctor();
 
-  /// @brief Method <WaitUntilTaskCompleted>b__0, addr 0x2298e94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilTaskCompleted>b__0, addr 0x229a740, size 0x1c, virtual false, abstract: false, final false
   inline bool _WaitUntilTaskCompleted_b__0();
 
   constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_task() const;
@@ -1327,7 +1327,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x2298e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229a738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1345,7 +1345,7 @@ public:
   GameScenesManager___c__DisplayClass55_0(GameScenesManager___c__DisplayClass55_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17620 };
 
   /// @brief Field task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ___task;
@@ -1390,21 +1390,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2298eb4, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229a760, size 0x118, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::GameScenesManager__LoadOneScene_d__50* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2298fcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229a878, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2298fd4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229a880, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229900c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229a8b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2298eb0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x229a75c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1431,7 +1431,7 @@ public:
 
   constexpr void __cordl_internal_set_sceneName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2297320, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298bcc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1458,7 +1458,7 @@ public:
   GameScenesManager__LoadOneScene_d__50(GameScenesManager__LoadOneScene_d__50 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1566,21 +1566,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2299054, size 0x1140, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229a900, size 0x1140, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__52* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229a234, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229bae0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229a23c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229bae8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229a274, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229bb20, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2299014, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x229a8c0, size 0x40, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1694,13 +1694,13 @@ public:
 
   constexpr void __cordl_internal_set_scenesToPresent(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x229a194, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x229ba40, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x229a1e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x229ba90, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x2297370, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298c1c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1727,7 +1727,7 @@ public:
   GameScenesManager__ScenesTransitionCoroutine_d__52(GameScenesManager__ScenesTransitionCoroutine_d__52 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17622 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1857,21 +1857,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x229a280, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229bb2c, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::GameScenesManager__UnloadOneScene_d__51* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229a3ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229bc58, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229a3b4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229bc60, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229a3ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229bc98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x229a27c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x229bb28, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1898,7 +1898,7 @@ public:
 
   constexpr void __cordl_internal_set_sceneName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2297348, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298bf4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1925,7 +1925,7 @@ public:
   GameScenesManager__UnloadOneScene_d__51(GameScenesManager__UnloadOneScene_d__51 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17623 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1985,21 +1985,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x229a3f8, size 0x204, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229bca4, size 0x204, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__55* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229a5fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x229bea8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229a604, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x229beb0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229a63c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x229bee8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x229a3f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x229bca0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -2026,7 +2026,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x22975ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2298e98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -2053,7 +2053,7 @@ public:
   GameScenesManager__WaitUntilTaskCompleted_d__55(GameScenesManager__WaitUntilTaskCompleted_d__55 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17624 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -2173,110 +2173,110 @@ public:
 
   __declspec(property(get = get_waitUntilSceneTransitionFinish)) ::UnityEngine::WaitUntil* waitUntilSceneTransitionFinish;
 
-  /// @brief Method ActivatePresentedSceneRootObjects, addr 0x2297614, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method ActivatePresentedSceneRootObjects, addr 0x2298ec0, size 0x30c, virtual false, abstract: false, final false
   static inline void ActivatePresentedSceneRootObjects(::System::Collections::Generic::List_1<::StringW>* scenesToPresent);
 
-  /// @brief Method ActivateScenes, addr 0x2296fb0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ActivateScenes, addr 0x229885c, size 0x1b0, virtual false, abstract: false, final false
   inline void ActivateScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                              ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method AppendScenes, addr 0x2296850, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method AppendScenes, addr 0x22980fc, size 0x3c0, virtual false, abstract: false, final false
   inline void AppendScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, bool activateScenes, float_t minDuration, ::System::Action* afterMinDurationCallback,
                            ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method AreAllScenesInStack, addr 0x2297a80, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AreAllScenesInStack, addr 0x229932c, size 0x150, virtual false, abstract: false, final false
   inline bool AreAllScenesInStack(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method BackupToListAndDisableCurrentEventSystem, addr 0x229743c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method BackupToListAndDisableCurrentEventSystem, addr 0x2298ce8, size 0x150, virtual false, abstract: false, final false
   inline void BackupToListAndDisableCurrentEventSystem(::ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*> list);
 
-  /// @brief Method ClearAndOpenScenes, addr 0x2296208, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method ClearAndOpenScenes, addr 0x2297ab4, size 0x640, virtual false, abstract: false, final false
   inline void ClearAndOpenScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                                  ::System::Action_1<::Zenject::DiContainer*>* finishCallback, bool unloadAllScenes);
 
-  /// @brief Method DeactivateScenes, addr 0x2297168, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method DeactivateScenes, addr 0x2298a14, size 0x1b0, virtual false, abstract: false, final false
   inline void DeactivateScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                                ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method GetCurrentlyLoadedSceneNames, addr 0x2294c44, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentlyLoadedSceneNames, addr 0x22964f0, size 0x1b0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetCurrentlyLoadedSceneNames();
 
-  /// @brief Method IsAnySceneInStack, addr 0x2297920, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method IsAnySceneInStack, addr 0x22991cc, size 0x160, virtual false, abstract: false, final false
   inline bool IsAnySceneInStack(::System::Collections::Generic::List_1<::StringW>* sceneNames);
 
-  /// @brief Method IsSceneActiveOrLoading, addr 0x2295758, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsSceneActiveOrLoading, addr 0x2297004, size 0x18, virtual false, abstract: false, final false
   inline bool IsSceneActiveOrLoading(::GlobalNamespace::SceneInfo* sceneInfo);
 
-  /// @brief Method IsSceneInStack, addr 0x22950ec, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method IsSceneInStack, addr 0x2296998, size 0x2b4, virtual false, abstract: false, final false
   inline bool IsSceneInStack(::StringW searchSceneName);
 
-  /// @brief Method LoadOneScene, addr 0x22953c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadOneScene, addr 0x2296c74, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LoadOneScene(::StringW sceneName);
 
-  /// @brief Method LoadSingleScene, addr 0x2294e78, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method LoadSingleScene, addr 0x2296724, size 0x274, virtual false, abstract: false, final false
   inline void LoadSingleScene(::GlobalNamespace::SceneInfo* sceneInfo);
 
-  /// @brief Method Log, addr 0x2298340, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x2299bec, size 0x58, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method MarkSceneAsPersistent, addr 0x2294114, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MarkSceneAsPersistent, addr 0x22959c0, size 0x58, virtual false, abstract: false, final false
   inline void MarkSceneAsPersistent(::StringW sceneName);
 
-  /// @brief Method MoveGameObjectsFromContainerToSceneRoot, addr 0x2297fc4, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method MoveGameObjectsFromContainerToSceneRoot, addr 0x2299870, size 0x37c, virtual false, abstract: false, final false
   inline void MoveGameObjectsFromContainerToSceneRoot(::StringW sceneName);
 
   static inline ::GlobalNamespace::GameScenesManager* New_ctor();
 
-  /// @brief Method PopScenes, addr 0x2295cc4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method PopScenes, addr 0x2297570, size 0x1e8, virtual false, abstract: false, final false
   inline void PopScenes(float_t minDuration, ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method PushScenes, addr 0x2295770, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method PushScenes, addr 0x229701c, size 0x350, virtual false, abstract: false, final false
   inline void PushScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, float_t minDuration, ::System::Action* afterMinDurationCallback,
                          ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method RegisterExternallyLoadedScene, addr 0x2294df4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterExternallyLoadedScene, addr 0x22966a0, size 0x84, virtual false, abstract: false, final false
   inline void
   RegisterExternallyLoadedScene(::StringW sceneName,
                                 ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> asyncOperationHandle);
 
-  /// @brief Method RemoveSceneFromStack, addr 0x229556c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RemoveSceneFromStack, addr 0x2296e18, size 0x180, virtual false, abstract: false, final false
   inline void RemoveSceneFromStack(::StringW sceneName);
 
-  /// @brief Method RemoveScenes, addr 0x2296c18, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method RemoveScenes, addr 0x22984c4, size 0x390, virtual false, abstract: false, final false
   inline void RemoveScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupDataSo, float_t minDuration, ::System::Action* afterMinDurationCallback,
                            ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method ReparentRootGameObjectsToDisabledGameObject, addr 0x2297d50, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ReparentRootGameObjectsToDisabledGameObject, addr 0x22995fc, size 0x274, virtual false, abstract: false, final false
   inline void ReparentRootGameObjectsToDisabledGameObject(::StringW sceneName);
 
-  /// @brief Method ReplaceScenes, addr 0x2295eb4, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method ReplaceScenes, addr 0x2297760, size 0x34c, virtual false, abstract: false, final false
   inline void ReplaceScenes(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
                             ::ArrayW<::System::Collections::IEnumerator*, ::Array<::System::Collections::IEnumerator*>*> beforeNewScenesActivateRoutines, float_t minDuration,
                             ::System::Action* afterMinDurationCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method SceneNamesFromSceneInfoArray, addr 0x2295ac8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SceneNamesFromSceneInfoArray, addr 0x2297374, size 0x124, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* SceneNamesFromSceneInfoArray(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> sceneInfos);
 
-  /// @brief Method ScenesTransitionCoroutine, addr 0x2295bec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ScenesTransitionCoroutine, addr 0x2297498, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator*
   ScenesTransitionCoroutine(::GlobalNamespace::ScenesTransitionSetupDataSO* newScenesTransitionSetupData, ::System::Collections::Generic::List_1<::StringW>* scenesToPresent,
                             ::GlobalNamespace::GameScenesManager_ScenePresentType presentType, ::System::Collections::Generic::List_1<::StringW>* scenesToDismiss,
                             ::GlobalNamespace::GameScenesManager_SceneDismissType dismissType, float_t minDuration, bool canTriggerGarbageCollector, ::System::Action* afterMinDurationCallback,
                             ::System::Action_1<::Zenject::DiContainer*>* extraBindingsCallback, ::System::Action_1<::Zenject::DiContainer*>* finishCallback);
 
-  /// @brief Method SetActiveRootObjectsInScenes, addr 0x2297bd0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SetActiveRootObjectsInScenes, addr 0x229947c, size 0x180, virtual false, abstract: false, final false
   inline void SetActiveRootObjectsInScenes(::System::Collections::Generic::List_1<::StringW>* sceneNames, bool value);
 
-  /// @brief Method ShouldUnloadUnusedAssets, addr 0x2297398, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ShouldUnloadUnusedAssets, addr 0x2298c44, size 0xa4, virtual false, abstract: false, final false
   inline bool ShouldUnloadUnusedAssets(::System::Collections::Generic::List_1<::StringW>* scenesToDismiss);
 
-  /// @brief Method UnloadOneScene, addr 0x22956ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UnloadOneScene, addr 0x2296f98, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UnloadOneScene(::StringW sceneName);
 
-  /// @brief Method UnloadSingleScene, addr 0x2295434, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UnloadSingleScene, addr 0x2296ce0, size 0x138, virtual false, abstract: false, final false
   inline void UnloadSingleScene(::GlobalNamespace::SceneInfo* sceneInfo);
 
-  /// @brief Method WaitUntilTaskCompleted, addr 0x229758c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilTaskCompleted, addr 0x2298e38, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* WaitUntilTaskCompleted(::System::Threading::Tasks::Task* task);
 
   constexpr ::GlobalNamespace::GameScenesManager_SceneTransitionType const& __cordl_internal_get__currentSceneTransitionType() const;
@@ -2348,53 +2348,53 @@ public:
 
   constexpr void __cordl_internal_set_transitionDidStartEvent(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* value);
 
-  /// @brief Method .ctor, addr 0x2298398, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2299c44, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilSceneTransitionFinish>b__24_0, addr 0x22984a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilSceneTransitionFinish>b__24_0, addr 0x2299d50, size 0x10, virtual false, abstract: false, final false
   inline bool _get_waitUntilSceneTransitionFinish_b__24_0();
 
-  /// @brief Method add_beforeDismissingScenesEvent, addr 0x229416c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_beforeDismissingScenesEvent, addr 0x2295a18, size 0xb0, virtual false, abstract: false, final false
   inline void add_beforeDismissingScenesEvent(::System::Action_1<::System::Collections::Generic::List_1<::StringW>*>* value);
 
-  /// @brief Method add_installEarlyBindingsEvent, addr 0x22949d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_installEarlyBindingsEvent, addr 0x2296280, size 0xb0, virtual false, abstract: false, final false
   inline void add_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method add_transitionDidFinishEvent, addr 0x2294874, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_transitionDidFinishEvent, addr 0x2296120, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_transitionDidFinishEvent(::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method add_transitionDidStartEvent, addr 0x2294714, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_transitionDidStartEvent, addr 0x2295fc0, size 0xb0, virtual false, abstract: false, final false
   inline void add_transitionDidStartEvent(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* value);
 
-  /// @brief Method get_currentSceneTransitionType, addr 0x2294b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentSceneTransitionType, addr 0x2296438, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameScenesManager_SceneTransitionType get_currentSceneTransitionType();
 
-  /// @brief Method get_currentScenesContainer, addr 0x2294b34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_currentScenesContainer, addr 0x22963e0, size 0x58, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_currentScenesContainer();
 
-  /// @brief Method get_isInTransition, addr 0x22938d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isInTransition, addr 0x2295184, size 0x10, virtual false, abstract: false, final false
   inline bool get_isInTransition();
 
-  /// @brief Method get_sceneNameToSceneOperationHandlesDictionary, addr 0x2294c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneNameToSceneOperationHandlesDictionary, addr 0x22964e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW,
                                                       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>*
   get_sceneNameToSceneOperationHandlesDictionary();
 
-  /// @brief Method get_waitUntilSceneTransitionFinish, addr 0x2294b94, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_waitUntilSceneTransitionFinish, addr 0x2296440, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::WaitUntil* get_waitUntilSceneTransitionFinish();
 
-  /// @brief Method remove_beforeDismissingScenesEvent, addr 0x2293644, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_beforeDismissingScenesEvent, addr 0x2294ef0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_beforeDismissingScenesEvent(::System::Action_1<::System::Collections::Generic::List_1<::StringW>*>* value);
 
-  /// @brief Method remove_installEarlyBindingsEvent, addr 0x2294a84, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_installEarlyBindingsEvent, addr 0x2296330, size 0xb0, virtual false, abstract: false, final false
   inline void remove_installEarlyBindingsEvent(::System::Action_2<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method remove_transitionDidFinishEvent, addr 0x2294924, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_transitionDidFinishEvent, addr 0x22961d0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_transitionDidFinishEvent(
       ::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method remove_transitionDidStartEvent, addr 0x22947c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_transitionDidStartEvent, addr 0x2296070, size 0xb0, virtual false, abstract: false, final false
   inline void remove_transitionDidStartEvent(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>* value);
 
 protected:
@@ -2412,7 +2412,7 @@ public:
   GameScenesManager(GameScenesManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17625 };
 
   /// @brief Field kLongTransitionLength offset 0xffffffff size 0x4
   static constexpr float_t kLongTransitionLength{ static_cast<float_t>(1.3f) };

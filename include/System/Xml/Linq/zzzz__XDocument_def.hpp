@@ -46,35 +46,35 @@ public:
   /// @brief Field _declaration, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__declaration, put = __cordl_internal_set__declaration)) ::System::Xml::Linq::XDeclaration* _declaration;
 
-  /// @brief Method AddAttribute, addr 0x424c53c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x424f194, size 0x4c, virtual true, abstract: false, final false
   inline void AddAttribute(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AddAttributeSkipNotify, addr 0x424c588, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method AddAttributeSkipNotify, addr 0x424f1e0, size 0x4c, virtual true, abstract: false, final false
   inline void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method CloneNode, addr 0x424c5d4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x424f22c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   /// @brief Method GetFirstNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetFirstNode();
 
-  /// @brief Method IsWhitespace, addr 0x424c62c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsWhitespace, addr 0x424f284, size 0x94, virtual false, abstract: false, final false
   static inline bool IsWhitespace(::StringW s);
 
   static inline ::System::Xml::Linq::XDocument* New_ctor();
 
   static inline ::System::Xml::Linq::XDocument* New_ctor(::System::Xml::Linq::XDocument* other);
 
-  /// @brief Method ValidateDocument, addr 0x424c864, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ValidateDocument, addr 0x424f4bc, size 0x124, virtual false, abstract: false, final false
   inline void ValidateDocument(::System::Xml::Linq::XNode* previous, ::System::Xml::XmlNodeType allowBefore, ::System::Xml::XmlNodeType allowAfter);
 
-  /// @brief Method ValidateNode, addr 0x424c6c0, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ValidateNode, addr 0x424f318, size 0x1a4, virtual true, abstract: false, final false
   inline void ValidateNode(::System::Xml::Linq::XNode* node, ::System::Xml::Linq::XNode* previous);
 
-  /// @brief Method ValidateString, addr 0x424c988, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ValidateString, addr 0x424f5e0, size 0x60, virtual true, abstract: false, final false
   inline void ValidateString(::StringW s);
 
-  /// @brief Method WriteTo, addr 0x424c410, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x424f068, size 0x12c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::System::Xml::Linq::XDeclaration* const& __cordl_internal_get__declaration() const;
@@ -83,22 +83,22 @@ public:
 
   constexpr void __cordl_internal_set__declaration(::System::Xml::Linq::XDeclaration* value);
 
-  /// @brief Method .ctor, addr 0x424c330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424ef88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x424c338, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424ef90, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocument* other);
 
-  /// @brief Method get_Declaration, addr 0x424c3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Declaration, addr 0x424f008, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();
 
-  /// @brief Method get_NodeType, addr 0x424c3c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x424f018, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Root, addr 0x424c3c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Root, addr 0x424f020, size 0x48, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XElement* get_Root();
 
-  /// @brief Method set_Declaration, addr 0x424c3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x424f010, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::System::Xml::Linq::XDeclaration* value);
 
 protected:
@@ -116,7 +116,7 @@ public:
   XDocument(XDocument const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17958 };
 
   /// @brief Field _declaration, offset: 0x30, size: 0x8, def value: None
   ::System::Xml::Linq::XDeclaration* ____declaration;

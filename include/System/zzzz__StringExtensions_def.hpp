@@ -20,7 +20,7 @@ namespace System {
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SubstringTrim, addr 0x440aa58, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SubstringTrim, addr 0x440d6b0, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW SubstringTrim(::StringW value, int32_t startIndex, int32_t length);
 
 protected:
@@ -38,7 +38,7 @@ public:
   StringExtensions(StringExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

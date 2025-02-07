@@ -31,42 +31,42 @@ public:
   /// @brief Field cipher, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* cipher;
 
-  /// @brief Method DoFinal, addr 0x2447608, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2449004, size 0xd4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal();
 
-  /// @brief Method DoFinal, addr 0x24476dc, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x24490d8, size 0x178, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method DoFinal, addr 0x2447854, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2449250, size 0xbc, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x24470ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x2448aa8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetOutputSize, addr 0x2447160, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x2448b5c, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x24470b4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x2448ab0, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
-  /// @brief Method Init, addr 0x2446fa8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x24489a4, size 0x104, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::BufferedAeadCipher* New_ctor(::Org::BouncyCastle::Crypto::Modes::IAeadCipher* cipher);
 
-  /// @brief Method ProcessByte, addr 0x24472d0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x2448ccc, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessByte, addr 0x244720c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x2448c08, size 0xc4, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x24473c0, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2448dbc, size 0x16c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ProcessBytes, addr 0x244752c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2448f28, size 0xdc, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x2447910, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x244930c, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* const& __cordl_internal_get_cipher() const;
@@ -75,10 +75,10 @@ public:
 
   constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::Modes::IAeadCipher* value);
 
-  /// @brief Method .ctor, addr 0x2446e50, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244884c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Modes::IAeadCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x2446f08, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2448904, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

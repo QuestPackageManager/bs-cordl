@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MomentaryLoudnessHistory::*)(int32_t)>(
     &::GlobalNamespace::MomentaryLoudnessHistory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ad09c4;
+  constexpr static std::size_t addrs = 0x3ad3228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MomentaryLoudnessHistory::*)()>(
     &::GlobalNamespace::MomentaryLoudnessHistory::GetAverageLoudness)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ad0878;
+  constexpr static std::size_t addrs = 0x3ad30dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MomentaryLoudnessHistory*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MomentaryLoudnessHistory::*)(float_t)>(&::GlobalNamespace::MomentaryLoudnessHistory::Add)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ad07f4;
+  constexpr static std::size_t addrs = 0x3ad3058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

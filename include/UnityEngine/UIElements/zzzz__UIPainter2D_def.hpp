@@ -21,13 +21,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIPainter2D : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x4a42d28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4a45980, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(bool computeBBox);
 
-  /// @brief Method Destroy, addr 0x4a42d64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x4a459bc, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr handle);
 
-  /// @brief Method Reset, addr 0x4a42da0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a459f8, size 0x3c, virtual false, abstract: false, final false
   static inline void Reset(::System::IntPtr handle);
 
 protected:
@@ -45,7 +45,7 @@ public:
   UIPainter2D(UIPainter2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5994 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

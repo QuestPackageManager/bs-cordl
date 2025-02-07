@@ -31,7 +31,7 @@ public:
   /// @brief Field permissionState, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_permissionState, put = __cordl_internal_set_permissionState)) ::StringW permissionState;
 
-  /// @brief Method GetObjectData, addr 0x3c991f4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3c9be4c, size 0x100, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::SecurityException* New_ctor();
@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Security::SecurityException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method ToString, addr 0x3c992f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c9bf4c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_permissionState() const;
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_permissionState(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c99038, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9bc90, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c990c4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9bd1c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3c990a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9bcf8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3c991d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9be28, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

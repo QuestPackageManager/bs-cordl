@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_faceIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921744;
+  constexpr static std::size_t addrs = 0x492439c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_faceIndex",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_familyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492174c;
+  constexpr static std::size_t addrs = 0x49243a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_familyName",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(::StringW)>(&::UnityEngine::TextCore::FaceInfo::set_familyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921754;
+  constexpr static std::size_t addrs = 0x49243ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_styleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492175c;
+  constexpr static std::size_t addrs = 0x49243b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_styleName",
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(::StringW)>(&::UnityEngine::TextCore::FaceInfo::set_styleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921764;
+  constexpr static std::size_t addrs = 0x49243bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_pointSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492176c;
+  constexpr static std::size_t addrs = 0x49243c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_pointSize",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(int32_t)>(&::UnityEngine::TextCore::FaceInfo::set_pointSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921774;
+  constexpr static std::size_t addrs = 0x49243cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492177c;
+  constexpr static std::size_t addrs = 0x49243d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_scale",
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921784;
+  constexpr static std::size_t addrs = 0x49243dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_lineHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492178c;
+  constexpr static std::size_t addrs = 0x49243e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_lineHeight",
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_lineHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921794;
+  constexpr static std::size_t addrs = 0x49243ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_ascentLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492179c;
+  constexpr static std::size_t addrs = 0x49243f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_ascentLine",
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_ascentLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217a4;
+  constexpr static std::size_t addrs = 0x49243fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_capLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217ac;
+  constexpr static std::size_t addrs = 0x4924404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_capLine",
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_capLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217b4;
+  constexpr static std::size_t addrs = 0x492440c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_meanLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217bc;
+  constexpr static std::size_t addrs = 0x4924414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_meanLine",
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_meanLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217c4;
+  constexpr static std::size_t addrs = 0x492441c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_baseline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217cc;
+  constexpr static std::size_t addrs = 0x4924424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_baseline",
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_baseline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217d4;
+  constexpr static std::size_t addrs = 0x492442c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_descentLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217dc;
+  constexpr static std::size_t addrs = 0x4924434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_descentLine",
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_descentLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217e4;
+  constexpr static std::size_t addrs = 0x492443c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_superscriptOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217ec;
+  constexpr static std::size_t addrs = 0x4924444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(),
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_superscriptOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217f4;
+  constexpr static std::size_t addrs = 0x492444c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_superscriptSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49217fc;
+  constexpr static std::size_t addrs = 0x4924454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_superscriptSize",
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_superscriptSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921804;
+  constexpr static std::size_t addrs = 0x492445c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_subscriptOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492180c;
+  constexpr static std::size_t addrs = 0x4924464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_subscriptOffset",
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_subscriptOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921814;
+  constexpr static std::size_t addrs = 0x492446c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_subscriptSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492181c;
+  constexpr static std::size_t addrs = 0x4924474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_subscriptSize",
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_subscriptSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921824;
+  constexpr static std::size_t addrs = 0x492447c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_underlineOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492182c;
+  constexpr static std::size_t addrs = 0x4924484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_underlineOffset",
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_underlineOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921834;
+  constexpr static std::size_t addrs = 0x492448c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_underlineThickness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492183c;
+  constexpr static std::size_t addrs = 0x4924494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(),
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_underlineThickness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921844;
+  constexpr static std::size_t addrs = 0x492449c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_strikethroughOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492184c;
+  constexpr static std::size_t addrs = 0x49244a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(),
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_strikethroughOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921854;
+  constexpr static std::size_t addrs = 0x49244ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(
     &::UnityEngine::TextCore::FaceInfo::set_strikethroughThickness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492185c;
+  constexpr static std::size_t addrs = 0x49244b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_tabWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4921864;
+  constexpr static std::size_t addrs = 0x49244bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::FaceInfo>::get(), "get_tabWidth",
@@ -506,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_tabWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492186c;
+  constexpr static std::size_t addrs = 0x49244c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

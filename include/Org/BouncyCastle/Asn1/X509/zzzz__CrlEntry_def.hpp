@@ -53,7 +53,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x261097c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2612378, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& __cordl_internal_get_crlEntryExtensions() const;
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set_userCertificate(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x261078c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612188, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Extensions, addr 0x26108cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x26122c8, size 0xb0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_RevocationDate, addr 0x26108c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x26122c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_RevocationDate();
 
-  /// @brief Method get_UserCertificate, addr 0x26108bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserCertificate, addr 0x26122b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_UserCertificate();
 
 protected:

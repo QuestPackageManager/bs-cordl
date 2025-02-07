@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499fa00;
+  constexpr static std::size_t addrs = 0x49a2658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElementFocusChangeTarget* (
     ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::*)()>(&::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::__cctor_b__9_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x499fa08;
+  constexpr static std::size_t addrs = 0x49a2660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElementFocusChangeTarget* (*)(::UnityEngine::UIElements::Focusable*)>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::GetPooled)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x499f69c;
+  constexpr static std::size_t addrs = 0x49a22f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::Dispose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x499f724;
+  constexpr static std::size_t addrs = 0x49a237c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)(
     ::UnityEngine::UIElements::FocusController*, ::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::VisualElementFocusChangeTarget::ApplyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x499f7a8;
+  constexpr static std::size_t addrs = 0x49a2400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x499f7e4;
+  constexpr static std::size_t addrs = 0x49a243c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::get_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499f884;
+  constexpr static std::size_t addrs = 0x49a24dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)(::UnityEngine::UIElements::Focusable*)>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::set_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499f88c;
+  constexpr static std::size_t addrs = 0x49a24e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

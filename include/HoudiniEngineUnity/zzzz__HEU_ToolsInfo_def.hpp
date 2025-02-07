@@ -78,7 +78,7 @@ public:
   static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode const SUBTRACT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11934 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -137,7 +137,7 @@ public:
   static ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility const SHOW;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11935 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -231,7 +231,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9fd60, size 0x610, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3aa25c4, size 0x610, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_ToolsInfo* New_ctor();
@@ -362,7 +362,7 @@ public:
 
   constexpr void __cordl_internal_set__showOnlyEditGeometry(bool value);
 
-  /// @brief Method .ctor, addr 0x3aa0370, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa2bd4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
@@ -383,7 +383,7 @@ public:
   HEU_ToolsInfo(HEU_ToolsInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11936 };
 
   /// @brief Field _paintBrushSize, offset: 0x18, size: 0x4, def value: None
   float_t ____paintBrushSize;

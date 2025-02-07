@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x39e8ff4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x39eb858, size 0x98, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__curve() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e908c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eb8f0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16355 };
 
   /// @brief Field _curve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____curve;

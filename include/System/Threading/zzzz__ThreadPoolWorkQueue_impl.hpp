@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(
     &::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::LocalPush)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x3e5a658;
+  constexpr static std::size_t addrs = 0x3e5d2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(
     &::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::LocalFindAndPop)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x3e5ac48;
+  constexpr static std::size_t addrs = 0x3e5d8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(
     ::ByRef<::System::Threading::IThreadPoolWorkItem*>)>(&::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::LocalPop)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x3e5b13c;
+  constexpr static std::size_t addrs = 0x3e5dd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(
     ::ByRef<::System::Threading::IThreadPoolWorkItem*>, ::ByRef<bool>)>(&::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::TrySteal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e5b594;
+  constexpr static std::size_t addrs = 0x3e5e1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(
     ::ByRef<::System::Threading::IThreadPoolWorkItem*>, ::ByRef<bool>, int32_t)>(&::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::TrySteal)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x3e5ba8c;
+  constexpr static std::size_t addrs = 0x3e5e6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)()>(
     &::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3e5bd34;
+  constexpr static std::size_t addrs = 0x3e5e98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::GetIndexes)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e5bdc8;
+  constexpr static std::size_t addrs = 0x3e5ea20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueue_QueueSegment*>::get(),
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)(
     ::ByRef<int32_t>, int32_t, ::ByRef<int32_t>, int32_t)>(&::System::Threading::ThreadPoolWorkQueue_QueueSegment::CompareExchangeIndexes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e5bdfc;
+  constexpr static std::size_t addrs = 0x3e5ea54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)()>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e5a248;
+  constexpr static std::size_t addrs = 0x3e5cea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueue_QueueSegment*>::get(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)()>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::IsUsedUp)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3e5b550;
+  constexpr static std::size_t addrs = 0x3e5e1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueue_QueueSegment*>::get(),
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)(::System::Threading::IThreadPoolWorkItem*)>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::TryEnqueue)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3e5ab20;
+  constexpr static std::size_t addrs = 0x3e5d778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)(::ByRef<::System::Threading::IThreadPoolWorkItem*>)>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::TryDequeue)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3e5b414;
+  constexpr static std::size_t addrs = 0x3e5e06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)()>(&::System::Threading::ThreadPoolWorkQueue::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e5a1dc;
+  constexpr static std::size_t addrs = 0x3e5ce34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueue*>::get(), ".ctor",
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ThreadPoolWorkQueueThreadLocals* (::System::Threading::ThreadPoolWorkQueue::*)()>(
     &::System::Threading::ThreadPoolWorkQueue::EnsureCurrentThreadHasQueue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e5a2a4;
+  constexpr static std::size_t addrs = 0x3e5cefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueue*>::get(),
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)()>(
     &::System::Threading::ThreadPoolWorkQueue::EnsureThreadRequested)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e5a440;
+  constexpr static std::size_t addrs = 0x3e5d098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueue*>::get(),
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)()>(
     &::System::Threading::ThreadPoolWorkQueue::MarkThreadRequestSatisfied)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3e5a4e0;
+  constexpr static std::size_t addrs = 0x3e5d138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueue*>::get(),
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)(::System::Threading::IThreadPoolWorkItem*, bool)>(
     &::System::Threading::ThreadPoolWorkQueue::Enqueue)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3e5a528;
+  constexpr static std::size_t addrs = 0x3e5d180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(
     &::System::Threading::ThreadPoolWorkQueue::LocalFindAndPop)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e5abd8;
+  constexpr static std::size_t addrs = 0x3e5d830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)(
     ::System::Threading::ThreadPoolWorkQueueThreadLocals*, ::ByRef<::System::Threading::IThreadPoolWorkItem*>, ::ByRef<bool>)>(&::System::Threading::ThreadPoolWorkQueue::Dequeue)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3e5af74;
+  constexpr static std::size_t addrs = 0x3e5dbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -520,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Threading::ThreadPoolWorkQueue::Dispatch)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x3e5b59c;
+  constexpr static std::size_t addrs = 0x3e5e1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueue*>::get(), "Dispatch",

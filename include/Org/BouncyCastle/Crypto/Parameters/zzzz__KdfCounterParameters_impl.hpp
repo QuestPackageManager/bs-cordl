@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23be648;
+  constexpr static std::size_t addrs = 0x23c0044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::_ctor)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x23be658;
+  constexpr static std::size_t addrs = 0x23c0054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::get_Ki)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23be7e8;
+  constexpr static std::size_t addrs = 0x23c01e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::get_FixedInputData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23be7f0;
+  constexpr static std::size_t addrs = 0x23c01ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::get_FixedInputDataCounterPrefix)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23be84c;
+  constexpr static std::size_t addrs = 0x23c0248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::get_FixedInputDataCounterSuffix)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23be8a8;
+  constexpr static std::size_t addrs = 0x23c02a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::get_R)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23be904;
+  constexpr static std::size_t addrs = 0x23c0300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

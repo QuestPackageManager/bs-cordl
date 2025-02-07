@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_inspectedType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x482c448, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482f0a0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass);
 
-  /// @brief Method .ctor, addr 0x482c478, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482f0d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass, bool allowAutoCreate);
 
 protected:
@@ -64,7 +64,7 @@ public:
   TrackClipTypeAttribute(TrackClipTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15877 };
 
   /// @brief Field inspectedType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___inspectedType;

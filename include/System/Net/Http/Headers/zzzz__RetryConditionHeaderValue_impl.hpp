@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::DateTimeOffset)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x42291e4;
+  constexpr static std::size_t addrs = 0x422be3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::TimeSpan)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4229274;
+  constexpr static std::size_t addrs = 0x422becc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::get_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4229370;
+  constexpr static std::size_t addrs = 0x422bfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::DateTimeOffset>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::set_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4229384;
+  constexpr static std::size_t addrs = 0x422bfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4229398;
+  constexpr static std::size_t addrs = 0x422bff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42293a4;
+  constexpr static std::size_t addrs = 0x422bffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42293ac;
+  constexpr static std::size_t addrs = 0x422c004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::Equals)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x42293b4;
+  constexpr static std::size_t addrs = 0x422c00c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4229558;
+  constexpr static std::size_t addrs = 0x422c1b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x42295f8;
+  constexpr static std::size_t addrs = 0x422c250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x42297b4;
+  constexpr static std::size_t addrs = 0x422c40c;
 
   inline static ::MethodInfo const* methodInfo() {
 

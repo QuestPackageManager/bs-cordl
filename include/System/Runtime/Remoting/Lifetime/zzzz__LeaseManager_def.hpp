@@ -39,21 +39,21 @@ public:
   /// @brief Field _timer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) ::System::Threading::Timer* _timer;
 
-  /// @brief Method ManageLeases, addr 0x3cde42c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ManageLeases, addr 0x3ce1084, size 0x260, virtual false, abstract: false, final false
   inline void ManageLeases(::System::Object* state);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor();
 
-  /// @brief Method SetPollTime, addr 0x3cde098, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetPollTime, addr 0x3ce0cf0, size 0xf4, virtual false, abstract: false, final false
   inline void SetPollTime(::System::TimeSpan timeSpan);
 
-  /// @brief Method StartManager, addr 0x3cde2bc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method StartManager, addr 0x3ce0f14, size 0x154, virtual false, abstract: false, final false
   inline void StartManager();
 
-  /// @brief Method StopManager, addr 0x3cde410, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method StopManager, addr 0x3ce1068, size 0x1c, virtual false, abstract: false, final false
   inline void StopManager();
 
-  /// @brief Method TrackLifetime, addr 0x3cde18c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method TrackLifetime, addr 0x3ce0de4, size 0x130, virtual false, abstract: false, final false
   inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__objects() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
-  /// @brief Method .ctor, addr 0x3cde68c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce12e4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

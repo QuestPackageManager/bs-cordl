@@ -32,7 +32,7 @@ public:
   /// @brief Field _zWritePropertyId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__zWritePropertyId, put = setStaticF__zWritePropertyId)) int32_t _zWritePropertyId;
 
-  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x3b16fe4, size 0x7a4, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x3b19b44, size 0x7a4, virtual false, abstract: false, final false
   static inline void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled);
 
   static inline int32_t getStaticF__stencilCompPropertyId();
@@ -66,7 +66,7 @@ public:
   BakedLightUtils(BakedLightUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5051 };
 
   /// @brief Field kDepthOnlyShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthOnlyShaderName{ u"Custom/SetDepthOnly" };

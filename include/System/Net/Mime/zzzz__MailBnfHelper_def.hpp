@@ -92,25 +92,25 @@ public:
   /// @brief Field s_months, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_months, put = setStaticF_s_months)) ::ArrayW<::StringW, ::Array<::StringW>*> s_months;
 
-  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x4404820, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x4407478, size 0x1e8, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInAtoms();
 
-  /// @brief Method CreateCharactersAllowedInComments, addr 0x4404e2c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInComments, addr 0x4407a84, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInComments();
 
-  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x4404b48, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x44077a0, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInDomainLiterals();
 
-  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x4404c88, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x44078e0, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInHeaderNames();
 
-  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x4404a08, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x4407660, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInQuotedStrings();
 
-  /// @brief Method CreateCharactersAllowedInTokens, addr 0x4404d30, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInTokens, addr 0x4407988, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInTokens();
 
-  /// @brief Method IsAllowedWhiteSpace, addr 0x4404fa0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedWhiteSpace, addr 0x4407bf8, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsAllowedWhiteSpace(char16_t c);
 
   static inline int32_t getStaticF_Ascii7bitMaxValue();
@@ -224,7 +224,7 @@ public:
   MailBnfHelper(MailBnfHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

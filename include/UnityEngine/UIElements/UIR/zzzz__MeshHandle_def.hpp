@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_updateAllocID(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x49b5ec4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b8b1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   MeshHandle(MeshHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6415 };
 
   /// @brief Field allocVerts, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::UIElements::UIR::Alloc ___allocVerts;

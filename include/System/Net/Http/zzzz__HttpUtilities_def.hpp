@@ -19,10 +19,10 @@ namespace System::Net::Http {
 class CORDL_TYPE HttpUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsSecureWebSocketScheme, addr 0x4214478, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsSecureWebSocketScheme, addr 0x42170d0, size 0x50, virtual false, abstract: false, final false
   static inline bool IsSecureWebSocketScheme(::StringW scheme);
 
-  /// @brief Method IsSupportedSecureScheme, addr 0x421440c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsSupportedSecureScheme, addr 0x4217064, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsSupportedSecureScheme(::StringW scheme);
 
 protected:
@@ -40,7 +40,7 @@ public:
   HttpUtilities(HttpUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

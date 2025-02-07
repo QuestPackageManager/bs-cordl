@@ -51,7 +51,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ListView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49f36f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f6350, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   ListView_UxmlFactory(ListView_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5625 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -86,7 +86,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ListView_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49f3740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f6398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   ListView_UxmlTraits(ListView_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -145,10 +145,10 @@ public:
 
   __declspec(property(get = get_unbindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* unbindItem;
 
-  /// @brief Method CreateViewController, addr 0x49f3634, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x49f628c, size 0x54, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method HasValidDataAndBindings, addr 0x49f35f4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HasValidDataAndBindings, addr 0x49f624c, size 0x40, virtual true, abstract: false, final false
   inline bool HasValidDataAndBindings();
 
   static inline ::UnityEngine::UIElements::ListView* New_ctor();
@@ -177,19 +177,19 @@ public:
 
   constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x49f3688, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f62e0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bindItem, addr 0x49f35dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindItem, addr 0x49f6234, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindItem();
 
-  /// @brief Method get_destroyItem, addr 0x49f35ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyItem, addr 0x49f6244, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyItem();
 
-  /// @brief Method get_makeItem, addr 0x49f35d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeItem, addr 0x49f622c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeItem();
 
-  /// @brief Method get_unbindItem, addr 0x49f35e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x49f623c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindItem();
 
 protected:
@@ -207,7 +207,7 @@ public:
   ListView(ListView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5627 };
 
   /// @brief Field m_MakeItem, offset: 0x538, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* ___m_MakeItem;

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::ASN1::*)(uint8_t)>(&::Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c62650;
+  constexpr static std::size_t addrs = 0x3c652a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::ASN1::*)(uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c6267c;
+  constexpr static std::size_t addrs = 0x3c652d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::ASN1::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3c626ac;
+  constexpr static std::size_t addrs = 0x3c65304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::get_Count)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c6292c;
+  constexpr static std::size_t addrs = 0x3c65584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::ASN1*>::get(), "get_Count",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::get_Value)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c62948;
+  constexpr static std::size_t addrs = 0x3c655a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::ASN1*>::get(), "get_Value",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::ASN1::*)(::Mono::Security::ASN1*)>(&::Mono::Security::ASN1::Add)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c629d8;
+  constexpr static std::size_t addrs = 0x3c65630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::GetBytes)> {
   constexpr static std::size_t size = 0x684;
-  constexpr static std::size_t addrs = 0x3c62a64;
+  constexpr static std::size_t addrs = 0x3c656bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::ASN1::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, int32_t)>(
     &::Mono::Security::ASN1::Decode)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3c62810;
+  constexpr static std::size_t addrs = 0x3c65468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::ASN1::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, ::ByRef<uint8_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>)>(&::Mono::Security::ASN1::DecodeTLV)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3c630e8;
+  constexpr static std::size_t addrs = 0x3c65d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::ToString)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x3c6320c;
+  constexpr static std::size_t addrs = 0x3c65e64;
 
   inline static ::MethodInfo const* methodInfo() {
 

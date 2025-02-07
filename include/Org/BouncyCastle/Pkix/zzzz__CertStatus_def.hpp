@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set_status(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2565554, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2566f50, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RevocationDate, addr 0x2565534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x2566f30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_RevocationDate();
 
-  /// @brief Method get_Status, addr 0x2565544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x2566f40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method set_RevocationDate, addr 0x256553c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationDate, addr 0x2566f38, size 0x8, virtual false, abstract: false, final false
   inline void set_RevocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_Status, addr 0x256554c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Status, addr 0x2566f48, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(int32_t value);
 
 protected:

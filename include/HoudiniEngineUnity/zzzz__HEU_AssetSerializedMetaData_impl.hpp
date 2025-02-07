@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_AssetSerializedMetaData::*)()>(
     &::HoudiniEngineUnity::HEU_AssetSerializedMetaData::get_SoftDeleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a0b1a0;
+  constexpr static std::size_t addrs = 0x3a0da04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSerializedMetaData::*)(bool)>(
     &::HoudiniEngineUnity::HEU_AssetSerializedMetaData::set_SoftDeleted)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a0b1a8;
+  constexpr static std::size_t addrs = 0x3a0da0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* (::HoudiniEngineUnity::HEU_AssetSerializedMetaData::*)()>(
     &::HoudiniEngineUnity::HEU_AssetSerializedMetaData::get_SavedCurveNodeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a0b1b4;
+  constexpr static std::size_t addrs = 0x3a0da18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_AssetSerializedMetaData::*)(::HoudiniEngineUnity::HEU_AssetSerializedMetaData*)>(
     &::HoudiniEngineUnity::HEU_AssetSerializedMetaData::IsEquivalentTo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3a0b1bc;
+  constexpr static std::size_t addrs = 0x3a0da20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSerializedMetaData::*)()>(
     &::HoudiniEngineUnity::HEU_AssetSerializedMetaData::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3a0b278;
+  constexpr static std::size_t addrs = 0x3a0dadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSerializedMetaData*>::get(),

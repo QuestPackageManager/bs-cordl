@@ -30,19 +30,19 @@ public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x224aa54, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x224c300, size 0xbc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x224ab10, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x224c3bc, size 0x3e8, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::BeatSaber::AvatarCore::AvatarsAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x224aef8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224c7a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x224aa14, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x224c2c0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -60,7 +60,7 @@ public:
   AvatarsAsyncInstaller(AvatarsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

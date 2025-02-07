@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::Preprocess)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4562d84;
+  constexpr static std::size_t addrs = 0x45659dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::Unpreprocess)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4562e58;
+  constexpr static std::size_t addrs = 0x4565ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4562ea4;
+  constexpr static std::size_t addrs = 0x4565afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::FinishSetup)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4562f2c;
+  constexpr static std::size_t addrs = 0x4565b84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4563014;
+  constexpr static std::size_t addrs = 0x4565c6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t, ::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4563194;
+  constexpr static std::size_t addrs = 0x4565dec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::AxisControl::*)(
     ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Controls::AxisControl::CompareValue)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4563270;
+  constexpr static std::size_t addrs = 0x4565ec8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x456335c;
+  constexpr static std::size_t addrs = 0x4565fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x45633bc;
+  constexpr static std::size_t addrs = 0x4566014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4563470;
+  constexpr static std::size_t addrs = 0x45660c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

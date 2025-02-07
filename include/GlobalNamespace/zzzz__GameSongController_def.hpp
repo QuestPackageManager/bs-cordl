@@ -63,30 +63,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
   constexpr operator ::GlobalNamespace::IStartSeekSongController*() noexcept;
 
-  /// @brief Method FailStopSong, addr 0x3bf1bf8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FailStopSong, addr 0x3bf475c, size 0x118, virtual false, abstract: false, final false
   inline void FailStopSong();
 
-  /// @brief Method LateUpdate, addr 0x3bf1a8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3bf45f0, size 0x74, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::GameSongController* New_ctor();
 
-  /// @brief Method PauseSong, addr 0x3bf1b98, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method PauseSong, addr 0x3bf46fc, size 0x30, virtual true, abstract: false, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0x3bf1bc8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ResumeSong, addr 0x3bf472c, size 0x30, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method SeekTo, addr 0x3bf1d10, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method SeekTo, addr 0x3bf4874, size 0x1c, virtual true, abstract: false, final true
   inline void SeekTo(float_t songTime);
 
-  /// @brief Method StartSong, addr 0x3bf1b1c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method StartSong, addr 0x3bf4680, size 0x44, virtual true, abstract: false, final true
   inline void StartSong(float_t songTimeOffset);
 
-  /// @brief Method StopSong, addr 0x3bf1b7c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method StopSong, addr 0x3bf46e0, size 0x1c, virtual true, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method <FailStopSong>b__16_0, addr 0x3bf1d3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <FailStopSong>b__16_0, addr 0x3bf48a0, size 0x1c, virtual false, abstract: false, final false
   inline void _FailStopSong_b__16_0();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -119,16 +119,16 @@ public:
 
   constexpr void __cordl_internal_set__songDidFinish(bool value);
 
-  /// @brief Method .ctor, addr 0x3bf1d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf4890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_songFailedToLoad, addr 0x3bf1a70, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_songFailedToLoad, addr 0x3bf45d4, size 0x1c, virtual true, abstract: false, final true
   inline bool get_songFailedToLoad();
 
-  /// @brief Method get_songLength, addr 0x3bf1a38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_songLength, addr 0x3bf459c, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_songLength();
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x3bf1a54, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x3bf45b8, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
@@ -149,7 +149,7 @@ public:
   GameSongController(GameSongController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4694 };
 
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)()>(&::UnityEngine::PhysicMaterial::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x49068f4;
+  constexpr static std::size_t addrs = 0x490954c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(::StringW)>(&::UnityEngine::PhysicMaterial::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x49069d4;
+  constexpr static std::size_t addrs = 0x490962c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::PhysicMaterial*, ::StringW)>(
     &::UnityEngine::PhysicMaterial::Internal_CreateDynamicsMaterial)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4906990;
+  constexpr static std::size_t addrs = 0x49095e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::PhysicMaterial::*)()>(&::UnityEngine::PhysicMaterial::get_bounciness)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4906a64;
+  constexpr static std::size_t addrs = 0x49096bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_bounciness",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(float_t)>(&::UnityEngine::PhysicMaterial::set_bounciness)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4906aa0;
+  constexpr static std::size_t addrs = 0x49096f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::PhysicMaterial::*)()>(&::UnityEngine::PhysicMaterial::get_dynamicFriction)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4906aec;
+  constexpr static std::size_t addrs = 0x4909744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_dynamicFriction",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(float_t)>(&::UnityEngine::PhysicMaterial::set_dynamicFriction)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4906b28;
+  constexpr static std::size_t addrs = 0x4909780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::PhysicMaterial::*)()>(&::UnityEngine::PhysicMaterial::get_staticFriction)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4906b74;
+  constexpr static std::size_t addrs = 0x49097cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_staticFriction",
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(float_t)>(&::UnityEngine::PhysicMaterial::set_staticFriction)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4906bb0;
+  constexpr static std::size_t addrs = 0x4909808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PhysicMaterialCombine (::UnityEngine::PhysicMaterial::*)()>(
     &::UnityEngine::PhysicMaterial::get_frictionCombine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4906bfc;
+  constexpr static std::size_t addrs = 0x4909854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_frictionCombine",
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(::UnityEngine::PhysicMaterialCombine)>(
     &::UnityEngine::PhysicMaterial::set_frictionCombine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4906c38;
+  constexpr static std::size_t addrs = 0x4909890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PhysicMaterialCombine (::UnityEngine::PhysicMaterial::*)()>(
     &::UnityEngine::PhysicMaterial::get_bounceCombine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4906c7c;
+  constexpr static std::size_t addrs = 0x49098d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_bounceCombine",
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(::UnityEngine::PhysicMaterialCombine)>(
     &::UnityEngine::PhysicMaterial::set_bounceCombine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4906cb8;
+  constexpr static std::size_t addrs = 0x4909910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::PhysicMaterial::*)()>(&::UnityEngine::PhysicMaterial::get_bouncyness)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4906cfc;
+  constexpr static std::size_t addrs = 0x4909954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_bouncyness",
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(float_t)>(&::UnityEngine::PhysicMaterial::set_bouncyness)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4906d38;
+  constexpr static std::size_t addrs = 0x4909990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::PhysicMaterial::*)()>(
     &::UnityEngine::PhysicMaterial::get_frictionDirection2)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4906d84;
+  constexpr static std::size_t addrs = 0x49099dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_frictionDirection2",
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::PhysicMaterial::set_frictionDirection2)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4906dc8;
+  constexpr static std::size_t addrs = 0x4909a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::PhysicMaterial::*)()>(&::UnityEngine::PhysicMaterial::get_dynamicFriction2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4906dcc;
+  constexpr static std::size_t addrs = 0x4909a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_dynamicFriction2",
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(float_t)>(&::UnityEngine::PhysicMaterial::set_dynamicFriction2)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4906dd4;
+  constexpr static std::size_t addrs = 0x4909a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::PhysicMaterial::*)()>(&::UnityEngine::PhysicMaterial::get_staticFriction2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4906dd8;
+  constexpr static std::size_t addrs = 0x4909a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_staticFriction2",
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(float_t)>(&::UnityEngine::PhysicMaterial::set_staticFriction2)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4906de0;
+  constexpr static std::size_t addrs = 0x4909a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::PhysicMaterial::*)()>(&::UnityEngine::PhysicMaterial::get_frictionDirection)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4906de4;
+  constexpr static std::size_t addrs = 0x4909a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PhysicMaterial*>::get(), "get_frictionDirection",
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PhysicMaterial::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::PhysicMaterial::set_frictionDirection)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4906e28;
+  constexpr static std::size_t addrs = 0x4909a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

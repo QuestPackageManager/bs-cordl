@@ -27,12 +27,12 @@ public:
   /// @brief Field m_UWR, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UWR, put = __cordl_internal_set_m_UWR)) ::UnityEngine::Networking::UnityWebRequest* m_UWR;
 
-  /// @brief Method Execute, addr 0x47a7e38, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x47aaa90, size 0x9c, virtual true, abstract: false, final false
   inline void Execute();
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* webRequest);
 
-  /// @brief Method <Execute>b__2_0, addr 0x47a7ed4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__2_0, addr 0x47aab2c, size 0x94, virtual false, abstract: false, final false
   inline void _Execute_b__2_0(::UnityEngine::AsyncOperation* request);
 
   constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get_m_UWR() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UWR(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x47a7ddc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47aaa34, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* webRequest);
 
 protected:
@@ -59,7 +59,7 @@ public:
   UnityWebRequestOperation(UnityWebRequestOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15705 };
 
   /// @brief Field m_UWR, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ___m_UWR;

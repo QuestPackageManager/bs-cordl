@@ -41,7 +41,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x4b42280, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x4b44ed8, size 0x84, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByInstanceGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* subcontainerGetter);
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__subcontainerGetter(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0x4b42258, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b44eb0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* subcontainerGetter);
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -73,7 +73,7 @@ public:
   SubContainerCreatorByInstanceGetter(SubContainerCreatorByInstanceGetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12586 };
 
   /// @brief Field _subcontainerGetter, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* ____subcontainerGetter;

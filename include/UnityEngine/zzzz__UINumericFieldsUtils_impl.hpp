@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<double_t>, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToDouble)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x48b5b58;
+  constexpr static std::size_t addrs = 0x48b87b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<double_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToDouble)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x48b5ce8;
+  constexpr static std::size_t addrs = 0x48b8940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<float_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToFloat)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x48b5df0;
+  constexpr static std::size_t addrs = 0x48b8a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<int64_t>, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToLong)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48b5e84;
+  constexpr static std::size_t addrs = 0x48b8adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<int64_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToLong)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x48b5f08;
+  constexpr static std::size_t addrs = 0x48b8b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<uint64_t>, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToULong)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48b600c;
+  constexpr static std::size_t addrs = 0x48b8c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<uint64_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToULong)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x48b6090;
+  constexpr static std::size_t addrs = 0x48b8ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<int32_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToInt)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x48b6194;
+  constexpr static std::size_t addrs = 0x48b8dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<uint32_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToUInt)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x48b6230;
+  constexpr static std::size_t addrs = 0x48b8e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

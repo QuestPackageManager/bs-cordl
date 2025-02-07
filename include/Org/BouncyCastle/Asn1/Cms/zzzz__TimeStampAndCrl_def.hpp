@@ -43,14 +43,14 @@ public:
   /// @brief Field timeStamp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_timeStamp, put = __cordl_internal_set_timeStamp)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp;
 
-  /// @brief Method GetInstance, addr 0x230ec48, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2310644, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 
-  /// @brief Method ToAsn1Object, addr 0x230ecfc, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23106f8, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::CertificateList* const& __cordl_internal_get_crl() const;
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_timeStamp(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method .ctor, addr 0x230ebc0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23105bc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x230eb98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2310594, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 
-  /// @brief Method get_Crl, addr 0x230ecf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Crl, addr 0x23106f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::CertificateList* get_Crl();
 
-  /// @brief Method get_TimeStampToken, addr 0x230ecec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TimeStampToken, addr 0x23106e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_TimeStampToken();
 
 protected:

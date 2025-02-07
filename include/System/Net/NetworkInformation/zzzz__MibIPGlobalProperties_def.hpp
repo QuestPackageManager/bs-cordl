@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_UdpFile(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43f019c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43f2df4, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::StringW procDir);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_wsChars();
@@ -100,7 +100,7 @@ public:
   MibIPGlobalProperties(MibIPGlobalProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9808 };
 
   /// @brief Field StatisticsFile, offset: 0x10, size: 0x8, def value: None
   ::StringW ___StatisticsFile;

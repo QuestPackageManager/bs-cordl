@@ -40,33 +40,33 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method Equals, addr 0x3e46cf4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e4994c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3e46d6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e499c4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method System.IEquatable<System.UIntPtr>.Equals, addr 0x3e46e60, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.IEquatable<System.UIntPtr>.Equals, addr 0x3e49ab8, size 0x10, virtual true, abstract: false, final true
   inline bool System_IEquatable_System_UIntPtr__Equals(::System::UIntPtr other);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3e46d94, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3e499ec, size 0xa0, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x3e46d74, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e499cc, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3e46cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e49944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> value);
 
-  /// @brief Method .ctor, addr 0x3e46ce0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e49938, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x3e46cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e49928, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
   static inline ::System::UIntPtr getStaticF_Zero();
 
-  /// @brief Method get_Size, addr 0x3e46cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x3e49930, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_Size();
 
   /// @brief Convert to "::System::IEquatable_1<::System::UIntPtr>"
@@ -75,22 +75,22 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
-  /// @brief Method op_Equality, addr 0x3e46e34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3e49a8c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::UIntPtr value1, ::System::UIntPtr value2);
 
-  /// @brief Method op_Explicit, addr 0x3e46e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3e49ab0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::UIntPtr op_Explicit___System__UIntPtr(uint32_t value);
 
-  /// @brief Method op_Explicit, addr 0x3e46e54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3e49aac, size 0x4, virtual false, abstract: false, final false
   static inline ::System::UIntPtr op_Explicit___System__UIntPtr(uint64_t value);
 
-  /// @brief Method op_Explicit, addr 0x3e46e50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3e49aa8, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t op_Explicit_uint32_t(::System::UIntPtr value);
 
-  /// @brief Method op_Explicit, addr 0x3e46e4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3e49aa4, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t op_Explicit_uint64_t(::System::UIntPtr value);
 
-  /// @brief Method op_Inequality, addr 0x3e46e40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3e49a98, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::UIntPtr value1, ::System::UIntPtr value2);
 
   static inline void setStaticF_Zero(::System::UIntPtr value);

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType (
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::*)()>(&::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49dd6b0;
+  constexpr static std::size_t addrs = 0x49e0308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::set_type)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49deb70;
+  constexpr static std::size_t addrs = 0x49e17c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49deb60;
+  constexpr static std::size_t addrs = 0x49e17b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier::SetType)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49deb74;
+  constexpr static std::size_t addrs = 0x49e17cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

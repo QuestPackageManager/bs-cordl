@@ -22,10 +22,10 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE LogHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogBuildOnly, addr 0x22b6078, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LogBuildOnly, addr 0x22b7a74, size 0x58, virtual false, abstract: false, final false
   static inline void LogBuildOnly(::StringW message);
 
-  /// @brief Method LogBuildOnly, addr 0x22b60d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LogBuildOnly, addr 0x22b7acc, size 0x68, virtual false, abstract: false, final false
   static inline void LogBuildOnly(::StringW message, ::UnityEngine::Object* context);
 
 protected:
@@ -43,7 +43,7 @@ public:
   LogHelper(LogHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

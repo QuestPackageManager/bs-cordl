@@ -36,21 +36,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x491b6f8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x491e350, size 0x88, virtual true, abstract: false, final true
   inline void Destroy();
 
-  /// @brief Method IsRunning, addr 0x491b984, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsRunning, addr 0x491e5dc, size 0x3c, virtual false, abstract: false, final false
   inline bool IsRunning();
 
   static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
 
-  /// @brief Method SetHandle, addr 0x491b63c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x491e294, size 0x44, virtual false, abstract: false, final false
   inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method Start, addr 0x491b680, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x491e2d8, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x491b6bc, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x491e314, size 0x3c, virtual true, abstract: false, final true
   inline void Stop();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x491b9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491e618, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_running, addr 0x491b914, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x491e56c, size 0x60, virtual true, abstract: false, final true
   inline bool get_running();
 
-  /// @brief Method get_valid, addr 0x491b974, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x491e5cc, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
@@ -92,7 +92,7 @@ public:
   IntegratedSubsystem(IntegratedSubsystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18725 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

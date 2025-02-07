@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2697eb4;
+  constexpr static std::size_t addrs = 0x26998b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::KeccakDigest*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2697ebc;
+  constexpr static std::size_t addrs = 0x26998b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::Org::BouncyCastle::Crypto::Digests::KeccakDigest*)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2697ffc;
+  constexpr static std::size_t addrs = 0x26999f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::Org::BouncyCastle::Crypto::Digests::KeccakDigest*)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::CopyIn)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2698090;
+  constexpr static std::size_t addrs = 0x2699a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x269810c;
+  constexpr static std::size_t addrs = 0x2699b08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::GetDigestSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2698190;
+  constexpr static std::size_t addrs = 0x2699b8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x269819c;
+  constexpr static std::size_t addrs = 0x2699b98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::BlockUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x269827c;
+  constexpr static std::size_t addrs = 0x2699c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::DoFinal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26983ec;
+  constexpr static std::size_t addrs = 0x2699de8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, uint8_t, int32_t)>(&::Org::BouncyCastle::Crypto::Digests::KeccakDigest::DoFinal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2698568;
+  constexpr static std::size_t addrs = 0x2699f64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26986fc;
+  constexpr static std::size_t addrs = 0x269a0f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::GetByteLength)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2698704;
+  constexpr static std::size_t addrs = 0x269a100;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::Init)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2697f50;
+  constexpr static std::size_t addrs = 0x269994c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::InitSponge)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2698710;
+  constexpr static std::size_t addrs = 0x269a10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::Absorb)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x26981a0;
+  constexpr static std::size_t addrs = 0x2699b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::Absorb)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2698280;
+  constexpr static std::size_t addrs = 0x2699c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::AbsorbBits)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x26985d8;
+  constexpr static std::size_t addrs = 0x2699fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::PadAndSwitchToSqueezingPhase)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x26988b8;
+  constexpr static std::size_t addrs = 0x269a2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::KeccakDigest*>::get(),
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int64_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::Squeeze)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2698428;
+  constexpr static std::size_t addrs = 0x2699e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakAbsorb)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2698808;
+  constexpr static std::size_t addrs = 0x269a204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakExtract)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2698a58;
+  constexpr static std::size_t addrs = 0x269a454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::KeccakDigest*>::get(),
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakPermutation)> {
   constexpr static std::size_t size = 0x604;
-  constexpr static std::size_t addrs = 0x2698a90;
+  constexpr static std::size_t addrs = 0x269a48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::KeccakDigest*>::get(),
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::Copy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2699094;
+  constexpr static std::size_t addrs = 0x269aa90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::KeccakDigest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(
     &::Org::BouncyCastle::Crypto::Digests::KeccakDigest::Reset)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26990ec;
+  constexpr static std::size_t addrs = 0x269aae8;
 
   inline static ::MethodInfo const* methodInfo() {
 

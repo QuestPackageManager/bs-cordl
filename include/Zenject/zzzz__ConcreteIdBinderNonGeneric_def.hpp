@@ -35,10 +35,10 @@ public:
   // Declarations
   static inline ::Zenject::ConcreteIdBinderNonGeneric* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method WithId, addr 0x4b00cd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x4b03930, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteBinderNonGeneric* WithId(::System::Object* identifier);
 
-  /// @brief Method .ctor, addr 0x4b00ca4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b038fc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
 protected:
@@ -56,7 +56,7 @@ public:
   ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGeneric const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

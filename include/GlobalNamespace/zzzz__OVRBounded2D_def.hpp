@@ -70,57 +70,57 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>*();
 
-  /// @brief Method ConvertRect, addr 0x3fa1064, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ConvertRect, addr 0x3fa3cbc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect ConvertRect(::GlobalNamespace::OVRPlugin_Rectf openXrRect);
 
-  /// @brief Method Equals, addr 0x3fa0d74, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3fa39cc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3fa0c30, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3fa3888, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRBounded2D other);
 
-  /// @brief Method GetHashCode, addr 0x3fa0e04, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3fa3a5c, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRBounded2D>.FromAnchor, addr 0x3fa0a08, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRBounded2D>.FromAnchor, addr 0x3fa3660, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRBounded2D IOVRAnchorComponent_OVRBounded2D__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRBounded2D>.SetEnabledAsync, addr 0x3fa0be4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRBounded2D>.SetEnabledAsync, addr 0x3fa383c, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRBounded2D__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRBounded2D>.get_Handle, addr 0x3fa09b4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRBounded2D>.get_Handle, addr 0x3fa360c, size 0x54, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRBounded2D__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRBounded2D>.get_Type, addr 0x3fa095c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRBounded2D>.get_Type, addr 0x3fa35b4, size 0x50, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRBounded2D__get_Type();
 
-  /// @brief Method ToString, addr 0x3fa0e98, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3fa3af0, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetBoundaryPoints, addr 0x3fa110c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TryGetBoundaryPoints, addr 0x3fa3d64, size 0x168, virtual false, abstract: false, final false
   inline bool TryGetBoundaryPoints(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> positions);
 
-  /// @brief Method TryGetBoundaryPointsCount, addr 0x3fa107c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetBoundaryPointsCount, addr 0x3fa3cd4, size 0x90, virtual false, abstract: false, final false
   inline bool TryGetBoundaryPointsCount(::ByRef<int32_t> count);
 
-  /// @brief Method .ctor, addr 0x3fa0a38, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fa3690, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRBounded2D getStaticF_Null();
 
-  /// @brief Method get_BoundingBox, addr 0x3fa0f48, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_BoundingBox, addr 0x3fa3ba0, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_BoundingBox();
 
-  /// @brief Method get_Handle, addr 0x3fa0f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x3fa3b98, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x3fa0af8, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x3fa3750, size 0xec, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x3fa0a9c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x3fa36f4, size 0x5c, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x3fa09ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3fa3604, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRBounded2D>"
@@ -129,10 +129,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRBounded2D>* i___System__IEquatable_1___GlobalNamespace__OVRBounded2D_();
 
-  /// @brief Method op_Equality, addr 0x3fa0c98, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3fa38f0, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRBounded2D lhs, ::GlobalNamespace::OVRBounded2D rhs);
 
-  /// @brief Method op_Inequality, addr 0x3fa0d04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3fa395c, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRBounded2D lhs, ::GlobalNamespace::OVRBounded2D rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRBounded2D value);
@@ -145,7 +145,7 @@ public:
   constexpr OVRBounded2D(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7831 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

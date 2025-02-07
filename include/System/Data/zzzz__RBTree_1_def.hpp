@@ -100,7 +100,7 @@ public:
   constexpr RBTree_1_NodeColor(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11452 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -139,7 +139,7 @@ public:
                           ::System::Data::RBTree_1_NodeColor<K> _nodeColor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11453 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -192,7 +192,7 @@ public:
   constexpr RBTree_1_NodePath(int32_t _nodeID, int32_t _mainTreeNodeID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11454 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -300,7 +300,7 @@ public:
   RBTree_1_TreePage(RBTree_1_TreePage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11455 };
 
   /// @brief Field _slots, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Data::RBTree_1_Node<K>, ::Array<::System::Data::RBTree_1_Node<K>>*> ____slots;
@@ -383,7 +383,7 @@ public:
   constexpr RBTree_1_RBTreeEnumerator(::System::Data::RBTree_1<K>* _tree, int32_t _version, int32_t _index, int32_t _mainTreeNodeId, K _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11456 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -726,7 +726,7 @@ public:
   RBTree_1(RBTree_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11457 };
 
   /// @brief Field _pageTable, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Data::RBTree_1_TreePage<K>*, ::Array<::System::Data::RBTree_1_TreePage<K>*>*> ____pageTable;

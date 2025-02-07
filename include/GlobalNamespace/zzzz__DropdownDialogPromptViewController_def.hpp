@@ -84,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set__label(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3c181ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1ae44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_component, addr 0x3c181dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_component, addr 0x3c1ae34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_component();
 
-  /// @brief Method get_label, addr 0x3c181e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_label, addr 0x3c1ae3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextMeshProUGUI> get_label();
 
 protected:
@@ -108,7 +108,7 @@ public:
   DropdownDialogPromptViewController_ButtonAndLabel(DropdownDialogPromptViewController_ButtonAndLabel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4877 };
 
   /// @brief Field _component, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____component;
@@ -141,10 +141,10 @@ public:
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController___c* New_ctor();
 
-  /// @brief Method <Init>b__12_0, addr 0x3c18258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__12_0, addr 0x3c1aeb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _Init_b__12_0(::System::ValueTuple_2<::StringW, int32_t> e);
 
-  /// @brief Method .ctor, addr 0x3c18250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1aea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController___c* getStaticF___9();
@@ -170,7 +170,7 @@ public:
   DropdownDialogPromptViewController___c(DropdownDialogPromptViewController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4878 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -193,7 +193,7 @@ public:
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x3c18260, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x3c1aeb8, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::DropdownDialogPromptViewController> const& __cordl_internal_get___4__this() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c180a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1acfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -226,7 +226,7 @@ public:
   DropdownDialogPromptViewController___c__DisplayClass13_0(DropdownDialogPromptViewController___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4879 };
 
   /// @brief Field buttonNum, offset: 0x10, size: 0x4, def value: None
   int32_t ___buttonNum;
@@ -284,20 +284,20 @@ public:
 
   __declspec(property(get = get_selectedValue)) int32_t selectedValue;
 
-  /// @brief Method DidActivate, addr 0x3c17f74, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1abcc, size 0x130, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c180ac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c1ad04, size 0xc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x3c17d1c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c1a974, size 0x258, virtual false, abstract: false, final false
   inline void Init(::StringW title, ::StringW message, ::StringW dropdownLabel,
                    ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*> dropdownValues,
                    ::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* didFinishAction, ::ArrayW<::StringW, ::Array<::StringW>*> buttonTexts);
 
   static inline ::GlobalNamespace::DropdownDialogPromptViewController* New_ctor();
 
-  /// @brief Method OnButtonClick, addr 0x3c180b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnButtonClick, addr 0x3c1ad10, size 0x88, virtual false, abstract: false, final false
   inline void OnButtonClick(int32_t buttonNum);
 
   constexpr ::ArrayW<::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel*, ::Array<::GlobalNamespace::DropdownDialogPromptViewController_ButtonAndLabel*>*> const&
@@ -345,16 +345,16 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3c18140, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1ad98, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add__didFinishAction, addr 0x3c17bbc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add__didFinishAction, addr 0x3c1a814, size 0xb0, virtual false, abstract: false, final false
   inline void add__didFinishAction(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
 
-  /// @brief Method get_selectedValue, addr 0x3c17b80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedValue, addr 0x3c1a7d8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_selectedValue();
 
-  /// @brief Method remove__didFinishAction, addr 0x3c17c6c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove__didFinishAction, addr 0x3c1a8c4, size 0xb0, virtual false, abstract: false, final false
   inline void remove__didFinishAction(::System::Action_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
 
 protected:
@@ -372,7 +372,7 @@ public:
   DropdownDialogPromptViewController(DropdownDialogPromptViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4880 };
 
   /// @brief Field _titleText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;

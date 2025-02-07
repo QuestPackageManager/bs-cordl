@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3c0a314, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0cf50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
 protected:
@@ -71,7 +71,7 @@ public:
   RecordingToolSettingsFlowCoordinator_InitData(RecordingToolSettingsFlowCoordinator_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4801 };
 
   /// @brief Field nextScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___nextScenesTransitionSetupData;
@@ -114,21 +114,21 @@ public:
                       put = __cordl_internal_set__recordingToolSettingsViewController)) ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController>
       _recordingToolSettingsViewController;
 
-  /// @brief Method DidActivate, addr 0x3c0a120, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c0cd5c, size 0xe4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c0a204, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c0ce40, size 0x9c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GoToNextScene, addr 0x3c0a2d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GoToNextScene, addr 0x3c0cf0c, size 0x3c, virtual false, abstract: false, final false
   inline void GoToNextScene();
 
-  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x3c0a2cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x3c0cf08, size 0x4, virtual false, abstract: false, final false
   inline void HandleRecordingToolSettingsViewControllerDidFinish();
 
   static inline ::GlobalNamespace::RecordingToolSettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method Update, addr 0x3c0a2a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3c0cedc, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingToolSettingsViewController(::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> value);
 
-  /// @brief Method .ctor, addr 0x3c0a30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0cf48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -179,7 +179,7 @@ public:
   RecordingToolSettingsFlowCoordinator(RecordingToolSettingsFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4802 };
 
   /// @brief Field _recordingToolConfigViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RecordingToolConfigViewController> ____recordingToolConfigViewController;

@@ -21,15 +21,15 @@ namespace TMPro {
 class CORDL_TYPE TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
-  /// @brief Method Cull, addr 0x47ffab0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Cull, addr 0x4802708, size 0xd0, virtual true, abstract: false, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
   static inline ::TMPro::TMP_SelectionCaret* New_ctor();
 
-  /// @brief Method UpdateGeometry, addr 0x47ffb80, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x48027d8, size 0x4, virtual true, abstract: false, final false
   inline void UpdateGeometry();
 
-  /// @brief Method .ctor, addr 0x47ffb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48027dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   TMP_SelectionCaret(TMP_SelectionCaret const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

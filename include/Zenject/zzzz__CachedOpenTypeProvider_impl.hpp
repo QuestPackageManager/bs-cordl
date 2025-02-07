@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CachedOpenTypeProvider___c::*)()>(&::Zenject::CachedOpenTypeProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3c27c;
+  constexpr static std::size_t addrs = 0x4b3eed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedOpenTypeProvider___c*>::get(), ".ctor",
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::CachedOpenTypeProvider___c::*)(::Zenject::CachedProvider*)>(
     &::Zenject::CachedOpenTypeProvider___c::_get_NumInstances_b__8_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b3c284;
+  constexpr static std::size_t addrs = 0x4b3eedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::CachedOpenTypeProvider___c::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b3c324;
+  constexpr static std::size_t addrs = 0x4b3ef7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::CachedOpenTypeProvider___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b3c378;
+  constexpr static std::size_t addrs = 0x4b3efd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedOpenTypeProvider___c*>::get(),
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CachedOpenTypeProvider::*)(::Zenject::IProvider*)>(&::Zenject::CachedOpenTypeProvider::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4b3baec;
+  constexpr static std::size_t addrs = 0x4b3e744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::CachedOpenTypeProvider::*)()>(&::Zenject::CachedOpenTypeProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3bbf4;
+  constexpr static std::size_t addrs = 0x4b3e84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedOpenTypeProvider*>::get(), "get_IsCached",
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::CachedOpenTypeProvider::*)()>(&::Zenject::CachedOpenTypeProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4b3bbfc;
+  constexpr static std::size_t addrs = 0x4b3e854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::CachedOpenTypeProvider::*)()>(&::Zenject::CachedOpenTypeProvider::get_NumInstances)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4b3bc24;
+  constexpr static std::size_t addrs = 0x4b3e87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedOpenTypeProvider*>::get(), "get_NumInstances",
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CachedOpenTypeProvider::*)()>(&::Zenject::CachedOpenTypeProvider::ClearCache)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4b3bd50;
+  constexpr static std::size_t addrs = 0x4b3e9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedOpenTypeProvider*>::get(), "ClearCache",
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::CachedOpenTypeProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::CachedOpenTypeProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4b3bda0;
+  constexpr static std::size_t addrs = 0x4b3e9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::CachedOpenTypeProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4b3be4c;
+  constexpr static std::size_t addrs = 0x4b3eaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

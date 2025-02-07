@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, bool)>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mPoint::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2485908;
+  constexpr static std::size_t addrs = 0x2487304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*,
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>, bool)>(&::Org::BouncyCastle::Math::EC::AbstractF2mPoint::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2485914;
+  constexpr static std::size_t addrs = 0x2487310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mPoint::SatisfiesCurveEquation)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x2485920;
+  constexpr static std::size_t addrs = 0x248731c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mPoint::SatisfiesOrder)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x2485d74;
+  constexpr static std::size_t addrs = 0x2487770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Math::EC::AbstractF2mPoint::ScaleX)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x2486034;
+  constexpr static std::size_t addrs = 0x2487a30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Math::EC::AbstractF2mPoint::ScaleXNegateY)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24862cc;
+  constexpr static std::size_t addrs = 0x2487cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Math::EC::AbstractF2mPoint::ScaleY)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x24862dc;
+  constexpr static std::size_t addrs = 0x2487cd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Math::EC::AbstractF2mPoint::ScaleYNegateX)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24863c4;
+  constexpr static std::size_t addrs = 0x2487dc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Math::EC::AbstractF2mPoint::Subtract)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x24863d4;
+  constexpr static std::size_t addrs = 0x2487dd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::AbstractF2mPoint* (::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mPoint::Tau)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x2486440;
+  constexpr static std::size_t addrs = 0x2487e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::AbstractF2mPoint* (::Org::BouncyCastle::Math::EC::AbstractF2mPoint::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mPoint::TauPow)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x24866c4;
+  constexpr static std::size_t addrs = 0x24880c0;
 
   inline static ::MethodInfo const* methodInfo() {
 

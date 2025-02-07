@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::Multiply)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x24b69a0;
+  constexpr static std::size_t addrs = 0x24b839c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::CheckResult)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24b6a7c;
+  constexpr static std::size_t addrs = 0x24b8478;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b6a88;
+  constexpr static std::size_t addrs = 0x24b8484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -123,57 +123,57 @@ public:
 
   __declspec(property(get = get_state)) ::StringW state;
 
-  /// @brief Method Awake, addr 0x4af28d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4af5528, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateCursors, addr 0x4af2a78, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateCursors, addr 0x4af56d0, size 0x134, virtual false, abstract: false, final false
   inline bool CreateCursors();
 
-  /// @brief Method CreateLaserPointers, addr 0x4af2974, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateLaserPointers, addr 0x4af55cc, size 0x104, virtual false, abstract: false, final false
   inline bool CreateLaserPointers();
 
-  /// @brief Method EnabledLastSelectedPointer, addr 0x4af2e28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EnabledLastSelectedPointer, addr 0x4af5a80, size 0x58, virtual false, abstract: false, final false
   inline void EnabledLastSelectedPointer();
 
-  /// @brief Method HideCursors, addr 0x4af311c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HideCursors, addr 0x4af5d74, size 0x60, virtual false, abstract: false, final false
   inline void HideCursors();
 
-  /// @brief Method HideLaserPointers, addr 0x4af317c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HideLaserPointers, addr 0x4af5dd4, size 0x60, virtual false, abstract: false, final false
   inline void HideLaserPointers();
 
-  /// @brief Method HideLaserPointersAndCursors, addr 0x4af2c38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HideLaserPointersAndCursors, addr 0x4af5890, size 0x18, virtual false, abstract: false, final false
   inline void HideLaserPointersAndCursors();
 
-  /// @brief Method IsLeftControllerDown, addr 0x4af2d80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsLeftControllerDown, addr 0x4af59d8, size 0x54, virtual false, abstract: false, final false
   inline bool IsLeftControllerDown();
 
-  /// @brief Method IsRightControllerDown, addr 0x4af2dd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsRightControllerDown, addr 0x4af5a2c, size 0x54, virtual false, abstract: false, final false
   inline bool IsRightControllerDown();
 
-  /// @brief Method LateUpdate, addr 0x4af2c50, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x4af58a8, size 0x130, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::VRUIControls::VRPointer* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x4af3110, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x4af5d68, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x4af2c20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4af5878, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Process, addr 0x4af19d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x4af462c, size 0x68, virtual false, abstract: false, final false
   inline void Process(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method RefreshLaserPointerAndLaserHit, addr 0x4af2ef4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method RefreshLaserPointerAndLaserHit, addr 0x4af5b4c, size 0x21c, virtual false, abstract: false, final false
   inline void RefreshLaserPointerAndLaserHit(::UnityEngine::EventSystems::PointerEventData* pointerData);
 
-  /// @brief Method SelectLeftController, addr 0x4af2be8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SelectLeftController, addr 0x4af5840, size 0x38, virtual false, abstract: false, final false
   inline void SelectLeftController();
 
-  /// @brief Method SelectRightController, addr 0x4af2bac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SelectRightController, addr 0x4af5804, size 0x3c, virtual false, abstract: false, final false
   inline void SelectRightController();
 
-  /// @brief Method SetupLaserPointer, addr 0x4af2e80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetupLaserPointer, addr 0x4af5ad8, size 0x74, virtual false, abstract: false, final false
   inline void SetupLaserPointer(::VRUIControls::VRLaserPointer* laserPointer);
 
   constexpr ::UnityEngine::EventSystems::PointerEventData* const& __cordl_internal_get__currentPointerData() const;
@@ -302,31 +302,31 @@ public:
 
   constexpr void __cordl_internal_set_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value);
 
-  /// @brief Method .ctor, addr 0x4af31dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af5e34, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_lastUsedControllerChangedEvent, addr 0x4af22e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_lastUsedControllerChangedEvent, addr 0x4af4f3c, size 0xb0, virtual false, abstract: false, final false
   inline void add_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value);
 
-  /// @brief Method get_cursorPosition, addr 0x4af27dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_cursorPosition, addr 0x4af5434, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cursorPosition();
 
-  /// @brief Method get_cursorTransform, addr 0x4af24b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cursorTransform, addr 0x4af5110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_cursorTransform();
 
-  /// @brief Method get_flatCanvasWorldPosition, addr 0x4af245c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_flatCanvasWorldPosition, addr 0x4af50b4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_flatCanvasWorldPosition();
 
-  /// @brief Method get_lastSelectedVrController, addr 0x4af27d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastSelectedVrController, addr 0x4af542c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_lastSelectedVrController();
 
-  /// @brief Method get_pointingOver, addr 0x4af2444, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_pointingOver, addr 0x4af509c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointingOver();
 
-  /// @brief Method get_state, addr 0x4af24c0, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x4af5118, size 0x314, virtual false, abstract: false, final false
   inline ::StringW get_state();
 
-  /// @brief Method remove_lastUsedControllerChangedEvent, addr 0x4af2394, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_lastUsedControllerChangedEvent, addr 0x4af4fec, size 0xb0, virtual false, abstract: false, final false
   inline void remove_lastUsedControllerChangedEvent(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>* value);
 
 protected:
@@ -344,7 +344,7 @@ public:
   VRPointer(VRPointer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18258 };
 
   /// @brief Field kScrollMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kScrollMultiplier{ static_cast<float_t>(1.0f) };

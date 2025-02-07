@@ -51,21 +51,21 @@ public:
   /// @brief Field _targetRotation, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation)) float_t _targetRotation;
 
-  /// @brief Method FixedUpdate, addr 0x3b9f2d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3ba1e38, size 0x8c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b9f238, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3ba1d98, size 0xa0, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::BeatmapObjectData* data);
 
-  /// @brief Method LateUpdate, addr 0x3b9f364, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3ba1ec4, size 0xc0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RotateBySpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9f21c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba1d7c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b9f0dc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba1c3c, size 0x140, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__targetRotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b9f424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba1f84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,7 +128,7 @@ public:
   RotateBySpawnRotation(RotateBySpawnRotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4367 };
 
   /// @brief Field _aheadTime, offset: 0x20, size: 0x4, def value: None
   float_t ____aheadTime;

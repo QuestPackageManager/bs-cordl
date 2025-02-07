@@ -79,7 +79,7 @@ public:
   static ::UnityEngine::UIElements::Angle_Unit const Turn;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,40 +109,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*();
 
-  /// @brief Method Equals, addr 0x4a69b9c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a6c7f4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a69b74, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a6c7cc, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Angle other);
 
-  /// @brief Method GetHashCode, addr 0x4a69c28, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a6c880, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method None, addr 0x4a69a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x4a6c6f0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle None();
 
-  /// @brief Method ToDegrees, addr 0x4a69ac0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToDegrees, addr 0x4a6c718, size 0x84, virtual false, abstract: false, final false
   inline float_t ToDegrees();
 
-  /// @brief Method ToString, addr 0x4a69c50, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a6c8a8, size 0x1d8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a69ab4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6c70c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::AngleUnit unit);
 
-  /// @brief Method .ctor, addr 0x4a69aa0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6c6f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::Angle_Unit unit);
 
-  /// @brief Method get_value, addr 0x4a69aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x4a6c704, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* i___System__IEquatable_1___UnityEngine__UIElements__Angle_();
 
-  /// @brief Method op_Equality, addr 0x4a69b4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a6c7a4, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Angle lhs, ::UnityEngine::UIElements::Angle rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a69b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a6c79c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle op_Implicit___UnityEngine__UIElements__Angle(float_t value);
 
   // Ctor Parameters []
@@ -154,7 +154,7 @@ public:
   constexpr Angle(float_t m_Value, ::UnityEngine::UIElements::Angle_Unit m_Unit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6053 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

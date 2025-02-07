@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::SHA1CryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3cb8648;
+  constexpr static std::size_t addrs = 0x3cbb2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::SHA1CryptoServiceProvider::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3cb86a8;
+  constexpr static std::size_t addrs = 0x3cbb300;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::SHA1CryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cb8748;
+  constexpr static std::size_t addrs = 0x3cbb3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::SHA1CryptoServiceProvider::HashCore)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cb8754;
+  constexpr static std::size_t addrs = 0x3cbb3ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::SHA1CryptoServiceProvider::HashFinal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cb8778;
+  constexpr static std::size_t addrs = 0x3cbb3d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::SHA1CryptoServiceProvider::Initialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3cb8798;
+  constexpr static std::size_t addrs = 0x3cbb3f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

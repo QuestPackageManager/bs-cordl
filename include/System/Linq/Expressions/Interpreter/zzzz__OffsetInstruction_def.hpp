@@ -37,16 +37,16 @@ public:
   /// @brief Field _offset, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
 
-  /// @brief Method Fixup, addr 0x40c517c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Fixup, addr 0x40c7dd4, size 0x94, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Instruction* Fixup(int32_t offset);
 
   static inline ::System::Linq::Expressions::Interpreter::OffsetInstruction* New_ctor();
 
-  /// @brief Method ToDebugString, addr 0x40c5210, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x40c7e68, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x40c52d8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40c7f30, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__offset() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40c53a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c7ffc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Cache, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -76,7 +76,7 @@ public:
   OffsetInstruction(OffsetInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13780 };
 
   /// @brief Field _offset, offset: 0x10, size: 0x4, def value: None
   int32_t ____offset;

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::FinishSetup)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4563c28;
+  constexpr static std::size_t addrs = 0x4566880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4563d24;
+  constexpr static std::size_t addrs = 0x456697c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)(float_t, ::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4563ec8;
+  constexpr static std::size_t addrs = 0x4566b20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DiscreteButtonControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DiscreteButtonControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4563ffc;
+  constexpr static std::size_t addrs = 0x4566c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

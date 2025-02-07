@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_positionOffset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26ff04c;
+  constexpr static std::size_t addrs = 0x2700a48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_rotationOffset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26ff070;
+  constexpr static std::size_t addrs = 0x2700a6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_alternativeHandling)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26ff094;
+  constexpr static std::size_t addrs = 0x2700a90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_leftPositionOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26ff0bc;
+  constexpr static std::size_t addrs = 0x2700ab8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_leftRotationOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26ff0e8;
+  constexpr static std::size_t addrs = 0x2700ae4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_rightPositionOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26ff114;
+  constexpr static std::size_t addrs = 0x2700b10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_rightRotationOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26ff140;
+  constexpr static std::size_t addrs = 0x2700b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ff16c;
+  constexpr static std::size_t addrs = 0x2700b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRControllersValueSettingsOffsets*>::get(),

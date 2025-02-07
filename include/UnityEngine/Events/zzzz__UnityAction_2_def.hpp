@@ -49,7 +49,7 @@ public:
   UnityAction_2(UnityAction_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,28 +25,28 @@ public:
   // Declarations
   __declspec(property(get = get_Item, put = set_Item)) bool Item[];
 
-  /// @brief Method CreateMask, addr 0x4481694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x44842ec, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CreateMask();
 
-  /// @brief Method CreateMask, addr 0x448169c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x44842f4, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CreateMask(int32_t previous);
 
-  /// @brief Method Equals, addr 0x4481708, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4484360, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x4481780, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x44843d8, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x44818b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x448450c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x44817e4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x448443c, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Collections::Specialized::BitVector32 value);
 
-  /// @brief Method get_Item, addr 0x4481668, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x44842c0, size 0x10, virtual false, abstract: false, final false
   inline bool get_Item(int32_t bit);
 
-  /// @brief Method set_Item, addr 0x4481678, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x44842d0, size 0x1c, virtual false, abstract: false, final false
   inline void set_Item(int32_t bit, bool value);
 
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   constexpr BitVector32(uint32_t _data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9484 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
