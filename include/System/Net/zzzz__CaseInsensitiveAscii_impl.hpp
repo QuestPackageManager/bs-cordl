@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::CaseInsensitiveAscii::*)(::System::Object*)>(
     &::System::Net::CaseInsensitiveAscii::GetHashCode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x44a6eac;
+  constexpr static std::size_t addrs = 0x44a9b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::CaseInsensitiveAscii::*)(::System::Object*, ::System::Object*)>(
     &::System::Net::CaseInsensitiveAscii::Compare)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x44a6fc4;
+  constexpr static std::size_t addrs = 0x44a9c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::CaseInsensitiveAscii::*)(::StringW)>(&::System::Net::CaseInsensitiveAscii::FastGetHashCode)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x44a7134;
+  constexpr static std::size_t addrs = 0x44a9d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CaseInsensitiveAscii::*)(::System::Object*, ::System::Object*)>(
     &::System::Net::CaseInsensitiveAscii::Equals)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x44a7224;
+  constexpr static std::size_t addrs = 0x44a9e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CaseInsensitiveAscii::*)()>(&::System::Net::CaseInsensitiveAscii::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a73a4;
+  constexpr static std::size_t addrs = 0x44a9ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CaseInsensitiveAscii*>::get(), ".ctor",

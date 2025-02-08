@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DynamicBitfield::*)(int32_t)>(
     &::UnityEngine::InputSystem::DynamicBitfield::SetLength)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x45e54a0;
+  constexpr static std::size_t addrs = 0x45e80f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DynamicBitfield::*)(int32_t)>(
     &::UnityEngine::InputSystem::DynamicBitfield::SetBit)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x45e552c;
+  constexpr static std::size_t addrs = 0x45e8184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::DynamicBitfield::*)(int32_t)>(
     &::UnityEngine::InputSystem::DynamicBitfield::TestBit)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x45e55c4;
+  constexpr static std::size_t addrs = 0x45e821c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DynamicBitfield::*)(int32_t)>(
     &::UnityEngine::InputSystem::DynamicBitfield::ClearBit)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x45e5634;
+  constexpr static std::size_t addrs = 0x45e828c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::InputSystem::DynamicBitfield::BitCountToULongCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x45e5514;
+  constexpr static std::size_t addrs = 0x45e816c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

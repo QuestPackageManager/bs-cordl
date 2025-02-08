@@ -44,10 +44,10 @@ public:
 
   static inline ::GlobalNamespace::LightTranslationGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b95c88, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b987e8, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b958a8, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b98408, size 0x3e0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__lightTranslationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightTranslationGroup>, ::Array<::UnityW<::GlobalNamespace::LightTranslationGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b95dd0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b98930, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   LightTranslationGroupEffectManager(LightTranslationGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4316 };
 
   /// @brief Field _lightTranslationGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightTranslationGroup>, ::Array<::UnityW<::GlobalNamespace::LightTranslationGroup>>*> ____lightTranslationGroups;

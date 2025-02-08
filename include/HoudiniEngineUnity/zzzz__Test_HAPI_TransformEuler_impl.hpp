@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_HAPI_TransformEuler::*)(::HoudiniEngineUnity::HAPI_TransformEuler)>(
     &::HoudiniEngineUnity::Test_HAPI_TransformEuler::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3a99ff0;
+  constexpr static std::size_t addrs = 0x3a9c854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_HAPI_TransformEuler::*)(::HoudiniEngineUnity::Test_HAPI_TransformEuler*)>(
     &::HoudiniEngineUnity::Test_HAPI_TransformEuler::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3a9a024;
+  constexpr static std::size_t addrs = 0x3a9c888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -103,43 +103,43 @@ public:
 
   constexpr void __cordl_internal_set_m_Scale(float_t value);
 
-  /// @brief Method .ctor, addr 0x4921ce4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492493c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4921d0c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4924964, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct);
 
-  /// @brief Method .ctor, addr 0x4921d98, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49249f0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method get_atlasIndex, addr 0x4921cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasIndex, addr 0x492492c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_atlasIndex();
 
-  /// @brief Method get_glyphRect, addr 0x4921cb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphRect, addr 0x4924908, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::GlyphRect get_glyphRect();
 
-  /// @brief Method get_index, addr 0x4921c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x49248d0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_index();
 
-  /// @brief Method get_metrics, addr 0x4921c88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_metrics, addr 0x49248e0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::GlyphMetrics get_metrics();
 
-  /// @brief Method get_scale, addr 0x4921cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x492491c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scale();
 
-  /// @brief Method set_atlasIndex, addr 0x4921cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlasIndex, addr 0x4924934, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasIndex(int32_t value);
 
-  /// @brief Method set_glyphRect, addr 0x4921cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphRect, addr 0x4924914, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphRect(::UnityEngine::TextCore::GlyphRect value);
 
-  /// @brief Method set_index, addr 0x4921c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x49248d8, size 0x8, virtual false, abstract: false, final false
   inline void set_index(uint32_t value);
 
-  /// @brief Method set_metrics, addr 0x4921c9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_metrics, addr 0x49248f4, size 0x14, virtual false, abstract: false, final false
   inline void set_metrics(::UnityEngine::TextCore::GlyphMetrics value);
 
-  /// @brief Method set_scale, addr 0x4921ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x4924924, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
 protected:
@@ -157,7 +157,7 @@ public:
   Glyph(Glyph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18177 };
 
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   uint32_t ___m_Index;

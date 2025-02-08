@@ -51,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set__RegexMatchTimeout_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method .ctor, addr 0x3f210fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f23d54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ErrorWhenNoMatch, addr 0x3f210e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorWhenNoMatch, addr 0x3f23d40, size 0x8, virtual false, abstract: false, final false
   inline bool get_ErrorWhenNoMatch();
 
-  /// @brief Method get_RegexMatchTimeout, addr 0x3f210d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RegexMatchTimeout, addr 0x3f23d2c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout();
 
-  /// @brief Method set_ErrorWhenNoMatch, addr 0x3f210f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorWhenNoMatch, addr 0x3f23d48, size 0xc, virtual false, abstract: false, final false
   inline void set_ErrorWhenNoMatch(bool value);
 
-  /// @brief Method set_RegexMatchTimeout, addr 0x3f210e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RegexMatchTimeout, addr 0x3f23d38, size 0x8, virtual false, abstract: false, final false
   inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   JsonSelectSettings(JsonSelectSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10419 };
 
   /// @brief Field <RegexMatchTimeout>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Nullable_1<::System::TimeSpan> ____RegexMatchTimeout_k__BackingField;

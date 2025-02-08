@@ -27,7 +27,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMoveLocationPreview* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49e31b0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e5e08, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
@@ -53,7 +53,7 @@ public:
   MultiColumnHeaderColumnMoveLocationPreview(MultiColumnHeaderColumnMoveLocationPreview const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6499 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

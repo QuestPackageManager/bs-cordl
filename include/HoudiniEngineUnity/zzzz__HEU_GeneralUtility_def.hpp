@@ -172,7 +172,7 @@ public:
   HEU_GeneralUtility_GetArray1ArgDel_1(HEU_GeneralUtility_GetArray1ArgDel_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -217,7 +217,7 @@ public:
   HEU_GeneralUtility_GetArray2ArgDel_2(HEU_GeneralUtility_GetArray2ArgDel_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -262,7 +262,7 @@ public:
   HEU_GeneralUtility_GetArray3ArgDel_3(HEU_GeneralUtility_GetArray3ArgDel_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -307,7 +307,7 @@ public:
   HEU_GeneralUtility_GetAttributeArrayInputFunc_1(HEU_GeneralUtility_GetAttributeArrayInputFunc_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -352,7 +352,7 @@ public:
   HEU_GeneralUtility_SetAttributeArrayFunc_1(HEU_GeneralUtility_SetAttributeArrayFunc_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -375,80 +375,80 @@ public:
 
   template <typename T> using SetAttributeArrayFunc_1 = ::HoudiniEngineUnity::HEU_GeneralUtility_SetAttributeArrayFunc_1<T>;
 
-  /// @brief Method ApplyTransformTo, addr 0x3a6d14c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ApplyTransformTo, addr 0x3a6f9b0, size 0xc0, virtual false, abstract: false, final false
   static inline void ApplyTransformTo(::UnityEngine::Transform* src, ::UnityEngine::Transform* target);
 
-  /// @brief Method AssignUnityLayer, addr 0x3a6f968, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method AssignUnityLayer, addr 0x3a721cc, size 0x244, virtual false, abstract: false, final false
   static inline void AssignUnityLayer(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method AssignUnityTag, addr 0x3a6f6a4, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method AssignUnityTag, addr 0x3a71f08, size 0x2c4, virtual false, abstract: false, final false
   static inline void AssignUnityTag(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method AttachScriptWithInvokeFunction, addr 0x3a70968, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method AttachScriptWithInvokeFunction, addr 0x3a731cc, size 0x550, virtual false, abstract: false, final false
   static inline void AttachScriptWithInvokeFunction(::StringW scriptSet, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method BiLerpf, addr 0x3a71cc8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method BiLerpf, addr 0x3a7452c, size 0x48, virtual false, abstract: false, final false
   static inline float_t BiLerpf(float_t p00, float_t p10, float_t p01, float_t p11, float_t fracX, float_t fracY);
 
-  /// @brief Method CheckAttributeExists, addr 0x3a6ca9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CheckAttributeExists, addr 0x3a6f300, size 0x48, virtual false, abstract: false, final false
   static inline bool CheckAttributeExists(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attribName, ::HoudiniEngineUnity::HAPI_AttributeOwner attribOwner);
 
-  /// @brief Method ColorToString, addr 0x3a6f008, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ColorToString, addr 0x3a7186c, size 0x1f0, virtual false, abstract: false, final false
   static inline ::StringW ColorToString(::UnityEngine::Color c);
 
-  /// @brief Method CopyComponents, addr 0x3a7136c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CopyComponents, addr 0x3a73bd0, size 0x4, virtual false, abstract: false, final false
   static inline void CopyComponents(::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* destGO);
 
-  /// @brief Method CopyFlags, addr 0x3a6f504, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CopyFlags, addr 0x3a71d68, size 0x68, virtual false, abstract: false, final false
   static inline void CopyFlags(::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* dstGO, bool bIncludeChildren);
 
-  /// @brief Method CopyHAPITransform, addr 0x3a71818, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CopyHAPITransform, addr 0x3a7407c, size 0x94, virtual false, abstract: false, final false
   static inline void CopyHAPITransform(::ByRef<::HoudiniEngineUnity::HAPI_Transform> src, ::ByRef<::HoudiniEngineUnity::HAPI_Transform> dest);
 
-  /// @brief Method CopyLocalTransformValues, addr 0x3a6d20c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CopyLocalTransformValues, addr 0x3a6fa70, size 0x68, virtual false, abstract: false, final false
   static inline void CopyLocalTransformValues(::UnityEngine::Transform* src, ::UnityEngine::Transform* dest);
 
-  /// @brief Method CopyWorldTransformValues, addr 0x3a6d0e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CopyWorldTransformValues, addr 0x3a6f948, size 0x68, virtual false, abstract: false, final false
   static inline void CopyWorldTransformValues(::UnityEngine::Transform* src, ::UnityEngine::Transform* dest);
 
-  /// @brief Method CreateOutputAttribute, addr 0x3a6cd84, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method CreateOutputAttribute, addr 0x3a6f5e8, size 0x2e0, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName,
                                                                                  ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
 
-  /// @brief Method CreateOutputAttributeHelper, addr 0x3a6d064, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateOutputAttributeHelper, addr 0x3a6f8c8, size 0x80, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_OutputAttribute* CreateOutputAttributeHelper(::StringW attrName, ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
 
-  /// @brief Method DestroyBakedGameObjects, addr 0x3a6e180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DestroyBakedGameObjects, addr 0x3a709e4, size 0x8, virtual false, abstract: false, final false
   static inline void DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjectsToDestroy);
 
-  /// @brief Method DestroyBakedGameObjectsWithEndName, addr 0x3a6e188, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method DestroyBakedGameObjectsWithEndName, addr 0x3a709ec, size 0x140, virtual false, abstract: false, final false
   static inline void DestroyBakedGameObjectsWithEndName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjectsToDestroy, ::StringW endName);
 
   /// @brief Method DestroyComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DestroyComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method DestroyGeneratedComponents, addr 0x3a6ddb0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method DestroyGeneratedComponents, addr 0x3a70614, size 0x120, virtual false, abstract: false, final false
   static inline void DestroyGeneratedComponents(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method DestroyGeneratedMaterial, addr 0x3a6ea08, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DestroyGeneratedMaterial, addr 0x3a7126c, size 0x134, virtual false, abstract: false, final false
   static inline void DestroyGeneratedMaterial(::UnityEngine::Material* material);
 
-  /// @brief Method DestroyGeneratedMeshComponents, addr 0x3a6ded0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DestroyGeneratedMeshComponents, addr 0x3a70734, size 0xb8, virtual false, abstract: false, final false
   static inline void DestroyGeneratedMeshComponents(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method DestroyGeneratedMeshMaterialsLODGroups, addr 0x3a6e2c8, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method DestroyGeneratedMeshMaterialsLODGroups, addr 0x3a70b2c, size 0x26c, virtual false, abstract: false, final false
   static inline void DestroyGeneratedMeshMaterialsLODGroups(::UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
 
-  /// @brief Method DestroyImmediate, addr 0x3a6e13c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DestroyImmediate, addr 0x3a709a0, size 0x44, virtual false, abstract: false, final false
   static inline void DestroyImmediate(::UnityEngine::Object* obj, bool bAllowDestroyingAssets, bool bRegisterUndo);
 
-  /// @brief Method DestroyLODGroup, addr 0x3a6e534, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method DestroyLODGroup, addr 0x3a70d98, size 0x1ec, virtual false, abstract: false, final false
   static inline void DestroyLODGroup(::UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
 
-  /// @brief Method DestroyMeshCollider, addr 0x3a6eb3c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DestroyMeshCollider, addr 0x3a713a0, size 0x134, virtual false, abstract: false, final false
   static inline void DestroyMeshCollider(::UnityEngine::MeshCollider* meshCollider, bool bDontDeletePersistantResources);
 
-  /// @brief Method DestroyTerrainComponents, addr 0x3a6df88, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method DestroyTerrainComponents, addr 0x3a707ec, size 0x1b4, virtual false, abstract: false, final false
   static inline void DestroyTerrainComponents(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method DoArrayElementsMatch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -457,15 +457,15 @@ public:
   /// @brief Method DoArrayElementsMatch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DoArrayElementsMatch(::ArrayW<T, ::Array<T>*> array1, int32_t startOffset1, ::ArrayW<T, ::Array<T>*> array2, int32_t startOffset2, int32_t length);
 
-  /// @brief Method DoesUnityTagExist, addr 0x3a6f33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DoesUnityTagExist, addr 0x3a71ba0, size 0x8, virtual false, abstract: false, final false
   static inline bool DoesUnityTagExist(::StringW tagName);
 
-  /// @brief Method FindOrGenerateHandles, addr 0x3a70f14, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method FindOrGenerateHandles, addr 0x3a73778, size 0x458, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*
   FindOrGenerateHandles(::HoudiniEngineUnity::HEU_SessionBase* session, ::ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo, int32_t assetID, ::StringW assetName,
                         ::HoudiniEngineUnity::HEU_Parameters* parameters, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* currentHandles);
 
-  /// @brief Method Fractionalf, addr 0x3a71d10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Fractionalf, addr 0x3a74574, size 0xc, virtual false, abstract: false, final false
   static inline float_t Fractionalf(float_t value);
 
   /// @brief Method GetArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -498,17 +498,17 @@ public:
   static inline bool GetAttributeArray(int32_t geoID, int32_t partID, ::StringW name, ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> info, ::ArrayW<T, ::Array<T>*> items,
                                        ::HoudiniEngineUnity::HEU_GeneralUtility_GetAttributeArrayInputFunc_1<T>* getFunc, int32_t count);
 
-  /// @brief Method GetAttributeColorSingle, addr 0x3a70714, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeColorSingle, addr 0x3a72f78, size 0x1bc, virtual false, abstract: false, final false
   static inline bool GetAttributeColorSingle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method GetAttributeFloatSingle, addr 0x3a7047c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeFloatSingle, addr 0x3a72ce0, size 0x14c, virtual false, abstract: false, final false
   static inline bool GetAttributeFloatSingle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::ByRef<float_t> value);
 
-  /// @brief Method GetAttributeInfo, addr 0x3a6cae4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeInfo, addr 0x3a6f348, size 0x90, virtual false, abstract: false, final false
   static inline bool GetAttributeInfo(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attribName,
                                       ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo);
 
-  /// @brief Method GetAttributeIntSingle, addr 0x3a705c8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeIntSingle, addr 0x3a72e2c, size 0x14c, virtual false, abstract: false, final false
   static inline bool GetAttributeIntSingle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::ByRef<int32_t> value);
 
   /// @brief Method GetAttributeStrict, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -517,106 +517,106 @@ public:
                                         ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> info, ::ByRef<::ArrayW<T, ::Array<T>*>> data,
                                         ::HoudiniEngineUnity::HEU_GeneralUtility_GetAttributeArrayInputFunc_1<T>* getFunc);
 
-  /// @brief Method GetAttributeStringData, addr 0x3a6c96c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeStringData, addr 0x3a6f1d0, size 0x130, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAttributeStringData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW name,
                                                                                 ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
 
-  /// @brief Method GetAttributeStringDataHelper, addr 0x3a6c794, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeStringDataHelper, addr 0x3a6eff8, size 0x1d8, virtual false, abstract: false, final false
   static inline void GetAttributeStringDataHelper(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW name, ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> info,
                                                   ::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> data);
 
-  /// @brief Method GetAttributeStringValueSingle, addr 0x3a6fe6c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeStringValueSingle, addr 0x3a726d0, size 0x290, virtual false, abstract: false, final false
   static inline ::StringW GetAttributeStringValueSingle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName,
                                                         ::HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
 
-  /// @brief Method GetAttributeStringValueSingleStrict, addr 0x3a700fc, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeStringValueSingleStrict, addr 0x3a72960, size 0x380, virtual false, abstract: false, final false
   static inline ::StringW GetAttributeStringValueSingleStrict(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName,
                                                               ::HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
 
-  /// @brief Method GetChildGameObjects, addr 0x3a6d274, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method GetChildGameObjects, addr 0x3a6fad8, size 0x3a0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetChildGameObjects(::UnityEngine::GameObject* parentGO);
 
-  /// @brief Method GetChildGameObjectsWithNamePattern, addr 0x3a6d614, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method GetChildGameObjectsWithNamePattern, addr 0x3a6fe78, size 0x420, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetChildGameObjectsWithNamePattern(::UnityEngine::GameObject* parentGO, ::StringW pattern, bool bExclude);
 
-  /// @brief Method GetGameObjectByName, addr 0x3a6dacc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetGameObjectByName, addr 0x3a70330, size 0x174, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* goList, ::StringW name);
 
-  /// @brief Method GetGameObjectByNameInProjectOnly, addr 0x3a6dc40, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetGameObjectByNameInProjectOnly, addr 0x3a704a4, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByNameInProjectOnly(::StringW name);
 
-  /// @brief Method GetGameObjectByNameInScene, addr 0x3a6dd18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetGameObjectByNameInScene, addr 0x3a7057c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByNameInScene(::StringW name);
 
-  /// @brief Method GetHDAByGameObjectNameInScene, addr 0x3a6dd64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetHDAByGameObjectNameInScene, addr 0x3a705c8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot> GetHDAByGameObjectNameInScene(::StringW name);
 
-  /// @brief Method GetInstanceChildObjects, addr 0x3a6da34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceChildObjects, addr 0x3a70298, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetInstanceChildObjects(::UnityEngine::GameObject* parentGO);
 
-  /// @brief Method GetLODTransforms, addr 0x3a6e720, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetLODTransforms, addr 0x3a70f84, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* GetLODTransforms(::UnityEngine::GameObject* targetGO);
 
-  /// @brief Method GetMaterialAttributeValueFromPart, addr 0x3a718ac, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialAttributeValueFromPart, addr 0x3a74110, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW GetMaterialAttributeValueFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID);
 
-  /// @brief Method GetNonInstanceChildObjects, addr 0x3a6da80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetNonInstanceChildObjects, addr 0x3a702e4, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetNonInstanceChildObjects(::UnityEngine::GameObject* parentGO);
 
   /// @brief Method GetOrCreateComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetOrCreateComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method GetPrefabFromPath, addr 0x3a71f30, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method GetPrefabFromPath, addr 0x3a74794, size 0x254, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> GetPrefabFromPath(::StringW path);
 
-  /// @brief Method GetRawOperatorName, addr 0x3a71ed8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRawOperatorName, addr 0x3a7473c, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetRawOperatorName(::StringW assetOpName);
 
-  /// @brief Method GetSystemTypeByName, addr 0x3a6f658, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetSystemTypeByName, addr 0x3a71ebc, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Type* GetSystemTypeByName(::StringW typeName);
 
-  /// @brief Method GetUnityScriptAttributeValue, addr 0x3a6fd08, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetUnityScriptAttributeValue, addr 0x3a7256c, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW GetUnityScriptAttributeValue(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID);
 
-  /// @brief Method HasAttribute, addr 0x3a708d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HasAttribute, addr 0x3a73134, size 0x98, virtual false, abstract: false, final false
   static inline bool HasAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::HoudiniEngineUnity::HAPI_AttributeOwner attrOwner);
 
-  /// @brief Method HasValidInstanceAttribute, addr 0x3a6cb74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasValidInstanceAttribute, addr 0x3a6f3d8, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasValidInstanceAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attribName);
 
-  /// @brief Method IsGameObjectInProject, addr 0x3a6dd10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsGameObjectInProject, addr 0x3a70574, size 0x8, virtual false, abstract: false, final false
   static inline bool IsGameObjectInProject(::UnityEngine::GameObject* go);
 
-  /// @brief Method IsInCameraView, addr 0x3a70eb8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsInCameraView, addr 0x3a7371c, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsInCameraView(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 point);
 
-  /// @brief Method IsMouseOverRect, addr 0x3a6f5e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsMouseOverRect, addr 0x3a71e44, size 0x78, virtual false, abstract: false, final false
   static inline bool IsMouseOverRect(::UnityEngine::Camera* camera, ::UnityEngine::Vector2 mousePosition, ::ByRef<::UnityEngine::Rect> rect);
 
-  /// @brief Method IsMouseWithinSceneView, addr 0x3a6f56c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsMouseWithinSceneView, addr 0x3a71dd0, size 0x74, virtual false, abstract: false, final false
   static inline bool IsMouseWithinSceneView(::UnityEngine::Camera* camera, ::UnityEngine::Vector2 mousePosition);
 
-  /// @brief Method LoadTextureFromFile, addr 0x3a71370, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method LoadTextureFromFile, addr 0x3a73bd4, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> LoadTextureFromFile(::StringW filePath);
 
-  /// @brief Method LongestCommonPrefix, addr 0x3a71d1c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method LongestCommonPrefix, addr 0x3a74580, size 0x1bc, virtual false, abstract: false, final false
   static inline ::StringW LongestCommonPrefix(::System::Collections::Generic::List_1<::StringW>* list);
 
-  /// @brief Method MakeStaticIfHasAttribute, addr 0x3a6fbac, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method MakeStaticIfHasAttribute, addr 0x3a72410, size 0x15c, virtual false, abstract: false, final false
   static inline void MakeStaticIfHasAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method MakeTexture, addr 0x3a71560, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method MakeTexture, addr 0x3a73dc4, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> MakeTexture(int32_t width, int32_t height, ::UnityEngine::Color color);
 
   static inline ::HoudiniEngineUnity::HEU_GeneralUtility* New_ctor();
 
-  /// @brief Method ReplaceColliderMeshFromMeshCollider, addr 0x3a71b78, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReplaceColliderMeshFromMeshCollider, addr 0x3a743dc, size 0x150, virtual false, abstract: false, final false
   static inline void ReplaceColliderMeshFromMeshCollider(::UnityEngine::GameObject* targetGO, ::UnityEngine::GameObject* sourceColliderGO);
 
-  /// @brief Method ReplaceColliderMeshFromMeshFilter, addr 0x3a71a20, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ReplaceColliderMeshFromMeshFilter, addr 0x3a74284, size 0x158, virtual false, abstract: false, final false
   static inline void ReplaceColliderMeshFromMeshFilter(::UnityEngine::GameObject* targetGO, ::UnityEngine::GameObject* sourceColliderGO);
 
-  /// @brief Method ReplaceFirstOccurrence, addr 0x3a71694, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReplaceFirstOccurrence, addr 0x3a73ef8, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ReplaceFirstOccurrence(::StringW srcStr, ::StringW searchStr, ::StringW replaceStr);
 
   /// @brief Method SetArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -643,37 +643,37 @@ public:
   static inline bool SetAttributeArray(int32_t geoID, int32_t partID, ::StringW attrName, ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T, ::Array<T>*> items,
                                        ::HoudiniEngineUnity::HEU_GeneralUtility_SetAttributeArrayFunc_1<T>* setFunc, int32_t count);
 
-  /// @brief Method SetGameObjectChildrenColliderState, addr 0x3a6ef20, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetGameObjectChildrenColliderState, addr 0x3a71784, size 0xe8, virtual false, abstract: false, final false
   static inline void SetGameObjectChildrenColliderState(::UnityEngine::GameObject* gameObject, bool bVisible);
 
-  /// @brief Method SetGameObjectChildrenRenderVisibility, addr 0x3a6ed54, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetGameObjectChildrenRenderVisibility, addr 0x3a715b8, size 0xe8, virtual false, abstract: false, final false
   static inline void SetGameObjectChildrenRenderVisibility(::UnityEngine::GameObject* gameObject, bool bVisible);
 
-  /// @brief Method SetGameObjectColliderState, addr 0x3a6ee3c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetGameObjectColliderState, addr 0x3a716a0, size 0xe4, virtual false, abstract: false, final false
   static inline void SetGameObjectColliderState(::UnityEngine::GameObject* gameObject, bool bEnabled);
 
-  /// @brief Method SetGameObjectRenderVisiblity, addr 0x3a6ec70, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetGameObjectRenderVisiblity, addr 0x3a714d4, size 0xe4, virtual false, abstract: false, final false
   static inline void SetGameObjectRenderVisiblity(::UnityEngine::GameObject* gameObject, bool bVisible);
 
-  /// @brief Method SetLODTransformValues, addr 0x3a6e8d4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetLODTransformValues, addr 0x3a71138, size 0x134, virtual false, abstract: false, final false
   static inline void SetLODTransformValues(::UnityEngine::GameObject* targetGO, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* transformData);
 
-  /// @brief Method SetLayer, addr 0x3a6f344, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetLayer, addr 0x3a71ba8, size 0xe0, virtual false, abstract: false, final false
   static inline void SetLayer(::UnityEngine::GameObject* rootGO, int32_t layer, bool bIncludeChildren);
 
-  /// @brief Method SetParentWithCleanTransform, addr 0x3a71728, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetParentWithCleanTransform, addr 0x3a73f8c, size 0xf0, virtual false, abstract: false, final false
   static inline void SetParentWithCleanTransform(::UnityEngine::Transform* parentTransform, ::UnityEngine::Transform* childTransform);
 
-  /// @brief Method SetTag, addr 0x3a6f424, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetTag, addr 0x3a71c88, size 0xe0, virtual false, abstract: false, final false
   static inline void SetTag(::UnityEngine::GameObject* rootGO, ::StringW tag, bool bIncludeChildren);
 
-  /// @brief Method StringToColor, addr 0x3a6f1f8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method StringToColor, addr 0x3a71a5c, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color StringToColor(::StringW colorString);
 
-  /// @brief Method UpdateGeneratedAttributeStore, addr 0x3a6cbb0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UpdateGeneratedAttributeStore, addr 0x3a6f414, size 0x1d4, virtual false, abstract: false, final false
   static inline void UpdateGeneratedAttributeStore(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::UnityEngine::GameObject* go);
 
-  /// @brief Method .ctor, addr 0x3a72184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a749e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -691,7 +691,7 @@ public:
   HEU_GeneralUtility(HEU_GeneralUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

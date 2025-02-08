@@ -42,22 +42,22 @@ public:
   /// @brief Field deviceDisconnected, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_deviceDisconnected, put = setStaticF_deviceDisconnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceDisconnected;
 
-  /// @brief Method GetDeviceAtXRNode, addr 0x4aec27c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceAtXRNode, addr 0x4aeeed4, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetDeviceManufacturer, addr 0x4aebc4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceManufacturer, addr 0x4aee8a4, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceManufacturer(uint64_t deviceId);
 
-  /// @brief Method InvokeConnectionEvent, addr 0x4aec2c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InvokeConnectionEvent, addr 0x4aeef18, size 0xbc, virtual false, abstract: false, final false
   static inline void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
 
-  /// @brief Method IsDeviceValid, addr 0x4aebbb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceValid, addr 0x4aee80c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDeviceValid(uint64_t deviceId);
 
-  /// @brief Method SendHapticImpulse, addr 0x4aebd80, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x4aee9d8, size 0x5c, virtual false, abstract: false, final false
   static inline bool SendHapticImpulse(uint64_t deviceId, uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x4aebe34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x4aeea8c, size 0x3c, virtual false, abstract: false, final false
   static inline void StopHaptics(uint64_t deviceId);
 
   static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConfigChanged();
@@ -87,7 +87,7 @@ public:
   InputDevices(InputDevices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18278 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

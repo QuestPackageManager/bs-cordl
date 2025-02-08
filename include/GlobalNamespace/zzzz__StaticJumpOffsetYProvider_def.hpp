@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_jumpyYOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7edc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b81920, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t jumpyYOffset);
 
 protected:
@@ -56,7 +56,7 @@ public:
   StaticJumpOffsetYProvider_InitData(StaticJumpOffsetYProvider_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };
 
   /// @brief Field jumpyYOffset, offset: 0x10, size: 0x4, def value: None
   float_t ___jumpyYOffset;
@@ -94,10 +94,10 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::StaticJumpOffsetYProvider_InitData* value);
 
-  /// @brief Method .ctor, addr 0x3b7edb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b81918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpOffsetY, addr 0x3b7ed9c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_jumpOffsetY, addr 0x3b818fc, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
   /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
@@ -118,7 +118,7 @@ public:
   StaticJumpOffsetYProvider(StaticJumpOffsetYProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4184 };
 
   /// @brief Field _initData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::StaticJumpOffsetYProvider_InitData* ____initData;

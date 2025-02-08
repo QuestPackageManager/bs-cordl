@@ -27,13 +27,13 @@ public:
 
   __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method .ctor, addr 0x4865814, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486846c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Hash128 hash);
 
-  /// @brief Method get_hash, addr 0x4865828, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hash, addr 0x4868480, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Hash128 get_hash();
 
-  /// @brief Method get_name, addr 0x4865820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4868478, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr CachedAssetBundle(::StringW m_Name, ::UnityEngine::Hash128 m_Hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10667 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

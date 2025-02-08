@@ -27,37 +27,37 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRPose {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x3fa8a2c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3fab684, size 0xf0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3fa8ba0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3fab7f8, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Inverse, addr 0x3f9cf84, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x3f9fbdc, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose Inverse();
 
-  /// @brief Method Rotate180AlongX, addr 0x3fa8d14, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Rotate180AlongX, addr 0x3fab96c, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose Rotate180AlongX();
 
-  /// @brief Method ToPosef, addr 0x3f9d008, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToPosef, addr 0x3f9fc60, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_Posef ToPosef();
 
-  /// @brief Method ToPosef_Legacy, addr 0x3fa8cf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToPosef_Legacy, addr 0x3fab950, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_Posef ToPosef_Legacy();
 
-  /// @brief Method flipZ, addr 0x3fa8ccc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method flipZ, addr 0x3fab924, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose flipZ();
 
-  /// @brief Method get_identity, addr 0x3f9f3b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x3fa2008, size 0x98, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose get_identity();
 
-  /// @brief Method op_Equality, addr 0x3fa8b1c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3fab774, size 0x84, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRPose x, ::GlobalNamespace::OVRPose y);
 
-  /// @brief Method op_Inequality, addr 0x3fa8c48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3fab8a0, size 0x84, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRPose x, ::GlobalNamespace::OVRPose y);
 
-  /// @brief Method op_Multiply, addr 0x3f99744, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x3f9c39c, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose op_Multiply(::GlobalNamespace::OVRPose lhs, ::GlobalNamespace::OVRPose rhs);
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
   constexpr OVRPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7850 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Dynamic::ExpandoObject*, ::System::Object*, int32_t, ::StringW, bool, ::ByRef<::System::Object*>)>(
     &::System::Runtime::CompilerServices::RuntimeOps::ExpandoTryGetValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40fc1d0;
+  constexpr static std::size_t addrs = 0x40fee28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Dynamic::ExpandoObject*, ::System::Object*, int32_t, ::System::Object*, ::StringW,
                                                                                                         bool)>(&::System::Runtime::CompilerServices::RuntimeOps::ExpandoTrySetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40fc30c;
+  constexpr static std::size_t addrs = 0x40fef64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Dynamic::ExpandoObject*, ::System::Object*, int32_t, ::StringW, bool)>(
     &::System::Runtime::CompilerServices::RuntimeOps::ExpandoTryDeleteValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x40fc6cc;
+  constexpr static std::size_t addrs = 0x40ff324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Dynamic::ExpandoObject*, ::System::Object*)>(
     &::System::Runtime::CompilerServices::RuntimeOps::ExpandoCheckVersion)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40fca74;
+  constexpr static std::size_t addrs = 0x40ff6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Dynamic::ExpandoObject*, ::System::Object*, ::System::Object*)>(
     &::System::Runtime::CompilerServices::RuntimeOps::ExpandoPromoteClass)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40fcab8;
+  constexpr static std::size_t addrs = 0x40ff710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -30,7 +30,7 @@ public:
   IReorderable(IReorderable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

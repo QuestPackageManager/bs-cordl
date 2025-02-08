@@ -85,10 +85,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4081690, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x40842e8, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4081a84, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x40846dc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -108,7 +108,7 @@ public:
                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlatformUserAuthTokenData*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18749 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -150,10 +150,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4081b00, size 0x3e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4084758, size 0x3e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4081ee4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4084b3c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -175,7 +175,7 @@ public:
                                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18750 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -227,10 +227,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4081f60, size 0x3d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4084bb8, size 0x3d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4082338, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4084f90, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -250,7 +250,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18751 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -337,18 +337,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept;
 
-  /// @brief Method GetAuthenticationToken, addr 0x4081338, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method GetAuthenticationToken, addr 0x4083f90, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
-  /// @brief Method GetTokenPlatform, addr 0x4081428, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetTokenPlatform, addr 0x4084080, size 0x60, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken_Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x4081488, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessToken, addr 0x40840e0, size 0x10c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCacheRead);
 
   static inline ::GlobalNamespace::PlatformAuthenticationTokenProvider* New_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x4081594, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RequestXPlatformAccessToken, addr 0x40841ec, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::GlobalNamespace::XPlatformAccessTokenData const& __cordl_internal_get__cachedXPlatformAccessToken() const;
@@ -399,16 +399,16 @@ public:
 
   constexpr void __cordl_internal_set__xPlatformTokenRetryDelayExpiration(float_t value);
 
-  /// @brief Method .ctor, addr 0x4081248, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4083ea0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method get_hashedUserId, addr 0x4081230, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hashedUserId, addr 0x4083e88, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_platform, addr 0x4081240, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_platform, addr 0x4083e98, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken_Platform get_platform();
 
-  /// @brief Method get_userName, addr 0x4081238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x4083e90, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::BGNet::Core::IPlatformAccessTokenFetcher"
@@ -432,7 +432,7 @@ public:
   PlatformAuthenticationTokenProvider(PlatformAuthenticationTokenProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18752 };
 
   /// @brief Field kXPlatformTokenRetryDelayLengthSeconds offset 0xffffffff size 0x4
   static constexpr int32_t kXPlatformTokenRetryDelayLengthSeconds{ static_cast<int32_t>(0x1e) };

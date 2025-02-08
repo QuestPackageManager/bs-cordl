@@ -66,7 +66,7 @@ public:
   static ::System::Xml::ReadContentAsBinaryHelper_State const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -103,13 +103,13 @@ public:
   /// @brief Field valueOffset, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_valueOffset, put = __cordl_internal_set_valueOffset)) int32_t valueOffset;
 
-  /// @brief Method Finish, addr 0x430df3c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x4310b94, size 0x13c, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method MoveToNextContentNode, addr 0x430e078, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextContentNode, addr 0x4310cd0, size 0xd8, virtual false, abstract: false, final false
   inline bool MoveToNextContentNode(bool moveIfOnContentNode);
 
-  /// @brief Method Reset, addr 0x430e150, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4310da8, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_isEnd() const;
@@ -151,7 +151,7 @@ public:
   ReadContentAsBinaryHelper(ReadContentAsBinaryHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7200 };
 
   /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlReader* ___reader;

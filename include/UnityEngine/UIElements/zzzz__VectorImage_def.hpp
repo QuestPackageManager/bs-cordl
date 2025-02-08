@@ -94,13 +94,13 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::ArrayW<::UnityEngine::UIElements::VectorImageVertex, ::Array<::UnityEngine::UIElements::VectorImageVertex>*> value);
 
-  /// @brief Method .ctor, addr 0x499e0f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a0d4c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_height, addr 0x499e0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x49a0d44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_width, addr 0x499e0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x49a0d3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
 protected:
@@ -118,7 +118,7 @@ public:
   VectorImage(VectorImage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6303 };
 
   /// @brief Field version, offset: 0x18, size: 0x4, def value: None
   int32_t ___version;

@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
 
-  /// @brief Method GetDigest, addr 0x26745fc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetDigest, addr 0x2675ff8, size 0xa8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   static inline ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator* New_ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x26745d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675fcc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"

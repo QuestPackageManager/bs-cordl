@@ -38,7 +38,7 @@ public:
   /// @brief Field _list, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list)) ::System::Collections::Hashtable* _list;
 
-  /// @brief Method Remove, addr 0x4170490, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x41730e8, size 0x24, virtual false, abstract: false, final false
   inline void Remove(::System::Data::DataTable* table);
 
   constexpr ::System::Data::DataViewManager* const& __cordl_internal_get__dataViewManager() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::Hashtable* value);
 
-  /// @brief Method get_Item, addr 0x4170318, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4172f70, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Data::DataViewSetting* get_Item(::System::Data::DataTable* table);
 
-  /// @brief Method set_Item, addr 0x4170410, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x4173068, size 0x80, virtual true, abstract: false, final false
   inline void set_Item(::System::Data::DataTable* table, ::System::Data::DataViewSetting* value);
 
 protected:
@@ -74,7 +74,7 @@ public:
   DataViewSettingCollection(DataViewSettingCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
 
   /// @brief Field _dataViewManager, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataViewManager* ____dataViewManager;

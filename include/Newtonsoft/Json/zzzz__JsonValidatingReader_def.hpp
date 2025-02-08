@@ -133,22 +133,22 @@ public:
 
   static inline ::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c* New_ctor();
 
-  /// @brief Method <GetRequiredProperties>b__28_0, addr 0x3eb2b14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <GetRequiredProperties>b__28_0, addr 0x3eb576c, size 0x44, virtual false, abstract: false, final false
   inline bool _GetRequiredProperties_b__28_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*> p);
 
-  /// @brief Method <GetRequiredProperties>b__28_1, addr 0x3eb2b58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <GetRequiredProperties>b__28_1, addr 0x3eb57b0, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW _GetRequiredProperties_b__28_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*> p);
 
-  /// @brief Method <.ctor>b__27_0, addr 0x3eb2aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__27_0, addr 0x3eb5744, size 0x8, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__27_0(::StringW p);
 
-  /// @brief Method <.ctor>b__27_1, addr 0x3eb2af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__27_1, addr 0x3eb574c, size 0x8, virtual false, abstract: false, final false
   inline bool __ctor_b__27_1(::StringW p);
 
-  /// @brief Method <.ctor>b__27_2, addr 0x3eb2afc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__27_2, addr 0x3eb5754, size 0x18, virtual false, abstract: false, final false
   inline bool __ctor_b__27_2(::Newtonsoft::Json::Schema::JsonSchemaModel* s);
 
-  /// @brief Method .ctor, addr 0x3eb2ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eb573c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c* getStaticF___9();
@@ -190,7 +190,7 @@ public:
   SchemaScope_JsonValidatingReader___c(SchemaScope_JsonValidatingReader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10151 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -250,7 +250,7 @@ public:
   /// @brief Field _tokenType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__tokenType, put = __cordl_internal_set__tokenType)) ::Newtonsoft::Json::Linq::JTokenType _tokenType;
 
-  /// @brief Method GetRequiredProperties, addr 0x3eb2860, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredProperties, addr 0x3eb54b8, size 0x228, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetRequiredProperties(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
   static inline ::Newtonsoft::Json::JsonValidatingReader_SchemaScope* New_ctor(::Newtonsoft::Json::Linq::JTokenType tokenType,
@@ -304,40 +304,40 @@ public:
 
   constexpr void __cordl_internal_set__tokenType(::Newtonsoft::Json::Linq::JTokenType value);
 
-  /// @brief Method .ctor, addr 0x3eaf3d0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eb2028, size 0x344, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JTokenType tokenType, ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* schemas);
 
-  /// @brief Method get_ArrayItemCount, addr 0x3eb2818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArrayItemCount, addr 0x3eb5470, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ArrayItemCount();
 
-  /// @brief Method get_CurrentItemWriter, addr 0x3eb2838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentItemWriter, addr 0x3eb5490, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenWriter* get_CurrentItemWriter();
 
-  /// @brief Method get_CurrentPropertyName, addr 0x3eb2808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentPropertyName, addr 0x3eb5460, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CurrentPropertyName();
 
-  /// @brief Method get_IsUniqueArray, addr 0x3eb2828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUniqueArray, addr 0x3eb5480, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUniqueArray();
 
-  /// @brief Method get_RequiredProperties, addr 0x3eb2850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiredProperties, addr 0x3eb54a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, bool>* get_RequiredProperties();
 
-  /// @brief Method get_Schemas, addr 0x3eb2848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schemas, addr 0x3eb54a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_Schemas();
 
-  /// @brief Method get_TokenType, addr 0x3eb2858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x3eb54b0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenType get_TokenType();
 
-  /// @brief Method get_UniqueArrayItems, addr 0x3eb2830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UniqueArrayItems, addr 0x3eb5488, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_UniqueArrayItems();
 
-  /// @brief Method set_ArrayItemCount, addr 0x3eb2820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ArrayItemCount, addr 0x3eb5478, size 0x8, virtual false, abstract: false, final false
   inline void set_ArrayItemCount(int32_t value);
 
-  /// @brief Method set_CurrentItemWriter, addr 0x3eb2840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentItemWriter, addr 0x3eb5498, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentItemWriter(::Newtonsoft::Json::Linq::JTokenWriter* value);
 
-  /// @brief Method set_CurrentPropertyName, addr 0x3eb2810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentPropertyName, addr 0x3eb5468, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentPropertyName(::StringW value);
 
 protected:
@@ -355,7 +355,7 @@ public:
   JsonValidatingReader_SchemaScope(JsonValidatingReader_SchemaScope const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10152 };
 
   /// @brief Field _tokenType, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::JTokenType ____tokenType;
@@ -433,25 +433,25 @@ public:
 
   static inline ::Newtonsoft::Json::JsonValidatingReader___c* New_ctor();
 
-  /// @brief Method <ValidateEndObject>b__51_0, addr 0x3eb2c50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <ValidateEndObject>b__51_0, addr 0x3eb58a8, size 0xc, virtual false, abstract: false, final false
   inline bool _ValidateEndObject_b__51_0(bool v);
 
-  /// @brief Method <ValidateEndObject>b__51_1, addr 0x3eb2c5c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <ValidateEndObject>b__51_1, addr 0x3eb58b4, size 0x40, virtual false, abstract: false, final false
   inline bool _ValidateEndObject_b__51_1(::System::Collections::Generic::KeyValuePair_2<::StringW, bool> kv);
 
-  /// @brief Method <ValidateEndObject>b__51_2, addr 0x3eb2c9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <ValidateEndObject>b__51_2, addr 0x3eb58f4, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW _ValidateEndObject_b__51_2(::System::Collections::Generic::KeyValuePair_2<::StringW, bool> kv);
 
-  /// @brief Method <WriteToken>b__50_0, addr 0x3eb2bf8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <WriteToken>b__50_0, addr 0x3eb5850, size 0x20, virtual false, abstract: false, final false
   inline bool _WriteToken_b__50_0(::Newtonsoft::Json::Schema::JsonSchemaModel* s);
 
-  /// @brief Method <WriteToken>b__50_1, addr 0x3eb2c18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <WriteToken>b__50_1, addr 0x3eb5870, size 0x18, virtual false, abstract: false, final false
   inline bool _WriteToken_b__50_1(::Newtonsoft::Json::Schema::JsonSchemaModel* s);
 
-  /// @brief Method <WriteToken>b__50_2, addr 0x3eb2c30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <WriteToken>b__50_2, addr 0x3eb5888, size 0x20, virtual false, abstract: false, final false
   inline bool _WriteToken_b__50_2(::Newtonsoft::Json::Schema::JsonSchemaModel* s);
 
-  /// @brief Method .ctor, addr 0x3eb2bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eb5848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::JsonValidatingReader___c* getStaticF___9();
@@ -497,7 +497,7 @@ public:
   JsonValidatingReader___c(JsonValidatingReader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -564,114 +564,114 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Method Close, addr 0x3ead638, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3eb0290, size 0x3c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method FloatingPointRemainder, addr 0x3eb20a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FloatingPointRemainder, addr 0x3eb4cf8, size 0x6c, virtual false, abstract: false, final false
   static inline double_t FloatingPointRemainder(double_t dividend, double_t divisor);
 
-  /// @brief Method GetCurrentNodeSchemaType, addr 0x3ead7a8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentNodeSchemaType, addr 0x3eb0400, size 0x118, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> GetCurrentNodeSchemaType();
 
-  /// @brief Method IsPropertyDefinied, addr 0x3eb210c, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method IsPropertyDefinied, addr 0x3eb4d64, size 0x424, virtual false, abstract: false, final false
   inline bool IsPropertyDefinied(::Newtonsoft::Json::Schema::JsonSchemaModel* schema, ::StringW propertyName);
 
-  /// @brief Method IsZero, addr 0x3eb2034, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsZero, addr 0x3eb4c8c, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsZero(double_t value);
 
   static inline ::Newtonsoft::Json::JsonValidatingReader* New_ctor(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3eb2558, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3eb51b0, size 0xb4, virtual true, abstract: false, final true
   inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3eb260c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3eb5264, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3eb26c4, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3eb531c, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
 
-  /// @brief Method OnValidationEvent, addr 0x3ead45c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnValidationEvent, addr 0x3eb00b4, size 0x98, virtual false, abstract: false, final false
   inline void OnValidationEvent(::Newtonsoft::Json::Schema::JsonSchemaException* exception);
 
-  /// @brief Method Pop, addr 0x3eabea8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x3eaeb00, size 0xa4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonValidatingReader_SchemaScope* Pop();
 
-  /// @brief Method ProcessValue, addr 0x3eaf714, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method ProcessValue, addr 0x3eb236c, size 0x45c, virtual false, abstract: false, final false
   inline void ProcessValue();
 
-  /// @brief Method Push, addr 0x3eabe48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x3eaeaa0, size 0x60, virtual false, abstract: false, final false
   inline void Push(::Newtonsoft::Json::JsonValidatingReader_SchemaScope* scope);
 
-  /// @brief Method RaiseError, addr 0x3ead114, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method RaiseError, addr 0x3eafd6c, size 0x348, virtual false, abstract: false, final false
   inline void RaiseError(::StringW message, ::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method Read, addr 0x3eaf36c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3eb1fc4, size 0x64, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAsBoolean, addr 0x3eaf23c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x3eb1e94, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBytes, addr 0x3eaf130, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x3eb1d88, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsDateTime, addr 0x3eaf2c4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x3eb1f1c, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x3eaf310, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x3eb1f68, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDecimal, addr 0x3eaf174, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x3eb1dcc, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDouble, addr 0x3eaf1f0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x3eb1e48, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsInt32, addr 0x3ead8c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x3eb0518, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsString, addr 0x3eaf280, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x3eb1ed8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method TestType, addr 0x3eb1ef4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method TestType, addr 0x3eb4b4c, size 0x140, virtual false, abstract: false, final false
   inline bool TestType(::Newtonsoft::Json::Schema::JsonSchemaModel* currentSchema, ::Newtonsoft::Json::Schema::JsonSchemaType currentType);
 
-  /// @brief Method ValidateArray, addr 0x3eb2530, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ValidateArray, addr 0x3eb5188, size 0x14, virtual false, abstract: false, final false
   inline bool ValidateArray(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateBoolean, addr 0x3eb18b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ValidateBoolean, addr 0x3eb450c, size 0x40, virtual false, abstract: false, final false
   inline void ValidateBoolean(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateCurrentToken, addr 0x3ead904, size 0x182c, virtual false, abstract: false, final false
+  /// @brief Method ValidateCurrentToken, addr 0x3eb055c, size 0x182c, virtual false, abstract: false, final false
   inline void ValidateCurrentToken();
 
-  /// @brief Method ValidateEndArray, addr 0x3eb1c88, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndArray, addr 0x3eb48e0, size 0x1ec, virtual false, abstract: false, final false
   inline void ValidateEndArray(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateEndObject, addr 0x3eb1934, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndObject, addr 0x3eb458c, size 0x354, virtual false, abstract: false, final false
   inline void ValidateEndObject(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateFloat, addr 0x3eb0e74, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method ValidateFloat, addr 0x3eb3acc, size 0x4f8, virtual false, abstract: false, final false
   inline void ValidateFloat(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateInteger, addr 0x3eb0848, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method ValidateInteger, addr 0x3eb34a0, size 0x62c, virtual false, abstract: false, final false
   inline void ValidateInteger(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateNotDisallowed, addr 0x3ead674, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ValidateNotDisallowed, addr 0x3eb02cc, size 0x134, virtual false, abstract: false, final false
   inline void ValidateNotDisallowed(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateNull, addr 0x3eb18f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ValidateNull, addr 0x3eb454c, size 0x40, virtual false, abstract: false, final false
   inline void ValidateNull(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateObject, addr 0x3eb2544, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ValidateObject, addr 0x3eb519c, size 0x14, virtual false, abstract: false, final false
   inline bool ValidateObject(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidatePropertyName, addr 0x3eb06a0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ValidatePropertyName, addr 0x3eb32f8, size 0x1a8, virtual false, abstract: false, final false
   inline void ValidatePropertyName(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method ValidateString, addr 0x3eb136c, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method ValidateString, addr 0x3eb3fc4, size 0x548, virtual false, abstract: false, final false
   inline void ValidateString(::Newtonsoft::Json::Schema::JsonSchemaModel* schema);
 
-  /// @brief Method WriteToken, addr 0x3eafb70, size 0xb30, virtual false, abstract: false, final false
+  /// @brief Method WriteToken, addr 0x3eb27c8, size 0xb30, virtual false, abstract: false, final false
   inline void WriteToken(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* schemas);
 
   constexpr ::Newtonsoft::Json::Schema::ValidationEventHandler* const& __cordl_internal_get_ValidationEventHandler() const;
@@ -710,56 +710,56 @@ public:
 
   constexpr void __cordl_internal_set__stack(::System::Collections::Generic::Stack_1<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>* value);
 
-  /// @brief Method .ctor, addr 0x3ead4f4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eb014c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method add_ValidationEventHandler, addr 0x3eabc34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_ValidationEventHandler, addr 0x3eae88c, size 0x9c, virtual false, abstract: false, final false
   inline void add_ValidationEventHandler(::Newtonsoft::Json::Schema::ValidationEventHandler* value);
 
   static inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* getStaticF_EmptySchemaList();
 
-  /// @brief Method get_CurrentMemberSchemas, addr 0x3eabf68, size 0x11ac, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentMemberSchemas, addr 0x3eaebc0, size 0x11ac, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_CurrentMemberSchemas();
 
-  /// @brief Method get_CurrentSchemas, addr 0x3eabf4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSchemas, addr 0x3eaeba4, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_CurrentSchemas();
 
-  /// @brief Method get_Depth, addr 0x3eabd90, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x3eae9e8, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_Path, addr 0x3eabdb4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3eaea0c, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_QuoteChar, addr 0x3eabdd8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x3eaea30, size 0x24, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_Reader, addr 0x3ead630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x3eb0288, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReader* get_Reader();
 
-  /// @brief Method get_Schema, addr 0x3ead5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x3eb0200, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_Schema();
 
-  /// @brief Method get_TokenType, addr 0x3eabe00, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x3eaea58, size 0x24, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value, addr 0x3eabd6c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3eae9c4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType, addr 0x3eabe24, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x3eaea7c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  /// @brief Method remove_ValidationEventHandler, addr 0x3eabcd0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_ValidationEventHandler, addr 0x3eae928, size 0x9c, virtual false, abstract: false, final false
   inline void remove_ValidationEventHandler(::Newtonsoft::Json::Schema::ValidationEventHandler* value);
 
   static inline void setStaticF_EmptySchemaList(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* value);
 
-  /// @brief Method set_QuoteChar, addr 0x3eabdfc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x3eaea54, size 0x4, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method set_Schema, addr 0x3ead5b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x3eb0208, size 0x80, virtual false, abstract: false, final false
   inline void set_Schema(::Newtonsoft::Json::Schema::JsonSchema* value);
 
 protected:
@@ -777,7 +777,7 @@ public:
   JsonValidatingReader(JsonValidatingReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10154 };
 
   /// @brief Field _reader, offset: 0x78, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonReader* ____reader;

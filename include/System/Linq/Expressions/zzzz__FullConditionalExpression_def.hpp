@@ -24,7 +24,7 @@ public:
   /// @brief Field _false, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__false, put = __cordl_internal_set__false)) ::System::Linq::Expressions::Expression* _false;
 
-  /// @brief Method GetFalse, addr 0x40b0b7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFalse, addr 0x40b37d4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetFalse();
 
   static inline ::System::Linq::Expressions::FullConditionalExpression* New_ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__false(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40b09c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b3618, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue, ::System::Linq::Expressions::Expression* ifFalse);
 
 protected:
@@ -54,7 +54,7 @@ public:
   FullConditionalExpression(FullConditionalExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13663 };
 
   /// @brief Field _false, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____false;

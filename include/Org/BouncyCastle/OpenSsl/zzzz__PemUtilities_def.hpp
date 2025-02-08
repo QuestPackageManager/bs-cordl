@@ -192,20 +192,20 @@ public:
 
   using PemMode = ::Org::BouncyCastle::OpenSsl::PemUtilities_PemMode;
 
-  /// @brief Method Crypt, addr 0x254f26c, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method Crypt, addr 0x2550c68, size 0x4f0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Crypt(bool encrypt, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::StringW dekAlgName,
                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method GetCipherParameters, addr 0x2552100, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetCipherParameters, addr 0x2553afc, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::OpenSsl::PemUtilities_PemBaseAlg baseAlg,
                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
   static inline ::Org::BouncyCastle::OpenSsl::PemUtilities* New_ctor();
 
-  /// @brief Method ParseDekAlgName, addr 0x2551db0, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ParseDekAlgName, addr 0x25537ac, size 0x350, virtual false, abstract: false, final false
   static inline void ParseDekAlgName(::StringW dekAlgName, ::ByRef<::Org::BouncyCastle::OpenSsl::PemUtilities_PemBaseAlg> baseAlg, ::ByRef<::Org::BouncyCastle::OpenSsl::PemUtilities_PemMode> mode);
 
-  /// @brief Method .ctor, addr 0x2552240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2553c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

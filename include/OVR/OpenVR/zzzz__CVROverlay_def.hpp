@@ -119,19 +119,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE CVROverlay__PollNextOverlayEventPacked : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4076bd8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4079830, size 0xec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VREvent_t_Packed> pEvent, uint32_t uncbVREvent, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4076cc4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x407991c, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(::ByRef<::OVR::OpenVR::VREvent_t_Packed> pEvent, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4076bc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x407981c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VREvent_t_Packed> pEvent, uint32_t uncbVREvent);
 
   static inline ::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4076b38, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4079790, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -149,7 +149,7 @@ public:
   CVROverlay__PollNextOverlayEventPacked(CVROverlay__PollNextOverlayEventPacked const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -227,7 +227,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8883 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -252,268 +252,268 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x290
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVROverlay FnTable;
 
-  /// @brief Method ClearOverlayTexture, addr 0x40767b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClearOverlayTexture, addr 0x4079410, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError ClearOverlayTexture(uint64_t ulOverlayHandle);
 
-  /// @brief Method CloseMessageOverlay, addr 0x4076b14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CloseMessageOverlay, addr 0x407976c, size 0x24, virtual false, abstract: false, final false
   inline void CloseMessageOverlay();
 
-  /// @brief Method ComputeOverlayIntersection, addr 0x4076670, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ComputeOverlayIntersection, addr 0x40792c8, size 0x24, virtual false, abstract: false, final false
   inline bool ComputeOverlayIntersection(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ::ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t> pResults);
 
-  /// @brief Method CreateDashboardOverlay, addr 0x40768b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CreateDashboardOverlay, addr 0x4079508, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError CreateDashboardOverlay(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ::ByRef<uint64_t> pMainHandle, ::ByRef<uint64_t> pThumbnailHandle);
 
-  /// @brief Method CreateOverlay, addr 0x4075d8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateOverlay, addr 0x40789e4, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError CreateOverlay(::StringW pchOverlayKey, ::StringW pchOverlayName, ::ByRef<uint64_t> pOverlayHandle);
 
-  /// @brief Method DestroyOverlay, addr 0x4075db4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DestroyOverlay, addr 0x4078a0c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError DestroyOverlay(uint64_t ulOverlayHandle);
 
-  /// @brief Method FindOverlay, addr 0x4075d64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FindOverlay, addr 0x40789bc, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError FindOverlay(::StringW pchOverlayKey, ::ByRef<uint64_t> pOverlayHandle);
 
-  /// @brief Method GetDashboardOverlaySceneProcess, addr 0x4076948, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDashboardOverlaySceneProcess, addr 0x40795a0, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punProcessId);
 
-  /// @brief Method GetGamepadFocusOverlay, addr 0x40766b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetGamepadFocusOverlay, addr 0x4079310, size 0x24, virtual false, abstract: false, final false
   inline uint64_t GetGamepadFocusOverlay();
 
-  /// @brief Method GetHighQualityOverlay, addr 0x4075dfc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHighQualityOverlay, addr 0x4078a54, size 0x24, virtual false, abstract: false, final false
   inline uint64_t GetHighQualityOverlay();
 
-  /// @brief Method GetKeyboardText, addr 0x4076a14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardText, addr 0x407966c, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetKeyboardText(::System::Text::StringBuilder* pchText, uint32_t cchText);
 
-  /// @brief Method GetOverlayAlpha, addr 0x407604c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayAlpha, addr 0x4078ca4, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayAlpha(uint64_t ulOverlayHandle, ::ByRef<float_t> pfAlpha);
 
-  /// @brief Method GetOverlayAutoCurveDistanceRangeInMeters, addr 0x407617c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayAutoCurveDistanceRangeInMeters, addr 0x4078dd4, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, ::ByRef<float_t> pfMinDistanceInMeters, ::ByRef<float_t> pfMaxDistanceInMeters);
 
-  /// @brief Method GetOverlayColor, addr 0x4075ff8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayColor, addr 0x4078c50, size 0x30, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayColor(uint64_t ulOverlayHandle, ::ByRef<float_t> pfRed, ::ByRef<float_t> pfGreen, ::ByRef<float_t> pfBlue);
 
-  /// @brief Method GetOverlayDualAnalogTransform, addr 0x407676c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayDualAnalogTransform, addr 0x40793c4, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayDualAnalogTransform(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvCenter,
                                                                       ::ByRef<float_t> pfRadius);
 
-  /// @brief Method GetOverlayErrorNameFromEnum, addr 0x4075eb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayErrorNameFromEnum, addr 0x4078b10, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetOverlayErrorNameFromEnum(::OVR::OpenVR::EVROverlayError error);
 
-  /// @brief Method GetOverlayFlag, addr 0x4075fac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayFlag, addr 0x4078c04, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayFlag(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, ::ByRef<bool> pbEnabled);
 
-  /// @brief Method GetOverlayFlags, addr 0x4076ac8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayFlags, addr 0x4079720, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayFlags(uint64_t ulOverlayHandle, ::ByRef<uint32_t> pFlags);
 
-  /// @brief Method GetOverlayImageData, addr 0x4075e8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayImageData, addr 0x4078ae4, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayImageData(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unBufferSize, ::ByRef<uint32_t> punWidth, ::ByRef<uint32_t> punHeight);
 
-  /// @brief Method GetOverlayInputMethod, addr 0x40765e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayInputMethod, addr 0x4079238, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayInputMethod(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayInputMethod> peInputMethod);
 
-  /// @brief Method GetOverlayKey, addr 0x4075e20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayKey, addr 0x4078a78, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetOverlayKey(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
-  /// @brief Method GetOverlayMouseScale, addr 0x4076628, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayMouseScale, addr 0x4079280, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayMouseScale(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale);
 
-  /// @brief Method GetOverlayName, addr 0x4075e44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayName, addr 0x4078a9c, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetOverlayName(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
-  /// @brief Method GetOverlayRenderModel, addr 0x4076238, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayRenderModel, addr 0x4078e90, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetOverlayRenderModel(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::ByRef<::OVR::OpenVR::HmdColor_t> pColor,
                                         ::ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
-  /// @brief Method GetOverlayRenderingPid, addr 0x4075f60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayRenderingPid, addr 0x4078bb8, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetOverlayRenderingPid(uint64_t ulOverlayHandle);
 
-  /// @brief Method GetOverlaySortOrder, addr 0x40760e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlaySortOrder, addr 0x4078d3c, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlaySortOrder(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punSortOrder);
 
-  /// @brief Method GetOverlayTexelAspect, addr 0x4076098, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTexelAspect, addr 0x4078cf0, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTexelAspect(uint64_t ulOverlayHandle, ::ByRef<float_t> pfTexelAspect);
 
-  /// @brief Method GetOverlayTexture, addr 0x4076824, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTexture, addr 0x407947c, size 0x3c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTexture(uint64_t ulOverlayHandle, ::ByRef<::System::IntPtr> pNativeTextureHandle, ::System::IntPtr pNativeTextureRef, ::ByRef<uint32_t> pWidth,
                                                           ::ByRef<uint32_t> pHeight, ::ByRef<uint32_t> pNativeFormat, ::ByRef<::OVR::OpenVR::ETextureType> pAPIType,
                                                           ::ByRef<::OVR::OpenVR::EColorSpace> pColorSpace, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds);
 
-  /// @brief Method GetOverlayTextureBounds, addr 0x4076214, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTextureBounds, addr 0x4078e6c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTextureBounds(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
 
-  /// @brief Method GetOverlayTextureColorSpace, addr 0x40761cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTextureColorSpace, addr 0x4078e24, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTextureColorSpace(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::EColorSpace> peTextureColorSpace);
 
-  /// @brief Method GetOverlayTextureSize, addr 0x4076884, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTextureSize, addr 0x40794dc, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTextureSize(uint64_t ulOverlayHandle, ::ByRef<uint32_t> pWidth, ::ByRef<uint32_t> pHeight);
 
-  /// @brief Method GetOverlayTransformAbsolute, addr 0x40762c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTransformAbsolute, addr 0x4078f20, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTransformAbsolute(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin,
                                                                     ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
 
-  /// @brief Method GetOverlayTransformOverlayRelative, addr 0x4076384, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTransformOverlayRelative, addr 0x4078fdc, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, ::ByRef<uint64_t> ulOverlayHandleParent,
                                                                            ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
 
-  /// @brief Method GetOverlayTransformTrackedDeviceComponent, addr 0x407635c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTransformTrackedDeviceComponent, addr 0x4078fb4, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punDeviceIndex, ::System::Text::StringBuilder* pchComponentName,
                                                                                   uint32_t unComponentNameSize);
 
-  /// @brief Method GetOverlayTransformTrackedDeviceRelative, addr 0x4076310, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTransformTrackedDeviceRelative, addr 0x4078f68, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, ::ByRef<uint32_t> punTrackedDevice,
                                                                                  ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
 
-  /// @brief Method GetOverlayTransformType, addr 0x4076280, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayTransformType, addr 0x4078ed8, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayTransformType(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayTransformType> peTransformType);
 
-  /// @brief Method GetOverlayWidthInMeters, addr 0x4076130, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOverlayWidthInMeters, addr 0x4078d88, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetOverlayWidthInMeters(uint64_t ulOverlayHandle, ::ByRef<float_t> pfWidthInMeters);
 
-  /// @brief Method GetPrimaryDashboardDevice, addr 0x4076994, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPrimaryDashboardDevice, addr 0x40795ec, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetPrimaryDashboardDevice();
 
-  /// @brief Method GetTransformForOverlayCoordinates, addr 0x407643c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTransformForOverlayCoordinates, addr 0x4079094, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError GetTransformForOverlayCoordinates(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin,
                                                                           ::OVR::OpenVR::HmdVector2_t coordinatesInOverlay, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTransform);
 
-  /// @brief Method HideKeyboard, addr 0x4076a38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HideKeyboard, addr 0x4079690, size 0x24, virtual false, abstract: false, final false
   inline void HideKeyboard();
 
-  /// @brief Method HideOverlay, addr 0x40763f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HideOverlay, addr 0x407904c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError HideOverlay(uint64_t ulOverlayHandle);
 
-  /// @brief Method IsActiveDashboardOverlay, addr 0x4076900, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsActiveDashboardOverlay, addr 0x4079558, size 0x24, virtual false, abstract: false, final false
   inline bool IsActiveDashboardOverlay(uint64_t ulOverlayHandle);
 
-  /// @brief Method IsDashboardVisible, addr 0x40768dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsDashboardVisible, addr 0x4079534, size 0x24, virtual false, abstract: false, final false
   inline bool IsDashboardVisible();
 
-  /// @brief Method IsHoverTargetOverlay, addr 0x4076694, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsHoverTargetOverlay, addr 0x40792ec, size 0x24, virtual false, abstract: false, final false
   inline bool IsHoverTargetOverlay(uint64_t ulOverlayHandle);
 
-  /// @brief Method IsOverlayVisible, addr 0x4076418, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsOverlayVisible, addr 0x4079070, size 0x24, virtual false, abstract: false, final false
   inline bool IsOverlayVisible(uint64_t ulOverlayHandle);
 
-  /// @brief Method MoveGamepadFocusToNeighbor, addr 0x4076724, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MoveGamepadFocusToNeighbor, addr 0x407937c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError MoveGamepadFocusToNeighbor(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom);
 
   static inline ::OVR::OpenVR::CVROverlay* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method PollNextOverlayEvent, addr 0x4076460, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method PollNextOverlayEvent, addr 0x40790b8, size 0x180, virtual false, abstract: false, final false
   inline bool PollNextOverlayEvent(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent);
 
-  /// @brief Method ReleaseNativeOverlayHandle, addr 0x4076860, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReleaseNativeOverlayHandle, addr 0x40794b8, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError ReleaseNativeOverlayHandle(uint64_t ulOverlayHandle, ::System::IntPtr pNativeTextureHandle);
 
-  /// @brief Method SetDashboardOverlaySceneProcess, addr 0x4076924, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetDashboardOverlaySceneProcess, addr 0x407957c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetDashboardOverlaySceneProcess(uint64_t ulOverlayHandle, uint32_t unProcessId);
 
-  /// @brief Method SetGamepadFocusOverlay, addr 0x40766dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetGamepadFocusOverlay, addr 0x4079334, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetGamepadFocusOverlay(uint64_t ulNewFocusOverlay);
 
-  /// @brief Method SetHighQualityOverlay, addr 0x4075dd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetHighQualityOverlay, addr 0x4078a30, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetHighQualityOverlay(uint64_t ulOverlayHandle);
 
-  /// @brief Method SetKeyboardPositionForOverlay, addr 0x4076a80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardPositionForOverlay, addr 0x40796d8, size 0x24, virtual false, abstract: false, final false
   inline void SetKeyboardPositionForOverlay(uint64_t ulOverlayHandle, ::OVR::OpenVR::HmdRect2_t avoidRect);
 
-  /// @brief Method SetKeyboardTransformAbsolute, addr 0x4076a5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardTransformAbsolute, addr 0x40796b4, size 0x24, virtual false, abstract: false, final false
   inline void SetKeyboardTransformAbsolute(::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform);
 
-  /// @brief Method SetOverlayAlpha, addr 0x4076028, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayAlpha, addr 0x4078c80, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayAlpha(uint64_t ulOverlayHandle, float_t fAlpha);
 
-  /// @brief Method SetOverlayAutoCurveDistanceRangeInMeters, addr 0x4076158, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayAutoCurveDistanceRangeInMeters, addr 0x4078db0, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayAutoCurveDistanceRangeInMeters(uint64_t ulOverlayHandle, float_t fMinDistanceInMeters, float_t fMaxDistanceInMeters);
 
-  /// @brief Method SetOverlayColor, addr 0x4075fd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayColor, addr 0x4078c2c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayColor(uint64_t ulOverlayHandle, float_t fRed, float_t fGreen, float_t fBlue);
 
-  /// @brief Method SetOverlayDualAnalogTransform, addr 0x4076748, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayDualAnalogTransform, addr 0x40793a0, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayDualAnalogTransform(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::System::IntPtr vCenter, float_t fRadius);
 
-  /// @brief Method SetOverlayFlag, addr 0x4075f84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayFlag, addr 0x4078bdc, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayFlag(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, bool bEnabled);
 
-  /// @brief Method SetOverlayFromFile, addr 0x4076800, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayFromFile, addr 0x4079458, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayFromFile(uint64_t ulOverlayHandle, ::StringW pchFilePath);
 
-  /// @brief Method SetOverlayInputMethod, addr 0x4076604, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayInputMethod, addr 0x407925c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayInputMethod(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayInputMethod eInputMethod);
 
-  /// @brief Method SetOverlayIntersectionMask, addr 0x4076aa4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayIntersectionMask, addr 0x40796fc, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayIntersectionMask(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint32_t unNumMaskPrimitives,
                                                                    uint32_t unPrimitiveSize);
 
-  /// @brief Method SetOverlayMouseScale, addr 0x407664c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayMouseScale, addr 0x40792a4, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayMouseScale(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale);
 
-  /// @brief Method SetOverlayName, addr 0x4075e68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayName, addr 0x4078ac0, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayName(uint64_t ulOverlayHandle, ::StringW pchName);
 
-  /// @brief Method SetOverlayNeighbor, addr 0x4076700, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayNeighbor, addr 0x4079358, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayNeighbor(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
 
-  /// @brief Method SetOverlayRaw, addr 0x40767dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayRaw, addr 0x4079434, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayRaw(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unWidth, uint32_t unHeight, uint32_t unDepth);
 
-  /// @brief Method SetOverlayRenderModel, addr 0x407625c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayRenderModel, addr 0x4078eb4, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayRenderModel(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ::ByRef<::OVR::OpenVR::HmdColor_t> pColor);
 
-  /// @brief Method SetOverlayRenderingPid, addr 0x4075f3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayRenderingPid, addr 0x4078b94, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayRenderingPid(uint64_t ulOverlayHandle, uint32_t unPID);
 
-  /// @brief Method SetOverlaySortOrder, addr 0x40760c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlaySortOrder, addr 0x4078d18, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlaySortOrder(uint64_t ulOverlayHandle, uint32_t unSortOrder);
 
-  /// @brief Method SetOverlayTexelAspect, addr 0x4076074, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayTexelAspect, addr 0x4078ccc, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayTexelAspect(uint64_t ulOverlayHandle, float_t fTexelAspect);
 
-  /// @brief Method SetOverlayTexture, addr 0x4076794, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayTexture, addr 0x40793ec, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayTexture(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::Texture_t> pTexture);
 
-  /// @brief Method SetOverlayTextureBounds, addr 0x40761f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayTextureBounds, addr 0x4078e48, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayTextureBounds(uint64_t ulOverlayHandle, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
 
-  /// @brief Method SetOverlayTextureColorSpace, addr 0x40761a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayTextureColorSpace, addr 0x4078e00, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayTextureColorSpace(uint64_t ulOverlayHandle, ::OVR::OpenVR::EColorSpace eTextureColorSpace);
 
-  /// @brief Method SetOverlayTransformAbsolute, addr 0x40762a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayTransformAbsolute, addr 0x4078efc, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayTransformAbsolute(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin,
                                                                     ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
 
-  /// @brief Method SetOverlayTransformOverlayRelative, addr 0x40763ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayTransformOverlayRelative, addr 0x4079004, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayTransformOverlayRelative(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent,
                                                                            ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
 
-  /// @brief Method SetOverlayTransformTrackedDeviceComponent, addr 0x4076338, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayTransformTrackedDeviceComponent, addr 0x4078f90, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayTransformTrackedDeviceComponent(uint64_t ulOverlayHandle, uint32_t unDeviceIndex, ::StringW pchComponentName);
 
-  /// @brief Method SetOverlayTransformTrackedDeviceRelative, addr 0x40762ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayTransformTrackedDeviceRelative, addr 0x4078f44, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayTransformTrackedDeviceRelative(uint64_t ulOverlayHandle, uint32_t unTrackedDevice,
                                                                                  ::ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
 
-  /// @brief Method SetOverlayWidthInMeters, addr 0x407610c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetOverlayWidthInMeters, addr 0x4078d64, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError SetOverlayWidthInMeters(uint64_t ulOverlayHandle, float_t fWidthInMeters);
 
-  /// @brief Method ShowDashboard, addr 0x4076970, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShowDashboard, addr 0x40795c8, size 0x24, virtual false, abstract: false, final false
   inline void ShowDashboard(::StringW pchOverlayToShow);
 
-  /// @brief Method ShowKeyboard, addr 0x40769b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShowKeyboard, addr 0x4079610, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError ShowKeyboard(int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText, bool bUseMinimalMode,
                                                      uint64_t uUserValue);
 
-  /// @brief Method ShowKeyboardForOverlay, addr 0x40769e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShowKeyboardForOverlay, addr 0x407963c, size 0x30, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError ShowKeyboardForOverlay(uint64_t ulOverlayHandle, int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax,
                                                                ::StringW pchExistingText, bool bUseMinimalMode, uint64_t uUserValue);
 
-  /// @brief Method ShowMessageOverlay, addr 0x4076af0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShowMessageOverlay, addr 0x4079748, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::VRMessageOverlayResponse ShowMessageOverlay(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text,
                                                                     ::StringW pchButton3Text);
 
-  /// @brief Method ShowOverlay, addr 0x40763d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShowOverlay, addr 0x4079028, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError ShowOverlay(uint64_t ulOverlayHandle);
 
   constexpr ::OVR::OpenVR::IVROverlay const& __cordl_internal_get_FnTable() const;
@@ -522,7 +522,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVROverlay value);
 
-  /// @brief Method .ctor, addr 0x4075c50, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40788a8, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -540,7 +540,7 @@ public:
   CVROverlay(CVROverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8884 };
 
   /// @brief Field FnTable, offset: 0x10, size: 0x290, def value: None
   ::OVR::OpenVR::IVROverlay ___FnTable;

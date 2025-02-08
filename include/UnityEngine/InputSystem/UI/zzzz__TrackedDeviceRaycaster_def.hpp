@@ -87,19 +87,19 @@ public:
 
   __declspec(property(get = get_worldHitPosition)) ::UnityEngine::Vector3 worldHitPosition;
 
-  /// @brief Method .ctor, addr 0x45f7a18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45fa670, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UI::Graphic* graphic, ::UnityEngine::Vector3 worldHitPosition, ::UnityEngine::Vector2 screenPosition, float_t distance);
 
-  /// @brief Method get_distance, addr 0x45f7b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x45fa7b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_graphic, addr 0x45f7b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x45fa794, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
-  /// @brief Method get_screenPosition, addr 0x45f7b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenPosition, addr 0x45fa7a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_screenPosition();
 
-  /// @brief Method get_worldHitPosition, addr 0x45f7b44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldHitPosition, addr 0x45fa79c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldHitPosition();
 
   // Ctor Parameters []
@@ -113,7 +113,7 @@ public:
                                                   ::UnityEngine::Vector2 _screenPosition_k__BackingField, float_t _distance_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6789 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -159,10 +159,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c* New_ctor();
 
-  /// @brief Method <SortedRaycastGraphics>b__25_0, addr 0x45f7bc4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <SortedRaycastGraphics>b__25_0, addr 0x45fa81c, size 0x50, virtual false, abstract: false, final false
   inline int32_t _SortedRaycastGraphics_b__25_0(::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData g1, ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData g2);
 
-  /// @brief Method .ctor, addr 0x45f7bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45fa814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c* getStaticF___9();
@@ -188,7 +188,7 @@ public:
   TrackedDeviceRaycaster___c(TrackedDeviceRaycaster___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6790 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -255,22 +255,22 @@ public:
 
   static inline ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x45f70bc, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x45f9d14, size 0xf4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x45f7038, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x45f9c90, size 0x84, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PerformRaycast, addr 0x45f0a48, size 0x684, virtual false, abstract: false, final false
+  /// @brief Method PerformRaycast, addr 0x45f36a0, size 0x684, virtual false, abstract: false, final false
   inline void PerformRaycast(::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method RayIntersectsRectTransform, addr 0x45f7720, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method RayIntersectsRectTransform, addr 0x45fa378, size 0x2f8, virtual false, abstract: false, final false
   static inline bool RayIntersectsRectTransform(::UnityEngine::RectTransform* transform, ::UnityEngine::Ray ray, ::ByRef<::UnityEngine::Vector3> worldPosition, ::ByRef<float_t> distance);
 
-  /// @brief Method Raycast, addr 0x45f71b0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x45f9e08, size 0xa8, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method SortedRaycastGraphics, addr 0x45f7258, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method SortedRaycastGraphics, addr 0x45f9eb0, size 0x4c8, virtual false, abstract: false, final false
   inline void SortedRaycastGraphics(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray,
                                     ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* results);
 
@@ -316,51 +316,51 @@ public:
 
   constexpr void __cordl_internal_set_m_RaycastResultsCache(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* value);
 
-  /// @brief Method .ctor, addr 0x45f7a2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45fa684, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> getStaticF_s_Instances();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* getStaticF_s_SortedGraphics();
 
-  /// @brief Method get_blockingMask, addr 0x45f6fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingMask, addr 0x45f9c34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_blockingMask();
 
-  /// @brief Method get_canvas, addr 0x45f6f48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x45f9ba0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method get_checkFor2DOcclusion, addr 0x45f7000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_checkFor2DOcclusion, addr 0x45f9c58, size 0x8, virtual false, abstract: false, final false
   inline bool get_checkFor2DOcclusion();
 
-  /// @brief Method get_checkFor3DOcclusion, addr 0x45f6fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_checkFor3DOcclusion, addr 0x45f9c44, size 0x8, virtual false, abstract: false, final false
   inline bool get_checkFor3DOcclusion();
 
-  /// @brief Method get_eventCamera, addr 0x45f6eb4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x45f9b0c, size 0x94, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_ignoreReversedGraphics, addr 0x45f7014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreReversedGraphics, addr 0x45f9c6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreReversedGraphics();
 
-  /// @brief Method get_maxDistance, addr 0x45f7028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance, addr 0x45f9c80, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
   static inline void setStaticF_s_Instances(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> value);
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* value);
 
-  /// @brief Method set_blockingMask, addr 0x45f6fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingMask, addr 0x45f9c3c, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_checkFor2DOcclusion, addr 0x45f7008, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_checkFor2DOcclusion, addr 0x45f9c60, size 0xc, virtual false, abstract: false, final false
   inline void set_checkFor2DOcclusion(bool value);
 
-  /// @brief Method set_checkFor3DOcclusion, addr 0x45f6ff4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_checkFor3DOcclusion, addr 0x45f9c4c, size 0xc, virtual false, abstract: false, final false
   inline void set_checkFor3DOcclusion(bool value);
 
-  /// @brief Method set_ignoreReversedGraphics, addr 0x45f701c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreReversedGraphics, addr 0x45f9c74, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreReversedGraphics(bool value);
 
-  /// @brief Method set_maxDistance, addr 0x45f7030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance, addr 0x45f9c88, size 0x8, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
 protected:
@@ -378,7 +378,7 @@ public:
   TrackedDeviceRaycaster(TrackedDeviceRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6791 };
 
   /// @brief Field m_RaycastResultsCache, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>* ___m_RaycastResultsCache;

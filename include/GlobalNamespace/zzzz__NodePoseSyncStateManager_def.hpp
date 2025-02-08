@@ -66,39 +66,39 @@ public:
   constexpr operator ::GlobalNamespace::INodePoseSyncStateManager_5<::GlobalNamespace::NodePoseSyncState, ::GlobalNamespace::NodePoseSyncState_NodePose, ::GlobalNamespace::PoseSerializable,
                                                                     ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>*() noexcept;
 
-  /// @brief Method Interpolate, addr 0x3e74330, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x3e76f88, size 0x6c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::PoseSerializable Interpolate(::GlobalNamespace::PoseSerializable prev, int64_t prevTime, ::GlobalNamespace::PoseSerializable curr, int64_t currTime, int64_t time);
 
   static inline ::GlobalNamespace::NodePoseSyncStateManager* New_ctor();
 
-  /// @brief Method Smooth, addr 0x3e7439c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Smooth, addr 0x3e76ff4, size 0x5c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::PoseSerializable Smooth(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t smooth);
 
-  /// @brief Method .ctor, addr 0x3e743f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e77050, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_deltaMessageType, addr 0x3e74328, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaMessageType, addr 0x3e76f80, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerSessionManager_MessageType get_deltaMessageType();
 
-  /// @brief Method get_deltaSerializablePool, addr 0x3e74318, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaSerializablePool, addr 0x3e76f70, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
 
-  /// @brief Method get_deltaUpdateFrequencyMs, addr 0x3e742f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaUpdateFrequencyMs, addr 0x3e76f48, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_deltaUpdateFrequencyMs();
 
-  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0x3e742f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0x3e76f50, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_fullStateUpdateFrequencyMs();
 
-  /// @brief Method get_localBufferSize, addr 0x3e74300, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_localBufferSize, addr 0x3e76f58, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_localBufferSize();
 
-  /// @brief Method get_messageType, addr 0x3e74320, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_messageType, addr 0x3e76f78, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerSessionManager_MessageType get_messageType();
 
-  /// @brief Method get_remoteBufferSize, addr 0x3e74308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_remoteBufferSize, addr 0x3e76f60, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_remoteBufferSize();
 
-  /// @brief Method get_serializablePool, addr 0x3e74310, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_serializablePool, addr 0x3e76f68, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_serializablePool();
 
   /// @brief Convert to "::GlobalNamespace::INodePoseSyncStateManager"
@@ -125,7 +125,7 @@ public:
   NodePoseSyncStateManager(NodePoseSyncStateManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

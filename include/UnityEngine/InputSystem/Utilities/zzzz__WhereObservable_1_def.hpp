@@ -98,7 +98,7 @@ public:
   WhereObservable_1_Where(WhereObservable_1_Where const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7103 };
 
   /// @brief Field m_Observable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* ___m_Observable;
@@ -168,7 +168,7 @@ public:
   WhereObservable_1(WhereObservable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7104 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TValue>* ___m_Source;

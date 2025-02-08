@@ -82,7 +82,7 @@ public:
   static ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType const ValueDuration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18632 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -149,7 +149,7 @@ public:
   static ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_MarkerType const TooltipMarker;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18633 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -223,19 +223,19 @@ public:
 
   constexpr void __cordl_internal_set__visible(bool value);
 
-  /// @brief Method .ctor, addr 0x2281d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22835d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dataTransformation, addr 0x2281d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataTransformation, addr 0x22835bc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType get_dataTransformation();
 
-  /// @brief Method get_markerType, addr 0x2281d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markerType, addr 0x22835c4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_MarkerType get_markerType();
 
-  /// @brief Method get_needsFiltering, addr 0x2281d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_needsFiltering, addr 0x22835cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_needsFiltering();
 
-  /// @brief Method get_visible, addr 0x2281d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visible, addr 0x22835b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_visible();
 
 protected:
@@ -253,7 +253,7 @@ public:
   EventTrackDefinitionSO(EventTrackDefinitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18634 };
 
   /// @brief Field _dataTransformationType, offset: 0x18, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType ____dataTransformationType;

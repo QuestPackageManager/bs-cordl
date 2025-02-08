@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;
 
-  /// @brief Method DrawMeshNow, addr 0x4716300, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshNow, addr 0x4718f58, size 0x118, virtual false, abstract: false, final false
   inline void DrawMeshNow(int32_t submeshIndex);
 
   static inline ::UnityEngine::ProBuilder::MeshHandle* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x47162d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4718f2c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
 
-  /// @brief Method get_mesh, addr 0x47162cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x4718f24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:
@@ -71,7 +71,7 @@ public:
   MeshHandle(MeshHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14257 };
 
   /// @brief Field m_Transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_Transform;

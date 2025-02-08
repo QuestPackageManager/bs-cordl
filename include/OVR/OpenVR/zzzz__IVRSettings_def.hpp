@@ -124,18 +124,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetSettingsErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406dcc8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4070920, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRSettingsError eError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406dd4c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40709a4, size 0x28, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406dcb4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x407090c, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRSettingsError eError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406dc28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4070880, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -153,7 +153,7 @@ public:
   IVRSettings__GetSettingsErrorNameFromEnum(IVRSettings__GetSettingsErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -168,18 +168,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__Sync : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406de18, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4070a70, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool bForce, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406ded8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4070b30, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406de00, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4070a58, size 0x18, virtual true, abstract: false, final false
   inline bool Invoke(bool bForce, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__Sync* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406dd74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40709cc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -197,7 +197,7 @@ public:
   IVRSettings__Sync(IVRSettings__Sync const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -212,19 +212,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__SetBool : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406dfbc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4070c14, size 0xd4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406e090, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4070ce8, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406dfa4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4070bfc, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__SetBool* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406df04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4070b5c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -242,7 +242,7 @@ public:
   IVRSettings__SetBool(IVRSettings__SetBool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -257,19 +257,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__SetInt32 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406e160, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4070db8, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406e230, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4070e88, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406e14c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4070da4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__SetInt32* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406e0ac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4070d04, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -287,7 +287,7 @@ public:
   IVRSettings__SetInt32(IVRSettings__SetInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -302,19 +302,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__SetFloat : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406e300, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4070f58, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406e3d0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4071028, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406e2ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4070f44, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__SetFloat* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406e24c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4070ea4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -332,7 +332,7 @@ public:
   IVRSettings__SetFloat(IVRSettings__SetFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -347,19 +347,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__SetString : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406e4a0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40710f8, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406e548, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40711a0, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406e48c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40710e4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__SetString* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406e3ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4071044, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -377,7 +377,7 @@ public:
   IVRSettings__SetString(IVRSettings__SetString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -392,19 +392,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetBool : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406e618, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4071270, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406e6b8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4071310, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406e604, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x407125c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetBool* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406e564, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40711bc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -422,7 +422,7 @@ public:
   IVRSettings__GetBool(IVRSettings__GetBool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -437,19 +437,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetInt32 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406e798, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40713f0, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406e838, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4071490, size 0x2c, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406e784, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40713dc, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetInt32* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406e6e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407133c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -467,7 +467,7 @@ public:
   IVRSettings__GetInt32(IVRSettings__GetInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -482,19 +482,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetFloat : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406e918, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4071570, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406e9b8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4071610, size 0x2c, virtual true, abstract: false, final false
   inline float_t EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406e904, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x407155c, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetFloat* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406e864, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40714bc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -512,7 +512,7 @@ public:
   IVRSettings__GetFloat(IVRSettings__GetFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -527,19 +527,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetString : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406ea98, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40716f0, size 0xdc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen,
                                              ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406eb74, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40717cc, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406ea84, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40716dc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetString* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406e9e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407163c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -557,7 +557,7 @@ public:
   IVRSettings__GetString(IVRSettings__GetString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -572,18 +572,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__RemoveSection : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406ec44, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x407189c, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406ecd8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4071930, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406ec30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4071888, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__RemoveSection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406eb90, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40717e8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -601,7 +601,7 @@ public:
   IVRSettings__RemoveSection(IVRSettings__RemoveSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -616,19 +616,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__RemoveKeyInSection : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406eda8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4071a00, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406ee48, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4071aa0, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406ed94, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40719ec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406ecf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407194c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -646,7 +646,7 @@ public:
   IVRSettings__RemoveKeyInSection(IVRSettings__RemoveKeyInSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8822 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -704,7 +704,7 @@ public:
                         ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* RemoveKeyInSection) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8823 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

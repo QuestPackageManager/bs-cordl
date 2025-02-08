@@ -33,18 +33,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE SongPackMaskConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x272626c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x2727cb0, size 0x88, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::GlobalNamespace::SongPackMaskConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x27262f4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x2727d38, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x2726388, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x2727dcc, size 0xa8, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x2726430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2727e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   SongPackMaskConverter(SongPackMaskConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

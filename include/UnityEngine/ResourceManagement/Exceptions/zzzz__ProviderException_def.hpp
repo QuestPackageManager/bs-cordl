@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x47942d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4796f30, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
 
-  /// @brief Method get_Location, addr 0x4794300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x4796f58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
 protected:
@@ -61,7 +61,7 @@ public:
   ProviderException(ProviderException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15606 };
 
   /// @brief Field <Location>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ____Location_k__BackingField;

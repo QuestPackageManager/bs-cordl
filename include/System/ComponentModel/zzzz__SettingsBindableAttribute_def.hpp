@@ -33,10 +33,10 @@ public:
   /// @brief Field <Bindable>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Bindable_k__BackingField, put = __cordl_internal_set__Bindable_k__BackingField)) bool _Bindable_k__BackingField;
 
-  /// @brief Method Equals, addr 0x445c890, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x445f4e8, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x445c91c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x445f574, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* New_ctor(bool bindable);
@@ -47,14 +47,14 @@ public:
 
   constexpr void __cordl_internal_set__Bindable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x445c860, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445f4b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool bindable);
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_No();
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_Yes();
 
-  /// @brief Method get_Bindable, addr 0x445c888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bindable, addr 0x445f4e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Bindable();
 
   static inline void setStaticF_No(::System::ComponentModel::SettingsBindableAttribute* value);
@@ -76,7 +76,7 @@ public:
   SettingsBindableAttribute(SettingsBindableAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9418 };
 
   /// @brief Field <Bindable>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Bindable_k__BackingField;

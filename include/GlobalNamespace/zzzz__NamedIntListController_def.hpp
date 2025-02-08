@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c2a204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2ce5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x3c2a1d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x3c2ce2c, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
 protected:
@@ -75,7 +75,7 @@ public:
   NamedIntListController_TextValuePair(NamedIntListController_TextValuePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18970 };
 
   /// @brief Field localizationKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ___localizationKey;
@@ -117,21 +117,21 @@ public:
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
 
-  /// @brief Method ApplyValue, addr 0x3c2a180, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3c2cdd8, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3c2a10c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3c2cd64, size 0x74, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
-  /// @brief Method InitValues, addr 0x3c2a09c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InitValues, addr 0x3c2ccf4, size 0x38, virtual false, abstract: false, final false
   inline void InitValues(::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*> values);
 
   static inline ::GlobalNamespace::NamedIntListController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3c2a0d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3c2cd2c, size 0x38, virtual false, abstract: false, final false
   inline void SetValue(int32_t value);
 
-  /// @brief Method TextForValue, addr 0x3c2a1a0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3c2cdf8, size 0x34, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*> const& __cordl_internal_get__textValuePairs() const;
@@ -152,16 +152,16 @@ public:
 
   constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3c2a1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2ce54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueChangedEvent, addr 0x3c29f3c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_valueChangedEvent, addr 0x3c2cb94, size 0xb0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
   constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
-  /// @brief Method remove_valueChangedEvent, addr 0x3c29fec, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_valueChangedEvent, addr 0x3c2cc44, size 0xb0, virtual true, abstract: false, final true
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -179,7 +179,7 @@ public:
   NamedIntListController(NamedIntListController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18971 };
 
   /// @brief Field _textValuePairs, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*> ____textValuePairs;

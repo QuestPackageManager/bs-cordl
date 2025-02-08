@@ -22,10 +22,10 @@ namespace System {
 class CORDL_TYPE PasteArguments : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendArgument, addr 0x440a7b4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method AppendArgument, addr 0x440d40c, size 0x1dc, virtual false, abstract: false, final false
   static inline void AppendArgument(::System::Text::StringBuilder* stringBuilder, ::StringW argument);
 
-  /// @brief Method ContainsNoWhitespaceOrQuotes, addr 0x440a990, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ContainsNoWhitespaceOrQuotes, addr 0x440d5e8, size 0xc8, virtual false, abstract: false, final false
   static inline bool ContainsNoWhitespaceOrQuotes(::StringW s);
 
 protected:
@@ -43,7 +43,7 @@ public:
   PasteArguments(PasteArguments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9183 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

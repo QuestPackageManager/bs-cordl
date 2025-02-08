@@ -28,10 +28,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0x24330c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2434ac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::IO::Stream* output, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0x24330b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2434ab0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
 protected:

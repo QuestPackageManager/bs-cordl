@@ -83,43 +83,43 @@ public:
 
   constexpr void __cordl_internal_set_m_MinAtlasSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a38a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3b6a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeFilters, addr 0x4a389a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeFilters, addr 0x4a3b5f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasFilters get_activeFilters();
 
-  /// @brief Method get_customFilter, addr 0x4a389b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customFilter, addr 0x4a3b610, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* get_customFilter();
 
-  /// @brief Method get_defaultFilters, addr 0x4a389b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFilters, addr 0x4a3b608, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters();
 
-  /// @brief Method get_defaults, addr 0x4a389c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_defaults, addr 0x4a3b620, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasSettings* get_defaults();
 
-  /// @brief Method get_maxAtlasSize, addr 0x4a38980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxAtlasSize, addr 0x4a3b5d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAtlasSize();
 
-  /// @brief Method get_maxSubTextureSize, addr 0x4a38990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxSubTextureSize, addr 0x4a3b5e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxSubTextureSize();
 
-  /// @brief Method get_minAtlasSize, addr 0x4a38970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minAtlasSize, addr 0x4a3b5c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minAtlasSize();
 
-  /// @brief Method set_activeFilters, addr 0x4a389a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activeFilters, addr 0x4a3b600, size 0x8, virtual false, abstract: false, final false
   inline void set_activeFilters(::UnityEngine::UIElements::DynamicAtlasFilters value);
 
-  /// @brief Method set_customFilter, addr 0x4a389c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customFilter, addr 0x4a3b618, size 0x8, virtual false, abstract: false, final false
   inline void set_customFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
 
-  /// @brief Method set_maxAtlasSize, addr 0x4a38988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxAtlasSize, addr 0x4a3b5e0, size 0x8, virtual false, abstract: false, final false
   inline void set_maxAtlasSize(int32_t value);
 
-  /// @brief Method set_maxSubTextureSize, addr 0x4a38998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxSubTextureSize, addr 0x4a3b5f0, size 0x8, virtual false, abstract: false, final false
   inline void set_maxSubTextureSize(int32_t value);
 
-  /// @brief Method set_minAtlasSize, addr 0x4a38978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minAtlasSize, addr 0x4a3b5d0, size 0x8, virtual false, abstract: false, final false
   inline void set_minAtlasSize(int32_t value);
 
 protected:
@@ -137,7 +137,7 @@ public:
   DynamicAtlasSettings(DynamicAtlasSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5956 };
 
   /// @brief Field m_MinAtlasSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_MinAtlasSize;

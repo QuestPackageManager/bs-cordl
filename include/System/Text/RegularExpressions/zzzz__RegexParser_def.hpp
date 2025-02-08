@@ -109,226 +109,226 @@ public:
   /// @brief Field s_category, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_category, put = setStaticF_s_category)) ::ArrayW<uint8_t, ::Array<uint8_t>*> s_category;
 
-  /// @brief Method AddAlternate, addr 0x4427518, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AddAlternate, addr 0x442a170, size 0xc4, virtual false, abstract: false, final false
   inline void AddAlternate();
 
-  /// @brief Method AddConcatenate, addr 0x4427fb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AddConcatenate, addr 0x442ac10, size 0x28, virtual false, abstract: false, final false
   inline void AddConcatenate();
 
-  /// @brief Method AddConcatenate, addr 0x44280d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddConcatenate, addr 0x442ad30, size 0x44, virtual false, abstract: false, final false
   inline void AddConcatenate(bool lazy, int32_t min, int32_t max);
 
-  /// @brief Method AddConcatenate, addr 0x44261b8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method AddConcatenate, addr 0x4428e10, size 0x1e0, virtual false, abstract: false, final false
   inline void AddConcatenate(int32_t pos, int32_t cch, bool isReplacement);
 
-  /// @brief Method AddGroup, addr 0x4427684, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddGroup, addr 0x442a2dc, size 0x140, virtual false, abstract: false, final false
   inline void AddGroup();
 
-  /// @brief Method AddUnitNode, addr 0x4429eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddUnitNode, addr 0x442cb08, size 0x8, virtual false, abstract: false, final false
   inline void AddUnitNode(::System::Text::RegularExpressions::RegexNode* node);
 
-  /// @brief Method AddUnitNotone, addr 0x4427ef8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AddUnitNotone, addr 0x442ab50, size 0xb0, virtual false, abstract: false, final false
   inline void AddUnitNotone(char16_t ch);
 
-  /// @brief Method AddUnitOne, addr 0x44263b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AddUnitOne, addr 0x442900c, size 0xb0, virtual false, abstract: false, final false
   inline void AddUnitOne(char16_t ch);
 
-  /// @brief Method AddUnitSet, addr 0x4426a7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AddUnitSet, addr 0x44296d4, size 0x78, virtual false, abstract: false, final false
   inline void AddUnitSet(::StringW cc);
 
-  /// @brief Method AddUnitType, addr 0x4427e7c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddUnitType, addr 0x442aad4, size 0x70, virtual false, abstract: false, final false
   inline void AddUnitType(int32_t type);
 
-  /// @brief Method AssignNameSlots, addr 0x442984c, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method AssignNameSlots, addr 0x442c4a4, size 0x65c, virtual false, abstract: false, final false
   inline void AssignNameSlots();
 
-  /// @brief Method CaptureSlotFromName, addr 0x44289d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CaptureSlotFromName, addr 0x442b630, size 0x8c, virtual false, abstract: false, final false
   inline int32_t CaptureSlotFromName(::StringW capname);
 
-  /// @brief Method CharAt, addr 0x4426398, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CharAt, addr 0x4428ff0, size 0x1c, virtual false, abstract: false, final false
   inline char16_t CharAt(int32_t i);
 
-  /// @brief Method CharsRight, addr 0x4425e18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CharsRight, addr 0x4428a70, size 0x24, virtual false, abstract: false, final false
   inline int32_t CharsRight();
 
-  /// @brief Method CountCaptures, addr 0x44247a0, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method CountCaptures, addr 0x44273f8, size 0x340, virtual false, abstract: false, final false
   inline void CountCaptures();
 
-  /// @brief Method EmptyOptionsStack, addr 0x4429674, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EmptyOptionsStack, addr 0x442c2cc, size 0x50, virtual false, abstract: false, final false
   inline bool EmptyOptionsStack();
 
-  /// @brief Method EmptyStack, addr 0x44275dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method EmptyStack, addr 0x442a234, size 0x10, virtual false, abstract: false, final false
   inline bool EmptyStack();
 
-  /// @brief Method HexDigit, addr 0x4429414, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HexDigit, addr 0x442c06c, size 0x38, virtual false, abstract: false, final false
   static inline int32_t HexDigit(char16_t ch);
 
-  /// @brief Method IsCaptureName, addr 0x44289bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsCaptureName, addr 0x442b614, size 0x1c, virtual false, abstract: false, final false
   inline bool IsCaptureName(::StringW capname);
 
-  /// @brief Method IsCaptureSlot, addr 0x4428920, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsCaptureSlot, addr 0x442b578, size 0x9c, virtual false, abstract: false, final false
   inline bool IsCaptureSlot(int32_t i);
 
-  /// @brief Method IsOnlyTopOption, addr 0x44294e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsOnlyTopOption, addr 0x442c140, size 0x24, virtual false, abstract: false, final false
   inline bool IsOnlyTopOption(::System::Text::RegularExpressions::RegexOptions option);
 
-  /// @brief Method IsQuantifier, addr 0x4426120, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsQuantifier, addr 0x4428d78, size 0x98, virtual false, abstract: false, final false
   static inline bool IsQuantifier(char16_t ch);
 
-  /// @brief Method IsSpace, addr 0x4428b70, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsSpace, addr 0x442b7c8, size 0x98, virtual false, abstract: false, final false
   static inline bool IsSpace(char16_t ch);
 
-  /// @brief Method IsSpecial, addr 0x4426088, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsSpecial, addr 0x4428ce0, size 0x98, virtual false, abstract: false, final false
   static inline bool IsSpecial(char16_t ch);
 
-  /// @brief Method IsStopperX, addr 0x4425e60, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsStopperX, addr 0x4428ab8, size 0x98, virtual false, abstract: false, final false
   static inline bool IsStopperX(char16_t ch);
 
-  /// @brief Method IsTrueQuantifier, addr 0x4425ef8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method IsTrueQuantifier, addr 0x4428b50, size 0x190, virtual false, abstract: false, final false
   inline bool IsTrueQuantifier();
 
-  /// @brief Method MakeException, addr 0x44275ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method MakeException, addr 0x442a244, size 0x98, virtual false, abstract: false, final false
   inline ::System::ArgumentException* MakeException(::StringW message);
 
-  /// @brief Method MoveLeft, addr 0x4427fa8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MoveLeft, addr 0x442ac00, size 0x10, virtual false, abstract: false, final false
   inline void MoveLeft();
 
-  /// @brief Method MoveRight, addr 0x4425e08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MoveRight, addr 0x4428a60, size 0x10, virtual false, abstract: false, final false
   inline void MoveRight();
 
-  /// @brief Method MoveRight, addr 0x4428904, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MoveRight, addr 0x442b55c, size 0x10, virtual false, abstract: false, final false
   inline void MoveRight(int32_t i);
 
   static inline ::System::Text::RegularExpressions::RegexParser* New_ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method NoteCaptureName, addr 0x44296c4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method NoteCaptureName, addr 0x442c31c, size 0x188, virtual false, abstract: false, final false
   inline void NoteCaptureName(::StringW name, int32_t pos);
 
-  /// @brief Method NoteCaptureSlot, addr 0x442956c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method NoteCaptureSlot, addr 0x442c1c4, size 0x108, virtual false, abstract: false, final false
   inline void NoteCaptureSlot(int32_t i, int32_t pos);
 
-  /// @brief Method NoteCaptures, addr 0x4425470, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method NoteCaptures, addr 0x44280c8, size 0xc, virtual false, abstract: false, final false
   inline void NoteCaptures(::System::Collections::Hashtable* caps, int32_t capsize, ::System::Collections::Hashtable* capnames);
 
-  /// @brief Method OptionFromCode, addr 0x442950c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OptionFromCode, addr 0x442c164, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexOptions OptionFromCode(char16_t ch);
 
-  /// @brief Method Parse, addr 0x44244f0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x4427148, size 0x198, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexTree* Parse(::StringW re, ::System::Text::RegularExpressions::RegexOptions op);
 
-  /// @brief Method ParseProperty, addr 0x4428520, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ParseProperty, addr 0x442b178, size 0x170, virtual false, abstract: false, final false
   inline ::StringW ParseProperty();
 
-  /// @brief Method ParseReplacement, addr 0x4425324, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ParseReplacement, addr 0x4427f7c, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexReplacement* ParseReplacement(::StringW rep, ::System::Collections::Hashtable* caps, int32_t capsize,
                                                                                        ::System::Collections::Hashtable* capnames, ::System::Text::RegularExpressions::RegexOptions op);
 
-  /// @brief Method PopGroup, addr 0x44277c4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method PopGroup, addr 0x442a41c, size 0xd0, virtual false, abstract: false, final false
   inline void PopGroup();
 
-  /// @brief Method PopKeepOptions, addr 0x4427478, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PopKeepOptions, addr 0x442a0d0, size 0x64, virtual false, abstract: false, final false
   inline void PopKeepOptions();
 
-  /// @brief Method PopOptions, addr 0x4427894, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method PopOptions, addr 0x442a4ec, size 0x98, virtual false, abstract: false, final false
   inline void PopOptions();
 
-  /// @brief Method PushGroup, addr 0x44274dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PushGroup, addr 0x442a134, size 0x3c, virtual false, abstract: false, final false
   inline void PushGroup();
 
-  /// @brief Method PushOptions, addr 0x4426af4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PushOptions, addr 0x442974c, size 0xa0, virtual false, abstract: false, final false
   inline void PushOptions();
 
-  /// @brief Method Reset, addr 0x4424ae0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4427738, size 0x8c, virtual false, abstract: false, final false
   inline void Reset(::System::Text::RegularExpressions::RegexOptions topopts);
 
-  /// @brief Method RightChar, addr 0x4425e3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RightChar, addr 0x4428a94, size 0x24, virtual false, abstract: false, final false
   inline char16_t RightChar();
 
-  /// @brief Method RightChar, addr 0x44288dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RightChar, addr 0x442b534, size 0x28, virtual false, abstract: false, final false
   inline char16_t RightChar(int32_t i);
 
-  /// @brief Method RightCharMoveRight, addr 0x4427fe0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RightCharMoveRight, addr 0x442ac38, size 0x2c, virtual false, abstract: false, final false
   inline char16_t RightCharMoveRight();
 
-  /// @brief Method ScanBackslash, addr 0x442792c, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method ScanBackslash, addr 0x442a584, size 0x544, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ScanBackslash(bool scanOnly);
 
-  /// @brief Method ScanBasicBackslash, addr 0x4428c98, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method ScanBasicBackslash, addr 0x442b8f0, size 0x5ac, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ScanBasicBackslash(bool scanOnly);
 
-  /// @brief Method ScanBlank, addr 0x4425b18, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method ScanBlank, addr 0x4428770, size 0x2e4, virtual false, abstract: false, final false
   inline void ScanBlank();
 
-  /// @brief Method ScanCapname, addr 0x4428820, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ScanCapname, addr 0x442b478, size 0xbc, virtual false, abstract: false, final false
   inline ::StringW ScanCapname();
 
-  /// @brief Method ScanCharClass, addr 0x4426470, size 0x60c, virtual false, abstract: false, final false
+  /// @brief Method ScanCharClass, addr 0x44290c8, size 0x60c, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexCharClass* ScanCharClass(bool caseInsensitive, bool scanOnly);
 
-  /// @brief Method ScanCharEscape, addr 0x4428690, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ScanCharEscape, addr 0x442b2e8, size 0x190, virtual false, abstract: false, final false
   inline char16_t ScanCharEscape();
 
-  /// @brief Method ScanControl, addr 0x442944c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ScanControl, addr 0x442c0a4, size 0x9c, virtual false, abstract: false, final false
   inline char16_t ScanControl();
 
-  /// @brief Method ScanDecimal, addr 0x442800c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ScanDecimal, addr 0x442ac64, size 0xcc, virtual false, abstract: false, final false
   inline int32_t ScanDecimal();
 
-  /// @brief Method ScanDollar, addr 0x442811c, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method ScanDollar, addr 0x442ad74, size 0x3f8, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ScanDollar();
 
-  /// @brief Method ScanGroupOpen, addr 0x4426b94, size 0x8e4, virtual false, abstract: false, final false
+  /// @brief Method ScanGroupOpen, addr 0x44297ec, size 0x8e4, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ScanGroupOpen();
 
-  /// @brief Method ScanHex, addr 0x44292e0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ScanHex, addr 0x442bf38, size 0x134, virtual false, abstract: false, final false
   inline char16_t ScanHex(int32_t c);
 
-  /// @brief Method ScanOctal, addr 0x4429244, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ScanOctal, addr 0x442be9c, size 0x9c, virtual false, abstract: false, final false
   inline char16_t ScanOctal();
 
-  /// @brief Method ScanOptions, addr 0x4428a64, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ScanOptions, addr 0x442b6bc, size 0x10c, virtual false, abstract: false, final false
   inline void ScanOptions();
 
-  /// @brief Method ScanRegex, addr 0x4424b6c, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method ScanRegex, addr 0x44277c4, size 0x750, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ScanRegex();
 
-  /// @brief Method ScanReplacement, addr 0x442547c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ScanReplacement, addr 0x44280d4, size 0x120, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ScanReplacement();
 
-  /// @brief Method SetPattern, addr 0x4424744, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetPattern, addr 0x442739c, size 0x5c, virtual false, abstract: false, final false
   inline void SetPattern(::StringW Re);
 
-  /// @brief Method StartGroup, addr 0x4425a78, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartGroup, addr 0x44286d0, size 0xa0, virtual false, abstract: false, final false
   inline void StartGroup(::System::Text::RegularExpressions::RegexNode* openGroup);
 
-  /// @brief Method Textpos, addr 0x4429eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Textpos, addr 0x442cb10, size 0x8, virtual false, abstract: false, final false
   inline int32_t Textpos();
 
-  /// @brief Method Textto, addr 0x4429ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Textto, addr 0x442cb18, size 0x8, virtual false, abstract: false, final false
   inline void Textto(int32_t pos);
 
-  /// @brief Method TypeFromCode, addr 0x4428c08, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TypeFromCode, addr 0x442b860, size 0x90, virtual false, abstract: false, final false
   inline int32_t TypeFromCode(char16_t ch);
 
-  /// @brief Method Unit, addr 0x4429ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Unit, addr 0x442cb00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* Unit();
 
-  /// @brief Method UseOptionE, addr 0x4428514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionE, addr 0x442b16c, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionE();
 
-  /// @brief Method UseOptionI, addr 0x4426464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionI, addr 0x44290bc, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionI();
 
-  /// @brief Method UseOptionM, addr 0x4427e70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionM, addr 0x442aac8, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionM();
 
-  /// @brief Method UseOptionN, addr 0x4428914, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionN, addr 0x442b56c, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionN();
 
-  /// @brief Method UseOptionS, addr 0x4427eec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionS, addr 0x442ab44, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionS();
 
-  /// @brief Method UseOptionX, addr 0x4425dfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionX, addr 0x4428a54, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionX();
 
   constexpr ::System::Text::RegularExpressions::RegexNode* const& __cordl_internal_get__alternation() const;
@@ -445,7 +445,7 @@ public:
 
   constexpr void __cordl_internal_set__unit(::System::Text::RegularExpressions::RegexNode* value);
 
-  /// @brief Method .ctor, addr 0x4424688, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44272e0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_s_category();
@@ -467,7 +467,7 @@ public:
   RegexParser(RegexParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9245 };
 
   /// @brief Field _stack, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::RegexNode* ____stack;

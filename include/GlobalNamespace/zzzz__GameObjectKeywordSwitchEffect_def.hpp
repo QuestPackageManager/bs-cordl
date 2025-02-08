@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_keyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b8ec10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b91770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   GameObjectKeywordSwitchEffect_GameObjectKeywordItem(GameObjectKeywordSwitchEffect_GameObjectKeywordItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4259 };
 
   /// @brief Field gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___gameObject;
@@ -107,7 +107,7 @@ public:
                                                                                     ::Array<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*>*>
       _gameObjectKeywordItems;
 
-  /// @brief Method Initialize, addr 0x3b8eac4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b91624, size 0x144, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   static inline ::GlobalNamespace::GameObjectKeywordSwitchEffect* New_ctor();
@@ -127,7 +127,7 @@ public:
   constexpr void __cordl_internal_set__gameObjectKeywordItems(
       ::ArrayW<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*, ::Array<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b8ec08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b91768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   GameObjectKeywordSwitchEffect(GameObjectKeywordSwitchEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4260 };
 
   /// @brief Field _defaultGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____defaultGameObject;

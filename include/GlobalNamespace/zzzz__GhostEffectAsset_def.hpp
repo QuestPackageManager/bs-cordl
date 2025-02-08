@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3b376f8, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3b3a258, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::GhostEffectAsset* New_ctor();
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_arrayReference(::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> value);
 
-  /// @brief Method .ctor, addr 0x3b37834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3a394, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3b376f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3b3a250, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -101,7 +101,7 @@ public:
   GhostEffectAsset(GhostEffectAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5203 };
 
   /// @brief Field _ghostEffectType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType ____ghostEffectType;

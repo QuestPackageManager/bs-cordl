@@ -25,25 +25,25 @@ public:
 
   __declspec(property(get = get_numChannels, put = set_numChannels)) uint32_t numChannels;
 
-  /// @brief Method .ctor, addr 0x45ea89c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45ed4f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize);
 
-  /// @brief Method get_frequencyHz, addr 0x45ea8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyHz, addr 0x45ed510, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
-  /// @brief Method get_maxBufferSize, addr 0x45ea8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxBufferSize, addr 0x45ed520, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
-  /// @brief Method get_numChannels, addr 0x45ea8a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numChannels, addr 0x45ed500, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_numChannels();
 
-  /// @brief Method set_frequencyHz, addr 0x45ea8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_frequencyHz, addr 0x45ed518, size 0x8, virtual false, abstract: false, final false
   inline void set_frequencyHz(uint32_t value);
 
-  /// @brief Method set_maxBufferSize, addr 0x45ea8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxBufferSize, addr 0x45ed528, size 0x8, virtual false, abstract: false, final false
   inline void set_maxBufferSize(uint32_t value);
 
-  /// @brief Method set_numChannels, addr 0x45ea8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_numChannels, addr 0x45ed508, size 0x8, virtual false, abstract: false, final false
   inline void set_numChannels(uint32_t value);
 
   // Ctor Parameters []
@@ -55,7 +55,7 @@ public:
   constexpr HapticCapabilities(uint32_t _numChannels_k__BackingField, uint32_t _frequencyHz_k__BackingField, uint32_t _maxBufferSize_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6753 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

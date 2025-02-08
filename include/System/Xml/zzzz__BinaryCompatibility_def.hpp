@@ -18,7 +18,7 @@ namespace System::Xml {
 class CORDL_TYPE BinaryCompatibility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x4365ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x4368738, size 0x8, virtual false, abstract: false, final false
   static inline bool get_TargetsAtLeast_Desktop_V4_5_2();
 
 protected:
@@ -36,7 +36,7 @@ public:
   BinaryCompatibility(BinaryCompatibility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

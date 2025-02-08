@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITaskUtility"
   constexpr operator ::BGNet::Core::ITaskUtility*() noexcept;
 
-  /// @brief Method CancellationTokenWithDelay, addr 0x22ec044, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method CancellationTokenWithDelay, addr 0x22eda40, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::CancellationToken CancellationTokenWithDelay(::System::TimeSpan timeSpan);
 
   /// @brief Method ContinueWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -54,15 +54,15 @@ public:
   inline ::System::Threading::Tasks::Task_1<T2>* ContinueWith(::System::Threading::Tasks::Task_1<T1>* task,
                                                               ::System::Func_2<::System::Threading::Tasks::Task_1<T1>*, ::System::Threading::Tasks::Task_1<T2>*>* continuation);
 
-  /// @brief Method Delay, addr 0x22ebfdc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Delay, addr 0x22ed9d8, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Delay(::System::TimeSpan timeSpan, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGNet::Core::DefaultTaskUtility* New_ctor();
 
-  /// @brief Method Run, addr 0x22ec0c4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x22edac0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Run(::System::Action* action, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Run, addr 0x22ec12c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x22edb28, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Run(::System::Func_1<::System::Threading::Tasks::Task*>* func, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -71,10 +71,10 @@ public:
   /// @brief Method Wait, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline T Wait(::System::Threading::Tasks::Task_1<T>* task);
 
-  /// @brief Method Wait, addr 0x22ec0ac, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Wait, addr 0x22edaa8, size 0x18, virtual true, abstract: false, final true
   inline void Wait(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method .ctor, addr 0x22ec194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22edb90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGNet::Core::DefaultTaskUtility* getStaticF_instance();
@@ -99,7 +99,7 @@ public:
   DefaultTaskUtility(DefaultTaskUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

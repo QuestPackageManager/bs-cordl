@@ -32,21 +32,21 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method GetAppVersionAsync, addr 0x40811a0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetAppVersionAsync, addr 0x4083df8, size 0x88, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAppVersionAsync();
 
-  /// @brief Method Initialize, addr 0x408112c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x4083d84, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x4081138, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x4083d90, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   static inline ::GlobalNamespace::NoPlatformInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4081228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4083e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x4081130, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitialized, addr 0x4083d88, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();
 
   /// @brief Convert to "::BeatSaber::Init::IPlatformInit"
@@ -70,7 +70,7 @@ public:
   NoPlatformInit(NoPlatformInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18748 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

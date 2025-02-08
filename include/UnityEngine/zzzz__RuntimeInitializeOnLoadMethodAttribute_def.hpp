@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_m_LoadType(::UnityEngine::RuntimeInitializeLoadType value);
 
-  /// @brief Method .ctor, addr 0x48af3b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b2010, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RuntimeInitializeLoadType loadType);
 
-  /// @brief Method set_loadType, addr 0x48af3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loadType, addr 0x48b2038, size 0x8, virtual false, abstract: false, final false
   inline void set_loadType(::UnityEngine::RuntimeInitializeLoadType value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeOnLoadMethodAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10901 };
 
   /// @brief Field m_LoadType, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::RuntimeInitializeLoadType ___m_LoadType;

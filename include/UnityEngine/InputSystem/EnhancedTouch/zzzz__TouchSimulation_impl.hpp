@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Touchscreen* (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::get_simulatedTouchscreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605780;
+  constexpr static std::size_t addrs = 0x46083d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(::UnityEngine::InputSystem::Touchscreen*)>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::set_simulatedTouchscreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605788;
+  constexpr static std::size_t addrs = 0x46083e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> (*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::get_instance)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4605790;
+  constexpr static std::size_t addrs = 0x46083e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::Enable)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x46057d8;
+  constexpr static std::size_t addrs = 0x4608430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::Disable)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x460596c;
+  constexpr static std::size_t addrs = 0x46085c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::Destroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4605a44;
+  constexpr static std::size_t addrs = 0x460869c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(::UnityEngine::InputSystem::Pointer*)>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::AddPointer)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4605b14;
+  constexpr static std::size_t addrs = 0x460876c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(::UnityEngine::InputSystem::Pointer*)>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::RemovePointer)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x4605c84;
+  constexpr static std::size_t addrs = 0x46088dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::OnEvent)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x4606270;
+  constexpr static std::size_t addrs = 0x4608ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange)>(&::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::OnDeviceChange)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4606828;
+  constexpr static std::size_t addrs = 0x4609480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::OnEnable)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x4606974;
+  constexpr static std::size_t addrs = 0x46095cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::OnDisable)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x4606e80;
+  constexpr static std::size_t addrs = 0x4609ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(
     int32_t, int32_t, ::UnityEngine::InputSystem::TouchPhase, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::UpdateTouch)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x4605e78;
+  constexpr static std::size_t addrs = 0x4608ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,7 +216,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t)>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46072d8;
+  constexpr static std::size_t addrs = 0x4609f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t)>(
         &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyTimerExpired)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46072dc;
+  constexpr static std::size_t addrs = 0x4609f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(int32_t)>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::InstallStateChangeMonitors)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46072e0;
+  constexpr static std::size_t addrs = 0x4609f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +270,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t)>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::OnSourceControlChangedValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46072e4;
+  constexpr static std::size_t addrs = 0x4609f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)(int32_t)>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::UninstallStateChangeMonitors)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46072e8;
+  constexpr static std::size_t addrs = 0x4609f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46072ec;
+  constexpr static std::size_t addrs = 0x4609f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

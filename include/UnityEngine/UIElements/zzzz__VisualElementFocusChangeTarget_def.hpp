@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* New_ctor();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x499fa08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x49a2660, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* __cctor_b__9_0();
 
-  /// @brief Method .ctor, addr 0x499fa00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a2658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* getStaticF___9();
@@ -65,7 +65,7 @@ public:
   VisualElementFocusChangeTarget___c(VisualElementFocusChangeTarget___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,13 +90,13 @@ public:
 
   __declspec(property(get = get_target, put = set_target)) ::UnityEngine::UIElements::Focusable* target;
 
-  /// @brief Method ApplyTo, addr 0x499f7a8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x49a2400, size 0x3c, virtual true, abstract: false, final false
   inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method Dispose, addr 0x499f724, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49a237c, size 0x84, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetPooled, addr 0x499f69c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49a22f4, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* GetPooled(::UnityEngine::UIElements::Focusable* target);
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* New_ctor();
@@ -107,17 +107,17 @@ public:
 
   constexpr void __cordl_internal_set__target_k__BackingField(::UnityEngine::UIElements::Focusable* value);
 
-  /// @brief Method .ctor, addr 0x499f7e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a243c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* getStaticF_Pool();
 
-  /// @brief Method get_target, addr 0x499f884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x49a24dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* get_target();
 
   static inline void setStaticF_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* value);
 
-  /// @brief Method set_target, addr 0x499f88c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x49a24e4, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::UnityEngine::UIElements::Focusable* value);
 
 protected:
@@ -135,7 +135,7 @@ public:
   VisualElementFocusChangeTarget(VisualElementFocusChangeTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6323 };
 
   /// @brief Field <target>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ____target_k__BackingField;

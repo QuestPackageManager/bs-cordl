@@ -61,32 +61,32 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x25d0e2c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x25d2828, size 0xb0, virtual true, abstract: false, final false
   inline void Add(::System::Object* o);
 
-  /// @brief Method AddAll, addr 0x25d0edc, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method AddAll, addr 0x25d28d8, size 0x2e8, virtual true, abstract: false, final false
   inline void AddAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method Clear, addr 0x25d11c4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x25d2bc0, size 0xa4, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x25d1268, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x25d2c64, size 0xac, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* o);
 
-  /// @brief Method CopyTo, addr 0x25d1314, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x25d2d10, size 0x130, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x25d14e8, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x25d2ee4, size 0x118, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::HashSet* New_ctor();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::HashSet* New_ctor(::System::Collections::IEnumerable* s);
 
-  /// @brief Method Remove, addr 0x25d189c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x25d3298, size 0xac, virtual true, abstract: false, final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAll, addr 0x25d1948, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method RemoveAll, addr 0x25d3344, size 0x2e8, virtual true, abstract: false, final false
   inline void RemoveAll(::System::Collections::IEnumerable* e);
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_impl() const;
@@ -95,28 +95,28 @@ public:
 
   constexpr void __cordl_internal_set_impl(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x25cef4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0948, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25cfc3c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d1638, size 0x324, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* s);
 
-  /// @brief Method get_Count, addr 0x25d1444, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x25d2e40, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x25d1600, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x25d2ffc, size 0xb0, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_IsFixedSize, addr 0x25d16b0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x25d30ac, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x25d1754, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x25d3150, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x25d17f8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x25d31f4, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x25d1c30, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x25d362c, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"

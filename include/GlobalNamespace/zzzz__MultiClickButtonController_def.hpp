@@ -43,15 +43,15 @@ public:
   /// @brief Field wasTriggeredEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_wasTriggeredEvent, put = __cordl_internal_set_wasTriggeredEvent)) ::System::Action* wasTriggeredEvent;
 
-  /// @brief Method HandleButtonClicked, addr 0x3c01a04, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClicked, addr 0x3c04568, size 0x38, virtual false, abstract: false, final false
   inline void HandleButtonClicked();
 
   static inline ::GlobalNamespace::MultiClickButtonController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3c019e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3c0454c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3c01950, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c044b4, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -84,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set_wasTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3c01a3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c045a0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_wasTriggeredEvent, addr 0x3c01818, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_wasTriggeredEvent, addr 0x3c0437c, size 0x9c, virtual false, abstract: false, final false
   inline void add_wasTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_wasTriggeredEvent, addr 0x3c018b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_wasTriggeredEvent, addr 0x3c04418, size 0x9c, virtual false, abstract: false, final false
   inline void remove_wasTriggeredEvent(::System::Action* value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   MultiClickButtonController(MultiClickButtonController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4763 };
 
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;

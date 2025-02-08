@@ -120,7 +120,7 @@ public:
   ConditionCopyNonLazyBinder___c__4_1(ConditionCopyNonLazyBinder___c__4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,7 +178,7 @@ public:
   ConditionCopyNonLazyBinder___c__5_1(ConditionCopyNonLazyBinder___c__5_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12018 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -196,7 +196,7 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <WhenInjectedIntoInstance>b__0, addr 0x4b00ed4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedIntoInstance>b__0, addr 0x4b03b2c, size 0x24, virtual false, abstract: false, final false
   inline bool _WhenInjectedIntoInstance_b__0(::Zenject::InjectContext* r);
 
   constexpr ::System::Object* const& __cordl_internal_get_instance() const;
@@ -205,13 +205,13 @@ public:
 
   constexpr void __cordl_internal_set_instance(::System::Object* value);
 
-  /// @brief Method __zenCreate, addr 0x4b00ef8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b03b50, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b00f4c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b03ba4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b00e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b03a5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,7 +229,7 @@ public:
   ConditionCopyNonLazyBinder___c__DisplayClass2_0(ConditionCopyNonLazyBinder___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
 
   /// @brief Field instance, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___instance;
@@ -254,7 +254,7 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <WhenInjectedInto>b__0, addr 0x4b01104, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedInto>b__0, addr 0x4b03d5c, size 0xf0, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__0(::Zenject::InjectContext* r);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_targets() const;
@@ -263,13 +263,13 @@ public:
 
   constexpr void __cordl_internal_set_targets(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method __zenCreate, addr 0x4b011fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b03e54, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b01250, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b03ea8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b00ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b03b24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -287,7 +287,7 @@ public:
   ConditionCopyNonLazyBinder___c__DisplayClass3_0(ConditionCopyNonLazyBinder___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12020 };
 
   /// @brief Field targets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___targets;
@@ -312,7 +312,7 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder___c__DisplayClass3_1* New_ctor();
 
-  /// @brief Method <WhenInjectedInto>b__1, addr 0x4b01408, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedInto>b__1, addr 0x4b04060, size 0xc0, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__1(::System::Type* x);
 
   constexpr ::Zenject::InjectContext* const& __cordl_internal_get_r() const;
@@ -321,13 +321,13 @@ public:
 
   constexpr void __cordl_internal_set_r(::Zenject::InjectContext* value);
 
-  /// @brief Method __zenCreate, addr 0x4b014c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b04120, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0151c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b04174, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b011f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b03e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -345,7 +345,7 @@ public:
   ConditionCopyNonLazyBinder___c__DisplayClass3_1(ConditionCopyNonLazyBinder___c__DisplayClass3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12021 };
 
   /// @brief Field r, offset: 0x10, size: 0x8, def value: None
   ::Zenject::InjectContext* ___r;
@@ -377,22 +377,22 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method When, addr 0x4b00d28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method When, addr 0x4b03980, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* When(::Zenject::BindingCondition* condition);
 
   /// @brief Method WhenInjectedInto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto();
 
-  /// @brief Method WhenInjectedInto, addr 0x4b00e0c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WhenInjectedInto, addr 0x4b03a64, size 0xc0, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayW<::System::Type*, ::Array<::System::Type*>*> targets);
 
-  /// @brief Method WhenInjectedIntoInstance, addr 0x4b00d44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WhenInjectedIntoInstance, addr 0x4b0399c, size 0xc0, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::System::Object* instance);
 
   /// @brief Method WhenNotInjectedInto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenNotInjectedInto();
 
-  /// @brief Method .ctor, addr 0x4b00d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b03970, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -410,7 +410,7 @@ public:
   ConditionCopyNonLazyBinder(ConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12022 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,7 +35,7 @@ public:
   constexpr ScriptingUtility_TestClass(int32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10904 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -60,7 +60,7 @@ public:
   // Declarations
   using TestClass = ::UnityEngine::ScriptingUtility_TestClass;
 
-  /// @brief Method IsManagedCodeWorking, addr 0x48af550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsManagedCodeWorking, addr 0x48b21a8, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ScriptingUtility(ScriptingUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10905 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set__isSpectator(bool value);
 
-  /// @brief Method .ctor, addr 0x3be2184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4ce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   MultiplayerPsPlusFeatureNotifier(MultiplayerPsPlusFeatureNotifier const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4606 };
 
   /// @brief Field _isSpectator, offset: 0x20, size: 0x1, def value: None
   bool ____isSpectator;

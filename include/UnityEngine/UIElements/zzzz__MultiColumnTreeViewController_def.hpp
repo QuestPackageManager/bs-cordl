@@ -50,28 +50,28 @@ public:
   /// @brief Field m_ColumnController, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ColumnController, put = __cordl_internal_set_m_ColumnController)) ::UnityEngine::UIElements::MultiColumnController* m_ColumnController;
 
-  /// @brief Method BindItem, addr 0x497e530, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x4981188, size 0x88, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x497e5d4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x498122c, size 0x1c, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Dispose, addr 0x497e614, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x498126c, size 0x30, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method InvokeMakeItem, addr 0x497e070, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InvokeMakeItem, addr 0x4980cc8, size 0xc8, virtual true, abstract: false, final false
   inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method MakeItem, addr 0x497e514, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x498116c, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::MultiColumnTreeViewController* New_ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method PrepareView, addr 0x497e5f0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method PrepareView, addr 0x4981248, size 0x24, virtual true, abstract: false, final false
   inline void PrepareView();
 
-  /// @brief Method UnbindItem, addr 0x497e5b8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x4981210, size 0x1c, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
   constexpr ::UnityEngine::UIElements::MultiColumnController* const& __cordl_internal_get_m_ColumnController() const;
@@ -80,14 +80,14 @@ public:
 
   constexpr void __cordl_internal_set_m_ColumnController(::UnityEngine::UIElements::MultiColumnController* value);
 
-  /// @brief Method .ctor, addr 0x497dfc4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4980c1c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method get_columnController, addr 0x497dfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnController, addr 0x4980bfc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MultiColumnController* get_columnController();
 
-  /// @brief Method get_header, addr 0x497dfac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_header, addr 0x4980c04, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* get_header();
 
 protected:
@@ -105,7 +105,7 @@ public:
   MultiColumnTreeViewController(MultiColumnTreeViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
 
   /// @brief Field m_ColumnController, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::UIElements::MultiColumnController* ___m_ColumnController;

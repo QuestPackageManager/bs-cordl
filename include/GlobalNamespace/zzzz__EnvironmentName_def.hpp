@@ -26,33 +26,33 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::GlobalNamespace::EnvironmentName Empty;
 
-  /// @brief Method Equals, addr 0x26ae9c0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26b03bc, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x26ae9b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x26b03b0, size 0xc, virtual false, abstract: false, final false
   inline bool Equals(::GlobalNamespace::EnvironmentName other);
 
-  /// @brief Method GetHashCode, addr 0x26aea54, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x26b0450, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x26aeaf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26b04ec, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x26ae9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b03a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW environmentName);
 
   static inline ::GlobalNamespace::EnvironmentName getStaticF_Empty();
 
-  /// @brief Method op_Equality, addr 0x26aea74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x26b0470, size 0x8, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::EnvironmentName a, ::GlobalNamespace::EnvironmentName b);
 
-  /// @brief Method op_Implicit, addr 0x26aea70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x26b046c, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentName op_Implicit___GlobalNamespace__EnvironmentName(::StringW environmentName);
 
-  /// @brief Method op_Implicit, addr 0x26aea6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x26b0468, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(::GlobalNamespace::EnvironmentName e);
 
-  /// @brief Method op_Inequality, addr 0x26aea7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x26b0478, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::EnvironmentName a, ::GlobalNamespace::EnvironmentName b);
 
   static inline void setStaticF_Empty(::GlobalNamespace::EnvironmentName value);
@@ -65,7 +65,7 @@ public:
   constexpr EnvironmentName(::StringW _environmentName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

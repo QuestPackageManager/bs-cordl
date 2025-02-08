@@ -87,7 +87,7 @@ public:
   FieldDescription_BaseCompositeField_3_WriteDelegate(FieldDescription_BaseCompositeField_3_WriteDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -119,7 +119,7 @@ public:
                                                   ::UnityEngine::UIElements::FieldDescription_BaseCompositeField_3_WriteDelegate<TValueType, TField, TFieldValue>* write) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5497 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -202,7 +202,7 @@ public:
   BaseCompositeField_3___c__DisplayClass24_0(BaseCompositeField_3___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5498 };
 
   /// @brief Field desc, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<TValueType, TField, TFieldValue> ___desc;
@@ -369,7 +369,7 @@ public:
   BaseCompositeField_3(BaseCompositeField_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5499 };
 
   /// @brief Field m_Fields, offset: 0x440, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TField>* ___m_Fields;

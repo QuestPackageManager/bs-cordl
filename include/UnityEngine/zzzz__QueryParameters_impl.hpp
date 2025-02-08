@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::QueryParameters::*)(int32_t, bool, ::UnityEngine::QueryTriggerInteraction, bool)>(
     &::UnityEngine::QueryParameters::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x49117b4;
+  constexpr static std::size_t addrs = 0x491440c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::QueryParameters (*)()>(&::UnityEngine::QueryParameters::get_Default)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49117d0;
+  constexpr static std::size_t addrs = 0x4914428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::QueryParameters>::get(), "get_Default",

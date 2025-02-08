@@ -36,10 +36,10 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x271c054, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x271da98, size 0x140, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x271bffc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x271da40, size 0x58, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__fontAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
-  /// @brief Method .ctor, addr 0x271c194, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271dbd8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x271bfbc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x271da00, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -72,7 +72,7 @@ public:
   TextMeshProInstaller(TextMeshProInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17806 };
 
   /// @brief Field _fontAssets, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ____fontAssets;

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_MainSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_MainSettings::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x227c140;
+  constexpr static std::size_t addrs = 0x227d9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV2_MainSettings*>::get(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_AudioSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_AudioSettings::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x227c348;
+  constexpr static std::size_t addrs = 0x227dbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV2_AudioSettings*>::get(),
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x227c35c;
+  constexpr static std::size_t addrs = 0x227dc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_ControllerSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_ControllerSettings::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x227c3e4;
+  constexpr static std::size_t addrs = 0x227dc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x227c458;
+  constexpr static std::size_t addrs = 0x227dd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_DebugSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_DebugSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x227c4b0;
+  constexpr static std::size_t addrs = 0x227dd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV2_DebugSettings*>::get(),
@@ -529,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_GraphicSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_GraphicSettings::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x227c2b4;
+  constexpr static std::size_t addrs = 0x227db60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV2_GraphicSettings*>::get(),
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_PerformancePreset::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_PerformancePreset::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x227c4b8;
+  constexpr static std::size_t addrs = 0x227dd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -903,7 +903,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2::*)(::ByRef<::BeatSaber::Settings::Settings>)>(
     &::BeatSaber::Settings::LegacySettingsV2::ApplyTo)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x227bd88;
+  constexpr static std::size_t addrs = 0x227d634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -917,7 +917,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2::*)()>(&::BeatSaber::Settings::LegacySettingsV2::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x227c0b4;
+  constexpr static std::size_t addrs = 0x227d960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV2*>::get(), ".ctor",

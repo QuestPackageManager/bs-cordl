@@ -38,15 +38,15 @@ public:
   /// @brief Field namespaces, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces)) ::System::Collections::Hashtable* namespaces;
 
-  /// @brief Method Add, addr 0x4368b48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x436b7a0, size 0xb4, virtual false, abstract: false, final false
   inline void Add(::StringW prefix, ::StringW ns);
 
-  /// @brief Method AddInternal, addr 0x4368bfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AddInternal, addr 0x436b854, size 0x3c, virtual false, abstract: false, final false
   inline void AddInternal(::StringW prefix, ::StringW ns);
 
   static inline ::System::Xml::Serialization::XmlSerializerNamespaces* New_ctor();
 
-  /// @brief Method ToArray, addr 0x4368c9c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x436b8f4, size 0x108, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> ToArray();
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_namespaces() const;
@@ -55,19 +55,19 @@ public:
 
   constexpr void __cordl_internal_set_namespaces(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x4368b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436b798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x43691d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x436be30, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_NamespaceList, addr 0x4368da4, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceList, addr 0x436b9fc, size 0x434, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_NamespaceList();
 
-  /// @brief Method get_Namespaces, addr 0x4368c38, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Namespaces, addr 0x436b890, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Namespaces();
 
-  /// @brief Method set_Namespaces, addr 0x43691fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespaces, addr 0x436be54, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespaces(::System::Collections::Hashtable* value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   XmlSerializerNamespaces(XmlSerializerNamespaces const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7385 };
 
   /// @brief Field namespaces, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___namespaces;

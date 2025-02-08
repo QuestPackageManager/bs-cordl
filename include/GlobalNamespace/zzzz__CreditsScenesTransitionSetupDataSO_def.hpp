@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x3b3e410, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3b40f70, size 0x20, virtual false, abstract: false, final false
   inline void Finish();
 
   static inline ::GlobalNamespace::CreditsScenesTransitionSetupDataSO* New_ctor();
@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3b3e430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b40f90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b3e2b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b40e10, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b3e360, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b40ec0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   CreditsScenesTransitionSetupDataSO(CreditsScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5256 };
 
   /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* ___didFinishEvent;

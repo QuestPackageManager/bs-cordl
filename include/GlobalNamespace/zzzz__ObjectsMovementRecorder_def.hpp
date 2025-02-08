@@ -112,7 +112,7 @@ public:
   static ::GlobalNamespace::ObjectsMovementRecorder_Mode const Record;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5085 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -167,7 +167,7 @@ public:
   static ::GlobalNamespace::ObjectsMovementRecorder_CameraView const ThirdPerson;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5086 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -308,7 +308,7 @@ public:
 
   constexpr void __cordl_internal_set_screenshotWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b1c22c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1ed8c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ObjectsMovementRecorder_Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView,
                     bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
                     ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
@@ -329,7 +329,7 @@ public:
   ObjectsMovementRecorder_InitData(ObjectsMovementRecorder_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5087 };
 
   /// @brief Field mode, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::ObjectsMovementRecorder_Mode ___mode;
@@ -467,15 +467,15 @@ public:
   /// @brief Field _recordingPath, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingPath, put = __cordl_internal_set__recordingPath)) ::StringW _recordingPath;
 
-  /// @brief Method HandleGameStateChanged, addr 0x3b1c0b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleGameStateChanged, addr 0x3b1ec18, size 0x70, virtual false, abstract: false, final false
   inline void HandleGameStateChanged();
 
-  /// @brief Method Init, addr 0x3b1b07c, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b1dbdc, size 0x704, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1be7c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b1e9dc, size 0x224, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -581,7 +581,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b1c21c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1ed7c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -599,7 +599,7 @@ public:
   ObjectsMovementRecorder(ObjectsMovementRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5088 };
 
   /// @brief Field _poseObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> ____poseObjects;

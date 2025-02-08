@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22f2ac0;
+  constexpr static std::size_t addrs = 0x22f44bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22f2d34;
+  constexpr static std::size_t addrs = 0x22f4730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22f2eb0;
+  constexpr static std::size_t addrs = 0x22f48ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*, ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*, ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22f2ebc;
+  constexpr static std::size_t addrs = 0x22f48b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::get_CertOrEncCert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f2f44;
+  constexpr static std::size_t addrs = 0x22f4940;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::get_PrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f2f4c;
+  constexpr static std::size_t addrs = 0x22f4948;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::get_PublicationInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f2f54;
+  constexpr static std::size_t addrs = 0x22f4950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::ToAsn1Object)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x22f2f5c;
+  constexpr static std::size_t addrs = 0x22f4958;
 
   inline static ::MethodInfo const* methodInfo() {
 

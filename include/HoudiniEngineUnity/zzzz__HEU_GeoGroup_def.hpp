@@ -49,12 +49,12 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>"
   constexpr operator ::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x3a7d0a8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3a7f90c, size 0x30, virtual true, abstract: false, final true
   inline int32_t CompareTo(::HoudiniEngineUnity::HEU_GeoGroup* other);
 
   static inline ::HoudiniEngineUnity::HEU_GeoGroup* New_ctor();
 
-  /// @brief Method SetupNormalIndices, addr 0x3a7af54, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetupNormalIndices, addr 0x3a7d7b8, size 0x124, virtual false, abstract: false, final false
   inline void SetupNormalIndices(int32_t indicesCount);
 
   constexpr ::StringW const& __cordl_internal_get__groupName() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__subMeshesMap(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MeshData*>* value);
 
-  /// @brief Method .ctor, addr 0x3a7aed8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7d73c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IComparable_1<::HoudiniEngineUnity::HEU_GeoGroup*>"
@@ -99,7 +99,7 @@ public:
   HEU_GeoGroup(HEU_GeoGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11821 };
 
   /// @brief Field _groupName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____groupName;

@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method .ctor, addr 0x3b3e068, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b40bc8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
 protected:
@@ -62,7 +62,7 @@ public:
   TutorialSceneSetupData(TutorialSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5250 };
 
   /// @brief Field colorScheme, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ___colorScheme;

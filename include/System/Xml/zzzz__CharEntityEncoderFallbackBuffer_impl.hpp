@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CharEntityEncoderFallbackBuffer::*)(::System::Xml::CharEntityEncoderFallback*)>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4243c30;
+  constexpr static std::size_t addrs = 0x4246888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::CharEntityEncoderFallbackBuffer::*)(char16_t, int32_t)>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4243d40;
+  constexpr static std::size_t addrs = 0x4246998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::CharEntityEncoderFallbackBuffer::*)(char16_t, char16_t, int32_t)>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x4243f30;
+  constexpr static std::size_t addrs = 0x4246b88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Xml::CharEntityEncoderFallbackBuffer::*)()>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::GetNextChar)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42441c0;
+  constexpr static std::size_t addrs = 0x4246e18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::CharEntityEncoderFallbackBuffer::*)()>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::MovePrevious)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4244218;
+  constexpr static std::size_t addrs = 0x4246e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::CharEntityEncoderFallbackBuffer::*)()>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::get_Remaining)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4244234;
+  constexpr static std::size_t addrs = 0x4246e8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CharEntityEncoderFallbackBuffer::*)()>(&::System::Xml::CharEntityEncoderFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4244268;
+  constexpr static std::size_t addrs = 0x4246ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::CharEntityEncoderFallbackBuffer::*)(char16_t, char16_t)>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::SurrogateCharToUtf32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x42441b0;
+  constexpr static std::size_t addrs = 0x4246e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -59,7 +59,7 @@ public:
   static ::HoudiniEngineUnity::HAPI_PDG_State const HAPI_PDG_STATE_READY;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

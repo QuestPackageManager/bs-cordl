@@ -30,7 +30,7 @@ public:
   /// @brief Field _soapAttributes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__soapAttributes, put = setStaticF__soapAttributes)) ::System::Collections::Hashtable* _soapAttributes;
 
-  /// @brief Method GetCachedSoapAttribute, addr 0x3cc91f8, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSoapAttribute, addr 0x3ccbe50, size 0x518, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::System::Object* reflectionObject);
 
   static inline ::System::Collections::Hashtable* getStaticF__soapAttributes();

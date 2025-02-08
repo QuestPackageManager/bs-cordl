@@ -41,13 +41,13 @@ public:
   /// @brief Field utf8EncodingWithoutMarkers, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_utf8EncodingWithoutMarkers, put = setStaticF_utf8EncodingWithoutMarkers)) ::System::Text::Encoding* utf8EncodingWithoutMarkers;
 
-  /// @brief Method GetDefaultEncoding, addr 0x3c91dc4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEncoding, addr 0x3c94a1c, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetDefaultEncoding();
 
-  /// @brief Method InternalCodePage, addr 0x3c95024, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalCodePage, addr 0x3c97c7c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW InternalCodePage(::ByRef<int32_t> code_page);
 
-  /// @brief Method InvokeI18N, addr 0x3c90234, size 0x714, virtual false, abstract: false, final false
+  /// @brief Method InvokeI18N, addr 0x3c92e8c, size 0x714, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeI18N(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Reflection::Assembly* getStaticF_i18nAssembly();
@@ -58,7 +58,7 @@ public:
 
   static inline ::System::Text::Encoding* getStaticF_utf8EncodingWithoutMarkers();
 
-  /// @brief Method get_UTF8Unmarked, addr 0x3c94e40, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method get_UTF8Unmarked, addr 0x3c97a98, size 0x1e4, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_UTF8Unmarked();
 
   static inline void setStaticF_i18nAssembly(::System::Reflection::Assembly* value);

@@ -54,7 +54,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::LongField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49f3ca8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f6900, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   LongField_UxmlFactory(LongField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,7 +89,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::LongField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49f3cf0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f6948, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   LongField_UxmlTraits(LongField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,27 +126,27 @@ public:
 
   __declspec(property(get = get_parentLongField)) ::UnityEngine::UIElements::LongField* parentLongField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x49f3e10, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x49f6a68, size 0x234, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int64_t startValue);
 
-  /// @brief Method ClampMinMaxLongValue, addr 0x49f4044, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClampMinMaxLongValue, addr 0x49f6c9c, size 0xa4, virtual false, abstract: false, final false
   inline int64_t ClampMinMaxLongValue(int64_t niceDelta, int64_t value);
 
   static inline ::UnityEngine::UIElements::LongField_LongInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x49f4134, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49f6d8c, size 0xa8, virtual true, abstract: false, final false
   inline int64_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x49f40e8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x49f6d40, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(int64_t v);
 
-  /// @brief Method .ctor, addr 0x49f3abc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f6714, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x49f3db8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x49f6a10, size 0x58, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentLongField, addr 0x49f3d38, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_parentLongField, addr 0x49f6990, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LongField* get_parentLongField();
 
 protected:
@@ -164,7 +164,7 @@ public:
   LongField_LongInput(LongField_LongInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -196,26 +196,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x49f3b74, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x49f67cc, size 0x64, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int64_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x49f3b50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x49f67a8, size 0x24, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::LongField* New_ctor();
 
   static inline ::UnityEngine::UIElements::LongField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x49f3884, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49f64dc, size 0xdc, virtual true, abstract: false, final false
   inline int64_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x49f37cc, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x49f6424, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ValueToString(int64_t v);
 
-  /// @brief Method .ctor, addr 0x49f3960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f65b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49f396c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f65c4, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -224,7 +224,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_longInput, addr 0x49f3748, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_longInput, addr 0x49f63a0, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LongField_LongInput* get_longInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -248,7 +248,7 @@ public:
   LongField(LongField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

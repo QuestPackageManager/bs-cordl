@@ -24,13 +24,13 @@ namespace UnityEngine {
 class CORDL_TYPE PhysicsSceneExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPhysicsScene, addr 0x491134c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene, addr 0x4913fa4, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetPhysicsScene_Internal, addr 0x491144c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene_Internal, addr 0x49140a4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene_Internal(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetPhysicsScene_Internal_Injected, addr 0x4911498, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene_Internal_Injected, addr 0x49140f0, size 0x44, virtual false, abstract: false, final false
   static inline void GetPhysicsScene_Internal_Injected(::ByRef<::UnityEngine::SceneManagement::Scene> scene, ::ByRef<::UnityEngine::PhysicsScene> ret);
 
 protected:
@@ -48,7 +48,7 @@ public:
   PhysicsSceneExtensions(PhysicsSceneExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -327,7 +327,7 @@ public:
   static ::Unity::Burst::Intrinsics::Avx_X86_CMP const UNORD_S;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14648 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -352,588 +352,588 @@ public:
   // Declarations
   using CMP = ::Unity::Burst::Intrinsics::Avx_X86_CMP;
 
-  /// @brief Method Select4, addr 0x452d4f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Select4, addr 0x4530148, size 0x50, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 Select4(::Unity::Burst::Intrinsics::v256 src1, ::Unity::Burst::Intrinsics::v256 src2, int32_t control);
 
-  /// @brief Method broadcast_ss, addr 0x452d6d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method broadcast_ss, addr 0x4530330, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 broadcast_ss(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method cmp_pd, addr 0x452c510, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method cmp_pd, addr 0x452f168, size 0x300, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmp_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method cmp_ps, addr 0x452c874, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method cmp_ps, addr 0x452f4cc, size 0x27c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmp_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method cmp_sd, addr 0x452cf0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method cmp_sd, addr 0x452fb64, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmp_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method cmp_ss, addr 0x452cf24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method cmp_ss, addr 0x452fb7c, size 0x2c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmp_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method get_IsAvxSupported, addr 0x452b5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAvxSupported, addr 0x452e250, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsAvxSupported();
 
-  /// @brief Method maskload_pd, addr 0x452d8b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method maskload_pd, addr 0x4530508, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 maskload_pd(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method maskload_ps, addr 0x452d994, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method maskload_ps, addr 0x45305ec, size 0x50, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 maskload_ps(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method maskstore_pd, addr 0x452d92c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method maskstore_pd, addr 0x4530584, size 0x1c, virtual false, abstract: false, final false
   static inline void maskstore_pd(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 mask, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method maskstore_ps, addr 0x452da34, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method maskstore_ps, addr 0x453068c, size 0x40, virtual false, abstract: false, final false
   static inline void maskstore_ps(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 mask, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_add_pd, addr 0x452b600, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_add_pd, addr 0x452e258, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_add_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_add_ps, addr 0x452b660, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_add_ps, addr 0x452e2b8, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_add_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_addsub_pd, addr 0x452b700, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_addsub_pd, addr 0x452e358, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_addsub_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_addsub_ps, addr 0x452b760, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_addsub_ps, addr 0x452e3b8, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_addsub_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_and_pd, addr 0x452b7c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_and_pd, addr 0x452e418, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_and_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_and_ps, addr 0x452b820, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method mm256_and_ps, addr 0x452e478, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_and_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_andnot_pd, addr 0x452b844, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_andnot_pd, addr 0x452e49c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_andnot_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_andnot_ps, addr 0x452b8a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method mm256_andnot_ps, addr 0x452e4fc, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_andnot_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_blend_pd, addr 0x452b8c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method mm256_blend_pd, addr 0x452e520, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_blend_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_blend_ps, addr 0x452b938, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method mm256_blend_ps, addr 0x452e590, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_blend_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_blendv_pd, addr 0x452b9a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_blendv_pd, addr 0x452e600, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_blendv_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 mask);
 
-  /// @brief Method mm256_blendv_ps, addr 0x452ba14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_blendv_ps, addr 0x452e66c, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_blendv_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 mask);
 
-  /// @brief Method mm256_broadcast_pd, addr 0x452d714, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcast_pd, addr 0x453036c, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcast_pd(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_broadcast_ps, addr 0x452d6f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcast_ps, addr 0x4530350, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcast_ps(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_broadcast_sd, addr 0x452d6e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcast_sd, addr 0x4530340, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcast_sd(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_broadcast_ss, addr 0x452d6cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcast_ss, addr 0x4530324, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcast_ss(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_castpd128_pd256, addr 0x452ec68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castpd128_pd256, addr 0x45318c0, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castpd128_pd256(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_castpd256_pd128, addr 0x452ec38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castpd256_pd128, addr 0x4531890, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_castpd256_pd128(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_castpd_ps, addr 0x452ebe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castpd_ps, addr 0x453183c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castpd_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_castpd_si256, addr 0x452ec08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castpd_si256, addr 0x4531860, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castpd_si256(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_castps128_ps256, addr 0x452ec50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castps128_ps256, addr 0x45318a8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castps128_ps256(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_castps256_ps128, addr 0x452ec2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castps256_ps128, addr 0x4531884, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_castps256_ps128(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_castps_pd, addr 0x452ebf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castps_pd, addr 0x4531848, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castps_pd(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_castps_si256, addr 0x452ebfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castps_si256, addr 0x4531854, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castps_si256(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_castsi128_si256, addr 0x452ec74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castsi128_si256, addr 0x45318cc, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castsi128_si256(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_castsi256_pd, addr 0x452ec20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castsi256_pd, addr 0x4531878, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castsi256_pd(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_castsi256_ps, addr 0x452ec14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castsi256_ps, addr 0x453186c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_castsi256_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_castsi256_si128, addr 0x452ec44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_castsi256_si128, addr 0x453189c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_castsi256_si128(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_ceil_pd, addr 0x452de14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_ceil_pd, addr 0x4530a6c, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_ceil_pd(::Unity::Burst::Intrinsics::v256 val);
 
-  /// @brief Method mm256_ceil_ps, addr 0x452df3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_ceil_ps, addr 0x4530b94, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_ceil_ps(::Unity::Burst::Intrinsics::v256 val);
 
-  /// @brief Method mm256_cmp_pd, addr 0x452c810, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmp_pd, addr 0x452f468, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmp_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_cmp_ps, addr 0x452cea8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmp_ps, addr 0x452fb00, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmp_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_cvtepi32_pd, addr 0x452cf50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepi32_pd, addr 0x452fba8, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepi32_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepi32_ps, addr 0x452cf74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepi32_ps, addr 0x452fbcc, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepi32_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_cvtpd_epi32, addr 0x452d0bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtpd_epi32, addr 0x452fd14, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_cvtpd_epi32(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_cvtpd_ps, addr 0x452cfc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtpd_ps, addr 0x452fc18, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_cvtpd_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_cvtps_epi32, addr 0x452cffc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtps_epi32, addr 0x452fc54, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtps_epi32(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_cvtps_pd, addr 0x452d048, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtps_pd, addr 0x452fca0, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtps_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtss_f32, addr 0x452d144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtss_f32, addr 0x452fd9c, size 0x8, virtual false, abstract: false, final false
   static inline float_t mm256_cvtss_f32(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_cvttpd_epi32, addr 0x452d060, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvttpd_epi32, addr 0x452fcb8, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_cvttpd_epi32(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_cvttps_epi32, addr 0x452d0f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvttps_epi32, addr 0x452fd50, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvttps_epi32(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_div_pd, addr 0x452ba80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_div_pd, addr 0x452e6d8, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_div_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_div_ps, addr 0x452bae0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_div_ps, addr 0x452e738, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_div_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_dp_ps, addr 0x452bb80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_dp_ps, addr 0x452e7d8, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_dp_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_extract_epi32, addr 0x452ee38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_extract_epi32, addr 0x4531a90, size 0x10, virtual false, abstract: false, final false
   static inline int32_t mm256_extract_epi32(::Unity::Burst::Intrinsics::v256 a, int32_t index);
 
-  /// @brief Method mm256_extract_epi64, addr 0x452ee48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_extract_epi64, addr 0x4531aa0, size 0x10, virtual false, abstract: false, final false
   static inline int64_t mm256_extract_epi64(::Unity::Burst::Intrinsics::v256 a, int32_t index);
 
-  /// @brief Method mm256_extractf128_pd, addr 0x452d170, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_extractf128_pd, addr 0x452fdc8, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_extractf128_pd(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_extractf128_ps, addr 0x452d14c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_extractf128_ps, addr 0x452fda4, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_extractf128_ps(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_extractf128_si256, addr 0x452d194, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_extractf128_si256, addr 0x452fdec, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_extractf128_si256(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_floor_pd, addr 0x452de78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_floor_pd, addr 0x4530ad0, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_floor_pd(::Unity::Burst::Intrinsics::v256 val);
 
-  /// @brief Method mm256_floor_ps, addr 0x452dfa0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_floor_ps, addr 0x4530bf8, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_floor_ps(::Unity::Burst::Intrinsics::v256 val);
 
-  /// @brief Method mm256_hadd_pd, addr 0x452bbec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hadd_pd, addr 0x452e844, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hadd_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_hadd_ps, addr 0x452bc4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hadd_ps, addr 0x452e8a4, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hadd_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_hsub_pd, addr 0x452bcac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hsub_pd, addr 0x452e904, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hsub_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_hsub_ps, addr 0x452bd0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hsub_ps, addr 0x452e964, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hsub_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_insert_epi16, addr 0x452ed3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method mm256_insert_epi16, addr 0x4531994, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_insert_epi16(::Unity::Burst::Intrinsics::v256 a, int32_t i, int32_t index);
 
-  /// @brief Method mm256_insert_epi32, addr 0x452ed90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method mm256_insert_epi32, addr 0x45319e8, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_insert_epi32(::Unity::Burst::Intrinsics::v256 a, int32_t i, int32_t index);
 
-  /// @brief Method mm256_insert_epi64, addr 0x452ede4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method mm256_insert_epi64, addr 0x4531a3c, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_insert_epi64(::Unity::Burst::Intrinsics::v256 a, int64_t i, int32_t index);
 
-  /// @brief Method mm256_insert_epi8, addr 0x452ecec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method mm256_insert_epi8, addr 0x4531944, size 0x50, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_insert_epi8(::Unity::Burst::Intrinsics::v256 a, int32_t i, int32_t index);
 
-  /// @brief Method mm256_insertf128_pd, addr 0x452d750, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method mm256_insertf128_pd, addr 0x45303a8, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_insertf128_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method mm256_insertf128_ps, addr 0x452d724, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method mm256_insertf128_ps, addr 0x453037c, size 0x2c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_insertf128_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method mm256_insertf128_si256, addr 0x452d778, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method mm256_insertf128_si256, addr 0x45303d0, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_insertf128_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method mm256_lddqu_si256, addr 0x452db0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_lddqu_si256, addr 0x4530764, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_lddqu_si256(::cordl_internals::Ptr<void> mem_addr);
 
-  /// @brief Method mm256_load_pd, addr 0x452d7b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_load_pd, addr 0x4530410, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_load_pd(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_load_ps, addr 0x452d7a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_load_ps, addr 0x45303f8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_load_ps(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_load_si256, addr 0x452d800, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_load_si256, addr 0x4530458, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_load_si256(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_loadu2_m128, addr 0x452d830, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_loadu2_m128, addr 0x4530488, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_loadu2_m128(::cordl_internals::Ptr<void> hiaddr, ::cordl_internals::Ptr<void> loaddr);
 
-  /// @brief Method mm256_loadu2_m128d, addr 0x452d84c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_loadu2_m128d, addr 0x45304a4, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_loadu2_m128d(::cordl_internals::Ptr<void> hiaddr, ::cordl_internals::Ptr<void> loaddr);
 
-  /// @brief Method mm256_loadu2_m128i, addr 0x452d85c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_loadu2_m128i, addr 0x45304b4, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_loadu2_m128i(::cordl_internals::Ptr<void> hiaddr, ::cordl_internals::Ptr<void> loaddr);
 
-  /// @brief Method mm256_loadu_pd, addr 0x452d7d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_loadu_pd, addr 0x4530428, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_loadu_pd(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_loadu_ps, addr 0x452d7e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_loadu_ps, addr 0x4530440, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_loadu_ps(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_loadu_si256, addr 0x452d818, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_loadu_si256, addr 0x4530470, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_loadu_si256(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method mm256_maskload_pd, addr 0x452d8d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method mm256_maskload_pd, addr 0x4530530, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_maskload_pd(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 mask);
 
-  /// @brief Method mm256_maskload_ps, addr 0x452d9e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method mm256_maskload_ps, addr 0x453063c, size 0x50, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_maskload_ps(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 mask);
 
-  /// @brief Method mm256_maskstore_pd, addr 0x452d948, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_maskstore_pd, addr 0x45305a0, size 0x4c, virtual false, abstract: false, final false
   static inline void mm256_maskstore_pd(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 mask, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_maskstore_ps, addr 0x452da74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method mm256_maskstore_ps, addr 0x45306cc, size 0x3c, virtual false, abstract: false, final false
   static inline void mm256_maskstore_ps(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 mask, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_max_pd, addr 0x452bd6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_max_pd, addr 0x452e9c4, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_max_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_max_ps, addr 0x452bdcc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_max_ps, addr 0x452ea24, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_max_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_min_pd, addr 0x452bf14, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_min_pd, addr 0x452eb6c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_min_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_min_ps, addr 0x452bf74, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_min_ps, addr 0x452ebcc, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_min_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_movedup_pd, addr 0x452daf8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_movedup_pd, addr 0x4530750, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_movedup_pd(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_movehdup_ps, addr 0x452dab0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_movehdup_ps, addr 0x4530708, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_movehdup_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_moveldup_ps, addr 0x452dad4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_moveldup_ps, addr 0x453072c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_moveldup_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_movemask_pd, addr 0x452e768, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method mm256_movemask_pd, addr 0x45313c0, size 0x38, virtual false, abstract: false, final false
   static inline int32_t mm256_movemask_pd(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_movemask_ps, addr 0x452e7a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_movemask_ps, addr 0x45313f8, size 0x58, virtual false, abstract: false, final false
   static inline int32_t mm256_movemask_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_mul_pd, addr 0x452c0bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_mul_pd, addr 0x452ed14, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mul_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_mul_ps, addr 0x452c11c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_mul_ps, addr 0x452ed74, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mul_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_or_pd, addr 0x452c1bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_or_pd, addr 0x452ee14, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_or_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_or_ps, addr 0x452c21c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method mm256_or_ps, addr 0x452ee74, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_or_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_permute2f128_pd, addr 0x452d5c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method mm256_permute2f128_pd, addr 0x453021c, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permute2f128_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_permute2f128_ps, addr 0x452d540, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method mm256_permute2f128_ps, addr 0x4530198, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permute2f128_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_permute2f128_si256, addr 0x452d648, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method mm256_permute2f128_si256, addr 0x45302a0, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permute2f128_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_permute_pd, addr 0x452d3f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method mm256_permute_pd, addr 0x4530048, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permute_pd(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_permute_ps, addr 0x452d294, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_permute_ps, addr 0x452feec, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permute_ps(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_permutevar_pd, addr 0x452d358, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method mm256_permutevar_pd, addr 0x452ffb0, size 0x98, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permutevar_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_permutevar_ps, addr 0x452d234, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_permutevar_ps, addr 0x452fe8c, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permutevar_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_rcp_ps, addr 0x452db3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method mm256_rcp_ps, addr 0x4530794, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_rcp_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_round_pd, addr 0x452ddb4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_round_pd, addr 0x4530a0c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_round_pd(::Unity::Burst::Intrinsics::v256 a, int32_t rounding);
 
-  /// @brief Method mm256_round_ps, addr 0x452dedc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_round_ps, addr 0x4530b34, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_round_ps(::Unity::Burst::Intrinsics::v256 a, int32_t rounding);
 
-  /// @brief Method mm256_rsqrt_ps, addr 0x452dbbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method mm256_rsqrt_ps, addr 0x4530814, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_rsqrt_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_set1_epi16, addr 0x452ebc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set1_epi16, addr 0x4531818, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set1_epi16(int16_t a);
 
-  /// @brief Method mm256_set1_epi32, addr 0x452ebcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set1_epi32, addr 0x4531824, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set1_epi32(int32_t a);
 
-  /// @brief Method mm256_set1_epi64x, addr 0x452ebd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set1_epi64x, addr 0x4531830, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set1_epi64x(int64_t a);
 
-  /// @brief Method mm256_set1_epi8, addr 0x452eba8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method mm256_set1_epi8, addr 0x4531800, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set1_epi8(uint8_t a);
 
-  /// @brief Method mm256_set1_pd, addr 0x452eb90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set1_pd, addr 0x45317e8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set1_pd(double_t a);
 
-  /// @brief Method mm256_set1_ps, addr 0x452eb9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set1_ps, addr 0x45317f4, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set1_ps(float_t a);
 
-  /// @brief Method mm256_set_epi16, addr 0x452e948, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_epi16, addr 0x45315a0, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_epi16(int16_t e15_, int16_t e14_, int16_t e13_, int16_t e12_, int16_t e11_, int16_t e10_, int16_t e9_, int16_t e8_, int16_t e7_, int16_t e6_,
                                                                  int16_t e5_, int16_t e4_, int16_t e3_, int16_t e2_, int16_t e1_, int16_t e0_);
 
-  /// @brief Method mm256_set_epi32, addr 0x452e9ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_epi32, addr 0x4531604, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_epi32(int32_t e7, int32_t e6, int32_t e5, int32_t e4, int32_t e3, int32_t e2, int32_t e1, int32_t e0);
 
-  /// @brief Method mm256_set_epi64x, addr 0x452e9c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_epi64x, addr 0x4531618, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_epi64x(int64_t e3, int64_t e2, int64_t e1, int64_t e0);
 
-  /// @brief Method mm256_set_epi8, addr 0x452e864, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_epi8, addr 0x45314bc, size 0xe4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_epi8(uint8_t e31_, uint8_t e30_, uint8_t e29_, uint8_t e28_, uint8_t e27_, uint8_t e26_, uint8_t e25_, uint8_t e24_, uint8_t e23_,
                                                                 uint8_t e22_, uint8_t e21_, uint8_t e20_, uint8_t e19_, uint8_t e18_, uint8_t e17_, uint8_t e16_, uint8_t e15_, uint8_t e14_,
                                                                 uint8_t e13_, uint8_t e12_, uint8_t e11_, uint8_t e10_, uint8_t e9_, uint8_t e8_, uint8_t e7_, uint8_t e6_, uint8_t e5_, uint8_t e4_,
                                                                 uint8_t e3_, uint8_t e2_, uint8_t e1_, uint8_t e0_);
 
-  /// @brief Method mm256_set_m128, addr 0x452d840, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_m128, addr 0x4530498, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_m128(::Unity::Burst::Intrinsics::v128 hi, ::Unity::Burst::Intrinsics::v128 lo);
 
-  /// @brief Method mm256_set_m128d, addr 0x452e9cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_m128d, addr 0x4531624, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_m128d(::Unity::Burst::Intrinsics::v128 hi, ::Unity::Burst::Intrinsics::v128 lo);
 
-  /// @brief Method mm256_set_m128i, addr 0x452e9d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_m128i, addr 0x4531630, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_m128i(::Unity::Burst::Intrinsics::v128 hi, ::Unity::Burst::Intrinsics::v128 lo);
 
-  /// @brief Method mm256_set_pd, addr 0x452e844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_pd, addr 0x453149c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_pd(double_t d, double_t c, double_t b, double_t a);
 
-  /// @brief Method mm256_set_ps, addr 0x452e850, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_set_ps, addr 0x45314a8, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_set_ps(float_t e7, float_t e6, float_t e5, float_t e4, float_t e3, float_t e2, float_t e1, float_t e0);
 
-  /// @brief Method mm256_setr_epi16, addr 0x452eae8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_epi16, addr 0x4531740, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_epi16(int16_t e15_, int16_t e14_, int16_t e13_, int16_t e12_, int16_t e11_, int16_t e10_, int16_t e9_, int16_t e8_, int16_t e7_,
                                                                   int16_t e6_, int16_t e5_, int16_t e4_, int16_t e3_, int16_t e2_, int16_t e1_, int16_t e0_);
 
-  /// @brief Method mm256_setr_epi32, addr 0x452eb4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_epi32, addr 0x45317a4, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_epi32(int32_t e7, int32_t e6, int32_t e5, int32_t e4, int32_t e3, int32_t e2, int32_t e1, int32_t e0);
 
-  /// @brief Method mm256_setr_epi64x, addr 0x452eb60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_epi64x, addr 0x45317b8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_epi64x(int64_t e3, int64_t e2, int64_t e1, int64_t e0);
 
-  /// @brief Method mm256_setr_epi8, addr 0x452ea04, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_epi8, addr 0x453165c, size 0xe4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_epi8(uint8_t e31_, uint8_t e30_, uint8_t e29_, uint8_t e28_, uint8_t e27_, uint8_t e26_, uint8_t e25_, uint8_t e24_, uint8_t e23_,
                                                                  uint8_t e22_, uint8_t e21_, uint8_t e20_, uint8_t e19_, uint8_t e18_, uint8_t e17_, uint8_t e16_, uint8_t e15_, uint8_t e14_,
                                                                  uint8_t e13_, uint8_t e12_, uint8_t e11_, uint8_t e10_, uint8_t e9_, uint8_t e8_, uint8_t e7_, uint8_t e6_, uint8_t e5_, uint8_t e4_,
                                                                  uint8_t e3_, uint8_t e2_, uint8_t e1_, uint8_t e0_);
 
-  /// @brief Method mm256_setr_m128, addr 0x452eb6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_m128, addr 0x45317c4, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_m128(::Unity::Burst::Intrinsics::v128 hi, ::Unity::Burst::Intrinsics::v128 lo);
 
-  /// @brief Method mm256_setr_m128d, addr 0x452eb78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_m128d, addr 0x45317d0, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_m128d(::Unity::Burst::Intrinsics::v128 hi, ::Unity::Burst::Intrinsics::v128 lo);
 
-  /// @brief Method mm256_setr_m128i, addr 0x452eb84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_m128i, addr 0x45317dc, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_m128i(::Unity::Burst::Intrinsics::v128 hi, ::Unity::Burst::Intrinsics::v128 lo);
 
-  /// @brief Method mm256_setr_pd, addr 0x452e9e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_pd, addr 0x453163c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_pd(double_t d, double_t c, double_t b, double_t a);
 
-  /// @brief Method mm256_setr_ps, addr 0x452e9f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_setr_ps, addr 0x4531648, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setr_ps(float_t e7, float_t e6, float_t e5, float_t e4, float_t e3, float_t e2, float_t e1, float_t e0);
 
-  /// @brief Method mm256_setzero_pd, addr 0x452e820, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_setzero_pd, addr 0x4531478, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setzero_pd();
 
-  /// @brief Method mm256_setzero_ps, addr 0x452e82c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_setzero_ps, addr 0x4531484, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setzero_ps();
 
-  /// @brief Method mm256_setzero_si256, addr 0x452e838, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_setzero_si256, addr 0x4531490, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_setzero_si256();
 
-  /// @brief Method mm256_shuffle_pd, addr 0x452c240, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method mm256_shuffle_pd, addr 0x452ee98, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_shuffle_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_shuffle_ps, addr 0x452c2b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method mm256_shuffle_ps, addr 0x452ef08, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_shuffle_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_sqrt_pd, addr 0x452dc98, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_sqrt_pd, addr 0x45308f0, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sqrt_pd(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_sqrt_ps, addr 0x452dce4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method mm256_sqrt_ps, addr 0x453093c, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sqrt_ps(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_store_pd, addr 0x452d7c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_store_pd, addr 0x453041c, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_store_pd(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_store_ps, addr 0x452d7ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_store_ps, addr 0x4530404, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_store_ps(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v256 val);
 
-  /// @brief Method mm256_store_si256, addr 0x452d80c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_store_si256, addr 0x4530464, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_store_si256(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v256 v);
 
-  /// @brief Method mm256_storeu2_m128, addr 0x452d86c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_storeu2_m128, addr 0x45304c4, size 0x14, virtual false, abstract: false, final false
   static inline void mm256_storeu2_m128(::cordl_internals::Ptr<void> hiaddr, ::cordl_internals::Ptr<void> loaddr, ::Unity::Burst::Intrinsics::v256 val);
 
-  /// @brief Method mm256_storeu2_m128d, addr 0x452d888, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_storeu2_m128d, addr 0x45304e0, size 0x14, virtual false, abstract: false, final false
   static inline void mm256_storeu2_m128d(::cordl_internals::Ptr<void> hiaddr, ::cordl_internals::Ptr<void> loaddr, ::Unity::Burst::Intrinsics::v256 val);
 
-  /// @brief Method mm256_storeu2_m128i, addr 0x452d89c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_storeu2_m128i, addr 0x45304f4, size 0x14, virtual false, abstract: false, final false
   static inline void mm256_storeu2_m128i(::cordl_internals::Ptr<void> hiaddr, ::cordl_internals::Ptr<void> loaddr, ::Unity::Burst::Intrinsics::v256 val);
 
-  /// @brief Method mm256_storeu_pd, addr 0x452d7dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_storeu_pd, addr 0x4530434, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_storeu_pd(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_storeu_ps, addr 0x452d7f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_storeu_ps, addr 0x453044c, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_storeu_ps(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_storeu_si256, addr 0x452d824, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_storeu_si256, addr 0x453047c, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_storeu_si256(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v256 v);
 
-  /// @brief Method mm256_stream_pd, addr 0x452db24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_stream_pd, addr 0x453077c, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_stream_pd(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_stream_ps, addr 0x452db30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_stream_ps, addr 0x4530788, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_stream_ps(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_stream_si256, addr 0x452db18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_stream_si256, addr 0x4530770, size 0xc, virtual false, abstract: false, final false
   static inline void mm256_stream_si256(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_sub_pd, addr 0x452c38c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sub_pd, addr 0x452efe4, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sub_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_sub_ps, addr 0x452c3ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_sub_ps, addr 0x452f044, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sub_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testc_pd, addr 0x452e2ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method mm256_testc_pd, addr 0x4530f04, size 0x30, virtual false, abstract: false, final false
   static inline int32_t mm256_testc_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testc_ps, addr 0x452e540, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method mm256_testc_ps, addr 0x4531198, size 0x30, virtual false, abstract: false, final false
   static inline int32_t mm256_testc_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testc_si256, addr 0x452e19c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_testc_si256, addr 0x4530df4, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t mm256_testc_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testnzc_pd, addr 0x452e2dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method mm256_testnzc_pd, addr 0x4530f34, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t mm256_testnzc_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testnzc_ps, addr 0x452e570, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method mm256_testnzc_ps, addr 0x45311c8, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t mm256_testnzc_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testnzc_si256, addr 0x452e1e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method mm256_testnzc_si256, addr 0x4530e40, size 0x94, virtual false, abstract: false, final false
   static inline int32_t mm256_testnzc_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testz_pd, addr 0x452e27c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method mm256_testz_pd, addr 0x4530ed4, size 0x30, virtual false, abstract: false, final false
   static inline int32_t mm256_testz_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testz_ps, addr 0x452e510, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method mm256_testz_ps, addr 0x4531168, size 0x30, virtual false, abstract: false, final false
   static inline int32_t mm256_testz_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_testz_si256, addr 0x452e150, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_testz_si256, addr 0x4530da8, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t mm256_testz_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_undefined_pd, addr 0x452ecb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_undefined_pd, addr 0x4531908, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_undefined_pd();
 
-  /// @brief Method mm256_undefined_ps, addr 0x452eca4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_undefined_ps, addr 0x45318fc, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_undefined_ps();
 
-  /// @brief Method mm256_undefined_si256, addr 0x452ecbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_undefined_si256, addr 0x4531914, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_undefined_si256();
 
-  /// @brief Method mm256_unpackhi_pd, addr 0x452e004, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpackhi_pd, addr 0x4530c5c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpackhi_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpackhi_ps, addr 0x452e0c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpackhi_ps, addr 0x4530d1c, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpackhi_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpacklo_pd, addr 0x452e064, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpacklo_pd, addr 0x4530cbc, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpacklo_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpacklo_ps, addr 0x452e10c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpacklo_ps, addr 0x4530d64, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpacklo_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_xor_pd, addr 0x452c48c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_xor_pd, addr 0x452f0e4, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_xor_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_xor_ps, addr 0x452c4ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method mm256_xor_ps, addr 0x452f144, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_xor_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_zeroall, addr 0x452d1b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method mm256_zeroall, addr 0x452fe10, size 0x4, virtual false, abstract: false, final false
   static inline void mm256_zeroall();
 
-  /// @brief Method mm256_zeroupper, addr 0x452d1bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method mm256_zeroupper, addr 0x452fe14, size 0x4, virtual false, abstract: false, final false
   static inline void mm256_zeroupper();
 
-  /// @brief Method mm256_zextpd128_pd256, addr 0x452ecd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_zextpd128_pd256, addr 0x453192c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_zextpd128_pd256(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_zextps128_ps256, addr 0x452ecc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_zextps128_ps256, addr 0x4531920, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_zextps128_ps256(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_zextsi128_si256, addr 0x452ece0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_zextsi128_si256, addr 0x4531938, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_zextsi128_si256(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method permute_pd, addr 0x452d490, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method permute_pd, addr 0x45300e8, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 permute_pd(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method permute_ps, addr 0x452d28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method permute_ps, addr 0x452fee4, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 permute_ps(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method permutevar_pd, addr 0x452d2f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method permutevar_pd, addr 0x452ff4c, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 permutevar_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method permutevar_ps, addr 0x452d1c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method permutevar_ps, addr 0x452fe18, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 permutevar_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method testc_pd, addr 0x452e414, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method testc_pd, addr 0x453106c, size 0x74, virtual false, abstract: false, final false
   static inline int32_t testc_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method testc_ps, addr 0x452e6a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method testc_ps, addr 0x45312fc, size 0x70, virtual false, abstract: false, final false
   static inline int32_t testc_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method testnzc_pd, addr 0x452e488, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method testnzc_pd, addr 0x45310e0, size 0x88, virtual false, abstract: false, final false
   static inline int32_t testnzc_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method testnzc_ps, addr 0x452e714, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method testnzc_ps, addr 0x453136c, size 0x54, virtual false, abstract: false, final false
   static inline int32_t testnzc_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method testz_pd, addr 0x452e3a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method testz_pd, addr 0x4530ff8, size 0x74, virtual false, abstract: false, final false
   static inline int32_t testz_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method testz_ps, addr 0x452e634, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method testz_ps, addr 0x453128c, size 0x70, virtual false, abstract: false, final false
   static inline int32_t testz_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method undefined_pd, addr 0x452ec8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method undefined_pd, addr 0x45318e4, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 undefined_pd();
 
-  /// @brief Method undefined_ps, addr 0x452ec80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method undefined_ps, addr 0x45318d8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 undefined_ps();
 
-  /// @brief Method undefined_si128, addr 0x452ec98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method undefined_si128, addr 0x45318f0, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 undefined_si128();
 
 protected:
@@ -951,7 +951,7 @@ public:
   X86_Avx(X86_Avx const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -976,608 +976,608 @@ public:
   static inline void EmulatedGather(::cordl_internals::Ptr<T> dptr, ::cordl_internals::Ptr<void> base_addr, ::cordl_internals::Ptr<int64_t> indexPtr, int32_t scale, int32_t n,
                                     ::cordl_internals::Ptr<U> mask);
 
-  /// @brief Method blend_epi32, addr 0x453139c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method blend_epi32, addr 0x4533ff4, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 blend_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method broadcastb_epi8, addr 0x4531bd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method broadcastb_epi8, addr 0x4534830, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 broadcastb_epi8(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method broadcastd_epi32, addr 0x4531c08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method broadcastd_epi32, addr 0x4534860, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 broadcastd_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method broadcastq_epi64, addr 0x4531c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method broadcastq_epi64, addr 0x4534870, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 broadcastq_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method broadcastsd_pd, addr 0x4531bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method broadcastsd_pd, addr 0x453481c, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 broadcastsd_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method broadcastss_ps, addr 0x4531ba0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method broadcastss_ps, addr 0x45347f8, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 broadcastss_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method broadcastw_epi16, addr 0x4531bec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method broadcastw_epi16, addr 0x4534844, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 broadcastw_epi16(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method get_IsAvx2Supported, addr 0x452ee58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAvx2Supported, addr 0x4531ab0, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsAvx2Supported();
 
-  /// @brief Method i32gather_epi32, addr 0x4532eb4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method i32gather_epi32, addr 0x4535b0c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 i32gather_epi32(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method i32gather_epi64, addr 0x4532f54, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method i32gather_epi64, addr 0x4535bac, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 i32gather_epi64(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method i32gather_pd, addr 0x4532a24, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method i32gather_pd, addr 0x453567c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 i32gather_pd(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method i32gather_ps, addr 0x4532ac4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method i32gather_ps, addr 0x453571c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 i32gather_ps(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method i64gather_epi32, addr 0x4532ff4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method i64gather_epi32, addr 0x4535c4c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 i64gather_epi32(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method i64gather_epi64, addr 0x4533094, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method i64gather_epi64, addr 0x4535cec, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 i64gather_epi64(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method i64gather_pd, addr 0x4532b64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method i64gather_pd, addr 0x45357bc, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 i64gather_pd(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method i64gather_ps, addr 0x4532c04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method i64gather_ps, addr 0x453585c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 i64gather_ps(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method mask_i32gather_epi32, addr 0x4533a10, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mask_i32gather_epi32, addr 0x4536668, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mask_i32gather_epi32(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                       ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mask_i32gather_epi64, addr 0x4533ac4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mask_i32gather_epi64, addr 0x453671c, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mask_i32gather_epi64(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                       ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mask_i32gather_pd, addr 0x4533744, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mask_i32gather_pd, addr 0x453639c, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mask_i32gather_pd(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                    ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mask_i32gather_ps, addr 0x45337f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mask_i32gather_ps, addr 0x4536450, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mask_i32gather_ps(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                    ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mask_i64gather_epi32, addr 0x4533b78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method mask_i64gather_epi32, addr 0x45367d0, size 0xb0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mask_i64gather_epi32(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                       ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mask_i64gather_epi64, addr 0x4533c28, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mask_i64gather_epi64, addr 0x4536880, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mask_i64gather_epi64(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                       ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mask_i64gather_pd, addr 0x45338ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mask_i64gather_pd, addr 0x4536504, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mask_i64gather_pd(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                    ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mask_i64gather_ps, addr 0x4533960, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method mask_i64gather_ps, addr 0x45365b8, size 0xb0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mask_i64gather_ps(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                    ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method maskload_epi32, addr 0x4532188, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method maskload_epi32, addr 0x4534de0, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 maskload_epi32(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method maskload_epi64, addr 0x45321f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method maskload_epi64, addr 0x4534e48, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 maskload_epi64(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method maskstore_epi32, addr 0x4532260, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method maskstore_epi32, addr 0x4534eb8, size 0x64, virtual false, abstract: false, final false
   static inline void maskstore_epi32(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 mask, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method maskstore_epi64, addr 0x45322c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method maskstore_epi64, addr 0x4534f1c, size 0x6c, virtual false, abstract: false, final false
   static inline void maskstore_epi64(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 mask, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_abs_epi16, addr 0x452f860, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_abs_epi16, addr 0x45324b8, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_abs_epi16(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_abs_epi32, addr 0x452f8ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_abs_epi32, addr 0x4532504, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_abs_epi32(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_abs_epi8, addr 0x452f814, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_abs_epi8, addr 0x453246c, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_abs_epi8(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_add_epi16, addr 0x452f958, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_add_epi16, addr 0x45325b0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_add_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_add_epi32, addr 0x452f9b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_add_epi32, addr 0x4532610, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_add_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_add_epi64, addr 0x452fa18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_add_epi64, addr 0x4532670, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_add_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_add_epi8, addr 0x452f8f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_add_epi8, addr 0x4532550, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_add_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_adds_epi16, addr 0x452fad8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_adds_epi16, addr 0x4532730, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_adds_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_adds_epi8, addr 0x452fa78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_adds_epi8, addr 0x45326d0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_adds_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_adds_epu16, addr 0x452fb98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_adds_epu16, addr 0x45327f0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_adds_epu16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_adds_epu8, addr 0x452fb38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_adds_epu8, addr 0x4532790, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_adds_epu8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_alignr_epi8, addr 0x4531410, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_alignr_epi8, addr 0x4534068, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_alignr_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_and_si256, addr 0x452f694, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_and_si256, addr 0x45322ec, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_and_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_andnot_si256, addr 0x452f6f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_andnot_si256, addr 0x453234c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_andnot_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_avg_epu16, addr 0x452ff58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_avg_epu16, addr 0x4532bb0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_avg_epu16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_avg_epu8, addr 0x452fef8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_avg_epu8, addr 0x4532b50, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_avg_epu8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_blend_epi16, addr 0x45314e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_blend_epi16, addr 0x4534140, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_blend_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_blend_epi32, addr 0x45313a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_blend_epi32, addr 0x4533ffc, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_blend_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_blendv_epi8, addr 0x453147c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_blendv_epi8, addr 0x45340d4, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_blendv_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 mask);
 
-  /// @brief Method mm256_broadcastb_epi8, addr 0x4531c20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcastb_epi8, addr 0x4534878, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcastb_epi8(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_broadcastd_epi32, addr 0x4531c7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcastd_epi32, addr 0x45348d4, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcastd_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_broadcastq_epi64, addr 0x4531c90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcastq_epi64, addr 0x45348e8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcastq_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_broadcastsd_pd, addr 0x4531bcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcastsd_pd, addr 0x4534824, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcastsd_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_broadcastsi128_si256, addr 0x4531c9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcastsi128_si256, addr 0x45348f4, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcastsi128_si256(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_broadcastss_ps, addr 0x4531bb0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcastss_ps, addr 0x4534808, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcastss_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_broadcastw_epi16, addr 0x4531c38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method mm256_broadcastw_epi16, addr 0x4534890, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_broadcastw_epi16(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_bslli_epi128, addr 0x45307a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_bslli_epi128, addr 0x4533400, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_bslli_epi128(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_bsrli_epi128, addr 0x4530868, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_bsrli_epi128, addr 0x45334c0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_bsrli_epi128(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_cmpeq_epi16, addr 0x452ef28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmpeq_epi16, addr 0x4531b80, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmpeq_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_cmpeq_epi32, addr 0x452ef88, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmpeq_epi32, addr 0x4531be0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmpeq_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_cmpeq_epi64, addr 0x452efe8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmpeq_epi64, addr 0x4531c40, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmpeq_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_cmpeq_epi8, addr 0x452eec8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmpeq_epi8, addr 0x4531b20, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmpeq_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_cmpgt_epi16, addr 0x452f0a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmpgt_epi16, addr 0x4531d00, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmpgt_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_cmpgt_epi32, addr 0x452f108, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmpgt_epi32, addr 0x4531d60, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmpgt_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_cmpgt_epi64, addr 0x452f168, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmpgt_epi64, addr 0x4531dc0, size 0xac, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmpgt_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_cmpgt_epi8, addr 0x452f048, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_cmpgt_epi8, addr 0x4531ca0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cmpgt_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_cvtepi16_epi32, addr 0x4531de0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepi16_epi32, addr 0x4534a38, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepi16_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepi16_epi64, addr 0x4531e48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepi16_epi64, addr 0x4534aa0, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepi16_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepi32_epi64, addr 0x4531eb0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepi32_epi64, addr 0x4534b08, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepi32_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepi8_epi16, addr 0x4531ca8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepi8_epi16, addr 0x4534900, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepi8_epi16(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepi8_epi32, addr 0x4531d10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepi8_epi32, addr 0x4534968, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepi8_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepi8_epi64, addr 0x4531d78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepi8_epi64, addr 0x45349d0, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepi8_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepu16_epi32, addr 0x4532050, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepu16_epi32, addr 0x4534ca8, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepu16_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepu16_epi64, addr 0x45320b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepu16_epi64, addr 0x4534d10, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepu16_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepu32_epi64, addr 0x4532120, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepu32_epi64, addr 0x4534d78, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepu32_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepu8_epi16, addr 0x4531f18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepu8_epi16, addr 0x4534b70, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepu8_epi16(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepu8_epi32, addr 0x4531f80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepu8_epi32, addr 0x4534bd8, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepu8_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtepu8_epi64, addr 0x4531fe8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtepu8_epi64, addr 0x4534c40, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtepu8_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtsd_f64, addr 0x452eeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtsd_f64, addr 0x4531b08, size 0x8, virtual false, abstract: false, final false
   static inline double_t mm256_cvtsd_f64(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_cvtsi256_si32, addr 0x452eeb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtsi256_si32, addr 0x4531b10, size 0x8, virtual false, abstract: false, final false
   static inline int32_t mm256_cvtsi256_si32(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_cvtsi256_si64, addr 0x452eec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtsi256_si64, addr 0x4531b18, size 0x8, virtual false, abstract: false, final false
   static inline int64_t mm256_cvtsi256_si64(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_extract_epi16, addr 0x452eea0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mm256_extract_epi16, addr 0x4531af8, size 0x10, virtual false, abstract: false, final false
   static inline int32_t mm256_extract_epi16(::Unity::Burst::Intrinsics::v256 a, int32_t index);
 
-  /// @brief Method mm256_extract_epi8, addr 0x452ee94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_extract_epi8, addr 0x4531aec, size 0xc, virtual false, abstract: false, final false
   static inline int32_t mm256_extract_epi8(::Unity::Burst::Intrinsics::v256 a, int32_t index);
 
-  /// @brief Method mm256_extracti128_si256, addr 0x4531b54, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_extracti128_si256, addr 0x45347ac, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_extracti128_si256(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_hadd_epi16, addr 0x452ffb8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hadd_epi16, addr 0x4532c10, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hadd_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_hadd_epi32, addr 0x4530018, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hadd_epi32, addr 0x4532c70, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hadd_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_hadds_epi16, addr 0x4530078, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hadds_epi16, addr 0x4532cd0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hadds_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_hsub_epi16, addr 0x45300d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hsub_epi16, addr 0x4532d30, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hsub_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_hsub_epi32, addr 0x4530138, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hsub_epi32, addr 0x4532d90, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hsub_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_hsubs_epi16, addr 0x4530198, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_hsubs_epi16, addr 0x4532df0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_hsubs_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_i32gather_epi32, addr 0x45326ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mm256_i32gather_epi32, addr 0x4535304, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_i32gather_epi32(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex, int32_t scale);
 
-  /// @brief Method mm256_i32gather_epi64, addr 0x4532ca4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mm256_i32gather_epi64, addr 0x45358fc, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_i32gather_epi64(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method mm256_i32gather_pd, addr 0x4532760, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mm256_i32gather_pd, addr 0x45353b8, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_i32gather_pd(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex, int32_t scale);
 
-  /// @brief Method mm256_i32gather_ps, addr 0x4532814, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mm256_i32gather_ps, addr 0x453546c, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_i32gather_ps(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex, int32_t scale);
 
-  /// @brief Method mm256_i64gather_epi32, addr 0x4532d58, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method mm256_i64gather_epi32, addr 0x45359b0, size 0xa8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_i64gather_epi32(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex, int32_t scale);
 
-  /// @brief Method mm256_i64gather_epi64, addr 0x4532e00, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mm256_i64gather_epi64, addr 0x4535a58, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_i64gather_epi64(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex, int32_t scale);
 
-  /// @brief Method mm256_i64gather_pd, addr 0x45328c8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method mm256_i64gather_pd, addr 0x4535520, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_i64gather_pd(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex, int32_t scale);
 
-  /// @brief Method mm256_i64gather_ps, addr 0x453297c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method mm256_i64gather_ps, addr 0x45355d4, size 0xa8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_i64gather_ps(::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex, int32_t scale);
 
-  /// @brief Method mm256_inserti128_si256, addr 0x4531b78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method mm256_inserti128_si256, addr 0x45347d0, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_inserti128_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method mm256_madd_epi16, addr 0x45301f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_madd_epi16, addr 0x4532e50, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_madd_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_maddubs_epi16, addr 0x4530258, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_maddubs_epi16, addr 0x4532eb0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_maddubs_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_mask_i32gather_epi32, addr 0x453343c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method mm256_mask_i32gather_epi32, addr 0x4536094, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mask_i32gather_epi32(::Unity::Burst::Intrinsics::v256 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex,
                                                                             ::Unity::Burst::Intrinsics::v256 mask, int32_t scale);
 
-  /// @brief Method mm256_mask_i32gather_epi64, addr 0x4533500, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method mm256_mask_i32gather_epi64, addr 0x4536158, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mask_i32gather_epi64(::Unity::Burst::Intrinsics::v256 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                             ::Unity::Burst::Intrinsics::v256 mask, int32_t scale);
 
-  /// @brief Method mm256_mask_i32gather_pd, addr 0x4533134, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method mm256_mask_i32gather_pd, addr 0x4535d8c, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mask_i32gather_pd(::Unity::Burst::Intrinsics::v256 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v128 vindex,
                                                                          ::Unity::Burst::Intrinsics::v256 mask, int32_t scale);
 
-  /// @brief Method mm256_mask_i32gather_ps, addr 0x45331f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method mm256_mask_i32gather_ps, addr 0x4535e50, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mask_i32gather_ps(::Unity::Burst::Intrinsics::v256 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex,
                                                                          ::Unity::Burst::Intrinsics::v256 mask, int32_t scale);
 
-  /// @brief Method mm256_mask_i64gather_epi32, addr 0x4533688, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method mm256_mask_i64gather_epi32, addr 0x45362e0, size 0xbc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_mask_i64gather_epi32(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex,
                                                                             ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mm256_mask_i64gather_epi64, addr 0x45335c4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method mm256_mask_i64gather_epi64, addr 0x453621c, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mask_i64gather_epi64(::Unity::Burst::Intrinsics::v256 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex,
                                                                             ::Unity::Burst::Intrinsics::v256 mask, int32_t scale);
 
-  /// @brief Method mm256_mask_i64gather_pd, addr 0x45332bc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method mm256_mask_i64gather_pd, addr 0x4535f14, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mask_i64gather_pd(::Unity::Burst::Intrinsics::v256 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex,
                                                                          ::Unity::Burst::Intrinsics::v256 mask, int32_t scale);
 
-  /// @brief Method mm256_mask_i64gather_ps, addr 0x4533380, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method mm256_mask_i64gather_ps, addr 0x4535fd8, size 0xbc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_mask_i64gather_ps(::Unity::Burst::Intrinsics::v128 src, ::cordl_internals::Ptr<void> base_addr, ::Unity::Burst::Intrinsics::v256 vindex,
                                                                          ::Unity::Burst::Intrinsics::v128 mask, int32_t scale);
 
-  /// @brief Method mm256_maskload_epi32, addr 0x4532330, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_maskload_epi32, addr 0x4534f88, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_maskload_epi32(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 mask);
 
-  /// @brief Method mm256_maskload_epi64, addr 0x4532398, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method mm256_maskload_epi64, addr 0x4534ff0, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_maskload_epi64(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 mask);
 
-  /// @brief Method mm256_maskstore_epi32, addr 0x4532400, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_maskstore_epi32, addr 0x4535058, size 0x24, virtual false, abstract: false, final false
   static inline void mm256_maskstore_epi32(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 mask, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_maskstore_epi64, addr 0x4532424, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mm256_maskstore_epi64, addr 0x453507c, size 0x24, virtual false, abstract: false, final false
   static inline void mm256_maskstore_epi64(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v256 mask, ::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_max_epi16, addr 0x452f274, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_max_epi16, addr 0x4531ecc, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_max_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_max_epi32, addr 0x452f2d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_max_epi32, addr 0x4531f2c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_max_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_max_epi8, addr 0x452f214, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_max_epi8, addr 0x4531e6c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_max_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_max_epu16, addr 0x452f394, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_max_epu16, addr 0x4531fec, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_max_epu16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_max_epu32, addr 0x452f3f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_max_epu32, addr 0x453204c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_max_epu32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_max_epu8, addr 0x452f334, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_max_epu8, addr 0x4531f8c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_max_epu8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_min_epi16, addr 0x452f4b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_min_epi16, addr 0x453210c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_min_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_min_epi32, addr 0x452f514, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_min_epi32, addr 0x453216c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_min_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_min_epi8, addr 0x452f454, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_min_epi8, addr 0x45320ac, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_min_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_min_epu16, addr 0x452f5d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_min_epu16, addr 0x453222c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_min_epu16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_min_epu32, addr 0x452f634, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_min_epu32, addr 0x453228c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_min_epu32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_min_epu8, addr 0x452f574, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_min_epu8, addr 0x45321cc, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_min_epu8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_movemask_epi8, addr 0x452ee60, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method mm256_movemask_epi8, addr 0x4531ab8, size 0x34, virtual false, abstract: false, final false
   static inline int32_t mm256_movemask_epi8(::Unity::Burst::Intrinsics::v256 a);
 
-  /// @brief Method mm256_mpsadbw_epu8, addr 0x45306d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method mm256_mpsadbw_epu8, addr 0x4533330, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mpsadbw_epu8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_mul_epi32, addr 0x4530498, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_mul_epi32, addr 0x45330f0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mul_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_mul_epu32, addr 0x4530438, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_mul_epu32, addr 0x4533090, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mul_epu32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_mulhi_epi16, addr 0x45302b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_mulhi_epi16, addr 0x4532f10, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mulhi_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_mulhi_epu16, addr 0x4530318, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_mulhi_epu16, addr 0x4532f70, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mulhi_epu16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_mulhrs_epi16, addr 0x4530618, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_mulhrs_epi16, addr 0x4533270, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mulhrs_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_mullo_epi16, addr 0x4530378, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_mullo_epi16, addr 0x4532fd0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mullo_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_mullo_epi32, addr 0x45303d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_mullo_epi32, addr 0x4533030, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_mullo_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_or_si256, addr 0x452f754, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_or_si256, addr 0x45323ac, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_or_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_packs_epi16, addr 0x4531554, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_packs_epi16, addr 0x45341ac, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_packs_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_packs_epi32, addr 0x45315b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_packs_epi32, addr 0x453420c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_packs_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_packus_epi16, addr 0x4531614, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_packus_epi16, addr 0x453426c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_packus_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_packus_epi32, addr 0x4531674, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_packus_epi32, addr 0x45342cc, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_packus_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_permute2x128_si256, addr 0x453261c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method mm256_permute2x128_si256, addr 0x4535274, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permute2x128_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, int32_t imm8);
 
-  /// @brief Method mm256_permute4x64_epi64, addr 0x4532538, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_permute4x64_epi64, addr 0x4535190, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permute4x64_epi64(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_permute4x64_pd, addr 0x45325a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method mm256_permute4x64_pd, addr 0x45351fc, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permute4x64_pd(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_permutevar8x32_epi32, addr 0x4532448, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_permutevar8x32_epi32, addr 0x45350a0, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permutevar8x32_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 idx);
 
-  /// @brief Method mm256_permutevar8x32_ps, addr 0x45324b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method mm256_permutevar8x32_ps, addr 0x453510c, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_permutevar8x32_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 idx);
 
-  /// @brief Method mm256_sad_epu8, addr 0x4530678, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sad_epu8, addr 0x45332d0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sad_epu8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_shuffle_epi32, addr 0x4531a34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_shuffle_epi32, addr 0x453468c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_shuffle_epi32(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_shuffle_epi8, addr 0x45319d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_shuffle_epi8, addr 0x453462c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_shuffle_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_shufflehi_epi16, addr 0x4531a94, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_shufflehi_epi16, addr 0x45346ec, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_shufflehi_epi16(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_shufflelo_epi16, addr 0x4531af4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_shufflelo_epi16, addr 0x453474c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_shufflelo_epi16(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_sign_epi16, addr 0x4530558, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sign_epi16, addr 0x45331b0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sign_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_sign_epi32, addr 0x45305b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sign_epi32, addr 0x4533210, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sign_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_sign_epi8, addr 0x45304f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sign_epi8, addr 0x4533150, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sign_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_sll_epi16, addr 0x45308c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_sll_epi16, addr 0x4533520, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sll_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method mm256_sll_epi32, addr 0x4530934, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_sll_epi32, addr 0x453358c, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sll_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method mm256_sll_epi64, addr 0x45309a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_sll_epi64, addr 0x45335f8, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sll_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method mm256_slli_epi16, addr 0x4530a0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_slli_epi16, addr 0x4533664, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_slli_epi16(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_slli_epi32, addr 0x4530a6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_slli_epi32, addr 0x45336c4, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_slli_epi32(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_slli_epi64, addr 0x4530acc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_slli_epi64, addr 0x4533724, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_slli_epi64(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_slli_si256, addr 0x4530748, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_slli_si256, addr 0x45333a0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_slli_si256(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_sllv_epi32, addr 0x4530b2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_sllv_epi32, addr 0x4533784, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sllv_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 count);
 
-  /// @brief Method mm256_sllv_epi64, addr 0x4530c04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_sllv_epi64, addr 0x453385c, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sllv_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 count);
 
-  /// @brief Method mm256_sra_epi16, addr 0x4530cc4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_sra_epi16, addr 0x453391c, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sra_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method mm256_sra_epi32, addr 0x4530d30, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_sra_epi32, addr 0x4533988, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sra_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method mm256_srai_epi16, addr 0x4530d9c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_srai_epi16, addr 0x45339f4, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srai_epi16(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_srai_epi32, addr 0x4530dfc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_srai_epi32, addr 0x4533a54, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srai_epi32(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_srav_epi32, addr 0x4530e5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_srav_epi32, addr 0x4533ab4, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srav_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 count);
 
-  /// @brief Method mm256_srl_epi16, addr 0x4530fa0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_srl_epi16, addr 0x4533bf8, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srl_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method mm256_srl_epi32, addr 0x453100c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_srl_epi32, addr 0x4533c64, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srl_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method mm256_srl_epi64, addr 0x4531078, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method mm256_srl_epi64, addr 0x4533cd0, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srl_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method mm256_srli_epi16, addr 0x45310e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_srli_epi16, addr 0x4533d3c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srli_epi16(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_srli_epi32, addr 0x4531144, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_srli_epi32, addr 0x4533d9c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srli_epi32(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_srli_epi64, addr 0x45311a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_srli_epi64, addr 0x4533dfc, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srli_epi64(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_srli_si256, addr 0x4530808, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_srli_si256, addr 0x4533460, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srli_si256(::Unity::Burst::Intrinsics::v256 a, int32_t imm8);
 
-  /// @brief Method mm256_srlv_epi32, addr 0x4531204, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_srlv_epi32, addr 0x4533e5c, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srlv_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 count);
 
-  /// @brief Method mm256_srlv_epi64, addr 0x45312dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method mm256_srlv_epi64, addr 0x4533f34, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_srlv_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 count);
 
-  /// @brief Method mm256_stream_load_si256, addr 0x45326a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mm256_stream_load_si256, addr 0x45352f8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_stream_load_si256(::cordl_internals::Ptr<void> mem_addr);
 
-  /// @brief Method mm256_sub_epi16, addr 0x452fc58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sub_epi16, addr 0x45328b0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sub_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_sub_epi32, addr 0x452fcb8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sub_epi32, addr 0x4532910, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sub_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_sub_epi64, addr 0x452fd18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sub_epi64, addr 0x4532970, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sub_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_sub_epi8, addr 0x452fbf8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_sub_epi8, addr 0x4532850, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_sub_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_subs_epi16, addr 0x452fdd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_subs_epi16, addr 0x4532a30, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_subs_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_subs_epi8, addr 0x452fd78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_subs_epi8, addr 0x45329d0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_subs_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_subs_epu16, addr 0x452fe98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_subs_epu16, addr 0x4532af0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_subs_epu16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_subs_epu8, addr 0x452fe38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_subs_epu8, addr 0x4532a90, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_subs_epu8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpackhi_epi16, addr 0x4531734, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpackhi_epi16, addr 0x453438c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpackhi_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpackhi_epi32, addr 0x4531794, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpackhi_epi32, addr 0x45343ec, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpackhi_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpackhi_epi64, addr 0x45317f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpackhi_epi64, addr 0x453444c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpackhi_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpackhi_epi8, addr 0x45316d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpackhi_epi8, addr 0x453432c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpackhi_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpacklo_epi16, addr 0x45318b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpacklo_epi16, addr 0x453450c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpacklo_epi16(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpacklo_epi32, addr 0x4531914, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpacklo_epi32, addr 0x453456c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpacklo_epi32(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpacklo_epi64, addr 0x4531974, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpacklo_epi64, addr 0x45345cc, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpacklo_epi64(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_unpacklo_epi8, addr 0x4531854, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_unpacklo_epi8, addr 0x45344ac, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_unpacklo_epi8(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method mm256_xor_si256, addr 0x452f7b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method mm256_xor_si256, addr 0x453240c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_xor_si256(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b);
 
-  /// @brief Method sllv_epi32, addr 0x4530b84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method sllv_epi32, addr 0x45337dc, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sllv_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method sllv_epi64, addr 0x4530c5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method sllv_epi64, addr 0x45338b4, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sllv_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method srav_epi32, addr 0x4530eb4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method srav_epi32, addr 0x4533b0c, size 0xec, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srav_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method srlv_epi32, addr 0x453125c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method srlv_epi32, addr 0x4533eb4, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srlv_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method srlv_epi64, addr 0x4531334, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method srlv_epi64, addr 0x4533f8c, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srlv_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
 protected:
@@ -1595,7 +1595,7 @@ public:
   X86_Avx2(X86_Avx2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14650 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1610,49 +1610,49 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE X86_Bmi1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method andn_u32, addr 0x4533ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method andn_u32, addr 0x453693c, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t andn_u32(uint32_t a, uint32_t b);
 
-  /// @brief Method andn_u64, addr 0x4533cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method andn_u64, addr 0x4536944, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t andn_u64(uint64_t a, uint64_t b);
 
-  /// @brief Method bextr2_u32, addr 0x4533d54, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method bextr2_u32, addr 0x45369ac, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t bextr2_u32(uint32_t a, uint32_t control);
 
-  /// @brief Method bextr2_u64, addr 0x4533d88, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method bextr2_u64, addr 0x45369e0, size 0x34, virtual false, abstract: false, final false
   static inline uint64_t bextr2_u64(uint64_t a, uint64_t control);
 
-  /// @brief Method bextr_u32, addr 0x4533cf4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method bextr_u32, addr 0x453694c, size 0x30, virtual false, abstract: false, final false
   static inline uint32_t bextr_u32(uint32_t a, uint32_t start, uint32_t len);
 
-  /// @brief Method bextr_u64, addr 0x4533d24, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method bextr_u64, addr 0x453697c, size 0x30, virtual false, abstract: false, final false
   static inline uint64_t bextr_u64(uint64_t a, uint32_t start, uint32_t len);
 
-  /// @brief Method blsi_u32, addr 0x4533dbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method blsi_u32, addr 0x4536a14, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t blsi_u32(uint32_t a);
 
-  /// @brief Method blsi_u64, addr 0x4533dc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method blsi_u64, addr 0x4536a20, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t blsi_u64(uint64_t a);
 
-  /// @brief Method blsmsk_u32, addr 0x4533dd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method blsmsk_u32, addr 0x4536a2c, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t blsmsk_u32(uint32_t a);
 
-  /// @brief Method blsmsk_u64, addr 0x4533de0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method blsmsk_u64, addr 0x4536a38, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t blsmsk_u64(uint64_t a);
 
-  /// @brief Method blsr_u32, addr 0x4533dec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method blsr_u32, addr 0x4536a44, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t blsr_u32(uint32_t a);
 
-  /// @brief Method blsr_u64, addr 0x4533df8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method blsr_u64, addr 0x4536a50, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t blsr_u64(uint64_t a);
 
-  /// @brief Method get_IsBmi1Supported, addr 0x4533cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsBmi1Supported, addr 0x4536934, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsBmi1Supported();
 
-  /// @brief Method tzcnt_u32, addr 0x4533e04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method tzcnt_u32, addr 0x4536a5c, size 0x58, virtual false, abstract: false, final false
   static inline uint32_t tzcnt_u32(uint32_t a);
 
-  /// @brief Method tzcnt_u64, addr 0x4533e5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method tzcnt_u64, addr 0x4536ab4, size 0x64, virtual false, abstract: false, final false
   static inline uint64_t tzcnt_u64(uint64_t a);
 
 protected:
@@ -1670,7 +1670,7 @@ public:
   X86_Bmi1(X86_Bmi1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1685,31 +1685,31 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE X86_Bmi2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method bzhi_u32, addr 0x4533ec8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method bzhi_u32, addr 0x4536b20, size 0x18, virtual false, abstract: false, final false
   static inline uint32_t bzhi_u32(uint32_t a, uint32_t index);
 
-  /// @brief Method bzhi_u64, addr 0x4533ee0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method bzhi_u64, addr 0x4536b38, size 0x18, virtual false, abstract: false, final false
   static inline uint64_t bzhi_u64(uint64_t a, uint64_t index);
 
-  /// @brief Method get_IsBmi2Supported, addr 0x4533ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsBmi2Supported, addr 0x4536b18, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsBmi2Supported();
 
-  /// @brief Method mulx_u32, addr 0x4533ef8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method mulx_u32, addr 0x4536b50, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t mulx_u32(uint32_t a, uint32_t b, ::ByRef<uint32_t> hi);
 
-  /// @brief Method mulx_u64, addr 0x4533f08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method mulx_u64, addr 0x4536b60, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t mulx_u64(uint64_t a, uint64_t b, ::ByRef<uint64_t> hi);
 
-  /// @brief Method pdep_u32, addr 0x4533f44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method pdep_u32, addr 0x4536b9c, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t pdep_u32(uint32_t a, uint32_t mask);
 
-  /// @brief Method pdep_u64, addr 0x4533f80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method pdep_u64, addr 0x4536bd8, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t pdep_u64(uint64_t a, uint64_t mask);
 
-  /// @brief Method pext_u32, addr 0x4533fbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method pext_u32, addr 0x4536c14, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t pext_u32(uint32_t a, uint32_t mask);
 
-  /// @brief Method pext_u64, addr 0x4533ff8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method pext_u64, addr 0x4536c50, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t pext_u64(uint64_t a, uint64_t mask);
 
 protected:
@@ -1727,7 +1727,7 @@ public:
   X86_Bmi2(X86_Bmi2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1850,7 +1850,7 @@ public:
   static ::Unity::Burst::Intrinsics::X86_MXCSRBits const UnderflowMask;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14653 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1969,7 +1969,7 @@ public:
   static ::Unity::Burst::Intrinsics::X86_RoundingMode const FROUND_TRUNC_NOEXC;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14654 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1995,10 +1995,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x453403c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4536c94, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x4534034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4536c8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::Intrinsics::X86_MXCSRBits roundingMode);
 
   /// @brief Convert to "::System::IDisposable"
@@ -2012,7 +2012,7 @@ public:
   constexpr X86_RoundingScope(::Unity::Burst::Intrinsics::X86_MXCSRBits OldBits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14655 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -2041,29 +2041,29 @@ public:
   /// @brief Field ShiftTable, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ShiftTable, put = setStaticF_ShiftTable)) ::ArrayW<int8_t, ::Array<int8_t>*> ShiftTable;
 
-  /// @brief Method FloatToHalf, addr 0x453423c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method FloatToHalf, addr 0x4536e94, size 0x1d0, virtual false, abstract: false, final false
   static inline uint16_t FloatToHalf(uint32_t f, int32_t rounding);
 
-  /// @brief Method HalfToFloat, addr 0x4534048, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HalfToFloat, addr 0x4536ca0, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t HalfToFloat(uint16_t h);
 
-  /// @brief Method cvtph_ps, addr 0x45340a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method cvtph_ps, addr 0x4536cfc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtph_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtps_ph, addr 0x453440c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method cvtps_ph, addr 0x4537064, size 0xcc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtps_ph(::Unity::Burst::Intrinsics::v128 a, int32_t rounding);
 
   static inline ::ArrayW<uint16_t, ::Array<uint16_t>*> getStaticF_BaseTable();
 
   static inline ::ArrayW<int8_t, ::Array<int8_t>*> getStaticF_ShiftTable();
 
-  /// @brief Method get_IsF16CSupported, addr 0x4534040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsF16CSupported, addr 0x4536c98, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsF16CSupported();
 
-  /// @brief Method mm256_cvtph_ps, addr 0x4534148, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtph_ps, addr 0x4536da0, size 0xf4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_cvtph_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mm256_cvtps_ph, addr 0x45344d8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method mm256_cvtps_ph, addr 0x4537130, size 0x144, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mm256_cvtps_ph(::Unity::Burst::Intrinsics::v256 a, int32_t rounding);
 
   static inline void setStaticF_BaseTable(::ArrayW<uint16_t, ::Array<uint16_t>*> value);
@@ -2085,7 +2085,7 @@ public:
   X86_F16C(X86_F16C const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2160,7 +2160,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14657 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -2180,109 +2180,109 @@ public:
   // Declarations
   using Union = ::Unity::Burst::Intrinsics::Fma_X86_Union;
 
-  /// @brief Method FmaHelper, addr 0x4534710, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FmaHelper, addr 0x4537368, size 0x1c, virtual false, abstract: false, final false
   static inline float_t FmaHelper(float_t a, float_t b, float_t c);
 
-  /// @brief Method FnmaHelper, addr 0x453472c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FnmaHelper, addr 0x4537384, size 0x1c, virtual false, abstract: false, final false
   static inline float_t FnmaHelper(float_t a, float_t b, float_t c);
 
-  /// @brief Method fmadd_pd, addr 0x4534748, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fmadd_pd, addr 0x45373a0, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmadd_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmadd_ps, addr 0x45347e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method fmadd_ps, addr 0x4537438, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmadd_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmadd_sd, addr 0x45348e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fmadd_sd, addr 0x453753c, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmadd_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmadd_ss, addr 0x4534930, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method fmadd_ss, addr 0x4537588, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmadd_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmaddsub_pd, addr 0x4534964, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fmaddsub_pd, addr 0x45375bc, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmaddsub_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmaddsub_ps, addr 0x45349fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method fmaddsub_ps, addr 0x4537654, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmaddsub_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmsub_pd, addr 0x4534b38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fmsub_pd, addr 0x4537790, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmsub_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmsub_ps, addr 0x4534bd0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method fmsub_ps, addr 0x4537828, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmsub_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmsub_sd, addr 0x4534cd4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fmsub_sd, addr 0x453792c, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmsub_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmsub_ss, addr 0x4534d20, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method fmsub_ss, addr 0x4537978, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmsub_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmsubadd_pd, addr 0x4534d54, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fmsubadd_pd, addr 0x45379ac, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmsubadd_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fmsubadd_ps, addr 0x4534dec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method fmsubadd_ps, addr 0x4537a44, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fmsubadd_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fnmadd_pd, addr 0x4534f18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fnmadd_pd, addr 0x4537b70, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fnmadd_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fnmadd_ps, addr 0x4534fb0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method fnmadd_ps, addr 0x4537c08, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fnmadd_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fnmadd_sd, addr 0x45350b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fnmadd_sd, addr 0x4537d0c, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fnmadd_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fnmadd_ss, addr 0x4535100, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method fnmadd_ss, addr 0x4537d58, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fnmadd_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fnmsub_pd, addr 0x4535134, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fnmsub_pd, addr 0x4537d8c, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fnmsub_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fnmsub_ps, addr 0x45351cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method fnmsub_ps, addr 0x4537e24, size 0x8c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fnmsub_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fnmsub_sd, addr 0x45352e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method fnmsub_sd, addr 0x4537f38, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fnmsub_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method fnmsub_ss, addr 0x453532c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method fnmsub_ss, addr 0x4537f84, size 0x38, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 fnmsub_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 c);
 
-  /// @brief Method get_IsFmaSupported, addr 0x4534708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsFmaSupported, addr 0x4537360, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsFmaSupported();
 
-  /// @brief Method mm256_fmadd_pd, addr 0x4534794, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_fmadd_pd, addr 0x45373ec, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fmadd_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fmadd_ps, addr 0x4534864, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method mm256_fmadd_ps, addr 0x45374bc, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fmadd_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fmaddsub_pd, addr 0x45349b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_fmaddsub_pd, addr 0x4537608, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fmaddsub_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fmaddsub_ps, addr 0x4534a80, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method mm256_fmaddsub_ps, addr 0x45376d8, size 0xb8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fmaddsub_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fmsub_pd, addr 0x4534b84, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_fmsub_pd, addr 0x45377dc, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fmsub_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fmsub_ps, addr 0x4534c54, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method mm256_fmsub_ps, addr 0x45378ac, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fmsub_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fmsubadd_pd, addr 0x4534da0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_fmsubadd_pd, addr 0x45379f8, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fmsubadd_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fmsubadd_ps, addr 0x4534e70, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method mm256_fmsubadd_ps, addr 0x4537ac8, size 0xa8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fmsubadd_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fnmadd_pd, addr 0x4534f64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_fnmadd_pd, addr 0x4537bbc, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fnmadd_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fnmadd_ps, addr 0x4535034, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method mm256_fnmadd_ps, addr 0x4537c8c, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fnmadd_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fnmsub_pd, addr 0x4535180, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method mm256_fnmsub_pd, addr 0x4537dd8, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fnmsub_pd(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
-  /// @brief Method mm256_fnmsub_ps, addr 0x4535258, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method mm256_fnmsub_ps, addr 0x4537eb0, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v256 mm256_fnmsub_ps(::Unity::Burst::Intrinsics::v256 a, ::Unity::Burst::Intrinsics::v256 b, ::Unity::Burst::Intrinsics::v256 c);
 
 protected:
@@ -2300,7 +2300,7 @@ public:
   X86_Fma(X86_Fma const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2315,13 +2315,13 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE X86_Popcnt : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsPopcntSupported, addr 0x4535364, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_IsPopcntSupported, addr 0x4537fbc, size 0x50, virtual false, abstract: false, final false
   static inline bool get_IsPopcntSupported();
 
-  /// @brief Method popcnt_u32, addr 0x45353b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method popcnt_u32, addr 0x453800c, size 0x20, virtual false, abstract: false, final false
   static inline int32_t popcnt_u32(uint32_t v);
 
-  /// @brief Method popcnt_u64, addr 0x45353d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method popcnt_u64, addr 0x453802c, size 0x20, virtual false, abstract: false, final false
   static inline int32_t popcnt_u64(uint64_t v);
 
 protected:
@@ -2339,7 +2339,7 @@ public:
   X86_Popcnt(X86_Popcnt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2354,281 +2354,281 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE X86_Sse : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SHUFFLE, addr 0x4535ba4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SHUFFLE, addr 0x45387fc, size 0x14, virtual false, abstract: false, final false
   static inline int32_t SHUFFLE(int32_t d, int32_t c, int32_t b, int32_t a);
 
-  /// @brief Method TRANSPOSE4_PS, addr 0x4535bc8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method TRANSPOSE4_PS, addr 0x4538820, size 0x100, virtual false, abstract: false, final false
   static inline void TRANSPOSE4_PS(::ByRef<::Unity::Burst::Intrinsics::v128> row0, ::ByRef<::Unity::Burst::Intrinsics::v128> row1, ::ByRef<::Unity::Burst::Intrinsics::v128> row2,
                                    ::ByRef<::Unity::Burst::Intrinsics::v128> row3);
 
-  /// @brief Method add_ps, addr 0x452b6b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method add_ps, addr 0x452e310, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 add_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method add_ss, addr 0x4535438, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method add_ss, addr 0x4538090, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 add_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method and_ps, addr 0x452b838, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method and_ps, addr 0x452e490, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 and_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method andnot_ps, addr 0x452b8bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method andnot_ps, addr 0x452e514, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 andnot_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpeq_ps, addr 0x452caf0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method cmpeq_ps, addr 0x452f748, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpeq_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpeq_ss, addr 0x45356b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cmpeq_ss, addr 0x453830c, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpeq_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpge_ps, addr 0x452ce70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmpge_ps, addr 0x452fac8, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpge_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpge_ss, addr 0x4535738, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpge_ss, addr 0x4538390, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpge_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpgt_ps, addr 0x452ce8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmpgt_ps, addr 0x452fae4, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpgt_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpgt_ss, addr 0x4535714, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpgt_ss, addr 0x453836c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpgt_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmple_ps, addr 0x452cbc8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method cmple_ps, addr 0x452f820, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmple_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmple_ss, addr 0x45356f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cmple_ss, addr 0x453834c, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmple_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmplt_ps, addr 0x452cb5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method cmplt_ps, addr 0x452f7b4, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmplt_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmplt_ss, addr 0x45356d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cmplt_ss, addr 0x453832c, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmplt_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpneq_ps, addr 0x452cc94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method cmpneq_ps, addr 0x452f8ec, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpneq_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpneq_ss, addr 0x453575c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cmpneq_ss, addr 0x45383b4, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpneq_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnge_ps, addr 0x452ce38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmpnge_ps, addr 0x452fa90, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnge_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnge_ss, addr 0x45357e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpnge_ss, addr 0x4538438, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnge_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpngt_ps, addr 0x452ce54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmpngt_ps, addr 0x452faac, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpngt_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpngt_ss, addr 0x45357bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpngt_ss, addr 0x4538414, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpngt_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnle_ps, addr 0x452cd6c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method cmpnle_ps, addr 0x452f9c4, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnle_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnle_ss, addr 0x453579c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cmpnle_ss, addr 0x45383f4, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnle_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnlt_ps, addr 0x452cd00, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method cmpnlt_ps, addr 0x452f958, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnlt_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnlt_ss, addr 0x453577c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cmpnlt_ss, addr 0x45383d4, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnlt_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpord_ps, addr 0x452cdd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method cmpord_ps, addr 0x452fa30, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpord_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpord_ss, addr 0x4535804, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method cmpord_ss, addr 0x453845c, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpord_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpunord_ps, addr 0x452cc34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method cmpunord_ps, addr 0x452f88c, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpunord_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpunord_ss, addr 0x4535840, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method cmpunord_ss, addr 0x4538498, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpunord_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comieq_ss, addr 0x453587c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comieq_ss, addr 0x45384d4, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comieq_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comige_ss, addr 0x45358cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comige_ss, addr 0x4538524, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comige_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comigt_ss, addr 0x45358b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comigt_ss, addr 0x4538510, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comigt_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comile_ss, addr 0x45358a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comile_ss, addr 0x45384fc, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comile_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comilt_ss, addr 0x4535890, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comilt_ss, addr 0x45384e8, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comilt_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comineq_ss, addr 0x45358e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comineq_ss, addr 0x4538538, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comineq_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cvt_ss2si, addr 0x4535970, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method cvt_ss2si, addr 0x45385c8, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t cvt_ss2si(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsi32_ss, addr 0x4535410, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cvtsi32_ss, addr 0x4538068, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsi32_ss(::Unity::Burst::Intrinsics::v128 a, int32_t b);
 
-  /// @brief Method cvtsi64_ss, addr 0x4535424, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cvtsi64_ss, addr 0x453807c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsi64_ss(::Unity::Burst::Intrinsics::v128 a, int64_t b);
 
-  /// @brief Method cvtss_f32, addr 0x4535ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method cvtss_f32, addr 0x4538728, size 0x8, virtual false, abstract: false, final false
   static inline float_t cvtss_f32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtss_si32, addr 0x453596c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method cvtss_si32, addr 0x45385c4, size 0x4, virtual false, abstract: false, final false
   static inline int32_t cvtss_si32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtss_si64, addr 0x4535a20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method cvtss_si64, addr 0x4538678, size 0xb0, virtual false, abstract: false, final false
   static inline int64_t cvtss_si64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtt_ss2si, addr 0x4535af8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cvtt_ss2si, addr 0x4538750, size 0x20, virtual false, abstract: false, final false
   static inline int32_t cvtt_ss2si(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvttss_si32, addr 0x4535ad8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cvttss_si32, addr 0x4538730, size 0x20, virtual false, abstract: false, final false
   static inline int32_t cvttss_si32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvttss_si64, addr 0x4535b18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cvttss_si64, addr 0x4538770, size 0x20, virtual false, abstract: false, final false
   static inline int64_t cvttss_si64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method div_ps, addr 0x452bb38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method div_ps, addr 0x452e790, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 div_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method div_ss, addr 0x453548c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method div_ss, addr 0x45380e4, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 div_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method get_IsSseSupported, addr 0x452b5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSseSupported, addr 0x452e23c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSseSupported();
 
-  /// @brief Method load_ps, addr 0x45353f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method load_ps, addr 0x453804c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 load_ps(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method loadu_ps, addr 0x452d708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method loadu_ps, addr 0x4530360, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 loadu_ps(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method loadu_si16, addr 0x4535cc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method loadu_si16, addr 0x4538920, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 loadu_si16(::cordl_internals::Ptr<void> mem_addr);
 
-  /// @brief Method loadu_si64, addr 0x4535cdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method loadu_si64, addr 0x4538934, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 loadu_si64(::cordl_internals::Ptr<void> mem_addr);
 
-  /// @brief Method max_ps, addr 0x452be24, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method max_ps, addr 0x452ea7c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method max_ss, addr 0x4535634, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method max_ss, addr 0x453828c, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_ps, addr 0x452bfcc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method min_ps, addr 0x452ec24, size 0xf0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_ss, addr 0x45355b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method min_ss, addr 0x453820c, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method move_ss, addr 0x4535b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method move_ss, addr 0x45387f4, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 move_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method movehl_ps, addr 0x4535bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method movehl_ps, addr 0x4538810, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 movehl_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method movelh_ps, addr 0x4535bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method movelh_ps, addr 0x4538818, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 movelh_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method movemask_ps, addr 0x452e7f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method movemask_ps, addr 0x4531450, size 0x28, virtual false, abstract: false, final false
   static inline int32_t movemask_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mul_ps, addr 0x452c174, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method mul_ps, addr 0x452edcc, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mul_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method mul_ss, addr 0x4535470, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method mul_ss, addr 0x45380c8, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mul_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method or_ps, addr 0x452c234, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method or_ps, addr 0x452ee8c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 or_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method rcp_ps, addr 0x452db84, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method rcp_ps, addr 0x45307dc, size 0x38, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 rcp_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method rcp_ss, addr 0x453551c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method rcp_ss, addr 0x4538174, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 rcp_ss(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method rsqrt_ps, addr 0x452dc00, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method rsqrt_ps, addr 0x4530858, size 0x98, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 rsqrt_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method rsqrt_ss, addr 0x4535538, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method rsqrt_ss, addr 0x4538190, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 rsqrt_ss(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method set1_ps, addr 0x4535b44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set1_ps, addr 0x453879c, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set1_ps(float_t a);
 
-  /// @brief Method set_ps, addr 0x4535b64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_ps, addr 0x45387bc, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_ps(float_t e3, float_t e2, float_t e1, float_t e0);
 
-  /// @brief Method set_ps1, addr 0x4535b54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_ps1, addr 0x45387ac, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_ps1(float_t a);
 
-  /// @brief Method set_ss, addr 0x4535b38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ss, addr 0x4538790, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_ss(float_t a);
 
-  /// @brief Method setr_ps, addr 0x4535b80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method setr_ps, addr 0x45387d8, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 setr_ps(float_t e3, float_t e2, float_t e1, float_t e0);
 
-  /// @brief Method setzero_ps, addr 0x452ec5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method setzero_ps, addr 0x45318b4, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 setzero_ps();
 
-  /// @brief Method shuffle_ps, addr 0x452c314, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method shuffle_ps, addr 0x452ef6c, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 shuffle_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method sqrt_ps, addr 0x452dd28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method sqrt_ps, addr 0x4530980, size 0x8c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sqrt_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method sqrt_ss, addr 0x45354a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method sqrt_ss, addr 0x4538100, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sqrt_ss(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method store_ps, addr 0x4535400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method store_ps, addr 0x4538058, size 0x8, virtual false, abstract: false, final false
   static inline void store_ps(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v128 val);
 
-  /// @brief Method storeu_ps, addr 0x452d880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method storeu_ps, addr 0x45304d8, size 0x8, virtual false, abstract: false, final false
   static inline void storeu_ps(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v128 val);
 
-  /// @brief Method storeu_si16, addr 0x4535cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method storeu_si16, addr 0x453892c, size 0x8, virtual false, abstract: false, final false
   static inline void storeu_si16(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method storeu_si64, addr 0x4535ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method storeu_si64, addr 0x4538940, size 0x8, virtual false, abstract: false, final false
   static inline void storeu_si64(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method stream_ps, addr 0x4535408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method stream_ps, addr 0x4538060, size 0x8, virtual false, abstract: false, final false
   static inline void stream_ps(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method sub_ps, addr 0x452c444, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method sub_ps, addr 0x452f09c, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sub_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sub_ss, addr 0x4535454, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method sub_ss, addr 0x45380ac, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sub_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomieq_ss, addr 0x45358f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomieq_ss, addr 0x453854c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomieq_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomige_ss, addr 0x4535944, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomige_ss, addr 0x453859c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomige_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomigt_ss, addr 0x4535930, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomigt_ss, addr 0x4538588, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomigt_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomile_ss, addr 0x453591c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomile_ss, addr 0x4538574, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomile_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomilt_ss, addr 0x4535908, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomilt_ss, addr 0x4538560, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomilt_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomineq_ss, addr 0x4535958, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomineq_ss, addr 0x45385b0, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomineq_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpackhi_ps, addr 0x452e0f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method unpackhi_ps, addr 0x4530d50, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpackhi_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpacklo_ps, addr 0x452e140, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method unpacklo_ps, addr 0x4530d98, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpacklo_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method xor_ps, addr 0x452c504, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method xor_ps, addr 0x452f15c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 xor_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
 protected:
@@ -2646,7 +2646,7 @@ public:
   X86_Sse(X86_Sse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14660 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2661,588 +2661,588 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE X86_Sse2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SHUFFLE2, addr 0x4535cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SHUFFLE2, addr 0x4538950, size 0x8, virtual false, abstract: false, final false
   static inline int32_t SHUFFLE2(int32_t x, int32_t y);
 
-  /// @brief Method add_epi16, addr 0x4535d90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method add_epi16, addr 0x45389e8, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 add_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method add_epi32, addr 0x4535e00, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method add_epi32, addr 0x4538a58, size 0x2c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 add_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method add_epi64, addr 0x4535e2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method add_epi64, addr 0x4538a84, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 add_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method add_epi8, addr 0x4535d20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method add_epi8, addr 0x4538978, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 add_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method add_pd, addr 0x4538848, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method add_pd, addr 0x453b4a0, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 add_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method add_sd, addr 0x4538834, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method add_sd, addr 0x453b48c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 add_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method adds_epi16, addr 0x4535ec0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method adds_epi16, addr 0x4538b18, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 adds_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method adds_epi8, addr 0x4535e38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method adds_epi8, addr 0x4538a90, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 adds_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method adds_epu16, addr 0x4535fd0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method adds_epu16, addr 0x4538c28, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 adds_epu16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method adds_epu8, addr 0x4535f48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method adds_epu8, addr 0x4538ba0, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 adds_epu8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method and_pd, addr 0x4538c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method and_pd, addr 0x453b86c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 and_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method and_si128, addr 0x4537b3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method and_si128, addr 0x453a794, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 and_si128(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method andnot_pd, addr 0x4538c20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method andnot_pd, addr 0x453b878, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 andnot_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method andnot_si128, addr 0x4537b48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method andnot_si128, addr 0x453a7a0, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 andnot_si128(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method avg_epu16, addr 0x45360d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method avg_epu16, addr 0x4538d28, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 avg_epu16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method avg_epu8, addr 0x4536058, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method avg_epu8, addr 0x4538cb0, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 avg_epu8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method bslli_si128, addr 0x4536cb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method bslli_si128, addr 0x4539910, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 bslli_si128(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method bsrli_si128, addr 0x4536cbc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method bsrli_si128, addr 0x4539914, size 0x134, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 bsrli_si128(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method clflush, addr 0x45399e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method clflush, addr 0x453c640, size 0x4, virtual false, abstract: false, final false
   static inline void clflush(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method cmpeq_epi16, addr 0x4537be0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method cmpeq_epi16, addr 0x453a838, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpeq_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpeq_epi32, addr 0x4537c54, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method cmpeq_epi32, addr 0x453a8ac, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpeq_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpeq_epi8, addr 0x4537b6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method cmpeq_epi8, addr 0x453a7c4, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpeq_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpeq_pd, addr 0x4538dac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpeq_pd, addr 0x453ba04, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpeq_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpeq_sd, addr 0x4538c44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cmpeq_sd, addr 0x453b89c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpeq_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpge_pd, addr 0x4538e3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpge_pd, addr 0x453ba94, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpge_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpge_sd, addr 0x4538c98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method cmpge_sd, addr 0x453b8f0, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpge_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpgt_epi16, addr 0x4537d3c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method cmpgt_epi16, addr 0x453a994, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpgt_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpgt_epi32, addr 0x4537db0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method cmpgt_epi32, addr 0x453aa08, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpgt_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpgt_epi8, addr 0x4537cc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method cmpgt_epi8, addr 0x453a920, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpgt_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpgt_pd, addr 0x4538e18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpgt_pd, addr 0x453ba70, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpgt_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpgt_sd, addr 0x4538c80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method cmpgt_sd, addr 0x453b8d8, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpgt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmple_pd, addr 0x4538df4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmple_pd, addr 0x453ba4c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmple_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmple_sd, addr 0x4538c6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cmple_sd, addr 0x453b8c4, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmple_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmplt_epi16, addr 0x4537e40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmplt_epi16, addr 0x453aa98, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmplt_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmplt_epi32, addr 0x4537e5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmplt_epi32, addr 0x453aab4, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmplt_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmplt_epi8, addr 0x4537e24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmplt_epi8, addr 0x453aa7c, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmplt_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmplt_pd, addr 0x4538dd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmplt_pd, addr 0x453ba28, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmplt_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmplt_sd, addr 0x4538c58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cmplt_sd, addr 0x453b8b0, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmplt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpneq_pd, addr 0x4538fb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpneq_pd, addr 0x453bc08, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpneq_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpneq_sd, addr 0x4538d40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cmpneq_sd, addr 0x453b998, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpneq_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnge_pd, addr 0x4539040, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpnge_pd, addr 0x453bc98, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnge_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnge_sd, addr 0x4538d94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method cmpnge_sd, addr 0x453b9ec, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnge_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpngt_pd, addr 0x453901c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpngt_pd, addr 0x453bc74, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpngt_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpngt_sd, addr 0x4538d7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method cmpngt_sd, addr 0x453b9d4, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpngt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnle_pd, addr 0x4538ff8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpnle_pd, addr 0x453bc50, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnle_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnle_sd, addr 0x4538d68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cmpnle_sd, addr 0x453b9c0, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnle_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnlt_pd, addr 0x4538fd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cmpnlt_pd, addr 0x453bc2c, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnlt_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpnlt_sd, addr 0x4538d54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cmpnlt_sd, addr 0x453b9ac, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpnlt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpord_pd, addr 0x4538e60, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method cmpord_pd, addr 0x453bab8, size 0xac, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpord_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpord_sd, addr 0x4538cb0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method cmpord_sd, addr 0x453b908, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpord_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpunord_pd, addr 0x4538f0c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method cmpunord_pd, addr 0x453bb64, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpunord_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpunord_sd, addr 0x4538cf8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method cmpunord_sd, addr 0x453b950, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpunord_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comieq_sd, addr 0x4539064, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comieq_sd, addr 0x453bcbc, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comieq_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comige_sd, addr 0x45390b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comige_sd, addr 0x453bd0c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comige_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comigt_sd, addr 0x45390a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comigt_sd, addr 0x453bcf8, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comigt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comile_sd, addr 0x453908c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comile_sd, addr 0x453bce4, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comile_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comilt_sd, addr 0x4539078, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comilt_sd, addr 0x453bcd0, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comilt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method comineq_sd, addr 0x45390c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method comineq_sd, addr 0x453bd20, size 0x14, virtual false, abstract: false, final false
   static inline int32_t comineq_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cvtepi32_pd, addr 0x4537e78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method cvtepi32_pd, addr 0x453aad0, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepi32_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepi32_ps, addr 0x4537eb4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method cvtepi32_ps, addr 0x453ab0c, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepi32_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtpd_epi32, addr 0x4539198, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method cvtpd_epi32, addr 0x453bdf0, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtpd_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtpd_ps, addr 0x4539154, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method cvtpd_ps, addr 0x453bdac, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtpd_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtps_epi32, addr 0x45395a0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method cvtps_epi32, addr 0x453c1f8, size 0x294, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtps_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtps_pd, addr 0x4539178, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cvtps_pd, addr 0x453bdd0, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtps_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsd_f64, addr 0x45394dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method cvtsd_f64, addr 0x453c134, size 0x8, virtual false, abstract: false, final false
   static inline double_t cvtsd_f64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsd_si32, addr 0x4539308, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method cvtsd_si32, addr 0x453bf60, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t cvtsd_si32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsd_si64, addr 0x45393e4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method cvtsd_si64, addr 0x453c03c, size 0xdc, virtual false, abstract: false, final false
   static inline int64_t cvtsd_si64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsd_si64x, addr 0x45394c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method cvtsd_si64x, addr 0x453c118, size 0x4, virtual false, abstract: false, final false
   static inline int64_t cvtsd_si64x(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsd_ss, addr 0x45394c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method cvtsd_ss, addr 0x453c11c, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsd_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cvtsi128_si32, addr 0x4537f04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method cvtsi128_si32, addr 0x453ab5c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t cvtsi128_si32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsi128_si64, addr 0x4537f08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method cvtsi128_si64, addr 0x453ab60, size 0x4, virtual false, abstract: false, final false
   static inline int64_t cvtsi128_si64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsi128_si64x, addr 0x4537f0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method cvtsi128_si64x, addr 0x453ab64, size 0x4, virtual false, abstract: false, final false
   static inline int64_t cvtsi128_si64x(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtsi32_sd, addr 0x4537e90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method cvtsi32_sd, addr 0x453aae8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsi32_sd(::Unity::Burst::Intrinsics::v128 a, int32_t b);
 
-  /// @brief Method cvtsi32_si128, addr 0x4537ee8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method cvtsi32_si128, addr 0x453ab40, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsi32_si128(int32_t a);
 
-  /// @brief Method cvtsi64_sd, addr 0x4537e9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method cvtsi64_sd, addr 0x453aaf4, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsi64_sd(::Unity::Burst::Intrinsics::v128 a, int64_t b);
 
-  /// @brief Method cvtsi64_si128, addr 0x4537ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method cvtsi64_si128, addr 0x453ab4c, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsi64_si128(int64_t a);
 
-  /// @brief Method cvtsi64x_sd, addr 0x4537ea8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method cvtsi64x_sd, addr 0x453ab00, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsi64x_sd(::Unity::Burst::Intrinsics::v128 a, int64_t b);
 
-  /// @brief Method cvtsi64x_si128, addr 0x4537efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method cvtsi64x_si128, addr 0x453ab54, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtsi64x_si128(int64_t a);
 
-  /// @brief Method cvtss_sd, addr 0x45394e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cvtss_sd, addr 0x453c13c, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtss_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cvttpd_epi32, addr 0x4539500, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method cvttpd_epi32, addr 0x453c158, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvttpd_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvttps_epi32, addr 0x4539834, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method cvttps_epi32, addr 0x453c48c, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvttps_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvttsd_si32, addr 0x4539540, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cvttsd_si32, addr 0x453c198, size 0x20, virtual false, abstract: false, final false
   static inline int32_t cvttsd_si32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvttsd_si64, addr 0x4539560, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cvttsd_si64, addr 0x453c1b8, size 0x20, virtual false, abstract: false, final false
   static inline int64_t cvttsd_si64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvttsd_si64x, addr 0x4539580, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method cvttsd_si64x, addr 0x453c1d8, size 0x20, virtual false, abstract: false, final false
   static inline int64_t cvttsd_si64x(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method div_pd, addr 0x4538880, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method div_pd, addr 0x453b4d8, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 div_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method div_sd, addr 0x453886c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method div_sd, addr 0x453b4c4, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 div_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method extract_epi16, addr 0x4538374, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method extract_epi16, addr 0x453afcc, size 0x48, virtual false, abstract: false, final false
   static inline uint16_t extract_epi16(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method get_IsSse2Supported, addr 0x4535cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSse2Supported, addr 0x4538948, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSse2Supported();
 
-  /// @brief Method insert_epi16, addr 0x45383bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method insert_epi16, addr 0x453b014, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 insert_epi16(::Unity::Burst::Intrinsics::v128 a, int32_t i, int32_t imm8);
 
-  /// @brief Method load_si128, addr 0x45399c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method load_si128, addr 0x453c620, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 load_si128(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method loadu_si128, addr 0x45399d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method loadu_si128, addr 0x453c628, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 loadu_si128(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method loadu_si32, addr 0x4539968, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method loadu_si32, addr 0x453c5c0, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 loadu_si32(::cordl_internals::Ptr<void> mem_addr);
 
-  /// @brief Method madd_epi16, addr 0x4536148, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method madd_epi16, addr 0x4538da0, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 madd_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method max_epi16, addr 0x45361cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method max_epi16, addr 0x4538e24, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method max_epu8, addr 0x45362a0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method max_epu8, addr 0x4538ef8, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_epu8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method max_pd, addr 0x453891c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method max_pd, addr 0x453b574, size 0x98, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method max_sd, addr 0x45388a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method max_sd, addr 0x453b4fc, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_epi16, addr 0x4536374, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method min_epi16, addr 0x4538fcc, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_epu8, addr 0x4536448, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method min_epu8, addr 0x45390a0, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_epu8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_pd, addr 0x4538a2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method min_pd, addr 0x453b684, size 0x98, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_sd, addr 0x45389b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method min_sd, addr 0x453b60c, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method move_epi64, addr 0x4538174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method move_epi64, addr 0x453adcc, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 move_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method move_sd, addr 0x4539960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method move_sd, addr 0x453c5b8, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 move_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method movemask_epi8, addr 0x4538408, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method movemask_epi8, addr 0x453b060, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t movemask_epi8(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method movemask_pd, addr 0x45398f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method movemask_pd, addr 0x453c548, size 0x14, virtual false, abstract: false, final false
   static inline int32_t movemask_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mul_epu32, addr 0x4536674, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mul_epu32, addr 0x45392cc, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mul_epu32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method mul_pd, addr 0x4538ad8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method mul_pd, addr 0x453b730, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mul_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method mul_sd, addr 0x4538ac4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method mul_sd, addr 0x453b71c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mul_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method mulhi_epi16, addr 0x453651c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method mulhi_epi16, addr 0x4539174, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mulhi_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method mulhi_epu16, addr 0x4536590, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method mulhi_epu16, addr 0x45391e8, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mulhi_epu16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method mullo_epi16, addr 0x4536604, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method mullo_epi16, addr 0x453925c, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mullo_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method or_pd, addr 0x4538c2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method or_pd, addr 0x453b884, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 or_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method or_si128, addr 0x4537b54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method or_si128, addr 0x453a7ac, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 or_si128(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method packs_epi16, addr 0x453817c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method packs_epi16, addr 0x453add4, size 0xa8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 packs_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method packs_epi32, addr 0x4538224, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method packs_epi32, addr 0x453ae7c, size 0xa8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 packs_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method packus_epi16, addr 0x45382cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method packus_epi16, addr 0x453af24, size 0xa8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 packus_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sad_epu8, addr 0x4536680, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method sad_epu8, addr 0x45392d8, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sad_epu8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method set1_epi16, addr 0x4538000, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set1_epi16, addr 0x453ac58, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set1_epi16(int16_t a);
 
-  /// @brief Method set1_epi32, addr 0x4537ff0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set1_epi32, addr 0x453ac48, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set1_epi32(int32_t a);
 
-  /// @brief Method set1_epi64x, addr 0x4537fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set1_epi64x, addr 0x453ac40, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set1_epi64x(int64_t a);
 
-  /// @brief Method set1_epi8, addr 0x4538054, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set1_epi8, addr 0x453acac, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set1_epi8(int8_t a);
 
-  /// @brief Method set1_pd, addr 0x45398ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set1_pd, addr 0x453c504, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set1_pd(double_t a);
 
-  /// @brief Method set_epi16, addr 0x4537f38, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_epi16, addr 0x453ab90, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_epi16(int16_t e7, int16_t e6, int16_t e5, int16_t e4, int16_t e3, int16_t e2, int16_t e1, int16_t e0);
 
-  /// @brief Method set_epi32, addr 0x4537f20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_epi32, addr 0x453ab78, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_epi32(int32_t e3, int32_t e2, int32_t e1, int32_t e0);
 
-  /// @brief Method set_epi64x, addr 0x4537f10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_epi64x, addr 0x453ab68, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_epi64x(int64_t e1, int64_t e0);
 
-  /// @brief Method set_epi8, addr 0x4537f6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_epi8, addr 0x453abc4, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_epi8(int8_t e15_, int8_t e14_, int8_t e13_, int8_t e12_, int8_t e11_, int8_t e10_, int8_t e9_, int8_t e8_, int8_t e7_, int8_t e6_, int8_t e5_,
                                                           int8_t e4_, int8_t e3_, int8_t e2_, int8_t e1_, int8_t e0_);
 
-  /// @brief Method set_pd, addr 0x45398c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pd, addr 0x453c51c, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_pd(double_t e1, double_t e0);
 
-  /// @brief Method set_pd1, addr 0x45398b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pd1, addr 0x453c510, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_pd1(double_t a);
 
-  /// @brief Method set_sd, addr 0x45398a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_sd, addr 0x453c4f8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 set_sd(double_t a);
 
-  /// @brief Method setr_epi16, addr 0x45380c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method setr_epi16, addr 0x453ad18, size 0x30, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 setr_epi16(int16_t e7, int16_t e6, int16_t e5, int16_t e4, int16_t e3, int16_t e2, int16_t e1, int16_t e0);
 
-  /// @brief Method setr_epi32, addr 0x45380a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method setr_epi32, addr 0x453ad00, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 setr_epi32(int32_t e3, int32_t e2, int32_t e1, int32_t e0);
 
-  /// @brief Method setr_epi8, addr 0x45380f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method setr_epi8, addr 0x453ad48, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 setr_epi8(int8_t e15_, int8_t e14_, int8_t e13_, int8_t e12_, int8_t e11_, int8_t e10_, int8_t e9_, int8_t e8_, int8_t e7_, int8_t e6_, int8_t e5_,
                                                            int8_t e4_, int8_t e3_, int8_t e2_, int8_t e1_, int8_t e0_);
 
-  /// @brief Method setr_pd, addr 0x45398d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method setr_pd, addr 0x453c528, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 setr_pd(double_t e1, double_t e0);
 
-  /// @brief Method setzero_si128, addr 0x4538168, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method setzero_si128, addr 0x453adc0, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 setzero_si128();
 
-  /// @brief Method shuffle_epi32, addr 0x4538474, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method shuffle_epi32, addr 0x453b0cc, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 shuffle_epi32(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method shuffle_pd, addr 0x4539904, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method shuffle_pd, addr 0x453c55c, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 shuffle_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method shufflehi_epi16, addr 0x45384f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method shufflehi_epi16, addr 0x453b14c, size 0x94, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 shufflehi_epi16(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method shufflelo_epi16, addr 0x4538588, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method shufflelo_epi16, addr 0x453b1e0, size 0x94, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 shufflelo_epi16(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method sll_epi16, addr 0x4536e68, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method sll_epi16, addr 0x4539ac0, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sll_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method sll_epi32, addr 0x4537010, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method sll_epi32, addr 0x4539c68, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sll_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method sll_epi64, addr 0x45371c0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method sll_epi64, addr 0x4539e18, size 0xdc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sll_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method slli_epi16, addr 0x4536df0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method slli_epi16, addr 0x4539a48, size 0x78, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 slli_epi16(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method slli_epi32, addr 0x4536f3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method slli_epi32, addr 0x4539b94, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 slli_epi32(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method slli_epi64, addr 0x45370e4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method slli_epi64, addr 0x4539d3c, size 0xdc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 slli_epi64(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method slli_si128, addr 0x4536b88, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method slli_si128, addr 0x45397e0, size 0x130, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 slli_si128(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method sqrt_pd, addr 0x4538b68, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method sqrt_pd, addr 0x453b7c0, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sqrt_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method sqrt_sd, addr 0x4538afc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method sqrt_sd, addr 0x453b754, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sqrt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sra_epi16, addr 0x453737c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method sra_epi16, addr 0x4539fd4, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sra_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method sra_epi32, addr 0x453753c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method sra_epi32, addr 0x453a194, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sra_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method srai_epi16, addr 0x453729c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method srai_epi16, addr 0x4539ef4, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srai_epi16(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method srai_epi32, addr 0x453745c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method srai_epi32, addr 0x453a0b4, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srai_epi32(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method srl_epi16, addr 0x4537700, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method srl_epi16, addr 0x453a358, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srl_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method srl_epi32, addr 0x45378c0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method srl_epi32, addr 0x453a518, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srl_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method srl_epi64, addr 0x4537a6c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method srl_epi64, addr 0x453a6c4, size 0xd0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srl_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 count);
 
-  /// @brief Method srli_epi16, addr 0x4537620, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method srli_epi16, addr 0x453a278, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srli_epi16(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method srli_epi32, addr 0x45377e0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method srli_epi32, addr 0x453a438, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srli_epi32(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method srli_epi64, addr 0x45379a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method srli_epi64, addr 0x453a5f8, size 0xcc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srli_epi64(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method srli_si128, addr 0x453761c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method srli_si128, addr 0x453a274, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 srli_si128(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method store_si128, addr 0x45399d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method store_si128, addr 0x453c630, size 0x8, virtual false, abstract: false, final false
   static inline void store_si128(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v128 val);
 
-  /// @brief Method storeu_si128, addr 0x45399e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method storeu_si128, addr 0x453c638, size 0x8, virtual false, abstract: false, final false
   static inline void storeu_si128(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v128 val);
 
-  /// @brief Method storeu_si32, addr 0x45399c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method storeu_si32, addr 0x453c618, size 0x8, virtual false, abstract: false, final false
   static inline void storeu_si32(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method stream_pd, addr 0x4535d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method stream_pd, addr 0x4538968, size 0x8, virtual false, abstract: false, final false
   static inline void stream_pd(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method stream_si128, addr 0x4535d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method stream_si128, addr 0x4538970, size 0x8, virtual false, abstract: false, final false
   static inline void stream_si128(::cordl_internals::Ptr<void> mem_addr, ::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method stream_si32, addr 0x4535d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method stream_si32, addr 0x4538958, size 0x8, virtual false, abstract: false, final false
   static inline void stream_si32(::cordl_internals::Ptr<int32_t> mem_addr, int32_t a);
 
-  /// @brief Method stream_si64, addr 0x4535d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method stream_si64, addr 0x4538960, size 0x8, virtual false, abstract: false, final false
   static inline void stream_si64(::cordl_internals::Ptr<int64_t> mem_addr, int64_t a);
 
-  /// @brief Method sub_epi16, addr 0x4536844, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method sub_epi16, addr 0x453949c, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sub_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sub_epi32, addr 0x45368b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method sub_epi32, addr 0x453950c, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sub_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sub_epi64, addr 0x4536924, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method sub_epi64, addr 0x453957c, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sub_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sub_epi8, addr 0x45367d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method sub_epi8, addr 0x453942c, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sub_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sub_pd, addr 0x4538bf0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method sub_pd, addr 0x453b848, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sub_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sub_sd, addr 0x4538bdc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method sub_sd, addr 0x453b834, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sub_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method subs_epi16, addr 0x45369f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method subs_epi16, addr 0x4539648, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 subs_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method subs_epi8, addr 0x4536968, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method subs_epi8, addr 0x45395c0, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 subs_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method subs_epu16, addr 0x4536b00, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method subs_epu16, addr 0x4539758, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 subs_epu16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method subs_epu8, addr 0x4536a78, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method subs_epu8, addr 0x45396d0, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 subs_epu8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomieq_sd, addr 0x45390dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomieq_sd, addr 0x453bd34, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomieq_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomige_sd, addr 0x453912c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomige_sd, addr 0x453bd84, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomige_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomigt_sd, addr 0x4539118, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomigt_sd, addr 0x453bd70, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomigt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomile_sd, addr 0x4539104, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomile_sd, addr 0x453bd5c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomile_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomilt_sd, addr 0x45390f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomilt_sd, addr 0x453bd48, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomilt_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ucomineq_sd, addr 0x4539140, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ucomineq_sd, addr 0x453bd98, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ucomineq_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpackhi_epi16, addr 0x4538698, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method unpackhi_epi16, addr 0x453b2f0, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpackhi_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpackhi_epi32, addr 0x4538714, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method unpackhi_epi32, addr 0x453b36c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpackhi_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpackhi_epi64, addr 0x4538728, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method unpackhi_epi64, addr 0x453b380, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpackhi_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpackhi_epi8, addr 0x453861c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method unpackhi_epi8, addr 0x453b274, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpackhi_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpackhi_pd, addr 0x45398dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method unpackhi_pd, addr 0x453c534, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpackhi_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpacklo_epi16, addr 0x45387a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method unpacklo_epi16, addr 0x453b400, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpacklo_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpacklo_epi32, addr 0x453881c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method unpacklo_epi32, addr 0x453b474, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpacklo_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpacklo_epi64, addr 0x453882c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method unpacklo_epi64, addr 0x453b484, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpacklo_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpacklo_epi8, addr 0x4538734, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method unpacklo_epi8, addr 0x453b38c, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpacklo_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method unpacklo_pd, addr 0x45398e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method unpacklo_pd, addr 0x453c540, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 unpacklo_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method xor_pd, addr 0x4538c38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method xor_pd, addr 0x453b890, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 xor_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method xor_si128, addr 0x4537b60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method xor_si128, addr 0x453a7b8, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 xor_si128(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
 protected:
@@ -3260,7 +3260,7 @@ public:
   X86_Sse2(X86_Sse2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3275,34 +3275,34 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE X86_Sse3 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method addsub_pd, addr 0x4539a3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method addsub_pd, addr 0x453c694, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 addsub_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method addsub_ps, addr 0x45399f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method addsub_ps, addr 0x453c64c, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 addsub_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method get_IsSse3Supported, addr 0x45399ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSse3Supported, addr 0x453c644, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSse3Supported();
 
-  /// @brief Method hadd_pd, addr 0x4539a60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method hadd_pd, addr 0x453c6b8, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hadd_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method hadd_ps, addr 0x4539a84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method hadd_ps, addr 0x453c6dc, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hadd_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method hsub_pd, addr 0x4539acc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method hsub_pd, addr 0x453c724, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hsub_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method hsub_ps, addr 0x4539af0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method hsub_ps, addr 0x453c748, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hsub_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method movedup_pd, addr 0x4539b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method movedup_pd, addr 0x453c790, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 movedup_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method movehdup_ps, addr 0x4539b40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method movehdup_ps, addr 0x453c798, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 movehdup_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method moveldup_ps, addr 0x4539b4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method moveldup_ps, addr 0x453c7a4, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 moveldup_ps(::Unity::Burst::Intrinsics::v128 a);
 
 protected:
@@ -3320,7 +3320,7 @@ public:
   X86_Sse3(X86_Sse3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14662 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3335,199 +3335,199 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE X86_Sse4_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MK_INSERTPS_NDX, addr 0x453b534, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MK_INSERTPS_NDX, addr 0x453e18c, size 0x10, virtual false, abstract: false, final false
   static inline int32_t MK_INSERTPS_NDX(int32_t srcField, int32_t dstField, int32_t zeroMask);
 
-  /// @brief Method RoundDImpl, addr 0x453af0c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method RoundDImpl, addr 0x453db64, size 0x200, virtual false, abstract: false, final false
   static inline double_t RoundDImpl(double_t d, int32_t roundingMode);
 
-  /// @brief Method blend_epi16, addr 0x4539de4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method blend_epi16, addr 0x453ca3c, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 blend_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method blend_pd, addr 0x4539b70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method blend_pd, addr 0x453c7c8, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 blend_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method blend_ps, addr 0x4539bec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method blend_ps, addr 0x453c844, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 blend_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method blendv_epi8, addr 0x4539d68, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method blendv_epi8, addr 0x453c9c0, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 blendv_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method blendv_pd, addr 0x4539c68, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method blendv_pd, addr 0x453c8c0, size 0x84, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 blendv_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method blendv_ps, addr 0x4539cec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method blendv_ps, addr 0x453c944, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 blendv_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method ceil_pd, addr 0x453b188, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ceil_pd, addr 0x453dde0, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 ceil_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method ceil_ps, addr 0x453b270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ceil_ps, addr 0x453dec8, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 ceil_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method ceil_sd, addr 0x453b2c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ceil_sd, addr 0x453df18, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 ceil_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method ceil_ss, addr 0x453b35c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ceil_ss, addr 0x453dfb4, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 ceil_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cmpeq_epi64, addr 0x453a9d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cmpeq_epi64, addr 0x453d62c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpeq_epi64(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method cvtepi16_epi32, addr 0x453aae8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method cvtepi16_epi32, addr 0x453d740, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepi16_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepi16_epi64, addr 0x453ab48, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method cvtepi16_epi64, addr 0x453d7a0, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepi16_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepi32_epi64, addr 0x453ab88, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method cvtepi32_epi64, addr 0x453d7e0, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepi32_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepi8_epi16, addr 0x453a9e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method cvtepi8_epi16, addr 0x453d640, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepi8_epi16(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepi8_epi32, addr 0x453aa48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method cvtepi8_epi32, addr 0x453d6a0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepi8_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepi8_epi64, addr 0x453aaa8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method cvtepi8_epi64, addr 0x453d700, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepi8_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepu16_epi32, addr 0x453acc8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method cvtepu16_epi32, addr 0x453d920, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepu16_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepu16_epi64, addr 0x453ad28, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method cvtepu16_epi64, addr 0x453d980, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepu16_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepu32_epi64, addr 0x453ad68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method cvtepu32_epi64, addr 0x453d9c0, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepu32_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepu8_epi16, addr 0x453abc8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method cvtepu8_epi16, addr 0x453d820, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepu8_epi16(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepu8_epi32, addr 0x453ac28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method cvtepu8_epi32, addr 0x453d880, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepu8_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method cvtepu8_epi64, addr 0x453ac88, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method cvtepu8_epi64, addr 0x453d8e0, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cvtepu8_epi64(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method dp_pd, addr 0x4539e60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method dp_pd, addr 0x453cab8, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 dp_pd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method dp_ps, addr 0x4539ea8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method dp_ps, addr 0x453cb00, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 dp_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method extract_epi32, addr 0x453a030, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method extract_epi32, addr 0x453cc88, size 0x48, virtual false, abstract: false, final false
   static inline int32_t extract_epi32(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method extract_epi64, addr 0x453a078, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method extract_epi64, addr 0x453ccd0, size 0x48, virtual false, abstract: false, final false
   static inline int64_t extract_epi64(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method extract_epi8, addr 0x4539fec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method extract_epi8, addr 0x453cc44, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t extract_epi8(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method extract_ps, addr 0x4539f5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method extract_ps, addr 0x453cbb4, size 0x48, virtual false, abstract: false, final false
   static inline int32_t extract_ps(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method extractf_ps, addr 0x4539fa4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method extractf_ps, addr 0x453cbfc, size 0x48, virtual false, abstract: false, final false
   static inline float_t extractf_ps(::Unity::Burst::Intrinsics::v128 a, int32_t imm8);
 
-  /// @brief Method floor_pd, addr 0x453b14c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method floor_pd, addr 0x453dda4, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 floor_pd(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method floor_ps, addr 0x453b268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method floor_ps, addr 0x453dec0, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 floor_ps(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method floor_sd, addr 0x453b29c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method floor_sd, addr 0x453def4, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 floor_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method floor_ss, addr 0x453b320, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method floor_ss, addr 0x453df78, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 floor_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method get_IsSse41Supported, addr 0x4539b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSse41Supported, addr 0x453c7b8, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSse41Supported();
 
-  /// @brief Method insert_epi32, addr 0x453a1bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method insert_epi32, addr 0x453ce14, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 insert_epi32(::Unity::Burst::Intrinsics::v128 a, int32_t i, int32_t imm8);
 
-  /// @brief Method insert_epi64, addr 0x453a208, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method insert_epi64, addr 0x453ce60, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 insert_epi64(::Unity::Burst::Intrinsics::v128 a, int64_t i, int32_t imm8);
 
-  /// @brief Method insert_epi8, addr 0x453a174, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method insert_epi8, addr 0x453cdcc, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 insert_epi8(::Unity::Burst::Intrinsics::v128 a, uint8_t i, int32_t imm8);
 
-  /// @brief Method insert_ps, addr 0x453a0c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method insert_ps, addr 0x453cd18, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 insert_ps(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method max_epi32, addr 0x453a328, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method max_epi32, addr 0x453cf80, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method max_epi8, addr 0x453a254, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method max_epi8, addr 0x453ceac, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method max_epu16, addr 0x453a4d0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method max_epu16, addr 0x453d128, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_epu16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method max_epu32, addr 0x453a3fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method max_epu32, addr 0x453d054, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 max_epu32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_epi32, addr 0x453a678, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method min_epi32, addr 0x453d2d0, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_epi8, addr 0x453a5a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method min_epi8, addr 0x453d1fc, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_epu16, addr 0x453a820, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method min_epu16, addr 0x453d478, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_epu16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method min_epu32, addr 0x453a74c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method min_epu32, addr 0x453d3a4, size 0xd4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 min_epu32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method minpos_epu16, addr 0x453b398, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method minpos_epu16, addr 0x453dff0, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 minpos_epu16(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method mpsadbw_epu8, addr 0x453b40c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method mpsadbw_epu8, addr 0x453e064, size 0x128, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mpsadbw_epu8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method mul_epi32, addr 0x453ada8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method mul_epi32, addr 0x453da00, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mul_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method mullo_epi32, addr 0x453adb4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method mullo_epi32, addr 0x453da0c, size 0x70, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mullo_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method packus_epi32, addr 0x453a8f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method packus_epi32, addr 0x453d54c, size 0xe0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 packus_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method round_pd, addr 0x453b10c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method round_pd, addr 0x453dd64, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 round_pd(::Unity::Burst::Intrinsics::v128 a, int32_t rounding);
 
-  /// @brief Method round_ps, addr 0x453b1c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method round_ps, addr 0x453de1c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 round_ps(::Unity::Burst::Intrinsics::v128 a, int32_t rounding);
 
-  /// @brief Method round_sd, addr 0x453b278, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method round_sd, addr 0x453ded0, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 round_sd(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t rounding);
 
-  /// @brief Method round_ss, addr 0x453b2e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method round_ss, addr 0x453df3c, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 round_ss(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t rounding);
 
-  /// @brief Method stream_load_si128, addr 0x4539b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method stream_load_si128, addr 0x453c7c0, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 stream_load_si128(::cordl_internals::Ptr<void> mem_addr);
 
-  /// @brief Method test_all_ones, addr 0x453aed0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method test_all_ones, addr 0x453db28, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t test_all_ones(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method test_all_zeros, addr 0x453ae88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method test_all_zeros, addr 0x453dae0, size 0x18, virtual false, abstract: false, final false
   static inline int32_t test_all_zeros(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method test_mix_ones_zeroes, addr 0x453aea0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method test_mix_ones_zeroes, addr 0x453daf8, size 0x30, virtual false, abstract: false, final false
   static inline int32_t test_mix_ones_zeroes(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 mask);
 
-  /// @brief Method testc_si128, addr 0x453ae3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method testc_si128, addr 0x453da94, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t testc_si128(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method testnzc_si128, addr 0x453ae58, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method testnzc_si128, addr 0x453dab0, size 0x30, virtual false, abstract: false, final false
   static inline int32_t testnzc_si128(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method testz_si128, addr 0x453ae24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method testz_si128, addr 0x453da7c, size 0x18, virtual false, abstract: false, final false
   static inline int32_t testz_si128(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
 protected:
@@ -3545,7 +3545,7 @@ public:
   X86_Sse4_1(X86_Sse4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14663 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3648,7 +3648,7 @@ public:
   static ::Unity::Burst::Intrinsics::Sse4_2_X86_SIDD const UWORD_OPS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14664 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -3680,7 +3680,7 @@ public:
   constexpr StrBoolArray_Sse4_2_X86__Bits_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -3709,10 +3709,10 @@ public:
   // Declarations
   using _Bits_e__FixedBuffer = ::Unity::Burst::Intrinsics::StrBoolArray_Sse4_2_X86__Bits_e__FixedBuffer;
 
-  /// @brief Method GetBit, addr 0x453c92c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetBit, addr 0x453f584, size 0x10, virtual false, abstract: false, final false
   inline bool GetBit(int32_t aindex, int32_t bindex);
 
-  /// @brief Method SetBit, addr 0x453c908, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetBit, addr 0x453f560, size 0x24, virtual false, abstract: false, final false
   inline void SetBit(int32_t aindex, int32_t bindex, bool val);
 
   // Ctor Parameters []
@@ -3723,7 +3723,7 @@ public:
   constexpr Sse4_2_X86_StrBoolArray(::Unity::Burst::Intrinsics::StrBoolArray_Sse4_2_X86__Bits_e__FixedBuffer Bits) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14666 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -3756,7 +3756,7 @@ public:
   /// @brief Method ComputeStrCmpIntRes2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t ComputeStrCmpIntRes2(::cordl_internals::Ptr<T> a, int32_t alen, ::cordl_internals::Ptr<T> b, int32_t blen, int32_t len, int32_t imm8, int32_t allOnes);
 
-  /// @brief Method ComputeStriOutput, addr 0x453b54c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ComputeStriOutput, addr 0x453e1a4, size 0x48, virtual false, abstract: false, final false
   static inline int32_t ComputeStriOutput(int32_t len, int32_t imm8, int32_t intRes2);
 
   /// @brief Method ComputeStringLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -3765,20 +3765,20 @@ public:
   /// @brief Method ComputeStrmOutput, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Burst::Intrinsics::v128 ComputeStrmOutput(int32_t len, int32_t imm8, T allOnesT, int32_t intRes2);
 
-  /// @brief Method cmpestra, addr 0x453c518, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method cmpestra, addr 0x453f170, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t cmpestra(::Unity::Burst::Intrinsics::v128 a, int32_t la, ::Unity::Burst::Intrinsics::v128 b, int32_t lb, int32_t imm8);
 
-  /// @brief Method cmpestrc, addr 0x453c1b0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method cmpestrc, addr 0x453ee08, size 0x1a8, virtual false, abstract: false, final false
   static inline int32_t cmpestrc(::Unity::Burst::Intrinsics::v128 a, int32_t la, ::Unity::Burst::Intrinsics::v128 b, int32_t lb, int32_t imm8);
 
-  /// @brief Method cmpestri, addr 0x453ba54, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method cmpestri, addr 0x453e6ac, size 0x1c0, virtual false, abstract: false, final false
   static inline int32_t cmpestri(::Unity::Burst::Intrinsics::v128 a, int32_t la, ::Unity::Burst::Intrinsics::v128 b, int32_t lb, int32_t imm8);
 
   /// @brief Method cmpestri_emulation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline int32_t cmpestri_emulation(::cordl_internals::Ptr<T> a, int32_t alen, ::cordl_internals::Ptr<T> b, int32_t blen, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT);
 
-  /// @brief Method cmpestrm, addr 0x453b894, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method cmpestrm, addr 0x453e4ec, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpestrm(::Unity::Burst::Intrinsics::v128 a, int32_t la, ::Unity::Burst::Intrinsics::v128 b, int32_t lb, int32_t imm8);
 
   /// @brief Method cmpestrm_emulation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -3786,64 +3786,64 @@ public:
   static inline ::Unity::Burst::Intrinsics::v128 cmpestrm_emulation(::cordl_internals::Ptr<T> a, int32_t alen, ::cordl_internals::Ptr<T> b, int32_t blen, int32_t len, int32_t imm8, int32_t allOnes,
                                                                     T allOnesT);
 
-  /// @brief Method cmpestro, addr 0x453c374, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method cmpestro, addr 0x453efcc, size 0x1a4, virtual false, abstract: false, final false
   static inline int32_t cmpestro(::Unity::Burst::Intrinsics::v128 a, int32_t la, ::Unity::Burst::Intrinsics::v128 b, int32_t lb, int32_t imm8);
 
-  /// @brief Method cmpestrs, addr 0x453c358, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmpestrs, addr 0x453efb0, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t cmpestrs(::Unity::Burst::Intrinsics::v128 a, int32_t la, ::Unity::Burst::Intrinsics::v128 b, int32_t lb, int32_t imm8);
 
-  /// @brief Method cmpestrz, addr 0x453c194, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cmpestrz, addr 0x453edec, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t cmpestrz(::Unity::Burst::Intrinsics::v128 a, int32_t la, ::Unity::Burst::Intrinsics::v128 b, int32_t lb, int32_t imm8);
 
-  /// @brief Method cmpgt_epi64, addr 0x453c5dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method cmpgt_epi64, addr 0x453f234, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpgt_epi64(::Unity::Burst::Intrinsics::v128 val1, ::Unity::Burst::Intrinsics::v128 val2);
 
-  /// @brief Method cmpistra, addr 0x453c0ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method cmpistra, addr 0x453ed44, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t cmpistra(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method cmpistrc, addr 0x453bd04, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method cmpistrc, addr 0x453e95c, size 0xac, virtual false, abstract: false, final false
   static inline int32_t cmpistrc(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method cmpistri, addr 0x453b714, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method cmpistri, addr 0x453e36c, size 0x180, virtual false, abstract: false, final false
   static inline int32_t cmpistri(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
   /// @brief Method cmpistri_emulation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t cmpistri_emulation(::cordl_internals::Ptr<T> a, ::cordl_internals::Ptr<T> b, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT);
 
-  /// @brief Method cmpistrm, addr 0x453b594, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method cmpistrm, addr 0x453e1ec, size 0x180, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 cmpistrm(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
   /// @brief Method cmpistrm_emulation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::Unity::Burst::Intrinsics::v128 cmpistrm_emulation(::cordl_internals::Ptr<T> a, ::cordl_internals::Ptr<T> b, int32_t len, int32_t imm8, int32_t allOnes, T allOnesT);
 
-  /// @brief Method cmpistro, addr 0x453bea0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method cmpistro, addr 0x453eaf8, size 0x24c, virtual false, abstract: false, final false
   static inline int32_t cmpistro(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method cmpistrs, addr 0x453bdb0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method cmpistrs, addr 0x453ea08, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t cmpistrs(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method cmpistrz, addr 0x453bc14, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method cmpistrz, addr 0x453e86c, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t cmpistrz(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t imm8);
 
-  /// @brief Method crc32_u16, addr 0x453c700, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method crc32_u16, addr 0x453f358, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t crc32_u16(uint32_t crc, uint16_t v);
 
-  /// @brief Method crc32_u32, addr 0x453c5f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method crc32_u32, addr 0x453f248, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t crc32_u32(uint32_t crc, uint32_t v);
 
-  /// @brief Method crc32_u64, addr 0x453c76c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method crc32_u64, addr 0x453f3c4, size 0x64, virtual false, abstract: false, final false
   static inline uint64_t crc32_u64(uint64_t crc_ul, int64_t v);
 
-  /// @brief Method crc32_u64, addr 0x453c7d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method crc32_u64, addr 0x453f428, size 0xa4, virtual false, abstract: false, final false
   static inline uint64_t crc32_u64(uint64_t crc_ul, uint64_t v);
 
-  /// @brief Method crc32_u8, addr 0x453c66c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method crc32_u8, addr 0x453f2c4, size 0x94, virtual false, abstract: false, final false
   static inline uint32_t crc32_u8(uint32_t crc, uint8_t v);
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_crctab();
 
-  /// @brief Method get_IsSse42Supported, addr 0x453b544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSse42Supported, addr 0x453e19c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSse42Supported();
 
   static inline void setStaticF_crctab(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
@@ -3863,7 +3863,7 @@ public:
   X86_Sse4_2(X86_Sse4_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3878,55 +3878,55 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE X86_Ssse3 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method abs_epi16, addr 0x453c9fc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method abs_epi16, addr 0x453f654, size 0xb8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 abs_epi16(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method abs_epi32, addr 0x453cab4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method abs_epi32, addr 0x453f70c, size 0xb8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 abs_epi32(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method abs_epi8, addr 0x453c944, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method abs_epi8, addr 0x453f59c, size 0xb8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 abs_epi8(::Unity::Burst::Intrinsics::v128 a);
 
-  /// @brief Method alignr_epi8, addr 0x453cbec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method alignr_epi8, addr 0x453f844, size 0xa0, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 alignr_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b, int32_t count);
 
-  /// @brief Method get_IsSsse3Supported, addr 0x453c93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSsse3Supported, addr 0x453f594, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSsse3Supported();
 
-  /// @brief Method hadd_epi16, addr 0x453cc8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method hadd_epi16, addr 0x453f8e4, size 0x8c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hadd_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method hadd_epi32, addr 0x453cdc4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method hadd_epi32, addr 0x453fa1c, size 0x2c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hadd_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method hadds_epi16, addr 0x453cd18, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method hadds_epi16, addr 0x453f970, size 0xac, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hadds_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method hsub_epi16, addr 0x453cdf0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method hsub_epi16, addr 0x453fa48, size 0x8c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hsub_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method hsub_epi32, addr 0x453cf28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method hsub_epi32, addr 0x453fb80, size 0x2c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hsub_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method hsubs_epi16, addr 0x453ce7c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method hsubs_epi16, addr 0x453fad4, size 0xac, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 hsubs_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method maddubs_epi16, addr 0x453cf54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method maddubs_epi16, addr 0x453fbac, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 maddubs_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method mulhrs_epi16, addr 0x453cff0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method mulhrs_epi16, addr 0x453fc48, size 0x7c, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 mulhrs_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method shuffle_epi8, addr 0x453cb6c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method shuffle_epi8, addr 0x453f7c4, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 shuffle_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sign_epi16, addr 0x453d0ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method sign_epi16, addr 0x453fd44, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sign_epi16(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sign_epi32, addr 0x453d16c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method sign_epi32, addr 0x453fdc4, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sign_epi32(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
-  /// @brief Method sign_epi8, addr 0x453d06c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method sign_epi8, addr 0x453fcc4, size 0x80, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 sign_epi8(::Unity::Burst::Intrinsics::v128 a, ::Unity::Burst::Intrinsics::v128 b);
 
 protected:
@@ -3944,7 +3944,7 @@ public:
   X86_Ssse3(X86_Ssse3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3991,52 +3991,52 @@ public:
 
   using Ssse3 = ::Unity::Burst::Intrinsics::X86_Ssse3;
 
-  /// @brief Method BurstIntrinsicGetCSRFromManaged, addr 0x452b5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method BurstIntrinsicGetCSRFromManaged, addr 0x452e21c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t BurstIntrinsicGetCSRFromManaged();
 
-  /// @brief Method BurstIntrinsicSetCSRFromManaged, addr 0x452b5c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BurstIntrinsicSetCSRFromManaged, addr 0x452e218, size 0x4, virtual false, abstract: false, final false
   static inline void BurstIntrinsicSetCSRFromManaged(int32_t _);
 
-  /// @brief Method DoGetCSRTrampoline, addr 0x452b5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DoGetCSRTrampoline, addr 0x452e22c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t DoGetCSRTrampoline();
 
-  /// @brief Method DoSetCSRTrampoline, addr 0x452b5e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoSetCSRTrampoline, addr 0x452e238, size 0x4, virtual false, abstract: false, final false
   static inline void DoSetCSRTrampoline(int32_t bits);
 
-  /// @brief Method GenericCSharpLoad, addr 0x452b510, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GenericCSharpLoad, addr 0x452e168, size 0xc, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::v128 GenericCSharpLoad(::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method GenericCSharpStore, addr 0x452b51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GenericCSharpStore, addr 0x452e174, size 0x8, virtual false, abstract: false, final false
   static inline void GenericCSharpStore(::cordl_internals::Ptr<void> ptr, ::Unity::Burst::Intrinsics::v128 val);
 
-  /// @brief Method IsNaN, addr 0x452b598, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsNaN, addr 0x452e1f0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsNaN(uint32_t v);
 
-  /// @brief Method IsNaN, addr 0x452b5ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsNaN, addr 0x452e204, size 0x14, virtual false, abstract: false, final false
   static inline bool IsNaN(uint64_t v);
 
-  /// @brief Method Saturate_To_Int16, addr 0x452b55c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Saturate_To_Int16, addr 0x452e1b4, size 0x24, virtual false, abstract: false, final false
   static inline int16_t Saturate_To_Int16(int32_t val);
 
-  /// @brief Method Saturate_To_Int8, addr 0x452b524, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Saturate_To_Int8, addr 0x452e17c, size 0x20, virtual false, abstract: false, final false
   static inline int8_t Saturate_To_Int8(int32_t val);
 
-  /// @brief Method Saturate_To_UnsignedInt16, addr 0x452b580, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Saturate_To_UnsignedInt16, addr 0x452e1d8, size 0x18, virtual false, abstract: false, final false
   static inline uint16_t Saturate_To_UnsignedInt16(int32_t val);
 
-  /// @brief Method Saturate_To_UnsignedInt8, addr 0x452b544, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Saturate_To_UnsignedInt8, addr 0x452e19c, size 0x18, virtual false, abstract: false, final false
   static inline uint8_t Saturate_To_UnsignedInt8(int32_t val);
 
-  /// @brief Method get_MXCSR, addr 0x452b5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MXCSR, addr 0x452e244, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::Intrinsics::X86_MXCSRBits get_MXCSR();
 
-  /// @brief Method getcsr_raw, addr 0x452b5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method getcsr_raw, addr 0x452e224, size 0x8, virtual false, abstract: false, final false
   static inline int32_t getcsr_raw();
 
-  /// @brief Method set_MXCSR, addr 0x452b5f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_MXCSR, addr 0x452e24c, size 0x4, virtual false, abstract: false, final false
   static inline void set_MXCSR(::Unity::Burst::Intrinsics::X86_MXCSRBits value);
 
-  /// @brief Method setcsr_raw, addr 0x452b5dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method setcsr_raw, addr 0x452e234, size 0x4, virtual false, abstract: false, final false
   static inline void setcsr_raw(int32_t bits);
 
 protected:
@@ -4054,7 +4054,7 @@ public:
   X86(X86 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14669 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

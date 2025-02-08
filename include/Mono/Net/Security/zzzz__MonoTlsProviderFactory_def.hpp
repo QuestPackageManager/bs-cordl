@@ -61,28 +61,28 @@ public:
   __declspec(property(get = getStaticF_providerRegistration,
                       put = setStaticF_providerRegistration)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* providerRegistration;
 
-  /// @brief Method CreateDefaultProviderImpl, addr 0x4118cd4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultProviderImpl, addr 0x411b92c, size 0x188, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* CreateDefaultProviderImpl();
 
-  /// @brief Method GetProvider, addr 0x411954c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x411c1a4, size 0x4c, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProvider();
 
-  /// @brief Method GetProviderInternal, addr 0x411456c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetProviderInternal, addr 0x41171c4, size 0x118, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProviderInternal();
 
-  /// @brief Method InitializeInternal, addr 0x411874c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternal, addr 0x411b3a4, size 0x398, virtual false, abstract: false, final false
   static inline void InitializeInternal();
 
-  /// @brief Method InitializeProviderRegistration, addr 0x4118ae4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method InitializeProviderRegistration, addr 0x411b73c, size 0x1f0, virtual false, abstract: false, final false
   static inline void InitializeProviderRegistration();
 
-  /// @brief Method LookupProvider, addr 0x4118e5c, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method LookupProvider, addr 0x411bab4, size 0x560, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* LookupProvider(::StringW name, bool throwOnError);
 
-  /// @brief Method PopulateProviders, addr 0x41194fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method PopulateProviders, addr 0x411c154, size 0x50, virtual false, abstract: false, final false
   static inline void PopulateProviders();
 
-  /// @brief Method PopulateUnityProviders, addr 0x41193bc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method PopulateUnityProviders, addr 0x411c014, size 0x140, virtual false, abstract: false, final false
   static inline void PopulateUnityProviders();
 
   static inline ::System::Guid getStaticF_AppleTlsId();
@@ -132,7 +132,7 @@ public:
   MonoTlsProviderFactory(MonoTlsProviderFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

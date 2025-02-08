@@ -72,7 +72,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
 
-  /// @brief Method Generate, addr 0x25531dc, size 0x25c, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x2554bd8, size 0x25c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
@@ -109,10 +109,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x2553164, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2554b60, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
 
-  /// @brief Method .ctor, addr 0x255318c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2554b88, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
 
   static inline ::StringW getStaticF_PbeSha1_2DES();
@@ -142,13 +142,13 @@ public:
 
   static inline void setStaticF_PbeSha1_RC4_40(::StringW value);
 
-  /// @brief Method set_IterationCount, addr 0x25531d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IterationCount, addr 0x2554bd0, size 0x8, virtual false, abstract: false, final false
   inline void set_IterationCount(int32_t value);
 
-  /// @brief Method set_Password, addr 0x25531cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x2554bc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method set_SecureRandom, addr 0x25531c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SecureRandom, addr 0x2554bc0, size 0x8, virtual false, abstract: false, final false
   inline void set_SecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
 protected:

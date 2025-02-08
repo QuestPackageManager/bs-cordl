@@ -26,12 +26,12 @@ public:
   /// @brief Field _indexFormat, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__indexFormat, put = __cordl_internal_set__indexFormat)) ::UnityEngine::Rendering::IndexFormat _indexFormat;
 
-  /// @brief Method CalculateIndexFormat, addr 0x3a87a60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CalculateIndexFormat, addr 0x3a8a2c4, size 0x78, virtual false, abstract: false, final false
   inline void CalculateIndexFormat(int32_t numVertices);
 
   static inline ::HoudiniEngineUnity::HEU_MeshIndexFormat* New_ctor();
 
-  /// @brief Method SetFormatForMesh, addr 0x3a87ad8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetFormatForMesh, addr 0x3a8a33c, size 0x24, virtual false, abstract: false, final false
   inline void SetFormatForMesh(::UnityEngine::Mesh* mesh);
 
   constexpr ::UnityEngine::Rendering::IndexFormat const& __cordl_internal_get__indexFormat() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__indexFormat(::UnityEngine::Rendering::IndexFormat value);
 
-  /// @brief Method .ctor, addr 0x3a87afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a8a360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   HEU_MeshIndexFormat(HEU_MeshIndexFormat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11838 };
 
   /// @brief Field _indexFormat, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::IndexFormat ____indexFormat;

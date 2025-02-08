@@ -39,10 +39,10 @@ public:
 
   static inline ::Org::BouncyCastle::X509::PemParser* New_ctor(::StringW type);
 
-  /// @brief Method ReadLine, addr 0x25ed990, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x25ef38c, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW ReadLine(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadPemObject, addr 0x25eda74, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ReadPemObject, addr 0x25ef470, size 0x218, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
 
   constexpr ::StringW const& __cordl_internal_get__footer1() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__header2(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25ed878, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ef274, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::StringW type);
 
 protected:

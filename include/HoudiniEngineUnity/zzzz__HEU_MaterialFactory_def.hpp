@@ -50,110 +50,110 @@ public:
   /// @brief Field _defaultStandardMaterial, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__defaultStandardMaterial, put = setStaticF__defaultStandardMaterial)) ::UnityW<::UnityEngine::Material> _defaultStandardMaterial;
 
-  /// @brief Method CopyMaterial, addr 0x3a59d84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CopyMaterial, addr 0x3a5c5e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CopyMaterial(::UnityEngine::Material* material);
 
-  /// @brief Method CreateHoudiniMaterialData, addr 0x3a5a7c4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateHoudiniMaterialData, addr 0x3a5d028, size 0x1dc, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> CreateHoudiniMaterialData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t materialID, int32_t geoID,
                                                                                            int32_t partID,
                                                                                            ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache,
                                                                                            ::StringW assetCacheFolderPath);
 
-  /// @brief Method CreateMaterialInCache, addr 0x3a5a360, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CreateMaterialInCache, addr 0x3a5cbc4, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> CreateMaterialInCache(int32_t materialKey, ::StringW materialName, ::HoudiniEngineUnity::HEU_MaterialData_Source sourceType,
                                                                                        bool bWriteToFile,
                                                                                        ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache,
                                                                                        ::StringW assetCacheFolderPath);
 
-  /// @brief Method CreateNewHoudiniStandardMaterial, addr 0x3a58d48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CreateNewHoudiniStandardMaterial, addr 0x3a5b5ac, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CreateNewHoudiniStandardMaterial(::StringW assetCacheFolderPath, ::StringW materialName, bool bWriteToFile);
 
-  /// @brief Method CreateUnitySubstanceMaterialData, addr 0x3a59fec, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method CreateUnitySubstanceMaterialData, addr 0x3a5c850, size 0x374, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>
   CreateUnitySubstanceMaterialData(int32_t materialKey, ::StringW materialPath, ::StringW substanceName, int32_t substanceIndex,
                                    ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache, ::StringW assetCacheFolderPath);
 
-  /// @brief Method DeleteAssetMaterial, addr 0x3a58f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DeleteAssetMaterial, addr 0x3a5b79c, size 0x8, virtual false, abstract: false, final false
   static inline void DeleteAssetMaterial(::UnityEngine::Material* material);
 
-  /// @brief Method DestroyNonAssetMaterial, addr 0x3a58e98, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DestroyNonAssetMaterial, addr 0x3a5b6fc, size 0xa0, virtual false, abstract: false, final false
   static inline void DestroyNonAssetMaterial(::UnityEngine::Material* material, bool bRegisterUndo);
 
-  /// @brief Method DoesMaterialExistInAssetCache, addr 0x3a58e74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DoesMaterialExistInAssetCache, addr 0x3a5b6d8, size 0x24, virtual false, abstract: false, final false
   static inline bool DoesMaterialExistInAssetCache(::UnityEngine::Material* material);
 
-  /// @brief Method EnableGPUInstancing, addr 0x3a59d58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EnableGPUInstancing, addr 0x3a5c5bc, size 0x18, virtual false, abstract: false, final false
   static inline void EnableGPUInstancing(::UnityEngine::Material* material);
 
-  /// @brief Method ExtractHoudiniImageToTextureFile, addr 0x3a5936c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ExtractHoudiniImageToTextureFile, addr 0x3a5bbd0, size 0x198, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> ExtractHoudiniImageToTextureFile(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo,
                                                                                     ::StringW imagePlanes, ::StringW assetCacheFolderPath);
 
-  /// @brief Method ExtractHoudiniImageToTexturePNGJPEG, addr 0x3a5923c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ExtractHoudiniImageToTexturePNGJPEG, addr 0x3a5baa0, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> ExtractHoudiniImageToTexturePNGJPEG(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo,
                                                                                        ::StringW imagePlanes);
 
-  /// @brief Method ExtractHoudiniImageToTextureRaw, addr 0x3a58f40, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method ExtractHoudiniImageToTextureRaw, addr 0x3a5b7a4, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> ExtractHoudiniImageToTextureRaw(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo,
                                                                                    ::StringW imagePlanes);
 
-  /// @brief Method FindPluginShader, addr 0x3a5791c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FindPluginShader, addr 0x3a5a180, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> FindPluginShader(::StringW shaderName);
 
-  /// @brief Method FindShader, addr 0x3a58ad0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FindShader, addr 0x3a5b334, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> FindShader(::StringW shaderName);
 
-  /// @brief Method GenerateDefaultMaterialName, addr 0x3a5a5b0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GenerateDefaultMaterialName, addr 0x3a5ce14, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GenerateDefaultMaterialName(int32_t geoID, int32_t partID);
 
-  /// @brief Method GetDefaultStandardMaterial, addr 0x3a59de0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultStandardMaterial, addr 0x3a5c644, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetDefaultStandardMaterial();
 
-  /// @brief Method GetMaterialDataFromCache, addr 0x3a5a66c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialDataFromCache, addr 0x3a5ced0, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> GetMaterialDataFromCache(int32_t materialKey,
                                                                                           ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache);
 
-  /// @brief Method GetMaterialDataMapFromCache, addr 0x3a5aba8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialDataMapFromCache, addr 0x3a5d40c, size 0x260, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*
   GetMaterialDataMapFromCache(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache);
 
-  /// @brief Method GetNewMaterialWithShader, addr 0x3a58b1c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetNewMaterialWithShader, addr 0x3a5b380, size 0x22c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetNewMaterialWithShader(::StringW assetCacheFolderPath, ::StringW shaderName, ::StringW materialName, bool bWriteToFile);
 
-  /// @brief Method GetOrCreateDefaultMaterialInCache, addr 0x3a5a4c4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateDefaultMaterialInCache, addr 0x3a5cd28, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>
   GetOrCreateDefaultMaterialInCache(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, bool bWriteToFile,
                                     ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache, ::StringW assetCacheFolderPath);
 
-  /// @brief Method GetUnitySubstanceMaterialKey, addr 0x3a59c24, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUnitySubstanceMaterialKey, addr 0x3a5c488, size 0x118, virtual false, abstract: false, final false
   static inline int32_t GetUnitySubstanceMaterialKey(::StringW unityMaterialPath, ::StringW substanceName, int32_t substanceIndex);
 
-  /// @brief Method LoadSubstanceMaterialWithIndex, addr 0x3a599b0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method LoadSubstanceMaterialWithIndex, addr 0x3a5c214, size 0x274, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> LoadSubstanceMaterialWithIndex(::StringW materialPath, int32_t substanceMaterialIndex);
 
-  /// @brief Method LoadSubstanceMaterialWithName, addr 0x3a597d0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method LoadSubstanceMaterialWithName, addr 0x3a5c034, size 0x1e0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> LoadSubstanceMaterialWithName(::StringW materialPath, ::StringW substanceName);
 
-  /// @brief Method LoadTexture, addr 0x3a59eac, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method LoadTexture, addr 0x3a5c710, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> LoadTexture(::StringW path);
 
-  /// @brief Method LoadUnityMaterial, addr 0x3a59504, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method LoadUnityMaterial, addr 0x3a5bd68, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> LoadUnityMaterial(::StringW materialPath);
 
-  /// @brief Method MaterialHasGPUInstancingEnabled, addr 0x3a59d70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MaterialHasGPUInstancingEnabled, addr 0x3a5c5d4, size 0x14, virtual false, abstract: false, final false
   static inline bool MaterialHasGPUInstancingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method MaterialNameToKey, addr 0x3a59d3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MaterialNameToKey, addr 0x3a5c5a0, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t MaterialNameToKey(::StringW materialName);
 
-  /// @brief Method RenderAndExtractImageToTexture, addr 0x3a58190, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method RenderAndExtractImageToTexture, addr 0x3a5a9f4, size 0x47c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> RenderAndExtractImageToTexture(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo,
                                                                                   int32_t textureParmID, ::StringW textureName, ::StringW assetCacheFolderPath, bool isNormalMap, bool invertTexture);
 
-  /// @brief Method WhiteTexture, addr 0x3a59fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WhiteTexture, addr 0x3a5c848, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> WhiteTexture();
 
-  /// @brief Method WriteMaterialToAssetCache, addr 0x3a58d80, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method WriteMaterialToAssetCache, addr 0x3a5b5e4, size 0xf4, virtual false, abstract: false, final false
   static inline void WriteMaterialToAssetCache(::UnityEngine::Material* material, ::StringW assetCacheFolderPath, ::StringW materialName, bool bOverwriteExisting);
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__defaultStandardMaterial();
@@ -175,7 +175,7 @@ public:
   HEU_MaterialFactory(HEU_MaterialFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

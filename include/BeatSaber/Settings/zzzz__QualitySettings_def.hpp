@@ -84,7 +84,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_MainEffectOption const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18016 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -139,7 +139,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_BloomQuality const LightBaking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -202,7 +202,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_MirrorQuality const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -261,7 +261,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_ObstacleQuality const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -312,7 +312,7 @@ public:
                             bool smokeGraphics, bool depthTexture, bool burnMarkTrails, int32_t maxShockwaveParticles, int32_t maxNumberOfCutSoundEffects) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18020 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

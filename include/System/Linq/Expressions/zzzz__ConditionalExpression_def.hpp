@@ -46,19 +46,19 @@ public:
   /// @brief Field <Test>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Test_k__BackingField, put = __cordl_internal_set__Test_k__BackingField)) ::System::Linq::Expressions::Expression* _Test_k__BackingField;
 
-  /// @brief Method Accept, addr 0x40b0a80, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40b36d8, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetFalse, addr 0x40b0a28, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetFalse, addr 0x40b3680, size 0x58, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetFalse();
 
-  /// @brief Method Make, addr 0x40b079c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x40b33f4, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConditionalExpression* Make(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
                                                                          ::System::Linq::Expressions::Expression* ifFalse, ::System::Type* type);
 
   static inline ::System::Linq::Expressions::ConditionalExpression* New_ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue);
 
-  /// @brief Method Update, addr 0x40b0aa8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40b3700, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ConditionalExpression* Update(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
                                                                     ::System::Linq::Expressions::Expression* ifFalse);
 
@@ -74,22 +74,22 @@ public:
 
   constexpr void __cordl_internal_set__Test_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40b072c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b3384, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue);
 
-  /// @brief Method get_IfFalse, addr 0x40b0a1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IfFalse, addr 0x40b3674, size 0xc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_IfFalse();
 
-  /// @brief Method get_IfTrue, addr 0x40b0a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfTrue, addr 0x40b366c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_IfTrue();
 
-  /// @brief Method get_NodeType, addr 0x40b09e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40b363c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Test, addr 0x40b0a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Test, addr 0x40b3664, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Test();
 
-  /// @brief Method get_Type, addr 0x40b09ec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x40b3644, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -107,7 +107,7 @@ public:
   ConditionalExpression(ConditionalExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13662 };
 
   /// @brief Field <Test>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Test_k__BackingField;

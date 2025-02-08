@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__transposeOrder(bool value);
 
-  /// @brief Method .ctor, addr 0x3b934b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b96014, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   LightGroupGridLayouter(LightGroupGridLayouter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4297 };
 
   /// @brief Field _columns, offset: 0x28, size: 0x4, def value: None
   int32_t ____columns;

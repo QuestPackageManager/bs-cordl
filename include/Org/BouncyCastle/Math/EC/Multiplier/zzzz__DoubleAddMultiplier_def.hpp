@@ -24,12 +24,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE DoubleAddMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive, addr 0x24b6a90, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x24b848c, size 0x1b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24b6c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b8640, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

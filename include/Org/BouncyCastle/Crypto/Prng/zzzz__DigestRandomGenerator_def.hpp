@@ -41,33 +41,33 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
-  /// @brief Method AddSeedMaterial, addr 0x23c87e4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method AddSeedMaterial, addr 0x23ca1e0, size 0xc8, virtual true, abstract: false, final true
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> inSeed);
 
-  /// @brief Method AddSeedMaterial, addr 0x23c8a18, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method AddSeedMaterial, addr 0x23ca414, size 0xc8, virtual true, abstract: false, final true
   inline void AddSeedMaterial(int64_t rSeed);
 
-  /// @brief Method CycleSeed, addr 0x23c8dd4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CycleSeed, addr 0x23ca7d0, size 0x34, virtual false, abstract: false, final false
   inline void CycleSeed();
 
-  /// @brief Method DigestAddCounter, addr 0x23c8ae0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DigestAddCounter, addr 0x23ca4dc, size 0xf8, virtual false, abstract: false, final false
   inline void DigestAddCounter(int64_t seedVal);
 
-  /// @brief Method DigestDoFinal, addr 0x23c8968, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DigestDoFinal, addr 0x23ca364, size 0xb0, virtual false, abstract: false, final false
   inline void DigestDoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 
-  /// @brief Method DigestUpdate, addr 0x23c88ac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DigestUpdate, addr 0x23ca2a8, size 0xbc, virtual false, abstract: false, final false
   inline void DigestUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inSeed);
 
-  /// @brief Method GenerateState, addr 0x23c8d5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GenerateState, addr 0x23ca758, size 0x78, virtual false, abstract: false, final false
   inline void GenerateState();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method NextBytes, addr 0x23c8bd8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method NextBytes, addr 0x23ca5d4, size 0x1c, virtual true, abstract: false, final true
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes, addr 0x23c8bf4, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method NextBytes, addr 0x23ca5f0, size 0x168, virtual true, abstract: false, final true
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_stateCounter(int64_t value);
 
-  /// @brief Method .ctor, addr 0x23c867c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ca078, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"

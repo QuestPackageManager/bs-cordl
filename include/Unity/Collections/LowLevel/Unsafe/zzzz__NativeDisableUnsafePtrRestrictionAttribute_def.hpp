@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4862574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48651cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   NativeDisableUnsafePtrRestrictionAttribute(NativeDisableUnsafePtrRestrictionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

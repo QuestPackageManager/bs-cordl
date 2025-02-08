@@ -42,46 +42,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>*();
 
-  /// @brief Method Equals, addr 0x4a855e0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a88238, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a8559c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a881f4, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Rotate other);
 
-  /// @brief Method GetHashCode, addr 0x4a83cc0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a86918, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x4a85438, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x4a88090, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate Initial();
 
-  /// @brief Method None, addr 0x4a854d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x4a88130, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate None();
 
-  /// @brief Method ToQuaternion, addr 0x4a856f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToQuaternion, addr 0x4a8834c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ToQuaternion();
 
-  /// @brief Method ToString, addr 0x4a85680, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a882d8, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a853d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a88030, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Angle angle);
 
-  /// @brief Method get_angle, addr 0x4a85538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x4a88190, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle get_angle();
 
-  /// @brief Method get_axis, addr 0x4a85548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x4a881a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_axis();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>* i___System__IEquatable_1___UnityEngine__UIElements__Rotate_();
 
-  /// @brief Method op_Equality, addr 0x4a839d0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a86628, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method op_Inequality, addr 0x4a85554, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4a881ac, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method set_angle, addr 0x4a85540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angle, addr 0x4a88198, size 0x8, virtual false, abstract: false, final false
   inline void set_angle(::UnityEngine::UIElements::Angle value);
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
   constexpr Rotate(::UnityEngine::UIElements::Angle m_Angle, ::UnityEngine::Vector3 m_Axis, bool m_IsNone) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6092 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

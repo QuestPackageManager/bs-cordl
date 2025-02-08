@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* (
     ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::Copy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47a138c;
+  constexpr static std::size_t addrs = 0x47a3fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a140c;
+  constexpr static std::size_t addrs = 0x47a4064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_IgnoreFailures)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47a1414;
+  constexpr static std::size_t addrs = 0x47a406c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_WebRequestTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a1420;
+  constexpr static std::size_t addrs = 0x47a4078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(int32_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_WebRequestTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a1428;
+  constexpr static std::size_t addrs = 0x47a4080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a1430;
+  constexpr static std::size_t addrs = 0x47a4088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

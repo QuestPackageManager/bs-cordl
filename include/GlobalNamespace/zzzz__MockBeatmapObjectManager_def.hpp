@@ -50,30 +50,30 @@ public:
   // Declarations
   __declspec(property(get = get_activeObstacleControllers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  /// @brief Method DespawnInternal, addr 0x3ae6eb0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3ae9a10, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal, addr 0x3ae6eb4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3ae9a14, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal, addr 0x3ae6eb8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3ae9a18, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
   static inline ::GlobalNamespace::MockBeatmapObjectManager* New_ctor();
 
-  /// @brief Method ProcessNoteData, addr 0x3ae6ea8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessNoteData, addr 0x3ae9a08, size 0x4, virtual true, abstract: false, final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessObstacleData, addr 0x3ae6ea4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessObstacleData, addr 0x3ae9a04, size 0x4, virtual true, abstract: false, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::ByRef<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
-  /// @brief Method ProcessSliderData, addr 0x3ae6eac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x3ae9a0c, size 0x4, virtual true, abstract: false, final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
 
-  /// @brief Method .ctor, addr 0x3ae6ebc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae9a1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeObstacleControllers, addr 0x3ae6e9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_activeObstacleControllers, addr 0x3ae99fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
 protected:
@@ -91,7 +91,7 @@ public:
   MockBeatmapObjectManager(MockBeatmapObjectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

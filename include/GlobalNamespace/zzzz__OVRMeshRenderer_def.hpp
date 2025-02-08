@@ -68,7 +68,7 @@ public:
   OVRMeshRenderer_IOVRMeshRendererDataProvider(OVRMeshRenderer_IOVRMeshRendererDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,22 +87,22 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x403a4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x403d114, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x403a4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x403d100, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x403a4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x403d128, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x403a4c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x403d11c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x403a4b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x403d108, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x403a4d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x403d130, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
   // Ctor Parameters []
@@ -114,7 +114,7 @@ public:
   constexpr OVRMeshRenderer_MeshRendererData(bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField, bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3 };
@@ -179,7 +179,7 @@ public:
   static ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior const ToggleRenderer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8445 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -234,7 +234,7 @@ public:
   static ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior const SwapMaterial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8446 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -311,21 +311,21 @@ public:
   /// @brief Field _systemGestureMaterial, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__systemGestureMaterial, put = __cordl_internal_set__systemGestureMaterial)) ::UnityW<::UnityEngine::Material> _systemGestureMaterial;
 
-  /// @brief Method Awake, addr 0x4039adc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x403c734, size 0x104, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x4039d6c, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x403c9c4, size 0x484, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRMeshRenderer* New_ctor();
 
-  /// @brief Method ShouldInitialize, addr 0x4039c7c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x403c8d4, size 0xf0, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Start, addr 0x4039be0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x403c838, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x403a1f0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x403ce48, size 0x2a8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
@@ -400,31 +400,31 @@ public:
 
   constexpr void __cordl_internal_set__systemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x403a498, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403d0f0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x4039ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x403c70c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x4039aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x403c6f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_IsInitialized, addr 0x4039a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x403c6e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x4039ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x403c720, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x4039abc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x403c714, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x4039aa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x403c700, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_IsInitialized, addr 0x4039a94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x403c6ec, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x4039ad0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x403c728, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
 protected:
@@ -442,7 +442,7 @@ public:
   OVRMeshRenderer(OVRMeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8447 };
 
   /// @brief Field _dataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRMeshRenderer_IOVRMeshRendererDataProvider* ____dataProvider;

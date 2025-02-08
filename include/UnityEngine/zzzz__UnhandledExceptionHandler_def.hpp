@@ -42,10 +42,10 @@ public:
 
   static inline ::UnityEngine::UnhandledExceptionHandler___c* New_ctor();
 
-  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x48b16f0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x48b4348, size 0xb4, virtual false, abstract: false, final false
   inline void _RegisterUECatcher_b__0_0(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
 
-  /// @brief Method .ctor, addr 0x48b16e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b4340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UnhandledExceptionHandler___c* getStaticF___9();
@@ -71,7 +71,7 @@ public:
   UnhandledExceptionHandler___c(UnhandledExceptionHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,7 +88,7 @@ public:
   // Declarations
   using __c = ::UnityEngine::UnhandledExceptionHandler___c;
 
-  /// @brief Method RegisterUECatcher, addr 0x48b1598, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RegisterUECatcher, addr 0x48b41f0, size 0xf4, virtual false, abstract: false, final false
   static inline void RegisterUECatcher();
 
 protected:
@@ -106,7 +106,7 @@ public:
   UnhandledExceptionHandler(UnhandledExceptionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

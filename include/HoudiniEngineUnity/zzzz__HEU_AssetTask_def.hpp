@@ -90,7 +90,7 @@ public:
   static ::HoudiniEngineUnity::HEU_AssetTask_BuildType const RELOAD;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11787 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -133,25 +133,25 @@ public:
   /// @brief Field _position, offset 0x48, size 0xc
   __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) ::UnityEngine::Vector3 _position;
 
-  /// @brief Method CompleteTask, addr 0x3a643f8, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method CompleteTask, addr 0x3a66c5c, size 0x230, virtual true, abstract: false, final false
   inline void CompleteTask(::HoudiniEngineUnity::HEU_Task_TaskResult result);
 
-  /// @brief Method CookCompletedCallback, addr 0x3a64628, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x3a66e8c, size 0x80, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
 
-  /// @brief Method CookCompletedCallback, addr 0x3a646a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x3a66f0c, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
 
-  /// @brief Method CookCompletedCallback, addr 0x3a646b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x3a66f1c, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
 
-  /// @brief Method DoTask, addr 0x3a63c04, size 0x59c, virtual true, abstract: false, final false
+  /// @brief Method DoTask, addr 0x3a66468, size 0x59c, virtual true, abstract: false, final false
   inline void DoTask();
 
-  /// @brief Method GetTaskSession, addr 0x3a63b50, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetTaskSession, addr 0x3a663b4, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession();
 
-  /// @brief Method KillTask, addr 0x3a641c8, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method KillTask, addr 0x3a66a2c, size 0x230, virtual true, abstract: false, final false
   inline void KillTask();
 
   static inline ::HoudiniEngineUnity::HEU_AssetTask* New_ctor();
@@ -192,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3a646c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a66f2c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -210,7 +210,7 @@ public:
   HEU_AssetTask(HEU_AssetTask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11788 };
 
   /// @brief Field _buildType, offset: 0x30, size: 0x4, def value: None
   ::HoudiniEngineUnity::HEU_AssetTask_BuildType ____buildType;

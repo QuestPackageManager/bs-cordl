@@ -113,7 +113,7 @@ public:
   FromBinderNonGeneric___c__1_2(FromBinderNonGeneric___c__1_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,14 +128,14 @@ public:
   // Declarations
   template <typename TConcrete, typename TFactory> using __c__1_2 = ::Zenject::FromBinderNonGeneric___c__1_2<TConcrete, TFactory>;
 
-  /// @brief Method FromComponentsInChildren, addr 0x4b13214, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInChildren, addr 0x4b15e6c, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate,
                                                                                            bool includeInactive);
 
-  /// @brief Method FromComponentsInChildren, addr 0x4b13200, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInChildren, addr 0x4b15e58, size 0x14, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
-  /// @brief Method FromComponentsInHierarchy, addr 0x4b13220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromComponentsInHierarchy, addr 0x4b15e78, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -145,7 +145,7 @@ public:
   template <typename TContract>
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromIFactory(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* factoryBindGenerator);
 
-  /// @brief Method FromInstance, addr 0x4b131fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromInstance, addr 0x4b15e54, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromInstance(::System::Object* instance);
 
   /// @brief Method FromMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -179,7 +179,7 @@ public:
 
   static inline ::Zenject::FromBinderNonGeneric* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method .ctor, addr 0x4b0059c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b031f4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
 protected:
@@ -197,7 +197,7 @@ public:
   FromBinderNonGeneric(FromBinderNonGeneric const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

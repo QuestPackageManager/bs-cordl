@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::GetInstance)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x232485c;
+  constexpr static std::size_t addrs = 0x2326258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2324a9c;
+  constexpr static std::size_t addrs = 0x2326498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::*)(
     ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*)>(&::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2324a28;
+  constexpr static std::size_t addrs = 0x2326424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::get_SignaturePolicyId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2324ab8;
+  constexpr static std::size_t addrs = 0x23264b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::ToAsn1Object)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2324ac0;
+  constexpr static std::size_t addrs = 0x23264bc;
 
   inline static ::MethodInfo const* methodInfo() {
 

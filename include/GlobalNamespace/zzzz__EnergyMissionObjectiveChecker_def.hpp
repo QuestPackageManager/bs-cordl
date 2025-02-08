@@ -25,18 +25,18 @@ public:
   /// @brief Field _energyCounter, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__energyCounter, put = __cordl_internal_set__energyCounter)) ::UnityW<::GlobalNamespace::GameEnergyCounter> _energyCounter;
 
-  /// @brief Method CheckAndUpdateStatus, addr 0x3bb4c58, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x3bb77b8, size 0xc4, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
-  /// @brief Method HandleEnergyDidChange, addr 0x3bb4bec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnergyDidChange, addr 0x3bb774c, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEnergyDidChange(float_t energy);
 
-  /// @brief Method Init, addr 0x3bb4d1c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3bb787c, size 0x130, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EnergyMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb4b20, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb7680, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__energyCounter() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
 
-  /// @brief Method .ctor, addr 0x3bb4e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb79ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   EnergyMissionObjectiveChecker(EnergyMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4466 };
 
   /// @brief Field _energyCounter, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____energyCounter;

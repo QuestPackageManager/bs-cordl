@@ -62,10 +62,10 @@ public:
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* New_ctor();
 
-  /// @brief Method Start, addr 0x224eda0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x225064c, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x224edb8, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2250664, size 0x4e8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& __cordl_internal_get__avatarPoseRestriction() const;
@@ -110,16 +110,16 @@ public:
 
   constexpr void __cordl_internal_set_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x224f2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2250b4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didUpdatePoseEvent, addr 0x224a720, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdatePoseEvent, addr 0x224bfcc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method remove_didUpdatePoseEvent, addr 0x224a89c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdatePoseEvent, addr 0x224c148, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method set_connectedPlayer, addr 0x224ed98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectedPlayer, addr 0x2250644, size 0x8, virtual false, abstract: false, final false
   inline void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
 protected:
@@ -137,7 +137,7 @@ public:
   MultiplayerAvatarPoseController(MultiplayerAvatarPoseController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17586 };
 
   /// @brief Field _leftSaberTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____leftSaberTransform;

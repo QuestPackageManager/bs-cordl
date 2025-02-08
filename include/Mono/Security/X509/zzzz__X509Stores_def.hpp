@@ -35,7 +35,7 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* New_ctor(::StringW path, bool newFormat);
 
-  /// @brief Method Open, addr 0x3c4338c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x3c45fe4, size 0x114, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
 
   constexpr bool const& __cordl_internal_get__newFormat() const;
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set__trusted(::Mono::Security::X509::X509Store* value);
 
-  /// @brief Method .ctor, addr 0x3c431f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c45e48, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool newFormat);
 
-  /// @brief Method get_TrustedRoot, addr 0x3c432b8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRoot, addr 0x3c45f10, size 0xd4, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_TrustedRoot();
 
 protected:
@@ -77,7 +77,7 @@ public:
   X509Stores(X509Stores const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15935 };
 
   /// @brief Field _storePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____storePath;

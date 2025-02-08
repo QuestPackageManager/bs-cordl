@@ -40,10 +40,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3cf9090, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3cfbce8, size 0xd0, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetObjectData, addr 0x3cf9160, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method SetObjectData, addr 0x3cfbdb8, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 

@@ -36,20 +36,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IServerBeatmapProvider"
   constexpr operator ::GlobalNamespace::IServerBeatmapProvider*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3bc9928, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3bcc488, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
   static inline ::GlobalNamespace::MockBeatmapProvider* New_ctor();
 
-  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x3bc9898, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x3bcc3f8, size 0x90, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapKeyNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
       int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* suggestedBeatmaps,
       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* ownedSongPacks);
 
-  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x3bc9890, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x3bcc3f0, size 0x8, virtual true, abstract: false, final true
   inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
 
-  /// @brief Method .ctor, addr 0x3bc992c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bcc48c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IServerBeatmapProvider"
@@ -70,7 +70,7 @@ public:
   MockBeatmapProvider(MockBeatmapProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4540 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

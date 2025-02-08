@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_user(int64_t value);
 
-  /// @brief Method .ctor, addr 0x4430930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4433588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TotalProcessorTime, addr 0x4430d18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TotalProcessorTime, addr 0x4433970, size 0xc, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
 protected:
@@ -83,7 +83,7 @@ public:
   ProcessThreadTimes(ProcessThreadTimes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9273 };
 
   /// @brief Field create, offset: 0x10, size: 0x8, def value: None
   int64_t ___create;

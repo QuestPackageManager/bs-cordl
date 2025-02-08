@@ -36,37 +36,37 @@ public:
 
   __declspec(property(get = get_remainingEventCount)) int32_t remainingEventCount;
 
-  /// @brief Method Advance, addr 0x460dd6c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x46109c4, size 0xa4, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> Advance(bool leaveEventInBuffer);
 
-  /// @brief Method CleanUpAfterException, addr 0x460db74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CleanUpAfterException, addr 0x46107cc, size 0x68, virtual false, abstract: false, final false
   inline void CleanUpAfterException();
 
-  /// @brief Method Close, addr 0x460da58, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x46106b0, size 0x11c, virtual false, abstract: false, final false
   inline void Close(::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method Peek, addr 0x460de10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x4610a68, size 0x60, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> Peek();
 
-  /// @brief Method Write, addr 0x460dbdc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x4610834, size 0x190, virtual false, abstract: false, final false
   inline void Write(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  /// @brief Method .ctor, addr 0x460d9cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4610624, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, int32_t maxAppendedEvents);
 
-  /// @brief Method get_currentEventPtr, addr 0x460d944, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_currentEventPtr, addr 0x461059c, size 0x34, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> get_currentEventPtr();
 
-  /// @brief Method get_isOpen, addr 0x460d924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOpen, addr 0x461057c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOpen();
 
-  /// @brief Method get_numBytesRetainedInBuffer, addr 0x460d978, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_numBytesRetainedInBuffer, addr 0x46105d0, size 0x54, virtual false, abstract: false, final false
   inline uint32_t get_numBytesRetainedInBuffer();
 
-  /// @brief Method get_numEventsRetainedInBuffer, addr 0x460d93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numEventsRetainedInBuffer, addr 0x4610594, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numEventsRetainedInBuffer();
 
-  /// @brief Method get_remainingEventCount, addr 0x460d92c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_remainingEventCount, addr 0x4610584, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_remainingEventCount();
 
   // Ctor Parameters []
@@ -90,7 +90,7 @@ public:
                              int32_t m_NumEventsRetainedInBuffer, bool m_IsOpen) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };

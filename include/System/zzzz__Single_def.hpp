@@ -75,121 +75,121 @@ public:
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*();
 
-  /// @brief Method CompareTo, addr 0x3dff4e0, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3e02138, size 0x104, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method CompareTo, addr 0x3dff5e4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3e0223c, size 0x5c, virtual true, abstract: false, final true
   inline int32_t CompareTo(float_t value);
 
-  /// @brief Method Equals, addr 0x3dff640, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e02298, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3dff6ec, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3e02344, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(float_t obj);
 
-  /// @brief Method GetHashCode, addr 0x3dff738, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e02390, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeCode, addr 0x3e000f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTypeCode, addr 0x3e02d4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
-  /// @brief Method IsFinite, addr 0x3dff474, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsFinite, addr 0x3e020cc, size 0x14, virtual false, abstract: false, final false
   static inline bool IsFinite(float_t f);
 
-  /// @brief Method IsInfinity, addr 0x3dff488, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsInfinity, addr 0x3e020e0, size 0x18, virtual false, abstract: false, final false
   static inline bool IsInfinity(float_t f);
 
-  /// @brief Method IsNaN, addr 0x3dff4a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsNaN, addr 0x3e020f8, size 0x18, virtual false, abstract: false, final false
   static inline bool IsNaN(float_t f);
 
-  /// @brief Method IsNegativeInfinity, addr 0x3dff4b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsNegativeInfinity, addr 0x3e02110, size 0x14, virtual false, abstract: false, final false
   static inline bool IsNegativeInfinity(float_t f);
 
-  /// @brief Method IsPositiveInfinity, addr 0x3dff4cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPositiveInfinity, addr 0x3e02124, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPositiveInfinity(float_t f);
 
-  /// @brief Method Parse, addr 0x3dffa30, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3e02688, size 0xb4, virtual false, abstract: false, final false
   static inline float_t Parse(::StringW s);
 
-  /// @brief Method Parse, addr 0x3dffae4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3e0273c, size 0xc4, virtual false, abstract: false, final false
   static inline float_t Parse(::StringW s, ::System::IFormatProvider* provider);
 
-  /// @brief Method Parse, addr 0x3dffba8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3e02800, size 0xd4, virtual false, abstract: false, final false
   static inline float_t Parse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToBoolean, addr 0x3e000fc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToBoolean, addr 0x3e02d54, size 0x64, virtual true, abstract: false, final true
   inline bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToByte, addr 0x3e00248, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToByte, addr 0x3e02ea0, size 0x64, virtual true, abstract: false, final true
   inline uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToChar, addr 0x3e00160, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToChar, addr 0x3e02db8, size 0x84, virtual true, abstract: false, final true
   inline char16_t System_IConvertible_ToChar(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDateTime, addr 0x3e005d4, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDateTime, addr 0x3e0322c, size 0x84, virtual true, abstract: false, final true
   inline ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDecimal, addr 0x3e00570, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDecimal, addr 0x3e031c8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDouble, addr 0x3e0050c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDouble, addr 0x3e03164, size 0x64, virtual true, abstract: false, final true
   inline double_t System_IConvertible_ToDouble(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt16, addr 0x3e002ac, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt16, addr 0x3e02f04, size 0x64, virtual true, abstract: false, final true
   inline int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt32, addr 0x3e00374, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt32, addr 0x3e02fcc, size 0x64, virtual true, abstract: false, final true
   inline int32_t System_IConvertible_ToInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt64, addr 0x3e0043c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt64, addr 0x3e03094, size 0x64, virtual true, abstract: false, final true
   inline int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSByte, addr 0x3e001e4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSByte, addr 0x3e02e3c, size 0x64, virtual true, abstract: false, final true
   inline int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSingle, addr 0x3e00504, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSingle, addr 0x3e0315c, size 0x8, virtual true, abstract: false, final true
   inline float_t System_IConvertible_ToSingle(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToType, addr 0x3e00658, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToType, addr 0x3e032b0, size 0xac, virtual true, abstract: false, final true
   inline ::System::Object* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt16, addr 0x3e00310, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt16, addr 0x3e02f68, size 0x64, virtual true, abstract: false, final true
   inline uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt32, addr 0x3e003d8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt32, addr 0x3e03030, size 0x64, virtual true, abstract: false, final true
   inline uint32_t System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt64, addr 0x3e004a0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt64, addr 0x3e030f8, size 0x64, virtual true, abstract: false, final true
   inline uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x3dff750, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e023a8, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3dff858, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e024b0, size 0x88, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
-  /// @brief Method ToString, addr 0x3dff8e0, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x3e02538, size 0x90, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x3dff7cc, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x3e02424, size 0x8c, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* provider);
 
-  /// @brief Method TryFormat, addr 0x3dff970, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method TryFormat, addr 0x3e025c8, size 0xc0, virtual true, abstract: false, final true
   inline bool TryFormat(::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method TryParse, addr 0x3dffc7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x3e028d4, size 0x80, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW s, ::ByRef<float_t> result);
 
-  /// @brief Method TryParse, addr 0x3dffff0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x3e02c48, size 0xa8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider, ::ByRef<float_t> result);
 
-  /// @brief Method TryParse, addr 0x3dfffb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x3e02c0c, size 0x3c, virtual false, abstract: false, final false
   static inline bool TryParse(::System::ReadOnlySpan_1<char16_t> s, ::ByRef<float_t> result);
 
-  /// @brief Method TryParse, addr 0x3dffcfc, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x3e02954, size 0x2b8, virtual false, abstract: false, final false
   static inline bool TryParse(::System::ReadOnlySpan_1<char16_t> s, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info, ::ByRef<float_t> result);
 
-  /// @brief Method TryParse, addr 0x3e00098, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x3e02cf0, size 0x5c, virtual false, abstract: false, final false
   static inline bool TryParse(::System::ReadOnlySpan_1<char16_t> s, ::System::Globalization::NumberStyles style, ::System::IFormatProvider* provider, ::ByRef<float_t> result);
 
   /// @brief Convert to "::System::IComparable"

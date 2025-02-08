@@ -25,16 +25,16 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKInputFrame {
 public:
   // Declarations
-  /// @brief Method ObtainControl, addr 0x3ac8d2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ObtainControl, addr 0x3acb590, size 0x14, virtual false, abstract: false, final false
   inline void ObtainControl();
 
-  /// @brief Method ReleaseControl, addr 0x3ac8d1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReleaseControl, addr 0x3acb580, size 0x10, virtual false, abstract: false, final false
   inline void ReleaseControl();
 
-  /// @brief Method ToString, addr 0x3aca700, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3accf64, size 0x334, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3ac4a1c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac7280, size 0x13c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKInputFrame get_empty();
 
   // Ctor Parameters []
@@ -50,7 +50,7 @@ public:
                           ::LIV::SDK::Unity::SDKClipPlane groundClipPlane, uint64_t frameid, uint64_t referenceframe, ::LIV::SDK::Unity::SDKPriority priority) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17328 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x158 };

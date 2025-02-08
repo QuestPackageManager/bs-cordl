@@ -43,14 +43,14 @@ public:
   /// @brief Field timeStampToken, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_timeStampToken, put = __cordl_internal_set_timeStampToken)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken;
 
-  /// @brief Method GetInstance, addr 0x24f9c78, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24fb674, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x24f9de0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24fb7dc, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* const& __cordl_internal_get_pkiStatusInfo() const;
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_timeStampToken(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method .ctor, addr 0x24f9da4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb7a0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken);
 
-  /// @brief Method .ctor, addr 0x24f9d1c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fb718, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Status, addr 0x24f9dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x24fb7cc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
 
-  /// @brief Method get_TimeStampToken, addr 0x24f9dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeStampToken, addr 0x24fb7d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_TimeStampToken();
 
 protected:

@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_startPaused(bool value);
 
-  /// @brief Method .ctor, addr 0x3b3dfd8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b40b38, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW backButtonText,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused);
 
@@ -105,7 +105,7 @@ public:
   StandardGameplaySceneSetupData(StandardGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5248 };
 
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;

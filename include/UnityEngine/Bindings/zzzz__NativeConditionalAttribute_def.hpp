@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__Enabled_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x49195c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491c218, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
-  /// @brief Method set_Condition, addr 0x49195ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Condition, addr 0x491c204, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
-  /// @brief Method set_Enabled, addr 0x49195b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x491c20c, size 0xc, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   NativeConditionalAttribute(NativeConditionalAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18700 };
 
   /// @brief Field <Condition>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Condition_k__BackingField;

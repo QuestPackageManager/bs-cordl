@@ -27,12 +27,12 @@ namespace System::Data {
 class CORDL_TYPE DataRowCreatedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4168de8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x416ba40, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataRow* r);
 
   static inline ::System::Data::DataRowCreatedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4168ce4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x416b93c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,7 +50,7 @@ public:
   DataRowCreatedEventHandler(DataRowCreatedEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

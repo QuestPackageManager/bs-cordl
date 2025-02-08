@@ -54,30 +54,30 @@ public:
   /// @brief Field m_ImguiEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ImguiEvent, put = __cordl_internal_set_m_ImguiEvent)) ::UnityEngine::Event* m_ImguiEvent;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x49ee93c, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x49f1594, size 0x2b0, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::KeyboardTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
-  /// @brief Method OnBlur, addr 0x49eecd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnBlur, addr 0x49f192c, size 0x54, virtual false, abstract: false, final false
   inline void OnBlur(::UnityEngine::UIElements::BlurEvent* _);
 
-  /// @brief Method OnExecuteCommandEvent, addr 0x49ef904, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method OnExecuteCommandEvent, addr 0x49f255c, size 0x26c, virtual false, abstract: false, final false
   inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent* evt);
 
-  /// @brief Method OnFocus, addr 0x49eebf0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnFocus, addr 0x49f1848, size 0xe4, virtual false, abstract: false, final false
   inline void OnFocus(::UnityEngine::UIElements::FocusEvent* _);
 
-  /// @brief Method OnKeyDown, addr 0x49eed28, size 0x9c8, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x49f1980, size 0x9c8, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
   /// @brief Method OnNavigationEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEvent> inline void OnNavigationEvent(::UnityEngine::UIElements::NavigationEventBase_1<TEvent>* evt);
 
-  /// @brief Method OnValidateCommandEvent, addr 0x49ef6f0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnValidateCommandEvent, addr 0x49f2348, size 0x214, virtual false, abstract: false, final false
   inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
 
-  /// @brief Method UpdateLabel, addr 0x49efb70, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLabel, addr 0x49f27c8, size 0x2b8, virtual false, abstract: false, final false
   inline void UpdateLabel();
 
   constexpr bool const& __cordl_internal_get_m_Changed() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x49ee804, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f145c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
 protected:
@@ -110,7 +110,7 @@ public:
   KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5608 };
 
   /// @brief Field m_ImguiEvent, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Event* ___m_ImguiEvent;

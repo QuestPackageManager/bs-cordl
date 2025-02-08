@@ -101,31 +101,31 @@ public:
 
   constexpr void __cordl_internal_set__requireStrictUnsubscribe(bool value);
 
-  /// @brief Method __zenCreate, addr 0x4b3b480, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b3e0d8, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b3b4ec, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b3e144, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b3b3bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3e014, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4b3b378, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3dfd0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe,
                     int32_t defaultAsyncTickPriority);
 
   static inline ::Zenject::ZenjectSettings_SignalSettings* getStaticF_Default();
 
-  /// @brief Method get_DefaultAsyncTickPriority, addr 0x4b3b3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultAsyncTickPriority, addr 0x4b3e044, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DefaultAsyncTickPriority();
 
-  /// @brief Method get_DefaultSyncMode, addr 0x4b3b3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultSyncMode, addr 0x4b3e04c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
 
-  /// @brief Method get_MissingHandlerDefaultResponse, addr 0x4b3b3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MissingHandlerDefaultResponse, addr 0x4b3e054, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
 
-  /// @brief Method get_RequireStrictUnsubscribe, addr 0x4b3b404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequireStrictUnsubscribe, addr 0x4b3e05c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequireStrictUnsubscribe();
 
   static inline void setStaticF_Default(::Zenject::ZenjectSettings_SignalSettings* value);
@@ -145,7 +145,7 @@ public:
   ZenjectSettings_SignalSettings(ZenjectSettings_SignalSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12514 };
 
   /// @brief Field _defaultSyncMode, offset: 0x10, size: 0x4, def value: None
   ::Zenject::SignalDefaultSyncModes ____defaultSyncMode;
@@ -248,28 +248,28 @@ public:
 
   constexpr void __cordl_internal_set__validationRootResolveMethod(::Zenject::RootResolveMethods value);
 
-  /// @brief Method .ctor, addr 0x4b3b2cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3df24, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4b3b22c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3de84, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall,
                     bool ensureDeterministicDestructionOrderOnApplicationQuit, ::Zenject::ZenjectSettings_SignalSettings* signalSettings);
 
   static inline ::Zenject::ZenjectSettings* getStaticF_Default();
 
-  /// @brief Method get_DisplayWarningWhenResolvingDuringInstall, addr 0x4b3b2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayWarningWhenResolvingDuringInstall, addr 0x4b3df54, size 0x8, virtual false, abstract: false, final false
   inline bool get_DisplayWarningWhenResolvingDuringInstall();
 
-  /// @brief Method get_EnsureDeterministicDestructionOrderOnApplicationQuit, addr 0x4b3b304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnsureDeterministicDestructionOrderOnApplicationQuit, addr 0x4b3df5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnsureDeterministicDestructionOrderOnApplicationQuit();
 
-  /// @brief Method get_Signals, addr 0x4b3b2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signals, addr 0x4b3df3c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ZenjectSettings_SignalSettings* get_Signals();
 
-  /// @brief Method get_ValidationErrorResponse, addr 0x4b3b2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationErrorResponse, addr 0x4b3df44, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ValidationErrorResponses get_ValidationErrorResponse();
 
-  /// @brief Method get_ValidationRootResolveMethod, addr 0x4b3b2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationRootResolveMethod, addr 0x4b3df4c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::RootResolveMethods get_ValidationRootResolveMethod();
 
   static inline void setStaticF_Default(::Zenject::ZenjectSettings* value);
@@ -289,7 +289,7 @@ public:
   ZenjectSettings(ZenjectSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12515 };
 
   /// @brief Field _ensureDeterministicDestructionOrderOnApplicationQuit, offset: 0x10, size: 0x1, def value: None
   bool ____ensureDeterministicDestructionOrderOnApplicationQuit;

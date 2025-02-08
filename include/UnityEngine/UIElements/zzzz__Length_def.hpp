@@ -75,7 +75,7 @@ public:
   static ::UnityEngine::UIElements::Length_Unit const Pixel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6090 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -107,61 +107,61 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Length>*();
 
-  /// @brief Method Auto, addr 0x4a85064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x4a87cbc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Auto();
 
-  /// @brief Method Equals, addr 0x4a8518c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a87de4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a85164, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a87dbc, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Length other);
 
-  /// @brief Method GetHashCode, addr 0x4a82cc4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a8591c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAuto, addr 0x4a850d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAuto, addr 0x4a87d28, size 0x10, virtual false, abstract: false, final false
   inline bool IsAuto();
 
-  /// @brief Method IsNone, addr 0x4a850e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNone, addr 0x4a87d38, size 0x10, virtual false, abstract: false, final false
   inline bool IsNone();
 
-  /// @brief Method None, addr 0x4a85094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x4a87cec, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length None();
 
-  /// @brief Method Percent, addr 0x4a85014, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Percent, addr 0x4a87c6c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Percent(float_t value);
 
-  /// @brief Method ToString, addr 0x4a85218, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a87e70, size 0x1c0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a850f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a87d48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x4a8503c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a87c94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::LengthUnit unit);
 
-  /// @brief Method .ctor, addr 0x4a8506c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a87cc4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::Length_Unit unit);
 
-  /// @brief Method get_unit, addr 0x4a850c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x4a87d20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LengthUnit get_unit();
 
-  /// @brief Method get_value, addr 0x4a8509c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x4a87cf4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Length>* i___System__IEquatable_1___UnityEngine__UIElements__Length_();
 
-  /// @brief Method op_Equality, addr 0x4a8292c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a85584, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a85118, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a87d70, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length op_Implicit___UnityEngine__UIElements__Length(float_t value);
 
-  /// @brief Method op_Inequality, addr 0x4a8513c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4a87d94, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method set_value, addr 0x4a850a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x4a87cfc, size 0x24, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -173,7 +173,7 @@ public:
   constexpr Length(float_t m_Value, ::UnityEngine::UIElements::Length_Unit m_Unit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6091 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

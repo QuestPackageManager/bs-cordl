@@ -105,7 +105,7 @@ public:
   DefaultTreeViewController_1(DefaultTreeViewController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5472 };
 
   /// @brief Field m_TreeDataController, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::UIElements::TreeDataController_1<T>* ___m_TreeDataController;

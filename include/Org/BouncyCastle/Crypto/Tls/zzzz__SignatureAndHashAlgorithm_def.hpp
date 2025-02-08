@@ -35,18 +35,18 @@ public:
   /// @brief Field mSignature, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_mSignature, put = __cordl_internal_set_mSignature)) uint8_t mSignature;
 
-  /// @brief Method Encode, addr 0x241ab90, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x241c58c, size 0x9c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Equals, addr 0x241aa7c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x241c478, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x241ab4c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x241c548, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* New_ctor(uint8_t hash, uint8_t signature);
 
-  /// @brief Method Parse, addr 0x241ac2c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x241c628, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* Parse(::System::IO::Stream* input);
 
   constexpr uint8_t const& __cordl_internal_get_mHash() const;
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_mSignature(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x241a914, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241c310, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(uint8_t hash, uint8_t signature);
 
-  /// @brief Method get_Hash, addr 0x241aa6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x241c468, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Hash();
 
-  /// @brief Method get_Signature, addr 0x241aa74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x241c470, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Signature();
 
 protected:

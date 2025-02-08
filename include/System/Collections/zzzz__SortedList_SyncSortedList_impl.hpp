@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Collections::SortedList*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3dbf738;
+  constexpr static std::size_t addrs = 0x3dc2390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::get_Count)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dbf788;
+  constexpr static std::size_t addrs = 0x3dc23e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dbf86c;
+  constexpr static std::size_t addrs = 0x3dc24c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dbf874;
+  constexpr static std::size_t addrs = 0x3dc24cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dbf898;
+  constexpr static std::size_t addrs = 0x3dc24f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dbf8bc;
+  constexpr static std::size_t addrs = 0x3dc2514;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::get_Item)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dbf8c4;
+  constexpr static std::size_t addrs = 0x3dc251c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*, ::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::set_Item)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dbf9b0;
+  constexpr static std::size_t addrs = 0x3dc2608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*, ::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::Add)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dbfa94;
+  constexpr static std::size_t addrs = 0x3dc26ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::Clear)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3dbfb78;
+  constexpr static std::size_t addrs = 0x3dc27d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::Clone)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dbfc4c;
+  constexpr static std::size_t addrs = 0x3dc28a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::Contains)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dbfd30;
+  constexpr static std::size_t addrs = 0x3dc2988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::ContainsKey)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dbfe1c;
+  constexpr static std::size_t addrs = 0x3dc2a74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::ContainsValue)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dbff08;
+  constexpr static std::size_t addrs = 0x3dc2b60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Array*, int32_t)>(
     &::GlobalNamespace::SortedList_SyncSortedList::CopyTo)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dbfff4;
+  constexpr static std::size_t addrs = 0x3dc2c4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(
     &::GlobalNamespace::SortedList_SyncSortedList::GetByIndex)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dc00d8;
+  constexpr static std::size_t addrs = 0x3dc2d30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::GetEnumerator)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dc01c4;
+  constexpr static std::size_t addrs = 0x3dc2e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(
     &::GlobalNamespace::SortedList_SyncSortedList::GetKey)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dc02a8;
+  constexpr static std::size_t addrs = 0x3dc2f00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::GetKeyList)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dc0394;
+  constexpr static std::size_t addrs = 0x3dc2fec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::GetValueList)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dc0478;
+  constexpr static std::size_t addrs = 0x3dc30d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::IndexOfKey)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3dc055c;
+  constexpr static std::size_t addrs = 0x3dc31b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::IndexOfValue)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dc06a8;
+  constexpr static std::size_t addrs = 0x3dc3300;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(
     &::GlobalNamespace::SortedList_SyncSortedList::RemoveAt)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3dc0794;
+  constexpr static std::size_t addrs = 0x3dc33ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::Remove)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3dc0870;
+  constexpr static std::size_t addrs = 0x3dc34c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

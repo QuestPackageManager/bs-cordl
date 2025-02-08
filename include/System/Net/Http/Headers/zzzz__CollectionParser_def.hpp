@@ -36,10 +36,10 @@ public:
   template <typename T>
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser, ::ByRef<::System::Collections::Generic::List_1<T>*> result);
 
-  /// @brief Method TryParse, addr 0x421f700, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4222358, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::StringW>*> result);
 
-  /// @brief Method TryParseStringElement, addr 0x421f7b0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method TryParseStringElement, addr 0x4222408, size 0xcc, virtual false, abstract: false, final false
   static inline bool TryParseStringElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::StringW> parsedValue, ::ByRef<::System::Net::Http::Headers::Token> t);
 
 protected:
@@ -57,7 +57,7 @@ public:
   CollectionParser(CollectionParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16701 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

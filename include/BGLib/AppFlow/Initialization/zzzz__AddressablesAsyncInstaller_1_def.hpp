@@ -92,7 +92,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17640 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -184,7 +184,7 @@ public:
   AddressablesAsyncInstaller_1(AddressablesAsyncInstaller_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17641 };
 
   /// @brief Field _handle, offset: 0x28, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> ____handle;

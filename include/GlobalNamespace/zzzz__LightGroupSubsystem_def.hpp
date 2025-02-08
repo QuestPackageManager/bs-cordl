@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupSubsystem* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3b935e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b96144, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::LightGroup> const& __cordl_internal_get__lightGroup() const;
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroup> value);
 
-  /// @brief Method .ctor, addr 0x3b8f654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b921b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupId, addr 0x3b8fdd4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x3b92934, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_lightGroup, addr 0x3b935dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x3b9613c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroup> get_lightGroup();
 
 protected:
@@ -64,7 +64,7 @@ public:
   LightGroupSubsystem(LightGroupSubsystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4303 };
 
   /// @brief Field _lightGroup, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroup> ____lightGroup;

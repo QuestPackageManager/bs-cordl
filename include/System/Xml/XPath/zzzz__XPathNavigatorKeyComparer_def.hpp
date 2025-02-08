@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* New_ctor();
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x4368414, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x436b06c, size 0xdc, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* obj1, ::System::Object* obj2);
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x43684f0, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x436b148, size 0x1cc, virtual true, abstract: false, final true
   inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x436840c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436b064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"
@@ -55,7 +55,7 @@ public:
   XPathNavigatorKeyComparer(XPathNavigatorKeyComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

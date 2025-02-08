@@ -101,7 +101,7 @@ public:
   static ::GlobalNamespace::Enumerator_OVREnumerable_1_CollectionType<T> const Set;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8419 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -185,7 +185,7 @@ public:
                                        ::System::Collections::Generic::HashSet_1_Enumerator<T> _setEnumerator, ::System::Collections::Generic::Queue_1_Enumerator<T> _queueEnumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8420 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -258,7 +258,7 @@ public:
   constexpr OVREnumerable_1(::System::Collections::Generic::IEnumerable_1<T>* _enumerable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8421 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

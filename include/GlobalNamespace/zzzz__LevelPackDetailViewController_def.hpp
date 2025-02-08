@@ -129,7 +129,7 @@ public:
   static ::GlobalNamespace::LevelPackDetailViewController_ContentType const NonBuyable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5349 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -156,10 +156,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b65184, size 0x378, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b67ce4, size 0x378, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b654fc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b6805c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -177,7 +177,7 @@ public:
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5350 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -218,10 +218,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b65508, size 0x488, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b68068, size 0x488, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b65990, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b684f0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -239,7 +239,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5351 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -334,42 +334,42 @@ public:
   /// @brief Field _steamMessageGameObject, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__steamMessageGameObject, put = __cordl_internal_set__steamMessageGameObject)) ::UnityW<::UnityEngine::GameObject> _steamMessageGameObject;
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x3b64ca4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x3b67804, size 0x94, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed();
 
-  /// @brief Method DidActivate, addr 0x3b64834, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b67394, size 0x1ec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b64a20, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b67580, size 0x114, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x3b64ffc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x3b67b5c, size 0x4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
   static inline ::GlobalNamespace::LevelPackDetailViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b64b34, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b67694, size 0x170, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x3b64d38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x3b67898, size 0x90, virtual false, abstract: false, final false
   inline void OpenLevelPackProductStoreAsync();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x3b647a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x3b67304, size 0x90, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync();
 
-  /// @brief Method SetData, addr 0x3b644f4, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b67054, size 0x2b0, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method ShowContent, addr 0x3b64dc8, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ShowContent, addr 0x3b67928, size 0x234, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::LevelPackDetailViewController_ContentType contentType, ::StringW errorText);
 
-  /// @brief Method <DidActivate>b__19_1, addr 0x3b65064, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__19_1, addr 0x3b67bc4, size 0x90, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_1();
 
-  /// @brief Method <DidActivate>b__19_2, addr 0x3b650f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__19_2, addr 0x3b67c54, size 0x90, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_2();
 
-  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|19_0, addr 0x3b65060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|19_0, addr 0x3b67bc0, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_g__HandleDidPressRefreshButton_19_0();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -474,7 +474,7 @@ public:
 
   constexpr void __cordl_internal_set__steamMessageGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3b65000, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b67b60, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -492,7 +492,7 @@ public:
   LevelPackDetailViewController(LevelPackDetailViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5352 };
 
   /// @brief Field _detailWrapper, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____detailWrapper;

@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method .ctor, addr 0x3b19154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1bcb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   LocalizedAudioClipSO_LocalizedAudioClipInfo(LocalizedAudioClipSO_LocalizedAudioClipInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5067 };
 
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
   ::BGLib::Polyglot::Language ___language;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0x3b19144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1bca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedAudioClip>b__0, addr 0x3b1915c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedAudioClip>b__0, addr 0x3b1bcbc, size 0x24, virtual false, abstract: false, final false
   inline bool _get_localizedAudioClip_b__0(::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo* t);
 
 protected:
@@ -132,7 +132,7 @@ public:
   LocalizedAudioClipSO___c__DisplayClass4_0(LocalizedAudioClipSO___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5068 };
 
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
   ::BGLib::Polyglot::Language ___language;
@@ -185,10 +185,10 @@ public:
   constexpr void __cordl_internal_set__localizedAudioClipInfo(
       ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b1914c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1bcac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedAudioClip, addr 0x3b19038, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_localizedAudioClip, addr 0x3b1bb98, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_localizedAudioClip();
 
 protected:
@@ -206,7 +206,7 @@ public:
   LocalizedAudioClipSO(LocalizedAudioClipSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5069 };
 
   /// @brief Field _localizedAudioClipInfo, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*>*> ____localizedAudioClipInfo;

@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_Flag(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x229ce70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d378, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:
@@ -48,7 +48,7 @@ public:
   NullableContextAttribute(NullableContextAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17987 };
 
   /// @brief Field Flag, offset: 0x10, size: 0x1, def value: None
   uint8_t ___Flag;

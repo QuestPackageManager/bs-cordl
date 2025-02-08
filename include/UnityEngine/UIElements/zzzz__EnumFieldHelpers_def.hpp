@@ -48,7 +48,7 @@ public:
   /// @brief Field value, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_value, put = setStaticF_value)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* value;
 
-  /// @brief Method ExtractValue, addr 0x4993d8c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method ExtractValue, addr 0x49969e4, size 0x378, virtual false, abstract: false, final false
   static inline bool ExtractValue(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::ByRef<::System::Type*> resEnumType,
                                   ::ByRef<::System::Enum*> resEnumValue, ::ByRef<bool> resIncludeObsoleteValues);
 
@@ -79,7 +79,7 @@ public:
   EnumFieldHelpers(EnumFieldHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5571 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

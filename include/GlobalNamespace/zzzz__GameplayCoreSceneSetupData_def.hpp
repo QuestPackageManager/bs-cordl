@@ -116,10 +116,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b3d2f4, size 0x2a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b3fe54, size 0x2a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b3d594, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b400f4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -139,7 +139,7 @@ public:
                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5240 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -186,10 +186,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b3d610, size 0x828, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b40170, size 0x828, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b3de38, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b40998, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -215,7 +215,7 @@ public:
                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5241 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -354,16 +354,16 @@ public:
   /// @brief Field useTestNoteCutSoundEffects, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_useTestNoteCutSoundEffects, put = __cordl_internal_set_useTestNoteCutSoundEffects)) bool useTestNoteCutSoundEffects;
 
-  /// @brief Method ApplyDisableUpdateAlwaysConfiguration, addr 0x3b3cd50, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ApplyDisableUpdateAlwaysConfiguration, addr 0x3b3f8b0, size 0x6c, virtual false, abstract: false, final false
   inline void ApplyDisableUpdateAlwaysConfiguration();
 
-  /// @brief Method LoadBeatmapLevelData, addr 0x3b3d204, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelData, addr 0x3b3fd64, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadBeatmapLevelData(::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion);
 
-  /// @brief Method LoadTransformedBeatmapData, addr 0x3b3cdbc, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method LoadTransformedBeatmapData, addr 0x3b3f91c, size 0x320, virtual false, abstract: false, final false
   inline void LoadTransformedBeatmapData();
 
-  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x3b3d140, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x3b3fca0, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadTransformedBeatmapDataAsync();
 
   static inline ::GlobalNamespace::GameplayCoreSceneSetupData*
@@ -398,7 +398,7 @@ public:
            ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool enableBeatmapDataCaching,
            ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData);
 
-  /// @brief Method TransformBeatmapData, addr 0x3b3d0dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TransformBeatmapData, addr 0x3b3fc3c, size 0x64, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* TransformBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   constexpr bool const& __cordl_internal_get__allowNullBeatmapLevelData() const;
@@ -533,7 +533,7 @@ public:
 
   constexpr void __cordl_internal_set_useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x3b3cad4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f634, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
                     ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo, ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
@@ -541,7 +541,7 @@ public:
                     ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool enableBeatmapDataCaching, bool allowNullBeatmapLevelData,
                     ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData);
 
-  /// @brief Method .ctor, addr 0x3b3cd04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f864, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
                     ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo, ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
@@ -549,7 +549,7 @@ public:
                     ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool enableBeatmapDataCaching, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                     ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData);
 
-  /// @brief Method .ctor, addr 0x3b3ca78, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f5d8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
                     ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo, ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
@@ -557,7 +557,7 @@ public:
                     ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool enableBeatmapDataCaching,
                     ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData);
 
-  /// @brief Method .ctor, addr 0x3b3cc84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f7e4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                     bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo, ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo,
@@ -565,22 +565,22 @@ public:
                     ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool enableBeatmapDataCaching,
                     ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData);
 
-  /// @brief Method get_beatmapLevelData, addr 0x3b3ca58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelData, addr 0x3b3f5b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
-  /// @brief Method get_songAudioClip, addr 0x3b3ca48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAudioClip, addr 0x3b3f5a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_songAudioClip();
 
-  /// @brief Method get_transformedBeatmapData, addr 0x3b3ca68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x3b3f5c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
-  /// @brief Method set_beatmapLevelData, addr 0x3b3ca60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelData, addr 0x3b3f5c0, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
 
-  /// @brief Method set_songAudioClip, addr 0x3b3ca50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songAudioClip, addr 0x3b3f5b0, size 0x8, virtual false, abstract: false, final false
   inline void set_songAudioClip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_transformedBeatmapData, addr 0x3b3ca70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transformedBeatmapData, addr 0x3b3f5d0, size 0x8, virtual false, abstract: false, final false
   inline void set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
 protected:
@@ -598,7 +598,7 @@ public:
   GameplayCoreSceneSetupData(GameplayCoreSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5242 };
 
   /// @brief Field beatmapKey, offset: 0x10, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;

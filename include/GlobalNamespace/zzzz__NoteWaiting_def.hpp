@@ -44,15 +44,15 @@ public:
 
   __declspec(property(get = get_localPosition)) ::UnityEngine::Vector3 localPosition;
 
-  /// @brief Method Init, addr 0x3af21d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3af4d30, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t beatTime);
 
-  /// @brief Method ManualUpdate, addr 0x3af2190, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3af4cf0, size 0x2c, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::NoteWaiting* New_ctor();
 
-  /// @brief Method ShouldWait, addr 0x3af1fe4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ShouldWait, addr 0x3af4b44, size 0x1ac, virtual false, abstract: false, final false
   inline bool ShouldWait();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set__waitingPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3af21d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af4d38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localPosition, addr 0x3af21c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x3af4d24, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
 protected:
@@ -100,7 +100,7 @@ public:
   NoteWaiting(NoteWaiting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4137 };
 
   /// @brief Field _waitingPosition, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____waitingPosition;

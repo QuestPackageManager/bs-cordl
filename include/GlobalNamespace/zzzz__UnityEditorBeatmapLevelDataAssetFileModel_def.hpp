@@ -31,13 +31,13 @@ public:
   /// @brief Method LoadAllAssetsFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> LoadAllAssetsFromAssetDatabase();
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x26feef0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x27008ec, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> LoadBeatmapLevelDataFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x26fef64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x2700960, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> LoadBeatmapLevelFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x26fefd8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x27009d4, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> LoadBeatmapLevelPackFromAssetDatabase(::StringW packId);
 
   /// @brief Method LoadUniqueAssetFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -58,7 +58,7 @@ public:
   UnityEditorBeatmapLevelDataAssetFileModel(UnityEditorBeatmapLevelDataAssetFileModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x3b76278, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3b78dd8, size 0xa4, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method .ctor, addr 0x3b7625c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b78dbc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<float_t> inputData, ::Unity::Collections::NativeArray_1<float_t> outputData, ::LufsMetering::FilterCoefficients coefficients);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -49,7 +49,7 @@ public:
   constexpr FilteringJob(::Unity::Collections::NativeArray_1<float_t> inputData, ::LufsMetering::FilterCoefficients coefficients, ::Unity::Collections::NativeArray_1<float_t> outputData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5410 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

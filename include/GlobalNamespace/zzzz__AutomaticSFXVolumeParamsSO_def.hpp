@@ -109,31 +109,31 @@ public:
 
   constexpr void __cordl_internal_set__volumeSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad28f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad515c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_attackTime, addr 0x3ad28d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attackTime, addr 0x3ad5134, size 0x8, virtual false, abstract: false, final false
   inline float_t get_attackTime();
 
-  /// @brief Method get_impact, addr 0x3ad28c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_impact, addr 0x3ad512c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_impact();
 
-  /// @brief Method get_maxVolume, addr 0x3ad28e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x3ad514c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_minVolume, addr 0x3ad28e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minVolume, addr 0x3ad5144, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minVolume();
 
-  /// @brief Method get_musicVolumeMultiplier, addr 0x3ad28b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_musicVolumeMultiplier, addr 0x3ad511c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_musicVolumeMultiplier();
 
-  /// @brief Method get_releaseTime, addr 0x3ad28d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseTime, addr 0x3ad513c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_releaseTime();
 
-  /// @brief Method get_threshold, addr 0x3ad28c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_threshold, addr 0x3ad5124, size 0x8, virtual false, abstract: false, final false
   inline float_t get_threshold();
 
-  /// @brief Method get_volumeSmooth, addr 0x3ad28f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeSmooth, addr 0x3ad5154, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeSmooth();
 
 protected:

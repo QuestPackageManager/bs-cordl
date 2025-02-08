@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithInvitePanelResultInfo::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithInvitePanelResultInfo::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7dca8;
+  constexpr static std::size_t addrs = 0x3f80900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InvitePanelResultInfo* (::Oculus::Platform::MessageWithInvitePanelResultInfo::*)()>(
     &::Oculus::Platform::MessageWithInvitePanelResultInfo::GetInvitePanelResultInfo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f80730;
+  constexpr static std::size_t addrs = 0x3f83388;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InvitePanelResultInfo* (
     ::Oculus::Platform::MessageWithInvitePanelResultInfo::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithInvitePanelResultInfo::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f8076c;
+  constexpr static std::size_t addrs = 0x3f833c4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -79,12 +79,12 @@ public:
   /// @brief Field selfReferenceCount, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_selfReferenceCount, put = __cordl_internal_set_selfReferenceCount)) int32_t selfReferenceCount;
 
-  /// @brief Method Clone, addr 0x42bbf20, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42beb78, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaAttributeGroup* New_ctor();
 
-  /// @brief Method SetQualifiedName, addr 0x42bbf18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x42beb70, size 0x8, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& __cordl_internal_get_anyAttribute() const;
@@ -135,55 +135,55 @@ public:
 
   constexpr void __cordl_internal_set_selfReferenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x42bc3a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42beff8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AnyAttribute, addr 0x42bbe54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnyAttribute, addr 0x42beaac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute();
 
-  /// @brief Method get_AttributeUses, addr 0x42bbe6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeUses, addr 0x42beac4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_AttributeUses();
 
-  /// @brief Method get_AttributeWildcard, addr 0x42bbed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeWildcard, addr 0x42beb28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AttributeWildcard();
 
-  /// @brief Method get_Attributes, addr 0x42bbe4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x42beaa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Attributes();
 
-  /// @brief Method get_Name, addr 0x42bbe3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42bea94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x42bbf08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x42beb60, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_QualifiedName, addr 0x42bbe64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x42beabc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_Redefined, addr 0x42bbee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Redefined, addr 0x42beb40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttributeGroup* get_Redefined();
 
-  /// @brief Method get_RedefinedAttributeGroup, addr 0x42bbee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedefinedAttributeGroup, addr 0x42beb38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttributeGroup* get_RedefinedAttributeGroup();
 
-  /// @brief Method get_SelfReferenceCount, addr 0x42bbef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SelfReferenceCount, addr 0x42beb50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SelfReferenceCount();
 
-  /// @brief Method set_AnyAttribute, addr 0x42bbe5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnyAttribute, addr 0x42beab4, size 0x8, virtual false, abstract: false, final false
   inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_AttributeWildcard, addr 0x42bbed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeWildcard, addr 0x42beb30, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_Name, addr 0x42bbe44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x42bea9c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x42bbf10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x42beb68, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Redefined, addr 0x42bbef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Redefined, addr 0x42beb48, size 0x8, virtual false, abstract: false, final false
   inline void set_Redefined(::System::Xml::Schema::XmlSchemaAttributeGroup* value);
 
-  /// @brief Method set_SelfReferenceCount, addr 0x42bbf00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SelfReferenceCount, addr 0x42beb58, size 0x8, virtual false, abstract: false, final false
   inline void set_SelfReferenceCount(int32_t value);
 
 protected:
@@ -201,7 +201,7 @@ public:
   XmlSchemaAttributeGroup(XmlSchemaAttributeGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7656 };
 
   /// @brief Field name, offset: 0x50, size: 0x8, def value: None
   ::StringW ___name;

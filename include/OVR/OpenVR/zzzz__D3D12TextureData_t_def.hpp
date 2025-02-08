@@ -29,7 +29,7 @@ public:
   constexpr D3D12TextureData_t(::System::IntPtr m_pResource, ::System::IntPtr m_pCommandQueue, uint32_t m_nNodeMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8982 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

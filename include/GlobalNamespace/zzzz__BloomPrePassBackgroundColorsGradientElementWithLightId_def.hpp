@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_minIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e3c08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e646c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   BloomPrePassBackgroundColorsGradientElementWithLightId_Elements(BloomPrePassBackgroundColorsGradientElementWithLightId_Elements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16297 };
 
   /// @brief Field elementNumber, offset: 0x10, size: 0x4, def value: None
   int32_t ___elementNumber;
@@ -124,7 +124,7 @@ public:
                                                                       ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>
       _elements;
 
-  /// @brief Method ColorWasSet, addr 0x39e3b3c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e63a0, size 0xac, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId* New_ctor();
@@ -147,7 +147,7 @@ public:
       ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>
           value);
 
-  /// @brief Method .ctor, addr 0x39e3be8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e644c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,7 +165,7 @@ public:
   BloomPrePassBackgroundColorsGradientElementWithLightId(BloomPrePassBackgroundColorsGradientElementWithLightId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16298 };
 
   /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> ____bloomPrePassBackgroundColorsGradient;

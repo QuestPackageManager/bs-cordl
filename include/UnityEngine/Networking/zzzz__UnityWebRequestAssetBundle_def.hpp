@@ -29,19 +29,19 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestAssetBundle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle, addr 0x4ae3c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae68ec, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
 
-  /// @brief Method GetAssetBundle, addr 0x4ae3c9c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae68f4, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
 
-  /// @brief Method GetAssetBundle, addr 0x4ae3d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae69b0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::System::Uri* uri);
 
-  /// @brief Method GetAssetBundle, addr 0x4ae3e9c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae6af4, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::System::Uri* uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc);
 
-  /// @brief Method GetAssetBundle, addr 0x4ae3d60, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae69b8, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::System::Uri* uri, uint32_t crc);
 
 protected:
@@ -59,7 +59,7 @@ public:
   UnityWebRequestAssetBundle(UnityWebRequestAssetBundle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19004 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

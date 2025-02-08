@@ -43,18 +43,18 @@ public:
   /// @brief Convert operator to "::System::TypeName"
   constexpr operator ::System::TypeName*() noexcept;
 
-  /// @brief Method Equals, addr 0x3e4491c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e47574, size 0x60, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x3e44824, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3e4747c, size 0xd0, virtual true, abstract: false, final true
   inline bool Equals(::System::TypeName* other);
 
-  /// @brief Method GetHashCode, addr 0x3e448f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e4754c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::TypeNames_ATypeName* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e4497c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e475d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_DisplayName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

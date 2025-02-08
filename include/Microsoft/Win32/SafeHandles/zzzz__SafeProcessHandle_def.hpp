@@ -28,13 +28,13 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(::System::IntPtr handle);
 
-  /// @brief Method ReleaseHandle, addr 0x411f0c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x4121d18, size 0x8, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x411ee44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4121a9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x411f094, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4121cec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr handle);
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* getStaticF_InvalidHandle();
@@ -56,7 +56,7 @@ public:
   SafeProcessHandle(SafeProcessHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9179 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

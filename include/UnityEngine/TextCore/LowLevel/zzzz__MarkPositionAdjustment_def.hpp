@@ -23,10 +23,10 @@ public:
 
   __declspec(property(get = get_yPositionAdjustment)) float_t yPositionAdjustment;
 
-  /// @brief Method get_xPositionAdjustment, addr 0x4924084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPositionAdjustment, addr 0x4926cdc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPositionAdjustment();
 
-  /// @brief Method get_yPositionAdjustment, addr 0x492408c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPositionAdjustment, addr 0x4926ce4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPositionAdjustment();
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr MarkPositionAdjustment(float_t m_XPositionAdjustment, float_t m_YPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18191 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -46,14 +46,14 @@ public:
   /// @brief Field producedAt, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_producedAt, put = __cordl_internal_set_producedAt)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt;
 
-  /// @brief Method GetInstance, addr 0x231fa54, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2321450, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID, ::System::DateTime producedAt);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x231feb0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23218ac, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* const& __cordl_internal_get_ocspResponderID() const;
@@ -68,16 +68,16 @@ public:
 
   constexpr void __cordl_internal_set_producedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x231fdd8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23217d4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID, ::System::DateTime producedAt);
 
-  /// @brief Method .ctor, addr 0x231fbd0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23215cc, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_OcspResponderID, addr 0x231fe8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OcspResponderID, addr 0x2321888, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* get_OcspResponderID();
 
-  /// @brief Method get_ProducedAt, addr 0x231fe94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ProducedAt, addr 0x2321890, size 0x1c, virtual false, abstract: false, final false
   inline ::System::DateTime get_ProducedAt();
 
 protected:

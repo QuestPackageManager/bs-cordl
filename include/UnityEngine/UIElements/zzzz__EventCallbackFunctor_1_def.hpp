@@ -84,7 +84,7 @@ public:
   EventCallbackFunctor_1(EventCallbackFunctor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5812 };
 
   /// @brief Field m_Callback, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallback_1<TEventType>* ___m_Callback;

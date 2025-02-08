@@ -24,27 +24,27 @@ public:
   // Declarations
   __declspec(property(get = get_IsInvalid)) bool IsInvalid;
 
-  /// @brief Method CreateHandle, addr 0x3c707bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x3c73414, size 0x58, virtual false, abstract: false, final false
   inline ::System::IntPtr CreateHandle(::StringW password);
 
-  /// @brief Method Dispose, addr 0x3c708f0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c73548, size 0x70, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FreeHandle, addr 0x3c70814, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method FreeHandle, addr 0x3c7346c, size 0x5c, virtual false, abstract: false, final false
   inline void FreeHandle();
 
-  /// @brief Method Mono_DangerousGetString, addr 0x3c70988, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Mono_DangerousGetString, addr 0x3c735e0, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW Mono_DangerousGetString();
 
   static inline ::Microsoft::Win32::SafeHandles::SafePasswordHandle* New_ctor(::StringW password);
 
-  /// @brief Method ReleaseHandle, addr 0x3c708ac, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x3c73504, size 0x44, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x3c70870, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c734c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password);
 
-  /// @brief Method get_IsInvalid, addr 0x3c70960, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x3c735b8, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:

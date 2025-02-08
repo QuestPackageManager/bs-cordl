@@ -26,18 +26,18 @@ public:
 
   __declspec(property(get = get_playerRoot, put = set_playerRoot)) ::UnityW<::UnityEngine::GameObject> playerRoot;
 
-  /// @brief Method InitializePlayerRoot, addr 0x45f6af8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializePlayerRoot, addr 0x45f9750, size 0xc4, virtual false, abstract: false, final false
   inline void InitializePlayerRoot();
 
   static inline ::UnityEngine::InputSystem::UI::MultiplayerEventSystem* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x45f6bd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x45f9830, size 0x8, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x45f6bbc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x45f9814, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x45f6be0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x45f9838, size 0x108, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PlayerRoot() const;
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PlayerRoot(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x45f6ce8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45f9940, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerRoot, addr 0x45f6ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerRoot, addr 0x45f9740, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_playerRoot();
 
-  /// @brief Method set_playerRoot, addr 0x45f6af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerRoot, addr 0x45f9748, size 0x8, virtual false, abstract: false, final false
   inline void set_playerRoot(::UnityEngine::GameObject* value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   MultiplayerEventSystem(MultiplayerEventSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6785 };
 
   /// @brief Field m_PlayerRoot, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_PlayerRoot;

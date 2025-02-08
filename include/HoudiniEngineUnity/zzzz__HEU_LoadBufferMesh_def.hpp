@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__geoCache(::HoudiniEngineUnity::HEU_GenerateGeoCache* value);
 
-  /// @brief Method .ctor, addr 0x3a64eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6771c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   HEU_LoadBufferMesh(HEU_LoadBufferMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11791 };
 
   /// @brief Field _geoCache, offset: 0x30, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_GenerateGeoCache* ____geoCache;

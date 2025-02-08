@@ -80,7 +80,7 @@ public:
   static ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType const Vector;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17172 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_propType(::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType value);
 
-  /// @brief Method .ctor, addr 0x22b6138, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b7b34, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType propType);
 
 protected:
@@ -143,7 +143,7 @@ public:
   ShaderPropertyAttributeFilter(ShaderPropertyAttributeFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17173 };
 
   /// @brief Field propType, offset: 0x10, size: 0x4, def value: None
   ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType ___propType;

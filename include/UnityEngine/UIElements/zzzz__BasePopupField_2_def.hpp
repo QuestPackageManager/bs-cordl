@@ -105,7 +105,7 @@ public:
   BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5503 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -157,7 +157,7 @@ public:
   BasePopupField_2___c(BasePopupField_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5504 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -329,7 +329,7 @@ public:
   BasePopupField_2(BasePopupField_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5505 };
 
   /// @brief Field m_Choices, offset: 0x440, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TValueChoice>* ___m_Choices;

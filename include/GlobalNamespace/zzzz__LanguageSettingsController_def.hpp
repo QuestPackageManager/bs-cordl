@@ -35,15 +35,15 @@ public:
 
   __declspec(property(get = get_language)) ::BGLib::Polyglot::Language language;
 
-  /// @brief Method ApplyValue, addr 0x3c156f8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3c18350, size 0xd8, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3c1553c, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3c18194, size 0x1bc, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::LanguageSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x3c157d0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3c18428, size 0x64, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get__language() const;
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3c15834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1848c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_language, addr 0x3c15534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x3c1818c, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_language();
 
 protected:
@@ -79,7 +79,7 @@ public:
   LanguageSettingsController(LanguageSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4865 };
 
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

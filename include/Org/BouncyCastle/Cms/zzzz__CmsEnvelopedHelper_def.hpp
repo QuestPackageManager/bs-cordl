@@ -90,7 +90,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
 
-  /// @brief Method GetReadable, addr 0x265876c, size 0x3fc, virtual true, abstract: false, final true
+  /// @brief Method GetReadable, addr 0x265a168, size 0x3fc, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsAuthenticatedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
@@ -114,13 +114,13 @@ public:
 
   constexpr void __cordl_internal_set_readable(::Org::BouncyCastle::Cms::CmsReadable* value);
 
-  /// @brief Method .ctor, addr 0x265872c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a128, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Cms::CmsReadable* readable);
 
-  /// @brief Method get_Algorithm, addr 0x265875c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Algorithm, addr 0x265a158, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x2658764, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CryptoObject, addr 0x265a160, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
@@ -187,7 +187,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
 
-  /// @brief Method GetReadable, addr 0x2658bd4, size 0x604, virtual true, abstract: false, final true
+  /// @brief Method GetReadable, addr 0x265a5d0, size 0x604, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper_CmsEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
@@ -211,13 +211,13 @@ public:
 
   constexpr void __cordl_internal_set_readable(::Org::BouncyCastle::Cms::CmsReadable* value);
 
-  /// @brief Method .ctor, addr 0x2658b94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a590, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Cms::CmsReadable* readable);
 
-  /// @brief Method get_Algorithm, addr 0x2658bc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Algorithm, addr 0x265a5c0, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x2658bcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CryptoObject, addr 0x265a5c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
@@ -281,31 +281,31 @@ public:
   /// @brief Field KeySizes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_KeySizes, put = setStaticF_KeySizes)) ::System::Collections::IDictionary* KeySizes;
 
-  /// @brief Method BuildRecipientInformationStore, addr 0x265741c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method BuildRecipientInformationStore, addr 0x2658e18, size 0x130, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* BuildRecipientInformationStore(::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                                                                                                     ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method CreateAsymmetricCipher, addr 0x2656e2c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateAsymmetricCipher, addr 0x2658828, size 0x118, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateAsymmetricCipher(::StringW encryptionOid);
 
-  /// @brief Method CreateWrapper, addr 0x2656f44, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x2658940, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IWrapper* CreateWrapper(::StringW encryptionOid);
 
-  /// @brief Method GetAsymmetricEncryptionAlgName, addr 0x2656d94, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetAsymmetricEncryptionAlgName, addr 0x2658790, size 0x98, virtual false, abstract: false, final false
   inline ::StringW GetAsymmetricEncryptionAlgName(::StringW encryptionAlgOid);
 
-  /// @brief Method GetKeySize, addr 0x2657218, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method GetKeySize, addr 0x2658c14, size 0x204, virtual false, abstract: false, final false
   inline int32_t GetKeySize(::StringW oid);
 
-  /// @brief Method GetRfc3211WrapperName, addr 0x2657048, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetRfc3211WrapperName, addr 0x2658a44, size 0x1d0, virtual false, abstract: false, final false
   inline ::StringW GetRfc3211WrapperName(::StringW oid);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* New_ctor();
 
-  /// @brief Method ReadRecipientInfo, addr 0x265754c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method ReadRecipientInfo, addr 0x2658f48, size 0x370, virtual false, abstract: false, final false
   static inline void ReadRecipientInfo(::System::Collections::IList* infos, ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method .ctor, addr 0x2656d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2658788, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames();

@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault* New_ctor(::System::Reflection::MethodInfo* mi);
 
-  /// @brief Method Run, addr 0x40fa5c0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40fd218, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__defaultValueType() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultValueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40fa43c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fd094, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* mi);
 
 protected:
@@ -60,7 +60,7 @@ public:
   NullableMethodCallInstruction_GetValueOrDefault(NullableMethodCallInstruction_GetValueOrDefault const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14109 };
 
   /// @brief Field _defaultValueType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____defaultValueType;

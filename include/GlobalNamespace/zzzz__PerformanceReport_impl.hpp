@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::GlobalNamespace::PerformanceReport::CreateTimestamp)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3b274b4;
+  constexpr static std::size_t addrs = 0x3b2a014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime, ::GlobalNamespace::GameplayCoreSceneSetupData*)>(
     &::GlobalNamespace::PerformanceReport::CreateReportDescriptor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b27528;
+  constexpr static std::size_t addrs = 0x3b2a088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>, float_t)>(
     &::GlobalNamespace::PerformanceReport::ListAggregatedFps)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3b271a0;
+  constexpr static std::size_t addrs = 0x3b29d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::GlobalNamespace::PerformanceReport::ListFrameDurations)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3b27084;
+  constexpr static std::size_t addrs = 0x3b29be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::GlobalNamespace::PerformanceReport::ListStat)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3b27bec;
+  constexpr static std::size_t addrs = 0x3b2a74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<int64_t, ::Array<int64_t>*>)>(&::GlobalNamespace::PerformanceReport::ListStat)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b27d08;
+  constexpr static std::size_t addrs = 0x3b2a868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

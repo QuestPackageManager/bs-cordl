@@ -55,10 +55,10 @@ public:
   /// @brief Field reusableVerts, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
 
-  /// @brief Method CreateMeshIfNonExisting, addr 0x3b7d5a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x3b80100, size 0xb4, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x3b7d654, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x3b801b4, size 0x1dc, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes);
 
   /// @brief Method CreateSliderMeshInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -108,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x3b7d830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b80390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x3b7d598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x3b800f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:
@@ -129,7 +129,7 @@ public:
   SliderMeshConstructor(SliderMeshConstructor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4176 };
 
   /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;

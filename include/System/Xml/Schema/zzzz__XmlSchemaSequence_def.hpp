@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaSequence* New_ctor();
 
-  /// @brief Method SetItems, addr 0x42c3698, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetItems, addr 0x42c62f0, size 0x8, virtual true, abstract: false, final false
   inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get_items() const;
@@ -39,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set_items(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method .ctor, addr 0x42c36a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c62f8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x42c365c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x42c62b4, size 0x3c, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Items, addr 0x42c3654, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Items, addr 0x42c62ac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
 protected:
@@ -63,7 +63,7 @@ public:
   XmlSchemaSequence(XmlSchemaSequence const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7718 };
 
   /// @brief Field items, offset: 0x78, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObjectCollection* ___items;

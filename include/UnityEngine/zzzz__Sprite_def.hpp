@@ -85,194 +85,194 @@ public:
 
   __declspec(property(get = get_vertices)) ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> vertices;
 
-  /// @brief Method Create, addr 0x48bd47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c00d4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits);
 
-  /// @brief Method Create, addr 0x48bd478, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c00d0, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture);
 
-  /// @brief Method Create, addr 0x48bda24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c067c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot);
 
-  /// @brief Method Create, addr 0x48bda18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c0670, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit);
 
-  /// @brief Method Create, addr 0x48bda10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c0668, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude);
 
-  /// @brief Method Create, addr 0x48bd928, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c0580, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
                                                        ::UnityEngine::SpriteMeshType meshType);
 
-  /// @brief Method Create, addr 0x48bd914, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c056c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
                                                        ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border);
 
-  /// @brief Method Create, addr 0x48bd484, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c00dc, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
                                                        ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape);
 
-  /// @brief Method Create, addr 0x48bd498, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48c00f0, size 0x47c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
                                                        ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
                                                        ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTextures);
 
-  /// @brief Method CreateSprite, addr 0x48bc534, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateSprite, addr 0x48bf18c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateSprite(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
                                                              ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape,
                                                              ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTexture);
 
-  /// @brief Method CreateSpriteWithoutTextureScripting, addr 0x48bc464, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateSpriteWithoutTextureScripting, addr 0x48bf0bc, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateSpriteWithoutTextureScripting(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture);
 
-  /// @brief Method CreateSpriteWithoutTextureScripting_Injected, addr 0x48bc4d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateSpriteWithoutTextureScripting_Injected, addr 0x48bf128, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateSpriteWithoutTextureScripting_Injected(::ByRef<::UnityEngine::Rect> rect, ::ByRef<::UnityEngine::Vector2> pivot, float_t pixelsToUnits,
                                                                                              ::UnityEngine::Texture2D* texture);
 
-  /// @brief Method CreateSprite_Injected, addr 0x48bc5dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateSprite_Injected, addr 0x48bf234, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateSprite_Injected(::UnityEngine::Texture2D* texture, ::ByRef<::UnityEngine::Rect> rect, ::ByRef<::UnityEngine::Vector2> pivot,
                                                                       float_t pixelsPerUnit, uint32_t extrude, ::UnityEngine::SpriteMeshType meshType, ::ByRef<::UnityEngine::Vector4> border,
                                                                       bool generateFallbackPhysicsShape,
                                                                       ::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTexture);
 
-  /// @brief Method GetInnerUVs, addr 0x48bc290, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetInnerUVs, addr 0x48beee8, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetInnerUVs();
 
-  /// @brief Method GetInnerUVs_Injected, addr 0x48bc2e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetInnerUVs_Injected, addr 0x48bef40, size 0x44, virtual false, abstract: false, final false
   inline void GetInnerUVs_Injected(::ByRef<::UnityEngine::Vector4> ret);
 
-  /// @brief Method GetOuterUVs, addr 0x48bc32c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetOuterUVs, addr 0x48bef84, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetOuterUVs();
 
-  /// @brief Method GetOuterUVs_Injected, addr 0x48bc384, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetOuterUVs_Injected, addr 0x48befdc, size 0x44, virtual false, abstract: false, final false
   inline void GetOuterUVs_Injected(::ByRef<::UnityEngine::Vector4> ret);
 
-  /// @brief Method GetPacked, addr 0x48bc128, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPacked, addr 0x48bed80, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetPacked();
 
-  /// @brief Method GetPackingMode, addr 0x48bc0b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPackingMode, addr 0x48bed08, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetPackingMode();
 
-  /// @brief Method GetPackingRotation, addr 0x48bc0ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPackingRotation, addr 0x48bed44, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetPackingRotation();
 
-  /// @brief Method GetPadding, addr 0x48bc3c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x48bf020, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetPadding();
 
-  /// @brief Method GetPadding_Injected, addr 0x48bc420, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPadding_Injected, addr 0x48bf078, size 0x44, virtual false, abstract: false, final false
   inline void GetPadding_Injected(::ByRef<::UnityEngine::Vector4> ret);
 
-  /// @brief Method GetPhysicsShape, addr 0x48bcdb4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsShape, addr 0x48bfa0c, size 0x150, virtual false, abstract: false, final false
   inline int32_t GetPhysicsShape(int32_t shapeIdx, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* physicsShape);
 
-  /// @brief Method GetPhysicsShapeCount, addr 0x48bcc1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsShapeCount, addr 0x48bf874, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetPhysicsShapeCount();
 
-  /// @brief Method GetPhysicsShapeImpl, addr 0x48bcf04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsShapeImpl, addr 0x48bfb5c, size 0x54, virtual false, abstract: false, final false
   static inline void GetPhysicsShapeImpl(::UnityEngine::Sprite* sprite, int32_t shapeIdx, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* physicsShape);
 
-  /// @brief Method GetPhysicsShapePointCount, addr 0x48bcc58, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsShapePointCount, addr 0x48bf8b0, size 0x118, virtual false, abstract: false, final false
   inline int32_t GetPhysicsShapePointCount(int32_t shapeIdx);
 
-  /// @brief Method GetSecondaryTexture, addr 0x48bc898, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSecondaryTexture, addr 0x48bf4f0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetSecondaryTexture(int32_t index);
 
-  /// @brief Method GetSecondaryTextureCount, addr 0x48bc8dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSecondaryTextureCount, addr 0x48bf534, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetSecondaryTextureCount();
 
-  /// @brief Method GetSecondaryTextures, addr 0x48bc918, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSecondaryTextures, addr 0x48bf570, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetSecondaryTextures(::ArrayW<::UnityEngine::SecondarySpriteTexture, ::Array<::UnityEngine::SecondarySpriteTexture>*> secondaryTexture);
 
-  /// @brief Method GetTextureRect, addr 0x48bc164, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetTextureRect, addr 0x48bedbc, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetTextureRect();
 
-  /// @brief Method GetTextureRectOffset, addr 0x48bc200, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetTextureRectOffset, addr 0x48bee58, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetTextureRectOffset();
 
-  /// @brief Method GetTextureRectOffset_Injected, addr 0x48bc24c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTextureRectOffset_Injected, addr 0x48beea4, size 0x44, virtual false, abstract: false, final false
   inline void GetTextureRectOffset_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method GetTextureRect_Injected, addr 0x48bc1bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTextureRect_Injected, addr 0x48bee14, size 0x44, virtual false, abstract: false, final false
   inline void GetTextureRect_Injected(::ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method Internal_GetPhysicsShapePointCount, addr 0x48bcd70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPhysicsShapePointCount, addr 0x48bf9c8, size 0x44, virtual false, abstract: false, final false
   inline int32_t Internal_GetPhysicsShapePointCount(int32_t shapeIdx);
 
   static inline ::UnityEngine::Sprite* New_ctor();
 
-  /// @brief Method OverrideGeometry, addr 0x48bd424, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OverrideGeometry, addr 0x48c007c, size 0x54, virtual false, abstract: false, final false
   inline void OverrideGeometry(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> vertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> triangles);
 
-  /// @brief Method OverridePhysicsShape, addr 0x48bcf58, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method OverridePhysicsShape, addr 0x48bfbb0, size 0x434, virtual false, abstract: false, final false
   inline void OverridePhysicsShape(::System::Collections::Generic::IList_1<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* physicsShapes);
 
-  /// @brief Method OverridePhysicsShape, addr 0x48bd3d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OverridePhysicsShape, addr 0x48c0028, size 0x54, virtual false, abstract: false, final false
   static inline void OverridePhysicsShape(::UnityEngine::Sprite* sprite, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> physicsShape, int32_t idx);
 
-  /// @brief Method OverridePhysicsShapeCount, addr 0x48bd38c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OverridePhysicsShapeCount, addr 0x48bffe4, size 0x44, virtual false, abstract: false, final false
   static inline void OverridePhysicsShapeCount(::UnityEngine::Sprite* sprite, int32_t physicsShapeCount);
 
-  /// @brief Method .ctor, addr 0x48bc058, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48becb0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_associatedAlphaSplitTexture, addr 0x48bc9d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_associatedAlphaSplitTexture, addr 0x48bf62c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_associatedAlphaSplitTexture();
 
-  /// @brief Method get_border, addr 0x48bc7c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_border, addr 0x48bf418, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_border();
 
-  /// @brief Method get_border_Injected, addr 0x48bc818, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_border_Injected, addr 0x48bf470, size 0x44, virtual false, abstract: false, final false
   inline void get_border_Injected(::ByRef<::UnityEngine::Vector4> ret);
 
-  /// @brief Method get_bounds, addr 0x48bc678, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x48bf2d0, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_bounds_Injected, addr 0x48bc6e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bounds_Injected, addr 0x48bf338, size 0x44, virtual false, abstract: false, final false
   inline void get_bounds_Injected(::ByRef<::UnityEngine::Bounds> ret);
 
-  /// @brief Method get_packed, addr 0x48bcaa0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_packed, addr 0x48bf6f8, size 0x48, virtual false, abstract: false, final false
   inline bool get_packed();
 
-  /// @brief Method get_packingMode, addr 0x48bcae8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_packingMode, addr 0x48bf740, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::SpritePackingMode get_packingMode();
 
-  /// @brief Method get_packingRotation, addr 0x48bcb24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_packingRotation, addr 0x48bf77c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::SpritePackingRotation get_packingRotation();
 
-  /// @brief Method get_pivot, addr 0x48bca10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_pivot, addr 0x48bf668, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pivot();
 
-  /// @brief Method get_pivot_Injected, addr 0x48bca5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pivot_Injected, addr 0x48bf6b4, size 0x44, virtual false, abstract: false, final false
   inline void get_pivot_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_pixelsPerUnit, addr 0x48bc95c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelsPerUnit, addr 0x48bf5b4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_pixelsPerUnit();
 
-  /// @brief Method get_rect, addr 0x48bc724, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rect, addr 0x48bf37c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rect();
 
-  /// @brief Method get_rect_Injected, addr 0x48bc77c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_rect_Injected, addr 0x48bf3d4, size 0x44, virtual false, abstract: false, final false
   inline void get_rect_Injected(::ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method get_spriteAtlasTextureScale, addr 0x48bc998, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spriteAtlasTextureScale, addr 0x48bf5f0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_spriteAtlasTextureScale();
 
-  /// @brief Method get_texture, addr 0x48bc85c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x48bf4b4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
-  /// @brief Method get_textureRect, addr 0x48bcb60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_textureRect, addr 0x48bf7b8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_textureRect();
 
-  /// @brief Method get_textureRectOffset, addr 0x48bcb64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_textureRectOffset, addr 0x48bf7bc, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_textureRectOffset();
 
-  /// @brief Method get_triangles, addr 0x48bcba4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_triangles, addr 0x48bf7fc, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<uint16_t, ::Array<uint16_t>*> get_triangles();
 
-  /// @brief Method get_uv, addr 0x48bcbe0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_uv, addr 0x48bf838, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> get_uv();
 
-  /// @brief Method get_vertices, addr 0x48bcb68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertices, addr 0x48bf7c0, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> get_vertices();
 
 protected:
@@ -290,7 +290,7 @@ public:
   Sprite(Sprite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

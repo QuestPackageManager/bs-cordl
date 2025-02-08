@@ -52,7 +52,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <TryParseColor>b__0, addr 0x4710b24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <TryParseColor>b__0, addr 0x471377c, size 0x1c, virtual false, abstract: false, final false
   inline bool _TryParseColor_b__0(char16_t c);
 
   constexpr ::StringW const& __cordl_internal_get_valid() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_valid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4710b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4713774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   InternalUtility___c__DisplayClass6_0(InternalUtility___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14247 };
 
   /// @brief Field valid, offset: 0x10, size: 0x8, def value: None
   ::StringW ___valid;
@@ -101,7 +101,7 @@ public:
   // Declarations
   using __c__DisplayClass6_0 = ::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0;
 
-  /// @brief Method ControlKeyString, addr 0x47107b0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ControlKeyString, addr 0x4713408, size 0x110, virtual false, abstract: false, final false
   static inline ::StringW ControlKeyString(char16_t character);
 
   /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -110,7 +110,7 @@ public:
   /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T DemandComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method EmptyGameObjectWithTransform, addr 0x47105ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method EmptyGameObjectWithTransform, addr 0x4713204, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -119,14 +119,14 @@ public:
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms);
 
-  /// @brief Method MeshGameObjectWithTransform, addr 0x4710694, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method MeshGameObjectWithTransform, addr 0x47132ec, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat,
                                                                                 bool inheritParent);
 
   /// @brief Method NextEnumValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T NextEnumValue(T current);
 
-  /// @brief Method TryParseColor, addr 0x47108c0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method TryParseColor, addr 0x4713518, size 0x25c, virtual false, abstract: false, final false
   static inline bool TryParseColor(::StringW value, ::ByRef<::UnityEngine::Color> col);
 
 protected:
@@ -144,7 +144,7 @@ public:
   InternalUtility(InternalUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14248 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

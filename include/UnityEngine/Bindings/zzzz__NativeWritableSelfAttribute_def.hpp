@@ -31,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set__WritableSelf_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4919804, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491c45c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_WritableSelf, addr 0x49197f8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_WritableSelf, addr 0x491c450, size 0xc, virtual true, abstract: false, final true
   inline void set_WritableSelf(bool value);
 
 protected:
@@ -52,7 +52,7 @@ public:
   NativeWritableSelfAttribute(NativeWritableSelfAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18703 };
 
   /// @brief Field <WritableSelf>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WritableSelf_k__BackingField;

@@ -38,13 +38,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_dayTimeDuration* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x43ad41c, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x43b0074, size 0x1c8, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x43a7a18, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43aa670, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x43ad5e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43b023c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -62,7 +62,7 @@ public:
   Datatype_dayTimeDuration(Datatype_dayTimeDuration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

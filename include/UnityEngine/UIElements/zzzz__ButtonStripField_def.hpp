@@ -42,7 +42,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ButtonStripField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498e79c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49913f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   ButtonStripField_UxmlFactory(ButtonStripField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,7 +77,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ButtonStripField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498e7e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499143c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   ButtonStripField_UxmlTraits(ButtonStripField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -119,10 +119,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor();
 
-  /// @brief Method RefreshButtonsState, addr 0x498e6c4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method RefreshButtonsState, addr 0x499131c, size 0xd8, virtual false, abstract: false, final false
   inline void RefreshButtonsState();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x498e640, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x4991298, size 0x84, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t newValue);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* const& __cordl_internal_get_m_Buttons() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method .ctor, addr 0x498e588, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49911e0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   ButtonStripField(ButtonStripField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5535 };
 
   /// @brief Field m_Buttons, offset: 0x440, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* ___m_Buttons;

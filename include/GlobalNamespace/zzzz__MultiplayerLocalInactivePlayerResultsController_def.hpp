@@ -27,18 +27,18 @@ public:
   /// @brief Field _multiplayerController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController)) ::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
-  /// @brief Method HandleMultiplayerStateChange, addr 0x3bc78f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerStateChange, addr 0x3bca454, size 0x4, virtual false, abstract: false, final false
   inline void HandleMultiplayerStateChange(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerResultsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bc7864, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bca3c4, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetMultiplayerState, addr 0x3bc7828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplayerState, addr 0x3bca388, size 0x3c, virtual false, abstract: false, final false
   inline void SetMultiplayerState(::GlobalNamespace::MultiplayerController_State state);
 
-  /// @brief Method Start, addr 0x3bc776c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bca2cc, size 0xbc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  /// @brief Method .ctor, addr 0x3bc78f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bca458, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   MultiplayerLocalInactivePlayerResultsController(MultiplayerLocalInactivePlayerResultsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4530 };
 
   /// @brief Field _multiplayerController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;

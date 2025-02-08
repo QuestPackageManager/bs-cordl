@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GetViewDataDictionary::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::GetViewDataDictionary::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a447d0;
+  constexpr static std::size_t addrs = 0x4a47428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ISerializableJsonDictionary* (::UnityEngine::UIElements::GetViewDataDictionary::*)()>(
     &::UnityEngine::UIElements::GetViewDataDictionary::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a44858;
+  constexpr static std::size_t addrs = 0x4a474b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -42,15 +42,15 @@ public:
   /// @brief Field _arg1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__arg1, put = __cordl_internal_set__arg1)) ::System::Linq::Expressions::Expression* _arg1;
 
-  /// @brief Method GetExpression, addr 0x40aef8c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x40b1be4, size 0x94, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
-  /// @brief Method GetOrMakeExpressions, addr 0x40af084, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeExpressions, addr 0x40b1cdc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
   static inline ::System::Linq::Expressions::Block2* New_ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Rewrite, addr 0x40af08c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40b1ce4, size 0x78, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set__arg1(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40aef64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b1bbc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method get_ExpressionCount, addr 0x40af07c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExpressionCount, addr 0x40b1cd4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ExpressionCount();
 
 protected:
@@ -87,7 +87,7 @@ public:
   Block2(Block2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13647 };
 
   /// @brief Field _arg0, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____arg0;

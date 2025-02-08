@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OrInstruction_OrInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x40f6540, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f9198, size 0x100, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f6234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f8e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   OrInstruction_OrInt64(OrInstruction_OrInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

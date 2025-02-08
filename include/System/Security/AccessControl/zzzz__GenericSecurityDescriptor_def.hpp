@@ -27,7 +27,7 @@ public:
 
   static inline ::System::Security::AccessControl::GenericSecurityDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cc6f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc9b58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method set_Group, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

@@ -39,22 +39,22 @@ public:
   /// @brief Field _itemInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__itemInfo, put = __cordl_internal_set__itemInfo)) ::System::Xml::Serialization::XmlTypeMapElementInfoList* _itemInfo;
 
-  /// @brief Method Equals, addr 0x4394e2c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4397a84, size 0x164, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method FindElement, addr 0x4394824, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x439747c, size 0x31c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfo* FindElement(::StringW elementName, ::StringW ns);
 
-  /// @brief Method FindElement, addr 0x438e64c, size 0x860, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x43912a4, size 0x860, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfo* FindElement(::System::Object* ob, int32_t index, ::System::Object* memberValue);
 
-  /// @brief Method FindTextElement, addr 0x4394b40, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method FindTextElement, addr 0x4397798, size 0x2ec, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfo* FindTextElement();
 
-  /// @brief Method GetArrayType, addr 0x438e444, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetArrayType, addr 0x439109c, size 0x208, virtual false, abstract: false, final false
   inline void GetArrayType(int32_t itemCount, ::ByRef<::StringW> localName, ::ByRef<::StringW> ns);
 
-  /// @brief Method GetHashCode, addr 0x4394f90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4397be8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Serialization::ListMap* New_ctor();
@@ -71,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set__itemInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* value);
 
-  /// @brief Method .ctor, addr 0x4394f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4397bf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ItemInfo, addr 0x4394814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemInfo, addr 0x439746c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfoList* get_ItemInfo();
 
-  /// @brief Method set_ChoiceMember, addr 0x439480c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ChoiceMember, addr 0x4397464, size 0x8, virtual false, abstract: false, final false
   inline void set_ChoiceMember(::StringW value);
 
-  /// @brief Method set_ItemInfo, addr 0x439481c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemInfo, addr 0x4397474, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* value);
 
 protected:
@@ -98,7 +98,7 @@ public:
   ListMap(ListMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7469 };
 
   /// @brief Field _itemInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlTypeMapElementInfoList* ____itemInfo;

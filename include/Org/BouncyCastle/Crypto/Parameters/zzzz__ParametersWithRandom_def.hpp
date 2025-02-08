@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetRandom, addr 0x23bfb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRandom, addr 0x23c1510, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* GetRandom();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x23bfa34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c1430, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x23bf998, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c1394, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_Parameters, addr 0x23bfb24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x23c1520, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
-  /// @brief Method get_Random, addr 0x23bfb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0x23c1518, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

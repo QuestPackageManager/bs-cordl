@@ -82,144 +82,144 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Blit, addr 0x48c6f44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x48c9b9c, size 0x8c, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier dest);
 
-  /// @brief Method Blit, addr 0x48c6fd0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x48c9c28, size 0x90, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier dest, ::UnityEngine::Material* mat);
 
-  /// @brief Method Blit, addr 0x48c7060, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x48c9cb8, size 0x9c, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier dest, ::UnityEngine::Material* mat, int32_t pass);
 
-  /// @brief Method Blit_Identifier, addr 0x48c5b28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Blit_Identifier, addr 0x48c8780, size 0xa0, virtual false, abstract: false, final false
   inline void Blit_Identifier(::ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> source, ::ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> dest, ::UnityEngine::Material* mat,
                               int32_t pass, ::UnityEngine::Vector2 scale, ::UnityEngine::Vector2 offset, int32_t sourceDepthSlice, int32_t destDepthSlice);
 
-  /// @brief Method Blit_Identifier_Injected, addr 0x48c5bc8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Blit_Identifier_Injected, addr 0x48c8820, size 0x9c, virtual false, abstract: false, final false
   inline void Blit_Identifier_Injected(::ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> source, ::ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> dest, ::UnityEngine::Material* mat,
                                        int32_t pass, ::ByRef<::UnityEngine::Vector2> scale, ::ByRef<::UnityEngine::Vector2> offset, int32_t sourceDepthSlice, int32_t destDepthSlice);
 
-  /// @brief Method Clear, addr 0x48c5824, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x48c847c, size 0x3c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CopyTexture, addr 0x48c6eb0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture, addr 0x48c9b08, size 0x94, virtual false, abstract: false, final false
   inline void CopyTexture(::UnityEngine::Rendering::RenderTargetIdentifier src, ::UnityEngine::Rendering::RenderTargetIdentifier dst);
 
-  /// @brief Method CopyTexture_Internal, addr 0x48c5a60, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture_Internal, addr 0x48c86b8, size 0xc8, virtual false, abstract: false, final false
   inline void CopyTexture_Internal(::ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> src, int32_t srcElement, int32_t srcMip, int32_t srcX, int32_t srcY, int32_t srcWidth, int32_t srcHeight,
                                    ::ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> dst, int32_t dstElement, int32_t dstMip, int32_t dstX, int32_t dstY, int32_t mode);
 
-  /// @brief Method Dispose, addr 0x48c6524, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x48c917c, size 0x84, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x48c64e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x48c9138, size 0x44, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawMesh, addr 0x48c68d0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x48c9528, size 0x38, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material);
 
-  /// @brief Method DrawMesh, addr 0x48c689c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x48c94f4, size 0x34, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex);
 
-  /// @brief Method DrawMesh, addr 0x48c686c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x48c94c4, size 0x30, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass);
 
-  /// @brief Method DrawMesh, addr 0x48c65f0, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x48c9248, size 0x27c, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass,
                        ::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method DrawMeshInstanced, addr 0x48c6b0c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshInstanced, addr 0x48c9764, size 0x3a4, virtual false, abstract: false, final false
   inline void DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, int32_t shaderPass,
                                 ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> matrices, int32_t count, ::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method DrawRenderer, addr 0x48c6908, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method DrawRenderer, addr 0x48c9560, size 0x204, virtual false, abstract: false, final false
   inline void DrawRenderer(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass);
 
-  /// @brief Method Finalize, addr 0x48c6424, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x48c907c, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetTemporaryRT, addr 0x48c5e70, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetTemporaryRT, addr 0x48c8ac8, size 0xa0, virtual false, abstract: false, final false
   inline void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method GetTemporaryRT, addr 0x48c5dcc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetTemporaryRT, addr 0x48c8a24, size 0xa4, virtual false, abstract: false, final false
   inline void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                              int32_t antiAliasing);
 
-  /// @brief Method GetTemporaryRT, addr 0x48c5d20, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetTemporaryRT, addr 0x48c8978, size 0xac, virtual false, abstract: false, final false
   inline void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                              int32_t antiAliasing, bool enableRandomWrite, ::UnityEngine::RenderTextureMemoryless memorylessMode);
 
-  /// @brief Method GetTemporaryRT, addr 0x48c5c64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetTemporaryRT, addr 0x48c88bc, size 0xbc, virtual false, abstract: false, final false
   inline void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                              int32_t antiAliasing, bool enableRandomWrite, ::UnityEngine::RenderTextureMemoryless memorylessMode, bool useDynamicScale);
 
-  /// @brief Method GetTemporaryRT, addr 0x48c5f10, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetTemporaryRT, addr 0x48c8b68, size 0xec, virtual false, abstract: false, final false
   inline void GetTemporaryRT(int32_t nameID, int32_t width, int32_t height, int32_t depthBuffer, ::UnityEngine::FilterMode filter, ::UnityEngine::RenderTextureFormat format);
 
-  /// @brief Method InitBuffer, addr 0x48c577c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InitBuffer, addr 0x48c83d4, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr InitBuffer();
 
-  /// @brief Method Internal_DrawMesh, addr 0x48c5860, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMesh, addr 0x48c84b8, size 0x84, virtual false, abstract: false, final false
   inline void Internal_DrawMesh(::UnityEngine::Mesh* mesh, ::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass,
                                 ::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method Internal_DrawMeshInstanced, addr 0x48c59d4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMeshInstanced, addr 0x48c862c, size 0x8c, virtual false, abstract: false, final false
   inline void Internal_DrawMeshInstanced(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Material* material, int32_t shaderPass,
                                          ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> matrices, int32_t count, ::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method Internal_DrawMesh_Injected, addr 0x48c58e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawMesh_Injected, addr 0x48c853c, size 0x84, virtual false, abstract: false, final false
   inline void Internal_DrawMesh_Injected(::UnityEngine::Mesh* mesh, ::ByRef<::UnityEngine::Matrix4x4> matrix, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass,
                                          ::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method Internal_DrawRenderer, addr 0x48c5968, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_DrawRenderer, addr 0x48c85c0, size 0x6c, virtual false, abstract: false, final false
   inline void Internal_DrawRenderer(::UnityEngine::Renderer* renderer, ::UnityEngine::Material* material, int32_t submeshIndex, int32_t shaderPass);
 
   static inline ::UnityEngine::Rendering::CommandBuffer* New_ctor();
 
-  /// @brief Method ReleaseBuffer, addr 0x48c57a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffer, addr 0x48c83fc, size 0x3c, virtual false, abstract: false, final false
   inline void ReleaseBuffer();
 
-  /// @brief Method ReleaseTemporaryRT, addr 0x48c5ffc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReleaseTemporaryRT, addr 0x48c8c54, size 0x44, virtual false, abstract: false, final false
   inline void ReleaseTemporaryRT(int32_t nameID);
 
-  /// @brief Method SetGlobalFloat, addr 0x48c6040, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalFloat, addr 0x48c8c98, size 0x54, virtual false, abstract: false, final false
   inline void SetGlobalFloat(int32_t nameID, float_t value);
 
-  /// @brief Method SetGlobalTexture, addr 0x48c70fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalTexture, addr 0x48c9d54, size 0x78, virtual false, abstract: false, final false
   inline void SetGlobalTexture(::StringW name, ::UnityEngine::Rendering::RenderTargetIdentifier value);
 
-  /// @brief Method SetGlobalTexture, addr 0x48c7174, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalTexture, addr 0x48c9dcc, size 0x5c, virtual false, abstract: false, final false
   inline void SetGlobalTexture(int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier value, ::UnityEngine::Rendering::RenderTextureSubElement element);
 
-  /// @brief Method SetGlobalTexture_Impl, addr 0x48c6240, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalTexture_Impl, addr 0x48c8e98, size 0x5c, virtual false, abstract: false, final false
   inline void SetGlobalTexture_Impl(int32_t nameID, ::ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> rt, ::UnityEngine::Rendering::RenderTextureSubElement element);
 
-  /// @brief Method SetGlobalVector, addr 0x48c6094, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalVector, addr 0x48c8cec, size 0x5c, virtual false, abstract: false, final false
   inline void SetGlobalVector(int32_t nameID, ::UnityEngine::Vector4 value);
 
-  /// @brief Method SetGlobalVector_Injected, addr 0x48c60f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalVector_Injected, addr 0x48c8d48, size 0x54, virtual false, abstract: false, final false
   inline void SetGlobalVector_Injected(int32_t nameID, ::ByRef<::UnityEngine::Vector4> value);
 
-  /// @brief Method SetRenderTarget, addr 0x48c629c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x48c8ef4, size 0xa0, virtual false, abstract: false, final false
   inline void SetRenderTarget(::UnityEngine::Rendering::RenderTargetIdentifier rt);
 
-  /// @brief Method SetRenderTargetSingle_Internal, addr 0x48c633c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTargetSingle_Internal, addr 0x48c8f94, size 0x74, virtual false, abstract: false, final false
   inline void SetRenderTargetSingle_Internal(::UnityEngine::Rendering::RenderTargetIdentifier rt, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction,
                                              ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                                              ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction);
 
-  /// @brief Method SetRenderTargetSingle_Internal_Injected, addr 0x48c63b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTargetSingle_Internal_Injected, addr 0x48c9008, size 0x74, virtual false, abstract: false, final false
   inline void SetRenderTargetSingle_Internal_Injected(::ByRef<::UnityEngine::Rendering::RenderTargetIdentifier> rt, ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction,
                                                       ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                                                       ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction);
 
-  /// @brief Method SetViewProjectionMatrices, addr 0x48c6144, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetViewProjectionMatrices, addr 0x48c8d9c, size 0x54, virtual false, abstract: false, final false
   inline void SetViewProjectionMatrices(::UnityEngine::Matrix4x4 view, ::UnityEngine::Matrix4x4 proj);
 
-  /// @brief Method SetViewProjectionMatrices_Injected, addr 0x48c6198, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetViewProjectionMatrices_Injected, addr 0x48c8df0, size 0x54, virtual false, abstract: false, final false
   inline void SetViewProjectionMatrices_Injected(::ByRef<::UnityEngine::Matrix4x4> view, ::ByRef<::UnityEngine::Matrix4x4> proj);
 
-  /// @brief Method ValidateAgainstExecutionFlags, addr 0x48c61ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ValidateAgainstExecutionFlags, addr 0x48c8e44, size 0x54, virtual false, abstract: false, final false
   inline bool ValidateAgainstExecutionFlags(::UnityEngine::Rendering::CommandBufferExecutionFlags requiredFlags, ::UnityEngine::Rendering::CommandBufferExecutionFlags invalidFlags);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -228,13 +228,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48c65a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c9200, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_name, addr 0x48c57e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x48c8438, size 0x44, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:
@@ -252,7 +252,7 @@ public:
   CommandBuffer(CommandBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11216 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

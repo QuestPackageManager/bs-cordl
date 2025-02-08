@@ -42,7 +42,7 @@ public:
   constexpr TemplateAsset_AttributeOverride(::StringW m_ElementName, ::StringW m_AttributeName, ::StringW m_Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6241 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -110,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateAlias(::StringW value);
 
-  /// @brief Method get_attributeOverrides, addr 0x4a9178c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_attributeOverrides, addr 0x4a943e4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* get_attributeOverrides();
 
-  /// @brief Method get_slotUsages, addr 0x4aa29e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slotUsages, addr 0x4aa5640, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* get_slotUsages();
 
 protected:
@@ -131,7 +131,7 @@ public:
   TemplateAsset(TemplateAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6242 };
 
   /// @brief Field m_TemplateAlias, offset: 0x70, size: 0x8, def value: None
   ::StringW ___m_TemplateAlias;

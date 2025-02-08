@@ -55,7 +55,7 @@ public:
 
   static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method PhaseMatches, addr 0x4a284f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PhaseMatches, addr 0x4a2b14c, size 0x3c, virtual false, abstract: false, final false
   inline bool PhaseMatches(::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
   constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get__invokePolicy_k__BackingField() const;
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value);
 
-  /// @brief Method .ctor, addr 0x4a284c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2b120, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method get_invokePolicy, addr 0x4a284c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invokePolicy, addr 0x4a2b118, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
 
-  /// @brief Method get_phase, addr 0x4a284b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x4a2b110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CallbackPhase get_phase();
 
 protected:
@@ -94,7 +94,7 @@ public:
   EventCallbackFunctorBase(EventCallbackFunctorBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5811 };
 
   /// @brief Field <phase>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::CallbackPhase ____phase_k__BackingField;

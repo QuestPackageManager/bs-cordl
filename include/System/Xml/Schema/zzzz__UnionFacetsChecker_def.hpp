@@ -30,15 +30,15 @@ namespace System::Xml::Schema {
 class CORDL_TYPE UnionFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x4263c0c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4266864, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x4263d04, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x426695c, size 0xbc, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::UnionFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4263dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4266a18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   UnionFacetsChecker(UnionFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7599 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

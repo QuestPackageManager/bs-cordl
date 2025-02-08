@@ -34,24 +34,24 @@ public:
 
   __declspec(property(get = get_OperationalStatus)) ::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x43eb3e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x43ee040, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
-  /// @brief Method GetIPProperties, addr 0x43eb568, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x43ee1c0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::NetworkInterface* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43eb610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ee268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x43eb530, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x43ee188, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType, addr 0x43eb5d8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_NetworkInterfaceType, addr 0x43ee230, size 0x38, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
-  /// @brief Method get_OperationalStatus, addr 0x43eb5a0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x43ee1f8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:
@@ -69,7 +69,7 @@ public:
   NetworkInterface(NetworkInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

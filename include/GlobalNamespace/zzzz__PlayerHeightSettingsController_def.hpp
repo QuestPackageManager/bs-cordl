@@ -60,18 +60,18 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_1<float_t>* valueDidChangeEvent;
 
-  /// @brief Method AutoSetHeight, addr 0x3c15e30, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AutoSetHeight, addr 0x3c18a88, size 0x114, virtual false, abstract: false, final false
   inline void AutoSetHeight();
 
-  /// @brief Method Awake, addr 0x3c15cc0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c18918, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x3c15d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c189d8, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightSettingsController* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x3c15d88, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3c189e0, size 0xa8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -116,16 +116,16 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3c15f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c18b9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x3c15b58, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x3c187b0, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_value, addr 0x3c15cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x3c18910, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x3c15c08, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x3c18860, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -143,7 +143,7 @@ public:
   PlayerHeightSettingsController(PlayerHeightSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4868 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

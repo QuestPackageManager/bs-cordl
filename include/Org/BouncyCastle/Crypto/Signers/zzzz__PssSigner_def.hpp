@@ -80,29 +80,29 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x23da2e8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x23dbce4, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ClearBlock, addr 0x23da218, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClearBlock, addr 0x23dbc14, size 0x24, virtual false, abstract: false, final false
   inline void ClearBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method CreateRawSigner, addr 0x23d9c18, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CreateRawSigner, addr 0x23db614, size 0xc8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* CreateRawSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest,
                                                                                  ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int32_t saltLen, uint8_t trailer);
 
-  /// @brief Method CreateRawSigner, addr 0x23d9940, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreateRawSigner, addr 0x23db33c, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* CreateRawSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method GenerateSignature, addr 0x23da450, size 0x438, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x23dbe4c, size 0x438, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x23d9f98, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23db994, size 0x280, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ItoOSP, addr 0x23db1f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ItoOSP, addr 0x23dcbf0, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method MaskGeneratorFunction1, addr 0x23da888, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method MaskGeneratorFunction1, addr 0x23dc284, size 0x470, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MaskGeneratorFunction1(::ArrayW<uint8_t, ::Array<uint8_t>*> Z, int32_t zOff, int32_t zLen, int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest,
@@ -128,13 +128,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLen,
                                                                           uint8_t trailer);
 
-  /// @brief Method Reset, addr 0x23da3ac, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x23dbda8, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x23da23c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x23dbc38, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method VerifySignature, addr 0x23dacf8, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23dc6f4, size 0x4fc, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_block() const;
@@ -221,34 +221,34 @@ public:
 
   constexpr void __cordl_internal_set_trailer(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x23d9ea4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db8a0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest, ::Org::BouncyCastle::Crypto::IDigest* mgfDigest,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method .ctor, addr 0x23d9e4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db848, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest, ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int32_t saltLen);
 
-  /// @brief Method .ctor, addr 0x23d9e78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db874, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest, ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int32_t saltLen,
                     uint8_t trailer);
 
-  /// @brief Method .ctor, addr 0x23d9a6c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db468, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest1, ::Org::BouncyCastle::Crypto::IDigest* contentDigest2,
                     ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int32_t saltLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, uint8_t trailer);
 
-  /// @brief Method .ctor, addr 0x23d9ce0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db6dc, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x23d9e18, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db814, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method .ctor, addr 0x23d9dc0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db7bc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLen);
 
-  /// @brief Method .ctor, addr 0x23d9dec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db7e8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLen, uint8_t trailer);
 
-  /// @brief Method get_AlgorithmName, addr 0x23d9ed8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23db8d4, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"

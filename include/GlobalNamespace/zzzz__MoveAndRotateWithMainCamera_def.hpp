@@ -38,10 +38,10 @@ public:
   /// @brief Field _transform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x3b1ae40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b1d9a0, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x3b1ae8c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b1d9ec, size 0x108, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MoveAndRotateWithMainCamera* New_ctor();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b1af94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1daf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   MoveAndRotateWithMainCamera(MoveAndRotateWithMainCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5081 };
 
   /// @brief Field _mainCamera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;

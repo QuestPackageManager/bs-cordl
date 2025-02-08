@@ -21,15 +21,15 @@ public:
   // Declarations
   __declspec(property(get = get_IsFull)) bool IsFull;
 
-  /// @brief Method Decode, addr 0x430d388, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x430ffe0, size 0x8, virtual true, abstract: false, final false
   inline int32_t Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len);
 
   static inline ::System::Xml::IncrementalReadDummyDecoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x430d390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430ffe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsFull, addr 0x430d380, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFull, addr 0x430ffd8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFull();
 
 protected:
@@ -47,7 +47,7 @@ public:
   IncrementalReadDummyDecoder(IncrementalReadDummyDecoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

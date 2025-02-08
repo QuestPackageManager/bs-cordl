@@ -19,18 +19,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerPrefsStorage : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FileExists, addr 0x22a4c10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x22a64bc, size 0xc, virtual false, abstract: false, final false
   inline bool FileExists(::StringW filePath);
 
-  /// @brief Method Initialize, addr 0x22a4b8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x22a6438, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method LoadFile, addr 0x22a4b90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LoadFile, addr 0x22a643c, size 0x80, virtual false, abstract: false, final false
   inline bool LoadFile(::StringW filePath, ::ByRef<::StringW> value);
 
   static inline ::GlobalNamespace::PlayerPrefsStorage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a4c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a64c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   PlayerPrefsStorage(PlayerPrefsStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

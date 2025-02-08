@@ -86,19 +86,19 @@ public:
   /// @brief Field _transform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Inject, addr 0x3b10b7c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x3b136dc, size 0xf8, virtual false, abstract: false, final false
   inline void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1,
                      ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver, bool overrideDisableMovement);
 
   static inline ::GlobalNamespace::FirstPersonFlyingController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b101cc, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b12d2c, size 0x24c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b0febc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b12a1c, size 0x270, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3b10418, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b12f78, size 0x3bc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -185,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b10c74, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b137d4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -203,7 +203,7 @@ public:
   FirstPersonFlyingController(FirstPersonFlyingController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5034 };
 
   /// @brief Field _moveSensitivity, offset: 0x20, size: 0x4, def value: None
   float_t ____moveSensitivity;

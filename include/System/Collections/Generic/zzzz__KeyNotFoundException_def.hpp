@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Collections::Generic::KeyNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3dcb048, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcdca0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dcb0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcdd20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dcb0a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcdcfc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

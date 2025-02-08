@@ -33,7 +33,7 @@ public:
   /// @brief Field _gameCoreSceneInfo, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
 
-  /// @brief Method Init, addr 0x3b3e438, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b40f98, size 0x1d8, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO* New_ctor();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  /// @brief Method .ctor, addr 0x3b3e610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b41170, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   EventsTestScenesTransitionSetupDataSO(EventsTestScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5257 };
 
   /// @brief Field _environmentInfo, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____environmentInfo;

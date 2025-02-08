@@ -34,15 +34,15 @@ public:
   /// @brief Field _gameScenesManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x4083d70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x40869c8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidStart(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType, float_t duration);
 
   static inline ::GlobalNamespace::FadeOutOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x4083ca0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x40868f8, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x4083c10, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4086868, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x4083d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40869e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   FadeOutOnSceneTransitionStart(FadeOutOnSceneTransitionStart const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17896 };
 
   /// @brief Field _fadeInOut, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;

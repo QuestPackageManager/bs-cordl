@@ -27,18 +27,18 @@ namespace Org::BouncyCastle::X509 {
 class CORDL_TYPE PrincipalUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetIssuerX509Principal, addr 0x25edc8c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerX509Principal, addr 0x25ef688, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetIssuerX509Principal(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetIssuerX509Principal, addr 0x25edeb4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerX509Principal, addr 0x25ef8b0, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetIssuerX509Principal(::Org::BouncyCastle::X509::X509Crl* crl);
 
-  /// @brief Method GetSubjectX509Principal, addr 0x25edda0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSubjectX509Principal, addr 0x25ef79c, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetSubjectX509Principal(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::X509::PrincipalUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25edfc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ef9c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

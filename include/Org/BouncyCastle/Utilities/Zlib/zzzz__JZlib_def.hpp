@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Zlib::JZlib* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25e1844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e3240, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method version, addr 0x25e1804, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method version, addr 0x25e3200, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW version();
 
 protected:

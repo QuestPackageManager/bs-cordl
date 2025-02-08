@@ -104,25 +104,25 @@ public:
 
   constexpr void __cordl_internal_set__specialScoreColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3c00308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c02e6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_playerName, addr 0x3c0010c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x3c02c70, size 0x24, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_rank, addr 0x3c00078, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x3c02bdc, size 0x94, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_score, addr 0x3c00130, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x3c02c94, size 0xa0, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
-  /// @brief Method set_showFullCombo, addr 0x3c001f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showFullCombo, addr 0x3c02d54, size 0x20, virtual false, abstract: false, final false
   inline void set_showFullCombo(bool value);
 
-  /// @brief Method set_showSeparator, addr 0x3c001d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x3c02d34, size 0x20, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method set_specialScore, addr 0x3c00210, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_specialScore, addr 0x3c02d74, size 0xf8, virtual false, abstract: false, final false
   inline void set_specialScore(bool value);
 
 protected:
@@ -140,7 +140,7 @@ public:
   LeaderboardTableCell(LeaderboardTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4757 };
 
   /// @brief Field _rankText, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;

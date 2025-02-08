@@ -73,81 +73,81 @@ public:
   /// @brief Method CreatePipeline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderPipeline* CreatePipeline();
 
-  /// @brief Method InternalCreatePipeline, addr 0x48c91e4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method InternalCreatePipeline, addr 0x48cbe3c, size 0x2f8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
 
   static inline ::UnityEngine::Rendering::RenderPipelineAsset* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x48c9928, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x48cc580, size 0x4c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x48c9608, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x48cc260, size 0xb8, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method .ctor, addr 0x48c9974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48cc5cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_autodeskInteractiveMaskedShader, addr 0x48c9504, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autodeskInteractiveMaskedShader, addr 0x48cc15c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveMaskedShader();
 
-  /// @brief Method get_autodeskInteractiveShader, addr 0x48c94f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autodeskInteractiveShader, addr 0x48cc14c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveShader();
 
-  /// @brief Method get_autodeskInteractiveTransparentShader, addr 0x48c94fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autodeskInteractiveTransparentShader, addr 0x48cc154, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveTransparentShader();
 
-  /// @brief Method get_default2DMaskMaterial, addr 0x48c955c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_default2DMaskMaterial, addr 0x48cc1b4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_default2DMaskMaterial();
 
-  /// @brief Method get_default2DMaterial, addr 0x48c9554, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_default2DMaterial, addr 0x48cc1ac, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_default2DMaterial();
 
-  /// @brief Method get_defaultLineMaterial, addr 0x48c952c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultLineMaterial, addr 0x48cc184, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultLineMaterial();
 
-  /// @brief Method get_defaultMaterial, addr 0x48c94ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultMaterial, addr 0x48cc144, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
-  /// @brief Method get_defaultParticleMaterial, addr 0x48c9524, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultParticleMaterial, addr 0x48cc17c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultParticleMaterial();
 
-  /// @brief Method get_defaultShader, addr 0x48c9564, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultShader, addr 0x48cc1bc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_defaultShader();
 
-  /// @brief Method get_defaultSpeedTree7Shader, addr 0x48c956c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultSpeedTree7Shader, addr 0x48cc1c4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_defaultSpeedTree7Shader();
 
-  /// @brief Method get_defaultSpeedTree8Shader, addr 0x48c9574, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultSpeedTree8Shader, addr 0x48cc1cc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_defaultSpeedTree8Shader();
 
-  /// @brief Method get_defaultTerrainMaterial, addr 0x48c9534, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultTerrainMaterial, addr 0x48cc18c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultTerrainMaterial();
 
-  /// @brief Method get_defaultUIETC1SupportedMaterial, addr 0x48c954c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultUIETC1SupportedMaterial, addr 0x48cc1a4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultUIETC1SupportedMaterial();
 
-  /// @brief Method get_defaultUIMaterial, addr 0x48c953c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultUIMaterial, addr 0x48cc194, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultUIMaterial();
 
-  /// @brief Method get_defaultUIOverdrawMaterial, addr 0x48c9544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultUIOverdrawMaterial, addr 0x48cc19c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultUIOverdrawMaterial();
 
-  /// @brief Method get_prefixedRenderingLayerMaskNames, addr 0x48c94e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_prefixedRenderingLayerMaskNames, addr 0x48cc13c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_prefixedRenderingLayerMaskNames();
 
-  /// @brief Method get_renderPipelineShaderTag, addr 0x48c957c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_renderPipelineShaderTag, addr 0x48cc1d4, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW get_renderPipelineShaderTag();
 
-  /// @brief Method get_renderingLayerMaskNames, addr 0x48c94dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderingLayerMaskNames, addr 0x48cc134, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_renderingLayerMaskNames();
 
-  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x48c951c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x48cc174, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassBillboardShader();
 
-  /// @brief Method get_terrainDetailGrassShader, addr 0x48c9514, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailGrassShader, addr 0x48cc16c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassShader();
 
-  /// @brief Method get_terrainDetailLitShader, addr 0x48c950c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailLitShader, addr 0x48cc164, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailLitShader();
 
 protected:
@@ -165,7 +165,7 @@ public:
   RenderPipelineAsset(RenderPipelineAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11232 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

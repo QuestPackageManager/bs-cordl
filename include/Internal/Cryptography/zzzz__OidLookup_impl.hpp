@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Cryptography::OidLookup___c::*)()>(&::Internal::Cryptography::OidLookup___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411d464;
+  constexpr static std::size_t addrs = 0x41200bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Cryptography::OidLookup___c*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Internal::Cryptography::OidLookup___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(&::Internal::Cryptography::OidLookup___c::__cctor_b__10_0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x411d46c;
+  constexpr static std::size_t addrs = 0x41200c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Internal::Cryptography::OidLookup___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(&::Internal::Cryptography::OidLookup___c::__cctor_b__10_1)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x411d4a8;
+  constexpr static std::size_t addrs = 0x4120100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup, bool)>(
     &::Internal::Cryptography::OidLookup::ToFriendlyName)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x411ac5c;
+  constexpr static std::size_t addrs = 0x411d8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup, bool)>(
     &::Internal::Cryptography::OidLookup::ToOid)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x411b1f0;
+  constexpr static std::size_t addrs = 0x411de48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Security::Cryptography::OidGroup)>(&::Internal::Cryptography::OidLookup::ShouldUseCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411ae38;
+  constexpr static std::size_t addrs = 0x411da90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup, bool)>(
     &::Internal::Cryptography::OidLookup::NativeOidToFriendlyName)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x411ae40;
+  constexpr static std::size_t addrs = 0x411da98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup, bool)>(
     &::Internal::Cryptography::OidLookup::NativeFriendlyNameToOid)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x411b3a0;
+  constexpr static std::size_t addrs = 0x411dff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

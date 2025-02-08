@@ -37,10 +37,10 @@ public:
 
   static inline ::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b90638, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b93198, size 0xa0, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b906d8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b93238, size 0xa0, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSpriteController() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b90778, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b932d8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   Parametric3SliceSpriteWidthEndFloatFxEffectTarget(Parametric3SliceSpriteWidthEndFloatFxEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4277 };
 
   /// @brief Field _parametric3SliceSpriteController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____parametric3SliceSpriteController;

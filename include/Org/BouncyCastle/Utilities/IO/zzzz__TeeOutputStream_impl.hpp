@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeOutputStream::*)(::System::IO::Stream*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::IO::TeeOutputStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25d9568;
+  constexpr static std::size_t addrs = 0x25daf64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeOutputStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::TeeOutputStream::Close)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25d9594;
+  constexpr static std::size_t addrs = 0x25daf90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeOutputStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::IO::TeeOutputStream::Write)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25d9608;
+  constexpr static std::size_t addrs = 0x25db004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeOutputStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Utilities::IO::TeeOutputStream::WriteByte)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x25d9670;
+  constexpr static std::size_t addrs = 0x25db06c;
 
   inline static ::MethodInfo const* methodInfo() {
 

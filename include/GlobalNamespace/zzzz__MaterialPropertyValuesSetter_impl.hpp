@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::get_propertyId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e97f4;
+  constexpr static std::size_t addrs = 0x39ec058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::*)(int32_t)>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::set_propertyId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e97fc;
+  constexpr static std::size_t addrs = 0x39ec060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39e9804;
+  constexpr static std::size_t addrs = 0x39ec068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyValuePairBase::RefreshPropertyId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39e97cc;
+  constexpr static std::size_t addrs = 0x39ec030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameFloatValuePair::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameFloatValuePair::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39e982c;
+  constexpr static std::size_t addrs = 0x39ec090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameIntValuePair::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameIntValuePair::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39e9854;
+  constexpr static std::size_t addrs = 0x39ec0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameVectorValuePair::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameVectorValuePair::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39e987c;
+  constexpr static std::size_t addrs = 0x39ec0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameColorValuePair::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter_PropertyNameColorValuePair::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39e98a4;
+  constexpr static std::size_t addrs = 0x39ec108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39e9420;
+  constexpr static std::size_t addrs = 0x39ebc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyValuesSetter*>::get(), "Start",
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter::OnValidate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39e9734;
+  constexpr static std::size_t addrs = 0x39ebf98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyValuesSetter*>::get(),
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter::RefreshPropertyIds)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x39e9438;
+  constexpr static std::size_t addrs = 0x39ebc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyValuesSetter*>::get(),
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter::ApplyParams)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x39e9590;
+  constexpr static std::size_t addrs = 0x39ebdf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyValuesSetter*>::get(),
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyValuesSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyValuesSetter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e97ec;
+  constexpr static std::size_t addrs = 0x39ec050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyValuesSetter*>::get(), ".ctor",

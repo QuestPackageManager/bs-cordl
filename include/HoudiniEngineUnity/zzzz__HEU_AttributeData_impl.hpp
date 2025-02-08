@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_AttributeData::*)()>(&::HoudiniEngineUnity::HEU_AttributeData::IsColorAttribute)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3a38ee0;
+  constexpr static std::size_t addrs = 0x3a3b744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AttributeData*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AttributeData::*)(::HoudiniEngineUnity::HEU_AttributeData*)>(
     &::HoudiniEngineUnity::HEU_AttributeData::CopyValuesTo)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3a38f50;
+  constexpr static std::size_t addrs = 0x3a3b7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_AttributeData::*)(::HoudiniEngineUnity::HEU_AttributeData*)>(
     &::HoudiniEngineUnity::HEU_AttributeData::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x3a39074;
+  constexpr static std::size_t addrs = 0x3a3b8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AttributeData::*)()>(&::HoudiniEngineUnity::HEU_AttributeData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a3939c;
+  constexpr static std::size_t addrs = 0x3a3bc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AttributeData*>::get(), ".ctor",

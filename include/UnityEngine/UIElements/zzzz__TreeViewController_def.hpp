@@ -27,24 +27,24 @@ public:
   // Declarations
   __declspec(property(get = get_treeView)) ::UnityEngine::UIElements::TreeView* treeView;
 
-  /// @brief Method BindItem, addr 0x497e7ac, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x4981404, size 0x184, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x497e980, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x49815d8, size 0x3c, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method MakeItem, addr 0x497e6c0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x4981318, size 0xec, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::TreeViewController* New_ctor();
 
-  /// @brief Method UnbindItem, addr 0x497e930, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x4981588, size 0x50, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method .ctor, addr 0x497e9bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4981614, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_treeView, addr 0x497e644, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_treeView, addr 0x498129c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TreeView* get_treeView();
 
 protected:
@@ -62,7 +62,7 @@ public:
   TreeViewController(TreeViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5479 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

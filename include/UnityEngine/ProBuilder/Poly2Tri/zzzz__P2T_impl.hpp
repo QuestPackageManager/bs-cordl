@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet*)>(&::UnityEngine::ProBuilder::Poly2Tri::P2T::Triangulate)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x46f8278;
+  constexpr static std::size_t addrs = 0x46faed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::Poly2Tri::Polygon*)>(&::UnityEngine::ProBuilder::Poly2Tri::P2T::Triangulate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46f8678;
+  constexpr static std::size_t addrs = 0x46fb2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::P2T::Triangulate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46f86f0;
+  constexpr static std::size_t addrs = 0x46fb348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::Poly2Tri::PointSet*)>(&::UnityEngine::ProBuilder::Poly2Tri::P2T::Triangulate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46f872c;
+  constexpr static std::size_t addrs = 0x46fb384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* (*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm)>(&::UnityEngine::ProBuilder::Poly2Tri::P2T::CreateContext)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x46f8598;
+  constexpr static std::size_t addrs = 0x46fb1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm, ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&::UnityEngine::ProBuilder::Poly2Tri::P2T::Triangulate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46f86b4;
+  constexpr static std::size_t addrs = 0x46fb30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::P2T::Triangulate)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x46f85e8;
+  constexpr static std::size_t addrs = 0x46fb240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::ProBuilder::Poly2Tri::P2T::Warmup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46f888c;
+  constexpr static std::size_t addrs = 0x46fb4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::P2T*>::get(), "Warmup",

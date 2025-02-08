@@ -27,10 +27,10 @@ public:
   /// @brief Field keyIdentifier, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_keyIdentifier, put = __cordl_internal_set_keyIdentifier)) ::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier;
 
-  /// @brief Method Equals, addr 0x267c73c, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x267e138, size 0x160, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x267c690, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x267e08c, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Cms::RecipientID* New_ctor();
@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set_keyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2676508, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2677f04, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_KeyIdentifier, addr 0x267c634, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyIdentifier, addr 0x267e030, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyIdentifier();
 
-  /// @brief Method set_KeyIdentifier, addr 0x2676ac8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_KeyIdentifier, addr 0x26784c4, size 0x6c, virtual false, abstract: false, final false
   inline void set_KeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

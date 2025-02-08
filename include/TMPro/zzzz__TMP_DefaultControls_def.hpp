@@ -59,7 +59,7 @@ public:
                                           ::UnityW<::UnityEngine::Sprite> mask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14466 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -129,37 +129,37 @@ public:
   /// @brief Field s_ThinElementSize, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ThinElementSize, put = setStaticF_s_ThinElementSize)) ::UnityEngine::Vector2 s_ThinElementSize;
 
-  /// @brief Method CreateButton, addr 0x47c8d08, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method CreateButton, addr 0x47cb960, size 0x2c0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateButton(::TMPro::TMP_DefaultControls_Resources resources);
 
-  /// @brief Method CreateDropdown, addr 0x47c986c, size 0xde0, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x47cc4c4, size 0xde0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateDropdown(::TMPro::TMP_DefaultControls_Resources resources);
 
-  /// @brief Method CreateInputField, addr 0x47c9068, size 0x660, virtual false, abstract: false, final false
+  /// @brief Method CreateInputField, addr 0x47cbcc0, size 0x660, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateInputField(::TMPro::TMP_DefaultControls_Resources resources);
 
-  /// @brief Method CreateScrollbar, addr 0x47c8a3c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CreateScrollbar, addr 0x47cb694, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateScrollbar(::TMPro::TMP_DefaultControls_Resources resources);
 
-  /// @brief Method CreateText, addr 0x47c8fc8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateText, addr 0x47cbc20, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateText(::TMPro::TMP_DefaultControls_Resources resources);
 
-  /// @brief Method CreateUIElementRoot, addr 0x47c8608, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateUIElementRoot, addr 0x47cb260, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size);
 
-  /// @brief Method CreateUIObject, addr 0x47c86b0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateUIObject, addr 0x47cb308, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent);
 
-  /// @brief Method SetDefaultColorTransitionValues, addr 0x47c88f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultColorTransitionValues, addr 0x47cb550, size 0x60, virtual false, abstract: false, final false
   static inline void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
 
-  /// @brief Method SetDefaultTextValues, addr 0x47c8870, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultTextValues, addr 0x47cb4c8, size 0x88, virtual false, abstract: false, final false
   static inline void SetDefaultTextValues(::TMPro::TMP_Text* lbl);
 
-  /// @brief Method SetLayerRecursively, addr 0x47c8958, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetLayerRecursively, addr 0x47cb5b0, size 0xe4, virtual false, abstract: false, final false
   static inline void SetLayerRecursively(::UnityEngine::GameObject* go, int32_t layer);
 
-  /// @brief Method SetParentAndAlign, addr 0x47c8770, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetParentAndAlign, addr 0x47cb3c8, size 0x100, virtual false, abstract: false, final false
   static inline void SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent);
 
   static inline ::UnityEngine::Color getStaticF_s_DefaultSelectableColor();
@@ -197,7 +197,7 @@ public:
   TMP_DefaultControls(TMP_DefaultControls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14467 };
 
   /// @brief Field kThickHeight offset 0xffffffff size 0x4
   static constexpr float_t kThickHeight{ static_cast<float_t>(30.0f) };

@@ -39,18 +39,18 @@ public:
                       put = __cordl_internal_set__standardLevelSceneSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFinished, addr 0x3bb439c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x3bb6efc, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::StandardLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb429c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb6dfc, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bb41ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bb6d0c, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x3bb43a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x3bb6f00, size 0x40, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3bb43e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb6f40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   StandardLevelFinishedController(StandardLevelFinishedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4459 };
 
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelSceneSetupData;

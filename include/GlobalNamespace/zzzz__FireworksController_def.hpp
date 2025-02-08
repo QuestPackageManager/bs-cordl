@@ -72,21 +72,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b83338, size 0x35c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b85e98, size 0x35c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::FireworksController__SpawningCoroutine_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b83694, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b861f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b8369c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b861fc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b836d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b86234, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b83334, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b85e94, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  /// @brief Method .ctor, addr 0x3b83228, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b85d88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -134,7 +134,7 @@ public:
   FireworksController__SpawningCoroutine_d__10(FireworksController__SpawningCoroutine_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4209 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -193,21 +193,21 @@ public:
   /// @brief Field _spawnSize, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get__spawnSize, put = __cordl_internal_set__spawnSize)) ::UnityEngine::Vector3 _spawnSize;
 
-  /// @brief Method ClearFireworkItemController, addr 0x3b8314c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ClearFireworkItemController, addr 0x3b85cac, size 0xdc, virtual false, abstract: false, final false
   inline void ClearFireworkItemController(::GlobalNamespace::FireworkItemController* fireworkItemController);
 
   static inline ::GlobalNamespace::FireworksController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b830c0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b85c20, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x3b83250, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x3b85db0, size 0x54, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x3b83040, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b85ba0, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SpawningCoroutine, addr 0x3b83060, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SpawningCoroutine, addr 0x3b85bc0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawningCoroutine();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FireworkItemController>>* const& __cordl_internal_get__activeFireworks() const;
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnSize(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b832a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b85e04, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -276,7 +276,7 @@ public:
   FireworksController(FireworksController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4210 };
 
   /// @brief Field _spawnSize, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____spawnSize;

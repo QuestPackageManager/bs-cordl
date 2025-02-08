@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_cNewInput)) ::StringW cNewInput;
 
-  /// @brief Method get_cNewInput, addr 0x4078980, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_cNewInput, addr 0x407b5d8, size 0xec, virtual false, abstract: false, final false
   inline ::StringW get_cNewInput();
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
                                uint64_t uUserValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8991 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

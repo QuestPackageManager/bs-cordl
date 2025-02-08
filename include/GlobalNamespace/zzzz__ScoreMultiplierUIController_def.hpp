@@ -55,27 +55,27 @@ public:
   /// @brief Field _scoreController, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController)) ::GlobalNamespace::IScoreController* _scoreController;
 
-  /// @brief Method HandleMultiplierDidChange, addr 0x3bab2ac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplierDidChange, addr 0x3bade0c, size 0xcc, virtual false, abstract: false, final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t progress);
 
   static inline ::GlobalNamespace::ScoreMultiplierUIController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3bab128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3badc88, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3bab124, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3badc84, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterForEvents, addr 0x3baaf90, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RegisterForEvents, addr 0x3badaf0, size 0x194, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method Start, addr 0x3baaeac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bada0c, size 0xe4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterFromEvents, addr 0x3bab12c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromEvents, addr 0x3badc8c, size 0x100, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method Update, addr 0x3bab22c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3badd8c, size 0x80, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__multiplierAnimator() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x3bab378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baded8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,7 +138,7 @@ public:
   ScoreMultiplierUIController(ScoreMultiplierUIController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4419 };
 
   /// @brief Field _multiplierTexts, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> ____multiplierTexts;

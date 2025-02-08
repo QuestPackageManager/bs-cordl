@@ -73,7 +73,7 @@ public:
   static ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13046 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,10 +114,10 @@ public:
 
   __declspec(property(get = get_type)) ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> type;
 
-  /// @brief Method Equals, addr 0x26d54fc, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26d6ef8, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x26d5608, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x26d7004, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::MissionObjective* New_ctor();
@@ -140,22 +140,22 @@ public:
 
   constexpr void __cordl_internal_set__type(::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> value);
 
-  /// @brief Method .ctor, addr 0x26d566c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_referenceValue, addr 0x26d5420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceValue, addr 0x26d6e1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_referenceValue();
 
-  /// @brief Method get_referenceValueComparisonType, addr 0x26d5418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceValueComparisonType, addr 0x26d6e14, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType get_referenceValueComparisonType();
 
-  /// @brief Method get_type, addr 0x26d5410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x26d6e0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> get_type();
 
-  /// @brief Method op_Equality, addr 0x26d5428, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x26d6e24, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective* obj2);
 
-  /// @brief Method op_Inequality, addr 0x26d54e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x26d6ee0, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective* obj2);
 
 protected:
@@ -173,7 +173,7 @@ public:
   MissionObjective(MissionObjective const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13047 };
 
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> ____type;

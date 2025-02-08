@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::AssertionMethodAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4af420c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af6e64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   AssertionMethodAttribute(AssertionMethodAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

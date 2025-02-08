@@ -37,13 +37,13 @@ public:
   /// @brief Field s_inputSubsystems, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_inputSubsystems, put = setStaticF_s_inputSubsystems)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* s_inputSubsystems;
 
-  /// @brief Method GetCurrentDisplaySubsystem, addr 0x39d61d0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystem, addr 0x39d8a34, size 0x13c, virtual false, abstract: false, final false
   static inline Il2CppObject* GetCurrentDisplaySubsystem();
 
-  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x39d630c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x39d8b70, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
 
-  /// @brief Method GetCurrentInputSubsystem, addr 0x39d6440, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInputSubsystem, addr 0x39d8ca4, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* getStaticF_s_displaySubsystemDescriptors();
@@ -73,7 +73,7 @@ public:
   XRSubsystemHelper(XRSubsystemHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

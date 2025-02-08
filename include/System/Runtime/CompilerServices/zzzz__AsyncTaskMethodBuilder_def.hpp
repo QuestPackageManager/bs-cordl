@@ -43,16 +43,16 @@ public:
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x3d1be08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3d1ea60, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder Create();
 
-  /// @brief Method SetException, addr 0x3d19ed0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x3d1cb28, size 0x7c, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x3d19dc8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x3d1ca20, size 0xa4, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x3d19cdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x3d1c934, size 0x7c, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -60,7 +60,7 @@ public:
 
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>* getStaticF_s_cachedCompleted();
 
-  /// @brief Method get_Task, addr 0x3d19fdc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x3d1cc34, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
 
   static inline void setStaticF_s_cachedCompleted(::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult>* value);

@@ -75,7 +75,7 @@ public:
   static ::UnityEngine::InputSystem::LowLevel::JoystickState_Button const Trigger;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6909 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -105,10 +105,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x460a4b4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x460d10c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_kFormat, addr 0x460a484, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x460d0dc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -122,7 +122,7 @@ public:
   constexpr JoystickState(int32_t buttons, ::UnityEngine::Vector2 stick) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6910 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

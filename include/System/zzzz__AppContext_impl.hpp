@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::AppContext::InitializeDefaultSwitchValues)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3e15788;
+  constexpr static std::size_t addrs = 0x3e183e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(), "InitializeDefaultSwitchValues",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<bool>)>(&::System::AppContext::TryGetSwitch)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x3e158fc;
+  constexpr static std::size_t addrs = 0x3e18554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

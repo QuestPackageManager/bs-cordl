@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteFloorMovement::*)()>(&::GlobalNamespace::NoteFloorMovement::get_distanceToPlayer)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3aef438;
+  constexpr static std::size_t addrs = 0x3af1f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteFloorMovement::*)()>(
     &::GlobalNamespace::NoteFloorMovement::get_endPos)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3aef478;
+  constexpr static std::size_t addrs = 0x3af1fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(), "get_endPos",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteFloorMovement::*)()>(&::GlobalNamespace::NoteFloorMovement::get_noteTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aef534;
+  constexpr static std::size_t addrs = 0x3af2094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(), "get_noteTime",
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::NoteFloorMovement::*)()>(
     &::GlobalNamespace::NoteFloorMovement::get_worldRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aef53c;
+  constexpr static std::size_t addrs = 0x3af209c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::NoteFloorMovement::*)()>(
     &::GlobalNamespace::NoteFloorMovement::get_inverseWorldRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aef548;
+  constexpr static std::size_t addrs = 0x3af20a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteFloorMovement::*)()>(
     &::GlobalNamespace::NoteFloorMovement::get_localPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aef554;
+  constexpr static std::size_t addrs = 0x3af20b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteFloorMovement::*)(float_t, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::NoteFloorMovement::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3aef560;
+  constexpr static std::size_t addrs = 0x3af20c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteFloorMovement::*)()>(&::GlobalNamespace::NoteFloorMovement::ShouldMove)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x3aef5d4;
+  constexpr static std::size_t addrs = 0x3af2134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(), "ShouldMove",
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteFloorMovement::*)()>(
     &::GlobalNamespace::NoteFloorMovement::SetToStart)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3aef7ec;
+  constexpr static std::size_t addrs = 0x3af234c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(), "SetToStart",
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteFloorMovement::*)()>(
     &::GlobalNamespace::NoteFloorMovement::ManualUpdate)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x3aef974;
+  constexpr static std::size_t addrs = 0x3af24d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(), "ManualUpdate",
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteFloorMovement::*)()>(&::GlobalNamespace::NoteFloorMovement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aefd0c;
+  constexpr static std::size_t addrs = 0x3af286c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteFloorMovement*>::get(), ".ctor",

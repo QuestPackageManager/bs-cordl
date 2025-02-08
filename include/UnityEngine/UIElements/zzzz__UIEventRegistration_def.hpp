@@ -43,25 +43,25 @@ public:
 
   static inline ::UnityEngine::UIElements::UIEventRegistration___c* New_ctor();
 
-  /// @brief Method <.cctor>b__1_0, addr 0x4a9ff8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_0, addr 0x4aa2be4, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_0();
 
-  /// @brief Method <.cctor>b__1_1, addr 0x4a9ffd8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_1, addr 0x4aa2c30, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_1();
 
-  /// @brief Method <.cctor>b__1_2, addr 0x4aa0024, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_2, addr 0x4aa2c7c, size 0x64, virtual false, abstract: false, final false
   inline bool __cctor_b__1_2(int32_t i, ::System::IntPtr ptr);
 
-  /// @brief Method <.cctor>b__1_3, addr 0x4aa0088, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_3, addr 0x4aa2ce0, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_3();
 
-  /// @brief Method <.cctor>b__1_4, addr 0x4aa00d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_4, addr 0x4aa2d2c, size 0x54, virtual false, abstract: false, final false
   inline bool __cctor_b__1_4(::System::Exception* exception);
 
-  /// @brief Method <.cctor>b__1_5, addr 0x4aa0128, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_5, addr 0x4aa2d80, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_5();
 
-  /// @brief Method .ctor, addr 0x4a9ff84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa2bdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIEventRegistration___c* getStaticF___9();
@@ -83,7 +83,7 @@ public:
   UIEventRegistration___c(UIEventRegistration___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,25 +103,25 @@ public:
   /// @brief Field s_Utilities, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Utilities, put = setStaticF_s_Utilities)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* s_Utilities;
 
-  /// @brief Method CleanupRoots, addr 0x4a9fb70, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CleanupRoots, addr 0x4aa27c8, size 0x1dc, virtual false, abstract: false, final false
   static inline void CleanupRoots();
 
-  /// @brief Method EndContainerGUIFromException, addr 0x4a9f718, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method EndContainerGUIFromException, addr 0x4aa2370, size 0x244, virtual false, abstract: false, final false
   static inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x4a9fd4c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x4aa29a4, size 0x1dc, virtual false, abstract: false, final false
   static inline void MakeCurrentIMGUIContainerDirty();
 
-  /// @brief Method ProcessEvent, addr 0x4a9f95c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x4aa25b4, size 0x214, virtual false, abstract: false, final false
   static inline bool ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr);
 
-  /// @brief Method RegisterUIElementSystem, addr 0x4a9f2e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterUIElementSystem, addr 0x4aa1f38, size 0x84, virtual false, abstract: false, final false
   static inline void RegisterUIElementSystem(::UnityEngine::UIElements::IUIElementsUtility* utility);
 
-  /// @brief Method ReleaseCapture, addr 0x4a9f53c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCapture, addr 0x4aa2194, size 0x1dc, virtual false, abstract: false, final false
   static inline void ReleaseCapture();
 
-  /// @brief Method TakeCapture, addr 0x4a9f364, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method TakeCapture, addr 0x4aa1fbc, size 0x1d8, virtual false, abstract: false, final false
   static inline void TakeCapture();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* getStaticF_s_Utilities();
@@ -143,7 +143,7 @@ public:
   UIEventRegistration(UIEventRegistration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

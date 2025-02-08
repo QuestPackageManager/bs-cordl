@@ -107,7 +107,7 @@ public:
   TextValueField_1_TextValueInput(TextValueField_1_TextValueInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5703 };
 
   /// @brief Field <formatString>k__BackingField, offset: 0x400, size: 0x8, def value: None
   ::StringW ____formatString_k__BackingField;
@@ -241,7 +241,7 @@ public:
   TextValueField_1(TextValueField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5704 };
 
   /// @brief Field m_Dragger, offset: 0x458, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseFieldMouseDragger* ___m_Dragger;

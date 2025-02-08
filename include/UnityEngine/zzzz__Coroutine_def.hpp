@@ -25,12 +25,12 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Finalize, addr 0x48aae10, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x48ada68, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
-  /// @brief Method ReleaseCoroutine, addr 0x48aaecc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCoroutine, addr 0x48adb24, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseCoroutine(::System::IntPtr ptr);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48aae08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ada60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   Coroutine(Coroutine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10878 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

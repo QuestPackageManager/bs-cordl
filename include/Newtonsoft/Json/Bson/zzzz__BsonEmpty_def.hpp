@@ -44,14 +44,14 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::Newtonsoft::Json::Bson::BsonType value);
 
-  /// @brief Method .ctor, addr 0x3f54bf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f57850, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Bson::BsonType type);
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Null();
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Undefined();
 
-  /// @brief Method get_Type, addr 0x3f54c20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3f57878, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   static inline void setStaticF_Null(::Newtonsoft::Json::Bson::BsonToken* value);
@@ -73,7 +73,7 @@ public:
   BsonEmpty(BsonEmpty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10513 };
 
   /// @brief Field <Type>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   ::Newtonsoft::Json::Bson::BsonType ____Type_k__BackingField;

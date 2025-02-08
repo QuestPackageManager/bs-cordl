@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::UnityEngine::Texture2D*)>(&::UnityEngine::ImageConversion::EncodeToTGA)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48d4878;
+  constexpr static std::size_t addrs = 0x48d74d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::UnityEngine::Texture2D*)>(&::UnityEngine::ImageConversion::EncodeToPNG)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48d48b4;
+  constexpr static std::size_t addrs = 0x48d750c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::UnityEngine::Texture2D*, int32_t)>(
     &::UnityEngine::ImageConversion::EncodeToJPG)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48d48f0;
+  constexpr static std::size_t addrs = 0x48d7548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::UnityEngine::Texture2D*)>(&::UnityEngine::ImageConversion::EncodeToJPG)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48d4934;
+  constexpr static std::size_t addrs = 0x48d758c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::UnityEngine::Texture2D*, ::UnityEngine::Texture2D_EXRFlags)>(
     &::UnityEngine::ImageConversion::EncodeToEXR)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48d4974;
+  constexpr static std::size_t addrs = 0x48d75cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::UnityEngine::Texture2D*)>(&::UnityEngine::ImageConversion::EncodeToEXR)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48d49b8;
+  constexpr static std::size_t addrs = 0x48d7610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Texture2D*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::UnityEngine::ImageConversion::LoadImage)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48d49f8;
+  constexpr static std::size_t addrs = 0x48d7650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Texture2D*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::UnityEngine::ImageConversion::LoadImage)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48d4a4c;
+  constexpr static std::size_t addrs = 0x48d76a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

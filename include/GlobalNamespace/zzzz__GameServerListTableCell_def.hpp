@@ -50,7 +50,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerListTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x3bfe570, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3c010d4, size 0x410, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::INetworkPlayer* player);
 
   constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__difficultiesText() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  /// @brief Method .ctor, addr 0x3bfe980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c014e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   GameServerListTableCell(GameServerListTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4752 };
 
   /// @brief Field _serverName, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____serverName;

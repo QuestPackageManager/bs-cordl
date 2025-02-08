@@ -26,7 +26,7 @@ public:
 
   static inline ::HMUI::ScrollToTopOnEnable* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x39fcb18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39ff37c, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::HMUI::ScrollView> const& __cordl_internal_get__scrollView() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__scrollView(::UnityW<::HMUI::ScrollView> value);
 
-  /// @brief Method .ctor, addr 0x39fcbfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ff460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   ScrollToTopOnEnable(ScrollToTopOnEnable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16089 };
 
   /// @brief Field _scrollView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ScrollView> ____scrollView;

@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetSyncContext(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method .ctor, addr 0x3e524a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e55100, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource, ::System::Threading::SynchronizationContext* targetSyncContext);
 

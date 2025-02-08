@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_mainEffect(::UnityW<::GlobalNamespace::MainEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x26d4e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   MainEffectGraphicsSettingsPresetsSO_Preset(MainEffectGraphicsSettingsPresetsSO_Preset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13032 };
 
   /// @brief Field mainEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ___mainEffect;
@@ -103,13 +103,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d4e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x26d4e14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x26d6810, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x26d4e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x26d6808, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*>*> get_presets();
 
 protected:
@@ -127,7 +127,7 @@ public:
   MainEffectGraphicsSettingsPresetsSO(MainEffectGraphicsSettingsPresetsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13033 };
 
   /// @brief Field _presets, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*>*> ____presets;

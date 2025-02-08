@@ -71,7 +71,7 @@ public:
   static ::GlobalNamespace::PlatformException_ErrorType const PlatformUserEntitlement;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18753 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -128,10 +128,10 @@ public:
 
   constexpr void __cordl_internal_set_httpCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40823c8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4085020, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlatformException_ErrorType error, int32_t code, int32_t httpCode, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x40823b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408500c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlatformException_ErrorType error, ::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -149,7 +149,7 @@ public:
   PlatformException(PlatformException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18754 };
 
   /// @brief Field error, offset: 0x8c, size: 0x4, def value: None
   ::GlobalNamespace::PlatformException_ErrorType ___error;

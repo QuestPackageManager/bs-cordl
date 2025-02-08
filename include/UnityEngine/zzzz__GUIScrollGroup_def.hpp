@@ -58,18 +58,18 @@ public:
   /// @brief Field verticalScrollbar, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_verticalScrollbar, put = __cordl_internal_set_verticalScrollbar)) ::UnityEngine::GUIStyle* verticalScrollbar;
 
-  /// @brief Method CalcHeight, addr 0x48e5c7c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x48e88d4, size 0xfc, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x48e5b04, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x48e875c, size 0x7c, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUIScrollGroup* New_ctor();
 
-  /// @brief Method SetHorizontal, addr 0x48e5b80, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x48e87d8, size 0xfc, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x48e5d78, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x48e89d0, size 0x1a4, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
   constexpr bool const& __cordl_internal_get_allowHorizontalScroll() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_verticalScrollbar(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x48e5aa8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e8700, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   GUIScrollGroup(GUIScrollGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16657 };
 
   /// @brief Field calcMinWidth, offset: 0x90, size: 0x4, def value: None
   float_t ___calcMinWidth;

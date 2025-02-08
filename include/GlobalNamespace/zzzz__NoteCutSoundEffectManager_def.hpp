@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_useTestAudioClips(bool value);
 
-  /// @brief Method .ctor, addr 0x3ad5d68, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad85cc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool useTestAudioClips, bool ignoreBadCuts);
 
 protected:
@@ -208,30 +208,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleNoteCutSoundEffectDidFinish, addr 0x3ad5c18, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteCutSoundEffectDidFinish, addr 0x3ad847c, size 0xd8, virtual true, abstract: false, final true
   inline void HandleNoteCutSoundEffectDidFinish(::GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
 
-  /// @brief Method HandleNoteDidStartDissolving, addr 0x3ad5a78, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartDissolving, addr 0x3ad82dc, size 0x1a0, virtual false, abstract: false, final false
   inline void HandleNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteWasCut, addr 0x3ad58c8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x3ad812c, size 0x1b0, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x3ad5304, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x3ad7b68, size 0x590, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method IsSupportedNote, addr 0x3ad5894, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsSupportedNote, addr 0x3ad80f8, size 0x34, virtual false, abstract: false, final false
   inline bool IsSupportedNote(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method LateUpdate, addr 0x3ad525c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3ad7ac0, size 0xa8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteCutSoundEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad5104, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad7968, size 0x158, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ad4e68, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad76cc, size 0x29c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
@@ -354,16 +354,16 @@ public:
 
   constexpr void __cordl_internal_set__useTestAudioClips(bool value);
 
-  /// @brief Method .ctor, addr 0x3ad5cf0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad8554, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_handleWrongSaberTypeAsGood, addr 0x3ad4e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handleWrongSaberTypeAsGood, addr 0x3ad76b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_handleWrongSaberTypeAsGood();
 
   /// @brief Convert to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
   constexpr ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent* i___GlobalNamespace__INoteCutSoundEffectDidFinishEvent() noexcept;
 
-  /// @brief Method set_handleWrongSaberTypeAsGood, addr 0x3ad4e5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_handleWrongSaberTypeAsGood, addr 0x3ad76c0, size 0xc, virtual false, abstract: false, final false
   inline void set_handleWrongSaberTypeAsGood(bool value);
 
 protected:

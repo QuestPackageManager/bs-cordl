@@ -43,7 +43,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifierFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifierFactory*() noexcept;
 
-  /// @brief Method CreateCalculator, addr 0x23b4a4c, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method CreateCalculator, addr 0x23b6448, size 0xe0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x23b4a18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b6414, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method .ctor, addr 0x23b48d4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b62d0, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x23b4a44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x23b6440, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactory"

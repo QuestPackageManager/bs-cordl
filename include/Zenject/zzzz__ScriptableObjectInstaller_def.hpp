@@ -26,13 +26,13 @@ public:
   // Declarations
   static inline ::Zenject::ScriptableObjectInstaller* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4b2d3f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b30050, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2d44c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b300a4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b2d3e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b30040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,7 @@ public:
   ScriptableObjectInstaller(ScriptableObjectInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

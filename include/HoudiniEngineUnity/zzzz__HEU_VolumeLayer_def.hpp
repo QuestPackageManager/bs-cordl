@@ -68,7 +68,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3aa0464, size 0x370, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3aa2cc8, size 0x370, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
 
   static inline ::HoudiniEngineUnity::HEU_VolumeLayer* New_ctor();
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__yLength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3aa07d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa3038, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
@@ -160,7 +160,7 @@ public:
   HEU_VolumeLayer(HEU_VolumeLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11938 };
 
   /// @brief Field _layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____layerName;

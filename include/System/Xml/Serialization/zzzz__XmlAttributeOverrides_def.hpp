@@ -41,10 +41,10 @@ public:
   /// @brief Field overrides, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_overrides, put = __cordl_internal_set_overrides)) ::System::Collections::Hashtable* overrides;
 
-  /// @brief Method AddKeyHash, addr 0x4370c34, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x437388c, size 0x50c, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
-  /// @brief Method GetKey, addr 0x4370bc8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x4373820, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::TypeMember* GetKey(::System::Type* type, ::StringW member);
 
   static inline ::System::Xml::Serialization::XmlAttributeOverrides* New_ctor();
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set_overrides(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x4370a50, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43736a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x4370ab4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x437370c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* type);
 
-  /// @brief Method get_Item, addr 0x4370b14, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x437376c, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* type, ::StringW member);
 
 protected:
@@ -79,7 +79,7 @@ public:
   XmlAttributeOverrides(XmlAttributeOverrides const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7412 };
 
   /// @brief Field overrides, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___overrides;

@@ -221,7 +221,7 @@ public:
   TreeDataController_1__GetAllItemIds_d__13(TreeDataController_1__GetAllItemIds_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5476 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -406,7 +406,7 @@ public:
   TreeDataController_1__GetItemIds_d__9(TreeDataController_1__GetItemIds_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5477 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -512,7 +512,7 @@ public:
   TreeDataController_1(TreeDataController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5478 };
 
   /// @brief Field m_TreeData, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::UIElements::TreeData_1<T> ___m_TreeData;

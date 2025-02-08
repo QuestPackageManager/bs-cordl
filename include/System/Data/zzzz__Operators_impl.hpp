@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Data::Operators::IsArithmetical)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x417ea68;
+  constexpr static std::size_t addrs = 0x41816c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Data::Operators::IsLogical)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x417ea8c;
+  constexpr static std::size_t addrs = 0x41816e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Data::Operators::IsRelational)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x417eab8;
+  constexpr static std::size_t addrs = 0x4181710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Data::Operators::Priority)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x417eac8;
+  constexpr static std::size_t addrs = 0x4181720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::Data::Operators::ToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x417eb74;
+  constexpr static std::size_t addrs = 0x41817cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

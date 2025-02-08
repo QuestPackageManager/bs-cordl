@@ -75,21 +75,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3c185d8, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c1b230, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3c18694, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3c1b2ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3c1869c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3c1b2f4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c186d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c1b32c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3c185d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3c1b22c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> value);
 
-  /// @brief Method .ctor, addr 0x3c18588, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1b1e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -137,7 +137,7 @@ public:
   EndOfLifeNoticeViewController__EnableOkButton_d__10(EndOfLifeNoticeViewController__EnableOkButton_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4881 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -190,15 +190,15 @@ public:
   /// @brief Field didFinishEvent, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3c183b8, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1b010, size 0x170, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method EnableOkButton, addr 0x3c18528, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EnableOkButton, addr 0x3c1b180, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableOkButton();
 
   static inline ::GlobalNamespace::EndOfLifeNoticeViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__9_0, addr 0x3c185b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__9_0, addr 0x3c1b210, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__9_0();
 
   constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
@@ -243,13 +243,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3c185b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1b208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3c18280, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3c1aed8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3c1831c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3c1af74, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:
@@ -267,7 +267,7 @@ public:
   EndOfLifeNoticeViewController(EndOfLifeNoticeViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4882 };
 
   /// @brief Field _okButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;

@@ -341,7 +341,7 @@ public:
   static ::UnityEngine::UIElements::StylePropertyAnimationSystem_TransitionState const Started;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6137 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -418,7 +418,7 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair, int32_t>* indices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6138 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -458,7 +458,7 @@ public:
   __declspec(property(get = getStaticF_Comparer,
                       put = setStaticF_Comparer)) ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair>* Comparer;
 
-  /// @brief Method .ctor, addr 0x4a8a070, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8ccc8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSheets::StylePropertyId property);
 
   static inline ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair>* getStaticF_Comparer();
@@ -474,7 +474,7 @@ public:
   constexpr StylePropertyAnimationSystem_ElementPropertyPair(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSheets::StylePropertyId property) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -505,15 +505,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair>*() noexcept;
 
-  /// @brief Method Equals, addr 0x4a8a0f4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a8cd4c, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair x, ::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair y);
 
-  /// @brief Method GetHashCode, addr 0x4a8a10c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x4a8cd64, size 0x38, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair obj);
 
   static inline ::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a8a0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8cd44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair>"
@@ -535,7 +535,7 @@ public:
   ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer(ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6139 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -579,7 +579,7 @@ public:
   /// @brief Method UpdateValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateValues();
 
-  /// @brief Method .ctor, addr 0x4a8a144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8cd9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -597,7 +597,7 @@ public:
   StylePropertyAnimationSystem_Values(StylePropertyAnimationSystem_Values const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -644,7 +644,7 @@ public:
   TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c(TransitionEventsFrameState_Values_1_StylePropertyAnimationSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6142 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -752,7 +752,7 @@ public:
   Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState(Values_1_StylePropertyAnimationSystem_TransitionEventsFrameState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6143 };
 
   /// @brief Field elementPropertyStateDelta, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair, ::UnityEngine::UIElements::StylePropertyAnimationSystem_TransitionState>*
@@ -793,7 +793,7 @@ public:
                                                              float_t reversingShorteningFactor, bool isStarted, int32_t delayMs) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6144 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -841,7 +841,7 @@ public:
   constexpr Values_1_StylePropertyAnimationSystem_StyleData(T startValue, T endValue, T reversingAdjustedStartValue, T currentValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6145 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -884,7 +884,7 @@ public:
   constexpr Values_1_StylePropertyAnimationSystem_EmptyData();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6146 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1072,7 +1072,7 @@ public:
   StylePropertyAnimationSystem_Values_1(StylePropertyAnimationSystem_Values_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6147 };
 
   /// @brief Field m_CurrentTimeMs, offset: 0x10, size: 0x8, def value: None
   int64_t ___m_CurrentTimeMs;
@@ -1107,21 +1107,21 @@ public:
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField, put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<float_t, float_t, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method IsSame, addr 0x4a8a154, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8cdac, size 0x88, virtual false, abstract: false, final false
   static inline bool IsSame(float_t a, float_t b);
 
-  /// @brief Method Lerp, addr 0x4a8a1dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8ce34, size 0x10, virtual false, abstract: false, final false
   static inline float_t Lerp(float_t a, float_t b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8a26c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8cec4, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8a338, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8cf90, size 0xa8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8a1ec, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8ce44, size 0x80, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<float_t, float_t, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1130,10 +1130,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<float_t, float_t, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8a3e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8d038, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8a14c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8cda4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<float_t, float_t, bool>* get_SameFunc();
 
 protected:
@@ -1151,7 +1151,7 @@ public:
   StylePropertyAnimationSystem_ValuesFloat(StylePropertyAnimationSystem_ValuesFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6148 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<float_t, float_t, bool>* ____SameFunc_k__BackingField;
@@ -1176,21 +1176,21 @@ public:
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField, put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<int32_t, int32_t, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method IsSame, addr 0x4a8a480, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8d0d8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSame(int32_t a, int32_t b);
 
-  /// @brief Method Lerp, addr 0x4a8a48c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8d0e4, size 0xec, virtual false, abstract: false, final false
   static inline int32_t Lerp(int32_t a, int32_t b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8a610, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8d268, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8a6dc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8d334, size 0xa8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8a578, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8d1d0, size 0x98, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<int32_t, int32_t, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1199,10 +1199,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<int32_t, int32_t, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8a784, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8d3dc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8a478, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8d0d0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<int32_t, int32_t, bool>* get_SameFunc();
 
 protected:
@@ -1220,7 +1220,7 @@ public:
   StylePropertyAnimationSystem_ValuesInt(StylePropertyAnimationSystem_ValuesInt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6149 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<int32_t, int32_t, bool>* ____SameFunc_k__BackingField;
@@ -1246,25 +1246,25 @@ public:
   __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField,
                       put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method ConvertUnits, addr 0x4a8a8c4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method ConvertUnits, addr 0x4a8d51c, size 0x28, virtual true, abstract: false, final true
   inline bool ConvertUnits(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::ByRef<::UnityEngine::UIElements::Length> a,
                            ::ByRef<::UnityEngine::UIElements::Length> b);
 
-  /// @brief Method IsSame, addr 0x4a8a824, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8d47c, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsSame(::UnityEngine::UIElements::Length a, ::UnityEngine::UIElements::Length b);
 
-  /// @brief Method Lerp, addr 0x4a8a8ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8d544, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Lerp(::UnityEngine::UIElements::Length a, ::UnityEngine::UIElements::Length b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8a9e0, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8d638, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8aaac, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8d704, size 0xa8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8a92c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8d584, size 0xb4, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1273,10 +1273,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8ab54, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8d7ac, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8a81c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8d474, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* get_SameFunc();
 
 protected:
@@ -1294,7 +1294,7 @@ public:
   StylePropertyAnimationSystem_ValuesLength(StylePropertyAnimationSystem_ValuesLength const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6150 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* ____SameFunc_k__BackingField;
@@ -1320,21 +1320,21 @@ public:
   __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField,
                       put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method IsSame, addr 0x4a8abf4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8d84c, size 0x138, virtual false, abstract: false, final false
   static inline bool IsSame(::UnityEngine::Color c, ::UnityEngine::Color d);
 
-  /// @brief Method Lerp, addr 0x4a8ad2c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8d984, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color Lerp(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8ade8, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8da40, size 0xd0, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8aeb8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8db10, size 0xac, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8ad64, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8d9bc, size 0x84, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1343,10 +1343,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8af64, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8dbbc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8abec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8d844, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* get_SameFunc();
 
 protected:
@@ -1364,7 +1364,7 @@ public:
   StylePropertyAnimationSystem_ValuesColor(StylePropertyAnimationSystem_ValuesColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6151 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* ____SameFunc_k__BackingField;
@@ -1429,7 +1429,7 @@ public:
   StylePropertyAnimationSystem_ValuesDiscrete_1(StylePropertyAnimationSystem_ValuesDiscrete_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6152 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<T, T, bool>* ____SameFunc_k__BackingField;
@@ -1447,13 +1447,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8affc, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8dc54, size 0xdc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8b0d8, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8dd30, size 0xbc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method .ctor, addr 0x4a8b194, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8ddec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1471,7 +1471,7 @@ public:
   StylePropertyAnimationSystem_ValuesBackground(StylePropertyAnimationSystem_ValuesBackground const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1488,13 +1488,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8b1dc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8de34, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8b2a8, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8df00, size 0xa8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method .ctor, addr 0x4a8b350, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8dfa8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1512,7 +1512,7 @@ public:
   StylePropertyAnimationSystem_ValuesFontDefinition(StylePropertyAnimationSystem_ValuesFontDefinition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6154 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1529,13 +1529,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8b398, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8dff0, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8b464, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8e0bc, size 0xa8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method .ctor, addr 0x4a8b50c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8e164, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1553,7 +1553,7 @@ public:
   StylePropertyAnimationSystem_ValuesFont(StylePropertyAnimationSystem_ValuesFont const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1575,21 +1575,21 @@ public:
       get = __cordl_internal_get__SameFunc_k__BackingField,
       put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method IsSame, addr 0x4a8b55c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8e1b4, size 0x48, virtual false, abstract: false, final false
   static inline bool IsSame(::UnityEngine::UIElements::TextShadow a, ::UnityEngine::UIElements::TextShadow b);
 
-  /// @brief Method Lerp, addr 0x4a8b5a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8e1fc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextShadow Lerp(::UnityEngine::UIElements::TextShadow a, ::UnityEngine::UIElements::TextShadow b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8b714, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8e36c, size 0xf0, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8b804, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8e45c, size 0xd4, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8b600, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8e258, size 0x114, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1598,10 +1598,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8b8d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8e530, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8b554, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8e1ac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* get_SameFunc();
 
 protected:
@@ -1619,7 +1619,7 @@ public:
   StylePropertyAnimationSystem_ValuesTextShadow(StylePropertyAnimationSystem_ValuesTextShadow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6156 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* ____SameFunc_k__BackingField;
@@ -1645,21 +1645,21 @@ public:
   __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField,
                       put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method IsSame, addr 0x4a8b978, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8e5d0, size 0x54, virtual false, abstract: false, final false
   static inline bool IsSame(::UnityEngine::UIElements::Scale a, ::UnityEngine::UIElements::Scale b);
 
-  /// @brief Method Lerp, addr 0x4a8bb40, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8e798, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale Lerp(::UnityEngine::UIElements::Scale a, ::UnityEngine::UIElements::Scale b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8b9cc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8e624, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8ba98, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8e6f0, size 0xa8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8bbac, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8e804, size 0x9c, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1668,10 +1668,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8bc48, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8e8a0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8b970, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8e5c8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* get_SameFunc();
 
 protected:
@@ -1689,7 +1689,7 @@ public:
   StylePropertyAnimationSystem_ValuesScale(StylePropertyAnimationSystem_ValuesScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6157 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* ____SameFunc_k__BackingField;
@@ -1715,21 +1715,21 @@ public:
   __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField,
                       put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method IsSame, addr 0x4a8bce8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8e940, size 0x44, virtual false, abstract: false, final false
   static inline bool IsSame(::UnityEngine::UIElements::Rotate a, ::UnityEngine::UIElements::Rotate b);
 
-  /// @brief Method Lerp, addr 0x4a8bee0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8eb38, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate Lerp(::UnityEngine::UIElements::Rotate a, ::UnityEngine::UIElements::Rotate b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8bd2c, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8e984, size 0xe8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8be14, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8ea6c, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8bf58, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8ebb0, size 0xd4, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1738,10 +1738,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8c02c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8ec84, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8bce0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8e938, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* get_SameFunc();
 
 protected:
@@ -1759,7 +1759,7 @@ public:
   StylePropertyAnimationSystem_ValuesRotate(StylePropertyAnimationSystem_ValuesRotate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6158 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* ____SameFunc_k__BackingField;
@@ -1786,25 +1786,25 @@ public:
       get = __cordl_internal_get__SameFunc_k__BackingField,
       put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method ConvertUnits, addr 0x4a8c148, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ConvertUnits, addr 0x4a8eda0, size 0x20, virtual true, abstract: false, final true
   inline bool ConvertUnits(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::ByRef<::UnityEngine::UIElements::Translate> a,
                            ::ByRef<::UnityEngine::UIElements::Translate> b);
 
-  /// @brief Method IsSame, addr 0x4a8c0cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8ed24, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsSame(::UnityEngine::UIElements::Translate a, ::UnityEngine::UIElements::Translate b);
 
-  /// @brief Method Lerp, addr 0x4a8c31c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8ef74, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate Lerp(::UnityEngine::UIElements::Translate a, ::UnityEngine::UIElements::Translate b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8c168, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8edc0, size 0xe8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8c250, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8eea8, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8c398, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8eff0, size 0xd4, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1813,10 +1813,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8c46c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8f0c4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8c0c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8ed1c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* get_SameFunc();
 
 protected:
@@ -1834,7 +1834,7 @@ public:
   StylePropertyAnimationSystem_ValuesTranslate(StylePropertyAnimationSystem_ValuesTranslate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6159 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* ____SameFunc_k__BackingField;
@@ -1861,25 +1861,25 @@ public:
       get = __cordl_internal_get__SameFunc_k__BackingField,
       put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method ConvertUnits, addr 0x4a8c578, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ConvertUnits, addr 0x4a8f1d0, size 0x20, virtual true, abstract: false, final true
   inline bool ConvertUnits(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::ByRef<::UnityEngine::UIElements::TransformOrigin> a,
                            ::ByRef<::UnityEngine::UIElements::TransformOrigin> b);
 
-  /// @brief Method IsSame, addr 0x4a8c50c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8f164, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsSame(::UnityEngine::UIElements::TransformOrigin a, ::UnityEngine::UIElements::TransformOrigin b);
 
-  /// @brief Method Lerp, addr 0x4a8c74c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8f3a4, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TransformOrigin Lerp(::UnityEngine::UIElements::TransformOrigin a, ::UnityEngine::UIElements::TransformOrigin b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8c598, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8f1f0, size 0xe8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8c680, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8f2d8, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8c7c0, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8f418, size 0xe0, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -1888,10 +1888,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8c8a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8f4f8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8c504, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8f15c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* get_SameFunc();
 
 protected:
@@ -1909,7 +1909,7 @@ public:
   StylePropertyAnimationSystem_ValuesTransformOrigin(StylePropertyAnimationSystem_ValuesTransformOrigin const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6160 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* ____SameFunc_k__BackingField;
@@ -1932,13 +1932,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8c938, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8f590, size 0xe8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8ca20, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8f678, size 0xb4, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method .ctor, addr 0x4a8cad4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8f72c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1956,7 +1956,7 @@ public:
   StylePropertyAnimationSystem_ValuesBackgroundPosition(StylePropertyAnimationSystem_ValuesBackgroundPosition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1973,13 +1973,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8cb1c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8f774, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8cbe8, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8f840, size 0xa8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method .ctor, addr 0x4a8cc90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8f8e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1997,7 +1997,7 @@ public:
   StylePropertyAnimationSystem_ValuesBackgroundRepeat(StylePropertyAnimationSystem_ValuesBackgroundRepeat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6162 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2019,25 +2019,25 @@ public:
       get = __cordl_internal_get__SameFunc_k__BackingField,
       put = __cordl_internal_set__SameFunc_k__BackingField)) ::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* _SameFunc_k__BackingField;
 
-  /// @brief Method ConvertUnits, addr 0x4a8cd28, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ConvertUnits, addr 0x4a8f980, size 0x20, virtual true, abstract: false, final true
   inline bool ConvertUnits(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::ByRef<::UnityEngine::UIElements::BackgroundSize> a,
                            ::ByRef<::UnityEngine::UIElements::BackgroundSize> b);
 
-  /// @brief Method IsSame, addr 0x4a8cce0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsSame, addr 0x4a8f938, size 0x48, virtual false, abstract: false, final false
   static inline bool IsSame(::UnityEngine::UIElements::BackgroundSize a, ::UnityEngine::UIElements::BackgroundSize b);
 
-  /// @brief Method Lerp, addr 0x4a8cefc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4a8fb54, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundSize Lerp(::UnityEngine::UIElements::BackgroundSize a, ::UnityEngine::UIElements::BackgroundSize b, float_t t);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize* New_ctor();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8cd48, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8f9a0, size 0xe8, virtual true, abstract: false, final true
   inline void UpdateComputedStyle();
 
-  /// @brief Method UpdateComputedStyle, addr 0x4a8ce30, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UpdateComputedStyle, addr 0x4a8fa88, size 0xcc, virtual true, abstract: false, final true
   inline void UpdateComputedStyle(int32_t i);
 
-  /// @brief Method UpdateValues, addr 0x4a8cfe8, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method UpdateValues, addr 0x4a8fc40, size 0xec, virtual true, abstract: false, final true
   inline void UpdateValues();
 
   constexpr ::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* const& __cordl_internal_get__SameFunc_k__BackingField() const;
@@ -2046,10 +2046,10 @@ public:
 
   constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a8d0d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8fd2c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SameFunc, addr 0x4a8ccd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SameFunc, addr 0x4a8f930, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* get_SameFunc();
 
 protected:
@@ -2067,7 +2067,7 @@ public:
   StylePropertyAnimationSystem_ValuesBackgroundSize(StylePropertyAnimationSystem_ValuesBackgroundSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6163 };
 
   /// @brief Field <SameFunc>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* ____SameFunc_k__BackingField;
@@ -2194,19 +2194,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStylePropertyAnimationSystem"
   constexpr operator ::UnityEngine::UIElements::IStylePropertyAnimationSystem*() noexcept;
 
-  /// @brief Method CancelAllAnimations, addr 0x4a89914, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method CancelAllAnimations, addr 0x4a8c56c, size 0x150, virtual true, abstract: false, final true
   inline void CancelAllAnimations();
 
-  /// @brief Method CancelAllAnimations, addr 0x4a89a64, size 0x2b4, virtual true, abstract: false, final true
+  /// @brief Method CancelAllAnimations, addr 0x4a8c6bc, size 0x2b4, virtual true, abstract: false, final true
   inline void CancelAllAnimations(::UnityEngine::UIElements::VisualElement* owner);
 
-  /// @brief Method CancelAnimation, addr 0x4a89d18, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method CancelAnimation, addr 0x4a8c970, size 0x90, virtual true, abstract: false, final true
   inline void CancelAnimation(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method CurrentTimeMs, addr 0x4a89f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CurrentTimeMs, addr 0x4a8cbe8, size 0x8, virtual false, abstract: false, final false
   inline int64_t CurrentTimeMs();
 
-  /// @brief Method GetAllAnimations, addr 0x4a89e38, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method GetAllAnimations, addr 0x4a8ca90, size 0x158, virtual true, abstract: false, final true
   inline void GetAllAnimations(::UnityEngine::UIElements::VisualElement* owner, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* propertyIds);
 
   /// @brief Method GetOrCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -2214,55 +2214,55 @@ public:
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem* New_ctor();
 
-  /// @brief Method StartTransition, addr 0x4a88d14, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8b96c, size 0x110, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::Color startValue,
                               ::UnityEngine::Color endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a8900c, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8bc64, size 0xd8, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::Font* startValue,
                               ::UnityEngine::Font* endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a88e24, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8ba7c, size 0xf8, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Background startValue,
                               ::UnityEngine::UIElements::Background endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a89634, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8c28c, size 0xf0, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundPosition startValue,
                               ::UnityEngine::UIElements::BackgroundPosition endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a89724, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8c37c, size 0xd8, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundRepeat startValue,
                               ::UnityEngine::UIElements::BackgroundRepeat endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a897fc, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8c454, size 0x118, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundSize startValue,
                               ::UnityEngine::UIElements::BackgroundSize endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a88f1c, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8bb74, size 0xf0, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::FontDefinition startValue,
                               ::UnityEngine::UIElements::FontDefinition endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a88c3c, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8b894, size 0xd8, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Length startValue,
                               ::UnityEngine::UIElements::Length endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a892ec, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8bf44, size 0x118, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Rotate startValue,
                               ::UnityEngine::UIElements::Rotate endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a891fc, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8be54, size 0xf0, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Scale startValue,
                               ::UnityEngine::UIElements::Scale endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a890e4, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8bd3c, size 0x118, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::TextShadow startValue,
                               ::UnityEngine::UIElements::TextShadow endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a8951c, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8c174, size 0x118, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::TransformOrigin startValue,
                               ::UnityEngine::UIElements::TransformOrigin endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a89404, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8c05c, size 0x118, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Translate startValue,
                               ::UnityEngine::UIElements::Translate endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
@@ -2271,18 +2271,18 @@ public:
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, T startValue, T endValue, int32_t durationMs,
                               int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve, ::UnityEngine::UIElements::StylePropertyAnimationSystem_Values_1<T>* values);
 
-  /// @brief Method StartTransition, addr 0x4a88a9c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8b6f4, size 0xc8, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, float_t startValue, float_t endValue, int32_t durationMs,
                               int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartTransition, addr 0x4a88b64, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method StartTransition, addr 0x4a8b7bc, size 0xd8, virtual true, abstract: false, final true
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, int32_t startValue, int32_t endValue, int32_t durationMs,
                               int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Update, addr 0x4a89f98, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x4a8cbf0, size 0xd8, virtual true, abstract: false, final true
   inline void Update();
 
-  /// @brief Method UpdateAnimation, addr 0x4a89da8, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method UpdateAnimation, addr 0x4a8ca00, size 0x90, virtual true, abstract: false, final true
   inline void UpdateAnimation(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
   /// @brief Method UpdateTracking, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -2399,7 +2399,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Translate(::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate* value);
 
-  /// @brief Method .ctor, addr 0x4a889a0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8b5f8, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IStylePropertyAnimationSystem"
@@ -2420,7 +2420,7 @@ public:
   StylePropertyAnimationSystem(StylePropertyAnimationSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6164 };
 
   /// @brief Field m_CurrentTimeMs, offset: 0x10, size: 0x8, def value: None
   int64_t ___m_CurrentTimeMs;

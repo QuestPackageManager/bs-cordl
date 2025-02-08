@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, int32_t, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>,
                          ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo>, bool)>(&::HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3a84d14;
+  constexpr static std::size_t addrs = 0x3a87578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, int32_t, ::ArrayW<float_t, ::Array<float_t>*>, ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo>)>(
         &::HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3a85538;
+  constexpr static std::size_t addrs = 0x3a87d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, int32_t, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>,
                          ::ArrayW<int32_t, ::Array<int32_t>*>, ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo>, bool)>(&::HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshVertexAttribute)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3a85724;
+  constexpr static std::size_t addrs = 0x3a87f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, int32_t, ::ArrayW<float_t, ::Array<float_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>,
                          ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo>)>(&::HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshVertexFloatAttribute)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x3a859b0;
+  constexpr static std::size_t addrs = 0x3a88214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, int32_t, ::ByRef<::UnityEngine::Mesh*>)>(
     &::HoudiniEngineUnity::HEU_InputMeshUtility::UploadMeshIntoHoudiniNode)> {
   constexpr static std::size_t size = 0x64c;
-  constexpr static std::size_t addrs = 0x3a85bc0;
+  constexpr static std::size_t addrs = 0x3a88424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, int32_t, ::ArrayW<::UnityEngine::Vector3Int, ::Array<::UnityEngine::Vector3Int>*>,
                          ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo>)>(&::HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3a84f84;
+  constexpr static std::size_t addrs = 0x3a877e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo>)>(
         &::HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshPointAttribute)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3a851b4;
+  constexpr static std::size_t addrs = 0x3a87a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, int32_t, ::UnityEngine::Vector3, ::ByRef<::HoudiniEngineUnity::HAPI_PartInfo>)>(
         &::HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshDetailAttribute)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3a85340;
+  constexpr static std::size_t addrs = 0x3a87ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

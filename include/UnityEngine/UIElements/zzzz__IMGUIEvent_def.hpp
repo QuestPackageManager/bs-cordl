@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::IMGUIEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a368b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a39510, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IMGUIEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a368b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   IMGUIEvent___c(IMGUIEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -76,18 +76,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::IMGUIEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a366f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a39350, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IMGUIEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x4a3677c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a393d4, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a367d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a39428, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a367dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39434, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,7 +105,7 @@ public:
   IMGUIEvent(IMGUIEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5948 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

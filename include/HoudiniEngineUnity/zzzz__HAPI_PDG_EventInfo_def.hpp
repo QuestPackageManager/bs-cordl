@@ -29,7 +29,7 @@ public:
   constexpr HAPI_PDG_EventInfo(int32_t nodeId, int32_t workitemId, int32_t dependencyId, int32_t currentState, int32_t lastState, int32_t eventType, int32_t msgSH) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11738 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

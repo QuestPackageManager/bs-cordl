@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_Value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x4488004, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448ac5c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Object* value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   NameObjectCollectionBase_NameObjectEntry(NameObjectCollectionBase_NameObjectEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9502 };
 
   /// @brief Field Key, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Key;
@@ -146,12 +146,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x448851c, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x448b174, size 0xd8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator* New_ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
 
-  /// @brief Method Reset, addr 0x44885f4, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x448b24c, size 0x88, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::Specialized::NameObjectCollectionBase* const& __cordl_internal_get__coll() const;
@@ -172,10 +172,10 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4488088, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448ace0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
 
-  /// @brief Method get_Current, addr 0x448867c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x448b2d4, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -196,7 +196,7 @@ public:
   NameObjectCollectionBase_NameObjectKeysEnumerator(NameObjectCollectionBase_NameObjectKeysEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9503 };
 
   /// @brief Field _pos, offset: 0x10, size: 0x4, def value: None
   int32_t ____pos;
@@ -277,31 +277,31 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method BaseAdd, addr 0x44832b8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method BaseAdd, addr 0x4485f10, size 0x158, virtual false, abstract: false, final false
   inline void BaseAdd(::StringW name, ::System::Object* value);
 
-  /// @brief Method BaseGet, addr 0x4483968, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BaseGet, addr 0x44865c0, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Object* BaseGet(int32_t index);
 
-  /// @brief Method BaseGet, addr 0x44832a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BaseGet, addr 0x4485ef8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Object* BaseGet(::StringW name);
 
-  /// @brief Method BaseGetKey, addr 0x4483a8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BaseGetKey, addr 0x44866e4, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW BaseGetKey(int32_t index);
 
-  /// @brief Method BaseRemove, addr 0x44836c0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method BaseRemove, addr 0x4486318, size 0x204, virtual false, abstract: false, final false
   inline void BaseRemove(::StringW name);
 
-  /// @brief Method BaseSet, addr 0x4483610, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method BaseSet, addr 0x4486268, size 0xa8, virtual false, abstract: false, final false
   inline void BaseSet(::StringW name, ::System::Object* value);
 
-  /// @brief Method FindEntry, addr 0x4487f44, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method FindEntry, addr 0x448ab9c, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::NameObjectCollectionBase_NameObjectEntry* FindEntry(::StringW key);
 
-  /// @brief Method GetEnumerator, addr 0x4488030, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x448ac88, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetObjectData, addr 0x44870a0, size 0x588, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x4489cf8, size 0x588, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor();
@@ -317,22 +317,22 @@ public:
   static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialization, addr 0x44877d4, size 0x744, virtual true, abstract: false, final false
+  /// @brief Method OnDeserialization, addr 0x448a42c, size 0x744, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Reset, addr 0x4486f3c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4489b94, size 0xac, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x4486fe8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4489c40, size 0xb8, virtual false, abstract: false, final false
   inline void Reset(int32_t capacity);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x44880ec, size 0x30c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x448ad44, size 0x30c, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x448846c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x448b0c4, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x44883f8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x448b050, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__entriesArray() const;
@@ -383,30 +383,30 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4482c38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485890, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4482cfc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485954, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x4482e20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485a78, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x4483b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44867d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::DBNull* dummy);
 
-  /// @brief Method .ctor, addr 0x4486ebc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4489b14, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x4482eb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4485b10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::StringComparer* getStaticF_defaultComparer();
 
-  /// @brief Method get_Count, addr 0x44880c8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x448ad20, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x4487ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x448ac54, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -438,7 +438,7 @@ public:
   NameObjectCollectionBase(NameObjectCollectionBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9504 };
 
   /// @brief Field _readOnly, offset: 0x10, size: 0x1, def value: None
   bool ____readOnly;

@@ -34,16 +34,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3ceea28, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3cf1680, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* New_ctor();
 
-  /// @brief Method SyncProcessMessage, addr 0x3cee974, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3cf15cc, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3ceeae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf1740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* getStaticF_Instance();

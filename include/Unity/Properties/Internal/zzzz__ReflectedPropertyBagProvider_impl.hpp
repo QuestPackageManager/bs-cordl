@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::*)()>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49189f8;
+  constexpr static std::size_t addrs = 0x491b650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::*)(::System::Reflection::MethodInfo*)>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::__ctor_b__10_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4918a00;
+  constexpr static std::size_t addrs = 0x491b658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::*)(::System::Reflection::MemberInfo*)>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider___c::_GetPropertyMembers_b__22_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4918a88;
+  constexpr static std::size_t addrs = 0x491b6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)(int32_t)>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x491873c;
+  constexpr static std::size_t addrs = 0x491b394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4918ab0;
+  constexpr static std::size_t addrs = 0x491b708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x718;
-  constexpr static std::size_t addrs = 0x4918adc;
+  constexpr static std::size_t addrs = 0x491b734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::__m__Finally1)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x49191f4;
+  constexpr static std::size_t addrs = 0x491be4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::MemberInfo* (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(
         &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_Generic_IEnumerator_System_Reflection_MemberInfo__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49192a4;
+  constexpr static std::size_t addrs = 0x491befc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49192ac;
+  constexpr static std::size_t addrs = 0x491bf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49192e4;
+  constexpr static std::size_t addrs = 0x491bf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(
         &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x49192ec;
+  constexpr static std::size_t addrs = 0x491bf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,7 +252,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::*)()>(
         &::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4919388;
+  constexpr static std::size_t addrs = 0x491bfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ReflectedPropertyBagProvider::*)()>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider::_ctor)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x4918210;
+  constexpr static std::size_t addrs = 0x491ae68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Properties::IPropertyBag* (::Unity::Properties::Internal::ReflectedPropertyBagProvider::*)(::System::Type*)>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider::CreatePropertyBag)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x49185a0;
+  constexpr static std::size_t addrs = 0x491b1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* (*)(::System::Type*)>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider::GetPropertyMembers)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x49186cc;
+  constexpr static std::size_t addrs = 0x491b324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*)>(
     &::Unity::Properties::Internal::ReflectedPropertyBagProvider::IsValidMember)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4918770;
+  constexpr static std::size_t addrs = 0x491b3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::Internal::ReflectedPropertyBagProvider::IsValidPropertyType)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49188a8;
+  constexpr static std::size_t addrs = 0x491b500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

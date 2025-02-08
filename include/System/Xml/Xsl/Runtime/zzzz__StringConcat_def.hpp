@@ -25,16 +25,16 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x43954a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x43980fc, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ConcatNoDelimiter, addr 0x43955ac, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ConcatNoDelimiter, addr 0x4398204, size 0x2ac, virtual false, abstract: false, final false
   inline void ConcatNoDelimiter(::StringW s);
 
-  /// @brief Method GetResult, addr 0x43954b8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x4398110, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetResult();
 
-  /// @brief Method get_Count, addr 0x43954b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4398108, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr StringConcat(::StringW s1, ::StringW s2, ::StringW s3, ::StringW s4, ::StringW delimiter, ::System::Collections::Generic::List_1<::StringW>* strList, int32_t idxStr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7473 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

@@ -83,17 +83,17 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() noexcept;
 
-  /// @brief Method ComputeDependencyHash, addr 0x47a3e80, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ComputeDependencyHash, addr 0x47a6ad8, size 0x258, virtual false, abstract: false, final false
   inline void ComputeDependencyHash();
 
-  /// @brief Method Hash, addr 0x47a3c04, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Hash, addr 0x47a685c, size 0x54, virtual true, abstract: false, final true
   inline int32_t Hash(::System::Type* t);
 
   static inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*
   New_ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
            ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> dependencies);
 
-  /// @brief Method ToString, addr 0x47a3c58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47a68b0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Object* const& __cordl_internal_get_m_Data() const;
@@ -150,42 +150,42 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x47a3c60, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a68b8, size 0x220, virtual false, abstract: false, final false
   inline void
   _ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
         ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> dependencies);
 
-  /// @brief Method get_Data, addr 0x47a3bd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Data, addr 0x47a682c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x47a3b78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Dependencies, addr 0x47a67d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
 
-  /// @brief Method get_DependencyHashCode, addr 0x47a3bf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_DependencyHashCode, addr 0x47a684c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_DependencyHashCode();
 
-  /// @brief Method get_HasDependencies, addr 0x47a3b80, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_HasDependencies, addr 0x47a67d8, size 0x54, virtual true, abstract: false, final true
   inline bool get_HasDependencies();
 
-  /// @brief Method get_InternalId, addr 0x47a3b68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InternalId, addr 0x47a67c0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_PrimaryKey, addr 0x47a3be4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_PrimaryKey, addr 0x47a683c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_PrimaryKey();
 
-  /// @brief Method get_ProviderId, addr 0x47a3b70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ProviderId, addr 0x47a67c8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_ProviderId();
 
-  /// @brief Method get_ResourceType, addr 0x47a3bfc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ResourceType, addr 0x47a6854, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_ResourceType();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation() noexcept;
 
-  /// @brief Method set_Data, addr 0x47a3bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x47a6834, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
-  /// @brief Method set_PrimaryKey, addr 0x47a3bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PrimaryKey, addr 0x47a6844, size 0x8, virtual false, abstract: false, final false
   inline void set_PrimaryKey(::StringW value);
 
 protected:
@@ -203,7 +203,7 @@ public:
   ResourceLocationBase(ResourceLocationBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15686 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;

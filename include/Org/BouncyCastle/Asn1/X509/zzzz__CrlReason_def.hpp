@@ -30,13 +30,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlReason* New_ctor(int32_t reason);
 
-  /// @brief Method ToString, addr 0x2602c4c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2604648, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2602bd8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26045d4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason);
 
-  /// @brief Method .ctor, addr 0x2602b70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260456c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t reason);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_ReasonString();

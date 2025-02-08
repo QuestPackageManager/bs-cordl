@@ -53,18 +53,18 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x3b0913c, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x3b0bc9c, size 0x1d0, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x3b09094, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x3b0bbf4, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
   static inline ::GlobalNamespace::ResultsTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3b0909c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x3b0bbfc, size 0xa0, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x3b0930c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b0be6c, size 0x34, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
 
   constexpr ::UnityW<::GlobalNamespace::ResultsTableCell> const& __cordl_internal_get__cellPrefab() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method .ctor, addr 0x3b09340, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0bea0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
@@ -112,7 +112,7 @@ public:
   ResultsTableView(ResultsTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5003 };
 
   /// @brief Field kCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellIdentifier{ u"Cell" };

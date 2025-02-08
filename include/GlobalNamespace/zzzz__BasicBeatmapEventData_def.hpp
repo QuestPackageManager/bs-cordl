@@ -56,21 +56,21 @@ public:
   /// @brief Field value, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
-  /// @brief Method GetCopy, addr 0x224177c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x2243028, size 0x80, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x2241828, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x22430d4, size 0x10c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::BasicBeatmapEventData* New_ctor(float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue);
 
-  /// @brief Method RecalculateSameTypeIndexFromPreviousEvent, addr 0x2241808, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RecalculateSameTypeIndexFromPreviousEvent, addr 0x22430b4, size 0x20, virtual false, abstract: false, final false
   inline void RecalculateSameTypeIndexFromPreviousEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method SetFirstSameTypeIndex, addr 0x22417fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFirstSameTypeIndex, addr 0x22430a8, size 0xc, virtual false, abstract: false, final false
   inline void SetFirstSameTypeIndex();
 
-  /// @brief Method SubtypeIdentifier, addr 0x2241734, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0x2242fe0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(::GlobalNamespace::BasicBeatmapEventType type);
 
   constexpr int32_t const& __cordl_internal_get__sameTypeIndex_k__BackingField() const;
@@ -97,23 +97,23 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x224169c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2242f48, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue);
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* getStaticF__defaultsForType();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x2241614, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x2242ec0, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x224159c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x2242e48, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method get_sameTypeIndex, addr 0x224168c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameTypeIndex, addr 0x2242f38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameTypeIndex();
 
   static inline void setStaticF__defaultsForType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::GlobalNamespace::BasicBeatmapEventData*>* value);
 
-  /// @brief Method set_sameTypeIndex, addr 0x2241694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sameTypeIndex, addr 0x2242f40, size 0x8, virtual false, abstract: false, final false
   inline void set_sameTypeIndex(int32_t value);
 
 protected:
@@ -131,7 +131,7 @@ public:
   BasicBeatmapEventData(BasicBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17040 };
 
   /// @brief Field <sameTypeIndex>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____sameTypeIndex_k__BackingField;

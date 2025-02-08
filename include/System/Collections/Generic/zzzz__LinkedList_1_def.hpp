@@ -134,7 +134,7 @@ public:
                                     int32_t _index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9515 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -402,7 +402,7 @@ public:
   static constexpr ::ConstString VersionName{ u"Version" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9516 };
 
   /// @brief Field head, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<T>* ___head;

@@ -79,7 +79,7 @@ public:
   ContainerPropertyBag_1(ContainerPropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17457 };
 
   /// @brief Field m_PropertiesList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>* ___m_PropertiesList;

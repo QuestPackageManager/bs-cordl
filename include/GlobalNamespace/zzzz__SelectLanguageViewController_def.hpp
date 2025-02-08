@@ -46,18 +46,18 @@ public:
   /// @brief Field didPressContinueButtonEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent, put = __cordl_internal_set_didPressContinueButtonEvent)) ::System::Action* didPressContinueButtonEvent;
 
-  /// @brief Method DidActivate, addr 0x3b720c0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b74c20, size 0xf8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x3b72294, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x3b74df4, size 0x38, virtual false, abstract: false, final false
   inline void HandleLanguageSettingsControllerOndropDownValueDidChange();
 
   static inline ::GlobalNamespace::SelectLanguageViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b721b8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b74d18, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x3b722d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x3b74e34, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -84,19 +84,19 @@ public:
 
   constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b722cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b74e2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeLanguageEvent, addr 0x3b71e28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeLanguageEvent, addr 0x3b74988, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value);
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x3b71f88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x3b74ae8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeLanguageEvent, addr 0x3b71ed8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeLanguageEvent, addr 0x3b74a38, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3b72024, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3b74b84, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   SelectLanguageViewController(SelectLanguageViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5388 };
 
   /// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;

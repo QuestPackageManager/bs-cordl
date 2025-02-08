@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__Length_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d1a5bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1d214, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t length);
 
-  /// @brief Method get_ElementType, addr 0x3d1a5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementType, addr 0x3d1d244, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ElementType();
 
-  /// @brief Method get_Length, addr 0x3d1a5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3d1d24c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
 protected:

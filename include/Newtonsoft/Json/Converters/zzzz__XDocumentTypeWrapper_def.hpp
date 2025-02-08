@@ -51,22 +51,22 @@ public:
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::Linq::XDocumentType* value);
 
-  /// @brief Method .ctor, addr 0x3f46590, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f491e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocumentType* documentType);
 
-  /// @brief Method get_InternalSubset, addr 0x3f4660c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x3f49264, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x3f46628, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x3f49280, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x3f465b8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x3f49210, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0x3f465f0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x3f49248, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0x3f465d4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x3f4922c, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
@@ -90,7 +90,7 @@ public:
   XDocumentTypeWrapper(XDocumentTypeWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10494 };
 
   /// @brief Field _documentType, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Linq::XDocumentType* ____documentType;

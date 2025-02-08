@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* New_ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0x3c70ad0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x3c73728, size 0x1c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x3c70aa0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c736f8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
 protected:

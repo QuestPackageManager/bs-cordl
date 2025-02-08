@@ -45,7 +45,7 @@ public:
   constexpr BeatmapEditorStartTestLevelData_FpfcData(bool enabled) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5253 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -77,7 +77,7 @@ public:
   constexpr BeatmapEditorStartTestLevelData_OverdrawData(bool enabled, ::UnityEngine::ComputeBuffer* computeBuffer, int32_t audioClipFrequency, float_t samplesPerOverdrawBucket) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5254 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -128,7 +128,7 @@ public:
   constexpr BeatmapEditorStartTestLevelData(::GlobalNamespace::BeatmapEditorStartTestLevelData_FpfcData fpfc, ::GlobalNamespace::BeatmapEditorStartTestLevelData_OverdrawData overdrawData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5255 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

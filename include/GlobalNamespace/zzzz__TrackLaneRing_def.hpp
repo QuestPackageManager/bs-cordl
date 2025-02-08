@@ -58,27 +58,27 @@ public:
 
   __declspec(property(get = get_destRotZ)) float_t destRotZ;
 
-  /// @brief Method FixedUpdateRing, addr 0x3ba16ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdateRing, addr 0x3ba420c, size 0x64, virtual false, abstract: false, final false
   inline void FixedUpdateRing(float_t fixedDeltaTime);
 
-  /// @brief Method GetDestinationRotation, addr 0x3ba1788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDestinationRotation, addr 0x3ba42e8, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDestinationRotation();
 
-  /// @brief Method GetRotation, addr 0x3ba1780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x3ba42e0, size 0x8, virtual false, abstract: false, final false
   inline float_t GetRotation();
 
-  /// @brief Method Init, addr 0x3ba1634, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ba4194, size 0x78, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 positionOffset);
 
-  /// @brief Method LateUpdateRing, addr 0x3ba1710, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LateUpdateRing, addr 0x3ba4270, size 0x68, virtual false, abstract: false, final false
   inline void LateUpdateRing(float_t interpolationFactor);
 
   static inline ::GlobalNamespace::TrackLaneRing* New_ctor();
 
-  /// @brief Method SetDestRotation, addr 0x3ba1778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDestRotation, addr 0x3ba42d8, size 0x8, virtual false, abstract: false, final false
   inline void SetDestRotation(float_t destRotZ, float_t rotateSpeed);
 
-  /// @brief Method SetPosition, addr 0x3ba1790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x3ba42f0, size 0x8, virtual false, abstract: false, final false
   inline void SetPosition(float_t destPosZ, float_t moveSpeed);
 
   constexpr float_t const& __cordl_internal_get__destPosZ() const;
@@ -141,10 +141,10 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3ba1798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba42f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_destRotZ, addr 0x3ba162c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destRotZ, addr 0x3ba418c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_destRotZ();
 
 protected:
@@ -162,7 +162,7 @@ public:
   TrackLaneRing(TrackLaneRing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4380 };
 
   /// @brief Field _prevRotZ, offset: 0x20, size: 0x4, def value: None
   float_t ____prevRotZ;

@@ -39,11 +39,11 @@ public:
   /// @brief Field certPathException, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_certPathException, put = __cordl_internal_set_certPathException)) ::System::Exception* certPathException;
 
-  /// @brief Method Build, addr 0x2567420, size 0xc00, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2568e1c, size 0xc00, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::X509::X509Certificate* tbvCert,
                                                                      ::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams, ::System::Collections::IList* tbvPath);
 
-  /// @brief Method Build, addr 0x2565570, size 0xe70, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x2566f6c, size 0xe70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams);
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder* New_ctor();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_certPathException(::System::Exception* value);
 
-  /// @brief Method .ctor, addr 0x2568970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256a36c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

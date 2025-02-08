@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IO::Stream*, bool, ::System::Net::Security::SslStream*, ::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Net::Security::MobileTlsProvider*)>(
     &::Mono::Unity::UnityTlsStream::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4110e4c;
+  constexpr static std::size_t addrs = 0x4113aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Net::Security::MobileTlsContext* (::Mono::Unity::UnityTlsStream::*)(::Mono::Net::Security::MonoSslAuthenticationOptions*)>(&::Mono::Unity::UnityTlsStream::CreateContext)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x411196c;
+  constexpr static std::size_t addrs = 0x41145c4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__BuilderType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3d19bf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1c84c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* builderType);
 
 protected:

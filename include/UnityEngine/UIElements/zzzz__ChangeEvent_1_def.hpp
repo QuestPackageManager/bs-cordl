@@ -58,7 +58,7 @@ public:
   ChangeEvent_1___c(ChangeEvent_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5793 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -138,7 +138,7 @@ public:
   ChangeEvent_1(ChangeEvent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5794 };
 
   /// @brief Field <previousValue>k__BackingField, offset: 0x88, size: 0x8, def value: None
   T ____previousValue_k__BackingField;

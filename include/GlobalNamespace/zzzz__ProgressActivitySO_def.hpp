@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_subtasks(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x26e9660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb05c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   ProgressActivitySO(ProgressActivitySO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13164 };
 
   /// @brief Field subtasks, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> ___subtasks;

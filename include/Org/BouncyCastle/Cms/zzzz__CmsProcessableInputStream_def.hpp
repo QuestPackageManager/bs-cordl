@@ -38,18 +38,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method CheckSingleUsage, addr 0x2659a94, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CheckSingleUsage, addr 0x265b490, size 0xf0, virtual true, abstract: false, final false
   inline void CheckSingleUsage();
 
-  /// @brief Method GetContent, addr 0x2659a88, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x265b484, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x26599e0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x265b3dc, size 0x20, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method Write, addr 0x2659a00, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x265b3fc, size 0x88, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* output);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_input() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_used(bool value);
 
-  /// @brief Method .ctor, addr 0x2658b68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a564, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"

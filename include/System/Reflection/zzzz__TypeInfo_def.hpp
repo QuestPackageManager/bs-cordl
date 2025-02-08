@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Reflection::TypeInfo* New_ctor();
 
-  /// @brief Method System.Reflection.IReflectableType.GetTypeInfo, addr 0x3d2aa9c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Reflection.IReflectableType.GetTypeInfo, addr 0x3d2d6f4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Reflection::TypeInfo* System_Reflection_IReflectableType_GetTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3d2a3ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2d004, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ImplementedInterfaces, addr 0x3d2aaa0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_ImplementedInterfaces, addr 0x3d2d6f8, size 0x10, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ImplementedInterfaces();
 
   /// @brief Convert to "::System::Reflection::IReflectableType"

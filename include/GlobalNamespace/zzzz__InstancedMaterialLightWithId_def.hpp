@@ -57,10 +57,10 @@ public:
 
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
 
-  /// @brief Method AddNecessaryComponents, addr 0x39e4870, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddNecessaryComponents, addr 0x39e70d4, size 0x104, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
-  /// @brief Method ColorWasSet, addr 0x39e47c8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e702c, size 0xa8, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::InstancedMaterialLightWithId* New_ctor();
@@ -119,13 +119,13 @@ public:
 
   constexpr void __cordl_internal_set__startColorWasSet(bool value);
 
-  /// @brief Method .ctor, addr 0x39e4974, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e71d8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_intensity, addr 0x39e47a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x39e700c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x39e47b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x39e7014, size 0x18, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -143,7 +143,7 @@ public:
   InstancedMaterialLightWithId(InstancedMaterialLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16316 };
 
   /// @brief Field _materialPropertyBlockColorSetter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____materialPropertyBlockColorSetter;

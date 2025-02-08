@@ -85,52 +85,52 @@ public:
   /// @brief Field noParams, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
 
-  /// @brief Method AddCertsFromSet, addr 0x2673984, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method AddCertsFromSet, addr 0x2675380, size 0x4c8, virtual false, abstract: false, final false
   inline void AddCertsFromSet(::System::Collections::IList* certs, ::Org::BouncyCastle::Asn1::Asn1Set* certSet);
 
-  /// @brief Method AddCrlsFromSet, addr 0x2673e4c, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method AddCrlsFromSet, addr 0x2675848, size 0x478, virtual false, abstract: false, final false
   inline void AddCrlsFromSet(::System::Collections::IList* crls, ::Org::BouncyCastle::Asn1::Asn1Set* crlSet);
 
-  /// @brief Method AddEntries, addr 0x26719b8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method AddEntries, addr 0x26733b4, size 0x16c, virtual false, abstract: false, final false
   static inline void AddEntries(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW digest, ::StringW encryption);
 
-  /// @brief Method CreateAttributeStore, addr 0x265a928, size 0x634, virtual false, abstract: false, final false
+  /// @brief Method CreateAttributeStore, addr 0x265c324, size 0x634, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* CreateAttributeStore(::StringW type, ::Org::BouncyCastle::Asn1::Asn1Set* certSet);
 
-  /// @brief Method CreateCertificateStore, addr 0x265afe4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method CreateCertificateStore, addr 0x265c9e0, size 0x1a0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* CreateCertificateStore(::StringW type, ::Org::BouncyCastle::Asn1::Asn1Set* certSet);
 
-  /// @brief Method CreateCrlStore, addr 0x265b20c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method CreateCrlStore, addr 0x265cc08, size 0x1a0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* CreateCrlStore(::StringW type, ::Org::BouncyCastle::Asn1::Asn1Set* crlSet);
 
-  /// @brief Method FixAlgID, addr 0x265bb18, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FixAlgID, addr 0x265d514, size 0xcc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* FixAlgID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId);
 
-  /// @brief Method GetDigestAlgName, addr 0x266175c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgName, addr 0x2663158, size 0x108, virtual false, abstract: false, final false
   inline ::StringW GetDigestAlgName(::StringW digestAlgOid);
 
-  /// @brief Method GetDigestAliases, addr 0x2673838, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAliases, addr 0x2675234, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetDigestAliases(::StringW algName);
 
-  /// @brief Method GetDigestInstance, addr 0x2661bdc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetDigestInstance, addr 0x26635d8, size 0x1fc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* GetDigestInstance(::StringW algorithm);
 
-  /// @brief Method GetEncAlgorithmIdentifier, addr 0x2661dd8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetEncAlgorithmIdentifier, addr 0x26637d4, size 0x138, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetEncAlgorithmIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encOid,
                                                                                          ::Org::BouncyCastle::Asn1::Asn1Encodable* sigX509Parameters);
 
-  /// @brief Method GetEncOid, addr 0x265e274, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method GetEncOid, addr 0x265fc70, size 0x4e8, virtual false, abstract: false, final false
   inline ::StringW GetEncOid(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::StringW digestOID);
 
-  /// @brief Method GetEncryptionAlgName, addr 0x2661864, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptionAlgName, addr 0x2663260, size 0x108, virtual false, abstract: false, final false
   inline ::StringW GetEncryptionAlgName(::StringW encryptionAlgOid);
 
-  /// @brief Method GetSignatureInstance, addr 0x2666e2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureInstance, addr 0x2668828, size 0x58, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* GetSignatureInstance(::StringW algorithm);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2673830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267522c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_EncryptionECDsaWithSha1();

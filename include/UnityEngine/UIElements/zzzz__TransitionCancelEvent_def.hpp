@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::TransitionCancelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a365c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a3921c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TransitionCancelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a365bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39214, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TransitionCancelEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   TransitionCancelEvent___c(TransitionCancelEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TransitionCancelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a36518, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39170, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   TransitionCancelEvent(TransitionCancelEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

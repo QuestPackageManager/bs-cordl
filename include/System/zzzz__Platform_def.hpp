@@ -40,7 +40,7 @@ public:
   /// @brief Field isOpenBSD, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_isOpenBSD, put = setStaticF_isOpenBSD)) bool isOpenBSD;
 
-  /// @brief Method CheckOS, addr 0x4411958, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method CheckOS, addr 0x44145b0, size 0x20c, virtual false, abstract: false, final false
   static inline void CheckOS();
 
   static inline bool getStaticF_checkedOS();
@@ -55,19 +55,19 @@ public:
 
   static inline bool getStaticF_isOpenBSD();
 
-  /// @brief Method get_IsAix, addr 0x4411d58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsAix, addr 0x44149b0, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_IsAix();
 
-  /// @brief Method get_IsFreeBSD, addr 0x4411c44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsFreeBSD, addr 0x441489c, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_IsFreeBSD();
 
-  /// @brief Method get_IsIBMi, addr 0x4411cfc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsIBMi, addr 0x4414954, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_IsIBMi();
 
-  /// @brief Method get_IsMacOS, addr 0x4411b64, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_IsMacOS, addr 0x44147bc, size 0xe0, virtual false, abstract: false, final false
   static inline bool get_IsMacOS();
 
-  /// @brief Method get_IsOpenBSD, addr 0x4411ca0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsOpenBSD, addr 0x44148f8, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_IsOpenBSD();
 
   static inline void setStaticF_checkedOS(bool value);
@@ -82,7 +82,7 @@ public:
 
   static inline void setStaticF_isOpenBSD(bool value);
 
-  /// @brief Method uname, addr 0x44118dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method uname, addr 0x4414534, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t uname(::System::IntPtr buf);
 
 protected:
@@ -100,7 +100,7 @@ public:
   Platform(Platform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

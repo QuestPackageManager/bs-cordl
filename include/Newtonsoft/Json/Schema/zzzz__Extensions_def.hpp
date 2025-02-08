@@ -56,7 +56,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <IsValid>b__0, addr 0x3f032ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <IsValid>b__0, addr 0x3f05f44, size 0x8, virtual false, abstract: false, final false
   inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
 
   constexpr bool const& __cordl_internal_get_valid() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_valid(bool value);
 
-  /// @brief Method .ctor, addr 0x3f02e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f05a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   Extensions___c__DisplayClass0_0(Extensions___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10353 };
 
   /// @brief Field valid, offset: 0x10, size: 0x1, def value: None
   bool ___valid;
@@ -108,7 +108,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <IsValid>b__0, addr 0x3f032f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <IsValid>b__0, addr 0x3f05f4c, size 0xc8, virtual false, abstract: false, final false
   inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
 
   constexpr ::System::Collections::Generic::IList_1<::StringW>* const& __cordl_internal_get_errors() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_errors(::System::Collections::Generic::IList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3f032dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f05f34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   Extensions___c__DisplayClass1_0(Extensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10354 };
 
   /// @brief Field errors, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::StringW>* ___errors;
@@ -159,16 +159,16 @@ public:
 
   using __c__DisplayClass1_0 = ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0;
 
-  /// @brief Method IsValid, addr 0x3f02d48, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3f059a0, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method IsValid, addr 0x3f03158, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3f05db0, size 0x184, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::ByRef<::System::Collections::Generic::IList_1<::StringW>*> errorMessages);
 
-  /// @brief Method Validate, addr 0x3f032e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x3f05f3c, size 0x8, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method Validate, addr 0x3f02f18, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x3f05b70, size 0x240, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::Newtonsoft::Json::Schema::ValidationEventHandler* validationEventHandler);
 
 protected:
@@ -186,7 +186,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

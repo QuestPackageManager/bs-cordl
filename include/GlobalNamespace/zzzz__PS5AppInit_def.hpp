@@ -69,10 +69,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x271b7cc, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x271d210, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x271b9b8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x271d3fc, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -89,7 +89,7 @@ public:
                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17802 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -168,24 +168,24 @@ public:
                       put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler)) ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>
       _sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x271b2e8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x271cd2c, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x271b558, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x271cf9c, size 0x214, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS5AppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x271b228, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x271cc6c, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x271b350, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x271cd94, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x271b3f0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x271ce34, size 0xfc, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method TransitionToNextSceneInternal, addr 0x271b4ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextSceneInternal, addr 0x271cf30, size 0x6c, virtual false, abstract: false, final false
   inline void TransitionToNextSceneInternal();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
@@ -248,10 +248,10 @@ public:
 
   constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method <>n__0, addr 0x271b7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x271d208, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x271b76c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271d1b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -269,7 +269,7 @@ public:
   PS5AppInit(PS5AppInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17803 };
 
   /// @brief Field _mainSystemInit, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;

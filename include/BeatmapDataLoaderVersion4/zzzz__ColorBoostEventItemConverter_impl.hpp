@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>, ::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x270c26c;
+  constexpr static std::size_t addrs = 0x270dc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::*)(
     ::BeatmapSaveDataVersion4::BeatIndex*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::Convert)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x270c3e4;
+  constexpr static std::size_t addrs = 0x270dde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

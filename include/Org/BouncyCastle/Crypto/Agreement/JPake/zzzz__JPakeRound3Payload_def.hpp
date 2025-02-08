@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x268801c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2689a18, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  /// @brief Method get_MacTag, addr 0x2688b6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacTag, addr 0x268a568, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MacTag();
 
-  /// @brief Method get_ParticipantId, addr 0x2688b64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x268a560, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:

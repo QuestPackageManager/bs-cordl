@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (*)(
     ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26f58dc;
+  constexpr static std::size_t addrs = 0x26f72d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData (*)(
     ::GlobalNamespace::EnvironmentEffectsFilterPreset)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26f3720;
+  constexpr static std::size_t addrs = 0x26f511c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteJumpDurationTypeSettings (*)(
     ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_NoteJumpDurationTypeSettingsSaveData)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f58c0;
+  constexpr static std::size_t addrs = 0x26f72bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_NoteJumpDurationTypeSettingsSaveData (*)(
     ::GlobalNamespace::NoteJumpDurationTypeSettings)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f3704;
+  constexpr static std::size_t addrs = 0x26f5100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ArcVisibilityType (*)(
     ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26f58cc;
+  constexpr static std::size_t addrs = 0x26f72c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData (*)(
     ::GlobalNamespace::ArcVisibilityType)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26f3710;
+  constexpr static std::size_t addrs = 0x26f510c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
