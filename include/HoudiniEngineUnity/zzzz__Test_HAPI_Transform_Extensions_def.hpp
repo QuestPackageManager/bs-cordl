@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_HAPI_Transform_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x3a9c280, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aa4d30, size 0x80, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_Transform* ToTestObject(::HoudiniEngineUnity::HAPI_Transform self);
 
 protected:
@@ -42,7 +42,7 @@ public:
   Test_HAPI_Transform_Extensions(Test_HAPI_Transform_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

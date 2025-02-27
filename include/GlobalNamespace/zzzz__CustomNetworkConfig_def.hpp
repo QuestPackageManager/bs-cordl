@@ -153,43 +153,43 @@ public:
 
   constexpr void __cordl_internal_set__serviceEnvironment_k__BackingField(::GlobalNamespace::ServiceEnvironment value);
 
-  /// @brief Method .ctor, addr 0x22c2eac, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c6be4, size 0x4a8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift);
 
-  /// @brief Method get_appId, addr 0x22c2e64, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_appId, addr 0x22c6b9c, size 0x48, virtual true, abstract: false, final true
   inline ::StringW get_appId();
 
-  /// @brief Method get_discoveryPort, addr 0x22c2dd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_discoveryPort, addr 0x22c6b0c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_forceGameLift, addr 0x22c2e54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_forceGameLift, addr 0x22c6b8c, size 0x8, virtual true, abstract: false, final true
   inline bool get_forceGameLift();
 
-  /// @brief Method get_graphAccessToken, addr 0x22c2e4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphAccessToken, addr 0x22c6b84, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphAccessToken();
 
-  /// @brief Method get_graphUrl, addr 0x22c2e44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphUrl, addr 0x22c6b7c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_masterServerEndPoint, addr 0x22c2dec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_masterServerEndPoint, addr 0x22c6b24, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
 
-  /// @brief Method get_maxPartySize, addr 0x22c2dcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_maxPartySize, addr 0x22c6b04, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();
 
-  /// @brief Method get_multiplayerPort, addr 0x22c2de4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerPort, addr 0x22c6b1c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_multiplayerStatusUrl, addr 0x22c2df4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerStatusUrl, addr 0x22c6b2c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerStatusUrl();
 
-  /// @brief Method get_partyPort, addr 0x22c2ddc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_partyPort, addr 0x22c6b14, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_partyPort();
 
-  /// @brief Method get_quickPlaySetupUrl, addr 0x22c2dfc, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_quickPlaySetupUrl, addr 0x22c6b34, size 0x48, virtual true, abstract: false, final true
   inline ::StringW get_quickPlaySetupUrl();
 
-  /// @brief Method get_serviceEnvironment, addr 0x22c2e5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_serviceEnvironment, addr 0x22c6b94, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
   /// @brief Convert to "::GlobalNamespace::INetworkConfig"
@@ -210,7 +210,7 @@ public:
   CustomNetworkConfig(CustomNetworkConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14718 };
 
   /// @brief Field <maxPartySize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____maxPartySize_k__BackingField;

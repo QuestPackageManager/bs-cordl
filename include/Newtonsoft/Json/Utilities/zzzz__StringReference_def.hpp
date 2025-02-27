@@ -28,22 +28,22 @@ public:
 
   __declspec(property(get = get_StartIndex)) int32_t StartIndex;
 
-  /// @brief Method ToString, addr 0x3edbcc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ee4bc8, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3edbcb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee4bbc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startIndex, int32_t length);
 
-  /// @brief Method get_Chars, addr 0x3edbca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Chars, addr 0x3ee4ba4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> get_Chars();
 
-  /// @brief Method get_Item, addr 0x3edbc70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3ee4b74, size 0x30, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x3edbcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3ee4bb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_StartIndex, addr 0x3edbca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartIndex, addr 0x3ee4bac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartIndex();
 
   // Ctor Parameters []
@@ -55,7 +55,7 @@ public:
   constexpr StringReference(::ArrayW<char16_t, ::Array<char16_t>*> _chars, int32_t _startIndex, int32_t _length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10275 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

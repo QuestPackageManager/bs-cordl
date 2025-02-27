@@ -32,10 +32,10 @@ public:
   /// @brief Field unknown, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_unknown, put = setStaticF_unknown)) ::StringW unknown;
 
-  /// @brief Method GetPointerType, addr 0x4a35060, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPointerType, addr 0x4a3e090, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW GetPointerType(int32_t pointerId);
 
-  /// @brief Method IsDirectManipulationDevice, addr 0x4a3513c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsDirectManipulationDevice, addr 0x4a3e16c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsDirectManipulationDevice(::StringW pointerType);
 
   static inline ::StringW getStaticF_mouse();
@@ -69,7 +69,7 @@ public:
   PointerType(PointerType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5905 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

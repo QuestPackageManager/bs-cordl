@@ -76,7 +76,7 @@ public:
   ValuePair_2(ValuePair_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11968 };
 
   /// @brief Field First, offset: 0x10, size: 0x8, def value: None
   T1 ___First;

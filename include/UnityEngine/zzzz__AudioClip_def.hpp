@@ -48,12 +48,12 @@ namespace UnityEngine {
 class CORDL_TYPE AudioClip_PCMReaderCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x485df34, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4866f64, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<float_t, ::Array<float_t>*> data);
 
   static inline ::UnityEngine::AudioClip_PCMReaderCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x485de98, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4866ec8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -71,7 +71,7 @@ public:
   AudioClip_PCMReaderCallback(AudioClip_PCMReaderCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -86,12 +86,12 @@ namespace UnityEngine {
 class CORDL_TYPE AudioClip_PCMSetPositionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x485dfd4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4867004, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(int32_t position);
 
   static inline ::UnityEngine::AudioClip_PCMSetPositionCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x485df48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4866f78, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -109,7 +109,7 @@ public:
   AudioClip_PCMSetPositionCallback(AudioClip_PCMSetPositionCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -155,61 +155,61 @@ public:
 
   __declspec(property(get = get_samples)) int32_t samples;
 
-  /// @brief Method Construct_Internal, addr 0x485d2a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Construct_Internal, addr 0x48662d8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Construct_Internal();
 
-  /// @brief Method Create, addr 0x485d9fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4866a2c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream);
 
-  /// @brief Method Create, addr 0x485da1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4866a4c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
                                                           ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback);
 
-  /// @brief Method Create, addr 0x485dbd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4866c04, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool _3D, bool stream,
                                                           ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback, ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback);
 
-  /// @brief Method Create, addr 0x485da0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4866a3c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream);
 
-  /// @brief Method Create, addr 0x485dbe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4866c14, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
                                                           ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback);
 
-  /// @brief Method Create, addr 0x485da2c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4866a5c, size 0x1a8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AudioClip> Create(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream,
                                                           ::UnityEngine::AudioClip_PCMReaderCallback* pcmreadercallback, ::UnityEngine::AudioClip_PCMSetPositionCallback* pcmsetpositioncallback);
 
-  /// @brief Method CreateUserSound, addr 0x485d30c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateUserSound, addr 0x486633c, size 0x74, virtual false, abstract: false, final false
   inline void CreateUserSound(::StringW name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream);
 
-  /// @brief Method GetData, addr 0x485d1f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x4866220, size 0x5c, virtual false, abstract: false, final false
   static inline bool GetData(::UnityEngine::AudioClip* clip, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> data, int32_t numSamples, int32_t samplesOffset);
 
-  /// @brief Method GetData, addr 0x485d650, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x4866680, size 0x188, virtual false, abstract: false, final false
   inline bool GetData(::ArrayW<float_t, ::Array<float_t>*> data, int32_t offsetSamples);
 
-  /// @brief Method GetName, addr 0x485d2d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x4866300, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetName();
 
-  /// @brief Method InvokePCMReaderCallback_Internal, addr 0x485de60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokePCMReaderCallback_Internal, addr 0x4866e90, size 0x1c, virtual false, abstract: false, final false
   inline void InvokePCMReaderCallback_Internal(::ArrayW<float_t, ::Array<float_t>*> data);
 
-  /// @brief Method InvokePCMSetPositionCallback_Internal, addr 0x485de7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokePCMSetPositionCallback_Internal, addr 0x4866eac, size 0x1c, virtual false, abstract: false, final false
   inline void InvokePCMSetPositionCallback_Internal(int32_t position);
 
-  /// @brief Method LoadAudioData, addr 0x485d4e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadAudioData, addr 0x4866518, size 0x3c, virtual false, abstract: false, final false
   inline bool LoadAudioData();
 
   static inline ::UnityEngine::AudioClip* New_ctor();
 
-  /// @brief Method SetData, addr 0x485d24c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x486627c, size 0x5c, virtual false, abstract: false, final false
   static inline bool SetData(::UnityEngine::AudioClip* clip, ::ArrayW<float_t, ::Array<float_t>*> data, int32_t numsamples, int32_t samplesOffset);
 
-  /// @brief Method SetData, addr 0x485d7d8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x4866808, size 0x224, virtual false, abstract: false, final false
   inline bool SetData(::ArrayW<float_t, ::Array<float_t>*> data, int32_t offsetSamples);
 
-  /// @brief Method UnloadAudioData, addr 0x485d524, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UnloadAudioData, addr 0x4866554, size 0x3c, virtual false, abstract: false, final false
   inline bool UnloadAudioData();
 
   constexpr ::UnityEngine::AudioClip_PCMReaderCallback* const& __cordl_internal_get_m_PCMReaderCallback() const;
@@ -224,49 +224,49 @@ public:
 
   constexpr void __cordl_internal_set_m_PCMSetPositionCallback(::UnityEngine::AudioClip_PCMSetPositionCallback* value);
 
-  /// @brief Method .ctor, addr 0x485d194, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48661c4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_m_PCMReaderCallback, addr 0x485dbf0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_m_PCMReaderCallback, addr 0x4866c20, size 0x9c, virtual false, abstract: false, final false
   inline void add_m_PCMReaderCallback(::UnityEngine::AudioClip_PCMReaderCallback* value);
 
-  /// @brief Method add_m_PCMSetPositionCallback, addr 0x485dc8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_m_PCMSetPositionCallback, addr 0x4866cbc, size 0x9c, virtual false, abstract: false, final false
   inline void add_m_PCMSetPositionCallback(::UnityEngine::AudioClip_PCMSetPositionCallback* value);
 
-  /// @brief Method get_ambisonic, addr 0x485d59c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ambisonic, addr 0x48665cc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_ambisonic();
 
-  /// @brief Method get_channels, addr 0x485d3f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_channels, addr 0x4866428, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_channels();
 
-  /// @brief Method get_frequency, addr 0x485d434, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frequency, addr 0x4866464, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_frequency();
 
-  /// @brief Method get_isReadyToPlay, addr 0x485d470, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isReadyToPlay, addr 0x48664a0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isReadyToPlay();
 
-  /// @brief Method get_length, addr 0x485d380, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x48663b0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method get_loadInBackground, addr 0x485d5d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loadInBackground, addr 0x4866608, size 0x3c, virtual false, abstract: false, final false
   inline bool get_loadInBackground();
 
-  /// @brief Method get_loadState, addr 0x485d614, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loadState, addr 0x4866644, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioDataLoadState get_loadState();
 
-  /// @brief Method get_loadType, addr 0x485d4ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loadType, addr 0x48664dc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioClipLoadType get_loadType();
 
-  /// @brief Method get_preloadAudioData, addr 0x485d560, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_preloadAudioData, addr 0x4866590, size 0x3c, virtual false, abstract: false, final false
   inline bool get_preloadAudioData();
 
-  /// @brief Method get_samples, addr 0x485d3bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_samples, addr 0x48663ec, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_samples();
 
-  /// @brief Method remove_m_PCMReaderCallback, addr 0x485dd28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_m_PCMReaderCallback, addr 0x4866d58, size 0x9c, virtual false, abstract: false, final false
   inline void remove_m_PCMReaderCallback(::UnityEngine::AudioClip_PCMReaderCallback* value);
 
-  /// @brief Method remove_m_PCMSetPositionCallback, addr 0x485ddc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_m_PCMSetPositionCallback, addr 0x4866df4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_m_PCMSetPositionCallback(::UnityEngine::AudioClip_PCMSetPositionCallback* value);
 
 protected:
@@ -284,7 +284,7 @@ public:
   AudioClip(AudioClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17871 };
 
   /// @brief Field m_PCMReaderCallback, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AudioClip_PCMReaderCallback* ___m_PCMReaderCallback;

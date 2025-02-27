@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460a26c;
+  constexpr static std::size_t addrs = 0x461329c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

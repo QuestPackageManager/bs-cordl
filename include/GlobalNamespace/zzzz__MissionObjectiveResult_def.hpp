@@ -58,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set__value_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d7138, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26db224, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int32_t value);
 
-  /// @brief Method get_cleared, addr 0x26d7114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x26db200, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method get_missionObjective, addr 0x26d7104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjective, addr 0x26db1f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
-  /// @brief Method get_value, addr 0x26d7128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x26db214, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method set_cleared, addr 0x26d711c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x26db208, size 0xc, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
-  /// @brief Method set_missionObjective, addr 0x26d710c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionObjective, addr 0x26db1f8, size 0x8, virtual false, abstract: false, final false
   inline void set_missionObjective(::GlobalNamespace::MissionObjective* value);
 
-  /// @brief Method set_value, addr 0x26d7130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x26db21c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   MissionObjectiveResult(MissionObjectiveResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13050 };
 
   /// @brief Field <missionObjective>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MissionObjective* ____missionObjective_k__BackingField;

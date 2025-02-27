@@ -43,43 +43,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMask256>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMask256>*();
 
-  /// @brief Method CreateFromSerializedData, addr 0x271f140, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x2723484, size 0x2c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMask256 CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0x271f16c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x27234b0, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x271f2f8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x272363c, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x271f2ac, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x27235f0, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BitMask256 other);
 
-  /// @brief Method GetBits, addr 0x271edf0, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method GetBits, addr 0x2723134, size 0x154, virtual true, abstract: false, final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
-  /// @brief Method GetHashCode, addr 0x271f3a0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27236e4, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Serialize, addr 0x271f0e0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x2723424, size 0x60, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetBits, addr 0x271ed20, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method SetBits, addr 0x2723064, size 0xd0, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMask256 SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method ToString, addr 0x271f1d8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x272351c, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x271ed08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272304c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t d0, uint64_t d1, uint64_t d2, uint64_t d3);
 
-  /// @brief Method .ctor, addr 0x271ed14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2723058, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
-  /// @brief Method get_bitCount, addr 0x271ecf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bitCount, addr 0x2723038, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
-  /// @brief Method get_maxValue, addr 0x271ecfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x2723040, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 get_maxValue();
 
   /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMask256>"
@@ -91,28 +91,28 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BitMask256>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BitMask256>* i___System__IEquatable_1___GlobalNamespace__BitMask256_();
 
-  /// @brief Method op_BitwiseAnd, addr 0x271ef5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x27232a0, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 op_BitwiseAnd(::ByRef<::GlobalNamespace::BitMask256> a, ::ByRef<::GlobalNamespace::BitMask256> b);
 
-  /// @brief Method op_BitwiseOr, addr 0x271ef44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x2723288, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 op_BitwiseOr(::ByRef<::GlobalNamespace::BitMask256> a, ::ByRef<::GlobalNamespace::BitMask256> b);
 
-  /// @brief Method op_Equality, addr 0x271f03c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2723380, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::ByRef<::GlobalNamespace::BitMask256> a, ::ByRef<::GlobalNamespace::BitMask256> b);
 
-  /// @brief Method op_ExclusiveOr, addr 0x271ef74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x27232b8, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 op_ExclusiveOr(::ByRef<::GlobalNamespace::BitMask256> a, ::ByRef<::GlobalNamespace::BitMask256> b);
 
-  /// @brief Method op_Implicit, addr 0x271f0d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2723418, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 op_Implicit___GlobalNamespace__BitMask256(uint64_t value);
 
-  /// @brief Method op_Inequality, addr 0x271f088, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x27233cc, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::ByRef<::GlobalNamespace::BitMask256> a, ::ByRef<::GlobalNamespace::BitMask256> b);
 
-  /// @brief Method op_LeftShift, addr 0x271ef8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_LeftShift, addr 0x27232d0, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 op_LeftShift(::ByRef<::GlobalNamespace::BitMask256> a, int32_t bits);
 
-  /// @brief Method op_RightShift, addr 0x271efe4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_RightShift, addr 0x2723328, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 op_RightShift(::ByRef<::GlobalNamespace::BitMask256> a, int32_t bits);
 
   // Ctor Parameters []
@@ -124,7 +124,7 @@ public:
   constexpr BitMask256(uint64_t _d0, uint64_t _d1, uint64_t _d2, uint64_t _d3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16973 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

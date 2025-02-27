@@ -38,34 +38,33 @@ public:
   /// @brief Field emptySHA512, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_emptySHA512, put = setStaticF_emptySHA512)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA512;
 
-  /// @brief Method Compare, addr 0x3c6926c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c568b8, size 0x8c, virtual false, abstract: false, final false
   static inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method CreateFromName, addr 0x3c69890, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x3c5741c, size 0x404, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
 
-  /// @brief Method Encode_v15, addr 0x3c69c98, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method CreateFromOid, addr 0x3c573c0, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromOid(::StringW oid);
+
+  /// @brief Method Encode_v15, addr 0x3c56c84, size 0x334, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode_v15(::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, int32_t emLength);
 
-  /// @brief Method I2OSP, addr 0x3c692f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HashNameFromOid, addr 0x3c56fb8, size 0x38c, virtual false, abstract: false, final false
+  static inline ::StringW HashNameFromOid(::StringW oid, bool throwOnError);
+
+  /// @brief Method I2OSP, addr 0x3c56944, size 0x8c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> I2OSP(::ArrayW<uint8_t, ::Array<uint8_t>*> x, int32_t size);
 
-  /// @brief Method OS2IP, addr 0x3c69384, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OS2IP, addr 0x3c569d0, size 0xc0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> OS2IP(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method RSAVP1, addr 0x3c69444, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RSAVP1, addr 0x3c56a90, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RSAVP1(::System::Security::Cryptography::RSA* rsa, ::ArrayW<uint8_t, ::Array<uint8_t>*> s);
 
-  /// @brief Method Verify_v15, addr 0x3c69460, size 0x80, virtual false, abstract: false, final false
-  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
-                                ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
-
-  /// @brief Method Verify_v15, addr 0x3c694e0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Verify_v15, addr 0x3c56aac, size 0x1d8, virtual false, abstract: false, final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> signature, bool tryNonStandardEncoding);
-
-  /// @brief Method Verify_v15, addr 0x3c696b8, size 0x1d8, virtual false, abstract: false, final false
-  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::StringW hashName, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_emptySHA1();
 
@@ -98,7 +97,7 @@ public:
   PKCS1(PKCS1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15974 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

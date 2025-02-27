@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_top(float_t value);
 
-  /// @brief Method .ctor, addr 0x39f43ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fce9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   FloatRectOffset(FloatRectOffset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16049 };
 
   /// @brief Field left, offset: 0x10, size: 0x4, def value: None
   float_t ___left;

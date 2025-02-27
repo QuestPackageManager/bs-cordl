@@ -57,7 +57,7 @@ public:
 
   static inline ::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x3c0a7dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x3c13714, size 0xbc, virtual false, abstract: false, final false
   inline bool _HasUserSelectedAvatarSystemWithCreatedAvatar_b__0(::BeatSaber::AvatarCore::IAvatarSystemMetadata* system);
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get_playerDataModel() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x3c0a7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1370c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,10 +107,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c0a898, size 0x3f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c137d0, size 0x3f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c0ac90, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c13bc8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -177,13 +177,13 @@ public:
 
   using __c__DisplayClass0_0 = ::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0;
 
-  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x3c0a6c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x3c135fc, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* HasUserSelectedAvatarSystemWithCreatedAvatar(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                                                        ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
   static inline ::GlobalNamespace::FlowCoordinatorAvatarsHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c0a7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c13704, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

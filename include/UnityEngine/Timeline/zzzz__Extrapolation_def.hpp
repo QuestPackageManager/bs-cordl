@@ -44,10 +44,10 @@ public:
 
   static inline ::UnityEngine::Timeline::Extrapolation___c* New_ctor();
 
-  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x48315ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x483a5dc, size 0x30, virtual false, abstract: false, final false
   inline int32_t _SortClipsByStartTime_b__2_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
 
-  /// @brief Method .ctor, addr 0x48315a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483a5d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Timeline::Extrapolation___c* getStaticF___9();
@@ -73,7 +73,7 @@ public:
   Extrapolation___c(Extrapolation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,10 +93,10 @@ public:
   /// @brief Field kMinExtrapolationTime, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kMinExtrapolationTime, put = setStaticF_kMinExtrapolationTime)) double_t kMinExtrapolationTime;
 
-  /// @brief Method CalculateExtrapolationTimes, addr 0x4830f74, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method CalculateExtrapolationTimes, addr 0x4839fa4, size 0x418, virtual false, abstract: false, final false
   static inline void CalculateExtrapolationTimes(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SortClipsByStartTime, addr 0x483138c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SortClipsByStartTime, addr 0x483a3bc, size 0x138, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*>
   SortClipsByStartTime(::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> clips);
 
@@ -119,7 +119,7 @@ public:
   Extrapolation(Extrapolation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

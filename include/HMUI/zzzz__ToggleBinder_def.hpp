@@ -51,7 +51,7 @@ public:
 
   static inline ::HMUI::ToggleBinder___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <AddBinding>b__0, addr 0x39f1ac0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddBinding>b__0, addr 0x39fa570, size 0x3c, virtual false, abstract: false, final false
   inline void _AddBinding_b__0(bool b);
 
   constexpr ::System::Action* const& __cordl_internal_get_action() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x39f1488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f9f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ToggleBinder___c__DisplayClass7_0(ToggleBinder___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16032 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;
@@ -119,25 +119,25 @@ public:
   /// @brief Field _enabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Method AddBinding, addr 0x39f1294, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x39f9d44, size 0xdc, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBinding, addr 0x39f1370, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x39f9e20, size 0x118, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
 
-  /// @brief Method AddBindings, addr 0x39f1130, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x39f9be0, size 0x164, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x39f1490, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x39f9f40, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x39f16c4, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x39fa174, size 0x1fc, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x39f18c0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x39fa370, size 0x200, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x39f1080, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39f9b30, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::ToggleBinder* New_ctor();
@@ -156,10 +156,10 @@ public:
 
   constexpr void __cordl_internal_set__enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x39f105c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f9b0c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x39f10f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f9ba4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
 protected:
@@ -177,7 +177,7 @@ public:
   ToggleBinder(ToggleBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16033 };
 
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::UnityEngine::Events::UnityAction_1<bool>*>*>* ____bindings;

@@ -38,27 +38,27 @@ public:
   /// @brief Field _uniqueStrOnly, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__uniqueStrOnly, put = __cordl_internal_set__uniqueStrOnly)) bool _uniqueStrOnly;
 
-  /// @brief Method AppendCookLog, addr 0x3a6d248, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AppendCookLog, addr 0x3a75cf8, size 0x100, virtual false, abstract: false, final false
   inline void AppendCookLog(::StringW logStr);
 
-  /// @brief Method ClearCookLog, addr 0x3a6d598, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClearCookLog, addr 0x3a76048, size 0x5c, virtual false, abstract: false, final false
   inline void ClearCookLog();
 
-  /// @brief Method DeleteCookingFile, addr 0x3a6d70c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DeleteCookingFile, addr 0x3a761bc, size 0x88, virtual false, abstract: false, final false
   inline void DeleteCookingFile();
 
-  /// @brief Method GetCookLogFilePath, addr 0x3a6d5f4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetCookLogFilePath, addr 0x3a760a4, size 0x118, virtual false, abstract: false, final false
   inline ::StringW GetCookLogFilePath();
 
-  /// @brief Method GetCookLogString, addr 0x3a6d228, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCookLogString, addr 0x3a75cd8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetCookLogString();
 
-  /// @brief Method GetFileSizeOfLogFile, addr 0x3a6d794, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetFileSizeOfLogFile, addr 0x3a76244, size 0x88, virtual false, abstract: false, final false
   inline int64_t GetFileSizeOfLogFile();
 
   static inline ::HoudiniEngineUnity::HEU_CookLogs* New_ctor();
 
-  /// @brief Method WriteToLogFile, addr 0x3a6d348, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method WriteToLogFile, addr 0x3a75df8, size 0x250, virtual false, abstract: false, final false
   inline void WriteToLogFile(::StringW logStr, bool checkLastLogStr);
 
   constexpr ::System::Text::StringBuilder* const& __cordl_internal_get__cookLogs() const;
@@ -85,12 +85,12 @@ public:
 
   constexpr void __cordl_internal_set__uniqueStrOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x3a6d19c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a75c4c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::HEU_CookLogs* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x3a6d128, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3a75bd8, size 0x74, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_CookLogs* get_Instance();
 
   static inline void setStaticF__instance(::HoudiniEngineUnity::HEU_CookLogs* value);
@@ -116,7 +116,7 @@ public:
   static constexpr int64_t MaxLogSize{ static_cast<int64_t>(0x2faf080) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11805 };
 
   /// @brief Field _cookLogs, offset: 0x10, size: 0x8, def value: None
   ::System::Text::StringBuilder* ____cookLogs;

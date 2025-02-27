@@ -26,22 +26,22 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE KeyHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddField, addr 0x436c4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x4375508, size 0x8, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, ::StringW val);
 
-  /// @brief Method AddField, addr 0x436c4e0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x4375510, size 0xe4, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, ::StringW val, ::StringW def);
 
-  /// @brief Method AddField, addr 0x436c6d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x4375708, size 0xec, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, ::System::Type* val);
 
-  /// @brief Method AddField, addr 0x436c5c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x43755f4, size 0xc, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, bool val);
 
-  /// @brief Method AddField, addr 0x436c5d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x4375600, size 0x50, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, bool val, bool def);
 
-  /// @brief Method AddField, addr 0x436c620, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x4375650, size 0xb8, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, int32_t val, int32_t def);
 
 protected:
@@ -59,7 +59,7 @@ public:
   KeyHelper(KeyHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7397 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

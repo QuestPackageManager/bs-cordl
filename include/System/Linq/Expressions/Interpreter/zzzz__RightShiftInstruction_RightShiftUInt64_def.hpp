@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::RightShiftInstruction_RightShiftUInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x40fa2b0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x41032e0, size 0x10c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f9bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4102bfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   RightShiftInstruction_RightShiftUInt64(RightShiftInstruction_RightShiftUInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

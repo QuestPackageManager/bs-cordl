@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ContextClickEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a30d78, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a39da8, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextClickEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a30d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39da0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ContextClickEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   ContextClickEvent___c(ContextClickEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ContextClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a30ccc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39cfc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   ContextClickEvent(ContextClickEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

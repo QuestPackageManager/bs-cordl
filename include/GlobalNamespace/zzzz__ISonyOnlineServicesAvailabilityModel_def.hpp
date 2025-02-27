@@ -65,7 +65,7 @@ public:
   static ::GlobalNamespace::ISonyOnlineServicesAvailabilityModel_OnlineServicesAvailability const UnknownError;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13178 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -98,7 +98,7 @@ public:
   ISonyOnlineServicesAvailabilityModel(ISonyOnlineServicesAvailabilityModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13179 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

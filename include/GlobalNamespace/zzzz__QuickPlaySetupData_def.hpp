@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_packName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d7f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dc03c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
 
   /// @brief Field language, offset: 0x10, size: 0x8, def value: None
   ::StringW ___language;
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set_serializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d7f58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dc044, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -179,7 +179,7 @@ public:
   QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack(QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
 
   /// @brief Field serializedName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___serializedName;
@@ -236,7 +236,7 @@ public:
 
   constexpr void __cordl_internal_set_packId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d7fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dc0c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -254,7 +254,7 @@ public:
   QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack(QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13066 };
 
   /// @brief Field order, offset: 0x10, size: 0x4, def value: None
   int32_t ___order;
@@ -309,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_predefinedPackIds(::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack*>* value);
 
-  /// @brief Method .ctor, addr 0x26d7e8c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dbf78, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -327,7 +327,7 @@ public:
   QuickPlaySetupData_QuickPlaySongPacksOverride(QuickPlaySetupData_QuickPlaySongPacksOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13067 };
 
   /// @brief Field predefinedPackIds, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack*>* ___predefinedPackIds;
@@ -368,10 +368,10 @@ public:
 
   constexpr void __cordl_internal_set_quickPlayAvailablePacksOverride(::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride* value);
 
-  /// @brief Method .ctor, addr 0x26d7e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dbf70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOverride, addr 0x26d7dfc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_hasOverride, addr 0x26dbee8, size 0x88, virtual false, abstract: false, final false
   inline bool get_hasOverride();
 
 protected:
@@ -389,7 +389,7 @@ public:
   QuickPlaySetupData(QuickPlaySetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13068 };
 
   /// @brief Field quickPlayAvailablePacksOverride, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride* ___quickPlayAvailablePacksOverride;

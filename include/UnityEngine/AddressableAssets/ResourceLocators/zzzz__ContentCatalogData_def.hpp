@@ -83,7 +83,7 @@ public:
   constexpr ContentCatalogData_Bucket(int32_t dataOffset, ::ArrayW<int32_t, ::Array<int32_t>*> entries) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16211 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -157,14 +157,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() noexcept;
 
-  /// @brief Method Hash, addr 0x4502354, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Hash, addr 0x450b384, size 0x54, virtual true, abstract: false, final true
   inline int32_t Hash(::System::Type* t);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData_CompactLocation* New_ctor(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locator,
                                                                                                                  ::StringW internalId, ::StringW providerId, ::System::Object* dependencyKey,
                                                                                                                  ::System::Object* data, int32_t depHash, ::StringW primaryKey, ::System::Type* type);
 
-  /// @brief Method ToString, addr 0x450234c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x450b37c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Object* const& __cordl_internal_get_m_Data() const;
@@ -221,38 +221,38 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4500a0c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4509a3c, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locator, ::StringW internalId, ::StringW providerId, ::System::Object* dependencyKey,
                     ::System::Object* data, int32_t depHash, ::StringW primaryKey, ::System::Type* type);
 
-  /// @brief Method get_Data, addr 0x450232c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Data, addr 0x450b35c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x4502260, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method get_Dependencies, addr 0x450b290, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
 
-  /// @brief Method get_DependencyHashCode, addr 0x4502324, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_DependencyHashCode, addr 0x450b354, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_DependencyHashCode();
 
-  /// @brief Method get_HasDependencies, addr 0x4502314, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_HasDependencies, addr 0x450b344, size 0x10, virtual true, abstract: false, final true
   inline bool get_HasDependencies();
 
-  /// @brief Method get_InternalId, addr 0x4502250, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InternalId, addr 0x450b280, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_PrimaryKey, addr 0x4502334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_PrimaryKey, addr 0x450b364, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_PrimaryKey();
 
-  /// @brief Method get_ProviderId, addr 0x4502258, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ProviderId, addr 0x450b288, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_ProviderId();
 
-  /// @brief Method get_ResourceType, addr 0x4502344, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ResourceType, addr 0x450b374, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_ResourceType();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation() noexcept;
 
-  /// @brief Method set_PrimaryKey, addr 0x450233c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PrimaryKey, addr 0x450b36c, size 0x8, virtual false, abstract: false, final false
   inline void set_PrimaryKey(::StringW value);
 
 protected:
@@ -270,7 +270,7 @@ public:
   ContentCatalogData_CompactLocation(ContentCatalogData_CompactLocation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16212 };
 
   /// @brief Field m_Locator, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* ___m_Locator;
@@ -338,10 +338,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData___c* New_ctor();
 
-  /// @brief Method <GetData>b__45_0, addr 0x450240c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <GetData>b__45_0, addr 0x450b43c, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW _GetData_b__45_0(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* d);
 
-  /// @brief Method .ctor, addr 0x4502404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x450b434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData___c* getStaticF___9();
@@ -367,7 +367,7 @@ public:
   ContentCatalogData___c(ContentCatalogData___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -459,29 +459,29 @@ public:
                       put = __cordl_internal_set_m_resourceTypes)) ::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*>
       m_resourceTypes;
 
-  /// @brief Method CleanData, addr 0x44fe790, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CleanData, addr 0x45077c0, size 0x5c, virtual false, abstract: false, final false
   inline void CleanData();
 
-  /// @brief Method CreateCustomLocator, addr 0x44f92c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateCustomLocator, addr 0x45022f0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateCustomLocator(::StringW overrideId, ::StringW providerSuffix);
 
-  /// @brief Method CreateLocator, addr 0x4500170, size 0x73c, virtual false, abstract: false, final false
+  /// @brief Method CreateLocator, addr 0x45091a0, size 0x73c, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* CreateLocator(::StringW providerSuffix);
 
-  /// @brief Method ExpandInternalId, addr 0x4500950, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ExpandInternalId, addr 0x4509980, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW ExpandInternalId(::ArrayW<::StringW, ::Array<::StringW>*> internalIdPrefixes, ::StringW v);
 
-  /// @brief Method GetData, addr 0x4500ba8, size 0xd6c, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x4509bd8, size 0xd6c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*>* GetData();
 
-  /// @brief Method LoadFromFile, addr 0x45000fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LoadFromFile, addr 0x450912c, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* LoadFromFile(::StringW path, int32_t cacheSize);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* New_ctor();
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData* New_ctor(::StringW id);
 
-  /// @brief Method SaveToFile, addr 0x450014c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SaveToFile, addr 0x450917c, size 0x24, virtual false, abstract: false, final false
   inline void SaveToFile(::StringW path);
 
   constexpr ::StringW const& __cordl_internal_get_localHash() const;
@@ -580,44 +580,44 @@ public:
 
   constexpr void __cordl_internal_set_m_resourceTypes(::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*> value);
 
-  /// @brief Method .ctor, addr 0x4500070, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45090a0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44fffe8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4509018, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   static inline int32_t getStaticF_kMagic();
 
-  /// @brief Method get_InstanceProviderData, addr 0x44fff88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceProviderData, addr 0x4508fb8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::ObjectInitializationData get_InstanceProviderData();
 
-  /// @brief Method get_InternalIds, addr 0x45000f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalIds, addr 0x4509124, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_InternalIds();
 
-  /// @brief Method get_ProviderId, addr 0x44fff78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProviderId, addr 0x4508fa8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProviderId();
 
-  /// @brief Method get_ProviderIds, addr 0x45000ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProviderIds, addr 0x450911c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_ProviderIds();
 
-  /// @brief Method get_ResourceProviderData, addr 0x44fffd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceProviderData, addr 0x4509008, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_ResourceProviderData();
 
-  /// @brief Method get_SceneProviderData, addr 0x44fffb0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_SceneProviderData, addr 0x4508fe0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::ObjectInitializationData get_SceneProviderData();
 
   static inline void setStaticF_kMagic(int32_t value);
 
-  /// @brief Method set_InstanceProviderData, addr 0x44fff9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_InstanceProviderData, addr 0x4508fcc, size 0x14, virtual false, abstract: false, final false
   inline void set_InstanceProviderData(::UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
 
-  /// @brief Method set_ProviderId, addr 0x44fff80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProviderId, addr 0x4508fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_ProviderId(::StringW value);
 
-  /// @brief Method set_ResourceProviderData, addr 0x44fffe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ResourceProviderData, addr 0x4509010, size 0x8, virtual false, abstract: false, final false
   inline void set_ResourceProviderData(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* value);
 
-  /// @brief Method set_SceneProviderData, addr 0x44fffc4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_SceneProviderData, addr 0x4508ff4, size 0x14, virtual false, abstract: false, final false
   inline void set_SceneProviderData(::UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
 
 protected:
@@ -635,7 +635,7 @@ public:
   ContentCatalogData(ContentCatalogData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16214 };
 
   /// @brief Field kBytesPerInt32 offset 0xffffffff size 0x4
   static constexpr int32_t kBytesPerInt32{ static_cast<int32_t>(0x4) };

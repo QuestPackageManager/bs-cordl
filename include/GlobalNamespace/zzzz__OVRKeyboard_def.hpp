@@ -54,7 +54,7 @@ public:
                                              ::UnityEngine::Quaternion rotation, double_t timeInSeconds) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8341 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -118,7 +118,7 @@ public:
                                             ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles SupportedPresentationStyles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8342 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -165,13 +165,13 @@ public:
 
   using TrackedKeyboardState = ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState;
 
-  /// @brief Method GetKeyboardState, addr 0x401fa84, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardState, addr 0x4028a84, size 0x148, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState GetKeyboardState();
 
-  /// @brief Method GetSystemKeyboardInfo, addr 0x401fbcc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetSystemKeyboardInfo, addr 0x4028bcc, size 0xe8, virtual false, abstract: false, final false
   static inline bool GetSystemKeyboardInfo(::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags keyboardQueryFlags, ::ByRef<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo> keyboardInfo);
 
-  /// @brief Method StopKeyboardTracking, addr 0x401fcb4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopKeyboardTracking, addr 0x4028cb4, size 0x50, virtual false, abstract: false, final false
   static inline bool StopKeyboardTracking(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo keyboardInfo);
 
 protected:
@@ -189,7 +189,7 @@ public:
   OVRKeyboard(OVRKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

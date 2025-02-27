@@ -78,21 +78,21 @@ public:
   /// @brief Field unparsedReplacementStr, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_unparsedReplacementStr, put = __cordl_internal_set_unparsedReplacementStr)) ::StringW unparsedReplacementStr;
 
-  /// @brief Method CloneNode, addr 0x4340f90, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x4349fc0, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method IsValidChildType, addr 0x4341148, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method IsValidChildType, addr 0x434a178, size 0x24, virtual true, abstract: false, final false
   inline bool IsValidChildType(::System::Xml::XmlNodeType type);
 
   static inline ::System::Xml::XmlEntity* New_ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method SetBaseURI, addr 0x43411e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBaseURI, addr 0x434a214, size 0x8, virtual false, abstract: false, final false
   inline void SetBaseURI(::StringW inBaseURI);
 
-  /// @brief Method WriteContentTo, addr 0x43411d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x434a208, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x43411d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x434a204, size 0x4, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::StringW const& __cordl_internal_get_baseURI() const;
@@ -143,43 +143,43 @@ public:
 
   constexpr void __cordl_internal_set_unparsedReplacementStr(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4340f0c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4349f3c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_BaseURI, addr 0x43411dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BaseURI, addr 0x434a20c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_InnerText, addr 0x4341000, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x434a030, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method get_IsContainer, addr 0x4341060, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsContainer, addr 0x434a090, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_IsReadOnly, addr 0x4340fe8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x434a018, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_LastNode, addr 0x4341068, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_LastNode, addr 0x434a098, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlLinkedNode* get_LastNode();
 
-  /// @brief Method get_LocalName, addr 0x4340ff8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x434a028, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x4340ff0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x434a020, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x434116c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x434a19c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_SystemId, addr 0x4341174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x434a1a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
-  /// @brief Method set_InnerText, addr 0x4341008, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x434a038, size 0x58, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method set_InnerXml, addr 0x434117c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method set_InnerXml, addr 0x434a1ac, size 0x58, virtual true, abstract: false, final false
   inline void set_InnerXml(::StringW value);
 
-  /// @brief Method set_LastNode, addr 0x4341140, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_LastNode, addr 0x434a170, size 0x8, virtual true, abstract: false, final false
   inline void set_LastNode(::System::Xml::XmlLinkedNode* value);
 
 protected:
@@ -197,7 +197,7 @@ public:
   XmlEntity(XmlEntity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7299 };
 
   /// @brief Field publicId, offset: 0x18, size: 0x8, def value: None
   ::StringW ___publicId;

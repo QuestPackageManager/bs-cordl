@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set_minHeadYPos(float_t value);
 
-  /// @brief Method .ctor, addr 0x22501e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2254020, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -137,7 +137,7 @@ public:
   LimitAvatarPoseRestriction_Parameters(LimitAvatarPoseRestriction_Parameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17586 };
 
   /// @brief Field maxHeadSquareDistanceFromCenter, offset: 0x10, size: 0x4, def value: None
   float_t ___maxHeadSquareDistanceFromCenter;
@@ -205,12 +205,12 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseRestriction*() noexcept;
 
-  /// @brief Method LimitHandPositionRelativeToHead, addr 0x2250144, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LimitHandPositionRelativeToHead, addr 0x2253f7c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 LimitHandPositionRelativeToHead(::UnityEngine::Vector3 handPosition, ::UnityEngine::Vector3 headCenter);
 
   static inline ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction* New_ctor();
 
-  /// @brief Method RestrictPose, addr 0x224ff58, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method RestrictPose, addr 0x2253d90, size 0x1ec, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
                            ::ByRef<::UnityEngine::Vector3> newHeadPosition, ::ByRef<::UnityEngine::Vector3> newLeftHandPosition, ::ByRef<::UnityEngine::Vector3> newRightHandPosition);
 
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set__parameters(::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters* value);
 
-  /// @brief Method .ctor, addr 0x22501e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2254018, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
@@ -241,7 +241,7 @@ public:
   LimitAvatarPoseRestriction(LimitAvatarPoseRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17587 };
 
   /// @brief Field _parameters, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::LimitAvatarPoseRestriction_Parameters* ____parameters;

@@ -38,7 +38,7 @@ namespace Org::BouncyCastle::Pkcs {
 class CORDL_TYPE Pkcs10CertificationRequestDelaySigned : public ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest {
 public:
   // Declarations
-  /// @brief Method GetDataToSign, addr 0x255b020, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetDataToSign, addr 0x255ed58, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDataToSign();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned* New_ctor();
@@ -58,29 +58,29 @@ public:
                                                                                            ::Org::BouncyCastle::Asn1::Asn1Set* attributes,
                                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 
-  /// @brief Method SignRequest, addr 0x255b03c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SignRequest, addr 0x255ed74, size 0x68, virtual false, abstract: false, final false
   inline void SignRequest(::ArrayW<uint8_t, ::Array<uint8_t>*> signedData);
 
-  /// @brief Method SignRequest, addr 0x255b0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SignRequest, addr 0x255eddc, size 0x8, virtual false, abstract: false, final false
   inline void SignRequest(::Org::BouncyCastle::Asn1::DerBitString* signedData);
 
-  /// @brief Method .ctor, addr 0x255a7d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e508, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x255a828, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e560, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method .ctor, addr 0x255a8f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e62c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x255a88c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e5c4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x255a9ec, size 0x634, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e724, size 0x634, virtual false, abstract: false, final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor, addr 0x255a958, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255e690, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW signatureAlgorithm, ::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* signingKey);
 

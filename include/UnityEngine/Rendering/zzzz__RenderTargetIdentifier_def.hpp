@@ -36,37 +36,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*();
 
-  /// @brief Method Equals, addr 0x48c7ff8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48d1028, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48c7f60, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48d0f90, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs);
 
-  /// @brief Method GetHashCode, addr 0x48c7f14, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48d0f44, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x48c7c6c, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48d0c9c, size 0x2a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x48c7ab0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d0ae0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameID);
 
-  /// @brief Method .ctor, addr 0x48c7ad0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d0b00, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* tex);
 
-  /// @brief Method .ctor, addr 0x48c7a90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d0ac0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>* i___System__IEquatable_1___UnityEngine__Rendering__RenderTargetIdentifier_();
 
-  /// @brief Method op_Implicit, addr 0x48c7c08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48d0c38, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(int32_t nameID);
 
-  /// @brief Method op_Implicit, addr 0x48c7c24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48d0c54, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Texture* tex);
 
-  /// @brief Method op_Implicit, addr 0x48c7be4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48d0c14, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
   // Ctor Parameters []
@@ -81,7 +81,7 @@ public:
                                    ::UnityEngine::CubemapFace m_CubeFace, int32_t m_DepthSlice) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11201 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

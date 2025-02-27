@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x4a4616c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a4f19c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentOffset, addr 0x4a4613c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentOffset, addr 0x4a4f16c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
-  /// @brief Method get_currentWorldClip, addr 0x4a46150, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentWorldClip, addr 0x4a4f180, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
-  /// @brief Method get_repaintEvent, addr 0x4a4615c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repaintEvent, addr 0x4a4f18c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
-  /// @brief Method set_repaintEvent, addr 0x4a46164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repaintEvent, addr 0x4a4f194, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   RepaintData(RepaintData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6008 };
 
   /// @brief Field <currentOffset>k__BackingField, offset: 0x10, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ____currentOffset_k__BackingField;

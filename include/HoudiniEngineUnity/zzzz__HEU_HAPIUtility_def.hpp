@@ -84,167 +84,167 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_HAPIUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyLocalTransfromFromHoudiniToUnity, addr 0x3a43970, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ApplyLocalTransfromFromHoudiniToUnity, addr 0x3a4c420, size 0x114, virtual false, abstract: false, final false
   static inline void ApplyLocalTransfromFromHoudiniToUnity(::ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::UnityEngine::Transform* unityTransform);
 
-  /// @brief Method ApplyLocalTransfromFromHoudiniToUnityForInstance, addr 0x3a43a84, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ApplyLocalTransfromFromHoudiniToUnityForInstance, addr 0x3a4c534, size 0x1c8, virtual false, abstract: false, final false
   static inline void ApplyLocalTransfromFromHoudiniToUnityForInstance(::ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::UnityEngine::Transform* unityTransform);
 
-  /// @brief Method ApplyMatrixToLocalTransform, addr 0x3a43c4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ApplyMatrixToLocalTransform, addr 0x3a4c6fc, size 0x60, virtual false, abstract: false, final false
   static inline void ApplyMatrixToLocalTransform(::ByRef<::UnityEngine::Matrix4x4> matrix, ::UnityEngine::Transform* transform);
 
-  /// @brief Method ApplyWorldTransfromFromHoudiniToUnity, addr 0x3a43788, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ApplyWorldTransfromFromHoudiniToUnity, addr 0x3a4c238, size 0x1e8, virtual false, abstract: false, final false
   static inline void ApplyWorldTransfromFromHoudiniToUnity(::ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::UnityEngine::Transform* unityTransform);
 
-  /// @brief Method CookNodeInHoudini, addr 0x3a428c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CookNodeInHoudini, addr 0x3a4b374, size 0x58, virtual false, abstract: false, final false
   static inline bool CookNodeInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, bool bCookTemplatedGeos, ::StringW assetName);
 
-  /// @brief Method CookNodeInHoudiniWithOptions, addr 0x3a42c44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CookNodeInHoudiniWithOptions, addr 0x3a4b6f4, size 0x7c, virtual false, abstract: false, final false
   static inline bool CookNodeInHoudiniWithOptions(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::HoudiniEngineUnity::HAPI_CookOptions options, ::StringW assetName);
 
-  /// @brief Method CreateAndCookAssetNode, addr 0x3a42544, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateAndCookAssetNode, addr 0x3a4aff4, size 0x1b8, virtual false, abstract: false, final false
   static inline bool CreateAndCookAssetNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName, bool bCookTemplatedGeos, ::ByRef<int32_t> newAssetID);
 
-  /// @brief Method CreateAndCookCurveAsset, addr 0x3a4291c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateAndCookCurveAsset, addr 0x3a4b3cc, size 0xec, virtual false, abstract: false, final false
   static inline bool CreateAndCookCurveAsset(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName, bool bCookTemplatedGeos, ::ByRef<int32_t> newAssetID);
 
-  /// @brief Method CreateAndCookInputAsset, addr 0x3a42a08, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CreateAndCookInputAsset, addr 0x3a4b4b8, size 0x1e4, virtual false, abstract: false, final false
   static inline bool CreateAndCookInputAsset(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName, bool bCookTemplatedGeos, ::ByRef<int32_t> newAssetID);
 
-  /// @brief Method CreateNewAsset, addr 0x3a42d64, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method CreateNewAsset, addr 0x3a4b814, size 0x3ac, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateNewAsset(::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType assetType, ::StringW rootName, ::UnityEngine::Transform* parentTransform,
                                                                    ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, ::UnityEngine::GameObject* rootGO);
 
-  /// @brief Method CreateNewCurveAsset, addr 0x3a43110, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CreateNewCurveAsset, addr 0x3a4bbc0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateNewCurveAsset(::StringW name, ::UnityEngine::Transform* parentTransform, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
                                                                         ::UnityEngine::GameObject* rootGO);
 
-  /// @brief Method CreateNewInputAsset, addr 0x3a43134, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CreateNewInputAsset, addr 0x3a4bbe4, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateNewInputAsset(::StringW name, ::UnityEngine::Transform* parentTransform, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
                                                                         ::UnityEngine::GameObject* rootGO);
 
-  /// @brief Method DestroyChildren, addr 0x3a43160, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method DestroyChildren, addr 0x3a4bc10, size 0x480, virtual false, abstract: false, final false
   static inline void DestroyChildren(::UnityEngine::Transform* inTransform);
 
   /// @brief Method DestroyChildrenWithComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DestroyChildrenWithComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method DestroyGameObject, addr 0x3a435e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DestroyGameObject, addr 0x3a4c090, size 0x10, virtual false, abstract: false, final false
   static inline void DestroyGameObject(::UnityEngine::GameObject* gameObect, bool bRegisterUndo);
 
-  /// @brief Method DoesGeoPartHaveAttribute, addr 0x3a44bb0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method DoesGeoPartHaveAttribute, addr 0x3a4d660, size 0x40, virtual false, abstract: false, final false
   static inline bool DoesGeoPartHaveAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::HoudiniEngineUnity::HAPI_AttributeOwner owner,
                                               ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
 
-  /// @brief Method DoesMappedPathExist, addr 0x3a418f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method DoesMappedPathExist, addr 0x3a4a3a8, size 0x9c, virtual false, abstract: false, final false
   static inline bool DoesMappedPathExist(::StringW inPath);
 
-  /// @brief Method FindHoudiniAssetFileInPathWithExt, addr 0x3a41d9c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method FindHoudiniAssetFileInPathWithExt, addr 0x3a4a84c, size 0x1c4, virtual false, abstract: false, final false
   static inline ::StringW FindHoudiniAssetFileInPathWithExt(::StringW filePath);
 
-  /// @brief Method GetAssetInScene, addr 0x3a43684, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetAssetInScene, addr 0x3a4c134, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot> GetAssetInScene(int32_t assetID);
 
-  /// @brief Method GetDefaultCookOptions, addr 0x3a42cc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultCookOptions, addr 0x3a4b770, size 0x44, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HAPI_CookOptions GetDefaultCookOptions(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetEnvironmentPath, addr 0x3a416fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentPath, addr 0x3a4a1ac, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW GetEnvironmentPath();
 
-  /// @brief Method GetHAPITransform, addr 0x3a44448, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetHAPITransform, addr 0x3a4cef8, size 0x124, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HAPI_TransformEuler GetHAPITransform(::ByRef<::UnityEngine::Vector3> p, ::ByRef<::UnityEngine::Vector3> r, ::ByRef<::UnityEngine::Vector3> s);
 
-  /// @brief Method GetHAPITransformFromMatrix, addr 0x3a4422c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetHAPITransformFromMatrix, addr 0x3a4ccdc, size 0x178, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HAPI_TransformEuler GetHAPITransformFromMatrix(::ByRef<::UnityEngine::Matrix4x4> mat);
 
-  /// @brief Method GetHAPITransformQuatFromMatrix, addr 0x3a4456c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetHAPITransformQuatFromMatrix, addr 0x3a4d01c, size 0x1b4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HAPI_Transform GetHAPITransformQuatFromMatrix(::ByRef<::UnityEngine::Matrix4x4> mat);
 
-  /// @brief Method GetHoudiniEngineInstallationInfo, addr 0x3a416bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetHoudiniEngineInstallationInfo, addr 0x3a4a16c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW GetHoudiniEngineInstallationInfo();
 
-  /// @brief Method GetMatrix4x4, addr 0x3a447cc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetMatrix4x4, addr 0x3a4d27c, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetMatrix4x4(::ByRef<::UnityEngine::Vector3> p, ::ByRef<::UnityEngine::Vector3> r, ::ByRef<::UnityEngine::Vector3> s);
 
-  /// @brief Method GetMatrixFromHAPITransform, addr 0x3a44098, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetMatrixFromHAPITransform, addr 0x3a4cb48, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetMatrixFromHAPITransform(::ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, bool bConvertToUnity);
 
-  /// @brief Method GetObjectInfos, addr 0x3a44c70, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInfos, addr 0x3a4d720, size 0x4b8, virtual false, abstract: false, final false
   static inline bool GetObjectInfos(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, ::ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo,
                                     ::ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo, ::Array<::HoudiniEngineUnity::HAPI_ObjectInfo>*>> objectInfos,
                                     ::ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>> objectTransforms);
 
-  /// @brief Method GetParentNodeID, addr 0x3a44c14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetParentNodeID, addr 0x3a4d6c4, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t GetParentNodeID(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID);
 
-  /// @brief Method GetPosition, addr 0x3a43cac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x3a4c75c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetPosition(::ByRef<::UnityEngine::Matrix4x4> m);
 
-  /// @brief Method GetQuaternion, addr 0x3a43cb8, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method GetQuaternion, addr 0x3a4c768, size 0x37c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetQuaternion(::ByRef<::UnityEngine::Matrix4x4> m);
 
-  /// @brief Method GetRealPathFromHFSPath, addr 0x3a41744, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetRealPathFromHFSPath, addr 0x3a4a1f4, size 0x160, virtual false, abstract: false, final false
   static inline ::StringW GetRealPathFromHFSPath(::StringW inPath);
 
-  /// @brief Method GetScale, addr 0x3a44034, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetScale, addr 0x3a4cae4, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetScale(::ByRef<::UnityEngine::Matrix4x4> m);
 
-  /// @brief Method InstantiateHDA, addr 0x3a41ff4, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method InstantiateHDA, addr 0x3a4aaa4, size 0x268, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> InstantiateHDA(::StringW filePath, ::UnityEngine::Vector3 initialPosition, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
                                                                    bool bLoadFromMemory, bool bAlwaysOverwriteOnLoad, ::UnityEngine::GameObject* rootGO);
 
-  /// @brief Method IsEqualTol, addr 0x3a448ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEqualTol, addr 0x3a4d39c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEqualTol(float_t a, float_t b, float_t t);
 
-  /// @brief Method IsHoudiniAssetFile, addr 0x3a41c58, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsHoudiniAssetFile, addr 0x3a4a708, size 0x144, virtual false, abstract: false, final false
   static inline bool IsHoudiniAssetFile(::StringW filePath);
 
-  /// @brief Method IsNodeValidInHoudini, addr 0x3a435f0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsNodeValidInHoudini, addr 0x3a4c0a0, size 0x94, virtual false, abstract: false, final false
   static inline bool IsNodeValidInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID);
 
-  /// @brief Method IsSameTransform, addr 0x3a44890, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsSameTransform, addr 0x3a4d340, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsSameTransform(::ByRef<::UnityEngine::Matrix4x4> transformMatrix, ::ByRef<::UnityEngine::Vector3> p, ::ByRef<::UnityEngine::Vector3> r, ::ByRef<::UnityEngine::Vector3> s);
 
-  /// @brief Method IsSessionSyncEqual, addr 0x3a44b84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsSessionSyncEqual, addr 0x3a4d634, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsSessionSyncEqual(::ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo> syncA, ::ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo> syncB);
 
-  /// @brief Method IsSupportedPolygonType, addr 0x3a44bf4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsSupportedPolygonType, addr 0x3a4d6a4, size 0x20, virtual false, abstract: false, final false
   static inline bool IsSupportedPolygonType(::HoudiniEngineUnity::HAPI_PartType partType);
 
-  /// @brief Method IsTransformEqual, addr 0x3a448fc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method IsTransformEqual, addr 0x3a4d3ac, size 0x1a0, virtual false, abstract: false, final false
   static inline bool IsTransformEqual(::ByRef<::HoudiniEngineUnity::HAPI_Transform> transA, ::ByRef<::HoudiniEngineUnity::HAPI_Transform> transB);
 
-  /// @brief Method IsViewportEqual, addr 0x3a44a9c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsViewportEqual, addr 0x3a4d54c, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsViewportEqual(::ByRef<::HoudiniEngineUnity::HAPI_Viewport> viewA, ::ByRef<::HoudiniEngineUnity::HAPI_Viewport> viewB);
 
-  /// @brief Method LoadGeoWithNewGeoSync, addr 0x3a43158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadGeoWithNewGeoSync, addr 0x3a4bc08, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> LoadGeoWithNewGeoSync(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method LoadHDAFile, addr 0x3a4234c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method LoadHDAFile, addr 0x3a4adfc, size 0x1f8, virtual false, abstract: false, final false
   static inline bool LoadHDAFile(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetPath, ::ByRef<int32_t> assetLibraryID, ::ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> assetNames);
 
-  /// @brief Method LocateValidFilePath, addr 0x3a41fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LocateValidFilePath, addr 0x3a4aa9c, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW LocateValidFilePath(::StringW assetName, ::StringW inFilePath);
 
-  /// @brief Method LocateValidFilePath, addr 0x3a41f80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LocateValidFilePath, addr 0x3a4aa30, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW LocateValidFilePath(::UnityEngine::Object* inObject);
 
-  /// @brief Method Log, addr 0x3a41f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x3a4aa18, size 0x8, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogError, addr 0x3a41f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x3a4aa28, size 0x8, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x3a41f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x3a4aa20, size 0x8, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
-  /// @brief Method ProcessHoudiniCookStatus, addr 0x3a426fc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ProcessHoudiniCookStatus, addr 0x3a4b1ac, size 0x1c8, virtual false, abstract: false, final false
   static inline bool ProcessHoudiniCookStatus(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName);
 
-  /// @brief Method SetAnimationCurveTangentModes, addr 0x3a44bf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAnimationCurveTangentModes, addr 0x3a4d6a0, size 0x4, virtual false, abstract: false, final false
   static inline void SetAnimationCurveTangentModes(::UnityEngine::AnimationCurve* animCurve, ::System::Collections::Generic::List_1<int32_t>* tangentValues);
 
-  /// @brief Method SetMatrixPosition, addr 0x3a44214, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetMatrixPosition, addr 0x3a4ccc4, size 0x18, virtual false, abstract: false, final false
   static inline void SetMatrixPosition(::ByRef<::UnityEngine::Matrix4x4> m, ::ByRef<::UnityEngine::Vector3> position);
 
 protected:
@@ -262,7 +262,7 @@ public:
   HEU_HAPIUtility(HEU_HAPIUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

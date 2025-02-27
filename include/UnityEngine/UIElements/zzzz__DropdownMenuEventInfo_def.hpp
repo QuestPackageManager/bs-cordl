@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__mousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x4a24e00, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2de30, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* e);
 
 protected:
@@ -90,7 +90,7 @@ public:
   DropdownMenuEventInfo(DropdownMenuEventInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5769 };
 
   /// @brief Field <modifiers>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;

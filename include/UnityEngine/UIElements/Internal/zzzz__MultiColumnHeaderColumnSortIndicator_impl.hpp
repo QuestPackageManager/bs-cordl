@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::*)(::StringW)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::set_sortOrderLabel)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49ef8fc;
+  constexpr static std::size_t addrs = 0x49f892c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x49ef920;
+  constexpr static std::size_t addrs = 0x49f8950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

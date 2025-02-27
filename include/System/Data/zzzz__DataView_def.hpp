@@ -101,15 +101,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::Data::DataRow*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::Data::DataRow*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x417255c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x417b58c, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::System::Data::DataRow* x, ::System::Data::DataRow* y);
 
-  /// @brief Method GetHashCode, addr 0x4172568, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x417b598, size 0x18, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Data::DataRow* obj);
 
   static inline ::System::Data::DataView_DataRowReferenceComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4172554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417b584, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Data::DataView_DataRowReferenceComparer* getStaticF_s_default();
@@ -134,7 +134,7 @@ public:
   DataView_DataRowReferenceComparer(DataView_DataRowReferenceComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11409 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -307,210 +307,210 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::ITypedList"
   constexpr operator ::System::ComponentModel::ITypedList*() noexcept;
 
-  /// @brief Method AddNew, addr 0x416f5d0, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method AddNew, addr 0x4178600, size 0x2d4, virtual true, abstract: false, final false
   inline ::System::Data::DataRowView* AddNew();
 
-  /// @brief Method CheckOpen, addr 0x416f8a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckOpen, addr 0x41788d4, size 0x38, virtual false, abstract: false, final false
   inline void CheckOpen();
 
-  /// @brief Method CheckSort, addr 0x416f418, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CheckSort, addr 0x4178448, size 0x50, virtual false, abstract: false, final false
   inline void CheckSort(::StringW sort);
 
-  /// @brief Method ChildRelationCollectionChanged, addr 0x4171e58, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ChildRelationCollectionChanged, addr 0x417ae88, size 0x224, virtual false, abstract: false, final false
   inline void ChildRelationCollectionChanged(::System::Object* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
 
-  /// @brief Method Close, addr 0x416f9ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x41789dc, size 0x38, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method ColumnCollectionChanged, addr 0x41722a0, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method ColumnCollectionChanged, addr 0x417b2d0, size 0x224, virtual true, abstract: false, final false
   inline void ColumnCollectionChanged(::System::Object* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
 
-  /// @brief Method ColumnCollectionChangedInternal, addr 0x41724c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ColumnCollectionChangedInternal, addr 0x417b4f4, size 0x10, virtual false, abstract: false, final false
   inline void ColumnCollectionChangedInternal(::System::Object* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
 
-  /// @brief Method CopyTo, addr 0x416fb84, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x4178bb4, size 0x1ac, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Data::DataRowView*, ::Array<::System::Data::DataRowView*>*> array, int32_t index);
 
-  /// @brief Method CopyTo, addr 0x416fa00, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x4178a30, size 0x150, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method CreateSortString, addr 0x41707dc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CreateSortString, addr 0x417980c, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW CreateSortString(::System::ComponentModel::PropertyDescriptor* property, ::System::ComponentModel::ListSortDirection direction);
 
-  /// @brief Method Delete, addr 0x416fd30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x4178d60, size 0x1c, virtual false, abstract: false, final false
   inline void Delete(int32_t index);
 
-  /// @brief Method Delete, addr 0x416fd4c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x4178d7c, size 0x1cc, virtual false, abstract: false, final false
   inline void Delete(::System::Data::DataRow* row);
 
-  /// @brief Method Dispose, addr 0x41700bc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x41790ec, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FinishAddNew, addr 0x416ff18, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method FinishAddNew, addr 0x4178f48, size 0x1a4, virtual false, abstract: false, final false
   inline void FinishAddNew(bool success);
 
-  /// @brief Method GetEnumerator, addr 0x41700f0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x4179120, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetFilter, addr 0x4170d88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFilter, addr 0x4179db8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Data::IFilter* GetFilter();
 
-  /// @brief Method GetFindIndex, addr 0x41704c0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetFindIndex, addr 0x41794f0, size 0x198, virtual false, abstract: false, final false
   inline ::System::Data::Index* GetFindIndex(::StringW column, bool keepIndex);
 
-  /// @brief Method GetRecord, addr 0x4170d90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetRecord, addr 0x4179dc0, size 0x88, virtual false, abstract: false, final false
   inline int32_t GetRecord(int32_t recordIndex);
 
-  /// @brief Method GetRow, addr 0x416f4dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetRow, addr 0x417850c, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* GetRow(int32_t index);
 
-  /// @brief Method GetRowView, addr 0x416f578, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRowView, addr 0x41785a8, size 0x58, virtual false, abstract: false, final false
   inline ::System::Data::DataRowView* GetRowView(::System::Data::DataRow* dr);
 
-  /// @brief Method GetRowView, addr 0x416fb50, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetRowView, addr 0x4178b80, size 0x34, virtual false, abstract: false, final false
   inline ::System::Data::DataRowView* GetRowView(int32_t record);
 
-  /// @brief Method GetSortProperty, addr 0x41706c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetSortProperty, addr 0x41796f0, size 0x90, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* GetSortProperty();
 
-  /// @brief Method IndexListChanged, addr 0x4170e18, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method IndexListChanged, addr 0x4179e48, size 0x90, virtual true, abstract: false, final false
   inline void IndexListChanged(::System::Object* sender, ::System::ComponentModel::ListChangedEventArgs* e);
 
-  /// @brief Method IndexListChangedInternal, addr 0x4170ea8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IndexListChangedInternal, addr 0x4179ed8, size 0xb0, virtual false, abstract: false, final false
   inline void IndexListChangedInternal(::System::ComponentModel::ListChangedEventArgs* e);
 
-  /// @brief Method IndexOf, addr 0x416f8dc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x417890c, size 0xd0, virtual false, abstract: false, final false
   inline int32_t IndexOf(::System::Data::DataRowView* rowview);
 
-  /// @brief Method IndexOfDataRowView, addr 0x4170304, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IndexOfDataRowView, addr 0x4179334, size 0x58, virtual false, abstract: false, final false
   inline int32_t IndexOfDataRowView(::System::Data::DataRowView* rowview);
 
-  /// @brief Method MaintainDataView, addr 0x4170f58, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method MaintainDataView, addr 0x4179f88, size 0x254, virtual false, abstract: false, final false
   inline void MaintainDataView(::System::ComponentModel::ListChangedType changedType, ::System::Data::DataRow* row, bool trackAddRemove);
 
   static inline ::System::Data::DataView* New_ctor(::System::Data::DataTable* table);
 
   static inline ::System::Data::DataView* New_ctor(::System::Data::DataTable* table, bool locked);
 
-  /// @brief Method OnListChanged, addr 0x41713e8, size 0x318, virtual true, abstract: false, final false
+  /// @brief Method OnListChanged, addr 0x417a418, size 0x318, virtual true, abstract: false, final false
   inline void OnListChanged(::System::ComponentModel::ListChangedEventArgs* e);
 
-  /// @brief Method ParentRelationCollectionChanged, addr 0x417207c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ParentRelationCollectionChanged, addr 0x417b0ac, size 0x224, virtual false, abstract: false, final false
   inline void ParentRelationCollectionChanged(::System::Object* sender, ::System::ComponentModel::CollectionChangeEventArgs* e);
 
-  /// @brief Method Reset, addr 0x4171700, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x417a730, size 0x2c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResetRowViewCache, addr 0x41711ac, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ResetRowViewCache, addr 0x417a1dc, size 0x23c, virtual false, abstract: false, final false
   inline void ResetRowViewCache();
 
-  /// @brief Method SetDataViewManager, addr 0x417172c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method SetDataViewManager, addr 0x417a75c, size 0x218, virtual false, abstract: false, final false
   inline void SetDataViewManager(::System::Data::DataViewManager* dataViewManager);
 
-  /// @brief Method SetIndex, addr 0x417194c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetIndex, addr 0x417a97c, size 0x8, virtual true, abstract: false, final false
   inline void SetIndex(::StringW newSort, ::System::Data::DataViewRowState newRowStates, ::System::Data::IFilter* newRowFilter);
 
-  /// @brief Method SetIndex2, addr 0x416ef7c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method SetIndex2, addr 0x4177fac, size 0x238, virtual false, abstract: false, final false
   inline void SetIndex2(::StringW newSort, ::System::Data::DataViewRowState newRowStates, ::System::Data::IFilter* newRowFilter, bool fireEvent);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x416f248, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x4178278, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x416f470, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x41784a0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IList.Add, addr 0x417017c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Add, addr 0x41791ac, size 0x54, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_Add(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Clear, addr 0x41701d0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Clear, addr 0x4179200, size 0x28, virtual true, abstract: false, final true
   inline void System_Collections_IList_Clear();
 
-  /// @brief Method System.Collections.IList.Contains, addr 0x41701f8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Contains, addr 0x4179228, size 0x8c, virtual true, abstract: false, final true
   inline bool System_Collections_IList_Contains(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.IndexOf, addr 0x4170284, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.IndexOf, addr 0x41792b4, size 0x80, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Insert, addr 0x417035c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Insert, addr 0x417938c, size 0x28, virtual true, abstract: false, final true
   inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Remove, addr 0x4170384, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Remove, addr 0x41793b4, size 0x120, virtual true, abstract: false, final true
   inline void System_Collections_IList_Remove(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.RemoveAt, addr 0x41704a4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.RemoveAt, addr 0x41794d4, size 0x1c, virtual true, abstract: false, final true
   inline void System_Collections_IList_RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x4170174, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x41791a4, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsFixedSize();
 
-  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x417016c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x417919c, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsReadOnly();
 
-  /// @brief Method System.Collections.IList.get_Item, addr 0x416f47c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_Item, addr 0x41784ac, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IList_get_Item(int32_t recordIndex);
 
-  /// @brief Method System.Collections.IList.set_Item, addr 0x416f4b4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.set_Item, addr 0x41784e4, size 0x28, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t recordIndex, ::System::Object* value);
 
-  /// @brief Method System.ComponentModel.IBindingList.AddIndex, addr 0x4170788, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.AddIndex, addr 0x41797b8, size 0x38, virtual true, abstract: false, final true
   inline void System_ComponentModel_IBindingList_AddIndex(::System::ComponentModel::PropertyDescriptor* property);
 
-  /// @brief Method System.ComponentModel.IBindingList.AddNew, addr 0x4170660, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.AddNew, addr 0x4179690, size 0x10, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_IBindingList_AddNew();
 
-  /// @brief Method System.ComponentModel.IBindingList.ApplySort, addr 0x41707c0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.ApplySort, addr 0x41797f0, size 0x1c, virtual true, abstract: false, final true
   inline void System_ComponentModel_IBindingList_ApplySort(::System::ComponentModel::PropertyDescriptor* property, ::System::ComponentModel::ListSortDirection direction);
 
-  /// @brief Method System.ComponentModel.IBindingList.Find, addr 0x41708c0, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.Find, addr 0x41798f0, size 0x298, virtual true, abstract: false, final true
   inline int32_t System_ComponentModel_IBindingList_Find(::System::ComponentModel::PropertyDescriptor* property, ::System::Object* key);
 
-  /// @brief Method System.ComponentModel.IBindingList.RemoveIndex, addr 0x4170b58, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.RemoveIndex, addr 0x4179b88, size 0x38, virtual true, abstract: false, final true
   inline void System_ComponentModel_IBindingList_RemoveIndex(::System::ComponentModel::PropertyDescriptor* property);
 
-  /// @brief Method System.ComponentModel.IBindingList.RemoveSort, addr 0x4170b90, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.RemoveSort, addr 0x4179bc0, size 0xc0, virtual true, abstract: false, final true
   inline void System_ComponentModel_IBindingList_RemoveSort();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_AllowEdit, addr 0x4170670, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_AllowEdit, addr 0x41796a0, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_AllowEdit();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_AllowNew, addr 0x4170658, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_AllowNew, addr 0x4179688, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_AllowNew();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_AllowRemove, addr 0x4170678, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_AllowRemove, addr 0x41796a8, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_AllowRemove();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_IsSorted, addr 0x4170698, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_IsSorted, addr 0x41796c8, size 0x24, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_IsSorted();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SortDirection, addr 0x4170750, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SortDirection, addr 0x4179780, size 0x38, virtual true, abstract: false, final true
   inline ::System::ComponentModel::ListSortDirection System_ComponentModel_IBindingList_get_SortDirection();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SortProperty, addr 0x41706bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SortProperty, addr 0x41796ec, size 0x4, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptor* System_ComponentModel_IBindingList_get_SortProperty();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SupportsChangeNotification, addr 0x4170680, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SupportsChangeNotification, addr 0x41796b0, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_SupportsChangeNotification();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SupportsSearching, addr 0x4170688, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SupportsSearching, addr 0x41796b8, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_SupportsSearching();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SupportsSorting, addr 0x4170690, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SupportsSorting, addr 0x41796c0, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_SupportsSorting();
 
-  /// @brief Method System.ComponentModel.ITypedList.GetItemProperties, addr 0x4170ce0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ITypedList.GetItemProperties, addr 0x4179d10, size 0xa8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection*
   System_ComponentModel_ITypedList_GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> listAccessors);
 
-  /// @brief Method System.ComponentModel.ITypedList.GetListName, addr 0x4170c50, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ITypedList.GetListName, addr 0x4179c80, size 0x90, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ITypedList_GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> listAccessors);
 
-  /// @brief Method UpdateIndex, addr 0x416f9e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndex, addr 0x4178a14, size 0x14, virtual false, abstract: false, final false
   inline void UpdateIndex();
 
-  /// @brief Method UpdateIndex, addr 0x4171c6c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method UpdateIndex, addr 0x417ac9c, size 0xc, virtual true, abstract: false, final false
   inline void UpdateIndex(bool force);
 
-  /// @brief Method UpdateIndex, addr 0x4171954, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndex, addr 0x417a984, size 0x318, virtual false, abstract: false, final false
   inline void UpdateIndex(bool force, bool fireEvent);
 
   constexpr ::System::ComponentModel::ListChangedEventArgs* const& __cordl_internal_get__addNewMoved() const;
@@ -669,53 +669,53 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x416ef0c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4177f3c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table);
 
-  /// @brief Method .ctor, addr 0x416ea14, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4177a44, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, bool locked);
 
   static inline int32_t getStaticF_s_objectTypeCount();
 
   static inline ::System::ComponentModel::ListChangedEventArgs* getStaticF_s_resetEventArgs();
 
-  /// @brief Method get_AllowDelete, addr 0x416f1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowDelete, addr 0x41781e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowDelete();
 
-  /// @brief Method get_AllowEdit, addr 0x416f1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowEdit, addr 0x41781ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowEdit();
 
-  /// @brief Method get_AllowNew, addr 0x416f1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowNew, addr 0x41781f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowNew();
 
-  /// @brief Method get_Count, addr 0x416f1cc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x41781fc, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_CountFromIndex, addr 0x416f21c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_CountFromIndex, addr 0x417824c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_CountFromIndex();
 
-  /// @brief Method get_DataViewManager, addr 0x416f238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataViewManager, addr 0x4178268, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewManager* get_DataViewManager();
 
-  /// @brief Method get_IsOpen, addr 0x416f240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsOpen, addr 0x4178270, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsOpen();
 
-  /// @brief Method get_Item, addr 0x416f498, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x41784c8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Data::DataRowView* get_Item(int32_t recordIndex);
 
-  /// @brief Method get_ObjectID, addr 0x41724d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x417b504, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
 
-  /// @brief Method get_RowStateFilter, addr 0x416f250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowStateFilter, addr 0x4178280, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewRowState get_RowStateFilter();
 
-  /// @brief Method get_Sort, addr 0x416f258, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Sort, addr 0x4178288, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Sort();
 
-  /// @brief Method get_SortComparison, addr 0x416f468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SortComparison, addr 0x4178498, size 0x8, virtual false, abstract: false, final false
   inline ::System::Comparison_1<::System::Data::DataRow*>* get_SortComparison();
 
-  /// @brief Method get_Table, addr 0x416f474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x41784a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -737,7 +737,7 @@ public:
 
   static inline void setStaticF_s_resetEventArgs(::System::ComponentModel::ListChangedEventArgs* value);
 
-  /// @brief Method set_Sort, addr 0x416f2ac, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method set_Sort, addr 0x41782dc, size 0x16c, virtual false, abstract: false, final false
   inline void set_Sort(::StringW value);
 
 protected:
@@ -755,7 +755,7 @@ public:
   DataView(DataView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11410 };
 
   /// @brief Field _dataViewManager, offset: 0x20, size: 0x8, def value: None
   ::System::Data::DataViewManager* ____dataViewManager;

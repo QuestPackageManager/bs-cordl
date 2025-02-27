@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a30b98, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a39bc8, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a30b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   MouseMoveEvent___c(MouseMoveEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -76,18 +76,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseMoveEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a30aec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a39b1c, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseMoveEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method Init, addr 0x4a30a38, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a39a68, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a30a8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a39abc, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a30a98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39ac8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,7 +105,7 @@ public:
   MouseMoveEvent(MouseMoveEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5863 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,15 +21,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLeaderboardDidUpdate : public ::Oculus::Platform::Message_1<bool> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f8589c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f8e89c, size 0x5c, virtual true, abstract: false, final false
   inline bool GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLeaderboardDidUpdate, addr 0x3f85860, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLeaderboardDidUpdate, addr 0x3f8e860, size 0x3c, virtual true, abstract: false, final false
   inline bool GetLeaderboardDidUpdate();
 
   static inline ::Oculus::Platform::MessageWithLeaderboardDidUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f80b68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f89b68, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -47,7 +47,7 @@ public:
   MessageWithLeaderboardDidUpdate(MessageWithLeaderboardDidUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlatformUserModelUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateXPlatformAccessToken, addr 0x40850b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ValidateXPlatformAccessToken, addr 0x408e0b8, size 0x14, virtual false, abstract: false, final false
   static inline bool ValidateXPlatformAccessToken(::StringW token);
 
 protected:
@@ -38,7 +38,7 @@ public:
   PlatformUserModelUtils(PlatformUserModelUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18759 };
 
   /// @brief Field kMinimalTokenLength offset 0xffffffff size 0x4
   static constexpr int32_t kMinimalTokenLength{ static_cast<int32_t>(0x40) };

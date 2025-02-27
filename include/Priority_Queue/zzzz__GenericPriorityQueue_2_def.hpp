@@ -143,7 +143,7 @@ public:
   GenericPriorityQueue_2__GetEnumerator_d__25(GenericPriorityQueue_2__GetEnumerator_d__25 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16942 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -323,7 +323,7 @@ public:
   GenericPriorityQueue_2(GenericPriorityQueue_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16943 };
 
   /// @brief Field _numNodes, offset: 0x10, size: 0x4, def value: None
   int32_t ____numNodes;

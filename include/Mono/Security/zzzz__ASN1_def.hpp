@@ -25,7 +25,13 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Value)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Value;
+  __declspec(property(get = get_Item)) ::Mono::Security::ASN1* Item[];
+
+  __declspec(property(get = get_Length)) int32_t Length;
+
+  __declspec(property(get = get_Tag)) uint8_t Tag;
+
+  __declspec(property(get = get_Value, put = set_Value)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Value;
 
   /// @brief Field elist, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_elist, put = __cordl_internal_set_elist)) ::System::Collections::ArrayList* elist;
@@ -36,16 +42,25 @@ public:
   /// @brief Field m_nTag, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_nTag, put = __cordl_internal_set_m_nTag)) uint8_t m_nTag;
 
-  /// @brief Method Add, addr 0x3c65630, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3c3e250, size 0x8c, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* Add(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method Decode, addr 0x3c65468, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CompareArray, addr 0x3c3e1b8, size 0x88, virtual false, abstract: false, final false
+  inline bool CompareArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
+
+  /// @brief Method CompareValue, addr 0x3c3e240, size 0x10, virtual false, abstract: false, final false
+  inline bool CompareValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method Decode, addr 0x3c3df28, size 0x11c, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> asn1, ::ByRef<int32_t> anPos, int32_t anLength);
 
-  /// @brief Method DecodeTLV, addr 0x3c65d40, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method DecodeTLV, addr 0x3c3e960, size 0x124, virtual false, abstract: false, final false
   inline void DecodeTLV(::ArrayW<uint8_t, ::Array<uint8_t>*> asn1, ::ByRef<int32_t> pos, ::ByRef<uint8_t> tag, ::ByRef<int32_t> length, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> content);
 
-  /// @brief Method GetBytes, addr 0x3c656bc, size 0x684, virtual true, abstract: false, final false
+  /// @brief Method Element, addr 0x3c3ebb4, size 0x154, virtual false, abstract: false, final false
+  inline ::Mono::Security::ASN1* Element(int32_t index, uint8_t anTag);
+
+  /// @brief Method GetBytes, addr 0x3c3e2dc, size 0x684, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   static inline ::Mono::Security::ASN1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -54,7 +69,7 @@ public:
 
   static inline ::Mono::Security::ASN1* New_ctor(uint8_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ToString, addr 0x3c65e64, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c3ed08, size 0x294, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_elist() const;
@@ -75,20 +90,32 @@ public:
 
   constexpr void __cordl_internal_set_m_nTag(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3c65304, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3ddc4, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x3c652a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3dd68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t tag);
 
-  /// @brief Method .ctor, addr 0x3c652d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3dd94, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint8_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Count, addr 0x3c65584, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3c3e044, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Value, addr 0x3c655a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c3ea84, size 0x130, virtual false, abstract: false, final false
+  inline ::Mono::Security::ASN1* get_Item(int32_t index);
+
+  /// @brief Method get_Length, addr 0x3c3e068, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_Length();
+
+  /// @brief Method get_Tag, addr 0x3c3e060, size 0x8, virtual false, abstract: false, final false
+  inline uint8_t get_Tag();
+
+  /// @brief Method get_Value, addr 0x3c3e080, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Value();
+
+  /// @brief Method set_Value, addr 0x3c3e110, size 0xa8, virtual false, abstract: false, final false
+  inline void set_Value(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
   // Ctor Parameters []
@@ -105,7 +132,7 @@ public:
   ASN1(ASN1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2273 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15917 };
 
   /// @brief Field m_nTag, offset: 0x10, size: 0x1, def value: None
   uint8_t ___m_nTag;

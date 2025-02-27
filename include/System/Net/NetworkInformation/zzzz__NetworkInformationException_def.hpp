@@ -32,13 +32,13 @@ public:
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                          ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x43edfcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43f6ffc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43ee030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43f7060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x43ee038, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x43f7068, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:
@@ -56,7 +56,7 @@ public:
   NetworkInformationException(NetworkInformationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

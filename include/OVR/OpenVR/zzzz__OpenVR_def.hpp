@@ -114,51 +114,51 @@ public:
   /// @brief Field m_pVRTrackedCamera, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_pVRTrackedCamera, put = __cordl_internal_set_m_pVRTrackedCamera)) ::OVR::OpenVR::CVRTrackedCamera* m_pVRTrackedCamera;
 
-  /// @brief Method CheckClear, addr 0x407ce40, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckClear, addr 0x4085e40, size 0xa0, virtual false, abstract: false, final false
   inline void CheckClear();
 
-  /// @brief Method Clear, addr 0x407ce1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4085e1c, size 0x18, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::OVR::OpenVR::OpenVR_COpenVRContext* New_ctor();
 
-  /// @brief Method VRApplications, addr 0x407c884, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRApplications, addr 0x4085884, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRApplications* VRApplications();
 
-  /// @brief Method VRChaperone, addr 0x407c2b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRChaperone, addr 0x40852b8, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRChaperone* VRChaperone();
 
-  /// @brief Method VRChaperoneSetup, addr 0x407c38c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRChaperoneSetup, addr 0x408538c, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRChaperoneSetup* VRChaperoneSetup();
 
-  /// @brief Method VRCompositor, addr 0x407c460, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRCompositor, addr 0x4085460, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRCompositor* VRCompositor();
 
-  /// @brief Method VRExtendedDisplay, addr 0x407c6dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRExtendedDisplay, addr 0x40856dc, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRExtendedDisplay* VRExtendedDisplay();
 
-  /// @brief Method VRInput, addr 0x407cb00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRInput, addr 0x4085b00, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRInput* VRInput();
 
-  /// @brief Method VROverlay, addr 0x407c534, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VROverlay, addr 0x4085534, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVROverlay* VROverlay();
 
-  /// @brief Method VRRenderModels, addr 0x407c608, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRRenderModels, addr 0x4085608, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRRenderModels* VRRenderModels();
 
-  /// @brief Method VRScreenshots, addr 0x407c958, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRScreenshots, addr 0x4085958, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRScreenshots* VRScreenshots();
 
-  /// @brief Method VRSettings, addr 0x407c7b0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRSettings, addr 0x40857b0, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRSettings* VRSettings();
 
-  /// @brief Method VRSpatialAnchors, addr 0x407cbd4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRSpatialAnchors, addr 0x4085bd4, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRSpatialAnchors* VRSpatialAnchors();
 
-  /// @brief Method VRSystem, addr 0x407c1e4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRSystem, addr 0x40851e4, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRSystem* VRSystem();
 
-  /// @brief Method VRTrackedCamera, addr 0x407ca2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VRTrackedCamera, addr 0x4085a2c, size 0xbc, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::CVRTrackedCamera* VRTrackedCamera();
 
   constexpr ::OVR::OpenVR::CVRApplications* const& __cordl_internal_get_m_pVRApplications() const;
@@ -239,7 +239,7 @@ public:
 
   constexpr void __cordl_internal_set_m_pVRTrackedCamera(::OVR::OpenVR::CVRTrackedCamera* value);
 
-  /// @brief Method .ctor, addr 0x407c1a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40851a0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -257,7 +257,7 @@ public:
   OpenVR_COpenVRContext(OpenVR_COpenVRContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9046 };
 
   /// @brief Field m_pVRSystem, offset: 0x10, size: 0x8, def value: None
   ::OVR::OpenVR::CVRSystem* ___m_pVRSystem;
@@ -345,98 +345,98 @@ public:
   /// @brief Field <VRToken>k__BackingField, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__VRToken_k__BackingField, put = setStaticF__VRToken_k__BackingField)) uint32_t _VRToken_k__BackingField;
 
-  /// @brief Method GetGenericInterface, addr 0x407c068, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetGenericInterface, addr 0x4085068, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetGenericInterface(::StringW pchInterfaceVersion, ::ByRef<::OVR::OpenVR::EVRInitError> peError);
 
-  /// @brief Method GetInitToken, addr 0x407c070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInitToken, addr 0x4085070, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t GetInitToken();
 
-  /// @brief Method GetStringForHmdError, addr 0x407c000, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetStringForHmdError, addr 0x4085000, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW GetStringForHmdError(::OVR::OpenVR::EVRInitError error);
 
-  /// @brief Method Init, addr 0x407cc90, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4085c90, size 0x18c, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRSystem* Init(::ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pchStartupInfo);
 
-  /// @brief Method InitInternal, addr 0x407bfec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitInternal, addr 0x4084fec, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t InitInternal(::ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
 
-  /// @brief Method InitInternal2, addr 0x407bff0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitInternal2, addr 0x4084ff0, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t InitInternal2(::ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pchStartupInfo);
 
-  /// @brief Method IsHmdPresent, addr 0x407bff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsHmdPresent, addr 0x4084ff8, size 0x4, virtual false, abstract: false, final false
   static inline bool IsHmdPresent();
 
-  /// @brief Method IsInterfaceVersionValid, addr 0x407c06c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsInterfaceVersionValid, addr 0x408506c, size 0x4, virtual false, abstract: false, final false
   static inline bool IsInterfaceVersionValid(::StringW pchInterfaceVersion);
 
-  /// @brief Method IsRuntimeInstalled, addr 0x407bffc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsRuntimeInstalled, addr 0x4084ffc, size 0x4, virtual false, abstract: false, final false
   static inline bool IsRuntimeInstalled();
 
   static inline ::OVR::OpenVR::OpenVR* New_ctor();
 
-  /// @brief Method Shutdown, addr 0x407ce34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x4085e34, size 0x4, virtual false, abstract: false, final false
   static inline void Shutdown();
 
-  /// @brief Method ShutdownInternal, addr 0x407bff4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ShutdownInternal, addr 0x4084ff4, size 0x4, virtual false, abstract: false, final false
   static inline void ShutdownInternal();
 
-  /// @brief Method .ctor, addr 0x407ce38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4085e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OVR::OpenVR::OpenVR_COpenVRContext* getStaticF__OpenVRInternal_ModuleContext();
 
   static inline uint32_t getStaticF__VRToken_k__BackingField();
 
-  /// @brief Method get_Applications, addr 0x407c86c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Applications, addr 0x408586c, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRApplications* get_Applications();
 
-  /// @brief Method get_Chaperone, addr 0x407c2a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Chaperone, addr 0x40852a0, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRChaperone* get_Chaperone();
 
-  /// @brief Method get_ChaperoneSetup, addr 0x407c374, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ChaperoneSetup, addr 0x4085374, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRChaperoneSetup* get_ChaperoneSetup();
 
-  /// @brief Method get_Compositor, addr 0x407c448, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Compositor, addr 0x4085448, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRCompositor* get_Compositor();
 
-  /// @brief Method get_ExtendedDisplay, addr 0x407c6c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedDisplay, addr 0x40856c4, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRExtendedDisplay* get_ExtendedDisplay();
 
-  /// @brief Method get_Input, addr 0x407cae8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Input, addr 0x4085ae8, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRInput* get_Input();
 
-  /// @brief Method get_OpenVRInternal_ModuleContext, addr 0x407c108, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_OpenVRInternal_ModuleContext, addr 0x4085108, size 0x98, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::OpenVR_COpenVRContext* get_OpenVRInternal_ModuleContext();
 
-  /// @brief Method get_Overlay, addr 0x407c51c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Overlay, addr 0x408551c, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVROverlay* get_Overlay();
 
-  /// @brief Method get_RenderModels, addr 0x407c5f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_RenderModels, addr 0x40855f0, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRRenderModels* get_RenderModels();
 
-  /// @brief Method get_Screenshots, addr 0x407c940, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Screenshots, addr 0x4085940, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRScreenshots* get_Screenshots();
 
-  /// @brief Method get_Settings, addr 0x407c798, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x4085798, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRSettings* get_Settings();
 
-  /// @brief Method get_SpatialAnchors, addr 0x407cbbc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SpatialAnchors, addr 0x4085bbc, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRSpatialAnchors* get_SpatialAnchors();
 
-  /// @brief Method get_System, addr 0x407c1cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_System, addr 0x40851cc, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRSystem* get_System();
 
-  /// @brief Method get_TrackedCamera, addr 0x407ca14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TrackedCamera, addr 0x4085a14, size 0x18, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::CVRTrackedCamera* get_TrackedCamera();
 
-  /// @brief Method get_VRToken, addr 0x407c074, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_VRToken, addr 0x4085074, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t get_VRToken();
 
   static inline void setStaticF__OpenVRInternal_ModuleContext(::OVR::OpenVR::OpenVR_COpenVRContext* value);
 
   static inline void setStaticF__VRToken_k__BackingField(uint32_t value);
 
-  /// @brief Method set_VRToken, addr 0x407c0bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_VRToken, addr 0x40850bc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_VRToken(uint32_t value);
 
 protected:
@@ -508,7 +508,7 @@ public:
   static constexpr ::ConstString IVRTrackedCamera_Version{ u"IVRTrackedCamera_003" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9047 };
 
   /// @brief Field k_nDriverNone offset 0xffffffff size 0x4
   static constexpr uint32_t k_nDriverNone{ static_cast<uint32_t>(0xffffffffu) };

@@ -34,12 +34,12 @@ public:
   /// @brief Field modified, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_modified, put = __cordl_internal_set_modified)) bool modified;
 
-  /// @brief Method MarkModified, addr 0x3fb32c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkModified, addr 0x3fbc2c8, size 0xc, virtual false, abstract: false, final false
   inline void MarkModified();
 
   static inline ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* New_ctor(::GlobalNamespace::OVRMeshData meshData);
 
-  /// @brief Method Update, addr 0x3fb2f3c, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fbbf3c, size 0x38c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_Weights() const;
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_modified(bool value);
 
-  /// @brief Method .ctor, addr 0x3fb2f08, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fbbf08, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRMeshData meshData);
 
-  /// @brief Method get_MeshData, addr 0x3fb2ee0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_MeshData, addr 0x3fbbee0, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMeshData get_MeshData();
 
-  /// @brief Method set_MeshData, addr 0x3fb2ef0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_MeshData, addr 0x3fbbef0, size 0x18, virtual false, abstract: false, final false
   inline void set_MeshData(::GlobalNamespace::OVRMeshData value);
 
 protected:
@@ -84,7 +84,7 @@ public:
   OVRGLTFAnimationNodeMorphTargetHandler(OVRGLTFAnimationNodeMorphTargetHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7876 };
 
   /// @brief Field <MeshData>k__BackingField, offset: 0x10, size: 0x48, def value: None
   ::GlobalNamespace::OVRMeshData ____MeshData_k__BackingField;

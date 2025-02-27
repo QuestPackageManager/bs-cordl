@@ -19,7 +19,7 @@ namespace UnityEngine {
 struct CORDL_TYPE GradientAlphaKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x48a18ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48aa8dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t alpha, float_t time);
 
   // Ctor Parameters []
@@ -30,7 +30,7 @@ public:
   constexpr GradientAlphaKey(float_t alpha, float_t time) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10817 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

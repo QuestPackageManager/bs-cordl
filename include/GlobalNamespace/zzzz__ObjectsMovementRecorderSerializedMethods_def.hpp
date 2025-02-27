@@ -28,22 +28,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE ObjectsMovementRecorderSerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CameraViewFromSerializedName, addr 0x3b1efe4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CameraViewFromSerializedName, addr 0x3b27a94, size 0x9c, virtual false, abstract: false, final false
   static inline bool CameraViewFromSerializedName(::StringW name, ::ByRef<::GlobalNamespace::ObjectsMovementRecorder_CameraView> cameraView);
 
-  /// @brief Method ModeFromSerializedName, addr 0x3b1eeb0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ModeFromSerializedName, addr 0x3b27960, size 0xcc, virtual false, abstract: false, final false
   static inline bool ModeFromSerializedName(::StringW name, ::ByRef<::GlobalNamespace::ObjectsMovementRecorder_Mode> mode);
 
-  /// @brief Method PlaybackScreenshotTypeFromSerializedName, addr 0x3b1f0e8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PlaybackScreenshotTypeFromSerializedName, addr 0x3b27b98, size 0xa4, virtual false, abstract: false, final false
   static inline bool PlaybackScreenshotTypeFromSerializedName(::StringW name, ::ByRef<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type> type);
 
-  /// @brief Method SerializedName, addr 0x3b1ef7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x3b27a2c, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView);
 
-  /// @brief Method SerializedName, addr 0x3b1ee3c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x3b278ec, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::ObjectsMovementRecorder_Mode mode);
 
-  /// @brief Method SerializedName, addr 0x3b1f080, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x3b27b30, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type);
 
 protected:

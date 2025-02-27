@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::TraceSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x4432228, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443b258, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:
@@ -39,7 +39,7 @@ public:
   TraceSwitch(TraceSwitch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

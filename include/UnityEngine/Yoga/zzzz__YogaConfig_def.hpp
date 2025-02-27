@@ -41,7 +41,7 @@ public:
   /// @brief Field _ygConfig, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ygConfig, put = __cordl_internal_set__ygConfig)) ::System::IntPtr _ygConfig;
 
-  /// @brief Method Finalize, addr 0x496f868, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x4978898, size 0x108, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Yoga::YogaConfig* New_ctor();
@@ -60,26 +60,26 @@ public:
 
   constexpr void __cordl_internal_set__ygConfig(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x496f7fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497882c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x496f778, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49787a8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ygConfig);
 
   static inline ::UnityEngine::Yoga::YogaConfig* getStaticF_Default();
 
-  /// @brief Method get_Handle, addr 0x496f970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x49789a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
-  /// @brief Method get_UseWebDefaults, addr 0x496f9d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_UseWebDefaults, addr 0x4978a00, size 0x3c, virtual false, abstract: false, final false
   inline bool get_UseWebDefaults();
 
   static inline void setStaticF_Default(::UnityEngine::Yoga::YogaConfig* value);
 
-  /// @brief Method set_PointScaleFactor, addr 0x496fad0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_PointScaleFactor, addr 0x4978b00, size 0x4c, virtual false, abstract: false, final false
   inline void set_PointScaleFactor(float_t value);
 
-  /// @brief Method set_UseWebDefaults, addr 0x496fa48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_UseWebDefaults, addr 0x4978a78, size 0x44, virtual false, abstract: false, final false
   inline void set_UseWebDefaults(bool value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   YogaConfig(YogaConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5431 };
 
   /// @brief Field _ygConfig, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ____ygConfig;

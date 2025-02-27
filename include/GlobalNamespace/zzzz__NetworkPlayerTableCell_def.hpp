@@ -72,18 +72,18 @@ public:
 
   __declspec(property(get = get_showSeparator, put = set_showSeparator)) bool showSeparator;
 
-  /// @brief Method HighlightDidChange, addr 0x3c16954, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3c1f858, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::NetworkPlayerTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3c1673c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3c1f640, size 0x214, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3c16950, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3c1f854, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x3c15a94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3c1e998, size 0x9c, virtual false, abstract: false, final false
   inline void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -152,16 +152,16 @@ public:
 
   constexpr void __cordl_internal_set__textColorSelected(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3c169b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1f8b8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeColor, addr 0x3c16958, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_activeColor, addr 0x3c1f85c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_activeColor();
 
-  /// @brief Method get_showSeparator, addr 0x3c16720, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_showSeparator, addr 0x3c1f624, size 0x1c, virtual false, abstract: false, final false
   inline bool get_showSeparator();
 
-  /// @brief Method set_showSeparator, addr 0x3c15b30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x3c1ea34, size 0x2c, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
 protected:

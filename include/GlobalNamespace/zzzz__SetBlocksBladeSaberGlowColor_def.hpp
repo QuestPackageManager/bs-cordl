@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::SetBlocksBladeSaberGlowColor* New_ctor();
 
-  /// @brief Method Start, addr 0x3bf08b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bf97e8, size 0x40, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BlocksBlade> const& __cordl_internal_get__blocksBlade() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x3bf08f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf9828, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffectInstaller::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffectInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3b9ca58;
+  constexpr static std::size_t addrs = 0x3ba5990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffectInstaller::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffectInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9cb00;
+  constexpr static std::size_t addrs = 0x3ba5a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

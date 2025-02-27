@@ -57,16 +57,16 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  /// @brief Method GetCopy, addr 0x2246828, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x224a660, size 0xb8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method Mirror, addr 0x22468e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x224a718, size 0x24, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
   static inline ::GlobalNamespace::ObstacleData* New_ctor(float_t time, float_t startBeat, float_t endBeat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
                                                           float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method UpdateDuration, addr 0x2246820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDuration, addr 0x224a658, size 0x8, virtual false, abstract: false, final false
   inline void UpdateDuration(float_t duration);
 
   constexpr float_t const& __cordl_internal_get__duration_k__BackingField() const;
@@ -105,43 +105,43 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2246790, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224a5c8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t startBeat, float_t endBeat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method get_duration, addr 0x2246760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x224a598, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_endBeat, addr 0x2246730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_endBeat, addr 0x224a568, size 0x8, virtual false, abstract: false, final false
   inline float_t get_endBeat();
 
-  /// @brief Method get_height, addr 0x2246780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x224a5b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_lineIndex, addr 0x2246740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x224a578, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x2246750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x224a588, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_width, addr 0x2246770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x224a5a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_duration, addr 0x2246768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x224a5a0, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_endBeat, addr 0x2246738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_endBeat, addr 0x224a570, size 0x8, virtual false, abstract: false, final false
   inline void set_endBeat(float_t value);
 
-  /// @brief Method set_height, addr 0x2246788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x224a5c0, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_lineIndex, addr 0x2246748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x224a580, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_lineLayer, addr 0x2246758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0x224a590, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_width, addr 0x2246778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x224a5b0, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:
@@ -159,7 +159,7 @@ public:
   ObstacleData(ObstacleData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17084 };
 
   /// @brief Field <endBeat>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____endBeat_k__BackingField;

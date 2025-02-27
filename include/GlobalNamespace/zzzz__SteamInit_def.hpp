@@ -25,10 +25,10 @@ public:
   /// @brief Field _isInitialized, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
-  /// @brief Method GetAppVersionAsync, addr 0x271d970, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetAppVersionAsync, addr 0x2721cb4, size 0x88, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAppVersionAsync();
 
-  /// @brief Method InitializeInternalAsync, addr 0x271d8fc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x2721c40, size 0x74, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
 
   static inline ::GlobalNamespace::SteamInit* New_ctor();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  /// @brief Method .ctor, addr 0x271d9f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2721d3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   SteamInit(SteamInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17810 };
 
   /// @brief Field _isInitialized, offset: 0x20, size: 0x1, def value: None
   bool ____isInitialized;

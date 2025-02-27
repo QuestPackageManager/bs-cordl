@@ -72,7 +72,7 @@ public:
   static ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater_State const Waiting;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6338 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -111,19 +111,19 @@ public:
   /// @brief Method OnHierarchyChange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method OnVersionChanged, addr 0x49a57f4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x49ae824, size 0x2c, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method ProcessAddOrMove, addr 0x49a5908, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ProcessAddOrMove, addr 0x49ae938, size 0xbc, virtual false, abstract: false, final false
   inline void ProcessAddOrMove(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ProcessNewChange, addr 0x49a5820, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ProcessNewChange, addr 0x49ae850, size 0x84, virtual false, abstract: false, final false
   inline void ProcessNewChange(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ProcessRemove, addr 0x49a58a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ProcessRemove, addr 0x49ae8d4, size 0x64, virtual false, abstract: false, final false
   inline void ProcessRemove(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x49a59c4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x49ae9f4, size 0x94, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_CurrentChangeElement() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_m_State(::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater_State value);
 
-  /// @brief Method .ctor, addr 0x49a5a58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49aea88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   BaseVisualTreeHierarchyTrackerUpdater(BaseVisualTreeHierarchyTrackerUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6339 };
 
   /// @brief Field m_State, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater_State ___m_State;

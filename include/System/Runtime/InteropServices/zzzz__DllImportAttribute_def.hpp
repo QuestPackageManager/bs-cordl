@@ -62,10 +62,10 @@ public:
   /// @brief Field _val, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) ::StringW _val;
 
-  /// @brief Method GetCustomAttribute, addr 0x3d19400, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x3d22304, size 0x1b0, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method IsDefined, addr 0x3d1963c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x3d22540, size 0x28, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::RuntimeMethodInfo* method);
 
   static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW dllName);
@@ -128,14 +128,14 @@ public:
 
   constexpr void __cordl_internal_set__val(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d19664, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d22568, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW dllName);
 
-  /// @brief Method .ctor, addr 0x3d195b0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d224b4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig,
                     ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
 
-  /// @brief Method get_Value, addr 0x3d1968c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3d22590, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:

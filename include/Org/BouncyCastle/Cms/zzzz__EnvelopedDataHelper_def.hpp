@@ -48,21 +48,21 @@ public:
   /// @brief Field MacAlgNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_MacAlgNames, put = setStaticF_MacAlgNames)) ::System::Collections::IDictionary* MacAlgNames;
 
-  /// @brief Method CreateContentCipher, addr 0x2677544, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0x267b27c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
-  /// @brief Method CreateKeyGenerator, addr 0x2677644, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyGenerator, addr 0x267b37c, size 0x10, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0x26775b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0x267b2ec, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID,
                                                                                        ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey,
                                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::EnvelopedDataHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2677654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267b38c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames();

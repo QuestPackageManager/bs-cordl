@@ -22,7 +22,7 @@ public:
   /// @brief Field RandomSeed, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_RandomSeed, put = setStaticF_RandomSeed)) int32_t RandomSeed;
 
-  /// @brief Method Combine, addr 0x42138c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x421c8f0, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t h1, int32_t h2);
 
   static inline int32_t getStaticF_RandomSeed();
@@ -44,7 +44,7 @@ public:
   HashHelpers(HashHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

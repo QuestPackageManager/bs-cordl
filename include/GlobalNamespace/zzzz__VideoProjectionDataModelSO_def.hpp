@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__videoAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method .ctor, addr 0x3b9f650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba8588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x3b9f640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x3ba8578, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_videoAssetReference, addr 0x3b9f648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_videoAssetReference, addr 0x3ba8580, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_videoAssetReference();
 
 protected:
@@ -125,10 +125,10 @@ public:
   constexpr void
   __cordl_internal_set__videoClipsWithId(::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*, ::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b9f638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba8570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_videoClipWithIds, addr 0x3b9f630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_videoClipWithIds, addr 0x3ba8568, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*, ::Array<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>*> get_videoClipWithIds();
 
 protected:

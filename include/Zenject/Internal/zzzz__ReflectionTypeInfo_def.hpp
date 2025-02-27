@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_InjectableInfo(::Zenject::InjectableInfo* value);
 
-  /// @brief Method .ctor, addr 0x4b5c5f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b65620, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* fieldInfo, ::Zenject::InjectableInfo* injectableInfo);
 
 protected:
@@ -115,7 +115,7 @@ public:
   ReflectionTypeInfo_InjectFieldInfo(ReflectionTypeInfo_InjectFieldInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12720 };
 
   /// @brief Field FieldInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ___FieldInfo;
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_ParameterInfo(::System::Reflection::ParameterInfo* value);
 
-  /// @brief Method .ctor, addr 0x4b5c61c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b6564c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ParameterInfo* parameterInfo, ::Zenject::InjectableInfo* injectableInfo);
 
 protected:
@@ -178,7 +178,7 @@ public:
   ReflectionTypeInfo_InjectParameterInfo(ReflectionTypeInfo_InjectParameterInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12721 };
 
   /// @brief Field ParameterInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ParameterInfo* ___ParameterInfo;
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set_PropertyInfo(::System::Reflection::PropertyInfo* value);
 
-  /// @brief Method .ctor, addr 0x4b5c648, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b65678, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::PropertyInfo* propertyInfo, ::Zenject::InjectableInfo* injectableInfo);
 
 protected:
@@ -241,7 +241,7 @@ public:
   ReflectionTypeInfo_InjectPropertyInfo(ReflectionTypeInfo_InjectPropertyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12722 };
 
   /// @brief Field PropertyInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___PropertyInfo;
@@ -288,7 +288,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x4b5c674, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b656a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* methodInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>* parameters);
 
 protected:
@@ -306,7 +306,7 @@ public:
   ReflectionTypeInfo_InjectMethodInfo(ReflectionTypeInfo_InjectMethodInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12723 };
 
   /// @brief Field MethodInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ___MethodInfo;
@@ -353,7 +353,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x4b5c6a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b656d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* constructorInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>* parameters);
 
 protected:
@@ -371,7 +371,7 @@ public:
   ReflectionTypeInfo_InjectConstructorInfo(ReflectionTypeInfo_InjectConstructorInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12724 };
 
   /// @brief Field ConstructorInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___ConstructorInfo;
@@ -468,7 +468,7 @@ public:
 
   constexpr void __cordl_internal_set_Type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4b5c59c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b655cc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Type* baseType, ::Zenject::Internal::ReflectionTypeInfo_InjectConstructorInfo* injectConstructor,
                     ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectMethodInfo*>* injectMethods,
                     ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*>* injectFields,
@@ -489,7 +489,7 @@ public:
   ReflectionTypeInfo(ReflectionTypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12725 };
 
   /// @brief Field Type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___Type;

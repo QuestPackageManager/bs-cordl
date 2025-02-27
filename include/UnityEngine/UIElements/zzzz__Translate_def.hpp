@@ -38,46 +38,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Translate>*();
 
-  /// @brief Method Equals, addr 0x4a8b434, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a94464, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a8b3b8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a943e8, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Translate other);
 
-  /// @brief Method GetHashCode, addr 0x4a86aac, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a8fadc, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method None, addr 0x4a89f24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x4a92f54, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate None();
 
-  /// @brief Method ToString, addr 0x4a8b4c4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a944f4, size 0x134, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a8b308, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a94338, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 
-  /// @brief Method get_x, addr 0x4a8b318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x4a94348, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_x();
 
-  /// @brief Method get_y, addr 0x4a8b328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x4a94358, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_y();
 
-  /// @brief Method get_z, addr 0x4a8b338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x4a94368, size 0x8, virtual false, abstract: false, final false
   inline float_t get_z();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Translate>* i___System__IEquatable_1___UnityEngine__UIElements__Translate_();
 
-  /// @brief Method op_Equality, addr 0x4a86764, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a8f794, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs);
 
-  /// @brief Method op_Inequality, addr 0x4a8b340, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4a94370, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs);
 
-  /// @brief Method set_x, addr 0x4a8b320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x4a94350, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::UIElements::Length value);
 
-  /// @brief Method set_y, addr 0x4a8b330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x4a94360, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::UIElements::Length value);
 
   // Ctor Parameters []
@@ -89,7 +89,7 @@ public:
   constexpr Translate(::UnityEngine::UIElements::Length m_X, ::UnityEngine::UIElements::Length m_Y, float_t m_Z, bool m_isNone) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6117 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

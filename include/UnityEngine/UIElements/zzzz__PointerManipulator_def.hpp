@@ -25,10 +25,10 @@ public:
   /// @brief Field m_CurrentPointerId, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CurrentPointerId, put = __cordl_internal_set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
 
-  /// @brief Method CanStartManipulation, addr 0x4a4af2c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x4a53f5c, size 0x1e4, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x4a4b110, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x4a54140, size 0xb4, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
   static inline ::UnityEngine::UIElements::PointerManipulator* New_ctor();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a4b1c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a541f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   PointerManipulator(PointerManipulator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6022 };
 
   /// @brief Field m_CurrentPointerId, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_CurrentPointerId;

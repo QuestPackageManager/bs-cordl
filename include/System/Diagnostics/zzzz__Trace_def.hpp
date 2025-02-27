@@ -29,13 +29,13 @@ public:
 
   static inline ::System::Diagnostics::CorrelationManager* getStaticF_correlationManager();
 
-  /// @brief Method get_AutoFlush, addr 0x44302a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x44392d8, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_CorrelationManager, addr 0x4430354, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_CorrelationManager, addr 0x4439384, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::CorrelationManager* get_CorrelationManager();
 
-  /// @brief Method get_Listeners, addr 0x4430018, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x4439048, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
   static inline void setStaticF_correlationManager(::System::Diagnostics::CorrelationManager* value);
@@ -55,7 +55,7 @@ public:
   Trace(Trace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

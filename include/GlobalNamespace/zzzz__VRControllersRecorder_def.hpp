@@ -138,12 +138,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE VRControllersRecorder_TypeSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder {
 public:
   // Declarations
-  /// @brief Method BindToType, addr 0x3b17e9c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BindToType, addr 0x3b2094c, size 0x84, virtual true, abstract: false, final false
   inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
 
   static inline ::GlobalNamespace::VRControllersRecorder_TypeSerializationBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b1725c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1fd0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -376,7 +376,7 @@ public:
 
   constexpr void __cordl_internal_set__zRot3(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b17f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b209d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -537,7 +537,7 @@ public:
   constexpr void __cordl_internal_set__keyframes(
       ::ArrayW<::GlobalNamespace::SavedData_VRControllersRecorder_KeyframeSerializable*, ::Array<::GlobalNamespace::SavedData_VRControllersRecorder_KeyframeSerializable*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b16734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1f1e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -667,16 +667,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x3b18754, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3b21204, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3b18568, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3b21018, size 0x1ec, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::VRControllersRecorder_Keyframe* other);
 
-  /// @brief Method FromSerializable, addr 0x3b18050, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FromSerializable, addr 0x3b20b00, size 0x114, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_Keyframe* FromSerializable(::GlobalNamespace::SavedData_VRControllersRecorder_KeyframeSerializable* ks);
 
-  /// @brief Method GetHashCode, addr 0x3b187f0, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3b212a0, size 0x11c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::VRControllersRecorder_Keyframe* New_ctor(::UnityEngine::Pose leftController, ::UnityEngine::Pose rightController, ::UnityEngine::Pose head, float_t time);
@@ -684,16 +684,16 @@ public:
   static inline ::GlobalNamespace::VRControllersRecorder_Keyframe* New_ctor(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, ::UnityEngine::Vector3 pos3, ::UnityEngine::Quaternion rot1,
                                                                             ::UnityEngine::Quaternion rot2, ::UnityEngine::Quaternion rot3, float_t time);
 
-  /// @brief Method ReadFrom, addr 0x3b18214, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x3b20cc4, size 0x174, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_Keyframe* ReadFrom(::System::IO::BinaryReader* reader);
 
-  /// @brief Method ToConstructorString, addr 0x3b18388, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method ToConstructorString, addr 0x3b20e38, size 0x1e0, virtual true, abstract: false, final true
   inline ::StringW ToConstructorString();
 
-  /// @brief Method ToSerializable, addr 0x3b1673c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToSerializable, addr 0x3b1f1ec, size 0x90, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SavedData_VRControllersRecorder_KeyframeSerializable* ToSerializable();
 
-  /// @brief Method WriteTo, addr 0x3b18164, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x3b20c14, size 0xb0, virtual false, abstract: false, final false
   inline void WriteTo(::System::IO::BinaryWriter* writer);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pos1() const;
@@ -738,20 +738,20 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b162c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1ed78, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Pose leftController, ::UnityEngine::Pose rightController, ::UnityEngine::Pose head, float_t time);
 
-  /// @brief Method .ctor, addr 0x3b17fa0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b20a50, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, ::UnityEngine::Vector3 pos3, ::UnityEngine::Quaternion rot1, ::UnityEngine::Quaternion rot2,
                     ::UnityEngine::Quaternion rot3, float_t time);
 
-  /// @brief Method get_headPose, addr 0x3b17f78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_headPose, addr 0x3b20a28, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_headPose();
 
-  /// @brief Method get_leftControllerPose, addr 0x3b17f28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_leftControllerPose, addr 0x3b209d8, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_leftControllerPose();
 
-  /// @brief Method get_rightControllerPose, addr 0x3b17f50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_rightControllerPose, addr 0x3b20a00, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_rightControllerPose();
 
   /// @brief Convert to "::GlobalNamespace::IConstructorStringGenerator"
@@ -833,10 +833,10 @@ public:
 
   static inline ::GlobalNamespace::State_VRControllersRecorder___c* New_ctor();
 
-  /// @brief Method <WriteTo>b__12_0, addr 0x3b18c0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <WriteTo>b__12_0, addr 0x3b216bc, size 0x14, virtual false, abstract: false, final false
   inline void _WriteTo_b__12_0(::System::IO::BinaryWriter* binaryWriter, ::GlobalNamespace::VRControllersRecorder_Keyframe* keyframe);
 
-  /// @brief Method .ctor, addr 0x3b18c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b216b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::State_VRControllersRecorder___c* getStaticF___9();
@@ -896,10 +896,10 @@ public:
 
   __declspec(property(get = get_version)) uint32_t version;
 
-  /// @brief Method AddKeyframe, addr 0x3b16338, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddKeyframe, addr 0x3b1ede8, size 0xa4, virtual false, abstract: false, final false
   inline void AddKeyframe(::GlobalNamespace::VRControllersRecorder_Keyframe* keyframe);
 
-  /// @brief Method FromSavedData, addr 0x3b16ecc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FromSavedData, addr 0x3b1f97c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_State* FromSavedData(::GlobalNamespace::VRControllersRecorder_SavedData* data, ::UnityEngine::Pose leftControllerOffset,
                                                                               ::UnityEngine::Pose rightControllerOffset);
 
@@ -914,13 +914,13 @@ public:
   static inline ::GlobalNamespace::VRControllersRecorder_State* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>* keyframes,
                                                                          ::UnityEngine::Pose leftControllerOffset, ::UnityEngine::Pose rightControllerOffset, uint32_t version);
 
-  /// @brief Method ReadFrom, addr 0x3b1708c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x3b1fb3c, size 0x148, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_State* ReadFrom(::System::IO::BinaryReader* reader);
 
-  /// @brief Method Upgrade, addr 0x3b18ae8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Upgrade, addr 0x3b21598, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRControllersRecorder_State* Upgrade(::UnityEngine::Pose newLeftControllerOffset, ::UnityEngine::Pose newRightControllerOffset);
 
-  /// @brief Method WriteTo, addr 0x3b1680c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x3b1f2bc, size 0x150, virtual false, abstract: false, final false
   inline void WriteTo(::System::IO::BinaryWriter* writer);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>* const& __cordl_internal_get__keyframes() const;
@@ -947,25 +947,25 @@ public:
 
   constexpr void __cordl_internal_set_rightControllerOffset(::UnityEngine::Pose value);
 
-  /// @brief Method .ctor, addr 0x3b14eec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1d99c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3b1890c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b213bc, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>* keyframes, ::UnityEngine::Pose leftControllerOffset,
                     ::UnityEngine::Pose rightControllerOffset);
 
-  /// @brief Method .ctor, addr 0x3b18a60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b21510, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>* keyframes, ::UnityEngine::Pose leftControllerOffset,
                     ::UnityEngine::Pose rightControllerOffset);
 
-  /// @brief Method .ctor, addr 0x3b189f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b214a4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>* keyframes, ::UnityEngine::Pose leftControllerOffset,
                     ::UnityEngine::Pose rightControllerOffset, uint32_t version);
 
-  /// @brief Method get_keyframes, addr 0x3b18ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyframes, addr 0x3b21588, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>* get_keyframes();
 
-  /// @brief Method get_version, addr 0x3b18ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x3b21590, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_version();
 
 protected:
@@ -1123,78 +1123,78 @@ public:
 
   __declspec(property(get = get_recordingTextAsset, put = set_recordingTextAsset)) ::UnityW<::UnityEngine::TextAsset> recordingTextAsset;
 
-  /// @brief Method CheckNodes, addr 0x3b14834, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method CheckNodes, addr 0x3b1d2e4, size 0x25c, virtual false, abstract: false, final false
   inline void CheckNodes();
 
-  /// @brief Method CreateAnimationClipFromRecording, addr 0x3b17298, size 0xb98, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationClipFromRecording, addr 0x3b1fd48, size 0xb98, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipFromRecording(::StringW recordingFilePath);
 
-  /// @brief Method GetBinaryFormatter, addr 0x3b171d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetBinaryFormatter, addr 0x3b1fc84, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* GetBinaryFormatter();
 
-  /// @brief Method GetSavedData, addr 0x3b16500, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetSavedData, addr 0x3b1efb0, size 0x234, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_SavedData* GetSavedData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::VRControllersRecorder_Keyframe*>* keyframes);
 
-  /// @brief Method HandleControllerAnchorUpdate, addr 0x3b14f6c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method HandleControllerAnchorUpdate, addr 0x3b1da1c, size 0x190, virtual false, abstract: false, final false
   inline void HandleControllerAnchorUpdate(::GlobalNamespace::VRController* controller, ::UnityEngine::Pose poseOffset);
 
-  /// @brief Method LateUpdate, addr 0x3b164c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b1ef70, size 0x10, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method Load, addr 0x3b14a90, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3b1d540, size 0x45c, virtual false, abstract: false, final false
   inline bool Load();
 
-  /// @brief Method LoadSavedData, addr 0x3b16e3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LoadSavedData, addr 0x3b1f8ec, size 0x90, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_SavedData* LoadSavedData(::System::IO::Stream* dataStream);
 
-  /// @brief Method LoadState, addr 0x3b169a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method LoadState, addr 0x3b1f458, size 0x98, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRControllersRecorder_State* LoadState(::System::IO::Stream* stream);
 
-  /// @brief Method LoadState, addr 0x3b16af4, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method LoadState, addr 0x3b1f5a4, size 0x2a8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_State* LoadState(::System::IO::Stream* stream, ::UnityEngine::Pose leftControllerOffset, ::UnityEngine::Pose rightControllerOffset);
 
-  /// @brief Method LoadStateWithDefaultOffset, addr 0x3b16d9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method LoadStateWithDefaultOffset, addr 0x3b1f84c, size 0xa0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::VRControllersRecorder_State* LoadStateWithDefaultOffset(::System::IO::Stream* stream);
 
   static inline ::GlobalNamespace::VRControllersRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b150fc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b1dbac, size 0xe4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlaybackTick, addr 0x3b156ac, size 0x7c0, virtual false, abstract: false, final false
+  /// @brief Method PlaybackTick, addr 0x3b1e15c, size 0x7c0, virtual false, abstract: false, final false
   inline void PlaybackTick();
 
-  /// @brief Method ReadHeader, addr 0x3b1695c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReadHeader, addr 0x3b1f40c, size 0x4c, virtual false, abstract: false, final false
   static inline uint32_t ReadHeader(::System::IO::BinaryReader* reader);
 
-  /// @brief Method RecordTick, addr 0x3b15f70, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method RecordTick, addr 0x3b1ea20, size 0x358, virtual false, abstract: false, final false
   inline void RecordTick();
 
-  /// @brief Method Save, addr 0x3b151e0, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x3b1dc90, size 0x3c4, virtual false, abstract: false, final false
   inline void Save();
 
-  /// @brief Method SerializeSavedData, addr 0x3b17264, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SerializeSavedData, addr 0x3b1fd14, size 0x34, virtual false, abstract: false, final false
   static inline void SerializeSavedData(::System::IO::Stream* dataStream, ::GlobalNamespace::VRControllersRecorder_SavedData* savedData);
 
-  /// @brief Method SetDefaultSettings, addr 0x3b155a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultSettings, addr 0x3b1e054, size 0x84, virtual false, abstract: false, final false
   inline void SetDefaultSettings();
 
-  /// @brief Method SetInGamePlaybackDefaultSettings, addr 0x3b15628, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetInGamePlaybackDefaultSettings, addr 0x3b1e0d8, size 0x84, virtual false, abstract: false, final false
   inline void SetInGamePlaybackDefaultSettings();
 
-  /// @brief Method SetPositionAndRotation, addr 0x3b15e6c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3b1e91c, size 0x104, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Transform* transf, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion targetRot, float_t t);
 
-  /// @brief Method Start, addr 0x3b141a8, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b1cc58, size 0x68c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b163dc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b1ee8c, size 0xe4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method WriteHeader, addr 0x3b167cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method WriteHeader, addr 0x3b1f27c, size 0x40, virtual false, abstract: false, final false
   static inline void WriteHeader(::System::IO::BinaryWriter* writer);
 
-  /// @brief Method WriteTo, addr 0x3b164d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x3b1ef80, size 0x30, virtual false, abstract: false, final false
   static inline void WriteTo(::System::IO::BinaryWriter* writer, ::GlobalNamespace::VRControllersRecorder_State* state);
 
   constexpr bool const& __cordl_internal_get__adjustSabersPositionBasedOnHeadPosition() const;
@@ -1359,37 +1359,37 @@ public:
 
   constexpr void __cordl_internal_set__state(::GlobalNamespace::VRControllersRecorder_State* value);
 
-  /// @brief Method .ctor, addr 0x3b17e30, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b208e0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_changeToNonVRCamera, addr 0x3b141a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_changeToNonVRCamera, addr 0x3b1cc50, size 0x8, virtual false, abstract: false, final false
   inline bool get_changeToNonVRCamera();
 
-  /// @brief Method get_currentPoses, addr 0x3b13f54, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method get_currentPoses, addr 0x3b1ca04, size 0x210, virtual false, abstract: false, final false
   inline ::System::ValueTuple_3<::UnityEngine::Pose, ::UnityEngine::Pose, ::UnityEngine::Pose> get_currentPoses();
 
-  /// @brief Method get_mode, addr 0x3b1416c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x3b1cc1c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRControllersRecorder_Mode get_mode();
 
-  /// @brief Method get_path, addr 0x3b16a40, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x3b1f4f0, size 0xb4, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_recordingFileName, addr 0x3b1418c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingFileName, addr 0x3b1cc3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_recordingFileName();
 
-  /// @brief Method get_recordingTextAsset, addr 0x3b1417c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingTextAsset, addr 0x3b1cc2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_recordingTextAsset();
 
-  /// @brief Method set_changeToNonVRCamera, addr 0x3b14194, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_changeToNonVRCamera, addr 0x3b1cc44, size 0xc, virtual false, abstract: false, final false
   inline void set_changeToNonVRCamera(bool value);
 
-  /// @brief Method set_mode, addr 0x3b14164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x3b1cc14, size 0x8, virtual false, abstract: false, final false
   inline void set_mode(::GlobalNamespace::VRControllersRecorder_Mode value);
 
-  /// @brief Method set_recordingFileName, addr 0x3b14184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_recordingFileName, addr 0x3b1cc34, size 0x8, virtual false, abstract: false, final false
   inline void set_recordingFileName(::StringW value);
 
-  /// @brief Method set_recordingTextAsset, addr 0x3b14174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_recordingTextAsset, addr 0x3b1cc24, size 0x8, virtual false, abstract: false, final false
   inline void set_recordingTextAsset(::UnityEngine::TextAsset* value);
 
 protected:

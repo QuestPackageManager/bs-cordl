@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9f9dc, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3aa848c, size 0xf8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
 
   static inline ::HoudiniEngineUnity::Test_LayerMask* New_ctor(::UnityEngine::LayerMask self);
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::LayerMask value);
 
-  /// @brief Method .ctor, addr 0x3a9f9b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa8464, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LayerMask self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
@@ -61,7 +61,7 @@ public:
   Test_LayerMask(Test_LayerMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11912 };
 
   /// @brief Field self, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___self;

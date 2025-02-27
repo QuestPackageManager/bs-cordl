@@ -64,7 +64,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3aa3048, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3aabaf8, size 0x374, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
 
   static inline ::HoudiniEngineUnity::HEU_VolumeScatterTrees* New_ctor();
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__widthScales(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3aa33bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aabe6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
@@ -144,7 +144,7 @@ public:
   HEU_VolumeScatterTrees(HEU_VolumeScatterTrees const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11940 };
 
   /// @brief Field _treePrototypInfos, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* ____treePrototypInfos;

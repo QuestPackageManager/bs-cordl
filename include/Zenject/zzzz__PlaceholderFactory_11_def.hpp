@@ -170,7 +170,7 @@ public:
   PlaceholderFactory_11__get_ParamTypes_d__2(PlaceholderFactory_11__get_ParamTypes_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12364 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -244,7 +244,7 @@ public:
   PlaceholderFactory_11(PlaceholderFactory_11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12365 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

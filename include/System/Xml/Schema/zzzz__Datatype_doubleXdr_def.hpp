@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_doubleXdr* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x43b4da0, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x43bddd0, size 0x1e8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method .ctor, addr 0x43a9b68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b2b98, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   Datatype_doubleXdr(Datatype_doubleXdr const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7579 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

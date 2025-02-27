@@ -64,10 +64,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*();
 
-  /// @brief Method Compare, addr 0x3e62a30, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3e6b934, size 0x70, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Threading::Timer* tx, ::System::Threading::Timer* ty);
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x3e62998, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x3e6b89c, size 0x98, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* x, ::System::Object* y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::System::Threading::Timer*>"
@@ -118,36 +118,36 @@ public:
   /// @brief Field needReSort, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_needReSort, put = __cordl_internal_set_needReSort)) bool needReSort;
 
-  /// @brief Method Add, addr 0x3e63120, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3e6c024, size 0xec, virtual false, abstract: false, final false
   inline void Add(::System::Threading::Timer* timer);
 
-  /// @brief Method Change, addr 0x3e62774, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Change, addr 0x3e6b678, size 0x18c, virtual false, abstract: false, final false
   inline void Change(::System::Threading::Timer* timer, int64_t new_next_run);
 
-  /// @brief Method FireTimer, addr 0x3e63284, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FireTimer, addr 0x3e6c188, size 0xc0, virtual false, abstract: false, final false
   inline void FireTimer(::System::Threading::Timer* timer);
 
-  /// @brief Method InitScheduler, addr 0x3e62aa0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method InitScheduler, addr 0x3e6b9a4, size 0xfc, virtual false, abstract: false, final false
   inline void InitScheduler();
 
-  /// @brief Method InternalRemove, addr 0x3e630f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InternalRemove, addr 0x3e6bff4, size 0x30, virtual false, abstract: false, final false
   inline void InternalRemove(::System::Threading::Timer* timer);
 
   static inline ::System::Threading::Timer_Scheduler* New_ctor();
 
-  /// @brief Method Remove, addr 0x3e626a4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x3e6b5a8, size 0xcc, virtual false, abstract: false, final false
   inline void Remove(::System::Threading::Timer* timer);
 
-  /// @brief Method RunSchedulerLoop, addr 0x3e62ce8, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method RunSchedulerLoop, addr 0x3e6bbec, size 0x314, virtual false, abstract: false, final false
   inline int32_t RunSchedulerLoop();
 
-  /// @brief Method SchedulerThread, addr 0x3e62bb8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SchedulerThread, addr 0x3e6babc, size 0x130, virtual false, abstract: false, final false
   inline void SchedulerThread();
 
-  /// @brief Method TimerCB, addr 0x3e6320c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TimerCB, addr 0x3e6c110, size 0x78, virtual false, abstract: false, final false
   static inline void TimerCB(::System::Object* o);
 
-  /// @brief Method WakeupScheduler, addr 0x3e62b9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WakeupScheduler, addr 0x3e6baa0, size 0x1c, virtual false, abstract: false, final false
   inline void WakeupScheduler();
 
   constexpr ::System::Threading::ManualResetEvent* const& __cordl_internal_get_changed() const;
@@ -174,12 +174,12 @@ public:
 
   constexpr void __cordl_internal_set_needReSort(bool value);
 
-  /// @brief Method .ctor, addr 0x3e63054, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6bf58, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Timer_Scheduler* getStaticF_instance();
 
-  /// @brief Method get_Instance, addr 0x3e62ffc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3e6bf00, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Timer_Scheduler* get_Instance();
 
   static inline void setStaticF_instance(::System::Threading::Timer_Scheduler* value);
@@ -268,28 +268,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Change, addr 0x3e625b4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Change, addr 0x3e6b4b8, size 0xb8, virtual false, abstract: false, final false
   inline bool Change(::System::TimeSpan dueTime, ::System::TimeSpan period);
 
-  /// @brief Method Change, addr 0x3e62594, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Change, addr 0x3e6b498, size 0x20, virtual false, abstract: false, final false
   inline bool Change(int32_t dueTime, int32_t period);
 
-  /// @brief Method Change, addr 0x3e623cc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Change, addr 0x3e6b2d0, size 0x1c8, virtual false, abstract: false, final false
   inline bool Change(int64_t dueTime, int64_t period, bool first);
 
-  /// @brief Method Dispose, addr 0x3e6266c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3e6b570, size 0x38, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x3e62900, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x3e6b804, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method GetTimeMonotonic, addr 0x3e62770, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimeMonotonic, addr 0x3e6b674, size 0x4, virtual false, abstract: false, final false
   static inline int64_t GetTimeMonotonic();
 
-  /// @brief Method Init, addr 0x3e62288, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3e6b18c, size 0x70, virtual false, abstract: false, final false
   inline void Init(::System::Threading::TimerCallback* callback, ::System::Object* state, int64_t dueTime, int64_t period);
 
-  /// @brief Method KeepRootedWhileScheduled, addr 0x3e62994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method KeepRootedWhileScheduled, addr 0x3e6b898, size 0x4, virtual false, abstract: false, final false
   inline void KeepRootedWhileScheduled();
 
   static inline ::System::Threading::Timer* New_ctor(::System::Threading::TimerCallback* callback, ::System::Object* state, ::System::TimeSpan dueTime, ::System::TimeSpan period);
@@ -344,13 +344,13 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e622f8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6b1fc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::TimerCallback* callback, ::System::Object* state, ::System::TimeSpan dueTime, ::System::TimeSpan period);
 
-  /// @brief Method .ctor, addr 0x3e6223c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6b140, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::TimerCallback* callback, ::System::Object* state, int32_t dueTime, int32_t period);
 
-  /// @brief Method get_scheduler, addr 0x3e621b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_scheduler, addr 0x3e6b0b8, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Threading::Timer_Scheduler* get_scheduler();
 
   /// @brief Convert to "::System::IAsyncDisposable"

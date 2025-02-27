@@ -118,52 +118,52 @@ public:
   /// @brief Field s_knownWords, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_knownWords, put = setStaticF_s_knownWords)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_knownWords;
 
-  /// @brief Method AddDateWordOrPostfix, addr 0x3d96cfc, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method AddDateWordOrPostfix, addr 0x3d9fc00, size 0x2bc, virtual false, abstract: false, final false
   inline void AddDateWordOrPostfix(::StringW formatPostfix, ::StringW str);
 
-  /// @brief Method AddDateWords, addr 0x3d97108, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method AddDateWords, addr 0x3da000c, size 0x1e0, virtual false, abstract: false, final false
   inline int32_t AddDateWords(::StringW pattern, int32_t index, ::StringW formatPostfix);
 
-  /// @brief Method AddIgnorableSymbols, addr 0x3d96fb8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddIgnorableSymbols, addr 0x3d9febc, size 0x150, virtual false, abstract: false, final false
   inline void AddIgnorableSymbols(::StringW text);
 
-  /// @brief Method ArrayElementsBeginWithDigit, addr 0x3d97658, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ArrayElementsBeginWithDigit, addr 0x3da055c, size 0x25c, virtual false, abstract: false, final false
   static inline bool ArrayElementsBeginWithDigit(::ArrayW<::StringW, ::Array<::StringW>*> array);
 
-  /// @brief Method ArrayElementsHaveSpace, addr 0x3d978b4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ArrayElementsHaveSpace, addr 0x3da07b8, size 0xf8, virtual false, abstract: false, final false
   static inline bool ArrayElementsHaveSpace(::ArrayW<::StringW, ::Array<::StringW>*> array);
 
-  /// @brief Method EqualStringArrays, addr 0x3d975a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method EqualStringArrays, addr 0x3da04ac, size 0xb0, virtual false, abstract: false, final false
   static inline bool EqualStringArrays(::ArrayW<::StringW, ::Array<::StringW>*> array1, ::ArrayW<::StringW, ::Array<::StringW>*> array2);
 
-  /// @brief Method GetDateWordsOfDTFI, addr 0x3d95654, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method GetDateWordsOfDTFI, addr 0x3d9e558, size 0x290, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetDateWordsOfDTFI(::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetFormatFlagGenitiveMonth, addr 0x3d93a74, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetFormatFlagGenitiveMonth, addr 0x3d9c978, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::ArrayW<::StringW, ::Array<::StringW>*> monthNames, ::ArrayW<::StringW, ::Array<::StringW>*> genitveMonthNames,
                                                                                 ::ArrayW<::StringW, ::Array<::StringW>*> abbrevMonthNames,
                                                                                 ::ArrayW<::StringW, ::Array<::StringW>*> genetiveAbbrevMonthNames);
 
-  /// @brief Method GetFormatFlagUseHebrewCalendar, addr 0x3d93ba4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetFormatFlagUseHebrewCalendar, addr 0x3d9caa8, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(int32_t calID);
 
-  /// @brief Method GetFormatFlagUseSpaceInDayNames, addr 0x3d93b74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetFormatFlagUseSpaceInDayNames, addr 0x3d9ca78, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::ArrayW<::StringW, ::Array<::StringW>*> dayNames, ::ArrayW<::StringW, ::Array<::StringW>*> abbrevDayNames);
 
-  /// @brief Method GetFormatFlagUseSpaceInMonthNames, addr 0x3d93ab4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetFormatFlagUseSpaceInMonthNames, addr 0x3d9c9b8, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> monthNames, ::ArrayW<::StringW, ::Array<::StringW>*> genitveMonthNames,
                                                                                        ::ArrayW<::StringW, ::Array<::StringW>*> abbrevMonthNames,
                                                                                        ::ArrayW<::StringW, ::Array<::StringW>*> genetiveAbbrevMonthNames);
 
   static inline ::System::Globalization::DateTimeFormatInfoScanner* New_ctor();
 
-  /// @brief Method ScanDateWord, addr 0x3d9736c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ScanDateWord, addr 0x3da0270, size 0x23c, virtual false, abstract: false, final false
   inline void ScanDateWord(::StringW pattern);
 
-  /// @brief Method ScanRepeatChar, addr 0x3d972e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ScanRepeatChar, addr 0x3da01ec, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ScanRepeatChar(::StringW pattern, char16_t ch, int32_t index, ::ByRef<int32_t> count);
 
-  /// @brief Method SkipWhiteSpacesAndNonLetter, addr 0x3d96c00, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SkipWhiteSpacesAndNonLetter, addr 0x3d9fb04, size 0xfc, virtual false, abstract: false, final false
   static inline int32_t SkipWhiteSpacesAndNonLetter(::StringW pattern, int32_t currentIndex);
 
   constexpr ::System::Globalization::DateTimeFormatInfoScanner_FoundDatePattern const& __cordl_internal_get__ymdFlags() const;
@@ -178,12 +178,12 @@ public:
 
   constexpr void __cordl_internal_set_m_dateWords(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3d955d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9e4dc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_knownWords();
 
-  /// @brief Method get_KnownWords, addr 0x3d96818, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method get_KnownWords, addr 0x3d9f71c, size 0x3e8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* get_KnownWords();
 
   static inline void setStaticF_s_knownWords(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);

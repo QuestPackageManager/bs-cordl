@@ -60,7 +60,7 @@ public:
   static ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode const WriteNullAndMaxValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7041 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -100,15 +100,15 @@ public:
   /// @brief Field writeMode, offset 0x140, size 0x4
   __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode)) ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode writeMode;
 
-  /// @brief Method FinishSetup, addr 0x4566880, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x456f8b0, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x456697c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x456f9ac, size 0x1a0, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x4566b20, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x456fb50, size 0x130, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr int32_t const& __cordl_internal_get_maxValue() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode value);
 
-  /// @brief Method .ctor, addr 0x4566c54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456fc84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,7 +159,7 @@ public:
   DiscreteButtonControl(DiscreteButtonControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7042 };
 
   /// @brief Field minValue, offset: 0x130, size: 0x4, def value: None
   int32_t ___minValue;

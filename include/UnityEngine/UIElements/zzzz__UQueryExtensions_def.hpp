@@ -59,7 +59,7 @@ public:
   __declspec(property(get = getStaticF_SingleElementTypeQuery, put = setStaticF_SingleElementTypeQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementTypeQuery;
 
-  /// @brief Method Q, addr 0x4aa45e8, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x4aad618, size 0x40c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
   /// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -112,7 +112,7 @@ public:
   UQueryExtensions(UQueryExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6232 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

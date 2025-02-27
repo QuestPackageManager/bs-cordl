@@ -31,13 +31,13 @@ public:
 
   static inline ::System::ExecutionEngineException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3dd9724, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de2628, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dd97a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de26a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dd9780, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de2684, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

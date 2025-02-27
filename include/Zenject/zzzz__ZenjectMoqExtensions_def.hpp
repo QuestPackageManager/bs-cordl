@@ -51,7 +51,7 @@ public:
   ZenjectMoqExtensions(ZenjectMoqExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

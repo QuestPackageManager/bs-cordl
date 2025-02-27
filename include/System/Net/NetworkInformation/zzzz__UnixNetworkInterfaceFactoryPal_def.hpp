@@ -21,7 +21,7 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE UnixNetworkInterfaceFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x43f2a90, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x43fbac0, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
 protected:
@@ -39,7 +39,7 @@ public:
   UnixNetworkInterfaceFactoryPal(UnixNetworkInterfaceFactoryPal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

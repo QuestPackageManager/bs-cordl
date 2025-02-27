@@ -28,13 +28,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*();
 
-  /// @brief Method Equals, addr 0x48cbc1c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48d4c4c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48cb72c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48d475c, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LODParameters other);
 
-  /// @brief Method GetHashCode, addr 0x48cbb38, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48d4b68, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
@@ -50,7 +50,7 @@ public:
   constexpr LODParameters(int32_t m_IsOrthographic, ::UnityEngine::Vector3 m_CameraPosition, float_t m_FieldOfView, float_t m_OrthoSize, int32_t m_CameraPixelHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11229 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

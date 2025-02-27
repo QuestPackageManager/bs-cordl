@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x48071e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4810210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4807550, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4810580, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method .ctor, addr 0x480760c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x481063c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite* sprite);
 
 protected:
@@ -69,7 +69,7 @@ public:
   TMP_SpriteGlyph(TMP_SpriteGlyph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14545 };
 
   /// @brief Field sprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___sprite;

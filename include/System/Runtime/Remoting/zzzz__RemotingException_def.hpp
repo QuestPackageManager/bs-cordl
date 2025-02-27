@@ -36,16 +36,16 @@ public:
 
   static inline ::System::Runtime::Remoting::RemotingException* New_ctor(::StringW message, ::System::Exception* InnerException);
 
-  /// @brief Method .ctor, addr 0x3cd3eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cdcdbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cd3ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cdcdcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cd3ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cdcdc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cd3ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cdcdd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* InnerException);
 
 protected:

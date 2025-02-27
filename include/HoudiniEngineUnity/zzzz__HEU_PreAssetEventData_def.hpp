@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_AssetType(::HoudiniEngineUnity::HEU_AssetEventType value);
 
-  /// @brief Method .ctor, addr 0x3a0b494, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a13f44, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType);
 
 protected:
@@ -63,7 +63,7 @@ public:
   HEU_PreAssetEventData(HEU_PreAssetEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11586 };
 
   /// @brief Field Asset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ___Asset;

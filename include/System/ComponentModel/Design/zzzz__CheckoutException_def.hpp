@@ -35,13 +35,13 @@ public:
 
   static inline ::System::ComponentModel::Design::CheckoutException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x4482a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448bab0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4482a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448bac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x4482a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448bab8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t errorCode);
 
   static inline ::System::ComponentModel::Design::CheckoutException* getStaticF_Canceled();
@@ -63,7 +63,7 @@ public:
   CheckoutException(CheckoutException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

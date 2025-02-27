@@ -44,7 +44,7 @@ public:
   /// @brief Field listeners, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_listeners, put = setStaticF_listeners)) ::System::Diagnostics::TraceListenerCollection* listeners;
 
-  /// @brief Method InitializeSettings, addr 0x4430a94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeSettings, addr 0x4439ac4, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeSettings();
 
   static inline ::StringW getStaticF_appName();
@@ -59,16 +59,16 @@ public:
 
   static inline ::System::Diagnostics::TraceListenerCollection* getStaticF_listeners();
 
-  /// @brief Method get_AutoFlush, addr 0x44302f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x4439324, size 0x60, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_IndentLevel, addr 0x4430d5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IndentLevel, addr 0x4439d8c, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_IndentLevel();
 
-  /// @brief Method get_IndentSize, addr 0x4430db4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IndentSize, addr 0x4439de4, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_IndentSize();
 
-  /// @brief Method get_Listeners, addr 0x4430064, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x4439094, size 0x244, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
   static inline void setStaticF_appName(::StringW value);
@@ -98,7 +98,7 @@ public:
   TraceInternal(TraceInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

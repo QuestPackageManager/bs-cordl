@@ -79,7 +79,7 @@ public:
   SegmentedControl_IDataSource(SegmentedControl_IDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -141,27 +141,27 @@ public:
 
   __declspec(property(get = get_selectedCellNumber)) int32_t selectedCellNumber;
 
-  /// @brief Method CreateCells, addr 0x408ef1c, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method CreateCells, addr 0x4097f4c, size 0x554, virtual false, abstract: false, final false
   inline void CreateCells();
 
   /// @brief Method GetReusableCell, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetReusableCell(::UnityEngine::Object* prefab);
 
-  /// @brief Method HandleCellSelectionDidChange, addr 0x408f47c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method HandleCellSelectionDidChange, addr 0x40984ac, size 0x150, virtual false, abstract: false, final false
   inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* changeOwner);
 
-  /// @brief Method HandleNonInteractableCellWasPressed, addr 0x408f5cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleNonInteractableCellWasPressed, addr 0x40985fc, size 0xa8, virtual false, abstract: false, final false
   inline void HandleNonInteractableCellWasPressed(::HMUI::SelectableCell* selectableCell);
 
   static inline ::HMUI::SegmentedControl* New_ctor();
 
-  /// @brief Method ReloadData, addr 0x408dc08, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x4096c38, size 0x4e4, virtual false, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method SelectCellWithNumber, addr 0x408f6dc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithNumber, addr 0x409870c, size 0xa8, virtual false, abstract: false, final false
   inline void SelectCellWithNumber(int32_t selectCellNumber);
 
-  /// @brief Method SetCallbackForCell, addr 0x408f674, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetCallbackForCell, addr 0x40986a4, size 0x68, virtual false, abstract: false, final false
   inline void SetCallbackForCell(int32_t cellNumber, ::System::Action_1<int32_t>* callback);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>* const& __cordl_internal_get__callbacks() const;
@@ -239,31 +239,31 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x408e5f0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4097620, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressNonInteractableCellEvent, addr 0x408eda4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressNonInteractableCellEvent, addr 0x4097dd4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method add_didSelectCellEvent, addr 0x408ec44, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellEvent, addr 0x4097c74, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method get_cells, addr 0x408ef14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cells, addr 0x4097f44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::HMUI::SegmentedControlCell>>* get_cells();
 
-  /// @brief Method get_dataSource, addr 0x408ef04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x4097f34, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::SegmentedControl_IDataSource* get_dataSource();
 
-  /// @brief Method get_selectedCellNumber, addr 0x408ef0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedCellNumber, addr 0x4097f3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedCellNumber();
 
-  /// @brief Method remove_didPressNonInteractableCellEvent, addr 0x408ee54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressNonInteractableCellEvent, addr 0x4097e84, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressNonInteractableCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method remove_didSelectCellEvent, addr 0x408ecf4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellEvent, addr 0x4097d24, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method set_dataSource, addr 0x408dbc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dataSource, addr 0x4096bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_dataSource(::HMUI::SegmentedControl_IDataSource* value);
 
 protected:
@@ -281,7 +281,7 @@ public:
   SegmentedControl(SegmentedControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18801 };
 
   /// @brief Field _separatorPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____separatorPrefab;

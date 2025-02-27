@@ -106,31 +106,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Commit, addr 0x4a4cd48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x4a55d78, size 0x44, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method CreateAtlasTexture, addr 0x4a4d0f8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CreateAtlasTexture, addr 0x4a56128, size 0x130, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> CreateAtlasTexture();
 
-  /// @brief Method Dispose, addr 0x4a4c61c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a5564c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4a4c688, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a556b8, size 0x1dc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::DynamicAtlasPage* New_ctor(::UnityEngine::RenderTextureFormat format, ::UnityEngine::FilterMode filterMode, ::UnityEngine::Vector2Int minSize,
                                                                       ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method Remove, addr 0x4a4cc68, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4a55c98, size 0xe0, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D alloc);
 
-  /// @brief Method TryAdd, addr 0x4a4c864, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method TryAdd, addr 0x4a55894, size 0x2bc, virtual false, abstract: false, final false
   inline bool TryAdd(::UnityEngine::Texture2D* image, ::ByRef<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D> alloc, ::ByRef<::UnityEngine::RectInt> rect);
 
-  /// @brief Method Update, addr 0x4a4cb20, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4a55b50, size 0x148, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Texture2D* image, ::UnityEngine::RectInt rect);
 
-  /// @brief Method UpdateAtlasTexture, addr 0x4a4cd8c, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method UpdateAtlasTexture, addr 0x4a55dbc, size 0x36c, virtual false, abstract: false, final false
   inline void UpdateAtlasTexture();
 
   constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__atlas_k__BackingField() const;
@@ -205,24 +205,24 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentSize(::UnityEngine::Vector2Int value);
 
-  /// @brief Method .ctor, addr 0x4a4c4bc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a554ec, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTextureFormat format, ::UnityEngine::FilterMode filterMode, ::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize);
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_atlas, addr 0x4a4c49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x4a554cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_atlas();
 
-  /// @brief Method get_disposed, addr 0x4a4c608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x4a55638, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_filterMode, addr 0x4a4c4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_filterMode, addr 0x4a554e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::FilterMode get_filterMode();
 
-  /// @brief Method get_format, addr 0x4a4c4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x4a554dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureFormat get_format();
 
-  /// @brief Method get_textureId, addr 0x4a4c48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textureId, addr 0x4a554bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId get_textureId();
 
   /// @brief Convert to "::System::IDisposable"
@@ -230,13 +230,13 @@ public:
 
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
-  /// @brief Method set_atlas, addr 0x4a4c4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlas, addr 0x4a554d4, size 0x8, virtual false, abstract: false, final false
   inline void set_atlas(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_disposed, addr 0x4a4c610, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x4a55640, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_textureId, addr 0x4a4c494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textureId, addr 0x4a554c4, size 0x8, virtual false, abstract: false, final false
   inline void set_textureId(::UnityEngine::UIElements::TextureId value);
 
 protected:
@@ -254,7 +254,7 @@ public:
   DynamicAtlasPage(DynamicAtlasPage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6030 };
 
   /// @brief Field <textureId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::TextureId ____textureId_k__BackingField;

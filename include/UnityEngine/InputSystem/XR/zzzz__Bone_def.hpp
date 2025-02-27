@@ -33,22 +33,22 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
-  /// @brief Method get_parentBoneIndex, addr 0x45ebefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentBoneIndex, addr 0x45f4f2c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_parentBoneIndex();
 
-  /// @brief Method get_position, addr 0x45ebf0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x45f4f3c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x45ebf24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x45f4f54, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_parentBoneIndex, addr 0x45ebf04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentBoneIndex, addr 0x45f4f34, size 0x8, virtual false, abstract: false, final false
   inline void set_parentBoneIndex(uint32_t value);
 
-  /// @brief Method set_position, addr 0x45ebf18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x45f4f48, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x45ebf30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x45f4f60, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr Bone(uint32_t m_ParentBoneIndex, ::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6746 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

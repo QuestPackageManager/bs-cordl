@@ -57,13 +57,13 @@ public:
   /// @brief Field _signal, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__signal, put = __cordl_internal_set__signal)) ::UnityW<::GlobalNamespace::Signal> _signal;
 
-  /// @brief Method Deinit, addr 0x3ad8aa8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Deinit, addr 0x3ae1558, size 0x90, virtual false, abstract: false, final false
   inline void Deinit();
 
-  /// @brief Method HandleGameEvent, addr 0x3ad8b40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEvent, addr 0x3ae15f0, size 0xc0, virtual false, abstract: false, final false
   inline void HandleGameEvent();
 
-  /// @brief Method Init, addr 0x3ad895c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ae140c, size 0xf0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::AudioClipQueue* audioClipQueue);
 
   static inline ::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding* New_ctor();
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__signal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x3ad8c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae16b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,12 +167,12 @@ public:
                                                                                 ::Array<::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding*>*>
       _eventAudioBindings;
 
-  /// @brief Method Awake, addr 0x3ad88f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ae13a8, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::PlayAudioOnGameEventController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad8a4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ae14fc, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::AudioClipQueue> const& __cordl_internal_get__audioClipQueue() const;
@@ -190,7 +190,7 @@ public:
   constexpr void __cordl_internal_set__eventAudioBindings(
       ::ArrayW<::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding*, ::Array<::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding*>*> value);
 
-  /// @brief Method .ctor, addr 0x3ad8b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae15e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

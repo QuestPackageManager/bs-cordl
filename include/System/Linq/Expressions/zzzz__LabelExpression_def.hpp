@@ -48,12 +48,12 @@ public:
   /// @brief Field <Target>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Target_k__BackingField, put = __cordl_internal_set__Target_k__BackingField)) ::System::Linq::Expressions::LabelTarget* _Target_k__BackingField;
 
-  /// @brief Method Accept, addr 0x40be828, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40c7858, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::LabelExpression* New_ctor(::System::Linq::Expressions::LabelTarget* label, ::System::Linq::Expressions::Expression* defaultValue);
 
-  /// @brief Method Update, addr 0x40bcc60, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40c5c90, size 0x98, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelExpression* Update(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* defaultValue);
 
   constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__DefaultValue_k__BackingField() const;
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set__Target_k__BackingField(::System::Linq::Expressions::LabelTarget* value);
 
-  /// @brief Method .ctor, addr 0x40be784, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c77b4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::LabelTarget* label, ::System::Linq::Expressions::Expression* defaultValue);
 
-  /// @brief Method get_DefaultValue, addr 0x40be820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x40c7850, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_DefaultValue();
 
-  /// @brief Method get_NodeType, addr 0x40be810, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40c7840, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Target, addr 0x40be818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x40c7848, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_Target();
 
-  /// @brief Method get_Type, addr 0x40be7f4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40c7824, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -98,7 +98,7 @@ public:
   LabelExpression(LabelExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13688 };
 
   /// @brief Field <Target>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::LabelTarget* ____Target_k__BackingField;

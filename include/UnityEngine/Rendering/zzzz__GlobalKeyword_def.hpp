@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GlobalKeyword {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x48ce770, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48d77a0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -31,7 +31,7 @@ public:
   constexpr GlobalKeyword(::StringW m_Name, uint32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11259 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

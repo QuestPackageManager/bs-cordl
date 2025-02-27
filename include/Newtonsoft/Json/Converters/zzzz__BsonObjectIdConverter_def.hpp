@@ -33,18 +33,18 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE BsonObjectIdConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x3f3fc00, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x3f48b04, size 0x88, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::BsonObjectIdConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x3f3fa70, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f48974, size 0x190, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3f3f970, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f48874, size 0x100, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3f3fc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f48b8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   BsonObjectIdConverter(BsonObjectIdConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

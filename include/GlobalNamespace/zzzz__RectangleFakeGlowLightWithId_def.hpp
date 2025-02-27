@@ -36,7 +36,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x3ba1c00, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x3baab38, size 0x2c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::RectangleFakeGlowLightWithId* New_ctor();
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__rectangleFakeGlow(::UnityW<::GlobalNamespace::RectangleFakeGlow> value);
 
-  /// @brief Method .ctor, addr 0x3ba1c2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baab64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x3ba1be0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3baab18, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

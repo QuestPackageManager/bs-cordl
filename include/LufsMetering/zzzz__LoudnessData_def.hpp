@@ -19,7 +19,7 @@ namespace LufsMetering {
 struct CORDL_TYPE LoudnessData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x270b214, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270f558, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t lufs, ::ArrayW<float_t, ::Array<float_t>*> momentaryValues, float_t blockDuration);
 
   // Ctor Parameters []
@@ -31,7 +31,7 @@ public:
   constexpr LoudnessData(float_t lufs, float_t blockDuration, ::ArrayW<float_t, ::Array<float_t>*> momentaryValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13472 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

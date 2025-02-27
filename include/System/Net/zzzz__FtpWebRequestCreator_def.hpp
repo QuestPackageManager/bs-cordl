@@ -28,12 +28,12 @@ public:
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
 
-  /// @brief Method Create, addr 0x44a26bc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x44ab6ec, size 0x58, virtual true, abstract: false, final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   static inline ::System::Net::FtpWebRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44a26b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ab6e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Net::IWebRequestCreate"
@@ -54,7 +54,7 @@ public:
   FtpWebRequestCreator(FtpWebRequestCreator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

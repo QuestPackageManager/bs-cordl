@@ -49,12 +49,12 @@ namespace UnityEngine {
 class CORDL_TYPE TerrainCallbacks_HeightmapChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x491fcf0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4928d20, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, bool synched);
 
   static inline ::UnityEngine::TerrainCallbacks_HeightmapChangedCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x491fc50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4928c80, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -72,7 +72,7 @@ public:
   TerrainCallbacks_HeightmapChangedCallback(TerrainCallbacks_HeightmapChangedCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,12 +87,12 @@ namespace UnityEngine {
 class CORDL_TYPE TerrainCallbacks_TextureChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x491fda8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4928dd8, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   static inline ::UnityEngine::TerrainCallbacks_TextureChangedCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x491fd08, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4928d38, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -110,7 +110,7 @@ public:
   TerrainCallbacks_TextureChangedCallback(TerrainCallbacks_TextureChangedCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,10 +135,10 @@ public:
   /// @brief Field textureChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_textureChanged, put = setStaticF_textureChanged)) ::UnityEngine::TerrainCallbacks_TextureChangedCallback* textureChanged;
 
-  /// @brief Method InvokeHeightmapChangedCallback, addr 0x491f9ec, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method InvokeHeightmapChangedCallback, addr 0x4928a1c, size 0x10c, virtual false, abstract: false, final false
   static inline void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
 
-  /// @brief Method InvokeTextureChangedCallback, addr 0x491fb34, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method InvokeTextureChangedCallback, addr 0x4928b64, size 0x11c, virtual false, abstract: false, final false
   static inline void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   static inline ::UnityEngine::TerrainCallbacks_HeightmapChangedCallback* getStaticF_heightmapChanged();
@@ -164,7 +164,7 @@ public:
   TerrainCallbacks(TerrainCallbacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

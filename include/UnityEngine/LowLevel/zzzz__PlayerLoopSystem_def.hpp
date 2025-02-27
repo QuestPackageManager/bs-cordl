@@ -37,12 +37,12 @@ namespace UnityEngine::LowLevel {
 class CORDL_TYPE PlayerLoopSystem_UpdateFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48c5508, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48ce538, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x48c5480, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ce4b0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +60,7 @@ public:
   PlayerLoopSystem_UpdateFunction(PlayerLoopSystem_UpdateFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11016 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,7 +77,7 @@ public:
   // Declarations
   using UpdateFunction = ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction;
 
-  /// @brief Method ToString, addr 0x48c5460, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48ce490, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -92,7 +92,7 @@ public:
                              ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* updateDelegate, ::System::IntPtr updateFunction, ::System::IntPtr loopConditionFunction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

@@ -114,34 +114,34 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x3c102f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c191f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childNodes, addr 0x3c10204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childNodes, addr 0x3c19108, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> get_childNodes();
 
-  /// @brief Method get_formattedMissionNodeName, addr 0x3c10248, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_formattedMissionNodeName, addr 0x3c1914c, size 0x88, virtual false, abstract: false, final false
   inline ::StringW get_formattedMissionNodeName();
 
-  /// @brief Method get_letterPartName, addr 0x3c10214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_letterPartName, addr 0x3c19118, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_letterPartName();
 
-  /// @brief Method get_missionData, addr 0x3c101fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_missionData, addr 0x3c19100, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::MissionDataSO> get_missionData();
 
-  /// @brief Method get_missionId, addr 0x3c10224, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_missionId, addr 0x3c19128, size 0x24, virtual true, abstract: false, final true
   inline ::StringW get_missionId();
 
-  /// @brief Method get_missionNodeVisualController, addr 0x3c1020c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionNodeVisualController, addr 0x3c19110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_missionNodeVisualController();
 
-  /// @brief Method get_numberPartName, addr 0x3c1021c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberPartName, addr 0x3c19120, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberPartName();
 
-  /// @brief Method get_position, addr 0x3c0f834, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x3c18738, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_radius, addr 0x3c102d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x3c191d4, size 0x24, virtual false, abstract: false, final false
   inline float_t get_radius();
 
   /// @brief Convert to "::GlobalNamespace::IMissionNode"

@@ -67,7 +67,7 @@ public:
   IdentityFunction_1___c(IdentityFunction_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -102,7 +102,7 @@ public:
   IdentityFunction_1(IdentityFunction_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

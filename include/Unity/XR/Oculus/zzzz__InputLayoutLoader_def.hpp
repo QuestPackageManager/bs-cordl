@@ -18,7 +18,7 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE InputLayoutLoader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RegisterInputLayouts, addr 0x4837b6c, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method RegisterInputLayouts, addr 0x4840b9c, size 0x37c, virtual false, abstract: false, final false
   static inline void RegisterInputLayouts();
 
 protected:
@@ -36,7 +36,7 @@ public:
   InputLayoutLoader(InputLayoutLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17401 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

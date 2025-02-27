@@ -51,18 +51,18 @@ public:
   /// @brief Field m_updateRate, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) float_t m_updateRate;
 
-  /// @brief Method Awake, addr 0x44d7ae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x44e0b14, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x44d7880, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44e08b0, size 0x10c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamText* New_ctor();
 
-  /// @brief Method Update, addr 0x44d7ae8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44e0b18, size 0x160, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x44d77e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44e0810, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_allocatedSystemMemorySizeText() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_m_updateRate(float_t value);
 
-  /// @brief Method .ctor, addr 0x44d7c48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44e0c78, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,7 +125,7 @@ public:
   G_RamText(G_RamText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17232 };
 
   /// @brief Field m_allocatedSystemMemorySizeText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_allocatedSystemMemorySizeText;

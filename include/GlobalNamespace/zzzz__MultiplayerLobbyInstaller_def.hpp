@@ -33,7 +33,7 @@ public:
                       put = __cordl_internal_set__multiplayerLobbyAvatarControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>
       _multiplayerLobbyAvatarControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3bfb61c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3c04554, size 0xec, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLobbyInstaller* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerLobbyAvatarControllerPrefab(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  /// @brief Method .ctor, addr 0x3bfb708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c04640, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

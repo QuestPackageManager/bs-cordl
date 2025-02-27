@@ -35,18 +35,18 @@ public:
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
 
-  /// @brief Method EvaluateMagnitude, addr 0x4577bbc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x4580bec, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x4577bc8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x4580bf8, size 0x74, virtual true, abstract: false, final false
   inline void FinishSetup(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifiersArePressed, addr 0x4577b08, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ModifiersArePressed, addr 0x4580b38, size 0xb4, virtual false, abstract: false, final false
   inline bool ModifiersArePressed(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x4577a98, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x4580ac8, size 0x70, virtual true, abstract: false, final false
   inline float_t ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_button() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x4577c3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4580c6c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   ButtonWithTwoModifiers(ButtonWithTwoModifiers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7127 };
 
   /// @brief Field modifier1, offset: 0x10, size: 0x4, def value: None
   int32_t ___modifier1;

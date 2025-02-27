@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(
     &::BGLib::AppFlow::Initialization::CustomizableEnvironmentCommandLineArgsProvider::GetCommandLineArgs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229dbc4;
+  constexpr static std::size_t addrs = 0x22a18fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

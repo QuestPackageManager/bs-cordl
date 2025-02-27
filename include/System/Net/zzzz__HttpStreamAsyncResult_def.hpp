@@ -76,10 +76,10 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method Complete, addr 0x43cd580, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43d65b0, size 0x100, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Complete, addr 0x43cd578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43d65a8, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e);
 
   static inline ::System::Net::HttpStreamAsyncResult* New_ctor();
@@ -144,19 +144,19 @@ public:
 
   constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x43cd894, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d68c4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AsyncState, addr 0x43cd680, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x43d66b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x43cd688, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x43d66b8, size 0x130, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x43cd7b8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x43d67e8, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x43cd7cc, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x43d67fc, size 0xc8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -177,7 +177,7 @@ public:
   HttpStreamAsyncResult(HttpStreamAsyncResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9699 };
 
   /// @brief Field locker, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___locker;

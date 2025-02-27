@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_m_NestedIOCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44aed50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b7d80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   LazyAsyncResult_ThreadContext(LazyAsyncResult_ThreadContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9627 };
 
   /// @brief Field m_NestedIOCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_NestedIOCount;
@@ -139,33 +139,33 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method Cleanup, addr 0x44af430, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x44b8460, size 0x4, virtual true, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Complete, addr 0x44af1fc, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Complete, addr 0x44b822c, size 0x188, virtual true, abstract: false, final false
   inline void Complete(::System::IntPtr userToken);
 
-  /// @brief Method InternalWaitForCompletion, addr 0x449d0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalWaitForCompletion, addr 0x44a60fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* InternalWaitForCompletion();
 
-  /// @brief Method InvokeCallback, addr 0x449e53c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x44a756c, size 0xc, virtual false, abstract: false, final false
   inline void InvokeCallback();
 
-  /// @brief Method InvokeCallback, addr 0x449e524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x44a7554, size 0x8, virtual false, abstract: false, final false
   inline void InvokeCallback(::System::Object* result);
 
-  /// @brief Method LazilyCreateEvent, addr 0x44aee08, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method LazilyCreateEvent, addr 0x44b7e38, size 0x1ac, virtual false, abstract: false, final false
   inline bool LazilyCreateEvent(::ByRef<::System::Threading::ManualResetEvent*> waitHandle);
 
   static inline ::System::Net::LazyAsyncResult* New_ctor(::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method ProtectedInvokeCallback, addr 0x44af028, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ProtectedInvokeCallback, addr 0x44b8058, size 0x1d4, virtual false, abstract: false, final false
   inline void ProtectedInvokeCallback(::System::Object* result, ::System::IntPtr userToken);
 
-  /// @brief Method WaitForCompletion, addr 0x44af434, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletion, addr 0x44b8464, size 0x2a8, virtual false, abstract: false, final false
   inline ::System::Object* WaitForCompletion(bool snap);
 
-  /// @brief Method WorkerThreadComplete, addr 0x44af384, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WorkerThreadComplete, addr 0x44b83b4, size 0xac, virtual false, abstract: false, final false
   inline void WorkerThreadComplete(::System::Object* state);
 
   constexpr ::System::AsyncCallback* const& __cordl_internal_get_m_AsyncCallback() const;
@@ -216,36 +216,36 @@ public:
 
   constexpr void __cordl_internal_set_m_UserEvent(bool value);
 
-  /// @brief Method .ctor, addr 0x449d03c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a606c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
   static inline ::System::Net::LazyAsyncResult_ThreadContext* getStaticF_t_ThreadContext();
 
-  /// @brief Method get_AsyncCallback, addr 0x44aed68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncCallback, addr 0x44b7d98, size 0x8, virtual false, abstract: false, final false
   inline ::System::AsyncCallback* get_AsyncCallback();
 
-  /// @brief Method get_AsyncObject, addr 0x44aed58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncObject, addr 0x44b7d88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_AsyncObject();
 
-  /// @brief Method get_AsyncState, addr 0x44aed60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x44b7d90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x44aed70, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x44b7da0, size 0x98, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x44aefb4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x44b7fe4, size 0x30, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_CurrentThreadContext, addr 0x44aecc4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentThreadContext, addr 0x44b7cf4, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Net::LazyAsyncResult_ThreadContext* get_CurrentThreadContext();
 
-  /// @brief Method get_EndCalled, addr 0x44af014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndCalled, addr 0x44b8044, size 0x8, virtual false, abstract: false, final false
   inline bool get_EndCalled();
 
-  /// @brief Method get_InternalPeekCompleted, addr 0x449e52c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_InternalPeekCompleted, addr 0x44a755c, size 0x10, virtual false, abstract: false, final false
   inline bool get_InternalPeekCompleted();
 
-  /// @brief Method get_IsCompleted, addr 0x44aefe4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x44b8014, size 0x30, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -253,7 +253,7 @@ public:
 
   static inline void setStaticF_t_ThreadContext(::System::Net::LazyAsyncResult_ThreadContext* value);
 
-  /// @brief Method set_EndCalled, addr 0x44af01c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EndCalled, addr 0x44b804c, size 0xc, virtual false, abstract: false, final false
   inline void set_EndCalled(bool value);
 
 protected:
@@ -271,7 +271,7 @@ public:
   LazyAsyncResult(LazyAsyncResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9628 };
 
   /// @brief Field m_AsyncObject, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___m_AsyncObject;

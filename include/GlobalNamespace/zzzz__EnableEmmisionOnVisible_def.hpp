@@ -34,15 +34,15 @@ public:
                       put = __cordl_internal_set__particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>
       _particleSystems;
 
-  /// @brief Method Awake, addr 0x39c77bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39d026c, size 0xe8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::EnableEmmisionOnVisible* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x39c7918, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x39d03c8, size 0x74, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x39c78a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x39d0354, size 0x74, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
   constexpr ::ArrayW<::UnityEngine::ParticleSystem_EmissionModule, ::Array<::UnityEngine::ParticleSystem_EmissionModule>*> const& __cordl_internal_get__emmisionModules() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  /// @brief Method .ctor, addr 0x39c798c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d043c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   EnableEmmisionOnVisible(EnableEmmisionOnVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16422 };
 
   /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____particleSystems;

@@ -44,18 +44,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelMissionParser_ParserFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x26b5fd8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x26ba0c4, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<float_t, ::Array<float_t>*> functionParams, int32_t paramCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x26b606c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x26ba158, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x26b5fc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x26ba0b0, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::ArrayW<float_t, ::Array<float_t>*> functionParams, int32_t paramCount);
 
   static inline ::GlobalNamespace::LevelMissionParser_ParserFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x26b5f24, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba010, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -73,7 +73,7 @@ public:
   LevelMissionParser_ParserFunction(LevelMissionParser_ParserFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,18 +94,18 @@ public:
   __declspec(property(get = __cordl_internal_get__functions,
                       put = __cordl_internal_set__functions)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser_ParserFunction*>* _functions;
 
-  /// @brief Method AddFunction, addr 0x26b5930, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddFunction, addr 0x26b9a1c, size 0x68, virtual false, abstract: false, final false
   inline void AddFunction(::StringW name, ::GlobalNamespace::LevelMissionParser_ParserFunction* function);
 
   static inline ::GlobalNamespace::LevelMissionParser* New_ctor();
 
-  /// @brief Method Parse, addr 0x26b5998, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x26b9a84, size 0x1c, virtual false, abstract: false, final false
   inline bool Parse(::StringW s);
 
-  /// @brief Method Parse, addr 0x26b59b4, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x26b9aa0, size 0x27c, virtual false, abstract: false, final false
   inline bool Parse(::StringW s, int32_t start, int32_t length);
 
-  /// @brief Method ParseFunction, addr 0x26b5c30, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ParseFunction, addr 0x26b9d1c, size 0x2f4, virtual false, abstract: false, final false
   inline bool ParseFunction(::StringW s, int32_t start, int32_t length);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser_ParserFunction*>* const& __cordl_internal_get__functions() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__functions(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser_ParserFunction*>* value);
 
-  /// @brief Method .ctor, addr 0x26b58ac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b9998, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
   LevelMissionParser(LevelMissionParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12867 };
 
   /// @brief Field _functions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LevelMissionParser_ParserFunction*>* ____functions;

@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_titleTextStyle(::UnityW<::GlobalNamespace::TextStyleSO> value);
 
-  /// @brief Method .ctor, addr 0x2282c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22869a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   MissionObjectiveStyleSO(MissionObjectiveStyleSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19137 };
 
   /// @brief Field titleTextStyle, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TextStyleSO> ___titleTextStyle;

@@ -105,7 +105,7 @@ public:
                           bool tagNoParsing, bool isNonBreakingSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14446 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x378 };

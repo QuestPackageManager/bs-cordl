@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x49ab780, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b47b0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RectInt rect);
 
 protected:
@@ -101,7 +101,7 @@ public:
   Allocator2D_Area(Allocator2D_Area const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6357 };
 
   /// @brief Field rect, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::RectInt ___rect;
@@ -144,12 +144,12 @@ public:
   /// @brief Field rect, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect)) ::UnityEngine::RectInt rect;
 
-  /// @brief Method Create, addr 0x49ab800, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x49b4830, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::Allocator2D_Row* Create();
 
   static inline ::UnityEngine::UIElements::UIR::Allocator2D_Row* New_ctor();
 
-  /// @brief Method Reset, addr 0x49ab898, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49b48c8, size 0x28, virtual false, abstract: false, final false
   static inline void Reset(::UnityEngine::UIElements::UIR::Allocator2D_Row* row);
 
   constexpr ::UnityEngine::UIElements::UIR::Alloc const& __cordl_internal_get_alloc() const;
@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x49ab850, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b4880, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::Allocator2D_Row*>* getStaticF_pool();
@@ -204,7 +204,7 @@ public:
   Allocator2D_Row(Allocator2D_Row const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6358 };
 
   /// @brief Field rect, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::RectInt ___rect;
@@ -244,7 +244,7 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE Allocator2D_Alloc2D {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x49ab47c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b44ac, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::Allocator2D_Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc, int32_t width, int32_t height);
 
   // Ctor Parameters []
@@ -256,7 +256,7 @@ public:
   constexpr Allocator2D_Alloc2D(::UnityEngine::RectInt rect, ::UnityEngine::UIElements::UIR::Allocator2D_Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6359 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -315,21 +315,21 @@ public:
                       put = __cordl_internal_set_m_Rows)) ::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*>
       m_Rows;
 
-  /// @brief Method BuildAreas, addr 0x49aac10, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method BuildAreas, addr 0x49b3c40, size 0x22c, virtual false, abstract: false, final false
   static inline void BuildAreas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* areas, ::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method BuildRowArray, addr 0x49aaf40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BuildRowArray, addr 0x49b3f70, size 0x88, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*> BuildRowArray(int32_t maxRowHeight, int32_t rowHeightBias);
 
-  /// @brief Method ComputeMaxAllocSize, addr 0x49aae3c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ComputeMaxAllocSize, addr 0x49b3e6c, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int ComputeMaxAllocSize(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* areas, int32_t rowHeightBias);
 
-  /// @brief Method Free, addr 0x49ab584, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x49b45b4, size 0x1fc, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D alloc2D);
 
   static inline ::UnityEngine::UIElements::UIR::Allocator2D* New_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
-  /// @brief Method TryAllocate, addr 0x49aafc8, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x49b3ff8, size 0x4b4, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t width, int32_t height, ::ByRef<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D> alloc2D);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* const& __cordl_internal_get_m_Areas() const;
@@ -368,7 +368,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Rows(::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::Array<::UnityEngine::UIElements::UIR::Allocator2D_Row*>*> value);
 
-  /// @brief Method .ctor, addr 0x49aa9f8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b3a28, size 0x218, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
 protected:
@@ -386,7 +386,7 @@ public:
   Allocator2D(Allocator2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6360 };
 
   /// @brief Field m_MinSize, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2Int ___m_MinSize;

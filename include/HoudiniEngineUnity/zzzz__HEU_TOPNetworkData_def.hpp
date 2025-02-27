@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__topNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* value);
 
-  /// @brief Method .ctor, addr 0x3a56698, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5f148, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   HEU_TOPNetworkData(HEU_TOPNetworkData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11757 };
 
   /// @brief Field _nodeID, offset: 0x10, size: 0x4, def value: None
   int32_t ____nodeID;

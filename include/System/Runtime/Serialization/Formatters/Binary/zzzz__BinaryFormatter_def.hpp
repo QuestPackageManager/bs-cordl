@@ -93,16 +93,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatter"
   constexpr operator ::System::Runtime::Serialization::IFormatter*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x3d08d94, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x3d11c98, size 0xc, virtual true, abstract: false, final true
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream);
 
-  /// @brief Method Deserialize, addr 0x3d08da0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x3d11ca4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler* handler);
 
-  /// @brief Method Deserialize, addr 0x3d08da8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x3d11cac, size 0x23c, virtual false, abstract: false, final false
   inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler* handler, bool fCheck);
 
-  /// @brief Method GetTypeInformation, addr 0x3d09298, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeInformation, addr 0x3d1219c, size 0x24c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* GetTypeInformation(::System::Type* type);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor();
@@ -110,14 +110,14 @@ public:
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor(::System::Runtime::Serialization::ISurrogateSelector* selector,
                                                                                                 ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Serialize, addr 0x3d08fe4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x3d11ee8, size 0xc, virtual true, abstract: false, final true
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph);
 
-  /// @brief Method Serialize, addr 0x3d08ff0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x3d11ef4, size 0x8, virtual true, abstract: false, final true
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph,
                         ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers);
 
-  /// @brief Method Serialize, addr 0x3d08ff8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x3d11efc, size 0x1f0, virtual false, abstract: false, final false
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph,
                         ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers, bool fCheck);
 
@@ -163,10 +163,10 @@ public:
 
   constexpr void __cordl_internal_set_m_typeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
 
-  /// @brief Method .ctor, addr 0x3d08d14, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d11c18, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d08d48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d11c4c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* getStaticF_typeNameCache();
@@ -176,13 +176,13 @@ public:
 
   static inline void setStaticF_typeNameCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* value);
 
-  /// @brief Method set_AssemblyFormat, addr 0x3d08cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssemblyFormat, addr 0x3d11c00, size 0x8, virtual false, abstract: false, final false
   inline void set_AssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
 
-  /// @brief Method set_Binder, addr 0x3d08d0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Binder, addr 0x3d11c10, size 0x8, virtual true, abstract: false, final true
   inline void set_Binder(::System::Runtime::Serialization::SerializationBinder* value);
 
-  /// @brief Method set_SurrogateSelector, addr 0x3d08d04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_SurrogateSelector, addr 0x3d11c08, size 0x8, virtual true, abstract: false, final true
   inline void set_SurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
 
 protected:

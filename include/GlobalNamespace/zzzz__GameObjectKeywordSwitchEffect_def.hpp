@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_keyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b91770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9a6a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
                                                                                     ::Array<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*>*>
       _gameObjectKeywordItems;
 
-  /// @brief Method Initialize, addr 0x3b91624, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b9a55c, size 0x144, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   static inline ::GlobalNamespace::GameObjectKeywordSwitchEffect* New_ctor();
@@ -127,7 +127,7 @@ public:
   constexpr void __cordl_internal_set__gameObjectKeywordItems(
       ::ArrayW<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*, ::Array<::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b91768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9a6a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

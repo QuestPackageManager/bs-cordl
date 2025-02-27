@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_loadFromColorScheme(bool value);
 
-  /// @brief Method .ctor, addr 0x3b0d5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1605c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -216,15 +216,15 @@ public:
                                                                       ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element*>*>
       _elements;
 
-  /// @brief Method HandleColorProviderDidChangeColor, addr 0x3b0d7a8, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method HandleColorProviderDidChangeColor, addr 0x3b16258, size 0x2c8, virtual false, abstract: false, final false
   inline void HandleColorProviderDidChangeColor();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b0d6a8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b16158, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b0d5b4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b16064, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const& __cordl_internal_get__bloomPrePassBackgroundColorsGradient() const;
@@ -251,7 +251,7 @@ public:
       ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element*>*>
           value);
 
-  /// @brief Method .ctor, addr 0x3b0d2d0, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b15d80, size 0x2dc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

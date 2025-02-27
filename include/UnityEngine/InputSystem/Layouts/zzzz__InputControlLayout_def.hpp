@@ -292,7 +292,7 @@ public:
   static ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags const IsSynthetic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -372,154 +372,154 @@ public:
 
   __declspec(property(get = get_variants, put = set_variants)) ::UnityEngine::InputSystem::Utilities::InternedString variants;
 
-  /// @brief Method Merge, addr 0x4622cb8, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x462bce8, size 0x39c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem Merge(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem other);
 
-  /// @brief Method get_aliases, addr 0x4623594, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_aliases, addr 0x462c5c4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_aliases();
 
-  /// @brief Method get_arraySize, addr 0x4623620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arraySize, addr 0x462c650, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_arraySize();
 
-  /// @brief Method get_bit, addr 0x46235e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bit, addr 0x462c610, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bit();
 
-  /// @brief Method get_defaultState, addr 0x4623630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultState, addr 0x462c660, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_defaultState();
 
-  /// @brief Method get_displayName, addr 0x4623560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x462c590, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_dontReset, addr 0x4623690, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dontReset, addr 0x462c6c0, size 0xc, virtual false, abstract: false, final false
   inline bool get_dontReset();
 
-  /// @brief Method get_flags, addr 0x4623610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x462c640, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags get_flags();
 
-  /// @brief Method get_format, addr 0x4623600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x462c630, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_isArray, addr 0x461edc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isArray, addr 0x4627df4, size 0x10, virtual false, abstract: false, final false
   inline bool get_isArray();
 
-  /// @brief Method get_isFirstDefinedInThisLayout, addr 0x462369c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isFirstDefinedInThisLayout, addr 0x462c6cc, size 0xc, virtual false, abstract: false, final false
   inline bool get_isFirstDefinedInThisLayout();
 
-  /// @brief Method get_isModifyingExistingControl, addr 0x462366c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isModifyingExistingControl, addr 0x462c69c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isModifyingExistingControl();
 
-  /// @brief Method get_isNoisy, addr 0x4623678, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isNoisy, addr 0x462c6a8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isNoisy();
 
-  /// @brief Method get_isSynthetic, addr 0x4623684, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isSynthetic, addr 0x462c6b4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isSynthetic();
 
-  /// @brief Method get_layout, addr 0x4623528, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x462c558, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_layout();
 
-  /// @brief Method get_maxValue, addr 0x4623658, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x462c688, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_maxValue();
 
-  /// @brief Method get_minValue, addr 0x4623644, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_minValue, addr 0x462c674, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_minValue();
 
-  /// @brief Method get_name, addr 0x4623514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x462c544, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_name();
 
-  /// @brief Method get_offset, addr 0x46235d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x462c600, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_offset();
 
-  /// @brief Method get_parameters, addr 0x46235a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x462c5d8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> get_parameters();
 
-  /// @brief Method get_processors, addr 0x46235bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_processors, addr 0x462c5ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NameAndParameters> get_processors();
 
-  /// @brief Method get_shortDisplayName, addr 0x4623570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shortDisplayName, addr 0x462c5a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shortDisplayName();
 
-  /// @brief Method get_sizeInBits, addr 0x46235f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBits, addr 0x462c620, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBits();
 
-  /// @brief Method get_usages, addr 0x4623580, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x462c5b0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_usages();
 
-  /// @brief Method get_useStateFrom, addr 0x4623550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useStateFrom, addr 0x462c580, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_useStateFrom();
 
-  /// @brief Method get_variants, addr 0x462353c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x462c56c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_variants();
 
-  /// @brief Method set_aliases, addr 0x46235a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_aliases, addr 0x462c5d0, size 0x8, virtual false, abstract: false, final false
   inline void set_aliases(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value);
 
-  /// @brief Method set_arraySize, addr 0x4623628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_arraySize, addr 0x462c658, size 0x8, virtual false, abstract: false, final false
   inline void set_arraySize(int32_t value);
 
-  /// @brief Method set_bit, addr 0x46235e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bit, addr 0x462c618, size 0x8, virtual false, abstract: false, final false
   inline void set_bit(uint32_t value);
 
-  /// @brief Method set_defaultState, addr 0x462363c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultState, addr 0x462c66c, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method set_displayName, addr 0x4623568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x462c598, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_dontReset, addr 0x46213fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_dontReset, addr 0x462a42c, size 0x20, virtual false, abstract: false, final false
   inline void set_dontReset(bool value);
 
-  /// @brief Method set_flags, addr 0x4623618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x462c648, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags value);
 
-  /// @brief Method set_format, addr 0x4623608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x462c638, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method set_isFirstDefinedInThisLayout, addr 0x46213bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isFirstDefinedInThisLayout, addr 0x462a3ec, size 0x20, virtual false, abstract: false, final false
   inline void set_isFirstDefinedInThisLayout(bool value);
 
-  /// @brief Method set_isModifyingExistingControl, addr 0x46213ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_isModifyingExistingControl, addr 0x462a3dc, size 0x10, virtual false, abstract: false, final false
   inline void set_isModifyingExistingControl(bool value);
 
-  /// @brief Method set_isNoisy, addr 0x46213dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isNoisy, addr 0x462a40c, size 0x20, virtual false, abstract: false, final false
   inline void set_isNoisy(bool value);
 
-  /// @brief Method set_isSynthetic, addr 0x462141c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isSynthetic, addr 0x462a44c, size 0x20, virtual false, abstract: false, final false
   inline void set_isSynthetic(bool value);
 
-  /// @brief Method set_layout, addr 0x4623534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x462c564, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method set_maxValue, addr 0x4623664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxValue, addr 0x462c694, size 0x8, virtual false, abstract: false, final false
   inline void set_maxValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method set_minValue, addr 0x4623650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minValue, addr 0x462c680, size 0x8, virtual false, abstract: false, final false
   inline void set_minValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method set_name, addr 0x4623520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x462c550, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method set_offset, addr 0x46235d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offset, addr 0x462c608, size 0x8, virtual false, abstract: false, final false
   inline void set_offset(uint32_t value);
 
-  /// @brief Method set_parameters, addr 0x46235b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x462c5e4, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> value);
 
-  /// @brief Method set_processors, addr 0x46235c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processors, addr 0x462c5f8, size 0x8, virtual false, abstract: false, final false
   inline void set_processors(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NameAndParameters> value);
 
-  /// @brief Method set_shortDisplayName, addr 0x4623578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shortDisplayName, addr 0x462c5a8, size 0x8, virtual false, abstract: false, final false
   inline void set_shortDisplayName(::StringW value);
 
-  /// @brief Method set_sizeInBits, addr 0x46235f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBits, addr 0x462c628, size 0x8, virtual false, abstract: false, final false
   inline void set_sizeInBits(uint32_t value);
 
-  /// @brief Method set_usages, addr 0x462358c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usages, addr 0x462c5bc, size 0x8, virtual false, abstract: false, final false
   inline void set_usages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value);
 
-  /// @brief Method set_useStateFrom, addr 0x4623558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useStateFrom, addr 0x462c588, size 0x8, virtual false, abstract: false, final false
   inline void set_useStateFrom(::StringW value);
 
-  /// @brief Method set_variants, addr 0x4623548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variants, addr 0x462c578, size 0x8, virtual false, abstract: false, final false
   inline void set_variants(::UnityEngine::InputSystem::Utilities::InternedString value);
 
   // Ctor Parameters []
@@ -556,7 +556,7 @@ public:
                                            ::UnityEngine::InputSystem::Utilities::PrimitiveValue _maxValue_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
@@ -677,10 +677,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c* New_ctor();
 
-  /// @brief Method <WithUsages>b__14_0, addr 0x462462c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <WithUsages>b__14_0, addr 0x462d65c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _WithUsages_b__14_0(::StringW x);
 
-  /// @brief Method .ctor, addr 0x4624624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462d654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c* getStaticF___9();
@@ -706,7 +706,7 @@ public:
   ControlBuilder_Builder_InputControlLayout___c(ControlBuilder_Builder_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -723,62 +723,62 @@ public:
   // Declarations
   using __c = ::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c;
 
-  /// @brief Method AsArrayOfControlsWithSize, addr 0x4624580, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AsArrayOfControlsWithSize, addr 0x462d5b0, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder AsArrayOfControlsWithSize(int32_t arraySize);
 
-  /// @brief Method DontReset, addr 0x4623f0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DontReset, addr 0x462cf3c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder DontReset(bool value);
 
-  /// @brief Method IsNoisy, addr 0x4623eac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsNoisy, addr 0x462cedc, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder IsNoisy(bool value);
 
-  /// @brief Method IsSynthetic, addr 0x4623e4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsSynthetic, addr 0x462ce7c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder IsSynthetic(bool value);
 
-  /// @brief Method UsingStateFrom, addr 0x462451c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UsingStateFrom, addr 0x462d54c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder UsingStateFrom(::StringW path);
 
-  /// @brief Method WithBitOffset, addr 0x4623e04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithBitOffset, addr 0x462ce34, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithBitOffset(uint32_t bit);
 
-  /// @brief Method WithByteOffset, addr 0x4623dbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithByteOffset, addr 0x462cdec, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithByteOffset(uint32_t offset);
 
-  /// @brief Method WithDefaultState, addr 0x46244d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithDefaultState, addr 0x462d504, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithDefaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method WithDisplayName, addr 0x4623c10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithDisplayName, addr 0x462cc40, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithDisplayName(::StringW displayName);
 
-  /// @brief Method WithFormat, addr 0x4623d88, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithFormat, addr 0x462cdb8, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithFormat(::StringW format);
 
-  /// @brief Method WithFormat, addr 0x4623d40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithFormat, addr 0x462cd70, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithFormat(::UnityEngine::InputSystem::Utilities::FourCC format);
 
-  /// @brief Method WithLayout, addr 0x4623c58, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method WithLayout, addr 0x462cc88, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithLayout(::StringW layout);
 
-  /// @brief Method WithParameters, addr 0x4624348, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method WithParameters, addr 0x462d378, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithParameters(::StringW parameters);
 
-  /// @brief Method WithProcessors, addr 0x4624400, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method WithProcessors, addr 0x462d430, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithProcessors(::StringW processors);
 
-  /// @brief Method WithRange, addr 0x4623fb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WithRange, addr 0x462cfe4, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithRange(float_t minValue, float_t maxValue);
 
-  /// @brief Method WithSizeInBits, addr 0x4623f6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithSizeInBits, addr 0x462cf9c, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithSizeInBits(uint32_t sizeInBits);
 
-  /// @brief Method WithUsages, addr 0x4624344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WithUsages, addr 0x462d374, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithUsages(::ArrayW<::StringW, ::Array<::StringW>*> usages);
 
-  /// @brief Method WithUsages, addr 0x4624050, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method WithUsages, addr 0x462d080, size 0x1d0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder
   WithUsages(::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> usages);
 
-  /// @brief Method WithUsages, addr 0x4624220, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WithUsages, addr 0x462d250, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithUsages(::System::Collections::Generic::IEnumerable_1<::StringW>* usages);
 
   // Ctor Parameters []
@@ -790,7 +790,7 @@ public:
   constexpr Builder_InputControlLayout_ControlBuilder(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* builder, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7009 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -869,30 +869,30 @@ public:
 
   __declspec(property(get = get_updateBeforeRender, put = set_updateBeforeRender)) ::System::Nullable_1<bool> updateBeforeRender;
 
-  /// @brief Method AddControl, addr 0x46237ac, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method AddControl, addr 0x462c7dc, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder AddControl(::StringW name);
 
-  /// @brief Method Build, addr 0x46239dc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x462ca0c, size 0x22c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
-  /// @brief Method Extend, addr 0x46239a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Extend, addr 0x462c9d4, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* Extend(::StringW baseLayoutName);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* New_ctor();
 
-  /// @brief Method WithDisplayName, addr 0x4623958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WithDisplayName, addr 0x462c988, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithDisplayName(::StringW displayName);
 
-  /// @brief Method WithFormat, addr 0x4623968, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithFormat, addr 0x462c998, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithFormat(::StringW format);
 
-  /// @brief Method WithFormat, addr 0x4623960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WithFormat, addr 0x462c990, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithFormat(::UnityEngine::InputSystem::Utilities::FourCC format);
 
-  /// @brief Method WithName, addr 0x4623950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WithName, addr 0x462c980, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithName(::StringW name);
 
-  /// @brief Method WithSizeInBytes, addr 0x462399c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WithSizeInBytes, addr 0x462c9cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithSizeInBytes(int32_t sizeInBytes);
 
   /// @brief Method WithType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -955,52 +955,52 @@ public:
 
   constexpr void __cordl_internal_set_m_ExtendsLayout(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4623c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462cc38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controls, addr 0x4623744, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_controls, addr 0x462c774, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> get_controls();
 
-  /// @brief Method get_displayName, addr 0x46236b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x462c6e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_extendsLayout, addr 0x46236f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extendsLayout, addr 0x462c728, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_extendsLayout();
 
-  /// @brief Method get_name, addr 0x46236a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x462c6d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_stateFormat, addr 0x46236d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateFormat, addr 0x462c708, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_stateFormat();
 
-  /// @brief Method get_stateSizeInBytes, addr 0x46236e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateSizeInBytes, addr 0x462c718, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stateSizeInBytes();
 
-  /// @brief Method get_type, addr 0x46236c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x462c6f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_type();
 
-  /// @brief Method get_updateBeforeRender, addr 0x4623734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateBeforeRender, addr 0x462c764, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_updateBeforeRender();
 
-  /// @brief Method set_displayName, addr 0x46236c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x462c6f0, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_extendsLayout, addr 0x4623700, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_extendsLayout, addr 0x462c730, size 0x34, virtual false, abstract: false, final false
   inline void set_extendsLayout(::StringW value);
 
-  /// @brief Method set_name, addr 0x46236b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x462c6e0, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_stateFormat, addr 0x46236e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateFormat, addr 0x462c710, size 0x8, virtual false, abstract: false, final false
   inline void set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method set_stateSizeInBytes, addr 0x46236f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateSizeInBytes, addr 0x462c720, size 0x8, virtual false, abstract: false, final false
   inline void set_stateSizeInBytes(int32_t value);
 
-  /// @brief Method set_type, addr 0x46236d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x462c700, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::System::Type* value);
 
-  /// @brief Method set_updateBeforeRender, addr 0x462373c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_updateBeforeRender, addr 0x462c76c, size 0x8, virtual false, abstract: false, final false
   inline void set_updateBeforeRender(::System::Nullable_1<bool> value);
 
 protected:
@@ -1018,7 +1018,7 @@ public:
   InputControlLayout_Builder(InputControlLayout_Builder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7010 };
 
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
@@ -1126,7 +1126,7 @@ public:
   static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags const IsOverride;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7011 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1160,7 +1160,7 @@ public:
                                                                ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson device) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7012 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -1212,16 +1212,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c* New_ctor();
 
-  /// @brief Method <FromLayout>b__15_0, addr 0x46253ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromLayout>b__15_0, addr 0x462e41c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _FromLayout_b__15_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method <FromLayout>b__15_1, addr 0x4625410, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromLayout>b__15_1, addr 0x462e440, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _FromLayout_b__15_1(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method <ToLayout>b__14_0, addr 0x46253c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <ToLayout>b__14_0, addr 0x462e3f4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _ToLayout_b__14_0(::StringW x);
 
-  /// @brief Method .ctor, addr 0x46253bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462e3ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c* getStaticF___9();
@@ -1255,7 +1255,7 @@ public:
   LayoutJson_InputControlLayout___c(LayoutJson_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7013 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1272,10 +1272,10 @@ public:
   // Declarations
   using __c = ::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c;
 
-  /// @brief Method FromLayout, addr 0x461f450, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method FromLayout, addr 0x4628480, size 0x340, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson FromLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout);
 
-  /// @brief Method ToLayout, addr 0x461f800, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method ToLayout, addr 0x4628830, size 0x94c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* ToLayout();
 
   // Ctor Parameters []
@@ -1296,7 +1296,7 @@ public:
       ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>*> controls) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7014 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -1407,25 +1407,25 @@ public:
 
   static inline ::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c* New_ctor();
 
-  /// @brief Method <FromControlItems>b__25_0, addr 0x4625508, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <FromControlItems>b__25_0, addr 0x462e538, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _FromControlItems_b__25_0(::UnityEngine::InputSystem::Utilities::NamedValue x);
 
-  /// @brief Method <FromControlItems>b__25_1, addr 0x4625514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <FromControlItems>b__25_1, addr 0x462e544, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _FromControlItems_b__25_1(::UnityEngine::InputSystem::Utilities::NameAndParameters x);
 
-  /// @brief Method <FromControlItems>b__25_2, addr 0x4625520, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromControlItems>b__25_2, addr 0x462e550, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _FromControlItems_b__25_2(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method <FromControlItems>b__25_3, addr 0x4625544, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromControlItems>b__25_3, addr 0x462e574, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _FromControlItems_b__25_3(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method <ToLayout>b__24_0, addr 0x46254b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <ToLayout>b__24_0, addr 0x462e4e8, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _ToLayout_b__24_0(::StringW x);
 
-  /// @brief Method <ToLayout>b__24_1, addr 0x46254e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <ToLayout>b__24_1, addr 0x462e510, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _ToLayout_b__24_1(::StringW x);
 
-  /// @brief Method .ctor, addr 0x46254b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462e4e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c* getStaticF___9();
@@ -1471,7 +1471,7 @@ public:
   ControlItemJson_InputControlLayout___c(ControlItemJson_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1557,13 +1557,13 @@ public:
   /// @brief Field variants, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_variants, put = __cordl_internal_set_variants)) ::StringW variants;
 
-  /// @brief Method FromControlItems, addr 0x4624c94, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method FromControlItems, addr 0x462dcc4, size 0x6cc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>*>
   FromControlItems(::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> items);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson* New_ctor();
 
-  /// @brief Method ToLayout, addr 0x4624654, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method ToLayout, addr 0x462d684, size 0x640, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem ToLayout();
 
   constexpr ::StringW const& __cordl_internal_get_alias() const;
@@ -1704,7 +1704,7 @@ public:
 
   constexpr void __cordl_internal_set_variants(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4625434, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462e464, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1722,7 +1722,7 @@ public:
   InputControlLayout_ControlItemJson(InputControlLayout_ControlItemJson const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7016 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -1862,7 +1862,7 @@ public:
                                                         ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher deviceMatcher) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -1899,7 +1899,7 @@ public:
   constexpr Collection_InputControlLayout_PrecompiledLayout(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* factoryMethod, ::StringW metadata) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1933,57 +1933,57 @@ public:
 
   using _GetBaseLayouts_d__24 = ::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24;
 
-  /// @brief Method AddMatcher, addr 0x4626880, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method AddMatcher, addr 0x462f8b0, size 0x178, virtual false, abstract: false, final false
   inline void AddMatcher(::UnityEngine::InputSystem::Utilities::InternedString layout, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
 
-  /// @brief Method Allocate, addr 0x4625568, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x462e598, size 0x24c, virtual false, abstract: false, final false
   inline void Allocate();
 
-  /// @brief Method ComputeDistanceInInheritanceHierarchy, addr 0x46260d8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ComputeDistanceInInheritanceHierarchy, addr 0x462f108, size 0x134, virtual false, abstract: false, final false
   inline bool ComputeDistanceInInheritanceHierarchy(::UnityEngine::InputSystem::Utilities::InternedString firstLayout, ::UnityEngine::InputSystem::Utilities::InternedString secondLayout,
                                                     ::ByRef<int32_t> distance);
 
-  /// @brief Method FindLayoutThatIntroducesControl, addr 0x462620c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method FindLayoutThatIntroducesControl, addr 0x462f23c, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindLayoutThatIntroducesControl(::UnityEngine::InputSystem::InputControl* control,
                                                                                                ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache cache);
 
-  /// @brief Method GetBaseLayoutName, addr 0x4625fb8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetBaseLayoutName, addr 0x462efe8, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString GetBaseLayoutName(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
-  /// @brief Method GetBaseLayouts, addr 0x46266fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetBaseLayouts, addr 0x462f72c, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* GetBaseLayouts(::UnityEngine::InputSystem::Utilities::InternedString layout,
                                                                                                                               bool includeSelf);
 
-  /// @brief Method GetControlTypeForLayout, addr 0x4626420, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetControlTypeForLayout, addr 0x462f450, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Type* GetControlTypeForLayout(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
-  /// @brief Method GetRootLayoutName, addr 0x4626044, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetRootLayoutName, addr 0x462f074, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString GetRootLayoutName(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
-  /// @brief Method HasLayout, addr 0x46215ec, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HasLayout, addr 0x462a61c, size 0xdc, virtual false, abstract: false, final false
   inline bool HasLayout(::UnityEngine::InputSystem::Utilities::InternedString name);
 
-  /// @brief Method IsBasedOn, addr 0x46267d4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsBasedOn, addr 0x462f804, size 0xac, virtual false, abstract: false, final false
   inline bool IsBasedOn(::UnityEngine::InputSystem::Utilities::InternedString parentLayout, ::UnityEngine::InputSystem::Utilities::InternedString childLayout);
 
-  /// @brief Method IsGeneratedLayout, addr 0x4626694, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsGeneratedLayout, addr 0x462f6c4, size 0x68, virtual false, abstract: false, final false
   inline bool IsGeneratedLayout(::UnityEngine::InputSystem::Utilities::InternedString layout);
 
-  /// @brief Method TryFindLayoutForType, addr 0x462143c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method TryFindLayoutForType, addr 0x462a46c, size 0x1b0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindLayoutForType(::System::Type* layoutType);
 
-  /// @brief Method TryFindMatchingLayout, addr 0x46257b4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method TryFindMatchingLayout, addr 0x462e7e4, size 0x1d0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindMatchingLayout(::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
 
-  /// @brief Method TryLoadLayout, addr 0x4625b78, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method TryLoadLayout, addr 0x462eba8, size 0x384, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout*
   TryLoadLayout(::UnityEngine::InputSystem::Utilities::InternedString name,
                 ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout*>* table);
 
-  /// @brief Method TryLoadLayoutInternal, addr 0x4625984, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method TryLoadLayoutInternal, addr 0x462e9b4, size 0x1f4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadLayoutInternal(::UnityEngine::InputSystem::Utilities::InternedString name);
 
-  /// @brief Method ValueTypeIsAssignableFrom, addr 0x462656c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ValueTypeIsAssignableFrom, addr 0x462f59c, size 0x128, virtual false, abstract: false, final false
   inline bool ValueTypeIsAssignableFrom(::UnityEngine::InputSystem::Utilities::InternedString layoutName, ::System::Type* valueType);
 
   // Ctor Parameters []
@@ -2016,7 +2016,7 @@ public:
       ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher>* layoutMatchers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7020 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -2127,28 +2127,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x46269fc, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x462fa2c, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.Utilities.InternedString>.GetEnumerator, addr 0x4626b58, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.Utilities.InternedString>.GetEnumerator, addr 0x462fb88, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::InternedString>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_Utilities_InternedString__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.Utilities.InternedString>.get_Current, addr 0x4626ab8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.Utilities.InternedString>.get_Current, addr 0x462fae8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::InternedString System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_InternedString__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4626c1c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x462fc4c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4626ac4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x462faf4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4626afc, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x462fb2c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x46269f8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x462fa28, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -2205,7 +2205,7 @@ public:
 
   constexpr void __cordl_internal_set_layout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method .ctor, addr 0x46267a0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462f7d0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
@@ -2240,7 +2240,7 @@ public:
   Collection_InputControlLayout__GetBaseLayouts_d__24(Collection_InputControlLayout__GetBaseLayouts_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7019 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -2322,22 +2322,22 @@ public:
 
   constexpr void __cordl_internal_set__layout_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4626c28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462fc58, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4626d64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462fd94, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x4626cf4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462fd24, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x4625efc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462ef2c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x4626c80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462fcb0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW message);
 
-  /// @brief Method get_layout, addr 0x4626c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x462fc50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();
 
 protected:
@@ -2355,7 +2355,7 @@ public:
   InputControlLayout_LayoutNotFoundException(InputControlLayout_LayoutNotFoundException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7021 };
 
   /// @brief Field <layout>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____layout_k__BackingField;
@@ -2375,10 +2375,10 @@ namespace UnityEngine::InputSystem::Layouts {
 struct CORDL_TYPE InputControlLayout_Cache {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x4626de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x462fe14, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method FindOrLoadLayout, addr 0x4626304, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FindOrLoadLayout, addr 0x462f334, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FindOrLoadLayout(::StringW name, bool throwIfNotFound);
 
   // Ctor Parameters []
@@ -2391,7 +2391,7 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout*>* table) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -2417,7 +2417,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x4626dec, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x462fe1c, size 0x98, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -2431,7 +2431,7 @@ public:
   constexpr InputControlLayout_CacheRefInstance(bool valid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7023 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -2468,16 +2468,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout___c* New_ctor();
 
-  /// @brief Method <CreateControlItemFromMember>b__75_0, addr 0x4626f10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <CreateControlItemFromMember>b__75_0, addr 0x462ff40, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _CreateControlItemFromMember_b__75_0(::StringW x);
 
-  /// @brief Method <CreateControlItemFromMember>b__75_1, addr 0x4626f38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <CreateControlItemFromMember>b__75_1, addr 0x462ff68, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _CreateControlItemFromMember_b__75_1(::StringW x);
 
-  /// @brief Method <FromType>b__52_0, addr 0x4626ee8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <FromType>b__52_0, addr 0x462ff18, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _FromType_b__52_0(::StringW x);
 
-  /// @brief Method .ctor, addr 0x4626ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462ff10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout___c* getStaticF___9();
@@ -2511,7 +2511,7 @@ public:
   InputControlLayout___c(InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2649,77 +2649,77 @@ public:
 
   __declspec(property(get = get_variants)) ::UnityEngine::InputSystem::Utilities::InternedString variants;
 
-  /// @brief Method AddControlItems, addr 0x461f308, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddControlItems, addr 0x4628338, size 0x7c, virtual false, abstract: false, final false
   static inline void AddControlItems(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts,
                                      ::StringW layoutName);
 
-  /// @brief Method AddControlItemsFromFields, addr 0x462014c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddControlItemsFromFields, addr 0x462917c, size 0x94, virtual false, abstract: false, final false
   static inline void AddControlItemsFromFields(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts,
                                                ::StringW layoutName);
 
-  /// @brief Method AddControlItemsFromMember, addr 0x4620790, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method AddControlItemsFromMember, addr 0x46297c0, size 0x270, virtual false, abstract: false, final false
   static inline void AddControlItemsFromMember(::System::Reflection::MemberInfo* member,
                                                ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlAttribute*, ::Array<::UnityEngine::InputSystem::Layouts::InputControlAttribute*>*> attributes,
                                                ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlItems);
 
-  /// @brief Method AddControlItemsFromMembers, addr 0x4620274, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method AddControlItemsFromMembers, addr 0x46292a4, size 0x51c, virtual false, abstract: false, final false
   static inline void AddControlItemsFromMembers(::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> members,
                                                 ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlItems, ::StringW layoutName);
 
-  /// @brief Method AddControlItemsFromProperties, addr 0x46201e0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddControlItemsFromProperties, addr 0x4629210, size 0x94, virtual false, abstract: false, final false
   static inline void AddControlItemsFromProperties(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts,
                                                    ::StringW layoutName);
 
-  /// @brief Method CacheRef, addr 0x46233c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CacheRef, addr 0x462c3f0, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance CacheRef();
 
-  /// @brief Method CreateControlItemFromMember, addr 0x4620a00, size 0x7f8, virtual false, abstract: false, final false
+  /// @brief Method CreateControlItemFromMember, addr 0x4629a30, size 0x7f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem CreateControlItemFromMember(::System::Reflection::MemberInfo* member,
                                                                                                                 ::UnityEngine::InputSystem::Layouts::InputControlAttribute* attribute);
 
-  /// @brief Method CreateLookupTableForControls, addr 0x46228b0, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method CreateLookupTableForControls, addr 0x462b8e0, size 0x408, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* CreateLookupTableForControls(
       ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> controlItems,
       ::System::Collections::Generic::List_1<::StringW>* variants);
 
-  /// @brief Method FindControl, addr 0x461e94c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method FindControl, addr 0x462797c, size 0x190, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> FindControl(::UnityEngine::InputSystem::Utilities::InternedString path);
 
-  /// @brief Method FindControlIncludingArrayElements, addr 0x461eadc, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method FindControlIncludingArrayElements, addr 0x4627b0c, size 0x2e8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> FindControlIncludingArrayElements(::StringW path, ::ByRef<int32_t> arrayIndex);
 
-  /// @brief Method FromJson, addr 0x461f790, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x46287c0, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FromJson(::StringW json);
 
-  /// @brief Method FromType, addr 0x461ee64, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method FromType, addr 0x4627e94, size 0x4a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FromType(::StringW name, ::System::Type* type);
 
-  /// @brief Method GetValueType, addr 0x461edd4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x4627e04, size 0x90, virtual false, abstract: false, final false
   inline ::System::Type* GetValueType();
 
-  /// @brief Method InferLayoutFromValueType, addr 0x46211f8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InferLayoutFromValueType, addr 0x462a228, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW InferLayoutFromValueType(::System::Type* type);
 
-  /// @brief Method MergeLayout, addr 0x46216c8, size 0x11e8, virtual false, abstract: false, final false
+  /// @brief Method MergeLayout, addr 0x462a6f8, size 0x11e8, virtual false, abstract: false, final false
   inline void MergeLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout* other);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* New_ctor(::StringW name, ::System::Type* type);
 
-  /// @brief Method ParseHeaderFieldsFromJson, addr 0x46231e4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ParseHeaderFieldsFromJson, addr 0x462c214, size 0x184, virtual false, abstract: false, final false
   static inline void ParseHeaderFieldsFromJson(::StringW json, ::ByRef<::UnityEngine::InputSystem::Utilities::InternedString> name,
                                                ::ByRef<::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>> baseLayouts,
                                                ::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> deviceMatcher);
 
-  /// @brief Method ToJson, addr 0x461f3d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x4628404, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method VariantsMatch, addr 0x4623054, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method VariantsMatch, addr 0x462c084, size 0x12c, virtual false, abstract: false, final false
   static inline bool VariantsMatch(::StringW expected, ::StringW actual);
 
-  /// @brief Method VariantsMatch, addr 0x4623180, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method VariantsMatch, addr 0x462c1b0, size 0x64, virtual false, abstract: false, final false
   static inline bool VariantsMatch(::UnityEngine::InputSystem::Utilities::InternedString expected, ::UnityEngine::InputSystem::Utilities::InternedString actual);
 
-  /// @brief Method <MergeLayout>b__77_0, addr 0x46234a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <MergeLayout>b__77_0, addr 0x462c4d0, size 0x74, virtual false, abstract: false, final false
   inline bool _MergeLayout_b__77_0(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem x);
 
   constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> const& __cordl_internal_get_m_AppliedOverrides() const;
@@ -2803,7 +2803,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method .ctor, addr 0x461f384, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46283b4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Type* type);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache getStaticF_s_CacheInstance();
@@ -2814,67 +2814,67 @@ public:
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection getStaticF_s_Layouts();
 
-  /// @brief Method get_DefaultVariant, addr 0x461e320, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultVariant, addr 0x4627350, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::InternedString get_DefaultVariant();
 
-  /// @brief Method get_Item, addr 0x461e7d4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4627804, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem get_Item(::StringW path);
 
-  /// @brief Method get_appliedOverrides, addr 0x461e428, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_appliedOverrides, addr 0x4627458, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* get_appliedOverrides();
 
-  /// @brief Method get_baseLayouts, addr 0x461e3c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_baseLayouts, addr 0x46273f8, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* get_baseLayouts();
 
-  /// @brief Method get_cache, addr 0x4623368, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_cache, addr 0x462c398, size 0x58, virtual false, abstract: false, final false
   static inline ::ByRef<::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache> get_cache();
 
-  /// @brief Method get_canRunInBackground, addr 0x461e6d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_canRunInBackground, addr 0x4627700, size 0x68, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_canRunInBackground();
 
-  /// @brief Method get_commonUsages, addr 0x461e488, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_commonUsages, addr 0x46274b8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_commonUsages();
 
-  /// @brief Method get_controls, addr 0x461e4e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_controls, addr 0x4627518, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> get_controls();
 
-  /// @brief Method get_displayName, addr 0x461e384, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x46273b4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_hideInUI, addr 0x461e678, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hideInUI, addr 0x46276a8, size 0xc, virtual false, abstract: false, final false
   inline bool get_hideInUI();
 
-  /// @brief Method get_isControlLayout, addr 0x461e618, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_isControlLayout, addr 0x4627648, size 0x18, virtual false, abstract: false, final false
   inline bool get_isControlLayout();
 
-  /// @brief Method get_isDeviceLayout, addr 0x461e584, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_isDeviceLayout, addr 0x46275b4, size 0x94, virtual false, abstract: false, final false
   inline bool get_isDeviceLayout();
 
-  /// @brief Method get_isGenericTypeOfDevice, addr 0x461e65c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isGenericTypeOfDevice, addr 0x462768c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isGenericTypeOfDevice();
 
-  /// @brief Method get_isNoisy, addr 0x461e6a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isNoisy, addr 0x46276d4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isNoisy();
 
-  /// @brief Method get_isOverride, addr 0x461e630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isOverride, addr 0x4627660, size 0xc, virtual false, abstract: false, final false
   inline bool get_isOverride();
 
-  /// @brief Method get_name, addr 0x461e378, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x46273a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_name();
 
-  /// @brief Method get_stateFormat, addr 0x461e3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateFormat, addr 0x46273e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_stateFormat();
 
-  /// @brief Method get_stateSizeInBytes, addr 0x461e3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateSizeInBytes, addr 0x46273f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stateSizeInBytes();
 
-  /// @brief Method get_type, addr 0x461e3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x46273d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_type();
 
-  /// @brief Method get_updateBeforeRender, addr 0x461e548, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_updateBeforeRender, addr 0x4627578, size 0x3c, virtual false, abstract: false, final false
   inline bool get_updateBeforeRender();
 
-  /// @brief Method get_variants, addr 0x461e3ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x46273dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_variants();
 
   static inline void setStaticF_s_CacheInstance(::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache value);
@@ -2885,19 +2885,19 @@ public:
 
   static inline void setStaticF_s_Layouts(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection value);
 
-  /// @brief Method set_canRunInBackground, addr 0x461e738, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_canRunInBackground, addr 0x4627768, size 0x9c, virtual false, abstract: false, final false
   inline void set_canRunInBackground(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_hideInUI, addr 0x461e684, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hideInUI, addr 0x46276b4, size 0x20, virtual false, abstract: false, final false
   inline void set_hideInUI(bool value);
 
-  /// @brief Method set_isGenericTypeOfDevice, addr 0x461e668, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_isGenericTypeOfDevice, addr 0x4627698, size 0x10, virtual false, abstract: false, final false
   inline void set_isGenericTypeOfDevice(bool value);
 
-  /// @brief Method set_isNoisy, addr 0x461e6b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isNoisy, addr 0x46276e0, size 0x20, virtual false, abstract: false, final false
   inline void set_isNoisy(bool value);
 
-  /// @brief Method set_isOverride, addr 0x461e63c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isOverride, addr 0x462766c, size 0x20, virtual false, abstract: false, final false
   inline void set_isOverride(bool value);
 
 protected:
@@ -2918,7 +2918,7 @@ public:
   static constexpr ::ConstString VariantSeparator{ u";" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7025 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::InternedString ___m_Name;

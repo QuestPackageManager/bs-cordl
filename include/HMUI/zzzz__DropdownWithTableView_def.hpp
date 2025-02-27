@@ -66,45 +66,45 @@ public:
 
   __declspec(property(get = get_tableViewDataSource)) ::HMUI::TableView_IDataSource* tableViewDataSource;
 
-  /// @brief Method Awake, addr 0x39fa620, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a030d0, size 0x174, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetNewTableViewRectSize, addr 0x39fa9f4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetNewTableViewRectSize, addr 0x3a034a4, size 0x154, virtual false, abstract: false, final false
   inline float_t GetNewTableViewRectSize(::HMUI::TableView_IDataSource* dataSource);
 
-  /// @brief Method HandleModalViewBlockerClicked, addr 0x39fac1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleModalViewBlockerClicked, addr 0x3a036cc, size 0x8, virtual false, abstract: false, final false
   inline void HandleModalViewBlockerClicked();
 
-  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x39fabd4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x3a03684, size 0x48, virtual false, abstract: false, final false
   inline void HandleTableViewDidSelectCellWithIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method Hide, addr 0x39fa79c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3a0324c, size 0x40, virtual false, abstract: false, final false
   inline void Hide(bool animated);
 
-  /// @brief Method Init, addr 0x39fa58c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a0303c, size 0x28, virtual false, abstract: false, final false
   inline void Init(::HMUI::TableView_IDataSource* tableViewDataSource);
 
   static inline ::HMUI::DropdownWithTableView* New_ctor();
 
-  /// @brief Method OnButtonClick, addr 0x39fab48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnButtonClick, addr 0x3a035f8, size 0x8, virtual false, abstract: false, final false
   inline void OnButtonClick();
 
-  /// @brief Method OnDestroy, addr 0x39fa7dc, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a0328c, size 0x1f0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x39fa794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3a03244, size 0x8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RefreshSize, addr 0x39fa9cc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method RefreshSize, addr 0x3a0347c, size 0x28, virtual true, abstract: false, final false
   inline void RefreshSize(::HMUI::TableView_IDataSource* dataSource);
 
-  /// @brief Method ReloadData, addr 0x39fa5b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x3a03064, size 0x44, virtual false, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method SelectCellWithIdx, addr 0x39fa5f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x3a030a8, size 0x28, virtual true, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
 
-  /// @brief Method Show, addr 0x39fab50, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3a03600, size 0x84, virtual false, abstract: false, final false
   inline void Show(bool animated);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -155,28 +155,28 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x39fac24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a036d4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x39fa3c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3a02e74, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
-  /// @brief Method get_interactable, addr 0x39fa550, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3a03000, size 0x1c, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_selectedIndex, addr 0x39fa540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedIndex, addr 0x3a02ff0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedIndex();
 
-  /// @brief Method get_tableViewDataSource, addr 0x39fa524, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_tableViewDataSource, addr 0x3a02fd4, size 0x1c, virtual false, abstract: false, final false
   inline ::HMUI::TableView_IDataSource* get_tableViewDataSource();
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x39fa474, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3a02f24, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
-  /// @brief Method set_interactable, addr 0x39fa56c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3a0301c, size 0x20, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_selectedIndex, addr 0x39fa548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedIndex, addr 0x3a02ff8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedIndex(int32_t value);
 
 protected:
@@ -194,7 +194,7 @@ public:
   DropdownWithTableView(DropdownWithTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16079 };
 
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;

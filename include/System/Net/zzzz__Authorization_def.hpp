@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x44a309c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ac0cc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
-  /// @brief Method .ctor, addr 0x44a3140, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ac170, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, bool finished);
 
-  /// @brief Method get_Complete, addr 0x44a31dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complete, addr 0x44ac20c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Complete();
 
-  /// @brief Method get_Message, addr 0x44a31d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x44ac204, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -81,7 +81,7 @@ public:
   Authorization(Authorization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9579 };
 
   /// @brief Field m_Message, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Message;

@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerStationaryEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a36784, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a3f7b4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerStationaryEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a3677c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3f7ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerStationaryEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   PointerStationaryEvent___c(PointerStationaryEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5915 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -73,15 +73,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerStationaryEvent___c;
 
-  /// @brief Method Init, addr 0x4a3657c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a3f5ac, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a365cc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a3f5fc, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerStationaryEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a366d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3f700, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   PointerStationaryEvent(PointerStationaryEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

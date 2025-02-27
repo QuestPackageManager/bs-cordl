@@ -78,21 +78,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3ba0c74, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ba9bac, size 0x104, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ba0d78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ba9cb0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ba0d80, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ba9cb8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ba0db8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ba9cf0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3ba0c70, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3ba9ba8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FlickeringNeonSign> value);
 
-  /// @brief Method .ctor, addr 0x3ba0b2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba9a64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -216,21 +216,21 @@ public:
   /// @brief Field _spriteOnColor, offset 0x48, size 0x10
   __declspec(property(get = __cordl_internal_get__spriteOnColor, put = __cordl_internal_set__spriteOnColor)) ::UnityEngine::Color _spriteOnColor;
 
-  /// @brief Method Awake, addr 0x3ba09ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ba9924, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FlickeringCoroutine, addr 0x3ba0acc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FlickeringCoroutine, addr 0x3ba9a04, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FlickeringCoroutine();
 
   static inline ::GlobalNamespace::FlickeringNeonSign* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3ba0aac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ba99e4, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetOn, addr 0x3ba0b54, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetOn, addr 0x3ba9a8c, size 0x108, virtual false, abstract: false, final false
   inline void SetOn(bool on);
 
-  /// @brief Method Start, addr 0x3ba0a70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba99a8, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__flickeringSprite() const;
@@ -311,7 +311,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteOnColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3ba0c5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba9b94, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

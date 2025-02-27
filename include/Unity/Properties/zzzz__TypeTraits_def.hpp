@@ -21,7 +21,7 @@ namespace Unity::Properties {
 class CORDL_TYPE TypeTraits : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsContainer, addr 0x4916de4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsContainer, addr 0x491fe14, size 0x140, virtual false, abstract: false, final false
   static inline bool IsContainer(::System::Type* type);
 
 protected:
@@ -39,7 +39,7 @@ public:
   TypeTraits(TypeTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17479 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

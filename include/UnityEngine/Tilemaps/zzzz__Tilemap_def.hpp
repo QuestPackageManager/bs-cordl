@@ -75,7 +75,7 @@ public:
   constexpr Tilemap_SyncTile(::UnityEngine::Vector3Int m_Position, ::UnityW<::UnityEngine::Tilemaps::TileBase> m_Tile, ::UnityEngine::Tilemaps::TileData m_TileData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18570 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -117,7 +117,7 @@ public:
   constexpr Tilemap_SyncTileCallbackSettings(bool hasSyncTileCallback, bool hasPositionsChangedCallback, bool isBufferSyncTile) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18571 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3 };
@@ -181,71 +181,71 @@ public:
   __declspec(property(get = getStaticF_tilemapTileChanged, put = setStaticF_tilemapTileChanged)) ::System::Action_2<
       ::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>* tilemapTileChanged;
 
-  /// @brief Method DoPositionsChangedCallback, addr 0x495a5bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoPositionsChangedCallback, addr 0x49635ec, size 0x4, virtual false, abstract: false, final false
   inline void DoPositionsChangedCallback(int32_t count, ::System::IntPtr positionsIntPtr);
 
-  /// @brief Method DoSyncTileCallback, addr 0x495a5b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoSyncTileCallback, addr 0x49635e8, size 0x4, virtual false, abstract: false, final false
   inline void DoSyncTileCallback(::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*> syncTiles);
 
-  /// @brief Method GetSyncTileCallbackSettings, addr 0x495a518, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetSyncTileCallbackSettings, addr 0x4963548, size 0xa0, virtual false, abstract: false, final false
   inline void GetSyncTileCallbackSettings(::ByRef<::UnityEngine::Tilemaps::Tilemap_SyncTileCallbackSettings> settings);
 
   /// @brief Method GetTile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetTile(::UnityEngine::Vector3Int position);
 
-  /// @brief Method GetTileAsset, addr 0x495a0bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTileAsset, addr 0x49630ec, size 0x54, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetTileAsset(::UnityEngine::Vector3Int position);
 
-  /// @brief Method GetTileAsset_Injected, addr 0x495a110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTileAsset_Injected, addr 0x4963140, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetTileAsset_Injected(::ByRef<::UnityEngine::Vector3Int> position);
 
-  /// @brief Method GetTileAssetsBlock, addr 0x495a154, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetTileAssetsBlock, addr 0x4963184, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> GetTileAssetsBlock(::UnityEngine::Vector3Int position, ::UnityEngine::Vector3Int blockDimensions);
 
-  /// @brief Method GetTileAssetsBlock_Injected, addr 0x495a1b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTileAssetsBlock_Injected, addr 0x49631e4, size 0x54, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> GetTileAssetsBlock_Injected(::ByRef<::UnityEngine::Vector3Int> position,
                                                                                                                           ::ByRef<::UnityEngine::Vector3Int> blockDimensions);
 
-  /// @brief Method GetTilesBlock, addr 0x495a208, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetTilesBlock, addr 0x4963238, size 0x184, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Tilemaps::TileBase>, ::Array<::UnityW<::UnityEngine::Tilemaps::TileBase>>*> GetTilesBlock(::UnityEngine::BoundsInt bounds);
 
-  /// @brief Method GetUsedTilesCount, addr 0x495a454, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetUsedTilesCount, addr 0x4963484, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetUsedTilesCount();
 
-  /// @brief Method GetUsedTilesNonAlloc, addr 0x495a490, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetUsedTilesNonAlloc, addr 0x49634c0, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetUsedTilesNonAlloc(::ArrayW<::UnityEngine::Tilemaps::TileBase*, ::Array<::UnityEngine::Tilemaps::TileBase*>*> usedTiles);
 
-  /// @brief Method HandlePositionsChangedCallback, addr 0x4959bd8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandlePositionsChangedCallback, addr 0x4962c08, size 0xac, virtual false, abstract: false, final false
   inline void HandlePositionsChangedCallback(int32_t count, ::System::IntPtr positionsIntPtr);
 
-  /// @brief Method HandleSyncTileCallback, addr 0x4959a48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleSyncTileCallback, addr 0x4962a78, size 0x74, virtual false, abstract: false, final false
   inline void HandleSyncTileCallback(::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*> syncTiles);
 
-  /// @brief Method HasPositionsChangedCallback, addr 0x49599f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HasPositionsChangedCallback, addr 0x4962a28, size 0x50, virtual false, abstract: false, final false
   static inline bool HasPositionsChangedCallback();
 
-  /// @brief Method HasSyncTileCallback, addr 0x49599a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HasSyncTileCallback, addr 0x49629d8, size 0x50, virtual false, abstract: false, final false
   static inline bool HasSyncTileCallback();
 
-  /// @brief Method HasTile, addr 0x495a38c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HasTile, addr 0x49633bc, size 0x84, virtual false, abstract: false, final false
   inline bool HasTile(::UnityEngine::Vector3Int position);
 
-  /// @brief Method Internal_GetUsedTilesNonAlloc, addr 0x495a4d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetUsedTilesNonAlloc, addr 0x4963504, size 0x44, virtual false, abstract: false, final false
   inline int32_t Internal_GetUsedTilesNonAlloc(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> usedTiles);
 
-  /// @brief Method RefreshTile, addr 0x4958f94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshTile, addr 0x4961fc4, size 0x54, virtual false, abstract: false, final false
   inline void RefreshTile(::UnityEngine::Vector3Int position);
 
-  /// @brief Method RefreshTile_Injected, addr 0x495a410, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RefreshTile_Injected, addr 0x4963440, size 0x44, virtual false, abstract: false, final false
   inline void RefreshTile_Injected(::ByRef<::UnityEngine::Vector3Int> position);
 
-  /// @brief Method RefreshTilesNative, addr 0x4959358, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshTilesNative, addr 0x4962388, size 0x54, virtual false, abstract: false, final false
   inline void RefreshTilesNative(::cordl_internals::Ptr<void> positions, int32_t count);
 
-  /// @brief Method SendTilemapPositionsChangedCallback, addr 0x4959c84, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SendTilemapPositionsChangedCallback, addr 0x4962cb4, size 0x124, virtual false, abstract: false, final false
   inline void SendTilemapPositionsChangedCallback(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> positions);
 
-  /// @brief Method SendTilemapTileChangedCallback, addr 0x4959abc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SendTilemapTileChangedCallback, addr 0x4962aec, size 0x11c, virtual false, abstract: false, final false
   inline void SendTilemapTileChangedCallback(::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*> syncTiles);
 
   constexpr bool const& __cordl_internal_get_m_BufferSyncTile() const;
@@ -259,37 +259,37 @@ public:
   static inline ::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::ArrayW<::UnityEngine::Tilemaps::Tilemap_SyncTile, ::Array<::UnityEngine::Tilemaps::Tilemap_SyncTile>*>>*
   getStaticF_tilemapTileChanged();
 
-  /// @brief Method get_bufferSyncTile, addr 0x49599a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bufferSyncTile, addr 0x49629d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_bufferSyncTile();
 
-  /// @brief Method get_cellBounds, addr 0x4959de4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_cellBounds, addr 0x4962e14, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::BoundsInt get_cellBounds();
 
-  /// @brief Method get_layoutGrid, addr 0x4959da8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_layoutGrid, addr 0x4962dd8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Grid> get_layoutGrid();
 
-  /// @brief Method get_orientationMatrix, addr 0x495a00c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_orientationMatrix, addr 0x496303c, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_orientationMatrix();
 
-  /// @brief Method get_orientationMatrix_Injected, addr 0x495a078, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_orientationMatrix_Injected, addr 0x49630a8, size 0x44, virtual false, abstract: false, final false
   inline void get_orientationMatrix_Injected(::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method get_origin, addr 0x4959e2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_origin, addr 0x4962e5c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_origin();
 
-  /// @brief Method get_origin_Injected, addr 0x4959ee4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_origin_Injected, addr 0x4962f14, size 0x44, virtual false, abstract: false, final false
   inline void get_origin_Injected(::ByRef<::UnityEngine::Vector3Int> ret);
 
-  /// @brief Method get_size, addr 0x4959e88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x4962eb8, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_size();
 
-  /// @brief Method get_size_Injected, addr 0x4959f28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x4962f58, size 0x44, virtual false, abstract: false, final false
   inline void get_size_Injected(::ByRef<::UnityEngine::Vector3Int> ret);
 
-  /// @brief Method get_tileAnchor, addr 0x4959f6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_tileAnchor, addr 0x4962f9c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_tileAnchor();
 
-  /// @brief Method get_tileAnchor_Injected, addr 0x4959fc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_tileAnchor_Injected, addr 0x4962ff8, size 0x44, virtual false, abstract: false, final false
   inline void get_tileAnchor_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
   static inline void setStaticF_tilemapPositionsChanged(::System::Action_2<::UnityW<::UnityEngine::Tilemaps::Tilemap>, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>>* value);
@@ -312,7 +312,7 @@ public:
   Tilemap(Tilemap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18572 };
 
   /// @brief Field m_BufferSyncTile, offset: 0x18, size: 0x1, def value: None
   bool ___m_BufferSyncTile;

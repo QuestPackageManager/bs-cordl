@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x48d4544, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48dd574, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::MaterialEffectPlayable other);
 
-  /// @brief Method GetHandle, addr 0x48d4538, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x48dd568, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>"
@@ -50,7 +50,7 @@ public:
   constexpr MaterialEffectPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11312 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

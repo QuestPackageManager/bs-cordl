@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x491c9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4925a04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x491c9dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4925a0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_Name, addr 0x491ca04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x4925a34, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -58,7 +58,7 @@ public:
   UsedByNativeCodeAttribute(UsedByNativeCodeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18724 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

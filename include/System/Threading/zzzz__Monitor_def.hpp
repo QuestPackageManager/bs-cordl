@@ -22,61 +22,61 @@ namespace System::Threading {
 class CORDL_TYPE Monitor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Enter, addr 0x3e56288, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x3e5f18c, size 0x4, virtual false, abstract: false, final false
   static inline void Enter(::System::Object* obj);
 
-  /// @brief Method Enter, addr 0x3e533e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x3e5c2e8, size 0x20, virtual false, abstract: false, final false
   static inline void Enter(::System::Object* obj, ::ByRef<bool> lockTaken);
 
-  /// @brief Method Exit, addr 0x3e5628c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exit, addr 0x3e5f190, size 0x4, virtual false, abstract: false, final false
   static inline void Exit(::System::Object* obj);
 
-  /// @brief Method Monitor_pulse, addr 0x3e5ab10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Monitor_pulse, addr 0x3e63a14, size 0x4, virtual false, abstract: false, final false
   static inline void Monitor_pulse(::System::Object* obj);
 
-  /// @brief Method Monitor_pulse_all, addr 0x3e5ab14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Monitor_pulse_all, addr 0x3e63a18, size 0x4, virtual false, abstract: false, final false
   static inline void Monitor_pulse_all(::System::Object* obj);
 
-  /// @brief Method Monitor_test_synchronised, addr 0x3e5ab0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Monitor_test_synchronised, addr 0x3e63a10, size 0x4, virtual false, abstract: false, final false
   static inline bool Monitor_test_synchronised(::System::Object* obj);
 
-  /// @brief Method Monitor_wait, addr 0x3e5ab18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Monitor_wait, addr 0x3e63a1c, size 0x4, virtual false, abstract: false, final false
   static inline bool Monitor_wait(::System::Object* obj, int32_t ms);
 
-  /// @brief Method ObjPulse, addr 0x3e5aa4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ObjPulse, addr 0x3e63950, size 0x60, virtual false, abstract: false, final false
   static inline void ObjPulse(::System::Object* obj);
 
-  /// @brief Method ObjPulseAll, addr 0x3e5aaac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ObjPulseAll, addr 0x3e639b0, size 0x60, virtual false, abstract: false, final false
   static inline void ObjPulseAll(::System::Object* obj);
 
-  /// @brief Method ObjWait, addr 0x3e5a99c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ObjWait, addr 0x3e638a0, size 0xb0, virtual false, abstract: false, final false
   static inline bool ObjWait(bool exitContext, int32_t millisecondsTimeout, ::System::Object* obj);
 
-  /// @brief Method Pulse, addr 0x3e57400, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Pulse, addr 0x3e60304, size 0x54, virtual false, abstract: false, final false
   static inline void Pulse(::System::Object* obj);
 
-  /// @brief Method PulseAll, addr 0x3e53614, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PulseAll, addr 0x3e5c518, size 0x54, virtual false, abstract: false, final false
   static inline void PulseAll(::System::Object* obj);
 
-  /// @brief Method ReliableEnter, addr 0x3e5a880, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReliableEnter, addr 0x3e63784, size 0xc, virtual false, abstract: false, final false
   static inline void ReliableEnter(::System::Object* obj, ::ByRef<bool> lockTaken);
 
-  /// @brief Method ReliableEnterTimeout, addr 0x3e5a8ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReliableEnterTimeout, addr 0x3e637b0, size 0x94, virtual false, abstract: false, final false
   static inline void ReliableEnterTimeout(::System::Object* obj, int32_t timeout, ::ByRef<bool> lockTaken);
 
-  /// @brief Method ThrowLockTakenException, addr 0x3e5a814, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ThrowLockTakenException, addr 0x3e63718, size 0x6c, virtual false, abstract: false, final false
   static inline void ThrowLockTakenException();
 
-  /// @brief Method TryEnter, addr 0x3e5a88c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryEnter, addr 0x3e63790, size 0x20, virtual false, abstract: false, final false
   static inline void TryEnter(::System::Object* obj, ::ByRef<bool> lockTaken);
 
-  /// @brief Method Wait, addr 0x3e53ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3e5cba8, size 0x8, virtual false, abstract: false, final false
   static inline bool Wait(::System::Object* obj, int32_t millisecondsTimeout);
 
-  /// @brief Method Wait, addr 0x3e5a940, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3e63844, size 0x5c, virtual false, abstract: false, final false
   static inline bool Wait(::System::Object* obj, int32_t millisecondsTimeout, bool exitContext);
 
-  /// @brief Method try_enter_with_atomic_var, addr 0x3e5ab1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method try_enter_with_atomic_var, addr 0x3e63a20, size 0x4, virtual false, abstract: false, final false
   static inline void try_enter_with_atomic_var(::System::Object* obj, int32_t millisecondsTimeout, ::ByRef<bool> lockTaken);
 
 protected:

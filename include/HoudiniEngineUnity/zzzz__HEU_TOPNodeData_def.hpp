@@ -91,7 +91,7 @@ public:
   static ::HoudiniEngineUnity::HEU_TOPNodeData_PDGState const NONE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11758 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -143,18 +143,18 @@ public:
   /// @brief Field _workResults, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__workResults, put = __cordl_internal_set__workResults)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* _workResults;
 
-  /// @brief Method AnyWorkItemsFailed, addr 0x3a58400, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x3a60eb0, size 0x24, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x3a586a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x3a61150, size 0x58, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method AreAllWorkItemsComplete, addr 0x3a5860c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AreAllWorkItemsComplete, addr 0x3a610bc, size 0x4c, virtual false, abstract: false, final false
   inline bool AreAllWorkItemsComplete();
 
   static inline ::HoudiniEngineUnity::HEU_TOPNodeData* New_ctor();
 
-  /// @brief Method Reset, addr 0x3a585e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3a61098, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__nodeID() const;
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set__workResults(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* value);
 
-  /// @brief Method .ctor, addr 0x3a56c00, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5f6b0, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,7 +229,7 @@ public:
   HEU_TOPNodeData(HEU_TOPNodeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11759 };
 
   /// @brief Field _nodeID, offset: 0x10, size: 0x4, def value: None
   int32_t ____nodeID;

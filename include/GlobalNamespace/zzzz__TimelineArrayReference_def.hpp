@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_arrayType(::GlobalNamespace::TimelineArrayReference_ArrayTypes value);
 
-  /// @brief Method .ctor, addr 0x3b3ad08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b437b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

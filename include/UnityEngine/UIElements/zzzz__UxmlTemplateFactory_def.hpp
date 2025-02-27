@@ -35,18 +35,18 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName)) ::StringW uxmlQualifiedName;
 
-  /// @brief Method Create, addr 0x4aa535c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x4aae38c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTemplateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4aa5364, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aae394, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName, addr 0x4aa52a8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x4aae2d8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x4aa52e8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x4aae318, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
 protected:
@@ -64,7 +64,7 @@ public:
   UxmlTemplateFactory(UxmlTemplateFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

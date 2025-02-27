@@ -69,7 +69,7 @@ public:
   static ::UnityEngine::TextEditor_DblClickSnapping const WORDS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16669 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_style(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x48ea944, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f3974, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -258,7 +258,7 @@ public:
   TextEditor(TextEditor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16670 };
 
   /// @brief Field keyboardOnScreen, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::TouchScreenKeyboard* ___keyboardOnScreen;

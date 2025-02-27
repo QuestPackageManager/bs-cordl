@@ -24,7 +24,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE EventDebugger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogPropagationPaths, addr 0x4a26f1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogPropagationPaths, addr 0x4a2ff4c, size 0x4, virtual false, abstract: false, final false
   static inline void LogPropagationPaths(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPaths* paths);
 
 protected:
@@ -42,7 +42,7 @@ public:
   EventDebugger(EventDebugger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

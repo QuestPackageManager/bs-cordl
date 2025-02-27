@@ -129,7 +129,7 @@ public:
   PoolableMemoryPoolProviderBase_1(PoolableMemoryPoolProviderBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12561 };
 
   /// @brief Field <PoolId>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ____PoolId_k__BackingField;

@@ -70,7 +70,7 @@ public:
   static ::UnityEngine::UIElements::MeshGenerationContext_MeshFlags const UVisDisplacement;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6038 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,17 +125,17 @@ public:
 
   constexpr void __cordl_internal_set_painter(::UnityEngine::UIElements::IStylePainter* value);
 
-  /// @brief Method .ctor, addr 0x4a50598, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a595c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IStylePainter* painter);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_AllocateMarker();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_DrawVectorImageMarker();
 
-  /// @brief Method get_hasPainter2D, addr 0x4a50588, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasPainter2D, addr 0x4a595b8, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasPainter2D();
 
-  /// @brief Method get_painter2D, addr 0x4a504cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_painter2D, addr 0x4a594fc, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Painter2D* get_painter2D();
 
   static inline void setStaticF_s_AllocateMarker(::Unity::Profiling::ProfilerMarker value);
@@ -157,7 +157,7 @@ public:
   MeshGenerationContext(MeshGenerationContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6039 };
 
   /// @brief Field m_Painter2D, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::Painter2D* ___m_Painter2D;

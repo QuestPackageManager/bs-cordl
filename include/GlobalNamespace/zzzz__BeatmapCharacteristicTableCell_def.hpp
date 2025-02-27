@@ -49,18 +49,18 @@ public:
   /// @brief Field _selectionImage, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__selectionImage, put = __cordl_internal_set__selectionImage)) ::UnityW<::UnityEngine::UI::Image> _selectionImage;
 
-  /// @brief Method HighlightDidChange, addr 0x3c00c4c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3c09b84, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3c00bd0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3c09b08, size 0x7c, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3c00bcc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3c09b04, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x3c00b6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3c09aa4, size 0x60, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__bgHighlightColor() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__selectionImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3c00c50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c09b88, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

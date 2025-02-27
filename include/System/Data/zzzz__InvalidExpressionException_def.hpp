@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Data::InvalidExpressionException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x41805dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x418960c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x41805d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4189604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x41805e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4189614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -55,7 +55,7 @@ public:
   InvalidExpressionException(InvalidExpressionException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

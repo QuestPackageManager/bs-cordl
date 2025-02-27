@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x3ce975c, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x3cf2660, size 0x32c, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   static inline ::System::Runtime::Remoting::Activation::ContextLevelActivator* New_ctor(::System::Runtime::Remoting::Activation::IActivator* next);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_m_NextActivator(::System::Runtime::Remoting::Activation::IActivator* value);
 
-  /// @brief Method .ctor, addr 0x3ce8c24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf1b28, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method get_NextActivator, addr 0x3ce9754, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x3cf2658, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"

@@ -31,6 +31,7 @@ public:
     __E_AuthenticationFailed = static_cast<int32_t>(0x5),
     __E_RequestTimeout = static_cast<int32_t>(0x6),
     __E_MatchmakingTimeout = static_cast<int32_t>(0x7),
+    __E_MismatchedServerEnvironment = static_cast<int32_t>(0x8),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -59,6 +60,9 @@ public:
   /// @brief Field MatchmakingTimeout value: I32(7)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const MatchmakingTimeout;
 
+  /// @brief Field MismatchedServerEnvironment value: I32(8)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const MismatchedServerEnvironment;
+
   /// @brief Field RequestTimeout value: I32(6)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const RequestTimeout;
 
@@ -75,7 +79,7 @@ public:
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14746 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

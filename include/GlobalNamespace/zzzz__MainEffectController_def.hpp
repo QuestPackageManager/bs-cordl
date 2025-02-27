@@ -50,27 +50,27 @@ public:
 
   __declspec(property(get = get_fadeValue)) float_t fadeValue;
 
-  /// @brief Method ImageEffectControllerCallback, addr 0x4087788, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ImageEffectControllerCallback, addr 0x4090788, size 0x80, virtual false, abstract: false, final false
   inline void ImageEffectControllerCallback(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method LazySetupImageEffectController, addr 0x408756c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method LazySetupImageEffectController, addr 0x409056c, size 0x148, virtual false, abstract: false, final false
   inline void LazySetupImageEffectController();
 
   static inline ::GlobalNamespace::MainEffectController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x40876b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x40906b4, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4087544, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4090544, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPostRender, addr 0x40878bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x40908bc, size 0x30, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreRender, addr 0x4087808, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x4090808, size 0xb4, virtual false, abstract: false, final false
   inline void OnPreRender();
 
-  /// @brief Method OnValidate, addr 0x408773c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x409073c, size 0x4c, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__fadeValue() const;
@@ -97,16 +97,16 @@ public:
 
   constexpr void __cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method .ctor, addr 0x40878ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40908ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_afterImageEffectEvent, addr 0x408739c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_afterImageEffectEvent, addr 0x409039c, size 0xb0, virtual false, abstract: false, final false
   inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method get_fadeValue, addr 0x40874fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_fadeValue, addr 0x40904fc, size 0x48, virtual false, abstract: false, final false
   inline float_t get_fadeValue();
 
-  /// @brief Method remove_afterImageEffectEvent, addr 0x408744c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_afterImageEffectEvent, addr 0x409044c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
 protected:
@@ -124,7 +124,7 @@ public:
   MainEffectController(MainEffectController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17907 };
 
   /// @brief Field kMainEffectEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kMainEffectEnabledKeyword{ u"MAIN_EFFECT_ENABLED" };

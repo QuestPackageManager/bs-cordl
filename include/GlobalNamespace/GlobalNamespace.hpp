@@ -1627,7 +1627,6 @@ module;
 #include "GlobalNamespace/OculusNetworkPlayerModel.hpp"
 #include "GlobalNamespace/OculusPlatformAchievementHandler.hpp"
 #include "GlobalNamespace/OculusPlatformAdditionalContentModel.hpp"
-#include "GlobalNamespace/OculusPlatformExtensions.hpp"
 #include "GlobalNamespace/OculusPlatformLeaderboardsHandler.hpp"
 #include "GlobalNamespace/OculusPlatformUserModel.hpp"
 #include "GlobalNamespace/OculusRequestExtensions.hpp"

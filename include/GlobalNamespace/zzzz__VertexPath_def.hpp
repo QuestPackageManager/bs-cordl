@@ -102,25 +102,25 @@ public:
   /// @brief Field vertexCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_vertexCount, put = __cordl_internal_set_vertexCount)) int32_t vertexCount;
 
-  /// @brief Method AddVertex, addr 0x3b37470, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method AddVertex, addr 0x3b3ff20, size 0x40c, virtual false, abstract: false, final false
   inline void AddVertex(::ByRef<::UnityEngine::Vector3> p0, ::ByRef<::UnityEngine::Vector3> p1, ::ByRef<::UnityEngine::Vector3> p2, ::ByRef<::UnityEngine::Vector3> p3, float_t t,
                         ::ByRef<::UnityEngine::Vector3> lastRotationAxis, ::ByRef<float_t> currentPathLength, ::ByRef<::GlobalNamespace::VertexPath_Vertex> lastVertex, ::ByRef<int32_t> vertCount);
 
-  /// @brief Method GetPoint, addr 0x3b37438, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x3b3fee8, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t index);
 
-  /// @brief Method GetVertex, addr 0x3b373d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetVertex, addr 0x3b3fe88, size 0x60, virtual false, abstract: false, final false
   inline void GetVertex(int32_t index, ::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Vector3> tangent, ::ByRef<::UnityEngine::Vector3> normal);
 
   static inline ::GlobalNamespace::VertexPath* New_ctor(int32_t numberOfPathSegments);
 
-  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x3b36e64, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x3b3f914, size 0x53c, virtual false, abstract: false, final false
   inline void SplitBezierPathIntoFixNumberOfSegments(::GlobalNamespace::BezierPath* bezierPath, int32_t numberOfVertexSegments);
 
-  /// @brief Method TimeAtPoint, addr 0x3b373a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TimeAtPoint, addr 0x3b3fe50, size 0x38, virtual false, abstract: false, final false
   inline float_t TimeAtPoint(int32_t pointIndex);
 
-  /// @brief Method UpdateByBezierPath, addr 0x3b369e4, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method UpdateByBezierPath, addr 0x3b3f494, size 0x458, virtual false, abstract: false, final false
   inline void UpdateByBezierPath(::GlobalNamespace::BezierPath* bezierPath);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__anchorVertexMap() const;
@@ -153,12 +153,12 @@ public:
 
   constexpr void __cordl_internal_set_vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b36900, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f3b0, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfPathSegments);
 
   static inline ::UnityEngine::Vector3 getStaticF__back();
 
-  /// @brief Method get_length, addr 0x3b36e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x3b3f90c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
   static inline void setStaticF__back(::UnityEngine::Vector3 value);

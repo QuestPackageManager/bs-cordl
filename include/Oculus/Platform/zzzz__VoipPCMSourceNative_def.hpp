@@ -27,18 +27,18 @@ public:
   /// @brief Convert operator to "::Oculus::Platform::IVoipPCMSource"
   constexpr operator ::Oculus::Platform::IVoipPCMSource*() noexcept;
 
-  /// @brief Method GetPCM, addr 0x3f930f4, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetPCM, addr 0x3f9c0f4, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetPCM(::ArrayW<float_t, ::Array<float_t>*> dest, int32_t length);
 
   static inline ::Oculus::Platform::VoipPCMSourceNative* New_ctor();
 
-  /// @brief Method PeekSizeElements, addr 0x3f93188, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method PeekSizeElements, addr 0x3f9c188, size 0x60, virtual true, abstract: false, final true
   inline int32_t PeekSizeElements();
 
-  /// @brief Method SetSenderID, addr 0x3f93180, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetSenderID, addr 0x3f9c180, size 0x8, virtual true, abstract: false, final true
   inline void SetSenderID(uint64_t senderID);
 
-  /// @brief Method Update, addr 0x3f931e8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x3f9c1e8, size 0x4, virtual true, abstract: false, final true
   inline void Update();
 
   constexpr uint64_t const& __cordl_internal_get_senderID() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_senderID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f92620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9b620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Oculus::Platform::IVoipPCMSource"
@@ -68,7 +68,7 @@ public:
   VoipPCMSourceNative(VoipPCMSourceNative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15493 };
 
   /// @brief Field senderID, offset: 0x10, size: 0x8, def value: None
   uint64_t ___senderID;

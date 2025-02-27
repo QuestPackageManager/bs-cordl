@@ -74,7 +74,7 @@ public:
   PopupField_1___c__DisplayClass26_0(PopupField_1___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5666 };
 
   /// @brief Field item, offset: 0x10, size: 0x8, def value: None
   T ___item;
@@ -175,7 +175,7 @@ public:
   PopupField_1(PopupField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5667 };
 
   /// @brief Field m_Index, offset: 0x470, size: 0x4, def value: None
   int32_t ___m_Index;

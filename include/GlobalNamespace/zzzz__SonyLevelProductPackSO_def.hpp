@@ -60,19 +60,19 @@ public:
   constexpr void __cordl_internal_set__levelPackRedirectionData(
       ::ArrayW<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*, ::Array<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26eadd0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ef598, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x26ecd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackProductData, addr 0x26f1494, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x26ecd30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x26f14a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>* get_levelPackRedirectionData();
 
-  /// @brief Method set_levelPackProductData, addr 0x26ecd28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelPackProductData, addr 0x26f149c, size 0x8, virtual false, abstract: false, final false
   inline void set_levelPackProductData(::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData* value);
 
-  /// @brief Method set_levelPackRedirectionData, addr 0x26ecd38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_levelPackRedirectionData, addr 0x26f14ac, size 0x5c, virtual false, abstract: false, final false
   inline void set_levelPackRedirectionData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>* value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   SonyLevelProductPackSO(SonyLevelProductPackSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13196 };
 
   /// @brief Field _levelPackProductData, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData* ____levelPackProductData;

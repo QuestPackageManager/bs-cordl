@@ -78,7 +78,7 @@ public:
   static ::GlobalNamespace::OVRControllerHelper_ControllerType const TouchPro;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8395 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -183,21 +183,21 @@ public:
   __declspec(property(get = __cordl_internal_get_showWhenHandsArePoweredByNaturalControllerPoses,
                       put = __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses)) bool showWhenHandsArePoweredByNaturalControllerPoses;
 
-  /// @brief Method InitializeControllerModels, addr 0x402e608, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method InitializeControllerModels, addr 0x4037608, size 0x494, virtual false, abstract: false, final false
   inline void InitializeControllerModels();
 
-  /// @brief Method InputFocusAquired, addr 0x402f304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x4038304, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x402f310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x4038310, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
   static inline ::GlobalNamespace::OVRControllerHelper* New_ctor();
 
-  /// @brief Method Start, addr 0x402e598, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4037598, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x402ea9c, size 0x868, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4037a9c, size 0x868, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType const& __cordl_internal_get_activeControllerType() const;
@@ -332,7 +332,7 @@ public:
 
   constexpr void __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses(bool value);
 
-  /// @brief Method .ctor, addr 0x402f318, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4038318, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -350,7 +350,7 @@ public:
   OVRControllerHelper(OVRControllerHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8396 };
 
   /// @brief Field m_modelOculusTouchQuestAndRiftSLeftController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_modelOculusTouchQuestAndRiftSLeftController;

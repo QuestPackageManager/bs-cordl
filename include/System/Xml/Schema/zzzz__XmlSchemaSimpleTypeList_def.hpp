@@ -42,7 +42,7 @@ public:
   /// @brief Field itemTypeName, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_itemTypeName, put = __cordl_internal_set_itemTypeName)) ::System::Xml::XmlQualifiedName* itemTypeName;
 
-  /// @brief Method Clone, addr 0x42ce188, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42d71b8, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeList* New_ctor();
@@ -65,25 +65,25 @@ public:
 
   constexpr void __cordl_internal_set_itemTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x42ce238, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42d7268, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseItemType, addr 0x42ce178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseItemType, addr 0x42d71a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseItemType();
 
-  /// @brief Method get_ItemType, addr 0x42ce168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemType, addr 0x42d7198, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_ItemType();
 
-  /// @brief Method get_ItemTypeName, addr 0x42ce0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeName, addr 0x42d70f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_ItemTypeName();
 
-  /// @brief Method set_BaseItemType, addr 0x42ce180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseItemType, addr 0x42d71b0, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_ItemType, addr 0x42ce170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemType, addr 0x42d71a0, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_ItemTypeName, addr 0x42ce0d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeName, addr 0x42d7100, size 0x98, virtual false, abstract: false, final false
   inline void set_ItemTypeName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   XmlSchemaSimpleTypeList(XmlSchemaSimpleTypeList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7726 };
 
   /// @brief Field itemTypeName, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___itemTypeName;

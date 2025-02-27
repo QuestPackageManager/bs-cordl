@@ -117,7 +117,7 @@ public:
   UQueryState_1_ListQueryMatcher_1(UQueryState_1_ListQueryMatcher_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6227 };
 
   /// @brief Field <matches>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TElement>* ____matches_k__BackingField;
@@ -172,7 +172,7 @@ public:
   UQueryState_1_ActionQueryMatcher(UQueryState_1_ActionQueryMatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6228 };
 
   /// @brief Field <callBack>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<T>* ____callBack_k__BackingField;
@@ -239,7 +239,7 @@ public:
   constexpr UQueryState_1_Enumerator(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* iterationList, int32_t currentIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6229 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -348,7 +348,7 @@ public:
   constexpr UQueryState_1(::UnityEngine::UIElements::VisualElement* m_Element, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6230 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

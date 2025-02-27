@@ -24,7 +24,7 @@ namespace Zenject {
 class CORDL_TYPE SubContainerCreatorUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyBindSettings, addr 0x4b44b1c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindSettings, addr 0x4b4db4c, size 0x304, virtual false, abstract: false, final false
   static inline void ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::DiContainer* subContainer);
 
 protected:
@@ -42,7 +42,7 @@ public:
   SubContainerCreatorUtil(SubContainerCreatorUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

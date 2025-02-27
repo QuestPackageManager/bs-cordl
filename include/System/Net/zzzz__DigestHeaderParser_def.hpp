@@ -45,18 +45,18 @@ public:
   /// @brief Field values, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::ArrayW<::StringW, ::Array<::StringW>*> values;
 
-  /// @brief Method GetKey, addr 0x44c216c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x44cb19c, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetKey();
 
-  /// @brief Method GetKeywordAndValue, addr 0x44c1f5c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetKeywordAndValue, addr 0x44caf8c, size 0x190, virtual false, abstract: false, final false
   inline bool GetKeywordAndValue(::ByRef<::StringW> key, ::ByRef<::StringW> value);
 
   static inline ::System::Net::DigestHeaderParser* New_ctor(::StringW header);
 
-  /// @brief Method Parse, addr 0x44c1dc4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x44cadf4, size 0x198, virtual false, abstract: false, final false
   inline bool Parse();
 
-  /// @brief Method SkipWhitespace, addr 0x44c20ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespace, addr 0x44cb11c, size 0x80, virtual false, abstract: false, final false
   inline void SkipWhitespace();
 
   constexpr ::StringW const& __cordl_internal_get_header() const;
@@ -83,24 +83,24 @@ public:
 
   constexpr void __cordl_internal_set_values(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x44c1c38, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44cac68, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_keywords();
 
-  /// @brief Method get_Algorithm, addr 0x44c1d6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x44cad9c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Nonce, addr 0x44c1d40, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x44cad70, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Opaque, addr 0x44c1d14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Opaque, addr 0x44cad44, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_QOP, addr 0x44c1d98, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_QOP, addr 0x44cadc8, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method get_Realm, addr 0x44c1cec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x44cad1c, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
   static inline void setStaticF_keywords(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -120,7 +120,7 @@ public:
   DigestHeaderParser(DigestHeaderParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9680 };
 
   /// @brief Field header, offset: 0x10, size: 0x8, def value: None
   ::StringW ___header;

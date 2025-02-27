@@ -34,18 +34,18 @@ namespace Assets::OVR::Scripts {
 class CORDL_TYPE FixMethodDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x407d440, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4086440, size 0xc4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x407d504, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4086504, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x407d428, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4086428, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex);
 
   static inline ::Assets::OVR::Scripts::FixMethodDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x407d324, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4086324, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -63,7 +63,7 @@ public:
   FixMethodDelegate(FixMethodDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

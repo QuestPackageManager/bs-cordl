@@ -124,13 +124,13 @@ public:
 
   constexpr void __cordl_internal_set_simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  /// @brief Method .ctor, addr 0x3c07f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c10e78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_environmentInfos, addr 0x3c07f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfos, addr 0x3c10e68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();
 
-  /// @brief Method set_environmentInfos, addr 0x3c07f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_environmentInfos, addr 0x3c10e70, size 0x8, virtual false, abstract: false, final false
   inline void set_environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
 protected:
@@ -196,10 +196,10 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c* New_ctor();
 
-  /// @brief Method <SetData>b__10_0, addr 0x3c07fac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__10_0, addr 0x3c10ee4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _SetData_b__10_0(::GlobalNamespace::EnvironmentInfoSO* x);
 
-  /// @brief Method .ctor, addr 0x3c07fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c10edc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c* getStaticF___9();
@@ -277,24 +277,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x3c07a30, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x3c10968, size 0x27c, virtual false, abstract: false, final false
   inline void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int32_t idx);
 
-  /// @brief Method HandleOverrideEnvironmentsToggleValueChanged, addr 0x3c07cac, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideEnvironmentsToggleValueChanged, addr 0x3c10be4, size 0x25c, virtual false, abstract: false, final false
   inline void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c07744, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c1067c, size 0x194, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x3c078d8, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x3c10810, size 0x158, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method SetData, addr 0x3c074a0, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3c103d8, size 0x2a4, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
 
-  /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__14_0, addr 0x3c07f10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__14_0, addr 0x3c10e48, size 0x20, virtual false, abstract: false, final false
   inline void _HandleOverrideEnvironmentsToggleValueChanged_b__14_0();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -354,7 +354,7 @@ public:
 
   constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  /// @brief Method .ctor, addr 0x3c07f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c10e40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"

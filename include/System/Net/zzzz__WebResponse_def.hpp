@@ -50,26 +50,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Close, addr 0x44ac164, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x44b5194, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x44ac168, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x44b5198, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x44ac1d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x44b5204, size 0x8c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetObjectData, addr 0x44ac160, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x44b5190, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetResponseStream, addr 0x44ac268, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x44b5298, size 0x24, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::WebResponse* New_ctor();
 
   static inline ::System::Net::WebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x44ac154, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x44b5184, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -79,19 +79,19 @@ public:
 
   constexpr void __cordl_internal_set_m_IsFromCache(bool value);
 
-  /// @brief Method .ctor, addr 0x44a2714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ab744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44ac14c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b517c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Headers, addr 0x44ac2b0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x44b52e0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_IsFromCache, addr 0x44ac260, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFromCache, addr 0x44b5290, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFromCache();
 
-  /// @brief Method get_ResponseUri, addr 0x44ac28c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x44b52bc, size 0x24, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
   /// @brief Convert to "::System::IDisposable"
@@ -115,7 +115,7 @@ public:
   WebResponse(WebResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9618 };
 
   /// @brief Field m_IsFromCache, offset: 0x18, size: 0x1, def value: None
   bool ___m_IsFromCache;

@@ -48,13 +48,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_TreeInstance_Extensions___c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3aa168c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3aaa13c, size 0x80, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__1_0(::UnityEngine::TreeInstance lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3aa170c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3aaa1bc, size 0x80, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__2_0(::UnityEngine::TreeInstance lod);
 
-  /// @brief Method .ctor, addr 0x3aa1684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaa134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::Test_TreeInstance_Extensions___c* getStaticF___9();
@@ -84,7 +84,7 @@ public:
   Test_TreeInstance_Extensions___c(Test_TreeInstance_Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11927 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::Test_TreeInstance_Extensions___c;
 
-  /// @brief Method ToTestObject, addr 0x3aa1440, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aa9ef0, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_TreeInstance*, ::Array<::HoudiniEngineUnity::Test_TreeInstance*>*>
   ToTestObject(::ArrayW<::UnityEngine::TreeInstance, ::Array<::UnityEngine::TreeInstance>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3aa13c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aa9e70, size 0x80, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_TreeInstance* ToTestObject(::UnityEngine::TreeInstance self);
 
-  /// @brief Method ToTestObject, addr 0x3aa1530, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aa9fe0, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TreeInstance*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::TreeInstance>* self);
 
 protected:
@@ -126,7 +126,7 @@ public:
   Test_TreeInstance_Extensions(Test_TreeInstance_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

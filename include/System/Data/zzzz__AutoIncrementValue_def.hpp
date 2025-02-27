@@ -41,7 +41,7 @@ public:
   /// @brief Field <Auto>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Auto_k__BackingField, put = __cordl_internal_set__Auto_k__BackingField)) bool _Auto_k__BackingField;
 
-  /// @brief Method Clone, addr 0x4140b78, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x4149ba8, size 0x110, virtual false, abstract: false, final false
   inline ::System::Data::AutoIncrementValue* Clone();
 
   /// @brief Method MoveAfter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -61,10 +61,10 @@ public:
 
   constexpr void __cordl_internal_set__Auto_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4141a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x414aacc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Auto, addr 0x4141a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Auto, addr 0x414aab8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Auto();
 
   /// @brief Method get_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -79,7 +79,7 @@ public:
   /// @brief Method get_Step, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_Step();
 
-  /// @brief Method set_Auto, addr 0x4141a90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Auto, addr 0x414aac0, size 0xc, virtual false, abstract: false, final false
   inline void set_Auto(bool value);
 
   /// @brief Method set_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -106,7 +106,7 @@ public:
   AutoIncrementValue(AutoIncrementValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11339 };
 
   /// @brief Field <Auto>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Auto_k__BackingField;

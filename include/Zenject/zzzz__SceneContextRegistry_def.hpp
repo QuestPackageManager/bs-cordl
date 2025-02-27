@@ -46,30 +46,30 @@ public:
   __declspec(property(get = __cordl_internal_get__map,
                       put = __cordl_internal_set__map)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::UnityW<::Zenject::SceneContext>>* _map;
 
-  /// @brief Method Add, addr 0x4b515a0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4b5a5d0, size 0xd0, virtual false, abstract: false, final false
   inline void Add(::Zenject::SceneContext* context);
 
-  /// @brief Method GetContainerForScene, addr 0x4b51898, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetContainerForScene, addr 0x4b5a8c8, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* GetContainerForScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetSceneContextForScene, addr 0x4b51670, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetSceneContextForScene, addr 0x4b5a6a0, size 0xac, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::SceneContext> GetSceneContextForScene(::StringW name);
 
-  /// @brief Method GetSceneContextForScene, addr 0x4b5171c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetSceneContextForScene, addr 0x4b5a74c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::SceneContext> GetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene);
 
   static inline ::Zenject::SceneContextRegistry* New_ctor();
 
-  /// @brief Method Remove, addr 0x4b51a28, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4b5aa58, size 0x10c, virtual false, abstract: false, final false
   inline void Remove(::Zenject::SceneContext* context);
 
-  /// @brief Method TryGetContainerForScene, addr 0x4b5193c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryGetContainerForScene, addr 0x4b5a96c, size 0xec, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* TryGetContainerForScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method TryGetSceneContextForScene, addr 0x4b51774, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method TryGetSceneContextForScene, addr 0x4b5a7a4, size 0xac, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::SceneContext> TryGetSceneContextForScene(::StringW name);
 
-  /// @brief Method TryGetSceneContextForScene, addr 0x4b51820, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetSceneContextForScene, addr 0x4b5a850, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::SceneContext> TryGetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::UnityW<::Zenject::SceneContext>>* const& __cordl_internal_get__map() const;
@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set__map(::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::UnityW<::Zenject::SceneContext>>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b51bb0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b5abe0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b51c00, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b5ac30, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b51b34, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b5ab64, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SceneContexts, addr 0x4b4f8bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_SceneContexts, addr 0x4b588ec, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* get_SceneContexts();
 
 protected:
@@ -105,7 +105,7 @@ public:
   SceneContextRegistry(SceneContextRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12674 };
 
   /// @brief Field _map, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::UnityW<::Zenject::SceneContext>>* ____map;

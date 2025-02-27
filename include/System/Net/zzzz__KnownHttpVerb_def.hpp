@@ -60,7 +60,7 @@ public:
 
   static inline ::System::Net::KnownHttpVerb* New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
-  /// @brief Method Parse, addr 0x44a625c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x44af28c, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Net::KnownHttpVerb* Parse(::StringW name);
 
   constexpr bool const& __cordl_internal_get_ConnectRequest() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_RequireContentBody(bool value);
 
-  /// @brief Method .ctor, addr 0x44a5ef8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44aef28, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
   static inline ::System::Net::KnownHttpVerb* getStaticF_Connect();
@@ -139,7 +139,7 @@ public:
   KnownHttpVerb(KnownHttpVerb const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9600 };
 
   /// @brief Field Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Name;

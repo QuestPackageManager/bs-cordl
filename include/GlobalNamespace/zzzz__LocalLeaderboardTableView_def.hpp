@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LocalLeaderboardTableView* New_ctor();
 
-  /// @brief Method SetScores, addr 0x3b0affc, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method SetScores, addr 0x3b13aac, size 0x2ac, virtual false, abstract: false, final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>* scores, int32_t specialScorePos, int32_t maxNumberOfCells);
 
-  /// @brief Method .ctor, addr 0x3b0b2a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b13d58, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

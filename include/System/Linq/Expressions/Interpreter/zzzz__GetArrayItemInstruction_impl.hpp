@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c6168;
+  constexpr static std::size_t addrs = 0x40cf198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c6170;
+  constexpr static std::size_t addrs = 0x40cf1a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c6178;
+  constexpr static std::size_t addrs = 0x40cf1a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40c6180;
+  constexpr static std::size_t addrs = 0x40cf1b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::GetArrayItemInstruction::Run)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40c61c0;
+  constexpr static std::size_t addrs = 0x40cf1f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

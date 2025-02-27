@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_alertDescription(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x2433474, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24371ac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint8_t alertDescription);
 
-  /// @brief Method get_AlertDescription, addr 0x24334b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AlertDescription, addr 0x24371ec, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_AlertDescription();
 
 protected:

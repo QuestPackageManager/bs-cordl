@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__Copyright_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d266d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2f5d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW copyright);
 
 protected:

@@ -31,19 +31,19 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::AssignLocalBoxedInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x40ee320, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f7350, size 0x134, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40ee2a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f72d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_ConsumedStack, addr 0x40ee2d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f7300, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40ee2e0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f7310, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40ee2d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f7308, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -61,7 +61,7 @@ public:
   AssignLocalBoxedInstruction(AssignLocalBoxedInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13969 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -43,13 +43,13 @@ public:
 
   static inline ::GlobalNamespace::MissionStageLockView* New_ctor();
 
-  /// @brief Method Update, addr 0x3c113c4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3c1a2c8, size 0xd0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLocalPositionY, addr 0x3c11360, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPositionY, addr 0x3c1a264, size 0x64, virtual false, abstract: false, final false
   inline void UpdateLocalPositionY(float_t dstPosY, bool animated, float_t animationDuration);
 
-  /// @brief Method UpdateStageLockText, addr 0x3c11494, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x3c1a398, size 0x24, virtual false, abstract: false, final false
   inline void UpdateStageLockText(::StringW text);
 
   constexpr float_t const& __cordl_internal_get__animationDuration() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3c114b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1a3bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -26,13 +26,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>*();
 
-  /// @brief Method Equals, addr 0x48ce2c0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48d72f0, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48ce2b0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48d72e0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BatchPackedCullingViewID other);
 
-  /// @brief Method GetHashCode, addr 0x48ce2a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48d72d8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>"
@@ -46,7 +46,7 @@ public:
   constexpr BatchPackedCullingViewID(uint64_t handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11248 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -27,12 +27,12 @@ namespace System {
 class CORDL_TYPE IOAsyncCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4414224, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x441d254, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IOAsyncResult* ioares);
 
   static inline ::System::IOAsyncCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4414124, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441d154, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,7 +50,7 @@ public:
   IOAsyncCallback(IOAsyncCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

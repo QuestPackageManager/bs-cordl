@@ -34,13 +34,13 @@ public:
   // Declarations
   __declspec(property(get = get_Token)) ::System::Net::CookieToken Token;
 
-  /// @brief Method IsEqualTo, addr 0x44b39e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsEqualTo, addr 0x44bca10, size 0x24, virtual false, abstract: false, final false
   inline bool IsEqualTo(::StringW value);
 
-  /// @brief Method .ctor, addr 0x44b39cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44bc9fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieToken token);
 
-  /// @brief Method get_Token, addr 0x44b39d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x44bca08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken get_Token();
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   constexpr CookieTokenizer_RecognizedAttribute(::StringW m_name, ::System::Net::CookieToken m_token) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9643 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -133,21 +133,21 @@ public:
   /// @brief Field m_value, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value)) ::StringW m_value;
 
-  /// @brief Method Extract, addr 0x44b2eec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x44bbf1c, size 0x88, virtual false, abstract: false, final false
   inline ::StringW Extract();
 
-  /// @brief Method FindNext, addr 0x44b2f74, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method FindNext, addr 0x44bbfa4, size 0x2a0, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals);
 
   static inline ::System::Net::CookieTokenizer* New_ctor(::StringW tokenStream);
 
-  /// @brief Method Next, addr 0x44b3214, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Next, addr 0x44bc244, size 0x104, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken Next(bool first, bool parseResponseCookies);
 
-  /// @brief Method Reset, addr 0x44b3318, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x44bc348, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method TokenFromName, addr 0x44b3380, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method TokenFromName, addr 0x44bc3b0, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken TokenFromName(bool parseResponseCookies);
 
   constexpr bool const& __cordl_internal_get_m_eofCookie() const;
@@ -210,48 +210,48 @@ public:
 
   constexpr void __cordl_internal_set_m_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x44b2e4c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44bbe7c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW tokenStream);
 
   static inline ::ArrayW<::System::Net::CookieTokenizer_RecognizedAttribute, ::Array<::System::Net::CookieTokenizer_RecognizedAttribute>*> getStaticF_RecognizedAttributes();
 
   static inline ::ArrayW<::System::Net::CookieTokenizer_RecognizedAttribute, ::Array<::System::Net::CookieTokenizer_RecognizedAttribute>*> getStaticF_RecognizedServerAttributes();
 
-  /// @brief Method get_EndOfCookie, addr 0x44b2e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndOfCookie, addr 0x44bbeb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_EndOfCookie();
 
-  /// @brief Method get_Eof, addr 0x44b2e98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Eof, addr 0x44bbec8, size 0x10, virtual false, abstract: false, final false
   inline bool get_Eof();
 
-  /// @brief Method get_Name, addr 0x44b2ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x44bbed8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Quoted, addr 0x44b2eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Quoted, addr 0x44bbee8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Quoted();
 
-  /// @brief Method get_Token, addr 0x44b2ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x44bbefc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken get_Token();
 
-  /// @brief Method get_Value, addr 0x44b2edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x44bbf0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_RecognizedAttributes(::ArrayW<::System::Net::CookieTokenizer_RecognizedAttribute, ::Array<::System::Net::CookieTokenizer_RecognizedAttribute>*> value);
 
   static inline void setStaticF_RecognizedServerAttributes(::ArrayW<::System::Net::CookieTokenizer_RecognizedAttribute, ::Array<::System::Net::CookieTokenizer_RecognizedAttribute>*> value);
 
-  /// @brief Method set_EndOfCookie, addr 0x44b2e8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EndOfCookie, addr 0x44bbebc, size 0xc, virtual false, abstract: false, final false
   inline void set_EndOfCookie(bool value);
 
-  /// @brief Method set_Name, addr 0x44b2eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x44bbee0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Quoted, addr 0x44b2ec0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Quoted, addr 0x44bbef0, size 0xc, virtual false, abstract: false, final false
   inline void set_Quoted(bool value);
 
-  /// @brief Method set_Token, addr 0x44b2ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Token, addr 0x44bbf04, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::System::Net::CookieToken value);
 
-  /// @brief Method set_Value, addr 0x44b2ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x44bbf14, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -269,7 +269,7 @@ public:
   CookieTokenizer(CookieTokenizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9644 };
 
   /// @brief Field m_eofCookie, offset: 0x10, size: 0x1, def value: None
   bool ___m_eofCookie;

@@ -34,22 +34,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetAwaiter, addr 0x3e64b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x3e6da20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ForceAsyncAwaiter GetAwaiter();
 
-  /// @brief Method GetResult, addr 0x3e64b2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3e6da30, size 0x28, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x3e64b54, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x3e6da58, size 0x58, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* action);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x3e64bac, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x3e6dab0, size 0x58, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* action);
 
-  /// @brief Method .ctor, addr 0x3e64b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6da18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method get_IsCompleted, addr 0x3e64b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3e6da28, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"

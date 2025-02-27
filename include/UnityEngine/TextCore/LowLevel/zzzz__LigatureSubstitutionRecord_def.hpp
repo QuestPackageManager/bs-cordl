@@ -23,10 +23,10 @@ public:
 
   __declspec(property(get = get_ligatureGlyphID)) uint32_t ligatureGlyphID;
 
-  /// @brief Method get_componentGlyphIDs, addr 0x4926d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentGlyphIDs, addr 0x492fd5c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_componentGlyphIDs();
 
-  /// @brief Method get_ligatureGlyphID, addr 0x4926d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ligatureGlyphID, addr 0x492fd64, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_ligatureGlyphID();
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr LigatureSubstitutionRecord(::ArrayW<uint32_t, ::Array<uint32_t>*> m_ComponentGlyphIDs, uint32_t m_LigatureGlyphID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18200 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

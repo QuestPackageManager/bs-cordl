@@ -30,21 +30,21 @@ public:
   /// @brief Field _keyboardManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
 
-  /// @brief Method HasInputFocus, addr 0x3b18df0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HasInputFocus, addr 0x3b218a0, size 0x100, virtual false, abstract: false, final false
   static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem* eventSystem, ::GlobalNamespace::UIKeyboardManager* keyboardManager);
 
   static inline ::GlobalNamespace::InputActions* New_ctor();
 
-  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x3b19094, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x3b21b44, size 0x3b0, virtual false, abstract: false, final false
   static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext();
 
-  /// @brief Method ToggleAutopilot, addr 0x3b18ef0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ToggleAutopilot, addr 0x3b219a0, size 0x1a0, virtual false, abstract: false, final false
   static inline void ToggleAutopilot();
 
-  /// @brief Method ToggleLevelFreeze, addr 0x3b19090, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToggleLevelFreeze, addr 0x3b21b40, size 0x4, virtual false, abstract: false, final false
   static inline void ToggleLevelFreeze();
 
-  /// @brief Method Update, addr 0x3b18c20, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b216d0, size 0x1d0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
 
-  /// @brief Method .ctor, addr 0x3b19444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b21ef4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

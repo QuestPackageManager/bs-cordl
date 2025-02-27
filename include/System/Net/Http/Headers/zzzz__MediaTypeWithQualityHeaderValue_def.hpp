@@ -31,14 +31,14 @@ public:
   // Declarations
   static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method TryParse, addr 0x4228a80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4231ab0, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x4228914, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x4231944, size 0x16c, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue,
                                      ::ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x422890c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423193c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   MediaTypeWithQualityHeaderValue(MediaTypeWithQualityHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

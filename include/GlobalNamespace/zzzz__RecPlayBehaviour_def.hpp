@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_recording(bool value);
 
-  /// @brief Method .ctor, addr 0x3b2e768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b37218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -169,58 +169,58 @@ public:
   /// @brief Field _vrCenterAdjust, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__vrCenterAdjust, put = __cordl_internal_set__vrCenterAdjust)) ::UnityW<::GlobalNamespace::VRCenterAdjust> _vrCenterAdjust;
 
-  /// @brief Method CleanUp, addr 0x3b2e518, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x3b36fc8, size 0x108, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method Configure, addr 0x3b2e370, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Configure, addr 0x3b36e20, size 0x1a8, virtual false, abstract: false, final false
   inline void Configure();
 
-  /// @brief Method CreateAutoLevelRecording, addr 0x3b2db18, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CreateAutoLevelRecording, addr 0x3b365c8, size 0x158, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreateAutoLevelRecording(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup,
                                                                                 ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
 
-  /// @brief Method CreateRecordingPath, addr 0x3b2d848, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateRecordingPath, addr 0x3b362f8, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW CreateRecordingPath(::GlobalNamespace::BeatmapKey key);
 
-  /// @brief Method Init, addr 0x3b2d718, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b361c8, size 0x130, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup, ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
 
-  /// @brief Method LateUpdate, addr 0x3b2e648, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b370f8, size 0x10, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LoadLevelRecording, addr 0x3b2d9bc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method LoadLevelRecording, addr 0x3b3646c, size 0x15c, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames LoadLevelRecording(::StringW path);
 
   static inline ::GlobalNamespace::RecPlayBehaviour* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2e65c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b3710c, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b2e658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b37108, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Play, addr 0x3b2dc70, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x3b36720, size 0x390, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Record, addr 0x3b2e094, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Record, addr 0x3b36b44, size 0xf8, virtual false, abstract: false, final false
   inline void Record();
 
-  /// @brief Method SavePlayerPoseFrames, addr 0x3b2e2a4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SavePlayerPoseFrames, addr 0x3b36d54, size 0xcc, virtual false, abstract: false, final false
   static inline void SavePlayerPoseFrames(::StringW path, ::ByRef<::BeatSaber::RecPlay::PlayerPoseFrames> frames);
 
-  /// @brief Method SaveRecording, addr 0x3b2e220, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SaveRecording, addr 0x3b36cd0, size 0x84, virtual false, abstract: false, final false
   inline void SaveRecording();
 
-  /// @brief Method Update, addr 0x3b2e620, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b370d0, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <Play>g__ExtractLocalPose|14_0, addr 0x3b2e000, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <Play>g__ExtractLocalPose|14_0, addr 0x3b36ab0, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose _Play_g__ExtractLocalPose_14_0(::UnityEngine::Transform* transform);
 
-  /// @brief Method <Record>g__ExtractGlobalPose|15_0, addr 0x3b2e18c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <Record>g__ExtractGlobalPose|15_0, addr 0x3b36c3c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose _Record_g__ExtractGlobalPose_15_0(::UnityEngine::Transform* transform);
 
-  /// @brief Method <SavePlayerPoseFrames>g__FileWriteAllText|26_0, addr 0x3b2e674, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <SavePlayerPoseFrames>g__FileWriteAllText|26_0, addr 0x3b37124, size 0x34, virtual false, abstract: false, final false
   static inline void _SavePlayerPoseFrames_g__FileWriteAllText_26_0(::StringW path, ::StringW contents);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -295,7 +295,7 @@ public:
 
   constexpr void __cordl_internal_set__vrCenterAdjust(::UnityW<::GlobalNamespace::VRCenterAdjust> value);
 
-  /// @brief Method .ctor, addr 0x3b2e6a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b37158, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

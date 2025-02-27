@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x40f34f0, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40fc520, size 0x13c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f33b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fc3e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   NegateCheckedInstruction_NegateCheckedInt16(NegateCheckedInstruction_NegateCheckedInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

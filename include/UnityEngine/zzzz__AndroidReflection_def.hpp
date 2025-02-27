@@ -57,37 +57,37 @@ public:
   __declspec(property(get = getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy,
                       put = setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy)) ::System::IntPtr s_ReflectionHelperSetNativeExceptionOnProxy;
 
-  /// @brief Method GetConstructorMember, addr 0x484e014, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorMember, addr 0x4857044, size 0x188, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorMember(::System::IntPtr jclass, ::StringW signature);
 
-  /// @brief Method GetFieldClass, addr 0x484e594, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetFieldClass, addr 0x48575c4, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldClass(::System::IntPtr field);
 
-  /// @brief Method GetFieldMember, addr 0x484e398, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetFieldMember, addr 0x48573c8, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldMember(::System::IntPtr jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldSignature, addr 0x484e5f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldSignature, addr 0x4857628, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetFieldSignature(::System::IntPtr field);
 
-  /// @brief Method GetMethodID, addr 0x484df78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x4856fa8, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodMember, addr 0x484e19c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetMethodMember, addr 0x48571cc, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodMember(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetStaticMethodID, addr 0x484dedc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetStaticMethodID, addr 0x4856f0c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method IsAssignableFrom, addr 0x484debc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsAssignableFrom, addr 0x4856eec, size 0x20, virtual false, abstract: false, final false
   static inline bool IsAssignableFrom(::System::Type* t, ::System::Type* from);
 
-  /// @brief Method IsPrimitive, addr 0x484dea8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x4856ed8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* t);
 
-  /// @brief Method NewProxyInstance, addr 0x484e6a0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method NewProxyInstance, addr 0x48576d0, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::IntPtr NewProxyInstance(::System::IntPtr player, ::System::IntPtr delegateHandle, ::System::IntPtr interfaze);
 
-  /// @brief Method SetNativeExceptionOnProxy, addr 0x484b8ec, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetNativeExceptionOnProxy, addr 0x485491c, size 0x108, virtual false, abstract: false, final false
   static inline void SetNativeExceptionOnProxy(::System::IntPtr proxy, ::System::Exception* e, bool methodNotFound);
 
   static inline ::System::IntPtr getStaticF_s_FieldGetDeclaringClass();
@@ -137,7 +137,7 @@ public:
   AndroidReflection(AndroidReflection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

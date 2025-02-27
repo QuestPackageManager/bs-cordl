@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::TernaryTreeReadOnly::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Xml::TernaryTreeReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4310db4;
+  constexpr static std::size_t addrs = 0x4319de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Xml::TernaryTreeReadOnly::*)(::StringW)>(
     &::System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x430fb88;
+  constexpr static std::size_t addrs = 0x4318bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -30,25 +30,25 @@ public:
 
   __declspec(property(get = get_ValueChanged, put = set_ValueChanged)) bool ValueChanged;
 
-  /// @brief Method ToString, addr 0x479c730, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47a5760, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_AssemblyName, addr 0x479c720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x47a5750, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_ClassName, addr 0x479c728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClassName, addr 0x47a5758, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ClassName();
 
-  /// @brief Method get_Value, addr 0x479c7e0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x47a5810, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Type* get_Value();
 
-  /// @brief Method get_ValueChanged, addr 0x479ca94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueChanged, addr 0x47a5ac4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ValueChanged();
 
-  /// @brief Method set_Value, addr 0x479c9d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x47a5a04, size 0xc0, virtual false, abstract: false, final false
   inline void set_Value(::System::Type* value);
 
-  /// @brief Method set_ValueChanged, addr 0x479ca9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ValueChanged, addr 0x47a5acc, size 0xc, virtual false, abstract: false, final false
   inline void set_ValueChanged(bool value);
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr SerializedType(::StringW m_AssemblyName, ::StringW m_ClassName, ::System::Type* m_CachedType, bool _ValueChanged_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15647 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

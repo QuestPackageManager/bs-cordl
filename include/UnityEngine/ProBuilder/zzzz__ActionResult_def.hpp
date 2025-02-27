@@ -68,7 +68,7 @@ public:
   static ::UnityEngine::ProBuilder::ActionResult_Status const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14210 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -103,12 +103,12 @@ public:
 
   __declspec(property(get = get_status, put = set_status)) ::UnityEngine::ProBuilder::ActionResult_Status status;
 
-  /// @brief Method FromBool, addr 0x4703cdc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromBool, addr 0x470cd0c, size 0x98, virtual false, abstract: false, final false
   static inline bool FromBool(bool success);
 
   static inline ::UnityEngine::ProBuilder::ActionResult* New_ctor(::UnityEngine::ProBuilder::ActionResult_Status status, ::StringW notification);
 
-  /// @brief Method ToBool, addr 0x4703ccc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToBool, addr 0x470ccfc, size 0x10, virtual false, abstract: false, final false
   inline bool ToBool();
 
   constexpr ::StringW const& __cordl_internal_get__notification_k__BackingField() const;
@@ -123,31 +123,31 @@ public:
 
   constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::ProBuilder::ActionResult_Status value);
 
-  /// @brief Method .ctor, addr 0x4703c88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x470ccb8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ActionResult_Status status, ::StringW notification);
 
-  /// @brief Method get_NoSelection, addr 0x4703de8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_NoSelection, addr 0x470ce18, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_NoSelection();
 
-  /// @brief Method get_Success, addr 0x4703d74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Success, addr 0x470cda4, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_Success();
 
-  /// @brief Method get_UserCanceled, addr 0x4703e60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_UserCanceled, addr 0x470ce90, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
 
-  /// @brief Method get_notification, addr 0x4703c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_notification, addr 0x470cca8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_notification();
 
-  /// @brief Method get_status, addr 0x4703c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x470cc98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::ActionResult_Status get_status();
 
-  /// @brief Method op_Implicit, addr 0x4703cb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x470cce8, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::ProBuilder::ActionResult* res);
 
-  /// @brief Method set_notification, addr 0x4703c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_notification, addr 0x470ccb0, size 0x8, virtual false, abstract: false, final false
   inline void set_notification(::StringW value);
 
-  /// @brief Method set_status, addr 0x4703c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_status, addr 0x470cca0, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::ProBuilder::ActionResult_Status value);
 
 protected:
@@ -165,7 +165,7 @@ public:
   ActionResult(ActionResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14211 };
 
   /// @brief Field <status>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::ActionResult_Status ____status_k__BackingField;

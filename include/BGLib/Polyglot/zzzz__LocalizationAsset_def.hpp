@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x22af5c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b32f8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method get_Format, addr 0x22af5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x22b32f0, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_TextAsset, addr 0x22af5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x22b32e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -73,7 +73,7 @@ public:
   LocalizationAsset(LocalizationAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18055 };
 
   /// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___textAsset;

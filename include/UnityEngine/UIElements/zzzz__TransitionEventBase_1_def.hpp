@@ -86,7 +86,7 @@ public:
   TransitionEventBase_1(TransitionEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5939 };
 
   /// @brief Field <stylePropertyNames>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::StylePropertyNameCollection ____stylePropertyNames_k__BackingField;

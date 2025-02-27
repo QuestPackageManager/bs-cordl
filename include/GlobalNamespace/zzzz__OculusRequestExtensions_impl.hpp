@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::GlobalNamespace::PlatformException* (*)(::Oculus::Platform::Models::Error*, ::GlobalNamespace::PlatformException_ErrorType)>(&::GlobalNamespace::OculusRequestExtensions::ToPlatformException)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2276a98;
+  constexpr static std::size_t addrs = 0x227a7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

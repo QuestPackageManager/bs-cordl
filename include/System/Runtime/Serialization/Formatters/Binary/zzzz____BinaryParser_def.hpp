@@ -185,130 +185,130 @@ public:
   /// @brief Field topId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_topId, put = __cordl_internal_set_topId)) int64_t topId;
 
-  /// @brief Method GetOp, addr 0x3d16a7c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetOp, addr 0x3d1f980, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* GetOp();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* New_ctor(::System::IO::Stream* stream,
                                                                                                ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader);
 
-  /// @brief Method PutOp, addr 0x3d164a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PutOp, addr 0x3d1f3a8, size 0x88, virtual false, abstract: false, final false
   inline void PutOp(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* op);
 
-  /// @brief Method ReadArray, addr 0x3d15368, size 0x574, virtual false, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x3d1e26c, size 0x574, virtual false, abstract: false, final false
   inline void ReadArray(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method ReadArrayAsBytes, addr 0x3d17394, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ReadArrayAsBytes, addr 0x3d20298, size 0x258, virtual false, abstract: false, final false
   inline void ReadArrayAsBytes(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
 
-  /// @brief Method ReadAssembly, addr 0x3d14534, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method ReadAssembly, addr 0x3d1d438, size 0x26c, virtual false, abstract: false, final false
   inline void ReadAssembly(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method ReadBegin, addr 0x3d1446c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReadBegin, addr 0x3d1d370, size 0x4, virtual false, abstract: false, final false
   inline void ReadBegin();
 
-  /// @brief Method ReadBoolean, addr 0x3d1652c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadBoolean, addr 0x3d1f430, size 0x20, virtual false, abstract: false, final false
   inline bool ReadBoolean();
 
-  /// @brief Method ReadByte, addr 0x3d1654c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x3d1f450, size 0x20, virtual false, abstract: false, final false
   inline uint8_t ReadByte();
 
-  /// @brief Method ReadBytes, addr 0x3d1656c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x3d1f470, size 0x24, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBytes(int32_t length);
 
-  /// @brief Method ReadBytes, addr 0x3d16590, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x3d1f494, size 0x7c, virtual false, abstract: false, final false
   inline void ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> byteA, int32_t offset, int32_t size);
 
-  /// @brief Method ReadChar, addr 0x3d1660c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadChar, addr 0x3d1f510, size 0x20, virtual false, abstract: false, final false
   inline char16_t ReadChar();
 
-  /// @brief Method ReadChars, addr 0x3d1662c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadChars, addr 0x3d1f530, size 0x24, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> ReadChars(int32_t length);
 
-  /// @brief Method ReadCrossAppDomainMap, addr 0x3d14afc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ReadCrossAppDomainMap, addr 0x3d1da00, size 0x1c4, virtual false, abstract: false, final false
   inline void ReadCrossAppDomainMap();
 
-  /// @brief Method ReadDateTime, addr 0x3d16820, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadDateTime, addr 0x3d1f724, size 0x7c, virtual false, abstract: false, final false
   inline ::System::DateTime ReadDateTime();
 
-  /// @brief Method ReadDecimal, addr 0x3d16650, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadDecimal, addr 0x3d1f554, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Decimal ReadDecimal();
 
-  /// @brief Method ReadDouble, addr 0x3d16728, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadDouble, addr 0x3d1f62c, size 0x24, virtual false, abstract: false, final false
   inline double_t ReadDouble();
 
-  /// @brief Method ReadEnd, addr 0x3d161a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReadEnd, addr 0x3d1f0a4, size 0x4, virtual false, abstract: false, final false
   inline void ReadEnd();
 
-  /// @brief Method ReadInt16, addr 0x3d1674c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadInt16, addr 0x3d1f650, size 0x24, virtual false, abstract: false, final false
   inline int16_t ReadInt16();
 
-  /// @brief Method ReadInt32, addr 0x3d16770, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32, addr 0x3d1f674, size 0x24, virtual false, abstract: false, final false
   inline int32_t ReadInt32();
 
-  /// @brief Method ReadInt64, addr 0x3d16794, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadInt64, addr 0x3d1f698, size 0x24, virtual false, abstract: false, final false
   inline int64_t ReadInt64();
 
-  /// @brief Method ReadMemberPrimitiveTyped, addr 0x3d158dc, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method ReadMemberPrimitiveTyped, addr 0x3d1e7e0, size 0x37c, virtual false, abstract: false, final false
   inline void ReadMemberPrimitiveTyped();
 
-  /// @brief Method ReadMemberPrimitiveUnTyped, addr 0x3d161a4, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method ReadMemberPrimitiveUnTyped, addr 0x3d1f0a8, size 0x2a8, virtual false, abstract: false, final false
   inline void ReadMemberPrimitiveUnTyped();
 
-  /// @brief Method ReadMemberReference, addr 0x3d15c58, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ReadMemberReference, addr 0x3d1eb5c, size 0x1e8, virtual false, abstract: false, final false
   inline void ReadMemberReference();
 
-  /// @brief Method ReadMessageEnd, addr 0x3d16034, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ReadMessageEnd, addr 0x3d1ef38, size 0x16c, virtual false, abstract: false, final false
   inline void ReadMessageEnd();
 
-  /// @brief Method ReadObject, addr 0x3d147a0, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x3d1d6a4, size 0x35c, virtual false, abstract: false, final false
   inline void ReadObject();
 
-  /// @brief Method ReadObjectNull, addr 0x3d15e40, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectNull, addr 0x3d1ed44, size 0x1f4, virtual false, abstract: false, final false
   inline void ReadObjectNull(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method ReadObjectString, addr 0x3d14df0, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectString, addr 0x3d1dcf4, size 0x578, virtual false, abstract: false, final false
   inline void ReadObjectString(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method ReadObjectWithMap, addr 0x3d14cc0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectWithMap, addr 0x3d1dbc4, size 0xa0, virtual false, abstract: false, final false
   inline void ReadObjectWithMap(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method ReadObjectWithMap, addr 0x3d16b64, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectWithMap, addr 0x3d1fa68, size 0x408, virtual false, abstract: false, final false
   inline void ReadObjectWithMap(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* record);
 
-  /// @brief Method ReadObjectWithMapTyped, addr 0x3d14d60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectWithMapTyped, addr 0x3d1dc64, size 0x90, virtual false, abstract: false, final false
   inline void ReadObjectWithMapTyped(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method ReadObjectWithMapTyped, addr 0x3d16f6c, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectWithMapTyped, addr 0x3d1fe70, size 0x428, virtual false, abstract: false, final false
   inline void ReadObjectWithMapTyped(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* record);
 
-  /// @brief Method ReadSByte, addr 0x3d167b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadSByte, addr 0x3d1f6bc, size 0x20, virtual false, abstract: false, final false
   inline int8_t ReadSByte();
 
-  /// @brief Method ReadSerializationHeaderRecord, addr 0x3d14470, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadSerializationHeaderRecord, addr 0x3d1d374, size 0xc4, virtual false, abstract: false, final false
   inline void ReadSerializationHeaderRecord();
 
-  /// @brief Method ReadSingle, addr 0x3d16704, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadSingle, addr 0x3d1f608, size 0x24, virtual false, abstract: false, final false
   inline float_t ReadSingle();
 
-  /// @brief Method ReadString, addr 0x3d167d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x3d1f6dc, size 0x24, virtual false, abstract: false, final false
   inline ::StringW ReadString();
 
-  /// @brief Method ReadTimeSpan, addr 0x3d167fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadTimeSpan, addr 0x3d1f700, size 0x24, virtual false, abstract: false, final false
   inline ::System::TimeSpan ReadTimeSpan();
 
-  /// @brief Method ReadUInt16, addr 0x3d1689c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadUInt16, addr 0x3d1f7a0, size 0x24, virtual false, abstract: false, final false
   inline uint16_t ReadUInt16();
 
-  /// @brief Method ReadUInt32, addr 0x3d168c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadUInt32, addr 0x3d1f7c4, size 0x24, virtual false, abstract: false, final false
   inline uint32_t ReadUInt32();
 
-  /// @brief Method ReadUInt64, addr 0x3d168e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadUInt64, addr 0x3d1f7e8, size 0x24, virtual false, abstract: false, final false
   inline uint64_t ReadUInt64();
 
-  /// @brief Method ReadValue, addr 0x3d175ec, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x3d204f0, size 0x424, virtual false, abstract: false, final false
   inline ::System::Object* ReadValue(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method Run, addr 0x3d0ddf8, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3d16cfc, size 0x5b0, virtual false, abstract: false, final false
   inline void Run();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* const& __cordl_internal_get_PRS() const;
@@ -449,23 +449,23 @@ public:
 
   constexpr void __cordl_internal_set_topId(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3d140b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1cfb8, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader);
 
   static inline ::System::Text::Encoding* getStaticF_encoding();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MessageEnd* getStaticF_messageEnd();
 
-  /// @brief Method get_AssemIdToAssemblyTable, addr 0x3d14324, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_AssemIdToAssemblyTable, addr 0x3d1d228, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* get_AssemIdToAssemblyTable();
 
-  /// @brief Method get_ObjectMapIdTable, addr 0x3d14258, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectMapIdTable, addr 0x3d1d15c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* get_ObjectMapIdTable();
 
-  /// @brief Method get_SystemAssemblyInfo, addr 0x3d141b4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_SystemAssemblyInfo, addr 0x3d1d0b8, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* get_SystemAssemblyInfo();
 
-  /// @brief Method get_prs, addr 0x3d14400, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_prs, addr 0x3d1d304, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* get_prs();
 
   static inline void setStaticF_encoding(::System::Text::Encoding* value);

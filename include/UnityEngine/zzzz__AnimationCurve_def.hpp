@@ -39,37 +39,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::AnimationCurve*>*() noexcept;
 
-  /// @brief Method AddKey, addr 0x4865d50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddKey, addr 0x486ed80, size 0x54, virtual false, abstract: false, final false
   inline int32_t AddKey(float_t time, float_t value);
 
-  /// @brief Method EaseInOut, addr 0x4865fa8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method EaseInOut, addr 0x486efd8, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* EaseInOut(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
 
-  /// @brief Method Equals, addr 0x4866124, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x486f154, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x4866230, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x486f260, size 0xc8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::AnimationCurve* other);
 
-  /// @brief Method Evaluate, addr 0x4865d04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x486ed34, size 0x4c, virtual false, abstract: false, final false
   inline float_t Evaluate(float_t time);
 
-  /// @brief Method Finalize, addr 0x4865c48, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x486ec78, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetHashCode, addr 0x4865de0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x486ee10, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Internal_Create, addr 0x4865bc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x486ebf8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
 
-  /// @brief Method Internal_Destroy, addr 0x4865b8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x486ebbc, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
-  /// @brief Method Internal_Equals, addr 0x4865c04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_Equals, addr 0x486ec34, size 0x44, virtual false, abstract: false, final false
   inline bool Internal_Equals(::System::IntPtr other);
 
-  /// @brief Method Linear, addr 0x4865e1c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Linear, addr 0x486ee4c, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* Linear(float_t timeStart, float_t valueStart, float_t timeEnd, float_t valueEnd);
 
   static inline ::UnityEngine::AnimationCurve* New_ctor();
@@ -82,13 +82,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48660d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486f108, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4865f58, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486ef88, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keys);
 
-  /// @brief Method get_length, addr 0x4865da4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x486edd4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::AnimationCurve*>"
@@ -109,7 +109,7 @@ public:
   AnimationCurve(AnimationCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10648 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

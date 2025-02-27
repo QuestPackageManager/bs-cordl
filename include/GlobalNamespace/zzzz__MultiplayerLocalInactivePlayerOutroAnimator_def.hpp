@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* New_ctor();
 
-  /// @brief Method Start, addr 0x3bca288, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bd31c0, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__outroPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x3bca2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd31fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

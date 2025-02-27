@@ -20,10 +20,10 @@ namespace System {
 class CORDL_TYPE UncNameHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x4413e4c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x441ce7c, size 0x2d0, virtual false, abstract: false, final false
   static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, uint16_t start, ::ByRef<int32_t> returnedEnd, bool notImplicitFile);
 
-  /// @brief Method ParseCanonicalName, addr 0x4413e48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonicalName, addr 0x441ce78, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ::ByRef<bool> loopback);
 
 protected:
@@ -41,7 +41,7 @@ public:
   UncNameHelper(UncNameHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

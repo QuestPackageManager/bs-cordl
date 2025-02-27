@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE NoteSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3ae7e5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af090c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset, ::UnityEngine::Vector3 jumpEndOffset, float_t gravityBase);
 
   // Ctor Parameters []

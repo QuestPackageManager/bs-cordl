@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__tools(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* value);
 
-  /// @brief Method .ctor, addr 0x3a8a808, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a932b8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   HEU_Shelf(HEU_Shelf const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11845 };
 
   /// @brief Field _shelfName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____shelfName;

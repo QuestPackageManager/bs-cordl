@@ -33,13 +33,13 @@ public:
   /// @brief Field <DisplayNameValue>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__DisplayNameValue_k__BackingField, put = __cordl_internal_set__DisplayNameValue_k__BackingField)) ::StringW _DisplayNameValue_k__BackingField;
 
-  /// @brief Method Equals, addr 0x444c0a8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x44550d8, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x444c174, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x44551a4, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x444c19c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x44551cc, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DisplayNameAttribute* New_ctor();
@@ -52,23 +52,23 @@ public:
 
   constexpr void __cordl_internal_set__DisplayNameValue_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x444c00c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445503c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x444c068, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4455098, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
   static inline ::System::ComponentModel::DisplayNameAttribute* getStaticF_Default();
 
-  /// @brief Method get_DisplayName, addr 0x444c090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x44550c0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_DisplayNameValue, addr 0x444c098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayNameValue, addr 0x44550c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DisplayNameValue();
 
   static inline void setStaticF_Default(::System::ComponentModel::DisplayNameAttribute* value);
 
-  /// @brief Method set_DisplayNameValue, addr 0x444c0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DisplayNameValue, addr 0x44550d0, size 0x8, virtual false, abstract: false, final false
   inline void set_DisplayNameValue(::StringW value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   DisplayNameAttribute(DisplayNameAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9349 };
 
   /// @brief Field <DisplayNameValue>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____DisplayNameValue_k__BackingField;

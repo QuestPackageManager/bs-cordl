@@ -68,10 +68,10 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x2309218, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x230cf50, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x2309230, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x230cf68, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
@@ -80,7 +80,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23093c0, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x230d0f8, size 0x1e8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_keyEncryptionAlgorithm() const;
@@ -113,26 +113,26 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x2308e98, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230cbd0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys);
 
-  /// @brief Method .ctor, addr 0x2308f28, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230cc60, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyEncryptionAlgorithm, addr 0x23093b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0x230d0e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_Originator, addr 0x23093a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Originator, addr 0x230d0d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* get_Originator();
 
-  /// @brief Method get_RecipientEncryptedKeys, addr 0x23093b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecipientEncryptedKeys, addr 0x230d0f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_RecipientEncryptedKeys();
 
-  /// @brief Method get_UserKeyingMaterial, addr 0x23093a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserKeyingMaterial, addr 0x230d0e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_UserKeyingMaterial();
 
-  /// @brief Method get_Version, addr 0x2309398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x230d0d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

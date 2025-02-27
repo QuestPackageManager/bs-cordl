@@ -69,23 +69,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x421ea70, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4227aa0, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x421ea80, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4227ab0, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method IsAllowedAbsoluteUri, addr 0x421e924, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedAbsoluteUri, addr 0x4227954, size 0x14c, virtual false, abstract: false, final false
   static inline bool IsAllowedAbsoluteUri(::System::Uri* uri);
 
   static inline ::System::Net::Http::HttpRequestMessage* New_ctor();
 
   static inline ::System::Net::Http::HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri);
 
-  /// @brief Method SetIsUsed, addr 0x421c010, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetIsUsed, addr 0x4225040, size 0x1c, virtual false, abstract: false, final false
   inline bool SetIsUsed();
 
-  /// @brief Method ToString, addr 0x421eab4, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4227ae4, size 0x280, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::Http::HttpContent* const& __cordl_internal_get__Content_k__BackingField() const;
@@ -130,37 +130,37 @@ public:
 
   constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  /// @brief Method .ctor, addr 0x421e75c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x422778c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x421bcd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4224d08, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri);
 
-  /// @brief Method get_Content, addr 0x421e8a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x42278d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
-  /// @brief Method get_Headers, addr 0x4218808, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x4221838, size 0x60, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpRequestHeaders* get_Headers();
 
-  /// @brief Method get_Method, addr 0x421e914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x4227944, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpMethod* get_Method();
 
-  /// @brief Method get_RequestUri, addr 0x421e91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestUri, addr 0x422794c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_RequestUri();
 
-  /// @brief Method get_Version, addr 0x42187a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x42217d4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Content, addr 0x421e8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x42278dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method set_Method, addr 0x421e7f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_Method, addr 0x4227828, size 0xac, virtual false, abstract: false, final false
   inline void set_Method(::System::Net::Http::HttpMethod* value);
 
-  /// @brief Method set_RequestUri, addr 0x42190a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method set_RequestUri, addr 0x42220d8, size 0xe0, virtual false, abstract: false, final false
   inline void set_RequestUri(::System::Uri* value);
 
 protected:
@@ -178,7 +178,7 @@ public:
   HttpRequestMessage(HttpRequestMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16698 };
 
   /// @brief Field headers, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::Headers::HttpRequestHeaders* ___headers;

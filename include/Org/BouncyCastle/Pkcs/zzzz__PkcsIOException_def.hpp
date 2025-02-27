@@ -26,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::PkcsIOException* New_ctor(::StringW message, ::System::Exception* underlying);
 
-  /// @brief Method .ctor, addr 0x2565a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2569798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25650ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2568e24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* underlying);
 
 protected:

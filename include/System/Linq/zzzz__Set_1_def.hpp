@@ -41,7 +41,7 @@ public:
   constexpr Set_1_Slot(int32_t hashCode, TElement value, int32_t next) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13602 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -150,7 +150,7 @@ public:
   Set_1(Set_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13603 };
 
   /// @brief Field buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___buckets;

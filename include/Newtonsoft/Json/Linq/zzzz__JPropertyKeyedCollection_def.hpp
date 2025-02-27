@@ -45,51 +45,51 @@ public:
   __declspec(property(get = __cordl_internal_get__dictionary,
                       put = __cordl_internal_set__dictionary)) ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* _dictionary;
 
-  /// @brief Method AddKey, addr 0x3f223e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddKey, addr 0x3f2b2e8, size 0x70, virtual false, abstract: false, final false
   inline void AddKey(::StringW key, ::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method ChangeItemKey, addr 0x3f224fc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ChangeItemKey, addr 0x3f2b400, size 0x184, virtual false, abstract: false, final false
   inline void ChangeItemKey(::Newtonsoft::Json::Linq::JToken* item, ::StringW newKey);
 
-  /// @brief Method ClearItems, addr 0x3f227ec, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ClearItems, addr 0x3f2b6f0, size 0x78, virtual true, abstract: false, final false
   inline void ClearItems();
 
-  /// @brief Method Compare, addr 0x3f1c49c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3f253a0, size 0x360, virtual false, abstract: false, final false
   inline bool Compare(::Newtonsoft::Json::Linq::JPropertyKeyedCollection* other);
 
-  /// @brief Method Contains, addr 0x3f1e2b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3f271b4, size 0xac, virtual false, abstract: false, final false
   inline bool Contains(::StringW key);
 
-  /// @brief Method ContainsItem, addr 0x3f22680, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ContainsItem, addr 0x3f2b584, size 0x8c, virtual false, abstract: false, final false
   inline bool ContainsItem(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method EnsureDictionary, addr 0x3f22454, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EnsureDictionary, addr 0x3f2b358, size 0xa8, virtual false, abstract: false, final false
   inline void EnsureDictionary();
 
-  /// @brief Method GetKeyForItem, addr 0x3f2270c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetKeyForItem, addr 0x3f2b610, size 0x80, virtual false, abstract: false, final false
   inline ::StringW GetKeyForItem(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method IndexOfReference, addr 0x3f1c824, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IndexOfReference, addr 0x3f25728, size 0xa4, virtual false, abstract: false, final false
   inline int32_t IndexOfReference(::Newtonsoft::Json::Linq::JToken* t);
 
-  /// @brief Method InsertItem, addr 0x3f22864, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method InsertItem, addr 0x3f2b768, size 0x78, virtual true, abstract: false, final false
   inline void InsertItem(int32_t index, ::Newtonsoft::Json::Linq::JToken* item);
 
   static inline ::Newtonsoft::Json::Linq::JPropertyKeyedCollection* New_ctor();
 
-  /// @brief Method Remove, addr 0x3f228dc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x3f2b7e0, size 0xe8, virtual false, abstract: false, final false
   inline bool Remove(::StringW key);
 
-  /// @brief Method RemoveItem, addr 0x3f229c4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method RemoveItem, addr 0x3f2b8c8, size 0xf4, virtual true, abstract: false, final false
   inline void RemoveItem(int32_t index);
 
-  /// @brief Method RemoveKey, addr 0x3f2278c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveKey, addr 0x3f2b690, size 0x60, virtual false, abstract: false, final false
   inline void RemoveKey(::StringW key);
 
-  /// @brief Method SetItem, addr 0x3f22ab8, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method SetItem, addr 0x3f2b9bc, size 0x208, virtual true, abstract: false, final false
   inline void SetItem(int32_t index, ::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method TryGetValue, addr 0x3f1cb50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x3f25a54, size 0x78, virtual false, abstract: false, final false
   inline bool TryGetValue(::StringW key, ::ByRef<::Newtonsoft::Json::Linq::JToken*> value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* const& __cordl_internal_get__dictionary() const;
@@ -98,18 +98,18 @@ public:
 
   constexpr void __cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* value);
 
-  /// @brief Method .ctor, addr 0x3f1c21c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f25120, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::IEqualityComparer_1<::StringW>* getStaticF_Comparer();
 
-  /// @brief Method get_Item, addr 0x3f22cc0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3f2bbc4, size 0xc0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_Item(::StringW key);
 
-  /// @brief Method get_Keys, addr 0x3f1e374, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x3f27278, size 0x58, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::StringW>* get_Keys();
 
-  /// @brief Method get_Values, addr 0x3f22d80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x3f2bc84, size 0x58, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* get_Values();
 
   static inline void setStaticF_Comparer(::System::Collections::Generic::IEqualityComparer_1<::StringW>* value);
@@ -129,7 +129,7 @@ public:
   JPropertyKeyedCollection(JPropertyKeyedCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10414 };
 
   /// @brief Field _dictionary, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* ____dictionary;

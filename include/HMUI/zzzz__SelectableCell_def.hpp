@@ -85,7 +85,7 @@ public:
   static ::HMUI::SelectableCell_TransitionType const Instant;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16107 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -152,10 +152,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
-  /// @brief Method ClearHighlight, addr 0x3a022cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearHighlight, addr 0x3a0ad7c, size 0x10, virtual false, abstract: false, final false
   inline void ClearHighlight(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange, addr 0x3a022e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3a0ad90, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   /// @brief Method InternalToggle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -163,31 +163,31 @@ public:
 
   static inline ::HMUI::SelectableCell* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3a021bc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3a0ac6c, size 0x10, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerClick, addr 0x3a022e4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x3a0ad94, size 0xd4, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x3a02458, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x3a0af08, size 0x10, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x3a02468, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x3a0af18, size 0x10, virtual true, abstract: false, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x3a023b8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x3a0ae68, size 0xa0, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method SelectionDidChange, addr 0x3a022dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3a0ad8c, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetHighlight, addr 0x3a021cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetHighlight, addr 0x3a0ac7c, size 0x7c, virtual false, abstract: false, final false
   inline void SetHighlight(bool value, ::HMUI::SelectableCell_TransitionType transitionType, bool ignoreCurrentValue);
 
-  /// @brief Method SetSelected, addr 0x3a02248, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x3a0acf8, size 0x84, virtual false, abstract: false, final false
   inline void SetSelected(bool value, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* changeOwner, bool ignoreCurrentValue);
 
-  /// @brief Method Start, addr 0x3a0218c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3a0ac3c, size 0x30, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__highlighted_k__BackingField() const;
@@ -226,22 +226,22 @@ public:
 
   constexpr void __cordl_internal_set_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3a02478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0af28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_highlightDidChangeEvent, addr 0x3a01ea4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_highlightDidChangeEvent, addr 0x3a0a954, size 0xb0, virtual false, abstract: false, final false
   inline void add_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value);
 
-  /// @brief Method add_nonInteractableCellWasPressedEvent, addr 0x3a02004, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_nonInteractableCellWasPressedEvent, addr 0x3a0aab4, size 0xb0, virtual false, abstract: false, final false
   inline void add_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value);
 
-  /// @brief Method add_selectionDidChangeEvent, addr 0x3a01d44, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionDidChangeEvent, addr 0x3a0a7f4, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value);
 
-  /// @brief Method get_highlighted, addr 0x3a02164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlighted, addr 0x3a0ac14, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
 
-  /// @brief Method get_selected, addr 0x3a02178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selected, addr 0x3a0ac28, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -259,19 +259,19 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
-  /// @brief Method remove_highlightDidChangeEvent, addr 0x3a01f54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_highlightDidChangeEvent, addr 0x3a0aa04, size 0xb0, virtual false, abstract: false, final false
   inline void remove_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value);
 
-  /// @brief Method remove_nonInteractableCellWasPressedEvent, addr 0x3a020b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_nonInteractableCellWasPressedEvent, addr 0x3a0ab64, size 0xb0, virtual false, abstract: false, final false
   inline void remove_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value);
 
-  /// @brief Method remove_selectionDidChangeEvent, addr 0x3a01df4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionDidChangeEvent, addr 0x3a0a8a4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value);
 
-  /// @brief Method set_highlighted, addr 0x3a0216c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_highlighted, addr 0x3a0ac1c, size 0xc, virtual false, abstract: false, final false
   inline void set_highlighted(bool value);
 
-  /// @brief Method set_selected, addr 0x3a02180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_selected, addr 0x3a0ac30, size 0xc, virtual false, abstract: false, final false
   inline void set_selected(bool value);
 
 protected:
@@ -289,7 +289,7 @@ public:
   SelectableCell(SelectableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16108 };
 
   /// @brief Field _wasPressedSignal, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____wasPressedSignal;

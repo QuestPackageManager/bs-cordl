@@ -46,17 +46,17 @@ public:
   /// @brief Field responseType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_responseType, put = __cordl_internal_set_responseType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* responseType;
 
-  /// @brief Method GetInstance, addr 0x24078c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x240b600, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x2408cf8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x240ca30, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* responseType, ::Org::BouncyCastle::Asn1::Asn1OctetString* response);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x240904c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x240cd84, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_response() const;
@@ -71,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set_responseType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x2408fa0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240ccd8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* responseType, ::Org::BouncyCastle::Asn1::Asn1OctetString* response);
 
-  /// @brief Method .ctor, addr 0x2408e74, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240cbac, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Response, addr 0x2409044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Response, addr 0x240cd7c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Response();
 
-  /// @brief Method get_ResponseType, addr 0x240903c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseType, addr 0x240cd74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ResponseType();
 
 protected:

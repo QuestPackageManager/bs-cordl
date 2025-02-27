@@ -34,29 +34,29 @@ public:
   /// @brief Field _tagged, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__tagged, put = __cordl_internal_set__tagged)) bool _tagged;
 
-  /// @brief Method AddObject, addr 0x2633810, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method AddObject, addr 0x2637548, size 0x80, virtual true, abstract: false, final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Close, addr 0x263389c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x26375d4, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetRawOutputStream, addr 0x2633894, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetRawOutputStream, addr 0x26375cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
   static inline ::Org::BouncyCastle::Asn1::BerGenerator* New_ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method WriteBerBody, addr 0x26339d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WriteBerBody, addr 0x263770c, size 0x14, virtual false, abstract: false, final false
   inline void WriteBerBody(::System::IO::Stream* contentStream);
 
-  /// @brief Method WriteBerEnd, addr 0x26338a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteBerEnd, addr 0x26375d8, size 0x98, virtual false, abstract: false, final false
   inline void WriteBerEnd();
 
-  /// @brief Method WriteBerHeader, addr 0x263397c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method WriteBerHeader, addr 0x26376b4, size 0x58, virtual false, abstract: false, final false
   inline void WriteBerHeader(int32_t tag);
 
-  /// @brief Method WriteHdr, addr 0x2633938, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WriteHdr, addr 0x2637670, size 0x44, virtual false, abstract: false, final false
   inline void WriteHdr(int32_t tag);
 
   constexpr bool const& __cordl_internal_get__isExplicit() const;
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set__tagged(bool value);
 
-  /// @brief Method .ctor, addr 0x2633798, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26374d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x26337c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26374fc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

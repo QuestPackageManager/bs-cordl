@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26be558, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c2644, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, int32_t value);
 
 protected:
@@ -49,7 +49,7 @@ public:
   IntFxBaseData(IntFxBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12909 };
 
   /// @brief Field value, offset: 0x18, size: 0x4, def value: None
   int32_t ___value;

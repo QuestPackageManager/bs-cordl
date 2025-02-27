@@ -43,35 +43,35 @@ public:
   /// @brief Field TypeConstructorName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_TypeConstructorName, put = setStaticF_TypeConstructorName)) ::StringW TypeConstructorName;
 
-  /// @brief Method Equals, addr 0x3d2691c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3d2f820, size 0x8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3d2692c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3d2f830, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Invoke, addr 0x3d268fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3d2f800, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
   static inline ::System::Reflection::ConstructorInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d268e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2f7e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ConstructorName();
 
   static inline ::StringW getStaticF_TypeConstructorName();
 
-  /// @brief Method get_MemberType, addr 0x3d268f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x3d2f7f8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method op_Equality, addr 0x3d2693c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3d2f840, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x3d26968, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3d2f86c, size 0x94, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo* right);
 
   static inline void setStaticF_ConstructorName(::StringW value);

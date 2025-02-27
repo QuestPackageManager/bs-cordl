@@ -29,7 +29,7 @@ public:
   /// @brief Field _rotationTimeProcessor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__rotationTimeProcessor, put = __cordl_internal_set__rotationTimeProcessor)) ::GlobalNamespace::RotationTimeProcessor* _rotationTimeProcessor;
 
-  /// @brief Method BeatToRotation, addr 0x26babb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BeatToRotation, addr 0x26beca4, size 0x18, virtual false, abstract: false, final false
   inline int32_t BeatToRotation(float_t beat);
 
   static inline ::GlobalNamespace::BeatToTimeAndRotationConverter* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__rotationTimeProcessor(::GlobalNamespace::RotationTimeProcessor* value);
 
-  /// @brief Method .ctor, addr 0x26bab8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bec78, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -58,7 +58,7 @@ public:
   BeatToTimeAndRotationConverter(BeatToTimeAndRotationConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12890 };
 
   /// @brief Field _rotationTimeProcessor, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RotationTimeProcessor* ____rotationTimeProcessor;

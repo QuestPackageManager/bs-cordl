@@ -31,27 +31,27 @@ public:
   /// @brief Method Asn1GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method CallAsn1Equals, addr 0x22f32a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CallAsn1Equals, addr 0x22f6fdc, size 0xc, virtual false, abstract: false, final false
   inline bool CallAsn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method CallAsn1GetHashCode, addr 0x22f3190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CallAsn1GetHashCode, addr 0x22f6ec8, size 0xc, virtual false, abstract: false, final false
   inline int32_t CallAsn1GetHashCode();
 
   /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromByteArray, addr 0x22f9d64, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method FromByteArray, addr 0x22fda9c, size 0x204, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* FromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method FromStream, addr 0x22f9f68, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FromStream, addr 0x22fdca0, size 0x124, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* FromStream(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* New_ctor();
 
-  /// @brief Method ToAsn1Object, addr 0x22fa08c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x22fddc4, size 0x4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x22fa090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fddc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

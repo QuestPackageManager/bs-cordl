@@ -48,13 +48,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Terrain_Extensions___c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3aa250c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3aaafbc, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Terrain* _ToTestObject_b__1_0(::UnityEngine::Terrain* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3aa2568, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3aab018, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Terrain* _ToTestObject_b__2_0(::UnityEngine::Terrain* lod);
 
-  /// @brief Method .ctor, addr 0x3aa2504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaafb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::Test_Terrain_Extensions___c* getStaticF___9();
@@ -84,7 +84,7 @@ public:
   Test_Terrain_Extensions___c(Test_Terrain_Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,13 +101,13 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::Test_Terrain_Extensions___c;
 
-  /// @brief Method ToTestObject, addr 0x3aa22c0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aaad70, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Terrain*, ::Array<::HoudiniEngineUnity::Test_Terrain*>*> ToTestObject(::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a9b5b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aa4060, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Terrain* ToTestObject(::UnityEngine::Terrain* self);
 
-  /// @brief Method ToTestObject, addr 0x3aa23b0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3aaae60, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Terrain*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Terrain>>* self);
 
 protected:
@@ -125,7 +125,7 @@ public:
   Test_Terrain_Extensions(Test_Terrain_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

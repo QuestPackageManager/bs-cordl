@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3c0cf50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c15e54, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
 protected:
@@ -114,21 +114,21 @@ public:
                       put = __cordl_internal_set__recordingToolSettingsViewController)) ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController>
       _recordingToolSettingsViewController;
 
-  /// @brief Method DidActivate, addr 0x3c0cd5c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c15c60, size 0xe4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c0ce40, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c15d44, size 0x9c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GoToNextScene, addr 0x3c0cf0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GoToNextScene, addr 0x3c15e10, size 0x3c, virtual false, abstract: false, final false
   inline void GoToNextScene();
 
-  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x3c0cf08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x3c15e0c, size 0x4, virtual false, abstract: false, final false
   inline void HandleRecordingToolSettingsViewControllerDidFinish();
 
   static inline ::GlobalNamespace::RecordingToolSettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method Update, addr 0x3c0cedc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3c15de0, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingToolSettingsViewController(::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> value);
 
-  /// @brief Method .ctor, addr 0x3c0cf48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c15e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

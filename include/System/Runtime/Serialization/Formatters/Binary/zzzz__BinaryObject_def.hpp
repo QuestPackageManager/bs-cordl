@@ -31,18 +31,18 @@ public:
   /// @brief Field objectId, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
-  /// @brief Method Dump, addr 0x3d05640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3d0e544, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObject* New_ctor();
 
-  /// @brief Method Read, addr 0x3d055fc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3d0e500, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x3d05584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3d0e488, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, int32_t mapId);
 
-  /// @brief Method Write, addr 0x3d0558c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3d0e490, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_mapId() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d0557c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0e480, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

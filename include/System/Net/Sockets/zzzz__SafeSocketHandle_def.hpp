@@ -50,13 +50,13 @@ public:
 
   static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
-  /// @brief Method RegisterForBlockingSyscall, addr 0x4406884, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method RegisterForBlockingSyscall, addr 0x440f8b4, size 0x13c, virtual false, abstract: false, final false
   inline void RegisterForBlockingSyscall();
 
-  /// @brief Method ReleaseHandle, addr 0x44062d0, size 0x5b4, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x440f300, size 0x5b4, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method UnRegisterForBlockingSyscall, addr 0x44069c0, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterForBlockingSyscall, addr 0x440f9f0, size 0x1f0, virtual false, abstract: false, final false
   inline void UnRegisterForBlockingSyscall();
 
   constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread*>* const& __cordl_internal_get_blocking_threads() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value);
 
-  /// @brief Method .ctor, addr 0x440620c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440f23c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
   static inline bool getStaticF_THROW_ON_ABORT_RETRIES();
@@ -105,7 +105,7 @@ public:
   static constexpr int32_t SOCKET_CLOSED{ static_cast<int32_t>(0x2714) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9877 };
 
   /// @brief Field blocking_threads, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Threading::Thread*>* ___blocking_threads;

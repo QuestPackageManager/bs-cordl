@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3b0f108, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b17bb8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
   /// @brief Method get_isOptional, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

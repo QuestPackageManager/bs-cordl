@@ -215,7 +215,7 @@ public:
   /// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString(int64_t value);
 
-  /// @brief Method .ctor, addr 0x42d95e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42e2614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,7 +233,7 @@ public:
   XmlValueConverter(XmlValueConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7742 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_eventTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x49a2020, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ab050, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> eventTypes);
 
-  /// @brief Method .ctor, addr 0x49a204c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ab07c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptions interests);
 
 protected:
@@ -68,7 +68,7 @@ public:
   EventInterestAttribute(EventInterestAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6319 };
 
   /// @brief Field eventTypes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___eventTypes;

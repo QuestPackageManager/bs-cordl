@@ -26,13 +26,13 @@ public:
   /// @brief Field s_Interactions, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Interactions, put = setStaticF_s_Interactions)) ::UnityEngine::InputSystem::Utilities::TypeTable s_Interactions;
 
-  /// @brief Method GetDisplayName, addr 0x45417f0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x454a820, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::StringW interaction);
 
-  /// @brief Method GetDisplayName, addr 0x45418f0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x454a920, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::System::Type* interactionType);
 
-  /// @brief Method GetValueType, addr 0x4541700, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x454a730, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Type* interactionType);
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Interactions();
@@ -54,7 +54,7 @@ public:
   InputInteraction(InputInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

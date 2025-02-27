@@ -37,15 +37,15 @@ public:
 
   __declspec(property(get = get_minOrDefault)) float_t minOrDefault;
 
-  /// @brief Method GetDeadZoneAdjustedValue, addr 0x461decc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDeadZoneAdjustedValue, addr 0x4626efc, size 0x68, virtual false, abstract: false, final false
   inline float_t GetDeadZoneAdjustedValue(float_t value);
 
   static inline ::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x461ddfc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4626e2c, size 0xd0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x461df34, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4626f64, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x461dfdc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462700c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxOrDefault, addr 0x461dd8c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_maxOrDefault, addr 0x4626dbc, size 0x70, virtual false, abstract: false, final false
   inline float_t get_maxOrDefault();
 
-  /// @brief Method get_minOrDefault, addr 0x461dd1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_minOrDefault, addr 0x4626d4c, size 0x70, virtual false, abstract: false, final false
   inline float_t get_minOrDefault();
 
 protected:
@@ -84,7 +84,7 @@ public:
   StickDeadzoneProcessor(StickDeadzoneProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7003 };
 
   /// @brief Field min, offset: 0x10, size: 0x4, def value: None
   float_t ___min;

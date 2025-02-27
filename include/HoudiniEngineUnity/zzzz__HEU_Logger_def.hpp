@@ -25,42 +25,42 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_Logger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Log, addr 0x3a89edc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x3a9298c, size 0x58, virtual false, abstract: false, final false
   static inline void Log(::StringW text);
 
-  /// @brief Method LogAssertion, addr 0x3a8a0cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogAssertion, addr 0x3a92b7c, size 0x4, virtual false, abstract: false, final false
   static inline void LogAssertion(::StringW text);
 
-  /// @brief Method LogAssertionFormat, addr 0x3a8a0d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogAssertionFormat, addr 0x3a92b80, size 0x4, virtual false, abstract: false, final false
   static inline void LogAssertionFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogError, addr 0x3a8a040, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x3a92af0, size 0x8c, virtual false, abstract: false, final false
   static inline void LogError(::System::Exception* ex);
 
-  /// @brief Method LogError, addr 0x3a83478, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x3a8bf28, size 0x60, virtual false, abstract: false, final false
   static inline void LogError(::StringW text);
 
-  /// @brief Method LogErrorFormat, addr 0x3a856d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LogErrorFormat, addr 0x3a8e184, size 0x74, virtual false, abstract: false, final false
   static inline void LogErrorFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogFormat, addr 0x3a89f34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LogFormat, addr 0x3a929e4, size 0x68, virtual false, abstract: false, final false
   static inline void LogFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogToCookLogsIfOn, addr 0x3a89f9c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LogToCookLogsIfOn, addr 0x3a92a4c, size 0x40, virtual false, abstract: false, final false
   static inline void LogToCookLogsIfOn(::StringW text);
 
-  /// @brief Method LogToCookLogsIfOnFormat, addr 0x3a89fdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method LogToCookLogsIfOnFormat, addr 0x3a92a8c, size 0x64, virtual false, abstract: false, final false
   static inline void LogToCookLogsIfOnFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogWarning, addr 0x3a84d24, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x3a8d7d4, size 0x60, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW text);
 
-  /// @brief Method LogWarningFormat, addr 0x3a84d84, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LogWarningFormat, addr 0x3a8d834, size 0x74, virtual false, abstract: false, final false
   static inline void LogWarningFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::HoudiniEngineUnity::HEU_Logger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a8a0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a92b84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   HEU_Logger(HEU_Logger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

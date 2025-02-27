@@ -57,7 +57,7 @@ public:
 
   static inline ::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList* New_ctor();
 
-  /// @brief Method SetActive, addr 0x3b91418, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x3b9a338, size 0x7c, virtual false, abstract: false, final false
   inline void SetActive(bool active);
 
   constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b9161c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9a554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isActive, addr 0x3b91608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3b9a540, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method set_isActive, addr 0x3b91610, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x3b9a548, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
 protected:
@@ -134,43 +134,46 @@ public:
   // Declarations
   using GameObjectValueList = ::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList;
 
-  /// @brief Field _beatmapCallbacksController, offset 0x30, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x38, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
   /// @brief Field _beatmapEventType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__beatmapEventType, put = __cordl_internal_set__beatmapEventType)) ::GlobalNamespace::BasicBeatmapEventType _beatmapEventType;
 
-  /// @brief Field _defaultValue, offset 0x24, size 0x4
+  /// @brief Field _defaultValue, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue)) int32_t _defaultValue;
 
-  /// @brief Field _gameObjectsValueLists, offset 0x28, size 0x8
+  /// @brief Field _gameObjectsValueLists, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectsValueLists,
                       put = __cordl_internal_set__gameObjectsValueLists)) ::ArrayW<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*,
                                                                                    ::Array<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>*>
       _gameObjectsValueLists;
 
-  /// @brief Field _previousActiveIdx, offset 0x48, size 0x4
+  /// @brief Field _ignoreOnFail, offset 0x24, size 0x1
+  __declspec(property(get = __cordl_internal_get__ignoreOnFail, put = __cordl_internal_set__ignoreOnFail)) bool _ignoreOnFail;
+
+  /// @brief Field _previousActiveIdx, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__previousActiveIdx, put = __cordl_internal_set__previousActiveIdx)) int32_t _previousActiveIdx;
 
-  /// @brief Field _valueToListMap, offset 0x40, size 0x8
+  /// @brief Field _valueToListMap, offset 0x48, size 0x8
   __declspec(property(
       get = __cordl_internal_get__valueToListMap,
       put = __cordl_internal_set__valueToListMap)) ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>* _valueToListMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b914c0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b9a3e0, size 0x158, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
-  /// @brief Method Initialize, addr 0x3b91260, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b9a180, size 0x1b8, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   static inline ::GlobalNamespace::GameObjectIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b91494, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9a3b4, size 0x2c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -195,6 +198,10 @@ public:
   constexpr ::ArrayW<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*, ::Array<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>*>&
   __cordl_internal_get__gameObjectsValueLists();
 
+  constexpr bool const& __cordl_internal_get__ignoreOnFail() const;
+
+  constexpr bool& __cordl_internal_get__ignoreOnFail();
+
   constexpr int32_t const& __cordl_internal_get__previousActiveIdx() const;
 
   constexpr int32_t& __cordl_internal_get__previousActiveIdx();
@@ -214,11 +221,13 @@ public:
   constexpr void __cordl_internal_set__gameObjectsValueLists(
       ::ArrayW<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*, ::Array<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>*> value);
 
+  constexpr void __cordl_internal_set__ignoreOnFail(bool value);
+
   constexpr void __cordl_internal_set__previousActiveIdx(int32_t value);
 
   constexpr void __cordl_internal_set__valueToListMap(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>* value);
 
-  /// @brief Method .ctor, addr 0x3b91600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9a538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -241,22 +250,25 @@ public:
   /// @brief Field _beatmapEventType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
 
-  /// @brief Field _defaultValue, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _ignoreOnFail, offset: 0x24, size: 0x1, def value: None
+  bool ____ignoreOnFail;
+
+  /// @brief Field _defaultValue, offset: 0x28, size: 0x4, def value: None
   int32_t ____defaultValue;
 
-  /// @brief Field _gameObjectsValueLists, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _gameObjectsValueLists, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*, ::Array<::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>*> ____gameObjectsValueLists;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
-  /// @brief Field _valueToListMap, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _valueToListMap, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::GameObjectIntSwitchEventEffect_GameObjectValueList*>* ____valueToListMap;
 
-  /// @brief Field _previousActiveIdx, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field _previousActiveIdx, offset: 0x50, size: 0x4, def value: None
   int32_t ____previousActiveIdx;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -264,19 +276,21 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____beatmapEventType) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____defaultValue) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____ignoreOnFail) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____gameObjectsValueLists) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____defaultValue) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____beatmapCallbacksController) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____gameObjectsValueLists) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____beatmapCallbacksController) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____valueToListMap) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____previousActiveIdx) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____valueToListMap) == 0x48, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameObjectIntSwitchEventEffect, 0x50>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____previousActiveIdx) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameObjectIntSwitchEventEffect, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameObjectIntSwitchEventEffect);

@@ -28,7 +28,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Media : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShareToFacebook, addr 0x3f8fb20, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ShareToFacebook, addr 0x3f98b20, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath,
                                                                                                               ::Oculus::Platform::MediaContentType contentType);
 
@@ -47,7 +47,7 @@ public:
   Media(Media const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

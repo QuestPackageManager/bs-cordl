@@ -133,6 +133,7 @@ module;
 #include "Oculus/Platform/NetSyncVoipMicSource.hpp"
 #include "Oculus/Platform/NetSyncVoipStreamMode.hpp"
 #include "Oculus/Platform/Notifications.hpp"
+#include "Oculus/Platform/OculusPlatformExtensions.hpp"
 #include "Oculus/Platform/Packet.hpp"
 #include "Oculus/Platform/Parties.hpp"
 #include "Oculus/Platform/PartyMicState.hpp"

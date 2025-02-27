@@ -60,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set__objectiveValueFormater(::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> value);
 
-  /// @brief Method .ctor, addr 0x26d71a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26db28c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_noConditionValue, addr 0x26d7190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noConditionValue, addr 0x26db27c, size 0x8, virtual false, abstract: false, final false
   inline bool get_noConditionValue();
 
-  /// @brief Method get_objectiveName, addr 0x26d717c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveName, addr 0x26db268, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_objectiveName();
 
-  /// @brief Method get_objectiveNameLocalized, addr 0x26d7184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveNameLocalized, addr 0x26db270, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_objectiveNameLocalized();
 
-  /// @brief Method get_objectiveValueFormater, addr 0x26d7198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveValueFormater, addr 0x26db284, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> get_objectiveValueFormater();
 
 protected:
@@ -90,7 +90,7 @@ public:
   MissionObjectiveTypeSO(MissionObjectiveTypeSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13051 };
 
   /// @brief Field _objectiveName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____objectiveName;

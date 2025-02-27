@@ -157,64 +157,64 @@ public:
 
   constexpr void __cordl_internal_set_total_out(int64_t value);
 
-  /// @brief Method .ctor, addr 0x25e4164, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e7e9c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method deflate, addr 0x25e432c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method deflate, addr 0x25e8064, size 0x24, virtual false, abstract: false, final false
   inline int32_t deflate(int32_t flush);
 
-  /// @brief Method deflateEnd, addr 0x25e454c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method deflateEnd, addr 0x25e8284, size 0x30, virtual false, abstract: false, final false
   inline int32_t deflateEnd();
 
-  /// @brief Method deflateInit, addr 0x25e53a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25e90d8, size 0xc, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level);
 
-  /// @brief Method deflateInit, addr 0x25e53ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25e90e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, int32_t bits);
 
-  /// @brief Method deflateInit, addr 0x25e53b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25e90ec, size 0x94, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, int32_t bits, bool nowrap);
 
-  /// @brief Method deflateInit, addr 0x25e41c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25e7efc, size 0xc, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, bool nowrap);
 
-  /// @brief Method deflateParams, addr 0x25e5448, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method deflateParams, addr 0x25e9180, size 0x28, virtual false, abstract: false, final false
   inline int32_t deflateParams(int32_t level, int32_t strategy);
 
-  /// @brief Method deflateSetDictionary, addr 0x25e5470, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method deflateSetDictionary, addr 0x25e91a8, size 0x28, virtual false, abstract: false, final false
   inline int32_t deflateSetDictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method flush_pending, addr 0x25e5498, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method flush_pending, addr 0x25e91d0, size 0xbc, virtual false, abstract: false, final false
   inline void flush_pending();
 
-  /// @brief Method free, addr 0x25e457c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x25e82b4, size 0x14, virtual false, abstract: false, final false
   inline void free();
 
-  /// @brief Method inflate, addr 0x25e49e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method inflate, addr 0x25e8720, size 0x1c, virtual false, abstract: false, final false
   inline int32_t inflate(int32_t f);
 
-  /// @brief Method inflateEnd, addr 0x25e5318, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method inflateEnd, addr 0x25e9050, size 0x50, virtual false, abstract: false, final false
   inline int32_t inflateEnd();
 
-  /// @brief Method inflateInit, addr 0x25e4d08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25e8a40, size 0xc, virtual false, abstract: false, final false
   inline int32_t inflateInit();
 
-  /// @brief Method inflateInit, addr 0x25e4834, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25e856c, size 0xc, virtual false, abstract: false, final false
   inline int32_t inflateInit(bool nowrap);
 
-  /// @brief Method inflateInit, addr 0x25e5294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25e8fcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t inflateInit(int32_t w);
 
-  /// @brief Method inflateInit, addr 0x25e529c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25e8fd4, size 0x7c, virtual false, abstract: false, final false
   inline int32_t inflateInit(int32_t w, bool nowrap);
 
-  /// @brief Method inflateSetDictionary, addr 0x25e5380, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method inflateSetDictionary, addr 0x25e90b8, size 0x20, virtual false, abstract: false, final false
   inline int32_t inflateSetDictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method inflateSync, addr 0x25e5368, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method inflateSync, addr 0x25e90a0, size 0x18, virtual false, abstract: false, final false
   inline int32_t inflateSync();
 
-  /// @brief Method read_buf, addr 0x25e5554, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method read_buf, addr 0x25e928c, size 0xb0, virtual false, abstract: false, final false
   inline int32_t read_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t start, int32_t size);
 
 protected:

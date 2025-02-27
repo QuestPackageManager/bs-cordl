@@ -96,7 +96,7 @@ public:
   static ::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12755 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -151,7 +151,7 @@ public:
   static ::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12756 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -174,18 +174,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE IPlatformAchievementsHandler_UnlockAchievementCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x26a4894, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x26a85cc, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x26a4918, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x26a8650, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x26a4880, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x26a85b8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementResult result);
 
   static inline ::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x26a4484, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a81bc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -203,7 +203,7 @@ public:
   IPlatformAchievementsHandler_UnlockAchievementCompletionHandler(IPlatformAchievementsHandler_UnlockAchievementCompletionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -218,19 +218,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x26a4938, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x26a8670, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> unlockedAchievementsIds,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x26a49cc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x26a8704, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x26a4924, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x26a865c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> unlockedAchievementsIds);
 
   static inline ::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x26a43f0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a8128, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -248,7 +248,7 @@ public:
   IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler(IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12758 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -285,7 +285,7 @@ public:
   IPlatformAchievementsHandler(IPlatformAchievementsHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12759 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

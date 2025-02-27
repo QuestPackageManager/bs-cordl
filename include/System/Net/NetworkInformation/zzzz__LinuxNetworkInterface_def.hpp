@@ -38,12 +38,12 @@ public:
   /// @brief Field iface_path, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_iface_path, put = __cordl_internal_set_iface_path)) ::StringW iface_path;
 
-  /// @brief Method GetIPProperties, addr 0x43f1480, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x43fa4b0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method ReadLine, addr 0x43f181c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x43fa84c, size 0x2f4, virtual false, abstract: false, final false
   static inline ::StringW ReadLine(::StringW path);
 
   constexpr ::StringW const& __cordl_internal_get_iface_flags_path() const;
@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_iface_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43f1394, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fa3c4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_IfacePath, addr 0x43f1478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfacePath, addr 0x43fa4a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IfacePath();
 
-  /// @brief Method get_OperationalStatus, addr 0x43f14ec, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x43fa51c, size 0x330, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
-  /// @brief Method unitydroid_get_network_interface_up_state, addr 0x43f1474, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method unitydroid_get_network_interface_up_state, addr 0x43fa4a4, size 0x4, virtual false, abstract: false, final false
   static inline bool unitydroid_get_network_interface_up_state(::StringW ifname, ::ByRef<bool> is_up);
 
 protected:
@@ -91,7 +91,7 @@ public:
   LinuxNetworkInterface(LinuxNetworkInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9790 };
 
   /// @brief Field iface_path, offset: 0x38, size: 0x8, def value: None
   ::StringW ___iface_path;
