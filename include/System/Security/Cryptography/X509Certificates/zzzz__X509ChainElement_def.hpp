@@ -54,17 +54,17 @@ public:
       put = __cordl_internal_set_status)) ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>
       status;
 
-  /// @brief Method Count, addr 0x4442fe8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x444c018, size 0x24, virtual false, abstract: false, final false
   inline int32_t Count(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Set, addr 0x444300c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x444c03c, size 0x74, virtual false, abstract: false, final false
   inline void Set(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status,
                   ::ByRef<int32_t> position, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags,
                   ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
 
-  /// @brief Method UncompressFlags, addr 0x4443210, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method UncompressFlags, addr 0x444c240, size 0x244, virtual false, abstract: false, final false
   inline void UncompressFlags();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2* const& __cordl_internal_get_certificate() const;
@@ -93,19 +93,19 @@ public:
   constexpr void
   __cordl_internal_set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> value);
 
-  /// @brief Method .ctor, addr 0x4442f5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444bf8c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method get_Certificate, addr 0x4442fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x444bff8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();
 
-  /// @brief Method get_ChainElementStatus, addr 0x4442fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChainElementStatus, addr 0x444c000, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainElementStatus();
 
-  /// @brief Method get_StatusFlags, addr 0x4442fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusFlags, addr 0x444c008, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_StatusFlags();
 
-  /// @brief Method set_StatusFlags, addr 0x4442fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusFlags, addr 0x444c010, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusFlags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
 protected:
@@ -123,7 +123,7 @@ public:
   X509ChainElement(X509ChainElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9324 };
 
   /// @brief Field certificate, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509Certificate2* ___certificate;

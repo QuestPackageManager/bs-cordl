@@ -43,10 +43,10 @@ public:
   /// @brief Field notBeforeTime, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_notBeforeTime, put = __cordl_internal_set_notBeforeTime)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime;
 
-  /// @brief Method GetInstance, addr 0x2505e54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2509b8c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x2505bb8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25098f0, size 0x194, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime,
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertValidityPeriod* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2505ea8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2509be0, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_notAfterTime() const;
@@ -69,16 +69,16 @@ public:
 
   constexpr void __cordl_internal_set_notBeforeTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x2505e6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2509ba4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* notBeforeTime, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime);
 
-  /// @brief Method .ctor, addr 0x2505d4c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2509a84, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NotAfterTime, addr 0x2505ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotAfterTime, addr 0x2509bd8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotAfterTime();
 
-  /// @brief Method get_NotBeforeTime, addr 0x2505e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotBeforeTime, addr 0x2509bd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBeforeTime();
 
 protected:

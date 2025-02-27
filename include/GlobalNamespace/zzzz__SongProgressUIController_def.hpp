@@ -97,21 +97,21 @@ public:
   /// @brief Field _stringBuilder, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleSongDidFinish, addr 0x3baf1b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x3bb80f0, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3baedac, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb7ce4, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3baeb28, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bb7a60, size 0x284, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3baee7c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bb7db4, size 0xf8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSongProgressUIElements, addr 0x3baef74, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method UpdateSongProgressUIElements, addr 0x3bb7eac, size 0x244, virtual false, abstract: false, final false
   inline void UpdateSongProgressUIElements(int32_t minutes, int32_t seconds);
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x3baf204, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb813c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

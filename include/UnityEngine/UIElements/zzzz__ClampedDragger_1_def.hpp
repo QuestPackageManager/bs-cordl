@@ -82,7 +82,7 @@ public:
   static ::UnityEngine::UIElements::ClampedDragger_1_DragDirection<T> const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5463 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -220,7 +220,7 @@ public:
   ClampedDragger_1(ClampedDragger_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5464 };
 
   /// @brief Field dragging, offset: 0x70, size: 0x8, def value: None
   ::System::Action* ___dragging;

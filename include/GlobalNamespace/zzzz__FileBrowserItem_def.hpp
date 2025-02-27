@@ -54,25 +54,25 @@ public:
 
   constexpr void __cordl_internal_set__isDirectory_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x26af3d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b34bc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW fullPath, bool isDirectory);
 
-  /// @brief Method get_displayName, addr 0x26b17c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x26b58ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_fullPath, addr 0x26b17d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullPath, addr 0x26b58bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullPath();
 
-  /// @brief Method get_isDirectory, addr 0x26b17e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDirectory, addr 0x26b58cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDirectory();
 
-  /// @brief Method set_displayName, addr 0x26b17c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x26b58b4, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_fullPath, addr 0x26b17d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullPath, addr 0x26b58c4, size 0x8, virtual false, abstract: false, final false
   inline void set_fullPath(::StringW value);
 
-  /// @brief Method set_isDirectory, addr 0x26b17e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDirectory, addr 0x26b58d4, size 0xc, virtual false, abstract: false, final false
   inline void set_isDirectory(bool value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   FileBrowserItem(FileBrowserItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12856 };
 
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;

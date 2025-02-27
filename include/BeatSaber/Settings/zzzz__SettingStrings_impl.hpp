@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>, ::System::Text::StringBuilder*)>(
     &::BeatSaber::Settings::SettingStrings::Encode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x227f21c;
+  constexpr static std::size_t addrs = 0x2282f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::BeatSaber::Settings::Settings>, ::StringW, ::ByRef<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::Decode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x227fed4;
+  constexpr static std::size_t addrs = 0x2283c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>, ::System::Text::StringBuilder*)>(
     &::BeatSaber::Settings::SettingStrings::WriteProperties)> {
   constexpr static std::size_t size = 0xcb4;
-  constexpr static std::size_t addrs = 0x227f220;
+  constexpr static std::size_t addrs = 0x2282f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::ByRef<::BeatSaber::Settings::Settings>, ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadProperty)> {
   constexpr static std::size_t size = 0x1750;
-  constexpr static std::size_t addrs = 0x22801a8;
+  constexpr static std::size_t addrs = 0x2283ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::BeatSaber::Settings::Settings>, ::StringW, ::ByRef<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadProperties)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x227fed8;
+  constexpr static std::size_t addrs = 0x2283c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::BeatSaber::Settings::Settings>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadPropertyLine)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x2281f7c;
+  constexpr static std::size_t addrs = 0x2285cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::BeatSaber::Settings::SettingStrings::IsPureWhiteSpace)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2282178;
+  constexpr static std::size_t addrs = 0x2285eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadString)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2281eec;
+  constexpr static std::size_t addrs = 0x2285c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<float_t>, ::ByRef<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadFloat)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2281974;
+  constexpr static std::size_t addrs = 0x22856ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<int32_t>, ::ByRef<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadInt)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2281d14;
+  constexpr static std::size_t addrs = 0x2285a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<bool>, ::ByRef<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadBool)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2281b4c;
+  constexpr static std::size_t addrs = 0x2285884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -52,10 +52,10 @@ public:
   /// @brief Field postalAddress, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_postalAddress, put = __cordl_internal_set_postalAddress)) ::Org::BouncyCastle::Asn1::Asn1Sequence* postalAddress;
 
-  /// @brief Method GetInstance, addr 0x2326eac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x232abe4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerLocation* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetPostal, addr 0x2326f60, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetPostal, addr 0x232ac98, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> GetPostal();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerLocation* New_ctor(::Org::BouncyCastle::Asn1::DerUtf8String* countryName, ::Org::BouncyCastle::Asn1::DerUtf8String* localityName,
@@ -70,7 +70,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerLocation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2327150, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x232ae88, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString* const& __cordl_internal_get_countryName() const;
@@ -91,33 +91,33 @@ public:
 
   constexpr void __cordl_internal_set_postalAddress(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x2326e58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232ab90, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* countryName, ::Org::BouncyCastle::Asn1::DerUtf8String* localityName, ::Org::BouncyCastle::Asn1::Asn1Sequence* postalAddress);
 
-  /// @brief Method .ctor, addr 0x2326dd4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232ab0c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* countryName, ::Org::BouncyCastle::Asn1::X500::DirectoryString* localityName,
                     ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> postalAddress);
 
-  /// @brief Method .ctor, addr 0x2326d30, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232aa68, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* countryName, ::Org::BouncyCastle::Asn1::X500::DirectoryString* localityName,
                     ::Org::BouncyCastle::Asn1::Asn1Sequence* postalAddress);
 
-  /// @brief Method .ctor, addr 0x2326944, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232a67c, size 0x3ec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Country, addr 0x2326f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Country, addr 0x232ac88, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Country();
 
-  /// @brief Method get_CountryName, addr 0x2327060, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_CountryName, addr 0x232ad98, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_CountryName();
 
-  /// @brief Method get_Locality, addr 0x2326f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Locality, addr 0x232ac90, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Locality();
 
-  /// @brief Method get_LocalityName, addr 0x23270d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_LocalityName, addr 0x232ae0c, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_LocalityName();
 
-  /// @brief Method get_PostalAddress, addr 0x2327148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PostalAddress, addr 0x232ae80, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_PostalAddress();
 
 protected:

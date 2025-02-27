@@ -48,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__validPlatformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value);
 
-  /// @brief Method .ctor, addr 0x40837fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408c7fc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment);
 
-  /// @brief Method get_token, addr 0x40837dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_token, addr 0x408c7dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_token();
 
-  /// @brief Method get_validPlatformEnvironment, addr 0x40837ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validPlatformEnvironment, addr 0x408c7ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlatformEnvironment get_validPlatformEnvironment();
 
-  /// @brief Method set_token, addr 0x40837e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_token, addr 0x408c7e4, size 0x8, virtual false, abstract: false, final false
   inline void set_token(::StringW value);
 
-  /// @brief Method set_validPlatformEnvironment, addr 0x40837f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validPlatformEnvironment, addr 0x408c7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_validPlatformEnvironment(::GlobalNamespace::PlatformEnvironment value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   PlatformUserAuthTokenData(PlatformUserAuthTokenData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18749 };
 
   /// @brief Field <token>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____token_k__BackingField;

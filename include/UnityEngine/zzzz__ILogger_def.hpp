@@ -64,7 +64,7 @@ public:
   ILogger(ILogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

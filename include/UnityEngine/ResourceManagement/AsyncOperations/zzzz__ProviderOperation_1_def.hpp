@@ -351,7 +351,7 @@ public:
   ProviderOperation_1(ProviderOperation_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15709 };
 
   /// @brief Field kInvalidHandleMsg offset 0xffffffff size 0x8
   static constexpr ::ConstString kInvalidHandleMsg{ u"The ProvideHandle is invalid. After the handle has been completed, it can no longer be used" };

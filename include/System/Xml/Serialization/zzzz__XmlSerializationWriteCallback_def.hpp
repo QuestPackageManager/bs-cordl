@@ -24,12 +24,12 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlSerializationWriteCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x43886bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x43916ec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o);
 
   static inline ::System::Xml::Serialization::XmlSerializationWriteCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x43885bc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43915ec, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -47,7 +47,7 @@ public:
   XmlSerializationWriteCallback(XmlSerializationWriteCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

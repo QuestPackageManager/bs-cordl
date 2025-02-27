@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_acceleration, put = set_acceleration)) ::UnityEngine::InputSystem::Controls::Vector3Control* acceleration;
 
-  /// @brief Method FinishSetup, addr 0x45cbc78, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x45d4ca8, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x45cbba0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x45d4bd0, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Accelerometer* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x45cbbf4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x45d4c24, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__acceleration_k__BackingField() const;
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set__acceleration_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x45cbcf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45d4d20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Accelerometer* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_acceleration, addr 0x45cbafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_acceleration, addr 0x45d4b2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_acceleration();
 
-  /// @brief Method get_current, addr 0x45cbb0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x45d4b3c, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Accelerometer* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Accelerometer* value);
 
-  /// @brief Method set_acceleration, addr 0x45cbb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_acceleration, addr 0x45d4b34, size 0x8, virtual false, abstract: false, final false
   inline void set_acceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_current, addr 0x45cbb54, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x45d4b84, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Accelerometer* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   Accelerometer(Accelerometer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6683 };
 
   /// @brief Field <acceleration>k__BackingField, offset: 0x170, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____acceleration_k__BackingField;

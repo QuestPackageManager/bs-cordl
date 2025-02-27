@@ -62,7 +62,7 @@ public:
   static ::Unity::XR::Oculus::Boundary_BoundaryType const PlayArea;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17397 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -87,16 +87,16 @@ public:
   // Declarations
   using BoundaryType = ::Unity::XR::Oculus::Boundary_BoundaryType;
 
-  /// @brief Method GetBoundaryConfigured, addr 0x4837998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryConfigured, addr 0x48409c8, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryConfigured();
 
-  /// @brief Method GetBoundaryDimensions, addr 0x48379a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryDimensions, addr 0x48409d0, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryDimensions(::Unity::XR::Oculus::Boundary_BoundaryType boundaryType, ::ByRef<::UnityEngine::Vector3> dimensions);
 
-  /// @brief Method GetBoundaryVisible, addr 0x48379a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryVisible, addr 0x48409d8, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryVisible();
 
-  /// @brief Method SetBoundaryVisible, addr 0x48379b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBoundaryVisible, addr 0x48409e0, size 0x8, virtual false, abstract: false, final false
   static inline void SetBoundaryVisible(bool boundaryVisible);
 
 protected:
@@ -114,7 +114,7 @@ public:
   Boundary(Boundary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

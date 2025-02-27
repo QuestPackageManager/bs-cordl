@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x3b94848, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9d780, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroup* lightGroup, ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController);
 
 protected:
@@ -174,19 +174,19 @@ public:
   /// @brief Field _useBoostColors, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__useBoostColors, put = __cordl_internal_set__useBoostColors)) bool _useBoostColors;
 
-  /// @brief Method Cleanup, addr 0x3b94434, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3b9d36c, size 0x118, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetColor, addr 0x3b9474c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x3b9d684, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x3b94644, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x3b9d57c, size 0x108, virtual false, abstract: false, final false
   inline void HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame();
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b9454c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b9d484, size 0x1c, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* colorBoost);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x3b94568, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x3b9d4a0, size 0xdc, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffect* New_ctor(::GlobalNamespace::BufferedLightColorGroupEffect_InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set__useBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x3b940f8, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9d030, size 0x33c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BufferedLightColorGroupEffect_InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 

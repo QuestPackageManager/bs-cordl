@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3b444fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b4cfac, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
 
   static inline ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b44504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4cfb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -46,16 +46,16 @@ public:
   /// @brief Field m_encryptor, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_encryptor, put = __cordl_internal_set_m_encryptor)) ::System::Security::Cryptography::ICryptoTransform* m_encryptor;
 
-  /// @brief Method Dispose, addr 0x3ca6aac, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3caf9b0, size 0x104, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HashCore, addr 0x3ca6700, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3caf604, size 0x160, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbData, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x3ca68f0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3caf7f4, size 0x144, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x3ca66f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3caf5fc, size 0x8, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::MACTripleDES* New_ctor();
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_m_encryptor(::System::Security::Cryptography::ICryptoTransform* value);
 
-  /// @brief Method .ctor, addr 0x3ca65c8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3caf4cc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

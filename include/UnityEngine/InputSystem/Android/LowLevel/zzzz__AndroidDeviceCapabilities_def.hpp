@@ -43,10 +43,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x460b488, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x46144b8, size 0x64, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis i);
 
-  /// @brief Method .ctor, addr 0x460b480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46144b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c* getStaticF___9();
@@ -72,7 +72,7 @@ public:
   AndroidDeviceCapabilities___c(AndroidDeviceCapabilities___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,13 +89,13 @@ public:
   // Declarations
   using __c = ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c;
 
-  /// @brief Method FromJson, addr 0x460ae50, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x4613e80, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToJson, addr 0x460b040, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x4614070, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method ToString, addr 0x460b0ac, size 0x378, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x46140dc, size 0x378, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -111,7 +111,7 @@ public:
                                       ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource inputSources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6862 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

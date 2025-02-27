@@ -141,10 +141,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c09f80, size 0x494, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c12eb8, size 0x494, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c0a414, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c1334c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -209,10 +209,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c0a420, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c13358, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c0a7c0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c136f8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -325,24 +325,24 @@ public:
                       put =
                           __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* didFinishEvent;
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x3c09e5c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x3c12d94, size 0xd4, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem,
                                                          ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method HandleAvatarSystemSelectionFlowCoordinatorDidFinish, addr 0x3c09f30, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarSystemSelectionFlowCoordinatorDidFinish, addr 0x3c12e68, size 0x48, virtual false, abstract: false, final false
   inline void HandleAvatarSystemSelectionFlowCoordinatorDidFinish(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator* flowCoordinator,
                                                                   ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method Initialize, addr 0x3c09ce8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c12c20, size 0x8c, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* New_ctor();
 
-  /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x3c09d74, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x3c12cac, size 0xe8, virtual false, abstract: false, final false
   inline void PresentAvatarEditorFlowCoordinator(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode editMode,
                                                  ::HMUI::FlowCoordinator* parentFlowCoordinator, bool immediately, bool replaceTopViewController);
 
-  /// @brief Method Show, addr 0x3c09c20, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3c12b58, size 0xc8, virtual false, abstract: false, final false
   inline void Show(::HMUI::FlowCoordinator* parentFlowCoordinator, bool backButtonVisible, bool immediately, bool replaceTopViewController);
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
@@ -387,16 +387,16 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
-  /// @brief Method .ctor, addr 0x3c09f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c12eb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3c09a60, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3c12998, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
-  /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x3c09bc0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x3c12af8, size 0x60, virtual false, abstract: false, final false
   inline bool get__hasOnlyOneAvatarSystem();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3c09b10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3c12a48, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>* value);
 
 protected:

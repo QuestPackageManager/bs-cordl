@@ -52,30 +52,30 @@ public:
 
   __declspec(property(get = get_tabIndex, put = set_tabIndex)) int32_t tabIndex;
 
-  /// @brief Method Blur, addr 0x4a398cc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Blur, addr 0x4a428fc, size 0x38, virtual true, abstract: false, final false
   inline void Blur();
 
-  /// @brief Method BlurImmediately, addr 0x4a3995c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method BlurImmediately, addr 0x4a4298c, size 0x38, virtual false, abstract: false, final false
   inline void BlurImmediately();
 
-  /// @brief Method ExecuteDefaultAction, addr 0x4a39ab0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x4a42ae0, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionDisabled, addr 0x4a39af4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabled, addr 0x4a42b24, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method Focus, addr 0x4a396d4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Focus, addr 0x4a42704, size 0xb0, virtual true, abstract: false, final false
   inline void Focus();
 
-  /// @brief Method GetFirstFocusableChild, addr 0x4a39994, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetFirstFocusableChild, addr 0x4a429c4, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Focusable* GetFirstFocusableChild(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetFocusDelegate, addr 0x4a39784, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetFocusDelegate, addr 0x4a427b4, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* GetFocusDelegate();
 
   static inline ::UnityEngine::UIElements::Focusable* New_ctor();
 
-  /// @brief Method ProcessEvent, addr 0x4a39ab4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x4a42ae4, size 0x40, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt);
 
   constexpr bool const& __cordl_internal_get__focusable_k__BackingField() const;
@@ -102,37 +102,37 @@ public:
 
   constexpr void __cordl_internal_set_m_ExcludeFromFocusRing(bool value);
 
-  /// @brief Method .ctor, addr 0x4a39584, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a425b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canGrabFocus, addr 0x4a396cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canGrabFocus, addr 0x4a426fc, size 0x8, virtual true, abstract: false, final false
   inline bool get_canGrabFocus();
 
-  /// @brief Method get_delegatesFocus, addr 0x4a395d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delegatesFocus, addr 0x4a42600, size 0x8, virtual false, abstract: false, final false
   inline bool get_delegatesFocus();
 
-  /// @brief Method get_excludeFromFocusRing, addr 0x4a395e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_excludeFromFocusRing, addr 0x4a42614, size 0x8, virtual false, abstract: false, final false
   inline bool get_excludeFromFocusRing();
 
   /// @brief Method get_focusController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
-  /// @brief Method get_focusable, addr 0x4a395ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusable, addr 0x4a425dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_focusable();
 
-  /// @brief Method get_tabIndex, addr 0x4a395c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabIndex, addr 0x4a425f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tabIndex();
 
-  /// @brief Method set_delegatesFocus, addr 0x4a395d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_delegatesFocus, addr 0x4a42608, size 0xc, virtual false, abstract: false, final false
   inline void set_delegatesFocus(bool value);
 
-  /// @brief Method set_excludeFromFocusRing, addr 0x4a395ec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method set_excludeFromFocusRing, addr 0x4a4261c, size 0xe0, virtual false, abstract: false, final false
   inline void set_excludeFromFocusRing(bool value);
 
-  /// @brief Method set_focusable, addr 0x4a395b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_focusable, addr 0x4a425e4, size 0xc, virtual false, abstract: false, final false
   inline void set_focusable(bool value);
 
-  /// @brief Method set_tabIndex, addr 0x4a395c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tabIndex, addr 0x4a425f8, size 0x8, virtual false, abstract: false, final false
   inline void set_tabIndex(int32_t value);
 
 protected:
@@ -150,7 +150,7 @@ public:
   Focusable(Focusable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5952 };
 
   /// @brief Field <focusable>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____focusable_k__BackingField;

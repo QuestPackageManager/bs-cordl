@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithChallengeList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithChallengeList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f80698;
+  constexpr static std::size_t addrs = 0x3f89698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ChallengeList* (::Oculus::Platform::MessageWithChallengeList::*)()>(
     &::Oculus::Platform::MessageWithChallengeList::GetChallengeList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f82d20;
+  constexpr static std::size_t addrs = 0x3f8bd20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ChallengeList* (::Oculus::Platform::MessageWithChallengeList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithChallengeList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f82d5c;
+  constexpr static std::size_t addrs = 0x3f8bd5c;
 
   inline static ::MethodInfo const* methodInfo() {
 

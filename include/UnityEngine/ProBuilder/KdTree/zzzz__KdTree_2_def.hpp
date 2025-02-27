@@ -124,7 +124,7 @@ public:
   KdTree_2___c__DisplayClass33_0(KdTree_2___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18550 };
 
   /// @brief Field left, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ___left;
@@ -261,7 +261,7 @@ public:
   KdTree_2__GetEnumerator_d__33(KdTree_2__GetEnumerator_d__33 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18551 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -480,7 +480,7 @@ public:
   KdTree_2(KdTree_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18552 };
 
   /// @brief Field dimensions, offset: 0x10, size: 0x4, def value: None
   int32_t ___dimensions;

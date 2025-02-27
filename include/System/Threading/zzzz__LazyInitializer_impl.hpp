@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::System::Object*>)>(&::System::Threading::LazyInitializer::EnsureLockInitialized)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3e51958;
+  constexpr static std::size_t addrs = 0x3e5a85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

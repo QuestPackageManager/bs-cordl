@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::*)(
     ::UnityEngine::Quaternion, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::Process)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x461cfb0;
+  constexpr static std::size_t addrs = 0x4625fe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::ToString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x461d1c0;
+  constexpr static std::size_t addrs = 0x46261f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputProcessor_CachingPolicy (
     ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::*)()>(&::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::get_cachingPolicy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x461d200;
+  constexpr static std::size_t addrs = 0x4626230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::CompensateRotationProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x461d208;
+  constexpr static std::size_t addrs = 0x4626238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

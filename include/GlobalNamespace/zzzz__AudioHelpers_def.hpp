@@ -19,10 +19,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DBToNormalizedVolume, addr 0x22b28fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DBToNormalizedVolume, addr 0x22b6634, size 0x18, virtual false, abstract: false, final false
   static inline float_t DBToNormalizedVolume(float_t db);
 
-  /// @brief Method NormalizedVolumeToDB, addr 0x22b2888, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NormalizedVolumeToDB, addr 0x22b65c0, size 0x74, virtual false, abstract: false, final false
   static inline float_t NormalizedVolumeToDB(float_t normalizedVolume);
 
 protected:
@@ -40,7 +40,7 @@ public:
   AudioHelpers(AudioHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17113 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

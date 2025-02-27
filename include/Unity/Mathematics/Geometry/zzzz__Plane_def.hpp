@@ -32,55 +32,55 @@ public:
 
   __declspec(property(get = get_Normal, put = set_Normal)) ::Unity::Mathematics::float3 Normal;
 
-  /// @brief Method CheckPlaneIsNormalized, addr 0x467504c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method CheckPlaneIsNormalized, addr 0x467e07c, size 0x224, virtual false, abstract: false, final false
   inline void CheckPlaneIsNormalized();
 
-  /// @brief Method CreateFromUnitNormalAndDistance, addr 0x4674e5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateFromUnitNormalAndDistance, addr 0x467de8c, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::Plane CreateFromUnitNormalAndDistance(::Unity::Mathematics::float3 unitNormal, float_t distance);
 
-  /// @brief Method CreateFromUnitNormalAndPointInPlane, addr 0x4674e60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CreateFromUnitNormalAndPointInPlane, addr 0x467de90, size 0x1c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::Plane CreateFromUnitNormalAndPointInPlane(::Unity::Mathematics::float3 unitNormal, ::Unity::Mathematics::float3 pointInPlane);
 
-  /// @brief Method Normalize, addr 0x4674ea4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x467ded4, size 0x94, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::Plane Normalize(::Unity::Mathematics::Geometry::Plane plane);
 
-  /// @brief Method Normalize, addr 0x4674f38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x467df68, size 0x94, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float4 Normalize(::Unity::Mathematics::float4 planeCoefficients);
 
-  /// @brief Method Projection, addr 0x4674ff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Projection, addr 0x467e020, size 0x3c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 Projection(::Unity::Mathematics::float3 point);
 
-  /// @brief Method SignedDistanceToPoint, addr 0x4674fcc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SignedDistanceToPoint, addr 0x467dffc, size 0x24, virtual false, abstract: false, final false
   inline float_t SignedDistanceToPoint(::Unity::Mathematics::float3 point);
 
-  /// @brief Method .ctor, addr 0x4674b48, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x467db78, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(float_t coefficientA, float_t coefficientB, float_t coefficientC, float_t coefficientD);
 
-  /// @brief Method .ctor, addr 0x4674bf0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x467dc20, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 normal, float_t distance);
 
-  /// @brief Method .ctor, addr 0x4674c98, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x467dcc8, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 normal, ::Unity::Mathematics::float3 pointInPlane);
 
-  /// @brief Method .ctor, addr 0x4674d68, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x467dd98, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 vector1InPlane, ::Unity::Mathematics::float3 vector2InPlane, ::Unity::Mathematics::float3 pointInPlane);
 
-  /// @brief Method get_Distance, addr 0x4674e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Distance, addr 0x467dec4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Distance();
 
-  /// @brief Method get_Flipped, addr 0x467502c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Flipped, addr 0x467e05c, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::Geometry::Plane get_Flipped();
 
-  /// @brief Method get_Normal, addr 0x4674e7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Normal, addr 0x467deac, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_Normal();
 
-  /// @brief Method op_Implicit, addr 0x4675048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x467e078, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float4 op_Implicit___Unity__Mathematics__float4(::Unity::Mathematics::Geometry::Plane plane);
 
-  /// @brief Method set_Distance, addr 0x4674e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Distance, addr 0x467decc, size 0x8, virtual false, abstract: false, final false
   inline void set_Distance(float_t value);
 
-  /// @brief Method set_Normal, addr 0x4674e88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Normal, addr 0x467deb8, size 0xc, virtual false, abstract: false, final false
   inline void set_Normal(::Unity::Mathematics::float3 value);
 
   // Ctor Parameters []
@@ -91,7 +91,7 @@ public:
   constexpr Plane(::Unity::Mathematics::float4 NormalAndDistance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10034 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

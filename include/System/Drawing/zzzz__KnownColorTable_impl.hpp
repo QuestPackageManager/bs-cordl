@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::EnsureColorTable)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4213938;
+  constexpr static std::size_t addrs = 0x421c968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "EnsureColorTable",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::InitColorTable)> {
   constexpr static std::size_t size = 0xab0;
-  constexpr static std::size_t addrs = 0x4213990;
+  constexpr static std::size_t addrs = 0x421c9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "InitColorTable",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::EnsureColorNameTable)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4214574;
+  constexpr static std::size_t addrs = 0x421d5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::InitColorNameTable)> {
   constexpr static std::size_t size = 0x13d8;
-  constexpr static std::size_t addrs = 0x42145cc;
+  constexpr static std::size_t addrs = 0x421d5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::KnownColorTable*>::get(), "InitColorNameTable",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Drawing::KnownColor)>(&::System::Drawing::KnownColorTable::KnownColorToArgb)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42159a4;
+  constexpr static std::size_t addrs = 0x421e9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Drawing::KnownColor)>(&::System::Drawing::KnownColorTable::KnownColorToName)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4215a14;
+  constexpr static std::size_t addrs = 0x421ea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(&::System::Drawing::KnownColorTable::UpdateSystemColors)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4214440;
+  constexpr static std::size_t addrs = 0x421d470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

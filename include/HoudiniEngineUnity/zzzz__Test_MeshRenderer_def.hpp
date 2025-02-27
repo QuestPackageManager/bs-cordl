@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshRenderer*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9f048, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3aa7af8, size 0x13c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshRenderer* other);
 
-  /// @brief Method IsNull, addr 0x3a9efe8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3aa7a98, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_MeshRenderer* New_ctor(::UnityEngine::MeshRenderer* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3a9efc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa7a70, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::MeshRenderer* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshRenderer*>"
@@ -71,7 +71,7 @@ public:
   Test_MeshRenderer(Test_MeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11906 };
 
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ___self;

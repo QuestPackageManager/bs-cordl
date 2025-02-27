@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::PlayingMultiplayerRichPresenceData* New_ctor(bool atMaxPartySize);
 
-  /// @brief Method .ctor, addr 0x3b31f44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3a9f4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool atMaxPartySize);
 
 protected:

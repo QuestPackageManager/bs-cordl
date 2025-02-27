@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_startPaused(bool value);
 
-  /// @brief Method .ctor, addr 0x3b40b38, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b495e8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW backButtonText,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused);
 

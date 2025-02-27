@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CoreCameraValues::*)(::UnityEngine::Rendering::CoreCameraValues)>(
     &::UnityEngine::Rendering::CoreCameraValues::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x48ca2e0;
+  constexpr static std::size_t addrs = 0x48d3310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CoreCameraValues::*)(::System::Object*)>(
     &::UnityEngine::Rendering::CoreCameraValues::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48ca314;
+  constexpr static std::size_t addrs = 0x48d3344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CoreCameraValues::*)()>(
     &::UnityEngine::Rendering::CoreCameraValues::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48ca3ac;
+  constexpr static std::size_t addrs = 0x48d33dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

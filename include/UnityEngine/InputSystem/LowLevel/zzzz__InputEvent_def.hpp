@@ -46,17 +46,17 @@ public:
 
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::InputSystem::Utilities::FourCC type;
 
-  /// @brief Method Equals, addr 0x460ee7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4617eac, size 0x54, virtual false, abstract: false, final false
   static inline bool Equals(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> first, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> second);
 
-  /// @brief Method GetNextInMemory, addr 0x460ecf4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNextInMemory, addr 0x4617d24, size 0x1c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> GetNextInMemory(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> currentPtr);
 
-  /// @brief Method GetNextInMemoryChecked, addr 0x460ed10, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetNextInMemoryChecked, addr 0x4617d40, size 0xe4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> GetNextInMemoryChecked(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> currentPtr,
                                                                                                                 ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> buffer);
 
-  /// @brief Method ToString, addr 0x460ea90, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4617ac0, size 0x264, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngineInternal::Input::NativeInputEvent const& __cordl_internal_get_m_Event() const;
@@ -65,49 +65,49 @@ public:
 
   constexpr void __cordl_internal_set_m_Event(::UnityEngineInternal::Input::NativeInputEvent value);
 
-  /// @brief Method .ctor, addr 0x460e2f4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4617324, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes, int32_t deviceId, double_t time);
 
-  /// @brief Method get_deviceId, addr 0x460e994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x46179c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_deviceId();
 
-  /// @brief Method get_eventId, addr 0x460e974, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_eventId, addr 0x46179a4, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_eventId();
 
-  /// @brief Method get_handled, addr 0x460ea68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_handled, addr 0x4617a98, size 0xc, virtual false, abstract: false, final false
   inline bool get_handled();
 
-  /// @brief Method get_internalTime, addr 0x460ea58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_internalTime, addr 0x4617a88, size 0x8, virtual false, abstract: false, final false
   inline double_t get_internalTime();
 
-  /// @brief Method get_sizeInBytes, addr 0x460dac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBytes, addr 0x4616af4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBytes();
 
-  /// @brief Method get_time, addr 0x460e9a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x46179d4, size 0x54, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_type, addr 0x460e8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x46178f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_type();
 
-  /// @brief Method set_deviceId, addr 0x460e99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceId, addr 0x46179cc, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceId(int32_t value);
 
-  /// @brief Method set_eventId, addr 0x460e980, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_eventId, addr 0x46179b0, size 0x14, virtual false, abstract: false, final false
   inline void set_eventId(int32_t value);
 
-  /// @brief Method set_handled, addr 0x460ea74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_handled, addr 0x4617aa4, size 0x1c, virtual false, abstract: false, final false
   inline void set_handled(bool value);
 
-  /// @brief Method set_internalTime, addr 0x460ea60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_internalTime, addr 0x4617a90, size 0x8, virtual false, abstract: false, final false
   inline void set_internalTime(double_t value);
 
-  /// @brief Method set_sizeInBytes, addr 0x460e8d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBytes, addr 0x4617904, size 0xa0, virtual false, abstract: false, final false
   inline void set_sizeInBytes(uint32_t value);
 
-  /// @brief Method set_time, addr 0x460e9f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x4617a28, size 0x60, virtual false, abstract: false, final false
   inline void set_time(double_t value);
 
-  /// @brief Method set_type, addr 0x460e8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x46178fc, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::InputSystem::Utilities::FourCC value);
 
   // Ctor Parameters []
@@ -141,7 +141,7 @@ public:
   static constexpr int32_t InvalidEventId{ static_cast<int32_t>(0x0) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6940 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

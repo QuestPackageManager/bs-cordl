@@ -37,15 +37,15 @@ public:
   __declspec(property(get = __cordl_internal_get__sonyBackgroundExecutionHelper,
                       put = __cordl_internal_set__sonyBackgroundExecutionHelper)) ::GlobalNamespace::SonyBackgroundExecutionHelper* _sonyBackgroundExecutionHelper;
 
-  /// @brief Method HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution, addr 0x26ed270, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution, addr 0x26f19e4, size 0xc4, virtual false, abstract: false, final false
   inline void HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution();
 
-  /// @brief Method Initialize, addr 0x26ed128, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x26f189c, size 0xbc, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26ed1e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26f1958, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::LocalLeaderboardsModel* const& __cordl_internal_get__localLeaderboardModel() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__sonyBackgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
 
-  /// @brief Method .ctor, addr 0x26ed334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f1aa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   SonyOnGoingToBackgroundSaveHandler(SonyOnGoingToBackgroundSaveHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13202 };
 
   /// @brief Field _playerDataModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;

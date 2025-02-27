@@ -34,16 +34,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3cf6434, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3cff338, size 0x100, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
   static inline ::System::Runtime::Remoting::Messaging::ObjRefSurrogate* New_ctor();
 
-  /// @brief Method SetObjectData, addr 0x3cf6608, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method SetObjectData, addr 0x3cff50c, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
-  /// @brief Method .ctor, addr 0x3cf6654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cff558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"

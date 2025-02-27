@@ -33,31 +33,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*();
 
-  /// @brief Method CompareTo, addr 0x456d180, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x45761b0, size 0x14, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::InputSystem::Utilities::InternedString other);
 
-  /// @brief Method Equals, addr 0x456d05c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x457608c, size 0x114, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x456d170, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x45761a0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Utilities::InternedString other);
 
-  /// @brief Method GetHashCode, addr 0x456d194, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x45761c4, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsEmpty, addr 0x456d044, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x4576074, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method ToLower, addr 0x456d054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToLower, addr 0x4576084, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToLower();
 
-  /// @brief Method ToString, addr 0x4563e98, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x456cec8, size 0x54, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4564cc4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456dcf4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
-  /// @brief Method get_length, addr 0x456d02c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x457605c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
@@ -66,31 +66,31 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__InternedString_();
 
-  /// @brief Method op_Equality, addr 0x456d2dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x457630c, size 0x94, virtual false, abstract: false, final false
   static inline bool op_Equality(::StringW a, ::UnityEngine::InputSystem::Utilities::InternedString b);
 
-  /// @brief Method op_Equality, addr 0x456d1ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x45761dc, size 0x98, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::InternedString a, ::StringW b);
 
-  /// @brief Method op_Equality, addr 0x4563d48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x456cd78, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::InternedString a, ::UnityEngine::InputSystem::Utilities::InternedString b);
 
-  /// @brief Method op_GreaterThan, addr 0x456d428, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x4576458, size 0x28, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::UnityEngine::InputSystem::Utilities::InternedString left, ::UnityEngine::InputSystem::Utilities::InternedString right);
 
-  /// @brief Method op_Implicit, addr 0x4565084, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x456e0b4, size 0x54, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(::UnityEngine::InputSystem::Utilities::InternedString str);
 
-  /// @brief Method op_Inequality, addr 0x456d370, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x45763a0, size 0x94, virtual false, abstract: false, final false
   static inline bool op_Inequality(::StringW a, ::UnityEngine::InputSystem::Utilities::InternedString b);
 
-  /// @brief Method op_Inequality, addr 0x456d244, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4576274, size 0x98, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::InternedString a, ::StringW b);
 
-  /// @brief Method op_Inequality, addr 0x45649dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x456da0c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::InternedString a, ::UnityEngine::InputSystem::Utilities::InternedString b);
 
-  /// @brief Method op_LessThan, addr 0x456d404, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x4576434, size 0x24, virtual false, abstract: false, final false
   static inline bool op_LessThan(::UnityEngine::InputSystem::Utilities::InternedString left, ::UnityEngine::InputSystem::Utilities::InternedString right);
 
   // Ctor Parameters []
@@ -102,7 +102,7 @@ public:
   constexpr InternedString(::StringW m_StringOriginalCase, ::StringW m_StringLowerCase) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7081 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

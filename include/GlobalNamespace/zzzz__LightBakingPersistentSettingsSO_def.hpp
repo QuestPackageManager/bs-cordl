@@ -99,7 +99,7 @@ public:
 
   __declspec(property(get = get_reflectionsCount, put = set_reflectionsCount)) int32_t reflectionsCount;
 
-  /// @brief Method ApplySettings, addr 0x3b1b668, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ApplySettings, addr 0x3b24118, size 0x78, virtual false, abstract: false, final false
   inline void ApplySettings();
 
   static inline ::GlobalNamespace::LightBakingPersistentSettingsSO* New_ctor();
@@ -164,40 +164,40 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x3b1b6e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b24190, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x3b1b638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x3b240e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BakedLightDataLoader> get_bakedLightDataLoaderPrefab();
 
-  /// @brief Method get_bakedLightEditorColors, addr 0x3b1b630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedLightEditorColors, addr 0x3b240e0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> get_bakedLightEditorColors();
 
-  /// @brief Method get_bakedReflectionProbePrefab, addr 0x3b1b640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedReflectionProbePrefab, addr 0x3b240f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BakedReflectionProbe> get_bakedReflectionProbePrefab();
 
-  /// @brief Method get_colorFromSchemeAlpha, addr 0x3b1b620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorFromSchemeAlpha, addr 0x3b240d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_colorFromSchemeAlpha();
 
-  /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x3b1b660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x3b24110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultDepthOnlyWriteMaterialForFakeMirror();
 
-  /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x3b1b650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x3b24100, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> get_fakeMirrorObjectsInstallerPrefab();
 
-  /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x3b1b658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x3b24108, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::FakeMirrorSettings> get_fakeMirrorSettingsPrefab();
 
-  /// @brief Method get_lightmapLightsWithIds, addr 0x3b1b648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightsWithIds, addr 0x3b240f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapLightsWithIds> get_lightmapLightsWithIds();
 
-  /// @brief Method get_reflectionsCount, addr 0x3b1b610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionsCount, addr 0x3b240c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_reflectionsCount();
 
-  /// @brief Method set_colorFromSchemeAlpha, addr 0x3b1b628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorFromSchemeAlpha, addr 0x3b240d8, size 0x8, virtual false, abstract: false, final false
   inline void set_colorFromSchemeAlpha(float_t value);
 
-  /// @brief Method set_reflectionsCount, addr 0x3b1b618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionsCount, addr 0x3b240c8, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionsCount(int32_t value);
 
 protected:

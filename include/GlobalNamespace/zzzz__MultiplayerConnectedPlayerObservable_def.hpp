@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x3bd29fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdb934, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_isFailed, addr 0x3bd2ac8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x3bdba00, size 0xc, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x3bd2a24, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x3bdb95c, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"

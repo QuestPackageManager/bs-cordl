@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ClampProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x461cc30, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4625c60, size 0x18, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x461cc48, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4625c78, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x461cce8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4625d18, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   ClampProcessor(ClampProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6991 };
 
   /// @brief Field min, offset: 0x10, size: 0x4, def value: None
   float_t ___min;

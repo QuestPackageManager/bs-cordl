@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)(int32_t)>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40129ac;
+  constexpr static std::size_t addrs = 0x401b9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4012e2c;
+  constexpr static std::size_t addrs = 0x401be2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4012e30;
+  constexpr static std::size_t addrs = 0x401be30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012ec8;
+  constexpr static std::size_t addrs = 0x401bec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4012ed0;
+  constexpr static std::size_t addrs = 0x401bed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012f08;
+  constexpr static std::size_t addrs = 0x401bf08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRSceneManager> (::GlobalNamespace::OVRSceneModelLoader::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::get_SceneManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40126b8;
+  constexpr static std::size_t addrs = 0x401b6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneModelLoader*>::get(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)(::GlobalNamespace::OVRSceneManager*)>(
     &::GlobalNamespace::OVRSceneModelLoader::set_SceneManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40126c0;
+  constexpr static std::size_t addrs = 0x401b6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::Start)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x40126c8;
+  constexpr static std::size_t addrs = 0x401b6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneModelLoader*>::get(), "Start",
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRSceneModelLoader::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::AttemptToLoadSceneModel)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x401294c;
+  constexpr static std::size_t addrs = 0x401b94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneModelLoader*>::get(),
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x40129d4;
+  constexpr static std::size_t addrs = 0x401b9d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::LoadSceneModel)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x40129d8;
+  constexpr static std::size_t addrs = 0x401b9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneModelLoader*>::get(), "LoadSceneModel",
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::OnSceneModelLoadedSuccessfully)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4012acc;
+  constexpr static std::size_t addrs = 0x401bacc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::OnNoSceneModelToLoad)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4012b68;
+  constexpr static std::size_t addrs = 0x401bb68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::OnNewSceneModelAvailable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4012c50;
+  constexpr static std::size_t addrs = 0x401bc50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::OnSceneCaptureReturnedWithoutError)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4012cec;
+  constexpr static std::size_t addrs = 0x401bcec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(
     &::GlobalNamespace::OVRSceneModelLoader::OnUnexpectedErrorWithSceneCapture)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4012d88;
+  constexpr static std::size_t addrs = 0x401bd88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneModelLoader::*)()>(&::GlobalNamespace::OVRSceneModelLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012e24;
+  constexpr static std::size_t addrs = 0x401be24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneModelLoader*>::get(), ".ctor",

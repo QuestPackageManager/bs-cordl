@@ -19,12 +19,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE NamespaceListV1Compat : public ::System::Xml::Schema::NamespaceList {
 public:
   // Declarations
-  /// @brief Method Allows, addr 0x4271c50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Allows, addr 0x427ac80, size 0x24, virtual true, abstract: false, final false
   inline bool Allows(::StringW ns);
 
   static inline ::System::Xml::Schema::NamespaceListV1Compat* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method .ctor, addr 0x4271c4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x427ac7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
 protected:
@@ -42,7 +42,7 @@ public:
   NamespaceListV1Compat(NamespaceListV1Compat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7607 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

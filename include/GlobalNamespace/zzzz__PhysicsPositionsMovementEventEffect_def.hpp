@@ -96,21 +96,21 @@ public:
   /// @brief Field _velocity, offset 0x6c, size 0xc
   __declspec(property(get = __cordl_internal_get__velocity, put = __cordl_internal_set__velocity)) ::UnityEngine::Vector3 _velocity;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b9d5fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3ba6534, size 0x7c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleSongTimeFixedUpdate, addr 0x3b9d4b0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeFixedUpdate, addr 0x3ba63e8, size 0xdc, virtual false, abstract: false, final false
   inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
 
-  /// @brief Method HandleSongTimeUpdate, addr 0x3b9d58c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeUpdate, addr 0x3ba64c4, size 0x70, virtual false, abstract: false, final false
   inline void HandleSongTimeUpdate();
 
   static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9d370, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba62a8, size 0x140, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b9d12c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba6064, size 0x244, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set__velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b9d678, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba65b0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

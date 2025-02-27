@@ -62,7 +62,7 @@ public:
   ScriptableObjectInstaller_3(ScriptableObjectInstaller_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

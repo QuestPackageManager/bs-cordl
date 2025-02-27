@@ -66,25 +66,25 @@ public:
 
   constexpr void __cordl_internal_set__IntermediateScriptingStructName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x491c6bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49256ec, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x491c6d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4925708, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
 
-  /// @brief Method .ctor, addr 0x491c800, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4925830, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
 
-  /// @brief Method .ctor, addr 0x491c700, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4925730, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
-  /// @brief Method set_CodegenOptions, addr 0x491c6b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_CodegenOptions, addr 0x49256e4, size 0x8, virtual true, abstract: false, final true
   inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
 
-  /// @brief Method set_Header, addr 0x491c6a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x49256d4, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
-  /// @brief Method set_IntermediateScriptingStructName, addr 0x491c6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IntermediateScriptingStructName, addr 0x49256dc, size 0x8, virtual false, abstract: false, final false
   inline void set_IntermediateScriptingStructName(::StringW value);
 
 protected:
@@ -102,7 +102,7 @@ public:
   NativeTypeAttribute(NativeTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18713 };
 
   /// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Header_k__BackingField;

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
     ::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::*)()>(&::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::get_promotedBeatmapLevelPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f9254;
+  constexpr static std::size_t addrs = 0x26fda10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
     ::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::*)()>(&::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::get_updatedBeatmapLevelPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f925c;
+  constexpr static std::size_t addrs = 0x26fda18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
     ::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::*)()>(&::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::get_promotedBeatmapLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f9264;
+  constexpr static std::size_t addrs = 0x26fda20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
     ::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::*)()>(&::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::get_updatedBeatmapLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f926c;
+  constexpr static std::size_t addrs = 0x26fda28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::*)()>(
     &::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f9274;
+  constexpr static std::size_t addrs = 0x26fda30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo* (::GlobalNamespace::BeatmapLevelsPromoDataSO::*)()>(
     &::GlobalNamespace::BeatmapLevelsPromoDataSO::get_promo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f923c;
+  constexpr static std::size_t addrs = 0x26fd9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsPromoDataSO*>::get(), "get_promo",
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapLevelsPromoDataSO::*)(::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo*)>(&::GlobalNamespace::BeatmapLevelsPromoDataSO::set_promo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f9244;
+  constexpr static std::size_t addrs = 0x26fda00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelsPromoDataSO::*)()>(&::GlobalNamespace::BeatmapLevelsPromoDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f924c;
+  constexpr static std::size_t addrs = 0x26fda08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelsPromoDataSO*>::get(), ".ctor",

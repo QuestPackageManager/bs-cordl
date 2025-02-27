@@ -34,21 +34,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlStringConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x42ea2b8, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42f32e8, size 0x280, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42ea538, size 0x424, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42f3568, size 0x424, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x42ea060, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x42f3090, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlStringConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToString, addr 0x42ea0b8, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42f30e8, size 0x200, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x42e9ff8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42f3028, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
@@ -66,7 +66,7 @@ public:
   XmlStringConverter(XmlStringConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -111,57 +111,57 @@ public:
   /// @brief Field m_prevFlex, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get_m_prevFlex, put = __cordl_internal_set_m_prevFlex)) float_t m_prevFlex;
 
-  /// @brief Method Awake, addr 0x4038100, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x4041100, size 0x140, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckForGrabOrRelease, addr 0x40386f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CheckForGrabOrRelease, addr 0x40416f8, size 0x40, virtual false, abstract: false, final false
   inline void CheckForGrabOrRelease(float_t prevFlex);
 
-  /// @brief Method ForceRelease, addr 0x4037dd0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ForceRelease, addr 0x4040dd0, size 0xb0, virtual false, abstract: false, final false
   inline void ForceRelease(::GlobalNamespace::OVRGrabbable* grabbable);
 
-  /// @brief Method GrabBegin, addr 0x4038a2c, size 0x6b0, virtual true, abstract: false, final false
+  /// @brief Method GrabBegin, addr 0x4041a2c, size 0x6b0, virtual true, abstract: false, final false
   inline void GrabBegin();
 
-  /// @brief Method GrabEnd, addr 0x4037e98, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GrabEnd, addr 0x4040e98, size 0x268, virtual false, abstract: false, final false
   inline void GrabEnd();
 
-  /// @brief Method GrabVolumeEnable, addr 0x4039360, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GrabVolumeEnable, addr 0x4042360, size 0xc0, virtual true, abstract: false, final false
   inline void GrabVolumeEnable(bool enabled);
 
-  /// @brief Method GrabbableRelease, addr 0x403930c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GrabbableRelease, addr 0x404230c, size 0x54, virtual false, abstract: false, final false
   inline void GrabbableRelease(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
 
-  /// @brief Method MoveGrabbedObject, addr 0x40390dc, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method MoveGrabbedObject, addr 0x40420dc, size 0x230, virtual true, abstract: false, final false
   inline void MoveGrabbedObject(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, bool forceTeleport);
 
   static inline ::GlobalNamespace::OVRGrabber* New_ctor();
 
-  /// @brief Method OffhandGrabbed, addr 0x4039420, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OffhandGrabbed, addr 0x4042420, size 0xcc, virtual true, abstract: false, final false
   inline void OffhandGrabbed(::GlobalNamespace::OVRGrabbable* grabbable);
 
-  /// @brief Method OnDestroy, addr 0x4038738, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x4041738, size 0x78, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnTriggerEnter, addr 0x40387b0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x40417b0, size 0x124, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* otherCollider);
 
-  /// @brief Method OnTriggerExit, addr 0x40388d4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x40418d4, size 0x158, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* otherCollider);
 
-  /// @brief Method OnUpdatedAnchors, addr 0x40384d4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnUpdatedAnchors, addr 0x40414d4, size 0x224, virtual false, abstract: false, final false
   inline void OnUpdatedAnchors();
 
-  /// @brief Method SetPlayerIgnoreCollision, addr 0x4038320, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerIgnoreCollision, addr 0x4041320, size 0x1a4, virtual false, abstract: false, final false
   inline void SetPlayerIgnoreCollision(::UnityEngine::GameObject* grabbable, bool ignore);
 
-  /// @brief Method Start, addr 0x4038240, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x4041240, size 0xe0, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x40384c4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x40414c4, size 0x10, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <Awake>b__23_0, addr 0x4039580, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__23_0, addr 0x4042580, size 0x4, virtual false, abstract: false, final false
   inline void _Awake_b__23_0(::GlobalNamespace::OVRCameraRig* r);
 
   constexpr float_t const& __cordl_internal_get_grabBegin() const;
@@ -284,10 +284,10 @@ public:
 
   constexpr void __cordl_internal_set_m_prevFlex(float_t value);
 
-  /// @brief Method .ctor, addr 0x40394ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40424ec, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_grabbedObject, addr 0x4037e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedObject, addr 0x4040e90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRGrabbable> get_grabbedObject();
 
 protected:
@@ -305,7 +305,7 @@ public:
   OVRGrabber(OVRGrabber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8427 };
 
   /// @brief Field grabBegin, offset: 0x20, size: 0x4, def value: None
   float_t ___grabBegin;

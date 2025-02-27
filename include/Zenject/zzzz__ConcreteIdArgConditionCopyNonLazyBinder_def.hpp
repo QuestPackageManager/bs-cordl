@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithConcreteId, addr 0x4b03954, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithConcreteId, addr 0x4b0c984, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::System::Object* id);
 
-  /// @brief Method .ctor, addr 0x4b0394c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b0c97c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -50,7 +50,7 @@ public:
   ConcreteIdArgConditionCopyNonLazyBinder(ConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

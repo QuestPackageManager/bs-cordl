@@ -53,7 +53,7 @@ public:
 
   static inline ::GlobalNamespace::CPUMonitor* New_ctor();
 
-  /// @brief Method PollUpdate, addr 0x22c2c0c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x22c6944, size 0x11c, virtual true, abstract: false, final true
   inline void PollUpdate();
 
   constexpr ::System::Diagnostics::Process* const& __cordl_internal_get__currentProcess() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set__utilization(::GlobalNamespace::RollingAverage* value);
 
-  /// @brief Method .ctor, addr 0x22c2d50, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c6a88, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_utilization, addr 0x22c2d28, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_utilization, addr 0x22c6a60, size 0x28, virtual true, abstract: false, final true
   inline float_t get_utilization();
 
   /// @brief Convert to "::GlobalNamespace::ICPUMonitor"
@@ -113,7 +113,7 @@ public:
   CPUMonitor(CPUMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14717 };
 
   /// @brief Field _utilization, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::RollingAverage* ____utilization;

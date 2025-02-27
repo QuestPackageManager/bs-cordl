@@ -54,191 +54,191 @@ namespace UnityEngine {
 class CORDL_TYPE SystemInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBatteryLevel, addr 0x48b6e90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetBatteryLevel, addr 0x48bfec0, size 0x28, virtual false, abstract: false, final false
   static inline float_t GetBatteryLevel();
 
-  /// @brief Method GetBatteryStatus, addr 0x48b6ee0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetBatteryStatus, addr 0x48bff10, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::BatteryStatus GetBatteryStatus();
 
-  /// @brief Method GetCompatibleFormat, addr 0x48b79b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCompatibleFormat, addr 0x48c09e4, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetCompatibleFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                                            ::UnityEngine::Experimental::Rendering::FormatUsage usage);
 
-  /// @brief Method GetDeviceModel, addr 0x48b71b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceModel, addr 0x48c01e0, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceModel();
 
-  /// @brief Method GetDeviceName, addr 0x48b7160, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceName, addr 0x48c0190, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceName();
 
-  /// @brief Method GetDeviceType, addr 0x48b7200, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceType, addr 0x48c0230, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::DeviceType GetDeviceType();
 
-  /// @brief Method GetDeviceUniqueIdentifier, addr 0x48b7110, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceUniqueIdentifier, addr 0x48c0140, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceUniqueIdentifier();
 
-  /// @brief Method GetGraphicsDeviceID, addr 0x48b7340, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsDeviceID, addr 0x48c0370, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetGraphicsDeviceID();
 
-  /// @brief Method GetGraphicsDeviceName, addr 0x48b72a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsDeviceName, addr 0x48c02d0, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetGraphicsDeviceName();
 
-  /// @brief Method GetGraphicsDeviceType, addr 0x48b73e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsDeviceType, addr 0x48c0410, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GraphicsDeviceType GetGraphicsDeviceType();
 
-  /// @brief Method GetGraphicsDeviceVendor, addr 0x48b72f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsDeviceVendor, addr 0x48c0320, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetGraphicsDeviceVendor();
 
-  /// @brief Method GetGraphicsDeviceVendorID, addr 0x48b7390, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsDeviceVendorID, addr 0x48c03c0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetGraphicsDeviceVendorID();
 
-  /// @brief Method GetGraphicsDeviceVersion, addr 0x48b7430, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsDeviceVersion, addr 0x48c0460, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetGraphicsDeviceVersion();
 
-  /// @brief Method GetGraphicsFormat, addr 0x48b79f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsFormat, addr 0x48c0a28, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::Experimental::Rendering::DefaultFormat format);
 
-  /// @brief Method GetGraphicsMemorySize, addr 0x48b7250, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsMemorySize, addr 0x48c0280, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetGraphicsMemorySize();
 
-  /// @brief Method GetGraphicsMultiThreaded, addr 0x48b74d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsMultiThreaded, addr 0x48c0500, size 0x28, virtual false, abstract: false, final false
   static inline bool GetGraphicsMultiThreaded();
 
-  /// @brief Method GetGraphicsShaderLevel, addr 0x48b7480, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsShaderLevel, addr 0x48c04b0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetGraphicsShaderLevel();
 
-  /// @brief Method GetMaxRenderTextureSize, addr 0x48b7948, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMaxRenderTextureSize, addr 0x48c0978, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetMaxRenderTextureSize();
 
-  /// @brief Method GetMaxTextureSize, addr 0x48b78f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMaxTextureSize, addr 0x48c0928, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetMaxTextureSize();
 
-  /// @brief Method GetOperatingSystem, addr 0x48b6f30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOperatingSystem, addr 0x48bff60, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetOperatingSystem();
 
-  /// @brief Method GetOperatingSystemFamily, addr 0x48b6f80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetOperatingSystemFamily, addr 0x48bffb0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::OperatingSystemFamily GetOperatingSystemFamily();
 
-  /// @brief Method GetPhysicalMemoryMB, addr 0x48b70c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicalMemoryMB, addr 0x48c00f0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetPhysicalMemoryMB();
 
-  /// @brief Method GetProcessorCount, addr 0x48b7070, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetProcessorCount, addr 0x48c00a0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetProcessorCount();
 
-  /// @brief Method GetProcessorFrequencyMHz, addr 0x48b7020, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetProcessorFrequencyMHz, addr 0x48c0050, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetProcessorFrequencyMHz();
 
-  /// @brief Method GetProcessorType, addr 0x48b6fd0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetProcessorType, addr 0x48c0000, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetProcessorType();
 
-  /// @brief Method GetRenderingThreadingMode, addr 0x48b7520, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetRenderingThreadingMode, addr 0x48c0550, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderingThreadingMode GetRenderingThreadingMode();
 
-  /// @brief Method HasRenderTextureNative, addr 0x48b7784, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasRenderTextureNative, addr 0x48c07b4, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasRenderTextureNative(::UnityEngine::RenderTextureFormat format);
 
-  /// @brief Method IsFormatSupported, addr 0x48b7970, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsFormatSupported, addr 0x48c09a0, size 0x44, virtual false, abstract: false, final false
   static inline bool IsFormatSupported(::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::FormatUsage usage);
 
-  /// @brief Method IsValidEnumValue, addr 0x48b7638, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsValidEnumValue, addr 0x48c0668, size 0x78, virtual false, abstract: false, final false
   static inline bool IsValidEnumValue(::System::Enum* value);
 
-  /// @brief Method SupportsComputeShaders, addr 0x48b7570, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SupportsComputeShaders, addr 0x48c05a0, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsComputeShaders();
 
-  /// @brief Method SupportsInstancing, addr 0x48b75c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SupportsInstancing, addr 0x48c05f0, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsInstancing();
 
-  /// @brief Method SupportsRenderTextureFormat, addr 0x48b76b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SupportsRenderTextureFormat, addr 0x48c06e0, size 0xd4, virtual false, abstract: false, final false
   static inline bool SupportsRenderTextureFormat(::UnityEngine::RenderTextureFormat format);
 
-  /// @brief Method SupportsTextureFormat, addr 0x48b77c0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SupportsTextureFormat, addr 0x48c07f0, size 0xd4, virtual false, abstract: false, final false
   static inline bool SupportsTextureFormat(::UnityEngine::TextureFormat format);
 
-  /// @brief Method SupportsTextureFormatNative, addr 0x48b7894, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SupportsTextureFormatNative, addr 0x48c08c4, size 0x3c, virtual false, abstract: false, final false
   static inline bool SupportsTextureFormatNative(::UnityEngine::TextureFormat format);
 
-  /// @brief Method UsesReversedZBuffer, addr 0x48b7610, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UsesReversedZBuffer, addr 0x48c0640, size 0x28, virtual false, abstract: false, final false
   static inline bool UsesReversedZBuffer();
 
-  /// @brief Method get_batteryLevel, addr 0x48b6e68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_batteryLevel, addr 0x48bfe98, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_batteryLevel();
 
-  /// @brief Method get_batteryStatus, addr 0x48b6eb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_batteryStatus, addr 0x48bfee8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::BatteryStatus get_batteryStatus();
 
-  /// @brief Method get_deviceModel, addr 0x48b7188, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_deviceModel, addr 0x48c01b8, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_deviceModel();
 
-  /// @brief Method get_deviceName, addr 0x48b7138, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_deviceName, addr 0x48c0168, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_deviceName();
 
-  /// @brief Method get_deviceType, addr 0x48b71d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_deviceType, addr 0x48c0208, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::DeviceType get_deviceType();
 
-  /// @brief Method get_deviceUniqueIdentifier, addr 0x48b70e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_deviceUniqueIdentifier, addr 0x48c0118, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_deviceUniqueIdentifier();
 
-  /// @brief Method get_graphicsDeviceID, addr 0x48b7318, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsDeviceID, addr 0x48c0348, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_graphicsDeviceID();
 
-  /// @brief Method get_graphicsDeviceName, addr 0x48b7278, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsDeviceName, addr 0x48c02a8, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_graphicsDeviceName();
 
-  /// @brief Method get_graphicsDeviceType, addr 0x48b73b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsDeviceType, addr 0x48c03e8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GraphicsDeviceType get_graphicsDeviceType();
 
-  /// @brief Method get_graphicsDeviceVendor, addr 0x48b72c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsDeviceVendor, addr 0x48c02f8, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_graphicsDeviceVendor();
 
-  /// @brief Method get_graphicsDeviceVendorID, addr 0x48b7368, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsDeviceVendorID, addr 0x48c0398, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_graphicsDeviceVendorID();
 
-  /// @brief Method get_graphicsDeviceVersion, addr 0x48b7408, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsDeviceVersion, addr 0x48c0438, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_graphicsDeviceVersion();
 
-  /// @brief Method get_graphicsMemorySize, addr 0x48b7228, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsMemorySize, addr 0x48c0258, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_graphicsMemorySize();
 
-  /// @brief Method get_graphicsMultiThreaded, addr 0x48b74a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsMultiThreaded, addr 0x48c04d8, size 0x28, virtual false, abstract: false, final false
   static inline bool get_graphicsMultiThreaded();
 
-  /// @brief Method get_graphicsShaderLevel, addr 0x48b7458, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsShaderLevel, addr 0x48c0488, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_graphicsShaderLevel();
 
-  /// @brief Method get_maxRenderTextureSize, addr 0x48b7920, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_maxRenderTextureSize, addr 0x48c0950, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_maxRenderTextureSize();
 
-  /// @brief Method get_maxTextureSize, addr 0x48b78d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_maxTextureSize, addr 0x48c0900, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_maxTextureSize();
 
-  /// @brief Method get_operatingSystem, addr 0x48b6f08, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_operatingSystem, addr 0x48bff38, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_operatingSystem();
 
-  /// @brief Method get_operatingSystemFamily, addr 0x48b6f58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_operatingSystemFamily, addr 0x48bff88, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::OperatingSystemFamily get_operatingSystemFamily();
 
-  /// @brief Method get_processorCount, addr 0x48b7048, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_processorCount, addr 0x48c0078, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_processorCount();
 
-  /// @brief Method get_processorFrequency, addr 0x48b6ff8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_processorFrequency, addr 0x48c0028, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_processorFrequency();
 
-  /// @brief Method get_processorType, addr 0x48b6fa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_processorType, addr 0x48bffd8, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_processorType();
 
-  /// @brief Method get_renderingThreadingMode, addr 0x48b74f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_renderingThreadingMode, addr 0x48c0528, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderingThreadingMode get_renderingThreadingMode();
 
-  /// @brief Method get_supportsComputeShaders, addr 0x48b7548, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_supportsComputeShaders, addr 0x48c0578, size 0x28, virtual false, abstract: false, final false
   static inline bool get_supportsComputeShaders();
 
-  /// @brief Method get_supportsInstancing, addr 0x48b7598, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_supportsInstancing, addr 0x48c05c8, size 0x28, virtual false, abstract: false, final false
   static inline bool get_supportsInstancing();
 
-  /// @brief Method get_systemMemorySize, addr 0x48b7098, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_systemMemorySize, addr 0x48c00c8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_systemMemorySize();
 
-  /// @brief Method get_usesReversedZBuffer, addr 0x48b75e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_usesReversedZBuffer, addr 0x48c0618, size 0x28, virtual false, abstract: false, final false
   static inline bool get_usesReversedZBuffer();
 
 protected:
@@ -256,7 +256,7 @@ public:
   SystemInfo(SystemInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

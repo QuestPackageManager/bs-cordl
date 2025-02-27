@@ -21,7 +21,7 @@ namespace UnityEngine {
 class CORDL_TYPE Internal_SubsystemDescriptors : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Internal_AddDescriptor, addr 0x491e800, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_AddDescriptor, addr 0x4927830, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
 protected:
@@ -39,7 +39,7 @@ public:
   Internal_SubsystemDescriptors(Internal_SubsystemDescriptors const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

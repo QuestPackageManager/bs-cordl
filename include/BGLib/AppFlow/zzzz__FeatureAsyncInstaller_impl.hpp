@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(
     &::BGLib::AppFlow::FeatureAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x229c494;
+  constexpr static std::size_t addrs = 0x22a01cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x229c4d4;
+  constexpr static std::size_t addrs = 0x22a020c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x229c828;
+  constexpr static std::size_t addrs = 0x22a0560;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x229c82c;
+  constexpr static std::size_t addrs = 0x22a0564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), ".ctor",

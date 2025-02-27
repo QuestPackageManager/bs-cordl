@@ -32,35 +32,35 @@ public:
   /// @brief Field s_UpdateMode, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_UpdateMode, put = setStaticF_s_UpdateMode)) ::UnityEngine::InputSystem::InputSettings_UpdateMode s_UpdateMode;
 
-  /// @brief Method CheckEnabled, addr 0x4604eac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckEnabled, addr 0x460dedc, size 0x98, virtual false, abstract: false, final false
   static inline void CheckEnabled();
 
-  /// @brief Method Disable, addr 0x4604724, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x460d754, size 0x184, virtual false, abstract: false, final false
   static inline void Disable();
 
-  /// @brief Method Enable, addr 0x46043d8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x460d408, size 0x170, virtual false, abstract: false, final false
   static inline void Enable();
 
-  /// @brief Method OnDeviceChange, addr 0x4604b88, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnDeviceChange, addr 0x460dbb8, size 0x11c, virtual false, abstract: false, final false
   static inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method OnSettingsChange, addr 0x4604e14, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnSettingsChange, addr 0x460de44, size 0x98, virtual false, abstract: false, final false
   static inline void OnSettingsChange();
 
-  /// @brief Method Reset, addr 0x4604a64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x460da94, size 0xa0, virtual false, abstract: false, final false
   static inline void Reset();
 
-  /// @brief Method SetUpState, addr 0x4604548, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method SetUpState, addr 0x460d578, size 0x1dc, virtual false, abstract: false, final false
   static inline void SetUpState();
 
-  /// @brief Method TearDownState, addr 0x46048a8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TearDownState, addr 0x460d8d8, size 0x1bc, virtual false, abstract: false, final false
   static inline void TearDownState();
 
   static inline int32_t getStaticF_s_Enabled();
 
   static inline ::UnityEngine::InputSystem::InputSettings_UpdateMode getStaticF_s_UpdateMode();
 
-  /// @brief Method get_enabled, addr 0x4604388, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x460d3b8, size 0x50, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   static inline void setStaticF_s_Enabled(int32_t value);
@@ -82,7 +82,7 @@ public:
   EnhancedTouchSupport(EnhancedTouchSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

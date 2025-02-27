@@ -73,27 +73,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method DesFunc, addr 0x2357354, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method DesFunc, addr 0x235b08c, size 0x434, virtual false, abstract: false, final false
   static inline void DesFunc(::ArrayW<int32_t, ::Array<int32_t>*> wKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GenerateWorkingKey, addr 0x2356c7c, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method GenerateWorkingKey, addr 0x235a9b4, size 0x550, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GenerateWorkingKey(bool encrypting, ::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method GetBlockSize, addr 0x2357214, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x235af4c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetWorkingKey, addr 0x2356b38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetWorkingKey, addr 0x235a870, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetWorkingKey();
 
-  /// @brief Method Init, addr 0x2356b40, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x235a878, size 0x13c, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::DesEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x235721c, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x235af54, size 0x138, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x2357788, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x235b4c0, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_workingKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2357b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235b87c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_SP1();
@@ -131,10 +131,10 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_totrot();
 
-  /// @brief Method get_AlgorithmName, addr 0x23571cc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x235af04, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x235720c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x235af44, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"

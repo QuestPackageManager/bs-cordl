@@ -38,13 +38,13 @@ public:
 
   static inline ::GlobalNamespace::StartMiddleEndButtonBackgroundController* New_ctor();
 
-  /// @brief Method SetEndSprite, addr 0x3c04a10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetEndSprite, addr 0x3c0d948, size 0x24, virtual false, abstract: false, final false
   inline void SetEndSprite();
 
-  /// @brief Method SetMiddleSprite, addr 0x3c049ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetMiddleSprite, addr 0x3c0d924, size 0x24, virtual false, abstract: false, final false
   inline void SetMiddleSprite();
 
-  /// @brief Method SetStartSprite, addr 0x3c049c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetStartSprite, addr 0x3c0d900, size 0x24, virtual false, abstract: false, final false
   inline void SetStartSprite();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__endSprite() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__startSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x3c04a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0d96c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

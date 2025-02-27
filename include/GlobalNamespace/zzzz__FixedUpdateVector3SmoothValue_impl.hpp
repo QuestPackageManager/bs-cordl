@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FixedUpdateVector3SmoothValue::*)(float_t)>(
     &::GlobalNamespace::FixedUpdateVector3SmoothValue::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39c4908;
+  constexpr static std::size_t addrs = 0x39cd3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::FixedUpdateVector3SmoothValue::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::FixedUpdateVector3SmoothValue::Interpolate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39c4960;
+  constexpr static std::size_t addrs = 0x39cd410;
 
   inline static ::MethodInfo const* methodInfo() {
 

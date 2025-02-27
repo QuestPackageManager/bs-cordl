@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_json(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f59528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f6242c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   HapticClip(HapticClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18776 };
 
   /// @brief Field json, offset: 0x18, size: 0x8, def value: None
   ::StringW ___json;

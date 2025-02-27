@@ -28,15 +28,15 @@ public:
   /// @brief Field _attributes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__attributes, put = __cordl_internal_set__attributes)) ::HoudiniEngineUnity::HEU_OutputAttributeDictionary* _attributes;
 
-  /// @brief Method Clear, addr 0x3a3f974, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3a48424, size 0x50, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetAttribute, addr 0x3a3f904, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x3a483b4, size 0x70, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_OutputAttribute* GetAttribute(::StringW name);
 
   static inline ::HoudiniEngineUnity::HEU_OutputAttributesStore* New_ctor();
 
-  /// @brief Method SetAttribute, addr 0x3a3f808, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetAttribute, addr 0x3a482b8, size 0xfc, virtual false, abstract: false, final false
   inline void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute);
 
   constexpr ::HoudiniEngineUnity::HEU_OutputAttributeDictionary* const& __cordl_internal_get__attributes() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__attributes(::HoudiniEngineUnity::HEU_OutputAttributeDictionary* value);
 
-  /// @brief Method .ctor, addr 0x3a3f9c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a48474, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   HEU_OutputAttributesStore(HEU_OutputAttributesStore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11655 };
 
   /// @brief Field _attributes, offset: 0x20, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_OutputAttributeDictionary* ____attributes;

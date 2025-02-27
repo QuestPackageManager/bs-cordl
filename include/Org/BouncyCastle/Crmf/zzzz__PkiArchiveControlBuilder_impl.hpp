@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(
     ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x268665c;
+  constexpr static std::size_t addrs = 0x268a394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* (
     ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(::Org::BouncyCastle::Cms::RecipientInfoGenerator*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::AddRecipientGenerator)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x268684c;
+  constexpr static std::size_t addrs = 0x268a584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::PkiArchiveControl* (
     ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::Build)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2686874;
+  constexpr static std::size_t addrs = 0x268a5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NullableMethodCallInstruction_EqualsClass::*)()>(
     &::GlobalNamespace::NullableMethodCallInstruction_EqualsClass::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40fd2d4;
+  constexpr static std::size_t addrs = 0x4106304;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NullableMethodCallInstruction_EqualsClass::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::NullableMethodCallInstruction_EqualsClass::Run)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x40fd2dc;
+  constexpr static std::size_t addrs = 0x410630c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullableMethodCallInstruction_EqualsClass::*)()>(
     &::GlobalNamespace::NullableMethodCallInstruction_EqualsClass::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40fd084;
+  constexpr static std::size_t addrs = 0x41060b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

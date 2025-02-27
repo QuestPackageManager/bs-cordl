@@ -41,18 +41,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE ImageEffectController_RenderImageCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x39e3c34, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x39ec6e4, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x39e3c5c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x39ec70c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x39e3c20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x39ec6d0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   static inline ::GlobalNamespace::ImageEffectController_RenderImageCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x39e3b1c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ec5cc, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -70,7 +70,7 @@ public:
   ImageEffectController_RenderImageCallback(ImageEffectController_RenderImageCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16283 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16288 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,10 +93,10 @@ public:
 
   static inline ::GlobalNamespace::ImageEffectController* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x39e3af8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x39ec5a8, size 0x1c, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method SetCallback, addr 0x39e3af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCallback, addr 0x39ec5a0, size 0x8, virtual false, abstract: false, final false
   inline void SetCallback(::GlobalNamespace::ImageEffectController_RenderImageCallback* renderImageCallback);
 
   constexpr ::GlobalNamespace::ImageEffectController_RenderImageCallback* const& __cordl_internal_get__renderImageCallback() const;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__renderImageCallback(::GlobalNamespace::ImageEffectController_RenderImageCallback* value);
 
-  /// @brief Method .ctor, addr 0x39e3b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ec5c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   ImageEffectController(ImageEffectController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16289 };
 
   /// @brief Field _renderImageCallback, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::ImageEffectController_RenderImageCallback* ____renderImageCallback;

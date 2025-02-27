@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_IsNewBake(bool value);
 
-  /// @brief Method .ctor, addr 0x3a0b43c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a13eec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
 protected:
@@ -57,7 +57,7 @@ public:
   HEU_BakedEventData(HEU_BakedEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11585 };
 
   /// @brief Field IsNewBake, offset: 0x2c, size: 0x1, def value: None
   bool ___IsNewBake;

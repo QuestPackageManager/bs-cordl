@@ -123,7 +123,7 @@ public:
   static ::UnityEngine::ReflectionProbe_ReflectionProbeEvent const ReflectionProbeRemoved;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -157,13 +157,13 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Action_1<::UnityW<::UnityEngine::Cubemap>>* value);
 
-  /// @brief Method <add_defaultReflectionSet>b__0, addr 0x486ff24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <add_defaultReflectionSet>b__0, addr 0x4878f54, size 0x80, virtual false, abstract: false, final false
   inline void _add_defaultReflectionSet_b__0(::UnityEngine::Texture* b);
 
-  /// @brief Method <add_defaultReflectionSet>b__1, addr 0x486fedc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <add_defaultReflectionSet>b__1, addr 0x4878f0c, size 0x48, virtual false, abstract: false, final false
   inline bool _add_defaultReflectionSet_b__1(::System::Action_1<::UnityW<::UnityEngine::Texture>>* h);
 
-  /// @brief Method .ctor, addr 0x486f8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48788e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,7 +181,7 @@ public:
   ReflectionProbe___c__DisplayClass95_0(ReflectionProbe___c__DisplayClass95_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10686 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Cubemap>>* ___value;
@@ -212,10 +212,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
-  /// @brief Method <add_defaultReflectionTexture>b__0, addr 0x486ffa4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <add_defaultReflectionTexture>b__0, addr 0x4878fd4, size 0x48, virtual false, abstract: false, final false
   inline bool _add_defaultReflectionTexture_b__0(::System::Action_1<::UnityW<::UnityEngine::Texture>>* h);
 
-  /// @brief Method .ctor, addr 0x486fc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4878c9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,7 +233,7 @@ public:
   ReflectionProbe___c__DisplayClass98_0(ReflectionProbe___c__DisplayClass98_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10687 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Texture>>* ___value;
@@ -324,45 +324,45 @@ public:
 
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::Rendering::ReflectionProbeType type;
 
-  /// @brief Method BlendCubemap, addr 0x486f2ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method BlendCubemap, addr 0x48782dc, size 0x64, virtual false, abstract: false, final false
   static inline bool BlendCubemap(::UnityEngine::Texture* src, ::UnityEngine::Texture* dst, float_t blend, ::UnityEngine::RenderTexture* target);
 
-  /// @brief Method CallReflectionProbeEvent, addr 0x486f654, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CallReflectionProbeEvent, addr 0x4878684, size 0x90, virtual false, abstract: false, final false
   static inline void CallReflectionProbeEvent(::UnityEngine::ReflectionProbe* probe, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent probeEvent);
 
-  /// @brief Method CallSetDefaultReflection, addr 0x486fc74, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CallSetDefaultReflection, addr 0x4878ca4, size 0x184, virtual false, abstract: false, final false
   static inline void CallSetDefaultReflection(::UnityEngine::Texture* defaultReflectionCubemap);
 
-  /// @brief Method IsFinishedRendering, addr 0x486f268, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsFinishedRendering, addr 0x4878298, size 0x44, virtual false, abstract: false, final false
   inline bool IsFinishedRendering(int32_t renderId);
 
   static inline ::UnityEngine::ReflectionProbe* New_ctor();
 
-  /// @brief Method RenderProbe, addr 0x486f190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RenderProbe, addr 0x48781c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t RenderProbe();
 
-  /// @brief Method RenderProbe, addr 0x486f198, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RenderProbe, addr 0x48781c8, size 0x7c, virtual false, abstract: false, final false
   inline int32_t RenderProbe(::UnityEngine::RenderTexture* targetTexture);
 
-  /// @brief Method Reset, addr 0x486f154, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4878184, size 0x3c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ScheduleRender, addr 0x486f214, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleRender, addr 0x4878244, size 0x54, virtual false, abstract: false, final false
   inline int32_t ScheduleRender(::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode timeSlicingMode, ::UnityEngine::RenderTexture* targetTexture);
 
-  /// @brief Method UpdateCachedState, addr 0x486f310, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateCachedState, addr 0x4878340, size 0x28, virtual false, abstract: false, final false
   static inline void UpdateCachedState();
 
-  /// @brief Method .ctor, addr 0x486fdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4878e28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_defaultReflectionSet, addr 0x486f6e4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method add_defaultReflectionSet, addr 0x4878714, size 0x1d0, virtual false, abstract: false, final false
   static inline void add_defaultReflectionSet(::System::Action_1<::UnityW<::UnityEngine::Cubemap>>* value);
 
-  /// @brief Method add_defaultReflectionTexture, addr 0x486f8bc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method add_defaultReflectionTexture, addr 0x48788ec, size 0x208, virtual false, abstract: false, final false
   static inline void add_defaultReflectionTexture(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
-  /// @brief Method add_reflectionProbeChanged, addr 0x486f474, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_reflectionProbeChanged, addr 0x48784a4, size 0xf0, virtual false, abstract: false, final false
   static inline void add_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
 
   static inline ::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* getStaticF_reflectionProbeChanged();
@@ -371,118 +371,118 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::System::Action_1<::UnityW<::UnityEngine::Texture>>*>* getStaticF_registeredDefaultReflectionTextureActions();
 
-  /// @brief Method get_backgroundColor, addr 0x486eac0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundColor, addr 0x4877af0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_backgroundColor();
 
-  /// @brief Method get_backgroundColor_Injected, addr 0x486eb18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundColor_Injected, addr 0x4877b48, size 0x44, virtual false, abstract: false, final false
   inline void get_backgroundColor_Injected(::ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method get_bakedTexture, addr 0x486eefc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bakedTexture, addr 0x4877f2c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_bakedTexture();
 
-  /// @brief Method get_blendDistance, addr 0x486ebf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_blendDistance, addr 0x4877c24, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_blendDistance();
 
-  /// @brief Method get_bounds, addr 0x486e70c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x487773c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_bounds_Injected, addr 0x486e774, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bounds_Injected, addr 0x48777a4, size 0x44, virtual false, abstract: false, final false
   inline void get_bounds_Injected(::ByRef<::UnityEngine::Bounds> ret);
 
-  /// @brief Method get_boxProjection, addr 0x486ec7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_boxProjection, addr 0x4877cac, size 0x3c, virtual false, abstract: false, final false
   inline bool get_boxProjection();
 
-  /// @brief Method get_center, addr 0x486e43c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x487746c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x486e498, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x48774c8, size 0x44, virtual false, abstract: false, final false
   inline void get_center_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_clearFlags, addr 0x486ea40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clearFlags, addr 0x4877a70, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ReflectionProbeClearFlags get_clearFlags();
 
-  /// @brief Method get_cullingMask, addr 0x486e9c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cullingMask, addr 0x48779f0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_cullingMask();
 
-  /// @brief Method get_customBakedTexture, addr 0x486ef7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_customBakedTexture, addr 0x4877fac, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_customBakedTexture();
 
-  /// @brief Method get_defaultTexture, addr 0x486f44c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTexture, addr 0x487847c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> get_defaultTexture();
 
-  /// @brief Method get_defaultTextureHDRDecodeValues, addr 0x486f388, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTextureHDRDecodeValues, addr 0x48783b8, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 get_defaultTextureHDRDecodeValues();
 
-  /// @brief Method get_defaultTextureHDRDecodeValues_Injected, addr 0x486f410, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTextureHDRDecodeValues_Injected, addr 0x4878440, size 0x3c, virtual false, abstract: false, final false
   static inline void get_defaultTextureHDRDecodeValues_Injected(::ByRef<::UnityEngine::Vector4> ret);
 
-  /// @brief Method get_farClipPlane, addr 0x486e5fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_farClipPlane, addr 0x487762c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_farClipPlane();
 
-  /// @brief Method get_hdr, addr 0x486e7b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hdr, addr 0x48777e8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hdr();
 
-  /// @brief Method get_importance, addr 0x486ed7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_importance, addr 0x4877dac, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_importance();
 
-  /// @brief Method get_intensity, addr 0x486e684, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x48776b4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_maxBakedCubemapResolution, addr 0x486f360, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_maxBakedCubemapResolution, addr 0x4878390, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_maxBakedCubemapResolution();
 
-  /// @brief Method get_minBakedCubemapResolution, addr 0x486f338, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_minBakedCubemapResolution, addr 0x4878368, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_minBakedCubemapResolution();
 
-  /// @brief Method get_mode, addr 0x486ecfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x4877d2c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ReflectionProbeMode get_mode();
 
-  /// @brief Method get_nearClipPlane, addr 0x486e574, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_nearClipPlane, addr 0x48775a4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_nearClipPlane();
 
-  /// @brief Method get_realtimeTexture, addr 0x486effc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeTexture, addr 0x487802c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_realtimeTexture();
 
-  /// @brief Method get_refreshMode, addr 0x486edfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_refreshMode, addr 0x4877e2c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ReflectionProbeRefreshMode get_refreshMode();
 
-  /// @brief Method get_renderDynamicObjects, addr 0x486e838, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_renderDynamicObjects, addr 0x4877868, size 0x3c, virtual false, abstract: false, final false
   inline bool get_renderDynamicObjects();
 
-  /// @brief Method get_resolution, addr 0x486e940, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_resolution, addr 0x4877970, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_resolution();
 
-  /// @brief Method get_shadowDistance, addr 0x486e8b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_shadowDistance, addr 0x48778e8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_shadowDistance();
 
-  /// @brief Method get_size, addr 0x486e304, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x4877334, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method get_size_Injected, addr 0x486e360, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x4877390, size 0x44, virtual false, abstract: false, final false
   inline void get_size_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_texture, addr 0x486f07c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x48780ac, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_texture();
 
-  /// @brief Method get_textureHDRDecodeValues, addr 0x486f0b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_textureHDRDecodeValues, addr 0x48780e8, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_textureHDRDecodeValues();
 
-  /// @brief Method get_textureHDRDecodeValues_Injected, addr 0x486f110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_textureHDRDecodeValues_Injected, addr 0x4878140, size 0x44, virtual false, abstract: false, final false
   inline void get_textureHDRDecodeValues_Injected(::ByRef<::UnityEngine::Vector4> ret);
 
-  /// @brief Method get_timeSlicingMode, addr 0x486ee7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_timeSlicingMode, addr 0x4877eac, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode get_timeSlicingMode();
 
-  /// @brief Method get_type, addr 0x486e284, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x48772b4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ReflectionProbeType get_type();
 
-  /// @brief Method remove_defaultReflectionSet, addr 0x486fac4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method remove_defaultReflectionSet, addr 0x4878af4, size 0x128, virtual false, abstract: false, final false
   static inline void remove_defaultReflectionSet(::System::Action_1<::UnityW<::UnityEngine::Cubemap>>* value);
 
-  /// @brief Method remove_defaultReflectionTexture, addr 0x486fbec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method remove_defaultReflectionTexture, addr 0x4878c1c, size 0x80, virtual false, abstract: false, final false
   static inline void remove_defaultReflectionTexture(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
-  /// @brief Method remove_reflectionProbeChanged, addr 0x486f564, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_reflectionProbeChanged, addr 0x4878594, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
 
   static inline void setStaticF_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::ReflectionProbe_ReflectionProbeEvent>* value);
@@ -491,79 +491,79 @@ public:
 
   static inline void setStaticF_registeredDefaultReflectionTextureActions(::System::Collections::Generic::List_1<::System::Action_1<::UnityW<::UnityEngine::Texture>>*>* value);
 
-  /// @brief Method set_backgroundColor, addr 0x486eb5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_backgroundColor, addr 0x4877b8c, size 0x54, virtual false, abstract: false, final false
   inline void set_backgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method set_backgroundColor_Injected, addr 0x486ebb0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_backgroundColor_Injected, addr 0x4877be0, size 0x44, virtual false, abstract: false, final false
   inline void set_backgroundColor_Injected(::ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_bakedTexture, addr 0x486ef38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bakedTexture, addr 0x4877f68, size 0x44, virtual false, abstract: false, final false
   inline void set_bakedTexture(::UnityEngine::Texture* value);
 
-  /// @brief Method set_blendDistance, addr 0x486ec30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_blendDistance, addr 0x4877c60, size 0x4c, virtual false, abstract: false, final false
   inline void set_blendDistance(float_t value);
 
-  /// @brief Method set_boxProjection, addr 0x486ecb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_boxProjection, addr 0x4877ce8, size 0x44, virtual false, abstract: false, final false
   inline void set_boxProjection(bool value);
 
-  /// @brief Method set_center, addr 0x486e4dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x487750c, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x486e530, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x4877560, size 0x44, virtual false, abstract: false, final false
   inline void set_center_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_clearFlags, addr 0x486ea7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_clearFlags, addr 0x4877aac, size 0x44, virtual false, abstract: false, final false
   inline void set_clearFlags(::UnityEngine::Rendering::ReflectionProbeClearFlags value);
 
-  /// @brief Method set_cullingMask, addr 0x486e9fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_cullingMask, addr 0x4877a2c, size 0x44, virtual false, abstract: false, final false
   inline void set_cullingMask(int32_t value);
 
-  /// @brief Method set_customBakedTexture, addr 0x486efb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_customBakedTexture, addr 0x4877fe8, size 0x44, virtual false, abstract: false, final false
   inline void set_customBakedTexture(::UnityEngine::Texture* value);
 
-  /// @brief Method set_farClipPlane, addr 0x486e638, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_farClipPlane, addr 0x4877668, size 0x4c, virtual false, abstract: false, final false
   inline void set_farClipPlane(float_t value);
 
-  /// @brief Method set_hdr, addr 0x486e7f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_hdr, addr 0x4877824, size 0x44, virtual false, abstract: false, final false
   inline void set_hdr(bool value);
 
-  /// @brief Method set_importance, addr 0x486edb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_importance, addr 0x4877de8, size 0x44, virtual false, abstract: false, final false
   inline void set_importance(int32_t value);
 
-  /// @brief Method set_intensity, addr 0x486e6c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x48776f0, size 0x4c, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
-  /// @brief Method set_mode, addr 0x486ed38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x4877d68, size 0x44, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::Rendering::ReflectionProbeMode value);
 
-  /// @brief Method set_nearClipPlane, addr 0x486e5b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_nearClipPlane, addr 0x48775e0, size 0x4c, virtual false, abstract: false, final false
   inline void set_nearClipPlane(float_t value);
 
-  /// @brief Method set_realtimeTexture, addr 0x486f038, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeTexture, addr 0x4878068, size 0x44, virtual false, abstract: false, final false
   inline void set_realtimeTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_refreshMode, addr 0x486ee38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_refreshMode, addr 0x4877e68, size 0x44, virtual false, abstract: false, final false
   inline void set_refreshMode(::UnityEngine::Rendering::ReflectionProbeRefreshMode value);
 
-  /// @brief Method set_renderDynamicObjects, addr 0x486e874, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_renderDynamicObjects, addr 0x48778a4, size 0x44, virtual false, abstract: false, final false
   inline void set_renderDynamicObjects(bool value);
 
-  /// @brief Method set_resolution, addr 0x486e97c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_resolution, addr 0x48779ac, size 0x44, virtual false, abstract: false, final false
   inline void set_resolution(int32_t value);
 
-  /// @brief Method set_shadowDistance, addr 0x486e8f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_shadowDistance, addr 0x4877924, size 0x4c, virtual false, abstract: false, final false
   inline void set_shadowDistance(float_t value);
 
-  /// @brief Method set_size, addr 0x486e3a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x48773d4, size 0x54, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_size_Injected, addr 0x486e3f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_size_Injected, addr 0x4877428, size 0x44, virtual false, abstract: false, final false
   inline void set_size_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_timeSlicingMode, addr 0x486eeb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_timeSlicingMode, addr 0x4877ee8, size 0x44, virtual false, abstract: false, final false
   inline void set_timeSlicingMode(::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode value);
 
-  /// @brief Method set_type, addr 0x486e2c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x48772f0, size 0x44, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::Rendering::ReflectionProbeType value);
 
 protected:
@@ -581,7 +581,7 @@ public:
   ReflectionProbe(ReflectionProbe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

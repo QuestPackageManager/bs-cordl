@@ -56,7 +56,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::Button_ButtonClickedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x495aba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4963bd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   Button_ButtonClickedEvent(Button_ButtonClickedEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15033 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -117,21 +117,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x495ad78, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4963da8, size 0xf4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UI::Button__OnFinishSubmit_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x495ae6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4963e9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x495ae74, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4963ea4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x495aeac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4963edc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x495ad74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4963da4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set__fadeTime_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x495ad4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4963d7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -191,7 +191,7 @@ public:
   Button__OnFinishSubmit_d__9(Button__OnFinishSubmit_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15034 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -251,16 +251,16 @@ public:
 
   static inline ::UnityEngine::UI::Button* New_ctor();
 
-  /// @brief Method OnFinishSubmit, addr 0x495acec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnFinishSubmit, addr 0x4963d1c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* OnFinishSubmit();
 
-  /// @brief Method OnPointerClick, addr 0x495ac50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x4963c80, size 0x24, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x495ac74, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x4963ca4, size 0x78, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Press, addr 0x495abb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Press, addr 0x4963be8, size 0x98, virtual false, abstract: false, final false
   inline void Press();
 
   constexpr ::UnityEngine::UI::Button_ButtonClickedEvent* const& __cordl_internal_get_m_OnClick() const;
@@ -269,10 +269,10 @@ public:
 
   constexpr void __cordl_internal_set_m_OnClick(::UnityEngine::UI::Button_ButtonClickedEvent* value);
 
-  /// @brief Method .ctor, addr 0x495ab14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4963b44, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_onClick, addr 0x495aba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onClick, addr 0x4963bd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Button_ButtonClickedEvent* get_onClick();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -284,7 +284,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
-  /// @brief Method set_onClick, addr 0x495abb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onClick, addr 0x4963be0, size 0x8, virtual false, abstract: false, final false
   inline void set_onClick(::UnityEngine::UI::Button_ButtonClickedEvent* value);
 
 protected:
@@ -302,7 +302,7 @@ public:
   Button(Button const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15035 };
 
   /// @brief Field m_OnClick, offset: 0x100, size: 0x8, def value: None
   ::UnityEngine::UI::Button_ButtonClickedEvent* ___m_OnClick;

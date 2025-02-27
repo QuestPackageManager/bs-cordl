@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set__playerCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ae68f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aef3a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_distance, addr 0x3ae68e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x3aef398, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_playerCount, addr 0x3ae68e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerCount, addr 0x3aef390, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playerCount();
 
 protected:
@@ -129,12 +129,12 @@ public:
   __declspec(property(get = __cordl_internal_get_spawnCenterDistanceWasFoundEvent,
                       put = __cordl_internal_set_spawnCenterDistanceWasFoundEvent)) ::System::Action_1<float_t>* spawnCenterDistanceWasFoundEvent;
 
-  /// @brief Method CalculateSpawnCenterPosition, addr 0x3ae6744, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CalculateSpawnCenterPosition, addr 0x3aef1f4, size 0x164, virtual false, abstract: false, final false
   inline float_t CalculateSpawnCenterPosition(int32_t numberOfPlayers);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnCenter* New_ctor();
 
-  /// @brief Method ReportAndSaveSpawnCenterDistance, addr 0x3ae68a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReportAndSaveSpawnCenterDistance, addr 0x3aef358, size 0x28, virtual false, abstract: false, final false
   inline void ReportAndSaveSpawnCenterDistance(float_t distance);
 
   constexpr float_t const& __cordl_internal_get__defaultDistnace() const;
@@ -170,19 +170,19 @@ public:
 
   constexpr void __cordl_internal_set_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3ae68d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aef380, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x3ae65e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x3aef094, size 0xb0, virtual false, abstract: false, final false
   inline void add_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_spawnCenterDistance, addr 0x3ae65d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCenterDistance, addr 0x3aef084, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spawnCenterDistance();
 
-  /// @brief Method get_spawnCenterDistanceWasFound, addr 0x3ae65dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCenterDistanceWasFound, addr 0x3aef08c, size 0x8, virtual false, abstract: false, final false
   inline bool get_spawnCenterDistanceWasFound();
 
-  /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x3ae6694, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x3aef144, size 0xb0, virtual false, abstract: false, final false
   inline void remove_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
 protected:

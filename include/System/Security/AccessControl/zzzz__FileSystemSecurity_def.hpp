@@ -38,7 +38,7 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE FileSystemSecurity : public ::System::Security::AccessControl::NativeObjectSecurity {
 public:
   // Declarations
-  /// @brief Method AccessRuleFactory, addr 0x3cca08c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method AccessRuleFactory, addr 0x3cd2f90, size 0x98, virtual true, abstract: false, final true
   inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int32_t accessMask, bool isInherited,
                                                                           ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                           ::System::Security::AccessControl::PropagationFlags propagationFlags,
@@ -46,7 +46,7 @@ public:
 
   static inline ::System::Security::AccessControl::FileSystemSecurity* New_ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor, addr 0x3cc9e74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd2d78, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
 protected:

@@ -31,7 +31,7 @@ public:
   IProperty_1(IProperty_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

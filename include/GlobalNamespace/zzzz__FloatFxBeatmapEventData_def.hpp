@@ -46,15 +46,15 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
-  /// @brief Method GetCopy, addr 0x2243784, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x22475bc, size 0xb0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x2243834, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x224766c, size 0x138, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::FloatFxBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method UpdateBy, addr 0x2243760, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateBy, addr 0x2247598, size 0x24, virtual false, abstract: false, final false
   inline void UpdateBy(::GlobalNamespace::FloatFxBeatmapEventData* other);
 
   constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType_k__BackingField() const;
@@ -69,23 +69,23 @@ public:
 
   constexpr void __cordl_internal_set__value_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x22436e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224751c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* getStaticF__defaults();
 
-  /// @brief Method get_easeType, addr 0x22436d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x224750c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_value, addr 0x22436c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x22474fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* value);
 
-  /// @brief Method set_easeType, addr 0x22436dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x2247514, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method set_value, addr 0x22436cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x2247504, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   FloatFxBeatmapEventData(FloatFxBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17056 };
 
   /// @brief Field <value>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   float_t ____value_k__BackingField;

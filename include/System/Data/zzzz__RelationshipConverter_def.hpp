@@ -30,16 +30,16 @@ namespace System::Data {
 class CORDL_TYPE RelationshipConverter : public ::System::ComponentModel::ExpandableObjectConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x418a0d8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x4193108, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x418a1a0, size 0xac8, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x41931d0, size 0xac8, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Data::RelationshipConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x418a0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4193100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   RelationshipConverter(RelationshipConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

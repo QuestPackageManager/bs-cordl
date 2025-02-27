@@ -211,7 +211,7 @@ public:
   Page_DataSet_1(Page_DataSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
 
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
@@ -284,10 +284,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x49be76c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49c779c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49bf534, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49c8564, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
@@ -322,19 +322,19 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::UnityEngine::UIElements::UIR::Page_DataSet_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x49bb4cc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c44fc, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
-  /// @brief Method get_disposed, addr 0x49bf520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49c8550, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_isEmpty, addr 0x49bb61c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x49c464c, size 0x48, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x49bf528, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49c8558, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -352,7 +352,7 @@ public:
   Page(Page const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6430 };
 
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;

@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__instanceTransforms(::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> value);
 
-  /// @brief Method .ctor, addr 0x3a678b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a70360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   HEU_LoadBufferInstancer(HEU_LoadBufferInstancer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11795 };
 
   /// @brief Field _instanceTransforms, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> ____instanceTransforms;

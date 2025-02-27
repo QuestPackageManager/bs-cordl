@@ -55,15 +55,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4a506b8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a596e8, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4a5071c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a5974c, size 0x88, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::Painter2D* New_ctor(::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
-  /// @brief Method Reset, addr 0x4a50674, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a596a4, size 0x44, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::MeshGenerationContext* const& __cordl_internal_get_m_Ctx() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Handle(::UnityEngine::UIElements::SafeHandleAccess value);
 
-  /// @brief Method .ctor, addr 0x4a50530, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a59560, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
   static inline bool getStaticF__isPainterActive_k__BackingField();
@@ -112,7 +112,7 @@ public:
 
   static inline void setStaticF_s_StrokeMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_isPainterActive, addr 0x4a507a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_isPainterActive, addr 0x4a597d4, size 0x60, virtual false, abstract: false, final false
   static inline void set_isPainterActive(bool value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   Painter2D(Painter2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6040 };
 
   /// @brief Field m_Ctx, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::MeshGenerationContext* ___m_Ctx;

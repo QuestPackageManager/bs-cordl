@@ -69,7 +69,7 @@ public:
   /// @brief Field NItype, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_NItype, put = __cordl_internal_set_NItype)) ::System::Type* NItype;
 
-  /// @brief Method Init, addr 0x3d1408c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d1cf90, size 0x20, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* New_ctor();
@@ -152,16 +152,16 @@ public:
 
   constexpr void __cordl_internal_set_NItype(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3d140ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1cfb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsSealed, addr 0x3d13df0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsSealed, addr 0x3d1ccf4, size 0x4c, virtual false, abstract: false, final false
   inline bool get_IsSealed();
 
-  /// @brief Method get_NIname, addr 0x3d18260, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_NIname, addr 0x3d21164, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_NIname();
 
-  /// @brief Method set_NIname, addr 0x3d18298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NIname, addr 0x3d2119c, size 0x8, virtual false, abstract: false, final false
   inline void set_NIname(::StringW value);
 
 protected:

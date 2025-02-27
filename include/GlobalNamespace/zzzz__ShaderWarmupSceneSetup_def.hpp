@@ -24,7 +24,7 @@ public:
   /// @brief Field _sharedWarmupColorScheme, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sharedWarmupColorScheme, put = __cordl_internal_set__sharedWarmupColorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> _sharedWarmupColorScheme;
 
-  /// @brief Method InstallBindings, addr 0x3b44bc0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b4d670, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ShaderWarmupSceneSetup* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__sharedWarmupColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
-  /// @brief Method .ctor, addr 0x3b44c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4d728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

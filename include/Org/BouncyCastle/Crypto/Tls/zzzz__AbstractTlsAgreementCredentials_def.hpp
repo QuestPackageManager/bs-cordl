@@ -35,7 +35,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e1030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e4d68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials"

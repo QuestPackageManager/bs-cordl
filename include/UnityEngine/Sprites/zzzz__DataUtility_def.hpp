@@ -27,16 +27,16 @@ namespace UnityEngine::Sprites {
 class CORDL_TYPE DataUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInnerUV, addr 0x48c0a84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetInnerUV, addr 0x48c9ab4, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetMinSize, addr 0x48c0ab4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetMinSize, addr 0x48c9ae4, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetOuterUV, addr 0x48c0a94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetOuterUV, addr 0x48c9ac4, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetPadding, addr 0x48c0aa4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x48c9ad4, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* sprite);
 
 protected:
@@ -54,7 +54,7 @@ public:
   DataUtility(DataUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10970 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

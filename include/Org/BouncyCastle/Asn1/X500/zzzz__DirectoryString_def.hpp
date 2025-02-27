@@ -42,20 +42,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1String"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1String*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x25019c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25056fc, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x2501718, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2505450, size 0x284, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetString, addr 0x2501aa0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetString, addr 0x25057d8, size 0x20, virtual true, abstract: false, final true
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* New_ctor(::Org::BouncyCastle::Asn1::DerStringBase* str);
 
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* New_ctor(::StringW str);
 
-  /// @brief Method ToAsn1Object, addr 0x2501ac0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25057f8, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerStringBase* const& __cordl_internal_get_str() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_str(::Org::BouncyCastle::Asn1::DerStringBase* value);
 
-  /// @brief Method .ctor, addr 0x250199c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25056d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerStringBase* str);
 
-  /// @brief Method .ctor, addr 0x2501a2c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505764, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

@@ -36,13 +36,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method .ctor, addr 0x2648914, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c64c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x264891c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c654, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
-  /// @brief Method .ctor, addr 0x2648918, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c650, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
 protected:

@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__preferredExtension_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x491c07c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49250ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW preferredExtension, ::ArrayW<::StringW, ::Array<::StringW>*> otherExtensions);
 
 protected:
@@ -61,7 +61,7 @@ public:
   AssetFileNameExtensionAttribute(AssetFileNameExtensionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18697 };
 
   /// @brief Field <preferredExtension>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____preferredExtension_k__BackingField;

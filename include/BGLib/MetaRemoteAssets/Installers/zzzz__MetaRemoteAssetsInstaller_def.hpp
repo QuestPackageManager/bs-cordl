@@ -24,10 +24,10 @@ public:
   /// @brief Field _appInitSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__appInitSetupData, put = __cordl_internal_set__appInitSetupData)) ::GlobalNamespace::AppInitSetupData* _appInitSetupData;
 
-  /// @brief Method InstallBindings, addr 0x22abcbc, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22af9f4, size 0x168, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRemoteCatalogLoader, addr 0x22abe24, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InstallRemoteCatalogLoader, addr 0x22afb5c, size 0x88, virtual false, abstract: false, final false
   inline void InstallRemoteCatalogLoader();
 
   static inline ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller* New_ctor();
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__appInitSetupData(::GlobalNamespace::AppInitSetupData* value);
 
-  /// @brief Method .ctor, addr 0x22abeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22afbe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   MetaRemoteAssetsInstaller(MetaRemoteAssetsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18370 };
 
   /// @brief Field _appInitSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::AppInitSetupData* ____appInitSetupData;

@@ -59,16 +59,16 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x270a278, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270e5bc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::BeatmapEventType eventType, int32_t value, float_t floatValue);
 
-  /// @brief Method get_eventType, addr 0x270a260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventType, addr 0x270e5a4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::BeatmapEventType get_eventType();
 
-  /// @brief Method get_floatValue, addr 0x270a270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x270e5b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_value, addr 0x270a268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x270e5ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -86,7 +86,7 @@ public:
   BasicEventData(BasicEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13417 };
 
   /// @brief Field et, offset: 0x14, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::BeatmapEventType ___et;

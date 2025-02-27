@@ -133,39 +133,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
-  /// @brief Method AssignDefaultFont, addr 0x4ad1670, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AssignDefaultFont, addr 0x4ada6a0, size 0x70, virtual false, abstract: false, final false
   inline void AssignDefaultFont();
 
-  /// @brief Method AssignDefaultFontIfNecessary, addr 0x4ad16e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AssignDefaultFontIfNecessary, addr 0x4ada710, size 0xbc, virtual false, abstract: false, final false
   inline void AssignDefaultFontIfNecessary();
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4ad20e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4adb114, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x4ad20e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x4adb118, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method FontTextureChanged, addr 0x4ad0bf4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method FontTextureChanged, addr 0x4ad9c24, size 0x10c, virtual false, abstract: false, final false
   inline void FontTextureChanged();
 
-  /// @brief Method GetGenerationSettings, addr 0x4ad179c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetGenerationSettings, addr 0x4ada7cc, size 0x1f0, virtual false, abstract: false, final false
   inline ::UnityEngine::TextGenerationSettings GetGenerationSettings(::UnityEngine::Vector2 extents);
 
-  /// @brief Method GetTextAnchorPivot, addr 0x4ad198c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetTextAnchorPivot, addr 0x4ada9bc, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetTextAnchorPivot(::UnityEngine::TextAnchor anchor);
 
   static inline ::UnityEngine::UI::Text* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4ad1584, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4ada5b4, size 0x64, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4ad1508, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4ada538, size 0x7c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPopulateMesh, addr 0x4ad19f8, size 0x5dc, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x4adaa28, size 0x5dc, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method UpdateGeometry, addr 0x4ad15e8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x4ada618, size 0x88, virtual true, abstract: false, final false
   inline void UpdateGeometry();
 
   constexpr bool const& __cordl_internal_get_m_DisableFontTextureRebuiltCallback() const;
@@ -204,81 +204,81 @@ public:
 
   constexpr void __cordl_internal_set_m_TextCacheForLayout(::UnityEngine::TextGenerator* value);
 
-  /// @brief Method .ctor, addr 0x4ad08ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad98dc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_s_DefaultText();
 
-  /// @brief Method get_alignByGeometry, addr 0x4ad112c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_alignByGeometry, addr 0x4ada15c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_alignByGeometry();
 
-  /// @brief Method get_alignment, addr 0x4ad10bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x4ada0ec, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAnchor get_alignment();
 
-  /// @brief Method get_cachedTextGenerator, addr 0x4ad0944, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_cachedTextGenerator, addr 0x4ad9974, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::TextGenerator* get_cachedTextGenerator();
 
-  /// @brief Method get_cachedTextGeneratorForLayout, addr 0x4ad09cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_cachedTextGeneratorForLayout, addr 0x4ad99fc, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::TextGenerator* get_cachedTextGeneratorForLayout();
 
-  /// @brief Method get_flexibleHeight, addr 0x4ad2298, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleHeight, addr 0x4adb2c8, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x4ad21d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleWidth, addr 0x4adb200, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_font, addr 0x4ad0bd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_font, addr 0x4ad9c08, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Font> get_font();
 
-  /// @brief Method get_fontSize, addr 0x4ad1190, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x4ada1c0, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_fontSize();
 
-  /// @brief Method get_fontStyle, addr 0x4ad1350, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fontStyle, addr 0x4ada380, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::FontStyle get_fontStyle();
 
-  /// @brief Method get_horizontalOverflow, addr 0x4ad1200, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalOverflow, addr 0x4ada230, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::HorizontalWrapMode get_horizontalOverflow();
 
-  /// @brief Method get_layoutPriority, addr 0x4ad22a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_layoutPriority, addr 0x4adb2d0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_lineSpacing, addr 0x4ad12e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_lineSpacing, addr 0x4ada310, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_lineSpacing();
 
-  /// @brief Method get_mainTexture, addr 0x4ad0a30, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method get_mainTexture, addr 0x4ad9a60, size 0x1a8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
-  /// @brief Method get_minHeight, addr 0x4ad21d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x4adb208, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x4ad20ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x4adb11c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_pixelsPerUnit, addr 0x4ad13c0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method get_pixelsPerUnit, addr 0x4ada3f0, size 0x148, virtual false, abstract: false, final false
   inline float_t get_pixelsPerUnit();
 
-  /// @brief Method get_preferredHeight, addr 0x4ad21e0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x4adb210, size 0xb8, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x4ad20f4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x4adb124, size 0xdc, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_resizeTextForBestFit, addr 0x4ad0f60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_resizeTextForBestFit, addr 0x4ad9f90, size 0x1c, virtual false, abstract: false, final false
   inline bool get_resizeTextForBestFit();
 
-  /// @brief Method get_resizeTextMaxSize, addr 0x4ad104c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_resizeTextMaxSize, addr 0x4ada07c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_resizeTextMaxSize();
 
-  /// @brief Method get_resizeTextMinSize, addr 0x4ad0fdc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_resizeTextMinSize, addr 0x4ada00c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_resizeTextMinSize();
 
-  /// @brief Method get_supportRichText, addr 0x4ad0ee4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_supportRichText, addr 0x4ad9f14, size 0x1c, virtual false, abstract: false, final false
   inline bool get_supportRichText();
 
-  /// @brief Method get_text, addr 0x4ad0e14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_text, addr 0x4ad9e44, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_verticalOverflow, addr 0x4ad1270, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_verticalOverflow, addr 0x4ada2a0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::VerticalWrapMode get_verticalOverflow();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
@@ -286,43 +286,43 @@ public:
 
   static inline void setStaticF_s_DefaultText(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method set_alignByGeometry, addr 0x4ad1148, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_alignByGeometry, addr 0x4ada178, size 0x48, virtual false, abstract: false, final false
   inline void set_alignByGeometry(bool value);
 
-  /// @brief Method set_alignment, addr 0x4ad10d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x4ada108, size 0x54, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::TextAnchor value);
 
-  /// @brief Method set_font, addr 0x4ad0d00, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method set_font, addr 0x4ad9d30, size 0x114, virtual false, abstract: false, final false
   inline void set_font(::UnityEngine::Font* value);
 
-  /// @brief Method set_fontSize, addr 0x4ad11ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x4ada1dc, size 0x54, virtual false, abstract: false, final false
   inline void set_fontSize(int32_t value);
 
-  /// @brief Method set_fontStyle, addr 0x4ad136c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_fontStyle, addr 0x4ada39c, size 0x54, virtual false, abstract: false, final false
   inline void set_fontStyle(::UnityEngine::FontStyle value);
 
-  /// @brief Method set_horizontalOverflow, addr 0x4ad121c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalOverflow, addr 0x4ada24c, size 0x54, virtual false, abstract: false, final false
   inline void set_horizontalOverflow(::UnityEngine::HorizontalWrapMode value);
 
-  /// @brief Method set_lineSpacing, addr 0x4ad12fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_lineSpacing, addr 0x4ada32c, size 0x54, virtual false, abstract: false, final false
   inline void set_lineSpacing(float_t value);
 
-  /// @brief Method set_resizeTextForBestFit, addr 0x4ad0f7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_resizeTextForBestFit, addr 0x4ad9fac, size 0x60, virtual false, abstract: false, final false
   inline void set_resizeTextForBestFit(bool value);
 
-  /// @brief Method set_resizeTextMaxSize, addr 0x4ad1068, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_resizeTextMaxSize, addr 0x4ada098, size 0x54, virtual false, abstract: false, final false
   inline void set_resizeTextMaxSize(int32_t value);
 
-  /// @brief Method set_resizeTextMinSize, addr 0x4ad0ff8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_resizeTextMinSize, addr 0x4ada028, size 0x54, virtual false, abstract: false, final false
   inline void set_resizeTextMinSize(int32_t value);
 
-  /// @brief Method set_supportRichText, addr 0x4ad0f00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_supportRichText, addr 0x4ad9f30, size 0x60, virtual false, abstract: false, final false
   inline void set_supportRichText(bool value);
 
-  /// @brief Method set_text, addr 0x4ad0e1c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method set_text, addr 0x4ad9e4c, size 0xc8, virtual true, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_verticalOverflow, addr 0x4ad128c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_verticalOverflow, addr 0x4ada2bc, size 0x54, virtual false, abstract: false, final false
   inline void set_verticalOverflow(::UnityEngine::VerticalWrapMode value);
 
 protected:
@@ -340,7 +340,7 @@ public:
   Text(Text const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15144 };
 
   /// @brief Field m_FontData, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::UI::FontData* ___m_FontData;

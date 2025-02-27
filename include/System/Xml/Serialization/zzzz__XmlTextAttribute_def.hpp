@@ -35,7 +35,7 @@ public:
   /// @brief Field type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x4393718, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x439c748, size 0x90, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlTextAttribute* New_ctor();
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x43936b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439c6e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DataType, addr 0x43936bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x439c6ec, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_Type, addr 0x4393710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x439c740, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -76,7 +76,7 @@ public:
   XmlTextAttribute(XmlTextAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7454 };
 
   /// @brief Field dataType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___dataType;

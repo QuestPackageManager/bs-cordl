@@ -59,7 +59,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3aa381c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3aac2cc, size 0xec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
 
   static inline ::HoudiniEngineUnity::HEU_DetailPrototype* New_ctor();
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__renderMode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3aa3720, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aac1d0, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
@@ -151,7 +151,7 @@ public:
   HEU_DetailPrototype(HEU_DetailPrototype const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11943 };
 
   /// @brief Field _prototypePrefab, offset: 0x10, size: 0x8, def value: None
   ::StringW ____prototypePrefab;

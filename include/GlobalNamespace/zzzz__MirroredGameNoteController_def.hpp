@@ -50,7 +50,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MirroredGameNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3aef4e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af7f98, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
 
-  /// @brief Method Mirror, addr 0x3aef2e8, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x3af7d98, size 0x150, virtual true, abstract: false, final false
   inline void Mirror(::GlobalNamespace::IGameNoteMirrorable* noteController);
 
   static inline ::GlobalNamespace::MirroredGameNoteController* New_ctor();
@@ -136,18 +136,18 @@ public:
 
   constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
-  /// @brief Method .ctor, addr 0x3aef438, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af7ee8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x3aef038, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x3af7ae8, size 0xb0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
   static inline int32_t getStaticF__colorId();
 
-  /// @brief Method get_noteMovement, addr 0x3aef198, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x3af7c48, size 0xac, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x3aef244, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x3af7cf4, size 0xa4, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>"
@@ -160,7 +160,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
-  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x3aef0e8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x3af7b98, size 0xb0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
   static inline void setStaticF__colorId(int32_t value);

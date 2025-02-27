@@ -36,13 +36,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil* New_ctor();
 
-  /// @brief Method UnwrapperForName, addr 0x23b264c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method UnwrapperForName, addr 0x23b6384, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IKeyUnwrapper* UnwrapperForName(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method WrapperForName, addr 0x23b1e44, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method WrapperForName, addr 0x23b5b7c, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IKeyWrapper* WrapperForName(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x23b287c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b65b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_providerMap();

@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4af6f8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afffbc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
-  /// @brief Method get_CreateConstructorReferences, addr 0x4af6f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateConstructorReferences, addr 0x4afffa8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences, addr 0x4af6f80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateConstructorReferences, addr 0x4afffb0, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   AspTypePropertyAttribute(AspTypePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18514 };
 
   /// @brief Field <CreateConstructorReferences>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____CreateConstructorReferences_k__BackingField;

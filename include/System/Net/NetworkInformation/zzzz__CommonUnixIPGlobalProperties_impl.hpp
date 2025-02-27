@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43f2b7c;
+  constexpr static std::size_t addrs = 0x43fbbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::*)()>(
     &::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::get_DomainName)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x43f2c08;
+  constexpr static std::size_t addrs = 0x43fbc38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::*)()>(
     &::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f2d94;
+  constexpr static std::size_t addrs = 0x43fbdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -40,28 +40,28 @@ public:
 
   __declspec(property(get = get_PairCount)) int32_t PairCount;
 
-  /// @brief Method GetContactPair, addr 0x4908998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetContactPair, addr 0x49119c8, size 0x4, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::ContactPair> GetContactPair(int32_t index);
 
-  /// @brief Method GetContactPair_Internal, addr 0x491414c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetContactPair_Internal, addr 0x491d17c, size 0x80, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::ContactPair> GetContactPair_Internal(int32_t index);
 
-  /// @brief Method get_Body, addr 0x48f8f40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x4901f70, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_Body();
 
-  /// @brief Method get_BodyInstanceID, addr 0x4914134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BodyInstanceID, addr 0x491d164, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BodyInstanceID();
 
-  /// @brief Method get_HasRemovedBody, addr 0x4908988, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasRemovedBody, addr 0x49119b8, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasRemovedBody();
 
-  /// @brief Method get_OtherBody, addr 0x48f8ec8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_OtherBody, addr 0x4901ef8, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_OtherBody();
 
-  /// @brief Method get_OtherBodyInstanceID, addr 0x491413c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherBodyInstanceID, addr 0x491d16c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OtherBodyInstanceID();
 
-  /// @brief Method get_PairCount, addr 0x4914144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PairCount, addr 0x491d174, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PairCount();
 
   // Ctor Parameters []
@@ -75,7 +75,7 @@ public:
                               ::UnityEngine::Vector3 m_RelativeVelocity) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15773 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

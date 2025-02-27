@@ -106,42 +106,42 @@ public:
   __declspec(property(get = __cordl_internal_get_updatedBindings,
                       put = __cordl_internal_set_updatedBindings)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* updatedBindings;
 
-  /// @brief Method CurrentTime, addr 0x4975198, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CurrentTime, addr 0x497e1c8, size 0x50, virtual false, abstract: false, final false
   static inline int64_t CurrentTime();
 
-  /// @brief Method GetAdditionalBinding, addr 0x4974cd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetAdditionalBinding, addr 0x497dd04, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IBinding* GetAdditionalBinding(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetBindingObjectFromElement, addr 0x4974b9c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetBindingObjectFromElement, addr 0x497dbcc, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IBinding* GetBindingObjectFromElement(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeBindingsUpdater* New_ctor();
 
-  /// @brief Method OnHierarchyChange, addr 0x4975180, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnHierarchyChange, addr 0x497e1b0, size 0x18, virtual true, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method OnVersionChanged, addr 0x4975088, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x497e0b8, size 0xf8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method PerformTrackingOperations, addr 0x49751e8, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method PerformTrackingOperations, addr 0x497e218, size 0x288, virtual false, abstract: false, final false
   inline void PerformTrackingOperations();
 
-  /// @brief Method StartTracking, addr 0x4974d5c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartTracking, addr 0x497dd8c, size 0x80, virtual false, abstract: false, final false
   inline void StartTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StartTrackingRecursive, addr 0x4974e64, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingRecursive, addr 0x497de94, size 0x118, virtual false, abstract: false, final false
   inline void StartTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTracking, addr 0x4974ddc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StopTracking, addr 0x497de0c, size 0x80, virtual false, abstract: false, final false
   inline void StopTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTrackingRecursive, addr 0x4974f7c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method StopTrackingRecursive, addr 0x497dfac, size 0x10c, virtual false, abstract: false, final false
   inline void StopTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x4975470, size 0x5b8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x497e4a0, size 0x5b8, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateBindings, addr 0x4975a28, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method UpdateBindings, addr 0x497ea58, size 0x530, virtual false, abstract: false, final false
   inline void UpdateBindings();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* const& __cordl_internal_get__temporaryObjectCache_k__BackingField() const;
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_updatedBindings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* value);
 
-  /// @brief Method .ctor, addr 0x4975f58, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497ef88, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__disableBindingsThrottling_k__BackingField();
@@ -205,13 +205,13 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_disableBindingsThrottling, addr 0x4974b44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_disableBindingsThrottling, addr 0x497db74, size 0x58, virtual false, abstract: false, final false
   static inline bool get_disableBindingsThrottling();
 
-  /// @brief Method get_profilerMarker, addr 0x4974aec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x497db1c, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_temporaryObjectCache, addr 0x4974e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_temporaryObjectCache, addr 0x497de8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* get_temporaryObjectCache();
 
   static inline void setStaticF__disableBindingsThrottling_k__BackingField(bool value);
@@ -245,7 +245,7 @@ public:
   VisualTreeBindingsUpdater(VisualTreeBindingsUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5462 };
 
   /// @brief Field m_ElementsWithBindings, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* ___m_ElementsWithBindings;

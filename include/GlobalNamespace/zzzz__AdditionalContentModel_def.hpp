@@ -84,7 +84,7 @@ public:
   static ::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12761 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -121,7 +121,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x26a4bc0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x26a88f8, size 0xa4, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method GetLevelDataVersionInternalAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -133,19 +133,19 @@ public:
   /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelDataVersionAsync, addr 0x26a4d00, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelDataVersionAsync, addr 0x26a8a38, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* IAdditionalContentEntitlementModel_GetLevelDataVersionAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x26a4ce0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x26a8a18, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetLevelEntitlementStatusAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x26a4cf0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x26a8a28, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetPackEntitlementStatusAsync(::StringW levelPackId,
                                                                                                                                                     ::System::Threading::CancellationToken token);
 
-  /// @brief Method InvalidateData, addr 0x26a4ca4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InvalidateData, addr 0x26a89dc, size 0x3c, virtual false, abstract: false, final false
   inline void InvalidateData();
 
   /// @brief Method InvalidateDataInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -156,7 +156,7 @@ public:
 
   static inline ::GlobalNamespace::AdditionalContentModel* New_ctor();
 
-  /// @brief Method OnApplicationFocusChanged, addr 0x26a4c64, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocusChanged, addr 0x26a899c, size 0x40, virtual false, abstract: false, final false
   inline void OnApplicationFocusChanged(bool hasFocus);
 
   /// @brief Method OpenLevelPackProductStoreAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -174,10 +174,10 @@ public:
 
   constexpr void __cordl_internal_set_didInvalidateDataEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26a4b10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a8848, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInvalidateDataEvent, addr 0x26a49d8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didInvalidateDataEvent, addr 0x26a8710, size 0x9c, virtual true, abstract: false, final true
   inline void add_didInvalidateDataEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IAdditionalContentEntitlementModel"
@@ -189,7 +189,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_didInvalidateDataEvent, addr 0x26a4a74, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didInvalidateDataEvent, addr 0x26a87ac, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didInvalidateDataEvent(::System::Action* value);
 
 protected:
@@ -207,7 +207,7 @@ public:
   AdditionalContentModel(AdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12762 };
 
   /// @brief Field didInvalidateDataEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didInvalidateDataEvent;

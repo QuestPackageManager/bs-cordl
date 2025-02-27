@@ -20,10 +20,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPriority {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3acca6c, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ad551c, size 0x26c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3acca60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ad5510, size 0xc, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPriority get_empty();
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr SDKPriority(int8_t pose, int8_t clipPlane, int8_t stage, int8_t resolution, int8_t feature, int8_t nearFarAdjustment, int8_t groundPlane, int8_t reserved2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17331 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

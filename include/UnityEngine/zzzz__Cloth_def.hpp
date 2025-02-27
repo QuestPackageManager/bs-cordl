@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-  /// @brief Method set_externalAcceleration, addr 0x48630a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration, addr 0x486c0d4, size 0x54, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_externalAcceleration_Injected, addr 0x48630f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration_Injected, addr 0x486c128, size 0x44, virtual false, abstract: false, final false
   inline void set_externalAcceleration_Injected(::ByRef<::UnityEngine::Vector3> value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   Cloth(Cloth const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19053 };
 
   /// @brief Field <useContinuousCollision>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____useContinuousCollision_k__BackingField;

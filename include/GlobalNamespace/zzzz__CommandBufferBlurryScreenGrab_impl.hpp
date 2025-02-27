@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CommandBuffer* (
     ::GlobalNamespace::CommandBufferBlurryScreenGrab::*)(::UnityEngine::Camera*)>(&::GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4085444;
+  constexpr static std::size_t addrs = 0x408e444;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
         &::GlobalNamespace::CommandBufferBlurryScreenGrab::CamerasDict)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4085540;
+  constexpr static std::size_t addrs = 0x408e540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CameraEvent (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
     &::GlobalNamespace::CommandBufferBlurryScreenGrab::CommandBufferCameraEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4085598;
+  constexpr static std::size_t addrs = 0x408e598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
     &::GlobalNamespace::CommandBufferBlurryScreenGrab::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40855a0;
+  constexpr static std::size_t addrs = 0x408e5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferBlurryScreenGrab*>::get(),

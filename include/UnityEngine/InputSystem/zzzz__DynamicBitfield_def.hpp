@@ -20,19 +20,19 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE DynamicBitfield {
 public:
   // Declarations
-  /// @brief Method BitCountToULongCount, addr 0x45e816c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BitCountToULongCount, addr 0x45f119c, size 0x18, virtual false, abstract: false, final false
   static inline int32_t BitCountToULongCount(int32_t bitCount);
 
-  /// @brief Method ClearBit, addr 0x45e828c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearBit, addr 0x45f12bc, size 0x98, virtual false, abstract: false, final false
   inline void ClearBit(int32_t bitIndex);
 
-  /// @brief Method SetBit, addr 0x45e8184, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetBit, addr 0x45f11b4, size 0x98, virtual false, abstract: false, final false
   inline void SetBit(int32_t bitIndex);
 
-  /// @brief Method SetLength, addr 0x45e80f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetLength, addr 0x45f1128, size 0x74, virtual false, abstract: false, final false
   inline void SetLength(int32_t newLength);
 
-  /// @brief Method TestBit, addr 0x45e821c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TestBit, addr 0x45f124c, size 0x70, virtual false, abstract: false, final false
   inline bool TestBit(int32_t bitIndex);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr DynamicBitfield(::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> array, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6729 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

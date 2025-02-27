@@ -212,7 +212,7 @@ public:
   static ::Newtonsoft::Json::JsonReader_State const Start;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10077 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -239,10 +239,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e8681c, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e8f720, size 0x294, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e86ab0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e8f9b4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -261,7 +261,7 @@ public:
                                                                ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10078 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -308,10 +308,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e86b2c, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e8fa30, size 0x340, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e86e6c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e8fd70, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -330,7 +330,7 @@ public:
                                                         ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10079 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -377,10 +377,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e86ee8, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e8fdec, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e87274, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e90178, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -401,7 +401,7 @@ public:
                                                          ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10080 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -453,10 +453,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e872f0, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e901f4, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e87554, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e90458, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -475,7 +475,7 @@ public:
                                                       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10081 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -522,10 +522,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e875bc, size 0x3a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e904c0, size 0x3a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e87964, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e90868, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -545,7 +545,7 @@ public:
                                        int32_t _depth_5__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10082 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -685,180 +685,180 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x3e8642c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3e8f330, size 0x14, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CreateUnexpectedEndException, addr 0x3e85fa0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateUnexpectedEndException, addr 0x3e8eea4, size 0x4c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedEndException();
 
-  /// @brief Method Dispose, addr 0x3e86408, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3e8f30c, size 0x24, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetContentToken, addr 0x3e8343c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetContentToken, addr 0x3e8c340, size 0x7c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken GetContentToken();
 
-  /// @brief Method GetPosition, addr 0x3e82b64, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x3e8ba68, size 0xa4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonPosition GetPosition(int32_t depth);
 
-  /// @brief Method GetTypeForCloseToken, addr 0x3e86204, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeForCloseToken, addr 0x3e8f108, size 0xa8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType GetTypeForCloseToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method MoveToContent, addr 0x3e867b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MoveToContent, addr 0x3e8f6bc, size 0x64, virtual false, abstract: false, final false
   inline bool MoveToContent();
 
-  /// @brief Method MoveToContentAsync, addr 0x3e82560, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method MoveToContentAsync, addr 0x3e8b464, size 0x94, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MoveToContentAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MoveToContentFromNonContentAsync, addr 0x3e825f4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method MoveToContentFromNonContentAsync, addr 0x3e8b4f8, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MoveToContentFromNonContentAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Newtonsoft::Json::JsonReader* New_ctor();
 
-  /// @brief Method Peek, addr 0x3e83074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x3e8bf78, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType Peek();
 
-  /// @brief Method Pop, addr 0x3e82f54, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x3e8be58, size 0x120, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType Pop();
 
-  /// @brief Method Push, addr 0x3e82c98, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x3e8bb9c, size 0x29c, virtual false, abstract: false, final false
   inline void Push(::Newtonsoft::Json::JsonContainerType value);
 
   /// @brief Method Read, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAndAssert, addr 0x3e86440, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadAndAssert, addr 0x3e8f344, size 0x58, virtual false, abstract: false, final false
   inline void ReadAndAssert();
 
-  /// @brief Method ReadAndMoveToContent, addr 0x3e86784, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ReadAndMoveToContent, addr 0x3e8f688, size 0x34, virtual false, abstract: false, final false
   inline bool ReadAndMoveToContent();
 
-  /// @brief Method ReadAndMoveToContentAsync, addr 0x3e82468, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ReadAndMoveToContentAsync, addr 0x3e8b36c, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadAndMoveToContentAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadArrayElementIntoByteArrayReportDone, addr 0x3e8427c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ReadArrayElementIntoByteArrayReportDone, addr 0x3e8d180, size 0x210, virtual false, abstract: false, final false
   inline bool ReadArrayElementIntoByteArrayReportDone(::System::Collections::Generic::List_1<uint8_t>* buffer);
 
-  /// @brief Method ReadArrayIntoByteArray, addr 0x3e8412c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadArrayIntoByteArray, addr 0x3e8d030, size 0x144, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadArrayIntoByteArray();
 
-  /// @brief Method ReadArrayIntoByteArrayAsync, addr 0x3e81e00, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ReadArrayIntoByteArrayAsync, addr 0x3e8ad04, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadArrayIntoByteArrayAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsBoolean, addr 0x3e84964, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x3e8d868, size 0x340, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBooleanAsync, addr 0x3e81c28, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBooleanAsync, addr 0x3e8ab2c, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* ReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsBytes, addr 0x3e83b1c, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x3e8ca20, size 0x3e8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsBytesAsync, addr 0x3e81d14, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytesAsync, addr 0x3e8ac18, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDateTime, addr 0x3e85524, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x3e8e428, size 0x2b0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeAsync, addr 0x3e81eec, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeAsync, addr 0x3e8adf0, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* ReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x3e85a84, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x3e8e988, size 0x2b0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDateTimeOffsetAsync, addr 0x3e81fdc, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffsetAsync, addr 0x3e8aee0, size 0x104, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* ReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDecimal, addr 0x3e84e84, size 0x414, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x3e8dd88, size 0x414, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDecimalAsync, addr 0x3e820e0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimalAsync, addr 0x3e8afe4, size 0x124, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* ReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDouble, addr 0x3e8448c, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x3e8d390, size 0x300, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsDoubleAsync, addr 0x3e82204, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDoubleAsync, addr 0x3e8b108, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* ReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsInt32, addr 0x3e8307c, size 0x3c0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x3e8bf80, size 0x3c0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsInt32Async, addr 0x3e82290, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32Async, addr 0x3e8b194, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* ReadAsInt32Async(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsString, addr 0x3e83874, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x3e8c778, size 0x2a8, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method ReadAsStringAsync, addr 0x3e8237c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadAsStringAsync, addr 0x3e8b280, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x3e819c0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x3e8a8c4, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadBooleanString, addr 0x3e84ca4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ReadBooleanString, addr 0x3e8dba8, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadBooleanString(::StringW s);
 
-  /// @brief Method ReadDateTimeOffsetString, addr 0x3e85d34, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method ReadDateTimeOffsetString, addr 0x3e8ec38, size 0x26c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadDateTimeOffsetString(::StringW s);
 
-  /// @brief Method ReadDateTimeString, addr 0x3e857d4, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ReadDateTimeString, addr 0x3e8e6d8, size 0x2b0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadDateTimeString(::StringW s);
 
-  /// @brief Method ReadDecimalString, addr 0x3e85298, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ReadDecimalString, addr 0x3e8e19c, size 0x28c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadDecimalString(::StringW s);
 
-  /// @brief Method ReadDoubleString, addr 0x3e8478c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ReadDoubleString, addr 0x3e8d690, size 0x1d8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadDoubleString(::StringW s);
 
-  /// @brief Method ReadForType, addr 0x3e864e8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ReadForType, addr 0x3e8f3ec, size 0x29c, virtual false, abstract: false, final false
   inline bool ReadForType(::Newtonsoft::Json::Serialization::JsonContract* contract, bool hasConverter);
 
-  /// @brief Method ReadForTypeAndAssert, addr 0x3e86498, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadForTypeAndAssert, addr 0x3e8f39c, size 0x50, virtual false, abstract: false, final false
   inline void ReadForTypeAndAssert(::Newtonsoft::Json::Serialization::JsonContract* contract, bool hasConverter);
 
-  /// @brief Method ReadInt32String, addr 0x3e83694, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32String, addr 0x3e8c598, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadInt32String(::StringW s);
 
-  /// @brief Method ReadIntoWrappedTypeObject, addr 0x3e83f04, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ReadIntoWrappedTypeObject, addr 0x3e8ce08, size 0x1e0, virtual false, abstract: false, final false
   inline void ReadIntoWrappedTypeObject();
 
-  /// @brief Method ReaderReadAndAssert, addr 0x3e840e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReaderReadAndAssert, addr 0x3e8cfe8, size 0x48, virtual false, abstract: false, final false
   inline void ReaderReadAndAssert();
 
-  /// @brief Method ReaderReadAndAssertAsync, addr 0x3e81b58, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReaderReadAndAssertAsync, addr 0x3e8aa5c, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReaderReadAndAssertAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SetFinished, addr 0x3e861dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetFinished, addr 0x3e8f0e0, size 0x28, virtual false, abstract: false, final false
   inline void SetFinished();
 
-  /// @brief Method SetPostValueState, addr 0x3e861a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetPostValueState, addr 0x3e8f0a4, size 0x3c, virtual false, abstract: false, final false
   inline void SetPostValueState(bool updateIndex);
 
-  /// @brief Method SetStateBasedOnCurrent, addr 0x3e862ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetStateBasedOnCurrent, addr 0x3e8f1b0, size 0xec, virtual false, abstract: false, final false
   inline void SetStateBasedOnCurrent();
 
-  /// @brief Method SetToken, addr 0x3e84270, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x3e8d174, size 0xc, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken);
 
-  /// @brief Method SetToken, addr 0x3e8609c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x3e8efa0, size 0x8, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value);
 
-  /// @brief Method SetToken, addr 0x3e83540, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x3e8c444, size 0x154, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value, bool updateIndex);
 
-  /// @brief Method Skip, addr 0x3e85fec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Skip, addr 0x3e8eef0, size 0xb0, virtual false, abstract: false, final false
   inline void Skip();
 
-  /// @brief Method SkipAsync, addr 0x3e81a84, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SkipAsync, addr 0x3e8a988, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SkipAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3e86398, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3e8f29c, size 0x70, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method UpdateScopeWithFinishedValue, addr 0x3e82f34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UpdateScopeWithFinishedValue, addr 0x3e8be38, size 0x18, virtual false, abstract: false, final false
   inline void UpdateScopeWithFinishedValue();
 
-  /// @brief Method ValidateEnd, addr 0x3e860a4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ValidateEnd, addr 0x3e8efa8, size 0xfc, virtual false, abstract: false, final false
   inline void ValidateEnd(::Newtonsoft::Json::JsonToken endToken);
 
   constexpr bool const& __cordl_internal_get__CloseInput_k__BackingField() const;
@@ -951,82 +951,82 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e82c08, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e8bb0c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CloseInput, addr 0x3e826f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CloseInput, addr 0x3e8b5f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseInput();
 
-  /// @brief Method get_Culture, addr 0x3e82af4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Culture, addr 0x3e8b9f8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method get_CurrentState, addr 0x3e826ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentState, addr 0x3e8b5f0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReader_State get_CurrentState();
 
-  /// @brief Method get_DateFormatString, addr 0x3e82864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateFormatString, addr 0x3e8b768, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DateFormatString();
 
-  /// @brief Method get_DateParseHandling, addr 0x3e82794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateParseHandling, addr 0x3e8b698, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateParseHandling get_DateParseHandling();
 
-  /// @brief Method get_DateTimeZoneHandling, addr 0x3e8272c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeZoneHandling, addr 0x3e8b630, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateTimeZoneHandling get_DateTimeZoneHandling();
 
-  /// @brief Method get_Depth, addr 0x3e8295c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x3e8b860, size 0x80, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_FloatParseHandling, addr 0x3e827fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatParseHandling, addr 0x3e8b700, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::FloatParseHandling get_FloatParseHandling();
 
-  /// @brief Method get_MaxDepth, addr 0x3e82874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDepth, addr 0x3e8b778, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaxDepth();
 
-  /// @brief Method get_Path, addr 0x3e829dc, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3e8b8e0, size 0x118, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_QuoteChar, addr 0x3e8271c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x3e8b620, size 0x8, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_SupportMultipleContent, addr 0x3e82708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportMultipleContent, addr 0x3e8b60c, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportMultipleContent();
 
-  /// @brief Method get_TokenType, addr 0x3e82938, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x3e8b83c, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value, addr 0x3e82940, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3e8b844, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType, addr 0x3e82948, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x3e8b84c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_CloseInput, addr 0x3e826fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CloseInput, addr 0x3e8b600, size 0xc, virtual false, abstract: false, final false
   inline void set_CloseInput(bool value);
 
-  /// @brief Method set_Culture, addr 0x3e82b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Culture, addr 0x3e8ba60, size 0x8, virtual false, abstract: false, final false
   inline void set_Culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_DateFormatString, addr 0x3e8286c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DateFormatString, addr 0x3e8b770, size 0x8, virtual false, abstract: false, final false
   inline void set_DateFormatString(::StringW value);
 
-  /// @brief Method set_DateParseHandling, addr 0x3e8279c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_DateParseHandling, addr 0x3e8b6a0, size 0x60, virtual false, abstract: false, final false
   inline void set_DateParseHandling(::Newtonsoft::Json::DateParseHandling value);
 
-  /// @brief Method set_DateTimeZoneHandling, addr 0x3e82734, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeZoneHandling, addr 0x3e8b638, size 0x60, virtual false, abstract: false, final false
   inline void set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
 
-  /// @brief Method set_FloatParseHandling, addr 0x3e82804, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_FloatParseHandling, addr 0x3e8b708, size 0x60, virtual false, abstract: false, final false
   inline void set_FloatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
 
-  /// @brief Method set_MaxDepth, addr 0x3e8287c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_MaxDepth, addr 0x3e8b780, size 0xbc, virtual false, abstract: false, final false
   inline void set_MaxDepth(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_QuoteChar, addr 0x3e82724, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x3e8b628, size 0x8, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method set_SupportMultipleContent, addr 0x3e82710, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SupportMultipleContent, addr 0x3e8b614, size 0xc, virtual false, abstract: false, final false
   inline void set_SupportMultipleContent(bool value);
 
 protected:
@@ -1044,7 +1044,7 @@ public:
   JsonReader(JsonReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10083 };
 
   /// @brief Field _tokenType, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::JsonToken ____tokenType;

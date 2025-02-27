@@ -28,10 +28,10 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE DerOctetString : public ::Org::BouncyCastle::Asn1::Asn1OctetString {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x2633e74, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2637bac, size 0x24, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Encode, addr 0x2633e98, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2637bd0, size 0x70, virtual false, abstract: false, final false
   static inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset, int32_t length);
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
@@ -40,13 +40,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x2633e10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2637b48, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x2633d64, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2637a9c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IAsn1Convertible* obj);
 
-  /// @brief Method .ctor, addr 0x2629a90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262d7c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
 protected:

@@ -24,7 +24,7 @@ namespace UnityEngine {
 class CORDL_TYPE AsyncInstantiateOperationHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAsyncInstantiateOperationResult, addr 0x48ab45c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetAsyncInstantiateOperationResult, addr 0x48b448c, size 0x18, virtual false, abstract: false, final false
   static inline void SetAsyncInstantiateOperationResult(::UnityEngine::AsyncInstantiateOperation* op, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> result);
 
 protected:
@@ -42,7 +42,7 @@ public:
   AsyncInstantiateOperationHelper(AsyncInstantiateOperationHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

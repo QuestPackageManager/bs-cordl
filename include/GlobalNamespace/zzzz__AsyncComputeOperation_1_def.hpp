@@ -85,7 +85,7 @@ public:
   AsyncComputeOperation_1(AsyncComputeOperation_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
 
   /// @brief Field _tcs, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____tcs;

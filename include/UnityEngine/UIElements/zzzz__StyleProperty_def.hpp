@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_requireVariableResolve(bool value);
 
-  /// @brief Method .ctor, addr 0x4a90d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a99d7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x4a90d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4a99d6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_values, addr 0x4a90d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x4a99d74, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values();
 
 protected:
@@ -100,7 +100,7 @@ public:
   StyleProperty(StyleProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6173 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;

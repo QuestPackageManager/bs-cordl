@@ -30,7 +30,7 @@ public:
   constexpr Cookie(int32_t instanceID, float_t scale, ::UnityEngine::Vector2 sizes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11305 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

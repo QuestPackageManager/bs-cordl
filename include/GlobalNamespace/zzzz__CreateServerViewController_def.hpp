@@ -51,21 +51,21 @@ public:
 
   __declspec(property(get = get_multiplayerModeSettings)) ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
 
-  /// @brief Method ApplyAndGetData, addr 0x3b71ee8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ApplyAndGetData, addr 0x3b7a9e8, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData ApplyAndGetData();
 
-  /// @brief Method DidActivate, addr 0x3b71de8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b7a8e8, size 0x100, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::CreateServerViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3b71da4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b7a8a4, size 0x44, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x3b71fac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x3b7aaac, size 0x58, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x3b72004, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x3b7ab04, size 0x58, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelCreateServerButton() const;
@@ -98,16 +98,16 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
-  /// @brief Method .ctor, addr 0x3b71fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7aaa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b71c3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b7a73c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
-  /// @brief Method get_multiplayerModeSettings, addr 0x3b71d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerModeSettings, addr 0x3b7a89c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b71cec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b7a7ec, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
 protected:

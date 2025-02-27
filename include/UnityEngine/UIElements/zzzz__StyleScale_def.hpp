@@ -43,28 +43,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*();
 
-  /// @brief Method Equals, addr 0x4a89cdc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a92d0c, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a89c68, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a92c98, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleScale other);
 
-  /// @brief Method GetHashCode, addr 0x4a89dac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a92ddc, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x4a89dd0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a92e00, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a89bd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a92c04, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x4a89be0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a92c10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Scale v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x4a89bcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x4a92bfc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x4a89b44, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x4a92b74, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Scale get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
@@ -73,10 +73,10 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Scale_();
 
-  /// @brief Method op_Equality, addr 0x4a89bec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a92c1c, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleScale lhs, ::UnityEngine::UIElements::StyleScale rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a89c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a92c8c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleScale op_Implicit___UnityEngine__UIElements__StyleScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
   // Ctor Parameters []
@@ -88,7 +88,7 @@ public:
   constexpr StyleScale(::UnityEngine::UIElements::Scale m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6107 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -125,7 +125,7 @@ public:
   static ::GlobalNamespace::PyramidBloomRendererSO_Pass const UpsampleTentGamma;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16233 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -157,7 +157,7 @@ public:
   constexpr PyramidBloomRendererSO_Level(::UnityW<::UnityEngine::RenderTexture> down, ::UnityW<::UnityEngine::RenderTexture> up) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16234 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -232,16 +232,16 @@ public:
 
   static inline ::GlobalNamespace::PyramidBloomRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39d8fd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39e1a88, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39d8ed0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39e1980, size 0x108, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RenderBloom, addr 0x39d8ffc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x39e1aac, size 0x90, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, bool alphaWeights, bool betterQuality, bool gammaCorrection, bool legacyAutoExposure);
 
-  /// @brief Method RenderBloom, addr 0x39d908c, size 0x834, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x39e1b3c, size 0x834, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset,
                           bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness,
                           ::GlobalNamespace::PyramidBloomRendererSO_Pass preFilterPass, ::GlobalNamespace::PyramidBloomRendererSO_Pass downsamplePass,
@@ -284,7 +284,7 @@ public:
 
   constexpr void __cordl_internal_set_kLegacyAutoExposureKeyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39d98c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e2370, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaWeightsID();
@@ -330,7 +330,7 @@ public:
   PyramidBloomRendererSO(PyramidBloomRendererSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16235 };
 
   /// @brief Field kMaxPyramidSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPyramidSize{ static_cast<int32_t>(0x10) };

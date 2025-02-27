@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Category)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4864478;
+  constexpr static std::size_t addrs = 0x486d4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Name)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4864480;
+  constexpr static std::size_t addrs = 0x486d4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

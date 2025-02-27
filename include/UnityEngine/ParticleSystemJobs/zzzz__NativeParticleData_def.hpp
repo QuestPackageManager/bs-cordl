@@ -43,7 +43,7 @@ public:
   constexpr NativeParticleData_Array3(::cordl_internals::Ptr<float_t> x, ::cordl_internals::Ptr<float_t> y, ::cordl_internals::Ptr<float_t> z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17304 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -86,7 +86,7 @@ public:
   constexpr NativeParticleData_Array4(::cordl_internals::Ptr<float_t> x, ::cordl_internals::Ptr<float_t> y, ::cordl_internals::Ptr<float_t> z, ::cordl_internals::Ptr<float_t> w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17305 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -150,7 +150,7 @@ public:
                                ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData2, ::cordl_internals::Ptr<void> meshIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17306 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };

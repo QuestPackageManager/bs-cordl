@@ -25,22 +25,22 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE JobProcessor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ScheduleConvertMeshJobs, addr 0x49aa898, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleConvertMeshJobs, addr 0x49b38c8, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleConvertMeshJobs(::System::IntPtr buffer, int32_t jobCount);
 
-  /// @brief Method ScheduleConvertMeshJobs_Injected, addr 0x49aa8f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleConvertMeshJobs_Injected, addr 0x49b3924, size 0x54, virtual false, abstract: false, final false
   static inline void ScheduleConvertMeshJobs_Injected(::System::IntPtr buffer, int32_t jobCount, ::ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method ScheduleCopyClosingMeshJobs, addr 0x49aa948, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleCopyClosingMeshJobs, addr 0x49b3978, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleCopyClosingMeshJobs(::System::IntPtr buffer, int32_t jobCount);
 
-  /// @brief Method ScheduleCopyClosingMeshJobs_Injected, addr 0x49aa9a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleCopyClosingMeshJobs_Injected, addr 0x49b39d4, size 0x54, virtual false, abstract: false, final false
   static inline void ScheduleCopyClosingMeshJobs_Injected(::System::IntPtr buffer, int32_t jobCount, ::ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method ScheduleNudgeJobs, addr 0x49aa7e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleNudgeJobs, addr 0x49b3818, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleNudgeJobs(::System::IntPtr buffer, int32_t jobCount);
 
-  /// @brief Method ScheduleNudgeJobs_Injected, addr 0x49aa844, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleNudgeJobs_Injected, addr 0x49b3874, size 0x54, virtual false, abstract: false, final false
   static inline void ScheduleNudgeJobs_Injected(::System::IntPtr buffer, int32_t jobCount, ::ByRef<::Unity::Jobs::JobHandle> ret);
 
 protected:
@@ -58,7 +58,7 @@ public:
   JobProcessor(JobProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

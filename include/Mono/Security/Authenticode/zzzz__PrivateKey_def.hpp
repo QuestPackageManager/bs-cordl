@@ -37,16 +37,16 @@ public:
   /// @brief Field weak, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_weak, put = __cordl_internal_set_weak)) bool weak;
 
-  /// @brief Method CreateFromFile, addr 0x3c54a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateFromFile, addr 0x3c5d934, size 0x8, virtual false, abstract: false, final false
   static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
 
-  /// @brief Method CreateFromFile, addr 0x3c54a38, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method CreateFromFile, addr 0x3c5d93c, size 0x2ac, virtual false, abstract: false, final false
   static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
 
-  /// @brief Method Decode, addr 0x3c544c4, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3c5d3c8, size 0x44c, virtual false, abstract: false, final false
   inline bool Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> pvk, ::StringW password);
 
-  /// @brief Method DeriveKey, addr 0x3c54918, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method DeriveKey, addr 0x3c5d81c, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::StringW password);
 
   static inline ::Mono::Security::Authenticode::PrivateKey* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
@@ -75,10 +75,10 @@ public:
 
   constexpr void __cordl_internal_set_weak(bool value);
 
-  /// @brief Method .ctor, addr 0x3c543ec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5d2f0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method get_RSA, addr 0x3c54910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RSA, addr 0x3c5d814, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RSA* get_RSA();
 
 protected:
@@ -96,7 +96,7 @@ public:
   PrivateKey(PrivateKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15983 };
 
   /// @brief Field encrypted, offset: 0x10, size: 0x1, def value: None
   bool ___encrypted;

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::BurstAuthorizedExternalMethodAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4865830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486e860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   BurstAuthorizedExternalMethodAttribute(BurstAuthorizedExternalMethodAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

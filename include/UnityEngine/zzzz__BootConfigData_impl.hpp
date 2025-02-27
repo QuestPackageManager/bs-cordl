@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::BootConfigData* (*)(::System::IntPtr)>(&::UnityEngine::BootConfigData::WrapBootConfigData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4868390;
+  constexpr static std::size_t addrs = 0x48713c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BootConfigData::*)(::System::IntPtr)>(&::UnityEngine::BootConfigData::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48683e8;
+  constexpr static std::size_t addrs = 0x4871418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::DateTimeParser::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::DateTimeParser::Parse)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ec95d8;
+  constexpr static std::size_t addrs = 0x3ed24dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::DateTimeParser::*)(int32_t)>(
     &::Newtonsoft::Json::Utilities::DateTimeParser::ParseDate)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3ec96c8;
+  constexpr static std::size_t addrs = 0x3ed25cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::DateTimeParser::*)(int32_t)>(
     &::Newtonsoft::Json::Utilities::DateTimeParser::ParseTimeAndZoneAndWhitespace)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ec98bc;
+  constexpr static std::size_t addrs = 0x3ed27c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::DateTimeParser::*)(::ByRef<int32_t>)>(
     &::Newtonsoft::Json::Utilities::DateTimeParser::ParseTime)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x3ec9ae4;
+  constexpr static std::size_t addrs = 0x3ed29e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::DateTimeParser::*)(int32_t)>(
     &::Newtonsoft::Json::Utilities::DateTimeParser::ParseZone)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3ec9dc0;
+  constexpr static std::size_t addrs = 0x3ed2cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::DateTimeParser::*)(int32_t, ::ByRef<int32_t>)>(
     &::Newtonsoft::Json::Utilities::DateTimeParser::Parse4Digit)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ec9958;
+  constexpr static std::size_t addrs = 0x3ed285c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::DateTimeParser::*)(int32_t, ::ByRef<int32_t>)>(
     &::Newtonsoft::Json::Utilities::DateTimeParser::Parse2Digit)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ec9a48;
+  constexpr static std::size_t addrs = 0x3ed294c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::DateTimeParser::*)(int32_t, char16_t)>(
     &::Newtonsoft::Json::Utilities::DateTimeParser::ParseChar)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ec9870;
+  constexpr static std::size_t addrs = 0x3ed2774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

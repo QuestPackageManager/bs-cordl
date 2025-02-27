@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ENet::ENetAddress (::ENet::Address::*)()>(&::ENet::Address::get_NativeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3aa8538;
+  constexpr static std::size_t addrs = 0x3ab0fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Address>::get(), "get_NativeData",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Address::*)(::ENet::ENetAddress)>(&::ENet::Address::set_NativeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3aa854c;
+  constexpr static std::size_t addrs = 0x3ab0ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Address::*)(::ENet::ENetAddress)>(&::ENet::Address::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3aa8560;
+  constexpr static std::size_t addrs = 0x3ab1010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::ENet::Address::*)()>(&::ENet::Address::get_Port)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa8574;
+  constexpr static std::size_t addrs = 0x3ab1024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Address>::get(), "get_Port",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::Address::*)(uint16_t)>(&::ENet::Address::set_Port)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa857c;
+  constexpr static std::size_t addrs = 0x3ab102c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::Address::*)()>(&::ENet::Address::GetIP)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3aa8584;
+  constexpr static std::size_t addrs = 0x3ab1034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Address>::get(), "GetIP",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ENet::Address::*)(::StringW)>(&::ENet::Address::SetIP)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3aa8700;
+  constexpr static std::size_t addrs = 0x3ab11b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::Address::*)()>(&::ENet::Address::GetHost)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3aa8804;
+  constexpr static std::size_t addrs = 0x3ab12b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::Address>::get(), "GetHost",
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ENet::Address::*)(::StringW)>(&::ENet::Address::SetHost)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3aa8980;
+  constexpr static std::size_t addrs = 0x3ab1430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_serverName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26dc7f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e08ec, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password);
 
 protected:
@@ -76,7 +76,7 @@ public:
   GameServerListItem(GameServerListItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13091 };
 
   /// @brief Field serverName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___serverName;

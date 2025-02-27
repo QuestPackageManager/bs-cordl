@@ -40,25 +40,25 @@ public:
   /// @brief Field primitiveTypes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_primitiveTypes, put = setStaticF_primitiveTypes)) ::System::Collections::Hashtable* primitiveTypes;
 
-  /// @brief Method FindPrimitiveTypeData, addr 0x437259c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FindPrimitiveTypeData, addr 0x437b5cc, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Xml::Serialization::TypeData* FindPrimitiveTypeData(::StringW typeName);
 
-  /// @brief Method GetArrayName, addr 0x436d85c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetArrayName, addr 0x437688c, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW GetArrayName(::StringW elemName);
 
-  /// @brief Method GetPrimitiveTypeData, addr 0x4372344, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveTypeData, addr 0x437b374, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Serialization::TypeData* GetPrimitiveTypeData(::StringW typeName);
 
-  /// @brief Method GetPrimitiveTypeData, addr 0x437239c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveTypeData, addr 0x437b3cc, size 0x200, virtual false, abstract: false, final false
   static inline ::System::Xml::Serialization::TypeData* GetPrimitiveTypeData(::StringW typeName, bool nullable);
 
-  /// @brief Method GetTypeData, addr 0x43719f4, size 0x950, virtual false, abstract: false, final false
+  /// @brief Method GetTypeData, addr 0x437aa24, size 0x950, virtual false, abstract: false, final false
   static inline ::System::Xml::Serialization::TypeData* GetTypeData(::System::Type* runtimeType, ::StringW xmlDataType, bool underlyingEnumType);
 
-  /// @brief Method GetTypeData, addr 0x436cf00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeData, addr 0x4375f30, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Serialization::TypeData* GetTypeData(::System::Type* type);
 
-  /// @brief Method ParseArrayType, addr 0x437265c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ParseArrayType, addr 0x437b68c, size 0x170, virtual false, abstract: false, final false
   static inline void ParseArrayType(::StringW arrayType, ::ByRef<::StringW> type, ::ByRef<::StringW> ns, ::ByRef<::StringW> dimensions);
 
   static inline ::System::Collections::Hashtable* getStaticF_nameCache();
@@ -92,7 +92,7 @@ public:
   TypeTranslator(TypeTranslator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

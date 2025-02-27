@@ -30,12 +30,12 @@ public:
   /// @brief Field m_ListView, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView)) ::UnityEngine::UIElements::BaseListView* m_ListView;
 
-  /// @brief Method HandleDragAndDrop, addr 0x4a23020, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method HandleDragAndDrop, addr 0x4a2c050, size 0x148, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   static inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::BaseListView* view);
 
-  /// @brief Method OnDrop, addr 0x4a23168, size 0x2bc, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x4a2c198, size 0x2bc, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   constexpr ::UnityEngine::UIElements::BaseListView* const& __cordl_internal_get_m_ListView() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::BaseListView* value);
 
-  /// @brief Method .ctor, addr 0x4a22ffc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c02c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseListView* view);
 
 protected:
@@ -62,7 +62,7 @@ public:
   ListViewReorderableDragAndDropController(ListViewReorderableDragAndDropController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5766 };
 
   /// @brief Field m_ListView, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseListView* ___m_ListView;

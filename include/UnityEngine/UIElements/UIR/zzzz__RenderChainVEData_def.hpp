@@ -49,16 +49,16 @@ public:
 
   __declspec(property(get = get_lastClosingOrLastCommand)) ::UnityEngine::UIElements::UIR::RenderChainCommand* lastClosingOrLastCommand;
 
-  /// @brief Method AllocatesID, addr 0x49b23c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AllocatesID, addr 0x49bb3f4, size 0x6c, virtual false, abstract: false, final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method InheritsID, addr 0x49b2440, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InheritsID, addr 0x49bb470, size 0x68, virtual false, abstract: false, final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x49b24a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x49bb4d8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isIgnoringDynamicColorHint();
 
-  /// @brief Method get_lastClosingOrLastCommand, addr 0x49b23ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_lastClosingOrLastCommand, addr 0x49bb3dc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastClosingOrLastCommand();
 
   // Ctor Parameters []
@@ -107,7 +107,7 @@ public:
                               ::UnityEngine::Color backgroundColor, ::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::TextureEntry>* textures) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6388 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x148 };

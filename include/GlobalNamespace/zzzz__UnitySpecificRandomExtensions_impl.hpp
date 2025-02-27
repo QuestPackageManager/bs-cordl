@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::System::Random*)>(&::GlobalNamespace::UnitySpecificRandomExtensions::InsideUnitSphere)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22b6654;
+  constexpr static std::size_t addrs = 0x22ba38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::System::Random*)>(&::GlobalNamespace::UnitySpecificRandomExtensions::OnUnitSphere)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x22b66fc;
+  constexpr static std::size_t addrs = 0x22ba434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

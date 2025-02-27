@@ -25,15 +25,15 @@ public:
   /// @brief Field _comboController, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__comboController, put = __cordl_internal_set__comboController)) ::UnityW<::GlobalNamespace::ComboController> _comboController;
 
-  /// @brief Method HandleComboDidChange, addr 0x3bb7628, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x3bc0560, size 0x50, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method Init, addr 0x3bb7414, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3bc034c, size 0x144, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::ComboMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb7558, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc0490, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ComboController> const& __cordl_internal_get__comboController() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
-  /// @brief Method .ctor, addr 0x3bb7678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc05b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

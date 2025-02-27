@@ -30,19 +30,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method Equals, addr 0x22f319c, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x22f6ed4, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetDerEncoded, addr 0x22f30a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetDerEncoded, addr 0x22f6de0, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerEncoded();
 
-  /// @brief Method GetEncoded, addr 0x22f2ef8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x22f6c30, size 0xbc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x22f2fb4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x22f6cec, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetHashCode, addr 0x22f3168, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x22f6ea0, size 0x28, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* New_ctor();
@@ -50,7 +50,7 @@ public:
   /// @brief Method ToAsn1Object, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x22f32b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f6fe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"

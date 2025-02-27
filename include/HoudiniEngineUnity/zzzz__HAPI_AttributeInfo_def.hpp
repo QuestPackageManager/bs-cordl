@@ -23,7 +23,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_AttributeInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3a4dcb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a56764, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW ignored);
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
                                int32_t count, int32_t tupleSize, int64_t totalArrayElements, ::HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11728 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

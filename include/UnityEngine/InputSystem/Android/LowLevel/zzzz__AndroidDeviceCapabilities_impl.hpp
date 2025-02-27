@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460b480;
+  constexpr static std::size_t addrs = 0x46144b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c::*)(
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c::_ToString_b__8_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x460b488;
+  constexpr static std::size_t addrs = 0x46144b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::ToJson)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x460b040;
+  constexpr static std::size_t addrs = 0x4614070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities (*)(::StringW)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::FromJson)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x460ae50;
+  constexpr static std::size_t addrs = 0x4613e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities::ToString)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x460b0ac;
+  constexpr static std::size_t addrs = 0x46140dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

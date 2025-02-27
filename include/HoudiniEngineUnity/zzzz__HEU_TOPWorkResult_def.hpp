@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__workItemIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a57d58, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a60808, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   HEU_TOPWorkResult(HEU_TOPWorkResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11760 };
 
   /// @brief Field _workItemIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____workItemIndex;

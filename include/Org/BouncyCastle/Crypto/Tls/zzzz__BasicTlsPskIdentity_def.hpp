@@ -30,20 +30,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*() noexcept;
 
-  /// @brief Method GetPsk, addr 0x23e3f54, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetPsk, addr 0x23e7c8c, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPsk();
 
-  /// @brief Method GetPskIdentity, addr 0x23e3f4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPskIdentity, addr 0x23e7c84, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPskIdentity();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method NotifyIdentityHint, addr 0x23e3f48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyIdentityHint, addr 0x23e7c80, size 0x4, virtual true, abstract: false, final false
   inline void NotifyIdentityHint(::ArrayW<uint8_t, ::Array<uint8_t>*> psk_identity_hint);
 
-  /// @brief Method SkipIdentityHint, addr 0x23e3f44, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SkipIdentityHint, addr 0x23e7c7c, size 0x4, virtual true, abstract: false, final false
   inline void SkipIdentityHint();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mIdentity() const;
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set_mPsk(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23e3e2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e7b64, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
-  /// @brief Method .ctor, addr 0x23e3eb8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e7bf0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"

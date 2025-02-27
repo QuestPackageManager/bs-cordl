@@ -28,16 +28,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>*();
 
-  /// @brief Method Equals, addr 0x48ce780, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48d77b0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x48ce80c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48d783c, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeyword rhs);
 
-  /// @brief Method GetHashCode, addr 0x48ce85c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48d788c, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x48ce778, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48d77a8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
@@ -52,7 +52,7 @@ public:
   constexpr LocalKeyword(::UnityEngine::Rendering::LocalKeywordSpace m_SpaceInfo, ::StringW m_Name, uint32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11260 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

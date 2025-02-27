@@ -26,13 +26,13 @@ public:
   /// @brief Field t_cachedInstance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_t_cachedInstance, put = setStaticF_t_cachedInstance)) ::System::Text::StringBuilder* t_cachedInstance;
 
-  /// @brief Method Acquire, addr 0x424ee8c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x3c8e5d0, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* Acquire(int32_t capacity);
 
-  /// @brief Method GetStringAndRelease, addr 0x424ef4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetStringAndRelease, addr 0x3c8e71c, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndRelease(::System::Text::StringBuilder* sb);
 
-  /// @brief Method Release, addr 0x4252e40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x3c8e69c, size 0x80, virtual false, abstract: false, final false
   static inline void Release(::System::Text::StringBuilder* sb);
 
   static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance();
@@ -54,7 +54,7 @@ public:
   StringBuilderCache(StringBuilderCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

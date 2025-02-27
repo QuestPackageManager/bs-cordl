@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_ShowExpandWarning(bool value);
 
-  /// @brief Method __zenCreate, addr 0x4b233f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b2c428, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b23464, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2c494, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b23310, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2c340, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4b23340, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2c370, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
 
   static inline ::Zenject::MemoryPoolSettings* getStaticF_Default();
@@ -103,7 +103,7 @@ public:
   MemoryPoolSettings(MemoryPoolSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12390 };
 
   /// @brief Field InitialSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___InitialSize;

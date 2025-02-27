@@ -78,7 +78,7 @@ public:
   ValueAnimation_1___c(ValueAnimation_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -388,7 +388,7 @@ public:
   ValueAnimation_1(ValueAnimation_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6498 };
 
   /// @brief Field m_StartTimeMs, offset: 0x10, size: 0x8, def value: None
   int64_t ___m_StartTimeMs;

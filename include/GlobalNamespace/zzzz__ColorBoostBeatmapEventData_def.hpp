@@ -31,10 +31,10 @@ public:
   /// @brief Field boostColorsAreOn, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_boostColorsAreOn, put = __cordl_internal_set_boostColorsAreOn)) bool boostColorsAreOn;
 
-  /// @brief Method GetCopy, addr 0x2243500, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x2247338, size 0x84, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x2243584, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x22473bc, size 0x58, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::ColorBoostBeatmapEventData* New_ctor(float_t time, bool boostColorsAreOn);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_boostColorsAreOn(bool value);
 
-  /// @brief Method .ctor, addr 0x22434b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22472ec, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, bool boostColorsAreOn);
 
   static inline ::GlobalNamespace::ColorBoostBeatmapEventData* getStaticF__defaultCopy();
@@ -67,7 +67,7 @@ public:
   ColorBoostBeatmapEventData(ColorBoostBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17054 };
 
   /// @brief Field boostColorsAreOn, offset: 0x30, size: 0x1, def value: None
   bool ___boostColorsAreOn;

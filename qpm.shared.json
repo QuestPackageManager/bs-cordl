@@ -69,12 +69,12 @@
     {
       "dependency": {
         "id": "paper2_scotland2",
-        "versionRange": "=4.3.1",
+        "versionRange": "=4.6.1",
         "additionalData": {
-          "soLink": "https://github.com/Fernthedev/paperlog/releases/download/v4.3.1/libpaper2_scotland2.so",
+          "soLink": "https://github.com/Fernthedev/paperlog/releases/download/v4.6.1/libpaper2_scotland2.so",
           "overrideSoName": "libpaper2_scotland2.so",
-          "modLink": "https://github.com/Fernthedev/paperlog/releases/download/v4.3.1/paper2_scotland2.qmod",
-          "branchName": "version/v4_3_1",
+          "modLink": "https://github.com/Fernthedev/paperlog/releases/download/v4.6.1/paper2_scotland2.qmod",
+          "branchName": "version/v4_6_1",
           "compileOptions": {
             "systemIncludes": [
               "shared/utfcpp/source"
@@ -83,22 +83,22 @@
           "cmake": false
         }
       },
-      "version": "4.3.1"
+      "version": "4.6.1"
     },
     {
       "dependency": {
         "id": "beatsaber-hook",
-        "versionRange": "=6.3.0",
+        "versionRange": "=6.4.0",
         "additionalData": {
-          "soLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v6.3.0/libbeatsaber-hook.so",
-          "debugSoLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v6.3.0/debug_libbeatsaber-hook.so",
+          "soLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v6.4.0/libbeatsaber-hook.so",
+          "debugSoLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v6.4.0/debug_libbeatsaber-hook.so",
           "overrideSoName": "libbeatsaber-hook.so",
-          "modLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v6.3.0/beatsaber-hook.qmod",
-          "branchName": "version/v6_3_0",
+          "modLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v6.4.0/beatsaber-hook.qmod",
+          "branchName": "version/v6_4_0",
           "cmake": true
         }
       },
-      "version": "6.3.0"
+      "version": "6.4.0"
     },
     {
       "dependency": {

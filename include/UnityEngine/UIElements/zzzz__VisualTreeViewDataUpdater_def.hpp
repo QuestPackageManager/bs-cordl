@@ -57,16 +57,16 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualTreeViewDataUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x49a8cfc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x49b1d2c, size 0x90, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method PropagateToParents, addr 0x49a8d8c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PropagateToParents, addr 0x49b1dbc, size 0xa4, virtual false, abstract: false, final false
   inline void PropagateToParents(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x49a8e30, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x49b1e60, size 0x150, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method ValidateViewDataOnSubTree, addr 0x49a8f80, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ValidateViewDataOnSubTree, addr 0x49b1fb0, size 0x154, virtual false, abstract: false, final false
   inline void ValidateViewDataOnSubTree(::UnityEngine::UIElements::VisualElement* ve, bool enablePersistence);
 
   constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
@@ -93,14 +93,14 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x49a90d4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b2104, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x49a8ca4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x49b1cd4, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);
@@ -122,7 +122,7 @@ public:
   VisualTreeViewDataUpdater(VisualTreeViewDataUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6350 };
 
   /// @brief Field m_UpdateList, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* ___m_UpdateList;

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_WorkItemTally::*)()>(&::HoudiniEngineUnity::HEU_WorkItemTally::ZeroAll)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a575fc;
+  constexpr static std::size_t addrs = 0x3a600ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_WorkItemTally*>::get(), "ZeroAll",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_WorkItemTally::*)()>(
     &::HoudiniEngineUnity::HEU_WorkItemTally::AreAllWorkItemsComplete)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a58658;
+  constexpr static std::size_t addrs = 0x3a61108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_WorkItemTally*>::get(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_WorkItemTally::*)()>(&::HoudiniEngineUnity::HEU_WorkItemTally::AnyWorkItemsFailed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a58690;
+  constexpr static std::size_t addrs = 0x3a61140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_WorkItemTally*>::get(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_WorkItemTally::*)()>(&::HoudiniEngineUnity::HEU_WorkItemTally::AnyWorkItemsPending)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a586f8;
+  constexpr static std::size_t addrs = 0x3a611a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_WorkItemTally*>::get(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_WorkItemTally::*)()>(&::HoudiniEngineUnity::HEU_WorkItemTally::ProgressRatio)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3a5873c;
+  constexpr static std::size_t addrs = 0x3a611ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_WorkItemTally*>::get(), "ProgressRatio",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_WorkItemTally::*)()>(&::HoudiniEngineUnity::HEU_WorkItemTally::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a58518;
+  constexpr static std::size_t addrs = 0x3a60fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_WorkItemTally*>::get(), ".ctor",

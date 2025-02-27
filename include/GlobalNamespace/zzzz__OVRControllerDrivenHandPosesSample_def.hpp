@@ -45,39 +45,39 @@ public:
   /// @brief Field rightLinePointer, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_rightLinePointer, put = __cordl_internal_set_rightLinePointer)) ::UnityW<::UnityEngine::LineRenderer> rightLinePointer;
 
-  /// @brief Method Awake, addr 0x3fabc90, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fb4c90, size 0xdc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x3fac328, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3fb5328, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3fabfe4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3fb4fe4, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3fabfec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3fb4fec, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3fabfe8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3fb4fe8, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x3fabe3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x3fb4e3c, size 0xd4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToControllerConforming();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x3fabf10, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x3fb4f10, size 0xd4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNatural();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x3fabd6c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x3fb4d6c, size 0xd0, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNone();
 
-  /// @brief Method Update, addr 0x3fabff0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fb4ff0, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLineRenderer, addr 0x3fabff4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRenderer, addr 0x3fb4ff4, size 0x50, virtual false, abstract: false, final false
   inline void UpdateLineRenderer();
 
-  /// @brief Method UpdateLineRendererForHand, addr 0x3fac044, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRendererForHand, addr 0x3fb5044, size 0x2e4, virtual false, abstract: false, final false
   inline void UpdateLineRendererForHand(bool isLeft);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3fac32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fb532c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +134,7 @@ public:
   OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7853 };
 
   /// @brief Field buttonOff, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___buttonOff;

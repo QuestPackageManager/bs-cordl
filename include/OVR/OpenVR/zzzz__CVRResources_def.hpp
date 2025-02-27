@@ -30,10 +30,10 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRResources FnTable;
 
-  /// @brief Method GetResourceFullPath, addr 0x407a844, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetResourceFullPath, addr 0x4083844, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
 
-  /// @brief Method LoadSharedResource, addr 0x407a820, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LoadSharedResource, addr 0x4083820, size 0x24, virtual false, abstract: false, final false
   inline uint32_t LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
 
   static inline ::OVR::OpenVR::CVRResources* New_ctor(::System::IntPtr pInterface);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRResources value);
 
-  /// @brief Method .ctor, addr 0x407a714, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4083714, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -62,7 +62,7 @@ public:
   CVRResources(CVRResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8892 };
 
   /// @brief Field FnTable, offset: 0x10, size: 0x10, def value: None
   ::OVR::OpenVR::IVRResources ___FnTable;

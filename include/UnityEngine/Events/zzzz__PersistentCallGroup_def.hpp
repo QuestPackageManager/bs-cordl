@@ -36,7 +36,7 @@ public:
   /// @brief Field m_Calls, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
 
-  /// @brief Method Initialize, addr 0x48c24f0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x48cb520, size 0x190, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
 
   static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value);
 
-  /// @brief Method .ctor, addr 0x48c2428, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48cb458, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x48c24a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x48cb4d8, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
 protected:
@@ -68,7 +68,7 @@ public:
   PersistentCallGroup(PersistentCallGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10987 };
 
   /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* ___m_Calls;

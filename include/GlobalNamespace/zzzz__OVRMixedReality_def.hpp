@@ -57,13 +57,13 @@ public:
   /// @brief Field useFakeExternalCamera, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useFakeExternalCamera, put = setStaticF_useFakeExternalCamera)) bool useFakeExternalCamera;
 
-  /// @brief Method Cleanup, addr 0x3fd4348, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3fdd348, size 0xe8, virtual false, abstract: false, final false
   static inline void Cleanup();
 
-  /// @brief Method RecenterPose, addr 0x3fd4cf0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RecenterPose, addr 0x3fddcf0, size 0x94, virtual false, abstract: false, final false
   static inline void RecenterPose();
 
-  /// @brief Method Update, addr 0x3fd3e68, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fdce68, size 0x4e0, virtual false, abstract: false, final false
   static inline void Update(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
                             ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
 
@@ -110,7 +110,7 @@ public:
   OVRMixedReality(OVRMixedReality const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

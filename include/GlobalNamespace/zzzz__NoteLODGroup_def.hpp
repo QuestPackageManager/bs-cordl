@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> meshRenderer;
 
-  /// @brief Method GetStartupLevel, addr 0x3b825ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStartupLevel, addr 0x3b8b50c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetStartupLevel();
 
   static inline ::GlobalNamespace::NoteLODGroup* New_ctor();
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__postProcessEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x3b825f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8b514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_meshFilter, addr 0x3b824fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x3b8b41c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_meshRenderer, addr 0x3b82574, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_meshRenderer, addr 0x3b8b494, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshRenderer> get_meshRenderer();
 
 protected:

@@ -141,34 +141,34 @@ public:
   __declspec(property(get = __cordl_internal_get__unifiedNetworkPlayerModel,
                       put = __cordl_internal_set__unifiedNetworkPlayerModel)) ::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
 
-  /// @brief Method Awake, addr 0x3b3287c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b3b32c, size 0x29c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Clear, addr 0x3b33384, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3b3be34, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x3b33064, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x3b3bb14, size 0x320, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType,
                                                          ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x3b32d6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x3b3b81c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x3b33600, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x3b3c0b0, size 0x158, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionChanged();
 
-  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x3b3342c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x3b3bedc, size 0x1d4, virtual false, abstract: false, final false
   inline void HandleMultiplayerPartySizeChanged(int32_t currentPartySize);
 
   static inline ::GlobalNamespace::RichPresenceManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b32b18, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b3b5c8, size 0x254, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetMenuPresence, addr 0x3b32d88, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetMenuPresence, addr 0x3b3b838, size 0x230, virtual false, abstract: false, final false
   inline void SetMenuPresence();
 
-  /// @brief Method SetPresence, addr 0x3b32fb8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetPresence, addr 0x3b3ba68, size 0xac, virtual false, abstract: false, final false
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
 
   constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData* const& __cordl_internal_get__browsingMenusRichPresenceData() const;
@@ -273,7 +273,7 @@ public:
 
   constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
 
-  /// @brief Method .ctor, addr 0x3b33758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3c208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

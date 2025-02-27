@@ -40,7 +40,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::IMacFactory*() noexcept;
 
-  /// @brief Method CreateCalculator, addr 0x2686ba4, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method CreateCalculator, addr 0x268a8dc, size 0x16c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   static inline ::Org::BouncyCastle::Crmf::PKMacFactory* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* value);
 
-  /// @brief Method .ctor, addr 0x2686a94, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268a7cc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x2686b10, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmDetails, addr 0x268a848, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* get_AlgorithmDetails();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMacFactory"

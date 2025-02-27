@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_privateGameSecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22f0b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f48b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   PlayerSessionInfo(PlayerSessionInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15024 };
 
   /// @brief Field playerSessionId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerSessionId;

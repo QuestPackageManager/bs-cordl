@@ -60,25 +60,25 @@ public:
 
   constexpr void __cordl_internal_set__Source_k__BackingField(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x4af5fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afefe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Id, addr 0x4af5f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x4afefc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Id();
 
-  /// @brief Method get_Optional, addr 0x4af5f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Optional, addr 0x4afefb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Optional();
 
-  /// @brief Method get_Source, addr 0x4af5fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Source, addr 0x4afefd8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectSources get_Source();
 
-  /// @brief Method set_Id, addr 0x4af5fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x4afefd0, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::System::Object* value);
 
-  /// @brief Method set_Optional, addr 0x4af5f8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x4afefbc, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
-  /// @brief Method set_Source, addr 0x4af5fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x4afefe0, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::Zenject::InjectSources value);
 
 protected:
@@ -96,7 +96,7 @@ public:
   InjectAttributeBase(InjectAttributeBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18422 };
 
   /// @brief Field <Optional>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Optional_k__BackingField;

@@ -50,7 +50,7 @@ public:
   /// @brief Field _gameObjectBindInfo, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo)) ::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
-  /// @brief Method GetGameObject, addr 0x4b40494, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetGameObject, addr 0x4b494c4, size 0x5c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   static inline ::Zenject::AddToNewGameObjectComponentProvider* New_ctor(::Zenject::DiContainer* container, ::System::Type* componentType,
@@ -64,12 +64,12 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x4b40460, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b49490, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ShouldToggleActive, addr 0x4b4048c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldToggleActive, addr 0x4b494bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_ShouldToggleActive();
 
 protected:
@@ -87,7 +87,7 @@ public:
   AddToNewGameObjectComponentProvider(AddToNewGameObjectComponentProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12528 };
 
   /// @brief Field _gameObjectBindInfo, offset: 0x38, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;

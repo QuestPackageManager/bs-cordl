@@ -63,16 +63,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3ab0a94, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3ab9544, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3ab0938, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3ab93e8, size 0x40, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Encode, addr 0x3ab0808, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3ab92b8, size 0x74, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t count, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Finalize, addr 0x3ab09f4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3ab94a4, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Encoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application);
@@ -113,28 +113,28 @@ public:
 
   constexpr void __cordl_internal_set_signal(::UnityOpus::OpusSignal value);
 
-  /// @brief Method .ctor, addr 0x3ab065c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab910c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application);
 
-  /// @brief Method get_Bitrate, addr 0x3ab0440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bitrate, addr 0x3ab8ef0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Bitrate();
 
-  /// @brief Method get_Complexity, addr 0x3ab04f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complexity, addr 0x3ab8fa4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Complexity();
 
-  /// @brief Method get_Signal, addr 0x3ab05a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signal, addr 0x3ab9058, size 0x8, virtual false, abstract: false, final false
   inline ::UnityOpus::OpusSignal get_Signal();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Bitrate, addr 0x3ab0448, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Bitrate, addr 0x3ab8ef8, size 0x28, virtual false, abstract: false, final false
   inline void set_Bitrate(int32_t value);
 
-  /// @brief Method set_Complexity, addr 0x3ab04fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Complexity, addr 0x3ab8fac, size 0x28, virtual false, abstract: false, final false
   inline void set_Complexity(int32_t value);
 
-  /// @brief Method set_Signal, addr 0x3ab05b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Signal, addr 0x3ab9060, size 0x28, virtual false, abstract: false, final false
   inline void set_Signal(::UnityOpus::OpusSignal value);
 
 protected:
@@ -152,7 +152,7 @@ public:
   Encoder(Encoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19078 };
 
   /// @brief Field bitrate, offset: 0x10, size: 0x4, def value: None
   int32_t ___bitrate;

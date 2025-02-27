@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set_refName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x42bf134, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c8164, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RefName, addr 0x42bf094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x42c80c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method set_RefName, addr 0x42bf09c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x42c80cc, size 0x98, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -58,7 +58,7 @@ public:
   XmlSchemaAttributeGroupRef(XmlSchemaAttributeGroupRef const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7658 };
 
   /// @brief Field refName, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___refName;

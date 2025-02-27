@@ -62,7 +62,7 @@ public:
   /// @brief Method CompleteDisposed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CompleteDisposed();
 
-  /// @brief Method Init, addr 0x4414240, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x441d270, size 0x20, virtual false, abstract: false, final false
   inline void Init(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
   static inline ::System::IOAsyncResult* New_ctor();
@@ -99,34 +99,34 @@ public:
 
   constexpr void __cordl_internal_set_wait_handle(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x4414238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441d268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4414260, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441d290, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
-  /// @brief Method get_AsyncCallback, addr 0x441428c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncCallback, addr 0x441d2bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::AsyncCallback* get_AsyncCallback();
 
-  /// @brief Method get_AsyncState, addr 0x4414294, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x441d2c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x441429c, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x441d2cc, size 0x118, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x44143b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x441d3e4, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x44143c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x441d3f8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
   constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  /// @brief Method set_CompletedSynchronously, addr 0x44143bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CompletedSynchronously, addr 0x441d3ec, size 0xc, virtual false, abstract: false, final false
   inline void set_CompletedSynchronously(bool value);
 
-  /// @brief Method set_IsCompleted, addr 0x44143d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_IsCompleted, addr 0x441d400, size 0xd8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
 protected:
@@ -144,7 +144,7 @@ public:
   IOAsyncResult(IOAsyncResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9215 };
 
   /// @brief Field async_callback, offset: 0x10, size: 0x8, def value: None
   ::System::AsyncCallback* ___async_callback;

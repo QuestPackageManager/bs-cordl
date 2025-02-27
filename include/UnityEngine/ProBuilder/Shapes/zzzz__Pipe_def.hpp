@@ -47,15 +47,15 @@ public:
   /// @brief Field m_Thickness, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Thickness, put = __cordl_internal_set_m_Thickness)) float_t m_Thickness;
 
-  /// @brief Method CopyShape, addr 0x475562c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x475e65c, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Pipe* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x47556e4, size 0x9bc, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x475e714, size 0x9bc, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x47556b8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x475e6e8, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_HeightCuts() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Thickness(float_t value);
 
-  /// @brief Method .ctor, addr 0x47560a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x475f0d0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   Pipe(Pipe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14347 };
 
   /// @brief Field m_Thickness, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Thickness;

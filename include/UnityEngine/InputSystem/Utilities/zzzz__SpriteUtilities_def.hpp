@@ -25,7 +25,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE SpriteUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateCircleSprite, addr 0x4574510, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CreateCircleSprite, addr 0x457d540, size 0x1e8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateCircleSprite(int32_t radius, ::UnityEngine::Color32 colour);
 
 protected:
@@ -43,7 +43,7 @@ public:
   SpriteUtilities(SpriteUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7116 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

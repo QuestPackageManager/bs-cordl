@@ -94,7 +94,7 @@ public:
   static constexpr uint32_t ZERO_WIDTH_SPACE{ static_cast<uint32_t>(0x200bu) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

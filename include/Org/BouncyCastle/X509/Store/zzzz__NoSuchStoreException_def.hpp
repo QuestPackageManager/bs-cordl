@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x25eaa10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ee748, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25eaa14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ee74c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25eaa18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ee750, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

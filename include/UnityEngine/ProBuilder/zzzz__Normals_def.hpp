@@ -35,16 +35,16 @@ public:
   /// @brief Field s_SmoothAvgCount, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SmoothAvgCount, put = setStaticF_s_SmoothAvgCount)) ::ArrayW<float_t, ::Array<float_t>*> s_SmoothAvgCount;
 
-  /// @brief Method CalculateHardNormals, addr 0x4720d9c, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method CalculateHardNormals, addr 0x4729dcc, size 0x4bc, virtual false, abstract: false, final false
   static inline void CalculateHardNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method CalculateNormals, addr 0x4721258, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method CalculateNormals, addr 0x472a288, size 0x5a8, virtual false, abstract: false, final false
   static inline void CalculateNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method CalculateTangents, addr 0x472089c, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method CalculateTangents, addr 0x47298cc, size 0x500, virtual false, abstract: false, final false
   static inline void CalculateTangents(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method ClearIntArray, addr 0x47207a0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ClearIntArray, addr 0x47297d0, size 0xfc, virtual false, abstract: false, final false
   static inline void ClearIntArray(int32_t count);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_CachedIntArray();
@@ -74,7 +74,7 @@ public:
   Normals(Normals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14264 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

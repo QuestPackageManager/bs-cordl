@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(::System::ComponentModel::ListChangedType, int32_t)>(
     &::System::ComponentModel::ListChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44593d8;
+  constexpr static std::size_t addrs = 0x4462408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(
     ::System::ComponentModel::ListChangedType, int32_t, ::System::ComponentModel::PropertyDescriptor*)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4459460;
+  constexpr static std::size_t addrs = 0x4462490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(
     ::System::ComponentModel::ListChangedType, ::System::ComponentModel::PropertyDescriptor*)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4459490;
+  constexpr static std::size_t addrs = 0x44624c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(::System::ComponentModel::ListChangedType, int32_t, int32_t)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x44593e0;
+  constexpr static std::size_t addrs = 0x4462410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ListChangedType (::System::ComponentModel::ListChangedEventArgs::*)()>(
     &::System::ComponentModel::ListChangedEventArgs::get_ListChangedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4459504;
+  constexpr static std::size_t addrs = 0x4462534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ListChangedEventArgs*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ListChangedEventArgs::*)()>(
     &::System::ComponentModel::ListChangedEventArgs::get_NewIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x445950c;
+  constexpr static std::size_t addrs = 0x446253c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ListChangedEventArgs*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ListChangedEventArgs::*)()>(
     &::System::ComponentModel::ListChangedEventArgs::get_OldIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4459514;
+  constexpr static std::size_t addrs = 0x4462544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ListChangedEventArgs*>::get(),

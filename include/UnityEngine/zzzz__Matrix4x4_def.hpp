@@ -62,125 +62,125 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x48a2aa0, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48abad0, size 0x174, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x48a2c14, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48abc44, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Matrix4x4 other);
 
-  /// @brief Method GetColumn, addr 0x48a29cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetColumn, addr 0x48ab9fc, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetColumn(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x48a2824, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48ab854, size 0x1a8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetLossyScale, addr 0x48a1f2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetLossyScale, addr 0x48aaf5c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLossyScale();
 
-  /// @brief Method GetLossyScale_Injected, addr 0x48a1f88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLossyScale_Injected, addr 0x48aafb8, size 0x44, virtual false, abstract: false, final false
   static inline void GetLossyScale_Injected(::ByRef<::UnityEngine::Matrix4x4> _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method GetRotation, addr 0x48a1e90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x48aaec0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method GetRotation_Injected, addr 0x48a1ee8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRotation_Injected, addr 0x48aaf18, size 0x44, virtual false, abstract: false, final false
   static inline void GetRotation_Injected(::ByRef<::UnityEngine::Matrix4x4> _unity_self, ::ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method GetRow, addr 0x48a2f74, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetRow, addr 0x48abfa4, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetRow(int32_t index);
 
-  /// @brief Method Inverse, addr 0x48a2188, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x48ab1b8, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Inverse(::UnityEngine::Matrix4x4 m);
 
-  /// @brief Method Inverse3DAffine, addr 0x48a2100, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Inverse3DAffine, addr 0x48ab130, size 0x44, virtual false, abstract: false, final false
   static inline bool Inverse3DAffine(::UnityEngine::Matrix4x4 input, ::ByRef<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method Inverse3DAffine_Injected, addr 0x48a2144, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Inverse3DAffine_Injected, addr 0x48ab174, size 0x44, virtual false, abstract: false, final false
   static inline bool Inverse3DAffine_Injected(::ByRef<::UnityEngine::Matrix4x4> input, ::ByRef<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method Inverse_Injected, addr 0x48a21f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Inverse_Injected, addr 0x48ab224, size 0x44, virtual false, abstract: false, final false
   static inline void Inverse_Injected(::ByRef<::UnityEngine::Matrix4x4> m, ::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method MultiplyPoint, addr 0x48a30c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MultiplyPoint, addr 0x48ac0f0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 MultiplyPoint(::UnityEngine::Vector3 point);
 
-  /// @brief Method MultiplyPoint3x4, addr 0x48a3140, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MultiplyPoint3x4, addr 0x48ac170, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 MultiplyPoint3x4(::UnityEngine::Vector3 point);
 
-  /// @brief Method MultiplyVector, addr 0x48a3198, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MultiplyVector, addr 0x48ac1c8, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 MultiplyVector(::UnityEngine::Vector3 vector);
 
-  /// @brief Method Ortho, addr 0x48a23e8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Ortho, addr 0x48ab418, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar);
 
-  /// @brief Method Ortho_Injected, addr 0x48a2494, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Ortho_Injected, addr 0x48ab4c4, size 0x84, virtual false, abstract: false, final false
   static inline void Ortho_Injected(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar, ::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method Perspective, addr 0x48a2518, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Perspective, addr 0x48ab548, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Perspective(float_t fov, float_t aspect, float_t zNear, float_t zFar);
 
-  /// @brief Method Perspective_Injected, addr 0x48a25ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Perspective_Injected, addr 0x48ab5dc, size 0x6c, virtual false, abstract: false, final false
   static inline void Perspective_Injected(float_t fov, float_t aspect, float_t zNear, float_t zFar, ::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method Rotate, addr 0x48a320c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x48ac23c, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Rotate(::UnityEngine::Quaternion q);
 
-  /// @brief Method Scale, addr 0x48a31e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Scale, addr 0x48ac210, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Scale(::UnityEngine::Vector3 vector);
 
-  /// @brief Method SetColumn, addr 0x48a3048, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetColumn, addr 0x48ac078, size 0x78, virtual false, abstract: false, final false
   inline void SetColumn(int32_t index, ::UnityEngine::Vector4 column);
 
-  /// @brief Method SetTRS, addr 0x48a20c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetTRS, addr 0x48ab0f0, size 0x40, virtual false, abstract: false, final false
   inline void SetTRS(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion q, ::UnityEngine::Vector3 s);
 
-  /// @brief Method TRS, addr 0x48a1fd4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TRS, addr 0x48ab004, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 TRS(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion q, ::UnityEngine::Vector3 s);
 
-  /// @brief Method TRS_Injected, addr 0x48a2064, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TRS_Injected, addr 0x48ab094, size 0x5c, virtual false, abstract: false, final false
   static inline void TRS_Injected(::ByRef<::UnityEngine::Vector3> pos, ::ByRef<::UnityEngine::Quaternion> q, ::ByRef<::UnityEngine::Vector3> s, ::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method ToString, addr 0x48a3354, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48ac384, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x48a3364, size 0x508, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x48ac394, size 0x508, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Transpose, addr 0x48a22b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Transpose, addr 0x48ab2e8, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Transpose(::UnityEngine::Matrix4x4 m);
 
-  /// @brief Method Transpose_Injected, addr 0x48a2324, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Transpose_Injected, addr 0x48ab354, size 0x44, virtual false, abstract: false, final false
   static inline void Transpose_Injected(::ByRef<::UnityEngine::Matrix4x4> m, ::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method .ctor, addr 0x48a2618, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ab648, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector4 column0, ::UnityEngine::Vector4 column1, ::UnityEngine::Vector4 column2, ::UnityEngine::Vector4 column3);
 
   static inline ::UnityEngine::Matrix4x4 getStaticF_identityMatrix();
 
   static inline ::UnityEngine::Matrix4x4 getStaticF_zeroMatrix();
 
-  /// @brief Method get_Item, addr 0x48a263c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48ab66c, size 0xf0, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x48a2634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48ab664, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t row, int32_t column);
 
-  /// @brief Method get_identity, addr 0x48a32fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x48ac32c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 get_identity();
 
-  /// @brief Method get_inverse, addr 0x48a2238, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_inverse, addr 0x48ab268, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_inverse();
 
-  /// @brief Method get_lossyScale, addr 0x48a1fd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_lossyScale, addr 0x48ab000, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_lossyScale();
 
-  /// @brief Method get_rotation, addr 0x48a1fcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x48aaffc, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_transpose, addr 0x48a2368, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_transpose, addr 0x48ab398, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_transpose();
 
-  /// @brief Method get_zero, addr 0x48a32a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x48ac2d4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Matrix4x4>"
@@ -189,26 +189,26 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x48a2e48, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48abe78, size 0xe4, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Matrix4x4 lhs, ::UnityEngine::Matrix4x4 rhs);
 
-  /// @brief Method op_Inequality, addr 0x48a2f2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x48abf5c, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Matrix4x4 lhs, ::UnityEngine::Matrix4x4 rhs);
 
-  /// @brief Method op_Multiply, addr 0x48a2d1c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x48abd4c, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 op_Multiply(::UnityEngine::Matrix4x4 lhs, ::UnityEngine::Matrix4x4 rhs);
 
-  /// @brief Method op_Multiply, addr 0x48a2e14, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x48abe44, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 op_Multiply(::UnityEngine::Matrix4x4 lhs, ::UnityEngine::Vector4 vector);
 
   static inline void setStaticF_identityMatrix(::UnityEngine::Matrix4x4 value);
 
   static inline void setStaticF_zeroMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_Item, addr 0x48a2734, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x48ab764, size 0xf0, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, float_t value);
 
-  /// @brief Method set_Item, addr 0x48a272c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x48ab75c, size 0x8, virtual false, abstract: false, final false
   inline void set_Item(int32_t row, int32_t column, float_t value);
 
   // Ctor Parameters []
@@ -226,7 +226,7 @@ public:
                       float_t m13, float_t m23, float_t m33) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10820 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

@@ -78,13 +78,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Projection___c* New_ctor();
 
-  /// @brief Method <Sort>b__6_0, addr 0x472f53c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Sort>b__6_0, addr 0x473856c, size 0x48, virtual false, abstract: false, final false
   inline int32_t _Sort_b__6_0(::UnityEngine::ProBuilder::SimpleTuple_2<float_t, ::UnityEngine::Vector2> a, ::UnityEngine::ProBuilder::SimpleTuple_2<float_t, ::UnityEngine::Vector2> b);
 
-  /// @brief Method <Sort>b__6_1, addr 0x472f584, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Sort>b__6_1, addr 0x47385b4, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 _Sort_b__6_1(::UnityEngine::ProBuilder::SimpleTuple_2<float_t, ::UnityEngine::Vector2> x);
 
-  /// @brief Method .ctor, addr 0x472f534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4738564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::Projection___c* getStaticF___9();
@@ -114,7 +114,7 @@ public:
   Projection___c(Projection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,45 +131,45 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::Projection___c;
 
-  /// @brief Method FindBestPlane, addr 0x472f014, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method FindBestPlane, addr 0x4738044, size 0x4c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Plane FindBestPlane(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t textureGroup);
 
-  /// @brief Method FindBestPlane, addr 0x472c934, size 0x97c, virtual false, abstract: false, final false
+  /// @brief Method FindBestPlane, addr 0x4735964, size 0x97c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Plane FindBestPlane(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method GetTangentToAxis, addr 0x472dd18, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetTangentToAxis, addr 0x4736d48, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetTangentToAxis(::UnityEngine::ProBuilder::ProjectionAxis axis);
 
-  /// @brief Method PlanarProject, addr 0x472c90c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PlanarProject, addr 0x473593c, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> PlanarProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions,
                                                                                                  ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method PlanarProject, addr 0x472d2b0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method PlanarProject, addr 0x47362e0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> PlanarProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions,
                                                                                                  ::System::Collections::Generic::IList_1<int32_t>* indexes, ::UnityEngine::Vector3 direction);
 
-  /// @brief Method PlanarProject, addr 0x472e210, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method PlanarProject, addr 0x4737240, size 0x3d0, virtual false, abstract: false, final false
   static inline void PlanarProject(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection);
 
-  /// @brief Method PlanarProject, addr 0x472ddd4, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method PlanarProject, addr 0x4736e04, size 0x43c, virtual false, abstract: false, final false
   static inline void PlanarProject(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t textureGroup, ::UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
 
-  /// @brief Method PlanarProject, addr 0x472d468, size 0x790, virtual false, abstract: false, final false
+  /// @brief Method PlanarProject, addr 0x4736498, size 0x790, virtual false, abstract: false, final false
   static inline void PlanarProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                    ::UnityEngine::Vector3 direction, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* results);
 
-  /// @brief Method ProjectionAxisToVector, addr 0x472ee74, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ProjectionAxisToVector, addr 0x4737ea4, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ProjectionAxisToVector(::UnityEngine::ProBuilder::ProjectionAxis axis);
 
-  /// @brief Method Sort, addr 0x472e99c, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x47379cc, size 0x4d8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* Sort(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* verts,
                                                                                       ::UnityEngine::ProBuilder::SortMethod method);
 
-  /// @brief Method SphericalProject, addr 0x472e5e0, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method SphericalProject, addr 0x4737610, size 0x3bc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> SphericalProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* vertices,
                                                                                                     ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method VectorToProjectionAxis, addr 0x472dbf8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method VectorToProjectionAxis, addr 0x4736c28, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ProjectionAxis VectorToProjectionAxis(::UnityEngine::Vector3 direction);
 
 protected:
@@ -187,7 +187,7 @@ public:
   Projection(Projection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

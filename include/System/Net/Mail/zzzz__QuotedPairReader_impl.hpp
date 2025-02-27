@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, bool)>(&::System::Net::Mail::QuotedPairReader::CountQuotedChars)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x44083f4;
+  constexpr static std::size_t addrs = 0x4411424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::Mail::QuotedPairReader::CountBackslashes)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x44098f4;
+  constexpr static std::size_t addrs = 0x4412924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

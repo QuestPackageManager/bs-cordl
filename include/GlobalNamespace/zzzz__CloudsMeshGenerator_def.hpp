@@ -79,7 +79,7 @@ public:
                                       int32_t precisionVertexCount, int32_t lowPolyVertexCount, int32_t generatedCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17684 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -147,7 +147,7 @@ public:
   constexpr CloudsMeshGenerator_Ring(float_t radius, float_t normalizedRadius, int32_t meshCount, ::ArrayW<int32_t, ::Array<int32_t>*> cloudIDs, float_t sizeMultiplier) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -199,7 +199,7 @@ public:
   constexpr CloudsMeshGenerator_ProhibitedRadius(::UnityW<::UnityEngine::Transform> transform, float_t distance, float_t radius) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17686 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -241,7 +241,7 @@ public:
   constexpr CloudsMeshGenerator_RadiusChunk(float_t normalizedStart, float_t normalizedEnd, float_t absoluteStart, float_t absoluteEnd) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17687 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -599,7 +599,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2264f98, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2268dd0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -617,7 +617,7 @@ public:
   CloudsMeshGenerator(CloudsMeshGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17688 };
 
   /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;

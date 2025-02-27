@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE RecordingToolInstallerSO : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3b308f0, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b393a0, size 0x1a4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::RecordingToolInstallerSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b30a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b39544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

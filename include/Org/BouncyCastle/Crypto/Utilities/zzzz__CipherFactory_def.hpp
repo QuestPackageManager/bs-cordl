@@ -37,16 +37,16 @@ public:
   /// @brief Field rc2Ekb, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rc2Ekb, put = setStaticF_rc2Ekb)) ::ArrayW<int16_t, ::Array<int16_t>*> rc2Ekb;
 
-  /// @brief Method CreateCipher, addr 0x2445f34, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0x2449c6c, size 0x38c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::BufferedBlockCipher* CreateCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
 
-  /// @brief Method CreateContentCipher, addr 0x24457e8, size 0x74c, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0x2449520, size 0x74c, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::CipherFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24457e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2449518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_rc2Ekb();

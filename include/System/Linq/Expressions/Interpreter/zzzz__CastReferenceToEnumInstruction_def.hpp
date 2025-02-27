@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction* New_ctor(::System::Type* t);
 
-  /// @brief Method Run, addr 0x40fdf10, size 0x4cc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4106f40, size 0x4cc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__t() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40fdee8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4106f18, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:
@@ -57,7 +57,7 @@ public:
   CastReferenceToEnumInstruction(CastReferenceToEnumInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14122 };
 
   /// @brief Field _t, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____t;

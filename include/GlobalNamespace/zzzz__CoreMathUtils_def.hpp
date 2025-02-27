@@ -20,21 +20,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE CoreMathUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CalculateHalfJumpDurationInBeats, addr 0x26a2d90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CalculateHalfJumpDurationInBeats, addr 0x26a6ac8, size 0x40, virtual false, abstract: false, final false
   static inline float_t CalculateHalfJumpDurationInBeats(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t oneBeatDuration,
                                                          float_t noteJumpStartBeatOffset);
 
   static inline ::GlobalNamespace::CoreMathUtils* New_ctor();
 
-  /// @brief Method __CalculateHalfJumpDurationInBeatsV1, addr 0x26a2e04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method __CalculateHalfJumpDurationInBeatsV1, addr 0x26a6b3c, size 0x48, virtual false, abstract: false, final false
   static inline int32_t __CalculateHalfJumpDurationInBeatsV1(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t oneBeatDuration,
                                                              float_t minHalfJumpDistance);
 
-  /// @brief Method __CalculateHalfJumpDurationInBeatsV2, addr 0x26a2dd0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method __CalculateHalfJumpDurationInBeatsV2, addr 0x26a6b08, size 0x34, virtual false, abstract: false, final false
   static inline float_t __CalculateHalfJumpDurationInBeatsV2(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t oneBeatDuration,
                                                              float_t noteJumpStartBeatOffset);
 
-  /// @brief Method .ctor, addr 0x26a2e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a6b84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   CoreMathUtils(CoreMathUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19193 };
 
   /// @brief Field kHalfJumpDistanceEpsilon offset 0xffffffff size 0x4
   static constexpr float_t kHalfJumpDistanceEpsilon{ static_cast<float_t>(0.001f) };

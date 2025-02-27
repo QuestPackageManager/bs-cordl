@@ -45,21 +45,21 @@ public:
   /// @brief Field _vrPointer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPointer, put = __cordl_internal_set__vrPointer)) ::UnityW<::VRUIControls::VRPointer> _vrPointer;
 
-  /// @brief Method Awake, addr 0x3c0721c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c10154, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonClickEvent, addr 0x3c073cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClickEvent, addr 0x3c10304, size 0x28, virtual false, abstract: false, final false
   inline void HandleButtonClickEvent();
 
   static inline ::GlobalNamespace::MenuShockwave* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3c072fc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3c10234, size 0xd0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3c0722c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c10164, size 0xd0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SpawnShockwave, addr 0x3c073f4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x3c1032c, size 0xa4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> const& __cordl_internal_get__buttonClickEvents() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPointer(::UnityW<::VRUIControls::VRPointer> value);
 
-  /// @brief Method .ctor, addr 0x3c07498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c103d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -206,7 +206,7 @@ public:
   constexpr NativeArray_1(::cordl_internals::Ptr<void> m_Buffer, int32_t m_Length, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10604 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -282,7 +282,7 @@ public:
   constexpr NativeArray_1_Enumerator(::Unity::Collections::NativeArray_1<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10601 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -356,7 +356,7 @@ public:
   constexpr NativeArray_1_ReadOnly(::cordl_internals::Ptr<void> m_Buffer, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10603 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -429,7 +429,7 @@ public:
   constexpr ReadOnly_NativeArray_1_Enumerator(::Unity::Collections::NativeArray_1_ReadOnly<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10602 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

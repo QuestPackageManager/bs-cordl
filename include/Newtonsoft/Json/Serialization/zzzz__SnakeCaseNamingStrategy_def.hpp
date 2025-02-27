@@ -25,16 +25,16 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::SnakeCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
-  /// @brief Method ResolvePropertyName, addr 0x3f034e0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x3f0c3e4, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3f034d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0c3dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3f03454, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0c358, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x3f0348c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f0c390, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:
@@ -52,7 +52,7 @@ public:
   SnakeCaseNamingStrategy(SnakeCaseNamingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10351 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

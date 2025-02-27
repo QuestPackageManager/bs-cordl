@@ -60,10 +60,10 @@ public:
 
   static inline ::UnityEngine::Events::ArgumentCache* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x48c14cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x48ca4fc, size 0x1c, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x48c14b0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x48ca4e0, size 0x1c, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr bool const& __cordl_internal_get_m_BoolArgument() const;
@@ -102,25 +102,25 @@ public:
 
   constexpr void __cordl_internal_set_m_StringArgument(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48c14e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ca518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_boolArgument, addr 0x48c14a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boolArgument, addr 0x48ca4d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_boolArgument();
 
-  /// @brief Method get_floatArgument, addr 0x48c1498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatArgument, addr 0x48ca4c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatArgument();
 
-  /// @brief Method get_intArgument, addr 0x48c1490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intArgument, addr 0x48ca4c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intArgument();
 
-  /// @brief Method get_stringArgument, addr 0x48c14a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stringArgument, addr 0x48ca4d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stringArgument();
 
-  /// @brief Method get_unityObjectArgument, addr 0x48c1480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unityObjectArgument, addr 0x48ca4b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_unityObjectArgument();
 
-  /// @brief Method get_unityObjectArgumentAssemblyTypeName, addr 0x48c1488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unityObjectArgumentAssemblyTypeName, addr 0x48ca4b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_unityObjectArgumentAssemblyTypeName();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -141,7 +141,7 @@ public:
   ArgumentCache(ArgumentCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10977 };
 
   /// @brief Field m_ObjectArgument, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ___m_ObjectArgument;

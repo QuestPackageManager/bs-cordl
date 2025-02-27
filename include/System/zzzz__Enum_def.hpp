@@ -71,19 +71,19 @@ namespace System {
 struct CORDL_TYPE Enum_EnumResult {
 public:
   // Declarations
-  /// @brief Method GetEnumParseException, addr 0x3e23e54, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumParseException, addr 0x3e2cd58, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
-  /// @brief Method Init, addr 0x3e23798, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3e2c69c, size 0x68, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure, addr 0x3e23ffc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3e2cf00, size 0x40, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x3e23fc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3e2cec4, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure, addr 0x3e245fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3e2d500, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
   // Ctor Parameters []
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3e22c34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e2bb38, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
 protected:

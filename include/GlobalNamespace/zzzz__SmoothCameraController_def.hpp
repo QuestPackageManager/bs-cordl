@@ -30,21 +30,21 @@ public:
   /// @brief Field _smoothCamera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__smoothCamera, put = __cordl_internal_set__smoothCamera)) ::UnityW<::GlobalNamespace::SmoothCamera> _smoothCamera;
 
-  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x3bf4464, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x3bfd39c, size 0xe8, virtual false, abstract: false, final false
   inline void ActivateSmoothCameraIfNeeded();
 
-  /// @brief Method HandleDidActivate, addr 0x3bf4550, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDidActivate, addr 0x3bfd488, size 0x40, virtual false, abstract: false, final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate, addr 0x3bf4590, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidDeactivate, addr 0x3bfd4c8, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidDeactivate();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bf454c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bfd484, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bf4460, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bfd398, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
-  /// @brief Method .ctor, addr 0x3bf4594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfd4cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

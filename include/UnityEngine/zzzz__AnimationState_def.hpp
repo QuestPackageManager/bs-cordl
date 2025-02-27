@@ -32,19 +32,19 @@ public:
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4851e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485ae48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clip, addr 0x4851984, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x485a9b4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method set_normalizedTime, addr 0x4851d80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime, addr 0x485adb0, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalizedTime(float_t value);
 
-  /// @brief Method set_speed, addr 0x4851dcc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_speed, addr 0x485adfc, size 0x4c, virtual false, abstract: false, final false
   inline void set_speed(float_t value);
 
-  /// @brief Method set_time, addr 0x4851d34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x485ad64, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   AnimationState(AnimationState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

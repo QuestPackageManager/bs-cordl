@@ -25,10 +25,10 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ScriptingRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPrimitiveDefaultValue, addr 0x40feb0c, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveDefaultValue, addr 0x4107b3c, size 0x31c, virtual false, abstract: false, final false
   static inline ::System::Object* GetPrimitiveDefaultValue(::System::Type* type);
 
-  /// @brief Method Int32ToObject, addr 0x40f048c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Int32ToObject, addr 0x40f94bc, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Object* Int32ToObject(int32_t i);
 
 protected:
@@ -46,7 +46,7 @@ public:
   ScriptingRuntimeHelpers(ScriptingRuntimeHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

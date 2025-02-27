@@ -110,7 +110,7 @@ public:
   BaseField_1_UxmlTraits(BaseField_1_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5606 };
 
   /// @brief Field m_Label, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Label;
@@ -524,7 +524,7 @@ public:
   BaseField_1(BaseField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5607 };
 
   /// @brief Field m_LabelWidthRatio, offset: 0x3d8, size: 0x4, def value: None
   float_t ___m_LabelWidthRatio;

@@ -28,24 +28,24 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizedText : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::UnityEngine::UI::Text>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0x22b20e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x22b5e18, size 0x20, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::UnityEngine::TextAnchor alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x22b20bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x22b5df4, size 0x24, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::UnityEngine::TextAnchor alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x22b2078, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x22b5db0, size 0x44, virtual false, abstract: false, final false
   inline bool IsOppositeDirection(::UnityEngine::TextAnchor alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedText* New_ctor();
 
-  /// @brief Method SetText, addr 0x22b1e98, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x22b5bd0, size 0x11c, virtual true, abstract: false, final false
   inline void SetText(::UnityEngine::UI::Text* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x22b1fb4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x22b5cec, size 0xc4, virtual true, abstract: false, final false
   inline void UpdateAlignment(::UnityEngine::UI::Text* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x22b2100, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b5e38, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   LocalizedText(LocalizedText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18062 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

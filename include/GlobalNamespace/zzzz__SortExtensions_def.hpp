@@ -66,7 +66,7 @@ public:
   SortExtensions___c__DisplayClass1_0_1(SortExtensions___c__DisplayClass1_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14972 };
 
   /// @brief Field getSortIndex, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<T, int32_t>* ___getSortIndex;
@@ -105,7 +105,7 @@ public:
   SortExtensions(SortExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14973 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

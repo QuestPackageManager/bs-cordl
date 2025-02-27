@@ -39,7 +39,7 @@ public:
   constexpr DataError_ColumnError(::System::Data::DataColumn* _column, ::StringW _error) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11380 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -83,29 +83,29 @@ public:
   /// @brief Field _rowError, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rowError, put = __cordl_internal_set__rowError)) ::StringW _rowError;
 
-  /// @brief Method Clear, addr 0x41610f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x416a128, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x4160e70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4169ea0, size 0xac, virtual false, abstract: false, final false
   inline void Clear(::System::Data::DataColumn* column);
 
-  /// @brief Method GetColumnError, addr 0x416105c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetColumnError, addr 0x416a08c, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW GetColumnError(::System::Data::DataColumn* column);
 
-  /// @brief Method GetColumnsInError, addr 0x41611a0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetColumnsInError, addr 0x416a1d0, size 0xe8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> GetColumnsInError();
 
-  /// @brief Method IndexOf, addr 0x4160f1c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x4169f4c, size 0x140, virtual false, abstract: false, final false
   inline int32_t IndexOf(::System::Data::DataColumn* column);
 
   static inline ::System::Data::DataError* New_ctor();
 
   static inline ::System::Data::DataError* New_ctor(::StringW rowError);
 
-  /// @brief Method SetColumnError, addr 0x4160d90, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetColumnError, addr 0x4169dc0, size 0xe0, virtual false, abstract: false, final false
   inline void SetColumnError(::System::Data::DataColumn* column, ::StringW error);
 
-  /// @brief Method SetText, addr 0x4160ca4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x4169cd4, size 0x58, virtual false, abstract: false, final false
   inline void SetText(::StringW errorText);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -126,19 +126,19 @@ public:
 
   constexpr void __cordl_internal_set__rowError(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4160bb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4169be0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4160c08, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4169c38, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW rowError);
 
-  /// @brief Method get_HasErrors, addr 0x4160d5c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HasErrors, addr 0x4169d8c, size 0x34, virtual false, abstract: false, final false
   inline bool get_HasErrors();
 
-  /// @brief Method get_Text, addr 0x4160cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x4169d2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
-  /// @brief Method set_Text, addr 0x4160d04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x4169d34, size 0x58, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
 protected:
@@ -156,7 +156,7 @@ public:
   DataError(DataError const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11381 };
 
   /// @brief Field _rowError, offset: 0x10, size: 0x8, def value: None
   ::StringW ____rowError;

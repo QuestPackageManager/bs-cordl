@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__DefaultAlias_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d266fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2f600, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW defaultAlias);
 
 protected:

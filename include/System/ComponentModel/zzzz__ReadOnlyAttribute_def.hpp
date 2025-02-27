@@ -36,13 +36,13 @@ public:
   /// @brief Field <IsReadOnly>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-  /// @brief Method Equals, addr 0x444c40c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x445543c, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x444c4f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4455520, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x444c4f8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x4455528, size 0x80, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* New_ctor(bool isReadOnly);
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x444c3dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445540c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isReadOnly);
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* getStaticF_Default();
@@ -62,7 +62,7 @@ public:
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* getStaticF_Yes();
 
-  /// @brief Method get_IsReadOnly, addr 0x444c404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x4455434, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReadOnly();
 
   static inline void setStaticF_Default(::System::ComponentModel::ReadOnlyAttribute* value);
@@ -86,7 +86,7 @@ public:
   ReadOnlyAttribute(ReadOnlyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9356 };
 
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;

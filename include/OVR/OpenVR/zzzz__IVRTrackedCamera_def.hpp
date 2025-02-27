@@ -135,18 +135,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__GetCameraErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405daf4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4066af4, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRTrackedCameraError eCameraError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405db78, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4066b78, size 0x28, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405dae0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4066ae0, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRTrackedCameraError eCameraError);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__GetCameraErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405da54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4066a54, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -164,7 +164,7 @@ public:
   IVRTrackedCamera__GetCameraErrorNameFromEnum(IVRTrackedCamera__GetCameraErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,18 +179,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__HasCamera : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405dc40, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4066c40, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDeviceIndex, ::ByRef<bool> pHasCamera, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405dcfc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4066cfc, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<bool> pHasCamera, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405dc2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4066c2c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint32_t nDeviceIndex, ::ByRef<bool> pHasCamera);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__HasCamera* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405dba0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4066ba0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -208,7 +208,7 @@ public:
   IVRTrackedCamera__HasCamera(IVRTrackedCamera__HasCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -223,20 +223,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__GetCameraFrameSize : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405ddc8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4066dc8, size 0x10c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight,
                                              ::ByRef<uint32_t> pnFrameBufferSize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405ded4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4066ed4, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight, ::ByRef<uint32_t> pnFrameBufferSize, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405ddb4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4066db4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight,
                                                      ::ByRef<uint32_t> pnFrameBufferSize);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__GetCameraFrameSize* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405dd28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4066d28, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -254,7 +254,7 @@ public:
   IVRTrackedCamera__GetCameraFrameSize(IVRTrackedCamera__GetCameraFrameSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -269,20 +269,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__GetCameraIntrinsics : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405dfa8, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4066fa8, size 0x108, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<::OVR::OpenVR::HmdVector2_t> pFocalLength,
                                              ::ByRef<::OVR::OpenVR::HmdVector2_t> pCenter, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405e0b0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40670b0, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<::OVR::OpenVR::HmdVector2_t> pFocalLength, ::ByRef<::OVR::OpenVR::HmdVector2_t> pCenter, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405df94, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4066f94, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<::OVR::OpenVR::HmdVector2_t> pFocalLength,
                                                      ::ByRef<::OVR::OpenVR::HmdVector2_t> pCenter);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__GetCameraIntrinsics* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405df08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4066f08, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -300,7 +300,7 @@ public:
   IVRTrackedCamera__GetCameraIntrinsics(IVRTrackedCamera__GetCameraIntrinsics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -315,20 +315,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__GetCameraProjection : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405e184, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4067184, size 0x130, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, float_t flZNear, float_t flZFar,
                                              ::ByRef<::OVR::OpenVR::HmdMatrix44_t> pProjection, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405e2b4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40672b4, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<::OVR::OpenVR::HmdMatrix44_t> pProjection, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405e170, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4067170, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, float_t flZNear, float_t flZFar,
                                                      ::ByRef<::OVR::OpenVR::HmdMatrix44_t> pProjection);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__GetCameraProjection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405e0e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40670e4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -346,7 +346,7 @@ public:
   IVRTrackedCamera__GetCameraProjection(IVRTrackedCamera__GetCameraProjection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -361,18 +361,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__AcquireVideoStreamingService : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405e380, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4067380, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDeviceIndex, ::ByRef<uint64_t> pHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405e43c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406743c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<uint64_t> pHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405e36c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406736c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint32_t nDeviceIndex, ::ByRef<uint64_t> pHandle);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__AcquireVideoStreamingService* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405e2e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40672e0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -390,7 +390,7 @@ public:
   IVRTrackedCamera__AcquireVideoStreamingService(IVRTrackedCamera__AcquireVideoStreamingService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -405,18 +405,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__ReleaseVideoStreamingService : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405e508, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4067508, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405e58c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406758c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405e4f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40674f4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint64_t hTrackedCamera);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamingService* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405e468, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4067468, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -434,7 +434,7 @@ public:
   IVRTrackedCamera__ReleaseVideoStreamingService(IVRTrackedCamera__ReleaseVideoStreamingService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -449,21 +449,21 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__GetVideoStreamFrameBuffer : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405e654, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4067654, size 0x168, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::System::IntPtr pFrameBuffer, uint32_t nFrameBufferSize,
                                              ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405e7bc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40677bc, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405e640, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4067640, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::System::IntPtr pFrameBuffer, uint32_t nFrameBufferSize,
                                                      ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamFrameBuffer* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405e5b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40675b4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -481,7 +481,7 @@ public:
   IVRTrackedCamera__GetVideoStreamFrameBuffer(IVRTrackedCamera__GetVideoStreamFrameBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -496,21 +496,21 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__GetVideoStreamTextureSize : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405e888, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4067888, size 0x128, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds,
                                              ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405e9b0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40679b0, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight,
                                                         ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405e874, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4067874, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds,
                                                      ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureSize* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405e7e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40677e8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -528,7 +528,7 @@ public:
   IVRTrackedCamera__GetVideoStreamTextureSize(IVRTrackedCamera__GetVideoStreamTextureSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -543,23 +543,23 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__GetVideoStreamTextureD3D11 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405ea84, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4067a84, size 0x170, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::System::IntPtr pD3D11DeviceOrResource,
                                              ::ByRef<::System::IntPtr> ppD3D11ShaderResourceView, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405ebf4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4067bf4, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<::System::IntPtr> ppD3D11ShaderResourceView, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader,
                                                         ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405ea70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4067a70, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::System::IntPtr pD3D11DeviceOrResource,
                                                      ::ByRef<::System::IntPtr> ppD3D11ShaderResourceView, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader,
                                                      uint32_t nFrameHeaderSize);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureD3D11* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405e9e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40679e4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -577,7 +577,7 @@ public:
   IVRTrackedCamera__GetVideoStreamTextureD3D11(IVRTrackedCamera__GetVideoStreamTextureD3D11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8596 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -592,21 +592,21 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__GetVideoStreamTextureGL : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405ecc8, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4067cc8, size 0x138, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<uint32_t> pglTextureId,
                                              ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405ee00, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4067e00, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::ByRef<uint32_t> pglTextureId, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405ecb4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4067cb4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<uint32_t> pglTextureId,
                                                      ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__GetVideoStreamTextureGL* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405ec28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4067c28, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -624,7 +624,7 @@ public:
   IVRTrackedCamera__GetVideoStreamTextureGL(IVRTrackedCamera__GetVideoStreamTextureGL const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8597 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -639,18 +639,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRTrackedCamera__ReleaseVideoStreamTextureGL : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x405eed4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4067ed4, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t hTrackedCamera, uint32_t glTextureId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x405ef8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4067f8c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x405eec0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4067ec0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError Invoke(uint64_t hTrackedCamera, uint32_t glTextureId);
 
   static inline ::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x405ee34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4067e34, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -668,7 +668,7 @@ public:
   IVRTrackedCamera__ReleaseVideoStreamTextureGL(IVRTrackedCamera__ReleaseVideoStreamTextureGL const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -732,7 +732,7 @@ public:
                              ::OVR::OpenVR::IVRTrackedCamera__ReleaseVideoStreamTextureGL* ReleaseVideoStreamTextureGL) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

@@ -45,24 +45,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_RuntimeCalls,
                       put = __cordl_internal_set_m_RuntimeCalls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_RuntimeCalls;
 
-  /// @brief Method AddListener, addr 0x48c2728, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddListener, addr 0x48cb758, size 0xa8, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method AddPersistentInvokableCall, addr 0x48c2680, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddPersistentInvokableCall, addr 0x48cb6b0, size 0xa8, virtual false, abstract: false, final false
   inline void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method Clear, addr 0x48c2a40, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x48cba70, size 0xbc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearPersistent, addr 0x48c2afc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ClearPersistent, addr 0x48cbb2c, size 0xbc, virtual false, abstract: false, final false
   inline void ClearPersistent();
 
   static inline ::UnityEngine::Events::InvokableCallList* New_ctor();
 
-  /// @brief Method PrepareInvoke, addr 0x48c2bb8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PrepareInvoke, addr 0x48cbbe8, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
 
-  /// @brief Method RemoveListener, addr 0x48c27d0, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x48cb800, size 0x270, virtual false, abstract: false, final false
   inline void RemoveListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* const& __cordl_internal_get_m_ExecutingCalls() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
 
-  /// @brief Method .ctor, addr 0x48c2c6c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48cbc9c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   InvokableCallList(InvokableCallList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10988 };
 
   /// @brief Field m_PersistentCalls, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* ___m_PersistentCalls;

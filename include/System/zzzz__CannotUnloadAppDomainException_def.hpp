@@ -31,13 +31,13 @@ public:
 
   static inline ::System::CannotUnloadAppDomainException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e119d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1a8dc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e11a50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1a954, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e11a30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1a934, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

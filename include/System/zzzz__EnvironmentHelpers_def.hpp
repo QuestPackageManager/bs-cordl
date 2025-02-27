@@ -18,7 +18,7 @@ namespace System {
 class CORDL_TYPE EnvironmentHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsWindowsVistaOrAbove, addr 0x441411c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsWindowsVistaOrAbove, addr 0x441d14c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsWindowsVistaOrAbove();
 
 protected:
@@ -36,7 +36,7 @@ public:
   EnvironmentHelpers(EnvironmentHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9211 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -70,15 +70,15 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x3a2bd00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3a347b0, size 0x84, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
 
-  /// @brief Method IsEquivalentTo, addr 0x3a2dff8, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a36aa8, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputObjectInfo* New_ctor();
 
-  /// @brief Method SetReferencesFromGameObject, addr 0x3a2c008, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetReferencesFromGameObject, addr 0x3a34ab8, size 0xec, virtual false, abstract: false, final false
   inline void SetReferencesFromGameObject();
 
   constexpr ::UnityW<::GlobalNamespace::HEU_BoundingVolume> const& __cordl_internal_get__boundingVolumeReference() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x3a2bc18, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a346c8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>"
@@ -162,7 +162,7 @@ public:
   HEU_InputObjectInfo(HEU_InputObjectInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11633 };
 
   /// @brief Field _gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject;

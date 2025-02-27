@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_category(::UnityEngine::UIElements::EventCategory value);
 
-  /// @brief Method .ctor, addr 0x49a2078, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ab0a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCategory category);
 
 protected:
@@ -51,7 +51,7 @@ public:
   EventCategoryAttribute(EventCategoryAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6320 };
 
   /// @brief Field category, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::EventCategory ___category;

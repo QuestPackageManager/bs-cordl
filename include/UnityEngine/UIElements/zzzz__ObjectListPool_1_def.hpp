@@ -63,7 +63,7 @@ public:
   ObjectListPool_1___c(ObjectListPool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,7 +108,7 @@ public:
   ObjectListPool_1(ObjectListPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -43,19 +43,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*();
 
-  /// @brief Method Copy, addr 0x4a8530c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a8e33c, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::InheritedData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a85328, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x4a8e358, size 0x14, virtual true, abstract: false, final true
   inline void CopyFrom(::ByRef<::UnityEngine::UIElements::InheritedData> other);
 
-  /// @brief Method Equals, addr 0x4a855f8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a8e628, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a855ac, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a8e5dc, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::InheritedData other);
 
-  /// @brief Method GetHashCode, addr 0x4a856a0, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a8e6d0, size 0x27c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
@@ -64,7 +64,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_();
 
-  /// @brief Method op_Equality, addr 0x4a8533c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a8e36c, size 0x248, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::InheritedData lhs, ::UnityEngine::UIElements::InheritedData rhs);
 
   // Ctor Parameters []
@@ -86,7 +86,7 @@ public:
                           ::UnityEngine::UIElements::Visibility visibility, ::UnityEngine::UIElements::WhiteSpace whiteSpace, ::UnityEngine::UIElements::Length wordSpacing) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6083 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

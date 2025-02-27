@@ -39,27 +39,27 @@ public:
   /// @brief Field <Relation>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__Relation_k__BackingField, put = __cordl_internal_set__Relation_k__BackingField)) ::System::Data::DataRelation* _Relation_k__BackingField;
 
-  /// @brief Method CanResetValue, addr 0x4167c98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x4170cc8, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method Equals, addr 0x4167c08, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4170c38, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x4167c78, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4170ca8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetValue, addr 0x4167ca0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x4170cd0, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::System::Data::DataRelationPropertyDescriptor* New_ctor(::System::Data::DataRelation* dataRelation);
 
-  /// @brief Method ResetValue, addr 0x4167d34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x4170d64, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x4167d38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x4170d68, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x4167d3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x4170d6c, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::Data::DataRelation* const& __cordl_internal_get__Relation_k__BackingField() const;
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set__Relation_k__BackingField(::System::Data::DataRelation* value);
 
-  /// @brief Method .ctor, addr 0x4167ad4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4170b04, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRelation* dataRelation);
 
-  /// @brief Method get_ComponentType, addr 0x4167b28, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x4170b58, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x4167b94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x4170bc4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x4167b9c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x4170bcc, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_Relation, addr 0x4167b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Relation, addr 0x4170b50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataRelation* get_Relation();
 
 protected:
@@ -98,7 +98,7 @@ public:
   DataRelationPropertyDescriptor(DataRelationPropertyDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11387 };
 
   /// @brief Field <Relation>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::System::Data::DataRelation* ____Relation_k__BackingField;

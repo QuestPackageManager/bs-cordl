@@ -28,7 +28,7 @@ public:
   /// @brief Field s_flags, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_flags, put = setStaticF_s_flags)) ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags s_flags;
 
-  /// @brief Method NeedsChain, addr 0x4117b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NeedsChain, addr 0x4120b98, size 0x8, virtual false, abstract: false, final false
   static inline bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline bool getStaticF_is_macosx();
@@ -54,7 +54,7 @@ public:
   SystemCertificateValidator(SystemCertificateValidator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

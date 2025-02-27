@@ -52,10 +52,10 @@ public:
 
   static inline ::GlobalNamespace::SetSaberFakeGlowColor* New_ctor();
 
-  /// @brief Method SetColors, addr 0x3bf0a94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3bf99cc, size 0x5c, virtual false, abstract: false, final false
   inline void SetColors();
 
-  /// @brief Method Start, addr 0x3bf0af0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bf9a28, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3bf0b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf9ab8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_saberType, addr 0x3bf0680, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x3bf95b8, size 0xc, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:

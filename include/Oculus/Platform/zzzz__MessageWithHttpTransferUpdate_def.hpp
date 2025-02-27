@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithHttpTransferUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::HttpTransferUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f85934, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f8e934, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetHttpTransferUpdate, addr 0x3f858f8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHttpTransferUpdate, addr 0x3f8e8f8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
 
   static inline ::Oculus::Platform::MessageWithHttpTransferUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f813a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8a3a8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithHttpTransferUpdate(MessageWithHttpTransferUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15425 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

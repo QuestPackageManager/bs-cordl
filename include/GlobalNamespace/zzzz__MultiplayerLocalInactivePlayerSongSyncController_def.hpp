@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bca234, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd316c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -196,36 +196,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
   constexpr operator ::GlobalNamespace::IStartSeekSongController*() noexcept;
 
-  /// @brief Method Awake, addr 0x3bca6c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bd35fc, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FollowOffsetSyncTime, addr 0x3bcafe4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method FollowOffsetSyncTime, addr 0x3bd3f1c, size 0x1e0, virtual false, abstract: false, final false
   inline void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
 
-  /// @brief Method HandleVrFocusWasReleased, addr 0x3bcb1d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVrFocusWasReleased, addr 0x3bd4108, size 0x4, virtual false, abstract: false, final false
   inline void HandleVrFocusWasReleased();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bca8b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bd37ec, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SeekTo, addr 0x3bcb1c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SeekTo, addr 0x3bd40fc, size 0xc, virtual true, abstract: false, final true
   inline void SeekTo(float_t offsetTime);
 
-  /// @brief Method SeekTo, addr 0x3bcae84, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x3bd3dbc, size 0x160, virtual false, abstract: false, final false
   inline void SeekTo(float_t offsetTime, bool crossFade, float_t toVolume);
 
-  /// @brief Method Start, addr 0x3bca7c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bd36f8, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x3bcad94, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method StartSong, addr 0x3bd3ccc, size 0xf0, virtual true, abstract: false, final true
   inline void StartSong(float_t offsetTime);
 
-  /// @brief Method Update, addr 0x3bca9b4, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bd38ec, size 0x27c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateOffsetSyncTime, addr 0x3bcac30, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UpdateOffsetSyncTime, addr 0x3bd3b68, size 0x164, virtual false, abstract: false, final false
   inline void UpdateOffsetSyncTime(int64_t offsetSyncTime, bool crossFade, bool forceUpdate);
 
   constexpr ::UnityW<::GlobalNamespace::CrossFadeAudioSource> const& __cordl_internal_get__audioSource() const;
@@ -312,19 +312,19 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x3bcb1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd410c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x3bcb1dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x3bd4114, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilIsReadyToStartTheSong_b__7_0();
 
-  /// @brief Method get_isAudioLoaded, addr 0x3bca508, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x3bd3440, size 0xdc, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_songFailedToLoad, addr 0x3bca5e4, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method get_songFailedToLoad, addr 0x3bd351c, size 0xe0, virtual true, abstract: false, final true
   inline bool get_songFailedToLoad();
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x3bca460, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x3bd3398, size 0xa8, virtual true, abstract: false, final true
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"

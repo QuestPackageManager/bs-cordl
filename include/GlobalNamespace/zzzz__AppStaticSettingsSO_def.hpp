@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_requirePrivacyPolicy(bool value);
 
-  /// @brief Method .ctor, addr 0x26ac5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b06a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   AppStaticSettingsSO(AppStaticSettingsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12788 };
 
   /// @brief Field requirePrivacyPolicy, offset: 0x18, size: 0x1, def value: None
   bool ___requirePrivacyPolicy;

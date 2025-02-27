@@ -159,10 +159,10 @@ public:
 
   static inline ::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <Run>g__HandleSongControllerSongDidFinish|1, addr 0x3b2c0a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Run>g__HandleSongControllerSongDidFinish|1, addr 0x3b34b54, size 0xa4, virtual false, abstract: false, final false
   inline void _Run_g__HandleSongControllerSongDidFinish_1();
 
-  /// @brief Method <Run>g__HandleSongControllerSongDidStart|0, addr 0x3b2c000, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Run>g__HandleSongControllerSongDidStart|0, addr 0x3b34ab0, size 0xa4, virtual false, abstract: false, final false
   inline void _Run_g__HandleSongControllerSongDidStart_0();
 
   constexpr ::UnityW<::GlobalNamespace::PerformanceRecorder> const& __cordl_internal_get_recorder() const;
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_songController(::UnityW<::GlobalNamespace::SongController> value);
 
-  /// @brief Method .ctor, addr 0x3b2bfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b34a54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,14 +229,14 @@ public:
   /// @brief Field _assets, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__assets, put = __cordl_internal_set__assets)) ::GlobalNamespace::PerformanceToolLauncher_Assets _assets;
 
-  /// @brief Method Initialize, addr 0x3b2bc28, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b346d8, size 0x274, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::MainCamera* mainCamera,
                          ::GlobalNamespace::RecPlayBehaviour_State* recPlayState, ::GlobalNamespace::SongController* songController, ::GlobalNamespace::IGamePause* gamePause,
                          ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData, ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> overrideConfig);
 
   static inline ::GlobalNamespace::PerformanceToolLauncher* New_ctor();
 
-  /// @brief Method Run, addr 0x3b2be9c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3b3494c, size 0x108, virtual false, abstract: false, final false
   static inline void Run(::GlobalNamespace::PerformanceRecorder* recorder, ::GlobalNamespace::SongController* songController);
 
   constexpr ::GlobalNamespace::PerformanceToolLauncher_Assets const& __cordl_internal_get__assets() const;
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set__assets(::GlobalNamespace::PerformanceToolLauncher_Assets value);
 
-  /// @brief Method .ctor, addr 0x3b2bfac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b34a5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

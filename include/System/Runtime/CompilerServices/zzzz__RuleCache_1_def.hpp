@@ -74,7 +74,7 @@ public:
   RuleCache_1(RuleCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14141 };
 
   /// @brief Field _rules, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____rules;

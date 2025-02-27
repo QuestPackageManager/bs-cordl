@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44c11ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ca1dc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
 protected:
@@ -113,7 +113,7 @@ public:
   ChunkedInputStream_ReadBufferState(ChunkedInputStream_ReadBufferState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9674 };
 
   /// @brief Field Buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Buffer;
@@ -167,22 +167,22 @@ public:
   /// @brief Field no_more_data, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_no_more_data, put = __cordl_internal_set_no_more_data)) bool no_more_data;
 
-  /// @brief Method BeginRead, addr 0x44c0ec0, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x44c9ef0, size 0x2ec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x44c19fc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x44caa2c, size 0x1c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EndRead, addr 0x44c1770, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x44ca7a0, size 0x28c, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ares);
 
   static inline ::System::Net::ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                             int32_t length);
 
-  /// @brief Method OnRead, addr 0x44c11f4, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method OnRead, addr 0x44ca224, size 0x3a0, virtual false, abstract: false, final false
   inline void OnRead(::System::IAsyncResult* base_ares);
 
-  /// @brief Method Read, addr 0x44c0e84, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x44c9eb4, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
 
   constexpr ::System::Net::HttpListenerContext* const& __cordl_internal_get_context() const;
@@ -209,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_no_more_data(bool value);
 
-  /// @brief Method .ctor, addr 0x44c0d84, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c9db4, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
 protected:
@@ -227,7 +227,7 @@ public:
   ChunkedInputStream(ChunkedInputStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9675 };
 
   /// @brief Field disposed, offset: 0x50, size: 0x1, def value: None
   bool ___disposed;

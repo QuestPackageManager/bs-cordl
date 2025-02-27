@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HeaderParser::*)(::System::Object*, ::System::IntPtr)>(&::System::Net::HeaderParser::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44ad144;
+  constexpr static std::size_t addrs = 0x44b6174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Net::HeaderParser::*)(::StringW)>(
     &::System::Net::HeaderParser::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44ad1e0;
+  constexpr static std::size_t addrs = 0x44b6210;
 
   inline static ::MethodInfo const* methodInfo() {
 

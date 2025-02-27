@@ -146,7 +146,7 @@ public:
   static ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection const West;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7871 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -213,7 +213,7 @@ public:
   static ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType const Weights;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7872 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -276,7 +276,7 @@ public:
   static ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType const STEP;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7873 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -308,7 +308,7 @@ public:
   constexpr OVRGLTFAnimatinonNode_InputNodeState(bool down, float_t t, ::UnityEngine::Vector2 vecT) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7874 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -393,48 +393,48 @@ public:
   /// @brief Field m_weights, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_weights, put = __cordl_internal_set_m_weights)) ::System::Collections::Generic::List_1<float_t>* m_weights;
 
-  /// @brief Method AddChannel, addr 0x3fb10ec, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method AddChannel, addr 0x3fba0ec, size 0x190, virtual false, abstract: false, final false
   inline void AddChannel(::OVRSimpleJSON::JSONNode* channel, ::OVRSimpleJSON::JSONNode* samplers);
 
-  /// @brief Method CloneQuaternion, addr 0x3fb10e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloneQuaternion, addr 0x3fba0e8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion CloneQuaternion(::UnityEngine::Quaternion q);
 
-  /// @brief Method CloneVector3, addr 0x3fb10e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloneVector3, addr 0x3fba0e4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 CloneVector3(::UnityEngine::Vector3 v);
 
   /// @brief Method CopyData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void CopyData(::ByRef<::System::Collections::Generic::List_1<T>*> dest, ::ArrayW<T, ::Array<T>*> src);
 
-  /// @brief Method GetCardinalThumbsticks, addr 0x3fb2508, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetCardinalThumbsticks, addr 0x3fbb508, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*
   GetCardinalThumbsticks(::UnityEngine::Vector2 joystick);
 
-  /// @brief Method GetCardinalWeights, addr 0x3fb26bc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetCardinalWeights, addr 0x3fbb6bc, size 0x154, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2
   GetCardinalWeights(::UnityEngine::Vector2 joystick,
                      ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>* cardinals);
 
-  /// @brief Method GetTransformType, addr 0x3fb127c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetTransformType, addr 0x3fba27c, size 0x174, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType GetTransformType(::StringW transform);
 
   static inline ::GlobalNamespace::OVRGLTFAnimatinonNode* New_ctor(::OVRSimpleJSON::JSONNode* jsonData, ::GlobalNamespace::OVRBinaryChunk binaryChunk,
                                                                    ::GlobalNamespace::OVRGLTFInputNode inputNodeType, ::UnityEngine::GameObject* gameObj,
                                                                    ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* morphTargetHandler);
 
-  /// @brief Method ProcessAnimationSampler, addr 0x3fb13f0, size 0x7f4, virtual false, abstract: false, final false
+  /// @brief Method ProcessAnimationSampler, addr 0x3fba3f0, size 0x7f4, virtual false, abstract: false, final false
   inline void ProcessAnimationSampler(::OVRSimpleJSON::JSONNode* samplerNode, int32_t nodeId, ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType transformType,
                                       ::OVRSimpleJSON::JSONNode* extras);
 
-  /// @brief Method ToOVRInterpolationType, addr 0x3fb2810, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ToOVRInterpolationType, addr 0x3fbb810, size 0x164, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType ToOVRInterpolationType(::StringW interpolationType);
 
-  /// @brief Method UpdatePose, addr 0x3fb1be4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method UpdatePose, addr 0x3fbabe4, size 0x194, virtual false, abstract: false, final false
   inline void UpdatePose(bool down);
 
-  /// @brief Method UpdatePose, addr 0x3fb21d8, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method UpdatePose, addr 0x3fbb1d8, size 0x330, virtual false, abstract: false, final false
   inline void UpdatePose(::UnityEngine::Vector2 joystick);
 
-  /// @brief Method UpdatePose, addr 0x3fb1d78, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method UpdatePose, addr 0x3fbad78, size 0x460, virtual false, abstract: false, final false
   inline void UpdatePose(float_t t, bool applyDeadZone);
 
   constexpr int32_t const& __cordl_internal_get_m_additiveWeightIndex() const;
@@ -503,7 +503,7 @@ public:
 
   constexpr void __cordl_internal_set_m_weights(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3fb0dcc, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fb9dcc, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::OVRSimpleJSON::JSONNode* jsonData, ::GlobalNamespace::OVRBinaryChunk binaryChunk, ::GlobalNamespace::OVRGLTFInputNode inputNodeType, ::UnityEngine::GameObject* gameObj,
                     ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* morphTargetHandler);
 
@@ -534,7 +534,7 @@ public:
   OVRGLTFAnimatinonNode(OVRGLTFAnimatinonNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7875 };
 
   /// @brief Field m_intputNodeType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::OVRGLTFInputNode ___m_intputNodeType;

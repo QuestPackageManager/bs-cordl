@@ -30,22 +30,22 @@ namespace TMPro {
 struct CORDL_TYPE HighlightState {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x47cab30, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47d3b60, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x47cabb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x47d3be0, size 0xa4, virtual false, abstract: false, final false
   inline bool Equals(::TMPro::HighlightState other);
 
-  /// @brief Method GetHashCode, addr 0x47caac4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47d3af4, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x47ca9a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d39d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding);
 
-  /// @brief Method op_Equality, addr 0x47ca9b0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x47d39e0, size 0xcc, virtual false, abstract: false, final false
   static inline bool op_Equality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
-  /// @brief Method op_Inequality, addr 0x47caa7c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x47d3aac, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
   constexpr HighlightState(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14453 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrepassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x39e1090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e9b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   SceneCameraBloomPrePass(SceneCameraBloomPrePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16277 };
 
   /// @brief Field _bloomPrepassRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> ____bloomPrepassRenderer;

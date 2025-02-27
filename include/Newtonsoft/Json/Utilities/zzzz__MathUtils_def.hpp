@@ -23,22 +23,22 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE MathUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApproxEquals, addr 0x3ed5dd8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ApproxEquals, addr 0x3edecdc, size 0xa0, virtual false, abstract: false, final false
   static inline bool ApproxEquals(double_t d1, double_t d2);
 
-  /// @brief Method IntLength, addr 0x3ed5940, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method IntLength, addr 0x3ede844, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t IntLength(uint64_t i);
 
-  /// @brief Method IntToHex, addr 0x3ed5b04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IntToHex, addr 0x3edea08, size 0x18, virtual false, abstract: false, final false
   static inline char16_t IntToHex(int32_t n);
 
-  /// @brief Method Max, addr 0x3ed5cdc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x3edebe0, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<double_t> Max(::System::Nullable_1<double_t> val1, ::System::Nullable_1<double_t> val2);
 
-  /// @brief Method Max, addr 0x3ed5bfc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x3edeb00, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> Max(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2);
 
-  /// @brief Method Min, addr 0x3ed5b1c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x3edea20, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> Min(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2);
 
 protected:
@@ -56,7 +56,7 @@ public:
   MathUtils(MathUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LufsMetering::FilterCoefficients (*)(float_t, float_t, float_t, float_t)>(
     &::LufsMetering::AudioJobHelpers::GetHighShelfDeManCoefficients)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3b78908;
+  constexpr static std::size_t addrs = 0x3b81828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LufsMetering::FilterCoefficients (*)(float_t, float_t, float_t)>(
     &::LufsMetering::AudioJobHelpers::GetHighPassDeManCoefficients)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b789d0;
+  constexpr static std::size_t addrs = 0x3b818f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

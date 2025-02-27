@@ -48,23 +48,23 @@ public:
                       put = __cordl_internal_set_transitionTable)) ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>
       transitionTable;
 
-  /// @brief Method CompleteValidation, addr 0x43a3a28, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x43aca58, size 0x18, virtual true, abstract: false, final false
   inline bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
 
-  /// @brief Method ExpectedElements, addr 0x43a3a40, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ExpectedElements, addr 0x43aca70, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
 
-  /// @brief Method ExpectedParticles, addr 0x43a3c0c, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method ExpectedParticles, addr 0x43acc3c, size 0x184, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method InitValidation, addr 0x43a38b4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method InitValidation, addr 0x43ac8e4, size 0x64, virtual true, abstract: false, final false
   inline void InitValidation(::System::Xml::Schema::ValidationState* context);
 
   static inline ::System::Xml::Schema::DfaContentValidator* New_ctor(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable,
                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen,
                                                                      bool isEmptiable);
 
-  /// @brief Method ValidateElement, addr 0x43a3918, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x43ac948, size 0x110, virtual true, abstract: false, final false
   inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ::ByRef<int32_t> errorCode);
 
   constexpr ::System::Xml::Schema::SymbolsDictionary* const& __cordl_internal_get_symbols() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_transitionTable(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> value);
 
-  /// @brief Method .ctor, addr 0x43a3660, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ac690, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable, ::System::Xml::Schema::SymbolsDictionary* symbols,
                     ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
@@ -98,7 +98,7 @@ public:
   DfaContentValidator(DfaContentValidator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7512 };
 
   /// @brief Field transitionTable, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> ___transitionTable;

@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a33be8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a3cc18, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DetachFromPanelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a33be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3cc10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   DetachFromPanelEvent___c(DetachFromPanelEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a33b3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3cb6c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   DetachFromPanelEvent(DetachFromPanelEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

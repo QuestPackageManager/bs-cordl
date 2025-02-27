@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48651a4;
+  constexpr static std::size_t addrs = 0x486e1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

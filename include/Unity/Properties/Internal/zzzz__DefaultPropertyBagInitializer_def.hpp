@@ -18,7 +18,7 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE DefaultPropertyBagInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x49189c0, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x49219f0, size 0x330, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -36,7 +36,7 @@ public:
   DefaultPropertyBagInitializer(DefaultPropertyBagInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

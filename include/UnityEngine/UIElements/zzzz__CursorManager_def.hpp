@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CursorManager* New_ctor();
 
-  /// @brief Method ResetCursor, addr 0x4a17cd0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method ResetCursor, addr 0x4a20d00, size 0x68, virtual true, abstract: false, final true
   inline void ResetCursor();
 
-  /// @brief Method SetCursor, addr 0x4a17be0, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method SetCursor, addr 0x4a20c10, size 0xf0, virtual true, abstract: false, final true
   inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
 
   constexpr bool const& __cordl_internal_get__isCursorOverriden_k__BackingField() const;
@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__isCursorOverriden_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4a17d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a20d68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isCursorOverriden, addr 0x4a17bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isCursorOverriden, addr 0x4a20bfc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isCursorOverriden();
 
   /// @brief Convert to "::UnityEngine::UIElements::ICursorManager"
   constexpr ::UnityEngine::UIElements::ICursorManager* i___UnityEngine__UIElements__ICursorManager() noexcept;
 
-  /// @brief Method set_isCursorOverriden, addr 0x4a17bd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isCursorOverriden, addr 0x4a20c04, size 0xc, virtual false, abstract: false, final false
   inline void set_isCursorOverriden(bool value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   CursorManager(CursorManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5735 };
 
   /// @brief Field <isCursorOverriden>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____isCursorOverriden_k__BackingField;

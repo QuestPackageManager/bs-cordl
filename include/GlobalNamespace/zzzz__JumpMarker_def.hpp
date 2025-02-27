@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName value);
 
-  /// @brief Method .ctor, addr 0x39ca710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d31c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x39ca700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x39d31b0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::PropertyName get_id();
 
-  /// @brief Method get_jumpDestination, addr 0x39ca708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpDestination, addr 0x39d31b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::JumpDestinationMarker> get_jumpDestination();
 
   /// @brief Convert to "::UnityEngine::Playables::INotification"
@@ -80,7 +80,7 @@ public:
   JumpMarker(JumpMarker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16458 };
 
   /// @brief Field _destination, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::JumpDestinationMarker> ____destination;

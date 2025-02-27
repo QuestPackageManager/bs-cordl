@@ -96,21 +96,21 @@ public:
   /// @brief Field _target, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target)) ::UnityW<::UnityEngine::Transform> _target;
 
-  /// @brief Method GetBar, addr 0x2265c50, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetBar, addr 0x2269a88, size 0x1a8, virtual false, abstract: false, final false
   inline ::StringW GetBar(float_t songTime);
 
-  /// @brief Method LateUpdate, addr 0x2265084, size 0xbcc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2268ebc, size 0xbcc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::WaypointsTestGameplayManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2265df8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2269c30, size 0x320, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrawGizmos, addr 0x2266118, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x2269f50, size 0x1d8, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
-  /// @brief Method Start, addr 0x2265050, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2268e88, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set__target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x22662f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226a128, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,7 +245,7 @@ public:
   WaypointsTestGameplayManager(WaypointsTestGameplayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17689 };
 
   /// @brief Field _outerCapsuleStart, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____outerCapsuleStart;

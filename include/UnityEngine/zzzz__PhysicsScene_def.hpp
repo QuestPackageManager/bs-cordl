@@ -46,237 +46,237 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::PhysicsScene>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::PhysicsScene>*();
 
-  /// @brief Method BoxCast, addr 0x4913ab0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method BoxCast, addr 0x491cae0, size 0xe8, virtual false, abstract: false, final false
   inline bool BoxCast(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo);
 
-  /// @brief Method BoxCast, addr 0x4900b98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method BoxCast, addr 0x4909bc8, size 0x30, virtual false, abstract: false, final false
   inline bool BoxCast(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo,
                       ::UnityEngine::Quaternion orientation, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method BoxCast, addr 0x4913ebc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method BoxCast, addr 0x491ceec, size 0xe8, virtual false, abstract: false, final false
   inline int32_t BoxCast(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction,
                          ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results);
 
-  /// @brief Method BoxCast, addr 0x490673c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method BoxCast, addr 0x490f76c, size 0x12c, virtual false, abstract: false, final false
   inline int32_t BoxCast(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction,
                          ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results, ::UnityEngine::Quaternion orientation, float_t maxDistance, int32_t layerMask,
                          ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method CapsuleCast, addr 0x48ffa4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CapsuleCast, addr 0x4908a7c, size 0x20, virtual false, abstract: false, final false
   inline bool CapsuleCast(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo,
                           float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method CapsuleCast, addr 0x49049c0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CapsuleCast, addr 0x490d9f0, size 0x134, virtual false, abstract: false, final false
   inline int32_t CapsuleCast(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction,
                              ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results, float_t maxDistance, int32_t layerMask,
                              ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Equals, addr 0x4912520, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x491b550, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x4912598, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x491b5c8, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::PhysicsScene other);
 
-  /// @brief Method GetHashCode, addr 0x4912518, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x491b548, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Internal_BoxCast, addr 0x491396c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Internal_BoxCast, addr 0x491c99c, size 0x144, virtual false, abstract: false, final false
   static inline bool Internal_BoxCast(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Quaternion orientation,
                                       ::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask,
                                       ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_BoxCastNonAlloc, addr 0x4913d70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Internal_BoxCastNonAlloc, addr 0x491cda0, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t Internal_BoxCastNonAlloc(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction,
                                                  ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits, ::UnityEngine::Quaternion orientation, float_t maxDistance,
                                                  int32_t mask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_BoxCastNonAlloc_Injected, addr 0x4913e20, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_BoxCastNonAlloc_Injected, addr 0x491ce50, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Internal_BoxCastNonAlloc_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> center, ::ByRef<::UnityEngine::Vector3> halfExtents,
                                                           ::ByRef<::UnityEngine::Vector3> direction, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits,
                                                           ::ByRef<::UnityEngine::Quaternion> orientation, float_t maxDistance, int32_t mask,
                                                           ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_CapsuleCast, addr 0x4912ffc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CapsuleCast, addr 0x491c02c, size 0x14c, virtual false, abstract: false, final false
   static inline bool Internal_CapsuleCast(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction,
                                           ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_CapsuleCastNonAlloc, addr 0x4913148, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Internal_CapsuleCastNonAlloc, addr 0x491c178, size 0xac, virtual false, abstract: false, final false
   static inline int32_t Internal_CapsuleCastNonAlloc(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, float_t radius, ::UnityEngine::Vector3 direction,
                                                      ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits, float_t maxDistance, int32_t mask,
                                                      ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_CapsuleCastNonAlloc_Injected, addr 0x49131f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CapsuleCastNonAlloc_Injected, addr 0x491c224, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Internal_CapsuleCastNonAlloc_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> p0, ::ByRef<::UnityEngine::Vector3> p1, float_t radius,
                                                               ::ByRef<::UnityEngine::Vector3> direction, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits,
                                                               float_t maxDistance, int32_t mask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_Raycast, addr 0x4912cc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Raycast, addr 0x491bcf4, size 0x7c, virtual false, abstract: false, final false
   static inline bool Internal_Raycast(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Ray ray, float_t maxDistance, ::ByRef<::UnityEngine::RaycastHit> hit, int32_t layerMask,
                                       ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_RaycastNonAlloc, addr 0x4912dbc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Internal_RaycastNonAlloc, addr 0x491bdec, size 0x78, virtual false, abstract: false, final false
   static inline int32_t Internal_RaycastNonAlloc(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Ray ray, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits,
                                                  float_t maxDistance, int32_t mask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_RaycastNonAlloc_Injected, addr 0x4912e34, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_RaycastNonAlloc_Injected, addr 0x491be64, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t Internal_RaycastNonAlloc_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Ray> ray,
                                                           ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits, float_t maxDistance, int32_t mask,
                                                           ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_RaycastTest, addr 0x4912bdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_RaycastTest, addr 0x491bc0c, size 0x7c, virtual false, abstract: false, final false
   static inline bool Internal_RaycastTest(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Ray ray, float_t maxDistance, int32_t layerMask,
                                           ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_RaycastTest_Injected, addr 0x4912c58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_RaycastTest_Injected, addr 0x491bc88, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_RaycastTest_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Ray> ray, float_t maxDistance, int32_t layerMask,
                                                    ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_Raycast_Injected, addr 0x4912d40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Raycast_Injected, addr 0x491bd70, size 0x7c, virtual false, abstract: false, final false
   static inline bool Internal_Raycast_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Ray> ray, float_t maxDistance, ::ByRef<::UnityEngine::RaycastHit> hit,
                                                int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_SphereCast, addr 0x49134cc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SphereCast, addr 0x491c4fc, size 0x12c, virtual false, abstract: false, final false
   static inline bool Internal_SphereCast(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction,
                                          ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_SphereCastNonAlloc, addr 0x49135f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Internal_SphereCastNonAlloc, addr 0x491c628, size 0x98, virtual false, abstract: false, final false
   static inline int32_t Internal_SphereCastNonAlloc(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction,
                                                     ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits, float_t maxDistance, int32_t mask,
                                                     ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Internal_SphereCastNonAlloc_Injected, addr 0x4913690, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SphereCastNonAlloc_Injected, addr 0x491c6c0, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t Internal_SphereCastNonAlloc_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> origin, float_t radius,
                                                              ::ByRef<::UnityEngine::Vector3> direction, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits,
                                                              float_t maxDistance, int32_t mask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method InterpolateBodies, addr 0x491294c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method InterpolateBodies, addr 0x491b97c, size 0x148, virtual false, abstract: false, final false
   inline void InterpolateBodies();
 
-  /// @brief Method IsEmpty, addr 0x4912670, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x491b6a0, size 0xd0, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method IsEmpty_Internal, addr 0x4912740, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty_Internal, addr 0x491b770, size 0x44, virtual false, abstract: false, final false
   static inline bool IsEmpty_Internal(::UnityEngine::PhysicsScene physicsScene);
 
-  /// @brief Method IsEmpty_Internal_Injected, addr 0x4912784, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty_Internal_Injected, addr 0x491b7b4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsEmpty_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene);
 
-  /// @brief Method IsValid, addr 0x49125a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x491b5d8, size 0x48, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method IsValid_Internal, addr 0x49125f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsValid_Internal, addr 0x491b620, size 0x44, virtual false, abstract: false, final false
   static inline bool IsValid_Internal(::UnityEngine::PhysicsScene physicsScene);
 
-  /// @brief Method IsValid_Internal_Injected, addr 0x4912634, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid_Internal_Injected, addr 0x491b664, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValid_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene);
 
-  /// @brief Method OverlapBox, addr 0x4913ca8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OverlapBox, addr 0x491ccd8, size 0xc8, virtual false, abstract: false, final false
   inline int32_t OverlapBox(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results);
 
-  /// @brief Method OverlapBox, addr 0x4906340, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OverlapBox, addr 0x490f370, size 0x1c, virtual false, abstract: false, final false
   inline int32_t OverlapBox(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results,
                             ::UnityEngine::Quaternion orientation, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method OverlapBoxNonAlloc_Internal, addr 0x4913b98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OverlapBoxNonAlloc_Internal, addr 0x491cbc8, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t OverlapBoxNonAlloc_Internal(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents,
                                                     ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results, ::UnityEngine::Quaternion orientation, int32_t mask,
                                                     ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method OverlapBoxNonAlloc_Internal_Injected, addr 0x4913c24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OverlapBoxNonAlloc_Internal_Injected, addr 0x491cc54, size 0x84, virtual false, abstract: false, final false
   static inline int32_t OverlapBoxNonAlloc_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> center, ::ByRef<::UnityEngine::Vector3> halfExtents,
                                                              ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results, ::ByRef<::UnityEngine::Quaternion> orientation,
                                                              int32_t mask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method OverlapCapsule, addr 0x49074f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OverlapCapsule, addr 0x4910528, size 0x8, virtual false, abstract: false, final false
   inline int32_t OverlapCapsule(::UnityEngine::Vector3 point0, ::UnityEngine::Vector3 point1, float_t radius, ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results,
                                 int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method OverlapCapsuleNonAlloc_Internal, addr 0x4913290, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OverlapCapsuleNonAlloc_Internal, addr 0x491c2c0, size 0x90, virtual false, abstract: false, final false
   static inline int32_t OverlapCapsuleNonAlloc_Internal(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 point0, ::UnityEngine::Vector3 point1, float_t radius,
                                                         ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results, int32_t layerMask,
                                                         ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method OverlapCapsuleNonAlloc_Internal_Injected, addr 0x4913320, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OverlapCapsuleNonAlloc_Internal_Injected, addr 0x491c350, size 0x84, virtual false, abstract: false, final false
   static inline int32_t OverlapCapsuleNonAlloc_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> point0, ::ByRef<::UnityEngine::Vector3> point1,
                                                                  float_t radius, ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results, int32_t layerMask,
                                                                  ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method OverlapSphere, addr 0x49044dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OverlapSphere, addr 0x490d50c, size 0x8, virtual false, abstract: false, final false
   inline int32_t OverlapSphere(::UnityEngine::Vector3 position, float_t radius, ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results, int32_t layerMask,
                                ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method OverlapSphereNonAlloc_Internal, addr 0x491371c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OverlapSphereNonAlloc_Internal, addr 0x491c74c, size 0x84, virtual false, abstract: false, final false
   static inline int32_t OverlapSphereNonAlloc_Internal(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 position, float_t radius,
                                                        ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results, int32_t layerMask,
                                                        ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method OverlapSphereNonAlloc_Internal_Injected, addr 0x49137a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OverlapSphereNonAlloc_Internal_Injected, addr 0x491c7d0, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t OverlapSphereNonAlloc_Internal_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> position, float_t radius,
                                                                 ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> results, int32_t layerMask,
                                                                 ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Query_BoxCast, addr 0x491381c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Query_BoxCast, addr 0x491c84c, size 0xb4, virtual false, abstract: false, final false
   static inline bool Query_BoxCast(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Vector3 direction,
                                    ::UnityEngine::Quaternion orientation, float_t maxDistance, ::ByRef<::UnityEngine::RaycastHit> outHit, int32_t layerMask,
                                    ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Query_BoxCast_Injected, addr 0x49138d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Query_BoxCast_Injected, addr 0x491c900, size 0x9c, virtual false, abstract: false, final false
   static inline bool Query_BoxCast_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> center, ::ByRef<::UnityEngine::Vector3> halfExtents,
                                             ::ByRef<::UnityEngine::Vector3> direction, ::ByRef<::UnityEngine::Quaternion> orientation, float_t maxDistance, ::ByRef<::UnityEngine::RaycastHit> outHit,
                                             int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Query_CapsuleCast, addr 0x4912eb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Query_CapsuleCast, addr 0x491bee0, size 0xb0, virtual false, abstract: false, final false
   static inline bool Query_CapsuleCast(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2, float_t radius, ::UnityEngine::Vector3 direction,
                                        float_t maxDistance, ::ByRef<::UnityEngine::RaycastHit> hitInfo, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Query_CapsuleCast_Injected, addr 0x4912f60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Query_CapsuleCast_Injected, addr 0x491bf90, size 0x9c, virtual false, abstract: false, final false
   static inline bool Query_CapsuleCast_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> point1, ::ByRef<::UnityEngine::Vector3> point2, float_t radius,
                                                 ::ByRef<::UnityEngine::Vector3> direction, float_t maxDistance, ::ByRef<::UnityEngine::RaycastHit> hitInfo, int32_t layerMask,
                                                 ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Query_SphereCast, addr 0x49133a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Query_SphereCast, addr 0x491c3d4, size 0x9c, virtual false, abstract: false, final false
   static inline bool Query_SphereCast(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, float_t maxDistance,
                                       ::ByRef<::UnityEngine::RaycastHit> hitInfo, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Query_SphereCast_Injected, addr 0x4913440, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Query_SphereCast_Injected, addr 0x491c470, size 0x8c, virtual false, abstract: false, final false
   static inline bool Query_SphereCast_Injected(::ByRef<::UnityEngine::PhysicsScene> physicsScene, ::ByRef<::UnityEngine::Vector3> origin, float_t radius, ::ByRef<::UnityEngine::Vector3> direction,
                                                float_t maxDistance, ::ByRef<::UnityEngine::RaycastHit> hitInfo, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Raycast, addr 0x48feb4c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x4907b7c, size 0x1ec, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask,
                       ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Raycast, addr 0x48fe660, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x4907690, size 0x1d0, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method Raycast, addr 0x4901ddc, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x490ae0c, size 0x254, virtual false, abstract: false, final false
   inline int32_t Raycast(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> raycastHits, float_t maxDistance,
                          int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method ResetInterpolationPoses, addr 0x4912a94, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ResetInterpolationPoses, addr 0x491bac4, size 0x148, virtual false, abstract: false, final false
   inline void ResetInterpolationPoses();
 
-  /// @brief Method Simulate, addr 0x49127c0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Simulate, addr 0x491b7f0, size 0x18c, virtual false, abstract: false, final false
   inline void Simulate(float_t step);
 
-  /// @brief Method SphereCast, addr 0x49002a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SphereCast, addr 0x49092d4, size 0x8, virtual false, abstract: false, final false
   inline bool SphereCast(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask,
                          ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method SphereCast, addr 0x4904f24, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SphereCast, addr 0x490df54, size 0x120, virtual false, abstract: false, final false
   inline int32_t SphereCast(::UnityEngine::Vector3 origin, float_t radius, ::UnityEngine::Vector3 direction, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results,
                             float_t maxDistance, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
 
-  /// @brief Method ToString, addr 0x491241c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x491b44c, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::PhysicsScene>"
   constexpr ::System::IEquatable_1<::UnityEngine::PhysicsScene>* i___System__IEquatable_1___UnityEngine__PhysicsScene_();
 
-  /// @brief Method op_Equality, addr 0x4912500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x491b530, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::PhysicsScene lhs, ::UnityEngine::PhysicsScene rhs);
 
-  /// @brief Method op_Inequality, addr 0x491250c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x491b53c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::PhysicsScene lhs, ::UnityEngine::PhysicsScene rhs);
 
   // Ctor Parameters []
@@ -287,7 +287,7 @@ public:
   constexpr PhysicsScene(int32_t m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15769 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -44,18 +44,18 @@ public:
   /// @brief Field m_Data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data)) ::StringW m_Data;
 
-  /// @brief Method Equals, addr 0x3a94868, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3a9d318, size 0xec, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x3a947e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3a9d298, size 0x14, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNode_Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x3a94954, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3a9d404, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::HoudiniEngineUnity::JSONString* New_ctor(::StringW aData);
 
-  /// @brief Method WriteToStringBuilder, addr 0x3a9480c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x3a9d2bc, size 0x5c, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
 
   constexpr ::StringW const& __cordl_internal_get_m_Data() const;
@@ -64,19 +64,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a8ea24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a974d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW aData);
 
-  /// @brief Method get_IsString, addr 0x3a947e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsString, addr 0x3a9d290, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsString();
 
-  /// @brief Method get_Tag, addr 0x3a947d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x3a9d288, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNodeType get_Tag();
 
-  /// @brief Method get_Value, addr 0x3a947fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3a9d2ac, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x3a94804, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3a9d2b4, size 0x8, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   JSONString(JSONString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11862 };
 
   /// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Data;

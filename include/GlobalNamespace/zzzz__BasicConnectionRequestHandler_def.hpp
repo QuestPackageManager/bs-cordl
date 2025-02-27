@@ -34,12 +34,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr operator ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
 
-  /// @brief Method GetConnectionMessage, addr 0x22ba22c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetConnectionMessage, addr 0x22bdf64, size 0x70, virtual true, abstract: false, final true
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
   static inline ::GlobalNamespace::BasicConnectionRequestHandler* New_ctor();
 
-  /// @brief Method ValidateConnectionMessage, addr 0x22ba29c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method ValidateConnectionMessage, addr 0x22bdfd4, size 0xbc, virtual true, abstract: false, final true
   inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName, ::ByRef<bool> isConnectionOwner);
 
   constexpr ::StringW const& __cordl_internal_get__secret_k__BackingField() const;
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__secret_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22ba358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22be090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_secret, addr 0x22ba21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secret, addr 0x22bdf54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_secret();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
 
-  /// @brief Method set_secret, addr 0x22ba224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secret, addr 0x22bdf5c, size 0x8, virtual false, abstract: false, final false
   inline void set_secret(::StringW value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   BasicConnectionRequestHandler(BasicConnectionRequestHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
 
   /// @brief Field <secret>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____secret_k__BackingField;

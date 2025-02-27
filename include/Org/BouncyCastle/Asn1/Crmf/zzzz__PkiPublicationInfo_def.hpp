@@ -41,15 +41,15 @@ public:
   /// @brief Field pubInfos, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_pubInfos, put = __cordl_internal_set_pubInfos)) ::Org::BouncyCastle::Asn1::Asn1Sequence* pubInfos;
 
-  /// @brief Method GetInstance, addr 0x23154c8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2319200, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetPubInfos, addr 0x231564c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetPubInfos, addr 0x2319384, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo*, ::Array<::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo*>*> GetPubInfos();
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23158c4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23195fc, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_action() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_pubInfos(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x2315460, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2319198, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Action, addr 0x2315644, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Action, addr 0x231937c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Action();
 
 protected:

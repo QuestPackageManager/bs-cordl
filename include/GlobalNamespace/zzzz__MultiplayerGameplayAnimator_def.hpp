@@ -78,18 +78,18 @@ public:
   /// @brief Method AnimateNewLeaderSelected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x3bd8f1c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x3be1e54, size 0xe8, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
-  /// @brief Method HandleStateChanged, addr 0x3bd8d10, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3be1c48, size 0x15c, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bd8adc, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3be1a14, size 0x184, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bd8a4c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3be1984, size 0x90, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__activeLightsColor() const;
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3bd9004, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be1f3c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

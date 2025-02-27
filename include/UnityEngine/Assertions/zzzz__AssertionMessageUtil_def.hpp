@@ -22,19 +22,19 @@ namespace UnityEngine::Assertions {
 class CORDL_TYPE AssertionMessageUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BooleanFailureMessage, addr 0x48d5564, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BooleanFailureMessage, addr 0x48de594, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW BooleanFailureMessage(bool expected);
 
-  /// @brief Method GetEqualityMessage, addr 0x48d5760, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetEqualityMessage, addr 0x48de790, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW GetEqualityMessage(::System::Object* actual, ::System::Object* expected, bool expectEqual);
 
-  /// @brief Method GetMessage, addr 0x48d5d80, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x48dedb0, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage);
 
-  /// @brief Method GetMessage, addr 0x48d5e6c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x48dee9c, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
 
-  /// @brief Method NullFailureMessage, addr 0x48d5a10, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method NullFailureMessage, addr 0x48dea40, size 0x168, virtual false, abstract: false, final false
   static inline ::StringW NullFailureMessage(::System::Object* value, bool expectNull);
 
 protected:
@@ -52,7 +52,7 @@ public:
   AssertionMessageUtil(AssertionMessageUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11326 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

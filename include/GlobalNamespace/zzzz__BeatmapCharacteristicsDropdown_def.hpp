@@ -54,10 +54,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* New_ctor();
 
-  /// @brief Method <Start>b__5_0, addr 0x3b5b8c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__5_0, addr 0x3b64374, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _Start_b__5_0(::GlobalNamespace::BeatmapCharacteristicSO* x);
 
-  /// @brief Method .ctor, addr 0x3b5b8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6436c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* getStaticF___9();
@@ -111,24 +111,24 @@ public:
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
                       put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* didSelectCellWithIdxEvent;
 
-  /// @brief Method GetSelectedBeatmapCharacteristic, addr 0x3b5b4c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedBeatmapCharacteristic, addr 0x3b63f78, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetSelectedBeatmapCharacteristic();
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x3b5b77c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x3b6422c, size 0xdc, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b5b3f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b63ea8, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x3b5b580, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x3b64030, size 0x78, virtual false, abstract: false, final false
   inline void SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x3b5b5f8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x3b640a8, size 0x184, virtual false, abstract: false, final false
   inline void SelectCellWithBeatmapCharacteristic(::StringW serializedName);
 
-  /// @brief Method Start, addr 0x3b5b248, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b63cf8, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
@@ -149,13 +149,13 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3b5b858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b64308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3b5b0e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3b63b98, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3b5b198, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3b63c48, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
 protected:

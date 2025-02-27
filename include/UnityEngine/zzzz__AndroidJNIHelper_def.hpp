@@ -42,134 +42,134 @@ namespace UnityEngine {
 class CORDL_TYPE AndroidJNIHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Box, addr 0x4840900, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849930, size 0x100, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(::UnityEngine::jvalue val, ::StringW boxedClass, ::StringW signature);
 
-  /// @brief Method Box, addr 0x4840ea8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849ed8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(bool value);
 
-  /// @brief Method Box, addr 0x4840e40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849e70, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(char16_t value);
 
-  /// @brief Method Box, addr 0x4840dd8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849e08, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(double_t value);
 
-  /// @brief Method Box, addr 0x4840d70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849da0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(float_t value);
 
-  /// @brief Method Box, addr 0x4840c38, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849c68, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(int16_t value);
 
-  /// @brief Method Box, addr 0x4840ca0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849cd0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(int32_t value);
 
-  /// @brief Method Box, addr 0x4840d08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849d38, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(int64_t value);
 
-  /// @brief Method Box, addr 0x4840bd0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4849c00, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr Box(int8_t value);
 
   /// @brief Method ConvertFromJNIArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ArrayType> static inline ArrayType ConvertFromJNIArray(::System::IntPtr array);
 
-  /// @brief Method ConvertToJNIArray, addr 0x483e394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConvertToJNIArray, addr 0x48473c4, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToJNIArray(::System::Array* array);
 
-  /// @brief Method CreateJNIArgArray, addr 0x483ef68, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateJNIArgArray, addr 0x4847f98, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> CreateJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method CreateJNIArgArray, addr 0x483f578, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateJNIArgArray, addr 0x48485a8, size 0x110, virtual false, abstract: false, final false
   static inline void CreateJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Span_1<::UnityEngine::jvalue> jniArgs);
 
-  /// @brief Method CreateJavaProxy, addr 0x483e1f0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CreateJavaProxy, addr 0x4847220, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJavaProxy(::UnityEngine::AndroidJavaProxy* proxy);
 
-  /// @brief Method CreateJavaRunnable, addr 0x483e194, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateJavaRunnable, addr 0x48471c4, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJavaRunnable(::UnityEngine::AndroidJavaRunnable* jrunnable);
 
-  /// @brief Method DeleteJNIArgArray, addr 0x483f688, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DeleteJNIArgArray, addr 0x48486b8, size 0x6c, virtual false, abstract: false, final false
   static inline void DeleteJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> jniArgs);
 
-  /// @brief Method DeleteJNIArgArray, addr 0x483f84c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DeleteJNIArgArray, addr 0x484887c, size 0x4, virtual false, abstract: false, final false
   static inline void DeleteJNIArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Span_1<::UnityEngine::jvalue> jniArgs);
 
-  /// @brief Method GetConstructorID, addr 0x483d9f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x4846a28, size 0x48, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr javaClass);
 
-  /// @brief Method GetConstructorID, addr 0x483da40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x4846a70, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr javaClass, ::StringW signature);
 
-  /// @brief Method GetConstructorID, addr 0x483f850, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorID, addr 0x4848880, size 0x20, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorID(::System::IntPtr jclass, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetFieldID, addr 0x483de50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetFieldID, addr 0x4846e80, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName);
 
-  /// @brief Method GetFieldID, addr 0x483deb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldID, addr 0x4846ee4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, ::StringW signature);
 
-  /// @brief Method GetFieldID, addr 0x483deac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldID, addr 0x4846edc, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldID(::System::IntPtr javaClass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
   /// @brief Method GetFieldID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename FieldType> static inline ::System::IntPtr GetFieldID(::System::IntPtr jclass, ::StringW fieldName, bool isStatic);
 
-  /// @brief Method GetMethodID, addr 0x483dc0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x4846c3c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName);
 
-  /// @brief Method GetMethodID, addr 0x483dc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x4846ca0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodID, addr 0x483dc68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x4846c98, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr javaClass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetMethodID, addr 0x483f890, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x48488c0, size 0x38, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool isStatic);
 
   /// @brief Method GetMethodID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType>
   static inline ::System::IntPtr GetMethodID(::System::IntPtr jclass, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool isStatic);
 
-  /// @brief Method GetSignature, addr 0x48407d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x4849808, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method GetSignature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename ReturnType> static inline ::StringW GetSignature(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetSignature, addr 0x483f900, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x4848930, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetSignature(::System::Object* obj);
 
-  /// @brief Method GetUnboxMethod, addr 0x4840f10, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetUnboxMethod, addr 0x4849f40, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetUnboxMethod(::System::IntPtr obj, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method Unbox, addr 0x484181c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x484a84c, size 0x8c, virtual false, abstract: false, final false
   static inline void Unbox(::System::IntPtr obj, ::ByRef<bool> value);
 
-  /// @brief Method Unbox, addr 0x484171c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x484a74c, size 0x88, virtual false, abstract: false, final false
   static inline void Unbox(::System::IntPtr obj, ::ByRef<char16_t> value);
 
-  /// @brief Method Unbox, addr 0x4841610, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x484a640, size 0x88, virtual false, abstract: false, final false
   static inline void Unbox(::System::IntPtr obj, ::ByRef<double_t> value);
 
-  /// @brief Method Unbox, addr 0x4841504, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x484a534, size 0x88, virtual false, abstract: false, final false
   static inline void Unbox(::System::IntPtr obj, ::ByRef<float_t> value);
 
-  /// @brief Method Unbox, addr 0x4841204, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x484a234, size 0x88, virtual false, abstract: false, final false
   static inline void Unbox(::System::IntPtr obj, ::ByRef<int16_t> value);
 
-  /// @brief Method Unbox, addr 0x4841304, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x484a334, size 0x88, virtual false, abstract: false, final false
   static inline void Unbox(::System::IntPtr obj, ::ByRef<int32_t> value);
 
-  /// @brief Method Unbox, addr 0x4841404, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x484a434, size 0x88, virtual false, abstract: false, final false
   static inline void Unbox(::System::IntPtr obj, ::ByRef<int64_t> value);
 
-  /// @brief Method Unbox, addr 0x4841104, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x484a134, size 0x88, virtual false, abstract: false, final false
   static inline void Unbox(::System::IntPtr obj, ::ByRef<int8_t> value);
 
-  /// @brief Method get_debug, addr 0x483d994, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_debug, addr 0x48469c4, size 0x28, virtual false, abstract: false, final false
   static inline bool get_debug();
 
-  /// @brief Method set_debug, addr 0x483d9bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_debug, addr 0x48469ec, size 0x3c, virtual false, abstract: false, final false
   static inline void set_debug(bool value);
 
 protected:
@@ -187,7 +187,7 @@ public:
   AndroidJNIHelper(AndroidJNIHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,30 +27,30 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_AssetUpdater : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddAssetForUpdate, addr 0x3a0dbb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddAssetForUpdate, addr 0x3a16660, size 0x4, virtual false, abstract: false, final false
   static inline void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method AddNodeSyncForUpdate, addr 0x3a0dbb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddNodeSyncForUpdate, addr 0x3a16668, size 0x4, virtual false, abstract: false, final false
   static inline void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
 
   static inline ::HoudiniEngineUnity::HEU_AssetUpdater* New_ctor();
 
-  /// @brief Method OnBeforeAssemblyReload, addr 0x3a0db5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeAssemblyReload, addr 0x3a1660c, size 0x50, virtual false, abstract: false, final false
   static inline void OnBeforeAssemblyReload();
 
-  /// @brief Method OnPrefabInstanceUpdate, addr 0x3a0dbc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPrefabInstanceUpdate, addr 0x3a16670, size 0x4, virtual false, abstract: false, final false
   static inline void OnPrefabInstanceUpdate(::UnityEngine::GameObject* instance);
 
-  /// @brief Method RemoveAsset, addr 0x3a0dbb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveAsset, addr 0x3a16664, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method RemoveNodeSync, addr 0x3a0dbbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveNodeSync, addr 0x3a1666c, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
 
-  /// @brief Method Update, addr 0x3a0dbac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a1665c, size 0x4, virtual false, abstract: false, final false
   static inline void Update();
 
-  /// @brief Method .ctor, addr 0x3a0dbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a16674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   HEU_AssetUpdater(HEU_AssetUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11605 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

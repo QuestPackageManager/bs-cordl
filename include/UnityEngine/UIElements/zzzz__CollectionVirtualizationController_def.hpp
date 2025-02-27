@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  /// @brief Method .ctor, addr 0x4981668, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498a698, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
   /// @brief Method get_activeItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -118,7 +118,7 @@ public:
   CollectionVirtualizationController(CollectionVirtualizationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5481 };
 
   /// @brief Field m_ScrollView, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::ScrollView* ___m_ScrollView;

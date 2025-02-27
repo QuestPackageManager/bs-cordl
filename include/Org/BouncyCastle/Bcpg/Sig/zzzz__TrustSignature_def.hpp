@@ -23,23 +23,23 @@ public:
 
   __declspec(property(get = get_TrustAmount)) int32_t TrustAmount;
 
-  /// @brief Method IntToByteArray, addr 0x264082c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IntToByteArray, addr 0x2644564, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntToByteArray(int32_t v1, int32_t v2);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::TrustSignature* New_ctor(bool critical, int32_t depth, int32_t trustAmount);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::TrustSignature* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x26408f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2644628, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int32_t depth, int32_t trustAmount);
 
-  /// @brief Method .ctor, addr 0x26408a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26445e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Depth, addr 0x2640940, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x2644678, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_TrustAmount, addr 0x2640968, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAmount, addr 0x26446a0, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_TrustAmount();
 
 protected:

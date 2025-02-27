@@ -47,37 +47,37 @@ public:
   /// @brief Field stream, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream)) ::System::IO::Stream* stream;
 
-  /// @brief Method Close, addr 0x2392d08, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2396a40, size 0x68, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Flush, addr 0x2392d70, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x2396aa8, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::Org::BouncyCastle::Crypto::IO::DigestStream* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::IDigest* readDigest,
                                                                         ::Org::BouncyCastle::Crypto::IDigest* writeDigest);
 
-  /// @brief Method Read, addr 0x23928bc, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x23965f4, size 0xfc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x23929b8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x23966f0, size 0xd0, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadDigest, addr 0x23928ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadDigest, addr 0x23965e4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* ReadDigest();
 
-  /// @brief Method Seek, addr 0x2392d94, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x2396acc, size 0x24, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x2392db8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x2396af0, size 0x24, virtual true, abstract: false, final false
   inline void SetLength(int64_t length);
 
-  /// @brief Method Write, addr 0x2392a88, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x23967c0, size 0xf0, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x2392b78, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x23968b0, size 0xc8, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method WriteDigest, addr 0x23928b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method WriteDigest, addr 0x23965ec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* WriteDigest();
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_inDigest() const;
@@ -98,25 +98,25 @@ public:
 
   constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x239282c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2396564, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::IDigest* readDigest, ::Org::BouncyCastle::Crypto::IDigest* writeDigest);
 
-  /// @brief Method get_CanRead, addr 0x2392c40, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x2396978, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x2392c80, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x23969b8, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x2392c60, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x2396998, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x2392ca0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x23969d8, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x2392cc0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x23969f8, size 0x24, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x2392ce4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x2396a1c, size 0x24, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

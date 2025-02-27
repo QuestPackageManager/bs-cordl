@@ -32,11 +32,11 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x4100ebc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x4109eec, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackDeleteMember, addr 0x4100eac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackDeleteMember, addr 0x4109edc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackDeleteMember(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackDeleteMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method get_IgnoreCase, addr 0x4100ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x4109ed4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
-  /// @brief Method get_Name, addr 0x4100e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4109ecc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -75,7 +75,7 @@ public:
   DeleteMemberBinder(DeleteMemberBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14157 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

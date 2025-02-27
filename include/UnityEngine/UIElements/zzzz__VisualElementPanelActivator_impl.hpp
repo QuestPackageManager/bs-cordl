@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualElementPanelActivator::*)()>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::get_isActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49a3bcc;
+  constexpr static std::size_t addrs = 0x49acbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementPanelActivator*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementPanelActivator::*)(bool)>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::set_isActive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49a3bd4;
+  constexpr static std::size_t addrs = 0x49acc04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualElementPanelActivator::*)()>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::get_isDetaching)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49a3be0;
+  constexpr static std::size_t addrs = 0x49acc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementPanelActivator*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementPanelActivator::*)(bool)>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::set_isDetaching)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49a3be8;
+  constexpr static std::size_t addrs = 0x49acc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementPanelActivator::*)(
     ::UnityEngine::UIElements::IVisualElementPanelActivatable*)>(&::UnityEngine::UIElements::VisualElementPanelActivator::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x49a3bf4;
+  constexpr static std::size_t addrs = 0x49acc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementPanelActivator::*)(bool)>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::SetActive)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x49a3cd4;
+  constexpr static std::size_t addrs = 0x49acd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementPanelActivator::*)()>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::SendActivation)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x49a3f24;
+  constexpr static std::size_t addrs = 0x49acf54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementPanelActivator*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementPanelActivator::*)()>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::SendDeactivation)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x49a403c;
+  constexpr static std::size_t addrs = 0x49ad06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementPanelActivator*>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementPanelActivator::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::OnEnter)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49a4154;
+  constexpr static std::size_t addrs = 0x49ad184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementPanelActivator::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::VisualElementPanelActivator::OnLeave)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x49a4164;
+  constexpr static std::size_t addrs = 0x49ad194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::VRController> (::GlobalNamespace::PlayerVRControllersManager::*)()>(
     &::GlobalNamespace::PlayerVRControllersManager::get_leftHandVRController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becf50;
+  constexpr static std::size_t addrs = 0x3bf5e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerVRControllersManager*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::VRController> (::GlobalNamespace::PlayerVRControllersManager::*)()>(
     &::GlobalNamespace::PlayerVRControllersManager::get_rightHandVRController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becf58;
+  constexpr static std::size_t addrs = 0x3bf5e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerVRControllersManager*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerVRControllersManager::*)()>(
     &::GlobalNamespace::PlayerVRControllersManager::DisableAllVRControllers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3becf60;
+  constexpr static std::size_t addrs = 0x3bf5e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerVRControllersManager*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerVRControllersManager::*)()>(
     &::GlobalNamespace::PlayerVRControllersManager::EnableAllVRControllers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3becf98;
+  constexpr static std::size_t addrs = 0x3bf5ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerVRControllersManager*>::get(),
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerVRControllersManager::*)()>(&::GlobalNamespace::PlayerVRControllersManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becfd0;
+  constexpr static std::size_t addrs = 0x3bf5f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerVRControllersManager*>::get(), ".ctor",

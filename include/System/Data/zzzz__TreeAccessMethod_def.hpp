@@ -51,7 +51,7 @@ public:
   static ::System::Data::TreeAccessMethod const KEY_SEARCH_AND_INDEX;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11452 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

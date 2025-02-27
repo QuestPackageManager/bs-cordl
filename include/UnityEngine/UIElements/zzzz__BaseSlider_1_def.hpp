@@ -100,7 +100,7 @@ public:
   BaseSlider_1_UxmlTraits(BaseSlider_1_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +167,7 @@ public:
   static ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5509 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -650,7 +650,7 @@ public:
   BaseSlider_1(BaseSlider_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5510 };
 
   /// @brief Field <dragContainer>k__BackingField, offset: 0x440, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragContainer_k__BackingField;

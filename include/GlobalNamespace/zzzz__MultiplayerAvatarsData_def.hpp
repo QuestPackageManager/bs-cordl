@@ -49,38 +49,38 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>*();
 
-  /// @brief Method CreateFromSerializedData, addr 0x27214e8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x272582c, size 0x38, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0x2721520, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x2725864, size 0x34, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerAvatarsData Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method DeserializeAvatarsData, addr 0x2721554, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method DeserializeAvatarsData, addr 0x2725898, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* DeserializeAvatarsData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x27217f0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2725b34, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2721684, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x27259c8, size 0x16c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::MultiplayerAvatarsData other);
 
-  /// @brief Method GetHashCode, addr 0x2721880, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2725bc4, size 0x224, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Serialize, addr 0x2721320, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x2725664, size 0x28, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SerializeAvatarsData, addr 0x2721348, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SerializeAvatarsData, addr 0x272568c, size 0x1a0, virtual false, abstract: false, final false
   inline void SerializeAvatarsData(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SupportsOptionalAvatarDataType, addr 0x2721aa4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SupportsOptionalAvatarDataType, addr 0x2725de8, size 0x60, virtual false, abstract: false, final false
   inline bool SupportsOptionalAvatarDataType(uint32_t typeHash);
 
-  /// @brief Method .ctor, addr 0x27212a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27255ec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData,
                     ::System::Collections::Generic::IEnumerable_1<uint32_t>* supportedAvatarTypeIdHashes);
 
-  /// @brief Method .ctor, addr 0x2721314, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2725658, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData, ::GlobalNamespace::BitMask128 supportedAvatarTypeIdHashesBloomFilter);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>"
@@ -100,7 +100,7 @@ public:
                                    ::GlobalNamespace::BitMask128 supportedAvatarTypeIdHashesBloomFilter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

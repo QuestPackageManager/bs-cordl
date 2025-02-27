@@ -99,7 +99,7 @@ public:
   AsyncReadManagerMetricsFilters(AsyncReadManagerMetricsFilters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10587 };
 
   /// @brief Field TypeIDs, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint64_t, ::Array<uint64_t>*> ___TypeIDs;

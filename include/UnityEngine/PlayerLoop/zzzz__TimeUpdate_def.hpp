@@ -31,7 +31,7 @@ public:
   constexpr TimeUpdate_WaitForLastPresentationAndUpdateTime();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -61,7 +61,7 @@ public:
   constexpr TimeUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

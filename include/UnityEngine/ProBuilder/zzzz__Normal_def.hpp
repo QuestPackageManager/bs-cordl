@@ -40,40 +40,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>*();
 
-  /// @brief Method Equals, addr 0x472059c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47295cc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x472062c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x472965c, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::Normal other);
 
-  /// @brief Method GetHashCode, addr 0x47206c4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47296f4, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_bitangent, addr 0x4720584, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_bitangent, addr 0x47295b4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bitangent();
 
-  /// @brief Method get_normal, addr 0x4720554, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x4729584, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_tangent, addr 0x472056c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tangent, addr 0x472959c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_tangent();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Normal>* i___System__IEquatable_1___UnityEngine__ProBuilder__Normal_();
 
-  /// @brief Method op_Equality, addr 0x4720728, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4729758, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::Normal a, ::UnityEngine::ProBuilder::Normal b);
 
-  /// @brief Method op_Inequality, addr 0x4720758, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4729788, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::Normal a, ::UnityEngine::ProBuilder::Normal b);
 
-  /// @brief Method set_bitangent, addr 0x4720590, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_bitangent, addr 0x47295c0, size 0xc, virtual false, abstract: false, final false
   inline void set_bitangent(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_normal, addr 0x4720560, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_normal, addr 0x4729590, size 0xc, virtual false, abstract: false, final false
   inline void set_normal(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_tangent, addr 0x4720578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tangent, addr 0x47295a8, size 0xc, virtual false, abstract: false, final false
   inline void set_tangent(::UnityEngine::Vector4 value);
 
   // Ctor Parameters []
@@ -85,7 +85,7 @@ public:
   constexpr Normal(::UnityEngine::Vector3 _normal_k__BackingField, ::UnityEngine::Vector4 _tangent_k__BackingField, ::UnityEngine::Vector3 _bitangent_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14263 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

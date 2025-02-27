@@ -26,19 +26,19 @@ public:
 
   static inline ::GlobalNamespace::MainEffectSO* New_ctor();
 
-  /// @brief Method PostRender, addr 0x40879a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x40909a0, size 0x4, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method PreRender, addr 0x4087998, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x4090998, size 0x4, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x408799c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x409099c, size 0x4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
-  /// @brief Method .ctor, addr 0x40871d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40901d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x40879a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x40909a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:
@@ -56,7 +56,7 @@ public:
   MainEffectSO(MainEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

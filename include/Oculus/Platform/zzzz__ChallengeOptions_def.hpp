@@ -35,39 +35,39 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x3f7e0e0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f870e0, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::ChallengeOptions* New_ctor();
 
-  /// @brief Method SetDescription, addr 0x3f7dcc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDescription, addr 0x3f86cc4, size 0x68, virtual false, abstract: false, final false
   inline void SetDescription(::StringW value);
 
-  /// @brief Method SetEndDate, addr 0x3f7dd2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x3f86d2c, size 0x68, virtual false, abstract: false, final false
   inline void SetEndDate(::System::DateTime value);
 
-  /// @brief Method SetIncludeActiveChallenges, addr 0x3f7dd94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludeActiveChallenges, addr 0x3f86d94, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludeActiveChallenges(bool value);
 
-  /// @brief Method SetIncludeFutureChallenges, addr 0x3f7ddfc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludeFutureChallenges, addr 0x3f86dfc, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludeFutureChallenges(bool value);
 
-  /// @brief Method SetIncludePastChallenges, addr 0x3f7de64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludePastChallenges, addr 0x3f86e64, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludePastChallenges(bool value);
 
-  /// @brief Method SetLeaderboardName, addr 0x3f7decc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLeaderboardName, addr 0x3f86ecc, size 0x68, virtual false, abstract: false, final false
   inline void SetLeaderboardName(::StringW value);
 
-  /// @brief Method SetStartDate, addr 0x3f7df34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x3f86f34, size 0x68, virtual false, abstract: false, final false
   inline void SetStartDate(::System::DateTime value);
 
-  /// @brief Method SetTitle, addr 0x3f7df9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetTitle, addr 0x3f86f9c, size 0x68, virtual false, abstract: false, final false
   inline void SetTitle(::StringW value);
 
-  /// @brief Method SetViewerFilter, addr 0x3f7e004, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetViewerFilter, addr 0x3f87004, size 0x68, virtual false, abstract: false, final false
   inline void SetViewerFilter(::Oculus::Platform::ChallengeViewerFilter value);
 
-  /// @brief Method SetVisibility, addr 0x3f7e06c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x3f8706c, size 0x68, virtual false, abstract: false, final false
   inline void SetVisibility(::Oculus::Platform::ChallengeVisibility value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3f7dc60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f86c60, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x3f7e0d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3f870d4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::ChallengeOptions* options);
 
 protected:
@@ -97,7 +97,7 @@ public:
   ChallengeOptions(ChallengeOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15333 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

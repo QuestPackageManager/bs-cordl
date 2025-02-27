@@ -96,7 +96,7 @@ public:
   TakeNObservable_1_Take(TakeNObservable_1_Take const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7102 };
 
   /// @brief Field m_Observer, offset: 0x10, size: 0x8, def value: None
   ::System::IObserver_1<TValue>* ___m_Observer;
@@ -166,7 +166,7 @@ public:
   TakeNObservable_1(TakeNObservable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7103 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TValue>* ___m_Source;

@@ -91,7 +91,7 @@ public:
   static ::System::Net::Http::Headers::Token_Type const Token;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16725 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,32 +125,32 @@ public:
 
   __declspec(property(get = get_StartPosition, put = set_StartPosition)) int32_t StartPosition;
 
-  /// @brief Method ToString, addr 0x4227628, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4230658, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x421fe70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4228ea0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::Token_Type type, int32_t startPosition, int32_t endPosition);
 
   static inline ::System::Net::Http::Headers::Token getStaticF_Empty();
 
-  /// @brief Method get_EndPosition, addr 0x422760c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndPosition, addr 0x423063c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EndPosition();
 
-  /// @brief Method get_Kind, addr 0x422761c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x423064c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::Token_Type get_Kind();
 
-  /// @brief Method get_StartPosition, addr 0x42275fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartPosition, addr 0x423062c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartPosition();
 
-  /// @brief Method op_Implicit, addr 0x4227624, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4230654, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::Http::Headers::Token_Type op_Implicit___System__Net__Http__Headers__Token_Type(::System::Net::Http::Headers::Token token);
 
   static inline void setStaticF_Empty(::System::Net::Http::Headers::Token value);
 
-  /// @brief Method set_EndPosition, addr 0x4227614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EndPosition, addr 0x4230644, size 0x8, virtual false, abstract: false, final false
   inline void set_EndPosition(int32_t value);
 
-  /// @brief Method set_StartPosition, addr 0x4227604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartPosition, addr 0x4230634, size 0x8, virtual false, abstract: false, final false
   inline void set_StartPosition(int32_t value);
 
   // Ctor Parameters []
@@ -162,7 +162,7 @@ public:
   constexpr Token(::System::Net::Http::Headers::Token_Type type, int32_t _StartPosition_k__BackingField, int32_t _EndPosition_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16726 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

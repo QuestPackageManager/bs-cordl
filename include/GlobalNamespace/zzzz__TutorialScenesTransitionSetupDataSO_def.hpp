@@ -131,10 +131,10 @@ public:
 
   __declspec(property(get = get_playerSpecificSettings, put = set_playerSpecificSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
-  /// @brief Method Finish, addr 0x3b44b90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3b4d640, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType endState);
 
-  /// @brief Method Init, addr 0x3b3f040, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b47af0, size 0x3d4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
   static inline ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* New_ctor();
@@ -184,21 +184,21 @@ public:
   constexpr void __cordl_internal_set_didFinishEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
 
-  /// @brief Method .ctor, addr 0x3b44bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4d668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b43044, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b4baf4, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
 
-  /// @brief Method get_playerSpecificSettings, addr 0x3b44b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x3b4d630, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b42038, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b4aae8, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::TutorialScenesTransitionSetupDataSO_TutorialEndStateType>* value);
 
-  /// @brief Method set_playerSpecificSettings, addr 0x3b44b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpecificSettings, addr 0x3b4d638, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
 protected:

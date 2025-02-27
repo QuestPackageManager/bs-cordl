@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* (
     ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::*)()>(&::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::get_implementation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48d4938;
+  constexpr static std::size_t addrs = 0x48dd968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::*)(
     ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)>(&::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::set_implementation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48d4940;
+  constexpr static std::size_t addrs = 0x48dd970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::*)(::ByRef<bool>)>(
     &::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x48d4948;
+  constexpr static std::size_t addrs = 0x48dd978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::*)()>(
     &::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48d4930;
+  constexpr static std::size_t addrs = 0x48dd960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Data::Nodes value);
 
-  /// @brief Method .ctor, addr 0x417ea44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4187a74, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::Nodes type, int32_t op, int32_t pri);
 
 protected:
@@ -70,7 +70,7 @@ public:
   OperatorInfo(OperatorInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11431 };
 
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::System::Data::Nodes ____type;

@@ -105,39 +105,39 @@ public:
   __declspec(property(get = __cordl_internal_get_selectSuggestedGameplayModifiersEvent,
                       put = __cordl_internal_set_selectSuggestedGameplayModifiersEvent)) ::System::Action_1<::GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent;
 
-  /// @brief Method DidActivate, addr 0x3c253c8, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c2e2cc, size 0x374, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c25c78, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c2eb7c, size 0x328, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleKickPlayer, addr 0x3c26010, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleKickPlayer, addr 0x3c2ef14, size 0x1c, virtual false, abstract: false, final false
   inline void HandleKickPlayer(::StringW userId);
 
-  /// @brief Method HandleLobbyGameStateControllerLobbyStateChanged, addr 0x3c25fa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerLobbyStateChanged, addr 0x3c2eea8, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLobbyStateChanged(::GlobalNamespace::MultiplayerLobbyState _);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x3c25fa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x3c2eeac, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionChanged();
 
-  /// @brief Method HandleLobbyPlayersDataDidChange, addr 0x3c25fa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayersDataDidChange, addr 0x3c2eea4, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyPlayersDataDidChange(::StringW userId);
 
-  /// @brief Method HandleOpenPlatformInvitePanel, addr 0x3c2602c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleOpenPlatformInvitePanel, addr 0x3c2ef30, size 0xc8, virtual false, abstract: false, final false
   inline void HandleOpenPlatformInvitePanel();
 
-  /// @brief Method HandleSelectSuggestedGameplayModifiers, addr 0x3c25ff4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectSuggestedGameplayModifiers, addr 0x3c2eef8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method HandleSelectSuggestedLevel, addr 0x3c25fac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectSuggestedLevel, addr 0x3c2eeb0, size 0x48, virtual false, abstract: false, final false
   inline void HandleSelectSuggestedLevel(::GlobalNamespace::BeatmapKey beatmapKey);
 
   static inline ::GlobalNamespace::ServerPlayerListViewController* New_ctor();
 
-  /// @brief Method SetDataToTable, addr 0x3c25a38, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method SetDataToTable, addr 0x3c2e93c, size 0x240, virtual false, abstract: false, final false
   inline void SetDataToTable();
 
-  /// @brief Method TrySetInviteButtonEnabled, addr 0x3c2573c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method TrySetInviteButtonEnabled, addr 0x3c2e640, size 0x2fc, virtual false, abstract: false, final false
   inline void TrySetInviteButtonEnabled();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -218,31 +218,31 @@ public:
 
   constexpr void __cordl_internal_set_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method .ctor, addr 0x3c260f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2eff8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didOpenInvitePanelEvent, addr 0x3c25290, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didOpenInvitePanelEvent, addr 0x3c2e194, size 0x9c, virtual false, abstract: false, final false
   inline void add_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method add_kickPlayerEvent, addr 0x3c25130, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x3c2e034, size 0xb0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_selectSuggestedBeatmapEvent, addr 0x3c24e70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectSuggestedBeatmapEvent, addr 0x3c2dd74, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x3c24fd0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x3c2ded4, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x3c2532c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x3c2e230, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x3c251e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x3c2e0e4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_selectSuggestedBeatmapEvent, addr 0x3c24f20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectSuggestedBeatmapEvent, addr 0x3c2de24, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x3c25080, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x3c2df84, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
 protected:

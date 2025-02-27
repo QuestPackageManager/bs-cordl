@@ -131,37 +131,37 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x3b06140, size 0x4f0, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x3b0ebf0, size 0x4f0, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x3b05fcc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x3b0ea7c, size 0xc, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method GetCurrentPrefab, addr 0x3b060a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPrefab, addr 0x3b0eb54, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> GetCurrentPrefab();
 
-  /// @brief Method HandleCellKickPlayer, addr 0x3b06d24, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleCellKickPlayer, addr 0x3b0f7d4, size 0xfc, virtual false, abstract: false, final false
   inline void HandleCellKickPlayer(int32_t idx);
 
-  /// @brief Method HandleCellUseBeatmap, addr 0x3b06798, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method HandleCellUseBeatmap, addr 0x3b0f248, size 0x338, virtual false, abstract: false, final false
   inline void HandleCellUseBeatmap(int32_t idx);
 
-  /// @brief Method HandleCellUseModifiers, addr 0x3b06ad0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HandleCellUseModifiers, addr 0x3b0f580, size 0x254, virtual false, abstract: false, final false
   inline void HandleCellUseModifiers(int32_t idx);
 
-  /// @brief Method Init, addr 0x3b06edc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b0f98c, size 0x44, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameServerPlayersTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3b05fd8, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x3b0ea88, size 0x48, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x3b06e20, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b0f8d0, size 0xbc, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel,
                       bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
 
-  /// @brief Method TryGetLobbyPlayerData, addr 0x3b06630, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TryGetLobbyPlayerData, addr 0x3b0f0e0, size 0x168, virtual false, abstract: false, final false
   inline bool TryGetLobbyPlayerData(int32_t idx, ::ByRef<::GlobalNamespace::IConnectedPlayer*> player, ::ByRef<::GlobalNamespace::ILobbyPlayerData*> playerData);
 
   constexpr bool const& __cordl_internal_get__allowSelection() const;
@@ -278,31 +278,31 @@ public:
 
   constexpr void __cordl_internal_set_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method .ctor, addr 0x3b06f20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0f9d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_kickPlayerEvent, addr 0x3b05e6c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x3b0e91c, size 0xb0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x3b05d0c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x3b0e7bc, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method add_selectSuggestedLevelEvent, addr 0x3b05bac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectSuggestedLevelEvent, addr 0x3b0e65c, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method get_currentCellId, addr 0x3b06020, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_currentCellId, addr 0x3b0ead0, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_currentCellId();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x3b05f1c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x3b0e9cc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x3b05dbc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x3b0e86c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_selectSuggestedLevelEvent, addr 0x3b05c5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectSuggestedLevelEvent, addr 0x3b0e70c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
 protected:

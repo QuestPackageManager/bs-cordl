@@ -22,12 +22,12 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE SurrogateHashtable : public ::System::Collections::Hashtable {
 public:
   // Declarations
-  /// @brief Method KeyEquals, addr 0x3d0338c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method KeyEquals, addr 0x3d0c290, size 0x128, virtual true, abstract: false, final false
   inline bool KeyEquals(::System::Object* key, ::System::Object* item);
 
   static inline ::System::Runtime::Serialization::SurrogateHashtable* New_ctor(int32_t size);
 
-  /// @brief Method .ctor, addr 0x3d02ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0bef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
 protected:

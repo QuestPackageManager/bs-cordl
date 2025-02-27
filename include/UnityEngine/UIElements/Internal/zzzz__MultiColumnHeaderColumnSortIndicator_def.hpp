@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IndexLabel(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x49ef920, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f8950, size 0x168, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_arrowUssClassName();
@@ -59,7 +59,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_sortOrderLabel, addr 0x49ef8fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_sortOrderLabel, addr 0x49f892c, size 0x24, virtual false, abstract: false, final false
   inline void set_sortOrderLabel(::StringW value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   MultiColumnHeaderColumnSortIndicator(MultiColumnHeaderColumnSortIndicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6511 };
 
   /// @brief Field m_IndexLabel, offset: 0x3c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_IndexLabel;

@@ -35,37 +35,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>*();
 
-  /// @brief Method Equals, addr 0x4926848, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x492f878, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49268c0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x492f8f0, size 0xa8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphValueRecord other);
 
-  /// @brief Method GetHashCode, addr 0x49267e4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x492f814, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_xAdvance, addr 0x49267c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xAdvance, addr 0x492f7f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xAdvance();
 
-  /// @brief Method get_xPlacement, addr 0x49267a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPlacement, addr 0x492f7d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPlacement();
 
-  /// @brief Method get_yAdvance, addr 0x49267c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yAdvance, addr 0x492f7f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yAdvance();
 
-  /// @brief Method get_yPlacement, addr 0x49267b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPlacement, addr 0x492f7e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPlacement();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphValueRecord_();
 
-  /// @brief Method op_Addition, addr 0x49267d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x492f800, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord op_Addition(::UnityEngine::TextCore::LowLevel::GlyphValueRecord a, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord b);
 
-  /// @brief Method set_xPlacement, addr 0x49267a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xPlacement, addr 0x492f7d8, size 0x8, virtual false, abstract: false, final false
   inline void set_xPlacement(float_t value);
 
-  /// @brief Method set_yPlacement, addr 0x49267b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yPlacement, addr 0x492f7e8, size 0x8, virtual false, abstract: false, final false
   inline void set_yPlacement(float_t value);
 
   // Ctor Parameters []
@@ -77,7 +77,7 @@ public:
   constexpr GlyphValueRecord(float_t m_XPlacement, float_t m_YPlacement, float_t m_XAdvance, float_t m_YAdvance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18192 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

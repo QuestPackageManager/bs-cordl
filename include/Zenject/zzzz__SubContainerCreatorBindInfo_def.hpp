@@ -57,25 +57,25 @@ public:
 
   constexpr void __cordl_internal_set__KernelType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4b4480c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4d83c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CreateKernel, addr 0x4b447e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateKernel, addr 0x4b4d818, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateKernel();
 
-  /// @brief Method get_DefaultParentName, addr 0x4b447d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultParentName, addr 0x4b4d808, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultParentName();
 
-  /// @brief Method get_KernelType, addr 0x4b447fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KernelType, addr 0x4b4d82c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_KernelType();
 
-  /// @brief Method set_CreateKernel, addr 0x4b447f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateKernel, addr 0x4b4d820, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateKernel(bool value);
 
-  /// @brief Method set_DefaultParentName, addr 0x4b447e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultParentName, addr 0x4b4d810, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultParentName(::StringW value);
 
-  /// @brief Method set_KernelType, addr 0x4b44804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KernelType, addr 0x4b4d834, size 0x8, virtual false, abstract: false, final false
   inline void set_KernelType(::System::Type* value);
 
 protected:
@@ -93,7 +93,7 @@ public:
   SubContainerCreatorBindInfo(SubContainerCreatorBindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12584 };
 
   /// @brief Field <DefaultParentName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____DefaultParentName_k__BackingField;

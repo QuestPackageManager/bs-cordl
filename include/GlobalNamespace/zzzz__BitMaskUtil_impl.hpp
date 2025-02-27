@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint64_t)>(&::GlobalNamespace::BitMaskUtil::NumberOfSetBits)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x224a43c;
+  constexpr static std::size_t addrs = 0x224e274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::GlobalNamespace::BitMaskUtil::NumberOfSetBits)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2242db8;
+  constexpr static std::size_t addrs = 0x2246bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ByRef<uint64_t>, ::ByRef<int32_t>)>(&::GlobalNamespace::BitMaskUtil::ShiftLeft)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x224a4a0;
+  constexpr static std::size_t addrs = 0x224e2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ByRef<uint64_t>, ::ByRef<int32_t>)>(&::GlobalNamespace::BitMaskUtil::ShiftRight)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x224a4e4;
+  constexpr static std::size_t addrs = 0x224e31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

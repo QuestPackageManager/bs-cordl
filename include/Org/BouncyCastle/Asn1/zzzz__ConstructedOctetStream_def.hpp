@@ -37,15 +37,15 @@ public:
   /// @brief Field _parser, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__parser, put = __cordl_internal_set__parser)) ::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
 
-  /// @brief Method GetNextParser, addr 0x2637748, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetNextParser, addr 0x263b480, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* GetNextParser();
 
   static inline ::Org::BouncyCastle::Asn1::ConstructedOctetStream* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method Read, addr 0x2637584, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x263b2bc, size 0x1c4, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x2637848, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x263b580, size 0x134, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get__currentStream() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
 
-  /// @brief Method .ctor, addr 0x2635184, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2638ebc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
 protected:

@@ -24,10 +24,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE KeyboardEventExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x4a2e618, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x4a37648, size 0xe8, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEvent(::UnityEngine::UIElements::KeyDownEvent* e);
 
-  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x4a2e9ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x4a379dc, size 0x44, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEventRuntime(::UnityEngine::Event* e);
 
 protected:
@@ -45,7 +45,7 @@ public:
   KeyboardEventExtensions(KeyboardEventExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

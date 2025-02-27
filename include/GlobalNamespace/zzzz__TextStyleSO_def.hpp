@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__textStyle(::GlobalNamespace::TextStyle* value);
 
-  /// @brief Method .ctor, addr 0x2282d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2286a58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_textStyle, addr 0x2282d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textStyle, addr 0x2286a50, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadOnlyTextStyle* get_textStyle();
 
 protected:
@@ -58,7 +58,7 @@ public:
   TextStyleSO(TextStyleSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19140 };
 
   /// @brief Field _textStyle, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::TextStyle* ____textStyle;

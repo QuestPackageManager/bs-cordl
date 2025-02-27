@@ -69,12 +69,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b8db14, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b96a34, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingSpriteSpawner* New_ctor();
 
-  /// @brief Method SpawnFlyingSprite, addr 0x3b8cce0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingSprite, addr 0x3b95c00, size 0x1ec, virtual false, abstract: false, final false
   inline void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set__xSpread(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b8dc30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b96b50, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"

@@ -39,10 +39,10 @@ public:
 
   static inline ::GlobalNamespace::HEU_ScriptParameterExample* New_ctor();
 
-  /// @brief Method Start, addr 0x3a0aa2c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a134dc, size 0x270, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateGravity, addr 0x3a0ac9c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateGravity, addr 0x3a1374c, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateGravity();
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__evergreenAsset() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__updateRate(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a0ad80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a13830, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   HEU_ScriptParameterExample(HEU_ScriptParameterExample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11577 };
 
   /// @brief Field _evergreenGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____evergreenGameObject;

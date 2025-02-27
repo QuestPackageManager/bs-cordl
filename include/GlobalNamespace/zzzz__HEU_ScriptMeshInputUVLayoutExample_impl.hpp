@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>, ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample_OutputMode, ::StringW)>(
         &::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::ApplyUVLayoutTo)> {
   constexpr static std::size_t size = 0x858;
-  constexpr static std::size_t addrs = 0x3a0a128;
+  constexpr static std::size_t addrs = 0x3a12bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::*)()>(
     &::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a0aa24;
+  constexpr static std::size_t addrs = 0x3a134d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample*>::get(),

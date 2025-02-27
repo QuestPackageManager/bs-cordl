@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a2cb98, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a35bc8, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a2cb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a35bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::FocusEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   FocusEvent___c(FocusEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,10 +78,10 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x4a2ca34, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x4a35a64, size 0xb8, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a2caec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a35b1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   FocusEvent(FocusEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

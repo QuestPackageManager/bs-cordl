@@ -71,7 +71,7 @@ public:
   ObjectPool_1___c(ObjectPool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6001 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -152,7 +152,7 @@ public:
   ObjectPool_1(ObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6002 };
 
   /// @brief Field m_Stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<T>* ___m_Stack;

@@ -24,13 +24,13 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPlane {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3acc99c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ad544c, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3acc988, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ad5438, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPlane get_empty();
 
-  /// @brief Method op_Implicit, addr 0x3acc970, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3ad5420, size 0x18, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPlane op_Implicit___LIV__SDK__Unity__SDKPlane(::UnityEngine::Plane v);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr SDKPlane(float_t distance, ::LIV::SDK::Unity::SDKVector3 normal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17330 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

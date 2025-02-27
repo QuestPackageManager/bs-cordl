@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value);
 
-  /// @brief Method .ctor, addr 0x3c2e4e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c373ec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   MidiTrack(MidiTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19110 };
 
   /// @brief Field Index, offset: 0x10, size: 0x4, def value: None
   int32_t ___Index;

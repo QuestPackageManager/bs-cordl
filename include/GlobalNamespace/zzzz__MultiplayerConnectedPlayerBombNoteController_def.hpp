@@ -34,7 +34,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bbfb1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc8a54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,12 +69,12 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool;
 
-  /// @brief Method Init, addr 0x3bbc01c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bc4f54, size 0x18, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bbfb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc8a44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

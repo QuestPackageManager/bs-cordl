@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithPartyUnderCurrentParty::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithPartyUnderCurrentParty::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f80d78;
+  constexpr static std::size_t addrs = 0x3f89d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::MessageWithPartyUnderCurrentParty::*)()>(
     &::Oculus::Platform::MessageWithPartyUnderCurrentParty::GetParty)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f847b0;
+  constexpr static std::size_t addrs = 0x3f8d7b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::MessageWithPartyUnderCurrentParty::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithPartyUnderCurrentParty::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f847ec;
+  constexpr static std::size_t addrs = 0x3f8d7ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

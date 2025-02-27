@@ -44,7 +44,7 @@ public:
   /// @brief Field _normalizedGravity, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__normalizedGravity, put = __cordl_internal_set__normalizedGravity)) ::UnityEngine::Vector2 _normalizedGravity;
 
-  /// @brief Method GetTiltAngle, addr 0x2260218, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetTiltAngle, addr 0x2264050, size 0x2c8, virtual false, abstract: false, final false
   inline float_t GetTiltAngle();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__normalizedGravity(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x2260138, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2263f70, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity);
 
 protected:
@@ -98,7 +98,7 @@ public:
   BeatmapObjectAvoidanceTiltEvaluator(BeatmapObjectAvoidanceTiltEvaluator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17669 };
 
   /// @brief Field kLookAheadTime offset 0xffffffff size 0x4
   static constexpr float_t kLookAheadTime{ static_cast<float_t>(0.2f) };

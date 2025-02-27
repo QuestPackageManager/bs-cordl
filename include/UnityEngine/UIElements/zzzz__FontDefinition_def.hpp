@@ -37,43 +37,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>*();
 
-  /// @brief Method Equals, addr 0x4a6f500, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a78530, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a6f4b8, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a784e8, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::FontDefinition other);
 
-  /// @brief Method FromFont, addr 0x4a6f264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromFont, addr 0x4a78294, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FontDefinition FromFont(::UnityEngine::Font* f);
 
-  /// @brief Method FromObject, addr 0x4a6f278, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x4a782a8, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FontDefinition FromObject(::System::Object* obj);
 
-  /// @brief Method FromSDFFont, addr 0x4a6f26c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromSDFFont, addr 0x4a7829c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FontDefinition FromSDFFont(::UnityEngine::TextCore::Text::FontAsset* f);
 
-  /// @brief Method GetHashCode, addr 0x4a6f578, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a785a8, size 0xe0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsEmpty, addr 0x4a6f390, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x4a783c0, size 0x98, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method ToString, addr 0x4a6f428, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a78458, size 0x90, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_font, addr 0x4a6f254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_font, addr 0x4a78284, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Font> get_font();
 
-  /// @brief Method get_fontAsset, addr 0x4a6f25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontAsset, addr 0x4a7828c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> get_fontAsset();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::FontDefinition>* i___System__IEquatable_1___UnityEngine__UIElements__FontDefinition_();
 
-  /// @brief Method op_Equality, addr 0x4a6f658, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a78688, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::FontDefinition left, ::UnityEngine::UIElements::FontDefinition right);
 
-  /// @brief Method op_Inequality, addr 0x4a6f684, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4a786b4, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::FontDefinition left, ::UnityEngine::UIElements::FontDefinition right);
 
   // Ctor Parameters []
@@ -85,7 +85,7 @@ public:
   constexpr FontDefinition(::UnityW<::UnityEngine::Font> m_Font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> m_FontAsset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6064 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

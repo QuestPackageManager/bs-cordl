@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectionFailedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x26dc64c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x26e0744, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method LocalizedKey, addr 0x26dc598, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x26e0684, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
 protected:
@@ -43,7 +43,7 @@ public:
   ConnectionFailedReasonMethods(ConnectionFailedReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13088 };
 
   /// @brief Field kConnectionFailedConnectionCanceled offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedConnectionCanceled{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field kConnectionFailedMasterServerUnreachable offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedMasterServerUnreachable{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };
+
+  /// @brief Field kConnectionFailedMismatchedServerEnvironment offset 0xffffffff size 0x8
+  static constexpr ::ConstString kConnectionFailedMismatchedServerEnvironment{ u"CONNECTION_FAILED_MISMATCHED_SERVER_ENVIRONMENT" };
 
   /// @brief Field kConnectionFailedNetworkNotConnected offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedNetworkNotConnected{ u"CONNECTION_FAILED_NETWORK_NOT_CONNECTED" };

@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x3c2f5f4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x3c384f8, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType);
 
-  /// @brief Method Dispose, addr 0x3c2f420, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c38324, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -79,10 +79,10 @@ public:
   static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method SimulateFail, addr 0x3c2f508, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x3c3840c, size 0xec, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method SimulateGiveUp, addr 0x3c2f6f8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SimulateGiveUp, addr 0x3c385fc, size 0xec, virtual false, abstract: false, final false
   inline void SimulateGiveUp();
 
   /// @brief Method Tick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x3c2f1f8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c380fc, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
   /// @brief Convert to "::System::IDisposable"
@@ -139,7 +139,7 @@ public:
   MockPlayerGamePoseGenerator(MockPlayerGamePoseGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18111 };
 
   /// @brief Field multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ___multiplayerSessionManager;

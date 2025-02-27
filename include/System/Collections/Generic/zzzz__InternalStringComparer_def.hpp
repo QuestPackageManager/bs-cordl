@@ -20,18 +20,18 @@ namespace System::Collections::Generic {
 class CORDL_TYPE InternalStringComparer : public ::System::Collections::Generic::EqualityComparer_1<::StringW> {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x3dce188, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dd708c, size 0x30, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x3dce168, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dd706c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method IndexOf, addr 0x3dce1b8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3dd70bc, size 0x68, virtual true, abstract: false, final false
   inline int32_t IndexOf(::ArrayW<::StringW, ::Array<::StringW>*> array, ::StringW value, int32_t startIndex, int32_t count);
 
   static inline ::System::Collections::Generic::InternalStringComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3dce220, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd7124, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

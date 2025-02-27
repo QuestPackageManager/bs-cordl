@@ -40,10 +40,10 @@ public:
   /// @brief Field s_DefaultHttpBinding, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DefaultHttpBinding, put = setStaticF_s_DefaultHttpBinding)) ::System::Net::Cache::RequestCacheBinding* s_DefaultHttpBinding;
 
-  /// @brief Method GetBinding, addr 0x43f36b8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetBinding, addr 0x43fc6e8, size 0x1f8, virtual false, abstract: false, final false
   static inline ::System::Net::Cache::RequestCacheBinding* GetBinding(::StringW internedScheme);
 
-  /// @brief Method LoadConfigSettings, addr 0x43f38b0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method LoadConfigSettings, addr 0x43fc8e0, size 0x174, virtual false, abstract: false, final false
   static inline void LoadConfigSettings();
 
   static inline ::System::Net::Cache::RequestCacheBinding* getStaticF_s_BypassCacheBinding();
@@ -81,7 +81,7 @@ public:
   RequestCacheManager(RequestCacheManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

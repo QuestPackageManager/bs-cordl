@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::ServerCertSelectionCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Net::Security::ServerCertSelectionCallback::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x440ac14;
+  constexpr static std::size_t addrs = 0x4413c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::ServerCertSelectionCallback*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (
     ::System::Net::Security::ServerCertSelectionCallback::*)(::StringW)>(&::System::Net::Security::ServerCertSelectionCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x440acb0;
+  constexpr static std::size_t addrs = 0x4413ce0;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -34,13 +34,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x39c85d8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x39d1088, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::HMAutoincrementedRequestId* obj);
 
-  /// @brief Method Equals, addr 0x39c85f8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x39d10a8, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x39c8688, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x39d1138, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::HMAutoincrementedRequestId* New_ctor();
@@ -51,12 +51,12 @@ public:
 
   constexpr void __cordl_internal_set__requestId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x39c842c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d0edc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint64_t getStaticF__nextRequestId();
 
-  /// @brief Method get_RequestId, addr 0x39c85d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestId, addr 0x39d1080, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_RequestId();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>"
@@ -79,7 +79,7 @@ public:
   HMAutoincrementedRequestId(HMAutoincrementedRequestId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16429 };
 
   /// @brief Field _requestId, offset: 0x10, size: 0x8, def value: None
   uint64_t ____requestId;

@@ -27,16 +27,16 @@ public:
 
   __declspec(property(get = get_required)) bool required;
 
-  /// @brief Method ValidateArgumentValue, addr 0x22a1d60, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentValue, addr 0x22a5a98, size 0x240, virtual false, abstract: false, final false
   inline void ValidateArgumentValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a1d14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a5a4c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, ::ArrayW<::StringW, ::Array<::StringW>*> identifiers);
 
-  /// @brief Method get_expectsValue, addr 0x22a1d38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_expectsValue, addr 0x22a5a70, size 0x28, virtual false, abstract: false, final false
   inline bool get_expectsValue();
 
-  /// @brief Method get_required, addr 0x22a1d24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_required, addr 0x22a5a5c, size 0x14, virtual false, abstract: false, final false
   inline bool get_required();
 
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   constexpr ArgumentOption(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> identifiers, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16956 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

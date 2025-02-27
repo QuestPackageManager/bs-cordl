@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_showRestartButton(bool value);
 
-  /// @brief Method .ctor, addr 0x3bb5108, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbe040, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW backButtonText, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton, bool showLevelBar);
 
 protected:
@@ -223,36 +223,36 @@ public:
   /// @brief Field didStartResumeAnimationEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didStartResumeAnimationEvent, put = __cordl_internal_set_didStartResumeAnimationEvent)) ::System::Action* didStartResumeAnimationEvent;
 
-  /// @brief Method Awake, addr 0x3bb4b38, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bbda70, size 0x1bc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ContinueButtonPressed, addr 0x3bb5028, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ContinueButtonPressed, addr 0x3bbdf60, size 0x38, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
 
-  /// @brief Method HandleResumeFromPauseAnimationDidFinish, addr 0x3bb50e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleResumeFromPauseAnimationDidFinish, addr 0x3bbe01c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleResumeFromPauseAnimationDidFinish();
 
-  /// @brief Method MenuButtonPressed, addr 0x3bb50ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method MenuButtonPressed, addr 0x3bbdfe4, size 0x38, virtual false, abstract: false, final false
   inline void MenuButtonPressed();
 
   static inline ::GlobalNamespace::PauseMenuManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb4e1c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bbdd54, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RestartButtonPressed, addr 0x3bb5060, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RestartButtonPressed, addr 0x3bbdf98, size 0x4c, virtual false, abstract: false, final false
   inline void RestartButtonPressed();
 
-  /// @brief Method ShowMenu, addr 0x3bb45cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x3bbd504, size 0x58, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method Start, addr 0x3bb4cf4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bbdc2c, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartResumeAnimation, addr 0x3bb48f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method StartResumeAnimation, addr 0x3bbd830, size 0x48, virtual false, abstract: false, final false
   inline void StartResumeAnimation();
 
-  /// @brief Method Update, addr 0x3bb4ef8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bbde30, size 0x130, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backButton() const;
@@ -357,37 +357,37 @@ public:
 
   constexpr void __cordl_internal_set_didStartResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bb5100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbe038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishResumeAnimationEvent, addr 0x3bb3934, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishResumeAnimationEvent, addr 0x3bbc86c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x3bb39d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x3bbc908, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressMenuButtonEvent, addr 0x3bb3b08, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressMenuButtonEvent, addr 0x3bbca40, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressMenuButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressRestartButtonEvent, addr 0x3bb3a6c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressRestartButtonEvent, addr 0x3bbc9a4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressRestartButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didStartResumeAnimationEvent, addr 0x3bb3898, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didStartResumeAnimationEvent, addr 0x3bbc7d0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didStartResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishResumeAnimationEvent, addr 0x3bb42b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishResumeAnimationEvent, addr 0x3bbd1e8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3bb434c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3bbd284, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressMenuButtonEvent, addr 0x3bb4484, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressMenuButtonEvent, addr 0x3bbd3bc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressMenuButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressRestartButtonEvent, addr 0x3bb43e8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressRestartButtonEvent, addr 0x3bbd320, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressRestartButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didStartResumeAnimationEvent, addr 0x3bb4214, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didStartResumeAnimationEvent, addr 0x3bbd14c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didStartResumeAnimationEvent(::System::Action* value);
 
 protected:

@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
-  /// @brief Method .ctor, addr 0x26a69d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26aa708, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPacksEntitlements, addr 0x26a69c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPacksEntitlements, addr 0x26aa6f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelPacksEntitlements();
 
-  /// @brief Method get_levelsEntitlements, addr 0x26a69b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsEntitlements, addr 0x26aa6f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();
 
-  /// @brief Method get_packBetterBuyThanLevel, addr 0x26a69c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBetterBuyThanLevel, addr 0x26aa700, size 0x8, virtual false, abstract: false, final false
   inline bool get_packBetterBuyThanLevel();
 
 protected:
@@ -90,7 +90,7 @@ public:
   MockPlatformAdditionalContentModelInitialDataSO(MockPlatformAdditionalContentModelInitialDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12769 };
 
   /// @brief Field _levelsEntitlements, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> ____levelsEntitlements;

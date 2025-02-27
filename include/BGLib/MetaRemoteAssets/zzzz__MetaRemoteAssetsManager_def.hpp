@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set_ResourceLocator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
-  /// @brief Method .ctor, addr 0x22a8c80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ac9b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* resourceLocator, ::StringW localHash,
                     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLocation);
 
@@ -191,7 +191,7 @@ public:
   MetaRemoteAssetsManager_AddResourceLocatorInput(MetaRemoteAssetsManager_AddResourceLocatorInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18353 };
 
   /// @brief Field ResourceLocator, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* ___ResourceLocator;
@@ -235,16 +235,16 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* New_ctor();
 
-  /// @brief Method <UpdateCatalogsInternalAsync>b__25_0, addr 0x22a91b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCatalogsInternalAsync>b__25_0, addr 0x22aceec, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _UpdateCatalogsInternalAsync_b__25_0(::AddressablesInternalBridge::Runtime::CatalogLocationData* catalogData);
 
-  /// @brief Method <UpdateCatalogsInternalAsync>b__25_1, addr 0x22a91cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCatalogsInternalAsync>b__25_1, addr 0x22acf04, size 0xa0, virtual false, abstract: false, final false
   inline bool _UpdateCatalogsInternalAsync_b__25_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> entry);
 
-  /// @brief Method <.ctor>b__17_0, addr 0x22a91b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__17_0, addr 0x22acee8, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__17_0();
 
-  /// @brief Method .ctor, addr 0x22a91a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22acee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* getStaticF___9();
@@ -278,7 +278,7 @@ public:
   MetaRemoteAssetsManager___c(MetaRemoteAssetsManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -297,10 +297,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a926c, size 0x5c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22acfa4, size 0x5c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a9834, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22ad56c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -321,7 +321,7 @@ public:
                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18355 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -372,10 +372,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a989c, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22ad5d4, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a9b00, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22ad838, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -392,7 +392,7 @@ public:
                                                       ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18356 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -434,10 +434,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a9b0c, size 0x4d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22ad844, size 0x4d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a9fe4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22add1c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -457,7 +457,7 @@ public:
                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18357 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -509,10 +509,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22aa060, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22add98, size 0x1e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22aa240, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22adf78, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -531,7 +531,7 @@ public:
                                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18358 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -578,10 +578,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22aa2a8, size 0x834, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22adfe0, size 0x834, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22aaadc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22ae814, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -603,7 +603,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18359 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -654,10 +654,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22aab44, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22ae87c, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22aada8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22aeae0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -674,7 +674,7 @@ public:
                                                          ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18360 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -765,44 +765,44 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method ApplyAddressablesOverrides, addr 0x22a8434, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ApplyAddressablesOverrides, addr 0x22ac16c, size 0xf4, virtual false, abstract: false, final false
   inline void ApplyAddressablesOverrides();
 
-  /// @brief Method CreateAddResourceLocatorInput, addr 0x22a8b94, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateAddResourceLocatorInput, addr 0x22ac8cc, size 0xec, virtual false, abstract: false, final false
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput*
   CreateAddResourceLocatorInput(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* resourceLocator);
 
-  /// @brief Method Dispose, addr 0x22a8964, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22ac69c, size 0x50, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FetchTokenAsync, addr 0x22a87c4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FetchTokenAsync, addr 0x22ac4fc, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FetchTokenAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Initialize, addr 0x22a8528, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x22ac260, size 0x90, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeInternalAsync, addr 0x22a85b8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x22ac2f0, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method InternalIdTransformFunc, addr 0x22a86b0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method InternalIdTransformFunc, addr 0x22ac3e8, size 0x114, virtual false, abstract: false, final false
   inline ::StringW InternalIdTransformFunc(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
 
-  /// @brief Method MakeRemoteCatalogTopPriority, addr 0x22a8cbc, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method MakeRemoteCatalogTopPriority, addr 0x22ac9f4, size 0x490, virtual false, abstract: false, final false
   static inline void MakeRemoteCatalogTopPriority();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IPlatformUserModel* platformUserModel,
                                                                              ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* remoteCatalogLoader, ::StringW platform, ::StringW inBuildGameVersion);
 
-  /// @brief Method UpdateCatalogsAsync, addr 0x22a7f60, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCatalogsAsync, addr 0x22abc98, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateCatalogsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method UpdateCatalogsInternalAsync, addr 0x22a8894, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UpdateCatalogsInternalAsync, addr 0x22ac5cc, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateCatalogsInternalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitInitAsync, addr 0x22a7e70, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WaitInitAsync, addr 0x22abba8, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitInitAsync();
 
-  /// @brief Method WebRequestOverride, addr 0x22a89b4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method WebRequestOverride, addr 0x22ac6ec, size 0x1e0, virtual false, abstract: false, final false
   inline void WebRequestOverride(::UnityEngine::Networking::UnityWebRequest* request);
 
   constexpr ::StringW const& __cordl_internal_get__accessToken() const;
@@ -865,14 +865,14 @@ public:
 
   constexpr void __cordl_internal_set_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x22a8214, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22abf4c, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IPlatformUserModel* platformUserModel, ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* remoteCatalogLoader,
                     ::StringW platform, ::StringW inBuildGameVersion);
 
-  /// @brief Method add_didCatalogLoadOrUpdateEvent, addr 0x22a80dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didCatalogLoadOrUpdateEvent, addr 0x22abe14, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
-  /// @brief Method get_RemoteCatalogPath, addr 0x22a809c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteCatalogPath, addr 0x22abdd4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_RemoteCatalogPath();
 
   /// @brief Convert to "::System::IDisposable"
@@ -881,7 +881,7 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method remove_didCatalogLoadOrUpdateEvent, addr 0x22a8178, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didCatalogLoadOrUpdateEvent, addr 0x22abeb0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
 protected:
@@ -902,7 +902,7 @@ public:
   static constexpr ::ConstString MetaServerHost{ u"https://oculus.com" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18361 };
 
   /// @brief Field kMetaServerCatalogPath offset 0xffffffff size 0x8
   static constexpr ::ConstString kMetaServerCatalogPath{ u"beat-saber/remote-assets/download/catalog.json" };

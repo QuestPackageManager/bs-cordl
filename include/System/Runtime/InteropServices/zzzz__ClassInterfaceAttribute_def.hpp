@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__val(::System::Runtime::InteropServices::ClassInterfaceType value);
 
-  /// @brief Method .ctor, addr 0x3d19338, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2223c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::ClassInterfaceType classInterfaceType);
 
 protected:

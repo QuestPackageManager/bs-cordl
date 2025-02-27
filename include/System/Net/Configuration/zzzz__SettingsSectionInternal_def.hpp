@@ -44,15 +44,15 @@ public:
 
   constexpr void __cordl_internal_set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value);
 
-  /// @brief Method .ctor, addr 0x43f35a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fc5d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* getStaticF_instance();
 
-  /// @brief Method get_Ipv6Enabled, addr 0x43f3598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ipv6Enabled, addr 0x43fc5c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Ipv6Enabled();
 
-  /// @brief Method get_Section, addr 0x43f3540, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Section, addr 0x43fc570, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::SettingsSectionInternal* get_Section();
 
   static inline void setStaticF_instance(::System::Net::Configuration::SettingsSectionInternal* value);
@@ -72,7 +72,7 @@ public:
   SettingsSectionInternal(SettingsSectionInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9836 };
 
   /// @brief Field HttpListenerUnescapeRequestUrl, offset: 0x10, size: 0x1, def value: None
   bool ___HttpListenerUnescapeRequestUrl;

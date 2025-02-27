@@ -37,25 +37,25 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XAttributeWrapper* New_ctor(::System::Xml::Linq::XAttribute* attribute);
 
-  /// @brief Method .ctor, addr 0x3f4a074, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f52f78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XAttribute* attribute);
 
-  /// @brief Method get_Attribute, addr 0x3f4ac84, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x3f53b88, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XAttribute* get_Attribute();
 
-  /// @brief Method get_LocalName, addr 0x3f4ad84, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x3f53c88, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x3f4ada8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x3f53cac, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_ParentNode, addr 0x3f4adcc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x3f53cd0, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method get_Value, addr 0x3f4acfc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3f53c00, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x3f4ad18, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3f53c1c, size 0x6c, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   XAttributeWrapper(XAttributeWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

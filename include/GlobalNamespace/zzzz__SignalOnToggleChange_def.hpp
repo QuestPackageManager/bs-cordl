@@ -32,13 +32,13 @@ public:
 
   static inline ::GlobalNamespace::SignalOnToggleChange* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39ca3d4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39d2e84, size 0xe8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RaiseSignal, addr 0x39ca4bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RaiseSignal, addr 0x39d2f6c, size 0x20, virtual false, abstract: false, final false
   inline void RaiseSignal(bool newValue);
 
-  /// @brief Method Start, addr 0x39ca330, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39d2de0, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__toggleValueChangeSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x39ca4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d2f8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   SignalOnToggleChange(SignalOnToggleChange const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16451 };
 
   /// @brief Field _toggleValueChangeSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____toggleValueChangeSignal;

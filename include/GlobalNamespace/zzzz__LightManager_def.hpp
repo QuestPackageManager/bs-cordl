@@ -72,19 +72,19 @@ public:
 
   static inline ::GlobalNamespace::LightManager* New_ctor();
 
-  /// @brief Method OnCameraPreRender, addr 0x39e3058, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method OnCameraPreRender, addr 0x39ebb08, size 0x544, virtual false, abstract: false, final false
   inline void OnCameraPreRender(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDestroy, addr 0x39e359c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39ec04c, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x39e2f74, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39eba24, size 0xe4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39e2e90, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39eb940, size 0xe4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetColors, addr 0x39e35a0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ResetColors, addr 0x39ec050, size 0xe4, virtual false, abstract: false, final false
   inline void ResetColors();
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__directionalLightColors() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_lastRefreshFrameNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39e3684, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ec134, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__directionalLightColorsID();
@@ -171,7 +171,7 @@ public:
   LightManager(LightManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16285 };
 
   /// @brief Field _directionalLightDirections, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____directionalLightDirections;

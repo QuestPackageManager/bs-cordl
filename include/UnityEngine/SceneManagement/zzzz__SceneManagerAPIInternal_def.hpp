@@ -26,14 +26,14 @@ namespace UnityEngine::SceneManagement {
 class CORDL_TYPE SceneManagerAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x48c3fe0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x48cd010, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x48c4008, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x48cd038, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                                bool mustCompleteNextFrame);
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x48c4068, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x48cd098, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal_Injected(::StringW sceneName, int32_t sceneBuildIndex,
                                                                                         ::ByRef<::UnityEngine::SceneManagement::LoadSceneParameters> parameters, bool mustCompleteNextFrame);
 
@@ -52,7 +52,7 @@ public:
   SceneManagerAPIInternal(SceneManagerAPIInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

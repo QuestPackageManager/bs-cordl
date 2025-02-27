@@ -38,17 +38,17 @@ public:
   /// @brief Field text, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::StringW text;
 
-  /// @brief Method AppendText, addr 0x4252dc4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method AppendText, addr 0x425bdf4, size 0x24, virtual true, abstract: false, final false
   inline void AppendText(::System::Text::StringBuilder* sb);
 
-  /// @brief Method CloneNode, addr 0x4252de8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x425be18, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XText* New_ctor(::System::Xml::Linq::XText* other);
 
   static inline ::System::Xml::Linq::XText* New_ctor(::StringW value);
 
-  /// @brief Method WriteTo, addr 0x4252cd8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x425bd08, size 0xec, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get_text() const;
@@ -57,19 +57,19 @@ public:
 
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x424aff8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4254028, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XText* other);
 
-  /// @brief Method .ctor, addr 0x424af80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4253fb0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_NodeType, addr 0x4252cc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x425bcf8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x4252cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x425bd00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x424cc14, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x4255c44, size 0xf0, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   XText(XText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17986 };
 
   /// @brief Field text, offset: 0x28, size: 0x8, def value: None
   ::StringW ___text;

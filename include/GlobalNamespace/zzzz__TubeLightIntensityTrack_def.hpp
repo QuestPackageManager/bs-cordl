@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::TubeLightIntensityTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b3bc5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4470c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

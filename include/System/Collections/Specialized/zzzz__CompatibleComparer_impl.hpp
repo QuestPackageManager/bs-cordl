@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::CompatibleComparer::*)(
     ::System::Collections::IComparer*, ::System::Collections::IHashCodeProvider*)>(&::System::Collections::Specialized::CompatibleComparer::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x448ab70;
+  constexpr static std::size_t addrs = 0x4493ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::CompatibleComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Specialized::CompatibleComparer::Equals)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x448b374;
+  constexpr static std::size_t addrs = 0x44943a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CompatibleComparer*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::CompatibleComparer::*)(::System::Object*)>(
     &::System::Collections::Specialized::CompatibleComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x448b574;
+  constexpr static std::size_t addrs = 0x44945a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IComparer* (::System::Collections::Specialized::CompatibleComparer::*)()>(
     &::System::Collections::Specialized::CompatibleComparer::get_Comparer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448b67c;
+  constexpr static std::size_t addrs = 0x44946ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CompatibleComparer*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IHashCodeProvider* (::System::Collections::Specialized::CompatibleComparer::*)()>(
     &::System::Collections::Specialized::CompatibleComparer::get_HashCodeProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448b684;
+  constexpr static std::size_t addrs = 0x44946b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CompatibleComparer*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IComparer* (*)()>(
     &::System::Collections::Specialized::CompatibleComparer::get_DefaultComparer)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x448a358;
+  constexpr static std::size_t addrs = 0x4493388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CompatibleComparer*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IHashCodeProvider* (*)()>(
     &::System::Collections::Specialized::CompatibleComparer::get_DefaultHashCodeProvider)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x448a280;
+  constexpr static std::size_t addrs = 0x44932b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::CompatibleComparer*>::get(),

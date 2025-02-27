@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x3afe134;
+  constexpr static std::size_t addrs = 0x3b06be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3afe654;
+  constexpr static std::size_t addrs = 0x3b07104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3afe90c;
+  constexpr static std::size_t addrs = 0x3b073bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3afea30;
+  constexpr static std::size_t addrs = 0x3b074e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afeb48;
+  constexpr static std::size_t addrs = 0x3b075f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

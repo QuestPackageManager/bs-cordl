@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_rotZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b20d48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b297f8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW);
 
 protected:
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b20dac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2985c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::PosesRecordingSaveData_PoseSaveData*, ::Array<::GlobalNamespace::PosesRecordingSaveData_PoseSaveData*>*> poses, float_t time);
 
 protected:
@@ -287,7 +287,7 @@ public:
 
   constexpr void __cordl_internal_set_nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b20de4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b29894, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
 protected:
@@ -389,7 +389,7 @@ public:
 
   constexpr void __cordl_internal_set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3b20d0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b297bc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                     ::ArrayW<::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe*, ::Array<::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe*>*> keyframes,
                     ::GlobalNamespace::PosesRecordingSaveData_ExternalCameraCalibrationSaveData* externalCameraCalibration);

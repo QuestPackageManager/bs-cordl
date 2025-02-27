@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__match(bool value);
 
-  /// @brief Method .ctor, addr 0x40ff884, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41088b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder);
 
-  /// @brief Method get_Binder, addr 0x40ff8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Binder, addr 0x41088dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::CallSiteBinder* get_Binder();
 
 protected:
@@ -64,7 +64,7 @@ public:
   CallSite(CallSite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14132 };
 
   /// @brief Field _binder, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::CallSiteBinder* ____binder;

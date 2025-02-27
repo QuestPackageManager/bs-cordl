@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams (
     ::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams::*)()>(&::UnityEngine::UIElements::MeshGenerationContextUtils_BorderParams::ToNativeParams)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4a4ed4c;
+  constexpr static std::size_t addrs = 0x4a57d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Texture*, ::UnityEngine::ScaleMode, ::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Rect>)>(
         &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::AdjustUVsForScaleMode)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x4a4ee04;
+  constexpr static std::size_t addrs = 0x4a57e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Sprite*, ::UnityEngine::ScaleMode, ::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Rect>)>(
         &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::AdjustSpriteUVsForScaleMode)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x4a4efa0;
+  constexpr static std::size_t addrs = 0x4a57fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::RectIntersection)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4a4f288;
+  constexpr static std::size_t addrs = 0x4a582b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::ComputeGeomRect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4a4f360;
+  constexpr static std::size_t addrs = 0x4a58390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::ComputeUVRect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4a4f410;
+  constexpr static std::size_t addrs = 0x4a58440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::SpritePackingRotation)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::ApplyPackingRotation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a4f4c0;
+  constexpr static std::size_t addrs = 0x4a584f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Texture*, ::UnityEngine::ScaleMode, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::MakeTextured)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x4a4f510;
+  constexpr static std::size_t addrs = 0x4a58540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +218,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Sprite*, ::UnityEngine::ScaleMode, ::UnityEngine::UIElements::ContextType, bool, ::ByRef<::UnityEngine::Vector4>, bool)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::MakeSprite)> {
   constexpr static std::size_t size = 0xb14;
-  constexpr static std::size_t addrs = 0x4a4f6cc;
+  constexpr static std::size_t addrs = 0x4a586fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VectorImage*, ::UnityEngine::ScaleMode, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::MakeVectorTextured)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4a501e0;
+  constexpr static std::size_t addrs = 0x4a59210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::*)(float_t)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::HasRadius)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a50384;
+  constexpr static std::size_t addrs = 0x4a593b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::*)(float_t)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::HasSlices)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4a503f8;
+  constexpr static std::size_t addrs = 0x4a59428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams (
     ::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::*)(::UnityEngine::Rect)>(&::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams::ToNativeParams)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a50444;
+  constexpr static std::size_t addrs = 0x4a59474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::UIElements::MeshGenerationContext*, ::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams)>(&::UnityEngine::UIElements::MeshGenerationContextUtils::Rectangle)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a4e48c;
+  constexpr static std::size_t addrs = 0x4a574bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::MeshGenerationContext*, ::UnityEngine::UIElements::TextElement*)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils::Text)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4a4e58c;
+  constexpr static std::size_t addrs = 0x4a575bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils::ConvertBorderRadiusPercentToPoints)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a4e654;
+  constexpr static std::size_t addrs = 0x4a57684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -520,7 +520,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ByRef<::UnityEngine::Vector2>, ::ByRef<::UnityEngine::Vector2>)>(
     &::UnityEngine::UIElements::MeshGenerationContextUtils::GetVisualElementRadii)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x4a4e690;
+  constexpr static std::size_t addrs = 0x4a576c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -540,7 +540,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::ByRef<::UnityEngine::UIElements::MeshGenerationContextUtils_RectangleParams>)>(
         &::UnityEngine::UIElements::MeshGenerationContextUtils::AdjustBackgroundSizeForBorders)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x4a4e92c;
+  constexpr static std::size_t addrs = 0x4a5795c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

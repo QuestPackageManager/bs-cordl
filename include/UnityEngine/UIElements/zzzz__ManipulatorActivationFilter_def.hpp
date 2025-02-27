@@ -46,46 +46,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>*();
 
-  /// @brief Method Equals, addr 0x4a44b28, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a4db58, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a44bc0, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a4dbf0, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::ManipulatorActivationFilter other);
 
-  /// @brief Method GetHashCode, addr 0x4a44bf4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a4dc24, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HasModifiers, addr 0x4a44dc8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HasModifiers, addr 0x4a4ddf8, size 0x1f4, virtual false, abstract: false, final false
   inline bool HasModifiers(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method HasModifiers, addr 0x4a45160, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HasModifiers, addr 0x4a4e190, size 0x1f4, virtual false, abstract: false, final false
   inline bool HasModifiers(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method MatchModifiers, addr 0x4a44fbc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MatchModifiers, addr 0x4a4dfec, size 0x54, virtual false, abstract: false, final false
   inline bool MatchModifiers(bool alt, bool ctrl, bool shift, bool command);
 
-  /// @brief Method Matches, addr 0x4a44c78, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x4a4dca8, size 0x150, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method Matches, addr 0x4a45010, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x4a4e040, size 0x150, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method get_button, addr 0x4a44b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x4a4db30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseButton get_button();
 
-  /// @brief Method get_clickCount, addr 0x4a44b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickCount, addr 0x4a4db50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clickCount();
 
-  /// @brief Method get_modifiers, addr 0x4a44b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifiers, addr 0x4a4db40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* i___System__IEquatable_1___UnityEngine__UIElements__ManipulatorActivationFilter_();
 
-  /// @brief Method set_button, addr 0x4a44b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x4a4db38, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::UIElements::MouseButton value);
 
-  /// @brief Method set_modifiers, addr 0x4a44b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_modifiers, addr 0x4a4db48, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
   // Ctor Parameters []
@@ -98,7 +98,7 @@ public:
                                         int32_t _clickCount_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5988 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

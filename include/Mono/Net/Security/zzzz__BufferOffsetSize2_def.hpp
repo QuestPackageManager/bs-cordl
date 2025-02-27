@@ -22,15 +22,15 @@ public:
   /// @brief Field InitialSize, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_InitialSize, put = __cordl_internal_set_InitialSize)) int32_t InitialSize;
 
-  /// @brief Method AppendData, addr 0x4114e80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AppendData, addr 0x411deb0, size 0x60, virtual false, abstract: false, final false
   inline void AppendData(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method MakeRoom, addr 0x4114dcc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MakeRoom, addr 0x411ddfc, size 0xb4, virtual false, abstract: false, final false
   inline void MakeRoom(int32_t size);
 
   static inline ::Mono::Net::Security::BufferOffsetSize2* New_ctor(int32_t size);
 
-  /// @brief Method Reset, addr 0x4114d70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x411dda0, size 0x5c, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_InitialSize() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_InitialSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4114d00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x411dd30, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
 protected:
@@ -57,7 +57,7 @@ public:
   BufferOffsetSize2(BufferOffsetSize2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9136 };
 
   /// @brief Field InitialSize, offset: 0x28, size: 0x4, def value: None
   int32_t ___InitialSize;

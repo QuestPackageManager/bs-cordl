@@ -37,25 +37,25 @@ public:
   /// @brief Field mSecureRandom, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mSecureRandom, put = __cordl_internal_set_mSecureRandom)) ::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
 
-  /// @brief Method ApplyMaxFragmentLengthExtension, addr 0x23ef4c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ApplyMaxFragmentLengthExtension, addr 0x23f31fc, size 0x94, virtual false, abstract: false, final false
   static inline void ApplyMaxFragmentLengthExtension(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer, int16_t maxFragmentLength);
 
-  /// @brief Method EvaluateMaxFragmentLengthExtension, addr 0x23ef558, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMaxFragmentLengthExtension, addr 0x23f3290, size 0xa4, virtual false, abstract: false, final false
   static inline int16_t EvaluateMaxFragmentLengthExtension(bool resumedSession, ::System::Collections::IDictionary* clientExtensions, ::System::Collections::IDictionary* serverExtensions,
                                                            uint8_t alertDescription);
 
-  /// @brief Method GenerateCertificate, addr 0x23ef5fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GenerateCertificate, addr 0x23f3334, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate);
 
-  /// @brief Method GenerateSupplementalData, addr 0x23ef680, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GenerateSupplementalData, addr 0x23f33b8, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSupplementalData(::System::Collections::IList* supplementalData);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method ProcessFinished, addr 0x23ef3a0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ProcessFinished, addr 0x23f30d8, size 0x124, virtual true, abstract: false, final false
   inline void ProcessFinished(::ArrayW<uint8_t, ::Array<uint8_t>*> body, ::ArrayW<uint8_t, ::Array<uint8_t>*> expected_verify_data);
 
-  /// @brief Method ValidateSelectedCipherSuite, addr 0x23ef6fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ValidateSelectedCipherSuite, addr 0x23f3434, size 0xac, virtual false, abstract: false, final false
   static inline void ValidateSelectedCipherSuite(int32_t selectedCipherSuite, uint8_t alertDescription);
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_mSecureRandom() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x23ef32c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f3064, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
 protected:

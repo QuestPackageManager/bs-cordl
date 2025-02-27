@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3dbaf74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc3e78, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method set_Name, addr 0x3dbafe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3dc3ee4, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Type, addr 0x3dbafe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x3dc3eec, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
 protected:

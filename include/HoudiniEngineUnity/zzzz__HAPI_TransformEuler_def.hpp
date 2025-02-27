@@ -21,10 +21,10 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_TransformEuler {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3a4d8e8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a56398, size 0xc8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method .ctor, addr 0x3a443a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4ce54, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
                                 ::ArrayW<float_t, ::Array<float_t>*> shear, ::HoudiniEngineUnity::HAPI_XYZOrder rotationOrder, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11714 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

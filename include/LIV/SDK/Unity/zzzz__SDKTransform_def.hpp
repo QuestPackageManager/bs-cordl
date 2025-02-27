@@ -21,10 +21,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKTransform {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3acd9a8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ad6458, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3accf50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ad5a00, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTransform get_empty();
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr SDKTransform(::LIV::SDK::Unity::SDKVector3 localPosition, ::LIV::SDK::Unity::SDKQuaternion localRotation, ::LIV::SDK::Unity::SDKVector3 localScale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17337 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

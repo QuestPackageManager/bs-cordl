@@ -33,19 +33,19 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509CertPairParser* New_ctor();
 
-  /// @brief Method ReadCertPair, addr 0x25f5408, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x25f9140, size 0x234, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPair, addr 0x25f5398, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x25f90d0, size 0x70, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCertPairs, addr 0x25f56ac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x25f93e4, size 0x110, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPairs, addr 0x25f563c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x25f9374, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadDerCrossCertificatePair, addr 0x25f52a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadDerCrossCertificatePair, addr 0x25f8fe0, size 0xf0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadDerCrossCertificatePair(::System::IO::Stream* inStream);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_currentStream() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_currentStream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x25f57bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f94f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4930f90;
+  constexpr static std::size_t addrs = 0x4939fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
     ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__25_0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4930f98;
+  constexpr static std::size_t addrs = 0x4939fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
     ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__25_1)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4930fe0;
+  constexpr static std::size_t addrs = 0x493a010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
     ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__26_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4931028;
+  constexpr static std::size_t addrs = 0x493a058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
     ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__26_1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4931034;
+  constexpr static std::size_t addrs = 0x493a064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
     ::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__27_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4931040;
+  constexpr static std::size_t addrs = 0x493a070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
     ::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__27_1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x493104c;
+  constexpr static std::size_t addrs = 0x493a07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::_ctor)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x492ee4c;
+  constexpr static std::size_t addrs = 0x4937e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(), ".ctor",
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::SortGlyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x49298b4;
+  constexpr static std::size_t addrs = 0x49328e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(),
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::SortMarkToBaseAdjustmentRecords)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4929aa0;
+  constexpr static std::size_t addrs = 0x4932ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::SortMarkToMarkAdjustmentRecords)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4929c8c;
+  constexpr static std::size_t addrs = 0x4932cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
